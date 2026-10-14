@@ -1,0 +1,83 @@
+{
+  "currency_code": "USD",
+  "daily_trend": [
+    {
+      "daily_gmv": 59568,
+      "daily_units_sold": 3504,
+      "date": "2026-10-01"
+    },
+    {
+      "daily_gmv": 44234,
+      "daily_units_sold": 2602,
+      "date": "2026-10-02"
+    },
+    {
+      "daily_gmv": 58429,
+      "daily_units_sold": 3437,
+      "date": "2026-10-03"
+    },
+    {
+      "daily_gmv": 48739,
+      "daily_units_sold": 2867,
+      "date": "2026-10-04"
+    },
+    {
+      "daily_gmv": 63225.5,
+      "daily_units_sold": 3550,
+      "date": "2026-10-05"
+    },
+    {
+      "daily_gmv": 50640,
+      "daily_units_sold": 3376,
+      "date": "2026-10-06"
+    },
+    {
+      "daily_gmv": 40470,
+      "daily_units_sold": 2698,
+      "date": "2026-10-07"
+    },
+    {
+      "daily_gmv": 49080.9,
+      "daily_units_sold": 3531,
+      "date": "2026-10-08"
+    },
+    {
+      "daily_gmv": 75438,
+      "daily_units_sold": 5588,
+      "date": "2026-10-09"
+    },
+    {
+      "daily_gmv": 60885,
+      "daily_units_sold": 4510,
+      "date": "2026-10-10"
+    },
+    {
+      "daily_gmv": 150874.85,
+      "daily_units_sold": 2515,
+      "date": "2026-10-11"
+    },
+    {
+      "daily_gmv": 403012.82,
+      "daily_units_sold": 6718,
+      "date": "2026-10-12"
+    },
+    {
+      "daily_gmv": 235940.67,
+      "daily_units_sold": 3933,
+      "date": "2026-10-13"
+    },
+    {
+      "daily_gmv": 199526.74,
+      "daily_units_sold": 3326,
+      "date": "2026-10-14"
+    }
+  ],
+  "period_summary": {
+    "linked_creator_count": 407,
+    "linked_live_count": 627,
+    "linked_video_count": 248,
+    "period_gmv": 1540064.48,
+    "period_units_sold": 52155
+  },
+  "region": "US"
+}

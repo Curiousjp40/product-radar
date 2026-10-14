@@ -89,3 +89,8 @@ async def fetch_video_search_captions(
     )
     items = result.get("videos", {}).get("items", [])
     return [item.get("caption_text", "") for item in items]
+
+
+def load_raw_snapshot(week: str, name: str) -> dict[str, Any] | None:
+    path = SNAPSHOTS_DIR / week / f"{name}.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None

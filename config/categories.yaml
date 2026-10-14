@@ -8,19 +8,28 @@ categories:
   shapewear:
     label_es: Fajas y shapewear
     label_en: Shapewear
+    fastmoss_category_id: 601259 # L3 "Shapewear" (Womenswear & Underwear > Women's Underwear > Shapewear). Confirmed 2026-10.
   womens_clothing:
     label_es: Ropa de mujer
     label_en: Women's clothing
+    fastmoss_category_id: 842504 # L2 "Women's Dresses". Confirmed 2026-10-15 -- the search term "women's clothing"
+    # alone resolves to a narrow "special/costume apparel" subcategory (confirmed the hard way: the first real
+    # run's "womens_clothing" picks were Halloween costumes, not general clothing) -- "women's dresses" is the
+    # clean match. Revisit if dresses prove too narrow once more weeks of data come in.
   home_decor:
     label_es: Decoracion del hogar
     label_en: Home & decor
     explore_priority: high # section 2.2: strongest proven category (Ari), untested for Roxie
+    fastmoss_category_id: 852104 # L2 "Decoration" (under Home Supplies). Confirmed 2026-10.
   beauty_hair:
     label_es: Belleza y cabello
     label_en: Beauty & hair
+    fastmoss_category_id: 849160 # L2 "Bath & Body Care". Confirmed 2026-10.
   seasonal:
     label_es: Temporada
     label_en: Seasonal
+    # No fastmoss_category_id: confirmed cross-category in Phase 0 (a "Halloween costume" search
+    # didn't surface a dedicated category at all) -- handled via config/seasons.yaml instead.
   other:
     label_es: Otro
     label_en: Other

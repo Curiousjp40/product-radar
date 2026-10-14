@@ -22,6 +22,20 @@ from the raw unix `*_ts` field to the creator's actual local time (US Eastern
 or similar) first -- never trust a `*_display` string as already being in a
 useful timezone.
 
+## Response envelope (confirmed inconsistent across tools, 2026-10-15)
+
+Some tools' raw MCP response is the payload directly at the top level
+(`credit_usage_summary` -> `{"account":..., "balance":..., ...}`); others wrap
+it as `{"params": {...the arguments...}, "result": {...the actual
+payload...}, "tool_id": "..."}` (`search_category_by_words` does this, and
+likely others). `engine/client.py`'s `_unwrap()` detects the wrapper (both
+`"result"` and `"tool_id"` present) and strips it so every caller always gets
+the real payload at the top level, matching `FixtureReplayClient`'s fixture
+shape -- this was a real bug caught by the first live Phase 1 run returning
+zero candidates (category resolution silently found nothing because
+`resolve_category_ids` was reading `.categories` off the wrapper instead of
+`.result.categories`).
+
 ## Core product concepts (spec section 4.1 table)
 
 | Concept | Real field(s) | Tool(s) seen on | Notes |

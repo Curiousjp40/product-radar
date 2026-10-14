@@ -17,6 +17,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from dotenv import load_dotenv
 
 from engine import export
 from engine.budget import BudgetExceeded, BudgetTracker, append_credit_log, check_balance, write_ledger_row
@@ -38,6 +39,7 @@ from engine.ingest import (
     fetch_overview,
     fetch_top_selling,
     fetch_video_search_captions,
+    load_raw_snapshot,
     resolve_category_ids,
     save_raw_snapshot,
 )
@@ -112,7 +114,21 @@ def last_completed_week_value(today: date) -> str:
 
 async def ingest(client, config: dict, week: str, date_value: str, tracker: BudgetTracker, is_dry_run: bool) -> list[dict]:
     queries = DRY_RUN_CATEGORY_QUERIES if is_dry_run else REAL_CATEGORY_QUERIES
-    categories = await resolve_category_ids(client, queries)
+    pinned = {
+        key: meta["fastmoss_category_id"]
+        for key, meta in config["categories"]["categories"].items()
+        if "fastmoss_category_id" in meta
+    }
+    # Only live-resolve categories without a confirmed pinned ID -- live fuzzy
+    # search proved unreliable for ambiguous terms (see categories.yaml's
+    # comments: "shapewear"/"women's clothing" alone resolved to bras and
+    # Halloween costumes respectively in testing). free (0 credits) either way.
+    unpinned_queries = {k: v for k, v in queries.items() if k not in pinned}
+    resolved = await resolve_category_ids(client, unpinned_queries) if unpinned_queries else {}
+    category_ids = {**{k: v for k, v in pinned.items() if k in queries}, **{
+        k: (cat.get("category_id_level2") or cat.get("category_id_level3") or cat.get("category_id_level1"))
+        for k, cat in resolved.items()
+    }}
     balance = await check_balance(client)
     tracker.checkpoint("category_resolution", balance)
 
@@ -122,11 +138,7 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
         return None if is_dry_run else save_raw_snapshot(week, name, payload)
 
     candidates: list[dict] = []
-    for key, cat in categories.items():
-        # L2 is a reasonable middle ground: L3 was too narrow for broad terms
-        # like "home decor" in Phase 0 testing (best match was a religious-decor
-        # subcategory), L1 too broad (mixes in unrelated subcategories).
-        category_id = cat.get("category_id_level2") or cat.get("category_id_level3") or cat.get("category_id_level1")
+    for key, category_id in category_ids.items():
         raw = await fetch_top_selling(client, category_id, week=week, date_value=date_value)
         raw_ref = maybe_save_snapshot(f"top_selling_{key}", raw)
         for i, row in enumerate(raw.get("list", []), start=1):
@@ -159,8 +171,16 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
         tracker.checkpoint("rankings", balance, note=f"category {key}")
     candidates = [c for c in candidates if not c["delisted"]]
 
-    # Pool: top ~12 by GMV across all categories get deeper (trend) analysis.
-    pool = sorted(candidates, key=lambda c: c["gmv_7d"], reverse=True)[:12]
+    # Pool: top 3 by GMV from EACH category get deeper (trend) analysis, not
+    # a single global top-12 -- a global GMV ranking let shapewear/beauty_hair
+    # (higher absolute GMV this week) crowd out home_decor/womens_clothing
+    # entirely in testing, defeating the point of tracking multiple categories.
+    pool = []
+    for key in category_ids:
+        same_category = sorted(
+            (c for c in candidates if c["config_category"] == key), key=lambda c: c["gmv_7d"], reverse=True
+        )
+        pool.extend(same_category[:3])
 
     # Balance is checked after EVERY call in these loops (free) rather than
     # once per stage, so `would_exceed` reflects what's actually been spent
@@ -183,9 +203,13 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
         balance = await check_balance(client)
         tracker.checkpoint("trends", balance, note=f"product {trends_fetched}/{len(pool)}")
 
-    # Overview (ads-share risk input + leading-indicator input): limited to
-    # the top 6 pool candidates since this tool is the expensive (3-credit) tier.
-    overview_pool = pool[:6]
+    # Overview (ads-share risk input + leading-indicator input): limited to 6
+    # (expensive, 3-credit tier) but the best 1-2 per category, not a global
+    # top-6 -- same reasoning as the pool selection above.
+    overview_pool = []
+    for key in category_ids:
+        overview_pool.extend([c for c in pool if c["config_category"] == key][:2])
+    overview_pool = overview_pool[:6]
     overviews_fetched = 0
     for cand in overview_pool:
         if tracker.would_exceed(3):
@@ -207,6 +231,66 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
     return candidates
 
 
+def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
+    """Rebuilds the candidate pool from data/snapshots/<week>/ instead of
+    calling FastMoss again -- zero credits. Used by --resume-week to recover
+    from a crash after a real (paid) ingest already ran; also handy for
+    replaying a past week's real data through a fixed/changed scoring
+    pipeline without re-spending credits on ingestion."""
+    candidates: list[dict] = []
+    for key in category_keys:
+        raw = load_raw_snapshot(week, f"top_selling_{key}")
+        if raw is None:
+            continue
+        raw_ref = f"data/snapshots/{week}/top_selling_{key}.json"
+        for i, row in enumerate(raw.get("list", []), start=1):
+            product, snapshot = normalize_rank_row(row, week=week, rank=i, raw_ref=raw_ref)
+            candidates.append(
+                {
+                    "product_id": product.product_id,
+                    "config_category": key,
+                    "category_l1": product.category_l1,
+                    "category_l2": product.category_l2,
+                    "title": product.title,
+                    "image_url": product.image_url,
+                    "shop_id": product.shop_id,
+                    "shop_name": product.shop_name,
+                    "price": snapshot.price,
+                    "commission_rate": snapshot.commission_rate,
+                    "units_7d": snapshot.units_7d or 0,
+                    "gmv_7d": snapshot.gmv_7d or 0.0,
+                    "units_total": snapshot.units_total or 0,
+                    "growth_rate": snapshot.growth_rate or 0.0,
+                    "rank": snapshot.rank,
+                    "delisted": product.delisted,
+                    "creator_count": None,
+                    "video_count": None,
+                    "ads_share_pct": None,
+                    "spanish_share": None,
+                }
+            )
+    candidates = [c for c in candidates if not c["delisted"]]
+
+    for cand in candidates:
+        trend_raw = load_raw_snapshot(week, f"trend_{cand['product_id']}")
+        if trend_raw is not None:
+            days = trend_raw.get("daily_trend", [])
+            cand["daily_units_14"] = [d["daily_units_sold"] for d in days[-14:]] if len(days) >= 14 else None
+            summary = trend_period_summary(trend_raw)
+            cand["creator_count"] = summary.get("linked_creator_count")
+            cand["video_count"] = summary.get("linked_video_count")
+
+        overview_raw = load_raw_snapshot(week, f"overview_{cand['product_id']}")
+        if overview_raw is not None:
+            cand["ads_share_pct"] = ads_share_pct_from_overview(overview_raw)
+            lead_counts = lead_counts_from_overview(overview_raw)
+            if lead_counts:
+                c7, p7, v7, vp7 = lead_counts
+                cand["lead_signal"] = lead_raw(c7, p7, v7, vp7)
+
+    return candidates
+
+
 async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
     """section 6.8: Spanish-gap video search, only for the preliminary top
     ~10 candidates (budget)."""
@@ -219,6 +303,7 @@ async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: 
             captions = await fetch_video_search_captions(
                 client, cand["title"][:60], create_time_min=now_ts - 30 * 86400, create_time_max=now_ts
             )
+            save_raw_snapshot(week, f"video_search_{cand['product_id']}", {"captions": captions})
             cand["spanish_share"] = spanish_share(captions)
             cand["spanish_video_count"] = len(captions)
         except FastMossError:
@@ -404,7 +489,11 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
         axis=1,
     )
     df["spanish_gap_raw"] = df.apply(
-        lambda r: spanish_gap(r["z_demand"], r["spanish_share"] if r["spanish_share"] is not None else 0.5), axis=1
+        # pandas coerces a column mixing None and float to NaN -- `is not None`
+        # does not catch that (nan is not None is True), so this must use
+        # pd.notna(); that gap caused a real NaN-propagation bug here once.
+        lambda r: spanish_gap(r["z_demand"], r["spanish_share"] if pd.notna(r["spanish_share"]) else 0.5),
+        axis=1,
     )
     min_group_size = weights["zscore"]["min_group_size"]
     df["z_spanish_gap"] = grouped_robust_z(df, "spanish_gap_raw", "config_category", min_group_size=min_group_size)
@@ -522,7 +611,7 @@ def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
             elif comp == "earnings":
                 reasons_es.append(render_reason("earnings", "es", amount=row["earnings_per_sale"]))
                 reasons_en.append(render_reason("earnings", "en", amount=row["earnings_per_sale"]))
-            elif comp == "spanish_gap" and row.get("spanish_share") is not None:
+            elif comp == "spanish_gap" and pd.notna(row.get("spanish_share")):
                 total = int(row.get("spanish_video_count") or 0)
                 n_es = round((1 - row["spanish_share"]) * total)
                 reasons_es.append(render_reason("spanish_gap", "es", n=n_es, total=total))
@@ -643,7 +732,7 @@ def print_picks(picks: list[dict]) -> None:
 async def run(args: argparse.Namespace) -> None:
     config = load_all()
     today = now_eastern().date()
-    week = args.week or iso_week_label(today)
+    week = args.resume_week or args.week or iso_week_label(today)
     date_value = last_completed_week_value(today)
     run_id = f"{week}-{uuid.uuid4().hex[:8]}"
 
@@ -655,7 +744,14 @@ async def run(args: argparse.Namespace) -> None:
         tracker = BudgetTracker(hard_cap=args.budget, starting_balance=starting_balance, run_id=run_id)
 
         try:
-            pool = await ingest(client, config, week, date_value, tracker, args.dry_run)
+            if args.resume_week:
+                # Rebuild from already-paid-for snapshots instead of
+                # re-ingesting (e.g. recovering from a scoring-side bug
+                # without spending the ~50+ credits a fresh ingest costs).
+                category_keys = list(DRY_RUN_CATEGORY_QUERIES if args.dry_run else REAL_CATEGORY_QUERIES)
+                pool = ingest_from_snapshots(args.resume_week, category_keys)
+            else:
+                pool = await ingest(client, config, week, date_value, tracker, args.dry_run)
             creator_stats = _creator_stats(config)
             df = score_pool(pool, config, creator_stats, today)
 
@@ -706,11 +802,17 @@ async def run(args: argparse.Namespace) -> None:
 
 
 def main() -> None:
+    load_dotenv(REPO_ROOT / ".env")  # local dev only -- CI sets FASTMOSS_API_KEY directly, no .env file there
     parser = argparse.ArgumentParser(description="Product Radar weekly pipeline")
     parser.add_argument("--dry-run", action="store_true", help="replay fixtures, zero credits")
     parser.add_argument("--week", default=None, help="ISO week label, e.g. 2026-W43 (default: current)")
     parser.add_argument("--print-picks", action="store_true", help="print the Top 10 to stdout")
     parser.add_argument("--budget", type=int, default=80, help="hard credit cap for this run")
+    parser.add_argument(
+        "--resume-week",
+        default=None,
+        help="rebuild from data/snapshots/<week>/ instead of re-ingesting (still does spanish-gap for real)",
+    )
     args = parser.parse_args()
     asyncio.run(run(args))
 

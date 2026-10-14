@@ -1,6 +1,6 @@
 import pytest
 
-from engine.client import FastMossClient, FastMossError, FixtureReplayClient, _mask
+from engine.client import FastMossClient, FastMossError, FixtureReplayClient, _mask, _unwrap
 
 
 def test_mask_strips_api_key_from_url():
@@ -9,6 +9,23 @@ def test_mask_strips_api_key_from_url():
 
 def test_mask_leaves_url_without_key_alone():
     assert _mask("https://mcp.fastmoss.com/mcp") == "https://mcp.fastmoss.com/mcp"
+
+
+def test_unwrap_strips_params_result_tool_id_envelope():
+    wrapped = {"params": {"query": ["shapewear"]}, "result": {"categories": [1, 2, 3]}, "tool_id": "abc"}
+    assert _unwrap(wrapped) == {"categories": [1, 2, 3]}
+
+
+def test_unwrap_leaves_direct_payload_alone():
+    direct = {"balance": {"available_credits": 500}, "account": {}}
+    assert _unwrap(direct) == direct
+
+
+def test_unwrap_does_not_false_positive_on_real_result_field():
+    # a hypothetical tool whose own payload legitimately uses "result" as a
+    # field name, with no "tool_id" alongside it, should NOT be unwrapped
+    legit = {"result": "success", "message": "ok"}
+    assert _unwrap(legit) == legit
 
 
 def test_client_requires_api_key(monkeypatch):

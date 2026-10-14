@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-10-14T18:20:51.053835-04:00",
+  "week": "2026-W42",
+  "run_id": "2026-W42-0e5dac45",
+  "credits_used_this_run": 10,
+  "credits_used_month": 78,
+  "credits_balance": 422,
+  "weights_version": "0.2.0-lead-ads-audience"
+}

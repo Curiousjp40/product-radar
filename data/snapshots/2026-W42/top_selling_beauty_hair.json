@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601490,
+          "name": "Body Care Kits"
+        }
+      },
+      "ceiling_price": 74,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/5cf5212fe8f3451fb063a8ee7d0c1de1~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 31,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-20",
+      "launch_time": 1763573741,
+      "period_gmv": 1557523.7,
+      "period_units_sold": 48545,
+      "price_display": "$31.00 - 74.00",
+      "product_id": "1732052189676081387",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3fda6fbf695c4a8792a3059b4e1546e3~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495514739648989419",
+        "shop_name": "medicube US Store",
+        "total_units_sold": 9167165
+      },
+      "title": "[medicube] Smooth & Clear Body Care Set | Hypochlorous Acid Body Peel Shot, Kojic Acid Turmeric Body Wash, Toner Pad, Toner, Mist | Exfoliating for Dead Skin Cells & Excess Sebum & Clearing for After Spots, Texture & Uneven Skin Tone | K-Beauty",
+      "total_gmv": 19765624.43,
+      "total_units_sold": 444215,
+      "units_sold_growth_rate_percent": -5.5
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601495,
+          "name": "Hair Removal Cream, Wax & Shave"
+        }
+      },
+      "ceiling_price": 99.99,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 59.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-22",
+      "launch_time": 1758484923,
+      "period_gmv": 490614.25,
+      "period_units_sold": 25768,
+      "price_display": "$59.99  - 99.99",
+      "product_id": "1731625997827871273",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5e704cd73cf34813ba7a8d57cf2d1131~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496261422029900329",
+        "shop_name": "PHOFAY-Skin Care",
+        "total_units_sold": 727762
+      },
+      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
+      "total_gmv": 11727431.12,
+      "total_units_sold": 511846,
+      "units_sold_growth_rate_percent": 20.68
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601506,
+          "name": "Body Scrubs & Peels\t"
+        }
+      },
+      "ceiling_price": 36.27,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/5deae71a2cbe4dbfb3d53179d7553409~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 36.27,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-19",
+      "launch_time": 1755534591,
+      "period_gmv": 425556.8,
+      "period_units_sold": 20430,
+      "price_display": "$36.27",
+      "product_id": "1731572915654201371",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/35249ab76437453aa1154620ca308b66~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495830785034323995",
+        "shop_name": "Dr.Melaxin",
+        "total_units_sold": 6636551
+      },
+      "title": "[Dr.Melaxin Official] Peel Shot Keratin Care Kojic Acid Turmeric Spray 200ml Pore Clearing Exfoliating Formula Skin Repair Scrub",
+      "total_gmv": 17763585.88,
+      "total_units_sold": 673887,
+      "units_sold_growth_rate_percent": 81.83
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601492,
+          "name": "Body Creams & Lotions\t"
+        }
+      },
+      "ceiling_price": 106.6,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/015c73d3c54643edbba0e5634801a670~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 77,
+      "is_off_shelf": false,
+      "launch_date": "2024-10-17",
+      "launch_time": 1729129745,
+      "period_gmv": 333672,
+      "period_units_sold": 6065,
+      "price_display": "$77.00  - 106.60",
+      "product_id": "1729716038966481710",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/f7e558699cba4832bafd0ecf88fadbd1~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495894535398984494",
+        "shop_name": "Fenty Beauty",
+        "total_units_sold": 607371
+      },
+      "title": "Fenty Skin Butta Drop Body Cream + Body Milk Body Care Hydrating Lotion Duo",
+      "total_gmv": 3943420.67,
+      "total_units_sold": 68667,
+      "units_sold_growth_rate_percent": 228.73
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601492,
+          "name": "Body Creams & Lotions\t"
+        }
+      },
+      "ceiling_price": 15.6,
+      "commission_rate_percent": 1,
+      "cover_url": "https://s.500fd.com/tt_product/e909d699049f413bab85b972814917fc~tplv-fhlh96nyum-crop-webp:1600:1304.webp",
+      "currency_code": "USD",
+      "floor_price": 15.6,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-05",
+      "launch_time": 1777946465,
+      "period_gmv": 237711.4,
+      "period_units_sold": 15395,
+      "price_display": "$15.60",
+      "product_id": "1732384645264281749",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9010119931f449768019e877f8c39e65~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495847068856780949",
+        "shop_name": "Byenblan",
+        "total_units_sold": 480367
+      },
+      "title": "Byenblan Fanm Andey\u00f2 Tumeric Face Cream - Natural Skincare for Radiant Skin, Moisturizing and Nourishing Formula, Ideal for Daily Use 2oz",
+      "total_gmv": 548089.57,
+      "total_units_sold": 42589,
+      "units_sold_growth_rate_percent": 26443.1
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 873736,
+          "name": "Body & Massage Oil"
+        }
+      },
+      "ceiling_price": 38.99,
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/ec299f58c23a49959995f75353a8dc9e~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 38.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-12-25",
+      "launch_time": 1735093400,
+      "period_gmv": 197837.92,
+      "period_units_sold": 7589,
+      "price_display": "$38.99",
+      "product_id": "1730227578434589155",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/561fefe8f16a42e6aed53d28aafff400~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496019035817740771",
+        "shop_name": "Caramela Beauty",
+        "total_units_sold": 624938
+      },
+      "title": "Caramela Beauty Cyperus Rotundus Oil - 60ml/2oz Naturally Derived Gentle Moisturizing Hair Inhibitor, Body & Massage Oil for Sensitive Skin, Waxing Aftercare, Strawberry Skin Fix, Smooth Silky Beauty Products, Daily",
+      "total_gmv": 17030823.52,
+      "total_units_sold": 574182,
+      "units_sold_growth_rate_percent": 31.05
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601492,
+          "name": "Body Creams & Lotions\t"
+        }
+      },
+      "ceiling_price": 39.5,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/90a6ee5b3ac247949afabb6392a14e2b~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 23.9,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-18",
+      "launch_time": 1760761778,
+      "period_gmv": 193351,
+      "period_units_sold": 8090,
+      "price_display": "$23.90 - 39.50",
+      "product_id": "1731923439835452222",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/52440ab7a926429e9720fda12c98694c~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496177634771700542",
+        "shop_name": "EXPRESSIONS US",
+        "total_units_sold": 247802
+      },
+      "title": "15-Day Fast-Acting Anti Cellulite Massage Cream | Cryo Thermo Firming Gold Gel with CryoGold | Cellulite Appearance Smoothing & Firming Body Cream with Hyaluronic Acid | For Belly, Thighs, Butt & Arms | 200g#self care gift#gift ideas",
+      "total_gmv": 5498854.42,
+      "total_units_sold": 221971,
+      "units_sold_growth_rate_percent": -6.04
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601492,
+          "name": "Body Creams & Lotions\t"
+        }
+      },
+      "ceiling_price": 25,
+      "commission_rate_percent": 16.5,
+      "cover_url": "https://s.500fd.com/tt_product/0c3f685eb3aa4493b258ed945f6be39d~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 25,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-09",
+      "launch_time": 1775685820,
+      "period_gmv": 121000,
+      "period_units_sold": 4840,
+      "price_display": "$25.00",
+      "product_id": "1732321182598533162",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d4d7c179b4344903a6b01172dc47e8e1~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496068845753763882",
+        "shop_name": "Chemist at Play",
+        "total_units_sold": 416282
+      },
+      "title": "The Body Refining Combo - Brightening Body Wash 8fl oz, Exfoliating Body Wash 8fl oz & AHA Body Lotion 8fl oz | Gently Exfoliates, Helps Improve Skin Texture & Deeply Moisturizes",
+      "total_gmv": 1368254.92,
+      "total_units_sold": 50715,
+      "units_sold_growth_rate_percent": 16.18
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601492,
+          "name": "Body Creams & Lotions\t"
+        }
+      },
+      "ceiling_price": 49.99,
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/74497d4f9c244cfc9a81d8f7a585dd08~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 49.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-01",
+      "launch_time": 1754008209,
+      "period_gmv": 113102.08,
+      "period_units_sold": 2923,
+      "price_display": "$49.99",
+      "product_id": "1731398973952594329",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/403f4b8fbd684dd38ff6baf057f00aa9~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495285073890085273",
+        "shop_name": "Gopure",
+        "total_units_sold": 1601824
+      },
+      "title": "GOPURE Tighten & Smooth Belly Firming Cream",
+      "total_gmv": 7366129.14,
+      "total_units_sold": 215336,
+      "units_sold_growth_rate_percent": 83.84
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 14,
+          "name": "Beauty & Personal Care"
+        },
+        "l2": {
+          "id": 849160,
+          "name": "Bath & Body Care"
+        },
+        "l3": {
+          "id": 601495,
+          "name": "Hair Removal Cream, Wax & Shave"
+        }
+      },
+      "ceiling_price": 89.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/56a709b1c3d34038be2626cdb2f41dab~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 22.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-15",
+      "launch_time": 1757878628,
+      "period_gmv": 98522.24,
+      "period_units_sold": 6564,
+      "price_display": "$22.99  - 89.99",
+      "product_id": "1731626958257754665",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5e704cd73cf34813ba7a8d57cf2d1131~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496261422029900329",
+        "shop_name": "PHOFAY-Skin Care",
+        "total_units_sold": 727762
+      },
+      "title": "PHOFAY Bikini Pain-Free Hair removal spray  for Sensitive Skin\uff0cHypoallergenic Formula -Gentle & Fast-Acting Hair removal spray\uff0cGinseng\u3001Aloe & Hyaluronic Acid for Soothing Care,Suitable for Men & Women,backtoschool",
+      "total_gmv": 2685280.36,
+      "total_units_sold": 151371,
+      "units_sold_growth_rate_percent": 44.01
+    }
+  ],
+  "total": 500
+}

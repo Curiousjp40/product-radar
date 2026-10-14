@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601262,
+          "name": "Bras"
+        }
+      },
+      "ceiling_price": 19,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/7f7fbb2860a94844a431a0e09d494090~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 17,
+      "is_off_shelf": false,
+      "launch_date": "2025-07-25",
+      "launch_time": 1753420201,
+      "period_gmv": 464207.8,
+      "period_units_sold": 27858,
+      "price_display": "$17.00 - 19.00",
+      "product_id": "1731406217255686451",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6fe9824d7f7e4636b2aae17e0eb87fab~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495342967492151603",
+        "shop_name": "OEAK Apparel",
+        "total_units_sold": 2081265
+      },
+      "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
+      "total_gmv": 18775401.27,
+      "total_units_sold": 973594,
+      "units_sold_growth_rate_percent": -24.77
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601262,
+          "name": "Bras"
+        }
+      },
+      "ceiling_price": 128.7,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/9d58ff64e838478892126b2f6e04ef74~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 29.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-14",
+      "launch_time": 1773454468,
+      "period_gmv": 453823.19,
+      "period_units_sold": 15962,
+      "price_display": "$29.99  - 128.70",
+      "product_id": "1732282937141662165",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4e0bc0f3550349d883249354161acdea~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495926843910228437",
+        "shop_name": "LUCKMEEY",
+        "total_units_sold": 321355
+      },
+      "title": "LUCKMEEY Womens Strapless Front Closure Bra Push Up Lift Bra Padded Add Cup Non Slip  Anti-Slip Grip & Removable Straps Fit Outfits Wireless Supportive  Seamless Comfortable",
+      "total_gmv": 6276747.41,
+      "total_units_sold": 221238,
+      "units_sold_growth_rate_percent": 29.95
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 24.9,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/a4ff0ee1ad3a41ba983afbfd65fee89c~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 24.9,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-22",
+      "launch_time": 1776846784,
+      "period_gmv": 406859.1,
+      "period_units_sold": 16555,
+      "price_display": "$24.90",
+      "product_id": "1732352660592628585",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/cdb225891e3a45f6a31a07b32636b133~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495895979614243689",
+        "shop_name": "KKpeople Shapewear",
+        "total_units_sold": 423544
+      },
+      "title": "(KKPeople Easy-Off Bodysuit) Tummy Control Butt Lifter Faja Bodysuit, Back Support Scrunch Back Open Design, Postpartum Recovery Full Body Shaper with Cotton Gusset, Colombian Fajas Everyday Wear for Women",
+      "total_gmv": 3260288.92,
+      "total_units_sold": 120555,
+      "units_sold_growth_rate_percent": 14.76
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601262,
+          "name": "Bras"
+        }
+      },
+      "ceiling_price": 78,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/afa881297f254be58e397b662d36e0eb~tplv-fhlh96nyum-crop-webp:3769:4928.webp",
+      "currency_code": "USD",
+      "floor_price": 78,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-16",
+      "launch_time": 1784159070,
+      "period_gmv": 293280,
+      "period_units_sold": 3760,
+      "price_display": "$78.00",
+      "product_id": "1731067410570514957",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/bf9457aa33f24520ae0c0afb409d3129~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495272696158063117",
+        "shop_name": "Thirdlove",
+        "total_units_sold": 13801
+      },
+      "title": "ComfortStretch Back Smoothing T-Shirt Bra",
+      "total_gmv": 330146,
+      "total_units_sold": 4233,
+      "units_sold_growth_rate_percent": 730.02
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 46.98,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/24b0615da52049a68cef925f14a98d62~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 46.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-11",
+      "launch_time": 1749609211,
+      "period_gmv": 240872.14,
+      "period_units_sold": 5208,
+      "price_display": "$46.98",
+      "product_id": "1731262278839865452",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/76e554980b3346c99a91ebbcc87d811c~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495421440316901484",
+        "shop_name": "SHAPSHE",
+        "total_units_sold": 1396283
+      },
+      "title": "SHAPSHE Waist Shapewear for Women Corset Sport Workout Belly Band Gym",
+      "total_gmv": 4991362.51,
+      "total_units_sold": 107193,
+      "units_sold_growth_rate_percent": 2.82
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601262,
+          "name": "Bras"
+        }
+      },
+      "ceiling_price": 19,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/2ea4fd899e764f6ea140e2a72d74bf2e~tplv-fhlh96nyum-crop-webp:1601:1601.webp",
+      "currency_code": "USD",
+      "floor_price": 17,
+      "is_off_shelf": false,
+      "launch_date": "2025-04-09",
+      "launch_time": 1744167844,
+      "period_gmv": 194790.56,
+      "period_units_sold": 11342,
+      "price_display": "$17.00 - 19.00",
+      "product_id": "1730936224134435123",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6fe9824d7f7e4636b2aae17e0eb87fab~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495342967492151603",
+        "shop_name": "OEAK Apparel",
+        "total_units_sold": 2081265
+      },
+      "title": "OEAK Jelly Bras Women Seamless Lift Bra Wireless Push Up No Underwire Full Coverage Plus Bras Comfort Supportive Sports T-Shirt Bra",
+      "total_gmv": 4958190.62,
+      "total_units_sold": 258286,
+      "units_sold_growth_rate_percent": -21.33
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 844552,
+          "name": "Tights"
+        }
+      },
+      "ceiling_price": 45.38,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/2886397a7af549ed97fdb02c9b906198~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 43.38,
+      "is_off_shelf": false,
+      "launch_date": "2023-10-15",
+      "launch_time": 1697340258,
+      "period_gmv": 179876.84,
+      "period_units_sold": 9193,
+      "price_display": "$43.38  - 45.38",
+      "product_id": "1729406693411230691",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d2623592cf85cb9283c185d65cf0ed7d~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495162285133564899",
+        "shop_name": "SWEET MAYHEM",
+        "total_units_sold": 684822
+      },
+      "title": "Women's Official Magic Fleece Lined Tights - High Waist, Body Slimming Compression Band, Plus Size Chic Cute Women's Fashion Clothes, 1-Seam Option, Closed Foot, XXS-3XL, 4 Shades, Light-Brown Fur Fleece, Cold Wash, Viral Item",
+      "total_gmv": 16571942.46,
+      "total_units_sold": 663743,
+      "units_sold_growth_rate_percent": 43.17
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 90.99,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/ef4a7209363e4598a6a948fc8bed70f0~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 38.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-17",
+      "launch_time": 1755392934,
+      "period_gmv": 176919.56,
+      "period_units_sold": 6014,
+      "price_display": "$38.99  - 90.99",
+      "product_id": "1731610554383569260",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/o0eOISWvYnDzhgAFAM8xDtkAGU9jfCn3Q7bL5D~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495170073361418604",
+        "shop_name": "SHAPERX",
+        "total_units_sold": 678216
+      },
+      "title": "SHAPERX Shapewear for Women Tummy Control Bodysuits Zip-Up Comfort Ultra Stretch Fabric Customizable Fit Breathable Mesh Design Comfortable Fit",
+      "total_gmv": 12879514.71,
+      "total_units_sold": 390727,
+      "units_sold_growth_rate_percent": -6.7
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 40,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/ea65931e763b4a2f858dd768106d60da~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 40,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-08",
+      "launch_time": 1775660599,
+      "period_gmv": 169564.56,
+      "period_units_sold": 4004,
+      "price_display": "$40.00",
+      "product_id": "1732302921291305752",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2990d5798279419fb4325a53fed30cdd~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495684933173676824",
+        "shop_name": "YIANNA INC",
+        "total_units_sold": 1474269
+      },
+      "title": "YIANNA V-Shaped Shapewear Moldeadoras Faja for Women Tummy Control  with Zipper Closure Womenswear Moldadoras Faja",
+      "total_gmv": 2100543.1,
+      "total_units_sold": 47396,
+      "units_sold_growth_rate_percent": 5.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601262,
+          "name": "Bras"
+        }
+      },
+      "ceiling_price": 74,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/602f5052443e497ba85a3d2dd46c801f~tplv-fhlh96nyum-crop-webp:1068:1396.webp",
+      "currency_code": "USD",
+      "floor_price": 74,
+      "is_off_shelf": false,
+      "launch_date": "2024-09-28",
+      "launch_time": 1727476143,
+      "period_gmv": 159026,
+      "period_units_sold": 2149,
+      "price_display": "$74.00",
+      "product_id": "1729538565601989133",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/bf9457aa33f24520ae0c0afb409d3129~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495272696158063117",
+        "shop_name": "Thirdlove",
+        "total_units_sold": 13801
+      },
+      "title": "24/7\u00ae Classic T-Shirt Bra Fit Lingerie",
+      "total_gmv": 192695,
+      "total_units_sold": 2605,
+      "units_sold_growth_rate_percent": 390.64
+    }
+  ],
+  "total": 500
+}

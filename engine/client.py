@@ -38,6 +38,20 @@ def _content_text(result: Any) -> str:
     raise FastMossError("tool result had no text content block")
 
 
+def _unwrap(parsed: dict[str, Any]) -> dict[str, Any]:
+    """Some FastMoss tools (e.g. search_category_by_words) wrap their payload
+    as {"params": ..., "result": {...}, "tool_id": ...}; others (e.g.
+    credit_usage_summary) return the payload directly at the top level --
+    confirmed inconsistent across tools during Phase 1 testing. Unwrap only
+    when both "result" and "tool_id" are present, to avoid false-positives on
+    a response that happens to use "result" as a real field name."""
+    if isinstance(parsed, dict) and "result" in parsed and "tool_id" in parsed:
+        inner = parsed["result"]
+        if isinstance(inner, dict):
+            return inner
+    return parsed
+
+
 class FastMossConnection(Protocol):
     """What engine/ingest.py depends on -- satisfied by both FastMossClient
     (real) and FixtureReplayClient (dry-run), so ingest code never branches
@@ -95,7 +109,7 @@ class FastMossClient:
                 result = await self.session.call_tool(tool, arguments or {})
                 if result.is_error:
                     raise FastMossError(f"{tool} returned an error: {_content_text(result)[:300]}")
-                return json.loads(_content_text(result))
+                return _unwrap(json.loads(_content_text(result)))
             except Exception as e:  # noqa: BLE001 -- retried uniformly, re-raised after max_retries
                 last_error = e
                 if attempt < self.max_retries:
