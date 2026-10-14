@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1731398973952594329",
+  "time_range_days": 90,
+  "total": 5829,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "cris.dealss",
+        "creator_uid": "7188299120625026094"
+      },
+      "engagement_metrics": {
+        "comment_count": 38,
+        "like_count": 20433,
+        "play_count": 4400422,
+        "share_count": 1621
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 11312.84,
+        "window_units_sold": 273
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664507282381622558",
+      "video_meta": {
+        "caption_text": "#stretchmarks ",
+        "cover_url": "https://s.500fd.com/tt_video/oUIGUuAq3er5ICgepkiImz7AIlqOdA1EqAeLjz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664507282381622558",
+        "published_at": 1784532201,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cris.dealss/video/7664507282381622558"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "oriana.en.tiktok",
+        "creator_uid": "7310983184417948715"
+      },
+      "engagement_metrics": {
+        "comment_count": 227,
+        "like_count": 10000,
+        "play_count": 1826419,
+        "share_count": 1264
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 1446.12,
+        "window_units_sold": 59
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671080568666295566",
+      "video_meta": {
+        "caption_text": "#stretchmarks #estrias #flacidezabdominal #estriasembarazo #superbrandday  Disclaimer: This is not a professional advice. Results may vary. This is based on my personal experience  Only in United States  Ad @Gopure ",
+        "cover_url": "https://s.500fd.com/tt_video/osy9EdLwAOkZNe51HAGAI56ejQUAJEBIAkIUep~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671080568666295566",
+        "published_at": 1786062638,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@oriana.en.tiktok/video/7671080568666295566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": ".burpgod1",
+        "creator_uid": "7249546232485119019"
+      },
+      "engagement_metrics": {
+        "comment_count": 449,
+        "like_count": 195600,
+        "play_count": 1300000,
+        "share_count": 3894
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 0,
+        "window_units_sold": 0
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7668494624389893406",
+      "video_meta": {
+        "caption_text": "#fyp\u30b7 ",
+        "cover_url": "https://s.500fd.com/tt_video/o8AEB0grSsqIfBgm85BfSE4NVa9RiniAcQ2EoN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668494624389893406",
+        "published_at": 1785460548,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@.burpgod1/video/7668494624389893406"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tipsdetina",
+        "creator_uid": "7548439753092482061"
+      },
+      "engagement_metrics": {
+        "comment_count": 97,
+        "like_count": 19900,
+        "play_count": 1200000,
+        "share_count": 915
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 1582.51,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679605837718965535",
+      "video_meta": {
+        "caption_text": "#estrias #estriasembarazo #flacidezabdominal #summerwins #stretchmarks AD Not a professional advice. Results may vary.",
+        "cover_url": "https://s.500fd.com/tt_video/oAd8cqnCfABSBPDqEN4T1jQAFFR82kgfnVEIEg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679605837718965535",
+        "published_at": 1788047583,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tipsdetina/video/7679605837718965535"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wilbershopfinds",
+        "creator_uid": "7560103480435753997"
+      },
+      "engagement_metrics": {
+        "comment_count": 85,
+        "like_count": 5172,
+        "play_count": 1110529,
+        "share_count": 896
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 996.6,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675866358076280094",
+      "video_meta": {
+        "caption_text": "#paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii ",
+        "cover_url": "https://s.500fd.com/tt_video/osJqJG7AQ59XGCJAFAFEGfyAGeeKMQAZR8yIfU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675866358076280094",
+        "published_at": 1787176926,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wilbershopfinds/video/7675866358076280094"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tipsdetina",
+        "creator_uid": "7548439753092482061"
+      },
+      "engagement_metrics": {
+        "comment_count": 122,
+        "like_count": 16363,
+        "play_count": 745818,
+        "share_count": 2451
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495285073890085273",
+        "window_gmv": 1538.06,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683952327962807583",
+      "video_meta": {
+        "caption_text": "Replying to @aztec.queeeeen amoo esta crema! Desde la textura hasta los resultados\u2728 #flacidezabdominal #tiktokshopbacktoschool #estrias #flacidezabdominal #estriasembarazo AD Not a professional or medical advice. Individual results may vary. Based on my own experience. ",
+        "cover_url": "https://s.500fd.com/tt_video/osQj0ugFdVQXAeMsCA8EWfAqKxg2AeAPIbRVxI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 62,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683952327962807583",
+        "published_at": 1789059582,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tipsdetina/video/7683952327962807583"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1729538565601989133",
+  "time_range_days": 90,
+  "total": 3,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "jenniferlatch",
+        "creator_uid": "160715137799086080"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 386,
+        "play_count": 23500,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495272696158063117",
+        "window_gmv": 59,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682169640583253262",
+      "video_meta": {
+        "caption_text": "Who makes your favorite? ",
+        "cover_url": "https://s.500fd.com/tt_video/ogYqEBy0AAAyARFZgEFenjSDxf0uhLIEDECCcI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682169640583253262",
+        "published_at": 1788649200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jenniferlatch/video/7682169640583253262"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "joylately",
+        "creator_uid": "7563726932626883597"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 1224,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495272696158063117",
+        "window_gmv": 0,
+        "window_units_sold": 0
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666212663575285006",
+      "video_meta": {
+        "caption_text": "\ud83e\ude77 The everyday T-shirt bra has been in my drawer and on my body for almost 10 YRS!! I still love this brand and style as much as day one - because you   \ud83e\ude75can barely even feel it \ud83d\udc9cshirts lay smoothly overtop \ud83d\udc9border from over 60 Sizes including 1/2 cups \ud83e\udde1Hold up overtime \ud83e\udd0eWorth every penny This bra will become your favorite too! Check it out here \u2b07\ufe0f @Thirdlove #everydaybra #womensclothing #womenover40 #tshirtbra #comfybra ",
+        "cover_url": "https://s.500fd.com/tt_video/ocu6QSSRAE995DD8DAgFIY6eIftKqXEChAvhHA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666212663575285006",
+        "published_at": 1784929241,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@joylately/video/7666212663575285006"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brightdollface",
+        "creator_uid": "6806693200787473413"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 415,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495272696158063117",
+        "window_gmv": 0,
+        "window_units_sold": 0
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666303729460727071",
+      "video_meta": {
+        "caption_text": "GIRLLLL! @Thirdlove JUST GETS US GIRLS!!!\ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude4c\ud83c\udffd\ud83d\ude0dAs a plus-size girlie who has a big bust, these SMOOTH bras are just it! \u2728\ud83d\udc85\ud83c\udffd #brightdollface #thirdlove #tiktokshopsummersale #comfortablebra #bras ",
+        "cover_url": "https://s.500fd.com/tt_video/oEqEEZqVnIACEAsKqWL6kfApqAEeyCDBqE8RAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666303729460727071",
+        "published_at": 1784950444,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brightdollface/video/7666303729460727071"
+      }
+    }
+  ]
+}

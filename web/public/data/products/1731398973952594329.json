@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "product_id": "1731398973952594329",
+  "title": "GOPURE Tighten & Smooth Belly Firming Cream",
+  "image_url": "/img/product_1731398973952594329.webp",
+  "category": "beauty_hair",
+  "shop_name": "Gopure",
+  "price": 49.99,
+  "commission_rate": 0.2,
+  "earnings_per_sale": 10.0,
+  "daily_units_14": NaN,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731398973952594329",
+  "videos": [
+    {
+      "video_id": "7664507282381622558",
+      "cover_url": "/img/video_7664507282381622558.jpg",
+      "tiktok_url": "https://www.tiktok.com/@cris.dealss/video/7664507282381622558",
+      "creator_handle": "cris.dealss",
+      "play_count": 4400422,
+      "window_gmv": 11312.84,
+      "window_units_sold": 273
+    },
+    {
+      "video_id": "7671080568666295566",
+      "cover_url": "/img/video_7671080568666295566.jpg",
+      "tiktok_url": "https://www.tiktok.com/@oriana.en.tiktok/video/7671080568666295566",
+      "creator_handle": "oriana.en.tiktok",
+      "play_count": 1826419,
+      "window_gmv": 1446.12,
+      "window_units_sold": 59
+    },
+    {
+      "video_id": "7668494624389893406",
+      "cover_url": "/img/video_7668494624389893406.jpg",
+      "tiktok_url": "https://www.tiktok.com/@.burpgod1/video/7668494624389893406",
+      "creator_handle": ".burpgod1",
+      "play_count": 1300000,
+      "window_gmv": 0,
+      "window_units_sold": 0
+    },
+    {
+      "video_id": "7679605837718965535",
+      "cover_url": "/img/video_7679605837718965535.jpg",
+      "tiktok_url": "https://www.tiktok.com/@tipsdetina/video/7679605837718965535",
+      "creator_handle": "tipsdetina",
+      "play_count": 1200000,
+      "window_gmv": 1582.51,
+      "window_units_sold": 45
+    },
+    {
+      "video_id": "7675866358076280094",
+      "cover_url": "/img/video_7675866358076280094.jpg",
+      "tiktok_url": "https://www.tiktok.com/@wilbershopfinds/video/7675866358076280094",
+      "creator_handle": "wilbershopfinds",
+      "play_count": 1110529,
+      "window_gmv": 996.6,
+      "window_units_sold": 31
+    },
+    {
+      "video_id": "7683952327962807583",
+      "cover_url": "/img/video_7683952327962807583.jpg",
+      "tiktok_url": "https://www.tiktok.com/@tipsdetina/video/7683952327962807583",
+      "creator_handle": "tipsdetina",
+      "play_count": 745818,
+      "window_gmv": 1538.06,
+      "window_units_sold": 42
+    }
+  ]
+}

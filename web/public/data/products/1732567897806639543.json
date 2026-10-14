@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "product_id": "1732567897806639543",
+  "title": "Tipsy Elves Women's Original Halloween Costumes",
+  "image_url": "/img/product_1732567897806639543.webp",
+  "category": "womens_clothing",
+  "shop_name": "Tipsy Elves",
+  "price": 39.87,
+  "commission_rate": 0.25,
+  "earnings_per_sale": 9.97,
+  "daily_units_14": NaN,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543",
+  "videos": [
+    {
+      "video_id": "7691450047447239967",
+      "cover_url": "/img/video_7691450047447239967.jpg",
+      "tiktok_url": "https://www.tiktok.com/@kelly.at.home/video/7691450047447239967",
+      "creator_handle": "kelly.at.home",
+      "play_count": 1500000,
+      "window_gmv": 3262.74,
+      "window_units_sold": 65
+    },
+    {
+      "video_id": "7689480386623081759",
+      "cover_url": "/img/video_7689480386623081759.jpg",
+      "tiktok_url": "https://www.tiktok.com/@lifeofahotmessmom/video/7689480386623081759",
+      "creator_handle": "lifeofahotmessmom",
+      "play_count": 824667,
+      "window_gmv": 1467.59,
+      "window_units_sold": 29
+    },
+    {
+      "video_id": "7688080271991737630",
+      "cover_url": "/img/video_7688080271991737630.jpg",
+      "tiktok_url": "https://www.tiktok.com/@cassiebrittybeauty/video/7688080271991737630",
+      "creator_handle": "cassiebrittybeauty",
+      "play_count": 779119,
+      "window_gmv": 342.17,
+      "window_units_sold": 7
+    },
+    {
+      "video_id": "7692870015871110430",
+      "cover_url": "/img/video_7692870015871110430.jpg",
+      "tiktok_url": "https://www.tiktok.com/@emilyjulial/video/7692870015871110430",
+      "creator_handle": "emilyjulial",
+      "play_count": 523700,
+      "window_gmv": 99.2,
+      "window_units_sold": 2
+    },
+    {
+      "video_id": "7692531081769241886",
+      "cover_url": "/img/video_7692531081769241886.jpg",
+      "tiktok_url": "https://www.tiktok.com/@krissstttina/video/7692531081769241886",
+      "creator_handle": "krissstttina",
+      "play_count": 328018,
+      "window_gmv": 198.4,
+      "window_units_sold": 4
+    },
+    {
+      "video_id": "7684318626966506766",
+      "cover_url": "/img/video_7684318626966506766.jpg",
+      "tiktok_url": "https://www.tiktok.com/@shelby_lynnnn/video/7684318626966506766",
+      "creator_handle": "shelby_lynnnn",
+      "play_count": 278600,
+      "window_gmv": 1863.78,
+      "window_units_sold": 35
+    }
+  ]
+}

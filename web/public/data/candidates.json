@@ -10,7 +10,7 @@
       "stage": "new_to_radar",
       "price": 17.0,
       "commission_rate": 0.1,
-      "score": 24,
+      "score": 27,
       "ev_typical": 1.93,
       "daily_units": [
         5856,
@@ -38,7 +38,7 @@
       "stage": "new_to_radar",
       "price": 29.99,
       "commission_rate": 0.1,
-      "score": 43,
+      "score": 45,
       "ev_typical": 7.15,
       "daily_units": [
         1763,
@@ -66,7 +66,7 @@
       "stage": "rising",
       "price": 24.9,
       "commission_rate": 0.15,
-      "score": 58,
+      "score": 57,
       "ev_typical": 9.82,
       "daily_units": [
         1847,
@@ -94,7 +94,7 @@
       "stage": "new_to_radar",
       "price": 78.0,
       "commission_rate": 0.12,
-      "score": 38,
+      "score": 40,
       "ev_typical": 10.64,
       "daily_units": [
         1,
@@ -122,7 +122,7 @@
       "stage": "new_to_radar",
       "price": 46.98,
       "commission_rate": 0.1,
-      "score": 37,
+      "score": 38,
       "ev_typical": 10.49,
       "daily_units": [
         694,
@@ -150,7 +150,7 @@
       "stage": "new_to_radar",
       "price": 17.0,
       "commission_rate": 0.1,
-      "score": 27,
+      "score": 30,
       "ev_typical": 2.26,
       "daily_units": [
         2422,
@@ -178,7 +178,7 @@
       "stage": "new_to_radar",
       "price": 43.38,
       "commission_rate": 0.12,
-      "score": 62,
+      "score": 64,
       "ev_typical": 11.83,
       "daily_units": NaN,
       "suspicious": false
@@ -191,7 +191,7 @@
       "stage": "new_to_radar",
       "price": 38.99,
       "commission_rate": 0.15,
-      "score": 55,
+      "score": 54,
       "ev_typical": 13.3,
       "daily_units": NaN,
       "suspicious": false
@@ -217,7 +217,7 @@
       "stage": "new_to_radar",
       "price": 74.0,
       "commission_rate": 0.12,
-      "score": 61,
+      "score": 64,
       "ev_typical": 20.19,
       "daily_units": NaN,
       "suspicious": false
@@ -243,7 +243,7 @@
       "stage": "new_to_radar",
       "price": 69.0,
       "commission_rate": 0.1,
-      "score": 53,
+      "score": 54,
       "ev_typical": 15.69,
       "daily_units": NaN,
       "suspicious": false
@@ -269,7 +269,7 @@
       "stage": "new_to_radar",
       "price": 41.5,
       "commission_rate": 0.1,
-      "score": 55,
+      "score": 56,
       "ev_typical": 9.43,
       "daily_units": NaN,
       "suspicious": false
@@ -282,7 +282,7 @@
       "stage": "new_to_radar",
       "price": 69.0,
       "commission_rate": 0.1,
-      "score": 47,
+      "score": 48,
       "ev_typical": 15.69,
       "daily_units": NaN,
       "suspicious": false
@@ -295,7 +295,7 @@
       "stage": "new_to_radar",
       "price": 76.0,
       "commission_rate": 0.1,
-      "score": 52,
+      "score": 53,
       "ev_typical": 17.28,
       "daily_units": NaN,
       "suspicious": false
@@ -308,7 +308,7 @@
       "stage": "new_to_radar",
       "price": 39.87,
       "commission_rate": 0.25,
-      "score": 58,
+      "score": 61,
       "ev_typical": 22.66,
       "daily_units": NaN,
       "suspicious": false
@@ -334,7 +334,7 @@
       "stage": "new_to_radar",
       "price": 167.7,
       "commission_rate": 0.1,
-      "score": 46,
+      "score": 47,
       "ev_typical": 38.13,
       "daily_units": NaN,
       "suspicious": false
@@ -360,7 +360,7 @@
       "stage": "new_to_radar",
       "price": 71.0,
       "commission_rate": 0.05,
-      "score": 54,
+      "score": 55,
       "ev_typical": 8.07,
       "daily_units": NaN,
       "suspicious": false
@@ -373,7 +373,7 @@
       "stage": "new_to_radar",
       "price": 42.5,
       "commission_rate": 0.25,
-      "score": 62,
+      "score": 63,
       "ev_typical": 24.16,
       "daily_units": NaN,
       "suspicious": false
@@ -386,7 +386,7 @@
       "stage": "new_to_radar",
       "price": 35.09,
       "commission_rate": 0.12,
-      "score": 59,
+      "score": 60,
       "ev_typical": 9.57,
       "daily_units": NaN,
       "suspicious": false
@@ -438,7 +438,7 @@
       "stage": "new_to_radar",
       "price": 31.0,
       "commission_rate": 0.15,
-      "score": 63,
+      "score": 64,
       "ev_typical": 10.89,
       "daily_units": [
         6383,
@@ -466,7 +466,7 @@
       "stage": "rising",
       "price": 59.99,
       "commission_rate": 0.12,
-      "score": 61,
+      "score": 57,
       "ev_typical": 19.38,
       "daily_units": [
         3504,
@@ -494,7 +494,7 @@
       "stage": "rising",
       "price": 36.27,
       "commission_rate": 0.15,
-      "score": 68,
+      "score": 58,
       "ev_typical": 18.6,
       "daily_units": [
         1430,
@@ -522,7 +522,7 @@
       "stage": "new_to_radar",
       "price": 77.0,
       "commission_rate": 0.15,
-      "score": 49,
+      "score": 48,
       "ev_typical": 31.24,
       "daily_units": [
         640,
@@ -550,7 +550,7 @@
       "stage": "rising",
       "price": 38.99,
       "commission_rate": 0.25,
-      "score": 59,
+      "score": 65,
       "ev_typical": 26.79,
       "daily_units": [
         708,
@@ -591,7 +591,7 @@
       "stage": "new_to_radar",
       "price": 25.0,
       "commission_rate": 0.165,
-      "score": 50,
+      "score": 49,
       "ev_typical": 9.38,
       "daily_units": NaN,
       "suspicious": false
@@ -604,7 +604,7 @@
       "stage": "new_to_radar",
       "price": 49.99,
       "commission_rate": 0.2,
-      "score": 60,
+      "score": 59,
       "ev_typical": 22.73,
       "daily_units": NaN,
       "suspicious": false

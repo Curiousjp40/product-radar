@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732567897806639543",
+  "time_range_days": 90,
+  "total": 475,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "kelly.at.home",
+        "creator_uid": "6719452894938153990"
+      },
+      "engagement_metrics": {
+        "comment_count": 156,
+        "like_count": 6226,
+        "play_count": 1500000,
+        "share_count": 2205
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 3262.74,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691450047447239967",
+      "video_meta": {
+        "caption_text": "If you need a quick costume, this is it \ud83d\ude4c\ud83c\udffb",
+        "cover_url": "https://s.500fd.com/tt_video/oA4qMNMqmAToDRWpAIFGvhVD2fyLeSYEEEBy9I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691450047447239967",
+        "published_at": 1790805280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kelly.at.home/video/7691450047447239967"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lifeofahotmessmom",
+        "creator_uid": "6721141743226094597"
+      },
+      "engagement_metrics": {
+        "comment_count": 188,
+        "like_count": 5733,
+        "play_count": 824667,
+        "share_count": 694
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 1467.59,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689480386623081759",
+      "video_meta": {
+        "caption_text": "STOPPP because this might be the cutest Halloween outfit I\u2019ve found \ud83c\udf83\u2728 Halloween costume = SECURED \ud83d\ude4c\ud83c\udffc The sequins, the pumpkin, the quality\u2026 SO good \ud83d\ude0d This is one of those finds that looks even cuter in person. #halloweencostume #pumpkincostume #halloween2026 #sequinpumpkin #pumpkinshirt",
+        "cover_url": "https://s.500fd.com/tt_video/oI9IqQC2AAabIhVfjLe6QVGC9kbfmIIL4RVjKt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689480386623081759",
+        "published_at": 1790346694,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lifeofahotmessmom/video/7689480386623081759"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cassiebrittybeauty",
+        "creator_uid": "7179344766625940522"
+      },
+      "engagement_metrics": {
+        "comment_count": 100,
+        "like_count": 2062,
+        "play_count": 779119,
+        "share_count": 836
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 342.17,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688080271991737630",
+      "video_meta": {
+        "caption_text": "The cutest Halloween costume that will also keep you warm! #tipsyelves #halloweencostume #womenshalloweencostume #tiktokshophalloween @Tipsy Elves ",
+        "cover_url": "https://s.500fd.com/tt_video/o8wqj2x99ANqBRgFAEFPsjVDOfeqsFYEEEBSxI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688080271991737630",
+        "published_at": 1790020696,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cassiebrittybeauty/video/7688080271991737630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emilyjulial",
+        "creator_uid": "6623002221955563526"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 1229,
+        "play_count": 523700,
+        "share_count": 414
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 99.2,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692870015871110430",
+      "video_meta": {
+        "caption_text": "Wearing XS!! Comfy and flattering!? ",
+        "cover_url": "https://s.500fd.com/tt_video/o8SEVDFwhEDrUmAACGAAfwEeqCIQR2kEVAJpkC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692870015871110430",
+        "published_at": 1791135893,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emilyjulial/video/7692870015871110430"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "krissstttina",
+        "creator_uid": "7485955797832205358"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 1691,
+        "play_count": 328018,
+        "share_count": 233
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 198.4,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692531081769241886",
+      "video_meta": {
+        "caption_text": "grab it before Halloween comes \ud83c\udf83\ud83d\udc7b\ud83d\udc80 #halloweencostume #trickortreat #falldealsforyou #skeletoncostume ",
+        "cover_url": "https://s.500fd.com/tt_video/o8XsBAgJaD50FUlFAAQARDOCEU8civBEBA5iI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692531081769241886",
+        "published_at": 1791056980,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@krissstttina/video/7692531081769241886"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelby_lynnnn",
+        "creator_uid": "6870483560630305798"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 975,
+        "play_count": 278600,
+        "share_count": 152
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495274003456494007",
+        "window_gmv": 1863.78,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684318626966506766",
+      "video_meta": {
+        "caption_text": "Halloween costume secured \u2705\ud83c\udf83 not only are these SO CUTE but they are also such great quality \ud83e\udd0c\ud83c\udffc #halloweencostume #pumpkincostume #halloween2026 #sequinpumpkin #pumpkinshirt ",
+        "cover_url": "https://s.500fd.com/tt_video/oUC5EkIGA4eHFf7ALVFkIrPIzALjejASi9ET5A~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684318626966506766",
+        "published_at": 1789144896,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelby_lynnnn/video/7684318626966506766"
+      }
+    }
+  ]
+}

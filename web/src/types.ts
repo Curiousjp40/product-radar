@@ -1,11 +1,22 @@
 export type Stage = "emerging" | "rising" | "peak" | "evergreen" | "declining" | "new_to_radar";
 export type PickKind = "core" | "explore" | "evergreen" | "winner_again";
 
+export interface VideoCard {
+  video_id: string;
+  cover_url: string;
+  tiktok_url: string;
+  creator_handle: string;
+  play_count: number;
+  window_gmv: number;
+  window_units_sold: number;
+}
+
 export interface Pick {
   slot: number;
   kind: PickKind;
   product_id: string;
   title: string;
+  clean_title: string;
   image_url: string;
   category: string;
   shop_name: string;
@@ -18,6 +29,10 @@ export interface Pick {
   ev_upside: number;
   reasons_es: string[];
   reasons_en: string[];
+  summary_es: string;
+  summary_en: string;
+  videos: VideoCard[];
+  fastmoss_url: string;
 }
 
 export interface PicksFile {
@@ -50,17 +65,15 @@ export interface ProductDetail {
   schema_version: number;
   product_id: string;
   title: string;
-  category_l1: string;
-  category_l2: string;
+  image_url: string;
+  category: string;
   shop_name: string;
   price: number;
   commission_rate: number;
-  spanish_share: number;
-  weekly_history: { week: string; rank: number; units_7d: number; creator_count: number }[];
-  daily_units: number[];
-  saturation_series: number[];
-  top_videos: { url: string; is_spanish: boolean; views: number }[];
-  similar_products: string[];
+  earnings_per_sale: number;
+  daily_units_14: number[];
+  fastmoss_url: string;
+  videos: VideoCard[];
 }
 
 export interface CreatorInsights {

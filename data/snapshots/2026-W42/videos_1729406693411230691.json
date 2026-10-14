@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1729406693411230691",
+  "time_range_days": 90,
+  "total": 722,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lanidelmar",
+        "creator_uid": "6760317519993652229"
+      },
+      "engagement_metrics": {
+        "comment_count": 83,
+        "like_count": 6313,
+        "play_count": 991300,
+        "share_count": 107
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 731.53,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674035395167800607",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUAITaU3ApjgEIoIF6ADNIQDfA9qfA5EwhfRo5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674035395167800607",
+        "published_at": 1786750614,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lanidelmar/video/7674035395167800607"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.and.daisies",
+        "creator_uid": "7490370121882797102"
+      },
+      "engagement_metrics": {
+        "comment_count": 145,
+        "like_count": 8064,
+        "play_count": 818300,
+        "share_count": 415
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 3145.89,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676573164922506510",
+      "video_meta": {
+        "caption_text": "\u2026Not to be dramatic. but fr I love these sooooo much \ud83d\udc95 #fleecelinedtights #fallfashion #falloutfits #plussizefashion #tiktokshopbacktoschool @SWEET MAYHEM ",
+        "cover_url": "https://s.500fd.com/tt_video/oUqEDfKIfguRDFAIASlEArCSqDiFETvyqHq2AC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676573164922506510",
+        "published_at": 1787341485,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7676573164922506510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bestiebuysitfirst",
+        "creator_uid": "4933981"
+      },
+      "engagement_metrics": {
+        "comment_count": 175,
+        "like_count": 10300,
+        "play_count": 811400,
+        "share_count": 408
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 2543.91,
+        "window_units_sold": 131
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678825860085894430",
+      "video_meta": {
+        "caption_text": "And has tummy control? \ud83d\udc4f\ud83d\udc4f\ud83d\udc4f @SweetMayhem #tights #plussizefashion #fallfashion #tiktokshopbacktoschool #curvyfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ocVEATefEhUVFIAmIbvcjVkDAEeIqyA0wkI0QA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678825860085894430",
+        "published_at": 1787865984,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bestiebuysitfirst/video/7678825860085894430"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "amanda_pac",
+        "creator_uid": "6751835179322721286"
+      },
+      "engagement_metrics": {
+        "comment_count": 66,
+        "like_count": 4060,
+        "play_count": 629870,
+        "share_count": 210
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 635.74,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681441924841999630",
+      "video_meta": {
+        "caption_text": "fleece lined leggings got a big upgrade #sweetmayhem ",
+        "cover_url": "https://s.500fd.com/tt_video/owXrnARUggbeGfoO92qRnYyFZgeEIZH4AAevpG~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681441924841999630",
+        "published_at": 1788475079,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@amanda_pac/video/7681441924841999630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lanidelmar",
+        "creator_uid": "6760317519993652229"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 2427,
+        "play_count": 538600,
+        "share_count": 40
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 2022.34,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691512227370716446",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQCIBiAsEY1AlICaIB9AYKiAwXMFvift2jAW7S~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691512227370716446",
+        "published_at": 1790819755,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lanidelmar/video/7691512227370716446"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "protect_the_om",
+        "creator_uid": "7055853261018235910"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 2078,
+        "play_count": 507929,
+        "share_count": 84
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495162285133564899",
+        "window_gmv": 1765.93,
+        "window_units_sold": 83
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686230634372664607",
+      "video_meta": {
+        "caption_text": "These fleece Line leggings really do feel like magic! #FleeceLineLeggings #Leggings #FleeceLeggings #Nylons #Tights ",
+        "cover_url": "https://s.500fd.com/tt_video/o4AAC4IQIQAq9DqedeLUVDFeihQ8CRAoGJfGAy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 50,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686230634372664607",
+        "published_at": 1789595400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@protect_the_om/video/7686230634372664607"
+      }
+    }
+  ]
+}

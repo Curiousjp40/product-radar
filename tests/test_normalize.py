@@ -14,6 +14,7 @@ from engine.normalize import (
     normalize_daily_trend,
     normalize_rank_row,
     trend_period_summary,
+    video_cards_from_product_video_list,
 )
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -121,3 +122,23 @@ def test_lead_counts_from_real_fixture():
     assert creator_prior7 == 108 + 97 + 105 + 104 + 86 + 111 + 112
     assert video_last7 == 63 + 73 + 65 + 59 + 69 + 85 + 71
     assert video_prior7 == 75 + 45 + 64 + 71 + 43 + 58 + 68
+
+
+def test_video_cards_from_product_video_list_real_fixture():
+    result = _load("fastmoss_product_video_list.json")
+    cards = video_cards_from_product_video_list(result)
+    assert len(cards) == 3
+    first = cards[0]
+    assert first["video_id"] == "7687390788933651743"
+    assert first["creator_handle"] == "showmeproducts"
+    assert first["caption_text"] == "Silent wrist band alarm #histrips "
+    assert first["cover_url"].startswith("https://s.500fd.com/")
+    assert first["tiktok_url"] == "https://www.tiktok.com/@showmeproducts/video/7687390788933651743"
+    assert first["play_count"] == 3725608
+    assert first["window_gmv"] == 2572.02
+    assert first["window_units_sold"] == 82
+
+
+def test_video_cards_from_product_video_list_empty():
+    assert video_cards_from_product_video_list({"videos": []}) == []
+    assert video_cards_from_product_video_list({}) == []

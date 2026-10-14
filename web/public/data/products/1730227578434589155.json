@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "product_id": "1730227578434589155",
+  "title": "Caramela Beauty Cyperus Rotundus Oil - 60ml/2oz Naturally Derived Gentle Moisturizing Hair Inhibitor, Body & Massage Oil for Sensitive Skin, Waxing Aftercare, Strawberry Skin Fix, Smooth Silky Beauty Products, Daily",
+  "image_url": "/img/product_1730227578434589155.jpg",
+  "category": "beauty_hair",
+  "shop_name": "Caramela Beauty",
+  "price": 38.99,
+  "commission_rate": 0.25,
+  "earnings_per_sale": 9.75,
+  "daily_units_14": [
+    708,
+    857,
+    940,
+    787,
+    779,
+    1041,
+    999,
+    996,
+    1418,
+    1358,
+    998,
+    1275,
+    1223,
+    799
+  ],
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730227578434589155",
+  "videos": [
+    {
+      "video_id": "7665591759329594655",
+      "cover_url": "/img/video_7665591759329594655.jpg",
+      "tiktok_url": "https://www.tiktok.com/@soonuh23/video/7665591759329594655",
+      "creator_handle": "soonuh23",
+      "play_count": 6668551,
+      "window_gmv": 38760.87,
+      "window_units_sold": 1534
+    },
+    {
+      "video_id": "7667793283501837599",
+      "cover_url": "/img/video_7667793283501837599.jpg",
+      "tiktok_url": "https://www.tiktok.com/@shinewithrae/video/7667793283501837599",
+      "creator_handle": "shinewithrae",
+      "play_count": 6500000,
+      "window_gmv": 24448.82,
+      "window_units_sold": 964
+    },
+    {
+      "video_id": "7682343270445305119",
+      "cover_url": "/img/video_7682343270445305119.jpg",
+      "tiktok_url": "https://www.tiktok.com/@caramelabeautyshop/video/7682343270445305119",
+      "creator_handle": "caramelabeautyshop",
+      "play_count": 6000000,
+      "window_gmv": 195731.14,
+      "window_units_sold": 6986
+    },
+    {
+      "video_id": "7665328916793462047",
+      "cover_url": "/img/video_7665328916793462047.jpg",
+      "tiktok_url": "https://www.tiktok.com/@soonuh23/video/7665328916793462047",
+      "creator_handle": "soonuh23",
+      "play_count": 3528425,
+      "window_gmv": 20181.09,
+      "window_units_sold": 775
+    },
+    {
+      "video_id": "7666705475148336398",
+      "cover_url": "/img/video_7666705475148336398.jpg",
+      "tiktok_url": "https://www.tiktok.com/@shoppingwithcharlstyn/video/7666705475148336398",
+      "creator_handle": "shoppingwithcharlstyn",
+      "play_count": 3300000,
+      "window_gmv": 14282.92,
+      "window_units_sold": 573
+    },
+    {
+      "video_id": "7684075228846247181",
+      "cover_url": "/img/video_7684075228846247181.jpg",
+      "tiktok_url": "https://www.tiktok.com/@claireccl1/video/7684075228846247181",
+      "creator_handle": "claireccl1",
+      "play_count": 3011319,
+      "window_gmv": 3463.42,
+      "window_units_sold": 123
+    }
+  ]
+}

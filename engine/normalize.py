@@ -128,10 +128,32 @@ def normalize_creator_video(row: dict, creator_handle: str) -> CreatorVideo:
     )
 
 
-def video_search_item_to_caption(item: dict) -> str:
-    """video_search's items carry caption_text too -- used for the Spanish-gap
-    signal (section 6.8)."""
-    return item.get("caption_text", "")
+def video_cards_from_product_video_list(result: dict) -> list[dict]:
+    """`product_video_list`'s real `videos[]` -> clean dicts for both the
+    Spanish-gap signal and the dashboard's video cards (replaces
+    `video_search`, added 2026-10-15 -- see docs/field_map.md for the
+    confirmed shape). Each video is genuinely linked to the product (FastMoss
+    filtered by product_id), unlike video_search's free-text match."""
+    cards = []
+    for v in result.get("videos", []):
+        meta = v.get("video_meta", {})
+        engagement = v.get("engagement_metrics", {})
+        contribution = v.get("product_contribution", {})
+        creator = v.get("creator", {})
+        cards.append(
+            {
+                "video_id": v.get("video_id"),
+                "creator_handle": creator.get("creator_handle"),
+                "caption_text": meta.get("caption_text", ""),
+                "cover_url": meta.get("cover_url"),
+                "tiktok_url": meta.get("tiktok_url"),
+                "fastmoss_url": meta.get("fastmoss_url"),
+                "play_count": engagement.get("play_count", 0),
+                "window_gmv": contribution.get("window_gmv", 0.0),
+                "window_units_sold": contribution.get("window_units_sold", 0),
+            }
+        )
+    return cards
 
 
 def ads_share_pct_from_overview(overview_result: dict) -> float | None:

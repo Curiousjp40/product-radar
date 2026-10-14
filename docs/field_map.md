@@ -91,6 +91,45 @@ Called for `data/seed`'s #1 shapewear product (`1732352660592628585`), `time_ran
 | buyer demographics (age/gender) for the audience-fit extension | **not present anywhere in the response** | Confirmed absent (`ads_distribution`, `channel_distribution`, `content_distribution`, `daily_trend`, `period_summary` -- none carry buyer age/gender). The audience-fit term always falls back to `engine.fit.demographic_fit_heuristic` (keyword-based); there is no FastMoss tool call yet found that returns this. |
 | other fields seen | `channel_distribution` (product_card/shop_account/affiliate GMV split), `content_distribution` (video/live/product_card split), `period_summary.current_price`, `.linked_creator_count/live_count/video_count` (same concept as product_sales_trend's `period_summary`, just a different time window) | Not currently wired into any engine function; noted for future use. |
 
+## `product_video_list` (confirmed 2026-10-14, 1 credit)
+
+Called for a real 2026-W42 pick (`1732491682604749463`, Onyx Silent Vibration
+device), `time_range_days=90`, `pagesize=6`. Replaces `video_search`'s
+keyword search for both the Spanish-gap signal and the dashboard's video
+section -- `video_search` matched by loose text keywords and returned videos
+unrelated to the product (homecoming, movie trailers); filtering by
+`product_id` here returns only videos FastMoss has actually linked to it,
+confirmed by reading the real captions ("Silent wrist band alarm", "Onyx
+Vibration Alarm", etc. -- all genuinely about this product).
+
+Real shape, not guessed -- note this is a flat `videos[]` array, **not**
+nested under `.items` the way `video_search`'s response is:
+
+| Concept | Real field(s) | Notes |
+|---|---|---|
+| video id | `video_id` | |
+| caption/text for language detection | `video_meta.caption_text` | Same use as `video_search`'s field of the same name -- feeds `engine.language.spanish_share` unchanged. |
+| thumbnail | `video_meta.cover_url` | For the dashboard's video thumbnails. |
+| TikTok link (for embedding) | `video_meta.tiktok_url` | e.g. `https://www.tiktok.com/@showmeproducts/video/7687390788933651743` -- feed straight into TikTok's oEmbed/`blockquote.tiktok-embed`. |
+| views | `engagement_metrics.play_count` | |
+| likes/comments/shares | `engagement_metrics.like_count`, `.comment_count`, `.share_count` | |
+| sales attributed to this video | `product_contribution.window_gmv`, `.window_units_sold` | Window is `product_contribution.metric_window_days` (matches the `time_range_days` filter). |
+| creator | `creator.creator_handle`, `.creator_uid` | |
+| is this an ad | `traffic_flags.is_ad` | Flat, like `creator_video_analysis`; `video_search` nests it as `traffic_flags.is_ad` too (same shape here, good). |
+| published timestamp | `video_meta.published_at` (unix) | No display string like `video_search`'s `published_at_display`. |
+| FastMoss's own page for the video | `video_meta.fastmoss_url` | |
+
+## `fastmoss_detail_url_examples` (confirmed 2026-10-15, free)
+
+Takes no arguments. Confirmed template for a product's own FastMoss page
+(used for the dashboard's "Ver en FastMoss" button):
+`https://www.fastmoss.com/e-commerce/detail/{product_id}`. Also returns
+templates for creator/shop/live/video detail pages (not currently used).
+No TikTok Shop URL template is returned by anything FastMoss exposes --
+there is no confirmed way to build a direct TikTok Shop product link from a
+FastMoss product_id, so the dashboard does not have an "Abrir en TikTok
+Shop" button.
+
 ## Not yet confirmed
 
 - Review **count** (vs. the `product_rating` average found via `video_detail_analysis`) -- candidate: `product_review_list`.

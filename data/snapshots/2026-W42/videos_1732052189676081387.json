@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732052189676081387",
+  "time_range_days": 90,
+  "total": 9464,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "millennialmagss",
+        "creator_uid": "7543791020522079246"
+      },
+      "engagement_metrics": {
+        "comment_count": 761,
+        "like_count": 130735,
+        "play_count": 15783796,
+        "share_count": 6002
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 30748.3,
+        "window_units_sold": 963
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683708195407269150",
+      "video_meta": {
+        "caption_text": "my holy grail ",
+        "cover_url": "https://s.500fd.com/tt_video/o43IY6AgQxMAhUfXfrFf6qDkwtZQGRPyge9J8A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683708195407269150",
+        "published_at": 1789002741,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@millennialmagss/video/7683708195407269150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ajlittle0902",
+        "creator_uid": "7030167900426257413"
+      },
+      "engagement_metrics": {
+        "comment_count": 1041,
+        "like_count": 114600,
+        "play_count": 13900000,
+        "share_count": 9387
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 73024.8,
+        "window_units_sold": 2323
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685559267243330846",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEFBVifixAV3147qtIAuIcAnMpEmikCEBzGElo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 65,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685559267243330846",
+        "published_at": 1789433721,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ajlittle0902/video/7685559267243330846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shoppingwithameliarose",
+        "creator_uid": "7476529109741536298"
+      },
+      "engagement_metrics": {
+        "comment_count": 262,
+        "like_count": 79336,
+        "play_count": 12182175,
+        "share_count": 5365
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 28467.3,
+        "window_units_sold": 903
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688125197941017870",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4hjiFDXIFAHIaBs1CESntEdDfb7fRCxqpTGgk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688125197941017870",
+        "published_at": 1790031158,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shoppingwithameliarose/video/7688125197941017870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jillianfeliceee",
+        "creator_uid": "7271387186447238187"
+      },
+      "engagement_metrics": {
+        "comment_count": 592,
+        "like_count": 92600,
+        "play_count": 10700000,
+        "share_count": 5026
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 39227.4,
+        "window_units_sold": 1248
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686177927356091662",
+      "video_meta": {
+        "caption_text": "#hyperpigmentation ",
+        "cover_url": "https://s.500fd.com/tt_video/oMPkZEBBTyAAARrBC4gIyikDHwqPQayEzKqAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686177927356091662",
+        "published_at": 1789577805,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jillianfeliceee/video/7686177927356091662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttshopright2",
+        "creator_uid": "6546935601839489030"
+      },
+      "engagement_metrics": {
+        "comment_count": 590,
+        "like_count": 233200,
+        "play_count": 10300000,
+        "share_count": 2749
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 32115.8,
+        "window_units_sold": 992
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681108572981202190",
+      "video_meta": {
+        "caption_text": "dont do it #creatorsearchinsights #darkspots #brighteningskincare #fadedarkspots #kojicacidsoap ",
+        "cover_url": "https://s.500fd.com/tt_video/oIM5SFDfREDEHQroaxEQQYBAjFkg0xHvmqfKxE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681108572981202190",
+        "published_at": 1788397469,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttshopright2/video/7681108572981202190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shoppingwithameliarose",
+        "creator_uid": "7476529109741536298"
+      },
+      "engagement_metrics": {
+        "comment_count": 198,
+        "like_count": 90903,
+        "play_count": 10095531,
+        "share_count": 4019
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495514739648989419",
+        "window_gmv": 15032.4,
+        "window_units_sold": 477
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687417450186460446",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogo4JBEIIEAq7grfRMFVvvOd4YFQwEAiDBzRCe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687417450186460446",
+        "published_at": 1789866366,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shoppingwithameliarose/video/7687417450186460446"
+      }
+    }
+  ]
+}

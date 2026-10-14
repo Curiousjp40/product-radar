@@ -1,0 +1,61 @@
+{
+  "_fixture_note": "filter={product_id:1732491682604749463 (Onyx Silent Vibration device, a real 2026-W42 pick), time_range_days:90, pagesize:6}. Confirmed real shape 2026-10-15 (1 credit, see docs/field_map.md): a flat videos[] array, NOT nested under .items the way video_search's response is. Trimmed to 3 of the 6 real videos returned.",
+  "params": { "filter": { "product_id": "1732491682604749463", "time_range_days": 90 }, "pagesize": 6 },
+  "result": {
+    "page": 1,
+    "pagesize": 6,
+    "product_id": "1732491682604749463",
+    "time_range_days": 90,
+    "total": 615,
+    "videos": [
+      {
+        "creator": { "creator_handle": "showmeproducts", "creator_uid": "7080667582467425323" },
+        "engagement_metrics": { "comment_count": 258, "like_count": 23959, "play_count": 3725608, "share_count": 6528 },
+        "product_contribution": { "metric_window_days": 90, "shop_id": "7494764075006461591", "window_gmv": 2572.02, "window_units_sold": 82 },
+        "traffic_flags": { "is_ad": true },
+        "video_id": "7687390788933651743",
+        "video_meta": {
+          "caption_text": "Silent wrist band alarm #histrips ",
+          "cover_url": "https://s.500fd.com/tt_video/osmBw8g5IEEjXPBw4AaiBvBVT8iXRHql5RGAF~tplv-photomode-zoomcover:480:480.jpeg",
+          "duration_seconds": 68,
+          "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687390788933651743",
+          "published_at": 1789860158,
+          "region": "US",
+          "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743"
+        }
+      },
+      {
+        "creator": { "creator_handle": "mysterypackfinds", "creator_uid": "6703990979232728070" },
+        "engagement_metrics": { "comment_count": 116, "like_count": 8268, "play_count": 2010779, "share_count": 882 },
+        "product_contribution": { "metric_window_days": 90, "shop_id": "7494764075006461591", "window_gmv": 4173.5, "window_units_sold": 91 },
+        "traffic_flags": { "is_ad": true },
+        "video_id": "7691435211258694926",
+        "video_meta": {
+          "caption_text": "The hype on this thing is actually so real",
+          "cover_url": "https://s.500fd.com/tt_video/ooMRoWFeaQDLY8FAe0eAfdEjq9QNG8gOIW6udF~tplv-photomode-zoomcover:480:480.jpeg",
+          "duration_seconds": 56,
+          "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691435211258694926",
+          "published_at": 1790801825,
+          "region": "US",
+          "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926"
+        }
+      },
+      {
+        "creator": { "creator_handle": "zach.finds", "creator_uid": "7574234289404724237" },
+        "engagement_metrics": { "comment_count": 218, "like_count": 24273, "play_count": 1748207, "share_count": 724 },
+        "product_contribution": { "metric_window_days": 90, "shop_id": "7494764075006461591", "window_gmv": 1073, "window_units_sold": 49 },
+        "traffic_flags": { "is_ad": true },
+        "video_id": "7687749104914418958",
+        "video_meta": {
+          "caption_text": "These silent alarms work SO GOOD FOR HEAVY SLEEPERS!! #histrips #silentalarm #heavysleeper #heavysleeperalarm ",
+          "cover_url": "https://s.500fd.com/tt_video/oQ62HRfDkQyJjVVIjXPoeYsLwCyAgEqZFKReQA~tplv-photomode-zoomcover:480:480.jpeg",
+          "duration_seconds": 46,
+          "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687749104914418958",
+          "published_at": 1789943596,
+          "region": "US",
+          "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7687749104914418958"
+        }
+      }
+    ]
+  }
+}

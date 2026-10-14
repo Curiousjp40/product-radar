@@ -59,6 +59,7 @@ fit: # section 6.6
     spanish: 0.5
     demographic: 0.5
   demographic_fit_heuristic_boost: 0.65 # used only when FastMoss has no buyer-demographics field
+  spanish_gap_reason_max_share: 0.3 # added 2026-10-16: below this spanish_share there's a real gap worth citing
 
 seasonality: # section 6.7
   event_lookahead_days: 21

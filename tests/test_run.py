@@ -1,6 +1,17 @@
+from datetime import date
+
 import pandas as pd
 
-from engine.run import assemble_picks, build_reasons
+from engine.config import load_all
+from engine.run import (
+    REAL_CATEGORY_QUERIES,
+    _creator_stats,
+    assemble_picks,
+    build_reasons,
+    ingest_from_snapshots,
+    partition_suspicious,
+    score_pool,
+)
 
 # Roxie's real views-weighted average category_gpm is ~$10.89 (see
 # tests/test_fit.py's test_creator_avg_category_gpm_matches_real_roxie_data).
@@ -85,3 +96,22 @@ def test_assemble_picks_category_cap_counts_explore_too():
     picks = assemble_picks(df, _weights(core_slots=3, explore_slots=1))
     assert len(picks) == 3  # the 4th shapewear candidate must NOT fill the explore slot
     assert all(p["kind"] == "core" for p in picks)
+
+
+def test_score_pool_cowboy_costume_matches_halloween_not_black_friday():
+    # the real case this guards against: "Play Along Cowboy Costume" is
+    # category-tagged "womens_clothing" by FastMoss, which also matches
+    # bfcm_2026's broad category list -- Black Friday's boost used to win
+    # the scoring comparison and label it "Black Friday in 49 days." Title
+    # keywords ("costume") must identify it as Halloween instead, for both
+    # the matched event and the reason's day count.
+    config = load_all()
+    pool = ingest_from_snapshots("2026-W42", list(REAL_CATEGORY_QUERIES))
+    pool, _ = partition_suspicious(pool, config["weights"])
+    creator_stats = _creator_stats(config)
+    today = date(2026, 10, 14)
+    df = score_pool(pool, config, creator_stats, today)
+
+    row = df[df["title"] == "Play Along Cowboy Costume"].iloc[0]
+    assert row["matched_event_id"] == "halloween_2026"
+    assert row["days_to_event_end"] == 17  # 2026-10-31 (Halloween) - 2026-10-14

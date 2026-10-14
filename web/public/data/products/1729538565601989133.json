@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "product_id": "1729538565601989133",
+  "title": "24/7\u00ae Classic T-Shirt Bra Fit Lingerie",
+  "image_url": "/img/product_1729538565601989133.webp",
+  "category": "shapewear",
+  "shop_name": "Thirdlove",
+  "price": 74.0,
+  "commission_rate": 0.12,
+  "earnings_per_sale": 8.88,
+  "daily_units_14": NaN,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729538565601989133",
+  "videos": [
+    {
+      "video_id": "7682169640583253262",
+      "cover_url": "/img/video_7682169640583253262.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jenniferlatch/video/7682169640583253262",
+      "creator_handle": "jenniferlatch",
+      "play_count": 23500,
+      "window_gmv": 59,
+      "window_units_sold": 1
+    },
+    {
+      "video_id": "7666212663575285006",
+      "cover_url": "/img/video_7666212663575285006.jpg",
+      "tiktok_url": "https://www.tiktok.com/@joylately/video/7666212663575285006",
+      "creator_handle": "joylately",
+      "play_count": 1224,
+      "window_gmv": 0,
+      "window_units_sold": 0
+    },
+    {
+      "video_id": "7666303729460727071",
+      "cover_url": "/img/video_7666303729460727071.jpg",
+      "tiktok_url": "https://www.tiktok.com/@brightdollface/video/7666303729460727071",
+      "creator_handle": "brightdollface",
+      "play_count": 415,
+      "window_gmv": 0,
+      "window_units_sold": 0
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
+import { renderMore } from "./views/more";
 import { renderPipeline } from "./views/pipeline";
 import { renderProduct } from "./views/product";
 import { renderRadar } from "./views/radar";
@@ -7,14 +8,15 @@ import { renderSeason } from "./views/season";
 import { renderSettings } from "./views/settings";
 import { renderThisWeek } from "./views/thisWeek";
 
+// Only 3 tabs in the main nav (added 2026-10-16) -- radar/results/season/
+// settings moved under "Mas" (web/src/views/more.ts) so the bottom-of-phone
+// nav stays simple instead of a 6-way horizontal scroll.
 const TABS: { route: string; labelKey: string }[] = [
   { route: "week", labelKey: "nav_this_week" },
-  { route: "radar", labelKey: "nav_radar" },
   { route: "pipeline", labelKey: "nav_pipeline" },
-  { route: "results", labelKey: "nav_results" },
-  { route: "season", labelKey: "nav_season" },
-  { route: "settings", labelKey: "nav_settings" },
+  { route: "more", labelKey: "nav_more" },
 ];
+const MORE_ROUTES = new Set(["radar", "results", "season", "settings"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -35,10 +37,10 @@ function renderShell(lang: Lang): void {
       </div>
     </header>
     <nav class="tabs">
-      ${TABS.map(
-        (tab) =>
-          `<a href="#/${tab.route}" class="${route.name === tab.route ? "active" : ""}">${t(tab.labelKey, lang)}</a>`,
-      ).join("")}
+      ${TABS.map((tab) => {
+        const isActive = tab.route === "more" ? route.name === "more" || MORE_ROUTES.has(route.name) : route.name === tab.route;
+        return `<a href="#/${tab.route}" class="${isActive ? "active" : ""}">${t(tab.labelKey, lang)}</a>`;
+      }).join("")}
     </nav>
     <main id="view"></main>
   `;
@@ -77,6 +79,9 @@ async function renderApp(): Promise<void> {
       break;
     case "settings":
       await renderSettings(view, lang);
+      break;
+    case "more":
+      renderMore(view, lang);
       break;
     default:
       await renderThisWeek(view, lang);

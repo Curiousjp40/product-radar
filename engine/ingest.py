@@ -68,27 +68,28 @@ async def fetch_overview(client: FastMossConnection, product_id: str, time_range
     return await client.call("product_overview", {"filter": {"product_id": product_id, "time_range_days": time_range_days}})
 
 
-async def fetch_video_search_captions(
+async def fetch_product_videos(
     client: FastMossConnection,
-    keywords: str,
+    product_id: str,
     *,
-    create_time_min: float,
-    create_time_max: float,
-    region: str = "US",
-    pagesize: int = 10,
-) -> list[str]:
-    """Returns just the caption texts (section 6.8's Spanish-gap input)."""
-    result = await client.call(
-        "video_search",
+    time_range_days: int = 90,
+    pagesize: int = 6,
+) -> dict:
+    """Videos FastMoss has linked to this specific product (section 6.8's
+    Spanish-gap input, and the dashboard's "videos selling this product"
+    section) -- added 2026-10-15 to replace `video_search`'s free-text
+    keyword search, which matched loosely and surfaced unrelated videos
+    (homecoming, movie trailers) for products whose titles happened to share
+    common words. Filtering by `product_id` returns only videos genuinely
+    linked to it; confirmed via one real call, see docs/field_map.md."""
+    return await client.call(
+        "product_video_list",
         {
-            "keywords": keywords,
-            "filter": {"create_time_range": {"min": create_time_min, "max": create_time_max}, "region": region},
+            "filter": {"product_id": product_id, "time_range_days": time_range_days},
             "orderby": [{"field": "play_count", "order": "desc"}],
             "pagesize": pagesize,
         },
     )
-    items = result.get("videos", {}).get("items", [])
-    return [item.get("caption_text", "") for item in items]
 
 
 def load_raw_snapshot(week: str, name: str) -> dict[str, Any] | None:

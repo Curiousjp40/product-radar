@@ -120,69 +120,6 @@ h2.view-title {
   gap: 12px;
 }
 
-.pick-card {
-  background: var(--surface);
-  border-radius: var(--radius);
-  padding: 14px;
-}
-
-.pick-card .top-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-.pick-card h3 {
-  margin: 0 0 4px;
-  font-size: 1rem;
-}
-
-.badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 999px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.badge.stage-rising {
-  background: #16331f;
-  color: var(--good);
-}
-.badge.stage-emerging {
-  background: #163049;
-  color: var(--accent-2);
-}
-.badge.stage-peak {
-  background: #3b2a12;
-  color: var(--warn);
-}
-.badge.stage-evergreen {
-  background: #2a2a3b;
-  color: #c4b5fd;
-}
-.badge.stage-declining {
-  background: #3b1616;
-  color: var(--bad);
-}
-.badge.stage-new_to_radar {
-  background: #2a3341;
-  color: var(--text-dim);
-}
-
-.badge.kind {
-  background: var(--surface-2);
-  color: var(--text-dim);
-}
-
-.score-pill {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--accent);
-}
-
 .stat-row {
   display: flex;
   flex-wrap: wrap;
@@ -199,47 +136,6 @@ h2.view-title {
 .stat-row .stat span {
   color: var(--text-dim);
   font-size: 0.72rem;
-}
-
-.reasons {
-  margin: 8px 0 12px;
-  padding: 0;
-  list-style: none;
-  font-size: 0.8rem;
-  color: var(--text-dim);
-}
-
-.reasons li {
-  padding: 3px 0;
-}
-
-.reasons li::before {
-  content: "- ";
-}
-
-.card-actions {
-  display: flex;
-  gap: 8px;
-}
-
-.card-actions button {
-  flex: 1;
-  padding: 9px 10px;
-  border-radius: 10px;
-  border: none;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
-.card-actions .btn-primary {
-  background: var(--accent);
-  color: #1a0b14;
-  font-weight: 600;
-}
-
-.card-actions .btn-secondary {
-  background: var(--surface-2);
-  color: var(--text-dim);
 }
 
 table.radar-table {
@@ -306,12 +202,273 @@ select.status-select {
 
 @media (min-width: 640px) {
   .card-grid {
+    /* 2 columns max on desktop too (redesign 2026-10-16) -- a 3rd column
+       made cards too narrow for the photo + summary sentence to read well. */
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 960px) {
-  .card-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+/* ---------------------------------------------------------------------
+   Simplified pick card (redesign 2026-10-16): photo-forward, one headline
+   number, one plain sentence instead of a bullet list, 3 video thumbnails.
+   ------------------------------------------------------------------- */
+
+.pick-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-photo-link {
+  display: block;
+}
+
+.card-photo,
+.card-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: var(--surface-2);
+}
+
+.card-body {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.card-earn {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--good);
+}
+
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+.tag-rising,
+.tag-emerging {
+  background: #16331f;
+  color: var(--good);
+}
+
+.tag-new_to_radar {
+  background: #163049;
+  color: var(--accent-2);
+}
+
+.tag-peak {
+  background: #3b2a12;
+  color: var(--warn);
+}
+
+.tag-evergreen {
+  background: #2a2a3b;
+  color: #c4b5fd;
+}
+
+.tag-declining {
+  background: #3b1616;
+  color: var(--bad);
+}
+
+.tag-price {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.card-summary {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.card-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.video-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 9 / 16;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+
+.video-thumb img,
+.video-thumb-placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.video-views {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  font-size: 0.62rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 6px;
+  padding: 1px 4px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.card-actions .btn-primary {
+  flex: 1;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: #1a0b14;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-heart {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-heart.active {
+  background: #3b1a2a;
+  color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------
+   "Mas" submenu
+   ------------------------------------------------------------------- */
+
+.more-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.more-link {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* ---------------------------------------------------------------------
+   Product detail page
+   ------------------------------------------------------------------- */
+
+.back-link {
+  display: inline-block;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.product-photo {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.sparkline {
+  width: 100%;
+  height: 60px;
+}
+
+.video-embed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.video-embed-card {
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-embed-stats {
+  display: flex;
+  gap: 12px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  padding: 6px 2px 2px;
+}
+
+.product-fastmoss-link {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin: 8px 0 20px;
 }

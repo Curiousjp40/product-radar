@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1730227578434589155",
+  "time_range_days": 90,
+  "total": 4266,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "soonuh23",
+        "creator_uid": "7400212954123404330"
+      },
+      "engagement_metrics": {
+        "comment_count": 282,
+        "like_count": 75427,
+        "play_count": 6668551,
+        "share_count": 2233
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 38760.87,
+        "window_units_sold": 1534
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665591759329594655",
+      "video_meta": {
+        "caption_text": "Genuinely never been happier since",
+        "cover_url": "https://s.500fd.com/tt_video/oIAVv9UIRyliRkG6EpZpm9a9iJ8chOAtBImDB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665591759329594655",
+        "published_at": 1784784678,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@soonuh23/video/7665591759329594655"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shinewithrae",
+        "creator_uid": "7432990461131244586"
+      },
+      "engagement_metrics": {
+        "comment_count": 136,
+        "like_count": 16400,
+        "play_count": 6500000,
+        "share_count": 671
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 24448.82,
+        "window_units_sold": 964
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667793283501837599",
+      "video_meta": {
+        "caption_text": "Spread the word and be safe out there yall \ud83d\ude2c @Caramela Beauty #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o09kEASERVBfUlDyeAAXTQAaIA2q58DmvkWEFC~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 116,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667793283501837599",
+        "published_at": 1785297253,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shinewithrae/video/7667793283501837599"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "caramelabeautyshop",
+        "creator_uid": "7448840222178362414"
+      },
+      "engagement_metrics": {
+        "comment_count": 904,
+        "like_count": 41600,
+        "play_count": 6000000,
+        "share_count": 4016
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 195731.14,
+        "window_units_sold": 6986
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682343270445305119",
+      "video_meta": {
+        "caption_text": "The Queen of Egypt plucked her chin too \ud83e\udd79 #facialhairremoval #pcos #hairremoval #caramelabeauty",
+        "cover_url": "https://s.500fd.com/tt_video/o8UiKaiEdRh7IOA9SRqABpVHMDp0IsnAiBojP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 93,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682343270445305119",
+        "published_at": 1788684990,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@caramelabeautyshop/video/7682343270445305119"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "soonuh23",
+        "creator_uid": "7400212954123404330"
+      },
+      "engagement_metrics": {
+        "comment_count": 285,
+        "like_count": 36700,
+        "play_count": 3528425,
+        "share_count": 2185
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 20181.09,
+        "window_units_sold": 775
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665328916793462047",
+      "video_meta": {
+        "caption_text": "I wish I knew about this soooo much sooner ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ1EEOAXEFAevYBAIREDV7znL7uaU2qgvE8fBD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665328916793462047",
+        "published_at": 1784723515,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@soonuh23/video/7665328916793462047"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shoppingwithcharlstyn",
+        "creator_uid": "7478964075410539563"
+      },
+      "engagement_metrics": {
+        "comment_count": 68,
+        "like_count": 16700,
+        "play_count": 3300000,
+        "share_count": 479
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 14282.92,
+        "window_units_sold": 573
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666705475148336398",
+      "video_meta": {
+        "caption_text": "Yessss I love summer now ",
+        "cover_url": "https://s.500fd.com/tt_video/ogDsCcw39iIhJOB1AaCFInIlf4CZPABpBB5IMi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 70,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666705475148336398",
+        "published_at": 1785044002,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shoppingwithcharlstyn/video/7666705475148336398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "claireccl1",
+        "creator_uid": "7319759940511482923"
+      },
+      "engagement_metrics": {
+        "comment_count": 48,
+        "like_count": 7834,
+        "play_count": 3011319,
+        "share_count": 150
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496019035817740771",
+        "window_gmv": 3463.42,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684075228846247181",
+      "video_meta": {
+        "caption_text": "Hairy ladies\u2026 you aren\u2019t alone! I GOT YOU",
+        "cover_url": "https://s.500fd.com/tt_video/oYIDe7IAklAWqQqoFsje8R89ANMlHEAQfA3VFG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 83,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684075228846247181",
+        "published_at": 1789088192,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@claireccl1/video/7684075228846247181"
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732502071354822887",
+  "time_range_days": 90,
+  "total": 321,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "iluvdealz",
+        "creator_uid": "7526185925799674911"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 5443,
+        "play_count": 1500000,
+        "share_count": 150
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 1744.35,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691814601222098189",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691814601222098189",
+        "published_at": 1790890171,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7691814601222098189"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "iluvdealz",
+        "creator_uid": "7526185925799674911"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 5123,
+        "play_count": 1300000,
+        "share_count": 173
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 2332.48,
+        "window_units_sold": 74
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692072155273514254",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692072155273514254",
+        "published_at": 1790950141,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7692072155273514254"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ibecamethebest",
+        "creator_uid": "7336058714543703082"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 3354,
+        "play_count": 716500,
+        "share_count": 176
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 4140.62,
+        "window_units_sold": 118
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688728348440186126",
+      "video_meta": {
+        "caption_text": "#halloween #pumpkin #crochet #giftguide #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688728348440186126",
+        "published_at": 1790171585,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7688728348440186126"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ibecamethebest",
+        "creator_uid": "7336058714543703082"
+      },
+      "engagement_metrics": {
+        "comment_count": 33,
+        "like_count": 1503,
+        "play_count": 649600,
+        "share_count": 49
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 5865.79,
+        "window_units_sold": 178
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689468490343795982",
+      "video_meta": {
+        "caption_text": "#halloween #pumpkin #crochet #giftguide #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689468490343795982",
+        "published_at": 1790343938,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7689468490343795982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jaimeprimedeals",
+        "creator_uid": "7371231535689319470"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 2916,
+        "play_count": 575100,
+        "share_count": 229
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 3175.05,
+        "window_units_sold": 95
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686508420614180110",
+      "video_meta": {
+        "caption_text": "#halloween #boobasket #flowers #giftideas #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686508420614180110",
+        "published_at": 1789654719,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jaimeprimedeals/video/7686508420614180110"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "youseecozygifts",
+        "creator_uid": "7498920740185932843"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 1975,
+        "play_count": 572300,
+        "share_count": 109
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 308.52,
+        "window_units_sold": 10
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689036107337567519",
+      "video_meta": {
+        "caption_text": "So obviously they\u2019re in her boo basket. Crochet pumpkin and ghost bouquet adds a romantic little surprise she can keep after Halloween. #fyp #halloween #spookyseason #boobasket #giftforher ",
+        "cover_url": "https://s.500fd.com/tt_video/oQLATECBvA8RhrwIAaFAqEulAA0xiiroIyBao~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689036107337567519",
+        "published_at": 1790341200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519"
+      }
+    }
+  ]
+}

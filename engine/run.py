@@ -42,18 +42,25 @@ from engine.fit import (
     normalize_priors,
     target_category_boost,
 )
+from engine.images import cache_image
 from engine.ingest import (
     fetch_daily_trend,
     fetch_overview,
+    fetch_product_videos,
     fetch_top_selling,
-    fetch_video_search_captions,
     load_raw_snapshot,
     resolve_category_ids,
     save_raw_snapshot,
 )
 from engine.insights import summarize_creator
 from engine.language import spanish_share
-from engine.normalize import ads_share_pct_from_overview, lead_counts_from_overview, normalize_rank_row, trend_period_summary
+from engine.normalize import (
+    ads_share_pct_from_overview,
+    lead_counts_from_overview,
+    normalize_rank_row,
+    trend_period_summary,
+    video_cards_from_product_video_list,
+)
 from engine.picks import (
     build_top10,
     candidate_event_ids,
@@ -86,10 +93,15 @@ from engine.seasonality import (
 from engine.seed import load_creator_history, shop_videos_only
 from engine.stages import classify_stage
 from engine.stats import grouped_robust_z
+from engine.text import clean_title, join_reasons_as_sentence
 from engine.timeutil import now_eastern
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CREATOR = "roxm___"
+# Confirmed 2026-10-15 via the free fastmoss_detail_url_examples tool (0
+# credits) -- "Replace the placeholder in template with the corresponding
+# ID returned by FastMoss MCP tools."
+FASTMOSS_PRODUCT_URL_TEMPLATE = "https://www.fastmoss.com/e-commerce/detail/{product_id}"
 
 # Dry-run only has Phase 0's real fixtures for one category (shapewear) -- it
 # proves the pipeline wiring works end to end on real-shaped data at zero
@@ -109,7 +121,7 @@ DRY_RUN_FIXTURES = {
     "product_rank_top_selling": "fastmoss_product_rank_top_selling.json",
     "product_sales_trend": "fastmoss_product_sales_trend.json",
     "product_overview": "fastmoss_product_overview.json",
-    "video_search": "fastmoss_video_search.json",
+    "product_video_list": "fastmoss_product_video_list.json",
 }
 
 
@@ -184,6 +196,7 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
                     "ads_share_pct": None,
                     "channel_breakdown": None,
                     "spanish_share": None,
+                    "videos": None,
                 }
             )
         balance = await check_balance(client)
@@ -288,6 +301,7 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
                     "ads_share_pct": None,
                     "channel_breakdown": None,
                     "spanish_share": None,
+                    "videos": None,
                 }
             )
     candidates = [c for c in candidates if not c["delisted"]]
@@ -310,14 +324,18 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
                 c7, p7, v7, vp7 = lead_counts
                 cand["lead_signal"] = lead_raw(c7, p7, v7, vp7)
 
-        # 2026-10-15: reuse a previously-saved video_search snapshot (written by
-        # enrich_spanish_gap on an earlier real run) so a pure re-score from
-        # snapshots doesn't need to re-fetch video search -- see
+        # 2026-10-15/16: reuse a previously-saved videos_<id>.json snapshot
+        # (written by enrich_spanish_gap on an earlier real run) so a pure
+        # re-score from snapshots doesn't need to re-fetch -- see
         # enrich_spanish_gap's cache check below, which skips any candidate
-        # that already has spanish_share set here.
-        video_search_raw = load_raw_snapshot(week, f"video_search_{cand['product_id']}")
-        if video_search_raw is not None:
-            captions = video_search_raw.get("captions", [])
+        # that already has `videos` set here. Sourced from product_video_list
+        # (filtered by product_id), not video_search's free-text keyword
+        # match, which returned videos unrelated to the product.
+        videos_raw = load_raw_snapshot(week, f"videos_{cand['product_id']}")
+        if videos_raw is not None:
+            cards = video_cards_from_product_video_list(videos_raw)
+            cand["videos"] = cards
+            captions = [v["caption_text"] for v in cards]
             cand["spanish_share"] = spanish_share(captions)
             cand["spanish_video_count"] = len(captions)
 
@@ -325,23 +343,24 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
 
 
 async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
-    """section 6.8: Spanish-gap video search, only for the preliminary top
-    ~10 candidates (budget). Skips any candidate that already has
-    `spanish_share` set (added 2026-10-15: ingest_from_snapshots now reuses a
-    prior run's saved video_search_<id>.json, so a re-score from snapshots
-    only pays for candidates that are newly in the shortlist)."""
-    now_ts = now_eastern().timestamp()
+    """section 6.8: Spanish-gap signal + "videos selling this product"
+    cards, only for the preliminary top ~10 candidates (budget). Skips any
+    candidate that already has `videos` set (added 2026-10-15:
+    ingest_from_snapshots reuses a prior run's saved videos_<id>.json, so a
+    re-score from snapshots only pays for candidates newly in the
+    shortlist)."""
     fetched = 0
     for cand in shortlist:
-        if cand.get("spanish_share") is not None:
+        if cand.get("videos") is not None:
             continue
         if tracker.would_exceed(1):
             break
         try:
-            captions = await fetch_video_search_captions(
-                client, cand["title"][:60], create_time_min=now_ts - 30 * 86400, create_time_max=now_ts
-            )
-            save_raw_snapshot(week, f"video_search_{cand['product_id']}", {"captions": captions})
+            raw = await fetch_product_videos(client, cand["product_id"])
+            save_raw_snapshot(week, f"videos_{cand['product_id']}", raw)
+            cards = video_cards_from_product_video_list(raw)
+            cand["videos"] = cards
+            captions = [v["caption_text"] for v in cards]
             cand["spanish_share"] = spanish_share(captions)
             cand["spanish_video_count"] = len(captions)
         except FastMossError:
@@ -496,15 +515,33 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
             audience_fit_weight=weights["fit"]["weights"]["audience_fit"],
         )
 
-        matching_events = [
-            e
-            for e in season_events
-            if c["config_category"] in e.get("categories", []) and e.get("film_start") and e.get("film_end")
+        # Title-keyword event identity (2026-10-15/16), computed before the
+        # category match below: a Halloween costume is category-tagged
+        # "womens_clothing" by FastMoss, not "seasonal", so a broad category
+        # match would let it ALSO pick up Black Friday's boost just because
+        # that category happens to overlap -- the real case that produced a
+        # "Black Friday in 49 days" reason on a Halloween cowboy costume.
+        # When a title keyword identifies the product with high confidence,
+        # that identity overrides the category match entirely (for scoring,
+        # not just the pick cap below).
+        keyword_matched_events = [
+            e for e in season_events if e.get("title_keywords") and title_matches_event_keywords(c["title"], e["title_keywords"])
         ]
+        capped_event_ids = [e["id"] for e in keyword_matched_events if e.get("max_picks") is not None]
+
+        matching_events = (
+            keyword_matched_events
+            if keyword_matched_events
+            else [
+                e
+                for e in season_events
+                if c["config_category"] in e.get("categories", []) and e.get("film_start") and e.get("film_end")
+            ]
+        )
         extra = weights["seasonality_extra"]
         best_event: dict | None = None
         event_val = 0.0
-        days_to_event_end: int | None = None
+        days_to_event: int | None = None
         for e in matching_events:
             film_start = date.fromisoformat(e["film_start"])
             film_end = date.fromisoformat(e["film_end"])
@@ -517,18 +554,14 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
             if best_event is None or adjusted > event_val:
                 event_val = adjusted
                 best_event = e
-                days_to_event_end = (film_end - today).days
-        # Per-event pick caps by title keyword (2026-10-15), independent of
-        # which event scores highest above: a Halloween costume tagged
-        # config_category="womens_clothing" can still be capped as Halloween
-        # even when Black Friday's boost wins the scoring comparison.
-        capped_event_ids = [
-            e["id"]
-            for e in season_events
-            if e.get("max_picks") is not None
-            and e.get("title_keywords")
-            and title_matches_event_keywords(c["title"], e["title_keywords"])
-        ]
+                # The reason's countdown should name the day people actually
+                # recognize (e.g. Black Friday itself), not film_end -- the
+                # film window deliberately runs past the holiday so she keeps
+                # posting through Cyber Monday, which isn't what "in 49 days"
+                # should be counting down to (added 2026-10-16, real case:
+                # bfcm_2026's film_end is Dec 2 but Black Friday 2026 is Nov 27).
+                anchor = date.fromisoformat(e["event_date"]) if e.get("event_date") else film_end
+                days_to_event = (anchor - today).days
         month_gmv = creator_stats["by_month_category"].get(today.month, {})
         personal_val = personal_term(
             category_month_gmv=month_gmv.get(c["config_category"], 0.0),
@@ -567,7 +600,7 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
                 "matched_event_id": best_event["id"] if best_event and event_val > 0 else None,
                 "matched_event_label_es": best_event["label_es"] if best_event and event_val > 0 else None,
                 "matched_event_label_en": best_event["label_en"] if best_event and event_val > 0 else None,
-                "days_to_event_end": days_to_event_end if event_val > 0 else None,
+                "days_to_event_end": days_to_event if event_val > 0 else None,
                 "capped_event_ids": capped_event_ids,
                 "is_new": is_new,
             }
@@ -712,7 +745,12 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
     return df
 
 
-def build_reasons(row: pd.Series, creator_avg_gpm: float | None = None) -> tuple[list[str], list[str]]:
+def build_reasons(
+    row: pd.Series,
+    creator_avg_gpm: float | None = None,
+    spanish_gap_reason_max_share: float = 0.3,
+    exclude: frozenset[str] = frozenset(),
+) -> tuple[list[str], list[str]]:
     """`creator_avg_gpm` (added 2026-10-15, engine.fit.creator_avg_category_gpm):
     the "fit" component only renders as the category_fit reason -- citing her
     own $-per-1,000-views for this category -- when that number beats her own
@@ -720,7 +758,20 @@ def build_reasons(row: pd.Series, creator_avg_gpm: float | None = None) -> tuple
     than support it. When it doesn't beat the average (or `creator_avg_gpm`
     isn't given), "fit" is skipped and the next-strongest remaining component
     takes its slot instead, same as when a selected component turns out to
-    have no data to render (e.g. no Spanish-gap videos fetched)."""
+    have no data to render (e.g. no Spanish-gap videos fetched).
+
+    `spanish_gap_reason_max_share` (added 2026-10-16): the "spanish_gap"
+    reason only renders when `spanish_share` is actually low -- at or above
+    this share there's no real gap left to call out. Also fixes a real
+    count-inversion bug: the reason used to print the NON-Spanish count
+    while the sentence reads as "X of Y are in Spanish," so a product with
+    zero Spanish videos said "10 of 10" -- literally the opposite of what it
+    meant.
+
+    `exclude` (added 2026-10-16): component names to drop before ranking --
+    used for the simplified card's one-sentence summary, which must not
+    repeat the earnings reason since that's already the card's own headline
+    ("Ganas $X por venta")."""
     components = {
         "momentum": row["wow"],
         "earnings": row["earnings_per_sale"] - 1.5,  # magnitude relative to the "worth it" floor
@@ -728,6 +779,8 @@ def build_reasons(row: pd.Series, creator_avg_gpm: float | None = None) -> tuple
         "seasonality": row["season_val"],
         "fit": row["z_fit"],
     }
+    for key in exclude:
+        components.pop(key, None)
     ranked = select_top_reasons(components, max_reasons=len(components))
     reasons_es, reasons_en = [], []
     for comp in ranked:
@@ -740,9 +793,13 @@ def build_reasons(row: pd.Series, creator_avg_gpm: float | None = None) -> tuple
             elif comp == "earnings":
                 reasons_es.append(render_reason("earnings", "es", amount=row["earnings_per_sale"]))
                 reasons_en.append(render_reason("earnings", "en", amount=row["earnings_per_sale"]))
-            elif comp == "spanish_gap" and pd.notna(row.get("spanish_share")):
+            elif (
+                comp == "spanish_gap"
+                and pd.notna(row.get("spanish_share"))
+                and row["spanish_share"] < spanish_gap_reason_max_share
+            ):
                 total = int(row.get("spanish_video_count") or 0)
-                n_es = round((1 - row["spanish_share"]) * total)
+                n_es = round(row["spanish_share"] * total)  # count of Spanish videos, not non-Spanish (was inverted)
                 reasons_es.append(render_reason("spanish_gap", "es", n=n_es, total=total))
                 reasons_en.append(render_reason("spanish_gap", "en", n=n_es, total=total))
             elif comp == "seasonality" and pd.notna(row.get("matched_event_id")):
@@ -846,16 +903,41 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
     return picks
 
 
-def picks_to_export_dicts(picks: list[dict], creator_avg_gpm: float | None = None) -> list[dict]:
+def _video_card_dicts(videos: list[dict] | None, limit: int) -> list[dict]:
+    return [
+        {
+            "video_id": v["video_id"],
+            "cover_url": v.get("cover_url") or "",
+            "tiktok_url": v.get("tiktok_url") or "",
+            "creator_handle": v.get("creator_handle") or "",
+            "play_count": v.get("play_count", 0),
+            "window_gmv": v.get("window_gmv", 0.0),
+            "window_units_sold": v.get("window_units_sold", 0),
+        }
+        for v in (videos or [])[:limit]
+    ]
+
+
+def picks_to_export_dicts(
+    picks: list[dict], creator_avg_gpm: float | None = None, spanish_gap_reason_max_share: float = 0.3
+) -> list[dict]:
     out = []
     for p in picks:
-        reasons_es, reasons_en = build_reasons(pd.Series(p), creator_avg_gpm)
+        row = pd.Series(p)
+        reasons_es, reasons_en = build_reasons(row, creator_avg_gpm, spanish_gap_reason_max_share)
+        # The simplified card (added 2026-10-16) shows ONE plain sentence
+        # instead of a bullet list, combining the non-earnings reasons --
+        # earnings is already the card's own headline ("Ganas $X por venta").
+        summary_reasons_es, summary_reasons_en = build_reasons(
+            row, creator_avg_gpm, spanish_gap_reason_max_share, exclude=frozenset({"earnings"})
+        )
         out.append(
             {
                 "slot": p["slot"],
                 "kind": p["kind"],
                 "product_id": p["product_id"],
                 "title": p["title"],
+                "clean_title": clean_title(p["title"]),
                 "image_url": p.get("image_url") or "",
                 "category": p["config_category"],
                 "shop_name": p["shop_name"],
@@ -868,9 +950,46 @@ def picks_to_export_dicts(picks: list[dict], creator_avg_gpm: float | None = Non
                 "ev_upside": round(p["ev_upside"], 2),
                 "reasons_es": reasons_es,
                 "reasons_en": reasons_en,
+                "summary_es": join_reasons_as_sentence(summary_reasons_es, "es"),
+                "summary_en": join_reasons_as_sentence(summary_reasons_en, "en"),
+                "videos": _video_card_dicts(p.get("videos"), limit=3),
+                "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=p["product_id"]),
             }
         )
     return out
+
+
+def product_detail_dict(pick: dict) -> dict:
+    """Full detail for one pick's product page (added 2026-10-16) -- written
+    once per pick, not per candidate, since that's all the dashboard links to."""
+    return {
+        "product_id": pick["product_id"],
+        "title": pick["title"],
+        "image_url": pick.get("image_url") or "",
+        "category": pick["config_category"],
+        "shop_name": pick["shop_name"],
+        "price": pick["price"],
+        "commission_rate": pick["commission_rate"],
+        "earnings_per_sale": round(pick["earnings_per_sale"], 2),
+        "daily_units_14": pick.get("daily_units_14") or [],
+        "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=pick["product_id"]),
+        "videos": _video_card_dicts(pick.get("videos"), limit=6),
+    }
+
+
+def cache_pick_images(picks: list[dict]) -> None:
+    """Downloads each pick's product photo and video thumbnails into
+    web/public/img/ (added 2026-10-16) so the dashboard never depends on
+    hotlinking FastMoss's/TikTok's CDN; mutates `picks` in place, falling
+    back to the original remote url on any download failure."""
+    for p in picks:
+        cached = cache_image(p.get("image_url"), f"product_{p['product_id']}")
+        if cached:
+            p["image_url"] = cached
+        for v in p.get("videos") or []:
+            cached_cover = cache_image(v.get("cover_url"), f"video_{v['video_id']}")
+            if cached_cover:
+                v["cover_url"] = cached_cover
 
 
 def candidates_to_export_dicts(df: pd.DataFrame, flagged: list[dict] | None = None) -> list[dict]:
@@ -975,16 +1094,20 @@ async def run(args: argparse.Namespace) -> None:
 
     weights = config["weights"]
     picks = assemble_picks(df, weights, config["seasons"]["events"]) if not df.empty else []
+    cache_pick_images(picks)
     creators_cfg = config["creators"][CREATOR]
     creator_avg_gpm = creator_avg_category_gpm(
         creators_cfg["category_gpm_per_1k_views"], creators_cfg["category_views"]
     )
-    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm)
+    spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
+    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share)
     candidate_dicts = candidates_to_export_dicts(df, flagged)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
         export.write_candidates(week, candidate_dicts)
+        for pick in picks:
+            export.write_product(pick["product_id"], product_detail_dict(pick))
         conn = connect(REPO_ROOT / "data" / "radar.db")
         for stage in tracker.stage_log:
             write_ledger_row(conn, run_id, stage["stage"], stage["credits"], True, stage["note"])
