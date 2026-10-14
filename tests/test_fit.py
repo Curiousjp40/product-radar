@@ -3,8 +3,11 @@ import math
 import pytest
 
 from engine.fit import (
+    audience_fit,
     blended_price_fit,
     category_prior_raw,
+    demographic_fit_heuristic,
+    demographic_match_score,
     feedback_penalty,
     fit_score,
     is_excluded,
@@ -80,6 +83,38 @@ def test_feedback_penalty_applies_within_window():
     assert feedback_penalty(is_similar=True, weeks_since_feedback=3, window_weeks=8) == 0.1
     assert feedback_penalty(is_similar=True, weeks_since_feedback=9, window_weeks=8) == 0.0
     assert feedback_penalty(is_similar=False, weeks_since_feedback=1, window_weeks=8) == 0.0
+
+
+def test_demographic_match_score_identical_mix():
+    assert demographic_match_score(buyer_male_share_pct=62, audience_male_share_pct=62) == 1.0
+
+
+def test_demographic_match_score_opposite_mix():
+    assert demographic_match_score(buyer_male_share_pct=100, audience_male_share_pct=0) == 0.0
+
+
+def test_demographic_match_score_partial_mix():
+    assert demographic_match_score(buyer_male_share_pct=70, audience_male_share_pct=62) == pytest.approx(0.92)
+
+
+def test_demographic_fit_heuristic_matches_mens_keyword():
+    assert demographic_fit_heuristic("Men's Compression Shaper Vest", "Menswear & Underwear") == 0.65
+
+
+def test_demographic_fit_heuristic_matches_gift_keyword():
+    assert demographic_fit_heuristic("Father's Day Gift Set") == 0.65
+
+
+def test_demographic_fit_heuristic_neutral_otherwise():
+    assert demographic_fit_heuristic("Seamless Tummy Control Shorts", "Shapewear") == 0.5
+
+
+def test_audience_fit_blends_spanish_and_demographic():
+    assert audience_fit(spanish_component=0.8, demographic_component=0.4) == pytest.approx(0.5 * 0.8 + 0.5 * 0.4)
+
+
+def test_audience_fit_defaults_to_neutral_when_both_missing():
+    assert audience_fit(spanish_component=None, demographic_component=None) == 0.5
 
 
 def test_fit_score_formula():

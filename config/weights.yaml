@@ -55,6 +55,10 @@ fit: # section 6.6
     category_prior: 0.6
     price_fit: 0.25
     audience_fit: 0.15
+  audience_fit_weights: # within the audience_fit term above (added 2026-10-14)
+    spanish: 0.5
+    demographic: 0.5
+  demographic_fit_heuristic_boost: 0.65 # used only when FastMoss has no buyer-demographics field
 
 seasonality: # section 6.7
   event_lookahead_days: 21

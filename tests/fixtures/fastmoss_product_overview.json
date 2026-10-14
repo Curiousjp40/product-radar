@@ -1,0 +1,59 @@
+{
+  "_fixture_note": "filter={product_id:1732352660592628585, time_range_days:28}. Confirmed 3 credits (balance 491->488). KEY FINDINGS: (1) ads_distribution.breakdown is a LIST of {traffic_source, gmv_share_percent, units_sold_share_percent, ...} rows (traffic_source values seen: 'ad_traffic', 'non_ad_video_traffic') -- NOT a flat ads_share_percent field as originally guessed. (2) NO buyer age/gender demographics anywhere in this response -- confirms the audience-fit extension must fall back to the keyword heuristic. (3) daily_trend[].daily_new_linked_creator_count and .daily_new_linked_video_count are exactly the per-day new-creator/video counts section 6.2's 'lead' indicator needs -- summing the last 7 vs prior 7 entries gives lead_raw without any extra call.",
+  "params": {"filter": {"product_id": "1732352660592628585", "time_range_days": 28}},
+  "result": {
+    "product_id": "1732352660592628585",
+    "title": "(KKPeople Easy-Off Bodysuit) Tummy Control Butt Lifter Faja Bodysuit, Back Support Scrunch Back Open Design, Postpartum Recovery Full Body Shaper with Cotton Gusset, Colombian Fajas Everyday Wear for Women",
+    "region": "US",
+    "currency_code": "USD",
+    "ads_distribution": {
+      "total_gmv": 1453108.58,
+      "total_units_sold": 55199,
+      "breakdown": [
+        {"traffic_source": "ad_traffic", "gmv": 606834.48, "gmv_share_percent": 42, "units_sold": 23136, "units_sold_share_percent": 42},
+        {"traffic_source": "non_ad_video_traffic", "gmv": 846274.1, "gmv_share_percent": 58, "units_sold": 32063, "units_sold_share_percent": 58}
+      ]
+    },
+    "channel_distribution": {
+      "total_gmv": 1453108.58,
+      "total_units_sold": 55199,
+      "breakdown": [
+        {"sales_channel": "product_card", "gmv": 415739.46, "gmv_share_percent": 29, "units_sold": 15774, "units_sold_share_percent": 29},
+        {"sales_channel": "shop_account", "gmv": 48327.22, "gmv_share_percent": 3, "units_sold": 1781, "units_sold_share_percent": 3},
+        {"sales_channel": "affiliate", "gmv": 989041.9, "gmv_share_percent": 68, "units_sold": 37644, "units_sold_share_percent": 68}
+      ]
+    },
+    "content_distribution": {
+      "total_gmv": 1453108.58,
+      "total_units_sold": 55199,
+      "breakdown": [
+        {"content_type": "video", "gmv": 742272.58, "gmv_share_percent": 51, "units_sold": 28356, "units_sold_share_percent": 51},
+        {"content_type": "live", "gmv": 295096.54, "gmv_share_percent": 20, "units_sold": 11069, "units_sold_share_percent": 20},
+        {"content_type": "product_card", "gmv": 415739.46, "gmv_share_percent": 29, "units_sold": 15774, "units_sold_share_percent": 29}
+      ]
+    },
+    "period_summary": {
+      "avg_daily_gmv": 51896, "avg_daily_units_sold": 1971, "current_price": 26.32,
+      "linked_creator_count": 857, "linked_live_count": 2442, "linked_video_count": 1645,
+      "live_gmv": 295096.54, "live_units_sold": 11069,
+      "period_total_gmv": 1453108.58, "period_total_units_sold": 55199,
+      "video_gmv": 742272.58, "video_units_sold": 28356
+    },
+    "daily_trend": [
+      {"date": "2026-10-01", "daily_gmv": 54745.08, "daily_units_sold": 1847, "average_order_value": 29.64, "daily_new_linked_creator_count": 108, "daily_new_linked_live_count": 84, "daily_new_linked_video_count": 75, "cumulative_gmv": 2676457.02, "cumulative_units_sold": 96864, "cumulative_linked_creator_count": 2320, "cumulative_linked_live_count": 5714, "cumulative_linked_video_count": 5705},
+      {"date": "2026-10-02", "daily_gmv": 65695.2, "daily_units_sold": 2649, "average_order_value": 24.8, "daily_new_linked_creator_count": 97, "daily_new_linked_live_count": 84, "daily_new_linked_video_count": 45, "cumulative_gmv": 2742152.22, "cumulative_units_sold": 99513, "cumulative_linked_creator_count": 2336, "cumulative_linked_live_count": 5798, "cumulative_linked_video_count": 5750},
+      {"date": "2026-10-03", "daily_gmv": 56221.6, "daily_units_sold": 2267, "average_order_value": 24.8, "daily_new_linked_creator_count": 105, "daily_new_linked_live_count": 88, "daily_new_linked_video_count": 64, "cumulative_gmv": 2798373.82, "cumulative_units_sold": 101780, "cumulative_linked_creator_count": 2356, "cumulative_linked_live_count": 5886, "cumulative_linked_video_count": 5814},
+      {"date": "2026-10-04", "daily_gmv": 55056, "daily_units_sold": 2220, "average_order_value": 24.8, "daily_new_linked_creator_count": 104, "daily_new_linked_live_count": 89, "daily_new_linked_video_count": 71, "cumulative_gmv": 2853429.82, "cumulative_units_sold": 104000, "cumulative_linked_creator_count": 2368, "cumulative_linked_live_count": 5975, "cumulative_linked_video_count": 5885},
+      {"date": "2026-10-05", "daily_gmv": 51856.8, "daily_units_sold": 2091, "average_order_value": 24.8, "daily_new_linked_creator_count": 86, "daily_new_linked_live_count": 71, "daily_new_linked_video_count": 43, "cumulative_gmv": 2905286.62, "cumulative_units_sold": 106091, "cumulative_linked_creator_count": 2373, "cumulative_linked_live_count": 6046, "cumulative_linked_video_count": 5928},
+      {"date": "2026-10-06", "daily_gmv": 58310, "daily_units_sold": 2450, "average_order_value": 23.8, "daily_new_linked_creator_count": 111, "daily_new_linked_live_count": 98, "daily_new_linked_video_count": 58, "cumulative_gmv": 2963596.62, "cumulative_units_sold": 108541, "cumulative_linked_creator_count": 2387, "cumulative_linked_live_count": 6144, "cumulative_linked_video_count": 5986},
+      {"date": "2026-10-07", "daily_gmv": 53145.4, "daily_units_sold": 2233, "average_order_value": 23.8, "daily_new_linked_creator_count": 112, "daily_new_linked_live_count": 88, "daily_new_linked_video_count": 68, "cumulative_gmv": 3016742.02, "cumulative_units_sold": 110774, "cumulative_linked_creator_count": 2408, "cumulative_linked_live_count": 6232, "cumulative_linked_video_count": 6054},
+      {"date": "2026-10-08", "daily_gmv": 47085.9, "daily_units_sold": 1891, "average_order_value": 24.9, "daily_new_linked_creator_count": 105, "daily_new_linked_live_count": 92, "daily_new_linked_video_count": 63, "cumulative_gmv": 3063827.92, "cumulative_units_sold": 112665, "cumulative_linked_creator_count": 2421, "cumulative_linked_live_count": 6324, "cumulative_linked_video_count": 6117},
+      {"date": "2026-10-09", "daily_gmv": 62573.7, "daily_units_sold": 2513, "average_order_value": 24.9, "daily_new_linked_creator_count": 116, "daily_new_linked_live_count": 93, "daily_new_linked_video_count": 73, "cumulative_gmv": 3126401.62, "cumulative_units_sold": 115178, "cumulative_linked_creator_count": 2436, "cumulative_linked_live_count": 6417, "cumulative_linked_video_count": 6190},
+      {"date": "2026-10-10", "daily_gmv": 60058.8, "daily_units_sold": 2412, "average_order_value": 24.9, "daily_new_linked_creator_count": 103, "daily_new_linked_live_count": 86, "daily_new_linked_video_count": 65, "cumulative_gmv": 3186460.42, "cumulative_units_sold": 117590, "cumulative_linked_creator_count": 2452, "cumulative_linked_live_count": 6503, "cumulative_linked_video_count": 6255},
+      {"date": "2026-10-11", "daily_gmv": 73828.5, "daily_units_sold": 2965, "average_order_value": 24.9, "daily_new_linked_creator_count": 92, "daily_new_linked_live_count": 76, "daily_new_linked_video_count": 59, "cumulative_gmv": 3260288.92, "cumulative_units_sold": 120555, "cumulative_linked_creator_count": 2470, "cumulative_linked_live_count": 6579, "cumulative_linked_video_count": 6314},
+      {"date": "2026-10-12", "daily_gmv": 84983.7, "daily_units_sold": 3413, "average_order_value": 24.9, "daily_new_linked_creator_count": 103, "daily_new_linked_live_count": 92, "daily_new_linked_video_count": 69, "cumulative_gmv": 3345272.62, "cumulative_units_sold": 123968, "cumulative_linked_creator_count": 2492, "cumulative_linked_live_count": 6671, "cumulative_linked_video_count": 6383},
+      {"date": "2026-10-13", "daily_gmv": 60256.5, "daily_units_sold": 2085, "average_order_value": 28.9, "daily_new_linked_creator_count": 113, "daily_new_linked_live_count": 83, "daily_new_linked_video_count": 85, "cumulative_gmv": 3405529.12, "cumulative_units_sold": 126053, "cumulative_linked_creator_count": 2519, "cumulative_linked_live_count": 6754, "cumulative_linked_video_count": 6468},
+      {"date": "2026-10-14", "daily_gmv": 75546.6, "daily_units_sold": 3034, "average_order_value": 24.9, "daily_new_linked_creator_count": 124, "daily_new_linked_live_count": 100, "daily_new_linked_video_count": 71, "cumulative_gmv": 3481075.72, "cumulative_units_sold": 129087, "cumulative_linked_creator_count": 2543, "cumulative_linked_live_count": 6854, "cumulative_linked_video_count": 6539}
+    ]
+  }
+}

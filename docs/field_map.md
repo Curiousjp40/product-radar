@@ -66,9 +66,19 @@ useful timezone.
 | published timestamp | `published_at_ts` (unix) + `published_at_display` (string, UTC+8 -- see Timezone section) | video_search | creator_video_analysis only has `published_at` (unix), no display string. |
 | linked product(s) | `linked_products[]` (array -- a video can sell more than one product), `linked_product_count` | video_search, creator_video_analysis | `engine.models.CreatorVideo.product_id` (singular) will need a decision in Phase 1 about which linked product "counts" when there's more than one. |
 
-## Not yet confirmed (not called this phase, to keep Phase 0 credit-light)
+## product_overview (confirmed 2026-10-15, Phase 1 -- 3 credits, matches spec's tier)
 
-- Review **count** (vs. the `product_rating` average found above) -- candidate: `product_review_list`.
-- Explicit `category_l2` string separate from the l1/l2/l3 object shape above for `engine.models.Product.category_l2` -- probably just `category.l2.name`, same shape as l1, not separately confirmed with its own call.
-- `rank_delta` over time -- needs two weekly snapshots to compute; nothing to confirm from a single Phase 0 call.
-- **New as of spec commit b793b5a (momentum `lead` term + ads-share risk rule, 2026-10-14):** `product_creator_analysis` and `product_video_list`'s exact field names for per-window creator/video counts (feeding `engine.features.lead_raw`), and `product_overview`'s exact field name for the ad-vs-organic traffic split (feeding `engine.scoring.risk_penalty`'s `ads_share_pct`). The pure functions that consume these take already-extracted plain numbers, so nothing in `engine/` guesses a FastMoss field name yet -- but `normalize.py` (Phase 1) will need real calls to these three tools before it can fill those parameters from live data.
+Called for `data/seed`'s #1 shapewear product (`1732352660592628585`), `time_range_days=28`. Real shape, not guessed:
+
+| Concept | Real field(s) | Notes |
+|---|---|---|
+| ads-vs-organic risk input (section 6.9, `ads_share_pct`) | `ads_distribution.breakdown[]`, each row `{traffic_source, gmv_share_percent, units_sold_share_percent, ...}` | **Not** a flat `ads_share_percent` field (that was a guess, now corrected in `engine/normalize.py`). Find the row where `traffic_source == "ad_traffic"` and read its `gmv_share_percent`. Only two traffic_source values seen: `"ad_traffic"` and `"non_ad_video_traffic"`. |
+| momentum `lead` term (section 6.2) | `daily_trend[].daily_new_linked_creator_count`, `.daily_new_linked_video_count` | **This is the lead signal, directly** -- no need for `product_creator_analysis`/`product_video_list` as originally guessed in the spec text. Sum the last 7 days' values vs the prior 7 for `engine.features.lead_raw`. Needs `time_range_days >= 14`. |
+| buyer demographics (age/gender) for the audience-fit extension | **not present anywhere in the response** | Confirmed absent (`ads_distribution`, `channel_distribution`, `content_distribution`, `daily_trend`, `period_summary` -- none carry buyer age/gender). The audience-fit term always falls back to `engine.fit.demographic_fit_heuristic` (keyword-based); there is no FastMoss tool call yet found that returns this. |
+| other fields seen | `channel_distribution` (product_card/shop_account/affiliate GMV split), `content_distribution` (video/live/product_card split), `period_summary.current_price`, `.linked_creator_count/live_count/video_count` (same concept as product_sales_trend's `period_summary`, just a different time window) | Not currently wired into any engine function; noted for future use. |
+
+## Not yet confirmed
+
+- Review **count** (vs. the `product_rating` average found via `video_detail_analysis`) -- candidate: `product_review_list`.
+- Explicit `category_l2` string separate from the l1/l2/l3 object shape for `engine.models.Product.category_l2` -- probably just `category.l2.name`, same shape as l1, not separately confirmed with its own call.
+- `rank_delta` over time -- needs two weekly snapshots to compute; nothing to confirm from a single run.

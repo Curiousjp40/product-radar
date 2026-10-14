@@ -97,6 +97,45 @@ def feedback_penalty(is_similar: bool, weeks_since_feedback: int, window_weeks: 
     return 0.0
 
 
+_MALE_KEYWORDS = {"men's", "mens", "for him", "man", "male", "husband", "boyfriend", "dad", "father", "menswear"}
+_GIFT_KEYWORDS = {"gift", "present", "fathers day", "father's day", "valentine", "anniversary"}
+
+
+def demographic_match_score(buyer_male_share_pct: float, audience_male_share_pct: float) -> float:
+    """How well a product's buyer gender mix matches the creator's own
+    FastMoss audience gender mix (section 6.6 audience-fit extension, added
+    2026-10-14). Both are percent numbers (0-100), matching FastMoss's own
+    percent-integer convention. 1.0 = identical mix, 0.0 = opposite."""
+    return clamp(1 - abs(buyer_male_share_pct - audience_male_share_pct) / 100, 0.0, 1.0)
+
+
+def demographic_fit_heuristic(title: str, category_name: str = "", boost: float = 0.65, neutral: float = 0.5) -> float:
+    """Fallback audience-demographic signal when FastMoss doesn't return
+    buyer demographics for a product (checked via product_overview; see
+    docs/field_map.md): boost products that read as sold to men or bought as
+    gifts, since the creator's own FastMoss audience skews male. Keyword-based
+    and deliberately crude -- a real buyer-demographics field always wins."""
+    text = f"{title} {category_name}".lower()
+    if any(kw in text for kw in _MALE_KEYWORDS) or any(kw in text for kw in _GIFT_KEYWORDS):
+        return boost
+    return neutral
+
+
+def audience_fit(
+    spanish_component: float | None,
+    demographic_component: float | None,
+    spanish_weight: float = 0.5,
+    demographic_weight: float = 0.5,
+) -> float:
+    """audience_fit, section 6.6 step 4 (`F`'s third input), extended with a
+    demographic-fit term added alongside the Spanish gap (section 6.8) --
+    each defaults to neutral 0.5 when not computed, matching the spec's own
+    "or 0.5 if not computed" convention for this input."""
+    spanish = spanish_component if spanish_component is not None else 0.5
+    demographic = demographic_component if demographic_component is not None else 0.5
+    return spanish_weight * spanish + demographic_weight * demographic
+
+
 def fit_score(
     category_prior_norm: float,
     price_fit: float,
