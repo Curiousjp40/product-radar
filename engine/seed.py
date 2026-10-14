@@ -10,6 +10,15 @@ from pathlib import Path
 
 from engine.models import CreatorVideo
 
+# Confirmed from the real data/seed/creator_history.json (video_type field):
+# spec section 2's totals are "shop videos only" -- filtering to this value
+# reproduces section 2.1's reported numbers exactly (46 Roxie / 50 Ari videos).
+SHOP_VIDEO_TYPE = "Shoppable Video"
+
+
+def shop_videos_only(videos: list[CreatorVideo]) -> list[CreatorVideo]:
+    return [v for v in videos if v.video_type == SHOP_VIDEO_TYPE]
+
 
 def _record_to_video(record: dict) -> CreatorVideo:
     """Map a raw JSON record onto CreatorVideo.

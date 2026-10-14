@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "note": "Shop videos only (video_type == 'Shoppable Video'), per spec section 2.",
+  "roxm___": {
+    "length_sweet_spot": {
+      "13-20s": {
+        "video_count": 13,
+        "gmv_per_video": 375.15384615384613,
+        "units_per_10k_views": 11.17685375195731
+      },
+      "21-30s": {
+        "video_count": 17,
+        "gmv_per_video": 835.9411764705883,
+        "units_per_10k_views": 4.53489227467254
+      },
+      "31s+": {
+        "video_count": 7,
+        "gmv_per_video": 156.0,
+        "units_per_10k_views": 5.9280838739181245
+      },
+      "<=12s": {
+        "video_count": 9,
+        "gmv_per_video": 126.55555555555556,
+        "units_per_10k_views": 1.870519600012133
+      }
+    },
+    "reach_vs_engagement": {
+      "views_gmv_corr": 0.6065790145643655,
+      "interaction_rate_gmv_corr": -0.22031946123635218
+    },
+    "hit_tracker": {
+      "gmv_top1_share": 0.4455649889769689,
+      "gmv_top5_share": 0.7603546132557812,
+      "videos_per_week": 0.802992518703242
+    },
+    "format_tags": {
+      "reply": {
+        "video_count": 5,
+        "gmv_per_video": 128.8,
+        "units_per_10k_views": 8.353023966313284
+      }
+    },
+    "summary": {
+      "video_count": 46,
+      "gmv": 21319.0,
+      "units": 1212,
+      "views": 1963471,
+      "median_views_per_video": 3683.0,
+      "median_gmv_per_video": 44.0,
+      "avg_price_per_unit": 17.589933993399338,
+      "units_per_10k_views": 6.172742047119616,
+      "gmv_per_1k_views": 10.857812516711476,
+      "gmv_top1_share": 0.4455649889769689,
+      "gmv_top5_share": 0.7603546132557812
+    }
+  },
+  "ariannamendoza04": {
+    "length_sweet_spot": {
+      "13-20s": {
+        "video_count": 12,
+        "gmv_per_video": 938.4166666666666,
+        "units_per_10k_views": 6.016490653928723
+      },
+      "21-30s": {
+        "video_count": 26,
+        "gmv_per_video": 982.2307692307693,
+        "units_per_10k_views": 8.856370881024061
+      },
+      "31s+": {
+        "video_count": 11,
+        "gmv_per_video": 2627.909090909091,
+        "units_per_10k_views": 4.496358870463989
+      },
+      "<=12s": {
+        "video_count": 1,
+        "gmv_per_video": 301.0,
+        "units_per_10k_views": 5.47945205479452
+      }
+    },
+    "reach_vs_engagement": {
+      "views_gmv_corr": 0.5890516206482593,
+      "interaction_rate_gmv_corr": 0.12653120980469987
+    },
+    "hit_tracker": {
+      "gmv_top1_share": 0.31136091626645657,
+      "gmv_top5_share": 0.6394170315269593,
+      "videos_per_week": 0.8684863523573201
+    },
+    "format_tags": {
+      "reply": {
+        "video_count": 4,
+        "gmv_per_video": 654.25,
+        "units_per_10k_views": 0.3336236143926938
+      }
+    },
+    "summary": {
+      "video_count": 50,
+      "gmv": 66007.0,
+      "units": 1480,
+      "views": 2607709,
+      "median_views_per_video": 10250.0,
+      "median_gmv_per_video": 371.0,
+      "avg_price_per_unit": 44.59932432432432,
+      "units_per_10k_views": 5.675479894420735,
+      "gmv_per_1k_views": 25.312256850745232,
+      "gmv_top1_share": 0.31136091626645657,
+      "gmv_top5_share": 0.6394170315269593
+    }
+  }
+}

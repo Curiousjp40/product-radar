@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "id": "halloween_2026",
+      "label_es": "Halloween",
+      "label_en": "Halloween",
+      "categories": [
+        "seasonal"
+      ],
+      "film_start": "2026-09-10",
+      "film_end": "2026-10-20"
+    },
+    {
+      "id": "bfcm_2026",
+      "label_es": "Black Friday / Cyber Monday",
+      "label_en": "Black Friday / Cyber Monday",
+      "categories": [
+        "shapewear",
+        "womens_clothing",
+        "home_decor",
+        "beauty_hair",
+        "seasonal",
+        "other"
+      ],
+      "film_start": "2026-11-01",
+      "film_end": "2026-12-02",
+      "boosted_categories": [
+        "shapewear",
+        "womens_clothing"
+      ]
+    },
+    {
+      "id": "holiday_gifting_2026",
+      "label_es": "Regalos de temporada",
+      "label_en": "Holiday gifting",
+      "categories": [
+        "home_decor",
+        "beauty_hair",
+        "seasonal",
+        "other"
+      ],
+      "film_start": "2026-12-01",
+      "film_end": "2026-12-20"
+    },
+    {
+      "id": "winter_new_year_2026",
+      "label_es": "Invierno / Ano Nuevo",
+      "label_en": "Winter / New Year",
+      "categories": [
+        "womens_clothing",
+        "seasonal"
+      ],
+      "film_start": "2026-12-01",
+      "film_end": "2027-01-15",
+      "notes_en": "Thermal leggings, winter dresses",
+      "notes_es": "Leggings termicos, vestidos de invierno"
+    },
+    {
+      "id": "valentines_2027",
+      "label_es": "San Valentin",
+      "label_en": "Valentine's Day",
+      "categories": [
+        "womens_clothing",
+        "beauty_hair",
+        "seasonal"
+      ],
+      "film_start": "2027-01-20",
+      "film_end": "2027-02-14"
+    },
+    {
+      "id": "mothers_day_2027",
+      "label_es": "Dia de las Madres / Mother's Day",
+      "label_en": "Mother's Day",
+      "categories": [
+        "home_decor",
+        "beauty_hair",
+        "seasonal"
+      ],
+      "film_start": "2027-04-20",
+      "film_end": "2027-05-10",
+      "notes_en": "US Mother's Day 2027-05-09, Dia de las Madres (fixed) 2027-05-10",
+      "notes_es": "Dia de las Madres EEUU 2027-05-09, Dia de las Madres fijo 2027-05-10"
+    },
+    {
+      "id": "graduation_2027",
+      "label_es": "Graduacion",
+      "label_en": "Graduation",
+      "categories": [
+        "womens_clothing",
+        "home_decor",
+        "other"
+      ],
+      "film_start": "2027-04-01",
+      "film_end": "2027-05-31"
+    },
+    {
+      "id": "deals_for_you_days_2027",
+      "label_es": "TikTok Deals for You Days (verano)",
+      "label_en": "TikTok Deals for You Days (summer)",
+      "categories": [
+        "home_decor",
+        "seasonal"
+      ],
+      "film_start": null,
+      "film_end": null,
+      "notes_en": "2026 instance: Ari made $23,864 in home (Jun) and $12,589 (Jul). Dates vary yearly.",
+      "notes_es": "Instancia 2026: Ari gano $23,864 en home (jun) y $12,589 (jul). Las fechas varian cada ano."
+    },
+    {
+      "id": "back_to_school_2027",
+      "label_es": "Regreso a clases",
+      "label_en": "Back to school",
+      "categories": [
+        "womens_clothing",
+        "beauty_hair",
+        "other"
+      ],
+      "film_start": "2027-07-15",
+      "film_end": "2027-08-31"
+    }
+  ]
+}
