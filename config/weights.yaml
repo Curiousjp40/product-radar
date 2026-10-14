@@ -112,9 +112,27 @@ picks: # section 6.12 / 6.13
     ev_weight: 0.5
   recent_film_exclusion_days: 30
   explore_min_trials_considered_tested: 5 # not specified by spec; our own default for Thompson sampling
+  # Per-event pick caps (e.g. "max 1 Halloween pick") now live on the event itself
+  # in config/seasons.yaml (`max_picks`), not here -- a single global number
+  # can't distinguish a scarcity event like Halloween from a broad scoring
+  # boost like Black Friday that's meant to match most categories.
+
+quality: # suspicious-listing filter, added 2026-10-15 after a real same-shop/
+  # same-round-price/boilerplate-title cluster slipped through scoring untouched
+  price_outlier_multiplier: 4.0 # price > this x the category median price
+  round_price_divisor: 50 # a price is "suspiciously round" if it's an exact multiple of this
+  round_price_min_cluster: 2 # min unrelated same-shop-same-price products to flag the cluster
+  low_density_gmv_threshold: 20000 # "high GMV" floor for the low-creator-density check
+  low_density_min_creators: 5 # below this creator_count (when known) + high GMV = flagged
+  low_affiliate_share_threshold_pct: 20 # affiliate-channel GMV share below this = not content-driven
+
+seasonality_extra: # added 2026-10-15
+  season_ending_warning_days: 14
+  season_ending_floor: 0.3 # minimum multiplier once a film window is about to close
+  boosted_category_multiplier: 1.3 # extra lift for a season's boosted_categories (e.g. Black Friday)
 
 credits: # section 9
-  hard_cap_per_run: 90
+  hard_cap_per_run: 60 # tightened 2026-10-15 from 90 (spec default) per explicit instruction
   skip_optional_stages_below_balance: 150
   digest_warn_month_projection_above: 400
   daily_series_refetch_min_days: 6

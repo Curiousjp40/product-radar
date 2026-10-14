@@ -7,10 +7,10 @@
       "title": "OEAK Women Jelly Bras Wirefree Full Coverage No Underwire Everyday Bras Comfortable Wireless Padded Tshirt Bra",
       "category": "shapewear",
       "shop_name": "OEAK Apparel",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 17.0,
       "commission_rate": 0.1,
-      "score": 27,
+      "score": 24,
       "ev_typical": 1.93,
       "daily_units": [
         5856,
@@ -27,17 +27,18 @@
         3926,
         2113,
         2863
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1732282937141662165",
       "title": "LUCKMEEY Womens Strapless Front Closure Bra Push Up Lift Bra Padded Add Cup Non Slip  Anti-Slip Grip & Removable Straps Fit Outfits Wireless Supportive  Seamless Comfortable",
       "category": "shapewear",
       "shop_name": "LUCKMEEY",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 29.99,
       "commission_rate": 0.1,
-      "score": 45,
+      "score": 43,
       "ev_typical": 7.15,
       "daily_units": [
         1763,
@@ -54,7 +55,8 @@
         3543,
         1398,
         1554
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1732352660592628585",
@@ -64,7 +66,7 @@
       "stage": "rising",
       "price": 24.9,
       "commission_rate": 0.15,
-      "score": 57,
+      "score": 58,
       "ev_typical": 9.82,
       "daily_units": [
         1847,
@@ -81,17 +83,18 @@
         3413,
         2085,
         3034
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1731067410570514957",
       "title": "ComfortStretch Back Smoothing T-Shirt Bra",
       "category": "shapewear",
       "shop_name": "Thirdlove",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 78.0,
       "commission_rate": 0.12,
-      "score": 40,
+      "score": 38,
       "ev_typical": 10.64,
       "daily_units": [
         1,
@@ -108,17 +111,18 @@
         0,
         0,
         0
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1731262278839865452",
       "title": "SHAPSHE Waist Shapewear for Women Corset Sport Workout Belly Band Gym",
       "category": "shapewear",
       "shop_name": "SHAPSHE",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 46.98,
       "commission_rate": 0.1,
-      "score": 38,
+      "score": 37,
       "ev_typical": 10.49,
       "daily_units": [
         694,
@@ -135,17 +139,18 @@
         736,
         711,
         671
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1730936224134435123",
       "title": "OEAK Jelly Bras Women Seamless Lift Bra Wireless Push Up No Underwire Full Coverage Plus Bras Comfort Supportive Sports T-Shirt Bra",
       "category": "shapewear",
       "shop_name": "OEAK Apparel",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 17.0,
       "commission_rate": 0.1,
-      "score": 30,
+      "score": 27,
       "ev_typical": 2.26,
       "daily_units": [
         2422,
@@ -162,305 +167,278 @@
         2066,
         1069,
         1739
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1729406693411230691",
       "title": "Women's Official Magic Fleece Lined Tights - High Waist, Body Slimming Compression Band, Plus Size Chic Cute Women's Fashion Clothes, 1-Seam Option, Closed Foot, XXS-3XL, 4 Shades, Light-Brown Fur Fleece, Cold Wash, Viral Item",
       "category": "shapewear",
       "shop_name": "SWEET MAYHEM",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 43.38,
       "commission_rate": 0.12,
-      "score": 64,
+      "score": 62,
       "ev_typical": 11.83,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731610554383569260",
       "title": "SHAPERX Shapewear for Women Tummy Control Bodysuits Zip-Up Comfort Ultra Stretch Fabric Customizable Fit Breathable Mesh Design Comfortable Fit",
       "category": "shapewear",
       "shop_name": "SHAPERX",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 38.99,
       "commission_rate": 0.15,
-      "score": 54,
+      "score": 55,
       "ev_typical": 13.3,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732302921291305752",
       "title": "YIANNA V-Shaped Shapewear Moldeadoras Faja for Women Tummy Control  with Zipper Closure Womenswear Moldadoras Faja",
       "category": "shapewear",
       "shop_name": "YIANNA INC",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 40.0,
       "commission_rate": 0.15,
       "score": 54,
       "ev_typical": 13.64,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1729538565601989133",
       "title": "24/7\u00ae Classic T-Shirt Bra Fit Lingerie",
       "category": "shapewear",
       "shop_name": "Thirdlove",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 74.0,
       "commission_rate": 0.12,
-      "score": 64,
+      "score": 61,
       "ev_typical": 20.19,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731684545402213210",
       "title": "No Prisoners Pirate Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 119.0,
       "commission_rate": 0.1,
       "score": 54,
       "ev_typical": 27.05,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1729404448458052442",
       "title": "Bite The Boyfriend Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 69.0,
       "commission_rate": 0.1,
       "score": 53,
       "ev_typical": 15.69,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731684419142914906",
       "title": "Play Along Cowboy Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 149.0,
       "commission_rate": 0.1,
       "score": 55,
       "ev_typical": 33.87,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731835472232223592",
       "title": "Cat Fight 5 Piece Costume Set - Black",
       "category": "womens_clothing",
       "shop_name": "Fashion Nova",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 41.5,
       "commission_rate": 0.1,
       "score": 55,
       "ev_typical": 9.43,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731684420159378266",
       "title": "Revenge Assassin Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 69.0,
       "commission_rate": 0.1,
       "score": 47,
       "ev_typical": 15.69,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731684756568249178",
       "title": "911 Firefighter Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 76.0,
       "commission_rate": 0.1,
       "score": 52,
       "ev_typical": 17.28,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732567897806639543",
       "title": "Tipsy Elves Women's Original Halloween Costumes",
       "category": "womens_clothing",
       "shop_name": "Tipsy Elves",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 39.87,
       "commission_rate": 0.25,
       "score": 58,
       "ev_typical": 22.66,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732605365699645884",
       "title": "Forplay Women's Halloween Catwalk 4-Piece Women's Cat Costume",
       "category": "womens_clothing",
       "shop_name": "Forplay Catalog",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 51.8,
       "commission_rate": 0.1,
       "score": 65,
       "ev_typical": 11.78,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1729450355894621018",
       "title": "Fast N' Curious Costume",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 167.7,
       "commission_rate": 0.1,
       "score": 46,
       "ev_typical": 38.13,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1729586161668821850",
       "title": "Werewolf High School Doll Costume And Wig Set",
       "category": "womens_clothing",
       "shop_name": "Dolls Kill",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 83.0,
       "commission_rate": 0.1,
       "score": 48,
       "ev_typical": 18.87,
-      "daily_units": NaN
-    },
-    {
-      "product_id": "1732508081350873951",
-      "title": "Multi-Purpose Handy Hooks - Home Supplies Organizer, Storage Shelf Compatible, Meticulous Wrapping, Fast Shipping; Contact Customer Service for Inquiries, Handy Hook",
-      "category": "home_decor",
-      "shop_name": "peaouter",
-      "stage": "evergreen",
-      "price": 200.0,
-      "commission_rate": 0.13,
-      "score": 68,
-      "ev_typical": 59.11,
-      "daily_units": NaN
-    },
-    {
-      "product_id": "1732507817475085151",
-      "title": "Care.fully packaged, promptly shipped, please contact customer service.",
-      "category": "home_decor",
-      "shop_name": "peaouter",
-      "stage": "evergreen",
-      "price": 200.0,
-      "commission_rate": 0.13,
-      "score": 47,
-      "ev_typical": 59.11,
-      "daily_units": NaN
-    },
-    {
-      "product_id": "1732507958384825183",
-      "title": "Vinyl Window Stickers & Films - Home Decor Items, Decal Sticker for Room Decoration, Meticulous Wrap, Quick Delivery, Customer Service Support for Inquiries",
-      "category": "home_decor",
-      "shop_name": "peaouter",
-      "stage": "evergreen",
-      "price": 200.0,
-      "commission_rate": 0.13,
-      "score": 67,
-      "ev_typical": 59.11,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731094019182858978",
       "title": "Sweetcrispy Aluminium LED Backlit Arched Floor Standing Mirror - Dimmable 3-Color 200-LED, Clarity-Adjustable, Safety-Enhanced Bedroom Body Mirror, Freestanding Wall-Space-Saving, Floor/Wall/Hang Mount Room & House Decor Accessory",
       "category": "home_decor",
       "shop_name": "Sweetcrispy Official",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 71.0,
       "commission_rate": 0.05,
-      "score": 63,
+      "score": 54,
       "ev_typical": 8.07,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732491682604749463",
       "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
       "category": "home_decor",
       "shop_name": "histrips.",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 42.5,
       "commission_rate": 0.25,
-      "score": 64,
+      "score": 62,
       "ev_typical": 24.16,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732502071354822887",
       "title": "Handmade Crochet Flowers Bouquet Halloween Gift Pumpkin Ghost Bouquet Halloween Decor Gift for Her Friend Gift Forever Flowers Handmade Halloween Decoration",
       "category": "home_decor",
       "shop_name": "YouSeeCrochet",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 35.09,
       "commission_rate": 0.12,
-      "score": 69,
+      "score": 59,
       "ev_typical": 9.57,
-      "daily_units": NaN
-    },
-    {
-      "product_id": "1732385229562876389",
-      "title": "Home Decor Poster, Warranty Card, Thank You Card Set for Home Supplies",
-      "category": "home_decor",
-      "shop_name": "Ideal Poster",
-      "stage": "evergreen",
-      "price": 133.33,
-      "commission_rate": 0.08,
-      "score": 42,
-      "ev_typical": 24.25,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732609546327724526",
       "title": "USA Landmark Travel Stickers, American Cities & National Parks Decal Pack, Statue of Liberty, Golden Gate Bridge, Hollywood, Yellowstone Vinyl Stickers",
       "category": "home_decor",
       "shop_name": "Bloom & Tidy",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 25.99,
       "commission_rate": 0.1,
-      "score": 59,
+      "score": 53,
       "ev_typical": 5.91,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732675986034496244",
       "title": "Care & Assistance for Your Wall Art Posters  Terracotta Typography Print, Aesthetic Home D\u00e9cor for Bedroom Living Room Office",
       "category": "home_decor",
       "shop_name": "Wave-Wall",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 75.0,
       "commission_rate": 0.12,
-      "score": 41,
+      "score": 52,
       "ev_typical": 20.46,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731583186078437389",
       "title": "Sweetcrispy Floor Mirror Stand Mirror Full Length, With LED Lights and No LED Lights Two styles, LED Floor Mirror styles Dimming & 3 Color Lighting",
       "category": "home_decor",
       "shop_name": "Sweetcrispy S",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 52.0,
       "commission_rate": 0.05,
-      "score": 38,
+      "score": 45,
       "ev_typical": 5.91,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732052189676081387",
       "title": "[medicube] Smooth & Clear Body Care Set | Hypochlorous Acid Body Peel Shot, Kojic Acid Turmeric Body Wash, Toner Pad, Toner, Mist | Exfoliating for Dead Skin Cells & Excess Sebum & Clearing for After Spots, Texture & Uneven Skin Tone | K-Beauty",
       "category": "beauty_hair",
       "shop_name": "medicube US Store",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 31.0,
       "commission_rate": 0.15,
-      "score": 52,
+      "score": 63,
       "ev_typical": 10.89,
       "daily_units": [
         6383,
@@ -477,7 +455,8 @@
         8637,
         9423,
         7754
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1731625997827871273",
@@ -487,7 +466,7 @@
       "stage": "rising",
       "price": 59.99,
       "commission_rate": 0.12,
-      "score": 52,
+      "score": 61,
       "ev_typical": 19.38,
       "daily_units": [
         3504,
@@ -504,7 +483,8 @@
         6718,
         3933,
         3326
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1731572915654201371",
@@ -514,7 +494,7 @@
       "stage": "rising",
       "price": 36.27,
       "commission_rate": 0.15,
-      "score": 62,
+      "score": 68,
       "ev_typical": 18.6,
       "daily_units": [
         1430,
@@ -531,17 +511,18 @@
         4667,
         3404,
         3179
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1729716038966481710",
       "title": "Fenty Skin Butta Drop Body Cream + Body Milk Body Care Hydrating Lotion Duo",
       "category": "beauty_hair",
       "shop_name": "Fenty Beauty",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 77.0,
       "commission_rate": 0.15,
-      "score": 45,
+      "score": 49,
       "ev_typical": 31.24,
       "daily_units": [
         640,
@@ -558,44 +539,18 @@
         427,
         324,
         521
-      ]
-    },
-    {
-      "product_id": "1732384645264281749",
-      "title": "Byenblan Fanm Andey\u00f2 Tumeric Face Cream - Natural Skincare for Radiant Skin, Moisturizing and Nourishing Formula, Ideal for Daily Use 2oz",
-      "category": "beauty_hair",
-      "shop_name": "Byenblan",
-      "stage": "rising",
-      "price": 15.6,
-      "commission_rate": 0.01,
-      "score": 28,
-      "ev_typical": 0.71,
-      "daily_units": [
-        0,
-        11,
-        27,
-        20,
-        46,
-        46,
-        63,
-        111,
-        109,
-        14549,
-        471,
-        37,
-        6,
-        30
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1730227578434589155",
       "title": "Caramela Beauty Cyperus Rotundus Oil - 60ml/2oz Naturally Derived Gentle Moisturizing Hair Inhibitor, Body & Massage Oil for Sensitive Skin, Waxing Aftercare, Strawberry Skin Fix, Smooth Silky Beauty Products, Daily",
       "category": "beauty_hair",
       "shop_name": "Caramela Beauty",
-      "stage": "evergreen",
+      "stage": "rising",
       "price": 38.99,
       "commission_rate": 0.25,
-      "score": 54,
+      "score": 59,
       "ev_typical": 26.79,
       "daily_units": [
         708,
@@ -612,55 +567,143 @@
         1275,
         1223,
         799
-      ]
+      ],
+      "suspicious": false
     },
     {
       "product_id": "1731923439835452222",
       "title": "15-Day Fast-Acting Anti Cellulite Massage Cream | Cryo Thermo Firming Gold Gel with CryoGold | Cellulite Appearance Smoothing & Firming Body Cream with Hyaluronic Acid | For Belly, Thighs, Butt & Arms | 200g#self care gift#gift ideas",
       "category": "beauty_hair",
       "shop_name": "EXPRESSIONS US",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 23.9,
       "commission_rate": 0.15,
-      "score": 47,
+      "score": 50,
       "ev_typical": 8.15,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1732321182598533162",
       "title": "The Body Refining Combo - Brightening Body Wash 8fl oz, Exfoliating Body Wash 8fl oz & AHA Body Lotion 8fl oz | Gently Exfoliates, Helps Improve Skin Texture & Deeply Moisturizes",
       "category": "beauty_hair",
       "shop_name": "Chemist at Play",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 25.0,
       "commission_rate": 0.165,
-      "score": 48,
+      "score": 50,
       "ev_typical": 9.38,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731398973952594329",
       "title": "GOPURE Tighten & Smooth Belly Firming Cream",
       "category": "beauty_hair",
       "shop_name": "Gopure",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 49.99,
       "commission_rate": 0.2,
-      "score": 56,
+      "score": 60,
       "ev_typical": 22.73,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
     },
     {
       "product_id": "1731626958257754665",
       "title": "PHOFAY Bikini Pain-Free Hair removal spray  for Sensitive Skin\uff0cHypoallergenic Formula -Gentle & Fast-Acting Hair removal spray\uff0cGinseng\u3001Aloe & Hyaluronic Acid for Soothing Care,Suitable for Men & Women,backtoschool",
       "category": "beauty_hair",
       "shop_name": "PHOFAY-Skin Care",
-      "stage": "evergreen",
+      "stage": "new_to_radar",
       "price": 22.99,
       "commission_rate": 0.1,
-      "score": 47,
+      "score": 48,
       "ev_typical": 5.23,
-      "daily_units": NaN
+      "daily_units": NaN,
+      "suspicious": false
+    },
+    {
+      "product_id": "1732508081350873951",
+      "title": "Multi-Purpose Handy Hooks - Home Supplies Organizer, Storage Shelf Compatible, Meticulous Wrapping, Fast Shipping; Contact Customer Service for Inquiries, Handy Hook",
+      "category": "home_decor",
+      "shop_name": "peaouter",
+      "stage": null,
+      "price": 200.0,
+      "commission_rate": 0.13,
+      "score": null,
+      "ev_typical": null,
+      "daily_units": [],
+      "suspicious": true,
+      "suspicious_reasons": [
+        "boilerplate/templated title",
+        "shares an identical round price with unrelated products from the same shop"
+      ]
+    },
+    {
+      "product_id": "1732507817475085151",
+      "title": "Care.fully packaged, promptly shipped, please contact customer service.",
+      "category": "home_decor",
+      "shop_name": "peaouter",
+      "stage": null,
+      "price": 200.0,
+      "commission_rate": 0.13,
+      "score": null,
+      "ev_typical": null,
+      "daily_units": [],
+      "suspicious": true,
+      "suspicious_reasons": [
+        "boilerplate/templated title",
+        "shares an identical round price with unrelated products from the same shop"
+      ]
+    },
+    {
+      "product_id": "1732507958384825183",
+      "title": "Vinyl Window Stickers & Films - Home Decor Items, Decal Sticker for Room Decoration, Meticulous Wrap, Quick Delivery, Customer Service Support for Inquiries",
+      "category": "home_decor",
+      "shop_name": "peaouter",
+      "stage": null,
+      "price": 200.0,
+      "commission_rate": 0.13,
+      "score": null,
+      "ev_typical": null,
+      "daily_units": [],
+      "suspicious": true,
+      "suspicious_reasons": [
+        "boilerplate/templated title",
+        "shares an identical round price with unrelated products from the same shop"
+      ]
+    },
+    {
+      "product_id": "1732385229562876389",
+      "title": "Home Decor Poster, Warranty Card, Thank You Card Set for Home Supplies",
+      "category": "home_decor",
+      "shop_name": "Ideal Poster",
+      "stage": null,
+      "price": 133.33,
+      "commission_rate": 0.08,
+      "score": null,
+      "ev_typical": null,
+      "daily_units": [],
+      "suspicious": true,
+      "suspicious_reasons": [
+        "boilerplate/templated title"
+      ]
+    },
+    {
+      "product_id": "1732384645264281749",
+      "title": "Byenblan Fanm Andey\u00f2 Tumeric Face Cream - Natural Skincare for Radiant Skin, Moisturizing and Nourishing Formula, Ideal for Daily Use 2oz",
+      "category": "beauty_hair",
+      "shop_name": "Byenblan",
+      "stage": null,
+      "price": 15.6,
+      "commission_rate": 0.01,
+      "score": null,
+      "ev_typical": null,
+      "daily_units": [],
+      "suspicious": true,
+      "suspicious_reasons": [
+        "high GMV but very few linked creators (sales look buyer/ad-driven, not content-driven)"
+      ]
     }
   ]
 }

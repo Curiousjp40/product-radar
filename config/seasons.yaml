@@ -14,6 +14,17 @@ events:
     categories: [seasonal]
     film_start: "2026-09-10"
     film_end: "2026-10-20"
+    max_picks: 1 # added 2026-10-15: Halloween costumes were crowding out everything else this close to film_end
+    title_keywords: [costume, halloween, pumpkin, witch, vampire, zombie] # real FastMoss top-selling
+    # "womens_clothing" rows are literally costume products (not tagged "seasonal") -- category-based
+    # event matching alone can't catch them for the max_picks cap, see title_matches_event_keywords
+
+  # NOTE: max_picks is per-event, not global -- bfcm_2026 below deliberately has
+  # none. It's a scoring BOOST across most of her categories (shapewear/winter
+  # clothing/gifts), not a scarcity event like Halloween, so it should never cap
+  # how many picks can match it (a global cap here collapsed the whole picks
+  # list to 1, since bfcm_2026 matches almost every candidate once it's within
+  # its 21-day lookahead window).
 
   - id: bfcm_2026
     label_es: Black Friday / Cyber Monday
@@ -21,7 +32,7 @@ events:
     categories: [shapewear, womens_clothing, home_decor, beauty_hair, seasonal, other]
     film_start: "2026-11-01"
     film_end: "2026-12-02"
-    boosted_categories: [shapewear, womens_clothing]
+    boosted_categories: [shapewear, womens_clothing, home_decor, beauty_hair] # shapewear/winter clothing/gifts
 
   - id: holiday_gifting_2026
     label_es: Regalos de temporada

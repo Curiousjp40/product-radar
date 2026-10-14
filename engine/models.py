@@ -12,7 +12,7 @@ from typing import Literal
 from pydantic import BaseModel
 
 SnapshotSource = Literal["top_selling", "rising", "search"]
-Stage = Literal["emerging", "rising", "peak", "evergreen", "declining"]
+Stage = Literal["emerging", "rising", "peak", "evergreen", "declining", "new_to_radar"]
 PickKind = Literal["core", "explore", "evergreen", "winner_again"]
 PipelineStatusName = Literal[
     "shortlisted", "sample_requested", "sample_received", "filmed", "posted", "skipped"

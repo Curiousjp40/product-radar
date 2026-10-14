@@ -48,6 +48,7 @@ from engine.language import spanish_share
 from engine.normalize import ads_share_pct_from_overview, lead_counts_from_overview, normalize_rank_row, trend_period_summary
 from engine.picks import (
     build_top10,
+    candidate_event_ids,
     compute_blended_ranks,
     filter_diverse_topn,
     pick_explore_categories,
@@ -55,6 +56,7 @@ from engine.picks import (
     select_top_reasons,
     thompson_sample_categories,
 )
+from engine.quality import shop_round_price_cluster_ids, suspicious_reasons
 from engine.scoring import (
     composite_score,
     earnings_per_sale,
@@ -65,7 +67,14 @@ from engine.scoring import (
     saturation_multiplier,
     spanish_gap,
 )
-from engine.seasonality import event_term, personal_term, seasonality_score
+from engine.seasonality import (
+    boosted_category_multiplier,
+    event_term,
+    personal_term,
+    season_ending_factor,
+    seasonality_score,
+    title_matches_event_keywords,
+)
 from engine.seed import load_creator_history, shop_videos_only
 from engine.stages import classify_stage
 from engine.stats import grouped_robust_z
@@ -149,6 +158,7 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
                     "config_category": key,
                     "category_l1": product.category_l1,
                     "category_l2": product.category_l2,
+                    "category_l3": row.get("category", {}).get("l3", {}).get("name"),
                     "title": product.title,
                     "image_url": product.image_url,
                     "shop_id": product.shop_id,
@@ -164,6 +174,7 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
                     "creator_count": None,
                     "video_count": None,
                     "ads_share_pct": None,
+                    "channel_breakdown": None,
                     "spanish_share": None,
                 }
             )
@@ -203,13 +214,12 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
         balance = await check_balance(client)
         tracker.checkpoint("trends", balance, note=f"product {trends_fetched}/{len(pool)}")
 
-    # Overview (ads-share risk input + leading-indicator input): limited to 6
-    # (expensive, 3-credit tier) but the best 1-2 per category, not a global
-    # top-6 -- same reasoning as the pool selection above.
+    # Overview (ads-share + channel-split risk inputs, leading-indicator input):
+    # the top 1 per category (expensive, 3-credit tier; tightened from top-2
+    # to keep a full real run around 50 credits, under the 60-credit target).
     overview_pool = []
     for key in category_ids:
-        overview_pool.extend([c for c in pool if c["config_category"] == key][:2])
-    overview_pool = overview_pool[:6]
+        overview_pool.extend([c for c in pool if c["config_category"] == key][:1])
     overviews_fetched = 0
     for cand in overview_pool:
         if tracker.would_exceed(3):
@@ -218,6 +228,7 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
             overview_raw = await fetch_overview(client, cand["product_id"])
             maybe_save_snapshot(f"overview_{cand['product_id']}", overview_raw)
             cand["ads_share_pct"] = ads_share_pct_from_overview(overview_raw)
+            cand["channel_breakdown"] = overview_raw.get("channel_distribution", {}).get("breakdown")
             lead_counts = lead_counts_from_overview(overview_raw)
             if lead_counts:
                 c7, p7, v7, vp7 = lead_counts
@@ -251,6 +262,7 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
                     "config_category": key,
                     "category_l1": product.category_l1,
                     "category_l2": product.category_l2,
+                    "category_l3": row.get("category", {}).get("l3", {}).get("name"),
                     "title": product.title,
                     "image_url": product.image_url,
                     "shop_id": product.shop_id,
@@ -266,6 +278,7 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
                     "creator_count": None,
                     "video_count": None,
                     "ads_share_pct": None,
+                    "channel_breakdown": None,
                     "spanish_share": None,
                 }
             )
@@ -283,20 +296,37 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
         overview_raw = load_raw_snapshot(week, f"overview_{cand['product_id']}")
         if overview_raw is not None:
             cand["ads_share_pct"] = ads_share_pct_from_overview(overview_raw)
+            cand["channel_breakdown"] = overview_raw.get("channel_distribution", {}).get("breakdown")
             lead_counts = lead_counts_from_overview(overview_raw)
             if lead_counts:
                 c7, p7, v7, vp7 = lead_counts
                 cand["lead_signal"] = lead_raw(c7, p7, v7, vp7)
+
+        # 2026-10-15: reuse a previously-saved video_search snapshot (written by
+        # enrich_spanish_gap on an earlier real run) so a pure re-score from
+        # snapshots doesn't need to re-fetch video search -- see
+        # enrich_spanish_gap's cache check below, which skips any candidate
+        # that already has spanish_share set here.
+        video_search_raw = load_raw_snapshot(week, f"video_search_{cand['product_id']}")
+        if video_search_raw is not None:
+            captions = video_search_raw.get("captions", [])
+            cand["spanish_share"] = spanish_share(captions)
+            cand["spanish_video_count"] = len(captions)
 
     return candidates
 
 
 async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
     """section 6.8: Spanish-gap video search, only for the preliminary top
-    ~10 candidates (budget)."""
+    ~10 candidates (budget). Skips any candidate that already has
+    `spanish_share` set (added 2026-10-15: ingest_from_snapshots now reuses a
+    prior run's saved video_search_<id>.json, so a re-score from snapshots
+    only pays for candidates that are newly in the shortlist)."""
     now_ts = now_eastern().timestamp()
     fetched = 0
     for cand in shortlist:
+        if cand.get("spanish_share") is not None:
+            continue
         if tracker.would_exceed(1):
             break
         try:
@@ -311,6 +341,56 @@ async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: 
         fetched += 1
         balance = await check_balance(client)
         tracker.checkpoint("spanish_gap", balance, note=f"candidate {fetched}/{len(shortlist)}")
+
+
+def partition_suspicious(candidates: list[dict], weights: dict) -> tuple[list[dict], list[dict]]:
+    """Splits candidates into (clean, flagged) using engine/quality.py's
+    rules, added 2026-10-15 after a real run surfaced a same-shop,
+    same-round-price, boilerplate-title cluster that nothing else in the
+    pipeline would catch. Flagged candidates are excluded from scoring/picks
+    but kept (with their reasons) for export, so they're visible, not just
+    silently dropped."""
+    q = weights.get("quality", {})
+    price_mult = q.get("price_outlier_multiplier", 4.0)
+    round_divisor = q.get("round_price_divisor", 50)
+    min_cluster = q.get("round_price_min_cluster", 2)
+    gmv_threshold = q.get("low_density_gmv_threshold", 20_000)
+    min_creators = q.get("low_density_min_creators", 5)
+    affiliate_threshold = q.get("low_affiliate_share_threshold_pct", 20)
+
+    # Category median price, grouped by L3 where the group is big enough to
+    # be meaningful (>= 3), else falling back to the broader config_category
+    # group -- most L3 subcategories only have 1-2 candidates in a 10-item
+    # ranking, too sparse for "the median of this L3" to mean anything.
+    by_l3: dict[str, list[float]] = {}
+    by_config_cat: dict[str, list[float]] = {}
+    for c in candidates:
+        by_l3.setdefault(c.get("category_l3") or "", []).append(c["price"])
+        by_config_cat.setdefault(c["config_category"], []).append(c["price"])
+
+    def category_median_price(c: dict) -> float:
+        l3_prices = by_l3.get(c.get("category_l3") or "", [])
+        prices = l3_prices if len(l3_prices) >= 3 else by_config_cat.get(c["config_category"], [])
+        return float(pd.Series(prices).median()) if prices else 0.0
+
+    cluster_ids = shop_round_price_cluster_ids(candidates, round_divisor, min_cluster)
+
+    clean, flagged = [], []
+    for c in candidates:
+        reasons = suspicious_reasons(
+            c,
+            category_median_price=category_median_price(c),
+            shop_price_cluster_ids=cluster_ids,
+            price_outlier_multiplier=price_mult,
+            low_density_gmv_threshold=gmv_threshold,
+            low_density_min_creators=min_creators,
+            low_affiliate_share_threshold_pct=affiliate_threshold,
+        )
+        if reasons:
+            flagged.append({**c, "suspicious_reasons": reasons})
+        else:
+            clean.append(c)
+    return clean, flagged
 
 
 # ---------------------------------------------------------------------------
@@ -332,7 +412,10 @@ def _creator_stats(config: dict) -> dict:
     return {
         "n_tracked_videos": len(roxie),
         "median_views": float(np.median(views)),
-        "p90_views": float(np.percentile(views, 90)),
+        # p75, not p90 (changed 2026-10-15 per explicit instruction) -- "si le
+        # va bien" (if it does well) should read as a realistic upside, not
+        # an outlier best-case.
+        "p75_views": float(np.percentile(views, 75)),
         "cvr_per_10k_views": summary["units_per_10k_views"],
         "by_month_category": by_month_category,
     }
@@ -410,18 +493,34 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
             for e in season_events
             if c["config_category"] in e.get("categories", []) and e.get("film_start") and e.get("film_end")
         ]
-        event_val = max(
-            (
-                event_term(
-                    today,
-                    date.fromisoformat(e["film_start"]),
-                    date.fromisoformat(e["film_end"]),
-                    weights["seasonality"]["event_lookahead_days"],
-                )
-                for e in matching_events
-            ),
-            default=0.0,
-        )
+        extra = weights["seasonality_extra"]
+        best_event: dict | None = None
+        event_val = 0.0
+        days_to_event_end: int | None = None
+        for e in matching_events:
+            film_start = date.fromisoformat(e["film_start"])
+            film_end = date.fromisoformat(e["film_end"])
+            raw = event_term(today, film_start, film_end, weights["seasonality"]["event_lookahead_days"])
+            ending_factor = season_ending_factor(today, film_end, extra["season_ending_warning_days"], extra["season_ending_floor"])
+            boost = boosted_category_multiplier(
+                c["config_category"], e.get("boosted_categories", []), extra["boosted_category_multiplier"]
+            )
+            adjusted = raw * ending_factor * boost
+            if best_event is None or adjusted > event_val:
+                event_val = adjusted
+                best_event = e
+                days_to_event_end = (film_end - today).days
+        # Per-event pick caps by title keyword (2026-10-15), independent of
+        # which event scores highest above: a Halloween costume tagged
+        # config_category="womens_clothing" can still be capped as Halloween
+        # even when Black Friday's boost wins the scoring comparison.
+        capped_event_ids = [
+            e["id"]
+            for e in season_events
+            if e.get("max_picks") is not None
+            and e.get("title_keywords")
+            and title_matches_event_keywords(c["title"], e["title_keywords"])
+        ]
         month_gmv = creator_stats["by_month_category"].get(today.month, {})
         personal_val = personal_term(
             category_month_gmv=month_gmv.get(c["config_category"], 0.0),
@@ -432,6 +531,10 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
         season_val = seasonality_score(event_val, personal_val, season_weights["event"], season_weights["personal"])
 
         is_new = creator_count is not None and creator_count < 5  # cold-start proxy, no category percentile yet
+        category_gpm = creators_cfg["category_gpm_per_1k_views"].get(
+            c["config_category"], config["creators"]["pooled_category_gpm_per_1k_views"].get(c["config_category"], 0.0)
+        )
+        category_meta = config["categories"]["categories"].get(c["config_category"], {})
         rows.append(
             {
                 **c,
@@ -447,9 +550,17 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
                 "demand_per_creator_raw": math.log1p(demand_per_creator_raw),
                 "saturation_raw": 0.0,  # first run: no prior-week creator_count to compute growth from
                 "fit_raw": fit_raw,
+                "category_gpm": category_gpm,
+                "category_label_es": category_meta.get("label_es", c["config_category"]),
+                "category_label_en": category_meta.get("label_en", c["config_category"]),
                 "event_val": event_val,
                 "personal_val": personal_val,
                 "season_val": season_val,
+                "matched_event_id": best_event["id"] if best_event and event_val > 0 else None,
+                "matched_event_label_es": best_event["label_es"] if best_event and event_val > 0 else None,
+                "matched_event_label_en": best_event["label_en"] if best_event and event_val > 0 else None,
+                "days_to_event_end": days_to_event_end if event_val > 0 else None,
+                "capped_event_ids": capped_event_ids,
                 "is_new": is_new,
             }
         )
@@ -588,7 +699,7 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
         return expected_value(views, creator_stats["cvr_per_10k_views"], r["price"], r["commission_rate"], m_mult, s_mult)
 
     df["ev_typical"] = df.apply(lambda r: _row_ev(r, creator_stats["median_views"]), axis=1)
-    df["ev_upside"] = df.apply(lambda r: _row_ev(r, creator_stats["p90_views"]), axis=1)
+    df["ev_upside"] = df.apply(lambda r: _row_ev(r, creator_stats["p75_views"]), axis=1)
 
     return df
 
@@ -616,12 +727,23 @@ def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
                 n_es = round((1 - row["spanish_share"]) * total)
                 reasons_es.append(render_reason("spanish_gap", "es", n=n_es, total=total))
                 reasons_en.append(render_reason("spanish_gap", "en", n=n_es, total=total))
-            elif comp == "seasonality" and row["event_val"] > 0:
-                reasons_es.append(f"Temporada activa para {row['config_category']}")
-                reasons_en.append(f"Active season for {row['config_category']}")
+            elif comp == "seasonality" and pd.notna(row.get("matched_event_id")):
+                reasons_es.append(
+                    render_reason("seasonality", "es", event=row["matched_event_label_es"], days=int(row["days_to_event_end"]))
+                )
+                reasons_en.append(
+                    render_reason("seasonality", "en", event=row["matched_event_label_en"], days=int(row["days_to_event_end"]))
+                )
             elif comp == "fit":
-                reasons_es.append(render_reason("fit", "es"))
-                reasons_en.append(render_reason("fit", "en"))
+                # cites her own real category_gpm (GMV per 1,000 views), not
+                # a vague "this works for you" (fixed 2026-10-15, every other
+                # reason already cited a real number, this one didn't).
+                reasons_es.append(
+                    render_reason("category_fit", "es", category_label=row["category_label_es"], gpm=row["category_gpm"])
+                )
+                reasons_en.append(
+                    render_reason("category_fit", "en", category_label=row["category_label_en"], gpm=row["category_gpm"])
+                )
         except KeyError:
             continue
     return reasons_es, reasons_en
@@ -632,29 +754,55 @@ def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
 # ---------------------------------------------------------------------------
 
 
-def assemble_picks(df: pd.DataFrame, weights: dict) -> list[dict]:
+def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | None = None) -> list[dict]:
     if df.empty:
         return []
     records = df.to_dict("records")
     for r in records:
         r["category"] = r["config_category"]
     ranked = compute_blended_ranks(records)
+    # Per-event pick caps (section 6.7 extended, 2026-10-15): only events that
+    # declare their own `max_picks` in config/seasons.yaml are capped (e.g.
+    # Halloween, this close to film_end) -- a broad boost like bfcm_2026 that
+    # matches most candidates must stay uncapped, see filter_diverse_topn.
+    event_caps = {e["id"]: e["max_picks"] for e in (season_events or []) if e.get("max_picks") is not None}
     diverse = filter_diverse_topn(
         ranked,
         n=weights["picks"]["core_slots"] + weights["picks"]["explore_slots"] + weights["picks"]["evergreen_slots"],
         max_per_category=weights["picks"]["max_per_category"],
         max_per_shop=weights["picks"]["max_per_shop"],
         title_jaccard_threshold=weights["picks"]["title_jaccard_duplicate_threshold"],
+        event_caps=event_caps,
     )
 
     categories = sorted(df["config_category"].unique())
     beliefs = {c: (1.0, 1.0) for c in categories}  # first run: no history, uniform Beta(1,1) prior
     sampled = thompson_sample_categories(beliefs)
     explore_cats = pick_explore_categories(sampled, trial_counts=dict.fromkeys(categories, 0), k=weights["picks"]["explore_slots"])
-    used_ids = {c["product_id"] for c in diverse[: weights["picks"]["core_slots"]]}
-    explore_candidates = [
-        c for c in ranked if c["config_category"] in explore_cats and c["product_id"] not in used_ids
-    ][: weights["picks"]["explore_slots"]]
+    core_selected = diverse[: weights["picks"]["core_slots"]]
+    used_ids = {c["product_id"] for c in core_selected}
+    # Event caps must carry over from the core selection into explore too
+    # (added 2026-10-15): explore candidates come straight from `ranked`, not
+    # from `diverse`, so without this a second Halloween costume could still
+    # slip in through the explore slot even with max_picks=1 on Halloween.
+    event_counts: dict[str, int] = {}
+    for c in core_selected:
+        for eid in candidate_event_ids(c):
+            if eid in event_caps:
+                event_counts[eid] = event_counts.get(eid, 0) + 1
+    explore_candidates: list[dict] = []
+    for c in ranked:
+        if len(explore_candidates) >= weights["picks"]["explore_slots"]:
+            break
+        if c["config_category"] not in explore_cats or c["product_id"] in used_ids:
+            continue
+        ids = candidate_event_ids(c)
+        if any(eid in event_caps and event_counts.get(eid, 0) >= event_caps[eid] for eid in ids):
+            continue
+        explore_candidates.append(c)
+        for eid in ids:
+            if eid in event_caps:
+                event_counts[eid] = event_counts.get(eid, 0) + 1
 
     picks = build_top10(
         ranked_diverse_candidates=diverse,
@@ -694,7 +842,7 @@ def picks_to_export_dicts(picks: list[dict]) -> list[dict]:
     return out
 
 
-def candidates_to_export_dicts(df: pd.DataFrame) -> list[dict]:
+def candidates_to_export_dicts(df: pd.DataFrame, flagged: list[dict] | None = None) -> list[dict]:
     out = []
     for _, r in df.iterrows():
         out.append(
@@ -709,6 +857,27 @@ def candidates_to_export_dicts(df: pd.DataFrame) -> list[dict]:
                 "score": int(r["score"]),
                 "ev_typical": round(r["ev_typical"], 2),
                 "daily_units": r["daily_units_14"] or [],
+                "suspicious": False,
+            }
+        )
+    # Suspicious listings (added 2026-10-15): excluded from scoring, kept
+    # here with their reasons so they're visible rather than silently
+    # dropped (spec'd as "exclude + record reason in candidates.json").
+    for c in flagged or []:
+        out.append(
+            {
+                "product_id": c["product_id"],
+                "title": c["title"],
+                "category": c["config_category"],
+                "shop_name": c["shop_name"],
+                "stage": None,
+                "price": c["price"],
+                "commission_rate": c["commission_rate"],
+                "score": None,
+                "ev_typical": None,
+                "daily_units": [],
+                "suspicious": True,
+                "suspicious_reasons": c["suspicious_reasons"],
             }
         )
     return out
@@ -739,6 +908,7 @@ async def run(args: argparse.Namespace) -> None:
     client_cm = FixtureReplayClient(DRY_RUN_FIXTURES) if args.dry_run else FastMossClient()
 
     df = pd.DataFrame()
+    flagged: list[dict] = []
     async with client_cm as client:
         starting_balance = await check_balance(client)
         tracker = BudgetTracker(hard_cap=args.budget, starting_balance=starting_balance, run_id=run_id)
@@ -752,6 +922,10 @@ async def run(args: argparse.Namespace) -> None:
                 pool = ingest_from_snapshots(args.resume_week, category_keys)
             else:
                 pool = await ingest(client, config, week, date_value, tracker, args.dry_run)
+            # Suspicious-listing filter (added 2026-10-15): exclude from
+            # scoring/picks, but keep (with reasons) for export so they're
+            # visible rather than silently dropped.
+            pool, flagged = partition_suspicious(pool, config["weights"])
             creator_stats = _creator_stats(config)
             df = score_pool(pool, config, creator_stats, today)
 
@@ -769,9 +943,9 @@ async def run(args: argparse.Namespace) -> None:
         final_balance = await check_balance(client)
 
     weights = config["weights"]
-    picks = assemble_picks(df, weights) if not df.empty else []
+    picks = assemble_picks(df, weights, config["seasons"]["events"]) if not df.empty else []
     pick_dicts = picks_to_export_dicts(picks)
-    candidate_dicts = candidates_to_export_dicts(df) if not df.empty else []
+    candidate_dicts = candidates_to_export_dicts(df, flagged)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
@@ -796,6 +970,11 @@ async def run(args: argparse.Namespace) -> None:
             ),
         )
 
+    if flagged:
+        print(f"\nExcluded {len(flagged)} suspicious listing(s):")
+        for c in flagged:
+            print(f"  - {c['title'][:60]} ({c['shop_name']}): {'; '.join(c['suspicious_reasons'])}")
+
     if args.print_picks or args.dry_run:
         print_picks(pick_dicts)
     print(f"\nCredits this run: {tracker.spent} (cap {args.budget}). Balance: {final_balance}/500.")
@@ -807,7 +986,7 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="replay fixtures, zero credits")
     parser.add_argument("--week", default=None, help="ISO week label, e.g. 2026-W43 (default: current)")
     parser.add_argument("--print-picks", action="store_true", help="print the Top 10 to stdout")
-    parser.add_argument("--budget", type=int, default=80, help="hard credit cap for this run")
+    parser.add_argument("--budget", type=int, default=60, help="hard credit cap for this run")
     parser.add_argument(
         "--resume-week",
         default=None,

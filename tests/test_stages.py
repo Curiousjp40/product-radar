@@ -63,7 +63,21 @@ def test_declining_wins_over_evergreen_overlap():
     assert classify_stage(**params) == "declining"
 
 
-def test_fallback_is_evergreen_when_nothing_matches():
+def test_fallback_is_new_to_radar_when_nothing_matches():
     # below median, mild negative slope, not enough weeks tracked, no rank data
     params = _with(units_7d=50, category_median_units_7d=100, slope14=-0.01, weeks_tracked_last_8=1)
-    assert classify_stage(**params) == "evergreen"
+    assert classify_stage(**params) == "new_to_radar"
+
+
+def test_first_week_product_is_new_to_radar_not_evergreen():
+    # the exact real-world case this fix targets: week 1, flat/no slope signal,
+    # units right at the category median -- used to fall through to "evergreen"
+    params = _with(units_7d=100, category_median_units_7d=100, slope14=0.0, weeks_tracked_last_8=1)
+    assert classify_stage(**params) == "new_to_radar"
+
+
+def test_evergreen_requires_six_of_eight_weeks_not_just_flat_slope():
+    # flat slope alone (no emerging/rising/peak/declining match) with too few
+    # tracked weeks must NOT be labeled evergreen just because it's quiet
+    params = _with(units_7d=100, category_median_units_7d=100, slope14=0.0, weeks_tracked_last_8=5)
+    assert classify_stage(**params) == "new_to_radar"

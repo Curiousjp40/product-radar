@@ -167,6 +167,10 @@ h2.view-title {
   background: #3b1616;
   color: var(--bad);
 }
+.badge.stage-new_to_radar {
+  background: #2a3341;
+  color: var(--text-dim);
+}
 
 .badge.kind {
   background: var(--surface-2);

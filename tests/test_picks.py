@@ -76,6 +76,56 @@ def test_filter_diverse_topn_drops_near_duplicate_titles():
     assert "c" in ids
 
 
+def test_filter_diverse_topn_respects_per_event_cap():
+    candidates = [_cand(str(i), category=f"cat{i}", shop=f"shop{i}") for i in range(4)]
+    for c in candidates:
+        c["matched_event_id"] = "halloween_2026"
+    out = filter_diverse_topn(candidates, n=4, max_per_category=3, max_per_shop=2, event_caps={"halloween_2026": 1})
+    assert len(out) == 1
+
+
+def test_filter_diverse_topn_season_event_cap_ignores_unmatched_candidates():
+    candidates = [_cand(str(i), category=f"cat{i}", shop=f"shop{i}") for i in range(3)]
+    candidates[0]["matched_event_id"] = "halloween_2026"
+    candidates[1]["matched_event_id"] = "halloween_2026"
+    candidates[2]["matched_event_id"] = None  # no event match -- never capped
+    out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2, event_caps={"halloween_2026": 1})
+    ids = {c["product_id"] for c in out}
+    assert ids == {"0", "2"}  # first halloween pick kept, second dropped, non-event one kept
+
+
+def test_filter_diverse_topn_event_with_no_configured_cap_is_never_capped():
+    # e.g. bfcm_2026: a broad scoring boost that matches most candidates --
+    # it must NOT collapse the picks list just because it has no entry in
+    # event_caps (the real bug this guards against, found 2026-10-15).
+    candidates = [_cand(str(i), category=f"cat{i}", shop=f"shop{i}") for i in range(3)]
+    for c in candidates:
+        c["matched_event_id"] = "bfcm_2026"
+    out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2, event_caps={"halloween_2026": 1})
+    assert len(out) == 3
+
+
+def test_filter_diverse_topn_caps_by_title_keyword_even_when_best_event_differs():
+    # the real bug this guards against: Halloween costumes whose matched_event_id
+    # is bfcm_2026 (Black Friday's boost outscores Halloween's as its window
+    # closes) must still count against Halloween's cap via capped_event_ids,
+    # set from title keywords -- otherwise "max 1 Halloween pick" is inert.
+    candidates = [_cand(str(i), category=f"cat{i}", shop=f"shop{i}") for i in range(3)]
+    for c in candidates:
+        c["matched_event_id"] = "bfcm_2026"
+        c["capped_event_ids"] = ["halloween_2026"]
+    out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2, event_caps={"halloween_2026": 1})
+    assert len(out) == 1
+
+
+def test_filter_diverse_topn_no_season_cap_by_default():
+    candidates = [_cand(str(i), category=f"cat{i}", shop=f"shop{i}") for i in range(3)]
+    for c in candidates:
+        c["matched_event_id"] = "halloween_2026"
+    out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2)
+    assert len(out) == 3
+
+
 def test_exclude_recent_films_keeps_winner_again():
     candidates = [_cand("a"), _cand("b")]
     out = exclude_recent_films(candidates, recently_filmed_product_ids={"a", "b"}, winner_again_product_ids={"a"})
@@ -119,6 +169,21 @@ def test_build_top10_fills_slots_in_priority_order_and_dedupes():
     assert [p["slot"] for p in picks] == list(range(1, 11))
 
 
+def test_build_top10_displays_core_first_then_explore_then_evergreen():
+    # selection priority (evergreen/explore claim a product first) is
+    # independent from DISPLAY order: core picks show first, in their
+    # existing blended-rank order, then explore, then evergreen last.
+    core = [_cand("c1"), _cand("c2"), _cand("c3")]
+    explore = [_cand("e1"), _cand("e2")]
+    evergreen = _cand("ever1")
+    picks = build_top10(core, explore, evergreen, core_slots=3, explore_slots=2, evergreen_slots=1)
+    kinds = [p["kind"] for p in picks]
+    assert kinds == ["core", "core", "core", "explore", "explore", "evergreen"]
+    ids = [p["product_id"] for p in picks]
+    assert ids == ["c1", "c2", "c3", "e1", "e2", "ever1"]
+    assert [p["slot"] for p in picks] == [1, 2, 3, 4, 5, 6]
+
+
 def test_build_top10_dedupes_overlap_between_buckets():
     core = [_cand("a"), _cand("b"), _cand("c")]
     explore = [_cand("a")]  # same product as a core candidate
@@ -136,6 +201,13 @@ def test_render_reason_es_and_en():
     assert render_reason("momentum", "es", pct=38) == "Ventas subiendo 38% esta semana"
     assert render_reason("momentum", "en", pct=38) == "Sales up 38% this week"
     assert render_reason("earnings", "es", amount=6.4) == "Pagas ~$6.40 por venta"
+
+
+def test_render_reason_category_fit_cites_a_real_number():
+    es = render_reason("category_fit", "es", category_label="Fajas", gpm=20.79)
+    assert es == "Fajas: $20.79 por cada 1,000 vistas para ti"
+    en = render_reason("category_fit", "en", category_label="Shapewear", gpm=20.79)
+    assert en == "Shapewear: $20.79 per 1,000 views for you"
 
 
 def test_render_reason_unknown_component_raises():

@@ -35,32 +35,66 @@ def is_near_duplicate(title_a: str, title_b: str, threshold: float = 0.6) -> boo
     return jaccard(tokenize_title(title_a), tokenize_title(title_b)) > threshold
 
 
+def candidate_event_ids(cand: dict) -> list[str]:
+    """Which event ids a candidate counts against for `event_caps` purposes:
+    its `capped_event_ids` (title-keyword matches, see engine/run.py's
+    score_pool) if present, else falling back to `[matched_event_id]`."""
+    event_ids = cand.get("capped_event_ids")
+    if event_ids:
+        return event_ids
+    matched = cand.get("matched_event_id")
+    return [matched] if matched is not None else []
+
+
 def filter_diverse_topn(
     ranked_candidates: list[dict],
     n: int,
     max_per_category: int = 3,
     max_per_shop: int = 2,
     title_jaccard_threshold: float = 0.6,
+    event_caps: dict[str, int] | None = None,
 ) -> list[dict]:
     """Greedy pick from `ranked_candidates` (best first), enforcing section
-    6.12 step 3's diversity caps and near-duplicate exclusion."""
+    6.12 step 3's diversity caps and near-duplicate exclusion.
+
+    `event_caps` (added 2026-10-15, e.g. "max 1 Halloween pick"): maps an
+    event id to how many selected candidates may count against it. This is
+    PER-EVENT, not global, on purpose: an event with no entry in `event_caps`
+    (e.g. a broad scoring boost like Black Friday, which matches most
+    categories) is never capped -- a single global cap here previously
+    collapsed the whole picks list to 1 once Black Friday's 21-day lookahead
+    window opened and started matching nearly every candidate as its best
+    event. A candidate counts against an event via its `capped_event_ids`
+    list if present (set by the scoring pipeline from title-keyword matches,
+    since e.g. a real Halloween costume is category-tagged "womens_clothing",
+    not "seasonal", and Black Friday's boost usually outscores Halloween's
+    for `matched_event_id` once Halloween's own window is closing); falling
+    back to `[matched_event_id]` when a candidate has no `capped_event_ids`."""
     selected: list[dict] = []
     category_counts: dict[str, int] = {}
     shop_counts: dict[str, int] = {}
+    event_counts: dict[str, int] = {}
+    event_caps = event_caps or {}
     for cand in ranked_candidates:
         if len(selected) >= n:
             break
         category = cand["category"]
         shop_id = cand["shop_id"]
+        event_ids = candidate_event_ids(cand)
         if category_counts.get(category, 0) >= max_per_category:
             continue
         if shop_counts.get(shop_id, 0) >= max_per_shop:
+            continue
+        if any(event_caps.get(eid) is not None and event_counts.get(eid, 0) >= event_caps[eid] for eid in event_ids):
             continue
         if any(is_near_duplicate(cand["title"], s["title"], title_jaccard_threshold) for s in selected):
             continue
         selected.append(cand)
         category_counts[category] = category_counts.get(category, 0) + 1
         shop_counts[shop_id] = shop_counts.get(shop_id, 0) + 1
+        for eid in event_ids:
+            if eid in event_caps:
+                event_counts[eid] = event_counts.get(eid, 0) + 1
     return selected
 
 
@@ -124,9 +158,13 @@ def build_top10(
 ) -> list[dict]:
     """Assemble the final picks list with `kind` and `slot`, section 6.12 step 4.
     Each input list/candidate should already be deduplicated/filtered by the
-    other functions in this module; this just slots them in priority order
-    (evergreen/winner-again, then explore, then core) and dedupes by
-    `product_id` across buckets."""
+    other functions in this module. Candidates are SELECTED in priority order
+    (evergreen/winner-again, then explore, then core -- the rarer/most
+    specific slots claim a product first, so dedup across buckets favors
+    them), but DISPLAYED in a different order (added 2026-10-15, after the
+    dashboard showed explore picks mixed in ahead of stronger core picks):
+    core first (already blended-rank order from `ranked_diverse_candidates`),
+    then explore, then evergreen/winner-again last."""
     picks: list[dict] = []
     used_ids: set[str] = set()
 
@@ -157,6 +195,9 @@ def build_top10(
         if len(picks) > before:
             core_added += 1
 
+    display_order = {"core": 0, "explore": 1, "evergreen": 2, "winner_again": 2}
+    picks.sort(key=lambda p: display_order.get(p["kind"], 3))
+
     for i, p in enumerate(picks, start=1):
         p["slot"] = i
     return picks
@@ -173,6 +214,10 @@ _REASON_TEMPLATES = {
     ("seasonality", "en"): "Season: {event} in {days} days",
     ("fit", "es"): "Esta categoria te funciona bien",
     ("fit", "en"): "This category works well for you",
+    # Added 2026-10-15: the generic "fit" reason above never cited a number --
+    # this cites her own actual category_gpm (GMV per 1,000 views), real data.
+    ("category_fit", "es"): "{category_label}: ${gpm:.2f} por cada 1,000 vistas para ti",
+    ("category_fit", "en"): "{category_label}: ${gpm:.2f} per 1,000 views for you",
 }
 
 

@@ -1,4 +1,4 @@
-export type Stage = "emerging" | "rising" | "peak" | "evergreen" | "declining";
+export type Stage = "emerging" | "rising" | "peak" | "evergreen" | "declining" | "new_to_radar";
 export type PickKind = "core" | "explore" | "evergreen" | "winner_again";
 
 export interface Pick {
