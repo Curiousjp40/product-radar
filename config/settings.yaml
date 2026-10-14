@@ -1,0 +1,22 @@
+# Defaults until Roxie answers the questions in spec section 13.
+market: US
+creators:
+  roxie:
+    handle: roxm___
+    primary: true
+  ari:
+    handle: ariannamendoza04
+    primary: false
+target_categories:        # priority order
+  - shapewear
+  - womens_clothing
+  - home_decor            # proven by Ari; explore budget for Roxie
+  - beauty_hair
+  - seasonal
+excluded_categories: []
+excluded_keywords: []
+price_range_usd: [15, 80]
+min_commission_pct: 10
+videos_per_week: 4
+samples_only: false
+languages: [es, en]
