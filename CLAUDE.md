@@ -1,30 +1,18 @@
-# Product Radar — conventions
+# Product Radar: notes for Claude
 
-Full spec: [PRODUCT_RADAR_SPEC.md](PRODUCT_RADAR_SPEC.md). Read section 0 and section 12 before doing anything else.
+Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth for goals, algorithms, data model, budget and build phases.
 
-## Where things stand
+## Rules
+- Work phase by phase (spec section 12). If `FASTMOSS_API_KEY` is not set, do Phase 0a only.
+- Never guess FastMoss tool arguments or response fields. Use the saved schemas in `docs/fastmoss_tools.json` and fixtures in `tests/fixtures/`. Missing fields go in `docs/field_map.md`.
+- The FastMoss key is read from the environment only (`.env` locally, GitHub secret `FASTMOSS_API_KEY` in CI). Never print it, commit it, or ask for it in chat. Mask it in logs and error messages (it is part of the MCP URL).
+- Check the credit balance before any paid call; respect the per-run cap (spec section 9); log every call to the credit ledger.
+- Algorithms are pure functions with unit tests. Weights and thresholds live in `config/*.yaml`.
+- UI is Spanish-first with an English toggle, and must work at 390px width.
+- Plain-language reasons accompany every score, in Spanish and English.
+- Keep `data/seed/creator_history.json` read-only; it is the original history from both creators' FastMoss exports.
 
-- **Phase 0a** (no FastMoss key needed): repo tooling, section 6 algorithms as pure functions, seed import + section 8 insights, dashboard shell on synthetic data.
-- **Phase 0+** (needs `FASTMOSS_API_KEY` in `.env`): not started. Do not guess FastMoss field/tool names — save real fixtures first (see spec section 0.2 and 12).
-
-## Rules that bite if ignored
-
-- Every section-6 algorithm is a pure function: plain numbers/dicts in, numbers out. No I/O, no globals. The pipeline (`engine/run.py`, not built yet) wires them together.
-- Weights and thresholds default to the numbers in `config/weights.yaml` — when `run.py` is built it must load that file, not hardcode numbers. Function signatures take weights as keyword args with defaults that mirror the YAML, so keep the two in sync if you change one.
-- `z(x)` = robust z-score, grouped by category+week, `(x - median) / (1.4826 * MAD)`, clipped to [-3, 3]; fall back to ungrouped if a category has fewer than 8 products in that week. Implemented in `engine/stats.py`.
-- The FastMoss API key never goes in chat, code, or git. `.env` is gitignored; CI reads it from the `FASTMOSS_API_KEY` secret.
-- Never fabricate FastMoss field names. Everything in `engine/models.py` is generic (not FastMoss-shaped) on purpose — Phase 0's `normalize.py` will map real fixture fields onto it, and anything missing gets written to `docs/field_map.md` with the feature degraded gracefully.
-- `data/seed/creator_history.json` is real data (Roxie + Ari's actual videos) — do not fabricate it. `tests/fixtures/*.json` are synthetic and clearly separate.
-- Dashboard: Spanish-first with an English toggle, mobile-first (390px). Every reason shown to Roxie is generated in both `es` and `en`.
-
-## Stack
-
-Python 3.12+ (engine, pytest, ruff) · Vite + TypeScript (dashboard, no framework) · SQLite (`data/radar.db`) · GitHub Actions (cron) · Cloudflare Pages + D1 (hosting, decided Phase 4).
-
-## Commands
-
-```bash
-python -m pytest           # from product-radar/
-ruff check .
-npm run dev --prefix web   # dashboard, once scaffolded
-```
+## People
+- Roxie (@roxm___): primary user, TikTok Shop affiliate creator.
+- Ari (@ariannamendoza04): benchmark creator; her data is used with permission and must stay private (dashboard behind login).
+- Ryan: repo owner.

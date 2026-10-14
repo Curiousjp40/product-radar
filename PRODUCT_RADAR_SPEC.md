@@ -136,7 +136,7 @@ product-radar/
     features.py                demand, momentum, saturation, earnings, price stats
     stages.py                  lifecycle classifier
     fit.py                     creator-specific fit (category priors, price fit, audience)
-    seasonality.py              event calendar + personal seasonality
+    seasonality.py             event calendar + personal seasonality
     language.py                Spanish-share detection for the Spanish gap signal
     scoring.py                 composite score + expected value
     picks.py                   diversity, explore/exploit, reasons

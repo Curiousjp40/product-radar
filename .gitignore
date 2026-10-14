@@ -1,7 +1,8 @@
 .env
+.env.*
+!.env.example
 *.db-journal
 
-# Python
 __pycache__/
 *.pyc
 .venv/
@@ -9,10 +10,8 @@ __pycache__/
 .ruff_cache/
 *.egg-info/
 
-# Node / web
-web/node_modules/
+node_modules/
 web/dist/
 
-# OS
 .DS_Store
 Thumbs.db

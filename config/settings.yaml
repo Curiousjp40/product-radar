@@ -1,39 +1,24 @@
 # Defaults until Roxie answers the questions in spec section 13.
 # Editable later from the dashboard "Ajustes" page.
-
-roxm___:
-  target_categories:
-    - shapewear
-    - womens_clothing
-    - home_decor
-    - beauty_hair
-    - seasonal
-  excluded_categories: []
-  excluded_brands: []
-  excluded_keywords: []
-  price_min: 15
-  price_max: 80
-  min_commission_pct: 10
-  weekly_capacity: 4
-  samples_only: null # true = only products with free samples, null = unanswered
-  languages: [es] # videos filmed in; null/unanswered = assume es given audience
-  markets: [US]
-
-ariannamendoza04:
-  # Ari is a benchmark/training-data creator, not an active radar user yet.
-  # Same shape kept so fit.py can score her candidates too if ever wanted.
-  target_categories:
-    - home_decor
-    - womens_clothing
-    - beauty_hair
-    - seasonal
-  excluded_categories: []
-  excluded_brands: []
-  excluded_keywords: []
-  price_min: 20
-  price_max: 90
-  min_commission_pct: 10
-  weekly_capacity: 4
-  samples_only: null
-  languages: [en]
-  markets: [US]
+market: US
+creators:
+  roxie:
+    handle: roxm___
+    primary: true
+  ari:
+    handle: ariannamendoza04
+    primary: false
+target_categories:        # priority order
+  - shapewear
+  - womens_clothing
+  - home_decor            # proven by Ari; explore budget for Roxie
+  - beauty_hair
+  - seasonal
+excluded_categories: []
+excluded_brands: []
+excluded_keywords: []
+price_range_usd: [15, 80]
+min_commission_pct: 10
+videos_per_week: 4
+samples_only: false
+languages: [es, en]
