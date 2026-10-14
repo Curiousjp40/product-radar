@@ -4,6 +4,7 @@
   "run_at": "2026-01-05T11:15:00Z",
   "week": "2026-W01-SAMPLE",
   "credits_used_this_run": 58,
+  "credits_used_this_week": 58,
   "credits_used_month": 142,
   "credits_balance": 358,
   "weights_version": "0.1.0-defaults"

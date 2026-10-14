@@ -110,6 +110,7 @@ export interface MetaFile {
   run_at: string;
   week: string;
   credits_used_this_run: number;
+  credits_used_this_week: number;
   credits_used_month: number;
   credits_balance: number;
   weights_version: string;

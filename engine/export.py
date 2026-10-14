@@ -36,6 +36,7 @@ def write_meta(
     week: str,
     run_id: str,
     credits_used_this_run: int,
+    credits_used_this_week: int,
     credits_used_month: int,
     credits_balance: int,
     weights_version: str = "0.2.0-lead-ads-audience",
@@ -48,6 +49,11 @@ def write_meta(
             "week": week,
             "run_id": run_id,
             "credits_used_this_run": credits_used_this_run,
+            # added 2026-10-15: the full week's spend across every run_id for
+            # it (an initial ingest plus any --resume-week re-scores), not
+            # just this one invocation's delta -- a resumed re-score showing
+            # "0" for itself was being misread as "this week cost nothing."
+            "credits_used_this_week": credits_used_this_week,
             "credits_used_month": credits_used_month,
             "credits_balance": credits_balance,
             "weights_version": weights_version,

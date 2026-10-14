@@ -20,13 +20,13 @@
       "ev_upside": 100.18,
       "reasons_es": [
         "Pagas ~$10.62 por venta",
-        "Decoracion del hogar: $3.06 por cada 1,000 vistas para ti",
-        "Pocas creadoras en espanol (10 de 10 videos)"
+        "Pocas creadoras en espanol (10 de 10 videos)",
+        "Ventas subiendo 27% esta semana"
       ],
       "reasons_en": [
         "You earn ~$10.62 per sale",
-        "Home & decor: $3.06 per 1,000 views for you",
-        "Few Spanish-speaking creators (10 of 10 videos)"
+        "Few Spanish-speaking creators (10 of 10 videos)",
+        "Sales up 27% this week"
       ]
     },
     {
@@ -47,12 +47,12 @@
       "reasons_es": [
         "Pagas ~$5.44 por venta",
         "Pocas creadoras en espanol (9 de 10 videos)",
-        "Belleza y cabello: $5.43 por cada 1,000 vistas para ti"
+        "Ventas subiendo 82% esta semana"
       ],
       "reasons_en": [
         "You earn ~$5.44 per sale",
         "Few Spanish-speaking creators (9 of 10 videos)",
-        "Beauty & hair: $5.43 per 1,000 views for you"
+        "Sales up 82% this week"
       ]
     },
     {
@@ -72,13 +72,13 @@
       "ev_upside": 111.11,
       "reasons_es": [
         "Pagas ~$9.75 por venta",
-        "Belleza y cabello: $5.43 por cada 1,000 vistas para ti",
-        "Ventas subiendo 31% esta semana"
+        "Ventas subiendo 31% esta semana",
+        "Temporada: Black Friday / Cyber Monday en 49 dias"
       ],
       "reasons_en": [
         "You earn ~$9.75 per sale",
-        "Beauty & hair: $5.43 per 1,000 views for you",
-        "Sales up 31% this week"
+        "Sales up 31% this week",
+        "Season: Black Friday / Cyber Monday in 49 days"
       ]
     },
     {
@@ -151,12 +151,12 @@
       "reasons_es": [
         "Pagas ~$14.90 por venta",
         "Ventas subiendo 433% esta semana",
-        "Ropa de mujer: $10.67 por cada 1,000 vistas para ti"
+        "Temporada: Black Friday / Cyber Monday en 49 dias"
       ],
       "reasons_en": [
         "You earn ~$14.90 per sale",
         "Sales up 433% this week",
-        "Women's clothing: $10.67 per 1,000 views for you"
+        "Season: Black Friday / Cyber Monday in 49 days"
       ]
     },
     {
@@ -188,53 +188,27 @@
     {
       "slot": 8,
       "kind": "explore",
-      "product_id": "1731625997827871273",
-      "title": "Bikini Pain-Free Hair Removal Cream for Sensitive Skin, Hypoallergenic Formula-Gentle & Fast-Acting Depilatory with Citrus Scent, Aloe & Hyaluronic Acid for Soothing Care, Suitable for Men & Women,backtoschool",
-      "image_url": "https://s.500fd.com/tt_product/3147e4ca48484ddc96eaca98fde180b1~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
-      "category": "beauty_hair",
-      "shop_name": "PHOFAY-Skin Care",
-      "price": 59.99,
-      "commission_rate": 0.12,
-      "earnings_per_sale": 7.2,
-      "stage": "rising",
-      "score": 61,
-      "ev_typical": 19.38,
-      "ev_upside": 80.36,
-      "reasons_es": [
-        "Pagas ~$7.20 por venta",
-        "Pocas creadoras en espanol (10 de 10 videos)",
-        "Belleza y cabello: $5.43 por cada 1,000 vistas para ti"
-      ],
-      "reasons_en": [
-        "You earn ~$7.20 per sale",
-        "Few Spanish-speaking creators (10 of 10 videos)",
-        "Beauty & hair: $5.43 per 1,000 views for you"
-      ]
-    },
-    {
-      "slot": 9,
-      "kind": "explore",
-      "product_id": "1732052189676081387",
-      "title": "[medicube] Smooth & Clear Body Care Set | Hypochlorous Acid Body Peel Shot, Kojic Acid Turmeric Body Wash, Toner Pad, Toner, Mist | Exfoliating for Dead Skin Cells & Excess Sebum & Clearing for After Spots, Texture & Uneven Skin Tone | K-Beauty",
-      "image_url": "https://s.500fd.com/tt_product/5cf5212fe8f3451fb063a8ee7d0c1de1~tplv-fhlh96nyum-origin-image.image",
-      "category": "beauty_hair",
-      "shop_name": "medicube US Store",
-      "price": 31.0,
+      "product_id": "1731610554383569260",
+      "title": "SHAPERX Shapewear for Women Tummy Control Bodysuits Zip-Up Comfort Ultra Stretch Fabric Customizable Fit Breathable Mesh Design Comfortable Fit",
+      "image_url": "https://s.500fd.com/tt_product/ef4a7209363e4598a6a948fc8bed70f0~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "category": "shapewear",
+      "shop_name": "SHAPERX",
+      "price": 38.99,
       "commission_rate": 0.15,
-      "earnings_per_sale": 4.65,
+      "earnings_per_sale": 5.85,
       "stage": "new_to_radar",
-      "score": 63,
-      "ev_typical": 10.89,
-      "ev_upside": 45.17,
+      "score": 55,
+      "ev_typical": 13.3,
+      "ev_upside": 55.14,
       "reasons_es": [
-        "Pagas ~$4.65 por venta",
-        "Pocas creadoras en espanol (9 de 10 videos)",
-        "Belleza y cabello: $5.43 por cada 1,000 vistas para ti"
+        "Pagas ~$5.85 por venta",
+        "Fajas y shapewear: $20.79 por cada 1,000 vistas para ti",
+        "Pocas creadoras en espanol (3 de 3 videos)"
       ],
       "reasons_en": [
-        "You earn ~$4.65 per sale",
-        "Few Spanish-speaking creators (9 of 10 videos)",
-        "Beauty & hair: $5.43 per 1,000 views for you"
+        "You earn ~$5.85 per sale",
+        "Shapewear: $20.79 per 1,000 views for you",
+        "Few Spanish-speaking creators (3 of 3 videos)"
       ]
     }
   ]

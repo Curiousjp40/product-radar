@@ -62,6 +62,18 @@ def target_category_boost(category: str, target_categories: list[str], boost: fl
     return boost if category in target_categories else 0.0
 
 
+def creator_avg_category_gpm(category_gpm: dict[str, float], category_views: dict[str, float]) -> float:
+    """Her own views-weighted average GMV-per-1,000-views across categories
+    (config/creators.yaml's `category_gpm_per_1k_views` and `category_views`),
+    added 2026-10-15 as the bar a category_fit reason has to clear: citing a
+    below-average number as if it were a selling point undersells the pick
+    rather than supporting it."""
+    total_views = sum(category_views.get(cat, 0.0) for cat in category_gpm)
+    if total_views == 0:
+        return sum(category_gpm.values()) / len(category_gpm) if category_gpm else 0.0
+    return sum(category_gpm[cat] * category_views.get(cat, 0.0) for cat in category_gpm) / total_views
+
+
 def is_excluded(
     category: str,
     shop_name: str,

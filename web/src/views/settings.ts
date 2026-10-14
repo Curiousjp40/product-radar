@@ -14,7 +14,7 @@ export async function renderSettings(container: HTMLElement, lang: Lang): Promis
       <div class="stat-row">
         <div class="stat"><b>${data.credits_balance}</b><span>${lang === "es" ? "Restantes" : "Remaining"}</span></div>
         <div class="stat"><b>${data.credits_used_month}</b><span>${lang === "es" ? "Usados este mes" : "Used this month"}</span></div>
-        <div class="stat"><b>${data.credits_used_this_run}</b><span>${lang === "es" ? "Esta corrida" : "This run"}</span></div>
+        <div class="stat"><b>${data.credits_used_this_week}</b><span>${lang === "es" ? "Esta semana" : "This week"}</span></div>
       </div>
       <div style="font-size:0.75rem;color:var(--text-dim);margin-top:6px">
         ${lang === "es" ? "Version de pesos" : "Weights version"}: ${data.weights_version} &middot; ${lang === "es" ? "Ultima corrida" : "Last run"}: ${new Date(data.run_at).toLocaleString()}

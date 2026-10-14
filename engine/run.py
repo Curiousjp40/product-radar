@@ -20,7 +20,14 @@ import pandas as pd
 from dotenv import load_dotenv
 
 from engine import export
-from engine.budget import BudgetExceeded, BudgetTracker, append_credit_log, check_balance, write_ledger_row
+from engine.budget import (
+    BudgetExceeded,
+    BudgetTracker,
+    append_credit_log,
+    check_balance,
+    credits_used_for_week,
+    write_ledger_row,
+)
 from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
 from engine.db import connect
@@ -29,6 +36,7 @@ from engine.fit import (
     audience_fit,
     blended_price_fit,
     category_prior_raw,
+    creator_avg_category_gpm,
     demographic_fit_heuristic,
     fit_score,
     normalize_priors,
@@ -704,7 +712,15 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
     return df
 
 
-def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
+def build_reasons(row: pd.Series, creator_avg_gpm: float | None = None) -> tuple[list[str], list[str]]:
+    """`creator_avg_gpm` (added 2026-10-15, engine.fit.creator_avg_category_gpm):
+    the "fit" component only renders as the category_fit reason -- citing her
+    own $-per-1,000-views for this category -- when that number beats her own
+    overall average; a below-average number would undersell the pick rather
+    than support it. When it doesn't beat the average (or `creator_avg_gpm`
+    isn't given), "fit" is skipped and the next-strongest remaining component
+    takes its slot instead, same as when a selected component turns out to
+    have no data to render (e.g. no Spanish-gap videos fetched)."""
     components = {
         "momentum": row["wow"],
         "earnings": row["earnings_per_sale"] - 1.5,  # magnitude relative to the "worth it" floor
@@ -712,9 +728,11 @@ def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
         "seasonality": row["season_val"],
         "fit": row["z_fit"],
     }
-    top = select_top_reasons(components, max_reasons=3)
+    ranked = select_top_reasons(components, max_reasons=len(components))
     reasons_es, reasons_en = [], []
-    for comp in top:
+    for comp in ranked:
+        if len(reasons_es) >= 3:
+            break
         try:
             if comp == "momentum":
                 reasons_es.append(render_reason("momentum", "es", pct=row["wow"] * 100))
@@ -734,7 +752,7 @@ def build_reasons(row: pd.Series) -> tuple[list[str], list[str]]:
                 reasons_en.append(
                     render_reason("seasonality", "en", event=row["matched_event_label_en"], days=int(row["days_to_event_end"]))
                 )
-            elif comp == "fit":
+            elif comp == "fit" and creator_avg_gpm is not None and row["category_gpm"] > creator_avg_gpm:
                 # cites her own real category_gpm (GMV per 1,000 views), not
                 # a vague "this works for you" (fixed 2026-10-15, every other
                 # reason already cited a real number, this one didn't).
@@ -781,12 +799,19 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
     explore_cats = pick_explore_categories(sampled, trial_counts=dict.fromkeys(categories, 0), k=weights["picks"]["explore_slots"])
     core_selected = diverse[: weights["picks"]["core_slots"]]
     used_ids = {c["product_id"] for c in core_selected}
-    # Event caps must carry over from the core selection into explore too
-    # (added 2026-10-15): explore candidates come straight from `ranked`, not
-    # from `diverse`, so without this a second Halloween costume could still
-    # slip in through the explore slot even with max_picks=1 on Halloween.
+    # Diversity and event caps must carry over from the core selection into
+    # explore too (added 2026-10-15): explore candidates come straight from
+    # `ranked`, not from `diverse`, so without this a 4th shapewear pick (over
+    # max_per_category=3) or a 2nd Halloween costume (over Halloween's
+    # max_picks=1) could still slip in through the explore slot.
+    max_per_category = weights["picks"]["max_per_category"]
+    max_per_shop = weights["picks"]["max_per_shop"]
+    category_counts: dict[str, int] = {}
+    shop_counts: dict[str, int] = {}
     event_counts: dict[str, int] = {}
     for c in core_selected:
+        category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
+        shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
         for eid in candidate_event_ids(c):
             if eid in event_caps:
                 event_counts[eid] = event_counts.get(eid, 0) + 1
@@ -796,10 +821,16 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
             break
         if c["config_category"] not in explore_cats or c["product_id"] in used_ids:
             continue
+        if category_counts.get(c["category"], 0) >= max_per_category:
+            continue
+        if shop_counts.get(c["shop_id"], 0) >= max_per_shop:
+            continue
         ids = candidate_event_ids(c)
         if any(eid in event_caps and event_counts.get(eid, 0) >= event_caps[eid] for eid in ids):
             continue
         explore_candidates.append(c)
+        category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
+        shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
         for eid in ids:
             if eid in event_caps:
                 event_counts[eid] = event_counts.get(eid, 0) + 1
@@ -815,10 +846,10 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
     return picks
 
 
-def picks_to_export_dicts(picks: list[dict]) -> list[dict]:
+def picks_to_export_dicts(picks: list[dict], creator_avg_gpm: float | None = None) -> list[dict]:
     out = []
     for p in picks:
-        reasons_es, reasons_en = build_reasons(pd.Series(p))
+        reasons_es, reasons_en = build_reasons(pd.Series(p), creator_avg_gpm)
         out.append(
             {
                 "slot": p["slot"],
@@ -944,22 +975,27 @@ async def run(args: argparse.Namespace) -> None:
 
     weights = config["weights"]
     picks = assemble_picks(df, weights, config["seasons"]["events"]) if not df.empty else []
-    pick_dicts = picks_to_export_dicts(picks)
+    creators_cfg = config["creators"][CREATOR]
+    creator_avg_gpm = creator_avg_category_gpm(
+        creators_cfg["category_gpm_per_1k_views"], creators_cfg["category_views"]
+    )
+    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm)
     candidate_dicts = candidates_to_export_dicts(df, flagged)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
         export.write_candidates(week, candidate_dicts)
+        conn = connect(REPO_ROOT / "data" / "radar.db")
+        for stage in tracker.stage_log:
+            write_ledger_row(conn, run_id, stage["stage"], stage["credits"], True, stage["note"])
         export.write_meta(
             week=week,
             run_id=run_id,
             credits_used_this_run=tracker.spent,
+            credits_used_this_week=credits_used_for_week(conn, week),
             credits_used_month=500 - final_balance,
             credits_balance=final_balance,
         )
-        conn = connect(REPO_ROOT / "data" / "radar.db")
-        for stage in tracker.stage_log:
-            write_ledger_row(conn, run_id, stage["stage"], stage["credits"], True, stage["note"])
         append_credit_log(
             run_id,
             today.isoformat(),

@@ -68,6 +68,16 @@ def write_ledger_row(conn: sqlite3.Connection, run_id: str, tool: str, credits: 
     conn.commit()
 
 
+def credits_used_for_week(conn: sqlite3.Connection, week: str) -> int:
+    """Sum of every ledger row for `week`'s run_ids (added 2026-10-15): a
+    `--resume-week` re-score showing "0 credits" for itself was being read as
+    "this week cost nothing," when an earlier run_id for the same week had
+    already spent credits -- run_id is always f"{week}-{8 hex chars}", so a
+    LIKE prefix match groups every run for the week, resumed or not."""
+    row = conn.execute("SELECT COALESCE(SUM(credits), 0) FROM credit_ledger WHERE run_id LIKE ?", (f"{week}-%",)).fetchone()
+    return int(row[0])
+
+
 def append_credit_log(run_id: str, date: str, credits_used: int, balance_after: int, notes: str) -> None:
     """Appends one line to docs/credit_log.md, matching its existing table
     format."""

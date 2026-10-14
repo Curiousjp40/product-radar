@@ -17,3 +17,5 @@ Rows before Phase 1 existed are manual before/after balance checks instead.
 | 2026-10-14 | 2026-W42-572d9097 | 0 | 418 / 500 | Phase 1+2 real run: 9 picks from 35 candidates.  |
 | 2026-10-14 | 2026-W42-3fc74db3 | 0 | 418 / 500 | Phase 1+2 real run: 9 picks from 35 candidates.  |
 | 2026-10-14 | 2026-W42-f2f72992 | 0 | 418 / 500 | Phase 1+2 real run: 9 picks from 35 candidates.  |
+| 2026-10-14 | 2026-W42-6ed4b79e | 0 | 418 / 500 | Phase 1+2 real run: 9 picks from 35 candidates.  |
+| 2026-10-14 | 2026-W42-36359a75 | 0 | 418 / 500 | Phase 1+2 real run: 8 picks from 35 candidates.  |

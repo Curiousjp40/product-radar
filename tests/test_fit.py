@@ -6,6 +6,7 @@ from engine.fit import (
     audience_fit,
     blended_price_fit,
     category_prior_raw,
+    creator_avg_category_gpm,
     demographic_fit_heuristic,
     demographic_match_score,
     feedback_penalty,
@@ -58,6 +59,27 @@ def test_blended_price_fit_leans_on_sweet_spot_with_few_tracked_videos():
 def test_target_category_boost():
     assert target_category_boost("shapewear", ["shapewear", "home_decor"]) == 0.15
     assert target_category_boost("beauty_hair", ["shapewear"]) == 0.0
+
+
+def test_creator_avg_category_gpm_matches_real_roxie_data():
+    # Roxie's real config/creators.yaml values -- this is the ~$10.86-10.89
+    # average the category_fit reason has to beat to be worth citing.
+    gpm = {"shapewear": 20.79, "womens_clothing": 10.67, "beauty_hair": 5.43, "home_decor": 3.06, "seasonal": 5.10}
+    views = {
+        "shapewear": 517_300,
+        "womens_clothing": 559_600,
+        "beauty_hair": 604_800,
+        "home_decor": 47_100,
+        "seasonal": 228_200,
+    }
+    avg = creator_avg_category_gpm(gpm, views)
+    assert 10.5 < avg < 11.0
+    assert gpm["shapewear"] > avg  # above average -- worth citing
+    assert gpm["home_decor"] < avg  # below average -- should not be cited as a selling point
+
+
+def test_creator_avg_category_gpm_falls_back_to_plain_mean_with_no_views():
+    assert creator_avg_category_gpm({"a": 10.0, "b": 20.0}, {}) == 15.0
 
 
 def test_is_excluded_by_category_brand_or_keyword():
