@@ -5,6 +5,7 @@ import pytest
 from engine.features import (
     acceleration,
     demand,
+    lead_raw,
     momentum,
     momentum_multiplier,
     rank_delta,
@@ -67,9 +68,33 @@ def test_rank_delta_positive_when_climbing():
     assert rank_delta(None, 10) is None
 
 
-def test_momentum_weighted_sum():
-    m = momentum(z_wow=1.0, z_slope14=2.0, z_accel=0.5, slope14_weight=0.5, wow_weight=0.3, accel_weight=0.2)
-    assert m == pytest.approx(0.5 * 2.0 + 0.3 * 1.0 + 0.2 * 0.5)
+def test_lead_raw_sums_both_deltas():
+    lead = lead_raw(creator_count_last7=12, creator_count_prior7=8, video_count_last7=30, video_count_prior7=20)
+    assert lead == pytest.approx((12 - 8) + (30 - 20))
+
+
+def test_lead_raw_negative_when_shrinking():
+    assert lead_raw(5, 10, 15, 25) < 0
+
+
+def test_momentum_weighted_sum_with_lead():
+    m = momentum(
+        z_wow=1.0,
+        z_slope14=2.0,
+        z_accel=0.5,
+        z_lead=1.5,
+        slope14_weight=0.35,
+        wow_weight=0.20,
+        accel_weight=0.15,
+        lead_weight=0.30,
+    )
+    assert m == pytest.approx(0.35 * 2.0 + 0.20 * 1.0 + 0.15 * 0.5 + 0.30 * 1.5)
+
+
+def test_momentum_missing_lead_contributes_zero_not_dropped():
+    with_lead = momentum(z_wow=1.0, z_slope14=1.0, z_accel=1.0, z_lead=0.0)
+    without_lead = momentum(z_wow=1.0, z_slope14=1.0, z_accel=1.0, z_lead=None)
+    assert with_lead == pytest.approx(without_lead)
 
 
 def test_momentum_falls_back_to_wow_only():

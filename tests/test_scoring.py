@@ -66,6 +66,32 @@ def test_risk_penalty_handles_missing_optional_signals():
     assert r == 0.0
 
 
+def test_risk_penalty_high_ads_share_penalized():
+    r = risk_penalty(
+        earnings_per_sale_usd=5.0,
+        price_cv_4wk=None,
+        rating=None,
+        creator_count_percentile=None,
+        unit_price_usd=20,
+        commission_rate_pct=10,
+        ads_share_pct=75,  # > 60 -> +0.5
+    )
+    assert r == pytest.approx(0.5)
+
+
+def test_risk_penalty_ads_share_at_or_below_threshold_not_penalized():
+    r = risk_penalty(
+        earnings_per_sale_usd=5.0,
+        price_cv_4wk=None,
+        rating=None,
+        creator_count_percentile=None,
+        unit_price_usd=20,
+        commission_rate_pct=10,
+        ads_share_pct=60,
+    )
+    assert r == 0.0
+
+
 def test_composite_score_in_0_100_range():
     score = composite_score(
         z_demand=1.0,

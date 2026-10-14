@@ -61,19 +61,38 @@ def rank_delta(rank_prev: int | None, rank_now: int | None) -> int | None:
     return rank_prev - rank_now
 
 
+def lead_raw(
+    creator_count_last7: float,
+    creator_count_prior7: float,
+    video_count_last7: float,
+    video_count_prior7: float,
+) -> float:
+    """Raw (pre-z-score) leading-indicator signal, section 6.2: growth in
+    creators plus growth in videos promoting the product, last 7 days vs the
+    prior 7 (from FastMoss's product_creator_analysis + product_video_list).
+    FastMoss's own guidance is that creator/video increments lead GMV by
+    about a week, making this the earliest rise/peak signal available."""
+    return (creator_count_last7 - creator_count_prior7) + (video_count_last7 - video_count_prior7)
+
+
 def momentum(
     z_wow: float,
     z_slope14: float | None = None,
     z_accel: float | None = None,
-    slope14_weight: float = 0.5,
-    wow_weight: float = 0.3,
-    accel_weight: float = 0.2,
+    z_lead: float | None = None,
+    slope14_weight: float = 0.35,
+    wow_weight: float = 0.20,
+    accel_weight: float = 0.15,
+    lead_weight: float = 0.30,
 ) -> float:
     """M, section 6.2. Falls back to `z_wow` alone when daily series weren't
-    fetched for this product (z_slope14/z_accel unavailable)."""
+    fetched for this product (z_slope14/z_accel unavailable) -- that's a
+    separate budget gate from `z_lead`'s own source calls, so a missing
+    `z_lead` alone contributes 0 (neutral) rather than dropping out entirely."""
     if z_slope14 is None or z_accel is None:
         return z_wow
-    return slope14_weight * z_slope14 + wow_weight * z_wow + accel_weight * z_accel
+    lead = z_lead if z_lead is not None else 0.0
+    return slope14_weight * z_slope14 + wow_weight * z_wow + accel_weight * z_accel + lead_weight * lead
 
 
 def momentum_multiplier(slope14: float, coef: float = 7, lo: float = 0.5, hi: float = 2.0) -> float:

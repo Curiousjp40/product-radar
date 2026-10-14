@@ -18,12 +18,24 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 - Ryan: repo owner.
 
 ## Status (updated 2026-10-14)
-Phase 0a done: engine algorithms (pure functions, 109 tests), seed import +
+Phase 0a done: engine algorithms (pure functions, 114 tests), seed import +
 content insights run against the real `data/seed/creator_history.json`,
 dashboard shell. Phase 0 done: `docs/fastmoss_tools.json` (55 tools) and
 `docs/field_map.md` filled in from real calls, 9 credits used. Notable
 Phase 0 findings: FastMoss timestamps are UTC+8 (confirmed, not guessed);
 `commission_rate_percent` is a percent-integer not a 0-1 fraction;
 `creator_count`/`video_count`/`live_count` live on `product_sales_trend`,
-not the ranking endpoint. Not started: Phase 1 (ingest.py/normalize.py
-writing real weekly snapshots to `data/radar.db`).
+not the ranking endpoint.
+
+A separate session updated section 6.2 (momentum now has a `lead` term) and
+6.9 (new ads-share risk rule) after this session had already implemented the
+old formulas -- `engine/features.py` (`lead_raw`, `momentum`),
+`engine/scoring.py` (`risk_penalty`'s `ads_share_pct`), and
+`config/weights.yaml` are now updated to match and re-tested. `normalize.py`
+(Phase 1) will still need real calls to `product_creator_analysis`,
+`product_video_list` and `product_overview` to confirm the exact field names
+those two new inputs come from -- see `docs/field_map.md`'s "Not yet
+confirmed" section.
+
+Not started: Phase 1 (ingest.py/normalize.py writing real weekly snapshots
+to `data/radar.db`).

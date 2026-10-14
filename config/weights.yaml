@@ -13,10 +13,11 @@ zscore:
   clip: 3.0
   min_group_size: 8 # section 6 intro: below this, z() falls back to ungrouped
 
-momentum: # section 6.2
-  slope14_weight: 0.5
-  wow_weight: 0.3
-  accel_weight: 0.2
+momentum: # section 6.2 (updated with the leading-indicator term, spec commit b793b5a)
+  slope14_weight: 0.35
+  wow_weight: 0.20
+  accel_weight: 0.15
+  lead_weight: 0.30 # growth in creators+videos promoting the product, last 7d vs prior 7d
 
 stages: # section 6.3
   emerging:
@@ -72,6 +73,8 @@ risk: # section 6.9
   low_unit_price_usd: 10
   low_unit_price_penalty: 0.5
   low_unit_price_commission_exempt_pct: 20 # no penalty if commission >= this
+  high_ads_share_pct_threshold: 60 # product_overview ad/organic split (spec commit b793b5a)
+  high_ads_share_penalty: 0.5
 
 composite: # section 6.10
   demand: 0.10

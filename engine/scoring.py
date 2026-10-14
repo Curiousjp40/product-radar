@@ -51,9 +51,16 @@ def risk_penalty(
     low_price_threshold_usd: float = 10,
     low_price_penalty: float = 0.5,
     low_price_commission_exempt_pct: float = 20,
+    ads_share_pct: float | None = None,
+    high_ads_share_pct_threshold: float = 60,
+    high_ads_share_penalty: float = 0.5,
 ) -> float:
     """R, section 6.9. Assumes delisted products are already filtered out
-    upstream (the spec says delisted products are "excluded", not penalized)."""
+    upstream (the spec says delisted products are "excluded", not penalized).
+    `ads_share_pct` (from FastMoss's product_overview ad/organic split) is a
+    percent number like `commission_rate_pct`, not a 0-1 fraction -- a
+    product selling mostly through paid ads is harder for an affiliate
+    creator to win organically."""
     r = 0.0
     if earnings_per_sale_usd < low_earnings_threshold:
         r += low_earnings_penalty
@@ -65,6 +72,8 @@ def risk_penalty(
         r += high_creator_pct_penalty
     if unit_price_usd < low_price_threshold_usd and commission_rate_pct < low_price_commission_exempt_pct:
         r += low_price_penalty
+    if ads_share_pct is not None and ads_share_pct > high_ads_share_pct_threshold:
+        r += high_ads_share_penalty
     return r
 
 
