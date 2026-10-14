@@ -15,7 +15,7 @@ const STATUSES: PipelineStatusName[] = [
 export async function renderPipeline(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   const { data } = await loadCandidates();
-  const statuses = getAllStatuses();
+  const statuses = await getAllStatuses();
   const trackedIds = Object.keys(statuses);
   const rows = data.candidates.filter((c) => trackedIds.includes(c.product_id));
 
@@ -61,7 +61,7 @@ export async function renderPipeline(container: HTMLElement, lang: Lang): Promis
   container.querySelectorAll<HTMLTableRowElement>("tr[data-product-id]").forEach((row) => {
     const productId = row.dataset.productId!;
     row.querySelector("select")?.addEventListener("change", (e) => {
-      setStatus(productId, (e.target as HTMLSelectElement).value as PipelineStatusName);
+      void setStatus(productId, (e.target as HTMLSelectElement).value as PipelineStatusName);
     });
   });
 }

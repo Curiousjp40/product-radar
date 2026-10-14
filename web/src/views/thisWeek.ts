@@ -1,6 +1,6 @@
 import { loadPicks } from "../api";
 import { t, type Lang } from "../i18n";
-import { getFeedback, getStatus, setFeedback, setStatus } from "../pipeline";
+import { getAllFeedback, getAllStatuses, setFeedback, setStatus } from "../pipeline";
 import type { Pick } from "../types";
 
 function stageBadge(stage: string, lang: Lang): string {
@@ -15,11 +15,11 @@ function reasonsFor(pick: Pick, lang: Lang): string[] {
   return lang === "es" ? pick.reasons_es : pick.reasons_en;
 }
 
-function renderCard(pick: Pick, lang: Lang): string {
-  const dismissed = getFeedback(pick.product_id) === "not_for_me";
-  const shortlisted = getStatus(pick.product_id) === "shortlisted";
+function renderCard(pick: Pick, lang: Lang, statuses: Record<string, string>, dismissed: Set<string>): string {
+  const isDismissed = dismissed.has(pick.product_id);
+  const shortlisted = statuses[pick.product_id] === "shortlisted";
   return `
-    <article class="pick-card" data-product-id="${pick.product_id}" style="${dismissed ? "opacity:0.4" : ""}">
+    <article class="pick-card" data-product-id="${pick.product_id}" style="${isDismissed ? "opacity:0.4" : ""}">
       <div class="top-row">
         <div>
           <h3>${pick.title}</h3>
@@ -51,20 +51,20 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
+  const [statuses, feedback] = await Promise.all([getAllStatuses(), getAllFeedback()]);
+  const dismissed = new Set(Object.keys(feedback).filter((id) => feedback[id] === "not_for_me"));
   container.innerHTML = `
     ${banner}
     <h2 class="view-title">${t("this_week_title", lang)}</h2>
-    <div class="card-grid">${data.picks.map((p) => renderCard(p, lang)).join("")}</div>
+    <div class="card-grid">${data.picks.map((p) => renderCard(p, lang, statuses, dismissed)).join("")}</div>
   `;
   container.querySelectorAll<HTMLElement>(".pick-card").forEach((card) => {
     const productId = card.dataset.productId!;
     card.querySelector('[data-action="shortlist"]')?.addEventListener("click", () => {
-      setStatus(productId, "shortlisted");
-      void renderThisWeek(container, lang);
+      void setStatus(productId, "shortlisted").then(() => renderThisWeek(container, lang));
     });
     card.querySelector('[data-action="not_for_me"]')?.addEventListener("click", () => {
-      setFeedback(productId, "not_for_me");
-      void renderThisWeek(container, lang);
+      void setFeedback(productId, "not_for_me").then(() => renderThisWeek(container, lang));
     });
   });
 }

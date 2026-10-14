@@ -1,50 +1,81 @@
 import type { PipelineStatusName } from "./types";
 
-/** Phase 0a placeholder: status/feedback live in this browser's localStorage.
- * Phase 4 replaces this with calls to a Cloudflare Pages Function backed by
- * D1 (spec section 10.4) so status is shared across devices -- same shape,
- * different storage, so views don't need to change when that lands. */
-const STATUS_KEY = "product-radar:pipeline";
-const FEEDBACK_KEY = "product-radar:feedback";
+/** Phase 4 (spec section 10.4): status/feedback are shared across devices via
+ * a Cloudflare Pages Function backed by D1 (web/functions/api/status.ts),
+ * not per-browser localStorage (the Phase 0a version) -- Roxie and Ryan see
+ * the same shortlist. The whole map is fetched once per page load and
+ * cached in memory; a write updates the cache immediately (so the UI reacts
+ * right away) and posts to the API in the background. */
 
-type StatusMap = Record<string, PipelineStatusName>;
+type StatusEntry = { status?: PipelineStatusName; feedback?: string };
+type StatusMap = Record<string, StatusEntry>;
 
-function readMap(key: string): Record<string, string> {
+let cache: Promise<StatusMap> | null = null;
+
+async function loadMap(): Promise<StatusMap> {
+  if (!cache) {
+    cache = fetch("/api/status")
+      .then((res) => (res.ok ? (res.json() as Promise<StatusMap>) : {}))
+      .catch(() => ({}) as StatusMap);
+  }
+  return cache;
+}
+
+async function postUpdate(productId: string, field: "status" | "feedback", value: string): Promise<void> {
   try {
-    return JSON.parse(localStorage.getItem(key) ?? "{}");
+    await fetch("/api/status", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ product_id: productId, field, value }),
+    });
   } catch {
-    return {};
+    // best-effort -- the in-memory cache is already updated for this
+    // session, and the next full page load will re-sync from the API.
   }
 }
 
-function writeMap(key: string, map: Record<string, string>): void {
-  try {
-    localStorage.setItem(key, JSON.stringify(map));
-  } catch {
-    // ignore (private browsing, storage disabled, etc.)
+/** Forces the next read to re-fetch from the API instead of the cache --
+ * call this if a status write might have come from another device/tab. */
+export function invalidateCache(): void {
+  cache = null;
+}
+
+export async function getStatus(productId: string): Promise<PipelineStatusName | undefined> {
+  const map = await loadMap();
+  return map[productId]?.status;
+}
+
+export async function setStatus(productId: string, status: PipelineStatusName): Promise<void> {
+  const map = await loadMap();
+  map[productId] = { ...map[productId], status };
+  await postUpdate(productId, "status", status);
+}
+
+export async function getAllStatuses(): Promise<Record<string, PipelineStatusName>> {
+  const map = await loadMap();
+  const out: Record<string, PipelineStatusName> = {};
+  for (const [productId, entry] of Object.entries(map)) {
+    if (entry.status) out[productId] = entry.status;
   }
+  return out;
 }
 
-export function getStatus(productId: string): PipelineStatusName | undefined {
-  return (readMap(STATUS_KEY) as StatusMap)[productId];
+export async function setFeedback(productId: string, signal: "not_for_me" | "love_it"): Promise<void> {
+  const map = await loadMap();
+  map[productId] = { ...map[productId], feedback: signal };
+  await postUpdate(productId, "feedback", signal);
 }
 
-export function setStatus(productId: string, status: PipelineStatusName): void {
-  const map = readMap(STATUS_KEY);
-  map[productId] = status;
-  writeMap(STATUS_KEY, map);
+export async function getFeedback(productId: string): Promise<string | undefined> {
+  const map = await loadMap();
+  return map[productId]?.feedback;
 }
 
-export function getAllStatuses(): StatusMap {
-  return readMap(STATUS_KEY) as StatusMap;
-}
-
-export function setFeedback(productId: string, signal: "not_for_me" | "love_it"): void {
-  const map = readMap(FEEDBACK_KEY);
-  map[productId] = signal;
-  writeMap(FEEDBACK_KEY, map);
-}
-
-export function getFeedback(productId: string): string | undefined {
-  return readMap(FEEDBACK_KEY)[productId];
+export async function getAllFeedback(): Promise<Record<string, string>> {
+  const map = await loadMap();
+  const out: Record<string, string> = {};
+  for (const [productId, entry] of Object.entries(map)) {
+    if (entry.feedback) out[productId] = entry.feedback;
+  }
+  return out;
 }

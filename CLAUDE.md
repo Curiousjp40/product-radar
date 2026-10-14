@@ -17,25 +17,30 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 - Ari (@ariannamendoza04): benchmark creator; her data is used with permission and must stay private (dashboard behind login).
 - Ryan: repo owner.
 
-## Status (updated 2026-10-14)
-Phase 0a done: engine algorithms (pure functions, 114 tests), seed import +
-content insights run against the real `data/seed/creator_history.json`,
-dashboard shell. Phase 0 done: `docs/fastmoss_tools.json` (55 tools) and
-`docs/field_map.md` filled in from real calls, 9 credits used. Notable
-Phase 0 findings: FastMoss timestamps are UTC+8 (confirmed, not guessed);
-`commission_rate_percent` is a percent-integer not a 0-1 fraction;
-`creator_count`/`video_count`/`live_count` live on `product_sales_trend`,
-not the ranking endpoint.
+## Status (updated 2026-10-15)
+Phase 0a, Phase 0, Phase 1, and Phase 2 done. Real weekly ingest + scoring
+for 2026-W42 completed, including a suspicious-listing filter
+(`engine/quality.py`), lifecycle-stage fix (no more defaulting to
+"evergreen"), per-event pick caps keyed by title (a Halloween costume is
+category-tagged "womens_clothing" by FastMoss, not "seasonal" -- see
+`engine/seasonality.py`'s `title_matches_event_keywords`), and a
+`creator_avg_category_gpm` floor so the category_fit reason never cites a
+below-average number as a selling point (`engine/fit.py`). 192 tests passing.
 
-A separate session updated section 6.2 (momentum now has a `lead` term) and
-6.9 (new ads-share risk rule) after this session had already implemented the
-old formulas -- `engine/features.py` (`lead_raw`, `momentum`),
-`engine/scoring.py` (`risk_penalty`'s `ads_share_pct`), and
-`config/weights.yaml` are now updated to match and re-tested. `normalize.py`
-(Phase 1) will still need real calls to `product_creator_analysis`,
-`product_video_list` and `product_overview` to confirm the exact field names
-those two new inputs come from -- see `docs/field_map.md`'s "Not yet
-confirmed" section.
+Phase 4 code is built but NOT deployed yet: `.github/workflows/weekly-run.yml`
+(cron Mon 6:15 AM ET + manual trigger, runs the real pipeline, commits data,
+sends the digest), `engine/digest.py` (Spanish HTML/plain-text email via
+Gmail SMTP), and `web/functions/api/status.ts` + `web/migrations/0001_*.sql`
+(Cloudflare Pages Function + D1 schema for shared shortlist/feedback status,
+replacing the Phase 0a localStorage version in `web/src/pipeline.ts`). What's
+still manual, one-time, in the Cloudflare/GitHub dashboards: creating the
+Cloudflare account, D1 database, Pages project (connected to this repo, root
+directory `web`), Access policy (restricted to Ryan's and Roxie's emails),
+and the GitHub Actions secrets (`FASTMOSS_API_KEY`, `GMAIL_USER`,
+`GMAIL_APP_PASSWORD`, `DIGEST_TO`, `DASHBOARD_URL`). Not committed: Roxie's
+email address -- it only ever needs to exist as the `DIGEST_TO` GitHub
+secret, never in a tracked file.
 
-Not started: Phase 1 (ingest.py/normalize.py writing real weekly snapshots
-to `data/radar.db`).
+Not started: Phase 3 (weekly learning loop re-fitting composite/momentum
+weights from outcome data) and Phase 5/6 per the spec -- there isn't outcome
+data yet to learn from.
