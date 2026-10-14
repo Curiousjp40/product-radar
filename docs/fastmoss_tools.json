@@ -1,0 +1,566 @@
+{
+  "discovered_at": "2026-10-14",
+  "server": "FastMoss MCP (Streamable HTTP, remote)",
+  "tool_count": 55,
+  "note": "Names/descriptions/input schemas as surfaced through this session's FastMoss MCP connector. Real data, saved per spec section 0.2/12 Phase 0 so engine code is never written against guessed field names.",
+  "credits_basis": "Per-tool 'credits' values below are INFERRED by matching each tool's description against the four cost tiers spec section 4.1 lists (0/1/2/3), not confirmed from FastMoss docs -- treat them as a best guess. Phase 0's real calls (credit_usage_summary, search_category_by_words, 2x product_rank_top_selling, product_sales_trend, video_search, creator_search, creator_video_analysis, video_detail_analysis) consumed 9 credits total per a before/after credit_usage_summary check, but balance wasn't checkpointed between each individual call, so the 9 can't be split precisely across those 7 paid tools -- see docs/credit_log.md.",
+  "tools": [
+    {
+      "name": "credit_usage_summary",
+      "description": "Use when the user asks about the authenticated API-key user's credit balance, usage, packages, subscriptions, trial, or account status. Takes no arguments and never reads another user's data.",
+      "credits": 0,
+      "input_schema": { "properties": {}, "type": "object" }
+    },
+    {
+      "name": "search_category_by_words",
+      "description": "Use when the user knows a product/category term but does not have the category_id yet. Returns matched TikTok product category IDs and Chinese category paths.",
+      "credits": 0,
+      "input_schema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": { "type": ["array", "string"], "items": { "type": "string" }, "description": "Product or category terms, string or array; map natural-language category clues into category_id." },
+          "top_k": { "type": "integer", "default": 5, "description": "Candidate categories per keyword. Default 5." },
+          "max_total_results": { "type": "integer", "default": 15, "description": "Max deduplicated candidates. Default 15." }
+        }
+      }
+    },
+    {
+      "name": "product_category_info",
+      "description": "Use when the user needs the product category tree or category levels. Prefer search_category_by_words for natural-language category terms.",
+      "credits": 0,
+      "input_schema": { "properties": {}, "type": "object" }
+    },
+    {
+      "name": "fastmoss_detail_url_examples",
+      "description": "Use when the AI needs FastMoss detail-page links. Takes no arguments and returns product, creator, shop, video, and live URL templates.",
+      "credits": 0,
+      "input_schema": { "properties": {}, "type": "object" }
+    },
+    {
+      "name": "search_fastmoss_documents",
+      "description": "Use when the user asks about FastMoss rules, features, terms, or operations rather than real-time business data. Returns knowledge snippets and documents.",
+      "credits": 0,
+      "input_schema": {
+        "type": "object",
+        "required": ["query"],
+        "properties": {
+          "query": { "type": ["array", "string"], "items": { "type": "string" } },
+          "source_file": { "type": "string" },
+          "top_k": { "type": "integer", "default": 5 }
+        }
+      }
+    },
+    {
+      "name": "product_rank_top_selling",
+      "description": "Use when the user wants bestsellers or top products. Returns period_gmv/units_sold, total_gmv/units_sold, and units_sold_growth_rate_percent.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "object",
+            "required": ["date_type", "date_value"],
+            "properties": {
+              "category_id": { "type": "integer" },
+              "date_type": { "type": "string", "enum": ["day", "week", "month"] },
+              "date_value": { "type": "string", "description": "Completed period only: yesterday YYYY-MM-DD, last week YYYY-ww/YYYY-Www, last month YYYY-MM." },
+              "region": { "type": "string", "description": "e.g. US, UK, ID" }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["period_units_sold", "period_gmv", "total_units_sold", "total_gmv", "units_sold_growth_rate_percent"] }, "order": { "enum": ["asc", "desc"], "default": "desc" } } } },
+          "page": { "type": "integer", "default": 1, "maximum": 500 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "product_rank_new_listed",
+      "description": "Use when the user wants recently listed hot products. Returns FastMoss new-product ranking, first_3d_gmv/units_sold, and lifetime_gmv/total_units_sold; new means listed within 30 days.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "object",
+            "required": ["listing_start_date", "listing_end_date"],
+            "properties": {
+              "category_id": { "type": "integer" },
+              "category_l1_id": { "type": "integer" },
+              "category_l2_id": { "type": "integer" },
+              "category_l3_id": { "type": "integer" },
+              "is_cross_border": { "type": "boolean" },
+              "is_fully_managed": { "type": "boolean" },
+              "listing_start_date": { "type": "string", "description": "YYYY-MM-DD; latest allowed is 4 days ago." },
+              "listing_end_date": { "type": "string", "description": "YYYY-MM-DD; latest allowed is 4 days ago." },
+              "region": { "type": "string" }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["day3_units_sold", "day3_gmv", "total_units_sold", "lifetime_gmv"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "product_sales_trend",
+      "description": "Use when the user wants a product GMV/units trend or traction check. Returns period_summary and daily_trend with period_gmv, period_units_sold, daily_gmv, and daily_units_sold.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "object",
+            "required": ["product_id", "time_range_days"],
+            "properties": {
+              "product_id": { "type": "string" },
+              "time_range_days": { "type": "integer", "description": "7/14/28/90; recent=28; -1=cumulative." }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "video_search",
+      "description": "Use when the user has no video_id and provides video keywords, title, or creator. Returns matching videos.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "keywords": { "type": "string" },
+          "lang": { "type": "string", "default": "EN_US" },
+          "filter": {
+            "type": "object",
+            "required": ["create_time_range"],
+            "properties": {
+              "create_time_range": { "properties": { "min": { "type": "number" }, "max": { "type": "number" } }, "description": "Unix timestamps." },
+              "creator_uid": { "type": "integer" },
+              "creator_unique_id": { "type": "string" },
+              "creator_category_id": { "type": "integer" },
+              "product_category_id": { "type": "integer" },
+              "region": { "type": "string" },
+              "digg_count_range": { "properties": { "min": {}, "max": {} } },
+              "follower_count_range": { "properties": { "min": {}, "max": {} } },
+              "interact_rate_range": { "properties": { "min": {}, "max": {} }, "description": "Percent-number values, e.g. 10 means 10%." },
+              "play_count_range": { "properties": { "min": {}, "max": {} } },
+              "is_ecommerce": { "type": "boolean" }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["follower_count", "create_time", "play_count", "digg_count", "units_sold", "interact_rate"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "creator_search",
+      "description": "Use when the user has no UID and provides a nickname, keyword, creator category, promoted-product category, or region. Returns creator, commerce_summary, and audience_summary; day28_gmv is the key current-activity metric for tiering; has_email as a boolean, not the email address itself.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "keywords": { "type": "string" },
+          "filter": {
+            "type": "object",
+            "properties": {
+              "uid": { "type": "string" },
+              "unique_id": { "type": "string" },
+              "creator_category_id": { "type": "integer" },
+              "creator_type": { "type": "integer", "description": "1 personal, 2 shop." },
+              "verify_type": { "type": "integer", "description": "1 regular, 2 Blue V." },
+              "is_ecommerce_creator": { "type": "boolean" },
+              "is_mcn_creator": { "type": "boolean" },
+              "follower_range": { "properties": { "min": {}, "max": {} } },
+              "follower_age_type": { "type": "integer", "description": "1=18-24, 2=25-34, 3=35+" },
+              "follower_gender_type": { "type": "integer" },
+              "product_category_l1_id": { "type": "integer" },
+              "product_category_l2_id": { "type": "integer" },
+              "product_category_l3_id": { "type": "integer" },
+              "region": { "type": "string" }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["follower_count", "day28_follower_count", "video_count", "video_avg_play_count", "video_avg_digg_count", "day28_units_sold", "day28_gmv"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "creator_video_analysis",
+      "description": "Use when the user wants creator content direction, tags, and selling videos. Returns video_tag_summary and video_list with interaction_rate_percent and linked_products so the model does not confuse video performance with product performance.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "required": ["filter"],
+        "properties": {
+          "filter": {
+            "type": "object",
+            "required": ["uid"],
+            "properties": {
+              "uid": { "type": "string" },
+              "start_date": { "type": "string" },
+              "end_date": { "type": "string" },
+              "time_range_days": { "enum": [7, 14, 28, 90] },
+              "type": { "type": "string" },
+              "page": { "type": "integer", "default": 1 },
+              "pagesize": { "type": "integer", "default": 10, "maximum": 10 },
+              "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["create_time", "play_count", "digg_count", "share_count", "comment_count", "sold_count", "sale_amount"] }, "order": { "enum": ["asc", "desc"] } } } }
+            }
+          }
+        }
+      },
+      "note": "This is the 'creator video listing' tool the spec asks for -- used for @roxm___ in Phase 0."
+    },
+    {
+      "name": "creator_product_list",
+      "description": "Use when the user wants a creator showcase product list. Returns product GMV, units sold, category, price, commission, shop info, and time_range_days.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "required": ["filter"],
+        "properties": {
+          "filter": { "type": "object", "required": ["uid"], "properties": { "uid": { "type": "string" }, "category_id": { "type": "integer", "description": "L1 only." }, "time_range_days": { "type": "string" } } },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["units_sold", "gmv", "commission_rate_percent"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "creator_profile_overview",
+      "description": "Use when the user wants a creator snapshot or partnership check. Returns profile and performance_overview; GMV/rankings are mostly historical cumulative, so use creator_search day28_gmv for current activity.",
+      "credits": 2,
+      "input_schema": {
+        "type": "object",
+        "required": ["filter"],
+        "properties": { "filter": { "type": "object", "required": ["uid"], "properties": { "uid": { "type": "string" }, "lang": { "type": "string", "default": "EN_US" } } } }
+      }
+    },
+    {
+      "name": "market_category_ranking",
+      "description": "Use when the user wants category ranking, growth, or concentration. Returns ranking_scope and ranked_categories; no category_id means level-1 category ranking, and a level-1 category_id means level-2 subcategory ranking.",
+      "credits": 3,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": { "type": "object", "properties": { "category_id": { "type": "integer", "description": "Level-1 only; omit or -100 for level-1 ranking." }, "date_type": { "type": "string" }, "date_value": { "type": "string" }, "region": { "type": "string" } } },
+          "lang": { "type": "string", "default": "EN_US" },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["category_units_sold", "category_units_sold_yoy_percent", "category_gmv_yoy_percent", "top_50_products_units_sold_share_percent", "top_10_shops_units_sold_share_percent"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "product_search",
+      "description": "Use when the user has no product_id and provides a name, keyword, price band, category, bestseller clue, or new-product clue. Returns product, sales_summary, distribution_summary, and shop.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "keywords": { "type": "string" },
+          "filter": {
+            "type": "object",
+            "properties": {
+              "product_id": { "type": "string" },
+              "category_path": { "type": "array", "items": { "type": "integer" }, "description": "L1 to L3, e.g. [100,200,300]." },
+              "region": { "type": "string" },
+              "floor_price_range": { "properties": { "min": {}, "max": {} } },
+              "commission_rate_range": { "properties": { "min": {}, "max": {} }, "description": "Percent-number values." },
+              "day7_gmv_range": {}, "day7_units_sold_range": {}, "day28_gmv_range": {}, "day28_units_sold_range": {},
+              "total_gmv_range": {}, "units_sold_range": {}, "creator_count_range": {},
+              "is_cross_border": { "type": "boolean" }, "is_free_shipping": { "type": "boolean" }, "is_fully_managed": { "type": "boolean" },
+              "is_local_warehouse": { "type": "boolean" }, "is_new_listed": { "type": "boolean" }, "is_sshop": { "type": "boolean" },
+              "is_top_selling": { "type": "boolean" }, "listing_status": { "enum": ["on_sale", "off_shelf"] }, "shop_type": { "type": "integer", "description": "deprecated" }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["day7_units_sold", "day7_gmv", "day28_units_sold", "day28_gmv", "commission_rate", "total_units_sold", "total_gmv", "creator_count"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "ad_data_overview",
+      "description": "Use when the user has a video_id and wants ad spend, ROAS, play, engagement, follower, and commerce performance over a date range.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["video_id"], "properties": { "video_id": { "type": "string" }, "start_date": { "type": "string" }, "end_date": { "type": "string" }, "time_range_days": { "enum": [7, 14, 28, 60, 90, 180] } } } } }
+    },
+    {
+      "name": "ad_search",
+      "description": "Use when the user wants active ad creatives or needs to filter ads by country, category, landing page, spend, ROAS, plays, or run days. Returns ad, creator, shop, products, and performance sections.",
+      "credits": 1,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": {
+            "type": "object",
+            "properties": {
+              "ad_type": { "type": "integer", "description": "1 TikTok Shop commerce ad, 2 non-commerce." },
+              "category_l1_id": {}, "category_l2_id": {}, "category_l3_id": {},
+              "estimated_ad_spend_range": {}, "keywords": { "type": "string" },
+              "last_seen_ad_date_range": { "properties": { "start_date": {}, "end_date": {} } },
+              "observed_active_days_range": {}, "play_count_range": {}, "region": { "type": "string" },
+              "roas_range": { "description": "Multiplier, not percent." },
+              "video_create_date_range": { "properties": { "start_date": {}, "end_date": {} } }
+            }
+          },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["last_seen_ad_date", "first_seen_ad_date", "play_count", "estimated_ad_spend", "roas", "units_sold", "gmv", "observed_active_days"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer", "default": 1 },
+          "pagesize": { "type": "integer", "default": 10, "maximum": 10 }
+        }
+      }
+    },
+    {
+      "name": "agency_creator_analysis",
+      "description": "Use when the user wants agency creator structure, follower tiers, and individual collaborators. Returns distributions and a paginated creator list.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["agency_id"], "properties": { "agency_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "agency_product_analysis",
+      "description": "Use for agency product-category and price-band structure. Use agency_product_list for individual products.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["agency_id"], "properties": { "agency_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } } } }
+    },
+    {
+      "name": "agency_product_list",
+      "description": "Use when the user wants individual products promoted through an agency. Supports category, price, period, sorting, and pagination.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["agency_id"], "properties": { "agency_id": { "type": "string" }, "minimum_price": { "type": "number" }, "maximum_price": { "type": "number" }, "product_category_id": { "type": "integer" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "agency_profile_overview",
+      "description": "Use when the user wants an agency profile, historical performance, and recent 7/28/90-day data overview.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["agency_id"], "properties": { "agency_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } } } }
+    },
+    {
+      "name": "agency_rank_top",
+      "description": "Use when the user wants leading MCN agencies in a market. Returns weekly or monthly agency rankings and period performance.",
+      "credits": 3,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "properties": { "date_type": { "enum": ["week", "month"], "default": "week" }, "date_value": { "type": "string" }, "region": { "type": "string" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "agency_search",
+      "description": "Use when the user has an agency name or market clue but no agency_id. Returns matching agencies and recent 7-day performance.",
+      "credits": 1,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "properties": { "region": { "type": "string" }, "search_keyword": { "type": "string", "maxLength": 120 } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "agency_shop_analysis",
+      "description": "Use when the user wants agency collaborating-shop totals and individual shop performance.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["agency_id"], "properties": { "agency_id": { "type": "string" }, "product_category_id": { "type": "integer" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } } } }
+    },
+    {
+      "name": "creator_cargo_summary",
+      "description": "Use when the user wants a creator video-vs-live selling split and main promoted categories.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["uid"], "properties": { "uid": { "type": "string" } } } } }
+    },
+    {
+      "name": "creator_data_trends",
+      "description": "Use when the user asks about creator follower, engagement, or commerce trends. Select field_type; returns daily series and period totals.",
+      "credits": 2,
+      "input_schema": {
+        "type": "object",
+        "required": ["filter"],
+        "properties": {
+          "filter": {
+            "type": "object",
+            "required": ["uid", "field_type"],
+            "properties": {
+              "uid": { "type": "string" },
+              "field_type": { "enum": ["follower_change", "play_count", "like_count", "comment_count", "collect_count", "share_count", "units_sold", "gmv", "video_units_sold", "video_gmv", "live_units_sold", "live_gmv", "showcase_units_sold", "showcase_gmv"] },
+              "start_date": { "type": "string" }, "end_date": { "type": "string" },
+              "time_range_days": { "enum": [7, 14, 28, 90], "default": 28 }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "creator_fans_distribution",
+      "description": "Use when the user wants to check whether a creator audience matches a target market. Returns age, gender, location, and top segments.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["uid"], "properties": { "uid": { "type": "string" } } } } }
+    },
+    {
+      "name": "creator_rank_top_ecommerce",
+      "description": "Use when the user wants top ecommerce creators. Returns creator and ranking_metrics; date_value is returned as YYYY-Www for weekly rankings.",
+      "credits": 3,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filter": { "type": "object", "required": ["date_type", "date_value"], "properties": { "account_type": { "type": "integer" }, "creator_category_id": { "type": "integer" }, "date_type": { "enum": ["day", "week", "month"] }, "date_value": { "type": "string" }, "ecommerce_type": { "type": "integer" }, "product_category_id": { "type": "integer" }, "region": { "type": "string" } } },
+          "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["creator_usd_gmv", "video_usd_gmv", "live_usd_gmv"] }, "order": { "enum": ["asc", "desc"] } } } },
+          "page": { "type": "integer" }, "pagesize": { "type": "integer" }
+        }
+      }
+    },
+    {
+      "name": "creator_rank_top_growth",
+      "description": "Use when the user wants fast-growing creators. Returns creator and growth_metrics; date_value is returned as YYYY-Www for weekly rankings.",
+      "credits": 3,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "required": ["date_type", "date_value"], "properties": { "category_id": { "type": "integer" }, "date_type": { "enum": ["day", "week", "month"] }, "date_value": { "type": "string" }, "region": { "type": "string" }, "verify_type": { "enum": [1, 2] } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "creator_rank_top_potential",
+      "description": "Use when the user wants creators with ecommerce potential. Returns creator, potential_metrics, and audience_summary; date_value is returned as YYYY-Www for weekly rankings.",
+      "credits": 3,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "required": ["date_type", "date_value"], "properties": { "category_path": { "type": "array" }, "creator_category_id": { "type": "integer" }, "date_type": {}, "date_value": {}, "ecommerce_type": { "type": "integer" }, "follower_age_type": {}, "follower_count_range": {}, "follower_gender_type": { "type": "integer" }, "region": { "type": "string" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "live_detail_analysis",
+      "description": "Use when the user wants one live session info, creator, key performance, and category breakdown.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["room_id"], "properties": { "room_id": { "type": "string" } } }, "lang": { "type": "string", "default": "EN_US" } } }
+    },
+    {
+      "name": "live_products_list",
+      "description": "Use when the user wants products sold in a live session or high GMV/units within this live session. Returns live_units_sold, live_gmv, commission_rate_percent, sales_timeline only when pagesize <= 10, and shop_cumulative_units_sold.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["room_id"], "properties": { "category_id": { "type": "integer" }, "room_id": { "type": "string" }, "seller_id": { "type": "string" } } }, "lang": { "type": "string" }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer", "maximum": 10 } } }
+    },
+    {
+      "name": "live_search",
+      "description": "Use when the user has no room_id and provides a live title, host, or shop. Returns live, creator, and performance_summary.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "keywords": { "type": "string" }, "lang": { "type": "string" }, "filter": { "type": "object", "required": ["start_time"], "properties": { "creator_category": {}, "follower_range": {}, "live_type": { "description": "1 shop live, 2 creator live" }, "product_category": {}, "region": {}, "room_id": {}, "sold_range": {}, "start_time": { "properties": { "min": { "type": "integer" }, "max": { "type": "integer" } } }, "viewer_range": {} } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "market_category_analysis",
+      "description": "Use when the user wants category size, growth, competition, or opportunity. analysis_type basic_metrics returns category, scale_metrics, growth_metrics, concentration_metrics; sales_trends returns trend_series; price_distribution returns sales_price_distribution with left-open right-closed price bands and sub_category_units_sold_total.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter", "analysis_type"], "properties": { "analysis_type": { "enum": ["basic_metrics", "sales_trends", "price_distribution"] }, "filter": { "type": "object", "properties": { "category_id": { "type": "integer", "description": "L1 only; -100 = all." }, "date_type": {}, "date_value": {}, "region": {} } }, "lang": { "type": "string" } } },
+      "note": "Likely corresponds to the spec's 'get_category_sales_trend' (analysis_type=sales_trends)."
+    },
+    {
+      "name": "market_category_author_sales_matrix",
+      "description": "Use when the user wants category sales contribution by creator follower_tier. Returns creator_count, category_gmv, gmv_share_percent, units_sold, and avg_creator_gmv.",
+      "credits": 3,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "properties": { "category_id": { "type": "integer" }, "date_value": { "type": "string" }, "region": { "type": "string" }, "sold_type": { "type": "integer" } } }, "lang": { "type": "string" } } }
+    },
+    {
+      "name": "product_creator_analysis",
+      "description": "Use when the user wants who sells a product or the creator structure. Returns creator_summary with follower_tier_distribution and creator_category_distribution, plus linked_creators with creator, product_contribution, creator_cumulative_performance, and audience_summary.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" } } }, "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["product_gmv", "product_units_sold", "creator_total_like_count", "follower_count"] } } } }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "product_detail_info",
+      "description": "Use when the user wants product basics, shop, price, rating, logistics, images, or ad status. Returns product and shop; detail_url points to TikTok.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" } } } } }
+    },
+    {
+      "name": "product_investment",
+      "description": "Use when the user asks about product ads, spend, ROAS, or daily paid-traffic changes. Returns ad_performance_summary and daily_ad_performance_trend; ad_gmv is ad-attributed.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "time_range_days": { "type": "integer" } } } } }
+    },
+    {
+      "name": "product_overview",
+      "description": "Use when the user wants product channel attribution, lifecycle/momentum, or ad-vs-organic structure. Returns period_summary, daily_trend, ads_distribution, channel_distribution, and content_distribution.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "start_date": {}, "end_date": {}, "time_range_days": { "type": "integer" } } } } }
+    },
+    {
+      "name": "product_review_list",
+      "description": "Use when the user wants product reviews or buyer feedback. Returns review list and count; supports time_range_days and rating/create_time/review_id sorting.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "time_range_days": { "type": "integer" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "product_sku",
+      "description": "Use when the user wants SKU sales share, inventory share, or SKU health. Returns SKU-level sales and inventory shares.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "time_range_days": { "enum": [7, 28], "default": 7 } } } } }
+    },
+    {
+      "name": "product_video_list",
+      "description": "Use when the user wants videos selling a product, high-play videos, or paid-vs-organic video traffic. Filter with is_ad; returns GMV, plays, video_desc, and fastmoss_url.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "create_time_range": {}, "is_ad": { "type": "boolean" }, "time_range_days": { "type": "integer" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_base_info",
+      "description": "Use when the user wants a shop snapshot, store type, rating, or profile. Returns cumulative GMV/units, ranks, age, product count, and creator/video/live counts.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "seller_id": { "type": "string" } } } } }
+    },
+    {
+      "name": "shop_creator_analysis",
+      "description": "Use when the user wants shop collaborators, creator tiers, or video-vs-live selling structure. Returns creator list and distributions.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "author_product_type": { "enum": [1, 2] }, "follower_count_range": {}, "seller_id": { "type": "string" }, "sold_count_range": {}, "time_range_days": { "enum": [7, 28, 90, -1] } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_data_trends",
+      "description": "Use when the user wants recent shop GMV, units, creator, live, video, or active-product trends. Returns daily trends.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "end_date": {}, "seller_id": { "type": "string" }, "start_date": {}, "time_range_days": { "enum": [7, 28, 90] } } } } }
+    },
+    {
+      "name": "shop_investment_analysis",
+      "description": "Use when the user asks about shop ads, spend, ROAS, ad GMV, or promoted assets. Returns ad estimates and daily changes.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "end_date": {}, "seller_id": { "type": "string" }, "start_date": {}, "time_range_days": { "enum": [7, 14, 28, 60, 90, 180] } } } } }
+    },
+    {
+      "name": "shop_live_analysis",
+      "description": "Use when the user wants shop live performance, shop-live vs affiliate-live structure, or live sessions.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "is_shop": { "description": "0 all, 1 shop live, 2 affiliate live" }, "seller_id": { "type": "string" }, "summary_end_date": {}, "summary_start_date": {}, "time_range_days": { "enum": [7, 28, 90] } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_product_analysis",
+      "description": "Use when the user wants shop categories, price bands, product mix, or product details. Returns distributions and product list.",
+      "credits": 3,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "category_id": {}, "listing_end_date": {}, "listing_start_date": {}, "listing_time_range_days": { "enum": [7, 14, 28, 90] }, "seller_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90] } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_rank_top_selling",
+      "description": "Use when the user wants top shops in a market or category. Returns shop ranking and ecommerce metrics.",
+      "credits": 3,
+      "input_schema": { "type": "object", "properties": { "filter": { "type": "object", "required": ["date_type", "date_value"], "properties": { "category_id": {}, "date_type": { "enum": ["day", "week", "month"] }, "date_value": {}, "is_cross_border": { "type": "boolean" }, "region": {}, "shop_type": { "description": "1 brand, 2 retail" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_sale_analysis",
+      "description": "Use when the user wants shop sales by short video, live, product card, creator, or self-operated channels. Returns channel_distribution and content_distribution.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "seller_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90], "default": 28 } } } } }
+    },
+    {
+      "name": "shop_search",
+      "description": "Use when the user has no seller_id and provides a shop name, keyword, or region. Returns matching shops.",
+      "credits": 1,
+      "input_schema": { "type": "object", "properties": { "keywords": { "type": "string" }, "filter": { "type": "object", "properties": { "brand_name": {}, "category_id": {}, "creator_range": {}, "creator_uid": {}, "creator_unique_id": {}, "is_fully_managed": { "type": "boolean" }, "is_local": { "type": "boolean" }, "rating_range": {}, "region": {}, "seller_id": {}, "shop_name": {} } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "shop_video_analysis",
+      "description": "Use when the user wants shop selling videos, video performance, or ad status.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["seller_id"], "properties": { "is_ad": { "type": "boolean" }, "publish_end_date": {}, "publish_start_date": {}, "publish_time_range_days": { "enum": [7, 28, 90] }, "seller_id": { "type": "string" }, "time_range_days": { "enum": [7, 28, 90] } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "video_data_trends",
+      "description": "Use when the user wants one video play, like, comment, or share trends. Returns daily interaction trends.",
+      "credits": 2,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["video_id"], "properties": { "end_date": {}, "start_date": {}, "time_range_days": { "type": "integer" }, "video_id": { "type": "string" } } } } }
+    },
+    {
+      "name": "video_detail_analysis",
+      "description": "Use when the user wants one video basics, plays, engagement, interaction rate, IPM, and linked products.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["video_id"], "properties": { "video_id": { "type": "string" } } }, "lang": { "type": "string" }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+    },
+    {
+      "name": "video_script_info",
+      "description": "Use when the user wants video subtitles or line-by-line spoken copy. Returns start/end time and text; empty subtitles can fall back to video_desc.",
+      "credits": 1,
+      "input_schema": { "type": "object", "required": ["video_id"], "properties": { "video_id": { "type": "string" } } }
+    }
+  ]
+}

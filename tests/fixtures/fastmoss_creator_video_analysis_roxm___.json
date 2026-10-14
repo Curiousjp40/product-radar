@@ -1,0 +1,32 @@
+{
+  "_fixture_note": "filter={uid:7142953711915025413 (roxm___), time_range_days:28, orderby create_time desc}. This IS the 'creator video listing for @roxm___' tool the spec Phase 0 checklist asks for. KEY FINDINGS: she posted 120 videos in the last 28 days (far more than the seed file's 50 curated top videos, and more than the 4/week default capacity in settings.yaml) but these recent videos have tiny play_count (14-845) and video_gmv=0 -- confirms sales are hit-driven (spec section 2.4): most videos barely get seen, her historical 'top' videos in creator_history.json are the rare hits. duration_seconds not duration_s. video_tag_summary shows her actual current hashtag mix (koreanskincare/kbeauty top, not shapewear) -- she posts much broader content than just her proven categories.",
+  "params": {"filter": {"uid": "7142953711915025413", "time_range_days": 28, "pagesize": 10, "orderby": [{"field": "create_time", "order": "desc"}]}},
+  "result": {
+    "video_tag_summary": {
+      "top_tag": {"percentage": 15.71, "tag": "koreanskincare", "video_count": 49},
+      "tag_distribution": [
+        {"percentage": 15.71, "tag": "koreanskincare", "video_count": 49},
+        {"percentage": 12.5, "tag": "tiktokmademebuyit", "video_count": 39},
+        {"percentage": 12.18, "tag": "tiktokshopblackfriday", "video_count": 38},
+        {"percentage": 11.22, "tag": "tiktokshopblackfridaysale", "video_count": 35},
+        {"percentage": 10.26, "tag": "kbeauty", "video_count": 32},
+        {"percentage": 8.33, "tag": "tiktokshopcibermonday", "video_count": 26},
+        {"percentage": 7.69, "tag": "dealsforyoudays", "video_count": 24},
+        {"percentage": 7.69, "tag": "fyp", "video_count": 24},
+        {"percentage": 7.37, "tag": "OOTD", "video_count": 23},
+        {"percentage": 7.05, "tag": "tiktonshopholidaydeals", "video_count": 22}
+      ]
+    },
+    "video_list": {
+      "page": 1,
+      "total": 120,
+      "list": [
+        {"caption_text": "Un estilo elegante y fresco con este set de 2 de @Fashion Nova 💚 #falldealsforyou #TikTokShopBlackFriday #tiktokshopcibermonday #fashiontiktok #fashioninspo ", "comment_count": 0, "creator_handle": "roxm___", "duration_seconds": 28, "interaction_rate_percent": 21.43, "is_ad": false, "like_count": 2, "linked_product_count": 1, "linked_products": [{"price": "$24.00", "product_id": "1730026340215133032", "product_units_sold": 3546, "title": "Makenzie Pant Set - Hunter"}], "play_count": 14, "published_at": 1791942946, "region": "US", "share_count": 1, "video_gmv": 0, "video_id": "7696336320326569247", "video_units_sold": 0},
+        {"caption_text": "@SKIN1004 US #skin1004 #koreanskincare #porecare #poremizing #cloggedpores ", "comment_count": 0, "creator_handle": "roxm___", "duration_seconds": 64, "interaction_rate_percent": 4.76, "is_ad": false, "like_count": 1, "linked_product_count": 1, "linked_products": [{"price": "$18.00", "product_id": "1732416043538092482", "product_units_sold": 6524, "title": "[SKIN1004 Official Shop] Madagascar Centella Poremizing Travel Kit"}], "play_count": 21, "published_at": 1791929409, "region": "US", "share_count": 0, "video_gmv": 0, "video_id": "7696278158391168287", "video_units_sold": 0},
+        {"caption_text": "Halloween is hereeee…. #halloween #halloweencostume #halloweenmakeup #costumeideas #costume ", "comment_count": 0, "creator_handle": "roxm___", "duration_seconds": 23, "interaction_rate_percent": 0.83, "is_ad": false, "like_count": 7, "linked_product_count": 1, "linked_products": [{"price": "$27.00 - 28.40", "product_id": "1729616193653936317", "product_units_sold": 958, "title": "Women Halloween Fairy Costume Glitter Strapless Mini Dress with Fairy Wings Set Fairy Cosplay Outfits"}], "play_count": 845, "published_at": 1791920079, "region": "US", "share_count": 0, "video_gmv": 0, "video_id": "7696238094852328735", "video_units_sold": 0},
+        {"caption_text": "Basic Jeans👖💙 I’m 5.2” size 7 @Fashion Nova #falldealsforyou #ootd #TikTokShopBlackFriday #tiktokshopcibermonday #jeansoutfit ", "comment_count": 0, "creator_handle": "roxm___", "duration_seconds": 22, "interaction_rate_percent": 26.09, "is_ad": false, "like_count": 3, "linked_product_count": 1, "linked_products": [{"price": "$39.99", "product_id": "1730026312491307880", "product_units_sold": 18820, "title": "Margot Stretch Trouser Jeans - Medium Wash"}], "play_count": 23, "published_at": 1791919153, "region": "US", "share_count": 3, "video_gmv": 0, "video_id": "7696234113832930591", "video_units_sold": 0},
+        {"caption_text": "@Fashion Nova 💙 #ootd #falldealsforyou #TikTokShopBlackFriday #fashiontiktok #fashioninspo ", "comment_count": 3, "creator_handle": "roxm___", "duration_seconds": 14, "interaction_rate_percent": 10.67, "is_ad": false, "like_count": 23, "linked_product_count": 1, "linked_products": [{"price": "$30.00", "product_id": "1730026345666548584", "product_units_sold": 8593, "title": "Next Level Denim Pant Set - Light Wash"}], "play_count": 253, "published_at": 1791881928, "region": "US", "share_count": 1, "video_gmv": 0, "video_id": "7696074042599623966", "video_units_sold": 0}
+      ]
+    }
+  }
+}

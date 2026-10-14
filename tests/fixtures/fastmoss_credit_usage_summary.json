@@ -1,0 +1,10 @@
+{
+  "account": {"recovery_actions": [], "restriction_reason": null, "status": 1, "status_label": "normal"},
+  "balance": {"available_credits": 500, "granted_by_source": {"bonus": 0, "subscription": 500, "top_up_package": 0, "trial": 0}, "total_consumed_credits": 0, "total_granted_credits": 500},
+  "credit_buckets": [{"bucket_id": 55911, "effective_at": "2026-10-15 04:25:12", "expires_at": "2026-11-15 04:25:12", "expires_description": "2026-11-15 04:25:12", "grant_operator_name": null, "granted_credits": 500, "order_no": "mp20261015495023706731", "package_name": "Basic", "remaining_credits": 500, "source_label": "订阅套餐", "source_type": 2, "status": 1, "status_label": "可用", "used_credits": 0}],
+  "entitlements": {"api_key_quota": 1, "monthly_credits": 500, "plan_expire_at": "2026-11-15 04:25:12", "rate_limit_per_min": 60},
+  "subscriptions": [{"cancel_at_period_end": false, "monthly_credits": 500, "next_pay_time": "2026-11-15 18:00:00", "package_name": "Basic", "plan_code": "basic_monthly_us", "status": 2, "status_label": "已生效", "subscription_id": 333, "tier": "Basic"}],
+  "top_up_packages": [],
+  "trial_packages": [],
+  "user_id": 11154323
+}

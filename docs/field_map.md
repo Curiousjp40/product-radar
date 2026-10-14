@@ -1,14 +1,73 @@
 # FastMoss field map
 
-Not started. Filled in during Phase 0, once `FASTMOSS_API_KEY` is set and real
-tool responses are saved to `tests/fixtures/` (see spec section 12, Phase 0).
+Filled in during Phase 0 (2026-10-14), from real calls -- fixtures in
+`tests/fixtures/fastmoss_*.json`. Tool schemas and credit-tier guesses: see
+`docs/fastmoss_tools.json`. Nothing here is guessed; every row below was seen
+in an actual response.
 
-Format once filled in:
+## Timezone (Phase 0 acceptance item)
 
-| Concept (spec section 4.1) | FastMoss tool | FastMoss field | Notes |
+**Confirmed: every FastMoss display timestamp string (`published_at_display`,
+and `data/seed/creator_history.json`'s `published_at` column) is China
+Standard Time, UTC+8 -- not UTC, not the creator's US local time.**
+
+Proof: `data/seed/creator_history.json`'s row for video `7569620287046667550`
+says `published_at: "2025-11-06 22:32:55"`. The live `video_detail_analysis`
+call for that same video_id returned `published_at_ts: 1762439575`, which is
+`2025-11-06 14:32:55 UTC` -- exactly 8 hours off, i.e. `2025-11-06 22:32:55`
+in UTC+8. Matches exactly.
+
+**Implication:** any posting-time analysis (spec section 8.4) must convert
+from the raw unix `*_ts` field to the creator's actual local time (US Eastern
+or similar) first -- never trust a `*_display` string as already being in a
+useful timezone.
+
+## Core product concepts (spec section 4.1 table)
+
+| Concept | Real field(s) | Tool(s) seen on | Notes |
 |---|---|---|---|
-| product id | | | |
-| ... | | | |
+| product id | `product_id` | product_rank_top_selling, product_search, video linked_products | Large numeric string, not an int. |
+| title | `title` | product_rank_top_selling | |
+| image | `cover_url` | product_rank_top_selling (product + shop both have their own `cover_url`) | No field literally named "image". |
+| category (L1/L2/L3) | `category.l1.{id,name}`, `.l2`, `.l3` | product_rank_top_selling | **English names here.** But `search_category_by_words` (the category-ID lookup tool) only returns **Chinese** `cn_name`/`cn_full_name` + `category_id_level1/2/3` -- no English label on that tool at all. To get an English category name you need a product/ranking response, not the category-search tool. |
+| shop name/id | `shop.shop_id`, `shop.shop_name` | product_rank_top_selling | |
+| price (current/min/max) | `floor_price`, `ceiling_price`, `price_display` (formatted string e.g. `"$24.00 - 33.00"`) | product_rank_top_selling | No single "price" field -- it's always a floor/ceiling pair since a product can have multiple SKU prices. Video's `linked_products[].current_price` is a single number (one SKU). |
+| commission rate | `commission_rate_percent` | product_rank_top_selling, video linked_products | **Percent-integer (15 means 15%), not a 0-1 fraction.** `engine.scoring.earnings_per_sale` expects a fraction -- divide by 100 when mapping. |
+| units/GMV: 1d/7d/30d/total | `period_units_sold`/`period_gmv` (for the requested `date_type` window) + `total_units_sold`/`total_gmv` (lifetime) | product_rank_top_selling | No separate 1d/7d/30d fields on this endpoint -- that granularity (and `units_1d`/`units_7d`/`units_30d` in `engine.models.ProductSnapshot`) has to come from summing `product_sales_trend`'s `daily_trend`, or from a `period_summary.period_gmv`/`period_units_sold` call with the matching `time_range_days`. |
+| growth rate | `units_sold_growth_rate_percent` | product_rank_top_selling | Percent number, unbounded -- saw values from -41.76 to 6300 (new/tiny-denominator products spike hugely). Don't clamp without checking the spec's own intent. |
+| rank position | *(none -- implicit)* | product_rank_top_selling | No explicit rank field. Rank = 1-based position in the returned `list`, which is already sorted by whatever `orderby` was requested. |
+| creators/videos/lives promoting (saturation inputs) | `period_summary.linked_creator_count`, `.linked_video_count`, `.linked_live_count` | **product_sales_trend** (NOT product_rank_top_selling) | This is the one FastMoss concept that lives on a different tool than you'd expect -- `creator_count` for section 6.3/6.5 comes from here. |
+| daily units series (trend) | `daily_trend[].date` (`YYYY-MM-DD`), `.daily_units_sold`, `.daily_gmv` | product_sales_trend | Includes *today* (the partial/incomplete day), unlike the ranking endpoints which reject the current period. |
+| rating, reviews | `product_rating` (e.g. `4.2`) | video_detail_analysis's `linked_products[].product` | Not present on product_rank_top_selling or product_sales_trend. Review *count* not seen yet -- likely `product_review_list` (not called this phase; budget-conscious). |
+| delisted flag | `is_off_shelf` (boolean) | product_rank_top_selling, video_detail_analysis | Maps directly to `engine.models.Product.delisted`. |
+| launch/first-listed date | `launch_date` (`YYYY-MM-DD`) + `launch_time` (unix) | product_rank_top_selling | Redundant pair; use `launch_time` for math, `launch_date` for display. |
 
-Anything the spec expects that FastMoss does not actually return goes here as
-"missing" with the feature it degrades (per spec section 0.2) -- never guessed.
+## Creator concepts (section 6.6, 6.11, 6.13)
+
+| Concept | Real field(s) | Tool(s) seen on | Notes |
+|---|---|---|---|
+| creator UID | `uid` | creator_search, creator_video_analysis | Large numeric string. |
+| creator handle | `unique_id` | creator_search | **Not `handle`** -- `data/seed/creator_history.json` calls this field `handle`, but the live API calls the same concept `unique_id`. `engine/seed.py` already prefers a `handle` key when present (matches the seed file); a future `normalize.py` for live API responses must read `unique_id` instead. |
+| creator display name | `nickname` | creator_search | e.g. "Roxielys" for @roxm___. |
+| follower count | `follower_count` | creator_search | |
+| current-activity GMV | `commerce_summary.day28_gmv` | creator_search | The tool description itself says this (not lifetime `total_gmv`) is "the key current-activity metric for tiering." |
+| posting cadence | `commerce_summary.day28_video_count` | creator_search | For @roxm___: **116-120** videos in the last 28 days (confirmed two ways) -- far above the `videos_per_week: 4` default in `config/settings.yaml`. That default is about what she *films toward a product*, not her total posting volume (lots of non-shop content), but worth knowing. |
+| audience fit | `audience_summary.age_distribution`, `.gender_distribution` | creator_search | For @roxm___: skews 61.9% male / 31.3% female, 35-44 the largest age band -- worth a sanity check against who the spec assumes her audience is (not an engine input today, just noted). |
+
+## Video concepts (section 6.8 Spanish gap, section 8 content insights)
+
+| Concept | Real field(s) | Tool(s) seen on | Notes |
+|---|---|---|---|
+| caption/text for language detection | `caption_text` | video_search, creator_video_analysis, video_detail_analysis | Confirmed -- feed straight into `engine.language.spanish_share`. |
+| video duration | `duration_seconds` | video_search, creator_video_analysis | **Not `duration_s`** (this repo's own naming in `engine/models.py`/seed file). Simple rename when mapping. |
+| engagement | `like_count`, `comment_count`, `share_count`, `favorite_count`, `play_count`, `interaction_rate_percent` | video_search (nested under `engagement_metrics`), creator_video_analysis (**flat**, not nested) | Same concepts, different nesting shape between the two tools -- normalize.py needs two branches. |
+| video-attributed commerce | `video_attributed_gmv`/`video_attributed_units_sold` (nested under `commerce_metrics`) | video_search | creator_video_analysis has the same concept but flat and named `video_gmv`/`video_units_sold`. |
+| is this video an ad | `is_ad` | video_search (nested `traffic_flags.is_ad`), creator_video_analysis (flat `is_ad`) | Same nesting inconsistency as above. |
+| published timestamp | `published_at_ts` (unix) + `published_at_display` (string, UTC+8 -- see Timezone section) | video_search | creator_video_analysis only has `published_at` (unix), no display string. |
+| linked product(s) | `linked_products[]` (array -- a video can sell more than one product), `linked_product_count` | video_search, creator_video_analysis | `engine.models.CreatorVideo.product_id` (singular) will need a decision in Phase 1 about which linked product "counts" when there's more than one. |
+
+## Not yet confirmed (not called this phase, to keep Phase 0 credit-light)
+
+- Review **count** (vs. the `product_rating` average found above) -- candidate: `product_review_list`.
+- Explicit `category_l2` string separate from the l1/l2/l3 object shape above for `engine.models.Product.category_l2` -- probably just `category.l2.name`, same shape as l1, not separately confirmed with its own call.
+- `rank_delta` over time -- needs two weekly snapshots to compute; nothing to confirm from a single Phase 0 call.

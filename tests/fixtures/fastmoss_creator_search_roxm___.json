@@ -1,0 +1,14 @@
+{
+  "_fixture_note": "keywords='roxm___', filter.unique_id='roxm___'. Found uid=7142953711915025413, used for creator_video_analysis below. Note: total_gmv=45503.11 here is more than double the $21,319 computed from the 46 shop videos in data/seed/creator_history.json -- confirms that seed file really is a curated top-videos subset (spec's own caveat), not her complete history; video_count_total=1121 vs 50 in the seed file. has_email is a boolean only, never the address.",
+  "params": {"keywords": "roxm___", "filter": {"unique_id": "roxm___"}},
+  "result": {
+    "total": 1,
+    "list": [
+      {
+        "creator": {"account_type_code": 0, "avatar": "https://s.500fd.com/tt_author/e2abf31b9104ac56346733fab2599ce2~tplv-tiktokx-cropcenter:720:720.jpeg", "category": {"id": 31, "name": "Other"}, "creator_type_code": 1, "follower_count": 5638, "live_count_total": 0, "nickname": "Roxielys", "region": "US", "seller_id": "", "uid": "7142953711915025413", "unique_id": "roxm___", "verify_type_code": 0, "video_count_total": 1121},
+        "commerce_summary": {"currency": "", "day28_follower_count": -8, "day28_gmv": 2188.35, "day28_live_count": 0, "day28_live_gmv": 0, "day28_units_sold": 65, "day28_video_count": 116, "engagement_rate_percent": 1.3, "has_email": true, "live_gmv": 0, "live_units_sold": 0, "total_gmv": 45503.11, "total_units_sold": 2031, "trend_categories": [{"id": 1003, "name": "Fashion"}, {"id": 1001, "name": "Beauty"}, {"id": 1007, "name": "Personal Care & Health"}], "video_avg_digg_count": 49, "video_avg_play_count": 3278, "video_gmv": 27784.42, "video_units_sold": 1538},
+        "audience_summary": {"age_distribution": [{"age_range": "35-44", "percentage": 46.02}, {"age_range": "25-34", "percentage": 37.15}, {"age_range": "45-54", "percentage": 8.43}, {"age_range": "18-24", "percentage": 6.7}, {"age_range": "55+", "percentage": 1.68}], "gender_distribution": [{"gender": "male", "percentage": 61.91}, {"gender": "female", "percentage": 31.27}]}
+      }
+    ]
+  }
+}

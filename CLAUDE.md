@@ -16,3 +16,14 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 - Roxie (@roxm___): primary user, TikTok Shop affiliate creator.
 - Ari (@ariannamendoza04): benchmark creator; her data is used with permission and must stay private (dashboard behind login).
 - Ryan: repo owner.
+
+## Status (updated 2026-10-14)
+Phase 0a done: engine algorithms (pure functions, 109 tests), seed import +
+content insights run against the real `data/seed/creator_history.json`,
+dashboard shell. Phase 0 done: `docs/fastmoss_tools.json` (55 tools) and
+`docs/field_map.md` filled in from real calls, 9 credits used. Notable
+Phase 0 findings: FastMoss timestamps are UTC+8 (confirmed, not guessed);
+`commission_rate_percent` is a percent-integer not a 0-1 fraction;
+`creator_count`/`video_count`/`live_count` live on `product_sales_trend`,
+not the ranking endpoint. Not started: Phase 1 (ingest.py/normalize.py
+writing real weekly snapshots to `data/radar.db`).

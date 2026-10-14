@@ -1,0 +1,13 @@
+{
+  "_fixture_note": "filter={video_id:7569620287046667550} -- the exact video_id of the #1 row in data/seed/creator_history.json (Roxie's BBL short, $9,499 GMV). Called specifically to confirm the Phase 0 timezone question: seed file's published_at='2025-11-06 22:32:55' == this response's published_at_ts (1762439575) converted to UTC+8 EXACTLY (UTC alone gives 14:32:55, 8 hours off). CONFIRMED: all FastMoss display timestamps (seed export AND live API) are China Standard Time (UTC+8), not UTC and not the creator's US local time -- convert from the raw unix ts before any posting-time analysis (spec section 8.4). Also found product_rating (4.2) here, not present on product_rank_top_selling.",
+  "params": {"filter": {"video_id": "7569620287046667550"}},
+  "result": {
+    "creator": {"avg_video_like_count": 49, "avg_video_play_count": 3278, "category": {"category_id": 31, "category_name": "Other"}, "creator_handle": "roxm___", "creator_uid": "7142953711915025413", "follower_count": 5635, "nickname": "Roxielys", "region": "US", "total_like_count": 52681, "video_count": 1128},
+    "video": {"caption_text": "Women's BBL Short #fajashort #tiktokshopblackfriday #tiktokshopcybermonday #fajascolombianas #amadecasa ", "creator_uid": "7142953711915025413", "duration_seconds": 22, "engagement_metrics": {"comment_count": 71, "favorite_count": 453, "interaction_rate_percent": 0.3, "like_comment_ipm": 3, "like_count": 1170, "play_count": 462100, "share_count": 165}, "linked_product_count": 1, "published_at_ts": 1762439575, "region": "US", "traffic_flags": {"is_ad": true}, "updated_at_display": "2026-02-17 22:03:42", "updated_at_ts": 1771337022, "video_id": "7569620287046667550"},
+    "linked_products": {
+      "total": 1,
+      "summary": {"region": "US", "video_attributed_gmv": 9499.41, "video_attributed_units_sold": 260},
+      "items": [{"commerce_metrics": {"video_attributed_gmv": 9499.41, "video_attributed_units_sold": 260}, "product": {"category_name": "Womenswear & Underwear", "commission_rate_percent": 10, "current_price": 58.8, "is_off_shelf": false, "launch_date": "2025-09-02", "launch_time": 1756742666, "price_display": "$58.80", "product_id": "1731692737726747208", "product_rating": 4.2, "region": "US", "seller_id": "7495969740589730376", "title": "BESTENA Lady's BBL High Waist Plain Compression Girdle Shorts - Underwear for Women, Waist Trainer Leg Shaper, Tummy Control Faja Body Shaper, Body Contouring Flat Belly & Butt Lift (S-3XL Plus Size)"}}]
+    }
+  }
+}

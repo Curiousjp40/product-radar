@@ -1,0 +1,24 @@
+{
+  "_fixture_note": "query=[\"shapewear\",\"women's clothing\",\"home decor\",\"beauty\",\"Halloween costume\"]. FastMoss only returns Chinese category names (cn_name/cn_full_name) -- no English label field exists. 'Halloween costume' had no match in the top-15 combined results (seasonal is cross-category, not its own category, confirming the seasons.yaml approach). Best matches used downstream: shapewear -> category_id_level3=601259 (女士塑身衣, under 女装与女士内衣-女士内衣), home_decor -> category_id_level1=10 (居家日用) / level2=852104 (装饰).",
+  "params": {"max_total_results": 15, "query": ["shapewear", "women's clothing", "home decor", "beauty", "Halloween costume"], "top_k": 5},
+  "result": {
+    "categories": [
+      {"category_id_level3": 843912, "category_id_level2": 842632, "category_id_level1": 2, "cn_name": "女士传统服饰", "cn_full_name": "女装与女士内衣-女士特殊服饰-女士传统服饰", "score": 0.6406, "matched_query": "women's clothing"},
+      {"category_id_level3": 843784, "category_id_level2": 842632, "category_id_level1": 2, "cn_name": "女士工作服", "cn_full_name": "女装与女士内衣-女士特殊服饰-女士工作服", "score": 0.63, "matched_query": "women's clothing"},
+      {"category_id_level3": 601296, "category_id_level2": 842760, "category_id_level1": 2, "cn_name": "女士西服套装", "cn_full_name": "女装与女士内衣-女士套装与连体衣-女士西服套装", "score": 0.6085, "matched_query": "women's clothing"},
+      {"category_id_level3": 854792, "category_id_level2": 852104, "category_id_level1": 10, "cn_name": "宗教装饰", "cn_full_name": "居家日用-装饰-宗教装饰", "score": 0.5649, "matched_query": "home decor"},
+      {"category_id_level3": 978056, "category_id_level2": 849160, "category_id_level1": 14, "cn_name": "美黑产品", "cn_full_name": "美妆个护-洗浴与身体护理-美黑产品", "score": 0.5418, "matched_query": "beauty"},
+      {"category_id_level3": 1000072, "category_id_level2": 852104, "category_id_level1": 10, "cn_name": "印刷制品", "cn_full_name": "居家日用-装饰-印刷制品", "score": 0.535, "matched_query": "home decor"},
+      {"category_id_level3": 601259, "category_id_level2": 842888, "category_id_level1": 2, "cn_name": "女士塑身衣", "cn_full_name": "女装与女士内衣-女士内衣-女士塑身衣", "score": 0.532, "matched_query": "shapewear"},
+      {"category_id_level3": 600338, "category_id_level2": 852104, "category_id_level1": 10, "cn_name": "家居装饰贴", "cn_full_name": "居家日用-装饰-家居装饰贴", "score": 0.5319, "matched_query": "home decor"},
+      {"category_id_level3": 877064, "category_id_level2": 871048, "category_id_level1": 20, "cn_name": "室内家具套装", "cn_full_name": "家具-室内家具-室内家具套装", "score": 0.5276, "matched_query": "home decor"},
+      {"category_id_level3": 982280, "category_id_level2": 852104, "category_id_level1": 10, "cn_name": "装饰牌", "cn_full_name": "居家日用-装饰-装饰牌", "score": 0.5272, "matched_query": "home decor"},
+      {"category_id_level3": 601582, "category_id_level2": 848648, "category_id_level1": 14, "cn_name": "身体彩妆", "cn_full_name": "美妆个护-美妆-身体彩妆", "score": 0.5236, "matched_query": "beauty"},
+      {"category_id_level3": 601664, "category_id_level2": 849416, "category_id_level1": 14, "cn_name": "美体仪器", "cn_full_name": "美妆个护-美容、个护电器-美体仪器", "score": 0.5183, "matched_query": "beauty"},
+      {"category_id_level3": 601265, "category_id_level2": 842248, "category_id_level1": 2, "cn_name": "女士衬衫", "cn_full_name": "女装与女士内衣-女士上装-女士衬衫", "score": 0.5144, "matched_query": "shapewear"},
+      {"category_id_level3": 843656, "category_id_level2": 842632, "category_id_level1": 2, "cn_name": "变装服饰", "cn_full_name": "女装与女士内衣-女士特殊服饰-变装服饰", "score": 0.5129, "matched_query": "shapewear"},
+      {"category_id_level3": 601291, "category_id_level2": 842760, "category_id_level1": 2, "cn_name": "女士套装", "cn_full_name": "女装与女士内衣-女士套装与连体衣-女士套装", "score": 0.501, "matched_query": "shapewear"}
+    ],
+    "total": 15
+  }
+}

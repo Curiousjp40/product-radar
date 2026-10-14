@@ -12,4 +12,4 @@ Weekly, automatic TikTok Shop product picks for Roxie (@roxm___). Every Monday i
 3. GitHub: Settings > Secrets and variables > Actions > New repository secret, name `FASTMOSS_API_KEY`.
 
 ## Status
-Phase 0a is done: engine algorithms (section 6) as pure, unit-tested functions, seed import + content insights computed from the real `data/seed/creator_history.json`, and a Spanish-first/English-toggle mobile dashboard shell on synthetic sample data. `FASTMOSS_API_KEY` is not set yet, so Phase 0 (connecting to FastMoss) hasn't started. See spec section 12.
+Phase 0a and Phase 0 are both done. Phase 0a: engine algorithms (section 6) as pure, unit-tested functions, seed import + content insights computed from the real `data/seed/creator_history.json`, and a Spanish-first/English-toggle mobile dashboard shell. Phase 0: connected to the FastMoss MCP, catalogued all 55 tools in `docs/fastmoss_tools.json`, and mapped real fields in `docs/field_map.md` (9 credits used). Not started: Phase 1 (`ingest.py`/`normalize.py` writing real weekly snapshots). See spec section 12.
