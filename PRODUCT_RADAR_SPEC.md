@@ -166,8 +166,10 @@ product-radar/
 
 - Remote server: `https://mcp.fastmoss.com/mcp?api_key=...` (key from env, never logged; mask it in errors).
 - About 55 tools. Cost per call: 0 credits (category ID lookup, doc search, link formats, **balance check**), 1 credit (search, rankings, listings, basic detail, single-item trends), 2 credits (product and shop trends, creator profile, content analysis, live analysis, ads), 3 credits (creator rankings, market category analysis, product overview, creator breakdown). Empty, failed or rate-limited calls are free.
-- Known tool names from FastMoss docs (confirm in Phase 0): `product_rank_top_selling`, `creator_rank_top_ecommerce`, `shop_data_trends`, `shop_sale_analysis`, `get_category_sales_trend`. There is also a video search tool and category ID lookup.
-- Basic plan: 500 credits/month, 40 requests/minute, no rollover. Top-ups available.
+- Confirmed tools (connector listing, Oct 2026; 55 total). Most relevant: `search_category_by_words` (get category_id first), `product_rank_top_selling`, `product_rank_new_listed`, `product_search`, `product_overview` (includes ads vs organic, channel and content distribution), `product_sales_trend`, `product_creator_analysis`, `product_video_list`, `product_detail_info`, `product_sku`, `product_review_list`, `market_category_ranking`, `market_category_analysis`, `creator_search`, `creator_video_analysis`, `creator_product_list`, `video_search`, `credit_usage_summary` (free balance check). Save exact input schemas in Phase 0.
+- FastMoss usage rules: page/pagesize max 10 (call repeatedly for more); leaderboard `date_value` must be a completed period (daily = yesterday `YYYY-MM-DD`, weekly = last week `YYYY-ww`, monthly = last month `YYYY-MM`); empty results mean "not retrieved", not "no market"; on 402 / insufficient balance, stop and report.
+- Use `product_overview` ad/organic split as a risk input: a product selling mostly through paid ads is harder for an affiliate creator to win organically (add +0.5 to R in 6.9 when ads share > 60%).
+- Basic plan (active, renews monthly on the 15th): 500 credits/month, 60 requests/minute per account status, no rollover. Top-ups available.
 
 **Fields the algorithms want** (map each to the real field in `docs/field_map.md`; mark missing ones):
 
@@ -255,7 +257,8 @@ All scores are computed per week. "z(x)" means a robust z-score within the same 
 - `wow = (units_7d_now - units_7d_prev) / max(units_7d_prev, 50)`. If last week's snapshot is missing, use FastMoss growth rate.
 - `accel = slope(last 7 days) - slope(previous 7 days)`
 - `rank_delta = rank_prev - rank_now` (positive = climbing). `is_new` = first time in any tracked list.
-- `M = 0.5*z(slope14) + 0.3*z(wow) + 0.2*z(accel)`
+- `lead = z(growth in new creators + new videos promoting the product over the last 7 days vs the prior 7)` (from `product_creator_analysis` with `time_range_days` and `product_video_list`). FastMoss's own guidance: creator/video increments lead GMV by about one week, so this is the earliest signal that a product is about to rise or has peaked.
+- `M = 0.35*z(slope14) + 0.20*z(wow) + 0.15*z(accel) + 0.30*lead`
 
 If daily series are not fetched for a product (budget), `M = z(wow)` using the 7-day numbers.
 
