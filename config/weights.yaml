@@ -1,0 +1,113 @@
+# All tunable numbers from spec section 6, in one place per instruction 0.6
+# ("weights and thresholds live in YAML config, not in code"). Section
+# references point back to PRODUCT_RADAR_SPEC.md. Phase 5 re-learns composite
+# and momentum weights and will version this file.
+#
+# NOTE (Phase 0a): engine/run.py (the pipeline) does not exist yet, so nothing
+# loads this file at runtime yet -- the pure functions in engine/*.py take
+# these same numbers as keyword-argument defaults. If you change a number here,
+# change the matching default too (see CLAUDE.md).
+
+zscore:
+  mad_scale: 1.4826
+  clip: 3.0
+  min_group_size: 8 # section 6 intro: below this, z() falls back to ungrouped
+
+momentum: # section 6.2
+  slope14_weight: 0.5
+  wow_weight: 0.3
+  accel_weight: 0.2
+
+stages: # section 6.3
+  emerging:
+    slope14_min: 0.05
+    creator_count_percentile_max: 0.40
+  rising:
+    slope14_min: 0.02
+  peak:
+    slope14_abs_max: 0.02
+    units_percentile_min: 0.75 # "top quartile"
+  evergreen:
+    weeks_tracked_min: 6
+    weeks_window: 8
+    slope14_abs_max: 0.02
+  declining:
+    slope14_max: -0.02
+    consecutive_runs: 2
+    rank_drop_min: 20
+
+earnings: # section 6.4
+  min_earnings_per_sale_usd: 1.50
+
+opportunity: # section 6.5
+  saturation_weight: 0.5
+
+fit: # section 6.6
+  shrink_k_views: 200000
+  price_fit_sigma: 0.5
+  sweet_spot_usd: [25, 55] # mirrors categories.yaml price_sweet_spot_usd
+  min_tracked_videos_for_own_price_fit: 30
+  target_category_boost: 0.15
+  feedback_penalty: 0.1
+  feedback_penalty_weeks: 8
+  weights:
+    category_prior: 0.6
+    price_fit: 0.25
+    audience_fit: 0.15
+
+seasonality: # section 6.7
+  event_lookahead_days: 21
+  weights:
+    event: 0.6
+    personal: 0.4
+
+risk: # section 6.9
+  low_earnings_penalty: 1.5 # E < $1.50
+  price_volatility_cv_threshold: 0.25 # std/mean of price over 4 weeks
+  price_volatility_penalty: 0.5
+  low_rating_threshold: 4.0
+  low_rating_penalty: 1.0
+  high_creator_saturation_percentile: 0.95
+  high_creator_saturation_penalty: 0.5
+  low_unit_price_usd: 10
+  low_unit_price_penalty: 0.5
+  low_unit_price_commission_exempt_pct: 20 # no penalty if commission >= this
+
+composite: # section 6.10
+  demand: 0.10
+  momentum: 0.25
+  log_earnings: 0.20
+  opportunity: 0.15
+  fit: 0.15
+  seasonality: 0.10
+  spanish_gap: 0.05
+  risk_penalty: 0.40 # subtracted
+
+expected_value: # section 6.11
+  momentum_multiplier:
+    slope14_coef: 7
+    min: 0.5
+    max: 2.0
+  saturation_multiplier:
+    coef: 0.3
+    min: 0.6
+    max: 1.2
+
+picks: # section 6.12 / 6.13
+  core_slots: 7
+  explore_slots: 2
+  evergreen_slots: 1
+  max_per_category: 3
+  max_per_shop: 2
+  title_jaccard_duplicate_threshold: 0.6
+  rank_blend:
+    score_weight: 0.5
+    ev_weight: 0.5
+  recent_film_exclusion_days: 30
+  explore_min_trials_considered_tested: 5 # not specified by spec; our own default for Thompson sampling
+
+credits: # section 9
+  hard_cap_per_run: 90
+  skip_optional_stages_below_balance: 150
+  digest_warn_month_projection_above: 400
+  daily_series_refetch_min_days: 6

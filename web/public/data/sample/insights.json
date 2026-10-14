@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "roxm___": {
+    "length_sweet_spot": {
+      "13-20s": {
+        "video_count": 2,
+        "gmv_per_video": 1689.0,
+        "units_per_10k_views": 5.588235294117647
+      },
+      "21-30s": {
+        "video_count": 2,
+        "gmv_per_video": 5199.5,
+        "units_per_10k_views": 4.827586206896552
+      },
+      "31s+": {
+        "video_count": 1,
+        "gmv_per_video": 39.0,
+        "units_per_10k_views": 5.999999999999999
+      },
+      "<=12s": {
+        "video_count": 1,
+        "gmv_per_video": 48.0,
+        "units_per_10k_views": 15.0
+      }
+    },
+    "reach_vs_engagement": {
+      "views_gmv_corr": 1.0,
+      "interaction_rate_gmv_corr": 0.3714285714285715
+    },
+    "hit_tracker": {
+      "gmv_top1_share": 0.6851557991921523,
+      "gmv_top5_share": 0.9971869590305829,
+      "videos_per_week": 0.267515923566879
+    },
+    "format_tags": {
+      "reply": {
+        "video_count": 1,
+        "gmv_per_video": 900.0,
+        "units_per_10k_views": 20.0
+      }
+    },
+    "summary": {
+      "video_count": 6,
+      "gmv": 13864.0,
+      "units": 320,
+      "views": 618000,
+      "median_views_per_video": 37500.0,
+      "median_gmv_per_video": 1050.0,
+      "avg_price_per_unit": 43.325,
+      "units_per_10k_views": 5.17799352750809,
+      "gmv_per_1k_views": 22.4336569579288,
+      "gmv_top1_share": 0.6851557991921523,
+      "gmv_top5_share": 0.9971869590305829
+    }
+  },
+  "ariannamendoza04": {
+    "length_sweet_spot": {
+      "13-20s": {
+        "video_count": 1,
+        "gmv_per_video": 4104.0,
+        "units_per_10k_views": 4.285714285714286
+      },
+      "21-30s": {
+        "video_count": 3,
+        "gmv_per_video": 8231.0,
+        "units_per_10k_views": 3.5135135135135136
+      },
+      "31s+": {
+        "video_count": 1,
+        "gmv_per_video": 20500.0,
+        "units_per_10k_views": 2.7333333333333334
+      },
+      "<=12s": {
+        "video_count": 1,
+        "gmv_per_video": 140.0,
+        "units_per_10k_views": 1.6666666666666665
+      }
+    },
+    "reach_vs_engagement": {
+      "views_gmv_corr": 1.0,
+      "interaction_rate_gmv_corr": -0.028571428571428574
+    },
+    "hit_tracker": {
+      "gmv_top1_share": 0.41466917490948074,
+      "gmv_top5_share": 0.9971681129518377,
+      "videos_per_week": 0.3414634146341463
+    },
+    "format_tags": {
+      "reply": {
+        "video_count": 1,
+        "gmv_per_video": 1662.0,
+        "units_per_10k_views": 5.999999999999999
+      }
+    },
+    "summary": {
+      "video_count": 6,
+      "gmv": 49437.0,
+      "units": 1025,
+      "views": 3220000,
+      "median_views_per_video": 305000.0,
+      "median_gmv_per_video": 5802.0,
+      "avg_price_per_unit": 48.231219512195125,
+      "units_per_10k_views": 3.183229813664596,
+      "gmv_per_1k_views": 15.353105590062112,
+      "gmv_top1_share": 0.41466917490948074,
+      "gmv_top5_share": 0.9971681129518377
+    }
+  }
+}

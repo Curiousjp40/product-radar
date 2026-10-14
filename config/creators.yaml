@@ -1,0 +1,64 @@
+# Starting priors for engine/fit.py and engine/picks.py (EV calc), taken from
+# spec section 2 (the two FastMoss video exports: top 50 per creator).
+#
+# category_gpm values are GMV per 1,000 views ($) by category, read straight off
+# the section 2.2 table. views (in the same block) are *derived*, not measured:
+# views = gmv / gpm_per_1k * 1000, back-solved from the two numbers the spec gives.
+# They exist only so fit.category_prior() has a shrinkage weight (section 6.6's
+# `views_c`) until real per-product view data starts flowing from FastMoss.
+#
+# pooled_category_gpm is the views-weighted average of both creators' category_gpm
+# for categories where both have data; categories only one creator has use her own
+# value. "seasonal" buckets Roxie's Halloween rows with Ari's "other" (graduation /
+# summer-deals) rows, matching the target_categories list in settings.yaml.
+
+roxm___:
+  handle: roxm___
+  display_name: Roxie
+  language: es
+  median_views_per_video: 3683
+  cvr_units_per_10k_views: 6.17 # units per 10,000 views
+  median_gmv_per_video: 44
+  price_fit_log_mean_usd: 33.5 # spec: "starts near $30 to $37"
+  gmv_top1_share: 0.45
+  gmv_top5_share: 0.76
+  category_gpm_per_1k_views:
+    shapewear: 20.79
+    womens_clothing: 10.67
+    beauty_hair: 5.43
+    home_decor: 3.06
+    seasonal: 5.10 # her Halloween rows
+  category_views:
+    shapewear: 517300
+    womens_clothing: 559600
+    beauty_hair: 604800
+    home_decor: 47100
+    seasonal: 228200
+
+ariannamendoza04:
+  handle: ariannamendoza04
+  display_name: Ari
+  language: en
+  median_views_per_video: 10250
+  cvr_units_per_10k_views: 5.68
+  median_gmv_per_video: 371
+  price_fit_log_mean_usd: 47.5 # spec: "starts near $45 to $50"
+  gmv_top1_share: 0.31
+  gmv_top5_share: 0.64
+  category_gpm_per_1k_views:
+    home_decor: 68.85
+    womens_clothing: 16.62
+    beauty_hair: 3.05
+    seasonal: 26.75 # her "other" rows (graduation set, summer deals)
+  category_views:
+    home_decor: 706300
+    womens_clothing: 331400
+    beauty_hair: 1272500
+    seasonal: 298700
+
+pooled_category_gpm_per_1k_views:
+  home_decor: 64.72
+  womens_clothing: 12.88
+  beauty_hair: 3.82
+  shapewear: 20.79 # Roxie-only so far
+  seasonal: 17.38

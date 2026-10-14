@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "note": "SYNTHETIC SAMPLE DATA for the Phase 0a dashboard shell.",
+  "product_id": "sample-001",
+  "title": "Seamless Tummy Control Shorts",
+  "category_l1": "shapewear",
+  "category_l2": "fajas",
+  "shop_name": "ShapeCo",
+  "price": 32.99,
+  "commission_rate": 0.18,
+  "spanish_share": 0.2,
+  "weekly_history": [
+    { "week": "2025-W50-SAMPLE", "rank": 42, "units_7d": 90, "creator_count": 8 },
+    { "week": "2025-W51-SAMPLE", "rank": 30, "units_7d": 140, "creator_count": 9 },
+    { "week": "2025-W52-SAMPLE", "rank": 18, "units_7d": 210, "creator_count": 10 },
+    { "week": "2026-W01-SAMPLE", "rank": 11, "units_7d": 295, "creator_count": 10 }
+  ],
+  "daily_units": [12, 14, 15, 18, 20, 22, 25, 24, 28, 30, 33, 35, 38, 40],
+  "saturation_series": [0.02, 0.03, 0.01, -0.01, 0.0, 0.02],
+  "top_videos": [
+    { "url": "https://tiktok.com/@example/video/1", "is_spanish": false, "views": 85000 },
+    { "url": "https://tiktok.com/@example/video/2", "is_spanish": false, "views": 61000 },
+    { "url": "https://tiktok.com/@example/video/3", "is_spanish": true, "views": 40000 }
+  ],
+  "similar_products": ["sample-003", "sample-010"]
+}

@@ -1,0 +1,26 @@
+# Canonical category keys used across config/*.yaml and engine/*.py.
+# price_sweet_spot is section 2.2's "both creators' best categories" range,
+# used by fit.py as the blend target for creators with under 30 tracked videos.
+
+price_sweet_spot_usd: [25, 55]
+
+categories:
+  shapewear:
+    label_es: Fajas y shapewear
+    label_en: Shapewear
+  womens_clothing:
+    label_es: Ropa de mujer
+    label_en: Women's clothing
+  home_decor:
+    label_es: Decoracion del hogar
+    label_en: Home & decor
+    explore_priority: high # section 2.2: strongest proven category (Ari), untested for Roxie
+  beauty_hair:
+    label_es: Belleza y cabello
+    label_en: Beauty & hair
+  seasonal:
+    label_es: Temporada
+    label_en: Seasonal
+  other:
+    label_es: Otro
+    label_en: Other
