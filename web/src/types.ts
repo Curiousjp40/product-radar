@@ -47,12 +47,16 @@ export interface Candidate {
   title: string;
   category: string;
   shop_name: string;
-  stage: Stage;
+  // null for a suspicious/excluded candidate (see `suspicious` below) --
+  // it never went through scoring, so there's no score/stage to show.
+  stage: Stage | null;
   price: number;
   commission_rate: number;
-  score: number;
-  ev_typical: number;
+  score: number | null;
+  ev_typical: number | null;
   daily_units: number[];
+  suspicious: boolean;
+  suspicious_reasons?: string[];
 }
 
 export interface CandidatesFile {

@@ -21,3 +21,5 @@ Rows before Phase 1 existed are manual before/after balance checks instead.
 | 2026-10-14 | 2026-W42-36359a75 | 0 | 418 / 500 | Phase 1+2 real run: 8 picks from 35 candidates.  |
 | 2026-10-14 | field-check-product_video_list | 1 | 417 / 500 | Confirmed `product_video_list`'s real response shape (one call, product_id 1732491682604749463) before wiring it in to replace `video_search`'s keyword search -- see docs/field_map.md. Captions here were all genuinely about the product (video_search's were not). |
 | 2026-10-14 | 2026-W42-ee5d5695 | 10 | 407 / 500 | Phase 1+2 real run: 9 picks from 35 candidates. spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr; spanish_gap=1cr |
+| 2026-10-14 | 2026-W42-1a43be0b | 0 | 407 / 500 | Phase 1+2 real run: 9 picks from 35 candidates.  |
+| 2026-10-14 | 2026-W42-46f63390 | 0 | 407 / 500 | Phase 1+2 real run: 7 picks from 35 candidates.  |

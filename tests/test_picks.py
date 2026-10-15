@@ -198,16 +198,30 @@ def test_select_top_reasons_picks_largest_magnitude():
 
 
 def test_render_reason_es_and_en():
-    assert render_reason("momentum", "es", pct=38) == "Ventas subiendo 38% esta semana"
-    assert render_reason("momentum", "en", pct=38) == "Sales up 38% this week"
-    assert render_reason("earnings", "es", amount=6.4) == "Pagas ~$6.40 por venta"
+    # tu voice, past tense, each a complete sentence (rewritten 2026-10-17)
+    assert render_reason("momentum", "es", pct=38) == "Tus ventas subieron 38% esta semana."
+    assert render_reason("momentum", "en", pct=38) == "Your sales went up 38% this week."
+    assert render_reason("earnings", "es", amount=6.4) == "Pagas ~$6.40 por venta."
 
 
 def test_render_reason_category_fit_cites_a_real_number():
     es = render_reason("category_fit", "es", category_label="Fajas", gpm=20.79)
-    assert es == "Fajas: $20.79 por cada 1,000 vistas para ti"
+    assert es == "Fajas: $20.79 por cada 1,000 vistas para ti."
     en = render_reason("category_fit", "en", category_label="Shapewear", gpm=20.79)
-    assert en == "Shapewear: $20.79 per 1,000 views for you"
+    assert en == "Shapewear: $20.79 per 1,000 views for you."
+
+
+def test_render_reason_seasonality_uses_pre_pluralized_days_phrase():
+    es = render_reason("seasonality", "es", event="Black Friday", days_phrase="faltan 44 días")
+    assert es == "Buen momento antes de Black Friday (faltan 44 días)."
+    en = render_reason("seasonality", "en", event="Black Friday", days_phrase="44 days left")
+    assert en == "Good timing before Black Friday (44 days left)."
+
+
+def test_render_reason_spanish_gap_has_no_mojibake():
+    es = render_reason("spanish_gap", "es", n=0, total=6)
+    assert "español" in es
+    assert es == "Pocas creadoras hablan de esto en español (0 de 6 videos)."
 
 
 def test_render_reason_unknown_component_raises():

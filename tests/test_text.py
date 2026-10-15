@@ -1,4 +1,4 @@
-from engine.text import clean_title, join_reasons_as_sentence
+from engine.text import clean_title, days_remaining_phrase, join_reasons_as_sentence
 
 # Real 2026-W42 pick titles.
 
@@ -33,19 +33,36 @@ def test_clean_title_respects_max_words():
     assert clean_title("one two three four five six seven eight", max_words=6) == "one two three four five six"
 
 
-def test_join_reasons_as_sentence_two_fragments():
-    sentence = join_reasons_as_sentence(["Ventas subiendo 27% esta semana", "Pocas creadoras en espanol (2 de 10 videos)"], "es")
-    assert sentence == "Ventas subiendo 27% esta semana y pocas creadoras en espanol (2 de 10 videos)."
+def test_join_reasons_as_sentence_two_fragments_real_example():
+    # the real motivating case: each fragment is already a complete sentence
+    sentence = join_reasons_as_sentence(
+        ["Tus ventas subieron 31% esta semana.", "Buen momento antes de Black Friday (faltan 44 días)."], "es"
+    )
+    assert sentence == "Tus ventas subieron 31% esta semana. Buen momento antes de Black Friday (faltan 44 días)."
 
 
-def test_join_reasons_as_sentence_one_fragment_adds_period():
-    assert join_reasons_as_sentence(["Ventas subiendo 27% esta semana"], "es") == "Ventas subiendo 27% esta semana."
+def test_join_reasons_as_sentence_one_fragment():
+    assert join_reasons_as_sentence(["Tus ventas subieron 27% esta semana."], "es") == "Tus ventas subieron 27% esta semana."
 
 
 def test_join_reasons_as_sentence_empty():
     assert join_reasons_as_sentence([], "es") == ""
 
 
-def test_join_reasons_as_sentence_english_connector():
-    sentence = join_reasons_as_sentence(["Sales up 27% this week", "Few Spanish-speaking creators (2 of 10 videos)"], "en")
-    assert sentence == "Sales up 27% this week and few Spanish-speaking creators (2 of 10 videos)."
+def test_join_reasons_as_sentence_only_uses_first_two():
+    sentence = join_reasons_as_sentence(["Uno.", "Dos.", "Tres."], "es")
+    assert sentence == "Uno. Dos."
+
+
+def test_days_remaining_phrase_plural_and_singular():
+    assert days_remaining_phrase(44, "es") == "faltan 44 días"
+    assert days_remaining_phrase(1, "es") == "falta 1 día"
+    assert days_remaining_phrase(44, "en") == "44 days left"
+    assert days_remaining_phrase(1, "en") == "1 day left"
+
+
+def test_days_remaining_phrase_today_and_past():
+    assert days_remaining_phrase(0, "es") == "es hoy"
+    assert days_remaining_phrase(0, "en") == "today"
+    assert days_remaining_phrase(-3, "es") == ""
+    assert days_remaining_phrase(-3, "en") == ""

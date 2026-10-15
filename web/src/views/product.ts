@@ -24,14 +24,23 @@ function formatCount(n: number): string {
 }
 
 function videoEmbed(video: VideoCard, lang: Lang): string {
+  // The fallback (thumbnail + link) renders alongside the embed every time,
+  // not just on failure -- watchEmbed() below hides whichever one didn't
+  // end up working, so a slow network, an ad blocker, or a removed TikTok
+  // video never leaves an empty gap (added 2026-10-17).
   return `
-    <div class="video-embed-card">
+    <div class="video-embed-card" data-video-id="${video.video_id}">
+      <a class="video-fallback" href="${video.tiktok_url}" target="_blank" rel="noopener">
+        ${video.cover_url ? `<img src="${video.cover_url}" alt="" loading="lazy" />` : ""}
+        <span class="video-fallback-play">&#9654;</span>
+        <span class="video-fallback-label">${t("open_in_tiktok", lang)}</span>
+      </a>
       <blockquote class="tiktok-embed" cite="${video.tiktok_url}" data-video-id="${video.video_id}" style="max-width: 325px; min-width: 220px;">
         <section></section>
       </blockquote>
       <div class="video-embed-stats">
         <span>${formatCount(video.play_count)} ${t("views_short", lang)}</span>
-        <span>${video.window_units_sold} ${lang === "es" ? "ventas" : "sales"}</span>
+        <span>${video.window_units_sold} ${t("sales_short", lang)}</span>
       </div>
     </div>
   `;
@@ -43,6 +52,41 @@ function loadTikTokEmbedScript(): void {
   script.src = "https://www.tiktok.com/embed.js";
   script.async = true;
   document.body.appendChild(script);
+}
+
+/** Shows the thumbnail+link fallback until (and unless) TikTok's embed.js
+ * actually turns the blockquote into a playable iframe -- it inserts the
+ * iframe as a child of the blockquote itself (confirmed live), so a
+ * MutationObserver on the blockquote is enough to detect success. Gives up
+ * after 6s (network blocked, ad blocker, video removed) and leaves the
+ * fallback as the permanent display. */
+function watchEmbed(card: HTMLElement): void {
+  const blockquote = card.querySelector<HTMLElement>(".tiktok-embed");
+  const fallback = card.querySelector<HTMLElement>(".video-fallback");
+  if (!blockquote || !fallback) return;
+
+  const onLoaded = () => {
+    fallback.style.display = "none";
+  };
+  if (blockquote.querySelector("iframe")) {
+    onLoaded();
+    return;
+  }
+
+  const observer = new MutationObserver(() => {
+    if (blockquote.querySelector("iframe")) {
+      onLoaded();
+      observer.disconnect();
+    }
+  });
+  observer.observe(blockquote, { childList: true, subtree: true });
+
+  setTimeout(() => {
+    observer.disconnect();
+    if (!blockquote.querySelector("iframe")) {
+      blockquote.style.display = "none";
+    }
+  }, 6000);
 }
 
 export async function renderProduct(container: HTMLElement, lang: Lang, productId: string): Promise<void> {
@@ -87,6 +131,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     `;
     if (data.videos.length > 0) {
       loadTikTokEmbedScript();
+      container.querySelectorAll<HTMLElement>(".video-embed-card").forEach(watchEmbed);
     }
   } catch {
     container.innerHTML = `<p class="empty-state">${t("product_not_found", lang)}</p>`;

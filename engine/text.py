@@ -28,16 +28,27 @@ def clean_title(title: str, max_words: int = 6) -> str:
 
 
 def join_reasons_as_sentence(reason_texts: list[str], lang: str) -> str:
-    """Combines up to 2 reason fragments (each already a standalone
-    sentence, e.g. "Ventas subiendo 27% esta semana") into ONE sentence for
-    the simplified card, instead of a bullet list."""
-    texts = [t for t in reason_texts if t][:2]
-    if not texts:
+    """Combines up to 2 reason fragments into one short paragraph for the
+    simplified card, instead of a bullet list. Each fragment from
+    engine/picks.py's _REASON_TEMPLATES is already a complete, natural
+    sentence on its own (e.g. "Tus ventas subieron 27% esta semana."), so
+    this is a plain join, not a run-on "X y Y" -- rewritten 2026-10-17 after
+    the joined version read as one awkward clause instead of two natural
+    ones (see the real example: "Tus ventas subieron 31% esta semana. Buen
+    momento antes de Black Friday (faltan 44 días).")."""
+    return " ".join(t for t in reason_texts[:2] if t)
+
+
+def days_remaining_phrase(days: int, lang: str) -> str:
+    """Correctly pluralized "N days left" for the seasonality reason's
+    countdown (added 2026-10-17) -- e.g. "falta 1 día" vs "faltan 44 días".
+    Returns "" for a negative count (the event has already passed; callers
+    should skip rendering the reason entirely rather than show a negative
+    countdown)."""
+    if days < 0:
         return ""
-    if len(texts) == 1:
-        sentence = texts[0]
-    else:
-        connector = " y " if lang == "es" else " and "
-        second = texts[1][0].lower() + texts[1][1:] if texts[1] else texts[1]
-        sentence = f"{texts[0]}{connector}{second}"
-    return sentence if sentence.endswith(".") else f"{sentence}."
+    if days == 0:
+        return "es hoy" if lang == "es" else "today"
+    if lang == "es":
+        return "falta 1 día" if days == 1 else f"faltan {days} días"
+    return "1 day left" if days == 1 else f"{days} days left"

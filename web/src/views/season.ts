@@ -11,17 +11,17 @@ function daysUntil(dateStr: string | null): number | null {
 
 function countdownText(ev: SeasonEvent, lang: Lang): string {
   if (!ev.film_start || !ev.film_end) {
-    return lang === "es" ? "Fechas por confirmar" : "Dates to be confirmed";
+    return t("season_dates_tbd", lang);
   }
   const toStart = daysUntil(ev.film_start);
   const toEnd = daysUntil(ev.film_end);
   if (toEnd !== null && toEnd < 0) {
-    return lang === "es" ? "Ya paso" : "Already passed";
+    return t("season_already_passed", lang);
   }
   if (toStart !== null && toStart <= 0 && toEnd !== null) {
-    return lang === "es" ? `Ventana abierta, ${toEnd} dias para terminar` : `Window open, ${toEnd} days left`;
+    return t("season_window_open", lang, { days: toEnd });
   }
-  return lang === "es" ? `Empieza en ${toStart} dias` : `Starts in ${toStart} days`;
+  return t("season_starts_in", lang, { days: toStart ?? 0 });
 }
 
 export async function renderSeason(container: HTMLElement, lang: Lang): Promise<void> {

@@ -8,7 +8,7 @@
   "price": 42.5,
   "commission_rate": 0.25,
   "earnings_per_sale": 10.62,
-  "daily_units_14": NaN,
+  "daily_units_14": [],
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
   "videos": [
     {

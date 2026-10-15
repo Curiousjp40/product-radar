@@ -93,7 +93,7 @@ from engine.seasonality import (
 from engine.seed import load_creator_history, shop_videos_only
 from engine.stages import classify_stage
 from engine.stats import grouped_robust_z
-from engine.text import clean_title, join_reasons_as_sentence
+from engine.text import clean_title, days_remaining_phrase, join_reasons_as_sentence
 from engine.timeutil import now_eastern
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -802,12 +802,22 @@ def build_reasons(
                 n_es = round(row["spanish_share"] * total)  # count of Spanish videos, not non-Spanish (was inverted)
                 reasons_es.append(render_reason("spanish_gap", "es", n=n_es, total=total))
                 reasons_en.append(render_reason("spanish_gap", "en", n=n_es, total=total))
-            elif comp == "seasonality" and pd.notna(row.get("matched_event_id")):
+            elif (
+                comp == "seasonality"
+                and pd.notna(row.get("matched_event_id"))
+                and pd.notna(row.get("days_to_event_end"))
+                and int(row["days_to_event_end"]) >= 0
+            ):
+                days = int(row["days_to_event_end"])
                 reasons_es.append(
-                    render_reason("seasonality", "es", event=row["matched_event_label_es"], days=int(row["days_to_event_end"]))
+                    render_reason(
+                        "seasonality", "es", event=row["matched_event_label_es"], days_phrase=days_remaining_phrase(days, "es")
+                    )
                 )
                 reasons_en.append(
-                    render_reason("seasonality", "en", event=row["matched_event_label_en"], days=int(row["days_to_event_end"]))
+                    render_reason(
+                        "seasonality", "en", event=row["matched_event_label_en"], days_phrase=days_remaining_phrase(days, "en")
+                    )
                 )
             elif comp == "fit" and creator_avg_gpm is not None and row["category_gpm"] > creator_avg_gpm:
                 # cites her own real category_gpm (GMV per 1,000 views), not
@@ -971,7 +981,10 @@ def product_detail_dict(pick: dict) -> dict:
         "price": pick["price"],
         "commission_rate": pick["commission_rate"],
         "earnings_per_sale": round(pick["earnings_per_sale"], 2),
-        "daily_units_14": pick.get("daily_units_14") or [],
+        # Same NaN-vs-None/falsy-check gap as candidates_to_export_dicts's
+        # daily_units field (see its comment) -- fixed here too for the
+        # same reason, even though no current pick actually lacks trend data.
+        "daily_units_14": pick.get("daily_units_14") if isinstance(pick.get("daily_units_14"), list) else [],
         "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=pick["product_id"]),
         "videos": _video_card_dicts(pick.get("videos"), limit=6),
     }
@@ -1006,7 +1019,13 @@ def candidates_to_export_dicts(df: pd.DataFrame, flagged: list[dict] | None = No
                 "commission_rate": r["commission_rate"],
                 "score": int(r["score"]),
                 "ev_typical": round(r["ev_typical"], 2),
-                "daily_units": r["daily_units_14"] or [],
+                # A candidate outside the trend-fetch pool never gets
+                # daily_units_14 set at all, which pandas backfills as NaN
+                # (not None) in the DataFrame column -- `or []` doesn't
+                # catch that (nan is truthy), so json.dumps wrote a literal
+                # `NaN` token, invalid JSON that broke JSON.parse on the
+                # whole file (found 2026-10-17 verifying the Radar page).
+                "daily_units": r["daily_units_14"] if isinstance(r["daily_units_14"], list) else [],
                 "suspicious": False,
             }
         )

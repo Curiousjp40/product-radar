@@ -23,16 +23,15 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 def _pick_row_html(pick: dict[str, Any]) -> str:
-    reasons = "".join(f"<li>{r}</li>" for r in pick["reasons_es"])
     return f"""
     <tr style="border-bottom:1px solid #e5e5e5">
       <td style="padding:12px 8px;vertical-align:top">
-        <div style="font-weight:600">{pick["slot"]}. {pick["title"]}</div>
+        <div style="font-weight:600">{pick["slot"]}. {pick["clean_title"]}</div>
         <div style="color:#666;font-size:13px">
-          ${pick["price"]:.2f} &middot; {pick["commission_rate"] * 100:.0f}% comision &middot;
+          ${pick["price"]:.2f} &middot; {pick["commission_rate"] * 100:.0f}% comisión &middot;
           pagas ~${pick["earnings_per_sale"]:.2f}/venta
         </div>
-        <ul style="margin:6px 0 0 18px;padding:0;font-size:13px;color:#333">{reasons}</ul>
+        <div style="margin:6px 0 0;font-size:13px;color:#333">{pick["summary_es"]}</div>
       </td>
     </tr>"""
 
@@ -44,9 +43,8 @@ def render_digest(picks: list[dict[str, Any]], week: str, dashboard_url: str) ->
 
     plain_lines = [f"Tus {len(picks)} productos para filmar esta semana ({week}):", ""]
     for p in picks:
-        plain_lines.append(f"{p['slot']}. {p['title']} -- ${p['price']:.2f}, pagas ~${p['earnings_per_sale']:.2f}/venta")
-        for r in p["reasons_es"]:
-            plain_lines.append(f"   - {r}")
+        plain_lines.append(f"{p['slot']}. {p['clean_title']} -- ${p['price']:.2f}, pagas ~${p['earnings_per_sale']:.2f}/venta")
+        plain_lines.append(f"   {p['summary_es']}")
         plain_lines.append("")
     plain_lines.append(f"Ver el tablero completo: {dashboard_url}")
     plain_text = "\n".join(plain_lines)

@@ -3,19 +3,21 @@ from engine.digest import build_email, render_digest
 PICKS = [
     {
         "slot": 1,
-        "title": "Onyx Silent Vibration Wrist-Worn Device",
+        "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free",
+        "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
         "price": 42.50,
         "commission_rate": 0.25,
         "earnings_per_sale": 10.62,
-        "reasons_es": ["Pagas ~$10.62 por venta", "Ventas subiendo 27% esta semana"],
+        "summary_es": "Tus ventas subieron 27% esta semana. Pocas creadoras hablan de esto en español (0 de 6 videos).",
     },
     {
         "slot": 2,
         "title": "Play Along Cowboy Costume",
+        "clean_title": "Play Along Cowboy Costume",
         "price": 149.00,
         "commission_rate": 0.10,
         "earnings_per_sale": 14.90,
-        "reasons_es": ["Pagas ~$14.90 por venta"],
+        "summary_es": "Tus ventas subieron 433% esta semana.",
     },
 ]
 
@@ -26,12 +28,12 @@ def test_render_digest_subject_counts_picks_and_includes_week():
     assert "2" in subject
 
 
-def test_render_digest_plain_text_cites_real_numbers_and_reasons():
+def test_render_digest_plain_text_cites_real_numbers_and_summary():
     _, plain, _ = render_digest(PICKS, "2026-W42", "https://example.com")
     assert "Onyx Silent Vibration Wrist-Worn Device" in plain
+    assert "Partner-Disturbance-Free" not in plain  # clean_title, not the full SEO title
     assert "$42.50" in plain
-    assert "Pagas ~$10.62 por venta" in plain
-    assert "Ventas subiendo 27% esta semana" in plain
+    assert "Tus ventas subieron 27% esta semana." in plain
     assert "https://example.com" in plain
 
 
@@ -39,6 +41,7 @@ def test_render_digest_html_includes_every_pick_and_dashboard_link():
     _, _, html = render_digest(PICKS, "2026-W42", "https://example.com")
     assert "Onyx Silent Vibration Wrist-Worn Device" in html
     assert "Play Along Cowboy Costume" in html
+    assert "comisión" in html
     assert 'href="https://example.com"' in html
 
 

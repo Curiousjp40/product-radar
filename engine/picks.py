@@ -203,21 +203,27 @@ def build_top10(
     return picks
 
 
+# Each template is a complete, natural-sounding sentence on its own (tú
+# voice, Latin American neutral Spanish -- rewritten 2026-10-17 after the
+# old fragments read as a run-on when joined: "Ventas subiendo 31% esta
+# semana y temporada: Black Friday ... en 44 dias"). engine/text.py's
+# join_reasons_as_sentence just space-joins up to two of these as-is, so
+# each one must stand alone, punctuation included.
 _REASON_TEMPLATES = {
-    ("momentum", "es"): "Ventas subiendo {pct:.0f}% esta semana",
-    ("momentum", "en"): "Sales up {pct:.0f}% this week",
-    ("earnings", "es"): "Pagas ~${amount:.2f} por venta",
-    ("earnings", "en"): "You earn ~${amount:.2f} per sale",
-    ("spanish_gap", "es"): "Pocas creadoras en espanol ({n} de {total} videos)",
-    ("spanish_gap", "en"): "Few Spanish-speaking creators ({n} of {total} videos)",
-    ("seasonality", "es"): "Temporada: {event} en {days} dias",
-    ("seasonality", "en"): "Season: {event} in {days} days",
-    ("fit", "es"): "Esta categoria te funciona bien",
-    ("fit", "en"): "This category works well for you",
-    # Added 2026-10-15: the generic "fit" reason above never cited a number --
-    # this cites her own actual category_gpm (GMV per 1,000 views), real data.
-    ("category_fit", "es"): "{category_label}: ${gpm:.2f} por cada 1,000 vistas para ti",
-    ("category_fit", "en"): "{category_label}: ${gpm:.2f} per 1,000 views for you",
+    ("momentum", "es"): "Tus ventas subieron {pct:.0f}% esta semana.",
+    ("momentum", "en"): "Your sales went up {pct:.0f}% this week.",
+    ("earnings", "es"): "Pagas ~${amount:.2f} por venta.",
+    ("earnings", "en"): "You earn ~${amount:.2f} per sale.",
+    ("spanish_gap", "es"): "Pocas creadoras hablan de esto en español ({n} de {total} videos).",
+    ("spanish_gap", "en"): "Few Spanish-speaking creators are talking about this ({n} of {total} videos).",
+    # `days_phrase` comes pre-pluralized from engine.text.days_remaining_phrase
+    # ("faltan 44 dias" vs "falta 1 dia") -- a template can't pluralize on its own.
+    ("seasonality", "es"): "Buen momento antes de {event} ({days_phrase}).",
+    ("seasonality", "en"): "Good timing before {event} ({days_phrase}).",
+    # Added 2026-10-15: cites her own actual category_gpm (GMV per 1,000
+    # views), real data, not a vague "this category works well for you".
+    ("category_fit", "es"): "{category_label}: ${gpm:.2f} por cada 1,000 vistas para ti.",
+    ("category_fit", "en"): "{category_label}: ${gpm:.2f} per 1,000 views for you.",
 }
 
 

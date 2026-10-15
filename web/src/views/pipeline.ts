@@ -22,7 +22,7 @@ export async function renderPipeline(container: HTMLElement, lang: Lang): Promis
   if (rows.length === 0) {
     container.innerHTML = `
       <h2 class="view-title">${t("pipeline_title", lang)}</h2>
-      <p class="empty-state">${lang === "es" ? "Todavia no has agregado nada a tu lista." : "You haven't shortlisted anything yet."}</p>
+      <p class="empty-state">${t("pipeline_empty", lang)}</p>
     `;
     return;
   }
@@ -33,9 +33,9 @@ export async function renderPipeline(container: HTMLElement, lang: Lang): Promis
       <table class="radar-table">
         <thead>
           <tr>
-            <th>${lang === "es" ? "Producto" : "Product"}</th>
+            <th>${t("product_col", lang)}</th>
             <th>${t("category", lang)}</th>
-            <th>${lang === "es" ? "Estado" : "Status"}</th>
+            <th>${t("status_col", lang)}</th>
           </tr>
         </thead>
         <tbody>

@@ -20,8 +20,7 @@ function summaryFor(pick: Pick, lang: Lang): string {
 function renderCard(pick: Pick, lang: Lang, statuses: Record<string, string>, dismissed: Set<string>): string {
   const isDismissed = dismissed.has(pick.product_id);
   const saved = statuses[pick.product_id] === "shortlisted";
-  const earnLine =
-    lang === "es" ? `Ganas $${pick.earnings_per_sale.toFixed(2)} por venta` : `You earn $${pick.earnings_per_sale.toFixed(2)} per sale`;
+  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
   const videos = pick.videos.slice(0, 3);
 
   return `

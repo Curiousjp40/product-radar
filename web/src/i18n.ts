@@ -2,6 +2,16 @@ export type Lang = "es" | "en";
 
 const STORAGE_KEY = "product-radar:lang";
 
+// Latin American Spanish (es-419): Roxie and her audience are Venezuelan.
+// Tu voice throughout, never vosotros/vosotras; "video" (no accent) and
+// "celular", never the Spain forms "vídeo"/"móvil". Dates/numbers that go
+// through Intl should use locale(), not a bare "es"/"en" string -- prices
+// stay US format ($38.99) regardless of language, since it's the US TikTok
+// Shop.
+export function locale(lang: Lang): string {
+  return lang === "es" ? "es-419" : "en-US";
+}
+
 const dict: Record<string, { es: string; en: string }> = {
   nav_this_week: { es: "Esta semana", en: "This week" },
   nav_radar: { es: "Radar", en: "Radar" },
@@ -9,18 +19,20 @@ const dict: Record<string, { es: string; en: string }> = {
   nav_results: { es: "Mis resultados", en: "My results" },
   nav_season: { es: "Temporada", en: "Season" },
   nav_settings: { es: "Ajustes", en: "Settings" },
-  nav_more: { es: "Mas", en: "More" },
-  more_title: { es: "Mas", en: "More" },
+  nav_more: { es: "Más", en: "More" },
+  more_title: { es: "Más", en: "More" },
   this_week_title: { es: "Esta semana", en: "This week" },
   shortlist: { es: "A mi lista", en: "Shortlist" },
-  not_for_me: { es: "No es para mi", en: "Not for me" },
+  not_for_me: { es: "No es para mí", en: "Not for me" },
   see_details: { es: "Ver detalles", en: "View details" },
   save_to_list: { es: "Guardar en mi lista", en: "Save to my list" },
+  open_in_tiktok: { es: "Ver en TikTok", en: "Open in TikTok" },
+  earn_headline: { es: "Ganas ${amount} por venta", en: "You earn ${amount} per sale" },
   price: { es: "Precio", en: "Price" },
-  commission: { es: "Comision", en: "Commission" },
+  commission: { es: "Comisión", en: "Commission" },
   per_sale: { es: "Por venta", en: "Per sale" },
   score: { es: "Puntaje", en: "Score" },
-  ev_typical: { es: "Tipico", en: "Typical" },
+  ev_typical: { es: "Típico", en: "Typical" },
   ev_upside: { es: "Si le va bien", en: "If it does well" },
   stage_emerging: { es: "Emergente", en: "Emerging" },
   stage_rising: { es: "Subiendo", en: "Rising" },
@@ -29,24 +41,31 @@ const dict: Record<string, { es: string; en: string }> = {
   stage_declining: { es: "Bajando", en: "Declining" },
   stage_new_to_radar: { es: "Nuevo en el radar", en: "New to radar" },
   // Short tags for the simplified card (added 2026-10-16) -- the full
-  // stage_* labels above are still used on the candidates/radar table.
+  // stage_* labels above are still used on the products/radar table.
   tag_emerging: { es: "Emergiendo", en: "Emerging" },
   tag_rising: { es: "Subiendo", en: "Rising" },
   tag_peak: { es: "Popular", en: "Popular" },
-  tag_evergreen: { es: "Clasico", en: "Classic" },
+  tag_evergreen: { es: "Clásico", en: "Classic" },
   tag_declining: { es: "Bajando", en: "Fading" },
   tag_new_to_radar: { es: "Nuevo", en: "New" },
   kind_core: { es: "Principal", en: "Core" },
   kind_explore: { es: "Prueba", en: "Explore" },
   kind_evergreen: { es: "Vigente", en: "Evergreen" },
   kind_winner_again: { es: "Ganador de nuevo", en: "Winner again" },
-  radar_title: { es: "Todos los candidatos", en: "All candidates" },
-  category: { es: "Categoria", en: "Category" },
+  // "radar" stays only as the app's own name -- everywhere else a FastMoss
+  // candidate is a "producto", never a "candidato" (replaced 2026-10-17).
+  radar_title: { es: "Todos los productos", en: "All candidates" },
+  category: { es: "Categoría", en: "Category" },
   stage: { es: "Etapa", en: "Stage" },
+  suspicious_label: { es: "Sospechoso", en: "Suspicious" },
   pipeline_title: { es: "Mi lista de productos", en: "My product list" },
+  pipeline_empty: { es: "Todavía no has agregado nada a tu lista.", en: "You haven't shortlisted anything yet." },
+  product_col: { es: "Producto", en: "Product" },
+  status_col: { es: "Estado", en: "Status" },
   open_in_fastmoss: { es: "Ver en FastMoss", en: "View on FastMoss" },
-  sales_trend_title: { es: "Ventas de los ultimos 14 dias", en: "Sales over the last 14 days" },
+  sales_trend_title: { es: "Ventas de los últimos 14 días", en: "Sales over the last 14 days" },
   videos_selling_title: { es: "Videos que venden este producto", en: "Videos selling this product" },
+  sales_short: { es: "ventas", en: "sales" },
   product_not_found: { es: "No encontramos este producto.", en: "We couldn't find this product." },
   back_to_week: { es: "Volver a esta semana", en: "Back to this week" },
   views_short: { es: "vistas", en: "views" },
@@ -56,24 +75,42 @@ const dict: Record<string, { es: string; en: string }> = {
   status_filmed: { es: "Filmado", en: "Filmed" },
   status_posted: { es: "Publicado", en: "Posted" },
   status_skipped: { es: "Omitido", en: "Skipped" },
-  results_title: { es: "Como te esta yendo", en: "How you're doing" },
-  length_sweet_spot: { es: "Duracion ideal del video", en: "Video length sweet spot" },
-  hit_tracker: { es: "Tus videos mas fuertes", en: "Your strongest videos" },
-  benchmark: { es: "Comparacion con Ari", en: "Benchmark vs Ari" },
+  results_title: { es: "Cómo te está yendo", en: "How you're doing" },
+  length_sweet_spot: { es: "Duración ideal del video", en: "Video length sweet spot" },
+  length_col: { es: "Duración", en: "Length" },
+  hit_tracker: { es: "Tus videos más fuertes", en: "Your strongest videos" },
+  benchmark: { es: "Comparación con Ari", en: "Benchmark vs Ari" },
+  price_per_unit: { es: "Precio/unidad", en: "Price/unit" },
+  sales_label: { es: "Ventas", en: "GMV" },
+  units_label: { es: "Unidades", en: "Units" },
+  sales_per_video: { es: "Ventas/video", en: "GMV/video" },
+  sales_per_1k_views: { es: "Ventas/1K vistas", en: "GMV/1K views" },
+  units_per_10k_views: { es: "Unidades/10K vistas", en: "Units/10K views" },
   season_title: { es: "Calendario de temporadas", en: "Season calendar" },
+  season_dates_tbd: { es: "Fechas por confirmar", en: "Dates to be confirmed" },
+  season_already_passed: { es: "Ya pasó", en: "Already passed" },
+  // {days} filled in by t()'s simple {placeholder} substitution.
+  season_window_open: { es: "Ventana abierta, faltan {days} días", en: "Window open, {days} days left" },
+  season_starts_in: { es: "Empieza en {days} días", en: "Starts in {days} days" },
   settings_title: { es: "Ajustes", en: "Settings" },
   settings_coming_soon: {
-    es: "La edicion de ajustes llega en una fase futura. Por ahora, edita config/settings.yaml.",
+    es: "La edición de ajustes llega en una fase futura. Por ahora, edita config/settings.yaml.",
     en: "Editing settings from here arrives in a later phase. For now, edit config/settings.yaml.",
   },
+  credits_title: { es: "Créditos de FastMoss", en: "FastMoss credits" },
+  credits_remaining: { es: "Restantes", en: "Remaining" },
+  credits_used_month: { es: "Usados este mes", en: "Used this month" },
+  credits_used_week: { es: "Esta semana", en: "This week" },
+  weights_version: { es: "Versión de pesos", en: "Weights version" },
+  last_run: { es: "Última corrida", en: "Last run" },
   sample_data_banner: {
-    es: "Datos de muestra -- esto no es real todavia (Fase 0a)",
+    es: "Datos de muestra: esto no es real todavía (Fase 0a)",
     en: "Sample data -- this isn't real yet (Phase 0a)",
   },
   no_data: { es: "No hay datos disponibles.", en: "No data available." },
   videos_per_week: { es: "videos por semana", en: "videos per week" },
-  top1_share: { es: "GMV del video #1", en: "GMV from video #1" },
-  top5_share: { es: "GMV de los 5 mejores", en: "GMV from top 5" },
+  top1_share: { es: "Ventas del video #1", en: "GMV from video #1" },
+  top5_share: { es: "Ventas de los 5 mejores", en: "GMV from top 5" },
 };
 
 export function getLang(): Lang {
@@ -87,11 +124,16 @@ export function setLang(lang: Lang): void {
   } catch {
     // ignore (private browsing, storage disabled, etc.)
   }
-  document.documentElement.lang = lang;
+  document.documentElement.lang = locale(lang);
 }
 
-export function t(key: string, lang: Lang): string {
+export function t(key: string, lang: Lang, vars?: Record<string, string | number>): string {
   const entry = dict[key];
-  if (!entry) return key;
-  return entry[lang];
+  let text = entry ? entry[lang] : key;
+  if (vars) {
+    for (const [name, value] of Object.entries(vars)) {
+      text = text.replaceAll(`{${name}}`, String(value));
+    }
+  }
+  return text;
 }

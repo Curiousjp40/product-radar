@@ -19,7 +19,20 @@ function sparkline(values: number[]): string {
 type SortKey = "score" | "ev_typical" | "price" | "commission_rate";
 
 function sortCandidates(candidates: Candidate[], key: SortKey): Candidate[] {
-  return [...candidates].sort((a, b) => b[key] - a[key]);
+  // A suspicious candidate has null score/ev_typical (never scored) --
+  // sorted last regardless of sort key rather than breaking the comparator.
+  return [...candidates].sort((a, b) => {
+    const av = a[key];
+    const bv = b[key];
+    if (av === null && bv === null) return 0;
+    if (av === null) return 1;
+    if (bv === null) return -1;
+    return bv - av;
+  });
+}
+
+function formatNullable(value: number | null, fmt: (v: number) => string): string {
+  return value === null ? "—" : fmt(value);
 }
 
 export async function renderRadar(container: HTMLElement, lang: Lang): Promise<void> {
@@ -55,6 +68,7 @@ export async function renderRadar(container: HTMLElement, lang: Lang): Promise<v
           <thead>
             <tr>
               <th></th>
+              <th>${t("product_col", lang)}</th>
               <th>${t("category", lang)}</th>
               <th>${t("stage", lang)}</th>
               <th>${t("price", lang)}</th>
@@ -67,14 +81,15 @@ export async function renderRadar(container: HTMLElement, lang: Lang): Promise<v
             ${sorted
               .map(
                 (c) => `
-              <tr>
+              <tr${c.suspicious ? ' style="opacity:0.5"' : ""}>
                 <td>${sparkline(c.daily_units)}</td>
                 <td>${c.title}<br/><small style="color:var(--text-dim)">${c.shop_name}</small></td>
-                <td>${t(`stage_${c.stage}`, lang)}</td>
+                <td>${c.category}</td>
+                <td>${c.stage ? t(`stage_${c.stage}`, lang) : t("suspicious_label", lang)}</td>
                 <td>$${c.price.toFixed(2)}</td>
                 <td>${(c.commission_rate * 100).toFixed(0)}%</td>
-                <td>${c.score}</td>
-                <td>$${c.ev_typical.toFixed(0)}</td>
+                <td>${formatNullable(c.score, (v) => String(v))}</td>
+                <td>${formatNullable(c.ev_typical, (v) => `$${v.toFixed(0)}`)}</td>
               </tr>`,
               )
               .join("")}

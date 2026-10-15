@@ -1,3 +1,4 @@
+import json
 from datetime import date
 
 import pandas as pd
@@ -8,8 +9,10 @@ from engine.run import (
     _creator_stats,
     assemble_picks,
     build_reasons,
+    candidates_to_export_dicts,
     ingest_from_snapshots,
     partition_suspicious,
+    product_detail_dict,
     score_pool,
 )
 
@@ -58,6 +61,34 @@ def test_build_reasons_skips_category_fit_below_average_and_falls_back():
 def test_build_reasons_skips_category_fit_when_no_average_given():
     reasons_es, _ = build_reasons(_row(category_gpm=20.79), creator_avg_gpm=None)
     assert not any("por cada 1,000 vistas" in r for r in reasons_es)
+
+
+def test_build_reasons_seasonality_cites_pluralized_days_real_example():
+    # the real motivating example: Black Friday 2026, 44 days from 2026-10-14
+    row = _row(
+        z_fit=0.0,
+        season_val=5.0,  # largest magnitude -> seasonality wins a slot
+        matched_event_id="bfcm_2026",
+        matched_event_label_es="Black Friday",
+        matched_event_label_en="Black Friday",
+        days_to_event_end=44,
+    )
+    reasons_es, reasons_en = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM)
+    assert "Buen momento antes de Black Friday (faltan 44 días)." in reasons_es
+    assert "Good timing before Black Friday (44 days left)." in reasons_en
+
+
+def test_build_reasons_seasonality_skipped_when_event_already_passed():
+    row = _row(
+        z_fit=0.0,
+        season_val=5.0,
+        matched_event_id="halloween_2026",
+        matched_event_label_es="Halloween",
+        matched_event_label_en="Halloween",
+        days_to_event_end=-2,
+    )
+    reasons_es, _ = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM)
+    assert not any("Halloween" in r for r in reasons_es)
 
 
 def _weights(core_slots, explore_slots, max_per_category=3, max_per_shop=2):
@@ -115,3 +146,54 @@ def test_score_pool_cowboy_costume_matches_halloween_not_black_friday():
     row = df[df["title"] == "Play Along Cowboy Costume"].iloc[0]
     assert row["matched_event_id"] == "halloween_2026"
     assert row["days_to_event_end"] == 17  # 2026-10-31 (Halloween) - 2026-10-14
+
+
+def _candidate_row(product_id, **overrides):
+    base = {
+        "product_id": product_id,
+        "title": product_id,
+        "config_category": "shapewear",
+        "shop_name": "Shop",
+        "stage": "rising",
+        "price": 10.0,
+        "commission_rate": 0.1,
+        "score": 50,
+        "ev_typical": 5.0,
+    }
+    base.update(overrides)
+    return base
+
+
+def test_candidates_to_export_dicts_nan_daily_units_becomes_empty_list():
+    # the real bug this guards against: a candidate outside the trend-fetch
+    # pool never gets daily_units_14 set at all, which pandas backfills as
+    # NaN (not None) once the column exists on any other row -- `or []`
+    # doesn't catch that (nan is truthy), so json.dumps wrote a literal NaN
+    # token: invalid JSON that broke JSON.parse on the whole candidates.json
+    # file (found 2026-10-17 verifying the Radar page against real data).
+    df = pd.DataFrame(
+        [
+            _candidate_row("a", daily_units_14=[1, 2, 3]),
+            _candidate_row("b"),  # no daily_units_14 key -> NaN in the column
+        ]
+    )
+    out = candidates_to_export_dicts(df)
+    assert out[0]["daily_units"] == [1, 2, 3]
+    assert out[1]["daily_units"] == []
+    json.dumps(out, allow_nan=False)  # raises if a real NaN slipped through
+
+
+def test_product_detail_dict_nan_daily_units_becomes_empty_list():
+    pick = {
+        "product_id": "a",
+        "title": "A",
+        "config_category": "shapewear",
+        "shop_name": "Shop",
+        "price": 10.0,
+        "commission_rate": 0.1,
+        "earnings_per_sale": 1.0,
+        # no daily_units_14 key, and no videos key either
+    }
+    detail = product_detail_dict(pick)
+    assert detail["daily_units_14"] == []
+    json.dumps(detail, allow_nan=False)

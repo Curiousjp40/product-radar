@@ -8,7 +8,7 @@ function lengthSweetSpotTable(insights: CreatorInsights, lang: Lang): string {
   if (rows.length === 0) return `<p class="empty-state">${t("no_data", lang)}</p>`;
   return `
     <table class="radar-table">
-      <thead><tr><th>${lang === "es" ? "Duracion" : "Length"}</th><th>${lang === "es" ? "GMV/video" : "GMV/video"}</th><th>${lang === "es" ? "Unidades/10K vistas" : "Units/10K views"}</th></tr></thead>
+      <thead><tr><th>${t("length_col", lang)}</th><th>${t("sales_per_video", lang)}</th><th>${t("units_per_10k_views", lang)}</th></tr></thead>
       <tbody>
         ${rows
           .map((b) => {
@@ -25,10 +25,10 @@ function summaryStats(insights: CreatorInsights, lang: Lang): string {
   const s = insights.summary;
   return `
     <div class="stat-row">
-      <div class="stat"><b>$${s.gmv.toFixed(0)}</b><span>GMV</span></div>
-      <div class="stat"><b>${s.units}</b><span>Units</span></div>
-      <div class="stat"><b>$${s.avg_price_per_unit.toFixed(2)}</b><span>${lang === "es" ? "Precio/unidad" : "Price/unit"}</span></div>
-      <div class="stat"><b>$${s.gmv_per_1k_views.toFixed(2)}</b><span>GMV/1K views</span></div>
+      <div class="stat"><b>$${s.gmv.toFixed(0)}</b><span>${t("sales_label", lang)}</span></div>
+      <div class="stat"><b>${s.units}</b><span>${t("units_label", lang)}</span></div>
+      <div class="stat"><b>$${s.avg_price_per_unit.toFixed(2)}</b><span>${t("price_per_unit", lang)}</span></div>
+      <div class="stat"><b>$${s.gmv_per_1k_views.toFixed(2)}</b><span>${t("sales_per_1k_views", lang)}</span></div>
       <div class="stat"><b>${(insights.hit_tracker.gmv_top1_share * 100).toFixed(0)}%</b><span>${t("top1_share", lang)}</span></div>
       <div class="stat"><b>${(insights.hit_tracker.gmv_top5_share * 100).toFixed(0)}%</b><span>${t("top5_share", lang)}</span></div>
       <div class="stat"><b>${insights.hit_tracker.videos_per_week.toFixed(1)}</b><span>${t("videos_per_week", lang)}</span></div>
@@ -63,9 +63,9 @@ export async function renderResults(container: HTMLElement, lang: Lang): Promise
         <table class="radar-table">
           <thead><tr><th></th><th>Roxie</th><th>Ari</th></tr></thead>
           <tbody>
-            <tr><td>GMV</td><td>$${roxie.summary.gmv.toFixed(0)}</td><td>$${ari.summary.gmv.toFixed(0)}</td></tr>
-            <tr><td>${lang === "es" ? "Precio/unidad" : "Price/unit"}</td><td>$${roxie.summary.avg_price_per_unit.toFixed(2)}</td><td>$${ari.summary.avg_price_per_unit.toFixed(2)}</td></tr>
-            <tr><td>GMV/1K views</td><td>$${roxie.summary.gmv_per_1k_views.toFixed(2)}</td><td>$${ari.summary.gmv_per_1k_views.toFixed(2)}</td></tr>
+            <tr><td>${t("sales_label", lang)}</td><td>$${roxie.summary.gmv.toFixed(0)}</td><td>$${ari.summary.gmv.toFixed(0)}</td></tr>
+            <tr><td>${t("price_per_unit", lang)}</td><td>$${roxie.summary.avg_price_per_unit.toFixed(2)}</td><td>$${ari.summary.avg_price_per_unit.toFixed(2)}</td></tr>
+            <tr><td>${t("sales_per_1k_views", lang)}</td><td>$${roxie.summary.gmv_per_1k_views.toFixed(2)}</td><td>$${ari.summary.gmv_per_1k_views.toFixed(2)}</td></tr>
             <tr><td>${t("videos_per_week", lang)}</td><td>${roxie.hit_tracker.videos_per_week.toFixed(1)}</td><td>${ari.hit_tracker.videos_per_week.toFixed(1)}</td></tr>
           </tbody>
         </table>
