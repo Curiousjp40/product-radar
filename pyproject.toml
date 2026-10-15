@@ -4,19 +4,28 @@ version = "0.1.0"
 description = "Weekly product-picking engine for TikTok Shop affiliate creators"
 requires-python = ">=3.12"
 dependencies = [
-  "pandas>=2.2",
-  "numpy>=1.26",
-  "pydantic>=2.6",
-  "pyyaml>=6.0",
-  "mcp>=1.9",
-  "python-dotenv>=1.0",
+  # Pinned exactly (added 2026-10-15): these were all `>=`-only, so every CI
+  # run and every `pip install -e .` could silently resolve a different
+  # release than the last one -- a likely contributor to the one-off
+  # "failed, passed on an identical re-run" CI flake on commit 2842116 (no
+  # code in that commit touched date/time or ordering logic, and 35+ local
+  # reruns across Python 3.13/3.14 never reproduced it; dependency drift
+  # between two `pip install`s a few minutes apart was the one source of
+  # real nondeterminism this investigation couldn't rule out). Bump these
+  # deliberately, not implicitly.
+  "pandas==3.0.6",
+  "numpy==2.5.4",
+  "pydantic==2.14.1",
+  "pyyaml==6.0.3",
+  "mcp==2.3.0",
+  "python-dotenv==1.2.4",
 ]
 
 [project.optional-dependencies]
 dev = [
-  "pytest>=8.0",
-  "pytest-asyncio>=0.24",
-  "ruff>=0.6",
+  "pytest==9.1.1",
+  "pytest-asyncio==1.4.0",
+  "ruff==0.17.0",
 ]
 
 [tool.pytest.ini_options]

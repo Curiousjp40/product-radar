@@ -20,24 +20,30 @@ def _write(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, indent=2, default=str), encoding="utf-8")
 
 
-def write_picks(week: str, creator: str, picks: list[dict[str, Any]]) -> None:
-    _write(DATA_DIR / "picks.json", {"schema_version": SCHEMA_VERSION, "week": week, "creator": creator, "picks": picks})
+def write_picks(week: str, creator: str, picks: list[dict[str, Any]], data_dir: Path | None = None) -> None:
+    _write(
+        (data_dir or DATA_DIR) / "picks.json",
+        {"schema_version": SCHEMA_VERSION, "week": week, "creator": creator, "picks": picks},
+    )
 
 
-def write_candidates(week: str, candidates: list[dict[str, Any]]) -> None:
-    _write(DATA_DIR / "candidates.json", {"schema_version": SCHEMA_VERSION, "week": week, "candidates": candidates})
+def write_candidates(week: str, candidates: list[dict[str, Any]], data_dir: Path | None = None) -> None:
+    _write(
+        (data_dir or DATA_DIR) / "candidates.json",
+        {"schema_version": SCHEMA_VERSION, "week": week, "candidates": candidates},
+    )
 
 
-def write_product(product_id: str, detail: dict[str, Any]) -> None:
-    _write(DATA_DIR / "products" / f"{product_id}.json", {"schema_version": SCHEMA_VERSION, **detail})
+def write_product(product_id: str, detail: dict[str, Any], data_dir: Path | None = None) -> None:
+    _write((data_dir or DATA_DIR) / "products" / f"{product_id}.json", {"schema_version": SCHEMA_VERSION, **detail})
 
 
-def write_hooks(hooks_cfg: dict[str, Any]) -> None:
+def write_hooks(hooks_cfg: dict[str, Any], data_dir: Path | None = None) -> None:
     """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
     2026-10-15) -- static template content (category hooks + shot-list
     archetypes), not per-week data, but exported the same way so the
     frontend never needs to parse YAML."""
-    _write(DATA_DIR / "hooks.json", {"schema_version": SCHEMA_VERSION, **hooks_cfg})
+    _write((data_dir or DATA_DIR) / "hooks.json", {"schema_version": SCHEMA_VERSION, **hooks_cfg})
 
 
 def write_meta(
@@ -48,9 +54,10 @@ def write_meta(
     credits_used_month: int,
     credits_balance: int,
     weights_version: str = "0.2.0-lead-ads-audience",
+    data_dir: Path | None = None,
 ) -> None:
     _write(
-        DATA_DIR / "meta.json",
+        (data_dir or DATA_DIR) / "meta.json",
         {
             "schema_version": SCHEMA_VERSION,
             "run_at": datetime.now().astimezone().isoformat(),

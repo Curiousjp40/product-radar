@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import math
+import random
 import urllib.parse
 import uuid
 from datetime import date, timedelta
@@ -896,6 +897,7 @@ def assemble_picks(
     weights: dict,
     season_events: list[dict] | None = None,
     categories_cfg: dict | None = None,
+    rng: random.Random | None = None,
 ) -> list[dict]:
     if df.empty:
         return []
@@ -924,7 +926,7 @@ def assemble_picks(
 
     categories = sorted(df["config_category"].unique())
     beliefs = {c: (1.0, 1.0) for c in categories}  # first run: no history, uniform Beta(1,1) prior
-    sampled = thompson_sample_categories(beliefs)
+    sampled = thompson_sample_categories(beliefs, rng=rng)
     explore_cats = pick_explore_categories(sampled, trial_counts=dict.fromkeys(categories, 0), k=weights["picks"]["explore_slots"])
     core_slots_n = weights["picks"]["core_slots"]
     core_selected = diverse[:core_slots_n]
@@ -1428,10 +1430,17 @@ async def run(args: argparse.Namespace) -> None:
     )
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg, pocas_latinas_cfg)
 
-    if not args.dry_run:
-        export.write_picks(week, CREATOR, pick_dicts)
-        export.write_candidates(week, candidate_dicts)
-        export.write_hooks(config["hooks"])
+    # `--export-dir` writes the data-export files even on a --dry-run (to a
+    # caller-chosen directory, never web/public/data) so the export path
+    # itself -- not just the individual dict-builder functions -- can be
+    # proven to write every field at zero credits (see tests/test_export_
+    # completeness.py). meta.json and the credit ledger stay gated on a real
+    # (non-dry) run below: they're meaningless for a fixture replay.
+    export_dir = Path(args.export_dir) if args.export_dir else None
+    if not args.dry_run or export_dir is not None:
+        export.write_picks(week, CREATOR, pick_dicts, data_dir=export_dir)
+        export.write_candidates(week, candidate_dicts, data_dir=export_dir)
+        export.write_hooks(config["hooks"], data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}
@@ -1447,12 +1456,15 @@ async def run(args: argparse.Namespace) -> None:
                     saturation_cfg,
                     pocas_latinas_cfg,
                 ),
+                data_dir=export_dir,
             )
         for cand in flagged:
             export.write_product(
                 cand["product_id"],
                 product_detail_dict(cand, categories_cfg, False, False, sweet_spot, saturation_cfg, pocas_latinas_cfg),
+                data_dir=export_dir,
             )
+    if not args.dry_run:
         # Ledger rows for this run were already written as each one happened
         # (BudgetTracker.checkpoint, via the `conn` passed in above) -- no
         # batch write needed here any more.
@@ -1495,6 +1507,15 @@ def main() -> None:
         "--resume-week",
         default=None,
         help="rebuild from data/snapshots/<week>/ instead of re-ingesting (still does spanish-gap for real)",
+    )
+    parser.add_argument(
+        "--export-dir",
+        default=None,
+        help=(
+            "write this run's picks/candidates/hooks/product JSON here (meta.json and the credit "
+            "ledger are untouched). Combine with --dry-run to prove the export path writes every "
+            "field the site needs, at zero credits, without touching web/public/data."
+        ),
     )
     args = parser.parse_args()
     asyncio.run(run(args))

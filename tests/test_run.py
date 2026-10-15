@@ -148,6 +148,51 @@ def test_assemble_picks_category_cap_counts_explore_too():
     assert all(p["kind"] == "core" for p in picks)
 
 
+def test_assemble_picks_is_reproducible_with_a_seeded_rng():
+    # assemble_picks's explore slot runs on real (unseeded) randomness in
+    # production -- correct for Thompson sampling's actual diversity goal --
+    # but that makes the explore pick's identity the one genuinely
+    # nondeterministic thing in the whole scoring pipeline. With >=2
+    # categories (so the random draw has an actual choice to make) and the
+    # SAME seed, the result must be byte-identical every time; this is what
+    # makes a future test of exact pick identity possible without flaking.
+    import random
+
+    rows = [
+        {
+            "product_id": "0",
+            "config_category": "shapewear",
+            "shop_id": "shop0",
+            "title": "Shapewear Product",
+            "score": 90,
+            "ev_typical": 50,
+        },
+        {
+            "product_id": "1",
+            "config_category": "shoes",
+            "shop_id": "shop1",
+            "title": "Shoes Product",
+            "score": 85,
+            "ev_typical": 45,
+        },
+        {
+            "product_id": "2",
+            "config_category": "furniture",
+            "shop_id": "shop2",
+            "title": "Furniture Product",
+            "score": 80,
+            "ev_typical": 40,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    weights = _weights(core_slots=1, explore_slots=1)
+
+    first = assemble_picks(df, weights, rng=random.Random(42))
+    second = assemble_picks(df, weights, rng=random.Random(42))
+    assert [p["product_id"] for p in first] == [p["product_id"] for p in second]
+    assert [p["kind"] for p in first] == [p["kind"] for p in second]
+
+
 def test_assemble_picks_explore_slot_rejects_near_duplicate_of_core_pick():
     # the real bug this guards against, 2026-W42: a core "Crocs Women's Dylan
     # Animal Platform Clogs" pick and a near-identical explore "Crocs Women's
