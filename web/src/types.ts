@@ -21,6 +21,8 @@ export interface Pick {
   clean_title: string;
   image_url: string;
   category: string;
+  category_label_es: string;
+  category_label_en: string;
   shop_name: string;
   price: number;
   commission_rate: number;

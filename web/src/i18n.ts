@@ -93,6 +93,10 @@ const dict: Record<string, { es: string; en: string }> = {
   urgency_due_soon_label: { es: "Vence en {days} días", en: "Due in {days} days" },
   export_csv_button: { es: "Exportar como CSV", en: "Export as CSV" },
   export_csv_copied: { es: "Lista copiada", en: "List copied" },
+  // Part F split-view (added 2026-10-15).
+  guardar_button: { es: "Guardar", en: "Save" },
+  guardado_label: { es: "Guardado", en: "Saved" },
+  ver_todos_detalles_button: { es: "Ver todos los detalles", en: "See full details" },
   hoy_samples_banner: {
     es: "Tienes muestras vencidas o por vencer. Revisa la pestaña Muestras.",
     en: "You have overdue or soon-due samples. Check the Samples tab.",

@@ -589,6 +589,215 @@ select.status-select {
 }
 
 /* ---------------------------------------------------------------------
+   "Esta semana" split view (Part F redesign, added 2026-10-15): a compact
+   list of every pick plus a sticky detail panel on desktop; phone/tablet
+   just gets the list, and a tap goes to the full #/product/<id> page.
+   ------------------------------------------------------------------- */
+.week-split {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.week-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.week-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+  text-decoration: none;
+  color: var(--text);
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+  border: 2px solid transparent;
+}
+
+.week-row-photo,
+.week-row-photo-placeholder {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex: 0 0 auto;
+  background: var(--surface-2);
+}
+
+.week-row-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.week-row-title {
+  font-size: 0.88rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.week-row-meta {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
+
+.week-row-earn {
+  color: var(--good);
+  font-weight: 700;
+}
+
+.week-row-price {
+  color: var(--text-dim);
+}
+
+.week-detail {
+  display: none;
+}
+
+.week-detail-photo-wrap {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.week-detail-photo,
+.week-detail-photo-placeholder {
+  display: block;
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+}
+
+.week-detail-title {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+
+.week-detail-earn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--good);
+  margin-bottom: 4px;
+}
+
+.week-detail-meta {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
+.week-detail-summary {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+
+.week-detail-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  margin-bottom: 12px;
+  max-width: 420px;
+}
+
+.week-detail-thumb {
+  max-width: 140px;
+}
+
+.week-detail-actions {
+  margin-top: 10px;
+}
+
+.btn-save-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  border: none;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-save-pill.active {
+  background: #fbe0ee;
+  color: var(--accent);
+}
+
+@media (min-width: 1024px) {
+  .week-split {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .week-list {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .week-row.selected {
+    border-color: var(--accent);
+  }
+
+  .week-detail {
+    display: block;
+    flex: 1;
+    position: sticky;
+    top: 12px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+  }
+
+  /* Hoy's "what to film today" cards get the same compact-row density on
+     desktop (full-width row: small square photo beside the content) --
+     there are only ever 3 of them, so no list+detail split makes sense
+     there, unlike "Esta semana" above. */
+  .hoy-card-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hoy-card-list .pick-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .hoy-card-list .card-photo-link {
+    flex: 0 0 64px;
+  }
+
+  .hoy-card-list .card-photo,
+  .hoy-card-list .card-photo-placeholder {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .hoy-card-list .card-body {
+    flex: 1;
+  }
+}
+
+/* ---------------------------------------------------------------------
    "Mas" submenu
    ------------------------------------------------------------------- */
 

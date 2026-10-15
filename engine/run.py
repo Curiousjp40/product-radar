@@ -1038,6 +1038,7 @@ def picks_to_export_dicts(
     creator_avg_gpm: float | None = None,
     spanish_gap_reason_max_share: float = 0.3,
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
+    categories_cfg: dict | None = None,
 ) -> list[dict]:
     out = []
     for p in picks:
@@ -1049,6 +1050,7 @@ def picks_to_export_dicts(
         summary_reasons_es, summary_reasons_en = build_reasons(
             row, creator_avg_gpm, spanish_gap_reason_max_share, exclude=frozenset({"earnings"})
         )
+        cat_meta = (categories_cfg or {}).get(p["config_category"], {})
         out.append(
             {
                 "slot": p["slot"],
@@ -1058,6 +1060,10 @@ def picks_to_export_dicts(
                 "clean_title": clean_title(p["title"]),
                 "image_url": p.get("image_url") or "",
                 "category": p["config_category"],
+                # Part F (added 2026-10-15): the split-view detail panel
+                # needs the localized label without a per-product fetch.
+                "category_label_es": cat_meta.get("label_es", p["config_category"]),
+                "category_label_en": cat_meta.get("label_en", p["config_category"]),
                 "shop_name": p["shop_name"],
                 "price": p["price"],
                 "commission_rate": p["commission_rate"],
@@ -1325,7 +1331,7 @@ async def run(args: argparse.Namespace) -> None:
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
     sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
     pick_ids = {p["product_id"] for p in picks}
-    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot)
+    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot, categories_cfg)
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
 
     if not args.dry_run:
