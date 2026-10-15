@@ -10,7 +10,7 @@ import type { AccountSearchResult } from "../types";
  * WORKER_URL is set once the Worker is deployed (see the setup walkthrough
  * in the PR/commit this shipped with). Until then, the page only offers the
  * free "open in TikTok" button -- no password gate, no fetch attempt. */
-const WORKER_URL = "";
+const WORKER_URL = "https://product-radar-search.roxie-radar.workers.dev";
 
 const PASSWORD_KEY = "product-radar:search-password";
 
