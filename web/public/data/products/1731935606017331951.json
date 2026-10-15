@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1731935606017331951",
-  "title": "20PCS Acrylic Photo Hooks – Buy 10 Get 10 Free, Stainless Steel & Ceramic Self-Adhesive, Smooth Lightweight Wall-Mount for Room Decor & Organizer, Easy Installation,Perfect for Photos, Keys, Jewelry & Lightweight Items, Versatile Home Accessory",
-  "clean_title": "20PCS Acrylic Photo Hooks – Buy",
+  "title": "20PCS Acrylic Photo Hooks \u2013 Buy 10 Get 10 Free, Stainless Steel & Ceramic Self-Adhesive, Smooth Lightweight Wall-Mount for Room Decor & Organizer, Easy Installation,Perfect for Photos, Keys, Jewelry & Lightweight Items, Versatile Home Accessory",
+  "clean_title": "20PCS Acrylic Photo Hooks \u2013 Buy",
   "image_url": "/img/product_1731935606017331951.jpg",
   "category": "home_storage",
-  "category_label_es": "Organización",
+  "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
+  "effort_minutes": 30,
   "shop_name": "Jahyshop",
   "price": 9.99,
   "commission_rate": 0.15,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=20PCS%20Acrylic%20Photo%20Hooks%20%E2%80%93%20Buy",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

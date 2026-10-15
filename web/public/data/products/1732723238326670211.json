@@ -7,6 +7,7 @@
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
+  "effort_minutes": 15,
   "shop_name": "Comfrt",
   "price": 49.0,
   "commission_rate": 0.1,
@@ -125,7 +126,9 @@
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

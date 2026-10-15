@@ -1,13 +1,14 @@
 {
   "schema_version": 1,
   "product_id": "1729593807999832237",
-  "title": "「MRH」10\"12 \"14\" -Inch Twin, Full, Queen, King,Luxury Hybrid Mattress -Memory Foamand IndividualPocket Springs for UltimateComfort and Support -Perfectfor Family Roomsand Hotels in outdoorfun, MotionIsolation Mattress, High Quality Mattress sohochic, Queen",
-  "clean_title": "「MRH」10\"12 \"14\" -Inch Twin",
+  "title": "\u300cMRH\u300d10\"12 \"14\" -Inch Twin, Full, Queen, King,Luxury Hybrid Mattress -Memory Foamand IndividualPocket Springs for UltimateComfort and Support -Perfectfor Family Roomsand Hotels in outdoorfun, MotionIsolation Mattress, High Quality Mattress sohochic, Queen",
+  "clean_title": "\u300cMRH\u300d10\"12 \"14\" -Inch Twin",
   "image_url": "/img/product_1729593807999832237.jpg",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
-  "shop_name": "MRH・DreamWell Mattress Home",
+  "effort_minutes": 40,
+  "shop_name": "MRH\u30fbDreamWell Mattress Home",
   "price": 188.0,
   "commission_rate": 0.05,
   "earnings_per_sale": 9.4,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=%E3%80%8CMRH%E3%80%8D10%2212%20%2214%22%20-Inch%20Twin",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

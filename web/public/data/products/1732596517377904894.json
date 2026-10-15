@@ -7,6 +7,7 @@
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
+  "effort_minutes": 15,
   "shop_name": "JY . LLC",
   "price": 29.13,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfortable%20Retro%20Striped%20Thick%20Sole%20Sneakers",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

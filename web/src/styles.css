@@ -1164,10 +1164,140 @@ select.status-select {
   color: var(--bad);
 }
 
+.pocas-latinas-badge {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+
 .saturation-reason {
   font-size: 0.78rem;
   color: var(--text-dim);
   margin: 4px 0 0;
+}
+
+/* ---------------------------------------------------------------------
+   H1 earnings goal card (added 2026-10-15)
+   ------------------------------------------------------------------- */
+.earnings-goal-card {
+  margin: -4px 0 12px;
+}
+
+.goal-progress-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+  margin: 6px 0 8px;
+}
+
+.goal-progress-fill {
+  height: 100%;
+  background: var(--good);
+  border-radius: 999px;
+}
+
+.goal-progress-text {
+  font-size: 0.85rem;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.earnings-goal-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.earnings-goal-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.earnings-goal-form input {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------------------------
+   H2 combos card (added 2026-10-15)
+   ------------------------------------------------------------------- */
+.combo-row {
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+}
+
+.combo-row:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.combo-names {
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.combo-idea {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin: 2px 0;
+}
+
+.combo-earn {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--good);
+}
+
+/* ---------------------------------------------------------------------
+   H4 brand outreach (added 2026-10-15)
+   ------------------------------------------------------------------- */
+.outreach-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.outreach-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+}
+
+.outreach-card h3 {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+}
+
+.outreach-stats {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.outreach-product {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.outreach-message {
+  font-family: inherit;
+  white-space: pre-wrap;
+  background: var(--surface-2);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0 0 10px;
 }
 
 /* ---------------------------------------------------------------------

@@ -5,8 +5,9 @@
   "clean_title": "1 Count Cross Design and Resurrection",
   "image_url": "/img/product_1732397386659434927.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "Choi hino",
   "price": 1.8,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=1%20Count%20Cross%20Design%20and%20Resurrection",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

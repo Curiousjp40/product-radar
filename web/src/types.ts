@@ -39,6 +39,9 @@ export interface Pick {
   fastmoss_url: string;
   formula_ganadora: FormulaGanadora | null;
   saturation_badge: SaturationBadge | null;
+  effort_minutes: number | null;
+  spanish_share: number | null;
+  pocas_creadoras_latinas: boolean;
 }
 
 export interface PicksFile {
@@ -79,6 +82,10 @@ export interface Candidate {
   fastmoss_url: string;
   tiktok_search_url: string;
   saturation_badge: SaturationBadge | null;
+  effort_minutes: number | null;
+  creator_count: number | null;
+  spanish_share: number | null;
+  pocas_creadoras_latinas: boolean;
 }
 
 export interface CandidatesFile {
@@ -128,6 +135,9 @@ export interface ProductDetail {
   videos: VideoCard[];
   formula_ganadora: FormulaGanadora | null;
   saturation_badge: SaturationBadge | null;
+  effort_minutes: number | null;
+  spanish_share: number | null;
+  pocas_creadoras_latinas: boolean;
 }
 
 export interface CreatorInsights {
@@ -260,9 +270,16 @@ export interface AccountSearchResult {
 
 // config/hooks.yaml exported as-is (Part C, added 2026-10-15) -- static
 // template content, not per-week data.
+export interface ComboPair {
+  categories: [string, string];
+  idea_es: string;
+  idea_en: string;
+}
+
 export interface HooksFile {
   schema_version: number;
   hooks: Record<string, { es: string[]; en: string[] }>;
   shot_lists: Record<string, { es: string[]; en: string[] }>;
   category_to_shot_list: Record<string, string>;
+  combo_pairs: ComboPair[];
 }

@@ -7,6 +7,7 @@
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
+  "effort_minutes": 20,
   "shop_name": "Tipsy Elves",
   "price": 60.0,
   "commission_rate": 0.25,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Tipsy%20Elves%20Women%27s%20Original%20Halloween%20Costumes",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

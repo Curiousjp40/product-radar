@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "Elengatine USA",
   "price": 36.43,
   "commission_rate": 0.1,
@@ -152,12 +153,14 @@
     },
     "top_hooks": [
       "I have no words",
-      "This black dress looks simple… until you see the details 🖤 The design is unreal."
+      "This black dress looks simple\u2026 until you see the details \ud83d\udda4 The design is unreal."
     ]
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.16666666666666666,
+  "pocas_creadoras_latinas": true
 }

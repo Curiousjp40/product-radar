@@ -7,6 +7,7 @@
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
+  "effort_minutes": 25,
   "shop_name": "Muddy Mat",
   "price": 16.0,
   "commission_rate": 0.25,
@@ -152,13 +153,15 @@
     },
     "top_hooks": [
       "not sure how much longer this is gonna be a thing",
-      "Don’t order the wrong Muddy Mat size!",
-      "Getting my house ready BEFORE the snow, slush and muddy paws start coming through these doors 😂 These Muddy Mats stay at our entrances all winter for a reason!"
+      "Don\u2019t order the wrong Muddy Mat size!",
+      "Getting my house ready BEFORE the snow, slush and muddy paws start coming through these doors \ud83d\ude02 These Muddy Mats stay at our entrances all winter for a reason!"
     ]
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

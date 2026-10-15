@@ -1,8 +1,9 @@
-import { loadPicks } from "../api";
+import { loadHooks, loadPicks } from "../api";
 import { t, type Lang } from "../i18n";
 import { getAllFeedback, getAllStatuses, setStatus } from "../pipeline";
-import type { Pick } from "../types";
+import type { ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
+import { findCombos } from "../combos";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -26,8 +27,7 @@ function formatHourRange(hourStart: number, hourEnd: number): string {
   return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
 }
 
-// Left-column compact row (Part F split view). "Pocas latinas" badge
-// (Part H5) gets added to .week-row-meta once that part exists.
+// Left-column compact row (Part F split view).
 function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean): string {
   const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
   return `
@@ -39,9 +39,35 @@ function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean):
           <span class="week-row-earn">${earnLine}</span>
           <span class="week-row-price">$${pick.price.toFixed(2)}</span>
           ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
+          ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
         </div>
       </div>
     </a>
+  `;
+}
+
+// H2 combos: shown above the split view when at least one complementary
+// category pair both have a pick this week.
+function combosHtml(picks: Pick[], comboPairs: ComboPair[], lang: Lang): string {
+  const combos = findCombos(
+    picks.map((p) => ({ product_id: p.product_id, category: p.category, clean_title: p.clean_title, earnings_per_sale: p.earnings_per_sale })),
+    comboPairs,
+  );
+  if (combos.length === 0) return "";
+  return `
+    <div class="insight-card combos-card">
+      <h3>${t("combos_title", lang)}</h3>
+      ${combos
+        .map(
+          (c) => `
+        <div class="combo-row">
+          <div class="combo-names">${c.a.clean_title} + ${c.b.clean_title}</div>
+          <div class="combo-idea">${lang === "es" ? c.idea_es : c.idea_en}</div>
+          <div class="combo-earn">${t("combos_combined_earn", lang, { amount: `$${c.combinedEarnings.toFixed(2)}` })}</div>
+        </div>`,
+        )
+        .join("")}
+    </div>
   `;
 }
 
@@ -67,8 +93,10 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
       <div class="week-detail-meta">
         $${pick.price.toFixed(2)} &middot; ${(pick.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${categoryLabel}
         ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
+        ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
       </div>
       ${pick.saturation_badge ? `<p class="saturation-reason">${lang === "es" ? pick.saturation_badge.reason_es : pick.saturation_badge.reason_en}</p>` : ""}
+      ${pick.pocas_creadoras_latinas ? `<p class="saturation-reason">${t("pocas_latinas_reason", lang)}</p>` : ""}
       ${summary ? `<p class="week-detail-summary">${summary}</p>` : ""}
       ${
         videos.length > 0
@@ -125,7 +153,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
 
 export async function renderThisWeek(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const { data, isSample } = await loadPicks();
+  const [{ data, isSample }, { data: hooks }] = await Promise.all([loadPicks(), loadHooks()]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
   if (data.picks.length === 0) {
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
@@ -180,6 +208,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
   const firstId = data.picks[0].product_id;
   container.innerHTML = `
     ${banner}
+    ${combosHtml(data.picks, hooks.combo_pairs, lang)}
     <div class="week-split">
       <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, dismissed.has(p.product_id), p.product_id === firstId)).join("")}</div>
       <div class="week-detail"></div>

@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "Elengatine USA",
   "price": 34.32,
   "commission_rate": 0.12,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=EL%20ELENGATINE%20Women%27s%20Plus-Size%20Denim%20Shirt",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

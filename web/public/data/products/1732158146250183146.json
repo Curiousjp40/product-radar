@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "Floerns store",
   "price": 53.29,
   "commission_rate": 0.12,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Halloween%20Gothic%20Off-Shoulder%20Chiffon%20A-Line",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

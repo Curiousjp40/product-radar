@@ -107,6 +107,43 @@ const dict: Record<string, { es: string; en: string }> = {
   sort_most_commission: { es: "Más comisión", en: "Highest commission" },
   sort_most_earnings: { es: "Ganas más por venta", en: "Highest earnings per sale" },
   sort_entra_ya: { es: "Entra ya", en: "Jump in now" },
+  sort_most_per_hour: { es: "Ganas más por hora", en: "Highest earnings per hour" },
+  sort_pocas_latinas: { es: "Pocas latinas", en: "Few Spanish creators" },
+  // H1 earnings goal (added 2026-10-15).
+  earnings_goal_title: { es: "Meta de ganancias", en: "Earnings goal" },
+  earnings_goal_set_label: { es: "Meta mensual ($)", en: "Monthly goal ($)" },
+  earnings_goal_save_button: { es: "Guardar meta", en: "Save goal" },
+  earnings_goal_no_goal: { es: "Pon tu meta mensual para ver tu progreso.", en: "Set your monthly goal to see your progress." },
+  earnings_goal_progress: { es: "{earned} de {goal} este mes", en: "{earned} of {goal} this month" },
+  earnings_goal_remaining: { es: "Te faltan {amount}.", en: "You need {amount} more." },
+  earnings_goal_videos_needed: {
+    es: "Son ~{n} videos de {category}.",
+    en: "That's ~{n} videos of {category}.",
+  },
+  earnings_goal_reached: { es: "¡Meta cumplida este mes!", en: "Goal reached this month!" },
+  log_earning_button: { es: "Registrar ganancia", en: "Log earning" },
+  log_earning_amount_label: { es: "Monto ($)", en: "Amount ($)" },
+  log_earning_date_label: { es: "Fecha", en: "Date" },
+  edit_goal_button: { es: "Editar meta", en: "Edit goal" },
+  // H2 combos (added 2026-10-15).
+  combos_title: { es: "Combina y gana más", en: "Combine and earn more" },
+  combos_combined_earn: { es: "Ganas {amount} si vendes ambos", en: "Earn {amount} if you sell both" },
+  // H3 effort vs pay (added 2026-10-15).
+  per_hour_label: { es: "por hora", en: "per hour" },
+  earnings_per_hour_label: { es: "Ganancia estimada por hora", en: "Estimated earnings per hour" },
+  // H4 brand outreach (added 2026-10-15).
+  nav_outreach: { es: "Tiendas para contactar", en: "Shops to reach out to" },
+  outreach_title: { es: "Tiendas para contactar", en: "Shops to reach out to" },
+  outreach_empty: { es: "Ninguna tienda cumple los criterios esta semana.", en: "No shop matches the criteria this week." },
+  outreach_commission_label: { es: "comisión promedio", en: "avg. commission" },
+  outreach_creators_label: { es: "creadoras", en: "creators" },
+  copy_message_button: { es: "Copiar mensaje", en: "Copy message" },
+  // H5 pocas creadoras latinas (added 2026-10-15).
+  pocas_latinas_tag: { es: "Pocas latinas", en: "Few Spanish creators" },
+  pocas_latinas_reason: {
+    es: "Se vende bien pero pocos de sus videos top están en español.",
+    en: "It sells well but few of its top videos are in Spanish.",
+  },
   hoy_samples_banner: {
     es: "Tienes muestras vencidas o por vencer. Revisa la pestaña Muestras.",
     en: "You have overdue or soon-due samples. Check the Samples tab.",

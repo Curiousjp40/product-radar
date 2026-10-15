@@ -5,8 +5,9 @@
   "clean_title": "LED Halloween Ghost Figurine",
   "image_url": "/img/product_1732477158459740444.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "Joytime Party",
   "price": 12.99,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=LED%20Halloween%20Ghost%20Figurine",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

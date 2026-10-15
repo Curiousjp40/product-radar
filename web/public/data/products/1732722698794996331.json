@@ -5,8 +5,9 @@
   "clean_title": "SMALL CASEPACK. 10.5",
   "image_url": "/img/product_1732722698794996331.jpg",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "ByTheCase",
   "price": 1.0,
   "commission_rate": 0.0,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=SMALL%20CASEPACK.%2010.5",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

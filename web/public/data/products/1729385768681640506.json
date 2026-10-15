@@ -7,6 +7,7 @@
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
+  "effort_minutes": 40,
   "shop_name": "SONGMICS HOME",
   "price": 70.0,
   "commission_rate": 0.05,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=SONGMICS%20Farmhouse%20Hidden%20Storage%20Hallway%20Chest",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

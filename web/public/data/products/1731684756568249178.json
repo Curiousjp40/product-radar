@@ -7,6 +7,7 @@
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
+  "effort_minutes": 20,
   "shop_name": "Dolls Kill",
   "price": 76.0,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=911%20Firefighter%20Costume",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

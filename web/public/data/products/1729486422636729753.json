@@ -5,8 +5,9 @@
   "clean_title": "Hidden Book Safe Dictionary Secret Storage",
   "image_url": "/img/product_1729486422636729753.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "safe box for money",
   "price": 15.99,
   "commission_rate": 0.1,
@@ -158,7 +159,9 @@
   },
   "saturation_badge": {
     "level": "entra_ya",
-    "reason_es": "Las ventas están subiendo y todavía hay pocas creadoras vendiéndolo.",
+    "reason_es": "Las ventas est\u00e1n subiendo y todav\u00eda hay pocas creadoras vendi\u00e9ndolo.",
     "reason_en": "Sales are climbing and few creators are selling it yet."
-  }
+  },
+  "spanish_share": 0.3333333333333333,
+  "pocas_creadoras_latinas": false
 }

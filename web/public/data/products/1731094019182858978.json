@@ -5,8 +5,9 @@
   "clean_title": "Sweetcrispy Aluminium LED Backlit Arched Floor",
   "image_url": "/img/product_1731094019182858978.jpg",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "Sweetcrispy Official",
   "price": 71.98,
   "commission_rate": 0.05,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Aluminium%20LED%20Backlit%20Arched%20Floor",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1732696908915774338",
-  "title": "Thank You for Shopping With Us – Customer Appreciation Gift for TikTok Shop Buyers",
+  "title": "Thank You for Shopping With Us \u2013 Customer Appreciation Gift for TikTok Shop Buyers",
   "clean_title": "Thank You for Shopping With Us",
   "image_url": "/img/product_1732696908915774338.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
+  "effort_minutes": 15,
   "shop_name": "Lily Comfort Studio",
   "price": 10.0,
   "commission_rate": 0.21,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Thank%20You%20for%20Shopping%20With%20Us",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

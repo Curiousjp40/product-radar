@@ -7,6 +7,7 @@
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
+  "effort_minutes": 25,
   "shop_name": "Sweetcrispy Official",
   "price": 32.98,
   "commission_rate": 0.05,
@@ -156,7 +157,9 @@
   },
   "saturation_badge": {
     "level": "normal",
-    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1729704410452955872",
-  "title": "【BEDLORE】Thick Fitted Sheet Mattress Pad, Fluffy Pillow Top Comfort Layer, Cooling & Soft Mattress Cover with Deep Pockets (Fits 6–18 Inch Mattresses), Ideal for Bedroom & Home Use HomeEssentials",
-  "clean_title": "【BEDLORE】Thick Fitted Sheet Mattress Pad",
+  "title": "\u3010BEDLORE\u3011Thick Fitted Sheet Mattress Pad, Fluffy Pillow Top Comfort Layer, Cooling & Soft Mattress Cover with Deep Pockets (Fits 6\u201318 Inch Mattresses), Ideal for Bedroom & Home Use HomeEssentials",
+  "clean_title": "\u3010BEDLORE\u3011Thick Fitted Sheet Mattress Pad",
   "image_url": "/img/product_1729704410452955872.jpg",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
+  "effort_minutes": 40,
   "shop_name": "Bedlore",
   "price": 36.0,
   "commission_rate": 0.13,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=%E3%80%90BEDLORE%E3%80%91Thick%20Fitted%20Sheet%20Mattress%20Pad",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

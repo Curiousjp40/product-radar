@@ -5,8 +5,9 @@
   "clean_title": "Hot Star Transparent Plastic Packaging Bag",
   "image_url": "/img/product_1732684826247599037.webp",
   "category": "home_storage",
-  "category_label_es": "Organización",
+  "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
+  "effort_minutes": 30,
   "shop_name": "Hot Star Hair",
   "price": 77.99,
   "commission_rate": 0.0,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Hot%20Star%20Transparent%20Plastic%20Packaging%20Bag",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

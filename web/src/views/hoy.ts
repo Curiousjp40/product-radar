@@ -1,5 +1,7 @@
 import { loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl } from "../asset";
+import { addEntry, getEntries, getMonthlyGoal, setMonthlyGoal } from "../earningsGoal";
+import { bestCategoryForGoal, earningsProgress, earningsThisMonth, videosNeeded } from "../earningsGoalLogic";
 import { t, type Lang } from "../i18n";
 import { getAllStatuses, setStatus } from "../pipeline";
 import { productsToFilmToday } from "../rotation";
@@ -97,6 +99,97 @@ function cardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed:
   `;
 }
 
+function formatMoney(amount: number): string {
+  return `$${amount.toFixed(2)}`;
+}
+
+// H1 earnings goal card, shown at the top of Hoy. Logging a sale and
+// setting the goal are both inline forms toggled open/closed, same pattern
+// as Muestras' add-sample form.
+function goalCardHtml(lang: Lang, picks: Pick[], today: Date): string {
+  const goal = getMonthlyGoal();
+  const earned = earningsThisMonth(getEntries(), today);
+  const progress = earningsProgress(goal, earned);
+
+  if (!progress) {
+    return `
+      <div class="insight-card earnings-goal-card">
+        <h3>${t("earnings_goal_title", lang)}</h3>
+        <p class="empty-state" style="padding:4px 0">${t("earnings_goal_no_goal", lang)}</p>
+        <form class="earnings-goal-form" data-form="set-goal">
+          <input type="number" min="0" step="1" name="goal" placeholder="${t("earnings_goal_set_label", lang)}" required />
+          <button type="submit" class="btn-primary">${t("earnings_goal_save_button", lang)}</button>
+        </form>
+      </div>
+    `;
+  }
+
+  const best = bestCategoryForGoal(picks);
+  const category = best ? (lang === "es" ? best.category_label_es : best.category_label_en) : null;
+  const nVideos = best && progress.remaining > 0 ? videosNeeded(progress.remaining, best.earnings_per_sale) : 0;
+
+  return `
+    <div class="insight-card earnings-goal-card">
+      <h3>${t("earnings_goal_title", lang)}</h3>
+      <div class="goal-progress-bar"><div class="goal-progress-fill" style="width:${progress.pct}%"></div></div>
+      <p class="goal-progress-text">${t("earnings_goal_progress", lang, { earned: formatMoney(progress.earned), goal: formatMoney(progress.goal) })}</p>
+      ${
+        progress.remaining > 0
+          ? `<p class="goal-progress-text">
+              ${t("earnings_goal_remaining", lang, { amount: formatMoney(progress.remaining) })}
+              ${category && nVideos > 0 ? t("earnings_goal_videos_needed", lang, { n: nVideos, category }) : ""}
+            </p>`
+          : `<p class="goal-progress-text">${t("earnings_goal_reached", lang)}</p>`
+      }
+      <div class="earnings-goal-actions">
+        <button type="button" class="btn-primary" data-action="toggle-log-earning">${t("log_earning_button", lang)}</button>
+        <button type="button" class="btn-save-pill" data-action="toggle-edit-goal">${t("edit_goal_button", lang)}</button>
+      </div>
+      <form class="earnings-goal-form" data-form="log-earning" style="display:none">
+        <input type="number" min="0" step="0.01" name="amount" placeholder="${t("log_earning_amount_label", lang)}" required />
+        <input type="date" name="date" value="${today.toISOString().slice(0, 10)}" required />
+        <button type="submit" class="btn-primary">${t("log_earning_button", lang)}</button>
+      </form>
+      <form class="earnings-goal-form" data-form="set-goal" style="display:none">
+        <input type="number" min="0" step="1" name="goal" placeholder="${t("earnings_goal_set_label", lang)}" value="${progress.goal}" required />
+        <button type="submit" class="btn-primary">${t("earnings_goal_save_button", lang)}</button>
+      </form>
+    </div>
+  `;
+}
+
+function wireGoalCard(container: HTMLElement, rerender: () => void): void {
+  const card = container.querySelector<HTMLElement>(".earnings-goal-card");
+  if (!card) return;
+  card.querySelector('[data-form="set-goal"]')?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const input = (e.currentTarget as HTMLFormElement).elements.namedItem("goal") as HTMLInputElement;
+    const amount = Number(input.value);
+    if (amount > 0) {
+      setMonthlyGoal(amount);
+      rerender();
+    }
+  });
+  card.querySelector('[data-form="log-earning"]')?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const form = e.currentTarget as HTMLFormElement;
+    const amount = Number((form.elements.namedItem("amount") as HTMLInputElement).value);
+    const date = (form.elements.namedItem("date") as HTMLInputElement).value;
+    if (amount > 0 && date) {
+      addEntry(amount, date);
+      rerender();
+    }
+  });
+  card.querySelector('[data-action="toggle-log-earning"]')?.addEventListener("click", () => {
+    const form = card.querySelector<HTMLElement>('[data-form="log-earning"]');
+    if (form) form.style.display = form.style.display === "none" ? "flex" : "none";
+  });
+  card.querySelector('[data-action="toggle-edit-goal"]')?.addEventListener("click", () => {
+    const form = card.querySelector<HTMLElement>('[data-form="set-goal"]');
+    if (form) form.style.display = form.style.display === "none" ? "flex" : "none";
+  });
+}
+
 export async function renderHoy(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   const [{ data: picksData, isSample }, { data: hooks }, statuses] = await Promise.all([
@@ -121,6 +214,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ${banner}
     <h2 class="view-title">${t("hoy_title", lang)}</h2>
     ${samplesBanner}
+    ${goalCardHtml(lang, picksData.picks, today)}
     ${seasonHtml}
     ${
       todaysPicks.length === 0
@@ -128,6 +222,8 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
         : `<div class="card-grid hoy-card-list">${todaysPicks.map((p) => cardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed")).join("")}</div>`
     }
   `;
+
+  wireGoalCard(container, () => void renderHoy(container, lang));
 
   container.querySelectorAll<HTMLElement>(".hoy-card").forEach((card) => {
     const productId = card.dataset.productId!;

@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "O Y S",
   "price": 59.79,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=OYS%20Women%27s%20Sexy%20One%20Shoulder%20Satin",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

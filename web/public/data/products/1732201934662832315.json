@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1732201934662832315",
-  "title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded Couch Arm Tray Table - Clip-On Sofa Accessory with Anti-Slip Pads, Stable Surface, Cup Holder, 360° Rotator Phone Holder, Ideal for TV Watching, Thoughtful Gift, Rectangle Wood Table, Fits 13.7\" Arms",
+  "title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded Couch Arm Tray Table - Clip-On Sofa Accessory with Anti-Slip Pads, Stable Surface, Cup Holder, 360\u00b0 Rotator Phone Holder, Ideal for TV Watching, Thoughtful Gift, Rectangle Wood Table, Fits 13.7\" Arms",
   "clean_title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded",
   "image_url": "/img/product_1732201934662832315.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
+  "effort_minutes": 40,
   "shop_name": "Sweetcrispy Store",
   "price": 36.98,
   "commission_rate": 0.05,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Acacia%20Wood%20Grain%203-in-1%20Spring-Loaded",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

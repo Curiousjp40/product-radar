@@ -154,3 +154,24 @@ saturation_badge: # Part E of the 2026-10-15 creator-workflow upgrade
   creators_per_100_units_entra_ya_max: 2.0
   creators_per_100_units_muy_lleno_min: 6.0
   units_slope_growing_min: 0.02 # same slope14 units as weights.stages.rising.slope14_min
+
+pocas_latinas: # H5 of the 2026-10-15 creator-workflow upgrade
+  # Reuses fit.spanish_gap_reason_max_share's own threshold for "few Spanish
+  # videos" (same number the existing "spanish_gap" reason already renders
+  # at) -- min_units_7d keeps the badge off low-volume products that just
+  # don't have enough top videos yet to say anything about language mix.
+  spanish_share_max: 0.3
+  min_units_7d: 100
+
+outreach: # H4 of the 2026-10-15 creator-workflow upgrade
+  # "High commission, few creators" shop-outreach candidates, computed from
+  # this week's own candidates.json (shop_name, commission_rate, creator_count
+  # -- all already fetched/exported, nothing new to fetch). Percentile-based,
+  # not absolute cutoffs: a real week's commission rates topped out at 25%
+  # and creator_count ranged ~20-770, so a fixed "commission >= 20% AND
+  # creator_count <= 10" never matched anything -- these are now relative to
+  # this week's own shop distribution instead (computed client-side in
+  # web/src/outreach.ts, mirrored here for reference, not read at runtime).
+  commission_top_fraction: 0.5 # qualifies if avg commission is in this week's top half of shops
+  creator_count_bottom_fraction: 0.5 # qualifies if avg creator_count is in this week's bottom half
+  min_candidates_for_shop_avg: 1

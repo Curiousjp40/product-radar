@@ -7,6 +7,7 @@
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
+  "effort_minutes": 15,
   "shop_name": "SHECURVE",
   "price": 28.8,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=SHECURVE%20Easyslide%20Bathroom%20Friendly%20Shapewear%20Faja",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

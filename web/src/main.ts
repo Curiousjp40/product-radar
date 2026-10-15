@@ -2,6 +2,7 @@ import { getLang, setLang, t, type Lang } from "./i18n";
 import { renderBuscarCuenta } from "./views/buscarCuenta";
 import { renderHoy } from "./views/hoy";
 import { renderMore } from "./views/more";
+import { renderOutreach } from "./views/outreach";
 import { renderPipeline } from "./views/pipeline";
 import { renderProduct } from "./views/product";
 import { renderSamples } from "./views/samples";
@@ -27,7 +28,7 @@ const TABS: { route: string; labelKey: string }[] = [
   { route: "muestras", labelKey: "nav_muestras" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline"]);
+const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -84,6 +85,9 @@ async function renderApp(): Promise<void> {
       break;
     case "pipeline":
       await renderPipeline(view, lang);
+      break;
+    case "outreach":
+      await renderOutreach(view, lang);
       break;
     case "muestras":
       await renderSamples(view, lang);

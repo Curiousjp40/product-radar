@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1729758112198529816",
-  "title": "Women’s YIANNA Fajas Colombianas shapewear  Tummy Control Butt Lifter Shaper with Zipper Crotch detachable shoulder strap Basic",
-  "clean_title": "Women’s YIANNA Fajas Colombianas shapewear Tummy",
+  "title": "Women\u2019s YIANNA Fajas Colombianas shapewear  Tummy Control Butt Lifter Shaper with Zipper Crotch detachable shoulder strap Basic",
+  "clean_title": "Women\u2019s YIANNA Fajas Colombianas shapewear Tummy",
   "image_url": "/img/product_1729758112198529816.jpg",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
+  "effort_minutes": 15,
   "shop_name": "YIANNA INC",
   "price": 38.0,
   "commission_rate": 0.15,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%E2%80%99s%20YIANNA%20Fajas%20Colombianas%20shapewear%20Tummy",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

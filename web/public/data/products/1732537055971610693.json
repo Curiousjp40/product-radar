@@ -5,8 +5,9 @@
   "clean_title": "DIY Spiral-Bound Christmas Gift Card Album",
   "image_url": "/img/product_1732537055971610693.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "Beauty Shilion",
   "price": 10.99,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=DIY%20Spiral-Bound%20Christmas%20Gift%20Card%20Album",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

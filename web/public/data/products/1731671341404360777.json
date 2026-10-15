@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1731671341404360777",
-  "title": "BloomChic Plus Size Women's Sleeveless Leopard Print Relaxed Fit Overalls - Shirred Shoulder Straps, Pockets, Stretch Fabric, Machine Washable Stylish Wear, M-6X, Relaxed Fit Overall，SohoChic",
+  "title": "BloomChic Plus Size Women's Sleeveless Leopard Print Relaxed Fit Overalls - Shirred Shoulder Straps, Pockets, Stretch Fabric, Machine Washable Stylish Wear, M-6X, Relaxed Fit Overall\uff0cSohoChic",
   "clean_title": "BloomChic Plus Size Women's Sleeveless Leopard",
   "image_url": "/img/product_1731671341404360777.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
+  "effort_minutes": 15,
   "shop_name": "BloomChic",
   "price": 36.9,
   "commission_rate": 0.12,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=BloomChic%20Plus%20Size%20Women%27s%20Sleeveless%20Leopard",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

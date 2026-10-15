@@ -7,6 +7,7 @@
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
+  "effort_minutes": 15,
   "shop_name": "DREAM PAIRS",
   "price": 54.59,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Dream%20Pairs%20Women%27s%20Mary%20Janes%20Platform",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

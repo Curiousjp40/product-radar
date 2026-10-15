@@ -5,8 +5,9 @@
   "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
   "image_url": "/img/product_1732491682604749463.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "histrips.",
   "price": 42.5,
   "commission_rate": 0.25,
@@ -158,7 +159,9 @@
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

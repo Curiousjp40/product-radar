@@ -7,6 +7,7 @@
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
+  "effort_minutes": 15,
   "shop_name": "AVIDLOVE Boutique",
   "price": 35.09,
   "commission_rate": 0.12,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Avidlove%20Women%20Long%20Sleeve%20Bodysuit%20Turtle",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

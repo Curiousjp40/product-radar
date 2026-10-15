@@ -1,5 +1,6 @@
 import { loadProduct } from "../api";
 import { assetUrl } from "../asset";
+import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
 import type { FormulaGanadora, VideoCard } from "../types";
 
@@ -179,6 +180,8 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     ];
     if (data.creator_count !== null) statBoxes.push(statBox(formatCount(data.creator_count), t("creators_selling", lang)));
     if (data.video_count !== null) statBoxes.push(statBox(formatCount(data.video_count), t("videos_count_label", lang)));
+    const perHour = earningsPerHour(data.earnings_per_sale, data.effort_minutes);
+    if (perHour !== null) statBoxes.push(statBox(`$${perHour.toFixed(2)}`, t("earnings_per_hour_label", lang)));
 
     container.innerHTML = `
       ${banner}
@@ -190,10 +193,12 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       <div style="text-align:center;font-size:0.8rem;color:var(--text-dim);margin:-8px 0 12px">${categoryLabel} &middot; ${data.shop_name}</div>
       <div style="text-align:center;font-size:1.3rem;font-weight:700;margin-bottom:12px">$${data.price.toFixed(2)}</div>
       ${
-        data.saturation_badge
+        data.saturation_badge || data.pocas_creadoras_latinas
           ? `<div style="text-align:center;margin:-4px 0 12px">
-              <span class="saturation-badge saturation-${data.saturation_badge.level}">${t(`saturation_tag_${data.saturation_badge.level}`, lang)}</span>
-              <p class="saturation-reason" style="text-align:center">${lang === "es" ? data.saturation_badge.reason_es : data.saturation_badge.reason_en}</p>
+              ${data.saturation_badge ? `<span class="saturation-badge saturation-${data.saturation_badge.level}">${t(`saturation_tag_${data.saturation_badge.level}`, lang)}</span>` : ""}
+              ${data.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
+              ${data.saturation_badge ? `<p class="saturation-reason" style="text-align:center">${lang === "es" ? data.saturation_badge.reason_es : data.saturation_badge.reason_en}</p>` : ""}
+              ${data.pocas_creadoras_latinas ? `<p class="saturation-reason" style="text-align:center">${t("pocas_latinas_reason", lang)}</p>` : ""}
             </div>`
           : ""
       }

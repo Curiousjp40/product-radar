@@ -7,6 +7,7 @@
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
+  "effort_minutes": 15,
   "shop_name": "Vortread",
   "price": 51.39,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Fashion%20PU%20Leather%20Low%20Heel",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

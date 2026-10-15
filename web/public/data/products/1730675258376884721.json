@@ -7,6 +7,7 @@
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
+  "effort_minutes": 15,
   "shop_name": "FeelinGirl LLC",
   "price": 75.98,
   "commission_rate": 0.01,
@@ -109,7 +110,9 @@
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

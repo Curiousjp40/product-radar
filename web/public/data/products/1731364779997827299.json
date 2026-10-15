@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1731364779997827299",
-  "title": "Replica “Full Armor God” Metal Challenge Coin Collectible, Unique Desktop Decor, Ideal for Holiday Party Prizes",
-  "clean_title": "Replica “Full Armor God” Metal Challenge",
+  "title": "Replica \u201cFull Armor God\u201d Metal Challenge Coin Collectible, Unique Desktop Decor, Ideal for Holiday Party Prizes",
+  "clean_title": "Replica \u201cFull Armor God\u201d Metal Challenge",
   "image_url": "/img/product_1731364779997827299.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "GUYI STORE",
   "price": 2.0,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Replica%20%E2%80%9CFull%20Armor%20God%E2%80%9D%20Metal%20Challenge",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

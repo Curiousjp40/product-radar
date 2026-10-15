@@ -7,6 +7,7 @@
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
+  "effort_minutes": 20,
   "shop_name": "CantaloupeS",
   "price": 33.98,
   "commission_rate": 0.145,
@@ -157,7 +158,9 @@
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

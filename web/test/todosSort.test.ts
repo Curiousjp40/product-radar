@@ -30,6 +30,10 @@ function makeCandidate(overrides: Partial<Candidate>): Candidate {
     fastmoss_url: "",
     tiktok_search_url: "",
     saturation_badge: null,
+    effort_minutes: null,
+    creator_count: null,
+    spanish_share: null,
+    pocas_creadoras_latinas: false,
     ...overrides,
   };
 }
@@ -72,6 +76,26 @@ test("sortCandidates: score (default/recommended) mode sorts by score descending
   const items = [makeCandidate({ product_id: "a", score: 10 }), makeCandidate({ product_id: "b", score: 90 })];
   const sorted = sortCandidates("score", items);
   assert.deepStrictEqual(sorted.map((c) => c.product_id), ["b", "a"]);
+});
+
+test("sortCandidates: per_hour mode sorts by earnings per hour descending, treating missing effort_minutes as lowest", () => {
+  const items = [
+    makeCandidate({ product_id: "a", earnings_per_sale: 10, effort_minutes: 60 }), // $10/h
+    makeCandidate({ product_id: "b", earnings_per_sale: 5, effort_minutes: 15 }), // $20/h
+    makeCandidate({ product_id: "c", earnings_per_sale: 100, effort_minutes: null }), // unknown -> last
+  ];
+  const sorted = sortCandidates("per_hour", items);
+  assert.deepStrictEqual(sorted.map((c) => c.product_id), ["b", "a", "c"]);
+});
+
+test("sortCandidates: pocas_latinas mode puts flagged candidates first, then falls back to score", () => {
+  const items = [
+    makeCandidate({ product_id: "a", score: 90, pocas_creadoras_latinas: false }),
+    makeCandidate({ product_id: "b", score: 10, pocas_creadoras_latinas: true }),
+    makeCandidate({ product_id: "c", score: 80, pocas_creadoras_latinas: false }),
+  ];
+  const sorted = sortCandidates("pocas_latinas", items);
+  assert.deepStrictEqual(sorted.map((c) => c.product_id), ["b", "a", "c"]);
 });
 
 test("sortCandidates does not mutate the input array", () => {

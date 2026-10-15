@@ -5,8 +5,9 @@
   "clean_title": "Retainer Cleaner Case Box",
   "image_url": "/img/product_1732412947166171566.jpg",
   "category": "home_storage",
-  "category_label_es": "Organización",
+  "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
+  "effort_minutes": 30,
   "shop_name": "Findry",
   "price": 12.99,
   "commission_rate": 0.12,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Retainer%20Cleaner%20Case%20Box",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

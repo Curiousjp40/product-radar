@@ -7,6 +7,7 @@
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
+  "effort_minutes": 25,
   "shop_name": "Sweetcrispy S",
   "price": 64.97,
   "commission_rate": 0.05,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Plastic%20Pet%20Playpen%20Gate",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

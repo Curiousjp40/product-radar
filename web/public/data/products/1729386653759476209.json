@@ -7,6 +7,7 @@
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
+  "effort_minutes": 15,
   "shop_name": "FeelinGirl LLC",
   "price": 37.98,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=FeelinGirl%20Women%20V%20Neck%20Bodysuit%20Thong",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

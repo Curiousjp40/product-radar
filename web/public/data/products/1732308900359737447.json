@@ -5,8 +5,9 @@
   "clean_title": "UV Resistant Fade-Resistant Colorful Fall Artificial",
   "image_url": "/img/product_1732308900359737447.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "Cozy Crate",
   "price": 12.99,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=UV%20Resistant%20Fade-Resistant%20Colorful%20Fall%20Artificial",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

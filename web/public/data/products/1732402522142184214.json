@@ -5,8 +5,9 @@
   "clean_title": "N&T NIETING 12-Pack 24\" Real Touch",
   "image_url": "/img/product_1732402522142184214.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "NIETING",
   "price": 17.0,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=N%26T%20NIETING%2012-Pack%2024%22%20Real%20Touch",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

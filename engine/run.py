@@ -31,6 +31,7 @@ from engine.budget import (
 )
 from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
+from engine.creator_gap import pocas_creadoras_latinas
 from engine.db import connect
 from engine.features import acceleration, demand, momentum, momentum_multiplier, slope_log1p, wow
 from engine.fit import (
@@ -1051,6 +1052,19 @@ def _saturation_dict(
     )
 
 
+def _pocas_latinas(spanish_share: float | None, units_7d: float, pocas_latinas_cfg: dict | None) -> bool:
+    """False (not None) when pocas_latinas_cfg wasn't supplied -- same as
+    engine.creator_gap.pocas_creadoras_latinas's own missing-input default."""
+    if not pocas_latinas_cfg:
+        return False
+    return pocas_creadoras_latinas(
+        spanish_share,
+        units_7d,
+        spanish_share_max=pocas_latinas_cfg["spanish_share_max"],
+        min_units_7d=pocas_latinas_cfg["min_units_7d"],
+    )
+
+
 def picks_to_export_dicts(
     picks: list[dict],
     creator_avg_gpm: float | None = None,
@@ -1058,6 +1072,7 @@ def picks_to_export_dicts(
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
     categories_cfg: dict | None = None,
     saturation_cfg: dict | None = None,
+    pocas_latinas_cfg: dict | None = None,
 ) -> list[dict]:
     out = []
     for p in picks:
@@ -1083,6 +1098,9 @@ def picks_to_export_dicts(
                 # needs the localized label without a per-product fetch.
                 "category_label_es": cat_meta.get("label_es", p["config_category"]),
                 "category_label_en": cat_meta.get("label_en", p["config_category"]),
+                # H3 (added 2026-10-15): earnings/hour on the product page
+                # comes from pairing this with earnings_per_sale client-side.
+                "effort_minutes": cat_meta.get("effort_minutes"),
                 "shop_name": p["shop_name"],
                 "price": p["price"],
                 "commission_rate": p["commission_rate"],
@@ -1110,6 +1128,12 @@ def picks_to_export_dicts(
                     p.get("units_7d", 0),
                     saturation_cfg,
                 ),
+                "spanish_share": p.get("spanish_share") if pd.notna(p.get("spanish_share")) else None,
+                "pocas_creadoras_latinas": _pocas_latinas(
+                    p.get("spanish_share") if pd.notna(p.get("spanish_share")) else None,
+                    p.get("units_7d", 0),
+                    pocas_latinas_cfg,
+                ),
             }
         )
     return out
@@ -1122,6 +1146,7 @@ def product_detail_dict(
     has_enrichment: bool,
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
     saturation_cfg: dict | None = None,
+    pocas_latinas_cfg: dict | None = None,
 ) -> dict:
     """Full product-page detail (redesigned 2026-10-18 for the "Todos" full
     list: written for every clean candidate, not just the ~9 final picks,
@@ -1145,6 +1170,7 @@ def product_detail_dict(
         "category": cand["config_category"],
         "category_label_es": cat_meta.get("label_es", cand["config_category"]),
         "category_label_en": cat_meta.get("label_en", cand["config_category"]),
+        "effort_minutes": cat_meta.get("effort_minutes"),
         "shop_name": cand["shop_name"],
         "price": cand["price"],
         "commission_rate": cand["commission_rate"],
@@ -1164,6 +1190,8 @@ def product_detail_dict(
             if has_enrichment
             else None
         ),
+        "spanish_share": cand.get("spanish_share"),
+        "pocas_creadoras_latinas": _pocas_latinas(cand.get("spanish_share"), cand.get("units_7d", 0), pocas_latinas_cfg),
     }
 
 
@@ -1188,6 +1216,7 @@ def candidates_to_export_dicts(
     pick_ids: set[str],
     flagged: list[dict] | None = None,
     saturation_cfg: dict | None = None,
+    pocas_latinas_cfg: dict | None = None,
 ) -> list[dict]:
     """The "Todos" page's full list (redesigned 2026-10-18): every clean
     candidate (not a trimmed pool), ranked rows grouped by categories.yaml's
@@ -1208,6 +1237,7 @@ def candidates_to_export_dicts(
                 "category": r["config_category"],
                 "category_label_es": cat_meta.get("label_es", r["config_category"]),
                 "category_label_en": cat_meta.get("label_en", r["config_category"]),
+                "effort_minutes": cat_meta.get("effort_minutes"),
                 "group": cat_meta.get("group", "fashion"),
                 "shop_name": r["shop_name"],
                 "stage": r["stage"],
@@ -1217,6 +1247,7 @@ def candidates_to_export_dicts(
                 "earnings_per_sale": round(r["earnings_per_sale"], 2),
                 "units_7d": int(r["units_7d"]),
                 "units_total": int(r["units_total"]),
+                "creator_count": int(r["creator_count"]) if pd.notna(r.get("creator_count")) else None,
                 "score": int(r["score"]),
                 "ev_typical": round(r["ev_typical"], 2),
                 # A candidate outside the enrichment shortlist never gets
@@ -1237,6 +1268,12 @@ def candidates_to_export_dicts(
                     r.get("units_7d", 0),
                     saturation_cfg,
                 ),
+                "spanish_share": r.get("spanish_share") if pd.notna(r.get("spanish_share")) else None,
+                "pocas_creadoras_latinas": _pocas_latinas(
+                    r.get("spanish_share") if pd.notna(r.get("spanish_share")) else None,
+                    r.get("units_7d", 0),
+                    pocas_latinas_cfg,
+                ),
             }
         )
     # Suspicious listings (added 2026-10-15): excluded from scoring, kept
@@ -1255,6 +1292,7 @@ def candidates_to_export_dicts(
                 "category": c["config_category"],
                 "category_label_es": cat_meta.get("label_es", c["config_category"]),
                 "category_label_en": cat_meta.get("label_en", c["config_category"]),
+                "effort_minutes": cat_meta.get("effort_minutes"),
                 "group": cat_meta.get("group", "fashion"),
                 "shop_name": c["shop_name"],
                 "stage": None,
@@ -1264,6 +1302,7 @@ def candidates_to_export_dicts(
                 "earnings_per_sale": round(earnings_per_sale(c["price"], c["commission_rate"]), 2),
                 "units_7d": c.get("units_7d", 0),
                 "units_total": c.get("units_total", 0),
+                "creator_count": None,
                 "score": None,
                 "ev_typical": None,
                 "daily_units": [],
@@ -1274,6 +1313,8 @@ def candidates_to_export_dicts(
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
                 "saturation_badge": None,
+                "spanish_share": None,
+                "pocas_creadoras_latinas": False,
             }
         )
     return out
@@ -1374,11 +1415,18 @@ async def run(args: argparse.Namespace) -> None:
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
     sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
     saturation_cfg = weights["saturation_badge"]
+    pocas_latinas_cfg = weights["pocas_latinas"]
     pick_ids = {p["product_id"] for p in picks}
     pick_dicts = picks_to_export_dicts(
-        picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot, categories_cfg, saturation_cfg
+        picks,
+        creator_avg_gpm,
+        spanish_gap_reason_max_share,
+        sweet_spot,
+        categories_cfg,
+        saturation_cfg,
+        pocas_latinas_cfg,
     )
-    candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg)
+    candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg, pocas_latinas_cfg)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
@@ -1397,11 +1445,13 @@ async def run(args: argparse.Namespace) -> None:
                     cand["product_id"] in enriched_ids,
                     sweet_spot,
                     saturation_cfg,
+                    pocas_latinas_cfg,
                 ),
             )
         for cand in flagged:
             export.write_product(
-                cand["product_id"], product_detail_dict(cand, categories_cfg, False, False, sweet_spot, saturation_cfg)
+                cand["product_id"],
+                product_detail_dict(cand, categories_cfg, False, False, sweet_spot, saturation_cfg, pocas_latinas_cfg),
             )
         # Ledger rows for this run were already written as each one happened
         # (BudgetTracker.checkpoint, via the `conn` passed in above) -- no

@@ -5,8 +5,9 @@
   "clean_title": "youyou Krystal&cherry DTF Cup Wraps UVDTF",
   "image_url": "/img/product_1732619848784450333.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "PinkWhaleStore",
   "price": 1.3,
   "commission_rate": 0.01,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=youyou%20Krystal%26cherry%20DTF%20Cup%20Wraps%20UVDTF",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

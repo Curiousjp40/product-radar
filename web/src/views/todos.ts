@@ -27,6 +27,7 @@ function row(c: Candidate, lang: Lang): string {
         <div class="meta">
           $${c.price.toFixed(2)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${(c.commission_rate * 100).toFixed(0)}% &middot; ${categoryLabel(c, lang)}
           ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
+          ${c.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
         </div>
       </div>
       ${c.is_pick ? `<span class="star">&#9733;</span>` : ""}
@@ -53,7 +54,9 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
     { mode: "units", key: "sort_most_sold" },
     { mode: "commission", key: "sort_most_commission" },
     { mode: "earn", key: "sort_most_earnings" },
+    { mode: "per_hour", key: "sort_most_per_hour" },
     { mode: "entra_ya", key: "sort_entra_ya" },
+    { mode: "pocas_latinas", key: "sort_pocas_latinas" },
   ];
 
   const draw = () => {

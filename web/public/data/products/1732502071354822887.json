@@ -5,8 +5,9 @@
   "clean_title": "Handmade Crochet Flowers Bouquet Halloween Gift",
   "image_url": "/img/product_1732502071354822887.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "YouSeeCrochet",
   "price": 35.09,
   "commission_rate": 0.12,
@@ -154,7 +155,9 @@
   },
   "saturation_badge": {
     "level": "normal",
-    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

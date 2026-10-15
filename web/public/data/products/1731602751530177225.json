@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1731602751530177225",
-  "title": "Women‘s Off the Shoulder Long Sleeve Jumper & Pants, 2 Piece Set Two Pieces Outfits Fall Basic Sweatsuit Outfits, Jumper Suit, Womenswear, Sweatshirt, Clothes, Lady #GLOBAL PICKS",
-  "clean_title": "Women‘s Off the Shoulder Long Sleeve",
+  "title": "Women\u2018s Off the Shoulder Long Sleeve Jumper & Pants, 2 Piece Set Two Pieces Outfits Fall Basic Sweatsuit Outfits, Jumper Suit, Womenswear, Sweatshirt, Clothes, Lady #GLOBAL PICKS",
+  "clean_title": "Women\u2018s Off the Shoulder Long Sleeve",
   "image_url": "/img/product_1731602751530177225.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
+  "effort_minutes": 15,
   "shop_name": "Dynoppy",
   "price": 20.3,
   "commission_rate": 0.08,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%E2%80%98s%20Off%20the%20Shoulder%20Long%20Sleeve",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

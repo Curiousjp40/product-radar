@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "Dynoppy",
   "price": 27.8,
   "commission_rate": 0.08,
@@ -152,13 +153,15 @@
     },
     "top_hooks": [
       "Cute fall layering dress.",
-      "Ootd 🤎",
-      "Elegant mini dress good for fall & winter ❤️"
+      "Ootd \ud83e\udd0e",
+      "Elegant mini dress good for fall & winter \u2764\ufe0f"
     ]
   },
   "saturation_badge": {
     "level": "normal",
-    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

@@ -32,6 +32,7 @@ categories:
     pages: 3
     group: fashion
     price_group: fashion
+    effort_minutes: 15 # H3, added 2026-10-15: not measured, her own quick-change try-on estimate
   dresses:
     label_es: Vestidos
     label_en: Dresses
@@ -40,6 +41,7 @@ categories:
     pages: 3
     group: fashion
     price_group: fashion
+    effort_minutes: 15 # H3, added 2026-10-15
   sets:
     label_es: Conjuntos
     label_en: Sets
@@ -48,6 +50,7 @@ categories:
     pages: 3
     group: fashion
     price_group: fashion
+    effort_minutes: 15 # H3, added 2026-10-15
   furniture:
     label_es: Muebles
     label_en: Furniture
@@ -56,6 +59,7 @@ categories:
     pages: 3
     group: home
     price_group: furniture
+    effort_minutes: 40 # H3, added 2026-10-15: not measured -- staging/assembly makes this her slowest category
   home_decor:
     label_es: Decoración
     label_en: Home Decor
@@ -64,6 +68,7 @@ categories:
     pages: 3
     group: home
     price_group: home
+    effort_minutes: 30 # H3, added 2026-10-15
 
   winter_clothing:
     label_es: Ropa de invierno
@@ -73,6 +78,7 @@ categories:
     pages: 2
     group: fashion
     price_group: fashion
+    effort_minutes: 15 # H3, added 2026-10-15
   shoes:
     label_es: Zapatos
     label_en: Shoes
@@ -81,6 +87,7 @@ categories:
     pages: 2
     group: fashion
     price_group: fashion
+    effort_minutes: 15 # H3, added 2026-10-15
   pet_furniture:
     label_es: Mascotas
     label_en: Pet Furniture
@@ -89,6 +96,7 @@ categories:
     pages: 2
     group: home
     price_group: home
+    effort_minutes: 25 # H3, added 2026-10-15: not measured -- pets make timing unpredictable
   home_storage:
     label_es: Organización
     label_en: Home Storage
@@ -97,6 +105,7 @@ categories:
     pages: 2
     group: home
     price_group: home
+    effort_minutes: 30 # H3, added 2026-10-15
 
   costumes:
     label_es: Disfraces
@@ -107,6 +116,7 @@ categories:
     group: fashion
     price_group: fashion
     scan_end: "2026-10-31" # Halloween -- no scan_start, so "any time up to this date"
+    effort_minutes: 20 # H3, added 2026-10-15
   pajamas:
     label_es: Pijamas
     label_en: Pajamas
@@ -117,6 +127,7 @@ categories:
     price_group: fashion
     scan_start: "2026-11-01"
     scan_end: "2026-12-20"
+    effort_minutes: 15 # H3, added 2026-10-15
   activewear:
     label_es: Fitness
     label_en: Activewear
@@ -127,6 +138,7 @@ categories:
     price_group: fashion
     scan_start: "2026-12-15"
     scan_end: "2027-02-28"
+    effort_minutes: 15 # H3, added 2026-10-15
 
   # Kept for seasons.yaml's event-category matching and historical/prior
   # data (creators.yaml) -- "seasonal"/"other" are not real FastMoss

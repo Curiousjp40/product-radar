@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "product_id": "1731704190200550034",
-  "title": "Bedsure Self-Heating Pet Bed Mat，Ultra Soft Corduroy Thermal Bed for Dogs & Cats, No Electric Heat Safe Warm Pad for Winter Cold Weather,Machine Washable",
-  "clean_title": "Bedsure Self-Heating Pet Bed Mat，Ultra Soft",
+  "title": "Bedsure Self-Heating Pet Bed Mat\uff0cUltra Soft Corduroy Thermal Bed for Dogs & Cats, No Electric Heat Safe Warm Pad for Winter Cold Weather,Machine Washable",
+  "clean_title": "Bedsure Self-Heating Pet Bed Mat\uff0cUltra Soft",
   "image_url": "/img/product_1731704190200550034.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
+  "effort_minutes": 25,
   "shop_name": "Lesure Pet",
   "price": 25.99,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Bedsure%20Self-Heating%20Pet%20Bed%20Mat%EF%BC%8CUltra%20Soft",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

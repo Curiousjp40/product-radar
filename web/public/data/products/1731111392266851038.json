@@ -7,6 +7,7 @@
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
+  "effort_minutes": 20,
   "shop_name": "Leg Avenue",
   "price": 38.34,
   "commission_rate": 0.1,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Leg%20Avenue%20Iridescent%20Strapless%20Fairy%20Wings",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }

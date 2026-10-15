@@ -7,6 +7,7 @@
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
+  "effort_minutes": 15,
   "shop_name": "Dynoppy",
   "price": 32.39,
   "commission_rate": 0.08,
@@ -151,13 +152,15 @@
       "hour_end": 2
     },
     "top_hooks": [
-      "Pumpkin patch days 🎃",
+      "Pumpkin patch days \ud83c\udf83",
       "fall ootd inspo!"
     ]
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Las ventas no están creciendo y ya hay varias creadoras vendiéndolo.",
+    "reason_es": "Las ventas no est\u00e1n creciendo y ya hay varias creadoras vendi\u00e9ndolo.",
     "reason_en": "Sales aren't growing and several creators are already selling it."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

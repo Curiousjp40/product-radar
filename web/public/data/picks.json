@@ -34,7 +34,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729593807999832237",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 40,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 2,
@@ -154,7 +157,10 @@
           "STOPPP because this might be the cutest Halloween outfit I’ve found 🎃✨ Halloween costume = SECURED 🙌🏼 The sequins, the pumpkin, the quality… SO good 😍 This is one of those finds that looks even cuter in person."
         ]
       },
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 20,
+      "spanish_share": 0.0,
+      "pocas_creadoras_latinas": true
     },
     {
       "slot": 3,
@@ -187,7 +193,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731906940791328925",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 40,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 4,
@@ -220,7 +229,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732523300086256574",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 15,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 5,
@@ -253,7 +265,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729565286645600783",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 40,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 6,
@@ -286,7 +301,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730843879700075109",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 15,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 7,
@@ -319,7 +337,10 @@
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729448905888993450",
       "formula_ganadora": null,
-      "saturation_badge": null
+      "saturation_badge": null,
+      "effort_minutes": 15,
+      "spanish_share": null,
+      "pocas_creadoras_latinas": false
     },
     {
       "slot": 8,
@@ -427,7 +448,10 @@
         "level": "normal",
         "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
         "reason_en": "A normal level of competition -- not crowded, not wide open either."
-      }
+      },
+      "effort_minutes": 15,
+      "spanish_share": 0.0,
+      "pocas_creadoras_latinas": true
     },
     {
       "slot": 9,
@@ -551,7 +575,10 @@
         "level": "muy_lleno",
         "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
         "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-      }
+      },
+      "effort_minutes": 30,
+      "spanish_share": 0.0,
+      "pocas_creadoras_latinas": true
     }
   ]
 }

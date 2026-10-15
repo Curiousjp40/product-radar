@@ -5,8 +5,9 @@
   "clean_title": "Vtopmart 1/2/4 Pack 24QT Clear Craft",
   "image_url": "/img/product_1731671149295211078.jpg",
   "category": "home_storage",
-  "category_label_es": "Organización",
+  "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
+  "effort_minutes": 30,
   "shop_name": "Vtopmart",
   "price": 30.99,
   "commission_rate": 0.1,
@@ -151,14 +152,16 @@
       "hour_end": 20
     },
     "top_hooks": [
-      "Needed this 😩🙌🏾",
+      "Needed this \ud83d\ude29\ud83d\ude4c\ud83c\udffe",
       "This was genius",
       "Kids activity storage bin"
     ]
   },
   "saturation_badge": {
     "level": "muy_lleno",
-    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

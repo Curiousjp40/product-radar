@@ -7,6 +7,7 @@
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
+  "effort_minutes": 15,
   "shop_name": "Comfrt",
   "price": 49.0,
   "commission_rate": 0.1,
@@ -142,7 +143,9 @@
   },
   "saturation_badge": {
     "level": "normal",
-    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
-  }
+  },
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true
 }

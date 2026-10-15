@@ -5,8 +5,9 @@
   "clean_title": "Titans Super cute and adorable handmade",
   "image_url": "/img/product_1732441520705934109.webp",
   "category": "home_decor",
-  "category_label_es": "Decoración",
+  "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
+  "effort_minutes": 30,
   "shop_name": "PinkWhaleStore",
   "price": 1.0,
   "commission_rate": 0.01,
@@ -21,5 +22,7 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Titans%20Super%20cute%20and%20adorable%20handmade",
   "videos": [],
   "formula_ganadora": null,
-  "saturation_badge": null
+  "saturation_badge": null,
+  "spanish_share": null,
+  "pocas_creadoras_latinas": false
 }
