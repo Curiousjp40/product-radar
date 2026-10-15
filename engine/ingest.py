@@ -46,13 +46,18 @@ async def fetch_top_selling(
     week: str,
     date_value: str,
     region: str = "US",
+    page: int = 1,
     pagesize: int = 10,
 ) -> dict:
+    """Ranked by units sold this period, not GMV (changed 2026-10-18 for the
+    "top 50 by units sold" full list) -- `pagesize` is capped at 10 by the
+    tool itself, so getting 50 needs 5 separate paged calls (1 credit each)."""
     return await client.call(
         "product_rank_top_selling",
         {
             "filter": {"category_id": category_id, "date_type": "week", "date_value": date_value, "region": region},
-            "orderby": [{"field": "period_gmv", "order": "desc"}],
+            "orderby": [{"field": "period_units_sold", "order": "desc"}],
+            "page": page,
             "pagesize": pagesize,
         },
     )

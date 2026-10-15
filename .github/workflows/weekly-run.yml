@@ -30,7 +30,7 @@ jobs:
       - name: Run the real weekly pipeline
         env:
           FASTMOSS_API_KEY: ${{ secrets.FASTMOSS_API_KEY }}
-        run: python -m engine.run --budget 60 --print-picks
+        run: python -m engine.run --budget 90 --print-picks
 
       - name: Commit updated data
         run: |

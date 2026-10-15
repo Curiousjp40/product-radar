@@ -62,6 +62,17 @@ def target_category_boost(category: str, target_categories: list[str], boost: fl
     return boost if category in target_categories else 0.0
 
 
+def price_sweet_spot_for_category(category_meta: dict, sweet_spots_by_group: dict[str, list[float]]) -> tuple[float, float]:
+    """Which price_fit sweet spot a category uses (config/categories.yaml's
+    price_sweet_spot_usd, keyed by price_group) -- added 2026-10-18 when
+    furniture joined the target list: a single global range can't fit both a
+    $300 bed and a $40 dress. Falls back to "fashion" (the most common
+    group) for a category with no price_group set, rather than raising."""
+    price_group = category_meta.get("price_group", "fashion")
+    lo, hi = sweet_spots_by_group.get(price_group, sweet_spots_by_group.get("fashion", [15, 80]))
+    return (lo, hi)
+
+
 def creator_avg_category_gpm(category_gpm: dict[str, float], category_views: dict[str, float]) -> float:
     """Her own views-weighted average GMV-per-1,000-views across categories
     (config/creators.yaml's `category_gpm_per_1k_views` and `category_views`),

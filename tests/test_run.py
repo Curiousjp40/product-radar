@@ -5,13 +5,11 @@ import pandas as pd
 
 from engine.config import load_all
 from engine.run import (
-    REAL_CATEGORY_QUERIES,
     _creator_stats,
+    active_categories,
     assemble_picks,
     build_reasons,
     candidates_to_export_dicts,
-    ingest_from_snapshots,
-    partition_suspicious,
     product_detail_dict,
     score_pool,
 )
@@ -129,16 +127,54 @@ def test_assemble_picks_category_cap_counts_explore_too():
     assert all(p["kind"] == "core" for p in picks)
 
 
+def _full_candidate(product_id: str, title: str, config_category: str = "womens_clothing", **overrides) -> dict:
+    """A candidate dict with every field score_pool/ingest_from_snapshots
+    produce -- for synthetic score_pool tests that don't want to depend on
+    committed real snapshot files (which the 2026-10-18 top-50-by-units-sold
+    rewrite made this test's old 2026-W42 snapshots structurally obsolete:
+    they were single-page, pre-pagination)."""
+    base = {
+        "product_id": product_id,
+        "config_category": config_category,
+        "category_l1": "Womenswear & Underwear",
+        "category_l2": None,
+        "category_l3": None,
+        "title": title,
+        "image_url": None,
+        "shop_id": f"shop-{product_id}",
+        "shop_name": "Shop",
+        "price": 40.0,
+        "commission_rate": 0.15,
+        "units_7d": 100,
+        "gmv_7d": 4000.0,
+        "units_total": 1000,
+        "growth_rate": 0.1,
+        "rank": 1,
+        "delisted": False,
+        "creator_count": 10,
+        "video_count": 20,
+        "ads_share_pct": None,
+        "channel_breakdown": None,
+        "spanish_share": None,
+        "videos": None,
+        "daily_units_14": None,
+    }
+    base.update(overrides)
+    return base
+
+
 def test_score_pool_cowboy_costume_matches_halloween_not_black_friday():
-    # the real case this guards against: "Play Along Cowboy Costume" is
-    # category-tagged "womens_clothing" by FastMoss, which also matches
-    # bfcm_2026's broad category list -- Black Friday's boost used to win
-    # the scoring comparison and label it "Black Friday in 49 days." Title
-    # keywords ("costume") must identify it as Halloween instead, for both
-    # the matched event and the reason's day count.
+    # the real case this guards against: a costume product is category-
+    # tagged "womens_clothing" by FastMoss, which also matches bfcm_2026's
+    # broad category list -- Black Friday's boost used to win the scoring
+    # comparison and label it "Black Friday in 49 days." Title keywords
+    # ("costume") must identify it as Halloween instead, for both the
+    # matched event and the reason's day count.
     config = load_all()
-    pool = ingest_from_snapshots("2026-W42", list(REAL_CATEGORY_QUERIES))
-    pool, _ = partition_suspicious(pool, config["weights"])
+    pool = [
+        _full_candidate("1", "Play Along Cowboy Costume", config_category="dresses"),
+        _full_candidate("2", "Caramela Beauty Oil", config_category="home_decor"),  # not a costume -> unaffected
+    ]
     creator_stats = _creator_stats(config)
     today = date(2026, 10, 14)
     df = score_pool(pool, config, creator_stats, today)
@@ -146,6 +182,9 @@ def test_score_pool_cowboy_costume_matches_halloween_not_black_friday():
     row = df[df["title"] == "Play Along Cowboy Costume"].iloc[0]
     assert row["matched_event_id"] == "halloween_2026"
     assert row["days_to_event_end"] == 17  # 2026-10-31 (Halloween) - 2026-10-14
+
+    other = df[df["title"] == "Caramela Beauty Oil"].iloc[0]
+    assert other["matched_event_id"] == "bfcm_2026"  # a real (non-costume) candidate still gets the Black Friday boost
 
 
 def _candidate_row(product_id, **overrides):
@@ -197,3 +236,66 @@ def test_product_detail_dict_nan_daily_units_becomes_empty_list():
     detail = product_detail_dict(pick)
     assert detail["daily_units_14"] == []
     json.dumps(detail, allow_nan=False)
+
+
+_CATEGORIES_CFG = load_all()["categories"]["categories"]
+
+
+def test_active_categories_always_includes_core_and_secondary():
+    # 2027-03-15: past every seasonal category's one-time scan_end (this
+    # config is "re-edit each year" by design, like config/seasons.yaml) --
+    # costumes has no scan_start at all ("until Oct 31" with no stated
+    # start), so this is the only reliable way to get a date where none of
+    # the three seasonal categories are in-window.
+    active = active_categories(_CATEGORIES_CFG, date(2027, 3, 15))
+    assert set(active) == {
+        "shapewear",
+        "dresses",
+        "sets",
+        "furniture",
+        "home_decor",
+        "winter_clothing",
+        "shoes",
+        "pet_furniture",
+        "home_storage",
+    }
+
+
+def test_active_categories_costumes_only_until_halloween():
+    assert "costumes" in active_categories(_CATEGORIES_CFG, date(2026, 10, 31))
+    assert "costumes" not in active_categories(_CATEGORIES_CFG, date(2026, 11, 1))
+
+
+def test_active_categories_pajamas_window():
+    assert "pajamas" not in active_categories(_CATEGORIES_CFG, date(2026, 10, 31))
+    assert "pajamas" in active_categories(_CATEGORIES_CFG, date(2026, 11, 1))
+    assert "pajamas" in active_categories(_CATEGORIES_CFG, date(2026, 12, 20))
+    assert "pajamas" not in active_categories(_CATEGORIES_CFG, date(2026, 12, 21))
+
+
+def test_active_categories_activewear_window_and_pajamas_overlap():
+    # 2026-12-15..20 both pajamas and activewear are in-window at once
+    active_mid_dec = active_categories(_CATEGORIES_CFG, date(2026, 12, 18))
+    assert "pajamas" in active_mid_dec
+    assert "activewear" in active_mid_dec
+    assert "activewear" in active_categories(_CATEGORIES_CFG, date(2027, 2, 28))
+    assert "activewear" not in active_categories(_CATEGORIES_CFG, date(2027, 3, 1))
+
+
+def test_active_categories_never_includes_bucket_or_unscanned_entries():
+    active = active_categories(_CATEGORIES_CFG, date(2027, 3, 15))
+    assert "seasonal" not in active
+    assert "other" not in active
+    assert "beauty_hair" not in active
+
+
+def test_score_pool_uses_furniture_price_group_not_fashion():
+    # the real case this guards against: once furniture joined the target
+    # list (2026-10-18), a single global $25-55 sweet spot would score a
+    # real $300 bed as a wild outlier -- it must use furniture's $40-400
+    # range instead. A crash or a NaN fit_raw would both be real bugs here.
+    config = load_all()
+    pool = [_full_candidate("1", "Wooden Bed Frame Queen Size", config_category="furniture", price=300.0)]
+    creator_stats = _creator_stats(config)
+    df = score_pool(pool, config, creator_stats, date(2026, 10, 14))
+    assert pd.notna(df.iloc[0]["z_fit"])

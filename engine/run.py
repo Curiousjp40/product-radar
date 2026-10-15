@@ -31,7 +31,7 @@ from engine.budget import (
 from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
 from engine.db import connect
-from engine.features import acceleration, demand, lead_raw, momentum, momentum_multiplier, slope_log1p, wow
+from engine.features import acceleration, demand, momentum, momentum_multiplier, slope_log1p, wow
 from engine.fit import (
     audience_fit,
     blended_price_fit,
@@ -40,12 +40,12 @@ from engine.fit import (
     demographic_fit_heuristic,
     fit_score,
     normalize_priors,
+    price_sweet_spot_for_category,
     target_category_boost,
 )
 from engine.images import cache_image
 from engine.ingest import (
     fetch_daily_trend,
-    fetch_overview,
     fetch_product_videos,
     fetch_top_selling,
     load_raw_snapshot,
@@ -55,8 +55,6 @@ from engine.ingest import (
 from engine.insights import summarize_creator
 from engine.language import spanish_share
 from engine.normalize import (
-    ads_share_pct_from_overview,
-    lead_counts_from_overview,
     normalize_rank_row,
     trend_period_summary,
     video_cards_from_product_video_list,
@@ -105,15 +103,36 @@ FASTMOSS_PRODUCT_URL_TEMPLATE = "https://www.fastmoss.com/e-commerce/detail/{pro
 
 # Dry-run only has Phase 0's real fixtures for one category (shapewear) -- it
 # proves the pipeline wiring works end to end on real-shaped data at zero
-# credits, not a realistic multi-category simulation. The real run spans the
-# full target-category list below.
-REAL_CATEGORY_QUERIES = {
-    "shapewear": "shapewear",
-    "womens_clothing": "women's clothing",
-    "home_decor": "home decor",
-    "beauty_hair": "beauty",
-}
-DRY_RUN_CATEGORY_QUERIES = {"shapewear": "shapewear"}
+# credits, not a realistic multi-category simulation. The real run spans
+# whichever categories.yaml categories are active() for `today` (below).
+DRY_RUN_CATEGORY_KEYS = ["shapewear"]
+# SHORTLIST_SIZE candidates (by preliminary score, before trend/video
+# enrichment) get the expensive per-product calls. A full real run (12
+# categories: 5 core x 3 pages + 4 secondary x 2 pages + up to 2 seasonal x 2
+# pages in-window = 23-27 credits for the full list) + 15 x (trend + video)
+# = 53-57 credits, comfortably under the ~70 target and the 90-credit hard
+# cap (config/weights.yaml), restructured 2026-10-18 for Roxie's 12-category
+# home+fashion target list.
+SHORTLIST_SIZE = 15
+
+
+def active_categories(categories_cfg: dict, today: date) -> dict[str, dict]:
+    """Which config/categories.yaml categories to scan THIS run: every
+    "core"/"secondary" tier category, plus any "seasonal" one whose
+    [scan_start, scan_end] window includes `today` (e.g. costumes only
+    until Halloween). Distinct from config/seasons.yaml's event calendar,
+    which scores a boost and doesn't control what gets fetched at all."""
+    active: dict[str, dict] = {}
+    for key, meta in categories_cfg.items():
+        tier = meta.get("tier")
+        if tier in ("core", "secondary"):
+            active[key] = meta
+        elif tier == "seasonal":
+            scan_start = date.fromisoformat(meta["scan_start"]) if meta.get("scan_start") else date.min
+            scan_end = date.fromisoformat(meta["scan_end"]) if meta.get("scan_end") else date.max
+            if scan_start <= today <= scan_end:
+                active[key] = meta
+    return active
 
 DRY_RUN_FIXTURES = {
     "credit_usage_summary": "fastmoss_credit_usage_summary.json",
@@ -141,20 +160,24 @@ def last_completed_week_value(today: date) -> str:
 # ---------------------------------------------------------------------------
 
 
-async def ingest(client, config: dict, week: str, date_value: str, tracker: BudgetTracker, is_dry_run: bool) -> list[dict]:
-    queries = DRY_RUN_CATEGORY_QUERIES if is_dry_run else REAL_CATEGORY_QUERIES
-    pinned = {
-        key: meta["fastmoss_category_id"]
-        for key, meta in config["categories"]["categories"].items()
-        if "fastmoss_category_id" in meta
-    }
-    # Only live-resolve categories without a confirmed pinned ID -- live fuzzy
-    # search proved unreliable for ambiguous terms (see categories.yaml's
-    # comments: "shapewear"/"women's clothing" alone resolved to bras and
-    # Halloween costumes respectively in testing). free (0 credits) either way.
-    unpinned_queries = {k: v for k, v in queries.items() if k not in pinned}
-    resolved = await resolve_category_ids(client, unpinned_queries) if unpinned_queries else {}
-    category_ids = {**{k: v for k, v in pinned.items() if k in queries}, **{
+async def ingest(
+    client, config: dict, week: str, date_value: str, today: date, tracker: BudgetTracker, is_dry_run: bool
+) -> list[dict]:
+    if is_dry_run:
+        category_meta = {k: config["categories"]["categories"][k] for k in DRY_RUN_CATEGORY_KEYS}
+    else:
+        category_meta = active_categories(config["categories"]["categories"], today)
+
+    pinned = {key: meta["fastmoss_category_id"] for key, meta in category_meta.items() if "fastmoss_category_id" in meta}
+    # Only live-resolve a category without a confirmed pinned ID -- every
+    # real category is pinned as of 2026-10-18's rework, so this is now a
+    # dormant fallback, not the normal path. Live fuzzy search proved
+    # unreliable for ambiguous terms (see categories.yaml's comments:
+    # "shapewear"/"women's clothing" alone resolved to bras and Halloween
+    # costumes respectively in testing). Free (0 credits) either way.
+    unpinned = {k: meta["label_en"] for k, meta in category_meta.items() if k not in pinned}
+    resolved = await resolve_category_ids(client, unpinned) if unpinned else {}
+    category_ids = {**pinned, **{
         k: (cat.get("category_id_level2") or cat.get("category_id_level3") or cat.get("category_id_level1"))
         for k, cat in resolved.items()
     }}
@@ -166,100 +189,51 @@ async def ingest(client, config: dict, week: str, date_value: str, tracker: Budg
         # "snapshot" would just be redundant copies of tests/fixtures/ content.
         return None if is_dry_run else save_raw_snapshot(week, name, payload)
 
+    # Full list (changed 2026-10-18): top 30/20 by UNITS SOLD per category
+    # (3 or 2 paged calls x 10/page per categories.yaml's `pages`, 1 credit
+    # each -- pagesize is capped at 10 by the tool) instead of a single page
+    # trimmed to the top 3 by GMV. The suspicious-listing filter runs on
+    # this whole list (see partition_suspicious in run()), and it's also the
+    # "Todos" page's full data, not just a scoring input -- both need real
+    # category-wide coverage, not a sliver.
     candidates: list[dict] = []
     for key, category_id in category_ids.items():
-        raw = await fetch_top_selling(client, category_id, week=week, date_value=date_value)
-        raw_ref = maybe_save_snapshot(f"top_selling_{key}", raw)
-        for i, row in enumerate(raw.get("list", []), start=1):
-            product, snapshot = normalize_rank_row(row, week=week, rank=i, raw_ref=raw_ref)
-            candidates.append(
-                {
-                    "product_id": product.product_id,
-                    "config_category": key,
-                    "category_l1": product.category_l1,
-                    "category_l2": product.category_l2,
-                    "category_l3": row.get("category", {}).get("l3", {}).get("name"),
-                    "title": product.title,
-                    "image_url": product.image_url,
-                    "shop_id": product.shop_id,
-                    "shop_name": product.shop_name,
-                    "price": snapshot.price,
-                    "commission_rate": snapshot.commission_rate,
-                    "units_7d": snapshot.units_7d or 0,
-                    "gmv_7d": snapshot.gmv_7d or 0.0,
-                    "units_total": snapshot.units_total or 0,
-                    "growth_rate": snapshot.growth_rate or 0.0,
-                    "rank": snapshot.rank,
-                    "delisted": product.delisted,
-                    "creator_count": None,
-                    "video_count": None,
-                    "ads_share_pct": None,
-                    "channel_breakdown": None,
-                    "spanish_share": None,
-                    "videos": None,
-                }
-            )
-        balance = await check_balance(client)
-        tracker.checkpoint("rankings", balance, note=f"category {key}")
+        pages = 1 if is_dry_run else category_meta[key]["pages"]
+        for page in range(1, pages + 1):
+            raw = await fetch_top_selling(client, category_id, week=week, date_value=date_value, page=page)
+            raw_ref = maybe_save_snapshot(f"top_selling_{key}_p{page}", raw)
+            for i, row in enumerate(raw.get("list", []), start=(page - 1) * 10 + 1):
+                product, snapshot = normalize_rank_row(row, week=week, rank=i, raw_ref=raw_ref)
+                candidates.append(
+                    {
+                        "product_id": product.product_id,
+                        "config_category": key,
+                        "category_l1": product.category_l1,
+                        "category_l2": product.category_l2,
+                        "category_l3": row.get("category", {}).get("l3", {}).get("name"),
+                        "title": product.title,
+                        "image_url": product.image_url,
+                        "shop_id": product.shop_id,
+                        "shop_name": product.shop_name,
+                        "price": snapshot.price,
+                        "commission_rate": snapshot.commission_rate,
+                        "units_7d": snapshot.units_7d or 0,
+                        "gmv_7d": snapshot.gmv_7d or 0.0,
+                        "units_total": snapshot.units_total or 0,
+                        "growth_rate": snapshot.growth_rate or 0.0,
+                        "rank": snapshot.rank,
+                        "delisted": product.delisted,
+                        "creator_count": None,
+                        "video_count": None,
+                        "ads_share_pct": None,
+                        "channel_breakdown": None,
+                        "spanish_share": None,
+                        "videos": None,
+                    }
+                )
+            balance = await check_balance(client)
+            tracker.checkpoint("rankings", balance, note=f"category {key} page {page}/{pages}")
     candidates = [c for c in candidates if not c["delisted"]]
-
-    # Pool: top 3 by GMV from EACH category get deeper (trend) analysis, not
-    # a single global top-12 -- a global GMV ranking let shapewear/beauty_hair
-    # (higher absolute GMV this week) crowd out home_decor/womens_clothing
-    # entirely in testing, defeating the point of tracking multiple categories.
-    pool = []
-    for key in category_ids:
-        same_category = sorted(
-            (c for c in candidates if c["config_category"] == key), key=lambda c: c["gmv_7d"], reverse=True
-        )
-        pool.extend(same_category[:3])
-
-    # Balance is checked after EVERY call in these loops (free) rather than
-    # once per stage, so `would_exceed` reflects what's actually been spent
-    # so far in the loop, not a stale pre-loop total.
-    trends_fetched = 0
-    for cand in pool:
-        if tracker.would_exceed(3):
-            break
-        try:
-            trend_raw = await fetch_daily_trend(client, cand["product_id"])
-            maybe_save_snapshot(f"trend_{cand['product_id']}", trend_raw)
-            days = trend_raw.get("daily_trend", [])
-            cand["daily_units_14"] = [d["daily_units_sold"] for d in days[-14:]] if len(days) >= 14 else None
-            summary = trend_period_summary(trend_raw)
-            cand["creator_count"] = summary.get("linked_creator_count")
-            cand["video_count"] = summary.get("linked_video_count")
-        except FastMossError:
-            cand["daily_units_14"] = None
-        trends_fetched += 1
-        balance = await check_balance(client)
-        tracker.checkpoint("trends", balance, note=f"product {trends_fetched}/{len(pool)}")
-
-    # Overview (ads-share + channel-split risk inputs, leading-indicator input):
-    # the top 1 per category (expensive, 3-credit tier; tightened from top-2
-    # to keep a full real run around 50 credits, under the 60-credit target).
-    overview_pool = []
-    for key in category_ids:
-        overview_pool.extend([c for c in pool if c["config_category"] == key][:1])
-    overviews_fetched = 0
-    for cand in overview_pool:
-        if tracker.would_exceed(3):
-            break
-        try:
-            overview_raw = await fetch_overview(client, cand["product_id"])
-            maybe_save_snapshot(f"overview_{cand['product_id']}", overview_raw)
-            cand["ads_share_pct"] = ads_share_pct_from_overview(overview_raw)
-            cand["channel_breakdown"] = overview_raw.get("channel_distribution", {}).get("breakdown")
-            lead_counts = lead_counts_from_overview(overview_raw)
-            if lead_counts:
-                c7, p7, v7, vp7 = lead_counts
-                cand["lead_signal"] = lead_raw(c7, p7, v7, vp7)
-        except FastMossError:
-            pass
-        overviews_fetched += 1
-        balance = await check_balance(client)
-        tracker.checkpoint("overview", balance, note=f"product {overviews_fetched}/{len(overview_pool)}")
-
     return candidates
 
 
@@ -269,41 +243,43 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
     from a crash after a real (paid) ingest already ran; also handy for
     replaying a past week's real data through a fixed/changed scoring
     pipeline without re-spending credits on ingestion."""
+    max_pages = 3  # core tier's page count (config/categories.yaml) -- the highest any category uses
     candidates: list[dict] = []
     for key in category_keys:
-        raw = load_raw_snapshot(week, f"top_selling_{key}")
-        if raw is None:
-            continue
-        raw_ref = f"data/snapshots/{week}/top_selling_{key}.json"
-        for i, row in enumerate(raw.get("list", []), start=1):
-            product, snapshot = normalize_rank_row(row, week=week, rank=i, raw_ref=raw_ref)
-            candidates.append(
-                {
-                    "product_id": product.product_id,
-                    "config_category": key,
-                    "category_l1": product.category_l1,
-                    "category_l2": product.category_l2,
-                    "category_l3": row.get("category", {}).get("l3", {}).get("name"),
-                    "title": product.title,
-                    "image_url": product.image_url,
-                    "shop_id": product.shop_id,
-                    "shop_name": product.shop_name,
-                    "price": snapshot.price,
-                    "commission_rate": snapshot.commission_rate,
-                    "units_7d": snapshot.units_7d or 0,
-                    "gmv_7d": snapshot.gmv_7d or 0.0,
-                    "units_total": snapshot.units_total or 0,
-                    "growth_rate": snapshot.growth_rate or 0.0,
-                    "rank": snapshot.rank,
-                    "delisted": product.delisted,
-                    "creator_count": None,
-                    "video_count": None,
-                    "ads_share_pct": None,
-                    "channel_breakdown": None,
-                    "spanish_share": None,
-                    "videos": None,
-                }
-            )
+        for page in range(1, max_pages + 1):
+            raw = load_raw_snapshot(week, f"top_selling_{key}_p{page}")
+            if raw is None:
+                break  # pages are saved in order -- a gap means we never fetched further (or this category uses fewer)
+            raw_ref = f"data/snapshots/{week}/top_selling_{key}_p{page}.json"
+            for i, row in enumerate(raw.get("list", []), start=(page - 1) * 10 + 1):
+                product, snapshot = normalize_rank_row(row, week=week, rank=i, raw_ref=raw_ref)
+                candidates.append(
+                    {
+                        "product_id": product.product_id,
+                        "config_category": key,
+                        "category_l1": product.category_l1,
+                        "category_l2": product.category_l2,
+                        "category_l3": row.get("category", {}).get("l3", {}).get("name"),
+                        "title": product.title,
+                        "image_url": product.image_url,
+                        "shop_id": product.shop_id,
+                        "shop_name": product.shop_name,
+                        "price": snapshot.price,
+                        "commission_rate": snapshot.commission_rate,
+                        "units_7d": snapshot.units_7d or 0,
+                        "gmv_7d": snapshot.gmv_7d or 0.0,
+                        "units_total": snapshot.units_total or 0,
+                        "growth_rate": snapshot.growth_rate or 0.0,
+                        "rank": snapshot.rank,
+                        "delisted": product.delisted,
+                        "creator_count": None,
+                        "video_count": None,
+                        "ads_share_pct": None,
+                        "channel_breakdown": None,
+                        "spanish_share": None,
+                        "videos": None,
+                    }
+                )
     candidates = [c for c in candidates if not c["delisted"]]
 
     for cand in candidates:
@@ -315,19 +291,10 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
             cand["creator_count"] = summary.get("linked_creator_count")
             cand["video_count"] = summary.get("linked_video_count")
 
-        overview_raw = load_raw_snapshot(week, f"overview_{cand['product_id']}")
-        if overview_raw is not None:
-            cand["ads_share_pct"] = ads_share_pct_from_overview(overview_raw)
-            cand["channel_breakdown"] = overview_raw.get("channel_distribution", {}).get("breakdown")
-            lead_counts = lead_counts_from_overview(overview_raw)
-            if lead_counts:
-                c7, p7, v7, vp7 = lead_counts
-                cand["lead_signal"] = lead_raw(c7, p7, v7, vp7)
-
         # 2026-10-15/16: reuse a previously-saved videos_<id>.json snapshot
-        # (written by enrich_spanish_gap on an earlier real run) so a pure
+        # (written by enrich_shortlist on an earlier real run) so a pure
         # re-score from snapshots doesn't need to re-fetch -- see
-        # enrich_spanish_gap's cache check below, which skips any candidate
+        # enrich_shortlist's cache check below, which skips any candidate
         # that already has `videos` set here. Sourced from product_video_list
         # (filtered by product_id), not video_search's free-text keyword
         # match, which returned videos unrelated to the product.
@@ -342,19 +309,36 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
     return candidates
 
 
-async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
-    """section 6.8: Spanish-gap signal + "videos selling this product"
-    cards, only for the preliminary top ~10 candidates (budget). Skips any
-    candidate that already has `videos` set (added 2026-10-15:
-    ingest_from_snapshots reuses a prior run's saved videos_<id>.json, so a
-    re-score from snapshots only pays for candidates newly in the
-    shortlist)."""
+async def enrich_shortlist(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
+    """Trend (14-day chart + creator/video counts, section 6.2/6.3/6.5) and
+    video cards + Spanish-gap signal (section 6.8), for the preliminary top
+    `SHORTLIST_SIZE` candidates by score only (budget) -- renamed from
+    enrich_spanish_gap 2026-10-18 when trend-fetching moved here too (it used
+    to run on a separate "top 3 per category" pool inside ingest(), which no
+    longer exists now that the full list isn't trimmed before scoring).
+    Skips any candidate that already has this data set (resume-from-
+    snapshots reuse)."""
     fetched = 0
     for cand in shortlist:
-        if cand.get("videos") is not None:
-            continue
-        if tracker.would_exceed(1):
+        if tracker.would_exceed(2):
             break
+        if cand.get("daily_units_14") is None:
+            try:
+                trend_raw = await fetch_daily_trend(client, cand["product_id"])
+                save_raw_snapshot(week, f"trend_{cand['product_id']}", trend_raw)
+                days = trend_raw.get("daily_trend", [])
+                cand["daily_units_14"] = [d["daily_units_sold"] for d in days[-14:]] if len(days) >= 14 else None
+                summary = trend_period_summary(trend_raw)
+                cand["creator_count"] = summary.get("linked_creator_count")
+                cand["video_count"] = summary.get("linked_video_count")
+            except FastMossError:
+                pass
+            balance = await check_balance(client)
+            tracker.checkpoint("trend", balance, note=f"product {fetched + 1}/{len(shortlist)}")
+
+        if cand.get("videos") is not None:
+            fetched += 1
+            continue
         try:
             raw = await fetch_product_videos(client, cand["product_id"])
             save_raw_snapshot(week, f"videos_{cand['product_id']}", raw)
@@ -367,7 +351,7 @@ async def enrich_spanish_gap(client, shortlist: list[dict], week: str, tracker: 
             pass
         fetched += 1
         balance = await check_balance(client)
-        tracker.checkpoint("spanish_gap", balance, note=f"candidate {fetched}/{len(shortlist)}")
+        tracker.checkpoint("videos", balance, note=f"candidate {fetched}/{len(shortlist)}")
 
 
 def partition_suspicious(candidates: list[dict], weights: dict) -> tuple[list[dict], list[dict]]:
@@ -452,6 +436,13 @@ def _category_priors(config: dict) -> dict[str, float]:
     creators_cfg = config["creators"][CREATOR]
     pooled = config["creators"]["pooled_category_gpm_per_1k_views"]
     weights_cfg = config["weights"]["fit"]
+    # Every real category (any with a fastmoss_category_id -- core, secondary,
+    # AND seasonal, whether or not it's active() this week), not just this
+    # week's active set: normalize_priors min-max-scales across whatever's
+    # passed in, so if the category set shifted week to week with the
+    # seasonal rotation, every score would shift with it even with no real
+    # change in her performance. Historical views/gpm are static regardless.
+    all_real_categories = [k for k, m in config["categories"]["categories"].items() if "fastmoss_category_id" in m]
     raw = {
         cat: category_prior_raw(
             views_c=creators_cfg["category_views"].get(cat, 0),
@@ -459,7 +450,7 @@ def _category_priors(config: dict) -> dict[str, float]:
             pooled_gpm_c=pooled.get(cat, 0),
             k=weights_cfg["shrink_k_views"],
         )
-        for cat in REAL_CATEGORY_QUERIES
+        for cat in all_real_categories
     }
     return normalize_priors(raw)
 
@@ -484,11 +475,16 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
 
         earnings = earnings_per_sale(c["price"], c["commission_rate"])
 
+        # Per price_group sweet spot (fashion/furniture/home -- added
+        # 2026-10-18, replacing one global $25-55 range once furniture
+        # joined the target list: a $300 bed and a $40 dress can't share a
+        # sweet spot).
+        category_meta = config["categories"]["categories"].get(c["config_category"], {})
         price_fit = blended_price_fit(
             price=c["price"],
             creator_log_mean=math.log(creators_cfg["price_fit_log_mean_usd"]),
             n_tracked_videos=creator_stats["n_tracked_videos"],
-            sweet_spot_usd=tuple(config["categories"]["price_sweet_spot_usd"]),
+            sweet_spot_usd=price_sweet_spot_for_category(category_meta, config["categories"]["price_sweet_spot_usd"]),
             sigma=weights["fit"]["price_fit_sigma"],
             min_tracked_videos=weights["fit"]["min_tracked_videos_for_own_price_fit"],
         )
@@ -575,7 +571,6 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
         category_gpm = creators_cfg["category_gpm_per_1k_views"].get(
             c["config_category"], config["creators"]["pooled_category_gpm_per_1k_views"].get(c["config_category"], 0.0)
         )
-        category_meta = config["categories"]["categories"].get(c["config_category"], {})
         rows.append(
             {
                 **c,
@@ -1087,10 +1082,19 @@ async def run(args: argparse.Namespace) -> None:
                 # Rebuild from already-paid-for snapshots instead of
                 # re-ingesting (e.g. recovering from a scoring-side bug
                 # without spending the ~50+ credits a fresh ingest costs).
-                category_keys = list(DRY_RUN_CATEGORY_QUERIES if args.dry_run else REAL_CATEGORY_QUERIES)
+                # Try every category key regardless of today's active()
+                # window -- the snapshot files on disk are the real record
+                # of what that run actually fetched; a missing one just
+                # yields zero candidates for that key (load_raw_snapshot
+                # returns None gracefully).
+                category_keys = (
+                    DRY_RUN_CATEGORY_KEYS
+                    if args.dry_run
+                    else [k for k, m in config["categories"]["categories"].items() if "fastmoss_category_id" in m]
+                )
                 pool = ingest_from_snapshots(args.resume_week, category_keys)
             else:
-                pool = await ingest(client, config, week, date_value, tracker, args.dry_run)
+                pool = await ingest(client, config, week, date_value, today, tracker, args.dry_run)
             # Suspicious-listing filter (added 2026-10-15): exclude from
             # scoring/picks, but keep (with reasons) for export so they're
             # visible rather than silently dropped.
@@ -1099,11 +1103,11 @@ async def run(args: argparse.Namespace) -> None:
             df = score_pool(pool, config, creator_stats, today)
 
             if not df.empty:
-                prelim_ids = set(df.sort_values("score", ascending=False).head(10)["product_id"])
+                prelim_ids = set(df.sort_values("score", ascending=False).head(SHORTLIST_SIZE)["product_id"])
                 shortlist = [c for c in pool if c["product_id"] in prelim_ids]
-                await enrich_spanish_gap(client, shortlist, week, tracker)
+                await enrich_shortlist(client, shortlist, week, tracker)
                 # `shortlist` dicts are the same objects referenced in `pool` (shared,
-                # not copied), so enrich_spanish_gap's mutation is already reflected
+                # not copied), so enrich_shortlist's mutation is already reflected
                 # in `pool` -- just recompute scores from scratch with it filled in.
                 df = score_pool(pool, config, creator_stats, today)
         except BudgetExceeded as e:
@@ -1164,7 +1168,7 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="replay fixtures, zero credits")
     parser.add_argument("--week", default=None, help="ISO week label, e.g. 2026-W43 (default: current)")
     parser.add_argument("--print-picks", action="store_true", help="print the Top 10 to stdout")
-    parser.add_argument("--budget", type=int, default=60, help="hard credit cap for this run")
+    parser.add_argument("--budget", type=int, default=90, help="hard credit cap for this run")
     parser.add_argument(
         "--resume-week",
         default=None,

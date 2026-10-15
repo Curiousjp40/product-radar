@@ -8,16 +8,25 @@ creators:
   ari:
     handle: ariannamendoza04
     primary: false
-target_categories:        # priority order
+target_categories:        # priority order, updated 2026-10-18 for Roxie's home + fashion targets
   - shapewear
-  - womens_clothing
-  - home_decor            # proven by Ari; explore budget for Roxie
-  - beauty_hair
-  - seasonal
+  - dresses
+  - sets
+  - furniture
+  - home_decor            # proven by Ari
+  - winter_clothing
+  - shoes
+  - pet_furniture
+  - home_storage
+  - costumes
+  - pajamas
+  - activewear
 excluded_categories: []
 excluded_brands: []
 excluded_keywords: []
-price_range_usd: [15, 80]
+# price_range_usd removed 2026-10-18: it was never wired into any scoring
+# function (dead config). The real per-category price-fit sweet spot now
+# lives in config/categories.yaml's price_sweet_spot_usd, by price_group.
 min_commission_pct: 10
 videos_per_week: 4
 samples_only: false

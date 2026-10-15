@@ -1,35 +1,145 @@
 # Canonical category keys used across config/*.yaml and engine/*.py.
-# price_sweet_spot is section 2.2's "both creators' best categories" range,
-# used by fit.py as the blend target for creators with under 30 tracked videos.
+#
+# Restructured 2026-10-18 per Roxie's targets (home + fashion verticals,
+# lifestyle style): 12 categories in 3 tiers, replacing the old flat 4
+# (beauty_hair dropped from targets entirely -- still present in
+# creators.yaml as historical prior data, just never actively scanned).
+#
+# tier: "core" (top 30/3 pages) and "secondary" (top 20/2 pages) are always
+# scanned; "seasonal" categories are ONLY scanned while today falls inside
+# their [scan_start, scan_end] window (see engine/run.py's active-category
+# selection) -- distinct from config/seasons.yaml's event calendar, which
+# scores/labels a *scoring* boost and doesn't control what gets fetched.
+#
+# group: "fashion" or "home" -- used for the "Todos" page's two tabs (Moda/
+# Hogar) and to pick which price_group a category's price-fit sweet spot
+# uses (see price_sweet_spot_usd below).
+#
+# pages: how many paged product_rank_top_selling calls (10 results each,
+# the tool's own cap) to make for this category per run.
 
-price_sweet_spot_usd: [25, 55]
+price_sweet_spot_usd: # by price_group, for engine.fit.blended_price_fit's Gaussian scoring
+  fashion: [15, 80]
+  furniture: [40, 400]
+  home: [15, 150] # decor/pets/storage
 
 categories:
   shapewear:
-    label_es: Fajas y shapewear
+    label_es: Fajas
     label_en: Shapewear
     fastmoss_category_id: 601259 # L3 "Shapewear" (Womenswear & Underwear > Women's Underwear > Shapewear). Confirmed 2026-10.
-  womens_clothing:
-    label_es: Ropa de mujer
-    label_en: Women's clothing
-    fastmoss_category_id: 842504 # L2 "Women's Dresses". Confirmed 2026-10-15 -- the search term "women's clothing"
-    # alone resolves to a narrow "special/costume apparel" subcategory (confirmed the hard way: the first real
-    # run's "womens_clothing" picks were Halloween costumes, not general clothing) -- "women's dresses" is the
-    # clean match. Revisit if dresses prove too narrow once more weeks of data come in.
+    tier: core
+    pages: 3
+    group: fashion
+    price_group: fashion
+  dresses:
+    label_es: Vestidos
+    label_en: Dresses
+    fastmoss_category_id: 842504 # L2 "Women's Dresses". Was pinned as "womens_clothing" before 2026-10-18's category rework.
+    tier: core
+    pages: 3
+    group: fashion
+    price_group: fashion
+  sets:
+    label_es: Conjuntos
+    label_en: Sets
+    fastmoss_category_id: 842760 # L2 "Women's Sets & Jumpsuits"
+    tier: core
+    pages: 3
+    group: fashion
+    price_group: fashion
+  furniture:
+    label_es: Muebles
+    label_en: Furniture
+    fastmoss_category_id: 871048 # L2 indoor furniture: tables, dining chairs, coffee tables, beds, wardrobes
+    tier: core
+    pages: 3
+    group: home
+    price_group: furniture
   home_decor:
-    label_es: Decoracion del hogar
-    label_en: Home & decor
-    explore_priority: high # section 2.2: strongest proven category (Ari), untested for Roxie
+    label_es: Decoración
+    label_en: Home Decor
     fastmoss_category_id: 852104 # L2 "Decoration" (under Home Supplies). Confirmed 2026-10.
-  beauty_hair:
-    label_es: Belleza y cabello
-    label_en: Beauty & hair
-    fastmoss_category_id: 849160 # L2 "Bath & Body Care". Confirmed 2026-10.
+    tier: core
+    pages: 3
+    group: home
+    price_group: home
+
+  winter_clothing:
+    label_es: Ropa de invierno
+    label_en: Winter Clothing
+    fastmoss_category_id: 842248 # L2: tops, jackets, sweaters
+    tier: secondary
+    pages: 2
+    group: fashion
+    price_group: fashion
+  shoes:
+    label_es: Zapatos
+    label_en: Shoes
+    fastmoss_category_id: 900488 # L2 women's shoes
+    tier: secondary
+    pages: 2
+    group: fashion
+    price_group: fashion
+  pet_furniture:
+    label_es: Mascotas
+    label_en: Pet Furniture
+    fastmoss_category_id: 812808 # L2 pet furniture/beds
+    tier: secondary
+    pages: 2
+    group: home
+    price_group: home
+  home_storage:
+    label_es: Organización
+    label_en: Home Storage
+    fastmoss_category_id: 851848 # L2 home storage/closet organization
+    tier: secondary
+    pages: 2
+    group: home
+    price_group: home
+
+  costumes:
+    label_es: Disfraces
+    label_en: Costumes
+    fastmoss_category_id: 843656 # L3 costumes
+    tier: seasonal
+    pages: 2
+    group: fashion
+    price_group: fashion
+    scan_end: "2026-10-31" # Halloween -- no scan_start, so "any time up to this date"
+  pajamas:
+    label_es: Pijamas
+    label_en: Pajamas
+    fastmoss_category_id: 843016 # L2 women's pajamas
+    tier: seasonal
+    pages: 2
+    group: fashion
+    price_group: fashion
+    scan_start: "2026-11-01"
+    scan_end: "2026-12-20"
+  activewear:
+    label_es: Fitness
+    label_en: Activewear
+    fastmoss_category_id: 834568 # L2 activewear (New Year's resolutions season)
+    tier: seasonal
+    pages: 2
+    group: fashion
+    price_group: fashion
+    scan_start: "2026-12-15"
+    scan_end: "2027-02-28"
+
+  # Kept for seasons.yaml's event-category matching and historical/prior
+  # data (creators.yaml) -- "seasonal"/"other" are not real FastMoss
+  # categories and are never scanned (no fastmoss_category_id/tier/pages).
   seasonal:
     label_es: Temporada
     label_en: Seasonal
-    # No fastmoss_category_id: confirmed cross-category in Phase 0 (a "Halloween costume" search
-    # didn't surface a dedicated category at all) -- handled via config/seasons.yaml instead.
   other:
     label_es: Otro
     label_en: Other
+  beauty_hair:
+    label_es: Belleza y cabello
+    label_en: Beauty & hair
+    # No tier/pages: dropped from active targets 2026-10-18 (Roxie's
+    # targets are home + fashion). Kept only so creators.yaml's historical
+    # category_gpm_per_1k_views prior still resolves to a label.

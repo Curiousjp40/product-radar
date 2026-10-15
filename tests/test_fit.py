@@ -15,6 +15,7 @@ from engine.fit import (
     is_similar_product,
     normalize_priors,
     price_fit_gaussian,
+    price_sweet_spot_for_category,
     target_category_boost,
 )
 
@@ -149,3 +150,17 @@ def test_fit_score_formula():
     )
     expected = 0.6 * 0.8 + 0.25 * 0.6 + 0.15 * 0.5 + 0.15 - 0.1
     assert score == pytest.approx(expected)
+
+
+_SWEET_SPOTS = {"fashion": [15, 80], "furniture": [40, 400], "home": [15, 150]}
+
+
+def test_price_sweet_spot_for_category_by_group():
+    assert price_sweet_spot_for_category({"price_group": "furniture"}, _SWEET_SPOTS) == (40, 400)
+    assert price_sweet_spot_for_category({"price_group": "fashion"}, _SWEET_SPOTS) == (15, 80)
+    assert price_sweet_spot_for_category({"price_group": "home"}, _SWEET_SPOTS) == (15, 150)
+
+
+def test_price_sweet_spot_for_category_defaults_to_fashion():
+    assert price_sweet_spot_for_category({}, _SWEET_SPOTS) == (15, 80)
+    assert price_sweet_spot_for_category({"price_group": "unknown_group"}, _SWEET_SPOTS) == (15, 80)

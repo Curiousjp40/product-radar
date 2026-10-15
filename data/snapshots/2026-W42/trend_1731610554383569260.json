@@ -1,0 +1,153 @@
+{
+  "currency_code": "USD",
+  "region": "US",
+  "period_summary": {
+    "linked_creator_count": 769,
+    "linked_live_count": 2452,
+    "linked_video_count": 465,
+    "period_gmv": 1453108.58,
+    "period_units_sold": 55199
+  },
+  "daily_trend": [
+    {
+      "daily_gmv": 30491.2,
+      "daily_units_sold": 1003,
+      "date": "2026-09-17"
+    },
+    {
+      "daily_gmv": 29962.4,
+      "daily_units_sold": 1118,
+      "date": "2026-09-18"
+    },
+    {
+      "daily_gmv": 47555.9,
+      "daily_units_sold": 1657,
+      "date": "2026-09-19"
+    },
+    {
+      "daily_gmv": 29265.6,
+      "daily_units_sold": 1092,
+      "date": "2026-09-20"
+    },
+    {
+      "daily_gmv": 46240,
+      "daily_units_sold": 1600,
+      "date": "2026-09-21"
+    },
+    {
+      "daily_gmv": 41009.1,
+      "daily_units_sold": 1419,
+      "date": "2026-09-22"
+    },
+    {
+      "daily_gmv": 60802.2,
+      "daily_units_sold": 1987,
+      "date": "2026-09-23"
+    },
+    {
+      "daily_gmv": 42080,
+      "daily_units_sold": 1315,
+      "date": "2026-09-24"
+    },
+    {
+      "daily_gmv": 43657.2,
+      "daily_units_sold": 1629,
+      "date": "2026-09-25"
+    },
+    {
+      "daily_gmv": 34947.2,
+      "daily_units_sold": 1304,
+      "date": "2026-09-26"
+    },
+    {
+      "daily_gmv": 41861.6,
+      "daily_units_sold": 1562,
+      "date": "2026-09-27"
+    },
+    {
+      "daily_gmv": 31114.8,
+      "daily_units_sold": 1161,
+      "date": "2026-09-28"
+    },
+    {
+      "daily_gmv": 70859.2,
+      "daily_units_sold": 2644,
+      "date": "2026-09-29"
+    },
+    {
+      "daily_gmv": 43898.4,
+      "daily_units_sold": 1638,
+      "date": "2026-09-30"
+    },
+    {
+      "daily_gmv": 54745.08,
+      "daily_units_sold": 1847,
+      "date": "2026-10-01"
+    },
+    {
+      "daily_gmv": 65695.2,
+      "daily_units_sold": 2649,
+      "date": "2026-10-02"
+    },
+    {
+      "daily_gmv": 56221.6,
+      "daily_units_sold": 2267,
+      "date": "2026-10-03"
+    },
+    {
+      "daily_gmv": 55056,
+      "daily_units_sold": 2220,
+      "date": "2026-10-04"
+    },
+    {
+      "daily_gmv": 51856.8,
+      "daily_units_sold": 2091,
+      "date": "2026-10-05"
+    },
+    {
+      "daily_gmv": 58310,
+      "daily_units_sold": 2450,
+      "date": "2026-10-06"
+    },
+    {
+      "daily_gmv": 53145.4,
+      "daily_units_sold": 2233,
+      "date": "2026-10-07"
+    },
+    {
+      "daily_gmv": 47085.9,
+      "daily_units_sold": 1891,
+      "date": "2026-10-08"
+    },
+    {
+      "daily_gmv": 62573.7,
+      "daily_units_sold": 2513,
+      "date": "2026-10-09"
+    },
+    {
+      "daily_gmv": 60058.8,
+      "daily_units_sold": 2412,
+      "date": "2026-10-10"
+    },
+    {
+      "daily_gmv": 73828.5,
+      "daily_units_sold": 2965,
+      "date": "2026-10-11"
+    },
+    {
+      "daily_gmv": 84983.7,
+      "daily_units_sold": 3413,
+      "date": "2026-10-12"
+    },
+    {
+      "daily_gmv": 60256.5,
+      "daily_units_sold": 2085,
+      "date": "2026-10-13"
+    },
+    {
+      "daily_gmv": 75546.6,
+      "daily_units_sold": 3034,
+      "date": "2026-10-14"
+    }
+  ]
+}
