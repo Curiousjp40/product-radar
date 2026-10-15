@@ -48,6 +48,21 @@ export function creditGuardOk(balanceAfterSpend, perRunFloor, mondaysLeft) {
   return { ok: balanceAfterSpend >= floor, floor };
 }
 
+/**
+ * Search-count limits, tightened until the Nov 15 credit reset (added
+ * 2026-10-15, same day as the ~45-credit mistake that prompted the other
+ * safeguards): only 2 searches/month until the balance resets, then back
+ * to the normal 3/day + 15/month. The per-run credit-floor guard
+ * (creditGuardOk) stays on regardless of which phase this is -- this limit
+ * is an extra, simpler cap on top of it, not a replacement for it.
+ */
+export function searchLimitsFor(now, resetDate) {
+  if (now < resetDate) {
+    return { daily: 3, monthly: 2 };
+  }
+  return { daily: 3, monthly: 15 };
+}
+
 export function mapCreatorSearchResult(raw) {
   const row = raw?.list?.[0];
   if (!row) return null;

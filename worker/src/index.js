@@ -9,12 +9,11 @@ import {
   mondaysRemaining,
   monthlyCountKey,
   normalizeHandle,
+  searchLimitsFor,
 } from "./logic.js";
 
 const ALLOWED_ORIGIN = "https://curiousjp40.github.io";
 const CACHE_TTL_SECONDS = 7 * 24 * 60 * 60;
-const DAILY_LIMIT = 3;
-const MONTHLY_LIMIT = 15;
 const PER_RUN_CREDIT_FLOOR = 70; // matches the weekly pipeline's --budget cap
 const SEARCH_COST_CREDITS = 3; // creator_search + creator_video_analysis + creator_product_list, 1cr each
 const NOT_FOUND_TTL_SECONDS = 24 * 60 * 60;
@@ -64,6 +63,10 @@ export default {
     }
 
     const now = new Date();
+    const resetDate = new Date(`${env.CREDIT_RESET_DATE}T00:00:00Z`);
+    const { daily: dailyLimit, monthly: monthlyLimit } = searchLimitsFor(now, resetDate);
+    const mondaysLeft = Math.max(mondaysRemaining(now, resetDate), 1); // never divide the floor away to zero post-reset
+
     const dailyKey = dailyCountKey(now);
     const monthlyKey = monthlyCountKey(now);
     const [dailyCountRaw, monthlyCountRaw] = await Promise.all([
@@ -76,18 +79,15 @@ export default {
     const cacheKey = cacheKeyFor(handle);
     const cached = await env.SEARCH_KV.get(cacheKey, { type: "json" });
     if (cached) {
-      return json({ ...cached, from_cache: true, remaining_today: DAILY_LIMIT - dailyCount, remaining_month: MONTHLY_LIMIT - monthlyCount });
+      return json({ ...cached, from_cache: true, remaining_today: dailyLimit - dailyCount, remaining_month: monthlyLimit - monthlyCount });
     }
 
-    if (dailyCount >= DAILY_LIMIT) {
-      return json({ error: "daily_limit", message: "Ya usaste tus 3 búsquedas de hoy." }, 429);
+    if (dailyCount >= dailyLimit) {
+      return json({ error: "daily_limit", message: `Ya usaste tus ${dailyLimit} búsquedas de hoy.` }, 429);
     }
-    if (monthlyCount >= MONTHLY_LIMIT) {
-      return json({ error: "monthly_limit", message: "Ya usaste tus 15 búsquedas de este mes." }, 429);
+    if (monthlyCount >= monthlyLimit) {
+      return json({ error: "monthly_limit", message: `Ya usaste tus ${monthlyLimit} búsquedas de este mes.` }, 429);
     }
-
-    const resetDate = new Date(`${env.CREDIT_RESET_DATE}T00:00:00Z`);
-    const mondaysLeft = Math.max(mondaysRemaining(now, resetDate), 1); // never divide the floor away to zero post-reset
 
     let balance;
     try {
@@ -126,7 +126,7 @@ export default {
     if (!creator) {
       await env.SEARCH_KV.put(cacheKey, JSON.stringify({ not_found: true }), { expirationTtl: NOT_FOUND_TTL_SECONDS });
       await bumpCounters(env, dailyKey, monthlyKey, dailyCount, monthlyCount);
-      return json({ not_found: true, remaining_today: DAILY_LIMIT - dailyCount - 1, remaining_month: MONTHLY_LIMIT - monthlyCount - 1 });
+      return json({ not_found: true, remaining_today: dailyLimit - dailyCount - 1, remaining_month: monthlyLimit - monthlyCount - 1 });
     }
 
     let videosRaw;
@@ -162,7 +162,7 @@ export default {
     await env.SEARCH_KV.put(cacheKey, JSON.stringify(result), { expirationTtl: CACHE_TTL_SECONDS });
     await bumpCounters(env, dailyKey, monthlyKey, dailyCount, monthlyCount);
 
-    return json({ ...result, from_cache: false, remaining_today: DAILY_LIMIT - dailyCount - 1, remaining_month: MONTHLY_LIMIT - monthlyCount - 1 });
+    return json({ ...result, from_cache: false, remaining_today: dailyLimit - dailyCount - 1, remaining_month: monthlyLimit - monthlyCount - 1 });
   },
 };
 

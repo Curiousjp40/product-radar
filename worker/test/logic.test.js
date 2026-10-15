@@ -11,6 +11,7 @@ import {
   mondaysRemaining,
   monthlyCountKey,
   normalizeHandle,
+  searchLimitsFor,
 } from "../src/logic.js";
 
 test("normalizeHandle strips leading @ and lowercases", () => {
@@ -49,6 +50,18 @@ test("mondaysRemaining is zero once the reset date has passed", () => {
   const afterReset = new Date("2026-11-20T00:00:00Z");
   const reset = new Date("2026-11-15T00:00:00Z");
   assert.equal(mondaysRemaining(afterReset, reset), 0);
+});
+
+test("searchLimitsFor is tightened to 2/month before the reset", () => {
+  const beforeReset = new Date("2026-10-20T00:00:00Z");
+  const reset = new Date("2026-11-15T00:00:00Z");
+  assert.deepEqual(searchLimitsFor(beforeReset, reset), { daily: 3, monthly: 2 });
+});
+
+test("searchLimitsFor goes back to 3/day + 15/month after the reset", () => {
+  const afterReset = new Date("2026-11-16T00:00:00Z");
+  const reset = new Date("2026-11-15T00:00:00Z");
+  assert.deepEqual(searchLimitsFor(afterReset, reset), { daily: 3, monthly: 15 });
 });
 
 test("creditGuardOk refuses a search that would dip below the weekly floor", () => {
