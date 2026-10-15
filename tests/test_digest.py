@@ -8,7 +8,10 @@ PICKS = [
         "price": 42.50,
         "commission_rate": 0.25,
         "earnings_per_sale": 10.62,
-        "summary_es": "Tus ventas subieron 27% esta semana. Pocas creadoras hablan de esto en español (0 de 6 videos).",
+        "summary_es": (
+            "Las ventas de este producto subieron 27% esta semana. "
+            "Pocas creadoras hablan de esto en español (0 de 6 videos)."
+        ),
     },
     {
         "slot": 2,
@@ -17,7 +20,7 @@ PICKS = [
         "price": 149.00,
         "commission_rate": 0.10,
         "earnings_per_sale": 14.90,
-        "summary_es": "Tus ventas subieron 433% esta semana.",
+        "summary_es": "Las ventas de este producto subieron 433% esta semana.",
     },
 ]
 
@@ -33,7 +36,7 @@ def test_render_digest_plain_text_cites_real_numbers_and_summary():
     assert "Onyx Silent Vibration Wrist-Worn Device" in plain
     assert "Partner-Disturbance-Free" not in plain  # clean_title, not the full SEO title
     assert "$42.50" in plain
-    assert "Tus ventas subieron 27% esta semana." in plain
+    assert "Las ventas de este producto subieron 27% esta semana." in plain
     assert "https://example.com" in plain
 
 

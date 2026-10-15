@@ -2,6 +2,7 @@ import { loadProduct } from "../api";
 import { assetUrl } from "../asset";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
+import { hasRequestedSample, requestSample } from "../samples";
 import type { FormulaGanadora, VideoCard } from "../types";
 
 function formatCount(n: number): string {
@@ -203,6 +204,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
           : ""
       }
       <div class="stat-box-grid">${statBoxes.join("")}</div>
+      <p class="commission-note">${t("commission_open_note", lang)}</p>
       ${
         data.daily_units_14.length > 0
           ? `<div class="insight-card">
@@ -223,7 +225,17 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       }
       ${data.formula_ganadora ? formulaGanadoraHtml(data.formula_ganadora, lang) : ""}
       <div class="free-buttons">
-        <a href="${data.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
+        <a href="${data.tiktok_shop_url}" target="_blank" rel="noopener" class="btn-accent">${t("open_in_tiktok_shop", lang)}</a>
+        <button
+          type="button"
+          class="btn-request-sample ${hasRequestedSample(data.product_id) ? "active" : ""}"
+          data-action="request-sample"
+          data-product-id="${data.product_id}"
+          data-price="${data.price}"
+          data-name="${data.clean_title.replace(/"/g, "&quot;")}"
+          ${hasRequestedSample(data.product_id) ? "disabled" : ""}
+        >${hasRequestedSample(data.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
+        <a href="${data.tiktok_search_url}" target="_blank" rel="noopener">${t("tiktok_videos_button", lang)}</a>
         <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
       </div>
       <p class="free-buttons-note">${t("tiktok_search_note", lang)}</p>
@@ -232,6 +244,15 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       loadTikTokEmbedScript();
       container.querySelectorAll<HTMLElement>(".video-embed-card").forEach(watchEmbed);
     }
+    const sampleBtn = container.querySelector<HTMLButtonElement>('[data-action="request-sample"]');
+    sampleBtn?.addEventListener("click", () => {
+      const { productId, price, name } = sampleBtn.dataset;
+      if (!productId) return;
+      requestSample(productId, name ?? "", Number(price) || 0, new Date());
+      sampleBtn.textContent = t("sample_requested_label", lang);
+      sampleBtn.classList.add("active");
+      sampleBtn.disabled = true;
+    });
     const copyBtn = container.querySelector<HTMLButtonElement>(".copy-hashtags-btn");
     copyBtn?.addEventListener("click", () => {
       const text = copyBtn.dataset.hashtags ?? "";

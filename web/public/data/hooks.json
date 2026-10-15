@@ -147,68 +147,212 @@
     }
   },
   "shot_lists": {
-    "try_on": {
+    "shapewear": {
       "es": [
-        "Gancho frente al espejo",
-        "Primer plano de la tela/ajuste",
-        "Antes y despues",
-        "Muestra el precio en pantalla",
-        "Llamado a la accion: \"link en el carrito naranja\""
+        "Pru\u00e9bate la faja frente al espejo",
+        "Primer plano estirando la tela para mostrar c\u00f3mo se ajusta",
+        "Muestra el antes y despu\u00e9s en la cintura",
+        "Ense\u00f1a c\u00f3mo se ve bajo la ropa",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
       ],
       "en": [
-        "Hook in the mirror",
-        "Close-up of the fabric/fit",
-        "Before and after",
-        "Show the price on screen",
+        "Try the shapewear on in front of the mirror",
+        "Close-up stretching the fabric to show the fit",
+        "Show the before/after at the waist",
+        "Show how it looks under clothes",
         "Call to action: \"link in the orange cart\""
       ]
     },
-    "room_makeover": {
+    "dresses": {
       "es": [
-        "Espacio vacio o desordenado",
-        "Desempaque del producto",
-        "Resultado ya armado",
-        "Tomas de detalle",
-        "Muestra el precio"
+        "Pru\u00e9bate el vestido y gira para mostrar c\u00f3mo cae",
+        "Primer plano de la tela y el detalle (encaje, botones)",
+        "Muestra c\u00f3mo se ve con zapatos y accesorios",
+        "Cambia de \u00e1ngulo: de frente, de perfil, caminando",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
       ],
       "en": [
-        "Empty or messy space",
-        "Unboxing the product",
-        "Assembled result",
-        "Detail shots",
-        "Show the price"
+        "Try the dress on and twirl to show how it falls",
+        "Close-up on the fabric and detail (lace, buttons)",
+        "Show it styled with shoes and accessories",
+        "Change angles: front, side, walking",
+        "Call to action: \"link in the orange cart\""
       ]
     },
-    "pet_item": {
+    "sets": {
       "es": [
-        "Gancho: la reaccion de tu mascota",
-        "Muestra el producto de cerca",
-        "Tu mascota usandolo",
-        "Antes y despues",
-        "Muestra el precio en pantalla"
+        "Pru\u00e9bate el conjunto completo",
+        "Muestra cada pieza por separado antes de combinarlas",
+        "Primer plano del ajuste en la cintura",
+        "Est\u00edlalo con zapatos para un look completo",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
       ],
       "en": [
-        "Hook: your pet's reaction",
-        "Close-up of the product",
-        "Your pet using it",
-        "Before and after",
-        "Show the price on screen"
+        "Try on the full set",
+        "Show each piece separately before combining them",
+        "Close-up on the fit at the waist",
+        "Style it with shoes for a complete look",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "furniture": {
+      "es": [
+        "Muestra el espacio vac\u00edo antes del mueble",
+        "Arma o coloca el mueble paso a paso",
+        "Primer plano de la calidad del material o acabado",
+        "Muestra el espacio ya transformado con el mueble puesto",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Show the empty space before the furniture",
+        "Assemble or place the furniture step by step",
+        "Close-up on the material or finish quality",
+        "Show the space transformed with it in place",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "home_decor": {
+      "es": [
+        "Muestra el rinc\u00f3n antes de decorarlo",
+        "Coloca la decoraci\u00f3n paso a paso",
+        "Primer plano de la textura o el detalle",
+        "Muestra el rinc\u00f3n terminado con buena luz",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Show the corner before decorating",
+        "Place the decor piece step by step",
+        "Close-up on the texture or detail",
+        "Show the finished corner in good light",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "winter_clothing": {
+      "es": [
+        "Pru\u00e9bate la prenda y muestra el abrigo que da",
+        "Primer plano de la tela o el forro por dentro",
+        "Comb\u00ednala con otra prenda para un outfit completo",
+        "Mu\u00e9strate saliendo a la calle con ella puesta",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Try the piece on and show how warm it looks",
+        "Close-up on the fabric or lining inside",
+        "Pair it with another piece for a full outfit",
+        "Show yourself heading outside wearing it",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "shoes": {
+      "es": [
+        "Muestra los zapatos de cerca, suela incluida",
+        "Pru\u00e9batelos y camina unos pasos",
+        "Comb\u00ednalos con un outfit completo",
+        "Primer plano del material y los detalles",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Show the shoes up close, including the sole",
+        "Try them on and walk a few steps",
+        "Style them with a full outfit",
+        "Close-up on the material and details",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "pet_furniture": {
+      "es": [
+        "Muestra el producto vac\u00edo antes de que tu mascota lo use",
+        "Acerca a tu mascota para que lo descubra",
+        "Gr\u00e1bala us\u00e1ndolo o jugando con \u00e9l",
+        "Primer plano de la reacci\u00f3n de tu mascota",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Show the product empty before your pet uses it",
+        "Bring your pet over to discover it",
+        "Film them using it or playing with it",
+        "Close-up on your pet's reaction",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "home_storage": {
+      "es": [
+        "Muestra el desorden antes de organizar",
+        "Usa el organizador paso a paso",
+        "Primer plano de c\u00f3mo queda todo acomodado",
+        "Muestra el espacio ya organizado y despejado",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Show the mess before organizing",
+        "Use the organizer step by step",
+        "Close-up on everything neatly arranged",
+        "Show the space organized and clear",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "costumes": {
+      "es": [
+        "Pru\u00e9bate el disfraz completo",
+        "Muestra los detalles y accesorios de cerca",
+        "Posa o act\u00faa el personaje por unos segundos",
+        "Comp\u00e1ralo con el precio de uno hecho a mano",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Try on the full costume",
+        "Show the details and accessories up close",
+        "Pose or act out the character for a few seconds",
+        "Compare it to the price of a handmade one",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "pajamas": {
+      "es": [
+        "Pru\u00e9bate el pijama y muestra lo c\u00f3modo que se ve",
+        "Primer plano de la tela",
+        "Muestra el conjunto completo, arriba y abajo",
+        "Ens\u00e9\u00f1alo en un ambiente acogedor, en la cama o el sof\u00e1",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Try the pajamas on and show how comfortable they look",
+        "Close-up on the fabric",
+        "Show the full set, top and bottom",
+        "Show it in a cozy setting, bed or couch",
+        "Call to action: \"link in the orange cart\""
+      ]
+    },
+    "activewear": {
+      "es": [
+        "Pru\u00e9bate la ropa deportiva y haz un movimiento r\u00e1pido",
+        "Primer plano de la tela t\u00e9cnica o de compresi\u00f3n",
+        "Muestra c\u00f3mo se mueve contigo, sentadilla o estiramiento",
+        "Comb\u00ednala con otra prenda deportiva",
+        "Llamado a la acci\u00f3n: \"link en el carrito naranja\""
+      ],
+      "en": [
+        "Try the activewear on and do a quick move",
+        "Close-up on the technical or compression fabric",
+        "Show how it moves with you, a squat or a stretch",
+        "Pair it with another activewear piece",
+        "Call to action: \"link in the orange cart\""
       ]
     }
   },
   "category_to_shot_list": {
-    "shapewear": "try_on",
-    "dresses": "try_on",
-    "sets": "try_on",
-    "winter_clothing": "try_on",
-    "shoes": "try_on",
-    "costumes": "try_on",
-    "pajamas": "try_on",
-    "activewear": "try_on",
-    "furniture": "room_makeover",
-    "home_decor": "room_makeover",
-    "home_storage": "room_makeover",
-    "pet_furniture": "pet_item"
+    "shapewear": "shapewear",
+    "dresses": "dresses",
+    "sets": "sets",
+    "winter_clothing": "winter_clothing",
+    "shoes": "shoes",
+    "costumes": "costumes",
+    "pajamas": "pajamas",
+    "activewear": "activewear",
+    "furniture": "furniture",
+    "home_decor": "home_decor",
+    "home_storage": "home_storage",
+    "pet_furniture": "pet_furniture"
   },
   "combo_pairs": [
     {
@@ -259,5 +403,99 @@
       "idea_es": "El rinc\u00f3n de tu mascota, decorado: dos productos, un video",
       "idea_en": "Your pet's corner, decorated: two products, one video"
     }
-  ]
+  ],
+  "category_fit_keywords": {
+    "shapewear": [
+      "shapewear",
+      "faja",
+      "bodysuit",
+      "shaper",
+      "corset",
+      "tummy control",
+      "fajas"
+    ],
+    "dresses": [
+      "dress",
+      "vestido",
+      "gown"
+    ],
+    "sets": [
+      "set",
+      "conjunto",
+      "jumpsuit",
+      "2 piece",
+      "two piece",
+      "two-piece"
+    ],
+    "shoes": [
+      "shoe",
+      "shoes",
+      "boot",
+      "sandal",
+      "clog",
+      "sneaker",
+      "heel",
+      "slipper",
+      "zapato"
+    ],
+    "winter_clothing": [
+      "jacket",
+      "sweater",
+      "coat",
+      "hoodie",
+      "fleece",
+      "thermal",
+      "cardigan"
+    ],
+    "furniture": [
+      "chair",
+      "table",
+      "sofa",
+      "couch",
+      "bed",
+      "desk",
+      "shelf",
+      "cabinet",
+      "dresser",
+      "nightstand",
+      "mattress",
+      "stool",
+      "bench",
+      "wardrobe"
+    ],
+    "home_decor": [
+      "decor",
+      "wall art",
+      "curtain",
+      "rug",
+      "candle",
+      "vase",
+      "frame",
+      "pillow",
+      "lamp",
+      "ornament",
+      "decoration"
+    ],
+    "home_storage": [
+      "storage",
+      "organizer",
+      "organiser",
+      "bin",
+      "basket",
+      "rack",
+      "closet",
+      "container",
+      "drawer"
+    ],
+    "pet_furniture": [
+      "pet",
+      "dog",
+      "cat",
+      "kennel",
+      "scratching post",
+      "cat tree",
+      "leash",
+      "collar"
+    ]
+  }
 }

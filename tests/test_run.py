@@ -58,7 +58,7 @@ def test_build_reasons_skips_category_fit_below_average_and_falls_back():
     # takes its slot instead of the reasons list just coming up short.
     reasons_es, reasons_en = build_reasons(_row(category_gpm=3.06), creator_avg_gpm=CREATOR_AVG_GPM)
     assert not any("por cada 1,000 vistas" in r for r in reasons_es)
-    assert any("Pagas ~$2.00 por venta" in r for r in reasons_es)
+    assert any("Ganas ~$2.00 por venta" in r for r in reasons_es)
     assert any("You earn ~$2.00 per sale" in r for r in reasons_en)
 
 

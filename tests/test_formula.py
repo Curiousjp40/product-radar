@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from engine.formula import (
+    _is_quality_hook,
     best_posting_hour,
     extract_hook,
     format_stats,
@@ -118,15 +119,38 @@ def test_extract_hook_empty_caption():
     assert extract_hook(None) == ""
 
 
-def test_top_hooks_takes_first_n_in_given_order_and_skips_empty():
+def test_top_hooks_takes_first_n_quality_hooks_in_given_order():
     videos = [
-        _video(caption_text="Primero! #tag"),
+        _video(caption_text="Primero! #tag"),  # 1 word after cleaning -- junk, skipped
         _video(caption_text="#onlyhashtags @onlymention"),  # cleans to empty, skipped
         _video(caption_text="Segundo gancho aqui."),
         _video(caption_text="Tercero, no deberia aparecer."),
     ]
-    hooks = top_hooks(videos, limit=3)
-    assert hooks == ["Primero!", "Segundo gancho aqui."]
+    hooks = top_hooks(videos, limit=2)
+    assert hooks == ["Segundo gancho aqui.", "Tercero, no deberia aparecer."]
+
+
+def test_top_hooks_keeps_scanning_past_junk_to_fill_the_limit():
+    # a junk hook doesn't cost a slot -- top_hooks looks further down the
+    # (already sales-ranked) video list instead of stopping short.
+    videos = [
+        _video(caption_text="Love"),  # 1 word -- junk
+        _video(caption_text="😍🔥"),  # no letters at all -- junk
+        _video(caption_text="Mira que facil se ve esto."),
+        _video(caption_text="No lo vas a creer, mira esto."),
+        _video(caption_text="Un video mas que no deberia aparecer."),
+    ]
+    hooks = top_hooks(videos, limit=2)
+    assert hooks == ["Mira que facil se ve esto.", "No lo vas a creer, mira esto."]
+
+
+def test_is_quality_hook_filters_short_and_emoji_only_text():
+    assert _is_quality_hook("") is False
+    assert _is_quality_hook("Love") is False  # single word
+    assert _is_quality_hook("So good") is False  # 2 words, under the 3-word floor
+    assert _is_quality_hook("😍🔥💯") is False  # emoji only, no letters
+    assert _is_quality_hook("123 456") is False  # digits only, no letters
+    assert _is_quality_hook("Mira este cambio real.") is True
 
 
 def test_formula_ganadora_dict_assembles_all_pieces():

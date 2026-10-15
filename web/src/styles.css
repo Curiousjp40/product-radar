@@ -1,19 +1,27 @@
 :root {
-  /* Light, clean look (redesign 2026-10-18): off-white page background,
-     white rounded cards, one pink accent -- FastMoss's own layout inspired
-     the "Todos" ranked-row + stat-box shapes, but no FastMoss branding. */
-  --bg: #f7f6f9;
-  --surface: #ffffff;
-  --surface-2: #f1eef5;
-  --text: #1c1b1f;
-  --text-dim: #716f78;
-  --accent: #e91e8c;
-  --accent-2: #0ea5e9;
-  --good: #16a34a;
-  --warn: #c2770a;
-  --bad: #dc2626;
-  --border: #e9e6ee;
-  --radius: 14px;
+  /* Warm editorial redesign (2026-10-15): a fashion/home magazine feel for
+     a Latina creator -- cream paper background, espresso/plum text, one
+     terracotta accent, serif display headings (Fraunces) over a clean sans
+     body (Karla). Replaces the pink-on-gray dashboard look. Layout concept:
+     content capped at ~1100px and centered on wide screens, generous
+     spacing, image-first cards, buttons sized to their label. */
+  --bg: #f6efe4;
+  --bg-texture: radial-gradient(circle at 1px 1px, rgba(90, 62, 48, 0.05) 1px, transparent 0);
+  --surface: #fffcf6;
+  --surface-2: #f0e6d6;
+  --text: #2c1f17;
+  --text-dim: #7a6a5c;
+  --accent: #bd5b3a;
+  --accent-ink: #ffffff;
+  --accent-2: #7d6a8a;
+  --good: #3f7d52;
+  --warn: #a8701f;
+  --bad: #b2442f;
+  --border: #e4d6c2;
+  --radius: 16px;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Karla", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --content-max: 1100px;
   color-scheme: light;
 }
 
@@ -25,9 +33,12 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: var(--bg);
+  background: var(--bg) var(--bg-texture);
+  background-size: 18px 18px;
   color: var(--text);
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.5;
   overflow-x: hidden;
 }
 
@@ -37,22 +48,35 @@ body {
   flex-direction: column;
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-wrap: balance;
+}
+
 header.app-header {
-  padding: 14px 16px 10px;
+  padding: 20px 20px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
+  max-width: var(--content-max);
+  width: 100%;
+  margin: 0 auto;
 }
 
 header.app-header h1 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin: 0;
+  letter-spacing: 0.01em;
 }
 
 .lang-toggle {
   display: flex;
   background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 999px;
   padding: 2px;
 }
@@ -61,61 +85,72 @@ header.app-header h1 {
   border: none;
   background: transparent;
   color: var(--text-dim);
-  padding: 4px 10px;
+  padding: 5px 12px;
   border-radius: 999px;
   font-size: 0.8rem;
+  font-family: var(--font-body);
+  font-weight: 600;
   cursor: pointer;
 }
 
 .lang-toggle button.active {
   background: var(--accent);
-  color: #fff;
-  font-weight: 600;
+  color: var(--accent-ink);
 }
 
 .sample-banner {
-  margin: 0 16px 8px;
-  padding: 6px 10px;
-  background: #fdf0d9;
-  color: #8a5a06;
+  margin: 0 auto 8px;
+  max-width: var(--content-max);
+  padding: 8px 14px;
+  background: #fbead0;
+  color: #7a5415;
   border-radius: 10px;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
 }
 
 nav.tabs {
   display: flex;
-  gap: 6px;
-  padding: 0 12px 10px;
+  gap: 8px;
+  padding: 0 20px 14px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  max-width: var(--content-max);
+  width: 100%;
+  margin: 0 auto;
 }
 
 nav.tabs a {
   flex: 0 0 auto;
-  padding: 8px 14px;
+  padding: 8px 16px;
   border-radius: 999px;
   background: var(--surface);
+  border: 1px solid var(--border);
   color: var(--text-dim);
   text-decoration: none;
   font-size: 0.85rem;
+  font-weight: 600;
   white-space: nowrap;
 }
 
 nav.tabs a.active {
   background: var(--accent);
-  color: #fff;
-  font-weight: 600;
+  border-color: var(--accent);
+  color: var(--accent-ink);
 }
 
 main {
   flex: 1;
-  padding: 4px 16px 32px;
+  padding: 4px 20px 48px;
+  max-width: var(--content-max);
+  width: 100%;
+  margin: 0 auto;
 }
 
 h2.view-title {
-  font-size: 1rem;
-  color: var(--text-dim);
-  margin: 10px 0 14px;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--text);
+  margin: 12px 0 16px;
   font-weight: 600;
 }
 
@@ -549,32 +584,34 @@ select.status-select {
 
 .card-actions {
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
 .card-actions .btn-primary {
-  flex: 1;
+  flex: 0 0 auto;
   text-align: center;
-  padding: 10px 12px;
-  border-radius: 10px;
+  padding: 11px 20px;
+  border-radius: 999px;
   border: none;
   background: var(--accent);
-  color: #fff;
-  font-weight: 600;
-  font-size: 0.85rem;
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
   text-decoration: none;
   display: inline-block;
 }
 
 .btn-heart {
   flex: 0 0 auto;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  border: none;
-  background: var(--surface-2);
+  border: 1px solid var(--border);
+  background: var(--surface);
   color: var(--text-dim);
   font-size: 1.1rem;
   cursor: pointer;
@@ -584,7 +621,8 @@ select.status-select {
 }
 
 .btn-heart.active {
-  background: #fbe0ee;
+  background: #f3dcd2;
+  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -725,18 +763,20 @@ select.status-select {
   align-items: center;
   gap: 6px;
   flex: 0 0 auto;
-  border: none;
-  background: var(--surface-2);
+  border: 1px solid var(--border);
+  background: var(--surface);
   color: var(--text-dim);
-  font-weight: 600;
+  font-weight: 700;
+  font-family: var(--font-body);
   font-size: 0.85rem;
-  padding: 10px 14px;
-  border-radius: 10px;
+  padding: 10px 18px;
+  border-radius: 999px;
   cursor: pointer;
 }
 
 .btn-save-pill.active {
-  background: #fbe0ee;
+  background: #f3dcd2;
+  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -933,28 +973,50 @@ select.status-select {
   padding: 4px 6px;
 }
 
-/* Free (no-credit) buttons: TikTok search + FastMoss, on every product page. */
+/* Free (no-credit) buttons: TikTok search/shop + FastMoss, product pages. */
 .free-buttons {
   display: flex;
-  gap: 8px;
-  margin: 8px 0 4px;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 4px;
 }
 
 .free-buttons a {
-  flex: 1;
+  flex: 0 0 auto;
   text-align: center;
-  padding: 12px;
-  border-radius: 10px;
-  background: var(--surface-2);
+  padding: 11px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
   color: var(--text);
   text-decoration: none;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .free-buttons a.btn-accent {
   background: var(--accent);
-  color: #fff;
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.btn-request-sample {
+  flex: 0 0 auto;
+  padding: 11px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn-request-sample.active {
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border-style: dashed;
 }
 
 .free-buttons-note {
@@ -998,9 +1060,16 @@ select.status-select {
 
 .stat-box {
   background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 10px 12px;
-  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+}
+
+.commission-note {
+  margin: -4px 0 14px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  line-height: 1.4;
 }
 
 .stat-box b {
@@ -1076,30 +1145,47 @@ select.status-select {
 
 .todos-row {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
   gap: 10px;
   background: var(--surface);
-  border-radius: 12px;
-  padding: 8px 10px;
-  text-decoration: none;
-  color: var(--text);
-  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px;
 }
 
-.todos-row .rank {
-  flex: 0 0 auto;
-  width: 20px;
-  text-align: center;
-  font-size: 0.78rem;
-  color: var(--text-dim);
-  font-weight: 600;
+@media (min-width: 560px) {
+  .todos-row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.todos-row-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.todos-row-tiktok {
+  align-self: flex-start;
+}
+
+@media (min-width: 560px) {
+  .todos-row-tiktok {
+    align-self: center;
+  }
 }
 
 .todos-row .photo {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 8px;
+  width: 76px;
+  height: 76px;
+  border-radius: 10px;
   object-fit: cover;
   background: var(--surface-2);
 }
@@ -1110,29 +1196,66 @@ select.status-select {
 }
 
 .todos-row .name {
-  font-size: 0.85rem;
-  font-weight: 600;
-  white-space: nowrap;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.todos-row-earn {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--good);
+  margin: 3px 0 2px;
 }
 
 .todos-row .meta {
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   color: var(--text-dim);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.todos-row-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
 }
 
 .todos-row .star {
   flex: 0 0 auto;
   color: var(--accent);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .todos-row.suspicious {
   opacity: 0.5;
+}
+
+.todos-row-tiktok {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.todos-search {
+  margin-bottom: 10px;
+}
+
+.todos-search-input {
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+}
+
+.todos-search-input::placeholder {
+  color: var(--text-dim);
 }
 
 /* ---------------------------------------------------------------------
@@ -1312,39 +1435,134 @@ select.status-select {
   text-align: center;
 }
 
-.hoy-card-list {
+.hoy-card-list,
+.hoy-also-good-list {
   grid-template-columns: 1fr;
 }
 
-.hoy-hook-real,
-.hoy-hook-template {
-  margin: 0 0 4px;
-  font-size: 0.82rem;
+@media (min-width: 640px) {
+  .hoy-also-good-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hoy-hook-real {
+  margin: 0 0 10px;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.05rem;
   line-height: 1.4;
+  color: var(--text);
 }
 
-.hoy-hook-real .formula-label,
-.hoy-hook-template .formula-label {
-  display: block;
-  margin-bottom: 2px;
+.hoy-also-good .hoy-hook-real {
+  font-size: 0.92rem;
 }
 
-.hoy-shot-list ol {
-  margin: 4px 0 0;
-  padding-left: 18px;
+.hoy-shot-list-details {
+  margin: 4px 0 14px;
+}
+
+.hoy-shot-list-details summary {
+  cursor: pointer;
+  font-weight: 700;
   font-size: 0.82rem;
+  color: var(--accent);
+}
+
+.hoy-shot-list-details ol {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.hoy-also-good-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 22px 0 12px;
+}
+
+.hoy-hero {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(44, 31, 23, 0.07);
+  margin-bottom: 8px;
+}
+
+@media (min-width: 720px) {
+  .hoy-hero {
+    flex-direction: row;
+  }
+  .hoy-hero-photo-link {
+    flex: 0 0 42%;
+  }
+  .hoy-hero-photo,
+  .hoy-hero-photo-placeholder {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+}
+
+.hoy-hero-photo-link {
+  display: block;
+}
+
+.hoy-hero-photo,
+.hoy-hero-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  background: var(--surface-2);
+}
+
+.hoy-hero-body {
+  padding: 20px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hoy-hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.hoy-hero-title {
+  font-size: 1.5rem;
+  margin: 4px 0 2px;
+}
+
+.hoy-hero-earn {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--good);
+  margin-bottom: 10px;
+}
+
+.hoy-hero-why {
+  margin: 0 0 10px;
+  color: var(--text-dim);
   line-height: 1.5;
 }
 
 .btn-mark-filmed {
-  flex: 1;
+  flex: 0 0 auto;
   text-align: center;
-  padding: 10px 12px;
-  border-radius: 10px;
-  border: none;
-  background: var(--surface-2);
+  padding: 11px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
   color: var(--text);
-  font-weight: 600;
+  font-weight: 700;
+  font-family: var(--font-body);
   font-size: 0.85rem;
   cursor: pointer;
 }

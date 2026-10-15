@@ -16,12 +16,31 @@ export interface Combo<T extends ComboCandidate> {
   idea_en: string;
 }
 
-// Only pairs this week's picks against config/hooks.yaml's static
-// combo_pairs -- when both categories in a pair have at least one pick,
-// the highest-earning pick from each side is paired.
-export function findCombos<T extends ComboCandidate>(picks: T[], comboPairs: ComboPair[]): Combo<T>[] {
+// A product's FastMoss category assignment is sometimes wrong for what the
+// title actually is (real case: a "Silent Vibration Wrist-Worn Device"
+// sleep gadget got tagged home_decor and paired with a dining chair) --
+// require the title to contain at least one of that category's own
+// keywords before it's eligible to appear in a combo at all. A category
+// with no keyword list configured is left unfiltered (passes through).
+function fitsCategory(title: string, category: string, categoryFitKeywords: Record<string, string[]>): boolean {
+  const keywords = categoryFitKeywords[category];
+  if (!keywords || keywords.length === 0) return true;
+  const lowered = title.toLowerCase();
+  return keywords.some((kw) => lowered.includes(kw.toLowerCase()));
+}
+
+// Only pairs this week's picks across config/hooks.yaml's explicit
+// combo_pairs whitelist -- when both categories in a pair have at least one
+// pick that actually fits its category, the highest-earning fitting pick
+// from each side is paired.
+export function findCombos<T extends ComboCandidate>(
+  picks: T[],
+  comboPairs: ComboPair[],
+  categoryFitKeywords: Record<string, string[]>,
+): Combo<T>[] {
   const byCategory = new Map<string, T[]>();
   for (const p of picks) {
+    if (!fitsCategory(p.clean_title, p.category, categoryFitKeywords)) continue;
     const list = byCategory.get(p.category) ?? [];
     list.push(p);
     byCategory.set(p.category, list);

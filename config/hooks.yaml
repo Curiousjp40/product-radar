@@ -120,60 +120,184 @@ hooks:
 # across categories via category_to_shot_list below -- most apparel shares
 # the same try-on structure, most home-goods share the same makeover
 # structure, so the archetype is what actually differs, not the category.
+# Per-category shot lists (rewritten 2026-10-15): the old 3 shared
+# archetypes (try_on/room_makeover/pet_item) gave the same 5 steps to 8
+# very different fashion categories and 3 very different home categories --
+# a mattress, a dress and shapewear don't film the same way. One list per
+# category now; category_to_shot_list below is the identity mapping so the
+# frontend's existing shot_lists[category_to_shot_list[category]] lookup
+# still works unchanged.
 shot_lists:
-  try_on:
+  shapewear:
     es:
-      - "Gancho frente al espejo"
-      - "Primer plano de la tela/ajuste"
-      - "Antes y despues"
-      - "Muestra el precio en pantalla"
-      - "Llamado a la accion: \"link en el carrito naranja\""
+      - "Pruébate la faja frente al espejo"
+      - "Primer plano estirando la tela para mostrar cómo se ajusta"
+      - "Muestra el antes y después en la cintura"
+      - "Enseña cómo se ve bajo la ropa"
+      - "Llamado a la acción: \"link en el carrito naranja\""
     en:
-      - "Hook in the mirror"
-      - "Close-up of the fabric/fit"
-      - "Before and after"
-      - "Show the price on screen"
+      - "Try the shapewear on in front of the mirror"
+      - "Close-up stretching the fabric to show the fit"
+      - "Show the before/after at the waist"
+      - "Show how it looks under clothes"
       - "Call to action: \"link in the orange cart\""
-  room_makeover:
+  dresses:
     es:
-      - "Espacio vacio o desordenado"
-      - "Desempaque del producto"
-      - "Resultado ya armado"
-      - "Tomas de detalle"
-      - "Muestra el precio"
+      - "Pruébate el vestido y gira para mostrar cómo cae"
+      - "Primer plano de la tela y el detalle (encaje, botones)"
+      - "Muestra cómo se ve con zapatos y accesorios"
+      - "Cambia de ángulo: de frente, de perfil, caminando"
+      - "Llamado a la acción: \"link en el carrito naranja\""
     en:
-      - "Empty or messy space"
-      - "Unboxing the product"
-      - "Assembled result"
-      - "Detail shots"
-      - "Show the price"
-  pet_item:
+      - "Try the dress on and twirl to show how it falls"
+      - "Close-up on the fabric and detail (lace, buttons)"
+      - "Show it styled with shoes and accessories"
+      - "Change angles: front, side, walking"
+      - "Call to action: \"link in the orange cart\""
+  sets:
     es:
-      - "Gancho: la reaccion de tu mascota"
-      - "Muestra el producto de cerca"
-      - "Tu mascota usandolo"
-      - "Antes y despues"
-      - "Muestra el precio en pantalla"
+      - "Pruébate el conjunto completo"
+      - "Muestra cada pieza por separado antes de combinarlas"
+      - "Primer plano del ajuste en la cintura"
+      - "Estílalo con zapatos para un look completo"
+      - "Llamado a la acción: \"link en el carrito naranja\""
     en:
-      - "Hook: your pet's reaction"
-      - "Close-up of the product"
-      - "Your pet using it"
-      - "Before and after"
-      - "Show the price on screen"
+      - "Try on the full set"
+      - "Show each piece separately before combining them"
+      - "Close-up on the fit at the waist"
+      - "Style it with shoes for a complete look"
+      - "Call to action: \"link in the orange cart\""
+  furniture:
+    es:
+      - "Muestra el espacio vacío antes del mueble"
+      - "Arma o coloca el mueble paso a paso"
+      - "Primer plano de la calidad del material o acabado"
+      - "Muestra el espacio ya transformado con el mueble puesto"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Show the empty space before the furniture"
+      - "Assemble or place the furniture step by step"
+      - "Close-up on the material or finish quality"
+      - "Show the space transformed with it in place"
+      - "Call to action: \"link in the orange cart\""
+  home_decor:
+    es:
+      - "Muestra el rincón antes de decorarlo"
+      - "Coloca la decoración paso a paso"
+      - "Primer plano de la textura o el detalle"
+      - "Muestra el rincón terminado con buena luz"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Show the corner before decorating"
+      - "Place the decor piece step by step"
+      - "Close-up on the texture or detail"
+      - "Show the finished corner in good light"
+      - "Call to action: \"link in the orange cart\""
+  winter_clothing:
+    es:
+      - "Pruébate la prenda y muestra el abrigo que da"
+      - "Primer plano de la tela o el forro por dentro"
+      - "Combínala con otra prenda para un outfit completo"
+      - "Muéstrate saliendo a la calle con ella puesta"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Try the piece on and show how warm it looks"
+      - "Close-up on the fabric or lining inside"
+      - "Pair it with another piece for a full outfit"
+      - "Show yourself heading outside wearing it"
+      - "Call to action: \"link in the orange cart\""
+  shoes:
+    es:
+      - "Muestra los zapatos de cerca, suela incluida"
+      - "Pruébatelos y camina unos pasos"
+      - "Combínalos con un outfit completo"
+      - "Primer plano del material y los detalles"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Show the shoes up close, including the sole"
+      - "Try them on and walk a few steps"
+      - "Style them with a full outfit"
+      - "Close-up on the material and details"
+      - "Call to action: \"link in the orange cart\""
+  pet_furniture:
+    es:
+      - "Muestra el producto vacío antes de que tu mascota lo use"
+      - "Acerca a tu mascota para que lo descubra"
+      - "Grábala usándolo o jugando con él"
+      - "Primer plano de la reacción de tu mascota"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Show the product empty before your pet uses it"
+      - "Bring your pet over to discover it"
+      - "Film them using it or playing with it"
+      - "Close-up on your pet's reaction"
+      - "Call to action: \"link in the orange cart\""
+  home_storage:
+    es:
+      - "Muestra el desorden antes de organizar"
+      - "Usa el organizador paso a paso"
+      - "Primer plano de cómo queda todo acomodado"
+      - "Muestra el espacio ya organizado y despejado"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Show the mess before organizing"
+      - "Use the organizer step by step"
+      - "Close-up on everything neatly arranged"
+      - "Show the space organized and clear"
+      - "Call to action: \"link in the orange cart\""
+  costumes:
+    es:
+      - "Pruébate el disfraz completo"
+      - "Muestra los detalles y accesorios de cerca"
+      - "Posa o actúa el personaje por unos segundos"
+      - "Compáralo con el precio de uno hecho a mano"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Try on the full costume"
+      - "Show the details and accessories up close"
+      - "Pose or act out the character for a few seconds"
+      - "Compare it to the price of a handmade one"
+      - "Call to action: \"link in the orange cart\""
+  pajamas:
+    es:
+      - "Pruébate el pijama y muestra lo cómodo que se ve"
+      - "Primer plano de la tela"
+      - "Muestra el conjunto completo, arriba y abajo"
+      - "Enséñalo en un ambiente acogedor, en la cama o el sofá"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Try the pajamas on and show how comfortable they look"
+      - "Close-up on the fabric"
+      - "Show the full set, top and bottom"
+      - "Show it in a cozy setting, bed or couch"
+      - "Call to action: \"link in the orange cart\""
+  activewear:
+    es:
+      - "Pruébate la ropa deportiva y haz un movimiento rápido"
+      - "Primer plano de la tela técnica o de compresión"
+      - "Muestra cómo se mueve contigo, sentadilla o estiramiento"
+      - "Combínala con otra prenda deportiva"
+      - "Llamado a la acción: \"link en el carrito naranja\""
+    en:
+      - "Try the activewear on and do a quick move"
+      - "Close-up on the technical or compression fabric"
+      - "Show how it moves with you, a squat or a stretch"
+      - "Pair it with another activewear piece"
+      - "Call to action: \"link in the orange cart\""
 
 category_to_shot_list:
-  shapewear: try_on
-  dresses: try_on
-  sets: try_on
-  winter_clothing: try_on
-  shoes: try_on
-  costumes: try_on
-  pajamas: try_on
-  activewear: try_on
-  furniture: room_makeover
-  home_decor: room_makeover
-  home_storage: room_makeover
-  pet_furniture: pet_item
+  shapewear: shapewear
+  dresses: dresses
+  sets: sets
+  winter_clothing: winter_clothing
+  shoes: shoes
+  costumes: costumes
+  pajamas: pajamas
+  activewear: activewear
+  furniture: furniture
+  home_decor: home_decor
+  home_storage: home_storage
+  pet_furniture: pet_furniture
 
 # H2 (combos/bundles), part of the 2026-10-15 creator-workflow upgrade:
 # complementary category pairs worth filming together in one video when
@@ -198,3 +322,21 @@ combo_pairs:
   - categories: [pet_furniture, home_decor]
     idea_es: "El rincón de tu mascota, decorado: dos productos, un video"
     idea_en: "Your pet's corner, decorated: two products, one video"
+
+# Category "fit" keywords for combos only (added 2026-10-15): a product's
+# FastMoss category assignment is sometimes wrong for what the title
+# actually is (real case: a "Silent Vibration Wrist-Worn Device" sleep
+# gadget got tagged home_decor and paired with a dining chair). Before
+# pairing two products for a combo, each title must contain at least one of
+# its own category's keywords (case-insensitive substring match) -- doesn't
+# affect anything outside combos.
+category_fit_keywords:
+  shapewear: [shapewear, faja, bodysuit, shaper, corset, "tummy control", fajas]
+  dresses: [dress, vestido, gown]
+  sets: [set, conjunto, jumpsuit, "2 piece", "two piece", "two-piece"]
+  shoes: [shoe, shoes, boot, sandal, clog, sneaker, heel, slipper, zapato]
+  winter_clothing: [jacket, sweater, coat, hoodie, fleece, thermal, cardigan]
+  furniture: [chair, table, sofa, couch, bed, desk, shelf, cabinet, dresser, nightstand, mattress, stool, bench, wardrobe]
+  home_decor: [decor, "wall art", curtain, rug, candle, vase, frame, pillow, lamp, ornament, decoration]
+  home_storage: [storage, organizer, organiser, bin, basket, rack, closet, container, drawer]
+  pet_furniture: [pet, dog, cat, kennel, "scratching post", "cat tree", leash, collar]

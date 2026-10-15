@@ -37,6 +37,7 @@ export interface Pick {
   summary_en: string;
   videos: VideoCard[];
   fastmoss_url: string;
+  tiktok_shop_url: string;
   formula_ganadora: FormulaGanadora | null;
   saturation_badge: SaturationBadge | null;
   effort_minutes: number | null;
@@ -81,6 +82,7 @@ export interface Candidate {
   suspicious_reasons?: string[];
   fastmoss_url: string;
   tiktok_search_url: string;
+  tiktok_shop_url: string;
   saturation_badge: SaturationBadge | null;
   effort_minutes: number | null;
   creator_count: number | null;
@@ -132,6 +134,7 @@ export interface ProductDetail {
   is_pick: boolean;
   fastmoss_url: string;
   tiktok_search_url: string;
+  tiktok_shop_url: string;
   videos: VideoCard[];
   formula_ganadora: FormulaGanadora | null;
   saturation_badge: SaturationBadge | null;
@@ -282,4 +285,5 @@ export interface HooksFile {
   shot_lists: Record<string, { es: string[]; en: string[] }>;
   category_to_shot_list: Record<string, string>;
   combo_pairs: ComboPair[];
+  category_fit_keywords: Record<string, string[]>;
 }

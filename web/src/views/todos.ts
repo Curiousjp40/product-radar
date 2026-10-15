@@ -18,20 +18,26 @@ function row(c: Candidate, lang: Lang): string {
   const photo = c.image_url
     ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />`
     : `<div class="photo"></div>`;
+  const earnLine = t("earn_headline", lang, { amount: c.earnings_per_sale.toFixed(2) });
   return `
-    <a class="todos-row${c.suspicious ? " suspicious" : ""}" href="#/product/${c.product_id}">
-      <span class="rank">${c.rank}</span>
-      ${photo}
-      <div class="info">
-        <div class="name">${c.clean_title}</div>
-        <div class="meta">
-          $${c.price.toFixed(2)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${(c.commission_rate * 100).toFixed(0)}% &middot; ${categoryLabel(c, lang)}
-          ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
-          ${c.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
+    <article class="todos-row${c.suspicious ? " suspicious" : ""}">
+      <a class="todos-row-link" href="#/product/${c.product_id}">
+        ${photo}
+        <div class="info">
+          <div class="name">${c.title}</div>
+          <div class="todos-row-earn">${earnLine}</div>
+          <div class="meta">
+            $${c.price.toFixed(2)} &middot; ${(c.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${categoryLabel(c, lang)}
+          </div>
+          <div class="todos-row-badges">
+            ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
+            ${c.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
+            ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}
+          </div>
         </div>
-      </div>
-      ${c.is_pick ? `<span class="star">&#9733;</span>` : ""}
-    </a>
+      </a>
+      <a class="btn-save-pill todos-row-tiktok" href="${c.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+    </article>
   `;
 }
 
@@ -48,6 +54,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
   let group: CategoryGroup = "fashion";
   let categoryFilter = "";
   let sortMode: SortMode = "score";
+  let searchQuery = "";
 
   const SORT_CHIPS: { mode: SortMode; key: string }[] = [
     { mode: "score", key: "sort_recommended" },
@@ -65,12 +72,19 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       (a, b) =>
         (inGroup.find((c) => c.category === a)?.rank ?? 0) - (inGroup.find((c) => c.category === b)?.rank ?? 0),
     );
-    const filtered = categoryFilter ? inGroup.filter((c) => c.category === categoryFilter) : inGroup;
+    let filtered = categoryFilter ? inGroup.filter((c) => c.category === categoryFilter) : inGroup;
+    if (searchQuery.trim()) {
+      const q = searchQuery.trim().toLowerCase();
+      filtered = filtered.filter((c) => c.title.toLowerCase().includes(q) || c.shop_name.toLowerCase().includes(q));
+    }
     const sorted = sortCandidates(sortMode, filtered);
 
     container.innerHTML = `
       ${banner}
       <h2 class="view-title">${t("nav_all", lang)}</h2>
+      <div class="todos-search">
+        <input type="search" class="todos-search-input" placeholder="${t("search_products_placeholder", lang)}" value="${searchQuery.replace(/"/g, "&quot;")}" />
+      </div>
       <div class="group-tabs">
         <button data-group="fashion" class="${group === "fashion" ? "active" : ""}">${t("group_fashion", lang)}</button>
         <button data-group="home" class="${group === "home" ? "active" : ""}">${t("group_home", lang)}</button>
@@ -94,6 +108,15 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       }
     `;
 
+    container.querySelector<HTMLInputElement>(".todos-search-input")?.addEventListener("input", (e) => {
+      searchQuery = (e.currentTarget as HTMLInputElement).value;
+      draw();
+      const el = container.querySelector<HTMLInputElement>(".todos-search-input");
+      if (el) {
+        el.focus();
+        el.selectionStart = el.selectionEnd = el.value.length;
+      }
+    });
     container.querySelectorAll<HTMLButtonElement>(".group-tabs button").forEach((btn) => {
       btn.addEventListener("click", () => {
         group = btn.dataset.group as CategoryGroup;

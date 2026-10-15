@@ -273,10 +273,25 @@ def test_select_top_reasons_picks_largest_magnitude():
 
 
 def test_render_reason_es_and_en():
-    # tu voice, past tense, each a complete sentence (rewritten 2026-10-17)
-    assert render_reason("momentum", "es", pct=38) == "Tus ventas subieron 38% esta semana."
-    assert render_reason("momentum", "en", pct=38) == "Your sales went up 38% this week."
-    assert render_reason("earnings", "es", amount=6.4) == "Pagas ~$6.40 por venta."
+    # tu voice, past tense, each a complete sentence (rewritten 2026-10-17);
+    # momentum is the PRODUCT's own market-wide sales, not Roxie's -- fixed
+    # 2026-10-15 after "Tus ventas"/"Your sales" wrongly implied otherwise.
+    assert render_reason("momentum", "es", pct=38) == "Las ventas de este producto subieron 38% esta semana."
+    assert render_reason("momentum", "en", pct=38) == "Sales of this product went up 38% this week."
+    assert render_reason("earnings", "es", amount=6.4) == "Ganas ~$6.40 por venta."
+
+
+def test_no_reason_template_claims_roxie_s_own_sales_history():
+    # "Tus ventas"/"Your sales" (the 2026-10-15 bug) implied these reasons
+    # were Roxie's own sales -- they're the PRODUCT's market-wide numbers.
+    # "Ganas"/"you earn" and "para ti" ("per 1,000 views for you") are fine:
+    # those really are her own commission and her own creator_avg_gpm.
+    import engine.picks as picks_module
+
+    for (_component, _lang), template in picks_module._REASON_TEMPLATES.items():
+        lowered = template.lower()
+        assert "tus ventas" not in lowered, f"template still claims 'tus ventas': {template!r}"
+        assert "your sales" not in lowered, f"template still claims 'your sales': {template!r}"
 
 
 def test_render_reason_category_fit_cites_a_real_number():

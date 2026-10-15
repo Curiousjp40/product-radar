@@ -113,10 +113,21 @@ FASTMOSS_PRODUCT_URL_TEMPLATE = "https://www.fastmoss.com/e-commerce/detail/{pro
 # link (there's no confirmed way to build a direct TikTok Shop product URL
 # from a FastMoss product_id -- see docs/field_map.md).
 TIKTOK_SEARCH_URL_TEMPLATE = "https://www.tiktok.com/search?q={query}"
+# Confirmed 2026-10-15: tests/fixtures/fastmoss_video_search.json's own
+# linked_products carry this exact pattern as `tiktok_product_url` for every
+# product (e.g. product_id 1731262278839865452 ->
+# ".../shop/pdp/1731262278839865452?source=product_detail") -- a real,
+# already-fetched FastMoss field, not a guess, so the direct-link gap the
+# comment above describes turned out to already be solved.
+TIKTOK_SHOP_URL_TEMPLATE = "https://www.tiktok.com/shop/pdp/{product_id}"
 
 
 def tiktok_search_url(clean_product_title: str) -> str:
     return TIKTOK_SEARCH_URL_TEMPLATE.format(query=urllib.parse.quote(clean_product_title))
+
+
+def tiktok_shop_url(product_id: str) -> str:
+    return TIKTOK_SHOP_URL_TEMPLATE.format(product_id=product_id)
 
 # Dry-run only has Phase 0's real fixtures for one category (shapewear) -- it
 # proves the pipeline wiring works end to end on real-shaped data at zero
@@ -1117,6 +1128,7 @@ def picks_to_export_dicts(
                 "summary_en": join_reasons_as_sentence(summary_reasons_en, "en"),
                 "videos": _video_card_dicts(p.get("videos"), limit=3),
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=p["product_id"]),
+                "tiktok_shop_url": tiktok_shop_url(p["product_id"]),
                 # Part C (added 2026-10-15): the Hoy tab needs each pick's
                 # hashtags/best hook without an extra per-product fetch.
                 # Computed from the full video list, not the 3-card limit
@@ -1185,6 +1197,7 @@ def product_detail_dict(
         "is_pick": is_pick,
         "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=cand["product_id"]),
         "tiktok_search_url": tiktok_search_url(clean),
+        "tiktok_shop_url": tiktok_shop_url(cand["product_id"]),
         "videos": _video_card_dicts(videos, limit=6) if has_enrichment else [],
         "formula_ganadora": formula_ganadora_dict(videos, creator_sweet_spot_seconds) if has_enrichment and videos else None,
         "saturation_badge": (
@@ -1264,6 +1277,7 @@ def candidates_to_export_dicts(
                 "suspicious": False,
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=r["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
+                "tiktok_shop_url": tiktok_shop_url(r["product_id"]),
                 "saturation_badge": _saturation_dict(
                     r["daily_units_14"] if isinstance(r["daily_units_14"], list) else None,
                     int(r["creator_count"]) if pd.notna(r.get("creator_count")) else None,
@@ -1314,6 +1328,7 @@ def candidates_to_export_dicts(
                 "suspicious_reasons": c["suspicious_reasons"],
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
+                "tiktok_shop_url": tiktok_shop_url(c["product_id"]),
                 "saturation_badge": None,
                 "spanish_share": None,
                 "pocas_creadoras_latinas": False,

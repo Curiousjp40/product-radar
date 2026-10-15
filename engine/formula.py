@@ -110,13 +110,32 @@ def extract_hook(caption_text: str) -> str:
     return " ".join(cleaned.split())
 
 
+def _is_quality_hook(text: str) -> bool:
+    """Filters out junk "hooks" (added 2026-10-15): fewer than 3 words
+    ("Love", "So good"), or no actual letters at all (pure emoji/hashtag
+    remnants/punctuation) -- these showed up as suggested hooks on the Hoy
+    tab and read as useless noise, not something she could say on camera."""
+    if not text:
+        return False
+    if len(text.split()) < 3:
+        return False
+    return any(ch.isalpha() for ch in text)
+
+
 def top_hooks(videos: list[dict], limit: int = 3) -> list[str]:
-    """The hook (extract_hook) of the top `limit` videos' captions. `videos`
-    must already be ranked by sales (engine.normalize.rank_videos_by_sales)
-    -- this takes them in order, it doesn't re-rank. Skips a video whose
-    cleaned hook comes out empty rather than showing a blank line."""
-    hooks = [extract_hook(v.get("caption_text", "")) for v in videos[:limit]]
-    return [h for h in hooks if h]
+    """The hook (extract_hook) of the best `limit` QUALITY captions, scanning
+    `videos` in order. `videos` must already be ranked by sales
+    (engine.normalize.rank_videos_by_sales) -- this never re-ranks, it just
+    keeps looking past a junk or empty hook instead of stopping at the first
+    `limit` videos regardless of whether their hooks are any good."""
+    hooks: list[str] = []
+    for v in videos:
+        hook = extract_hook(v.get("caption_text", ""))
+        if _is_quality_hook(hook):
+            hooks.append(hook)
+        if len(hooks) >= limit:
+            break
+    return hooks
 
 
 def formula_ganadora_dict(videos: list[dict], creator_sweet_spot_seconds: tuple[int, int]) -> dict:

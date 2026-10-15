@@ -2,7 +2,7 @@
   "schema_version": 1,
   "product_id": "1732723156599214979",
   "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
-  "clean_title": "Comfrt",
+  "clean_title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck",
   "image_url": "/img/product_1732723156599214979.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
@@ -34,7 +34,8 @@
   ],
   "is_pick": true,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
-  "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt",
+  "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt%20%7C%20Teddy%20Full%20Zip%20Jacket%7C%20Plush%20High-Pile%20Jacket%20With%20Mock%20Neck",
+  "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732723156599214979",
   "videos": [
     {
       "video_id": "7693924872270925087",
@@ -135,11 +136,7 @@
       "hour_start": 9,
       "hour_end": 11
     },
-    "top_hooks": [
-      "Love",
-      "Love",
-      "LOVE"
-    ]
+    "top_hooks": []
   },
   "saturation_badge": {
     "level": "normal",

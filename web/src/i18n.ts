@@ -55,6 +55,8 @@ const dict: Record<string, { es: string; en: string }> = {
   hooks_label: { es: "Ganchos que funcionan", en: "Hooks that work" },
   // "Hoy" tab (Part C, added 2026-10-15).
   hoy_title: { es: "Qué grabo hoy", en: "What to film today" },
+  hoy_hero_label: { es: "Grábalo primero", en: "Film this first" },
+  hoy_also_good_title: { es: "También te conviene", en: "Also good" },
   hoy_empty: {
     es: "No hay productos nuevos que grabar hoy. ¡Buen trabajo!",
     en: "No new products to film today. Nice work!",
@@ -180,6 +182,14 @@ const dict: Record<string, { es: string; en: string }> = {
   product_col: { es: "Producto", en: "Product" },
   status_col: { es: "Estado", en: "Status" },
   open_in_fastmoss: { es: "Ver en FastMoss", en: "View on FastMoss" },
+  open_in_tiktok_shop: { es: "Ver en TikTok Shop", en: "Open in TikTok Shop" },
+  search_products_placeholder: { es: "Buscar por nombre o tienda...", en: "Search by name or shop..." },
+  request_sample_button: { es: "Pedir muestra", en: "Request sample" },
+  sample_requested_label: { es: "Muestra solicitada", en: "Sample requested" },
+  commission_open_note: {
+    es: "Comisión abierta según la ficha de la tienda. A veces las tiendas ofrecen más por invitación.",
+    en: "Open commission from the shop's listing. Shops sometimes offer more by invite.",
+  },
   sold_this_week: { es: "Vendidos esta semana", en: "Sold this week" },
   total_sales: { es: "Ventas totales", en: "Total sales" },
   creators_selling: { es: "Creadoras vendiéndolo", en: "Creators selling it" },

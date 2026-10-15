@@ -1,4 +1,4 @@
-import type { Sample } from "./samplesLogic";
+import { defaultPostByDate, type Sample } from "./samplesLogic";
 
 /** Sample tracker storage, saved in this browser's localStorage (Part D,
  * added 2026-10-15) -- same per-browser, try/catch-everywhere pattern as
@@ -51,4 +51,31 @@ export function deleteSample(id: string): void {
 
 export function newSampleId(): string {
   return `sample_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+/** "Requested sample" button, available on every product (Today, Esta
+ * semana, Todos, product page) -- moves it into the Muestras pipeline as a
+ * received sample today, value defaulting to the product's own price (she
+ * can edit it later if the real sample value differs). True "requested but
+ * not yet received" isn't a tracked status (see samplesLogic.ts's
+ * SampleStatus) -- "received today" is the closest real stage and gets her
+ * post-by countdown started right away. */
+export function requestSample(productId: string, name: string, priceUsd: number, today: Date): Sample {
+  const dateReceived = today.toISOString().slice(0, 10);
+  const sample: Sample = {
+    id: newSampleId(),
+    product_id: productId,
+    name,
+    date_received: dateReceived,
+    value_usd: priceUsd,
+    post_by_date: defaultPostByDate(dateReceived),
+    notes: "",
+    status: "received",
+  };
+  upsertSample(sample);
+  return sample;
+}
+
+export function hasRequestedSample(productId: string): boolean {
+  return getAllSamples().some((s) => s.product_id === productId);
 }

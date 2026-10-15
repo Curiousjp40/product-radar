@@ -33,16 +33,40 @@ def test_clean_title_respects_max_words():
     assert clean_title("one two three four five six seven eight", max_words=6) == "one two three four five six"
 
 
+def test_clean_title_falls_back_when_first_segment_is_brand_only():
+    # real case: "Comfrt" alone before the next separator is unreadable on
+    # its own -- falls back to a longer cut of the full title instead.
+    title = "Comfrt Original Scuff Pillow Slippers for Women and Men Fuzzy House Slippers, Soft Cushioned"
+    cleaned = clean_title(title)
+    assert cleaned.startswith("Comfrt")
+    assert len(cleaned.split()) >= 3
+
+
+def test_clean_title_falls_back_when_first_segment_is_a_size_spec():
+    # real case: the first segment ends up being pure digits/quotes once
+    # brackets are stripped -- falls back to the full title so real words
+    # (brand, product type) show up instead of just dimensions.
+    title = '[MRH] 10"12"14" -Inch Twin Full Queen King Mattress Topper Protector'
+    cleaned = clean_title(title)
+    assert "MRH" in cleaned
+    assert any(w.isalpha() and len(w) > 2 for w in cleaned.split())
+
+
+def test_clean_title_never_returns_pure_junk():
+    assert clean_title('10" 12" 14"') == '10" 12" 14"'  # no real words anywhere -- last resort is the title itself
+
+
 def test_join_reasons_as_sentence_two_fragments_real_example():
     # the real motivating case: each fragment is already a complete sentence
     sentence = join_reasons_as_sentence(
-        ["Tus ventas subieron 31% esta semana.", "Buen momento antes de Black Friday (faltan 44 días)."], "es"
+        ["Las ventas de este producto subieron 31% esta semana.", "Buen momento antes de Black Friday (faltan 44 días)."], "es"
     )
-    assert sentence == "Tus ventas subieron 31% esta semana. Buen momento antes de Black Friday (faltan 44 días)."
+    assert sentence == "Las ventas de este producto subieron 31% esta semana. Buen momento antes de Black Friday (faltan 44 días)."
 
 
 def test_join_reasons_as_sentence_one_fragment():
-    assert join_reasons_as_sentence(["Tus ventas subieron 27% esta semana."], "es") == "Tus ventas subieron 27% esta semana."
+    fragment = "Las ventas de este producto subieron 27% esta semana."
+    assert join_reasons_as_sentence([fragment], "es") == fragment
 
 
 def test_join_reasons_as_sentence_empty():

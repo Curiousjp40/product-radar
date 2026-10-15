@@ -298,9 +298,15 @@ def build_top10(
 # join_reasons_as_sentence just space-joins up to two of these as-is, so
 # each one must stand alone, punctuation included.
 _REASON_TEMPLATES = {
-    ("momentum", "es"): "Tus ventas subieron {pct:.0f}% esta semana.",
-    ("momentum", "en"): "Your sales went up {pct:.0f}% this week.",
-    ("earnings", "es"): "Pagas ~${amount:.2f} por venta.",
+    # "Tus ventas"/"Your sales" (fixed 2026-10-15) wrongly implied this was
+    # Roxie's own sales history -- it's market-wide units_7d growth for this
+    # product (wow/slope14), not anything she's actually sold.
+    ("momentum", "es"): "Las ventas de este producto subieron {pct:.0f}% esta semana.",
+    ("momentum", "en"): "Sales of this product went up {pct:.0f}% this week.",
+    # "Pagas" (fixed 2026-10-15) said "you PAY ~$X per sale" -- backwards
+    # from what it meant (her commission earned per sale) and from the
+    # English version it was supposed to match.
+    ("earnings", "es"): "Ganas ~${amount:.2f} por venta.",
     ("earnings", "en"): "You earn ~${amount:.2f} per sale.",
     ("spanish_gap", "es"): "Pocas creadoras hablan de esto en español ({n} de {total} videos).",
     ("spanish_gap", "en"): "Few Spanish-speaking creators are talking about this ({n} of {total} videos).",

@@ -4,6 +4,7 @@ import { getAllFeedback, getAllStatuses, setStatus } from "../pipeline";
 import type { ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
+import { hasRequestedSample, requestSample } from "../samples";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -48,10 +49,16 @@ function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean):
 
 // H2 combos: shown above the split view when at least one complementary
 // category pair both have a pick this week.
-function combosHtml(picks: Pick[], comboPairs: ComboPair[], lang: Lang): string {
+function combosHtml(
+  picks: Pick[],
+  comboPairs: ComboPair[],
+  categoryFitKeywords: Record<string, string[]>,
+  lang: Lang,
+): string {
   const combos = findCombos(
     picks.map((p) => ({ product_id: p.product_id, category: p.category, clean_title: p.clean_title, earnings_per_sale: p.earnings_per_sale })),
     comboPairs,
+    categoryFitKeywords,
   );
   if (combos.length === 0) return "";
   return `
@@ -142,10 +149,20 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
           : ""
       }
       <div class="card-actions week-detail-actions">
+        <a class="btn-primary" href="${pick.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+        <button
+          type="button"
+          class="btn-request-sample ${hasRequestedSample(pick.product_id) ? "active" : ""}"
+          data-action="request-sample"
+          data-product-id="${pick.product_id}"
+          data-price="${pick.price}"
+          data-name="${pick.clean_title.replace(/"/g, "&quot;")}"
+          ${hasRequestedSample(pick.product_id) ? "disabled" : ""}
+        >${hasRequestedSample(pick.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
         <button type="button" class="btn-save-pill ${saved ? "active" : ""}" data-action="shortlist" aria-label="${t("save_to_list", lang)}">
           <span aria-hidden="true">${saved ? "♥" : "♡"}</span> ${saved ? t("guardado_label", lang) : t("guardar_button", lang)}
         </button>
-        <a class="btn-primary" href="#/product/${pick.product_id}">${t("ver_todos_detalles_button", lang)}</a>
+        <a class="btn-save-pill" href="#/product/${pick.product_id}">${t("ver_todos_detalles_button", lang)}</a>
       </div>
     </div>
   `;
@@ -170,6 +187,12 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
       void setStatus(productId, "shortlisted");
       renderDetail(productId);
       btn.blur();
+    });
+    detailEl.querySelector<HTMLButtonElement>('[data-action="request-sample"]')?.addEventListener("click", (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      const { price, name } = btn.dataset;
+      requestSample(productId, name ?? "", Number(price) || 0, new Date());
+      renderDetail(productId);
     });
     const copyBtn = detailEl.querySelector<HTMLButtonElement>(".copy-hashtags-btn");
     copyBtn?.addEventListener("click", () => {
@@ -208,7 +231,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
   const firstId = data.picks[0].product_id;
   container.innerHTML = `
     ${banner}
-    ${combosHtml(data.picks, hooks.combo_pairs, lang)}
+    ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
     <div class="week-split">
       <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, dismissed.has(p.product_id), p.product_id === firstId)).join("")}</div>
       <div class="week-detail"></div>

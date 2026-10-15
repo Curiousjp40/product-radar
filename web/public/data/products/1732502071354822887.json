@@ -35,6 +35,7 @@
   "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732502071354822887",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Handmade%20Crochet%20Flowers%20Bouquet%20Halloween%20Gift",
+  "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732502071354822887",
   "videos": [
     {
       "video_id": "7689468490343795982",
@@ -151,7 +152,9 @@
       "hour_start": 9,
       "hour_end": 11
     },
-    "top_hooks": []
+    "top_hooks": [
+      "So obviously they\u2019re in her boo basket."
+    ]
   },
   "saturation_badge": {
     "level": "normal",

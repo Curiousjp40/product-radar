@@ -5,7 +5,7 @@ import { bestCategoryForGoal, earningsProgress, earningsThisMonth, videosNeeded 
 import { t, type Lang } from "../i18n";
 import { getAllStatuses, setStatus } from "../pipeline";
 import { productsToFilmToday } from "../rotation";
-import { getAllSamples } from "../samples";
+import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
 import type { HooksFile, Pick } from "../types";
 import { countdownText, daysUntil } from "./season";
@@ -30,32 +30,15 @@ async function seasonCountdownHtml(lang: Lang): Promise<string> {
   return `<p class="hoy-season-countdown">${label}: ${countdownText(next, lang)}</p>`;
 }
 
-function hookSectionHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang): string {
-  const realHook = pick.formula_ganadora?.top_hooks[0];
+function bestHook(pick: Pick, hooks: HooksFile, today: Date, lang: Lang): string {
+  const real = pick.formula_ganadora?.top_hooks[0];
+  if (real) return real;
   const templates = hooks.hooks[pick.category]?.[lang] ?? [];
-  const template = pickForToday(templates, today);
-  return `
-    <div class="hoy-hook">
-      ${realHook ? `<p class="hoy-hook-real"><span class="formula-label">${t("suggested_hook_label", lang)}</span> &ldquo;${realHook}&rdquo;</p>` : ""}
-      ${template ? `<p class="hoy-hook-template"><span class="formula-label">${t("template_hook_label", lang)}</span> &ldquo;${template}&rdquo;</p>` : ""}
-    </div>
-  `;
+  return pickForToday(templates, today) ?? "";
 }
 
-function shotListHtml(pick: Pick, hooks: HooksFile, lang: Lang): string {
-  const archetype = hooks.category_to_shot_list[pick.category];
-  const steps = archetype ? (hooks.shot_lists[archetype]?.[lang] ?? []) : [];
-  if (steps.length === 0) return "";
-  return `
-    <div class="hoy-shot-list">
-      <span class="formula-label">${t("shot_list_label", lang)}</span>
-      <ol>${steps.map((s) => `<li>${s}</li>`).join("")}</ol>
-    </div>
-  `;
-}
-
-function hashtagsHtml(pick: Pick, lang: Lang): string {
-  const tags = (pick.formula_ganadora?.top_hashtags ?? []).slice(0, 5);
+function hashtagsHtml(pick: Pick, lang: Lang, limit: number): string {
+  const tags = (pick.formula_ganadora?.top_hashtags ?? []).slice(0, limit);
   if (tags.length === 0) return "";
   return `
     <div class="hoy-hashtags">
@@ -68,32 +51,85 @@ function hashtagsHtml(pick: Pick, lang: Lang): string {
   `;
 }
 
-function cardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed: boolean): string {
-  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+function shotListDetailsHtml(pick: Pick, hooks: HooksFile, lang: Lang): string {
+  const archetype = hooks.category_to_shot_list[pick.category];
+  const steps = archetype ? (hooks.shot_lists[archetype]?.[lang] ?? []) : [];
+  if (steps.length === 0) return "";
   return `
-    <article class="pick-card hoy-card" data-product-id="${pick.product_id}">
+    <details class="hoy-shot-list-details">
+      <summary>${t("shot_list_label", lang)}</summary>
+      <ol>${steps.map((s) => `<li>${s}</li>`).join("")}</ol>
+    </details>
+  `;
+}
+
+function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
+  const requested = hasRequestedSample(pick.product_id);
+  return `
+    <div class="card-actions">
+      <a class="btn-primary" href="${pick.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+      <a class="btn-save-pill" href="#/product/${pick.product_id}">${t("see_selling_videos_button", lang)}</a>
+      <button
+        type="button"
+        class="btn-mark-filmed ${filmed ? "active" : ""}"
+        data-action="mark-filmed"
+        data-product-id="${pick.product_id}"
+        ${filmed ? "disabled" : ""}
+      >${filmed ? t("marked_filmed_label", lang) : t("mark_filmed_button", lang)}</button>
+      <button
+        type="button"
+        class="btn-request-sample ${requested ? "active" : ""}"
+        data-action="request-sample"
+        data-product-id="${pick.product_id}"
+        data-price="${pick.price}"
+        data-name="${pick.clean_title.replace(/"/g, "&quot;")}"
+        ${requested ? "disabled" : ""}
+      >${requested ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
+    </div>
+  `;
+}
+
+// The hero: one big "film this today" pick -- photo, earnings, the one
+// reason it's the pick, the best hook, hashtags, shot list behind a tap.
+function heroHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed: boolean): string {
+  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+  const why = lang === "es" ? pick.summary_es : pick.summary_en;
+  const hook = bestHook(pick, hooks, today, lang);
+  return `
+    <article class="hoy-hero" data-product-id="${pick.product_id}">
+      <a class="hoy-hero-photo-link" href="#/product/${pick.product_id}">
+        ${pick.image_url ? `<img class="hoy-hero-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="hoy-hero-photo hoy-hero-photo-placeholder"></div>`}
+      </a>
+      <div class="hoy-hero-body">
+        <span class="hoy-hero-eyebrow">${t("hoy_hero_label", lang)}</span>
+        <h3 class="hoy-hero-title">${pick.clean_title}</h3>
+        <div class="hoy-hero-earn">${earnLine}</div>
+        ${why ? `<p class="hoy-hero-why">${why}</p>` : ""}
+        ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
+        ${hashtagsHtml(pick, lang, 5)}
+        ${shotListDetailsHtml(pick, hooks, lang)}
+        ${actionButtons(pick, lang, filmed)}
+      </div>
+    </article>
+  `;
+}
+
+// "Also good" -- smaller, condensed versions of the same card.
+function alsoGoodCardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed: boolean): string {
+  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+  const hook = bestHook(pick, hooks, today, lang);
+  return `
+    <article class="pick-card hoy-also-good" data-product-id="${pick.product_id}">
       <a class="card-photo-link" href="#/product/${pick.product_id}">
         ${pick.image_url ? `<img class="card-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
       </a>
       <div class="card-body">
         <h3 class="card-title">${pick.clean_title}</h3>
         <div class="card-earn">${earnLine}</div>
-        ${hookSectionHtml(pick, hooks, today, lang)}
-        ${shotListHtml(pick, hooks, lang)}
-        <div class="formula-section">
-          <span class="formula-label">${t("video_duration_label", lang)}</span>
-          <div class="formula-value">${t("video_duration_range", lang, { lo: 13, hi: 30 })}</div>
-        </div>
-        ${hashtagsHtml(pick, lang)}
-        <div class="card-actions">
-          <a class="btn-primary" href="#/product/${pick.product_id}">${t("see_selling_videos_button", lang)}</a>
-          <button
-            type="button"
-            class="btn-mark-filmed ${filmed ? "active" : ""}"
-            data-action="mark-filmed"
-            ${filmed ? "disabled" : ""}
-          >${filmed ? t("marked_filmed_label", lang) : t("mark_filmed_button", lang)}</button>
-        </div>
+        ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
+        ${hashtagsHtml(pick, lang, 3)}
+        ${shotListDetailsHtml(pick, hooks, lang)}
+        ${actionButtons(pick, lang, filmed)}
       </div>
     </article>
   `;
@@ -204,6 +240,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const todaysIds = productsToFilmToday(allPickIds, today, postedIds);
   const byId = new Map(picksData.picks.map((p) => [p.product_id, p]));
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
+  const [hero, ...rest] = todaysPicks;
 
   const seasonHtml = await seasonCountdownHtml(lang);
   const samplesBanner = hasUrgentSamples(getAllSamples(), today)
@@ -217,22 +254,37 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ${goalCardHtml(lang, picksData.picks, today)}
     ${seasonHtml}
     ${
-      todaysPicks.length === 0
+      !hero
         ? `<p class="empty-state">${t("hoy_empty", lang)}</p>`
-        : `<div class="card-grid hoy-card-list">${todaysPicks.map((p) => cardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed")).join("")}</div>`
+        : `${heroHtml(hero, hooks, today, lang, statuses[hero.product_id] === "filmed")}
+           ${
+             rest.length > 0
+               ? `<h3 class="hoy-also-good-title">${t("hoy_also_good_title", lang)}</h3>
+                  <div class="card-grid hoy-also-good-list">${rest.map((p) => alsoGoodCardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed")).join("")}</div>`
+               : ""
+           }`
     }
   `;
 
   wireGoalCard(container, () => void renderHoy(container, lang));
 
-  container.querySelectorAll<HTMLElement>(".hoy-card").forEach((card) => {
-    const productId = card.dataset.productId!;
-    card.querySelector('[data-action="mark-filmed"]')?.addEventListener("click", (e) => {
-      const btn = e.currentTarget as HTMLButtonElement;
+  container.querySelectorAll<HTMLButtonElement>('[data-action="mark-filmed"]').forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const productId = btn.dataset.productId!;
       btn.classList.add("active");
       btn.textContent = t("marked_filmed_label", lang);
       btn.disabled = true;
       void setStatus(productId, "filmed");
+    });
+  });
+  container.querySelectorAll<HTMLButtonElement>('[data-action="request-sample"]').forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const { productId, price, name } = btn.dataset;
+      if (!productId) return;
+      requestSample(productId, name ?? "", Number(price) || 0, today);
+      btn.textContent = t("sample_requested_label", lang);
+      btn.classList.add("active");
+      btn.disabled = true;
     });
   });
   container.querySelectorAll<HTMLButtonElement>(".copy-hashtags-btn").forEach((btn) => {
