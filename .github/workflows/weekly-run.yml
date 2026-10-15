@@ -6,8 +6,8 @@ name: Weekly run
 # firing at 5:15 AM local once EST started 2026-11-01). Two schedules, one
 # for each UTC offset ET ever uses; BOTH fire every Monday, so the first
 # step below is the real gate -- it only lets the rest of the job run when
-# today's actual America/New_York hour is 6, i.e. only the cron that
-# matches the current DST offset proceeds. The other one's run shows as
+# the cron that fired matches today's America/New_York UTC offset (-0400
+# EDT / -0500 EST), so a late-starting run still proceeds. The other one's run shows as
 # "skipped", not failed. workflow_dispatch (manual runs) always proceeds.
 on:
   schedule:
@@ -30,13 +30,18 @@ jobs:
             echo "proceed=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          hour=$(TZ=America/New_York date +%H)
-          echo "Current America/New_York hour: $hour"
-          if [ "$hour" = "06" ]; then
+          # Gate on WHICH cron fired vs today's ET UTC offset, not on the
+          # current hour: scheduled runs can start 30-60+ min late, and an
+          # hour check would then skip BOTH crons and silently drop the week.
+          offset=$(TZ=America/New_York date +%z)
+          fired="${{ github.event.schedule }}"
+          echo "Cron that fired: '$fired'; America/New_York offset: $offset"
+          if { [ "$fired" = "15 10 * * 1" ] && [ "$offset" = "-0400" ]; } || \
+             { [ "$fired" = "15 11 * * 1" ] && [ "$offset" = "-0500" ]; }; then
             echo "proceed=true" >> "$GITHUB_OUTPUT"
           else
             echo "proceed=false" >> "$GITHUB_OUTPUT"
-            echo "Not 6 AM America/New_York (this is the other cron's DST offset) -- skipping the rest of this run."
+            echo "This cron is for the other DST offset -- skipping the rest of this run."
           fi
 
       - uses: actions/checkout@v4
