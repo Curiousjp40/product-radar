@@ -1,6 +1,7 @@
 import { t, type Lang } from "../i18n";
 
 const LINKS: { route: string; labelKey: string }[] = [
+  { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "buscar", labelKey: "nav_buscar_cuenta" },
   { route: "season", labelKey: "nav_season" },
   { route: "settings", labelKey: "nav_settings" },

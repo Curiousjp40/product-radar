@@ -980,3 +980,196 @@ select.status-select {
   color: #fff;
   cursor: default;
 }
+
+.hoy-samples-banner {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 12px;
+  background: #fde2e2;
+  color: var(--bad);
+  border-radius: 10px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------
+   "Muestras" tab (Part D, added 2026-10-15)
+   ------------------------------------------------------------------- */
+.add-sample-toggle {
+  display: block;
+  width: 100%;
+  margin: 4px 0 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.export-csv-btn {
+  display: block;
+  width: 100%;
+  margin: 0 0 12px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sample-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.sample-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.sample-form input,
+.sample-form select,
+.sample-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: inherit;
+}
+
+.sample-form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.sample-form-actions .btn-primary {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  flex: 0 0 auto;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sample-row {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+}
+
+.sample-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.sample-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.sample-meta {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.sample-notes {
+  margin: 6px 0 0;
+  font-size: 0.8rem;
+}
+
+.sample-tiktok-link {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: var(--accent-2);
+  word-break: break-all;
+}
+
+.sample-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.sample-status-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  flex: 1;
+}
+
+.btn-sample-advance {
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.btn-sample-delete {
+  border: none;
+  background: transparent;
+  color: var(--bad);
+  font-size: 0.75rem;
+  padding: 6px 4px;
+  cursor: pointer;
+}
+
+.urgency-badge {
+  flex: 0 0 auto;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.urgency-overdue {
+  background: var(--bad);
+  color: #fff;
+}
+
+.urgency-due-soon {
+  background: var(--warn);
+  color: #fff;
+}

@@ -3,6 +3,8 @@ import { assetUrl } from "../asset";
 import { t, type Lang } from "../i18n";
 import { getAllStatuses, setStatus } from "../pipeline";
 import { productsToFilmToday } from "../rotation";
+import { getAllSamples } from "../samples";
+import { hasUrgentSamples } from "../samplesLogic";
 import type { HooksFile, Pick } from "../types";
 import { countdownText, daysUntil } from "./season";
 
@@ -111,10 +113,14 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
 
   const seasonHtml = await seasonCountdownHtml(lang);
+  const samplesBanner = hasUrgentSamples(getAllSamples(), today)
+    ? `<a class="hoy-samples-banner" href="#/muestras">${t("hoy_samples_banner", lang)}</a>`
+    : "";
 
   container.innerHTML = `
     ${banner}
     <h2 class="view-title">${t("hoy_title", lang)}</h2>
+    ${samplesBanner}
     ${seasonHtml}
     ${
       todaysPicks.length === 0
