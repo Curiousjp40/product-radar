@@ -1,6 +1,7 @@
 import { FastMossError, callFastMossTools } from "./mcp.js";
 import {
   cacheKeyFor,
+  countsAgainstQuota,
   creditGuardOk,
   dailyCountKey,
   isAllowedImageHost,
@@ -113,23 +114,23 @@ async function handleSearch(request, env) {
     return json({ error: "forbidden" }, 403);
   }
   if (request.method !== "POST") {
-    return json({ error: "method not allowed" }, 405);
+    return json({ error: "method_not_allowed" }, 405);
   }
 
   let body;
   try {
     body = await request.json();
   } catch {
-    return json({ error: "invalid JSON body" }, 400);
+    return json({ error: "invalid_json" }, 400);
   }
 
   if (typeof body.password !== "string" || body.password !== env.SEARCH_PASSWORD) {
-    return json({ error: "wrong password" }, 401);
+    return json({ error: "wrong_password" }, 401);
   }
 
   const handle = normalizeHandle(body.handle);
   if (!handle) {
-    return json({ error: "invalid handle" }, 400);
+    return json({ error: "invalid_handle" }, 400);
   }
 
   const now = new Date();
@@ -153,10 +154,10 @@ async function handleSearch(request, env) {
   }
 
   if (dailyCount >= dailyLimit) {
-    return json({ error: "daily_limit", message: `Ya usaste tus ${dailyLimit} búsquedas de hoy.` }, 429);
+    return json({ error: "daily_limit", params: { limit: dailyLimit } }, 429);
   }
   if (monthlyCount >= monthlyLimit) {
-    return json({ error: "monthly_limit", message: `Ya usaste tus ${monthlyLimit} búsquedas de este mes.` }, 429);
+    return json({ error: "monthly_limit", params: { limit: monthlyLimit } }, 429);
   }
 
   let balance;
@@ -166,21 +167,15 @@ async function handleSearch(request, env) {
     ]);
     balance = balanceResult?.balance?.available_credits;
   } catch (e) {
-    return json({ error: "fastmoss_unavailable", message: e.message }, 502);
+    return json({ error: "fastmoss_unavailable", detail: e.message }, 502);
   }
   if (typeof balance !== "number") {
-    return json({ error: "fastmoss_unavailable", message: "no balance in credit_usage_summary response" }, 502);
+    return json({ error: "fastmoss_unavailable", detail: "no balance in credit_usage_summary response" }, 502);
   }
 
   const { ok, floor } = creditGuardOk(balance - SEARCH_COST_CREDITS, PER_RUN_CREDIT_FLOOR, mondaysLeft);
   if (!ok) {
-    return json(
-      {
-        error: "credit_floor",
-        message: `No hay suficientes créditos de sobra (quedan ${balance}, hay que guardar al menos ${floor} para las corridas semanales).`,
-      },
-      429
-    );
+    return json({ error: "credit_floor", params: { balance, floor } }, 429);
   }
 
   let searchRaw;
@@ -189,14 +184,16 @@ async function handleSearch(request, env) {
       { tool: "creator_search", arguments: { keywords: handle, filter: { unique_id: handle } } },
     ]);
   } catch (e) {
-    return json({ error: "fastmoss_unavailable", message: e.message }, 502);
+    return json({ error: "fastmoss_unavailable", detail: e.message }, 502);
   }
 
   const creator = mapCreatorSearchResult(searchRaw);
   if (!creator) {
     await env.SEARCH_KV.put(cacheKey, JSON.stringify({ not_found: true }), { expirationTtl: NOT_FOUND_TTL_SECONDS });
-    await bumpCounters(env, dailyKey, monthlyKey, dailyCount, monthlyCount);
-    return json({ not_found: true, remaining_today: dailyLimit - dailyCount - 1, remaining_month: monthlyLimit - monthlyCount - 1 });
+    if (countsAgainstQuota("not_found")) {
+      await bumpCounters(env, dailyKey, monthlyKey, dailyCount, monthlyCount);
+    }
+    return json({ not_found: true, remaining_today: dailyLimit - dailyCount, remaining_month: monthlyLimit - monthlyCount });
   }
 
   let videosRaw;
@@ -221,7 +218,7 @@ async function handleSearch(request, env) {
       { tool: "creator_fans_distribution", arguments: { filter: { uid: creator.uid } } },
     ]);
   } catch (e) {
-    return json({ error: "fastmoss_unavailable", message: e.message }, 502);
+    return json({ error: "fastmoss_unavailable", detail: e.message }, 502);
   }
 
   const location = mapFansDistributionResult(fansRaw);

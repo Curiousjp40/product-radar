@@ -3,6 +3,7 @@ import { test } from "node:test";
 
 import {
   cacheKeyFor,
+  countsAgainstQuota,
   creditGuardOk,
   dailyCountKey,
   isAllowedImageHost,
@@ -180,4 +181,12 @@ test("mapFansDistributionResult extracts country/region distributions, flat or n
 test("mapFansDistributionResult tolerates an unconfirmed/empty response shape", () => {
   assert.deepEqual(mapFansDistributionResult({}), { country_distribution: [], region_distribution: [] });
   assert.deepEqual(mapFansDistributionResult(null), { country_distribution: [], region_distribution: [] });
+});
+
+test("countsAgainstQuota only counts a found result, not a dead end", () => {
+  // real case, 2026-10-15: a typo'd handle "roxm__" came back not_found but
+  // still spent 1 real credit on creator_search -- it must not also burn
+  // one of her 2-3 monthly search slots over a dead end.
+  assert.equal(countsAgainstQuota("found"), true);
+  assert.equal(countsAgainstQuota("not_found"), false);
 });

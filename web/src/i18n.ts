@@ -113,6 +113,16 @@ const dict: Record<string, { es: string; en: string }> = {
   search_failed: { es: "Algo salió mal. Intenta de nuevo.", en: "Something went wrong. Try again." },
   enter_password_prompt: { es: "Ingresa la contraseña para buscar cuentas:", en: "Enter the password to search accounts:" },
   wrong_password: { es: "Contraseña incorrecta.", en: "Wrong password." },
+  // {limit}/{balance}/{floor} filled in by t()'s simple {placeholder}
+  // substitution -- the Worker returns a machine code + numeric params,
+  // never prose, so these are the only place this text lives (added
+  // 2026-10-15, fixing EN mode showing Spanish error text).
+  error_daily_limit: { es: "Ya usaste tus {limit} búsquedas de hoy.", en: "You've already used your {limit} searches for today." },
+  error_monthly_limit: { es: "Ya usaste tus {limit} búsquedas de este mes.", en: "You've already used your {limit} searches for this month." },
+  error_credit_floor: {
+    es: "No hay suficientes créditos de sobra (quedan {balance}, hay que guardar al menos {floor} para las corridas semanales).",
+    en: "Not enough spare credits (balance {balance}, at least {floor} must stay reserved for the weekly runs).",
+  },
   followers_label: { es: "Seguidores", en: "Followers" },
   sales_28d_label: { es: "Ventas (28 días)", en: "Sales (28 days)" },
   videos_posted_label: { es: "Videos publicados", en: "Videos posted" },

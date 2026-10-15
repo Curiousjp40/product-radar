@@ -75,13 +75,32 @@ function searchWord(n: number, lang: Lang): string {
   return n === 1 ? "search" : "searches";
 }
 
+// Maps the Worker's machine error code (never prose -- see types.ts's
+// AccountSearchResult comment) to a fully bilingual message, computed at
+// RENDER time (not when the response arrives) so a language toggle after an
+// error still shows it correctly translated.
+function errorMessageFor(code: string | undefined, params: Record<string, number> | undefined, lang: Lang): string {
+  switch (code) {
+    case "wrong_password":
+      return t("wrong_password", lang);
+    case "daily_limit":
+      return t("error_daily_limit", lang, { limit: params?.limit ?? "" });
+    case "monthly_limit":
+      return t("error_monthly_limit", lang, { limit: params?.limit ?? "" });
+    case "credit_floor":
+      return t("error_credit_floor", lang, { balance: params?.balance ?? "", floor: params?.floor ?? "" });
+    default:
+      return t("search_failed", lang);
+  }
+}
+
 type ViewState =
   | { kind: "idle" }
   | { kind: "loading"; handle: string }
   | { kind: "result"; handle: string; data: AccountSearchResult }
   | { kind: "not_found"; handle: string }
   | { kind: "no_worker"; handle: string }
-  | { kind: "error"; handle: string; message: string };
+  | { kind: "error"; handle: string; code?: string; params?: Record<string, number> };
 
 let state: ViewState = { kind: "idle" };
 let remainingToday: number | null = null;
@@ -250,7 +269,7 @@ function renderBody(lang: Lang): string {
   } else if (state.kind === "not_found") {
     resultBlock = `<p class="empty-state">${t("account_not_found", lang)}</p>${freeButtonsHtml(handle, lang)}`;
   } else if (state.kind === "error") {
-    resultBlock = `<p class="empty-state">${state.message}</p>${freeButtonsHtml(handle, lang)}`;
+    resultBlock = `<p class="empty-state">${errorMessageFor(state.code, state.params, lang)}</p>${freeButtonsHtml(handle, lang)}`;
   } else if (state.kind === "result") {
     resultBlock = `
       ${freeButtonsHtml(handle, lang)}
@@ -299,7 +318,7 @@ async function runSearch(container: HTMLElement, lang: Lang, handle: string): Pr
 
     if (resp.status === 401) {
       setStoredPassword(null);
-      state = { kind: "error", handle, message: t("wrong_password", lang) };
+      state = { kind: "error", handle, code: "wrong_password" };
       render(container, lang);
       return;
     }
@@ -309,14 +328,14 @@ async function runSearch(container: HTMLElement, lang: Lang, handle: string): Pr
     remainingMonth = data.remaining_month ?? remainingMonth;
 
     if (!resp.ok) {
-      state = { kind: "error", handle, message: data.message || t("search_failed", lang) };
+      state = { kind: "error", handle, code: data.error, params: data.params };
     } else if (data.not_found) {
       state = { kind: "not_found", handle };
     } else {
       state = { kind: "result", handle, data };
     }
   } catch {
-    state = { kind: "error", handle, message: t("search_failed", lang) };
+    state = { kind: "error", handle };
   }
   render(container, lang);
 }

@@ -44,7 +44,7 @@ export async function renderPipeline(container: HTMLElement, lang: Lang): Promis
               (c) => `
             <tr data-product-id="${c.product_id}">
               <td>${c.title}</td>
-              <td>${c.category}</td>
+              <td>${lang === "es" ? c.category_label_es : c.category_label_en}</td>
               <td>
                 <select class="status-select">
                   ${STATUSES.map((s) => `<option value="${s}" ${statuses[c.product_id] === s ? "selected" : ""}>${t(`status_${s}`, lang)}</option>`).join("")}

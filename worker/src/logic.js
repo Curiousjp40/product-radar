@@ -63,6 +63,19 @@ export function searchLimitsFor(now, resetDate) {
   return { daily: 3, monthly: 15 };
 }
 
+/**
+ * Whether an outcome should burn one of the daily/monthly search slots
+ * (added 2026-10-15, real case: a typo'd handle "roxm__" came back
+ * not_found but still spent 1 real credit on creator_search alone -- the
+ * credit-floor guard already protects the overall budget regardless, so
+ * this is purely about not making a dead-end search cost her one of her
+ * precious 2-3 monthly lookups). A cache hit never reaches this at all
+ * (handleSearch returns before any counting decision); only "found" counts.
+ */
+export function countsAgainstQuota(outcome) {
+  return outcome === "found";
+}
+
 export function mapCreatorSearchResult(raw) {
   const row = raw?.list?.[0];
   if (!row) return null;

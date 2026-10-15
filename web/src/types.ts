@@ -221,6 +221,13 @@ export interface AccountSearchResult {
   not_found?: boolean;
   remaining_today?: number;
   remaining_month?: number;
+  // A machine code (e.g. "daily_limit", "credit_floor"), never prose --
+  // the Worker stays language-agnostic, web/src/views/buscarCuenta.ts maps
+  // code + params to an i18n string in whichever language the page is in
+  // (added 2026-10-15: the Worker previously hardcoded Spanish messages,
+  // which broke EN mode). `detail` is raw/technical (e.g. a FastMoss error
+  // string) and is never shown to the user, only useful for debugging.
   error?: string;
-  message?: string;
+  params?: Record<string, number>;
+  detail?: string;
 }
