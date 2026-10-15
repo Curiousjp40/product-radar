@@ -1,12 +1,18 @@
 name: Weekly run
 
-# Mon 6:15 AM ET during EDT (UTC-4) -- today's goal (first auto run 2026-10-19
-# EDT) uses 10:15 UTC. ET reverts to EST (UTC-5) on 2026-11-01 (DST ends), at
-# which point this cron needs to move to "15 11 * * 1" to keep firing at
-# 6:15 AM local -- GitHub Actions cron is always UTC, it does not follow DST.
+# Mon 6:15 AM America/New_York, year-round, despite GitHub Actions cron
+# always running in UTC and never following DST (added 2026-10-15, replacing
+# the single EDT-only cron this previously had -- that one would have kept
+# firing at 5:15 AM local once EST started 2026-11-01). Two schedules, one
+# for each UTC offset ET ever uses; BOTH fire every Monday, so the first
+# step below is the real gate -- it only lets the rest of the job run when
+# today's actual America/New_York hour is 6, i.e. only the cron that
+# matches the current DST offset proceeds. The other one's run shows as
+# "skipped", not failed. workflow_dispatch (manual runs) always proceeds.
 on:
   schedule:
-    - cron: "15 10 * * 1"
+    - cron: "15 10 * * 1" # 6:15 AM EDT (UTC-4), roughly mid-Mar to early Nov
+    - cron: "15 11 * * 1" # 6:15 AM EST (UTC-5), the rest of the year
   workflow_dispatch: {}
 
 permissions:
@@ -16,23 +22,45 @@ jobs:
   weekly-run:
     runs-on: ubuntu-latest
     steps:
+      - name: Only proceed at 6 AM America/New_York (DST-safe double-cron gate)
+        id: tz_gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run -- skipping the hour check."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          hour=$(TZ=America/New_York date +%H)
+          echo "Current America/New_York hour: $hour"
+          if [ "$hour" = "06" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Not 6 AM America/New_York (this is the other cron's DST offset) -- skipping the rest of this run."
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.tz_gate.outputs.proceed == 'true'
         with:
           ref: main
 
       - uses: actions/setup-python@v5
+        if: steps.tz_gate.outputs.proceed == 'true'
         with:
           python-version: "3.12"
 
       - name: Install engine
+        if: steps.tz_gate.outputs.proceed == 'true'
         run: pip install -e .
 
       - name: Run the real weekly pipeline
+        if: steps.tz_gate.outputs.proceed == 'true'
         env:
           FASTMOSS_API_KEY: ${{ secrets.FASTMOSS_API_KEY }}
         run: python -m engine.run --budget 75 --print-picks
 
       - name: Commit updated data
+        if: steps.tz_gate.outputs.proceed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -45,6 +73,7 @@ jobs:
           fi
 
       - name: Send the Spanish Monday digest
+        if: steps.tz_gate.outputs.proceed == 'true'
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
