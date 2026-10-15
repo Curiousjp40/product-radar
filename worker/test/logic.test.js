@@ -125,3 +125,30 @@ test("mapProductListResult tolerates an unconfirmed response shape without throw
   assert.equal(mapped[0].product_id, "1");
   assert.equal(mapped[0].units_sold, 3);
 });
+
+test("mapProductListResult falls back to floor_price/cover_url when price/image_url are absent", () => {
+  // the real case, 2026-10-15: a live @roxm___ search came back with
+  // units_sold/gmv/commission_rate_percent present but price and
+  // image_url both undefined -- product_rank_top_selling's confirmed
+  // field names (docs/field_map.md) are the best available fallback.
+  const mapped = mapProductListResult({
+    list: [{ product_id: "1", title: "Thing", floor_price: 24.99, cover_url: "https://x/img.jpg", units_sold: 3, gmv: 74.97, commission_rate_percent: 15 }],
+  });
+  assert.equal(mapped[0].price, 24.99);
+  assert.equal(mapped[0].image_url, "https://x/img.jpg");
+});
+
+test("mapProductListResult builds a price range when floor and ceiling differ", () => {
+  const mapped = mapProductListResult({ list: [{ product_id: "1", title: "Thing", floor_price: 20, ceiling_price: 30 }] });
+  assert.equal(mapped[0].price, "20-30");
+});
+
+test("mapProductListResult checks a nested product/shop object too", () => {
+  const mapped = mapProductListResult({
+    list: [{ product: { product_id: "1", title: "Nested Thing", floor_price: 5, cover_url: "https://x/nested.jpg" } }],
+  });
+  assert.equal(mapped[0].product_id, "1");
+  assert.equal(mapped[0].title, "Nested Thing");
+  assert.equal(mapped[0].price, 5);
+  assert.equal(mapped[0].image_url, "https://x/nested.jpg");
+});

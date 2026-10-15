@@ -42,6 +42,32 @@ function tiktokProfileUrl(handle: string): string {
   return `https://www.tiktok.com/@${handle}`;
 }
 
+function fastmossProductUrl(productId: string): string {
+  return `https://www.fastmoss.com/e-commerce/detail/${productId}`;
+}
+
+// price can be a number, a "$"-formatted string, a plain numeric string, or
+// a "low-high" range (worker/src/logic.js's mapProductListResult, still an
+// inferred field mapping -- see its comment) -- always degrade to an em
+// dash rather than ever rendering "$undefined" (the real bug this fixes).
+function formatPrice(price: number | string | null | undefined): string {
+  if (price === null || price === undefined) return "—";
+  if (typeof price === "number") return `$${price.toFixed(2)}`;
+  const trimmed = price.trim();
+  if (trimmed.startsWith("$")) return trimmed;
+  if (trimmed.includes("-")) {
+    const [lo, hi] = trimmed.split("-").map((p) => Number(p.trim()));
+    if (Number.isFinite(lo) && Number.isFinite(hi)) return `$${lo.toFixed(2)} - $${hi.toFixed(2)}`;
+  }
+  const num = Number(trimmed);
+  return Number.isFinite(num) ? `$${num.toFixed(2)}` : "—";
+}
+
+function searchWord(n: number, lang: Lang): string {
+  if (lang === "es") return n === 1 ? "búsqueda" : "búsquedas";
+  return n === 1 ? "search" : "searches";
+}
+
 type ViewState =
   | { kind: "idle" }
   | { kind: "loading"; handle: string }
@@ -69,7 +95,18 @@ function freeButtonsHtml(handle: string, lang: Lang): string {
 
 function remainingHtml(lang: Lang): string {
   if (remainingToday === null || remainingMonth === null) return "";
-  return `<p class="search-remaining">${t("searches_remaining", lang, { today: remainingToday, month: remainingMonth })}</p>`;
+  // When the monthly cap is the binding constraint (e.g. the tightened
+  // 2/month phase until the Nov 15 reset), a separate "today" number
+  // would overstate what's really left -- just state the real limit.
+  const text =
+    remainingMonth <= remainingToday
+      ? lang === "es"
+        ? `Te quedan ${remainingMonth} ${searchWord(remainingMonth, lang)} este mes.`
+        : `You have ${remainingMonth} ${searchWord(remainingMonth, lang)} left this month.`
+      : lang === "es"
+        ? `Te quedan ${remainingToday} ${searchWord(remainingToday, lang)} hoy, ${remainingMonth} este mes.`
+        : `You have ${remainingToday} ${searchWord(remainingToday, lang)} left today, ${remainingMonth} this month.`;
+  return `<p class="search-remaining">${text}</p>`;
 }
 
 function creatorStatsHtml(data: AccountSearchResult, lang: Lang): string {
@@ -96,17 +133,24 @@ function creatorStatsHtml(data: AccountSearchResult, lang: Lang): string {
   `;
 }
 
+function barRow(label: string, pct: number): string {
+  return `
+    <div class="bar-row">
+      <span class="bar-label">${label}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.min(Math.max(pct, 0), 100)}%"></div></div>
+      <span class="bar-pct">${pct.toFixed(0)}%</span>
+    </div>
+  `;
+}
+
 function audienceHtml(data: AccountSearchResult, lang: Lang): string {
   const c = data.creator;
   if (c.age_distribution.length === 0 && c.gender_distribution.length === 0) return "";
-  const ageRows = c.age_distribution.map((a) => `<tr><td>${a.age_range}</td><td>${a.percentage.toFixed(1)}%</td></tr>`).join("");
-  const genderRows = c.gender_distribution.map((g) => `<tr><td>${g.gender}</td><td>${g.percentage.toFixed(1)}%</td></tr>`).join("");
   return `
     <div class="insight-card">
       <h3>${t("audience_label", lang)}</h3>
-      <div class="table-scroll">
-        <table class="radar-table"><tbody>${ageRows}${genderRows}</tbody></table>
-      </div>
+      ${c.age_distribution.map((a) => barRow(a.age_range, a.percentage)).join("")}
+      ${c.gender_distribution.length > 0 ? `<div class="bar-group-gap"></div>${c.gender_distribution.map((g) => barRow(g.gender, g.percentage)).join("")}` : ""}
     </div>
   `;
 }
@@ -116,13 +160,16 @@ function topVideosHtml(data: AccountSearchResult, lang: Lang): string {
   return `
     <div class="insight-card">
       <h3>${t("top_videos_label", lang)}</h3>
-      <div class="search-video-list">
+      <div class="todos-list">
         ${data.top_videos
           .map(
             (v) => `
-          <a class="search-video-item" href="${v.tiktok_url ?? "#"}" target="_blank" rel="noopener">
-            <span class="search-video-caption">${v.caption_text.slice(0, 60) || "..."}</span>
-            <span class="search-video-stats">${formatCount(v.play_count)} ${t("views_short", lang)} &middot; ${v.video_units_sold} ${t("sales_short", lang)}</span>
+          <a class="todos-row" href="${v.tiktok_url ?? "#"}" target="_blank" rel="noopener">
+            <div class="photo video-photo-placeholder">&#9654;</div>
+            <div class="info">
+              <div class="name">${v.caption_text.slice(0, 50) || "..."}</div>
+              <div class="meta">${formatCount(v.play_count)} ${t("views_short", lang)} &middot; ${v.video_units_sold} ${t("sales_short", lang)}</div>
+            </div>
           </a>`
           )
           .join("")}
@@ -136,23 +183,19 @@ function topProductsHtml(data: AccountSearchResult, lang: Lang): string {
   return `
     <div class="insight-card">
       <h3>${t("top_products_label", lang)}</h3>
-      <div class="table-scroll">
-        <table class="radar-table">
-          <thead><tr><th></th><th>${t("price", lang)}</th><th>${t("units_label", lang)}</th><th>${t("commission", lang)}</th></tr></thead>
-          <tbody>
-            ${data.top_products
-              .map(
-                (p) => `
-              <tr>
-                <td>${p.image_url ? `<img class="row-photo" src="${p.image_url}" alt="" />` : ""} ${p.title.slice(0, 40)}</td>
-                <td>$${typeof p.price === "number" ? p.price.toFixed(2) : p.price}</td>
-                <td>${p.units_sold ?? "—"}</td>
-                <td>${p.commission_rate_percent != null ? `${p.commission_rate_percent}%` : "—"}</td>
-              </tr>`
-              )
-              .join("")}
-          </tbody>
-        </table>
+      <div class="todos-list">
+        ${data.top_products
+          .map(
+            (p) => `
+          <a class="todos-row" href="${fastmossProductUrl(p.product_id)}" target="_blank" rel="noopener">
+            ${p.image_url ? `<img class="photo" src="${p.image_url}" alt="" loading="lazy" />` : `<div class="photo"></div>`}
+            <div class="info">
+              <div class="name">${p.title.slice(0, 50)}</div>
+              <div class="meta">${formatPrice(p.price)} &middot; ${p.units_sold ?? "—"} ${t("units_sold_short", lang)} &middot; ${p.commission_rate_percent != null ? `${p.commission_rate_percent}%` : "—"}</div>
+            </div>
+          </a>`
+          )
+          .join("")}
       </div>
     </div>
   `;

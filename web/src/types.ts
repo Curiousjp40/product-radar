@@ -198,7 +198,11 @@ export interface AccountSearchProduct {
   product_id: string;
   title: string;
   image_url: string | null;
-  price: number;
+  // number, a "$"-formatted string, or a "low-high" range string, depending
+  // on which fallback field worker/src/logic.js's mapProductListResult
+  // matched (creator_product_list's exact shape is still unconfirmed) --
+  // web/src/views/buscarCuenta.ts's formatPrice handles all three.
+  price: number | string;
   units_sold: number;
   gmv: number;
   commission_rate_percent: number;

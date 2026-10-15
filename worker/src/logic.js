@@ -102,20 +102,39 @@ export function mapVideoAnalysisResult(raw) {
 }
 
 /**
- * creator_product_list's response shape isn't confirmed by a real fixture
- * yet (see PRODUCT_RADAR_SPEC follow-up: capture the first real response as
- * tests/fixtures/fastmoss_creator_product_list_*.json and tighten this).
- * Defensive `?.`/fallbacks only -- never invents a field that isn't there.
+ * A real @roxm___ search (2026-10-15) confirmed units_sold/gmv/
+ * commission_rate_percent all come through as plain top-level fields, but
+ * `price`/`image_url` did not -- creator_product_list's exact response
+ * shape still isn't confirmed by a raw fixture (capturing one costs a real
+ * call; see worker/test/fixtures/cached_search_result_roxm___.json's note).
+ * These two fall back through the field names confirmed on the sibling
+ * product_rank_top_selling tool (docs/field_map.md, engine/normalize.py's
+ * normalize_rank_row): `floor_price`/`ceiling_price` for price,
+ * `cover_url` for the image, each tried flat and nested under a `product`
+ * or `shop` sub-object in case creator_product_list groups fields the way
+ * creator_video_analysis's `linked_products` does. Still a best-effort
+ * inference, not a confirmed mapping -- renderPrice (web/src/views/
+ * buscarCuenta.ts) must degrade gracefully either way.
  */
+function firstDefined(...values) {
+  return values.find((v) => v !== undefined && v !== null);
+}
+
 export function mapProductListResult(raw) {
   const list = raw?.list || raw?.products || [];
-  return list.slice(0, 10).map((p) => ({
-    product_id: p.product_id,
-    title: p.title,
-    image_url: p.image_url || p.cover_url || null,
-    price: p.price,
-    units_sold: p.units_sold ?? p.sold_count,
-    gmv: p.gmv,
-    commission_rate_percent: p.commission_rate_percent,
-  }));
+  return list.slice(0, 10).map((p) => {
+    const product = p.product || p;
+    const shop = p.shop || {};
+    const price = firstDefined(p.price, p.floor_price, product.floor_price, p.price_range);
+    const priceMax = firstDefined(p.ceiling_price, product.ceiling_price);
+    return {
+      product_id: p.product_id ?? product.product_id,
+      title: p.title ?? product.title,
+      image_url: firstDefined(p.image_url, p.cover_url, product.cover_url, shop.cover_url) ?? null,
+      price: price !== undefined && priceMax !== undefined && priceMax !== price ? `${price}-${priceMax}` : price,
+      units_sold: p.units_sold ?? p.sold_count,
+      gmv: p.gmv,
+      commission_rate_percent: p.commission_rate_percent,
+    };
+  });
 }

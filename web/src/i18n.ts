@@ -33,7 +33,6 @@ const dict: Record<string, { es: string; en: string }> = {
   open_in_tiktok: { es: "Ver en TikTok", en: "Open in TikTok" },
   tiktok_videos_button: { es: "Ver videos en TikTok", en: "Watch videos on TikTok" },
   earn_headline: { es: "Ganas ${amount} por venta", en: "You earn ${amount} per sale" },
-  price: { es: "Precio", en: "Price" },
   commission: { es: "Comisión", en: "Commission" },
   per_sale: { es: "Por venta", en: "Per sale" },
   score: { es: "Puntaje", en: "Score" },
@@ -114,8 +113,6 @@ const dict: Record<string, { es: string; en: string }> = {
   search_failed: { es: "Algo salió mal. Intenta de nuevo.", en: "Something went wrong. Try again." },
   enter_password_prompt: { es: "Ingresa la contraseña para buscar cuentas:", en: "Enter the password to search accounts:" },
   wrong_password: { es: "Contraseña incorrecta.", en: "Wrong password." },
-  // {today}/{month} filled in by t()'s simple {placeholder} substitution.
-  searches_remaining: { es: "Te quedan {today} búsquedas hoy / {month} este mes.", en: "You have {today} searches left today / {month} this month." },
   followers_label: { es: "Seguidores", en: "Followers" },
   sales_28d_label: { es: "Ventas (28 días)", en: "Sales (28 days)" },
   videos_posted_label: { es: "Videos publicados", en: "Videos posted" },
