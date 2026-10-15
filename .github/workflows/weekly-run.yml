@@ -49,5 +49,10 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
-          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
-        run: python -m engine.digest
+          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL || 'https://curiousjp40.github.io/product-radar/' }}
+        run: |
+          if [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ -z "$DIGEST_TO" ]; then
+            echo "Gmail secrets not set yet; skipping the digest email."
+            exit 0
+          fi
+          python -m engine.digest

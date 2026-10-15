@@ -14,7 +14,7 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 
 ## People
 - Roxie (@roxm___): primary user, TikTok Shop affiliate creator.
-- Ari (@ariannamendoza04): benchmark creator; her data is used with permission and must stay private (dashboard behind login).
+- Ari (@ariannamendoza04): benchmark creator. The repo and site are public (Ryan's decision, 2026-10-15; the FastMoss data is publicly available anyway).
 - Ryan: repo owner.
 
 ## Status (updated 2026-10-15)
@@ -27,19 +27,18 @@ category-tagged "womens_clothing" by FastMoss, not "seasonal" -- see
 `creator_avg_category_gpm` floor so the category_fit reason never cites a
 below-average number as a selling point (`engine/fit.py`). 192 tests passing.
 
-Phase 4 code is built but NOT deployed yet: `.github/workflows/weekly-run.yml`
-(cron Mon 6:15 AM ET + manual trigger, runs the real pipeline, commits data,
-sends the digest), `engine/digest.py` (Spanish HTML/plain-text email via
-Gmail SMTP), and `web/functions/api/status.ts` + `web/migrations/0001_*.sql`
-(Cloudflare Pages Function + D1 schema for shared shortlist/feedback status,
-replacing the Phase 0a localStorage version in `web/src/pipeline.ts`). What's
-still manual, one-time, in the Cloudflare/GitHub dashboards: creating the
-Cloudflare account, D1 database, Pages project (connected to this repo, root
-directory `web`), Access policy (restricted to Ryan's and Roxie's emails),
-and the GitHub Actions secrets (`FASTMOSS_API_KEY`, `GMAIL_USER`,
-`GMAIL_APP_PASSWORD`, `DIGEST_TO`, `DASHBOARD_URL`). Not committed: Roxie's
-email address -- it only ever needs to exist as the `DIGEST_TO` GitHub
-secret, never in a tracked file.
+Hosting (decided 2026-10-15): public repo + public GitHub Pages site at
+https://curiousjp40.github.io/product-radar/ (no login, no Cloudflare).
+`.github/workflows/pages.yml` builds `web/` and deploys on pushes to main and
+after every "Weekly run". `.github/workflows/weekly-run.yml` (cron Mon 6:15 AM
+ET + manual trigger) runs the pipeline, commits data, and sends the Spanish
+digest via Gmail SMTP (`engine/digest.py`); the digest step skips itself
+until `GMAIL_USER`, `GMAIL_APP_PASSWORD` and `DIGEST_TO` secrets exist.
+"Mi lista" (`web/src/pipeline.ts`) saves in each browser's localStorage, so
+each device keeps its own list. Data files store images as `/img/...`; the
+site resolves them relative to the page (`web/src/asset.ts`) because Pages
+serves it from the `/product-radar/` sub-path. Secrets never go in the repo;
+Roxie's email exists only as the `DIGEST_TO` secret.
 
 Not started: Phase 3 (weekly learning loop re-fitting composite/momentum
 weights from outcome data) and Phase 5/6 per the spec -- there isn't outcome

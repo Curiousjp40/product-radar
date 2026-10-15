@@ -2,6 +2,7 @@ import { loadPicks } from "../api";
 import { t, type Lang } from "../i18n";
 import { getAllFeedback, getAllStatuses, setStatus } from "../pipeline";
 import type { Pick } from "../types";
+import { assetUrl } from "../asset";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -26,7 +27,7 @@ function renderCard(pick: Pick, lang: Lang, statuses: Record<string, string>, di
   return `
     <article class="pick-card" data-product-id="${pick.product_id}" style="${isDismissed ? "opacity:0.4" : ""}">
       <a class="card-photo-link" href="#/product/${pick.product_id}">
-        ${pick.image_url ? `<img class="card-photo" src="${pick.image_url}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
+        ${pick.image_url ? `<img class="card-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
       </a>
       <div class="card-body">
         <h3 class="card-title">${pick.clean_title}</h3>
@@ -43,7 +44,7 @@ function renderCard(pick: Pick, lang: Lang, statuses: Record<string, string>, di
                   .map(
                     (v) => `
                   <a class="video-thumb" href="${v.tiktok_url}" target="_blank" rel="noopener">
-                    ${v.cover_url ? `<img src="${v.cover_url}" alt="" loading="lazy" />` : `<div class="video-thumb-placeholder"></div>`}
+                    ${v.cover_url ? `<img src="${assetUrl(v.cover_url)}" alt="" loading="lazy" />` : `<div class="video-thumb-placeholder"></div>`}
                     <span class="video-views">${formatCount(v.play_count)} ${t("views_short", lang)}</span>
                   </a>`,
                   )

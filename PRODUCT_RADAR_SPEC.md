@@ -114,12 +114,12 @@ creators' own videos (FastMoss) ─► outcomes ─► learning (priors, weights
 | Engine | Python 3.12, `pandas`, `numpy`, `pydantic`, `pyyaml` | Easy, testable analytics |
 | FastMoss access | Remote MCP server via the official `mcp` Python SDK (Streamable HTTP), or the FastMoss CLI. Both share the same key and credit pool. Pick one in Phase 0. | No scraping; uses the paid plan |
 | Storage | SQLite (`data/radar.db`) for the engine; raw JSON snapshots per week in `data/snapshots/` | Simple, auditable, versioned |
-| Schedule | GitHub Actions cron in a **private** repo, plus manual `workflow_dispatch` | Free, reliable, no computer needs to be on |
+| Schedule | GitHub Actions cron, plus manual `workflow_dispatch` | Free, reliable, no computer needs to be on |
 | Dashboard | Static web app (Vite + TypeScript, no heavy framework needed) reading generated JSON | Fast on phones |
-| Hosting | Cloudflare Pages with Cloudflare Access email login, so only Ryan and Roxie (and Ari if wanted) can open it. Shortlist statuses stored in Cloudflare D1 through a small Pages Function API. | Private by default; GitHub Pages would make the site public |
+| Hosting | Public GitHub Pages site (https://curiousjp40.github.io/product-radar/), deployed by `.github/workflows/pages.yml`. Shortlist statuses saved per device in browser storage. | Free, simple; Ryan chose public (2026-10-15) |
 | Digest | Weekly email in Spanish (Resend or Gmail SMTP app password, stored as a secret) | She sees picks without opening anything |
 
-Decision to confirm with Ryan in Phase 4: Cloudflare (private, recommended) vs GitHub Pages (simpler, but public URL). If GitHub Pages is chosen, the dashboard must not include her personal sales numbers or shortlist.
+Decided 2026-10-15: public repo and public GitHub Pages site, no login. Secrets (FastMoss key, Gmail app password, Roxie's email) live only in GitHub Actions secrets and `.env`.
 
 ### 3.2 Repo layout
 
@@ -204,7 +204,7 @@ Defaults until she answers: targets = shapewear, women's clothing, home & decor,
 
 ---
 
-## 5. Data model (SQLite; mirror shortlist tables in D1)
+## 5. Data model (SQLite)
 
 ```sql
 products(product_id PK, title, image_url, category_l1, category_l2, shop_id, shop_name,
@@ -377,7 +377,7 @@ Rules: check balance first; hard cap 90 credits per run; skip the optional stage
 1. **Esta semana / This week:** Top 10 cards (image, name, price, commission %, $ per sale, stage badge, score, EV typical and upside, reasons). Buttons: "A mi lista" (shortlist) and "No es para mí" (feedback).
 2. **Radar:** all candidates in a sortable, filterable table (category, stage, price, commission, score, EV) with daily-sales sparklines.
 3. **Producto:** history across weeks (rank, units, creators), trend chart, saturation chart, top videos (links out), Spanish share, similar products.
-4. **Mi lista / Pipeline:** columns shortlisted, sample requested, sample received, filmed, posted, results (GMV at 7 and 28 days). Status changes save to D1.
+4. **Mi lista / Pipeline:** columns shortlisted, sample requested, sample received, filmed, posted, results (GMV at 7 and 28 days). Status changes save in the browser on each device.
 5. **Mis resultados:** her performance by category, length and month; predicted vs actual; hit rate; Ari benchmark.
 6. **Temporada:** event calendar with countdowns and film-by reminders.
 7. **Ajustes:** target and excluded categories, price range, minimum commission, weekly capacity, language, advanced weights (owner only), credits used this month.
@@ -389,7 +389,7 @@ Data contract: the engine writes `web/public/data/picks.json`, `candidates.json`
 ## 11. Automation, hosting, notifications
 
 - `.github/workflows/weekly.yml`: `cron: "15 10 * * 1"` (6:15 AM Eastern during daylight time, 5:15 AM in winter), plus `workflow_dispatch`. Steps: set up Python, run tests, `python -m engine.run`, commit `data/` and `web/public/data/`, deploy.
-- Secrets: `FASTMOSS_API_KEY`, `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, email credentials. Never echo secrets; mask the key inside any URL in logs.
+- Secrets: `FASTMOSS_API_KEY`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`, `DIGEST_TO` (optional `DASHBOARD_URL`). Never echo secrets; mask the key inside any URL in logs.
 - Failure handling: if FastMoss fails, retry with backoff (3 tries); if the run still fails, keep last week's dashboard and send a short "this week's update failed" email to Ryan with the error, without the key.
 - Digest email (Spanish first, English below): Top 10 with one line each, 3 rising to watch, 3 to skip, season countdown, credits used.
 
@@ -424,7 +424,7 @@ Data contract: the engine writes `web/public/data/picks.json`, `candidates.json`
 - Accept when: all pages render with fixture data, no horizontal scroll on phone, lighthouse accessibility 90+.
 
 **Phase 4: Automation and hosting**
-- Workflow, secrets, Cloudflare Pages + Access + D1 pipeline API, digest email.
+- Weekly workflow, secrets, GitHub Pages deploy workflow, digest email.
 - Accept when: a manual workflow run completes end to end, the dashboard updates, and the digest arrives.
 
 **Phase 5: Learning loop**

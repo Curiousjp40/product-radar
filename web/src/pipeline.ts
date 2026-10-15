@@ -1,80 +1,75 @@
 import type { PipelineStatusName } from "./types";
 
-/** Phase 4 (spec section 10.4): status/feedback are shared across devices via
- * a Cloudflare Pages Function backed by D1 (web/functions/api/status.ts),
- * not per-browser localStorage (the Phase 0a version) -- Roxie and Ryan see
- * the same shortlist. The whole map is fetched once per page load and
- * cached in memory; a write updates the cache immediately (so the UI reacts
- * right away) and posts to the API in the background. */
+/** Shortlist status and "not for me" feedback, saved in this browser's
+ * localStorage. The site is a static GitHub Pages site (no server), so each
+ * phone or computer keeps its own list. Every read and write is wrapped in
+ * try/catch: storage can be unavailable (private mode, blocked site data),
+ * and the page must keep working without it. */
 
 type StatusEntry = { status?: PipelineStatusName; feedback?: string };
 type StatusMap = Record<string, StatusEntry>;
 
-let cache: Promise<StatusMap> | null = null;
+const STORAGE_KEY = "product-radar:pipeline";
 
-async function loadMap(): Promise<StatusMap> {
-  if (!cache) {
-    cache = fetch("/api/status")
-      .then((res) => (res.ok ? (res.json() as Promise<StatusMap>) : {}))
-      .catch(() => ({}) as StatusMap);
-  }
-  return cache;
-}
+let memory: StatusMap | null = null;
 
-async function postUpdate(productId: string, field: "status" | "feedback", value: string): Promise<void> {
+function loadMap(): StatusMap {
+  if (memory) return memory;
   try {
-    await fetch("/api/status", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ product_id: productId, field, value }),
-    });
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const parsed: unknown = raw ? JSON.parse(raw) : {};
+    memory = parsed && typeof parsed === "object" ? (parsed as StatusMap) : {};
   } catch {
-    // best-effort -- the in-memory cache is already updated for this
-    // session, and the next full page load will re-sync from the API.
+    memory = {};
+  }
+  return memory;
+}
+
+function saveMap(map: StatusMap): void {
+  memory = map;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
+  } catch {
+    // storage unavailable: keep the in-memory copy for this visit
   }
 }
 
-/** Forces the next read to re-fetch from the API instead of the cache --
- * call this if a status write might have come from another device/tab. */
+/** Forces the next read to reload from storage (e.g. after another tab wrote). */
 export function invalidateCache(): void {
-  cache = null;
+  memory = null;
 }
 
 export async function getStatus(productId: string): Promise<PipelineStatusName | undefined> {
-  const map = await loadMap();
-  return map[productId]?.status;
+  return loadMap()[productId]?.status;
 }
 
 export async function setStatus(productId: string, status: PipelineStatusName): Promise<void> {
-  const map = await loadMap();
+  const map = loadMap();
   map[productId] = { ...map[productId], status };
-  await postUpdate(productId, "status", status);
+  saveMap(map);
 }
 
 export async function getAllStatuses(): Promise<Record<string, PipelineStatusName>> {
-  const map = await loadMap();
   const out: Record<string, PipelineStatusName> = {};
-  for (const [productId, entry] of Object.entries(map)) {
+  for (const [productId, entry] of Object.entries(loadMap())) {
     if (entry.status) out[productId] = entry.status;
   }
   return out;
 }
 
 export async function setFeedback(productId: string, signal: "not_for_me" | "love_it"): Promise<void> {
-  const map = await loadMap();
+  const map = loadMap();
   map[productId] = { ...map[productId], feedback: signal };
-  await postUpdate(productId, "feedback", signal);
+  saveMap(map);
 }
 
 export async function getFeedback(productId: string): Promise<string | undefined> {
-  const map = await loadMap();
-  return map[productId]?.feedback;
+  return loadMap()[productId]?.feedback;
 }
 
 export async function getAllFeedback(): Promise<Record<string, string>> {
-  const map = await loadMap();
   const out: Record<string, string> = {};
-  for (const [productId, entry] of Object.entries(map)) {
+  for (const [productId, entry] of Object.entries(loadMap())) {
     if (entry.feedback) out[productId] = entry.feedback;
   }
   return out;

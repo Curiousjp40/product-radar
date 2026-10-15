@@ -1,6 +1,7 @@
 import { loadProduct } from "../api";
 import { t, type Lang } from "../i18n";
 import type { VideoCard } from "../types";
+import { assetUrl } from "../asset";
 
 function sparklinePath(values: number[], width: number, height: number): string {
   if (values.length === 0) return "";
@@ -31,7 +32,7 @@ function videoEmbed(video: VideoCard, lang: Lang): string {
   return `
     <div class="video-embed-card" data-video-id="${video.video_id}">
       <a class="video-fallback" href="${video.tiktok_url}" target="_blank" rel="noopener">
-        ${video.cover_url ? `<img src="${video.cover_url}" alt="" loading="lazy" />` : ""}
+        ${video.cover_url ? `<img src="${assetUrl(video.cover_url)}" alt="" loading="lazy" />` : ""}
         <span class="video-fallback-play">&#9654;</span>
         <span class="video-fallback-label">${t("open_in_tiktok", lang)}</span>
       </a>
@@ -99,7 +100,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     container.innerHTML = `
       ${banner}
       <a class="back-link" href="#/week">&larr; ${t("back_to_week", lang)}</a>
-      ${data.image_url ? `<img class="product-photo" src="${data.image_url}" alt="${data.title}" />` : ""}
+      ${data.image_url ? `<img class="product-photo" src="${assetUrl(data.image_url)}" alt="${data.title}" />` : ""}
       <h2 class="view-title product-title">${data.title}</h2>
       <div class="insight-card">
         <div class="stat-row">
