@@ -57,3 +57,22 @@ def test_credits_used_for_week_sums_across_resumed_run_ids(tmp_path):
 def test_credits_used_for_week_zero_when_no_rows(tmp_path):
     conn = connect(tmp_path / "radar.db")
     assert credits_used_for_week(conn, "2026-W50") == 0
+
+
+def test_budget_tracker_writes_ledger_row_immediately_when_conn_set(tmp_path):
+    # real case, 2026-10-15: a run crashed (FastMoss rate limit) after really
+    # spending ~45 credits, but before reaching the end-of-run batch write --
+    # nothing was logged anywhere. checkpoint() must persist each row AS IT
+    # HAPPENS so a crash right after still leaves a true record.
+    conn = connect(tmp_path / "radar.db")
+    tracker = BudgetTracker(hard_cap=80, starting_balance=500, run_id="r1", conn=conn)
+    tracker.checkpoint("trend", balance_now=490, note="product 1/12")
+    row = conn.execute("SELECT run_id, tool, credits, note FROM credit_ledger").fetchone()
+    assert row == ("r1", "trend", 10, "product 1/12")
+
+
+def test_budget_tracker_without_conn_does_not_touch_the_db():
+    # dry-run / no-conn callers must still work exactly as before.
+    tracker = BudgetTracker(hard_cap=80, starting_balance=500, run_id="r1")
+    tracker.checkpoint("trend", balance_now=490)
+    assert tracker.spent == 10

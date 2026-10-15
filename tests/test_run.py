@@ -2,14 +2,19 @@ import json
 from datetime import date
 
 import pandas as pd
+import pytest
 
+import engine.ingest as ingest_module
+from engine.budget import BudgetTracker, MissingSnapshotError
 from engine.config import load_all
+from engine.ingest import save_raw_snapshot
 from engine.run import (
     _creator_stats,
     active_categories,
     assemble_picks,
     build_reasons,
     candidates_to_export_dicts,
+    enrich_shortlist,
     product_detail_dict,
     score_pool,
     tiktok_search_url,
@@ -441,3 +446,89 @@ def test_tiktok_search_url_encodes_spaces_and_special_chars():
 
 def test_tiktok_search_url_encodes_accents():
     assert tiktok_search_url("Fajas y más") == "https://www.tiktok.com/search?q=Fajas%20y%20m%C3%A1s"
+
+
+class _ClientNeverCalled:
+    """Fails loudly if enrich_shortlist ever reaches a live (paid) call --
+    used to prove snapshot-reuse and the resume-mode hard-fail both make
+    zero network calls, added 2026-10-15 after a real `--resume-week` run
+    silently re-spent ~45 credits doing exactly that."""
+
+    async def call(self, tool: str, arguments: dict | None = None) -> dict:
+        raise AssertionError(f"enrich_shortlist must not call {tool!r} here")
+
+
+class _ClientReturnsFixedData:
+    def __init__(self, trend_raw: dict, videos_raw: dict, balance_after: int = 100):
+        self.trend_raw = trend_raw
+        self.videos_raw = videos_raw
+        self.balance_after = balance_after
+        self.calls: list[str] = []
+
+    async def call(self, tool: str, arguments: dict | None = None) -> dict:
+        self.calls.append(tool)
+        if tool == "product_sales_trend":
+            return self.trend_raw
+        if tool == "product_video_list":
+            return self.videos_raw
+        if tool == "credit_usage_summary":
+            return {"balance": {"available_credits": self.balance_after}}
+        raise AssertionError(f"unexpected tool {tool!r}")
+
+
+_TREND_FIXTURE = {
+    "daily_trend": [{"daily_units_sold": i} for i in range(14)],
+    "period_summary": {"linked_creator_count": 5, "linked_video_count": 20},
+}
+_VIDEOS_FIXTURE = {
+    "videos": [
+        {
+            "video_id": "v1",
+            "video_meta": {"caption_text": "unboxing this"},
+            "creator": {"creator_handle": "@someone"},
+        }
+    ]
+}
+
+
+async def test_enrich_shortlist_reuses_snapshot_without_any_paid_call(tmp_path, monkeypatch):
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    week = "2026-W99"
+    save_raw_snapshot(week, "trend_1", _TREND_FIXTURE)
+    save_raw_snapshot(week, "videos_1", _VIDEOS_FIXTURE)
+    shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
+    tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
+
+    await enrich_shortlist(_ClientNeverCalled(), shortlist, week, tracker)
+
+    assert shortlist[0]["daily_units_14"] == list(range(14))
+    assert shortlist[0]["videos"][0]["caption_text"] == "unboxing this"
+    assert tracker.spent == 0
+
+
+async def test_enrich_shortlist_resume_mode_hard_fails_without_snapshot(tmp_path, monkeypatch):
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    week = "2026-W99"
+    shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
+    tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
+
+    with pytest.raises(MissingSnapshotError):
+        await enrich_shortlist(_ClientNeverCalled(), shortlist, week, tracker, resume_mode=True)
+
+
+async def test_enrich_shortlist_live_mode_still_fetches_when_snapshot_missing(tmp_path, monkeypatch):
+    # not resume mode -- a real weekly run with no prior snapshot must still
+    # be able to fetch fresh data (this isn't the bug the safeguard above
+    # targets; only --resume-week must make zero paid calls).
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    week = "2026-W99"
+    shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
+    tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
+    client = _ClientReturnsFixedData(_TREND_FIXTURE, _VIDEOS_FIXTURE, balance_after=97)
+
+    await enrich_shortlist(client, shortlist, week, tracker, resume_mode=False)
+
+    assert shortlist[0]["daily_units_14"] == list(range(14))
+    assert shortlist[0]["videos"][0]["caption_text"] == "unboxing this"
+    assert "product_sales_trend" in client.calls
+    assert "product_video_list" in client.calls

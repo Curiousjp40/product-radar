@@ -24,10 +24,10 @@ from engine import export
 from engine.budget import (
     BudgetExceeded,
     BudgetTracker,
+    MissingSnapshotError,
     append_credit_log,
     check_balance,
     credits_used_for_week,
-    write_ledger_row,
 )
 from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
@@ -119,13 +119,15 @@ def tiktok_search_url(clean_product_title: str) -> str:
 # whichever categories.yaml categories are active() for `today` (below).
 DRY_RUN_CATEGORY_KEYS = ["shapewear"]
 # SHORTLIST_SIZE candidates (by preliminary score, before trend/video
-# enrichment) get the expensive per-product calls. A full real run (12
-# categories: 5 core x 3 pages + 4 secondary x 2 pages + up to 2 seasonal x 2
-# pages in-window = 23-27 credits for the full list) + 15 x (trend + video)
-# = 53-57 credits, comfortably under the ~70 target and the 90-credit hard
-# cap (config/weights.yaml), restructured 2026-10-18 for Roxie's 12-category
-# home+fashion target list.
-SHORTLIST_SIZE = 15
+# enrichment) get the expensive per-product calls -- lowered from 15 to 12
+# on 2026-10-15 to bring the weekly run down to a ~60-credit target (was
+# ~70) until the Nov 15 subscription reset, after an unrelated incident
+# left less balance than planned for the remaining Mondays. A full real run
+# (12 categories: 5 core x 3 pages + 4 secondary x 2 pages + up to 2
+# seasonal x 2 pages in-window = 23-27 credits for the full list) + 12 x
+# (trend=2cr + video=1cr) = 23-27 + 36 = 59-63 credits, comfortably under
+# the ~60 target and the 75-credit hard cap (config/weights.yaml).
+SHORTLIST_SIZE = 12
 
 
 def active_categories(categories_cfg: dict, today: date) -> dict[str, dict]:
@@ -321,49 +323,88 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
     return candidates
 
 
-async def enrich_shortlist(client, shortlist: list[dict], week: str, tracker: BudgetTracker) -> None:
+async def enrich_shortlist(
+    client, shortlist: list[dict], week: str, tracker: BudgetTracker, resume_mode: bool = False
+) -> None:
     """Trend (14-day chart + creator/video counts, section 6.2/6.3/6.5) and
     video cards + Spanish-gap signal (section 6.8), for the preliminary top
     `SHORTLIST_SIZE` candidates by score only (budget) -- renamed from
     enrich_spanish_gap 2026-10-18 when trend-fetching moved here too (it used
     to run on a separate "top 3 per category" pool inside ingest(), which no
     longer exists now that the full list isn't trimmed before scoring).
-    Skips any candidate that already has this data set (resume-from-
-    snapshots reuse)."""
+
+    Always tries an on-disk snapshot (data/snapshots/<week>/trend_<id>.json /
+    videos_<id>.json) before making a paid call -- zero cost, zero network,
+    whether or not this is a resume. `resume_mode=True` (set by
+    `--resume-week`, added 2026-10-15 after a real incident: this check used
+    to look at in-memory candidate fields that `ingest_from_snapshots` never
+    populates, so a resumed run re-spent ~45 credits re-fetching data that
+    was already on disk) raises MissingSnapshotError instead of falling
+    through to a live call when no snapshot exists -- resume mode must make
+    ZERO paid calls, full stop; a missing snapshot is a hard failure to
+    surface and fix, not something to silently buy again."""
     fetched = 0
     for cand in shortlist:
         if tracker.would_exceed(2):
             break
         if cand.get("daily_units_14") is None:
-            try:
-                trend_raw = await fetch_daily_trend(client, cand["product_id"])
-                save_raw_snapshot(week, f"trend_{cand['product_id']}", trend_raw)
-                days = trend_raw.get("daily_trend", [])
-                cand["daily_units_14"] = [d["daily_units_sold"] for d in days[-14:]] if len(days) >= 14 else None
-                summary = trend_period_summary(trend_raw)
-                cand["creator_count"] = summary.get("linked_creator_count")
-                cand["video_count"] = summary.get("linked_video_count")
-            except FastMossError:
-                pass
-            balance = await check_balance(client)
-            tracker.checkpoint("trend", balance, note=f"product {fetched + 1}/{len(shortlist)}")
+            trend_raw = load_raw_snapshot(week, f"trend_{cand['product_id']}")
+            if trend_raw is not None:
+                _apply_trend(cand, trend_raw)
+            elif resume_mode:
+                raise MissingSnapshotError(
+                    f"no cached trend snapshot for product {cand['product_id']} -- "
+                    f"--resume-week makes zero paid calls, so this run can't proceed"
+                )
+            else:
+                try:
+                    trend_raw = await fetch_daily_trend(client, cand["product_id"])
+                    save_raw_snapshot(week, f"trend_{cand['product_id']}", trend_raw)
+                    _apply_trend(cand, trend_raw)
+                except FastMossError:
+                    pass
+                balance = await check_balance(client)
+                tracker.checkpoint("trend", balance, note=f"product {fetched + 1}/{len(shortlist)}")
 
         if cand.get("videos") is not None:
             fetched += 1
             continue
-        try:
-            raw = await fetch_product_videos(client, cand["product_id"])
-            save_raw_snapshot(week, f"videos_{cand['product_id']}", raw)
-            cards = video_cards_from_product_video_list(raw)
-            cand["videos"] = cards
-            captions = [v["caption_text"] for v in cards]
-            cand["spanish_share"] = spanish_share(captions)
-            cand["spanish_video_count"] = len(captions)
-        except FastMossError:
-            pass
+        raw = load_raw_snapshot(week, f"videos_{cand['product_id']}")
+        if raw is not None:
+            _apply_videos(cand, raw)
+        elif resume_mode:
+            raise MissingSnapshotError(
+                f"no cached video snapshot for product {cand['product_id']} -- "
+                f"--resume-week makes zero paid calls, so this run can't proceed"
+            )
+        else:
+            try:
+                raw = await fetch_product_videos(client, cand["product_id"])
+                save_raw_snapshot(week, f"videos_{cand['product_id']}", raw)
+                _apply_videos(cand, raw)
+            except FastMossError:
+                pass
+            fetched += 1
+            balance = await check_balance(client)
+            tracker.checkpoint("videos", balance, note=f"candidate {fetched}/{len(shortlist)}")
+            continue
         fetched += 1
-        balance = await check_balance(client)
-        tracker.checkpoint("videos", balance, note=f"candidate {fetched}/{len(shortlist)}")
+
+
+def _apply_trend(cand: dict, trend_raw: dict) -> None:
+    days = trend_raw.get("daily_trend", [])
+    cand["daily_units_14"] = [d["daily_units_sold"] for d in days[-14:]] if len(days) >= 14 else None
+    summary = trend_period_summary(trend_raw)
+    cand["creator_count"] = summary.get("linked_creator_count")
+    cand["video_count"] = summary.get("linked_video_count")
+
+
+def _apply_videos(cand: dict, raw: dict) -> None:
+    cards = video_cards_from_product_video_list(raw)
+    cand["videos"] = cards
+    captions = [v["caption_text"] for v in cards]
+    cand["spanish_share"] = spanish_share(captions)
+    cand["spanish_video_count"] = len(captions)
 
 
 def partition_suspicious(candidates: list[dict], weights: dict) -> tuple[list[dict], list[dict]]:
@@ -1187,11 +1228,17 @@ async def run(args: argparse.Namespace) -> None:
 
     client_cm = FixtureReplayClient(DRY_RUN_FIXTURES) if args.dry_run else FastMossClient()
 
+    # Opened here, not at the end, so BudgetTracker can write each ledger
+    # row AS IT'S SPENT (added 2026-10-15) -- a run that crashes mid-way no
+    # longer loses its own credit record. None for --dry-run: no real
+    # credits, nothing to log.
+    conn = None if args.dry_run else connect(REPO_ROOT / "data" / "radar.db")
+
     df = pd.DataFrame()
     flagged: list[dict] = []
     async with client_cm as client:
         starting_balance = await check_balance(client)
-        tracker = BudgetTracker(hard_cap=args.budget, starting_balance=starting_balance, run_id=run_id)
+        tracker = BudgetTracker(hard_cap=args.budget, starting_balance=starting_balance, run_id=run_id, conn=conn)
 
         try:
             if args.resume_week:
@@ -1231,7 +1278,7 @@ async def run(args: argparse.Namespace) -> None:
             if not df.empty:
                 prelim_ids = set(df.sort_values("score", ascending=False).head(SHORTLIST_SIZE)["product_id"])
                 shortlist = [c for c in pool if c["product_id"] in prelim_ids]
-                await enrich_shortlist(client, shortlist, week, tracker)
+                await enrich_shortlist(client, shortlist, week, tracker, resume_mode=bool(args.resume_week))
                 # `shortlist` dicts are the same objects referenced in `pool` (shared,
                 # not copied), so enrich_shortlist's mutation is already reflected
                 # in `pool` -- just recompute scores from scratch with it filled in.
@@ -1267,9 +1314,9 @@ async def run(args: argparse.Namespace) -> None:
             )
         for cand in flagged:
             export.write_product(cand["product_id"], product_detail_dict(cand, categories_cfg, False, False))
-        conn = connect(REPO_ROOT / "data" / "radar.db")
-        for stage in tracker.stage_log:
-            write_ledger_row(conn, run_id, stage["stage"], stage["credits"], True, stage["note"])
+        # Ledger rows for this run were already written as each one happened
+        # (BudgetTracker.checkpoint, via the `conn` passed in above) -- no
+        # batch write needed here any more.
         export.write_meta(
             week=week,
             run_id=run_id,
@@ -1304,7 +1351,7 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="replay fixtures, zero credits")
     parser.add_argument("--week", default=None, help="ISO week label, e.g. 2026-W43 (default: current)")
     parser.add_argument("--print-picks", action="store_true", help="print the Top 10 to stdout")
-    parser.add_argument("--budget", type=int, default=90, help="hard credit cap for this run")
+    parser.add_argument("--budget", type=int, default=75, help="hard credit cap for this run")
     parser.add_argument(
         "--resume-week",
         default=None,

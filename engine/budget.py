@@ -21,6 +21,17 @@ class BudgetExceeded(RuntimeError):
     pass
 
 
+class MissingSnapshotError(RuntimeError):
+    """Raised instead of making a paid FastMoss call when running in resume
+    mode (added 2026-10-15, after a `--resume-week` run silently re-spent
+    ~45 credits re-fetching trend/video data that was already on disk for
+    every shortlisted candidate -- the old skip-check looked at in-memory
+    candidate fields that `ingest_from_snapshots` never sets, not at
+    whether a snapshot file already existed). Resume mode must make ZERO
+    paid calls, full stop -- missing data is a hard failure to surface and
+    fix, never a silent fall-through to a live fetch."""
+
+
 @dataclass
 class BudgetTracker:
     """Tracks credits spent so far this run against a hard cap. Call
@@ -31,6 +42,12 @@ class BudgetTracker:
     hard_cap: int
     starting_balance: int
     run_id: str
+    # When set, checkpoint() writes its ledger row immediately, not just to
+    # in-memory `stage_log` for a batched write at the end of a successful
+    # run (added 2026-10-15, same real incident as MissingSnapshotError
+    # above: a run that crashes mid-way -- e.g. on a rate limit -- must
+    # still leave a true record of what it actually spent).
+    conn: sqlite3.Connection | None = None
     stage_log: list[dict] = field(default_factory=list)
     last_balance: int = 0
 
@@ -47,6 +64,8 @@ class BudgetTracker:
         stage_spent = self.last_balance - balance_now
         self.stage_log.append({"stage": stage, "credits": stage_spent, "note": note, "ts": datetime.now().isoformat()})
         self.last_balance = balance_now
+        if self.conn is not None:
+            write_ledger_row(self.conn, self.run_id, stage, stage_spent, True, note)
         if self.spent > self.hard_cap:
             raise BudgetExceeded(f"spent {self.spent} credits, over the {self.hard_cap} hard cap (after stage {stage!r})")
         return stage_spent
