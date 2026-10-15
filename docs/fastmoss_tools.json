@@ -482,7 +482,8 @@
       "name": "product_video_list",
       "description": "Use when the user wants videos selling a product, high-play videos, or paid-vs-organic video traffic. Filter with is_ad; returns GMV, plays, video_desc, and fastmoss_url.",
       "credits": 1,
-      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "create_time_range": {}, "is_ad": { "type": "boolean" }, "time_range_days": { "type": "integer" } } }, "orderby": { "type": "array" }, "page": { "type": "integer" }, "pagesize": { "type": "integer" } } }
+      "input_schema": { "type": "object", "required": ["filter"], "properties": { "filter": { "type": "object", "required": ["product_id"], "properties": { "product_id": { "type": "string" }, "create_time_range": { "type": "object", "properties": { "min": { "type": "number" }, "max": { "type": "number" } } }, "is_ad": { "type": "boolean" }, "time_range_days": { "description": "Days: 7/14/28/90; recent=28; -1=cumulative.", "type": "integer" } } }, "orderby": { "type": "array", "items": { "properties": { "field": { "enum": ["gmv", "units_sold", "digg_count", "play_count", "share_count"] }, "order": { "enum": ["asc", "desc"], "default": "desc" } } } }, "page": { "type": "integer", "default": 1, "maximum": 500 }, "pagesize": { "type": "integer", "default": 10, "maximum": 10 } } },
+      "note": "orderby/pagesize corrected 2026-10-15 from the live tool schema (ToolSearch, free) -- this file's original capture was missing orderby's real enum entirely, which looked like an undocumented/untrustworthy sort; it isn't. `units_sold` is a real, valid field."
     },
     {
       "name": "shop_base_info",

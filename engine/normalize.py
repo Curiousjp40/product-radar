@@ -172,11 +172,14 @@ def rank_videos_by_sales(cards: list[dict]) -> list[dict]:
     """ALWAYS re-sort a product's videos ourselves before saving/showing them
     (added 2026-10-15, real case: a product's top-play video (3.7M views) had
     fewer sales (82 units) than its #2 video by plays (91 units, 2.0M views)
-    -- play_count order and sales order are NOT the same, and
-    product_video_list's `orderby` isn't documented well enough to trust
-    (docs/fastmoss_tools.json's schema has no items/enum for it). Units sold
-    first, GMV as the tiebreak (a product can have a high-unit low-price
-    video outrank a true top earner), then play_count last."""
+    -- play_count order and sales order are NOT the same). `engine/ingest.py`
+    now requests `orderby=units_sold desc` too (a real, documented field,
+    see docs/field_map.md's correction), but this still re-sorts
+    client-side regardless -- the API's single-field sort can't replicate
+    our GMV/play_count tiebreak, and this makes the final order deterministic
+    no matter what a future API quirk does. Units sold first, GMV as the
+    tiebreak (a product can have a high-unit low-price video outrank a true
+    top earner), then play_count last."""
     return sorted(
         cards,
         key=lambda v: (v.get("window_units_sold", 0), v.get("window_gmv", 0.0), v.get("play_count", 0)),

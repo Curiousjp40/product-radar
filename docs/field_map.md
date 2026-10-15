@@ -119,6 +119,19 @@ nested under `.items` the way `video_search`'s response is:
 | published timestamp | `video_meta.published_at` (unix) | No display string like `video_search`'s `published_at_display`. |
 | FastMoss's own page for the video | `video_meta.fastmoss_url` | |
 
+**`orderby` correction (2026-10-15, free, no paid call needed):** this
+tool's `docs/fastmoss_tools.json` capture originally had `"orderby": {
+"type": "array" }` with no `items`/enum at all, which read as an
+undocumented/untrustworthy sort. It wasn't a gap in the API -- it was a gap
+in our capture. The live tool schema (fetched via ToolSearch, which loads a
+tool's own definition, not a paid call) documents it fully:
+`items.properties.field.enum = ["gmv", "units_sold", "digg_count",
+"play_count", "share_count"]`. `units_sold` is real and now used in
+`engine/ingest.py`'s `fetch_product_videos`. We still re-sort client-side
+regardless (`engine/normalize.py`'s `rank_videos_by_sales`) for the
+GMV/play_count tiebreak the API's single-field sort can't replicate --
+belt and suspenders, not blind trust either way.
+
 ## `fastmoss_detail_url_examples` (confirmed 2026-10-15, free)
 
 Takes no arguments. Confirmed template for a product's own FastMoss page

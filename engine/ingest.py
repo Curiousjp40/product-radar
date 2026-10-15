@@ -90,13 +90,19 @@ async def fetch_product_videos(
 
     pagesize raised 6 -> 10 (same 1 credit either way) so
     `rank_videos_by_sales` (engine/normalize.py) has more videos to rank by
-    actual sales from, not just whatever page FastMoss's own ordering put
-    first -- `orderby` isn't a documented/trustworthy sort for this tool."""
+    actual sales from. `orderby` sorts by `units_sold` now -- the live tool
+    schema (not docs/fastmoss_tools.json's original, incomplete capture)
+    confirms `units_sold` is a real, documented field (also gmv,
+    digg_count, play_count, share_count). Found for free via the tool's own
+    schema, no paid test call needed. Kept as a best-effort request, not
+    full trust: rank_videos_by_sales still re-sorts client-side regardless,
+    since the API's single-field sort can't replicate our GMV/play_count
+    tiebreak order."""
     return await client.call(
         "product_video_list",
         {
             "filter": {"product_id": product_id, "time_range_days": time_range_days},
-            "orderby": [{"field": "play_count", "order": "desc"}],
+            "orderby": [{"field": "units_sold", "order": "desc"}],
             "pagesize": pagesize,
         },
     )
