@@ -82,6 +82,14 @@ export interface CandidatesFile {
   candidates: Candidate[];
 }
 
+export interface FormulaGanadora {
+  top_hashtags: { hashtag: string; weight: number }[];
+  ideal_duration: { seconds: number; source: "videos" } | { seconds: null; source: "creator_default"; sweet_spot_range: [number, number] };
+  format_stats: { reply_pct: number; price_mention_pct: number; ad_pct: number };
+  best_posting_hour: { hour_start: number; hour_end: number } | null;
+  top_hooks: string[];
+}
+
 export interface ProductDetail {
   schema_version: number;
   product_id: string;
@@ -104,6 +112,7 @@ export interface ProductDetail {
   fastmoss_url: string;
   tiktok_search_url: string;
   videos: VideoCard[];
+  formula_ganadora: FormulaGanadora | null;
 }
 
 export interface CreatorInsights {

@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 24
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "blackkidshairstyles",
+        "weight": 661
+      },
+      {
+        "hashtag": "hairbowbox",
+        "weight": 661
+      },
+      {
+        "hashtag": "storagehacks",
+        "weight": 461
+      },
+      {
+        "hashtag": "hairsupply",
+        "weight": 461
+      },
+      {
+        "hashtag": "hairstoragebox",
+        "weight": 461
+      },
+      {
+        "hashtag": "hairstorage",
+        "weight": 200
+      },
+      {
+        "hashtag": "blackgirlshair",
+        "weight": 200
+      },
+      {
+        "hashtag": "hairbowstorage",
+        "weight": 200
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 26,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 16.7,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "Needed this \ud83d\ude29\ud83d\ude4c\ud83c\udffe",
+      "This was genius",
+      "Kids activity storage bin"
+    ]
+  }
 }

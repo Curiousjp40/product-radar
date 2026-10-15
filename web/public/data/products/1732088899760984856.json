@@ -68,5 +68,43 @@
       "is_ad": true,
       "duration_seconds": 46
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "histrips",
+        "weight": 131
+      },
+      {
+        "hashtag": "silentalarm",
+        "weight": 49
+      },
+      {
+        "hashtag": "heavysleeper",
+        "weight": 49
+      },
+      {
+        "hashtag": "heavysleeperalarm",
+        "weight": 49
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 56,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "The hype on this thing is actually so real",
+      "Silent wrist band alarm",
+      "These silent alarms work SO GOOD FOR HEAVY SLEEPERS!"
+    ]
+  }
 }

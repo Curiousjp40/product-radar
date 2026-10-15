@@ -101,5 +101,58 @@
       "is_ad": true,
       "duration_seconds": 9
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 91
+      },
+      {
+        "hashtag": "sohochic",
+        "weight": 91
+      },
+      {
+        "hashtag": "blackdress",
+        "weight": 72
+      },
+      {
+        "hashtag": "statementdress",
+        "weight": 72
+      },
+      {
+        "hashtag": "streetstyle",
+        "weight": 72
+      },
+      {
+        "hashtag": "fashionfinds",
+        "weight": 72
+      },
+      {
+        "hashtag": "tiktokshopfinds",
+        "weight": 72
+      },
+      {
+        "hashtag": "gothic",
+        "weight": 72
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "I have no words",
+      "This black dress looks simple\u2026 until you see the details \ud83d\udda4 The design is unreal."
+    ]
+  }
 }

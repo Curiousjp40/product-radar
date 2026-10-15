@@ -301,6 +301,69 @@ table.radar-table td {
   color: var(--text-dim);
 }
 
+/* ---------------------------------------------------------------------
+   "Formula Ganadora" box (Part B, added 2026-10-15)
+   ------------------------------------------------------------------- */
+.formula-section {
+  margin-bottom: 12px;
+}
+
+.formula-section:last-child {
+  margin-bottom: 0;
+}
+
+.formula-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.formula-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+.formula-value {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.copy-hashtags-btn {
+  flex: 0 0 auto;
+  border: none;
+  background: var(--surface-2);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.hashtag-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.hashtag-chip {
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.hook-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
 .season-card {
   background: var(--surface);
   border-radius: var(--radius);

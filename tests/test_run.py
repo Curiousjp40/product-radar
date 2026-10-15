@@ -373,7 +373,47 @@ def test_product_detail_dict_nan_daily_units_becomes_empty_list():
     }
     detail = product_detail_dict(cand, _CATEGORIES_CFG, is_pick=False, has_enrichment=False)
     assert detail["daily_units_14"] == []
+    assert detail["formula_ganadora"] is None
     json.dumps(detail, allow_nan=False)
+
+
+def test_product_detail_dict_formula_ganadora_present_when_enriched_with_videos():
+    cand = {
+        "product_id": "a",
+        "title": "A",
+        "config_category": "shapewear",
+        "shop_name": "Shop",
+        "price": 10.0,
+        "commission_rate": 0.1,
+        "videos": [
+            {
+                "video_id": "v1",
+                "caption_text": "#fajas mira esto!",
+                "window_units_sold": 10,
+                "window_gmv": 100.0,
+                "play_count": 500,
+                "is_ad": False,
+                "duration_seconds": 20,
+            }
+        ],
+    }
+    detail = product_detail_dict(cand, _CATEGORIES_CFG, is_pick=False, has_enrichment=True)
+    assert detail["formula_ganadora"]["top_hashtags"] == [{"hashtag": "fajas", "weight": 10}]
+    assert detail["formula_ganadora"]["ideal_duration"] == {"seconds": 20, "source": "videos"}
+
+
+def test_product_detail_dict_formula_ganadora_none_when_enriched_but_no_videos():
+    cand = {
+        "product_id": "a",
+        "title": "A",
+        "config_category": "shapewear",
+        "shop_name": "Shop",
+        "price": 10.0,
+        "commission_rate": 0.1,
+        "videos": [],
+    }
+    detail = product_detail_dict(cand, _CATEGORIES_CFG, is_pick=False, has_enrichment=True)
+    assert detail["formula_ganadora"] is None
 
 
 _CATEGORIES_CFG = load_all()["categories"]["categories"]

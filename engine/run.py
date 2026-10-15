@@ -44,6 +44,7 @@ from engine.fit import (
     price_sweet_spot_for_category,
     target_category_boost,
 )
+from engine.formula import formula_ganadora_dict
 from engine.images import cache_image
 from engine.ingest import (
     fetch_daily_trend,
@@ -1073,18 +1074,26 @@ def picks_to_export_dicts(
     return out
 
 
-def product_detail_dict(cand: dict, categories_cfg: dict, is_pick: bool, has_enrichment: bool) -> dict:
+def product_detail_dict(
+    cand: dict,
+    categories_cfg: dict,
+    is_pick: bool,
+    has_enrichment: bool,
+    creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
+) -> dict:
     """Full product-page detail (redesigned 2026-10-18 for the "Todos" full
     list: written for every clean candidate, not just the ~9 final picks,
     since any row there links to its own product page). Stat boxes (sold
     this week, total sales, commission, earnings, creators, videos) show for
     every product; `has_enrichment` (the top-15 by preliminary score that
-    got trend + product_video_list) gates the 14-day chart and the embedded
-    video gallery, which only exist for those."""
+    got trend + product_video_list) gates the 14-day chart, the embedded
+    video gallery, and the "Formula Ganadora" box (Part B, added
+    2026-10-15), which only exist for those."""
     cat_meta = categories_cfg.get(cand["config_category"], {})
     title = cand["title"]
     clean = clean_title(title)
     daily_units_14 = cand.get("daily_units_14") if isinstance(cand.get("daily_units_14"), list) else []
+    videos = cand.get("videos") or []
     return {
         "product_id": cand["product_id"],
         "title": title,
@@ -1105,7 +1114,8 @@ def product_detail_dict(cand: dict, categories_cfg: dict, is_pick: bool, has_enr
         "is_pick": is_pick,
         "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=cand["product_id"]),
         "tiktok_search_url": tiktok_search_url(clean),
-        "videos": _video_card_dicts(cand.get("videos"), limit=6) if has_enrichment else [],
+        "videos": _video_card_dicts(videos, limit=6) if has_enrichment else [],
+        "formula_ganadora": formula_ganadora_dict(videos, creator_sweet_spot_seconds) if has_enrichment and videos else None,
     }
 
 
@@ -1307,6 +1317,7 @@ async def run(args: argparse.Namespace) -> None:
     pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share)
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
 
+    sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
         export.write_candidates(week, candidate_dicts)
@@ -1316,10 +1327,12 @@ async def run(args: argparse.Namespace) -> None:
         for cand in pool:
             export.write_product(
                 cand["product_id"],
-                product_detail_dict(cand, categories_cfg, cand["product_id"] in pick_ids, cand["product_id"] in enriched_ids),
+                product_detail_dict(
+                    cand, categories_cfg, cand["product_id"] in pick_ids, cand["product_id"] in enriched_ids, sweet_spot
+                ),
             )
         for cand in flagged:
-            export.write_product(cand["product_id"], product_detail_dict(cand, categories_cfg, False, False))
+            export.write_product(cand["product_id"], product_detail_dict(cand, categories_cfg, False, False, sweet_spot))
         # Ledger rows for this run were already written as each one happened
         # (BudgetTracker.checkpoint, via the `conn` passed in above) -- no
         # batch write needed here any more.

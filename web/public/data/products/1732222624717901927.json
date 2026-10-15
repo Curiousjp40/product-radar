@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 9
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "loungeset",
+        "weight": 529
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 418
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 326
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 314
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 314
+      },
+      {
+        "hashtag": "loungewear",
+        "weight": 314
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 307
+      },
+      {
+        "hashtag": "viralset",
+        "weight": 307
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 23,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "comfy cozy lounge sets >> \ud83e\udd0e",
+      "POV: you found the viral fall set \ud83c\udf42\u2615\ufe0f\ud83e\udd0e Comfy, flattering & giving effortless fall girl energy \u2728",
+      "I love nothing more than a cozy matching set for fall \ud83e\udd0e"
+    ]
+  }
 }

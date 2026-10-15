@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 57
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "muddymat",
+        "weight": 1138
+      },
+      {
+        "hashtag": "doormat",
+        "weight": 600
+      },
+      {
+        "hashtag": "petparents",
+        "weight": 600
+      },
+      {
+        "hashtag": "cleantok",
+        "weight": 600
+      },
+      {
+        "hashtag": "dirt",
+        "weight": 600
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 363
+      },
+      {
+        "hashtag": "dogsoftiktok",
+        "weight": 363
+      },
+      {
+        "hashtag": "antimudmat",
+        "weight": 363
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 48,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 16.7,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 23,
+      "hour_end": 1
+    },
+    "top_hooks": [
+      "not sure how much longer this is gonna be a thing",
+      "Don\u2019t order the wrong Muddy Mat size!",
+      "Getting my house ready BEFORE the snow, slush and muddy paws start coming through these doors \ud83d\ude02 These Muddy Mats stay at our entrances all winter for a reason!"
+    ]
+  }
 }

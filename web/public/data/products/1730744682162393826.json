@@ -101,5 +101,57 @@
       "is_ad": false,
       "duration_seconds": 148
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dogbed",
+        "weight": 52
+      },
+      {
+        "hashtag": "petbed",
+        "weight": 35
+      },
+      {
+        "hashtag": "petowners",
+        "weight": 26
+      },
+      {
+        "hashtag": "dogowners",
+        "weight": 26
+      },
+      {
+        "hashtag": "beddog",
+        "weight": 26
+      },
+      {
+        "hashtag": "dogbeds",
+        "weight": 26
+      },
+      {
+        "hashtag": "camaparaperros",
+        "weight": 26
+      },
+      {
+        "hashtag": "camaparaperro",
+        "weight": 13
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 24,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 83.3
+    },
+    "best_posting_hour": {
+      "hour_start": 0,
+      "hour_end": 2
+    },
+    "top_hooks": [
+      "Sweetcrispy Official Modern Soothing Washable Donut Sleeping Nest for Small Breeds - Curl-up Bolster, Plush Waterproof Faux Fur, Natural Nesting Instinct Support, Stays Put Non-Slip Base, Stain Resistant, Tumble Dry Low (Fits Cats & Pups)####"
+    ]
+  }
 }

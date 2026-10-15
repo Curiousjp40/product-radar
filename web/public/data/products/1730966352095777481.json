@@ -101,5 +101,58 @@
       "is_ad": true,
       "duration_seconds": 20
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallootd",
+        "weight": 144
+      },
+      {
+        "hashtag": "falloutfitinspo",
+        "weight": 117
+      },
+      {
+        "hashtag": "fall",
+        "weight": 114
+      },
+      {
+        "hashtag": "pumpkinpatch",
+        "weight": 114
+      },
+      {
+        "hashtag": "pumpkinpatchoutfit",
+        "weight": 114
+      },
+      {
+        "hashtag": "pumpkins",
+        "weight": 114
+      },
+      {
+        "hashtag": "fallvibes",
+        "weight": 87
+      },
+      {
+        "hashtag": "ginghamdress",
+        "weight": 87
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 15,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 0,
+      "hour_end": 2
+    },
+    "top_hooks": [
+      "Pumpkin patch days \ud83c\udf83",
+      "fall ootd inspo!"
+    ]
+  }
 }

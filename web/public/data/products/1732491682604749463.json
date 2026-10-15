@@ -31,7 +31,7 @@
     103,
     91
   ],
-  "is_pick": true,
+  "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Onyx%20Silent%20Vibration%20Wrist-Worn%20Device",
   "videos": [
@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 28
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "histrips",
+        "weight": 158
+      },
+      {
+        "hashtag": "silentalarm",
+        "weight": 74
+      },
+      {
+        "hashtag": "heavysleeper",
+        "weight": 74
+      },
+      {
+        "hashtag": "heavysleeperalarm",
+        "weight": 74
+      },
+      {
+        "hashtag": "alarm",
+        "weight": 11
+      },
+      {
+        "hashtag": "alarmclock",
+        "weight": 11
+      },
+      {
+        "hashtag": "sleep",
+        "weight": 11
+      },
+      {
+        "hashtag": "morning",
+        "weight": 11
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 51,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "Onyx Vibration Alarm",
+      "The hype on this thing is actually so real",
+      "Silent wrist band alarm"
+    ]
+  }
 }

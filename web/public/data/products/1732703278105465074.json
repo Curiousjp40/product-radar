@@ -101,5 +101,58 @@
       "is_ad": true,
       "duration_seconds": 10
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 431
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 427
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 259
+      },
+      {
+        "hashtag": "halloweendress",
+        "weight": 259
+      },
+      {
+        "hashtag": "skeletondress",
+        "weight": 259
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 176
+      },
+      {
+        "hashtag": "tiktokshopfalldealsforyou",
+        "weight": 172
+      },
+      {
+        "hashtag": "partydress",
+        "weight": 168
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "I found the prettiest Halloween dress ever!",
+      "This Halloween dress is so beautiful"
+    ]
+  }
 }

@@ -101,5 +101,26 @@
       "is_ad": true,
       "duration_seconds": 11
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [],
+    "ideal_duration": {
+      "seconds": 42,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "SO GOOD",
+      "LOVE",
+      "Love"
+    ]
+  }
 }

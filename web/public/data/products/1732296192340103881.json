@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 6
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "ootd",
+        "weight": 1569
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 1014
+      },
+      {
+        "hashtag": "outfitinspo",
+        "weight": 949
+      },
+      {
+        "hashtag": "parati",
+        "weight": 555
+      },
+      {
+        "hashtag": "fashiontiktok",
+        "weight": 555
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 555
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 555
+      },
+      {
+        "hashtag": "elegantdress",
+        "weight": 189
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "Cute fall layering dress.",
+      "Ootd \ud83e\udd0e",
+      "Elegant mini dress good for fall & winter \u2764\ufe0f"
+    ]
+  }
 }

@@ -101,5 +101,59 @@
       "is_ad": true,
       "duration_seconds": 68
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "storage",
+        "weight": 521
+      },
+      {
+        "hashtag": "cajafuerte",
+        "weight": 399
+      },
+      {
+        "hashtag": "ahorrardinero",
+        "weight": 399
+      },
+      {
+        "hashtag": "escondite",
+        "weight": 399
+      },
+      {
+        "hashtag": "almacenamiento",
+        "weight": 399
+      },
+      {
+        "hashtag": "muebles",
+        "weight": 399
+      },
+      {
+        "hashtag": "tiktokmehizocomprarlo",
+        "weight": 399
+      },
+      {
+        "hashtag": "homedecor",
+        "weight": 388
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 68,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "2.",
+      "2.",
+      "2."
+    ]
+  }
 }

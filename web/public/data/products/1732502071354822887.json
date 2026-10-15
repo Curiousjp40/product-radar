@@ -101,5 +101,55 @@
       "is_ad": true,
       "duration_seconds": 13
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloween",
+        "weight": 402
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 391
+      },
+      {
+        "hashtag": "pumpkin",
+        "weight": 296
+      },
+      {
+        "hashtag": "crochet",
+        "weight": 296
+      },
+      {
+        "hashtag": "giftguide",
+        "weight": 296
+      },
+      {
+        "hashtag": "boobasket",
+        "weight": 106
+      },
+      {
+        "hashtag": "flowers",
+        "weight": 95
+      },
+      {
+        "hashtag": "giftideas",
+        "weight": 95
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 0,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 66.7
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": []
+  }
 }

@@ -101,5 +101,58 @@
       "is_ad": true,
       "duration_seconds": 9
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "walkingpad",
+        "weight": 374
+      },
+      {
+        "hashtag": "treadmill",
+        "weight": 374
+      },
+      {
+        "hashtag": "cardioworkout",
+        "weight": 339
+      },
+      {
+        "hashtag": "homeworkouts",
+        "weight": 304
+      },
+      {
+        "hashtag": "blackfridaysale",
+        "weight": 209
+      },
+      {
+        "hashtag": "ejercicioencasa",
+        "weight": 78
+      },
+      {
+        "hashtag": "ejercicioparaadelgazar",
+        "weight": 78
+      },
+      {
+        "hashtag": "caminadora",
+        "weight": 78
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 9,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 2,
+      "hour_end": 4
+    },
+    "top_hooks": [
+      "This walking pad can also track your distance, time, speed and calories \ud83d\udd25",
+      "Esta caminadora aguanta hasta 400lbs y llega hasta 7."
+    ]
+  }
 }

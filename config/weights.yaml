@@ -140,3 +140,10 @@ credits: # section 9
   skip_optional_stages_below_balance: 150
   digest_warn_month_projection_above: 400
   daily_series_refetch_min_days: 6
+
+formula_ganadora: # Part B of the 2026-10-15 creator-workflow upgrade
+  # Her real length_sweet_spot (web/public/data/insights.json): 13-20s and
+  # 21-30s both clearly outperform <=12s and 31s+ on gmv_per_video --
+  # engine/formula.py's ideal_duration_seconds falls back to this range
+  # only when a product has no real video duration data at all.
+  creator_sweet_spot_seconds: [13, 30]

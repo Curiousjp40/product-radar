@@ -101,5 +101,58 @@
       "is_ad": true,
       "duration_seconds": 26
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 279
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 279
+      },
+      {
+        "hashtag": "cattree",
+        "weight": 243
+      },
+      {
+        "hashtag": "cat",
+        "weight": 190
+      },
+      {
+        "hashtag": "kitten",
+        "weight": 190
+      },
+      {
+        "hashtag": "catsoftiktok",
+        "weight": 173
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 142
+      },
+      {
+        "hashtag": "foryou",
+        "weight": 70
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 22,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "she\u2019s my home and this is hers \ud83d\ude2d\ud83e\ude77",
+      "my tiny baby has her little mansion now"
+    ]
+  }
 }

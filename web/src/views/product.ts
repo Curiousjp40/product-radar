@@ -1,7 +1,7 @@
 import { loadProduct } from "../api";
 import { assetUrl } from "../asset";
 import { t, type Lang } from "../i18n";
-import type { VideoCard } from "../types";
+import type { FormulaGanadora, VideoCard } from "../types";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -97,6 +97,72 @@ function statBox(value: string, label: string): string {
   return `<div class="stat-box"><b>${value}</b><span>${label}</span></div>`;
 }
 
+// "7-9 PM" style: 24h hour -> 12h, condensed to one AM/PM suffix when both
+// ends share it (the common case), e.g. 19/21 -> "7-9 PM".
+function formatHourRange(hourStart: number, hourEnd: number): string {
+  const to12 = (h: number) => (h % 12 === 0 ? 12 : h % 12);
+  const period = (h: number) => (h < 12 ? "AM" : "PM");
+  const startPeriod = period(hourStart);
+  const endPeriod = period(hourEnd);
+  if (startPeriod === endPeriod) return `${to12(hourStart)}-${to12(hourEnd)} ${startPeriod}`;
+  return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
+}
+
+function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
+  const duration =
+    formula.ideal_duration.seconds !== null
+      ? t("ideal_duration_seconds", lang, { seconds: formula.ideal_duration.seconds })
+      : t("ideal_duration_range", lang, {
+          lo: formula.ideal_duration.sweet_spot_range[0],
+          hi: formula.ideal_duration.sweet_spot_range[1],
+        });
+  const stats = formula.format_stats;
+  return `
+    <div class="insight-card formula-ganadora">
+      <h3>${t("formula_ganadora_title", lang)}</h3>
+      ${
+        formula.top_hashtags.length > 0
+          ? `<div class="formula-section">
+              <div class="formula-section-head">
+                <span class="formula-label">${t("top_hashtags_label", lang)}</span>
+                <button type="button" class="copy-hashtags-btn" data-hashtags="${formula.top_hashtags.map((h) => `#${h.hashtag}`).join(" ")}">${t("copy_all_button", lang)}</button>
+              </div>
+              <div class="hashtag-chips">${formula.top_hashtags.map((h) => `<span class="hashtag-chip">#${h.hashtag}</span>`).join("")}</div>
+            </div>`
+          : ""
+      }
+      <div class="formula-section">
+        <span class="formula-label">${t("ideal_duration_label", lang)}</span>
+        <div class="formula-value">${duration}</div>
+      </div>
+      <div class="formula-section">
+        <span class="formula-label">${t("format_label", lang)}</span>
+        <div class="formula-value">
+          ${t("reply_stat_label", lang)}: ${stats.reply_pct}% &middot;
+          ${t("price_mention_stat_label", lang)}: ${stats.price_mention_pct}% &middot;
+          ${t("ad_stat_label", lang)}: ${stats.ad_pct}%
+        </div>
+      </div>
+      ${
+        formula.best_posting_hour
+          ? `<div class="formula-section">
+              <span class="formula-label">${t("best_hour_label", lang)}</span>
+              <div class="formula-value">${formatHourRange(formula.best_posting_hour.hour_start, formula.best_posting_hour.hour_end)}</div>
+            </div>`
+          : ""
+      }
+      ${
+        formula.top_hooks.length > 0
+          ? `<div class="formula-section">
+              <span class="formula-label">${t("hooks_label", lang)}</span>
+              <ul class="hook-list">${formula.top_hooks.map((h) => `<li>&ldquo;${h}&rdquo;</li>`).join("")}</ul>
+            </div>`
+          : ""
+      }
+    </div>
+  `;
+}
+
 export async function renderProduct(container: HTMLElement, lang: Lang, productId: string): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   try {
@@ -142,6 +208,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
             </div>`
           : ""
       }
+      ${data.formula_ganadora ? formulaGanadoraHtml(data.formula_ganadora, lang) : ""}
       <div class="free-buttons">
         <a href="${data.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
         <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
@@ -152,6 +219,23 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       loadTikTokEmbedScript();
       container.querySelectorAll<HTMLElement>(".video-embed-card").forEach(watchEmbed);
     }
+    const copyBtn = container.querySelector<HTMLButtonElement>(".copy-hashtags-btn");
+    copyBtn?.addEventListener("click", () => {
+      const text = copyBtn.dataset.hashtags ?? "";
+      const originalLabel = copyBtn.textContent;
+      navigator.clipboard
+        .writeText(text)
+        .then(() => {
+          copyBtn.textContent = t("copied_label", lang);
+          setTimeout(() => {
+            copyBtn.textContent = originalLabel;
+          }, 1500);
+        })
+        .catch(() => {
+          // clipboard unavailable (permissions, insecure context) -- the
+          // chips are still readable/tappable on their own, nothing breaks.
+        });
+    });
   } catch {
     container.innerHTML = `<p class="empty-state">${t("product_not_found", lang)}</p>`;
   }

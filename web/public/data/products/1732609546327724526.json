@@ -16,8 +16,9 @@
   "creator_count": null,
   "video_count": null,
   "daily_units_14": [],
-  "is_pick": true,
+  "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732609546327724526",
   "tiktok_search_url": "https://www.tiktok.com/search?q=USA%20Landmark%20Travel%20Stickers",
-  "videos": []
+  "videos": [],
+  "formula_ganadora": null
 }

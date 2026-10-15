@@ -31,7 +31,7 @@
     725,
     349
   ],
-  "is_pick": false,
+  "is_pick": true,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt",
   "videos": [
@@ -101,5 +101,43 @@
       "is_ad": true,
       "duration_seconds": 43
     }
-  ]
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "sherpa",
+        "weight": 22
+      },
+      {
+        "hashtag": "comfrtclothing",
+        "weight": 22
+      },
+      {
+        "hashtag": "teddy",
+        "weight": 22
+      },
+      {
+        "hashtag": "winterfit",
+        "weight": 22
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 59,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "Love",
+      "Love",
+      "LOVE"
+    ]
+  }
 }
