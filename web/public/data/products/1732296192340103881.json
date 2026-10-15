@@ -152,8 +152,13 @@
     },
     "top_hooks": [
       "Cute fall layering dress.",
-      "Ootd \ud83e\udd0e",
-      "Elegant mini dress good for fall & winter \u2764\ufe0f"
+      "Ootd 🤎",
+      "Elegant mini dress good for fall & winter ❤️"
     ]
+  },
+  "saturation_badge": {
+    "level": "normal",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_en": "A normal level of competition -- not crowded, not wide open either."
   }
 }

@@ -151,8 +151,13 @@
       "hour_end": 2
     },
     "top_hooks": [
-      "Pumpkin patch days \ud83c\udf83",
+      "Pumpkin patch days 🎃",
       "fall ootd inspo!"
     ]
+  },
+  "saturation_badge": {
+    "level": "muy_lleno",
+    "reason_es": "Las ventas no están creciendo y ya hay varias creadoras vendiéndolo.",
+    "reason_en": "Sales aren't growing and several creators are already selling it."
   }
 }

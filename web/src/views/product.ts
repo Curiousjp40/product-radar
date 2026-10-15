@@ -189,6 +189,14 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       <h2 class="view-title product-title">${data.title}</h2>
       <div style="text-align:center;font-size:0.8rem;color:var(--text-dim);margin:-8px 0 12px">${categoryLabel} &middot; ${data.shop_name}</div>
       <div style="text-align:center;font-size:1.3rem;font-weight:700;margin-bottom:12px">$${data.price.toFixed(2)}</div>
+      ${
+        data.saturation_badge
+          ? `<div style="text-align:center;margin:-4px 0 12px">
+              <span class="saturation-badge saturation-${data.saturation_badge.level}">${t(`saturation_tag_${data.saturation_badge.level}`, lang)}</span>
+              <p class="saturation-reason" style="text-align:center">${lang === "es" ? data.saturation_badge.reason_es : data.saturation_badge.reason_en}</p>
+            </div>`
+          : ""
+      }
       <div class="stat-box-grid">${statBoxes.join("")}</div>
       ${
         data.daily_units_14.length > 0

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "product_id": "1729538565601989133",
-  "title": "24/7\u00ae Classic T-Shirt Bra Fit Lingerie",
+  "title": "24/7® Classic T-Shirt Bra Fit Lingerie",
   "image_url": "/img/product_1729538565601989133.webp",
   "category": "shapewear",
   "shop_name": "Thirdlove",
@@ -38,5 +38,6 @@
       "window_gmv": 0,
       "window_units_sold": 0
     }
-  ]
+  ],
+  "saturation_badge": null
 }

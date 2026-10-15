@@ -5,7 +5,7 @@
   "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
   "image_url": "/img/product_1732491682604749463.webp",
   "category": "home_decor",
-  "category_label_es": "Decoraci\u00f3n",
+  "category_label_es": "Decoración",
   "category_label_en": "Home Decor",
   "shop_name": "histrips.",
   "price": 42.5,
@@ -155,5 +155,10 @@
       "The hype on this thing is actually so real",
       "Silent wrist band alarm"
     ]
+  },
+  "saturation_badge": {
+    "level": "muy_lleno",
+    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   }
 }

@@ -2,6 +2,7 @@ import { loadCandidates } from "../api";
 import { assetUrl } from "../asset";
 import { t, type Lang } from "../i18n";
 import type { Candidate, CategoryGroup } from "../types";
+import { sortCandidates, type SortMode } from "../todosSort";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -23,7 +24,10 @@ function row(c: Candidate, lang: Lang): string {
       ${photo}
       <div class="info">
         <div class="name">${c.clean_title}</div>
-        <div class="meta">$${c.price.toFixed(2)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${(c.commission_rate * 100).toFixed(0)}% &middot; ${categoryLabel(c, lang)}</div>
+        <div class="meta">
+          $${c.price.toFixed(2)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${(c.commission_rate * 100).toFixed(0)}% &middot; ${categoryLabel(c, lang)}
+          ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
+        </div>
       </div>
       ${c.is_pick ? `<span class="star">&#9733;</span>` : ""}
     </a>
@@ -42,6 +46,15 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
 
   let group: CategoryGroup = "fashion";
   let categoryFilter = "";
+  let sortMode: SortMode = "score";
+
+  const SORT_CHIPS: { mode: SortMode; key: string }[] = [
+    { mode: "score", key: "sort_recommended" },
+    { mode: "units", key: "sort_most_sold" },
+    { mode: "commission", key: "sort_most_commission" },
+    { mode: "earn", key: "sort_most_earnings" },
+    { mode: "entra_ya", key: "sort_entra_ya" },
+  ];
 
   const draw = () => {
     const inGroup = data.candidates.filter((c) => c.group === group);
@@ -50,7 +63,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
         (inGroup.find((c) => c.category === a)?.rank ?? 0) - (inGroup.find((c) => c.category === b)?.rank ?? 0),
     );
     const filtered = categoryFilter ? inGroup.filter((c) => c.category === categoryFilter) : inGroup;
-    const sorted = [...filtered].sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+    const sorted = sortCandidates(sortMode, filtered);
 
     container.innerHTML = `
       ${banner}
@@ -68,6 +81,9 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
           })
           .join("")}
       </div>
+      <div class="category-chip-row sort-chip-row">
+        ${SORT_CHIPS.map((chip) => `<button data-sort="${chip.mode}" class="${sortMode === chip.mode ? "active" : ""}">${t(chip.key, lang)}</button>`).join("")}
+      </div>
       ${
         sorted.length === 0
           ? `<p class="empty-state">${t("no_data", lang)}</p>`
@@ -82,9 +98,15 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
         draw();
       });
     });
-    container.querySelectorAll<HTMLButtonElement>(".category-chip-row button").forEach((btn) => {
+    container.querySelectorAll<HTMLButtonElement>(".category-chip-row:not(.sort-chip-row) button").forEach((btn) => {
       btn.addEventListener("click", () => {
         categoryFilter = btn.dataset.category ?? "";
+        draw();
+      });
+    });
+    container.querySelectorAll<HTMLButtonElement>(".sort-chip-row button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        sortMode = btn.dataset.sort as SortMode;
         draw();
       });
     });

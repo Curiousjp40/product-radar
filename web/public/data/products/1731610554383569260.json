@@ -106,5 +106,10 @@
       "Silent wrist band alarm",
       "These silent alarms work SO GOOD FOR HEAVY SLEEPERS!"
     ]
+  },
+  "saturation_badge": {
+    "level": "muy_lleno",
+    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   }
 }

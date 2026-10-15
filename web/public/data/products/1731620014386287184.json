@@ -151,8 +151,13 @@
       "hour_end": 4
     },
     "top_hooks": [
-      "This walking pad can also track your distance, time, speed and calories \ud83d\udd25",
+      "This walking pad can also track your distance, time, speed and calories 🔥",
       "Esta caminadora aguanta hasta 400lbs y llega hasta 7."
     ]
+  },
+  "saturation_badge": {
+    "level": "normal",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_en": "A normal level of competition -- not crowded, not wide open either."
   }
 }

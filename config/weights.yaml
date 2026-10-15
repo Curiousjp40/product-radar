@@ -147,3 +147,10 @@ formula_ganadora: # Part B of the 2026-10-15 creator-workflow upgrade
   # engine/formula.py's ideal_duration_seconds falls back to this range
   # only when a product has no real video duration data at all.
   creator_sweet_spot_seconds: [13, 30]
+
+saturation_badge: # Part E of the 2026-10-15 creator-workflow upgrade
+  # See engine/saturation.py's module docstring for why these are a static
+  # creators-per-100-units-sold-this-week ratio, not a creator growth rate.
+  creators_per_100_units_entra_ya_max: 2.0
+  creators_per_100_units_muy_lleno_min: 6.0
+  units_slope_growing_min: 0.02 # same slope14 units as weights.stages.rising.slope14_min

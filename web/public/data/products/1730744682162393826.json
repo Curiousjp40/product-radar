@@ -153,5 +153,10 @@
     "top_hooks": [
       "Sweetcrispy Official Modern Soothing Washable Donut Sleeping Nest for Small Breeds - Curl-up Bolster, Plush Waterproof Faux Fur, Natural Nesting Instinct Support, Stays Put Non-Slip Base, Stain Resistant, Tumble Dry Low (Fits Cats & Pups)####"
     ]
+  },
+  "saturation_badge": {
+    "level": "normal",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_en": "A normal level of competition -- not crowded, not wide open either."
   }
 }

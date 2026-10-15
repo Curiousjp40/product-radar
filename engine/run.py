@@ -75,6 +75,7 @@ from engine.picks import (
     thompson_sample_categories,
 )
 from engine.quality import shop_round_price_cluster_ids, suspicious_reasons
+from engine.saturation import saturation_badge
 from engine.scoring import (
     composite_score,
     earnings_per_sale,
@@ -1033,12 +1034,30 @@ def _video_card_dicts(videos: list[dict] | None, limit: int) -> list[dict]:
     ]
 
 
+def _saturation_dict(
+    daily_units_14: list | None, creator_count: int | None, units_7d: float, saturation_cfg: dict | None
+) -> dict | None:
+    """None when saturation_cfg wasn't supplied (e.g. older call sites/tests
+    that don't care about it), same as a product with no trend data."""
+    if not saturation_cfg:
+        return None
+    return saturation_badge(
+        daily_units_14,
+        creator_count,
+        units_7d,
+        creators_per_100_units_entra_ya_max=saturation_cfg["creators_per_100_units_entra_ya_max"],
+        creators_per_100_units_muy_lleno_min=saturation_cfg["creators_per_100_units_muy_lleno_min"],
+        units_slope_growing_min=saturation_cfg["units_slope_growing_min"],
+    )
+
+
 def picks_to_export_dicts(
     picks: list[dict],
     creator_avg_gpm: float | None = None,
     spanish_gap_reason_max_share: float = 0.3,
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
     categories_cfg: dict | None = None,
+    saturation_cfg: dict | None = None,
 ) -> list[dict]:
     out = []
     for p in picks:
@@ -1085,6 +1104,12 @@ def picks_to_export_dicts(
                 "formula_ganadora": (
                     formula_ganadora_dict(p["videos"], creator_sweet_spot_seconds) if p.get("videos") else None
                 ),
+                "saturation_badge": _saturation_dict(
+                    p.get("daily_units_14") if isinstance(p.get("daily_units_14"), list) else None,
+                    int(p["creator_count"]) if pd.notna(p.get("creator_count")) else None,
+                    p.get("units_7d", 0),
+                    saturation_cfg,
+                ),
             }
         )
     return out
@@ -1096,6 +1121,7 @@ def product_detail_dict(
     is_pick: bool,
     has_enrichment: bool,
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
+    saturation_cfg: dict | None = None,
 ) -> dict:
     """Full product-page detail (redesigned 2026-10-18 for the "Todos" full
     list: written for every clean candidate, not just the ~9 final picks,
@@ -1110,6 +1136,7 @@ def product_detail_dict(
     clean = clean_title(title)
     daily_units_14 = cand.get("daily_units_14") if isinstance(cand.get("daily_units_14"), list) else []
     videos = cand.get("videos") or []
+    creator_count = cand.get("creator_count") if has_enrichment else None
     return {
         "product_id": cand["product_id"],
         "title": title,
@@ -1124,7 +1151,7 @@ def product_detail_dict(
         "earnings_per_sale": round(earnings_per_sale(cand["price"], cand["commission_rate"]), 2),
         "units_7d": cand.get("units_7d", 0),
         "units_total": cand.get("units_total", 0),
-        "creator_count": cand.get("creator_count") if has_enrichment else None,
+        "creator_count": creator_count,
         "video_count": cand.get("video_count") if has_enrichment else None,
         "daily_units_14": daily_units_14 if has_enrichment else [],
         "is_pick": is_pick,
@@ -1132,6 +1159,11 @@ def product_detail_dict(
         "tiktok_search_url": tiktok_search_url(clean),
         "videos": _video_card_dicts(videos, limit=6) if has_enrichment else [],
         "formula_ganadora": formula_ganadora_dict(videos, creator_sweet_spot_seconds) if has_enrichment and videos else None,
+        "saturation_badge": (
+            _saturation_dict(daily_units_14, creator_count, cand.get("units_7d", 0), saturation_cfg)
+            if has_enrichment
+            else None
+        ),
     }
 
 
@@ -1151,7 +1183,11 @@ def cache_pick_images(picks: list[dict]) -> None:
 
 
 def candidates_to_export_dicts(
-    df: pd.DataFrame, categories_cfg: dict, pick_ids: set[str], flagged: list[dict] | None = None
+    df: pd.DataFrame,
+    categories_cfg: dict,
+    pick_ids: set[str],
+    flagged: list[dict] | None = None,
+    saturation_cfg: dict | None = None,
 ) -> list[dict]:
     """The "Todos" page's full list (redesigned 2026-10-18): every clean
     candidate (not a trimmed pool), ranked rows grouped by categories.yaml's
@@ -1195,6 +1231,12 @@ def candidates_to_export_dicts(
                 "suspicious": False,
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=r["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
+                "saturation_badge": _saturation_dict(
+                    r["daily_units_14"] if isinstance(r["daily_units_14"], list) else None,
+                    int(r["creator_count"]) if pd.notna(r.get("creator_count")) else None,
+                    r.get("units_7d", 0),
+                    saturation_cfg,
+                ),
             }
         )
     # Suspicious listings (added 2026-10-15): excluded from scoring, kept
@@ -1231,6 +1273,7 @@ def candidates_to_export_dicts(
                 "suspicious_reasons": c["suspicious_reasons"],
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
+                "saturation_badge": None,
             }
         )
     return out
@@ -1330,9 +1373,12 @@ async def run(args: argparse.Namespace) -> None:
     )
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
     sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
+    saturation_cfg = weights["saturation_badge"]
     pick_ids = {p["product_id"] for p in picks}
-    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot, categories_cfg)
-    candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
+    pick_dicts = picks_to_export_dicts(
+        picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot, categories_cfg, saturation_cfg
+    )
+    candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
@@ -1345,11 +1391,18 @@ async def run(args: argparse.Namespace) -> None:
             export.write_product(
                 cand["product_id"],
                 product_detail_dict(
-                    cand, categories_cfg, cand["product_id"] in pick_ids, cand["product_id"] in enriched_ids, sweet_spot
+                    cand,
+                    categories_cfg,
+                    cand["product_id"] in pick_ids,
+                    cand["product_id"] in enriched_ids,
+                    sweet_spot,
+                    saturation_cfg,
                 ),
             )
         for cand in flagged:
-            export.write_product(cand["product_id"], product_detail_dict(cand, categories_cfg, False, False, sweet_spot))
+            export.write_product(
+                cand["product_id"], product_detail_dict(cand, categories_cfg, False, False, sweet_spot, saturation_cfg)
+            )
         # Ledger rows for this run were already written as each one happened
         # (BudgetTracker.checkpoint, via the `conn` passed in above) -- no
         # batch write needed here any more.

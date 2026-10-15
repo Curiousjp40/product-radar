@@ -151,8 +151,13 @@
       "hour_end": 22
     },
     "top_hooks": [
-      "she\u2019s my home and this is hers \ud83d\ude2d\ud83e\ude77",
+      "she’s my home and this is hers 😭🩷",
       "my tiny baby has her little mansion now"
     ]
+  },
+  "saturation_badge": {
+    "level": "muy_lleno",
+    "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
+    "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   }
 }

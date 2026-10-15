@@ -1136,6 +1136,41 @@ select.status-select {
 }
 
 /* ---------------------------------------------------------------------
+   Saturation badge (Part E, added 2026-10-15) -- used on the week-row
+   list/detail panel, product page and Todos rows.
+   ------------------------------------------------------------------- */
+.saturation-badge {
+  display: inline-block;
+  flex: 0 0 auto;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.saturation-entra_ya {
+  background: #e3f6e8;
+  color: var(--good);
+}
+
+.saturation-normal {
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+.saturation-muy_lleno {
+  background: #fde3e3;
+  color: var(--bad);
+}
+
+.saturation-reason {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  margin: 4px 0 0;
+}
+
+/* ---------------------------------------------------------------------
    "Hoy" tab (Part C, added 2026-10-15)
    ------------------------------------------------------------------- */
 .hoy-season-countdown {

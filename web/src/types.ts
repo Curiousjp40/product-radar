@@ -38,6 +38,7 @@ export interface Pick {
   videos: VideoCard[];
   fastmoss_url: string;
   formula_ganadora: FormulaGanadora | null;
+  saturation_badge: SaturationBadge | null;
 }
 
 export interface PicksFile {
@@ -77,12 +78,22 @@ export interface Candidate {
   suspicious_reasons?: string[];
   fastmoss_url: string;
   tiktok_search_url: string;
+  saturation_badge: SaturationBadge | null;
 }
 
 export interface CandidatesFile {
   schema_version: number;
   week: string;
   candidates: Candidate[];
+}
+
+// Part E, added 2026-10-15 -- see engine/saturation.py for what this is
+// actually derived from (no creator-count history exists to measure real
+// creator growth, so it's a creators-per-100-units-sold-this-week ratio).
+export interface SaturationBadge {
+  level: "entra_ya" | "normal" | "muy_lleno";
+  reason_es: string;
+  reason_en: string;
 }
 
 export interface FormulaGanadora {
@@ -116,6 +127,7 @@ export interface ProductDetail {
   tiktok_search_url: string;
   videos: VideoCard[];
   formula_ganadora: FormulaGanadora | null;
+  saturation_badge: SaturationBadge | null;
 }
 
 export interface CreatorInsights {

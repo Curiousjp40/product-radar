@@ -26,9 +26,8 @@ function formatHourRange(hourStart: number, hourEnd: number): string {
   return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
 }
 
-// Left-column compact row (Part F split view). Saturation badge (Part E)
-// and "Pocas latinas" badge (Part H5) get added to .week-row-meta once
-// those parts exist -- the data isn't there yet.
+// Left-column compact row (Part F split view). "Pocas latinas" badge
+// (Part H5) gets added to .week-row-meta once that part exists.
 function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean): string {
   const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
   return `
@@ -39,6 +38,7 @@ function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean):
         <div class="week-row-meta">
           <span class="week-row-earn">${earnLine}</span>
           <span class="week-row-price">$${pick.price.toFixed(2)}</span>
+          ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
         </div>
       </div>
     </a>
@@ -66,7 +66,9 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
       <div class="week-detail-earn">${earnLine}</div>
       <div class="week-detail-meta">
         $${pick.price.toFixed(2)} &middot; ${(pick.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${categoryLabel}
+        ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
       </div>
+      ${pick.saturation_badge ? `<p class="saturation-reason">${lang === "es" ? pick.saturation_badge.reason_es : pick.saturation_badge.reason_en}</p>` : ""}
       ${summary ? `<p class="week-detail-summary">${summary}</p>` : ""}
       ${
         videos.length > 0

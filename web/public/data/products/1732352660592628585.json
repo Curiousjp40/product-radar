@@ -106,5 +106,10 @@
       "Silent wrist band alarm",
       "These silent alarms work SO GOOD FOR HEAVY SLEEPERS!"
     ]
+  },
+  "saturation_badge": {
+    "level": "normal",
+    "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todavía.",
+    "reason_en": "A normal level of competition -- not crowded, not wide open either."
   }
 }

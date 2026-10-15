@@ -97,6 +97,16 @@ const dict: Record<string, { es: string; en: string }> = {
   guardar_button: { es: "Guardar", en: "Save" },
   guardado_label: { es: "Guardado", en: "Saved" },
   ver_todos_detalles_button: { es: "Ver todos los detalles", en: "See full details" },
+  // Part E saturation badge (added 2026-10-15).
+  saturation_tag_entra_ya: { es: "Entra ya", en: "Jump in now" },
+  saturation_tag_normal: { es: "Normal", en: "Normal" },
+  saturation_tag_muy_lleno: { es: "Muy lleno", en: "Very crowded" },
+  // Part F Todos sort chips (added 2026-10-15).
+  sort_recommended: { es: "Recomendado", en: "Recommended" },
+  sort_most_sold: { es: "Más vendidos", en: "Best selling" },
+  sort_most_commission: { es: "Más comisión", en: "Highest commission" },
+  sort_most_earnings: { es: "Ganas más por venta", en: "Highest earnings per sale" },
+  sort_entra_ya: { es: "Entra ya", en: "Jump in now" },
   hoy_samples_banner: {
     es: "Tienes muestras vencidas o por vencer. Revisa la pestaña Muestras.",
     en: "You have overdue or soon-due samples. Check the Samples tab.",
