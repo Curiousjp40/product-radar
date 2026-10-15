@@ -64,7 +64,9 @@ from engine.picks import (
     build_top10,
     candidate_event_ids,
     compute_blended_ranks,
+    enforce_group_minimums,
     filter_diverse_topn,
+    is_near_duplicate,
     pick_explore_categories,
     render_reason,
     select_top_reasons,
@@ -92,7 +94,7 @@ from engine.seasonality import (
 from engine.seed import load_creator_history, shop_videos_only
 from engine.stages import classify_stage
 from engine.stats import grouped_robust_z
-from engine.text import clean_title, days_remaining_phrase, join_reasons_as_sentence
+from engine.text import clean_title, days_remaining_phrase, extract_brand, join_reasons_as_sentence
 from engine.timeutil import now_eastern
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -844,7 +846,12 @@ def build_reasons(
 # ---------------------------------------------------------------------------
 
 
-def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | None = None) -> list[dict]:
+def assemble_picks(
+    df: pd.DataFrame,
+    weights: dict,
+    season_events: list[dict] | None = None,
+    categories_cfg: dict | None = None,
+) -> list[dict]:
     if df.empty:
         return []
     records = df.to_dict("records")
@@ -856,12 +863,17 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
     # Halloween, this close to film_end) -- a broad boost like bfcm_2026 that
     # matches most candidates must stay uncapped, see filter_diverse_topn.
     event_caps = {e["id"]: e["max_picks"] for e in (season_events or []) if e.get("max_picks") is not None}
+    max_per_category = weights["picks"]["max_per_category"]
+    max_per_shop = weights["picks"]["max_per_shop"]
+    max_per_brand = weights["picks"]["max_per_brand"]
+    title_jaccard_threshold = weights["picks"]["title_jaccard_duplicate_threshold"]
     diverse = filter_diverse_topn(
         ranked,
         n=weights["picks"]["core_slots"] + weights["picks"]["explore_slots"] + weights["picks"]["evergreen_slots"],
-        max_per_category=weights["picks"]["max_per_category"],
-        max_per_shop=weights["picks"]["max_per_shop"],
-        title_jaccard_threshold=weights["picks"]["title_jaccard_duplicate_threshold"],
+        max_per_category=max_per_category,
+        max_per_shop=max_per_shop,
+        max_per_brand=max_per_brand,
+        title_jaccard_threshold=title_jaccard_threshold,
         event_caps=event_caps,
     )
 
@@ -869,21 +881,55 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
     beliefs = {c: (1.0, 1.0) for c in categories}  # first run: no history, uniform Beta(1,1) prior
     sampled = thompson_sample_categories(beliefs)
     explore_cats = pick_explore_categories(sampled, trial_counts=dict.fromkeys(categories, 0), k=weights["picks"]["explore_slots"])
-    core_selected = diverse[: weights["picks"]["core_slots"]]
+    core_slots_n = weights["picks"]["core_slots"]
+    core_selected = diverse[:core_slots_n]
+    # Guarantee minimum representation for Moda-core (fajas/vestidos/conjuntos
+    # -- the 3 core-tier fashion categories) and Hogar (added 2026-10-19, real
+    # case: 2026-W42's Top 9 had zero of the former and too little of the
+    # latter). Skipped when categories_cfg isn't supplied (e.g. older tests
+    # that don't care about this) or no minimums are configured. The result
+    # is spliced back into `diverse` itself, not just `core_selected` -- the
+    # "core" picks below use `diverse` (via build_top10) as their
+    # ranked/ordered source, so a swap that only touched `core_selected`
+    # would get silently discarded once `diverse`'s own, unswapped head was
+    # re-read further down.
+    if categories_cfg is not None:
+        min_moda_core = weights["picks"].get("min_moda_core_picks", 0)
+        min_hogar = weights["picks"].get("min_hogar_picks", 0)
+        requirements = [
+            (lambda meta: meta.get("group") == "fashion" and meta.get("tier") == "core", min_moda_core),
+            (lambda meta: meta.get("group") == "home", min_hogar),
+        ]
+        core_selected = enforce_group_minimums(
+            core_selected,
+            ranked,
+            categories_cfg,
+            requirements,
+            max_per_category=max_per_category,
+            max_per_shop=max_per_shop,
+            max_per_brand=max_per_brand,
+            title_jaccard_threshold=title_jaccard_threshold,
+        )
+        core_ids = {c["product_id"] for c in core_selected}
+        diverse = core_selected + [c for c in diverse[core_slots_n:] if c["product_id"] not in core_ids]
     used_ids = {c["product_id"] for c in core_selected}
     # Diversity and event caps must carry over from the core selection into
-    # explore too (added 2026-10-15): explore candidates come straight from
+    # explore too (added 2026-10-15, extended 2026-10-19 for brand + the
+    # near-duplicate title check): explore candidates come straight from
     # `ranked`, not from `diverse`, so without this a 4th shapewear pick (over
-    # max_per_category=3) or a 2nd Halloween costume (over Halloween's
-    # max_picks=1) could still slip in through the explore slot.
-    max_per_category = weights["picks"]["max_per_category"]
-    max_per_shop = weights["picks"]["max_per_shop"]
+    # max_per_category=3), a 2nd Halloween costume (over Halloween's
+    # max_picks=1), or a near-duplicate of a core pick (real case: a core
+    # Crocs clog and a near-identical Crocs clog in explore, since this loop
+    # never checked title similarity against the core selection at all)
+    # could still slip in through the explore slot.
     category_counts: dict[str, int] = {}
     shop_counts: dict[str, int] = {}
+    brand_counts: dict[str, int] = {}
     event_counts: dict[str, int] = {}
     for c in core_selected:
         category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
         shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
+        brand_counts[extract_brand(c["title"])] = brand_counts.get(extract_brand(c["title"]), 0) + 1
         for eid in candidate_event_ids(c):
             if eid in event_caps:
                 event_counts[eid] = event_counts.get(eid, 0) + 1
@@ -897,12 +943,18 @@ def assemble_picks(df: pd.DataFrame, weights: dict, season_events: list[dict] | 
             continue
         if shop_counts.get(c["shop_id"], 0) >= max_per_shop:
             continue
+        brand = extract_brand(c["title"])
+        if brand_counts.get(brand, 0) >= max_per_brand:
+            continue
         ids = candidate_event_ids(c)
         if any(eid in event_caps and event_counts.get(eid, 0) >= event_caps[eid] for eid in ids):
+            continue
+        if any(is_near_duplicate(c["title"], s["title"], title_jaccard_threshold) for s in core_selected + explore_candidates):
             continue
         explore_candidates.append(c)
         category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
         shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
+        brand_counts[brand] = brand_counts.get(brand, 0) + 1
         for eid in ids:
             if eid in event_caps:
                 event_counts[eid] = event_counts.get(eid, 0) + 1
@@ -1191,7 +1243,8 @@ async def run(args: argparse.Namespace) -> None:
         final_balance = await check_balance(client)
 
     weights = config["weights"]
-    picks = assemble_picks(df, weights, config["seasons"]["events"]) if not df.empty else []
+    categories_cfg = config["categories"]["categories"]
+    picks = assemble_picks(df, weights, config["seasons"]["events"], categories_cfg) if not df.empty else []
     creators_cfg = config["creators"][CREATOR]
     creator_avg_gpm = creator_avg_category_gpm(
         creators_cfg["category_gpm_per_1k_views"], creators_cfg["category_views"]
@@ -1199,7 +1252,6 @@ async def run(args: argparse.Namespace) -> None:
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
     pick_ids = {p["product_id"] for p in picks}
     pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share)
-    categories_cfg = config["categories"]["categories"]
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
 
     if not args.dry_run:

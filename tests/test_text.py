@@ -1,4 +1,4 @@
-from engine.text import clean_title, days_remaining_phrase, join_reasons_as_sentence
+from engine.text import clean_title, days_remaining_phrase, extract_brand, join_reasons_as_sentence
 
 # Real 2026-W42 pick titles.
 
@@ -66,3 +66,21 @@ def test_days_remaining_phrase_today_and_past():
     assert days_remaining_phrase(0, "en") == "today"
     assert days_remaining_phrase(-3, "es") == ""
     assert days_remaining_phrase(-3, "en") == ""
+
+
+def test_extract_brand_real_duplicate_case_comfrt():
+    assert extract_brand("Comfrt") == "comfrt"
+    assert extract_brand("Comfrt Memory Foam Clog Slides") == "comfrt"
+
+
+def test_extract_brand_real_duplicate_case_crocs():
+    assert extract_brand("Crocs Women's Dylan Animal Platform Clogs") == "crocs"
+    assert extract_brand("Crocs Women's Dylan Platform Elevated Clogs") == "crocs"
+
+
+def test_extract_brand_strips_bracket_noise():
+    assert extract_brand("[Dr.Melaxin Official] Peel Shot Keratin Care") == "dr.melaxin"
+
+
+def test_extract_brand_different_brands_differ():
+    assert extract_brand("Tipsy Elves Women's Original Halloween Costumes") != extract_brand("YIANNA V-Shaped Shapewear")

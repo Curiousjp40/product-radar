@@ -27,6 +27,20 @@ def clean_title(title: str, max_words: int = 6) -> str:
     return " ".join(tokens[:max_words]).strip()
 
 
+def extract_brand(title: str) -> str:
+    """A rough brand key for the "max 1 pick per brand" diversity rule
+    (added 2026-10-19, real case: two near-identical "Comfrt" products and
+    two near-identical Crocs clogs both made the same week's picks) --
+    real titles consistently lead with the brand name ("Comfrt ...",
+    "Crocs Women's Dylan ...", "[Dr.Melaxin Official] ...", "YIANNA ...",
+    "Tipsy Elves ..."), so the first token after stripping bracket noise is
+    a decent, cheap signal. Not meant to be a precise brand database --
+    just consistent enough that the same real brand produces the same key."""
+    stripped = _BRACKETS_RE.sub(" ", title).strip()
+    first_token = stripped.split()[0] if stripped.split() else stripped
+    return first_token.lower()
+
+
 def join_reasons_as_sentence(reason_texts: list[str], lang: str) -> str:
     """Combines up to 2 reason fragments into one short paragraph for the
     simplified card, instead of a bullet list. Each fragment from

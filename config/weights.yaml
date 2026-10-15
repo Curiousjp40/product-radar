@@ -107,6 +107,9 @@ picks: # section 6.12 / 6.13
   evergreen_slots: 1
   max_per_category: 3
   max_per_shop: 2
+  max_per_brand: 1 # added 2026-10-19: stricter than max_per_shop -- the same brand can sell through more than one shop
+  min_moda_core_picks: 2 # added 2026-10-19: real case, 2026-W42's Top 9 had zero fajas/vestidos/conjuntos
+  min_hogar_picks: 2 # same date -- Hogar was also under-represented that week
   title_jaccard_duplicate_threshold: 0.6
   rank_blend:
     score_weight: 0.5

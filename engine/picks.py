@@ -8,9 +8,11 @@ Candidate dicts throughout this module are expected to have at least:
 from __future__ import annotations
 
 import random
+from collections.abc import Callable
 from typing import Literal
 
 from engine.stats import jaccard, rank, tokenize_title
+from engine.text import extract_brand
 
 
 def blended_rank(score_rank: int, ev_rank: int, score_weight: float = 0.5, ev_weight: float = 0.5) -> float:
@@ -51,6 +53,7 @@ def filter_diverse_topn(
     n: int,
     max_per_category: int = 3,
     max_per_shop: int = 2,
+    max_per_brand: int = 1,
     title_jaccard_threshold: float = 0.6,
     event_caps: dict[str, int] | None = None,
 ) -> list[dict]:
@@ -69,10 +72,18 @@ def filter_diverse_topn(
     since e.g. a real Halloween costume is category-tagged "womens_clothing",
     not "seasonal", and Black Friday's boost usually outscores Halloween's
     for `matched_event_id` once Halloween's own window is closing); falling
-    back to `[matched_event_id]` when a candidate has no `capped_event_ids`."""
+    back to `[matched_event_id]` when a candidate has no `capped_event_ids`.
+
+    `max_per_brand` (added 2026-10-19, real case: two near-identical
+    "Comfrt" products -- same shop, only 2 picks apart -- and two
+    near-identical Crocs clogs both made the same week's picks): stricter
+    than `max_per_shop`, since the same brand can sell through more than
+    one shop_id. See engine.text.extract_brand for how the brand key is
+    derived (a rough first-word heuristic, not a brand database)."""
     selected: list[dict] = []
     category_counts: dict[str, int] = {}
     shop_counts: dict[str, int] = {}
+    brand_counts: dict[str, int] = {}
     event_counts: dict[str, int] = {}
     event_caps = event_caps or {}
     for cand in ranked_candidates:
@@ -80,10 +91,13 @@ def filter_diverse_topn(
             break
         category = cand["category"]
         shop_id = cand["shop_id"]
+        brand = extract_brand(cand["title"])
         event_ids = candidate_event_ids(cand)
         if category_counts.get(category, 0) >= max_per_category:
             continue
         if shop_counts.get(shop_id, 0) >= max_per_shop:
+            continue
+        if brand_counts.get(brand, 0) >= max_per_brand:
             continue
         if any(event_caps.get(eid) is not None and event_counts.get(eid, 0) >= event_caps[eid] for eid in event_ids):
             continue
@@ -92,10 +106,84 @@ def filter_diverse_topn(
         selected.append(cand)
         category_counts[category] = category_counts.get(category, 0) + 1
         shop_counts[shop_id] = shop_counts.get(shop_id, 0) + 1
+        brand_counts[brand] = brand_counts.get(brand, 0) + 1
         for eid in event_ids:
             if eid in event_caps:
                 event_counts[eid] = event_counts.get(eid, 0) + 1
     return selected
+
+
+def enforce_group_minimums(
+    core_selected: list[dict],
+    ranked_candidates: list[dict],
+    categories_cfg: dict,
+    requirements: list[tuple[Callable[[dict], bool], int]],
+    max_per_category: int,
+    max_per_shop: int,
+    max_per_brand: int,
+    title_jaccard_threshold: float,
+) -> list[dict]:
+    """Guarantees each (predicate, min_count) in `requirements` has at least
+    `min_count` matches within `core_selected` (section 6.12's diversity caps
+    are still enforced against the working set), promoting the best-ranked
+    qualifying candidate from `ranked_candidates` in place of the
+    worst-ranked (highest `blended_rank`) existing pick that doesn't itself
+    satisfy a still-unmet requirement.
+
+    Real case, 2026-W42: the Top 9 had zero shapewear/dresses/sets picks
+    (the 3 core-tier Moda categories) despite them being core, and Hogar was
+    also under-represented, while weaker secondary/seasonal-tier picks (e.g.
+    a 2nd Crocs clog) filled the list instead. `predicate` receives a
+    category's metadata dict from `categories_cfg` (e.g. `{"tier": "core",
+    "group": "fashion", ...}`), not the candidate itself, since the
+    requirement is about the category's properties.
+
+    A requirement that can't be filled without violating a cap, or for lack
+    of a qualifying candidate, is left unmet rather than forcing a bad pick
+    -- this can't backfill a category that simply has no decent candidates
+    this week."""
+    working = list(core_selected)
+    for predicate, min_count in requirements:
+        shortfall = min_count - sum(1 for c in working if predicate(categories_cfg.get(c["category"], {})))
+        if shortfall <= 0:
+            continue
+        used_ids = {c["product_id"] for c in working}
+        for cand in ranked_candidates:
+            if shortfall <= 0:
+                break
+            if cand["product_id"] in used_ids or not predicate(categories_cfg.get(cand["category"], {})):
+                continue
+            category_counts: dict[str, int] = {}
+            shop_counts: dict[str, int] = {}
+            brand_counts: dict[str, int] = {}
+            for c in working:
+                category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
+                shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
+                brand_counts[extract_brand(c["title"])] = brand_counts.get(extract_brand(c["title"]), 0) + 1
+            brand = extract_brand(cand["title"])
+            if (
+                category_counts.get(cand["category"], 0) >= max_per_category
+                or shop_counts.get(cand["shop_id"], 0) >= max_per_shop
+                or brand_counts.get(brand, 0) >= max_per_brand
+                or any(is_near_duplicate(cand["title"], s["title"], title_jaccard_threshold) for s in working)
+            ):
+                continue
+            protected_ids: set[str] = set()
+            for other_predicate, other_min in requirements:
+                matches = [c for c in working if other_predicate(categories_cfg.get(c["category"], {}))]
+                if len(matches) <= other_min:
+                    protected_ids.update(c["product_id"] for c in matches)
+            removable = [c for c in working if c["product_id"] not in protected_ids]
+            if not removable:
+                break  # nothing safe to drop; leave this requirement unmet
+            worst = max(removable, key=lambda c: c["blended_rank"])
+            working.remove(worst)
+            working.append(cand)
+            used_ids.discard(worst["product_id"])
+            used_ids.add(cand["product_id"])
+            shortfall -= 1
+    working.sort(key=lambda c: c["blended_rank"])
+    return working
 
 
 def exclude_recent_films(

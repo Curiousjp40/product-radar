@@ -6,6 +6,7 @@ from engine.picks import (
     blended_rank,
     build_top10,
     compute_blended_ranks,
+    enforce_group_minimums,
     exclude_recent_films,
     filter_diverse_topn,
     is_near_duplicate,
@@ -17,11 +18,16 @@ from engine.picks import (
 
 
 def _cand(pid, category="cat", shop="shop1", title=None, score=50, ev=10):
+    # Default title leads with a distinct per-pid "brand" token (Brand0,
+    # Brand1, ...) so unrelated tests exercising the category/shop/event caps
+    # don't accidentally collide on extract_brand's first-word heuristic and
+    # get collapsed by the max_per_brand=1 default -- see test_max_per_brand_cap
+    # below for the test that deliberately shares a brand.
     return {
         "product_id": pid,
         "category": category,
         "shop_id": shop,
-        "title": title or f"Product {pid}",
+        "title": title or f"Brand{pid} Product",
         "score": score,
         "ev_typical": ev,
     }
@@ -61,6 +67,20 @@ def test_filter_diverse_topn_respects_shop_cap():
     candidates = [_cand(str(i), category=f"cat{i}", shop="sameshop") for i in range(5)]
     out = filter_diverse_topn(candidates, n=5, max_per_category=3, max_per_shop=2)
     assert len(out) == 2
+
+
+def test_filter_diverse_topn_respects_brand_cap():
+    # real case, 2026-W42: two "Comfrt"-titled products, different shops and
+    # categories, both made the same week's picks -- max_per_brand=1 must
+    # keep only the first.
+    candidates = [
+        _cand("0", category="winter_clothing", shop="shopA", title="Comfrt Memory Foam Clog Slides", score=90),
+        _cand("1", category="shoes", shop="shopB", title="Comfrt Platform Sandals", score=80),
+        _cand("2", category="furniture", shop="shopC", title="COLAMY Dining Chair", score=70),
+    ]
+    out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2, max_per_brand=1)
+    ids = {c["product_id"] for c in out}
+    assert ids == {"0", "2"}
 
 
 def test_filter_diverse_topn_drops_near_duplicate_titles():
@@ -124,6 +144,61 @@ def test_filter_diverse_topn_no_season_cap_by_default():
         c["matched_event_id"] = "halloween_2026"
     out = filter_diverse_topn(candidates, n=3, max_per_category=3, max_per_shop=2)
     assert len(out) == 3
+
+
+def test_enforce_group_minimums_backfills_moda_core_and_hogar():
+    # real case, 2026-W42: the Top 9 had zero shapewear/dresses/sets (the
+    # core-tier Moda categories) and too little Hogar, while weaker
+    # secondary-tier picks (shoes) filled the list instead.
+    categories_cfg = {
+        "shoes": {"group": "fashion", "tier": "secondary"},
+        "shapewear": {"group": "fashion", "tier": "core"},
+        "furniture": {"group": "home", "tier": "core"},
+    }
+    core_selected = [
+        {"product_id": "0", "category": "shoes", "shop_id": "shopA", "title": "Crocs Clogs", "blended_rank": 1},
+        {"product_id": "1", "category": "shoes", "shop_id": "shopB", "title": "Nike Sneakers", "blended_rank": 2},
+    ]
+    ranked = core_selected + [
+        {"product_id": "2", "category": "shapewear", "shop_id": "shopC", "title": "YIANNA Shapewear", "blended_rank": 3},
+        {"product_id": "3", "category": "furniture", "shop_id": "shopD", "title": "COLAMY Chair", "blended_rank": 4},
+    ]
+    requirements = [
+        (lambda meta: meta.get("group") == "fashion" and meta.get("tier") == "core", 1),
+        (lambda meta: meta.get("group") == "home", 1),
+    ]
+    out = enforce_group_minimums(
+        core_selected,
+        ranked,
+        categories_cfg,
+        requirements,
+        max_per_category=3,
+        max_per_shop=2,
+        max_per_brand=1,
+        title_jaccard_threshold=0.6,
+    )
+    assert {c["product_id"] for c in out} == {"2", "3"}
+
+
+def test_enforce_group_minimums_leaves_requirement_unmet_without_a_candidate():
+    # no home-group category exists at all this week -- must not crash or
+    # force a bad pick, just leave the requirement unmet.
+    categories_cfg = {"shoes": {"group": "fashion", "tier": "secondary"}}
+    core_selected = [
+        {"product_id": "0", "category": "shoes", "shop_id": "shopA", "title": "Crocs Clogs", "blended_rank": 1},
+    ]
+    requirements = [(lambda meta: meta.get("group") == "home", 1)]
+    out = enforce_group_minimums(
+        core_selected,
+        core_selected,
+        categories_cfg,
+        requirements,
+        max_per_category=3,
+        max_per_shop=2,
+        max_per_brand=1,
+        title_jaccard_threshold=0.6,
+    )
+    assert out == core_selected
 
 
 def test_exclude_recent_films_keeps_winner_again():

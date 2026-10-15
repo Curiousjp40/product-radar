@@ -90,7 +90,19 @@ def test_build_reasons_seasonality_skipped_when_event_already_passed():
     assert not any("Halloween" in r for r in reasons_es)
 
 
-def _weights(core_slots, explore_slots, max_per_category=3, max_per_shop=2):
+def _weights(
+    core_slots,
+    explore_slots,
+    max_per_category=3,
+    max_per_shop=2,
+    max_per_brand=10,
+    min_moda_core_picks=0,
+    min_hogar_picks=0,
+):
+    # max_per_brand defaults loose (10) here since these tests target the
+    # category/shop caps specifically, and several synthetic candidate sets
+    # share a leading title word (e.g. "Shapewear Product 0".."3") that would
+    # otherwise collide under extract_brand's first-word heuristic.
     return {
         "picks": {
             "core_slots": core_slots,
@@ -98,6 +110,9 @@ def _weights(core_slots, explore_slots, max_per_category=3, max_per_shop=2):
             "evergreen_slots": 0,
             "max_per_category": max_per_category,
             "max_per_shop": max_per_shop,
+            "max_per_brand": max_per_brand,
+            "min_moda_core_picks": min_moda_core_picks,
+            "min_hogar_picks": min_hogar_picks,
             "title_jaccard_duplicate_threshold": 0.6,
         }
     }
@@ -126,6 +141,120 @@ def test_assemble_picks_category_cap_counts_explore_too():
     picks = assemble_picks(df, _weights(core_slots=3, explore_slots=1))
     assert len(picks) == 3  # the 4th shapewear candidate must NOT fill the explore slot
     assert all(p["kind"] == "core" for p in picks)
+
+
+def test_assemble_picks_explore_slot_rejects_near_duplicate_of_core_pick():
+    # the real bug this guards against, 2026-W42: a core "Crocs Women's Dylan
+    # Animal Platform Clogs" pick and a near-identical explore "Crocs Women's
+    # Dylan Platform Elevated Clogs" from the SAME shop both made the list --
+    # max_per_shop=2 allows 2 from one shop, so only the title-similarity
+    # check (missing from the explore loop before this fix) can catch this.
+    # filter_diverse_topn already drops the near-duplicate from `diverse`
+    # itself, so without the explore loop's OWN near-dup check it would sneak
+    # back in from the full `ranked` list the explore loop draws from.
+    rows = [
+        {
+            "product_id": "0",
+            "config_category": "shoes",
+            "shop_id": "CROCS US SHOP",
+            "title": "Crocs Women's Dylan Animal Platform Clogs",
+            "score": 90,
+            "ev_typical": 50,
+        },
+        {
+            "product_id": "1",
+            "config_category": "shoes",
+            "shop_id": "CROCS US SHOP",
+            "title": "Crocs Women's Dylan Platform Elevated Clogs",
+            "score": 80,
+            "ev_typical": 40,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    picks = assemble_picks(df, _weights(core_slots=1, explore_slots=1))
+    assert len(picks) == 1
+    assert picks[0]["product_id"] == "0"
+    assert all(p["kind"] == "core" for p in picks)
+
+
+def test_assemble_picks_backfills_moda_core_and_hogar_minimums():
+    # real case, 2026-W42: two strong "shoes" (secondary-tier Moda) picks
+    # outranked a core-tier Moda pick (shapewear) and a Hogar pick
+    # (furniture), so neither made the Top 9. min_moda_core_picks and
+    # min_hogar_picks must backfill them even though they score worse --
+    # and the swap must actually surface in the final picks, not just an
+    # internal `core_selected` that build_top10 then silently ignores.
+    rows = [
+        {
+            "product_id": "0",
+            "config_category": "shoes",
+            "shop_id": "shopA",
+            "title": "Crocs Clogs",
+            "score": 95,
+            "ev_typical": 60,
+        },
+        {
+            "product_id": "1",
+            "config_category": "shoes",
+            "shop_id": "shopB",
+            "title": "Nike Sneakers",
+            "score": 90,
+            "ev_typical": 55,
+        },
+        {
+            "product_id": "2",
+            "config_category": "shapewear",
+            "shop_id": "shopC",
+            "title": "YIANNA Shapewear",
+            "score": 50,
+            "ev_typical": 20,
+        },
+        {
+            "product_id": "3",
+            "config_category": "furniture",
+            "shop_id": "shopD",
+            "title": "COLAMY Chair",
+            "score": 45,
+            "ev_typical": 15,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    categories_cfg = {
+        "shoes": {"group": "fashion", "tier": "secondary"},
+        "shapewear": {"group": "fashion", "tier": "core"},
+        "furniture": {"group": "home", "tier": "core"},
+    }
+    weights = _weights(core_slots=2, explore_slots=0, min_moda_core_picks=1, min_hogar_picks=1)
+    picks = assemble_picks(df, weights, categories_cfg=categories_cfg)
+    assert {p["product_id"] for p in picks} == {"2", "3"}
+    assert all(p["kind"] == "core" for p in picks)
+
+
+def test_assemble_picks_skips_minimums_when_categories_cfg_omitted():
+    # backward compatibility: callers (and older tests) that don't pass
+    # categories_cfg get the plain blended-rank picks, unaffected.
+    rows = [
+        {
+            "product_id": "0",
+            "config_category": "shoes",
+            "shop_id": "shopA",
+            "title": "Crocs Clogs",
+            "score": 95,
+            "ev_typical": 60,
+        },
+        {
+            "product_id": "1",
+            "config_category": "shoes",
+            "shop_id": "shopB",
+            "title": "Nike Sneakers",
+            "score": 90,
+            "ev_typical": 55,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    weights = _weights(core_slots=2, explore_slots=0, min_moda_core_picks=1, min_hogar_picks=1)
+    picks = assemble_picks(df, weights)
+    assert {p["product_id"] for p in picks} == {"0", "1"}
 
 
 def _full_candidate(product_id: str, title: str, config_category: str = "womens_clothing", **overrides) -> dict:
