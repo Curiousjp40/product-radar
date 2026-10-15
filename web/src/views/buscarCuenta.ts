@@ -46,6 +46,13 @@ function fastmossProductUrl(productId: string): string {
   return `https://www.fastmoss.com/e-commerce/detail/${productId}`;
 }
 
+// FastMoss's own CDN (s.500fd.com) blocks hotlinking from other origins, so
+// every image goes through the Worker's /img proxy (added 2026-10-15)
+// instead of being loaded directly -- see worker/src/index.js.
+function proxiedImageUrl(url: string): string {
+  return `${WORKER_URL}/img?url=${encodeURIComponent(url)}`;
+}
+
 // price can be a number, a "$"-formatted string, a plain numeric string, or
 // a "low-high" range (worker/src/logic.js's mapProductListResult, still an
 // inferred field mapping -- see its comment) -- always degrade to an em
@@ -115,7 +122,7 @@ function creatorStatsHtml(data: AccountSearchResult, lang: Lang): string {
   return `
     <div class="insight-card">
       <div class="search-profile">
-        ${c.avatar ? `<img class="search-avatar" src="${c.avatar}" alt="${c.nickname}" />` : ""}
+        ${c.avatar ? `<img class="search-avatar" src="${proxiedImageUrl(c.avatar)}" alt="${c.nickname}" />` : ""}
         <div>
           <h3>${c.nickname}</h3>
           <span class="text-dim">@${c.unique_id}</span>
@@ -155,6 +162,20 @@ function audienceHtml(data: AccountSearchResult, lang: Lang): string {
   `;
 }
 
+function locationHtml(data: AccountSearchResult, lang: Lang): string {
+  const c = data.creator;
+  const countries = c.country_distribution ?? [];
+  const regions = c.region_distribution ?? [];
+  if (countries.length === 0 && regions.length === 0) return "";
+  return `
+    <div class="insight-card">
+      <h3>${t("location_label", lang)}</h3>
+      ${countries.map((e) => barRow(e.name, e.percentage)).join("")}
+      ${regions.length > 0 ? `<div class="bar-group-gap"></div>${regions.map((e) => barRow(e.name, e.percentage)).join("")}` : ""}
+    </div>
+  `;
+}
+
 function topVideosHtml(data: AccountSearchResult, lang: Lang): string {
   if (data.top_videos.length === 0) return "";
   return `
@@ -188,7 +209,7 @@ function topProductsHtml(data: AccountSearchResult, lang: Lang): string {
           .map(
             (p) => `
           <a class="todos-row" href="${fastmossProductUrl(p.product_id)}" target="_blank" rel="noopener">
-            ${p.image_url ? `<img class="photo" src="${p.image_url}" alt="" loading="lazy" />` : `<div class="photo"></div>`}
+            ${p.image_url ? `<img class="photo" src="${proxiedImageUrl(p.image_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`}
             <div class="info">
               <div class="name">${p.title.slice(0, 50)}</div>
               <div class="meta">${formatPrice(p.price)} &middot; ${p.units_sold ?? "—"} ${t("units_sold_short", lang)} &middot; ${p.commission_rate_percent != null ? `${p.commission_rate_percent}%` : "—"}</div>
@@ -235,6 +256,7 @@ function renderBody(lang: Lang): string {
       ${freeButtonsHtml(handle, lang)}
       ${creatorStatsHtml(state.data, lang)}
       ${audienceHtml(state.data, lang)}
+      ${locationHtml(state.data, lang)}
       ${topVideosHtml(state.data, lang)}
       ${topProductsHtml(state.data, lang)}
     `;

@@ -88,6 +88,20 @@ export function mapCreatorSearchResult(raw) {
   };
 }
 
+// Hosts the /img proxy will fetch on the caller's behalf (added 2026-10-15:
+// s.500fd.com, FastMoss's own CDN, blocks hotlinking from other origins,
+// per Ryan's report -- a server-side Worker fetch isn't subject to that).
+// TikTok's CDN hostnames vary by region/pop (p16-sign-va.tiktokcdn.com,
+// p77-sign-va.tiktokcdn-us.com, etc.), so those are matched by suffix
+// rather than an exhaustive exact list. Never a general-purpose proxy: any
+// other host is refused.
+const ALLOWED_IMAGE_HOST_SUFFIXES = [".tiktokcdn.com", ".tiktokcdn-us.com", ".tiktokcdn-eu.com", ".ibyteimg.com"];
+
+export function isAllowedImageHost(hostname) {
+  if (hostname === "s.500fd.com") return true;
+  return ALLOWED_IMAGE_HOST_SUFFIXES.some((suffix) => hostname.endsWith(suffix));
+}
+
 export function mapVideoAnalysisResult(raw) {
   const list = raw?.video_list?.list || [];
   return list.slice(0, 10).map((v) => ({
@@ -137,4 +151,41 @@ export function mapProductListResult(raw) {
       commission_rate_percent: p.commission_rate_percent,
     };
   });
+}
+
+/**
+ * creator_fans_distribution (2cr, docs/fastmoss_tools.json) -- "Returns age,
+ * gender, location, and top segments," no output schema or real fixture
+ * captured yet. Tries several plausible field names/shapes for the location
+ * breakdown (country vs region, nested under `location` or flat), the same
+ * tolerant-fallback approach as mapProductListResult, since the real shape
+ * is still unconfirmed until a live call captures one. Age/gender here are
+ * ignored -- creator_search's audience_summary already covers those for
+ * free, so this tool is only worth its 2cr for the location data it alone
+ * provides.
+ */
+export function mapFansDistributionResult(raw) {
+  const countries = firstDefined(
+    raw?.country_distribution,
+    raw?.location_distribution,
+    raw?.location?.country_distribution,
+    []
+  );
+  const regions = firstDefined(
+    raw?.region_distribution,
+    raw?.state_distribution,
+    raw?.location?.region_distribution,
+    []
+  );
+  const normalize = (entries) =>
+    (entries || [])
+      .map((e) => ({
+        name: firstDefined(e.country, e.region, e.state, e.name, e.label),
+        percentage: firstDefined(e.percentage, e.percent, e.pct),
+      }))
+      .filter((e) => e.name !== undefined && e.percentage !== undefined);
+  return {
+    country_distribution: normalize(countries),
+    region_distribution: normalize(regions),
+  };
 }

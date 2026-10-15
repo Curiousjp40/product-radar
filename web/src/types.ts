@@ -183,6 +183,10 @@ export interface AccountSearchCreator {
   trend_categories: { id: number; name: string }[];
   age_distribution: { age_range: string; percentage: number }[];
   gender_distribution: { gender: string; percentage: number }[];
+  // creator_fans_distribution (2cr, added 2026-10-15) -- the only source
+  // for location, so worth its cost on top of the free audience_summary.
+  country_distribution: { name: string; percentage: number }[];
+  region_distribution: { name: string; percentage: number }[];
 }
 
 export interface AccountSearchVideo {

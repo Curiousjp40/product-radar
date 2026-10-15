@@ -119,6 +119,7 @@ const dict: Record<string, { es: string; en: string }> = {
   avg_views_label: { es: "Vistas promedio", en: "Avg views" },
   top_categories_label: { es: "Categorías principales", en: "Top categories" },
   audience_label: { es: "Audiencia", en: "Audience" },
+  location_label: { es: "Ubicación", en: "Location" },
   top_videos_label: { es: "Videos que más venden", en: "Top-selling videos" },
   top_products_label: { es: "Productos que más vende", en: "Top-selling products" },
 };

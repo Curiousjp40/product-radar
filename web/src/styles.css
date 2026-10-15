@@ -253,10 +253,13 @@ table.radar-table td {
 }
 
 .bar-label {
-  flex: 0 0 56px;
+  flex: 0 0 80px;
   font-size: 0.78rem;
   color: var(--text-dim);
   text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .bar-track {

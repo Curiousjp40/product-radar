@@ -5,7 +5,9 @@ import {
   cacheKeyFor,
   creditGuardOk,
   dailyCountKey,
+  isAllowedImageHost,
   mapCreatorSearchResult,
+  mapFansDistributionResult,
   mapProductListResult,
   mapVideoAnalysisResult,
   mondaysRemaining,
@@ -151,4 +153,31 @@ test("mapProductListResult checks a nested product/shop object too", () => {
   assert.equal(mapped[0].title, "Nested Thing");
   assert.equal(mapped[0].price, 5);
   assert.equal(mapped[0].image_url, "https://x/nested.jpg");
+});
+
+test("isAllowedImageHost allows the FastMoss CDN and TikTok CDN hosts only", () => {
+  assert.equal(isAllowedImageHost("s.500fd.com"), true);
+  assert.equal(isAllowedImageHost("p16-sign-va.tiktokcdn.com"), true);
+  assert.equal(isAllowedImageHost("p77-sign-va.tiktokcdn-us.com"), true);
+  assert.equal(isAllowedImageHost("sometotallydifferentcdn.com"), false);
+  assert.equal(isAllowedImageHost("evil.com/s.500fd.com"), false);
+  assert.equal(isAllowedImageHost("not-s.500fd.com"), false);
+});
+
+test("mapFansDistributionResult extracts country/region distributions, flat or nested", () => {
+  const flat = mapFansDistributionResult({
+    country_distribution: [{ country: "US", percentage: 80 }, { country: "MX", percentage: 20 }],
+  });
+  assert.deepEqual(flat.country_distribution, [{ name: "US", percentage: 80 }, { name: "MX", percentage: 20 }]);
+
+  const nested = mapFansDistributionResult({
+    location: { country_distribution: [{ country: "US", percent: 90 }], region_distribution: [{ region: "California", percent: 30 }] },
+  });
+  assert.deepEqual(nested.country_distribution, [{ name: "US", percentage: 90 }]);
+  assert.deepEqual(nested.region_distribution, [{ name: "California", percentage: 30 }]);
+});
+
+test("mapFansDistributionResult tolerates an unconfirmed/empty response shape", () => {
+  assert.deepEqual(mapFansDistributionResult({}), { country_distribution: [], region_distribution: [] });
+  assert.deepEqual(mapFansDistributionResult(null), { country_distribution: [], region_distribution: [] });
 });
