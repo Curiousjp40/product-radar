@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1730966352095777481",
+  "time_range_days": 90,
+  "total": 255,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "anniefernn",
+        "creator_uid": "6764529089664730118"
+      },
+      "engagement_metrics": {
+        "comment_count": 51,
+        "like_count": 65600,
+        "play_count": 1500000,
+        "share_count": 1906
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 2173.52,
+        "window_units_sold": 114
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693223526890802446",
+      "video_meta": {
+        "caption_text": "Pumpkin patch days \ud83c\udf83 #fall #pumpkinpatch #pumpkinpatchoutfit #pumpkins #fallootd ",
+        "cover_url": "https://s.500fd.com/tt_video/o0nDFiDwFGeSw0DEKRaaABqE5zPIISHfgq9XbE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693223526890802446",
+        "published_at": 1791218217,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anniefernn/video/7693223526890802446"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopwithgig1",
+        "creator_uid": "7434781746461475886"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 11700,
+        "play_count": 1100000,
+        "share_count": 300
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 2057.79,
+        "window_units_sold": 113
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673972291285339405",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/og2UCfbtEuUFP7bALAIQfUp3jyASDHJ5IfBQRk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673972291285339405",
+        "published_at": 1786735934,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopwithgig1/video/7673972291285339405"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alissia.valentine",
+        "creator_uid": "6955182898216829958"
+      },
+      "engagement_metrics": {
+        "comment_count": 84,
+        "like_count": 34600,
+        "play_count": 546200,
+        "share_count": 602
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 631.05,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686361280541658382",
+      "video_meta": {
+        "caption_text": "cute little gingham mini dress outfit\ud83c\udf42 #falloutfitinspo #falloutfitideas #midsize #fallootd #midsizeoutfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/owADAcLW2mqQfCfAlFD3OImVSq4REDFgAYzEcI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686361280541658382",
+        "published_at": 1789620456,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alissia.valentine/video/7686361280541658382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "joanna.zakk",
+        "creator_uid": "269096789121794048"
+      },
+      "engagement_metrics": {
+        "comment_count": 67,
+        "like_count": 16400,
+        "play_count": 520400,
+        "share_count": 629
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 755.01,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674482790557093134",
+      "video_meta": {
+        "caption_text": "#cutedress #ootd #outfitinspo #falloutfits #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/ooCBEEvWF9kpXI4oAAEAiBu2XAYgai7PgBu1i~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674482790557093134",
+        "published_at": 1786854796,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@joanna.zakk/video/7674482790557093134"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "b2266309",
+        "creator_uid": "7392441806642676782"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 23500,
+        "play_count": 465900,
+        "share_count": 478
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 1220.4,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692876961693175053",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oM8CuIgwfAECBZLyBDRqPvBNlEDSFErDPpWIBe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692876961693175053",
+        "published_at": 1791137520,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@b2266309/video/7692876961693175053"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alarue18",
+        "creator_uid": "6623701525133443077"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 4297,
+        "play_count": 380200,
+        "share_count": 150
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 1640,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689485431691349278",
+      "video_meta": {
+        "caption_text": "fall ootd inspo!! \ud83e\udd0e\ud83c\udf41 #fallvibes #ginghamdress #kneehighboots #falloutfitinspo #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/ooDJ437fI1iAGqiYAYB20Qi0AmPWAA0IwTicIC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689485431691349278",
+        "published_at": 1790347872,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alarue18/video/7689485431691349278"
+      }
+    }
+  ]
+}

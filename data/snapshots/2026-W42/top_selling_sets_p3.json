@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 72.79,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/9f85e221acb14f02850a6775caf2b2ff~tplv-fhlh96nyum-crop-webp:1500:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 39.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-14",
+      "launch_time": 1781382716,
+      "period_gmv": 52564.74,
+      "period_units_sold": 1337,
+      "price_display": "$39.99  - 72.79",
+      "product_id": "1732440631520235998",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8338676d5c35420e9b7f4c69ba6533fb~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496152587431872990",
+        "shop_name": "FDR",
+        "total_units_sold": 176215
+      },
+      "title": "FDR Women's Buttercream Cropped Zip-Up Hoodie & Sweatpants Set, Soft Casual Two-Piece Outfit with Hooded Jacket, Y2K Minimalist Streetwear Style for Daily Wear, Baggy Pant Lounge and Active Looks",
+      "total_gmv": 252707.22,
+      "total_units_sold": 6481,
+      "units_sold_growth_rate_percent": 28.68
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 71.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/6892787f70b04ef0aa70cd12bf6d9a1c~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 71.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-15",
+      "launch_time": 1755199475,
+      "period_gmv": 78264.86,
+      "period_units_sold": 1282,
+      "price_display": "$71.99",
+      "product_id": "1730843879700075109",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/c0c4e308603749f59da8dd20aeeab622~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495023845212326501",
+        "shop_name": "Princess Polly",
+        "total_units_sold": 418030
+      },
+      "title": "Loveliness Romper Brown Check",
+      "total_gmv": 658538.99,
+      "total_units_sold": 10958,
+      "units_sold_growth_rate_percent": 93.07
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 39.99,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/6c897b1a83694db1b0d95bf20885a2ce~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 35.09,
+      "is_off_shelf": false,
+      "launch_date": "2025-01-14",
+      "launch_time": 1736795809,
+      "period_gmv": 33169.3,
+      "period_units_sold": 1236,
+      "price_display": "$35.09  - 39.99",
+      "product_id": "1730491172266217613",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8c19bbe64faf4c7d90aaeca52313dfa6~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495770828776638605",
+        "shop_name": "AVIDLOVE Boutique",
+        "total_units_sold": 896415
+      },
+      "title": "Avidlove Women Long Sleeve Bodysuit Turtle Neck Shapewear Body Suits Mesh One Piece Leotard Shirt Going Out Tops Fall Outfits Gifts Womenswear Basic Bottom CompressionElegant Everyday Nylon Overalls Spandex",
+      "total_gmv": 1619286.05,
+      "total_units_sold": 53953,
+      "units_sold_growth_rate_percent": 68.85
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 42.98,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/33e6c284c08a4e4d86d61292ab8702f9~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 42.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-27",
+      "launch_time": 1756300671,
+      "period_gmv": 46130.1,
+      "period_units_sold": 1191,
+      "price_display": "$42.98",
+      "product_id": "1731677864726205404",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5d856fd8dbfa47a695d5d78515e3f933~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495998788529261532",
+        "shop_name": "Katch Me Chic",
+        "total_units_sold": 1158291
+      },
+      "title": "Katch Me Chic(US)Women's Leisure Solid Color Sloping Shoulder Long Sleeve Top & Wide Leg Trousers Co-ord Set & Separates, Minimalist Scoop Neck Loose Outfits, Casual Womenswear Soft Suits",
+      "total_gmv": 3912686.39,
+      "total_units_sold": 123466,
+      "units_sold_growth_rate_percent": 104.64
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 38.87,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/8330f1b0efb84a3f809a41dfd53091b5~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 34.61,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-19",
+      "launch_time": 1750294256,
+      "period_gmv": 31489.45,
+      "period_units_sold": 1126,
+      "price_display": "$34.61  - 38.87",
+      "product_id": "1731186937849221193",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/85726f631db543f98503187b19b18142~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496161875731122249",
+        "shop_name": "BloomChic",
+        "total_units_sold": 372131
+      },
+      "title": "BloomChic Plus Size Strapless Paisley Jumpsuit [M-6X] - Women's Stylish Boho Rayon Overalls with Pockets, Sleeveless Fitted Summer Vacation Outfit, Clothes for Women, SohoChic",
+      "total_gmv": 237101.04,
+      "total_units_sold": 8304,
+      "units_sold_growth_rate_percent": 145.32
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 52.27,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/73de3a073f054fca9587b449d7d33bde~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 42.74,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-23",
+      "launch_time": 1787436477,
+      "period_gmv": 32466.58,
+      "period_units_sold": 1114,
+      "price_display": "$42.74  - 52.27",
+      "product_id": "1732559548470694799",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9f8fdfa61222436fb886949722350146~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647577572431139727",
+        "shop_name": "FianiVibe",
+        "total_units_sold": 94211
+      },
+      "title": "Women's Plain Knit Cardigan Set, Button Front Design, Striped Tank Top, Loose Leg Pants, Elegant Casual Style, Fall & Winter Wear",
+      "total_gmv": 67951.17,
+      "total_units_sold": 2241,
+      "units_sold_growth_rate_percent": 172.37
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 31.22,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/21b94c4d87bc4315b4b55f3a337457c3~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 30.26,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-09",
+      "launch_time": 1757408603,
+      "period_gmv": 20653.46,
+      "period_units_sold": 1088,
+      "price_display": "$30.26  - 31.22",
+      "product_id": "1731562565773857014",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5da09421a4214407b89b58b010d4c893~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647226857772650742",
+        "shop_name": "ASTYR",
+        "total_units_sold": 105089
+      },
+      "title": "Women's Striped Knit Dress Set, Outfit, Long Sleeve, Cropped, Casual Style, Comfortable Fabric, Fashion Design, Womenswear, Vneck, Perfect for Daily Wear, Casual Everyday Wear",
+      "total_gmv": 570857.5,
+      "total_units_sold": 31090,
+      "units_sold_growth_rate_percent": 47.23
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 38.25,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/bac02388efd049699266f5681eb5a7f6~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 33.8,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-26",
+      "launch_time": 1758881705,
+      "period_gmv": 20092.55,
+      "period_units_sold": 1027,
+      "price_display": "$33.80  - 38.25",
+      "product_id": "1731689914271110122",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/f7709c57a56945128fb1e9985519bff2~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8652028831891887082",
+        "shop_name": "Shine Coral",
+        "total_units_sold": 67044
+      },
+      "title": "Women's Solid Basic 2-Piece Outfit, Drawstring Hooded Long Sleeve Top & Slim Fit Casual Pants, Chic Matching Set for Daily Workout and Casual Wear",
+      "total_gmv": 88141.98,
+      "total_units_sold": 4239,
+      "units_sold_growth_rate_percent": 24.48
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 23.16,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/77f60c723c5e4bbba153d6eca9cb5720~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 23.16,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-23",
+      "launch_time": 1776880829,
+      "period_gmv": 8754.21,
+      "period_units_sold": 1002,
+      "price_display": "$23.16",
+      "product_id": "1732322374685462794",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3dccb23f2b254822a3afc9e6bf2d3d73~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647145322393932042",
+        "shop_name": "HoneyBadgercome",
+        "total_units_sold": 159328
+      },
+      "title": "Women's Solid Color Sleeveless Waist-Cinching Top & Slim Fit Shorts Set, Chic Stylish Hollow Out Design, Perfect for Outings and Dates, Womenswear",
+      "total_gmv": 179332.87,
+      "total_units_sold": 18067,
+      "units_sold_growth_rate_percent": 6.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 97.7,
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/a9f3836e2fed48aa87402217afa39adc~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 87.89,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-16",
+      "launch_time": 1789553844,
+      "period_gmv": 52132.72,
+      "period_units_sold": 990,
+      "price_display": "$87.89  - 97.70",
+      "product_id": "1732622212166161324",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5786d4065bdd472e9146e00c7c524593~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8654386461236499372",
+        "shop_name": "Unique Denim Hive",
+        "total_units_sold": 11862
+      },
+      "title": "Women's Light Wash Denim Two-Piece Set, Sleeveless Stand-Up Collar Vest Top, Loose High Waist Wide Leg Balloon Jeans, Streetwear",
+      "total_gmv": 67497.98,
+      "total_units_sold": 1327,
+      "units_sold_growth_rate_percent": 4025
+    }
+  ],
+  "total": 500
+}

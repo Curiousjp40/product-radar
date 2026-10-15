@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "product_id": "1732296192340103881",
+  "title": "Women's Elegant Feminine Solid Sleeveless A-Line Mini Short Dress Womenswear with Back Tie, Slim Fit for Daily Wear, Casual Outings, and Party Occasions",
+  "clean_title": "Women's Elegant Feminine Solid Sleeveless A-Line",
+  "image_url": "/img/product_1732296192340103881.webp",
+  "category": "dresses",
+  "category_label_es": "Vestidos",
+  "category_label_en": "Dresses",
+  "shop_name": "Dynoppy",
+  "price": 27.8,
+  "commission_rate": 0.08,
+  "earnings_per_sale": 2.22,
+  "units_7d": 3861,
+  "units_total": 20698,
+  "creator_count": 219,
+  "video_count": 119,
+  "daily_units_14": [
+    212,
+    527,
+    643,
+    248,
+    319,
+    692,
+    777,
+    338,
+    373,
+    826,
+    536,
+    764,
+    141,
+    1002
+  ],
+  "is_pick": false,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732296192340103881",
+  "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Elegant%20Feminine%20Solid%20Sleeveless%20A-Line",
+  "videos": [
+    {
+      "video_id": "7688865310559997215",
+      "cover_url": "/img/video_7688865310559997215.jpg",
+      "tiktok_url": "https://www.tiktok.com/@itsashlyyn/video/7688865310559997215",
+      "creator_handle": "itsashlyyn",
+      "play_count": 1915576,
+      "window_gmv": 2491.06,
+      "window_units_sold": 183
+    },
+    {
+      "video_id": "7667963908874931486",
+      "cover_url": "/img/video_7667963908874931486.jpg",
+      "tiktok_url": "https://www.tiktok.com/@silviajuliana_0/video/7667963908874931486",
+      "creator_handle": "silviajuliana_0",
+      "play_count": 1900000,
+      "window_gmv": 5709.98,
+      "window_units_sold": 555
+    },
+    {
+      "video_id": "7690570511667039502",
+      "cover_url": "/img/video_7690570511667039502.jpg",
+      "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690570511667039502",
+      "creator_handle": "ohhangelbaby",
+      "play_count": 1530204,
+      "window_gmv": 12145.13,
+      "window_units_sold": 949
+    },
+    {
+      "video_id": "7691140709616717070",
+      "cover_url": "/img/video_7691140709616717070.jpg",
+      "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7691140709616717070",
+      "creator_handle": "macwatfit",
+      "play_count": 1400000,
+      "window_gmv": 2675.95,
+      "window_units_sold": 189
+    },
+    {
+      "video_id": "7695525334334147854",
+      "cover_url": "/img/video_7695525334334147854.jpg",
+      "tiktok_url": "https://www.tiktok.com/@briiwears/video/7695525334334147854",
+      "creator_handle": "briiwears",
+      "play_count": 883900,
+      "window_gmv": 451.5,
+      "window_units_sold": 34
+    },
+    {
+      "video_id": "7689538322502356254",
+      "cover_url": "/img/video_7689538322502356254.jpg",
+      "tiktok_url": "https://www.tiktok.com/@tinkabebe/video/7689538322502356254",
+      "creator_handle": "tinkabebe",
+      "play_count": 725900,
+      "window_gmv": 830.55,
+      "window_units_sold": 65
+    }
+  ]
+}

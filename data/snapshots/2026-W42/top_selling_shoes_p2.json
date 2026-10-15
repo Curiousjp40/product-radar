@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901384,
+          "name": "Mules & Clogs"
+        }
+      },
+      "ceiling_price": 84.49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/2b74344f96434249a9cb48295808ccfe~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 63.36,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-30",
+      "launch_time": 1767040468,
+      "period_gmv": 74105.32,
+      "period_units_sold": 1892,
+      "price_display": "$63.36  - 84.49",
+      "product_id": "1732172592805221310",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0e1e83bcdab948b9aa9e6474e87a8a80~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495832567110863806",
+        "shop_name": "CROCS US SHOP",
+        "total_units_sold": 3180213
+      },
+      "title": "Crocs Adult Classic Crafted Floral Clogs",
+      "total_gmv": 1489747.92,
+      "total_units_sold": 25322,
+      "units_sold_growth_rate_percent": -15
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 601409,
+          "name": "Boots"
+        }
+      },
+      "ceiling_price": 85,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/52d6c07aefaf4d2cac68d507af25787e~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 85,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-25",
+      "launch_time": 1784942197,
+      "period_gmv": 145010,
+      "period_units_sold": 1706,
+      "price_display": "$85.00",
+      "product_id": "1732504391093162544",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/97f2528821034dddb7bd47d53ba0f862~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495161274526632496",
+        "shop_name": "HeyDude",
+        "total_units_sold": 1302456
+      },
+      "title": "HEYDUDE Remi Field Boot - Women's Comfortable Slip on Boots",
+      "total_gmv": 743494.03,
+      "total_units_sold": 8303,
+      "units_sold_growth_rate_percent": 38.03
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 804752,
+          "name": "Mary Jane Shoes"
+        }
+      },
+      "ceiling_price": 25.96,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4b13bb29d6ca4986bc913d269b0a3310~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 14.95,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-30",
+      "launch_time": 1764489828,
+      "period_gmv": 25353.02,
+      "period_units_sold": 1695,
+      "price_display": "$14.95  - 25.96",
+      "product_id": "1732045832207241743",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3ccdadf246634b8bb105f3e6ad40b99e~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647506774017413647",
+        "shop_name": "Zlz Shoes",
+        "total_units_sold": 69014
+      },
+      "title": "Women's Vintage Square Toe Mary Jane Shoes, Comfortable Low Heel Single Shoe, Fashion Commuter Women's Shoes, Rubber, All Seasons",
+      "total_gmv": 354875.05,
+      "total_units_sold": 24524,
+      "units_sold_growth_rate_percent": -63.27
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 601396,
+          "name": " Heels"
+        }
+      },
+      "ceiling_price": 60.99,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/f2171905b57d4bc4a684130f62c54488~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 54.59,
+      "is_off_shelf": false,
+      "launch_date": "2024-07-21",
+      "launch_time": 1721514050,
+      "period_gmv": 69974.72,
+      "period_units_sold": 1545,
+      "price_display": "$54.59  - 60.99",
+      "product_id": "1729538970160763788",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d2c9f66db9d840afb297e7d1614d314c~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495073884286520204",
+        "shop_name": "DREAM PAIRS",
+        "total_units_sold": 779107
+      },
+      "title": "Dream Pairs Women's Mary Janes Platform Heels - Low Chunky Heel, Round Toe, Adjustable Ankle Strap, '90s Retro Oxfords, 1.2\" Platform Lift (4.5 to 6 cm), Trending Shoes for Women, Summer Student Footwear",
+      "total_gmv": 2552328.13,
+      "total_units_sold": 56218,
+      "units_sold_growth_rate_percent": -7.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 601396,
+          "name": " Heels"
+        }
+      },
+      "ceiling_price": 84.49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/7e92c32d18e74e95ac849972ff5745aa~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 84.49,
+      "is_off_shelf": false,
+      "launch_date": "2024-08-08",
+      "launch_time": 1723049659,
+      "period_gmv": 62893.4,
+      "period_units_sold": 1528,
+      "price_display": "$84.49",
+      "product_id": "1729553403015566270",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0e1e83bcdab948b9aa9e6474e87a8a80~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495832567110863806",
+        "shop_name": "CROCS US SHOP",
+        "total_units_sold": 3180213
+      },
+      "title": "Crocs Women's Dylan Platform Clogs, Platform Shoes",
+      "total_gmv": 4719488.09,
+      "total_units_sold": 79558,
+      "units_sold_growth_rate_percent": 25.25
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901128,
+          "name": "Sandals & Flip Flops"
+        }
+      },
+      "ceiling_price": 70,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/ca0f98929b3d4f9a8734c289b6caa4e9~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 50,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-22",
+      "launch_time": 1774110943,
+      "period_gmv": 81177,
+      "period_units_sold": 1523,
+      "price_display": "$50.00 - 70.00",
+      "product_id": "1732299479416607678",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0e1e83bcdab948b9aa9e6474e87a8a80~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495832567110863806",
+        "shop_name": "CROCS US SHOP",
+        "total_units_sold": 3180213
+      },
+      "title": "Crocs Women's Dylan Platform Buckle Wedge Sandals",
+      "total_gmv": 787821.68,
+      "total_units_sold": 13156,
+      "units_sold_growth_rate_percent": 179.96
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901384,
+          "name": "Mules & Clogs"
+        }
+      },
+      "ceiling_price": 69.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/d49da4b13cfb4bf2b0e7625a75f93df6~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 69.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-11-22",
+      "launch_time": 1732215407,
+      "period_gmv": 89571.02,
+      "period_units_sold": 1480,
+      "price_display": "$69.99",
+      "product_id": "1730023660863067004",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/059f9db0589d46c9a0a97683429b196a~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495902043642170236",
+        "shop_name": "Cushionaire",
+        "total_units_sold": 282613
+      },
+      "title": "Cushionaire Hobby Genuine Leather Mule Clogs for Women with Buckle Strap and Cork Footbed | Genuine Suede Upper Option | Comfortable Slip-on Shoes with Supportive All-Day Comfort",
+      "total_gmv": 669029.88,
+      "total_units_sold": 11050,
+      "units_sold_growth_rate_percent": 135.29
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901384,
+          "name": "Mules & Clogs"
+        }
+      },
+      "ceiling_price": 100.09,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/5b9cee57b75a439a8679e60ec3728392~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 84.37,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-19",
+      "launch_time": 1755555933,
+      "period_gmv": 81782.98,
+      "period_units_sold": 1421,
+      "price_display": "$84.37  - 100.09",
+      "product_id": "1731581796563259960",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3e3e8dc9742147bebe1d3897612883f3~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496277027852552760",
+        "shop_name": "Project Cloud",
+        "total_units_sold": 572183
+      },
+      "title": "Project Cloud Women's Genuine Leather Platform Clogs | Walking Girl Shoes Footwear | ProjectPlush | Lightweight Non-Slip \u2013 Benton Chunky",
+      "total_gmv": 828455.42,
+      "total_units_sold": 13283,
+      "units_sold_growth_rate_percent": 46.49
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901256,
+          "name": "Slip-Ons"
+        }
+      },
+      "ceiling_price": 90.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/84637395a4ad4c9291e2c7965eda1194~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 90.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-08-10",
+      "launch_time": 1723227927,
+      "period_gmv": 97340.26,
+      "period_units_sold": 1393,
+      "price_display": "$90.99",
+      "product_id": "1729578045835022896",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/97f2528821034dddb7bd47d53ba0f862~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495161274526632496",
+        "shop_name": "HeyDude",
+        "total_units_sold": 1302456
+      },
+      "title": "HEYDUDE Wendy Metallic Sparkle - Womens Comfortable Slip on Shoes",
+      "total_gmv": 4151143.54,
+      "total_units_sold": 74192,
+      "units_sold_growth_rate_percent": -69.71
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 6,
+          "name": "Shoes"
+        },
+        "l2": {
+          "id": 900488,
+          "name": "Women's Shoes"
+        },
+        "l3": {
+          "id": 901128,
+          "name": "Sandals & Flip Flops"
+        }
+      },
+      "ceiling_price": 64.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c0d62aec01f64663858edae969f81e8c~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 51.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-16",
+      "launch_time": 1768515380,
+      "period_gmv": 29200.98,
+      "period_units_sold": 1367,
+      "price_display": "$51.99  - 64.99",
+      "product_id": "1732211811415856062",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0e1e83bcdab948b9aa9e6474e87a8a80~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495832567110863806",
+        "shop_name": "CROCS US SHOP",
+        "total_units_sold": 3180213
+      },
+      "title": "Crocs Women's Saturday Two-Strap Sandals",
+      "total_gmv": 3464356.22,
+      "total_units_sold": 86903,
+      "units_sold_growth_rate_percent": -7.95
+    }
+  ],
+  "total": 500
+}

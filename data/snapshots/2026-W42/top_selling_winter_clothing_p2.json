@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601267,
+          "name": "Jackets & Coats"
+        }
+      },
+      "ceiling_price": 26.5,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4a9ff0ff93254f209b9ad03fb0fba0eb~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 26.5,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-14",
+      "launch_time": 1786703570,
+      "period_gmv": 90448.09,
+      "period_units_sold": 2719,
+      "price_display": "$26.50",
+      "product_id": "1732477923578581997",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7254b6d2b608428ea3169cd21816429a~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8657152926807069677",
+        "shop_name": "Cold Brew",
+        "total_units_sold": 6181
+      },
+      "title": "Women's Fashion Retro Plaid Stand Collar Short Coat, Adjustable Drawstring Design, Zipper Front, Perfect for Fall Winter Daily Holiday Outing",
+      "total_gmv": 179039.76,
+      "total_units_sold": 5322,
+      "units_sold_growth_rate_percent": 93.8
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601265,
+          "name": "Blouses & Shirts"
+        }
+      },
+      "ceiling_price": 23.53,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/1c3ddb809aad489d8f96be7315dd9a2c~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 22.24,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-04",
+      "launch_time": 1770163384,
+      "period_gmv": 31578.64,
+      "period_units_sold": 2718,
+      "price_display": "$22.24  - 23.53",
+      "product_id": "1732223289243832844",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/fbdb0c50babf407c911678bfd2385964~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646927636524798476",
+        "shop_name": "NiceForWhat",
+        "total_units_sold": 1161116
+      },
+      "title": "Lace Panel off Shoulder Flare Sleeve T-Shirt, Y2K Backless Sexy Crop Top for Spring & Summer, Vintage Elegant Casual Women's Fashion",
+      "total_gmv": 270574.39,
+      "total_units_sold": 23879,
+      "units_sold_growth_rate_percent": 35.56
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c773bfed66074ec896d52671715cc053~tplv-fhlh96nyum-crop-webp:4000:4000.webp",
+      "currency_code": "USD",
+      "floor_price": 49,
+      "is_off_shelf": false,
+      "launch_date": "2024-06-22",
+      "launch_time": 1719003896,
+      "period_gmv": 138353.28,
+      "period_units_sold": 2707,
+      "price_display": "$49.00",
+      "product_id": "1729505773514822531",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9404de4951d9419994afd84e2e233402~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495045046260173699",
+        "shop_name": "Comfrt",
+        "total_units_sold": 4501648
+      },
+      "title": "Comfrt | Minimalist Hoodie - Mega",
+      "total_gmv": 13093855.29,
+      "total_units_sold": 267430,
+      "units_sold_growth_rate_percent": 14.75
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 29.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/505925aa28de430cbea7800cf39f5dce~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 29.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-07-25",
+      "launch_time": 1753397073,
+      "period_gmv": 61995.46,
+      "period_units_sold": 2633,
+      "price_display": "$29.99",
+      "product_id": "1731429791056433526",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d4c2a076580746afa6073e90e7923f84~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496046066432575862",
+        "shop_name": "WIHOLL FASHION",
+        "total_units_sold": 497055
+      },
+      "title": "WIHOLL Womens Fashion Tops Hoodies for Women Pullover Oversized Sweatshirts Long SLeeve Shirts Loose Fit*(Size UP 1-2 for True Oversized Look!)* Casual Outfits Lightweight Womenswear",
+      "total_gmv": 845382.06,
+      "total_units_sold": 40277,
+      "units_sold_growth_rate_percent": 28.69
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601265,
+          "name": "Blouses & Shirts"
+        }
+      },
+      "ceiling_price": 64.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/cfc25281c539453ca7ca8598f189aebf~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 39.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-07-03",
+      "launch_time": 1719975183,
+      "period_gmv": 72719.35,
+      "period_units_sold": 2473,
+      "price_display": "$39.99  - 64.99",
+      "product_id": "1729493620818874839",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6ac24c4dcd0c468ab34eefe16371bd0b~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495646424580524503",
+        "shop_name": "AUTOMET",
+        "total_units_sold": 617708
+      },
+      "title": "AUTOMET 3 Pack Womens Long Sleeve Basic Shirts Underscrub Compression Tops Y2K Street Look, High Stretch, Buttery-Soft, Gym to Club Staple, Pairs with Cargo or Jeans, Daily Chic Staple",
+      "total_gmv": 4414551.01,
+      "total_units_sold": 150469,
+      "units_sold_growth_rate_percent": 11.45
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 77.13,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/329d755f114f46baa75b70cbf8ca6b12~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 55.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-09",
+      "launch_time": 1781000797,
+      "period_gmv": 132507.06,
+      "period_units_sold": 2464,
+      "price_display": "$55.99  - 77.13",
+      "product_id": "1732413125303374302",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8338676d5c35420e9b7f4c69ba6533fb~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496152587431872990",
+        "shop_name": "FDR",
+        "total_units_sold": 176215
+      },
+      "title": "FDR Embroidered Script Letter Washed Zip-Up Hoodie, Women's High-Collar Big Hood Sweatshirt Eases Social Anxiety , Flattering Fit & Exclusive Y2K Streetwear Style for Casual Everyday Wear",
+      "total_gmv": 768551.42,
+      "total_units_sold": 14540,
+      "units_sold_growth_rate_percent": 28.19
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601265,
+          "name": "Blouses & Shirts"
+        }
+      },
+      "ceiling_price": 25,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/6f97796abe8b4bd79fe7b9255e80d068~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 20,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-27",
+      "launch_time": 1787768154,
+      "period_gmv": 49238.01,
+      "period_units_sold": 2462,
+      "price_display": "$20.00 - 25.00",
+      "product_id": "1732591747935343345",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7f0e2450aa814d5ebdcfcc7e62fb1e3e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495880532819217137",
+        "shop_name": "WIHOLL",
+        "total_units_sold": 428213
+      },
+      "title": "WIHOLL Women's Long-Sleeve Casual Blouse Top, Crew Neck Babydoll Peplum Tunic, 2026 Fall Fashion Clothes for Women",
+      "total_gmv": 147940.34,
+      "total_units_sold": 7152,
+      "units_sold_growth_rate_percent": 51.98
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/df21ebb31cd94730b3805f7b547ae29b~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 49,
+      "is_off_shelf": false,
+      "launch_date": "2023-12-02",
+      "launch_time": 1701521213,
+      "period_gmv": 127631.95,
+      "period_units_sold": 2449,
+      "price_display": "$49.00",
+      "product_id": "1729417808759264131",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9404de4951d9419994afd84e2e233402~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495045046260173699",
+        "shop_name": "Comfrt",
+        "total_units_sold": 4501648
+      },
+      "title": "Comfrt | Cloud Zip Hoodie - Mega | Soft Mega Oversized Zip Up Hoodie For Men & Women",
+      "total_gmv": 9907705.02,
+      "total_units_sold": 201685,
+      "units_sold_growth_rate_percent": 5.51
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601302,
+          "name": "T-shirts"
+        }
+      },
+      "ceiling_price": 10,
+      "commission_rate_percent": 21,
+      "cover_url": "https://s.500fd.com/tt_product/59d652d0ab094c41aa5e353e549cd49e~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 10,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-27",
+      "launch_time": 1790438562,
+      "period_gmv": 22700,
+      "period_units_sold": 2270,
+      "price_display": "$10.00",
+      "product_id": "1732696908915774338",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/01795e65aeb84dbd978f4c7891cb8caa~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494494543526135682",
+        "shop_name": "Lily Comfort Studio",
+        "total_units_sold": 12457
+      },
+      "title": "Thank You for Shopping With Us \u2013 Customer Appreciation Gift for TikTok Shop Buyers",
+      "total_gmv": 46250,
+      "total_units_sold": 4625,
+      "units_sold_growth_rate_percent": -2.37
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 96.19,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/5288215fbf51f4be6f07d4103b22a6b2~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 40.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-13",
+      "launch_time": 1760293709,
+      "period_gmv": 88363.38,
+      "period_units_sold": 2168,
+      "price_display": "$40.99  - 96.19",
+      "product_id": "1731792281832821214",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8338676d5c35420e9b7f4c69ba6533fb~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496152587431872990",
+        "shop_name": "FDR",
+        "total_units_sold": 176215
+      },
+      "title": "FDR Big Hood Eases Social Anxiety Hoodie for Men & Women High Neck Zip-up Sweatshirt Essentials Minimalist Heavyweight Hoodies Casual Longsleeves Top Embroidered Unisex Vintage Pullover Perfect for Daily Wear,Sports,  Activewear, S",
+      "total_gmv": 1853496.74,
+      "total_units_sold": 41016,
+      "units_sold_growth_rate_percent": 26.86
+    }
+  ],
+  "total": 500
+}

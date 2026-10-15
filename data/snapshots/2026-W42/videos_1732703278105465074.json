@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732703278105465074",
+  "time_range_days": 90,
+  "total": 100,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "thesl.shop",
+        "creator_uid": "7609338942647796750"
+      },
+      "engagement_metrics": {
+        "comment_count": 113,
+        "like_count": 12600,
+        "play_count": 1200000,
+        "share_count": 4366
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 1722.41,
+        "window_units_sold": 67
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693593011661344030",
+      "video_meta": {
+        "caption_text": "This Halloween dress is so beautiful #halloweendress #halloween #halloweencostume #dress #skeletondress ",
+        "cover_url": "https://s.500fd.com/tt_video/oQllvFI7MiDRijAGBgAItUCsE6iBq3uAAaAPE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693593011661344030",
+        "published_at": 1791311700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693593011661344030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thesl.shop",
+        "creator_uid": "7609338942647796750"
+      },
+      "engagement_metrics": {
+        "comment_count": 44,
+        "like_count": 5219,
+        "play_count": 719800,
+        "share_count": 1013
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 3238.24,
+        "window_units_sold": 129
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693589631635393822",
+      "video_meta": {
+        "caption_text": "I found the prettiest Halloween dress ever! #halloween #halloweencostume #halloweendress #skeletondress #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/o0KOYW6IXE4ICHFii1oA6fBziHvAABxADIjFAb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693589631635393822",
+        "published_at": 1791303455,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693589631635393822"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "masatthing",
+        "creator_uid": "6682742416740533254"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 1379,
+        "play_count": 219800,
+        "share_count": 432
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 4149.6,
+        "window_units_sold": 168
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694654327411068190",
+      "video_meta": {
+        "caption_text": "#dress #halloween #tiktokshopfalldealsforyou #fyp #partydress ",
+        "cover_url": "https://s.500fd.com/tt_video/osRBbFEtCVZfH7yL3qHxAnVIKSIEINzfDO5VEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694654327411068190",
+        "published_at": 1791553081,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@masatthing/video/7694654327411068190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "clothingplanetc",
+        "creator_uid": "7289405534930191403"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1227,
+        "play_count": 119895,
+        "share_count": 250
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 98.8,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694624488746470687",
+      "video_meta": {
+        "caption_text": "#dealsforyoudays #spotlightfinds #tiktokshopfalldealsforyou #fallfreshness #dress",
+        "cover_url": "https://s.500fd.com/tt_video/oYjsRITpAyIAcHQVYZqXQc9khCl8fefjHAMMI7~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694624488746470687",
+        "published_at": 1791544389,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@clothingplanetc/video/7694624488746470687"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thesl.shop",
+        "creator_uid": "7609338942647796750"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 1584,
+        "play_count": 68100,
+        "share_count": 127
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 1567.8,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694038505906785566",
+      "video_meta": {
+        "caption_text": "This Halloween dress is so beautiful #halloweendress #halloween #halloweencostume #dress #skeletondress ",
+        "cover_url": "https://s.500fd.com/tt_video/oMVDzAAAEDaAI1FAqZfAAtrfHdoRCWExGEElPd~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694038505906785566",
+        "published_at": 1791407959,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7694038505906785566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "local.shopus",
+        "creator_uid": "7480737986759541802"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 393,
+        "play_count": 48900,
+        "share_count": 92
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494751966137779442",
+        "window_gmv": 201.5,
+        "window_units_sold": 8
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693547312622128397",
+      "video_meta": {
+        "caption_text": "Autumn European and American court style long-sleeved fun big skirt dress Halloween #ootd #outfitinspo #usafashion #tiktokshopcreatorpicks #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oceRwIgGAXnFPC6LeerGOIAPgTJOLEgGfVTWzI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693547312622128397",
+        "published_at": 1791293619,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@local.shopus/video/7693547312622128397"
+      }
+    }
+  ]
+}

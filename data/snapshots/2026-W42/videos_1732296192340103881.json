@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732296192340103881",
+  "time_range_days": 90,
+  "total": 833,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "itsashlyyn",
+        "creator_uid": "7533143354876576799"
+      },
+      "engagement_metrics": {
+        "comment_count": 70,
+        "like_count": 57300,
+        "play_count": 1915576,
+        "share_count": 830
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 2491.06,
+        "window_units_sold": 183
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688865310559997215",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8E0KTAtfAErlZCLADRqNkCIVEEVFEAaSFAIse~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688865310559997215",
+        "published_at": 1790203467,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsashlyyn/video/7688865310559997215"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "silviajuliana_0",
+        "creator_uid": "6899132133530158085"
+      },
+      "engagement_metrics": {
+        "comment_count": 93,
+        "like_count": 20700,
+        "play_count": 1900000,
+        "share_count": 949
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 5709.98,
+        "window_units_sold": 555
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667963908874931486",
+      "video_meta": {
+        "caption_text": "Ootd \ud83e\udd0e#parati #ootd #fashiontiktok #tiktokshopsummersale #fallfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oY8SEVGfkDAKFqAQAhF0ERqABEMAiCEaIEf3qE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667963908874931486",
+        "published_at": 1785336998,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@silviajuliana_0/video/7667963908874931486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ohhangelbaby",
+        "creator_uid": "7489527312687825963"
+      },
+      "engagement_metrics": {
+        "comment_count": 103,
+        "like_count": 23881,
+        "play_count": 1530204,
+        "share_count": 672
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 12145.13,
+        "window_units_sold": 949
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690570511667039502",
+      "video_meta": {
+        "caption_text": "Cute fall layering dress. I\u2019m 5\u20194\u201d wearing a small. #falloutfits #ootd #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/owf0PDAdeAI8FqFfAGjVVoEcyIHkLIAyoMAQ62~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690570511667039502",
+        "published_at": 1790600520,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690570511667039502"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "macwatfit",
+        "creator_uid": "6748318086774506501"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 16900,
+        "play_count": 1400000,
+        "share_count": 656
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 2675.95,
+        "window_units_sold": 189
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691140709616717070",
+      "video_meta": {
+        "caption_text": "Elegant mini dress good for fall & winter \u2764\ufe0f #elegantdress #falldresses #winterdress #minidress ",
+        "cover_url": "https://s.500fd.com/tt_video/o8fq6MRCEwDvG8tEFaFvBEA8D7AfIgC8GGASUA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691140709616717070",
+        "published_at": 1790733251,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7691140709616717070"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "briiwears",
+        "creator_uid": "6764801228083332102"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 20200,
+        "play_count": 883900,
+        "share_count": 603
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 451.5,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695525334334147854",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocO5ArfJ6yeERRFGYGQAnoAIVfAfWa3XAGLI5D~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695525334334147854",
+        "published_at": 1791754140,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@briiwears/video/7695525334334147854"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinkabebe",
+        "creator_uid": "7240574985289335850"
+      },
+      "engagement_metrics": {
+        "comment_count": 73,
+        "like_count": 5436,
+        "play_count": 725900,
+        "share_count": 270
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 830.55,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689538322502356254",
+      "video_meta": {
+        "caption_text": "It\u2019s snatching \ud83d\udc4f\ud83c\udffb #ootd#fall#falloutfits#falldress#falloutfitinspo",
+        "cover_url": "https://s.500fd.com/tt_video/oYW8AB0ETAi1iZ8fCA22SK1nuCIIWApciI9BAl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689538322502356254",
+        "published_at": 1790360187,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinkabebe/video/7689538322502356254"
+      }
+    }
+  ]
+}

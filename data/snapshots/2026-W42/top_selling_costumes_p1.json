@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 41.5,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/64e32b2f46e446a98be29a65f67e28e7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 41.5,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-02",
+      "launch_time": 1759348153,
+      "period_gmv": 102239.4,
+      "period_units_sold": 2059,
+      "price_display": "$41.50",
+      "product_id": "1731835472232223592",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/14b28ba0053640ada25d6a58ba079dab~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495828139121281896",
+        "shop_name": "Fashion Nova",
+        "total_units_sold": 1778328
+      },
+      "title": "Cat Fight 5 Piece Costume Set - Black",
+      "total_gmv": 244918.51,
+      "total_units_sold": 4287,
+      "units_sold_growth_rate_percent": 204.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 50,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/0a46ffe9d7154a9a8ac6e45186562dbf~tplv-omjb5zjo8w-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 50,
+      "is_off_shelf": false,
+      "launch_date": "2023-10-05",
+      "launch_time": 1696467984,
+      "period_gmv": 103427,
+      "period_units_sold": 1877,
+      "price_display": "$50.00",
+      "product_id": "1729404448458052442",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8a4770ca62774b6983248cb4b822074e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494963428163095386",
+        "shop_name": "Dolls Kill",
+        "total_units_sold": 305280
+      },
+      "title": "Bite The Boyfriend Costume",
+      "total_gmv": 547089.2,
+      "total_units_sold": 10287,
+      "units_sold_growth_rate_percent": 160.33
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 90,
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/1630c15bb4204231ab3cbed42e67b808~tplv-fhlh96nyum-crop-webp:2000:2333.webp",
+      "currency_code": "USD",
+      "floor_price": 60,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-21",
+      "launch_time": 1787296131,
+      "period_gmv": 81007.36,
+      "period_units_sold": 1652,
+      "price_display": "$60.00 - 90.00",
+      "product_id": "1732567897806639543",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8fe1034a705d4d498c3624d0db7845cf~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495274003456494007",
+        "shop_name": "Tipsy Elves",
+        "total_units_sold": 6416
+      },
+      "title": "Tipsy Elves Women's Original Halloween Costumes",
+      "total_gmv": 135290.69,
+      "total_units_sold": 2750,
+      "units_sold_growth_rate_percent": 106.5
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 33.98,
+      "commission_rate_percent": 14.5,
+      "cover_url": "https://s.500fd.com/tt_product/2adc2dce1d21485ea073b9044959b3c6~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 33.98,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-02",
+      "launch_time": 1790905418,
+      "period_gmv": 39597.08,
+      "period_units_sold": 1559,
+      "price_display": "$33.98",
+      "product_id": "1732703278105465074",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/e47c1e4daf38438c895d729ab7fcf186~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494751966137779442",
+        "shop_name": "CantaloupeS",
+        "total_units_sold": 5251
+      },
+      "title": "Women's Autumn European-American Court Style Special Clothing - Long-Sleeved Horn-Sleeve High-Waist Crew Neck Fun Big Skirt Dress for Halloween Clothes",
+      "total_gmv": 40064.9,
+      "total_units_sold": 1577,
+      "units_sold_growth_rate_percent": 8561.1
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 51.8,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/1448e95929114fd5a3d4ae1bdb1c84a6~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 51.8,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-07",
+      "launch_time": 1788769247,
+      "period_gmv": 77551.15,
+      "period_units_sold": 1371,
+      "price_display": "$51.80",
+      "product_id": "1732605365699645884",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/fb8b40020e0440998c21fb89561f4169~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495648817847765436",
+        "shop_name": "Forplay Catalog",
+        "total_units_sold": 15132
+      },
+      "title": "Forplay Women's Halloween Catwalk 4-Piece Women's Cat Costume",
+      "total_gmv": 89263.9,
+      "total_units_sold": 1585,
+      "units_sold_growth_rate_percent": 716.07
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 42.9,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/aa9abe975b0e444aa89bf634075194b7~tplv-fhlh96nyum-crop-webp:1536:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 38.34,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-12",
+      "launch_time": 1754953927,
+      "period_gmv": 41697.6,
+      "period_units_sold": 1293,
+      "price_display": "$38.34  - 42.90",
+      "product_id": "1731111392266851038",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/1da2a819dcdd40c28389f3d75b73c562~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495852900930980574",
+        "shop_name": "Leg Avenue",
+        "total_units_sold": 46587
+      },
+      "title": "Leg Avenue Iridescent Strapless Fairy Wings - Lightweight Polyester Women's Halloween Costumes & Accessories Adults, U-Wire Ethereal Touch Roleplay Accessory for Bodysuits & Bras",
+      "total_gmv": 243930.77,
+      "total_units_sold": 7378,
+      "units_sold_growth_rate_percent": 173.36
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 119,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/558f2b45de38404c9ad8ccf98e8a8635~tplv-fhlh96nyum-crop-webp:2847:2847.webp",
+      "currency_code": "USD",
+      "floor_price": 119,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-11",
+      "launch_time": 1757528202,
+      "period_gmv": 112870,
+      "period_units_sold": 1220,
+      "price_display": "$119.00",
+      "product_id": "1731684545402213210",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8a4770ca62774b6983248cb4b822074e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494963428163095386",
+        "shop_name": "Dolls Kill",
+        "total_units_sold": 305280
+      },
+      "title": "No Prisoners Pirate Costume",
+      "total_gmv": 213687.35,
+      "total_units_sold": 2077,
+      "units_sold_growth_rate_percent": 345.26
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 44,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/251b7d9b18a34c5f97e48dc3ea4fa537~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 44,
+      "is_off_shelf": false,
+      "launch_date": "2024-08-11",
+      "launch_time": 1723365768,
+      "period_gmv": 49084.5,
+      "period_units_sold": 1070,
+      "price_display": "$44.00",
+      "product_id": "1729412537235968858",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8a4770ca62774b6983248cb4b822074e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494963428163095386",
+        "shop_name": "Dolls Kill",
+        "total_units_sold": 305280
+      },
+      "title": "Nightmare Stalker Costume",
+      "total_gmv": 78442.38,
+      "total_units_sold": 1691,
+      "units_sold_growth_rate_percent": 2447.62
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 40,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c2ea7a64cbbb4762831496dd86a58a6d~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 40,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-11",
+      "launch_time": 1789105946,
+      "period_gmv": 64466.46,
+      "period_units_sold": 1024,
+      "price_display": "$40.00",
+      "product_id": "1732613708030841704",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/14b28ba0053640ada25d6a58ba079dab~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495828139121281896",
+        "shop_name": "Fashion Nova",
+        "total_units_sold": 1778328
+      },
+      "title": "Sultry Police 6 Piece Costume Set - Blue/combo",
+      "total_gmv": 115892.89,
+      "total_units_sold": 1702,
+      "units_sold_growth_rate_percent": 108.13
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842632,
+          "name": "Women's Special Clothing"
+        },
+        "l3": {
+          "id": 843656,
+          "name": "Costumes & Accessories"
+        }
+      },
+      "ceiling_price": 99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/2ca1c938d7bc4739a50d963150ec6eef~tplv-fhlh96nyum-crop-webp:2483:2483.webp",
+      "currency_code": "USD",
+      "floor_price": 99,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-14",
+      "launch_time": 1757842957,
+      "period_gmv": 103403,
+      "period_units_sold": 997,
+      "price_display": "$99.00",
+      "product_id": "1731684419142914906",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8a4770ca62774b6983248cb4b822074e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494963428163095386",
+        "shop_name": "Dolls Kill",
+        "total_units_sold": 305280
+      },
+      "title": "Play Along Cowboy Costume",
+      "total_gmv": 235245.91,
+      "total_units_sold": 2066,
+      "units_sold_growth_rate_percent": 433.16
+    }
+  ],
+  "total": 500
+}

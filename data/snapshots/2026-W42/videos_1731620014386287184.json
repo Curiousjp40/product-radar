@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1731620014386287184",
+  "time_range_days": 90,
+  "total": 171,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 128,
+        "like_count": 26919,
+        "play_count": 4200000,
+        "share_count": 1346
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 10853.99,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693437972544326925",
+      "video_meta": {
+        "caption_text": "#walkingpad #treadmill #cardioworkout #homeworkouts #blackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/ogepKShkiCHLs2AgMg3RSjAs4AdAqVfYGIjJIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693437972544326925",
+        "published_at": 1791268178,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7693437972544326925"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 118,
+        "like_count": 26614,
+        "play_count": 4057134,
+        "share_count": 1154
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 10434.44,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688250425048370445",
+      "video_meta": {
+        "caption_text": "This walking pad can also track your distance, time, speed and calories \ud83d\udd25 #walkingpad #treadmill #homeworkouts #cardioworkout #blackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/oEsteAGysJeO0LG0qXwfbCIRAIJyFfoQczsJIo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688250425048370445",
+        "published_at": 1790060365,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7688250425048370445"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 11600,
+        "play_count": 1900000,
+        "share_count": 485
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 6889.18,
+        "window_units_sold": 70
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672630301633432845",
+      "video_meta": {
+        "caption_text": "It also tracks your distance, speed, time and calories \ud83d\udd25\ud83d\udcaa\ud83c\udffd  #walkingpad #treadmill #homeworkout #cardioworkout ",
+        "cover_url": "https://s.500fd.com/tt_video/oUeCUUnk9CHLZd4gKgyvYeAfgFyAXUKxGIj1IL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672630301633432845",
+        "published_at": 1786423484,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7672630301633432845"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 4331,
+        "play_count": 759292,
+        "share_count": 199
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 6386.39,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690743547921845517",
+      "video_meta": {
+        "caption_text": "& it tracks your calories, speed, distance, and time \ud83d\ude42\u200d\u2195\ufe0f\ud83d\udd25 #walkingpad #treadmill #homeworkouts #cardioworkout ",
+        "cover_url": "https://s.500fd.com/tt_video/o8mI4aUiaPpEEBoHGdApnAI57zrDIgsuBAipP~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690743547921845517",
+        "published_at": 1790640789,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7690743547921845517"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 2861,
+        "play_count": 189900,
+        "share_count": 160
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 7296.64,
+        "window_units_sold": 78
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664460982491696397",
+      "video_meta": {
+        "caption_text": "Esta caminadora aguanta hasta 400lbs y llega hasta 7.6mph! #ejercicioencasa #ejercicioparaadelgazar #caminadora #parati ",
+        "cover_url": "https://s.500fd.com/tt_video/oMcUuCDKIHCEkh1nfIAAIZNFV0dfUv8VsSfjko~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664460982491696397",
+        "published_at": 1784521410,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7664460982491696397"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariii.x",
+        "creator_uid": "6918642494440211462"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 456,
+        "play_count": 89100,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496136842724870736",
+        "window_gmv": 3591.54,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676357742352698637",
+      "video_meta": {
+        "caption_text": "Oh and it tracks speed, time, calories and distance \ud83d\udd25 \ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0f #walkingpad #treadmill #homeworkouts #cardio #backtoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/o0YeYDDDQAk8pjGIsHzEeaaIcQkjAwFqVPC9Yf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676357742352698637",
+        "published_at": 1787291327,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7676357742352698637"
+      }
+    }
+  ]
+}

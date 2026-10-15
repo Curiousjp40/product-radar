@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1732256016760738810",
+  "time_range_days": 90,
+  "total": 772,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "jaellangley",
+        "creator_uid": "7498347183771665438"
+      },
+      "engagement_metrics": {
+        "comment_count": 131,
+        "like_count": 44669,
+        "play_count": 3140655,
+        "share_count": 3233
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 1608.75,
+        "window_units_sold": 53
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692245608286981390",
+      "video_meta": {
+        "caption_text": "the best spooky szn costume #TikTokShopFallDealsForYou #spookyszn #halloweencostume #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/ooqAScAGzCREFAFReDxIrLOAAwEagJfDZiWDEs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692245608286981390",
+        "published_at": 1790990517,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jaellangley/video/7692245608286981390"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "anna_elizabethhh",
+        "creator_uid": "6648784664137924609"
+      },
+      "engagement_metrics": {
+        "comment_count": 885,
+        "like_count": 40700,
+        "play_count": 1400000,
+        "share_count": 2157
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 740.05,
+        "window_units_sold": 24
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681778135867690270",
+      "video_meta": {
+        "caption_text": "What my girls think???!\ud83d\udda4\ud83d\udc80\ud83e\udef6\ud83c\udffd",
+        "cover_url": "https://s.500fd.com/tt_video/osmODBqB1AK8l73iiInZFAErCiNbfTiAmIIJOD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681778135867690270",
+        "published_at": 1788553368,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anna_elizabethhh/video/7681778135867690270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kilamomi",
+        "creator_uid": "7572089289208988727"
+      },
+      "engagement_metrics": {
+        "comment_count": 56,
+        "like_count": 10300,
+        "play_count": 1200000,
+        "share_count": 1402
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 1802.05,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673435902802218270",
+      "video_meta": {
+        "caption_text": "#gothic #dress #womenfashion #sohochic #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oEs9iB1PAK1IAEJV1AIBmliECni9KsfhBqAxBA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673435902802218270",
+        "published_at": 1786641600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kilamomi/video/7673435902802218270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dazeemaee",
+        "creator_uid": "6764767030534325254"
+      },
+      "engagement_metrics": {
+        "comment_count": 69,
+        "like_count": 20400,
+        "play_count": 1100000,
+        "share_count": 897
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 6407.07,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681933992735657229",
+      "video_meta": {
+        "caption_text": "I have no words ",
+        "cover_url": "https://s.500fd.com/tt_video/oAZZ7BSDqBtfy09FEGh7CAE2EDKbfmrgtRIni0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681933992735657229",
+        "published_at": 1788631020,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dazeemaee/video/7681933992735657229"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "albert.cyy5",
+        "creator_uid": "7563577053389390862"
+      },
+      "engagement_metrics": {
+        "comment_count": 55,
+        "like_count": 2028,
+        "play_count": 785200,
+        "share_count": 780
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 1847.31,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667960349806628127",
+      "video_meta": {
+        "caption_text": "This black dress looks simple\u2026 until you see the details \ud83d\udda4 The design is unreal. Run before the flash sale ends!\n #blackdress #statementdress #streetstyle #fashionfinds #tiktokshopfinds",
+        "cover_url": "https://s.500fd.com/tt_video/ocIoIRBqdaqEFFQ8fXdDXAFEVmEfAbUTGIhsEh~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667960349806628127",
+        "published_at": 1785336174,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@albert.cyy5/video/7667960349806628127"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cffifigfgusjs3",
+        "creator_uid": "7524908678388220941"
+      },
+      "engagement_metrics": {
+        "comment_count": 30,
+        "like_count": 2759,
+        "play_count": 736200,
+        "share_count": 754
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 535.41,
+        "window_units_sold": 19
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676779762391452959",
+      "video_meta": {
+        "caption_text": "Eye\u2011catching edgy print\ud83d\udda4#Skeleton#Dress#Halloween#SohoChic#fashion",
+        "cover_url": "https://s.500fd.com/tt_video/oIfIECNB91cdCAmJCIBkIKMZAAiri1ALRtBKAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676779762391452959",
+        "published_at": 1787431680,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cffifigfgusjs3/video/7676779762391452959"
+      }
+    }
+  ]
+}

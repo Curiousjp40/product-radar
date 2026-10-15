@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "product_id": "1732723156599214979",
+  "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
+  "clean_title": "Comfrt",
+  "image_url": "/img/product_1732723156599214979.webp",
+  "category": "winter_clothing",
+  "category_label_es": "Ropa de invierno",
+  "category_label_en": "Winter Clothing",
+  "shop_name": "Comfrt",
+  "price": 49.0,
+  "commission_rate": 0.1,
+  "earnings_per_sale": 4.9,
+  "units_7d": 5300,
+  "units_total": 5300,
+  "creator_count": 268,
+  "video_count": 270,
+  "daily_units_14": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    42,
+    778,
+    1099,
+    2304,
+    1067,
+    399,
+    725,
+    349
+  ],
+  "is_pick": true,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
+  "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt",
+  "videos": [
+    {
+      "video_id": "7693924872270925087",
+      "cover_url": "/img/video_7693924872270925087.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693924872270925087",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 2500000,
+      "window_gmv": 25088,
+      "window_units_sold": 512
+    },
+    {
+      "video_id": "7693984488652590367",
+      "cover_url": "/img/video_7693984488652590367.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693984488652590367",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 1835506,
+      "window_gmv": 16513,
+      "window_units_sold": 337
+    },
+    {
+      "video_id": "7693943031489170718",
+      "cover_url": "/img/video_7693943031489170718.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693943031489170718",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 815100,
+      "window_gmv": 13867,
+      "window_units_sold": 283
+    },
+    {
+      "video_id": "7694399882739666206",
+      "cover_url": "/img/video_7694399882739666206.jpg",
+      "tiktok_url": "https://www.tiktok.com/@aylin.ykt/video/7694399882739666206",
+      "creator_handle": "aylin.ykt",
+      "play_count": 502700,
+      "window_gmv": 1078,
+      "window_units_sold": 22
+    },
+    {
+      "video_id": "7693923450271943967",
+      "cover_url": "/img/video_7693923450271943967.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693923450271943967",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 147500,
+      "window_gmv": 9947,
+      "window_units_sold": 203
+    },
+    {
+      "video_id": "7693924400470560013",
+      "cover_url": "/img/video_7693924400470560013.jpg",
+      "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7693924400470560013",
+      "creator_handle": "delanacrook",
+      "play_count": 79600,
+      "window_gmv": 5145,
+      "window_units_sold": 105
+    }
+  ]
+}

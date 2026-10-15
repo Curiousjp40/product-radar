@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 50,
+      "commission_rate_percent": 1,
+      "cover_url": "https://s.500fd.com/tt_product/112a2ca897934398973b52ac0474d53d~tplv-fhlh96nyum-crop-webp:4284:5712.webp",
+      "currency_code": "USD",
+      "floor_price": 1,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-14",
+      "launch_time": 1781417030,
+      "period_gmv": 848,
+      "period_units_sold": 848,
+      "price_display": "$1.00 - 50.00",
+      "product_id": "1732441520705934109",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/858b2b6a4ea5473581a3685c61b892ab~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494127835076134685",
+        "shop_name": "PinkWhaleStore",
+        "total_units_sold": 65501
+      },
+      "title": "[Titans]Super cute and adorable handmade figurines, suitable for arranging on tables, decoration, and DIY combinations.",
+      "total_gmv": 10122,
+      "total_units_sold": 10122,
+      "units_sold_growth_rate_percent": 39.7
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 854536,
+          "name": "Refrigerator Magnets"
+        }
+      },
+      "ceiling_price": 32.98,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/8eb381f1148d46f9aa4d44becfef1c40~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 13.98,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-31",
+      "launch_time": 1774905155,
+      "period_gmv": 9585.52,
+      "period_units_sold": 840,
+      "price_display": "$13.98  - 32.98",
+      "product_id": "1732311086078792281",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8473ff6bacb642799bc7a1fefa8780c5~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495998119524141657",
+        "shop_name": "SilkiTouch Shop",
+        "total_units_sold": 61141
+      },
+      "title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic DIY Fridge Magnets with Adhesive Backing ,Halloween Decorations,Square Magnets for Crafts, Kitchen, Classroom, Party,Office Decoration",
+      "total_gmv": 310580.24,
+      "total_units_sold": 29984,
+      "units_sold_growth_rate_percent": -33.6
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600338,
+          "name": "Decorative Stickers"
+        }
+      },
+      "ceiling_price": 130,
+      "commission_rate_percent": 1,
+      "cover_url": "https://s.500fd.com/tt_product/fd4fae17867346fe8656fc09482a87dd~tplv-fhlh96nyum-crop-webp:735:735.webp",
+      "currency_code": "USD",
+      "floor_price": 1.3,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-07",
+      "launch_time": 1788743761,
+      "period_gmv": 825,
+      "period_units_sold": 825,
+      "price_display": "$1.30  - 130.00",
+      "product_id": "1732619848784450333",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/858b2b6a4ea5473581a3685c61b892ab~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494127835076134685",
+        "shop_name": "PinkWhaleStore",
+        "total_units_sold": 65501
+      },
+      "title": "[youyou] Krystal&cherry DTF Cup Wraps UVDTF Individual Claims Live Versatile for Various",
+      "total_gmv": 3412.2,
+      "total_units_sold": 3390,
+      "units_sold_growth_rate_percent": -13.51
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 13.5,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/1b8f5494fa2c40a1ab4e14ce7fdf7b76~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 10.3,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-05",
+      "launch_time": 1788609089,
+      "period_gmv": 8150.64,
+      "period_units_sold": 806,
+      "price_display": "$10.30 - 13.50",
+      "product_id": "1732597031067685198",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/acaf8fe4948c451b82218698b552fdcc~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8657093033294270798",
+        "shop_name": "Sleek Savvy Decors",
+        "total_units_sold": 2771
+      },
+      "title": "Halloween Ghostface Bear Plush, Classic Scream Horror Movie Character Stuffed Doll, Soft Fluffy Spooky Toy Home Ornament Gift, Huggable Bear",
+      "total_gmv": 24060.03,
+      "total_units_sold": 2154,
+      "units_sold_growth_rate_percent": 61.85
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600347,
+          "name": "Hooks & Shelves"
+        }
+      },
+      "ceiling_price": 15.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/8cc261b6c2ad494188aa93d03f908240~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 13.9,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-12",
+      "launch_time": 1762942990,
+      "period_gmv": 9970.07,
+      "period_units_sold": 802,
+      "price_display": "$13.90  - 15.99",
+      "product_id": "1731849478150460307",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/b9cf820611dd45f9a7058655b56628cc~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495804321865304979",
+        "shop_name": "FunHere",
+        "total_units_sold": 66059
+      },
+      "title": "Hat Hook for Wall 2 Pack Hat Organizer Holds Up to 20 Hats with Strong Adhesive and 8 Screws Cap Holder for Closet Door and Bedroom B-Black - Decor Key Hook Wall Mounted Shelf",
+      "total_gmv": 602429.97,
+      "total_units_sold": 45398,
+      "units_sold_growth_rate_percent": 27.71
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 854408,
+          "name": "Mirrors"
+        }
+      },
+      "ceiling_price": 194.97,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/58a399cf717244b39a8da06d60bb8594~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 52.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-14",
+      "launch_time": 1755131186,
+      "period_gmv": 40615.05,
+      "period_units_sold": 773,
+      "price_display": "$52.98  - 194.97",
+      "product_id": "1731583186078437389",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/69ce0301142c4d6694098da6bb033dee~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495957905333913613",
+        "shop_name": "Sweetcrispy S",
+        "total_units_sold": 1305401
+      },
+      "title": "Sweetcrispy Floor Mirror Stand Mirror Full Length, With LED Lights and No LED Lights Two styles, LED Floor Mirror styles Dimming & 3 Color Lighting",
+      "total_gmv": 2296769.23,
+      "total_units_sold": 37711,
+      "units_sold_growth_rate_percent": -0.26
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 984200,
+          "name": "Piggy Banks"
+        }
+      },
+      "ceiling_price": 14.94,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/05f874bf52c94813ab792c71e8909b8b~tplv-aphluv4xwc-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 11.49,
+      "is_off_shelf": false,
+      "launch_date": "2024-10-16",
+      "launch_time": 1729047736,
+      "period_gmv": 8917.27,
+      "period_units_sold": 771,
+      "price_display": "$11.49  - 14.94",
+      "product_id": "1729702613322862902",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/e67859faf34544a08a51fec1b7dd55f0~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495954065098705206",
+        "shop_name": "YeeLoo US",
+        "total_units_sold": 149542
+      },
+      "title": "100 Envelopes Money Saving Challenge - A5 Money Saver Budget Binder Book with Cash Envelopes and Numbers, 100-Days of Easy and Funny Ways to Save $5,050 Cash Envelope Challenge Binder, Pink",
+      "total_gmv": 1513057.86,
+      "total_units_sold": 139469,
+      "units_sold_growth_rate_percent": -18.07
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 38.99,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/2e8c9dfcea0440639fbe2a7fcf1c7a79~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 12.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-15",
+      "launch_time": 1784077950,
+      "period_gmv": 7041.57,
+      "period_units_sold": 759,
+      "price_display": "$12.99  - 38.99",
+      "product_id": "1732477158459740444",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/22a257d8a6d84c90b5cfb1f7cf2bd40e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495777546957523228",
+        "shop_name": "Joytime Party",
+        "total_units_sold": 106641
+      },
+      "title": "LED Halloween Ghost Figurine, Spooky Resin Middle Finger Ghost Decor Ornaments, Desktop Sculpture Halloween Decoration for Porch Home, Halloween Gifts",
+      "total_gmv": 25591.17,
+      "total_units_sold": 2330,
+      "units_sold_growth_rate_percent": -23.95
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600338,
+          "name": "Decorative Stickers"
+        }
+      },
+      "ceiling_price": 61.43,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/d48d763bef3d4955a9fc4a842a0d5382~tplv-fhlh96nyum-crop-webp:2200:2200.webp",
+      "currency_code": "USD",
+      "floor_price": 17.12,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-27",
+      "launch_time": 1758903850,
+      "period_gmv": 5380.83,
+      "period_units_sold": 755,
+      "price_display": "$17.12  - 61.43",
+      "product_id": "1731621383331090990",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/766ba3839f29477a91206b024139a2f2~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651629415416959534",
+        "shop_name": "Artyuan",
+        "total_units_sold": 20823
+      },
+      "title": "Thickened Bathroom Toilet Waterproof Floor Sticker, Self-Adhesive Non-Slip Kitchen Tile Renewal, Easy Installation Home Renovation",
+      "total_gmv": 75153.61,
+      "total_units_sold": 14377,
+      "units_sold_growth_rate_percent": -20.86
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 2,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/9d0b851f07aa4bb4b3476c62f770f0a8~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 2,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-28",
+      "launch_time": 1764262676,
+      "period_gmv": 1350.1,
+      "period_units_sold": 736,
+      "price_display": "$2.00",
+      "product_id": "1731364779997827299",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/11da38adacfc497cb6b62e117e524c20~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651535754355839203",
+        "shop_name": "GUYI STORE",
+        "total_units_sold": 12936
+      },
+      "title": "Replica \u201cFull Armor God\u201d Metal Challenge Coin Collectible, Unique Desktop Decor, Ideal for Holiday Party Prizes",
+      "total_gmv": 16893.21,
+      "total_units_sold": 7269,
+      "units_sold_growth_rate_percent": 90.67
+    }
+  ],
+  "total": 500
+}

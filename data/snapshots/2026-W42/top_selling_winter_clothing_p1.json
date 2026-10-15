@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601267,
+          "name": "Jackets & Coats"
+        }
+      },
+      "ceiling_price": 49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/dcdb6fa3183446f1b078b099ad39b2e9~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 49,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-06",
+      "launch_time": 1791302210,
+      "period_gmv": 261660,
+      "period_units_sold": 5340,
+      "price_display": "$49.00",
+      "product_id": "1732723238326670211",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9404de4951d9419994afd84e2e233402~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495045046260173699",
+        "shop_name": "Comfrt",
+        "total_units_sold": 4501648
+      },
+      "title": "Comfrt | Teddy Half Zip | Plush High-Pile Pullover With Mock Neck & Half Zip",
+      "total_gmv": 261660,
+      "total_units_sold": 5340,
+      "units_sold_growth_rate_percent": 0
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601267,
+          "name": "Jackets & Coats"
+        }
+      },
+      "ceiling_price": 49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/78fbbe2a12384d37be1649cbbf5898e5~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 49,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-06",
+      "launch_time": 1791295834,
+      "period_gmv": 259700,
+      "period_units_sold": 5300,
+      "price_display": "$49.00",
+      "product_id": "1732723156599214979",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9404de4951d9419994afd84e2e233402~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495045046260173699",
+        "shop_name": "Comfrt",
+        "total_units_sold": 4501648
+      },
+      "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
+      "total_gmv": 259700,
+      "total_units_sold": 5300,
+      "units_sold_growth_rate_percent": 0
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601284,
+          "name": "Knitwear"
+        }
+      },
+      "ceiling_price": 63.61,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/aeecf0bc9d4548c78eee1e994fa0f4ac~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 27.23,
+      "is_off_shelf": false,
+      "launch_date": "2023-09-29",
+      "launch_time": 1695946488,
+      "period_gmv": 64007.01,
+      "period_units_sold": 4433,
+      "price_display": "$27.23  - 63.61",
+      "product_id": "1729387696935768412",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4c5efd9e1abe482c9b10a153074ae77e~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646959324227143004",
+        "shop_name": "Zhichn Clthing",
+        "total_units_sold": 425564
+      },
+      "title": "Women's Plain Scoop Neck Sweater, Casual Chic Drop Shoulder Long Sleeve Jumper, Women Fall & Winter Knit Top",
+      "total_gmv": 5075793.46,
+      "total_units_sold": 388030,
+      "units_sold_growth_rate_percent": -3.76
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601284,
+          "name": "Knitwear"
+        }
+      },
+      "ceiling_price": 29.89,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/ec4bcc4dafe8449b817fe640bb4e2481~tplv-fhlh96nyum-crop-webp:1001:1334.webp",
+      "currency_code": "USD",
+      "floor_price": 22.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-07-24",
+      "launch_time": 1721774214,
+      "period_gmv": 103823.87,
+      "period_units_sold": 4402,
+      "price_display": "$22.99  - 29.89",
+      "product_id": "1729558952707527581",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/560c49cefed04c80ac7b2e9f554e67cf~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495804002442709917",
+        "shop_name": "SHEWIN",
+        "total_units_sold": 444967
+      },
+      "title": "Shewin Women's Fashion Oversized Sweater - Casual Solid Cotton Knit Pullover Top, Puff Short Sleeves, Round Neck, Side Slit, Elegance-Infused Knitwear for Work, Back-to-School Shopping",
+      "total_gmv": 3067297.26,
+      "total_units_sold": 142951,
+      "units_sold_growth_rate_percent": -40.21
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601284,
+          "name": "Knitwear"
+        }
+      },
+      "ceiling_price": 36,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c2036e454d9d47fc8232d21307c1b508~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 27,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-02",
+      "launch_time": 1748843884,
+      "period_gmv": 126674.6,
+      "period_units_sold": 4287,
+      "price_display": "$27.00 - 36.00",
+      "product_id": "1731208195967717743",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/1b580893597f4f909102bf3a537c8013~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495298029896567151",
+        "shop_name": "PrettyGarden",
+        "total_units_sold": 1633799
+      },
+      "title": "PrettyGarden Women's Oversized Cardigan Sweater Fall Long Lantern Sleeve Knit Open Front Lightweight Sweater Knitwear Tops",
+      "total_gmv": 5841636.09,
+      "total_units_sold": 161505,
+      "units_sold_growth_rate_percent": -18.47
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 843528,
+          "name": "Bodysuits"
+        }
+      },
+      "ceiling_price": 20,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/d508c29018ad48938d03d0bed7b80f30~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
+      "currency_code": "USD",
+      "floor_price": 20,
+      "is_off_shelf": false,
+      "launch_date": "2023-08-03",
+      "launch_time": 1691035601,
+      "period_gmv": 75090.7,
+      "period_units_sold": 3583,
+      "price_display": "$20.00",
+      "product_id": "1729385924624749041",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3ae156591a88459d89b37044bb631a02~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495167006798612977",
+        "shop_name": "FeelinGirl LLC",
+        "total_units_sold": 4793425
+      },
+      "title": "FeelinGirl Seamless Covered Bust Jumpsuit Thong Bodysuit Fit Comfort Slimming  Womenswear Breathable Hip Tops Soft Body Hugging bodysuit shapewear  newarrivals SohoChic",
+      "total_gmv": 12906444,
+      "total_units_sold": 597244,
+      "units_sold_growth_rate_percent": 19.71
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601302,
+          "name": "T-shirts"
+        }
+      },
+      "ceiling_price": 57,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/70a2d91dcaee4d0b9d9881b345acbc23~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 22,
+      "is_off_shelf": false,
+      "launch_date": "2024-11-12",
+      "launch_time": 1731358747,
+      "period_gmv": 68258.82,
+      "period_units_sold": 3045,
+      "price_display": "$22.00 - 57.00",
+      "product_id": "1729742098567566065",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7f0e2450aa814d5ebdcfcc7e62fb1e3e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495880532819217137",
+        "shop_name": "WIHOLL",
+        "total_units_sold": 428213
+      },
+      "title": "WIHOLL Women's Basic Minimalist Long Sleeve Round Neck Tunic Top - Lady's Spandex Shirt with Thumb Holes, Cuffed Sleeves, Curved Hem, Clothes for Women, Back to School Outfits to Wear with Leggings",
+      "total_gmv": 1793585.68,
+      "total_units_sold": 80687,
+      "units_sold_growth_rate_percent": -10.89
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601302,
+          "name": "T-shirts"
+        }
+      },
+      "ceiling_price": 20.9,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/7cebb170912246a1b377ad68fd707ae6~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 9.6,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-27",
+      "launch_time": 1787769225,
+      "period_gmv": 26476.3,
+      "period_units_sold": 3034,
+      "price_display": "$9.60 - 20.90",
+      "product_id": "1732573635299086810",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/efe7fbab26ea4295921e4bf81b55b2ec~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646979663901725146",
+        "shop_name": "Baillin Dress",
+        "total_units_sold": 997379
+      },
+      "title": "American Vintage-Inspired Striped Square-Neck Long-Sleeve Cropped T-Shirt with Contrast Neckline Trim, Slim Fit and Midriff-Baring Design for Everyday Streetwear Tops",
+      "total_gmv": 71960.9,
+      "total_units_sold": 7411,
+      "units_sold_growth_rate_percent": 35.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601284,
+          "name": "Knitwear"
+        }
+      },
+      "ceiling_price": 30.5,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4ee68c117eb5407fa2fb73895bcb6a32~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 30.5,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-15",
+      "launch_time": 1784050184,
+      "period_gmv": 77053.74,
+      "period_units_sold": 2841,
+      "price_display": "$30.50",
+      "product_id": "1732478278788092840",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/efc31f59ac5d4376a31da376a18010d7~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647465511166448552",
+        "shop_name": "Chic Weaves",
+        "total_units_sold": 140707
+      },
+      "title": "Women's Cable Knit Long Cardigan, Stand Collar Single Button Fall Winter Commute Jacket, Slim Fit Elegant Outerwear for Daily Wear Knitting",
+      "total_gmv": 363532.47,
+      "total_units_sold": 11846,
+      "units_sold_growth_rate_percent": 53.24
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842248,
+          "name": "Women's Tops"
+        },
+        "l3": {
+          "id": 601295,
+          "name": "Hoodies & Sweaters"
+        }
+      },
+      "ceiling_price": 33.8,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/0412fd416f08477c8835e2781f362681~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 12.87,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-10",
+      "launch_time": 1762740085,
+      "period_gmv": 36497.31,
+      "period_units_sold": 2810,
+      "price_display": "$12.87  - 33.80",
+      "product_id": "1731584006987485865",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/04d48e8be7c5464ab933c82c4c06f0d4~tplv-dx0w9n1ysr-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496125227112172201",
+        "shop_name": "StunningStyle",
+        "total_units_sold": 184006
+      },
+      "title": "Thankful For You Fuckers Funny Thanksgiving T-Shirt Friendsgiving Grateful Fall Season Casual Daily Wear Top",
+      "total_gmv": 383340.22,
+      "total_units_sold": 22473,
+      "units_sold_growth_rate_percent": -28
+    }
+  ],
+  "total": 500
+}

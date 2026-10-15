@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 64,
+      "commission_rate_percent": 13,
+      "cover_url": "https://s.500fd.com/tt_product/3490c1f794ff4ddb8be06dfd2886db28~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 36,
+      "is_off_shelf": false,
+      "launch_date": "2025-04-26",
+      "launch_time": 1745644728,
+      "period_gmv": 549216,
+      "period_units_sold": 15256,
+      "price_display": "$36.00 - 64.00",
+      "product_id": "1731003856475034336",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4f88b39d39944de998f7e411cdd15384~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495881586596809440",
+        "shop_name": "Bedlore",
+        "total_units_sold": 841066
+      },
+      "title": "\u3010BEDLORE\u3011Bamboo Cooling Mattress Topper with Fitted Sheet, Thick Luxury Comfort Layer, Breathable & Soft on Skin, Deep Pocket Design, Machine Washable, Ideal for Bedroom & Home Use HomeEssentials",
+      "total_gmv": 13616733.84,
+      "total_units_sold": 358398,
+      "units_sold_growth_rate_percent": -2.64
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876680,
+          "name": "Cupboards & Cabinets"
+        }
+      },
+      "ceiling_price": 73.99,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/76c1ffbb5f5a4f3a9099c7eb4b73b39a~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 62.37,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-30",
+      "launch_time": 1780072309,
+      "period_gmv": 117526.02,
+      "period_units_sold": 2091,
+      "price_display": "$62.37  - 73.99",
+      "product_id": "1732391124033179912",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/ee6495c0dba64e82ad2fd48a23916920~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494598898067735816",
+        "shop_name": "NOVA CASA",
+        "total_units_sold": 51626
+      },
+      "title": "5-Drawer Fabric Storage Tower Dresser, Solid, Stable, Multifunctional Cupboard Cabinet with Fabric Bins, Apartment Furniture for Bedroom Closet Organization, Entryway Use, Room Accessories, Aesthetic Decor, Living Room Decorations",
+      "total_gmv": 894893.16,
+      "total_units_sold": 17365,
+      "units_sold_growth_rate_percent": 43.91
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 64,
+      "commission_rate_percent": 13,
+      "cover_url": "https://s.500fd.com/tt_product/25ca04a5f222457499cae212cb674e9f~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 36,
+      "is_off_shelf": false,
+      "launch_date": "2024-10-19",
+      "launch_time": 1729270530,
+      "period_gmv": 66024,
+      "period_units_sold": 1834,
+      "price_display": "$36.00 - 64.00",
+      "product_id": "1729704410452955872",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4f88b39d39944de998f7e411cdd15384~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495881586596809440",
+        "shop_name": "Bedlore",
+        "total_units_sold": 841066
+      },
+      "title": "\u3010BEDLORE\u3011Thick Fitted Sheet Mattress Pad, Fluffy Pillow Top Comfort Layer, Cooling & Soft Mattress Cover with Deep Pockets (Fits 6\u201318 Inch Mattresses), Ideal for Bedroom & Home Use HomeEssentials",
+      "total_gmv": 7295987.96,
+      "total_units_sold": 174903,
+      "units_sold_growth_rate_percent": 11.42
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876680,
+          "name": "Cupboards & Cabinets"
+        }
+      },
+      "ceiling_price": 111.99,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/c9841a536b644d11a7f5b7bccc33141a~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 55.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-01-17",
+      "launch_time": 1737055201,
+      "period_gmv": 62691.64,
+      "period_units_sold": 1154,
+      "price_display": "$55.98  - 111.99",
+      "product_id": "1730508881451126797",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/69ce0301142c4d6694098da6bb033dee~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495957905333913613",
+        "shop_name": "Sweetcrispy S",
+        "total_units_sold": 1305401
+      },
+      "title": "Sweetcrispy 9 Drawers Dresser for Bedroom, Storage Drawers, Fabric Storage Tower Chest of Drawers with Fabric Bins, Sturdy Metal Frame",
+      "total_gmv": 2217721.13,
+      "total_units_sold": 43675,
+      "units_sold_growth_rate_percent": 32.8
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876680,
+          "name": "Cupboards & Cabinets"
+        }
+      },
+      "ceiling_price": 188,
+      "commission_rate_percent": 6.5,
+      "cover_url": "https://s.500fd.com/tt_product/d4e1bd92b7f349c49bdab00e630681c9~tplv-fhlh96nyum-crop-webp:3000:3000.webp",
+      "currency_code": "USD",
+      "floor_price": 98,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-18",
+      "launch_time": 1760725025,
+      "period_gmv": 91668,
+      "period_units_sold": 1021,
+      "price_display": "$98.00  - 188.00",
+      "product_id": "1731906940791328925",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/50a6a1530fcd4f4aa3069df36017836e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495942733425969309",
+        "shop_name": "GEITIN STEEL CABINET",
+        "total_units_sold": 52071
+      },
+      "title": "Metal Pantry Cabinet with 2 Doors and Adjustable Shelves Available in four sizes: 47\"61\" 71\" 75\" Kitchen Storage Cabinet with Gold Handles - Versatile Storage for Kitchen, Bathroom, Dining Room, Utility Room",
+      "total_gmv": 1222562.84,
+      "total_units_sold": 13055,
+      "units_sold_growth_rate_percent": 39.29
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 875912,
+          "name": "Tables & Desks"
+        }
+      },
+      "ceiling_price": 66,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/6f69eaff5f394a8d97583161fac8d99c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 50,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-16",
+      "launch_time": 1757968429,
+      "period_gmv": 41304.69,
+      "period_units_sold": 750,
+      "price_display": "$50.00 - 66.00",
+      "product_id": "1730956645222159074",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/90bb2b2eeefc4b1d900d1a63be5f37f5~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495657286590434018",
+        "shop_name": "Sweetcrispy Official",
+        "total_units_sold": 742185
+      },
+      "title": "Overbed Bedside Table Adjustable with Wheels, Mobile Standing Stand Up Rolling Laptop PC Desks with Tilting Top Height Tray Side Computer Workstation",
+      "total_gmv": 1576789.78,
+      "total_units_sold": 28718,
+      "units_sold_growth_rate_percent": 32.04
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 604497,
+          "name": "Shelves & Racks"
+        }
+      },
+      "ceiling_price": 29.4,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/508aaf401d47452b9e0dcd31b28c049c~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 16.1,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-12",
+      "launch_time": 1786500001,
+      "period_gmv": 15193.53,
+      "period_units_sold": 709,
+      "price_display": "$16.10 - 29.40",
+      "product_id": "1732547288766321406",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/a4a1620baa4540218adb4ef57c20fa0b~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495527392934923006",
+        "shop_name": "Kitsure",
+        "total_units_sold": 14700
+      },
+      "title": "Kitsure 3-10 Tier Shoe Tower with 10-tier Height Option, Space-Saving Indoor Furniture Shelf, Easy-Assembly Shoe Slot Organizer & Room Storage for Entryway Apartments",
+      "total_gmv": 83875.07,
+      "total_units_sold": 3765,
+      "units_sold_growth_rate_percent": -50.63
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 604468,
+          "name": "Sofas\t"
+        }
+      },
+      "ceiling_price": 602.1,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/0540fb5398834e89b523def9b8dd764b~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 575.1,
+      "is_off_shelf": false,
+      "launch_date": "2025-07-28",
+      "launch_time": 1753672995,
+      "period_gmv": 403720.2,
+      "period_units_sold": 702,
+      "price_display": "$575.10 - 602.10",
+      "product_id": "1731438296477111249",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/424bcf537b3643f5a5bc96efb7c81963~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496251766618754001",
+        "shop_name": "GOSUHI Furniture",
+        "total_units_sold": 26020
+      },
+      "title": "GOSUHI | 108\" U-Shaped Modular Cloud Sofa, 3-Seater Sectional with 2 Movable Ottomans,Deep Seat,Chenille,Linen,SohoChic",
+      "total_gmv": 14267595.52,
+      "total_units_sold": 22359,
+      "units_sold_growth_rate_percent": 33.71
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 875912,
+          "name": "Tables & Desks"
+        }
+      },
+      "ceiling_price": 36.98,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/e00bb4f10c2049bab21a6fe147defedc~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 36.98,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-09",
+      "launch_time": 1767908741,
+      "period_gmv": 20333.48,
+      "period_units_sold": 676,
+      "price_display": "$36.98",
+      "product_id": "1732201934662832315",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/80cfb4733d064983bfed154b707eb5cd~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495957915591608507",
+        "shop_name": "Sweetcrispy Store",
+        "total_units_sold": 156965
+      },
+      "title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded Couch Arm Tray Table - Clip-On Sofa Accessory with Anti-Slip Pads, Stable Surface, Cup Holder, 360\u00b0 Rotator Phone Holder, Ideal for TV Watching, Thoughtful Gift, Rectangle Wood Table, Fits 13.7\" Arms",
+      "total_gmv": 303018.51,
+      "total_units_sold": 9385,
+      "units_sold_growth_rate_percent": -0.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 109.99,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/bd2dd13da1a643eab3fbedb7e51e0210~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 89.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-12",
+      "launch_time": 1770847811,
+      "period_gmv": 43183.18,
+      "period_units_sold": 639,
+      "price_display": "$89.99  - 109.99",
+      "product_id": "1732267928102998754",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/90bb2b2eeefc4b1d900d1a63be5f37f5~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495657286590434018",
+        "shop_name": "Sweetcrispy Official",
+        "total_units_sold": 742185
+      },
+      "title": "Sweetcrispy Rectangular Japanese Polyester Memory Foam Futon Mattress - Portable Foldable Roll Up Sleeping Tatami Mat, Pressure Relief, Easy Unfolding, Durable, Space-Saving, Comfortable, Travel-Friendly, with Storage Bag for Kids",
+      "total_gmv": 419265.35,
+      "total_units_sold": 6590,
+      "units_sold_growth_rate_percent": 62.6
+    }
+  ],
+  "total": 500
+}

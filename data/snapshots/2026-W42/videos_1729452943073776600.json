@@ -1,0 +1,195 @@
+{
+  "page": 1,
+  "pagesize": 6,
+  "product_id": "1729452943073776600",
+  "time_range_days": 90,
+  "total": 796,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "hollysmith883",
+        "creator_uid": "7208754798258111531"
+      },
+      "engagement_metrics": {
+        "comment_count": 132,
+        "like_count": 2676,
+        "play_count": 1200000,
+        "share_count": 696
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 2542.84,
+        "window_units_sold": 151
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688764413423258911",
+      "video_meta": {
+        "caption_text": "Getting my house ready BEFORE the snow, slush and muddy paws start coming through these doors \ud83d\ude02 These Muddy Mats stay at our entrances all winter for a reason! \u2744\ufe0f\ud83d\udc3e @Muddy Mat  #MuddyMat #WinterPrep #washablerug #washablerugs #winterweatherprep ",
+        "cover_url": "https://s.500fd.com/tt_video/oUFpIqEDAafICt7AeVfnIi6QmAFCrjAZ5uEDoA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688764413423258911",
+        "published_at": 1790179981,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7688764413423258911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "goldendealsforyou",
+        "creator_uid": "7539682558184588301"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 2796,
+        "play_count": 354100,
+        "share_count": 36
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 9339.48,
+        "window_units_sold": 600
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663341217354222861",
+      "video_meta": {
+        "caption_text": "not sure how much longer this is gonna be a thing  #muddymat #doormat #petparents #cleantok #dirt ",
+        "cover_url": "https://s.500fd.com/tt_video/oogAYEafqDApqbatADCQBQHWFAhESIfRFEdrZZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663341217354222861",
+        "published_at": 1784260700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@goldendealsforyou/video/7663341217354222861"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nextgenthreads",
+        "creator_uid": "7307878291244188718"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 90,
+        "play_count": 29700,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 6411.2,
+        "window_units_sold": 363
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684810158865747230",
+      "video_meta": {
+        "caption_text": "Don\u2019t order the wrong Muddy Mat size! I bought a bunch of them so you can see exactly how big they actually are. #tiktokshopsummersale #dogsoftiktok #muddymat #antimudmat #dogmusthaves ",
+        "cover_url": "https://s.500fd.com/tt_video/o4EAIqWfeiaEjSIju7SVQAF4AAMDeCAIAcv6lE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684810158865747230",
+        "published_at": 1789259311,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nextgenthreads/video/7684810158865747230"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "betterbybrian",
+        "creator_uid": "7438627421976790062"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 50,
+        "play_count": 28700,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 1237.7,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685760723913280781",
+      "video_meta": {
+        "caption_text": "Muddy mat",
+        "cover_url": "https://s.500fd.com/tt_video/oAErvoQgSDAF0EUTeFRVrqf714DODB7Q6LtqMp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685760723913280781",
+        "published_at": 1789480653,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@betterbybrian/video/7685760723913280781"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hollysmith883",
+        "creator_uid": "7208754798258111531"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 46,
+        "play_count": 22800,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 394.56,
+        "window_units_sold": 24
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675769175926754591",
+      "video_meta": {
+        "caption_text": "Replying to @thehotdogbros03 No matter what size you go with, I promise, you are going to love it and immediately want to buy more!!! \ud83e\udd70 Start protecting your floors and saving yourself from all that cleaning!  @Muddy Mat  #muddymat #washablerug #washablerugs ",
+        "cover_url": "https://s.500fd.com/tt_video/ocRPCPBj3FBIEAlHdACclic76A3oziEaAXUAJ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675769175926754591",
+        "published_at": 1787154291,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7675769175926754591"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "heathbroome",
+        "creator_uid": "6872169921678410757"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 16400,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495362538929818584",
+        "window_gmv": 971.44,
+        "window_units_sold": 58
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680445188275244319",
+      "video_meta": {
+        "caption_text": "Crazy deal! #heathbroome #tiktokshopcreatorpicks #falldealsforyou #tiktokshopblackfriday #tiktokshopcybermonday ",
+        "cover_url": "https://s.500fd.com/tt_video/oI2XwICyQPjqeifnL8fgWgNpVFWbmMjiLEQAAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680445188275244319",
+        "published_at": 1788301999,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@heathbroome/video/7680445188275244319"
+      }
+    }
+  ]
+}

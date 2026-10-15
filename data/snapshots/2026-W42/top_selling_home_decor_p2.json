@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 700654,
+          "name": "Decorative Flowers, Plants & Fruit"
+        }
+      },
+      "ceiling_price": 39.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/ae08d1a3e33e441e9cf96a6322daea20~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 19.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-08",
+      "launch_time": 1791396245,
+      "period_gmv": 8783.05,
+      "period_units_sold": 1464,
+      "price_display": "$19.99  - 39.99",
+      "product_id": "1732728366472467321",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d0f3264e15444e62946bce66cbbf9f52~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494623911779272569",
+        "shop_name": "Moon clothes",
+        "total_units_sold": 18980
+      },
+      "title": "3pcs Lifelike Lightweight Artificial Hanging Potted Evergreen Leaf Plant Set - Natural Look Home Decor Items, Room Decor Accessories for House, Kitchen Garden Pots & Planters",
+      "total_gmv": 8783.05,
+      "total_units_sold": 1464,
+      "units_sold_growth_rate_percent": 0
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600321,
+          "name": "Clocks"
+        }
+      },
+      "ceiling_price": 42.5,
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/d5437faba31e48bf8b3889941d119877~tplv-fhlh96nyum-crop-webp:2393:2393.webp",
+      "currency_code": "USD",
+      "floor_price": 42.5,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-02",
+      "launch_time": 1788351958,
+      "period_gmv": 64697.75,
+      "period_units_sold": 1396,
+      "price_display": "$42.50",
+      "product_id": "1732491682604749463",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/e3b23607c52a4c22a57da99496b7b516~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494764075006461591",
+        "shop_name": "histrips.",
+        "total_units_sold": 8086
+      },
+      "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
+      "total_gmv": 247349.75,
+      "total_units_sold": 7790,
+      "units_sold_growth_rate_percent": 27.37
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 984200,
+          "name": "Piggy Banks"
+        }
+      },
+      "ceiling_price": 15.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b9fef630dba84940b1c4f640a4497e4a~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 15.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-02",
+      "launch_time": 1769977541,
+      "period_gmv": 21152.04,
+      "period_units_sold": 1372,
+      "price_display": "$15.99",
+      "product_id": "1729486422636729753",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/f1a6c46a9e6048dbb5513637af6eebc1~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496010379211934105",
+        "shop_name": "safe box for money",
+        "total_units_sold": 62231
+      },
+      "title": "Hidden Book Safe Dictionary Secret Storage Box with Combination Lock for Cash Jewelry Valuables Home Office  Money Box Vault Safe Box Safe Deposit Box Decor Metal Lightweight Safety Ornaments fathersdaygift Travel Portable Safe",
+      "total_gmv": 255784.84,
+      "total_units_sold": 15941,
+      "units_sold_growth_rate_percent": 238.77
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 854792,
+          "name": "Religious Decorations"
+        }
+      },
+      "ceiling_price": 15.59,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/4e7949d1d28e4d648467f13169edb1b1~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 12.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-18",
+      "launch_time": 1787058685,
+      "period_gmv": 14791.2,
+      "period_units_sold": 1216,
+      "price_display": "$12.99  - 15.59",
+      "product_id": "1729518604574299544",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4b1281b3ab2d466596605288963044af~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495387041313032600",
+        "shop_name": "BM Sports",
+        "total_units_sold": 56162
+      },
+      "title": "Religious Home Decor Pocket-Size Mini Nativity Scene Boxed Set - 1 Set of Hand-Painted Plastic Figurines (Mary, Shepherd, Animals), Storage Box, Portable Christmas Table Decoration, Holiday Gift Ornaments",
+      "total_gmv": 122819.52,
+      "total_units_sold": 10770,
+      "units_sold_growth_rate_percent": -44.58
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 700654,
+          "name": "Decorative Flowers, Plants & Fruit"
+        }
+      },
+      "ceiling_price": 71.49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/a085f0eaa3674518be6e6bf5b28de5c3~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 12.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-29",
+      "launch_time": 1774732475,
+      "period_gmv": 14260.84,
+      "period_units_sold": 1194,
+      "price_display": "$12.99  - 71.49",
+      "product_id": "1732308900359737447",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3151df5eb5f542f99ff61daf5eb841e3~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496136006899107943",
+        "shop_name": "Cozy Crate",
+        "total_units_sold": 172906
+      },
+      "title": "UV Resistant Fade-Resistant Colorful Fall Artificial Flower Bouquet (6/12/24/48-Piece Set) - Hanging Window Outdoor Halloween Decorations, Home Goods for House Decor & Decorating for Halloween",
+      "total_gmv": 776702.65,
+      "total_units_sold": 78330,
+      "units_sold_growth_rate_percent": -33.96
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 1.8,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/41eb9d20c0804957aa3c48ee75c1d842~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 1.8,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-01",
+      "launch_time": 1780323668,
+      "period_gmv": 1799.25,
+      "period_units_sold": 951,
+      "price_display": "$1.80",
+      "product_id": "1732397386659434927",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/c8f4caa8ddf04606b60e5be5ee434ea5~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646942602435858863",
+        "shop_name": "Choi hino",
+        "total_units_sold": 28241
+      },
+      "title": "1 Count Cross Design and Resurrection Memorial Coin, Medal Alloy Relief Decorative Keepsake Gift, Religious Ornament for Easter Holiday, Church Decoration, Family Gathering Commemorative Collectibles, Religious Decorations",
+      "total_gmv": 41103.72,
+      "total_units_sold": 20388,
+      "units_sold_growth_rate_percent": -7.94
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 9.6,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/073e964fa06246e6b9ebe3ca7c7adaa7~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 9.6,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-30",
+      "launch_time": 1780100501,
+      "period_gmv": 5412,
+      "period_units_sold": 917,
+      "price_display": "$9.60",
+      "product_id": "1732367055947665598",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0c8c92383c59470d99c2cba9a31a5f9d~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8654749111486484670",
+        "shop_name": "Aesthetic Planes",
+        "total_units_sold": 2873
+      },
+      "title": "1:72 F-18 Fighter Jet Plastic Model Kit, DIY Collectible Model, DIY Building Model, Realistic Aircraft Replica, Open Cockpit, Landing Gear, Display Base, Perfect for Aviation Enthusiasts",
+      "total_gmv": 7863.37,
+      "total_units_sold": 1230,
+      "units_sold_growth_rate_percent": 2251.28
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600338,
+          "name": "Decorative Stickers"
+        }
+      },
+      "ceiling_price": 130,
+      "commission_rate_percent": 1,
+      "cover_url": "https://s.500fd.com/tt_product/fd4fae17867346fe8656fc09482a87dd~tplv-fhlh96nyum-crop-webp:735:735.webp",
+      "currency_code": "USD",
+      "floor_price": 1.3,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-06",
+      "launch_time": 1788700602,
+      "period_gmv": 875.8,
+      "period_units_sold": 865,
+      "price_display": "$1.30  - 130.00",
+      "product_id": "1732619890587046685",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/858b2b6a4ea5473581a3685c61b892ab~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494127835076134685",
+        "shop_name": "PinkWhaleStore",
+        "total_units_sold": 65501
+      },
+      "title": "[youyou] Bambi & Serena DTF Cup Wraps UVDTF Individual Claims Live Versatile for Various",
+      "total_gmv": 3250.6,
+      "total_units_sold": 3235,
+      "units_sold_growth_rate_percent": 7.04
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 700654,
+          "name": "Decorative Flowers, Plants & Fruit"
+        }
+      },
+      "ceiling_price": 1,
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/ca07a9afc1e24841a0825d502f13d68a~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 1,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-06",
+      "launch_time": 1791223619,
+      "period_gmv": 858,
+      "period_units_sold": 858,
+      "price_display": "$1.00",
+      "product_id": "1732722698794996331",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/61fbe150af854888b15cc4c91bdf4507~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494530644912932459",
+        "shop_name": "ByTheCase",
+        "total_units_sold": 16796
+      },
+      "title": "SMALL CASEPACK. 10.5",
+      "total_gmv": 971,
+      "total_units_sold": 971,
+      "units_sold_growth_rate_percent": 0
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600299,
+          "name": "Statues & Figurines"
+        }
+      },
+      "ceiling_price": 5.1,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/5135b9182bcf4aae9ac85b58b0928771~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 5.1,
+      "is_off_shelf": false,
+      "launch_date": "2025-07-24",
+      "launch_time": 1753371746,
+      "period_gmv": 4942.2,
+      "period_units_sold": 855,
+      "price_display": "$5.10",
+      "product_id": "1731067231555654083",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6719752601484676807bdca27d414b16~tplv-aphluv4xwc-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "8647145322716107203",
+        "shop_name": "Mei Qiao",
+        "total_units_sold": 306334
+      },
+      "title": "Skull-Design Wrench-Shaped Resin Ornament, Decorative Home Ornament, Skull Face Statue for Indoor Room Decor, Desktop Ornaments, Perfect Gift for Engineers & Car Lovers #GLOBAL PICKS",
+      "total_gmv": 21738.6,
+      "total_units_sold": 2733,
+      "units_sold_growth_rate_percent": 10587.5
+    }
+  ],
+  "total": 500
+}

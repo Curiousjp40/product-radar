@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "product_id": "1729452943073776600",
+  "title": "Muddy Mat Original Anti-Mud Mat",
+  "clean_title": "Muddy Mat Original Anti-Mud Mat",
+  "image_url": "/img/product_1729452943073776600.jpg",
+  "category": "pet_furniture",
+  "category_label_es": "Mascotas",
+  "category_label_en": "Pet Furniture",
+  "shop_name": "Muddy Mat",
+  "price": 16.0,
+  "commission_rate": 0.25,
+  "earnings_per_sale": 4.0,
+  "units_7d": 1516,
+  "units_total": 154804,
+  "creator_count": 166,
+  "video_count": 92,
+  "daily_units_14": [
+    94,
+    114,
+    84,
+    105,
+    139,
+    514,
+    207,
+    160,
+    181,
+    166,
+    149,
+    159,
+    149,
+    110
+  ],
+  "is_pick": false,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729452943073776600",
+  "tiktok_search_url": "https://www.tiktok.com/search?q=Muddy%20Mat%20Original%20Anti-Mud%20Mat",
+  "videos": [
+    {
+      "video_id": "7688764413423258911",
+      "cover_url": "/img/video_7688764413423258911.jpg",
+      "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7688764413423258911",
+      "creator_handle": "hollysmith883",
+      "play_count": 1200000,
+      "window_gmv": 2542.84,
+      "window_units_sold": 151
+    },
+    {
+      "video_id": "7663341217354222861",
+      "cover_url": "/img/video_7663341217354222861.jpg",
+      "tiktok_url": "https://www.tiktok.com/@goldendealsforyou/video/7663341217354222861",
+      "creator_handle": "goldendealsforyou",
+      "play_count": 354100,
+      "window_gmv": 9339.48,
+      "window_units_sold": 600
+    },
+    {
+      "video_id": "7684810158865747230",
+      "cover_url": "/img/video_7684810158865747230.jpg",
+      "tiktok_url": "https://www.tiktok.com/@nextgenthreads/video/7684810158865747230",
+      "creator_handle": "nextgenthreads",
+      "play_count": 29700,
+      "window_gmv": 6411.2,
+      "window_units_sold": 363
+    },
+    {
+      "video_id": "7685760723913280781",
+      "cover_url": "/img/video_7685760723913280781.jpg",
+      "tiktok_url": "https://www.tiktok.com/@betterbybrian/video/7685760723913280781",
+      "creator_handle": "betterbybrian",
+      "play_count": 28700,
+      "window_gmv": 1237.7,
+      "window_units_sold": 72
+    },
+    {
+      "video_id": "7675769175926754591",
+      "cover_url": "/img/video_7675769175926754591.jpg",
+      "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7675769175926754591",
+      "creator_handle": "hollysmith883",
+      "play_count": 22800,
+      "window_gmv": 394.56,
+      "window_units_sold": 24
+    },
+    {
+      "video_id": "7680445188275244319",
+      "cover_url": "/img/video_7680445188275244319.jpg",
+      "tiktok_url": "https://www.tiktok.com/@heathbroome/video/7680445188275244319",
+      "creator_handle": "heathbroome",
+      "play_count": 16400,
+      "window_gmv": 971.44,
+      "window_units_sold": 58
+    }
+  ]
+}

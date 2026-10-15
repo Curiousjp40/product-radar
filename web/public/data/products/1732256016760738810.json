@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "product_id": "1732256016760738810",
+  "title": "EL ELENGATINE Women's Polyester Stretchy Skeleton Print Mid-Length Sleeveless Crew Neck Bodycon Dress - Sheer Mesh Overlay, Party Outfit, Concert Wear",
+  "clean_title": "EL ELENGATINE Women's Polyester Stretchy Skeleton",
+  "image_url": "/img/product_1732256016760738810.webp",
+  "category": "dresses",
+  "category_label_es": "Vestidos",
+  "category_label_en": "Dresses",
+  "shop_name": "Elengatine USA",
+  "price": 36.43,
+  "commission_rate": 0.1,
+  "earnings_per_sale": 3.64,
+  "units_7d": 1910,
+  "units_total": 9081,
+  "creator_count": 136,
+  "video_count": 85,
+  "daily_units_14": [
+    54,
+    112,
+    133,
+    323,
+    133,
+    487,
+    188,
+    105,
+    366,
+    364,
+    267,
+    251,
+    437,
+    393
+  ],
+  "is_pick": false,
+  "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732256016760738810",
+  "tiktok_search_url": "https://www.tiktok.com/search?q=EL%20ELENGATINE%20Women%27s%20Polyester%20Stretchy%20Skeleton",
+  "videos": [
+    {
+      "video_id": "7692245608286981390",
+      "cover_url": "/img/video_7692245608286981390.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jaellangley/video/7692245608286981390",
+      "creator_handle": "jaellangley",
+      "play_count": 3140655,
+      "window_gmv": 1608.75,
+      "window_units_sold": 53
+    },
+    {
+      "video_id": "7681778135867690270",
+      "cover_url": "/img/video_7681778135867690270.jpg",
+      "tiktok_url": "https://www.tiktok.com/@anna_elizabethhh/video/7681778135867690270",
+      "creator_handle": "anna_elizabethhh",
+      "play_count": 1400000,
+      "window_gmv": 740.05,
+      "window_units_sold": 24
+    },
+    {
+      "video_id": "7673435902802218270",
+      "cover_url": "/img/video_7673435902802218270.jpg",
+      "tiktok_url": "https://www.tiktok.com/@kilamomi/video/7673435902802218270",
+      "creator_handle": "kilamomi",
+      "play_count": 1200000,
+      "window_gmv": 1802.05,
+      "window_units_sold": 72
+    },
+    {
+      "video_id": "7681933992735657229",
+      "cover_url": "/img/video_7681933992735657229.jpg",
+      "tiktok_url": "https://www.tiktok.com/@dazeemaee/video/7681933992735657229",
+      "creator_handle": "dazeemaee",
+      "play_count": 1100000,
+      "window_gmv": 6407.07,
+      "window_units_sold": 219
+    },
+    {
+      "video_id": "7667960349806628127",
+      "cover_url": "/img/video_7667960349806628127.jpg",
+      "tiktok_url": "https://www.tiktok.com/@albert.cyy5/video/7667960349806628127",
+      "creator_handle": "albert.cyy5",
+      "play_count": 785200,
+      "window_gmv": 1847.31,
+      "window_units_sold": 72
+    },
+    {
+      "video_id": "7676779762391452959",
+      "cover_url": "/img/video_7676779762391452959.jpg",
+      "tiktok_url": "https://www.tiktok.com/@cffifigfgusjs3/video/7676779762391452959",
+      "creator_handle": "cffifigfgusjs3",
+      "play_count": 736200,
+      "window_gmv": 535.41,
+      "window_units_sold": 19
+    }
+  ]
+}

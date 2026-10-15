@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 806800,
+          "name": "Room Dividers"
+        }
+      },
+      "ceiling_price": 42.99,
+      "commission_rate_percent": 7,
+      "cover_url": "https://s.500fd.com/tt_product/31928ba621be49cf8ce0248186efea98~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
+      "currency_code": "USD",
+      "floor_price": 42.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-05",
+      "launch_time": 1749097340,
+      "period_gmv": 19798.62,
+      "period_units_sold": 478,
+      "price_display": "$42.99",
+      "product_id": "1731193793848120096",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5617ce8714e5439e8347ab04fca6701e~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496092921467734816",
+        "shop_name": "Buyzo",
+        "total_units_sold": 50110
+      },
+      "title": "Adjustable Bedroom Partition Rod(Curtains NOT Included) - Heavy-Duty Room Divider Curtain Rod for 4-10 Ft High and 28-70 in Wide Spaces - No Drill Freestanding Separator Freestanding Tension Curtain Stand",
+      "total_gmv": 612826.65,
+      "total_units_sold": 12597,
+      "units_sold_growth_rate_percent": 33.89
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 480,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/ed7fc78b486d48a69f820630f66b31b1~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 140,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-05",
+      "launch_time": 1772711669,
+      "period_gmv": 53185,
+      "period_units_sold": 471,
+      "price_display": "$140.00  - 480.00",
+      "product_id": "1729488901027042925",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5a1ca1f4ff3a401a831058e370fa69f4~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494205326512326253",
+        "shop_name": "Top Furniture",
+        "total_units_sold": 18697
+      },
+      "title": "DIGWAC Memory Foam Mattress (8/10/12/14-in Cotton) - Ergonomic Medium Firm, Stress Relief, Comfort, Perfect Sleep Companion, Shared-Bed Peace, Hotel-Height, Partner-Toss Shield, Dorm Essential, Home Decor",
+      "total_gmv": 859581.53,
+      "total_units_sold": 9056,
+      "units_sold_growth_rate_percent": 22.34
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876680,
+          "name": "Cupboards & Cabinets"
+        }
+      },
+      "ceiling_price": 119.99,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/3a04d618c4bb4d97918533edde6b9f51~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 55.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-25",
+      "launch_time": 1758813443,
+      "period_gmv": 25605.9,
+      "period_units_sold": 470,
+      "price_display": "$55.98  - 119.99",
+      "product_id": "1731154171930710203",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/80cfb4733d064983bfed154b707eb5cd~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495957915591608507",
+        "shop_name": "Sweetcrispy Store",
+        "total_units_sold": 156965
+      },
+      "title": "Sweetcrispy 9-Drawer Fabric Storage Tower - Steel Frame Chest of Drawers with Fabric Bins, Wood Top, for Bedroom Organization, Room Decor, Household Items, Apartment Stuff, Home Goods",
+      "total_gmv": 649850.32,
+      "total_units_sold": 12668,
+      "units_sold_growth_rate_percent": 0.86
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 600,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/0ed9f26b1f2b45b892c027aa791d3df6~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 100,
+      "is_off_shelf": false,
+      "launch_date": "2024-03-25",
+      "launch_time": 1711357357,
+      "period_gmv": 49277.53,
+      "period_units_sold": 466,
+      "price_display": "$100.00 - 600.00",
+      "product_id": "1729451427135394405",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7ca8fe4c9e94453ebb6a889a15270a9e~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495433224251542117",
+        "shop_name": "Novilla",
+        "total_units_sold": 77576
+      },
+      "title": "Gel Memory Foam Mattress for Cool Night &  Fiberglass-Free\uff0cFull/Queen/KIng Size ,6/8/10/12/14 Inch Medium Firm  in Box for Cool Sleep and Pressure Relief&Perfect Balance of Softness.Fall Deals For You",
+      "total_gmv": 3285494.25,
+      "total_units_sold": 31754,
+      "units_sold_growth_rate_percent": -8.09
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 979720,
+          "name": "Bed Frames & Headboards"
+        }
+      },
+      "ceiling_price": 89.69,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/738970decfa04ec18e3447b417c28a6d~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
+      "currency_code": "USD",
+      "floor_price": 51.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-29",
+      "launch_time": 1782687559,
+      "period_gmv": 22503.57,
+      "period_units_sold": 465,
+      "price_display": "$51.99  - 89.69",
+      "product_id": "1732444119209972369",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4020538a062649fc8f8b2e540038542a~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496102198451210897",
+        "shop_name": "VASAGLE",
+        "total_units_sold": 29892
+      },
+      "title": "VASAGLE Stable Heavy-Duty Steel Alloy King Size Bed Frame - Modern Furniture for Small Spaces, Apartment Bed Frame, 1100 lb Capacity, No Box Spring Needed, Underbed Storage, Easy Setup, Mattress Retainers, Matte Black, Open Grid Design",
+      "total_gmv": 184626.63,
+      "total_units_sold": 4311,
+      "units_sold_growth_rate_percent": 14.81
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 604497,
+          "name": "Shelves & Racks"
+        }
+      },
+      "ceiling_price": 57.19,
+      "commission_rate_percent": 7,
+      "cover_url": "https://s.500fd.com/tt_product/8fc71d9ab3f7478fbeb2c143402b3dd0~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 57.19,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-15",
+      "launch_time": 1789405694,
+      "period_gmv": 24956.2,
+      "period_units_sold": 449,
+      "price_display": "$57.19",
+      "product_id": "1732653923465204333",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0d8de5e4bdae406cb9a5eeb7da6d4ac4~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496315521878690413",
+        "shop_name": "VUSIGN HOME",
+        "total_units_sold": 26519
+      },
+      "title": "VUSIGN Rustic Style Vertical Storage Kitchen Bakers Rack (Rustic Brown, Black, Gray) with Built-In Outlets, 4-Tier Microwave Stand, 23.6in Coffee Bar Station, Adjustable Shelf, 6 S Hooks for Pots/Pans/Spices, Storage Organization Organizer",
+      "total_gmv": 29555.05,
+      "total_units_sold": 542,
+      "units_sold_growth_rate_percent": 780.39
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876040,
+          "name": "Chairs"
+        }
+      },
+      "ceiling_price": 207.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/0e1cd233eece4eff8be3d142357e99eb~tplv-fhlh96nyum-crop-webp:4284:4284.webp",
+      "currency_code": "USD",
+      "floor_price": 207.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-07-29",
+      "launch_time": 1722252146,
+      "period_gmv": 79920.01,
+      "period_units_sold": 435,
+      "price_display": "$207.99",
+      "product_id": "1729565286645600783",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5f90ca825b14421d9d9fc84d58767e94~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495315823719647759",
+        "shop_name": "COLAMY",
+        "total_units_sold": 14594
+      },
+      "title": "COLAMY NOYA Dining Chair Modern Upholstered Wood - High-Quality Fabric Finish Natural Wood Frame Ergonomic Backrest Design, Indoor Furniture",
+      "total_gmv": 2247946.84,
+      "total_units_sold": 9687,
+      "units_sold_growth_rate_percent": 70.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876168,
+          "name": "Stools & Benches"
+        }
+      },
+      "ceiling_price": 70,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/dee3d40f3c764c279e16a522b7df5bd5~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "currency_code": "USD",
+      "floor_price": 70,
+      "is_off_shelf": false,
+      "launch_date": "2023-07-21",
+      "launch_time": 1689912147,
+      "period_gmv": 29639.02,
+      "period_units_sold": 431,
+      "price_display": "$70.00",
+      "product_id": "1729385768681640506",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/a025ef429ff44481976142e78a4e9585~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495126325654227514",
+        "shop_name": "SONGMICS HOME",
+        "total_units_sold": 234157
+      },
+      "title": "SONGMICS Farmhouse Hidden Storage Hallway Chest Bench - Multi-Functional Indoor Furniture, 2 Safety Hinges, 2-Side Grab Handles, Sturdy Particleboard, 300lb Capacity, 15.7''d x 39.4''w x 18.1''h, Room Decor, Apartment Furniture, Household Items",
+      "total_gmv": 774810.61,
+      "total_units_sold": 9961,
+      "units_sold_growth_rate_percent": 139.44
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 604468,
+          "name": "Sofas\t"
+        }
+      },
+      "ceiling_price": 1038.65,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/aefbdd711fc3458f8b780c74155ff561~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 773.45,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-05",
+      "launch_time": 1772671155,
+      "period_gmv": 259217.72,
+      "period_units_sold": 430,
+      "price_display": "$773.45  - 1,038.65",
+      "product_id": "1732282938510054238",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/156e0c390c8448e7815b2144ded8822f~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495195087729953630",
+        "shop_name": "OVIOS",
+        "total_units_sold": 69361
+      },
+      "title": "\u30102/3 Packages Shipping\u3011Ovios 108\" U-Shaped Modern Sofa Modular Sectional Cloud Couch with 2 Ottoman, Comfy Chenille Deep Seat Sofa Bed with 5 Pillows for Living Room, Bedroom and Apartment, 5-Seater",
+      "total_gmv": 5202244.25,
+      "total_units_sold": 8313,
+      "units_sold_growth_rate_percent": 36.08
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 20,
+          "name": "Furniture"
+        },
+        "l2": {
+          "id": 871048,
+          "name": "Indoor Furniture"
+        },
+        "l3": {
+          "id": 876424,
+          "name": "Mattresses"
+        }
+      },
+      "ceiling_price": 240,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/65b5a4ec5b134408b5e2ad30476b06b1~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
+      "currency_code": "USD",
+      "floor_price": 105,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-31",
+      "launch_time": 1780208977,
+      "period_gmv": 54463.5,
+      "period_units_sold": 429,
+      "price_display": "$105.00 - 240.00",
+      "product_id": "1732415979838804770",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/c9f65529088446caa60f9596f2cd7f85~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494645080498145058",
+        "shop_name": "InnoStruct Furniture",
+        "total_units_sold": 6003
+      },
+      "title": "10/12/14 Inch Memory Mattress with Independent Springs, Provides Pressure Relief, Motion Isolation and Firm Edges, Medium Firm",
+      "total_gmv": 420827.5,
+      "total_units_sold": 3790,
+      "units_sold_growth_rate_percent": -11.73
+    }
+  ],
+  "total": 500
+}

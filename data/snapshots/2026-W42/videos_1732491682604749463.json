@@ -3,7 +3,7 @@
   "pagesize": 6,
   "product_id": "1732491682604749463",
   "time_range_days": 90,
-  "total": 615,
+  "total": 630,
   "videos": [
     {
       "creator": {
@@ -11,16 +11,16 @@
         "creator_uid": "7080667582467425323"
       },
       "engagement_metrics": {
-        "comment_count": 258,
-        "like_count": 23959,
-        "play_count": 3725608,
-        "share_count": 6528
+        "comment_count": 263,
+        "like_count": 24100,
+        "play_count": 3800000,
+        "share_count": 6567
       },
       "product_contribution": {
         "metric_window_days": 90,
         "shop_id": "7494764075006461591",
-        "window_gmv": 2572.02,
-        "window_units_sold": 82
+        "window_gmv": 2657.02,
+        "window_units_sold": 84
       },
       "traffic_flags": {
         "is_ad": true

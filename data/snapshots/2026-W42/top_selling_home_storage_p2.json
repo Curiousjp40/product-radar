@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852872,
+          "name": "Storage Holders & Racks"
+        }
+      },
+      "ceiling_price": 38.99,
+      "commission_rate_percent": 9,
+      "cover_url": "https://s.500fd.com/tt_product/eb5a9a61396a4c70bdb1274cd63b621e~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 38.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-23",
+      "launch_time": 1761203541,
+      "period_gmv": 51892.33,
+      "period_units_sold": 1372,
+      "price_display": "$38.99",
+      "product_id": "1731334520230286210",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8bee0a92c8904608a22dfe321178296d~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496153445549116290",
+        "shop_name": "Sunward Nest",
+        "total_units_sold": 58807
+      },
+      "title": "Foldable Over The Sink Dish Drying Rack, Carbon Steel 2-Tier Pullout Sliding Dish Organizer, Removable Cutlery Holder, Adjustable 360\u00b0 Swivel Drain Guide, Space Saver for Small Kitchen Storage",
+      "total_gmv": 2004042.75,
+      "total_units_sold": 50437,
+      "units_sold_growth_rate_percent": 22.28
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852872,
+          "name": "Storage Holders & Racks"
+        }
+      },
+      "ceiling_price": 43.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/90056bc10c3844a0a6bfe725dfe8c67d~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 33.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-26",
+      "launch_time": 1764089596,
+      "period_gmv": 38379.6,
+      "period_units_sold": 1359,
+      "price_display": "$33.99  - 43.99",
+      "product_id": "1732067065360322564",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/b3276ffa8e37435a8803bd5a26d67a51~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496169897053947908",
+        "shop_name": "Vacplus Shop",
+        "total_units_sold": 84367
+      },
+      "title": "Kitsure 10-Tier Stackable Shoe Rack Organizer - Home Storage Organization Solution with Side Handles, Easy Assembly Shelf for Closet Entryway, Apartment Accessories to Organize in Style for Small Spaces",
+      "total_gmv": 1318966.23,
+      "total_units_sold": 46721,
+      "units_sold_growth_rate_percent": -25.37
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852744,
+          "name": "Storage Bags"
+        }
+      },
+      "ceiling_price": 29.99,
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/c5eeb872ae7f49958f1a3c11d19d2db2~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 11.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-05",
+      "launch_time": 1791192378,
+      "period_gmv": 16198.49,
+      "period_units_sold": 1351,
+      "price_display": "$11.99  - 29.99",
+      "product_id": "1732721456963686789",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/f96d0d2b457e406190469c3b25d744a6~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495186951737149829",
+        "shop_name": "The S&S Shop",
+        "total_units_sold": 14014
+      },
+      "title": "Spacious Moving Storage Bin, ZipperedOrganizer for Quilts, Bedding & Sweaters, LargeCapacity Fabric Bag for Moving Day, Closet &Bedroom Use",
+      "total_gmv": 18044.95,
+      "total_units_sold": 1505,
+      "units_sold_growth_rate_percent": 0
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 853128,
+          "name": "Hooks & Rails"
+        }
+      },
+      "ceiling_price": 15.59,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/dd896c791f6a4714862f8ecc107b7d42~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 9.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-28",
+      "launch_time": 1764274809,
+      "period_gmv": 11882.7,
+      "period_units_sold": 1251,
+      "price_display": "$9.99  - 15.59",
+      "product_id": "1731935606017331951",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/e7176086b47b487b92c8bec553243a05~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495668522992962287",
+        "shop_name": "Jahyshop",
+        "total_units_sold": 945188
+      },
+      "title": "20PCS Acrylic Photo Hooks \u2013 Buy 10 Get 10 Free, Stainless Steel & Ceramic Self-Adhesive, Smooth Lightweight Wall-Mount for Room Decor & Organizer, Easy Installation,Perfect for Photos, Keys, Jewelry & Lightweight Items, Versatile Home Accessory",
+      "total_gmv": 953174.66,
+      "total_units_sold": 91734,
+      "units_sold_growth_rate_percent": 22.77
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852872,
+          "name": "Storage Holders & Racks"
+        }
+      },
+      "ceiling_price": 23.39,
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/4f4bd2e06ee94bfaac04604294bea646~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 12.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-01",
+      "launch_time": 1782857817,
+      "period_gmv": 14892.98,
+      "period_units_sold": 1238,
+      "price_display": "$12.99  - 23.39",
+      "product_id": "1732464729760370847",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3b9487681ba54d8a95d2959c578e8ad5~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494210607105344671",
+        "shop_name": "TOCOLES US",
+        "total_units_sold": 483268
+      },
+      "title": "Aesthetic Multifunctional Rice Strainer Basket with Handle - Sturdy BPA-Free Transparent Plastic Kitchen Utensil, Colander for Draining Vegetables, Fruits",
+      "total_gmv": 100617.94,
+      "total_units_sold": 10213,
+      "units_sold_growth_rate_percent": -39.78
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 853000,
+          "name": "Storage Bottles & Jars"
+        }
+      },
+      "ceiling_price": 13.6,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/182b267bb51547b4835e8c8e746977bd~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 12.6,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-18",
+      "launch_time": 1750205786,
+      "period_gmv": 17379.99,
+      "period_units_sold": 1215,
+      "price_display": "$12.60 - 13.60",
+      "product_id": "1731293365950976419",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7d0060f2e03b4a03838c91e14e3b89a5~tplv-dx0w9n1ysr-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496199919092009379",
+        "shop_name": "Guanghong Shop",
+        "total_units_sold": 199682
+      },
+      "title": "2-Count 16oz/470ml Light-Blocking Dark Green Glass 2-in-1 Oil Sprayer Dispenser, Kitchen Gadgets with Precise Nozzle for Controlled Spray, Refillable Food-Grade Mister for Air Fryer, BBQ Even Coat, Works with Olive, Avocado, Soy Sauce, Refillable To Cut W",
+      "total_gmv": 2337906.31,
+      "total_units_sold": 171078,
+      "units_sold_growth_rate_percent": 1.08
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852744,
+          "name": "Storage Bags"
+        }
+      },
+      "ceiling_price": 79.99,
+      "commission_rate_percent": 7,
+      "cover_url": "https://s.500fd.com/tt_product/c1c87c60015744d78f4f1ff08cf05e3e~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 49.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-29",
+      "launch_time": 1780043127,
+      "period_gmv": 29773.42,
+      "period_units_sold": 1194,
+      "price_display": "$49.99  - 79.99",
+      "product_id": "1732408927117349869",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/656ef73f50e74faca51c12119e02f2a2~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494387731537037293",
+        "shop_name": "Govac US",
+        "total_units_sold": 6998
+      },
+      "title": "2026 Upgraded Cordless Vacuum Compression Bag Set, 24 Pack 3 Sizes  Travel Storage Bags, USB Rechargeable Handheld Pump, Waterproof Reusable Space Saver Zipper Pouches for Luggage Suitcase Clothes Carry-On Packing",
+      "total_gmv": 152995.19,
+      "total_units_sold": 6534,
+      "units_sold_growth_rate_percent": 11.38
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852744,
+          "name": "Storage Bags"
+        }
+      },
+      "ceiling_price": 30,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/3946a0ee2f9e4934b26beaeec966eac0~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 9,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-18",
+      "launch_time": 1787044535,
+      "period_gmv": 9625.34,
+      "period_units_sold": 1193,
+      "price_display": "$9.00 - 30.00",
+      "product_id": "1732536825905385902",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/8d684bbda25548a8949821f9b14f9f2a~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494103726733493678",
+        "shop_name": "Findry",
+        "total_units_sold": 950061
+      },
+      "title": "Quilted Multi\u2011Purpose Storage Bag, Portable Zipper Cosmetic Makeup Pouch with Handle, Large Capacity Travel Toiletry Organizer for Bathroom Office",
+      "total_gmv": 90911.78,
+      "total_units_sold": 9634,
+      "units_sold_growth_rate_percent": 3.37
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852744,
+          "name": "Storage Bags"
+        }
+      },
+      "ceiling_price": 128.7,
+      "commission_rate_percent": 1,
+      "cover_url": "https://s.500fd.com/tt_product/ac22a8d84f2f415381eb98f1c06fc393~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "currency_code": "USD",
+      "floor_price": 128.7,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-16",
+      "launch_time": 1776274695,
+      "period_gmv": 132198.8,
+      "period_units_sold": 1148,
+      "price_display": "$128.70",
+      "product_id": "1732347270170907321",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/402e89d976e449e993a61d3d2e759f44~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495953115271432889",
+        "shop_name": "Mamushow Hair Fashion",
+        "total_units_sold": 335893
+      },
+      "title": "1 Count Wig Storage Bag Random Color",
+      "total_gmv": 1568605.1,
+      "total_units_sold": 15156,
+      "units_sold_growth_rate_percent": 64.23
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 851848,
+          "name": "Home Organizers"
+        },
+        "l3": {
+          "id": 852872,
+          "name": "Storage Holders & Racks"
+        }
+      },
+      "ceiling_price": 62.39,
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/ad1dbcb14cec4747ad604e497a9f4abb~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 29.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-18",
+      "launch_time": 1789671636,
+      "period_gmv": 30302.08,
+      "period_units_sold": 1079,
+      "price_display": "$29.99  - 62.39",
+      "product_id": "1732670353232990367",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3b9487681ba54d8a95d2959c578e8ad5~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494210607105344671",
+        "shop_name": "TOCOLES US",
+        "total_units_sold": 483268
+      },
+      "title": "Gevoli Collapsible Colanders 3-Pack, Sturdy Kitchen Sieves Set with Over-Sink Self-Drainage Base, 3 Sizes (3QT, 4QT, 5QT) for Dinner Prep Draining",
+      "total_gmv": 73664.5,
+      "total_units_sold": 2501,
+      "units_sold_growth_rate_percent": 32.88
+    }
+  ],
+  "total": 500
+}

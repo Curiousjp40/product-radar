@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 24.9,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/a4ff0ee1ad3a41ba983afbfd65fee89c~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 24.9,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-22",
+      "launch_time": 1776846784,
+      "period_gmv": 406859.1,
+      "period_units_sold": 16555,
+      "price_display": "$24.90",
+      "product_id": "1732352660592628585",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/cdb225891e3a45f6a31a07b32636b133~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495895979614243689",
+        "shop_name": "KKpeople Shapewear",
+        "total_units_sold": 423544
+      },
+      "title": "(KKPeople Easy-Off Bodysuit) Tummy Control Butt Lifter Faja Bodysuit, Back Support Scrunch Back Open Design, Postpartum Recovery Full Body Shaper with Cotton Gusset, Colombian Fajas Everyday Wear for Women",
+      "total_gmv": 3260288.92,
+      "total_units_sold": 120555,
+      "units_sold_growth_rate_percent": 14.76
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 38,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/ef4a7209363e4598a6a948fc8bed70f0~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 29,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-17",
+      "launch_time": 1755392934,
+      "period_gmv": 176919.56,
+      "period_units_sold": 6014,
+      "price_display": "$29.00 - 38.00",
+      "product_id": "1731610554383569260",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/o0eOISWvYnDzhgAFAM8xDtkAGU9jfCn3Q7bL5D~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495170073361418604",
+        "shop_name": "SHAPERX",
+        "total_units_sold": 678216
+      },
+      "title": "SHAPERX Shapewear for Women Tummy Control Bodysuits Zip-Up Comfort Ultra Stretch Fabric Customizable Fit Breathable Mesh Design Comfortable Fit",
+      "total_gmv": 12879514.71,
+      "total_units_sold": 390727,
+      "units_sold_growth_rate_percent": -6.7
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 46.98,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/24b0615da52049a68cef925f14a98d62~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 46.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-11",
+      "launch_time": 1749609211,
+      "period_gmv": 240872.14,
+      "period_units_sold": 5208,
+      "price_display": "$46.98",
+      "product_id": "1731262278839865452",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/76e554980b3346c99a91ebbcc87d811c~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495421440316901484",
+        "shop_name": "SHAPSHE",
+        "total_units_sold": 1396283
+      },
+      "title": "SHAPSHE Waist Shapewear for Women Corset Sport Workout Belly Band Gym",
+      "total_gmv": 4991362.51,
+      "total_units_sold": 107193,
+      "units_sold_growth_rate_percent": 2.82
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 45.49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/73281b3927164ccdb2e3886ec5f500ba~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 39,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-29",
+      "launch_time": 1751188968,
+      "period_gmv": 102350.6,
+      "period_units_sold": 4761,
+      "price_display": "$39.00  - 45.49",
+      "product_id": "1731280168955253376",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2988b828dc96436dae44e574aed39ba6~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494990815496866432",
+        "shop_name": "SHAPELLX",
+        "total_units_sold": 1936695
+      },
+      "title": "SHAPELLX Shapewear Sculpting Shorts for Women Seamless High Waisted Body Tummy Control Shaper Thigh Slimming Underwear Womenswear Seamless Compression Shaper",
+      "total_gmv": 4679398.23,
+      "total_units_sold": 220197,
+      "units_sold_growth_rate_percent": 20.32
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 45.49,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/dfec5299f6a7478dbcf0682dfbe765c7~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "currency_code": "USD",
+      "floor_price": 22.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-02-12",
+      "launch_time": 1739303596,
+      "period_gmv": 92912.61,
+      "period_units_sold": 4173,
+      "price_display": "$22.99  - 45.49",
+      "product_id": "1730652584168165420",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/3b9e54c0a26041ad97ce9af0c58d6556~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495803415712139308",
+        "shop_name": "LUCKMEEY.US",
+        "total_units_sold": 290255
+      },
+      "title": "LUCKMEEY Women High Waisted Seamless Shapewear Shorts Tummy Control Butt Lift Faja Body Shaper Breathable Slimming High Waist Shaping Shorts with Built-in Crotch Invisible Fit for Everyday Wear#sohochic",
+      "total_gmv": 2380868,
+      "total_units_sold": 114645,
+      "units_sold_growth_rate_percent": 14.67
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 30,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/5a36a4178d194ea3a8fbd5f567d69c9f~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
+      "currency_code": "USD",
+      "floor_price": 30,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-04",
+      "launch_time": 1785783396,
+      "period_gmv": 129977,
+      "period_units_sold": 4050,
+      "price_display": "$30.00",
+      "product_id": "1732519307808379520",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2988b828dc96436dae44e574aed39ba6~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7494990815496866432",
+        "shop_name": "SHAPELLX",
+        "total_units_sold": 1936695
+      },
+      "title": "SHAPELLX Sheer-Panel with Fleece Lined Tights Stay-Warm Tummy Control Sheer Effect Tights Bodysuit Black Basic",
+      "total_gmv": 430363.66,
+      "total_units_sold": 13077,
+      "units_sold_growth_rate_percent": 23.78
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 40,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/ea65931e763b4a2f858dd768106d60da~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 40,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-08",
+      "launch_time": 1775660599,
+      "period_gmv": 169564.56,
+      "period_units_sold": 4004,
+      "price_display": "$40.00",
+      "product_id": "1732302921291305752",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2990d5798279419fb4325a53fed30cdd~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495684933173676824",
+        "shop_name": "YIANNA INC",
+        "total_units_sold": 1474269
+      },
+      "title": "YIANNA V-Shaped Shapewear Moldeadoras Faja for Women Tummy Control  with Zipper Closure Womenswear Moldadoras Faja",
+      "total_gmv": 2100543.1,
+      "total_units_sold": 47396,
+      "units_sold_growth_rate_percent": 5.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 48.9,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b699c5059ae34b40ad5af09565dcd993~tplv-fhlh96nyum-crop-webp:600:600.webp",
+      "currency_code": "USD",
+      "floor_price": 28.9,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-02",
+      "launch_time": 1775081515,
+      "period_gmv": 107148.36,
+      "period_units_sold": 3741,
+      "price_display": "$28.90  - 48.90",
+      "product_id": "1732312711155389289",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/cdb225891e3a45f6a31a07b32636b133~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495895979614243689",
+        "shop_name": "KKpeople Shapewear",
+        "total_units_sold": 423544
+      },
+      "title": "[KKPeople Easy-Off Bodysuit] Tummy Control Butt Liftter Faja Bodysuit, Back Support Scrunch Back Open Design, Postpartum Recovery Full Body Shaper with Cotton Gusset, Colombian Fajas Everyday Wear for Women",
+      "total_gmv": 983084.52,
+      "total_units_sold": 34269,
+      "units_sold_growth_rate_percent": -41.76
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 51.99,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/19b5d271c611468d8c39524d7f0f3562~tplv-fhlh96nyum-crop-webp:3059:3059.webp",
+      "currency_code": "USD",
+      "floor_price": 30.76,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-09",
+      "launch_time": 1765243322,
+      "period_gmv": 89061.31,
+      "period_units_sold": 3273,
+      "price_display": "$30.76  - 51.99",
+      "product_id": "1732109097590231862",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/439b60b438e345a0ab2d0ed0ec0012a3~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494273341696411446",
+        "shop_name": "Atelier W",
+        "total_units_sold": 72726
+      },
+      "title": "WIRELESS PLUNGE PLUNGE THONG BODYSUIT",
+      "total_gmv": 1428860.86,
+      "total_units_sold": 57779,
+      "units_sold_growth_rate_percent": -19.71
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842888,
+          "name": "Women's Underwear"
+        },
+        "l3": {
+          "id": 601259,
+          "name": "Shapewear"
+        }
+      },
+      "ceiling_price": 39,
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/388945d6199d48d8a0b6b6575f568c7f~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 39,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-26",
+      "launch_time": 1769428571,
+      "period_gmv": 117971.58,
+      "period_units_sold": 2963,
+      "price_display": "$39.00",
+      "product_id": "1732088899760984856",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2990d5798279419fb4325a53fed30cdd~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495684933173676824",
+        "shop_name": "YIANNA INC",
+        "total_units_sold": 1474269
+      },
+      "title": "YIANNA Overbust Fajas Colombianas Shapewear for Women Tummy Control Brief Shaper Girdles Compression Garment Compression Tummy Tuck High Compression Faja",
+      "total_gmv": 4575322.41,
+      "total_units_sold": 111513,
+      "units_sold_growth_rate_percent": 1.51
+    }
+  ],
+  "total": 500
+}

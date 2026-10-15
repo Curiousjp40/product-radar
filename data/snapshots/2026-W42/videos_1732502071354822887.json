@@ -3,7 +3,7 @@
   "pagesize": 6,
   "product_id": "1732502071354822887",
   "time_range_days": 90,
-  "total": 321,
+  "total": 345,
   "videos": [
     {
       "creator": {
@@ -131,6 +131,37 @@
     },
     {
       "creator": {
+        "creator_handle": "youseecozygifts",
+        "creator_uid": "7498920740185932843"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 2012,
+        "play_count": 582500,
+        "share_count": 110
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495819049717565671",
+        "window_gmv": 335.52,
+        "window_units_sold": 11
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689036107337567519",
+      "video_meta": {
+        "caption_text": "So obviously they\u2019re in her boo basket. Crochet pumpkin and ghost bouquet adds a romantic little surprise she can keep after Halloween. #fyp #halloween #spookyseason #boobasket #giftforher ",
+        "cover_url": "https://s.500fd.com/tt_video/oQLATECBvA8RhrwIAaFAqEulAA0xiiroIyBao~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689036107337567519",
+        "published_at": 1790341200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519"
+      }
+    },
+    {
+      "creator": {
         "creator_handle": "jaimeprimedeals",
         "creator_uid": "7371231535689319470"
       },
@@ -158,37 +189,6 @@
         "published_at": 1789654719,
         "region": "US",
         "tiktok_url": "https://www.tiktok.com/@jaimeprimedeals/video/7686508420614180110"
-      }
-    },
-    {
-      "creator": {
-        "creator_handle": "youseecozygifts",
-        "creator_uid": "7498920740185932843"
-      },
-      "engagement_metrics": {
-        "comment_count": 2,
-        "like_count": 1975,
-        "play_count": 572300,
-        "share_count": 109
-      },
-      "product_contribution": {
-        "metric_window_days": 90,
-        "shop_id": "7495819049717565671",
-        "window_gmv": 308.52,
-        "window_units_sold": 10
-      },
-      "traffic_flags": {
-        "is_ad": true
-      },
-      "video_id": "7689036107337567519",
-      "video_meta": {
-        "caption_text": "So obviously they\u2019re in her boo basket. Crochet pumpkin and ghost bouquet adds a romantic little surprise she can keep after Halloween. #fyp #halloween #spookyseason #boobasket #giftforher ",
-        "cover_url": "https://s.500fd.com/tt_video/oQLATECBvA8RhrwIAaFAqEulAA0xiiroIyBao~tplv-photomode-zoomcover:480:480.jpeg",
-        "duration_seconds": 13,
-        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689036107337567519",
-        "published_at": 1790341200,
-        "region": "US",
-        "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519"
       }
     }
   ]

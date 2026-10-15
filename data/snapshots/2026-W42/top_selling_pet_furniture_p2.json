@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813064,
+          "name": "Houses"
+        }
+      },
+      "ceiling_price": 23,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/fc50708c77164c76b30124c5882bbd2c~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 23,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-22",
+      "launch_time": 1779432138,
+      "period_gmv": 5563.76,
+      "period_units_sold": 224,
+      "price_display": "$23.00",
+      "product_id": "1732382107696730992",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/967412cdd4c44718975c765ce31097e5~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494602908484798320",
+        "shop_name": "options",
+        "total_units_sold": 4321
+      },
+      "title": "Polyester-Cotton Foldable Contemporary Cat House - 30lbs Weight Capacity, Large Hole, Round Windows, Fluffy Hanging Balls, Double-Sided Soft Cushions, Machine Washable, All-Seasons Indoor Apartment Use",
+      "total_gmv": 90445.71,
+      "total_units_sold": 3579,
+      "units_sold_growth_rate_percent": 6.16
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 11,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/f77aea3aa7b447b78aafbf972b3dc044~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 8,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-12",
+      "launch_time": 1775987328,
+      "period_gmv": 1560.99,
+      "period_units_sold": 223,
+      "price_display": "$8.00 - 11.00",
+      "product_id": "1729501162199422949",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/11f629a7e1284937ac73c678561e28c9~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494310058161768421",
+        "shop_name": "TaoPaw",
+        "total_units_sold": 452
+      },
+      "title": "Indoor Cat Scratcher Mat - Wall-Mounted Self-Adhesive Vertical Panels with Cut-to-Fit Design, Non-Slip, Upright Height for Cabinets & Furniture Edges, Helps Protect High-Use Scratch Zones, Scratch Pad",
+      "total_gmv": 1903.76,
+      "total_units_sold": 272,
+      "units_sold_growth_rate_percent": 1211.76
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 18.68,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/f6227f399afd4062990c43652bb7483c~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 14.28,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-30",
+      "launch_time": 1769733801,
+      "period_gmv": 2854.94,
+      "period_units_sold": 204,
+      "price_display": "$14.28  - 18.68",
+      "product_id": "1729481989510829614",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d7733d4b4ba34462abbb7f55b03f1d85~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496225629371009582",
+        "shop_name": "Smart-Well",
+        "total_units_sold": 28938
+      },
+      "title": "SmartWell Cartoon Self Adhesive Felt Wall Mounted Cat Scratching Pad With Flat Animal Print Vertical Design For Tight Spots Size Options Glossy Cabinet Fit Easy To Apply Furniture Cover And Home Decor Decorative Accent",
+      "total_gmv": 65419.44,
+      "total_units_sold": 4747,
+      "units_sold_growth_rate_percent": -30.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 142.94,
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/27efb38f5dfb45aa805bda6c34a5d74c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 45.44,
+      "is_off_shelf": false,
+      "launch_date": "2024-03-31",
+      "launch_time": 1711821919,
+      "period_gmv": 7433.82,
+      "period_units_sold": 197,
+      "price_display": "$45.44  - 142.94",
+      "product_id": "1729452942713197528",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/854759f094874aeaad671c534a28a861~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495362538929818584",
+        "shop_name": "Muddy Mat",
+        "total_units_sold": 217383
+      },
+      "title": "Muddy Mat Cloud K-9 Chenille Pet Bed - Round",
+      "total_gmv": 621380.15,
+      "total_units_sold": 16869,
+      "units_sold_growth_rate_percent": -38.62
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 194.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/a8de7a95c3694d6d9adaacef509c7d2b~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 30.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-04-26",
+      "launch_time": 1714105807,
+      "period_gmv": 2965.85,
+      "period_units_sold": 184,
+      "price_display": "$30.99  - 194.99",
+      "product_id": "1729468671204299410",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/b4bf9271142940a1bd043fea72966eb9~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495650582362360466",
+        "shop_name": "Lesure Pet",
+        "total_units_sold": 247866
+      },
+      "title": "Lesure Jacquard Donut Dog Bed - Original Design Pattern,Cute Home Decor as Gift for Pet,Washable Cover Cute Home Decor as Gift for Pet,Anti Slip Bottom",
+      "total_gmv": 1952727.31,
+      "total_units_sold": 70092,
+      "units_sold_growth_rate_percent": 37.31
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 21.99,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/ecbbe5ee00f44ebea4cf1f5349146de9~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 14.28,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-02",
+      "launch_time": 1759345096,
+      "period_gmv": 2604.36,
+      "period_units_sold": 184,
+      "price_display": "$14.28  - 21.99",
+      "product_id": "1731788606735487534",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/d7733d4b4ba34462abbb7f55b03f1d85~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496225629371009582",
+        "shop_name": "Smart-Well",
+        "total_units_sold": 28938
+      },
+      "title": "SmartWell 5D Woven Print 5D Art Cat Scratcher Pad - Self-Adhesive High-Density Furniture Protector, Claw-Safe Smooth Surface, Durable for Heavy Scratching, Home Decor, Glass/Wood Compatible, Doors/Sofa Saver with Bonus Toy",
+      "total_gmv": 98327.01,
+      "total_units_sold": 6922,
+      "units_sold_growth_rate_percent": -31.09
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 109.99,
+      "commission_rate_percent": 7,
+      "cover_url": "https://s.500fd.com/tt_product/15a44c47bd9145d2b00aaaa407d42243~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 85.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-23",
+      "launch_time": 1766472282,
+      "period_gmv": 14599.82,
+      "period_units_sold": 181,
+      "price_display": "$85.99  - 109.99",
+      "product_id": "1732165713619685617",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2961c131d75c49c1b6552e6c4fc602ff~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495814677173864689",
+        "shop_name": "HOOMIC",
+        "total_units_sold": 76072
+      },
+      "title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving Multi-Level Tower with Cozy Condos, Perches, Baskets & Sisal Scratching Posts \u2013 Indoor Cat Activity Center",
+      "total_gmv": 210029.65,
+      "total_units_sold": 2601,
+      "units_sold_growth_rate_percent": 212.06
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813832,
+          "name": "Playpens"
+        }
+      },
+      "ceiling_price": 129.99,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/850dfbad72254e6fa64a744e9a4e7257~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 64.97,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-06",
+      "launch_time": 1767648182,
+      "period_gmv": 10556.06,
+      "period_units_sold": 179,
+      "price_display": "$64.97  - 129.99",
+      "product_id": "1732196130659078157",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/69ce0301142c4d6694098da6bb033dee~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495957905333913613",
+        "shop_name": "Sweetcrispy S",
+        "total_units_sold": 1305401
+      },
+      "title": "Sweetcrispy Plastic Pet Playpen Gate, Durable Puppy Exercise Playpens with Lockable Door, Non-Slip Bottom, Portable for Indoor & Outdoor Use, Playpen Gate Playpens, Portable Puppy Fence, Puppy-Proof Playpens",
+      "total_gmv": 370136.66,
+      "total_units_sold": 9083,
+      "units_sold_growth_rate_percent": -5.79
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 60.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/9890024f0c5f4756a96f32599080805d~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 45.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-09-26",
+      "launch_time": 1727289234,
+      "period_gmv": 7506.78,
+      "period_units_sold": 165,
+      "price_display": "$45.99  - 60.99",
+      "product_id": "1729662811400802577",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9073c4d65b194f3399826f83a49ef1cb~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495750018093910289",
+        "shop_name": "Made4Pets",
+        "total_units_sold": 62233
+      },
+      "title": "Made4Pets Plain Freestanding Sisal Vertical Scratcher for Indoor Cats, 19.25\" L x 19.25\" W x 41.73\" H, Sturdy Base, Replaceable Spring Toy, Compact Design, Space-Saving Build, Supports Nail Health, Deters Sofa Scratching",
+      "total_gmv": 1378712.83,
+      "total_units_sold": 35104,
+      "units_sold_growth_rate_percent": 7.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813064,
+          "name": "Houses"
+        }
+      },
+      "ceiling_price": 53,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/72d28a85ba1040a991be721c3cca6801~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 53,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-01",
+      "launch_time": 1754012392,
+      "period_gmv": 7653,
+      "period_units_sold": 156,
+      "price_display": "$53.00",
+      "product_id": "1731424444221592017",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/5115ae5d61d943a89183ebe10f057d83~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496190432593938897",
+        "shop_name": "ComfortTail",
+        "total_units_sold": 7197
+      },
+      "title": "Indestructible Heated Cat House for Outside Cats Winter, 100% Weatherproof, Safe Escape Door, Insulated Outdoor Cat Shelter with Heater for Feral Barn Cat Kitty",
+      "total_gmv": 232609.06,
+      "total_units_sold": 3794,
+      "units_sold_growth_rate_percent": 1.3
+    }
+  ],
+  "total": 500
+}

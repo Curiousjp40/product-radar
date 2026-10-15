@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 17.1,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/5e755d7638ff43b78c4ddd2f1eac3469~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 17.1,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-25",
+      "launch_time": 1777083934,
+      "period_gmv": 22237.91,
+      "period_units_sold": 974,
+      "price_display": "$17.10",
+      "product_id": "1732319130017566809",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/491397825bf546849d4c39d266c616d3~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651282894614073433",
+        "shop_name": "Chic Jeans",
+        "total_units_sold": 8272
+      },
+      "title": "Women's American Retro Sleeveless Short Dark Wash Denim Summer Dress, A-Line Dress, Flattering Fit, Perfect for Daily Commute, Dates, Parties and Vacations, Sleeveless Casual Sundress",
+      "total_gmv": 90208.61,
+      "total_units_sold": 3966,
+      "units_sold_growth_rate_percent": 86.23
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601271,
+          "name": "Formal Dresses"
+        }
+      },
+      "ceiling_price": 73.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/102507578e81405399a47156b2a3e2e0~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 73.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-20",
+      "launch_time": 1755652788,
+      "period_gmv": 64981.93,
+      "period_units_sold": 968,
+      "price_display": "$73.99",
+      "product_id": "1731569071085752868",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/24a0f9db648c4215a880477dfe4d47cc~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496113907254463012",
+        "shop_name": "CurvySweet-US",
+        "total_units_sold": 140465
+      },
+      "title": "Curvysweet Isolde Women's 1-Shoulder Tight Knit Mesh Ruched Maxi Formal Gown - Built-in Bra, Sleeveless, Elegant, Ribbon Accent, Womens Dresses, Formal Wedding Guest Dress, Black Tie Attire",
+      "total_gmv": 1765399.33,
+      "total_units_sold": 32659,
+      "units_sold_growth_rate_percent": -4.06
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 30,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/cfa6a92bdbeb4c4cbadb83e3b0afe2b6~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 27,
+      "is_off_shelf": false,
+      "launch_date": "2024-11-01",
+      "launch_time": 1730452209,
+      "period_gmv": 25869.79,
+      "period_units_sold": 966,
+      "price_display": "$27.00 - 30.00",
+      "product_id": "1729786448738422931",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/ff063c8e491842dba03b320cebcdd67a~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495478086912805011",
+        "shop_name": "TanmingFashion",
+        "total_units_sold": 1177660
+      },
+      "title": "Tanming Womens Fitted U-Back Corduroy Overall Dress, Round Neck A Line Skirtall Jumper Mini Dress Pinafore with Pockets",
+      "total_gmv": 347307.37,
+      "total_units_sold": 11172,
+      "units_sold_growth_rate_percent": 0.31
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 37.26,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/01d3318db19d4f91b16441b4a3a6f49e~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 29.32,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-15",
+      "launch_time": 1776239716,
+      "period_gmv": 21982.72,
+      "period_units_sold": 951,
+      "price_display": "$29.32  - 37.26",
+      "product_id": "1732329170680385575",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/f428d83837d54863a3bf2c1fe749fb31~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8652028829701541927",
+        "shop_name": "Finjani BoldCurve",
+        "total_units_sold": 25988
+      },
+      "title": "Plus Size Black Lace V-Neck Mini Dress, Long Sleeve Sheer Lace, Multi-Layer Tiered Cake Skirt, Homecoming Gown, Birthday Dress, Curve-Hugging Fit, Wedding Guest Dress, Cocktail Party Outfit, Prom Gown, Date Night Outfit, Formal",
+      "total_gmv": 105297.94,
+      "total_units_sold": 4946,
+      "units_sold_growth_rate_percent": -8.82
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 32.1,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/c1558a90bd4d444baa7b8d5922a18db7~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 32.1,
+      "is_off_shelf": false,
+      "launch_date": "2025-03-19",
+      "launch_time": 1742369165,
+      "period_gmv": 17982.03,
+      "period_units_sold": 951,
+      "price_display": "$32.10",
+      "product_id": "1730778628184969488",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/bbcd3bcf0c3b45ec9a7d3f5e1d605b67~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647592758759756048",
+        "shop_name": "Sunshine Grove",
+        "total_units_sold": 226369
+      },
+      "title": "Women's Plain Dress, Summer Clothes Women, Casual Sleeveless Backless Dress for Beach Holiday Vacation, Ladies Summer Clothes, Sleeveless Casual Sundress #GLOBAL PICKS",
+      "total_gmv": 3816614.5,
+      "total_units_sold": 199375,
+      "units_sold_growth_rate_percent": -1.85
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 32.16,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/614edbcea8394e3a96142e37792fc7e5~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 32.16,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-06",
+      "launch_time": 1767702578,
+      "period_gmv": 16348.82,
+      "period_units_sold": 951,
+      "price_display": "$32.16",
+      "product_id": "1732136000632295692",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/a8d976b4eb5e4288b4ecb7c15dcba785~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651629413817094412",
+        "shop_name": "Eloise Archive",
+        "total_units_sold": 39711
+      },
+      "title": "Women Sleeveless Round Neck Gingham Plaid Mini Dress, Smocked Bodice Tiered Ruffle Hem A-Line Short Dress, Slim Fit Flowy Skirt, Casual Versatile Summer Dress for Beach Vacation Daily Outings",
+      "total_gmv": 370913.78,
+      "total_units_sold": 18172,
+      "units_sold_growth_rate_percent": 30.1
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 24.6,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/ab414ba6cac14872b7e9f6d21ba6f43c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 21.58,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-12",
+      "launch_time": 1765543000,
+      "period_gmv": 11701.88,
+      "period_units_sold": 945,
+      "price_display": "$21.58  - 24.60",
+      "product_id": "1732007559683346872",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/934d35a2315c4498bb6cc78c869311ba~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647185368539369912",
+        "shop_name": "Hugcitar",
+        "total_units_sold": 857758
+      },
+      "title": "Women Spring Autumn Long Sleeve Party Club Evening Elegant Bodycon Mini Dress",
+      "total_gmv": 297763.58,
+      "total_units_sold": 23448,
+      "units_sold_growth_rate_percent": -8.25
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 78.94,
+      "commission_rate_percent": 11,
+      "cover_url": "https://s.500fd.com/tt_product/36be1bbd10134e058aecbfb64de774fe~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 15.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-02",
+      "launch_time": 1767296112,
+      "period_gmv": 14875.67,
+      "period_units_sold": 936,
+      "price_display": "$15.99  - 78.94",
+      "product_id": "1732189362609557800",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/94df995b57be4142afea5101c2366673~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496190416438855976",
+        "shop_name": "OUC",
+        "total_units_sold": 361966
+      },
+      "title": "Women's Solid Color Cami Lounge Dress, Elegant Sleeveless Long Dress for Summer, Ladies Sleepwear for Indoor Wear",
+      "total_gmv": 3084594.36,
+      "total_units_sold": 198540,
+      "units_sold_growth_rate_percent": -12.77
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 37.69,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/28923e2da04d440ca9ff75467e7fab6c~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 25.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-04-18",
+      "launch_time": 1713373633,
+      "period_gmv": 20980.65,
+      "period_units_sold": 908,
+      "price_display": "$25.99  - 37.69",
+      "product_id": "1729462138071519475",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/a38055912b8b41658f7bb0dbd6fdf876~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495544445937420531",
+        "shop_name": "SCUSTY",
+        "total_units_sold": 621449
+      },
+      "title": "SCUSTY New Colors Added Women's V-Neck Tank Sundress Summer Sleeveless A-Line Mini Dress Casual Loose Dresses with Pockets",
+      "total_gmv": 640051.29,
+      "total_units_sold": 26595,
+      "units_sold_growth_rate_percent": 27.89
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 27.47,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/87d558d65b404d5eb421c6ec02f0f2a3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 27.47,
+      "is_off_shelf": false,
+      "launch_date": "2026-05-23",
+      "launch_time": 1779500224,
+      "period_gmv": 14885.03,
+      "period_units_sold": 890,
+      "price_display": "$27.47",
+      "product_id": "1732394913377653041",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/fd1ab576a9ad4919925640f7b92ddbe7~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646959719942030641",
+        "shop_name": "Hawthaw Women Apparel",
+        "total_units_sold": 2058367
+      },
+      "title": "Women's Basic Solid Color Bodycon Slip Dress, Sleeveless Backless Spaghetti Straps Plain Slim Fit Midi Dress, Party Club Date Holiday Daily Casual Elegant Dresses For Ladies All Seasons Summer Fashion Clothes Wear, Chic Elegant Fitted",
+      "total_gmv": 223514.04,
+      "total_units_sold": 14719,
+      "units_sold_growth_rate_percent": 38.41
+    }
+  ],
+  "total": 500
+}

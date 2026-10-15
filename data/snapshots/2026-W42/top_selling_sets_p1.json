@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 44.19,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/151b29ac7e36411890ec8565bb22a829~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 38.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-24",
+      "launch_time": 1790228210,
+      "period_gmv": 237270.63,
+      "period_units_sold": 6493,
+      "price_display": "$38.99  - 44.19",
+      "product_id": "1732682696474792407",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/24362d7a65ce478eaf04b974d9917439~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494153604810966487",
+        "shop_name": "Lumina Accent",
+        "total_units_sold": 48318
+      },
+      "title": "Women's Striped Print 2 Piece Set, Mock Neck Long Sleeve Oversized Pullover & Wide Leg Pants, Casual Relaxed Matching Outfit for Home, Travel, Daily Wear, Fall Winter",
+      "total_gmv": 462423.01,
+      "total_units_sold": 13254,
+      "units_sold_growth_rate_percent": 4.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 20.3,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/09f26ef18d3f439bae8d0bf778d9cedb~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 20.3,
+      "is_off_shelf": false,
+      "launch_date": "2025-08-13",
+      "launch_time": 1755080855,
+      "period_gmv": 83530.66,
+      "period_units_sold": 4104,
+      "price_display": "$20.30",
+      "product_id": "1731602751530177225",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/01566d4d07c84fa2aecbc258a5845f61~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646927639111570121",
+        "shop_name": "Dynoppy",
+        "total_units_sold": 258411
+      },
+      "title": "Women\u2018s Off the Shoulder Long Sleeve Jumper & Pants, 2 Piece Set Two Pieces Outfits Fall Basic Sweatsuit Outfits, Jumper Suit, Womenswear, Sweatshirt, Clothes, Lady #GLOBAL PICKS",
+      "total_gmv": 981766.52,
+      "total_units_sold": 35913,
+      "units_sold_growth_rate_percent": 18.3
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 36.92,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/0e11fadb88b3417f8762ac3839c7e838~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 33.73,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-13",
+      "launch_time": 1763045130,
+      "period_gmv": 64716.57,
+      "period_units_sold": 3051,
+      "price_display": "$33.73  - 36.92",
+      "product_id": "1732010990527942743",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/120e3d1a6c2747d681d67f3264356b51~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651858881803817047",
+        "shop_name": "Novelife",
+        "total_units_sold": 299630
+      },
+      "title": "Women's High Neck Inner Layer + Leopard Print Strap Skirt Set, Casual Daily Spring Autumn Commuter, Two-Piece Ensemble, Top And Skirt Set",
+      "total_gmv": 265199.49,
+      "total_units_sold": 13900,
+      "units_sold_growth_rate_percent": 25.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 46.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/4ba43de6d67e48f3bfa0e1474aca84b2~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 42.99,
+      "is_off_shelf": false,
+      "launch_date": "2024-08-04",
+      "launch_time": 1722762047,
+      "period_gmv": 101029.32,
+      "period_units_sold": 2740,
+      "price_display": "$42.99  - 46.99",
+      "product_id": "1729570368820908464",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/1b2b3caed55544dc843a2258b3ec9c4f~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495827541359430064",
+        "shop_name": "Pinspark",
+        "total_units_sold": 217209
+      },
+      "title": "Pinspark Women's 2-Piece Thin Sports Set - Long-Sleeved Half-Zip Cardigan Sweatshirt & Sports Pants, Runs Large, Tops for Women, Stylish Wear, Everyday Wear, Running, Multiple Colors & Sizes, Stylish Women's Wear",
+      "total_gmv": 1301282.37,
+      "total_units_sold": 33888,
+      "units_sold_growth_rate_percent": -0.36
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 33.1,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c107c77f39a749c2bc9560b44946a6c4~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 33.1,
+      "is_off_shelf": false,
+      "launch_date": "2024-07-03",
+      "launch_time": 1719977385,
+      "period_gmv": 84489.7,
+      "period_units_sold": 2599,
+      "price_display": "$33.10",
+      "product_id": "1729537945661117437",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/7460014c9d9a4850bc1a9cbfa3ecac31~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495294915427208189",
+        "shop_name": "BTFBM SHOP",
+        "total_units_sold": 897534
+      },
+      "title": "BTFBM 2-Piece Ribbed Knit Long Sleeve Crop Top Wide Leg Pants Matching Lounge Set Loungewear",
+      "total_gmv": 2235397.36,
+      "total_units_sold": 60644,
+      "units_sold_growth_rate_percent": -21.03
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 48.28,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/aedf678dafb840a5915dbf0f472fda28~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 48.28,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-13",
+      "launch_time": 1773332698,
+      "period_gmv": 56399.19,
+      "period_units_sold": 2585,
+      "price_display": "$48.28",
+      "product_id": "1732222624717901927",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/18c35bf53bd94479ba3898734b6a6db0~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8653447776891801703",
+        "shop_name": "CHIC SWOON",
+        "total_units_sold": 21147
+      },
+      "title": "Women's 2pcs Set Loose Striped V-Neck Drop Shoulder Long Sleeve T-Shirt &Elastic Waist Striped Pants, Brown, Casual Sets For Women, Pajamas Set, Sleepwear Loungewear, Casual Sets For Women Brown Two Piece Set Women",
+      "total_gmv": 238388.75,
+      "total_units_sold": 9918,
+      "units_sold_growth_rate_percent": 104.19
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 50.05,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/3840e14d5f244dc9aca3e3d1d5aac5eb~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 31.19,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-16",
+      "launch_time": 1784151599,
+      "period_gmv": 49335.8,
+      "period_units_sold": 2222,
+      "price_display": "$31.19  - 50.05",
+      "product_id": "1732484368192279269",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/01c18b01d37a4272b6a9ef6653a94ef9~tplv-aphluv4xwc-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "8647577574442046181",
+        "shop_name": "Afant",
+        "total_units_sold": 134228
+      },
+      "title": "Women's Striped Set, Loose Fit Oversized, Casual Style Round Neck Long Sleeve Top, Pocket Shorts, 2-Piece Set, Soft Comfortable, Thick Warm Home Wear",
+      "total_gmv": 423618.98,
+      "total_units_sold": 15270,
+      "units_sold_growth_rate_percent": 18.32
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 38.38,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/f0dc942086084e4f8c20b6957330d662~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 36.19,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-06",
+      "launch_time": 1770379277,
+      "period_gmv": 32901.37,
+      "period_units_sold": 2018,
+      "price_display": "$36.19  - 38.38",
+      "product_id": "1732258417239494779",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/cd4ad472d1694ddc83b3d4b3ee15dd2a~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651716404305432699",
+        "shop_name": "ROVELA Clothing",
+        "total_units_sold": 94624
+      },
+      "title": "2pcs/Set Women's Minimalist Basic Daily Wear Going Out Sport Comfortable Baggy Off Shoulder T-Shirt And Wide Leg Pants Two Pieces Outfits",
+      "total_gmv": 1100051.18,
+      "total_units_sold": 57735,
+      "units_sold_growth_rate_percent": 1.36
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 14.7,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/2b93efd953864a89b32eac3e96840685~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 14.7,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-06",
+      "launch_time": 1788637353,
+      "period_gmv": 24220.9,
+      "period_units_sold": 1824,
+      "price_display": "$14.70",
+      "product_id": "1732614934904803424",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/77b5ec5a6b1249c592a9ebfdfa2b507d~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647052285683863648",
+        "shop_name": "Luxury Leisure",
+        "total_units_sold": 420989
+      },
+      "title": "Women's Striped Long Sleeve Top & Pants Two-piece Set, Casual Cozy Round Neck, for Daily Outdoor Wear in Spring",
+      "total_gmv": 62657.95,
+      "total_units_sold": 4367,
+      "units_sold_growth_rate_percent": -26.78
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 24.38,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/dc53668765b34abaadd18adbf1ae44c9~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 24.38,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-10",
+      "launch_time": 1765380221,
+      "period_gmv": 15179.55,
+      "period_units_sold": 1796,
+      "price_display": "$24.38",
+      "product_id": "1732098338295485006",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/e4809dbf33c4488fbc1bc89cc505c6f5~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8646929172884001358",
+        "shop_name": "ChicVibe Fashion",
+        "total_units_sold": 885556
+      },
+      "title": "Women's Fashion Animal Print Shawl Top + Trendy Short Skirt, Boho Outfit Sets, Spring & Fall Lightweight Comfortable Casual Wear, Perfect for Daily Home Outdoor Womenswear Clothes, Skirt And Top Set",
+      "total_gmv": 841884.71,
+      "total_units_sold": 65282,
+      "units_sold_growth_rate_percent": 10.8
+    }
+  ],
+  "total": 500
+}

@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 46.77,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/41b3f92ad75a40e88e3b0bb4ab36a5ae~tplv-fhlh96nyum-crop-webp:2200:2200.webp",
+      "currency_code": "USD",
+      "floor_price": 41.57,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-18",
+      "launch_time": 1787063999,
+      "period_gmv": 46043.13,
+      "period_units_sold": 1167,
+      "price_display": "$41.57  - 46.77",
+      "product_id": "1732533695744086060",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/dbcf466f27084c0689ae6aed44cb2e12~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495809261910919212",
+        "shop_name": "YeeZaa",
+        "total_units_sold": 157018
+      },
+      "title": "YeeZaa Women's Groove Mini Slip Dress Country Concert & Date Night Dress Lace Deep V-Neck Mini Dress Sexy Y2k Ruffle Hem Flowy Swing Boho Short Dresses",
+      "total_gmv": 175109.55,
+      "total_units_sold": 4615,
+      "units_sold_growth_rate_percent": 72.38
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601271,
+          "name": "Formal Dresses"
+        }
+      },
+      "ceiling_price": 76.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/f7cc03bb6c4d45abbd87aa2aec3399d3~tplv-fhlh96nyum-crop-webp:1340:1785.webp",
+      "currency_code": "USD",
+      "floor_price": 66.85,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-02",
+      "launch_time": 1769976869,
+      "period_gmv": 75953.81,
+      "period_units_sold": 1131,
+      "price_display": "$66.85  - 76.99",
+      "product_id": "1729483993705256484",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/24a0f9db648c4215a880477dfe4d47cc~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496113907254463012",
+        "shop_name": "CurvySweet-US",
+        "total_units_sold": 140465
+      },
+      "title": "CurvySweet Athena Women's Elegant Knitted Fitted Maxi Dress - Sleeveless Convertible Cowl-Scoop Neck, Ruched Waist Formal Wear Wedding Guest Outfits Inspo for Women's Clothes",
+      "total_gmv": 1299606.05,
+      "total_units_sold": 20820,
+      "units_sold_growth_rate_percent": -3.66
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 77.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/8b435bf0ccb34b649b2cd37da68c6158~tplv-fhlh96nyum-crop-webp:900:900.webp",
+      "currency_code": "USD",
+      "floor_price": 59.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-30",
+      "launch_time": 1769749755,
+      "period_gmv": 60566.11,
+      "period_units_sold": 1091,
+      "price_display": "$59.99  - 77.99",
+      "product_id": "1732220923495878743",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/4806ddd21737475ead72f5a317679f2a~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495295374523467863",
+        "shop_name": "Cider",
+        "total_units_sold": 1729025
+      },
+      "title": "Cider V-Neck Halter Ruffle-Hem Tulle Mini Dress with Matching Scarf, Sparkly Glamour Party Dress for Night Out & Festivals",
+      "total_gmv": 1083657.4,
+      "total_units_sold": 19154,
+      "units_sold_growth_rate_percent": 44.89
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 21.38,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/7a2634a995774c43979e4a6cce34e5bf~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 21.38,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-01",
+      "launch_time": 1756710936,
+      "period_gmv": 11816.46,
+      "period_units_sold": 1083,
+      "price_display": "$21.38",
+      "product_id": "1731627621571137976",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/934d35a2315c4498bb6cc78c869311ba~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647185368539369912",
+        "shop_name": "Hugcitar",
+        "total_units_sold": 857758
+      },
+      "title": "Women Summer Sexy Halter Sleeveless Backless Party Club Stretch Mini Dress Party Dating Wear",
+      "total_gmv": 861782.08,
+      "total_units_sold": 75489,
+      "units_sold_growth_rate_percent": -10.27
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 26.06,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/538cfd78d62742ff9569c33ee2e5f563~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 26.06,
+      "is_off_shelf": false,
+      "launch_date": "2025-03-27",
+      "launch_time": 1743069969,
+      "period_gmv": 17350.7,
+      "period_units_sold": 1075,
+      "price_display": "$26.06",
+      "product_id": "1730900941669503416",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/934d35a2315c4498bb6cc78c869311ba~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647185368539369912",
+        "shop_name": "Hugcitar",
+        "total_units_sold": 857758
+      },
+      "title": "Women's Plain Split Thigh Backless Dress, Elegant Sexy Sleeveless Dress for Party Club Dating Wear, Ladies Clothes for All Seasons, Floor Length Slip Dress, Evening Party Dresses",
+      "total_gmv": 751040.27,
+      "total_units_sold": 46534,
+      "units_sold_growth_rate_percent": 20.38
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 53.29,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/7311b8f2418c414f99fcdd820e9e3abd~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 53.29,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-13",
+      "launch_time": 1768270335,
+      "period_gmv": 43935.56,
+      "period_units_sold": 1016,
+      "price_display": "$53.29",
+      "product_id": "1732158146250183146",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/421fd96ebefd4bf68dfb853cc2a28dbb~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495753394246224362",
+        "shop_name": "Floerns store",
+        "total_units_sold": 235465
+      },
+      "title": "Women's Halloween Gothic Off-Shoulder Chiffon A-Line Mini Dress Costume, Ruched Jacquard Waist, Ruffle Trim, Dark Romantic Spooky Party Outfit",
+      "total_gmv": 372513.55,
+      "total_units_sold": 11457,
+      "units_sold_growth_rate_percent": 18.28
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 31.56,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/26176b4131f147c88d8f89051c1d6933~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 30.75,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-12",
+      "launch_time": 1765470811,
+      "period_gmv": 13777.47,
+      "period_units_sold": 1016,
+      "price_display": "$30.75  - 31.56",
+      "product_id": "1732101649764881074",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/676c90241d0345fab4eb6552899f298f~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8647042387379589810",
+        "shop_name": "Budhaul",
+        "total_units_sold": 284796
+      },
+      "title": "Women's Long Sleeve Mesh Dress, Sexy Backless A-Line Short Dress, Slim-Fitting Plain Design, All Seasons Fashion, Basic",
+      "total_gmv": 418560.76,
+      "total_units_sold": 22530,
+      "units_sold_growth_rate_percent": 28.77
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 23.16,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/1406de45c5044d82be509f37d55d0267~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 22.34,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-11",
+      "launch_time": 1781143622,
+      "period_gmv": 15486.48,
+      "period_units_sold": 1014,
+      "price_display": "$22.34  - 23.16",
+      "product_id": "1732406188023911313",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2a3544389ce14608b65cb3b5f8b42db3~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8653744907177268113",
+        "shop_name": "Luxe Fabrics Finds",
+        "total_units_sold": 28286
+      },
+      "title": "Y2K Halter Dress for Women Ruched Neckline Sleeveless Waist Cinch Slimming Bodycon Short Dress, Backless Cocktail Dress, Sexy Backless Party Vacation Dress",
+      "total_gmv": 239025.49,
+      "total_units_sold": 25975,
+      "units_sold_growth_rate_percent": -47.95
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 25.83,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/ef1f7fc82c40443e88bef0e1e51fbd3f~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 25.83,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-21",
+      "launch_time": 1768943935,
+      "period_gmv": 14027.24,
+      "period_units_sold": 986,
+      "price_display": "$25.83",
+      "product_id": "1732187881328251637",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/9f04bc60798d42e898e1ba2e649a77f2~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651994187411329781",
+        "shop_name": "SJQ Women's Clothing",
+        "total_units_sold": 236244
+      },
+      "title": "Women's Simple Solid Backless Halter Sleeveless One-Piece Jumpsuit, Elegant Chic Ruffle Design, Perfect for Casual Wear, All Seasons Fashion, Outfit",
+      "total_gmv": 626318.36,
+      "total_units_sold": 38231,
+      "units_sold_growth_rate_percent": -5.65
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842504,
+          "name": "Women's Dresses"
+        },
+        "l3": {
+          "id": 601281,
+          "name": "Casual Dresses"
+        }
+      },
+      "ceiling_price": 54.27,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/84e59d7776a14856a1e03256d5f4b842~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "currency_code": "USD",
+      "floor_price": 39.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-22",
+      "launch_time": 1758495248,
+      "period_gmv": 30791.27,
+      "period_units_sold": 979,
+      "price_display": "$39.99  - 54.27",
+      "product_id": "1731789409624494565",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6fff74588ecb4327b8d534fbb966616b~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495586738370415077",
+        "shop_name": "Chicovar",
+        "total_units_sold": 246888
+      },
+      "title": "Chicovar Women's Fall Sweetheart Neckline Knot Front Flowy Mini Chiffon Dresses, Lantern Sleeve, A-Line Cut, No Scratchy, No Sheer, Westernfashion, Family Photos, Church, Party, Casual, or Daily Wear, Sohochic Long Sleeve Womenswear",
+      "total_gmv": 526410,
+      "total_units_sold": 15770,
+      "units_sold_growth_rate_percent": 8.3
+    }
+  ],
+  "total": 500
+}

@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 57.19,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/3610b55d93d0423f81f1b966fbac5807~tplv-fhlh96nyum-crop-webp:600:601.webp",
+      "currency_code": "USD",
+      "floor_price": 46.79,
+      "is_off_shelf": false,
+      "launch_date": "2024-03-11",
+      "launch_time": 1710137439,
+      "period_gmv": 69476.75,
+      "period_units_sold": 1737,
+      "price_display": "$46.79  - 57.19",
+      "product_id": "1729448042746384953",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/82876e1adc78462b8d10e6b3b3c37198~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495294890295659065",
+        "shop_name": "QINSEN",
+        "total_units_sold": 630122
+      },
+      "title": "\u3010Two Options, Not a set\u3011QINSEN Women Half Zip Sports Top and Pants\u3010Two Options, Not a set, needs to be ordered separately\u3011",
+      "total_gmv": 2715920.81,
+      "total_units_sold": 74440,
+      "units_sold_growth_rate_percent": 16.81
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 50,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b3a28c9eda6e4bb992a5bc4db7908964~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 50,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-17",
+      "launch_time": 1786915811,
+      "period_gmv": 44408,
+      "period_units_sold": 1708,
+      "price_display": "$50.00",
+      "product_id": "1732488487878693347",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/799cfd30323b496a9b8ec84c9448018a~tplv-dx0w9n1ysr-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7496046859265739235",
+        "shop_name": "OFEEFAN",
+        "total_units_sold": 331354
+      },
+      "title": "OFEEFAN  Womens Long Sleeve Shirts Ruched Hem Fall Tops Lightweight Sweaters",
+      "total_gmv": 172730.38,
+      "total_units_sold": 6743,
+      "units_sold_growth_rate_percent": -3.83
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 32.1,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/a458737b74cf41e4a385922f37e18384~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 31.9,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-23",
+      "launch_time": 1790153912,
+      "period_gmv": 22315.5,
+      "period_units_sold": 1653,
+      "price_display": "$31.90 - 32.10",
+      "product_id": "1732688248856547690",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6866670b8b024230905d4cbb2e24212c~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8659804719816085866",
+        "shop_name": "MidMonth",
+        "total_units_sold": 2667
+      },
+      "title": "High-Waisted Women's Fall Streetwear Set, Pattern Print Zipper Hoodie and Pants, Long Sleeve Sporty Two-Piece Nightclub Fashion Outfit",
+      "total_gmv": 42217.06,
+      "total_units_sold": 2538,
+      "units_sold_growth_rate_percent": 133.8
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 29.22,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4ec98eaeb0524c8d9a058209849bc1ae~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 29.22,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-13",
+      "launch_time": 1781280251,
+      "period_gmv": 22055.93,
+      "period_units_sold": 1646,
+      "price_display": "$29.22",
+      "product_id": "1732385777675440658",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/57fe2aebd79443bba3fb55a29f863402~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8654387422973563410",
+        "shop_name": "Belle Fleurs",
+        "total_units_sold": 72198
+      },
+      "title": "Women's Summer New Rivet Halter Jumpsuit, Deep V Backless Waist Buckle Slim Fit, Sexy European Style Butt Lift Short Pants, Tied Shorts Jumpsuit",
+      "total_gmv": 229674.37,
+      "total_units_sold": 16311,
+      "units_sold_growth_rate_percent": -0.23
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 155.99,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/32d0982f8ffd45a5a037e1d39c76b04a~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 155.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-10-01",
+      "launch_time": 1790812526,
+      "period_gmv": 183323.47,
+      "period_units_sold": 1553,
+      "price_display": "$155.99",
+      "product_id": "1732709401427612600",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2801cd50d1834680bbc484901f00fd69~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495804403407621048",
+        "shop_name": "SculptSnatch",
+        "total_units_sold": 104055
+      },
+      "title": "Corset Sculpt Long Jumpsuit - High-Compression Polyamide-Spandex Blend with Corset-Inspired Contour Seaming & Glute-Accentuating Rear Detailing for Instant Hourglass Silhouette",
+      "total_gmv": 189002.76,
+      "total_units_sold": 1624,
+      "units_sold_growth_rate_percent": 2087.32
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 49.51,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/574523d6f5fe4db89ab416437b0c7f2d~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 49.51,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-27",
+      "launch_time": 1787811419,
+      "period_gmv": 41949.25,
+      "period_units_sold": 1489,
+      "price_display": "$49.51",
+      "product_id": "1732553846251295452",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/92fcacd29d3e4ead9897ef5bd7bd19de~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8652615273314554588",
+        "shop_name": "flux hoodies",
+        "total_units_sold": 24473
+      },
+      "title": "Women's Two-Piece Set, Fall Winter Casual, Basic Asymmetrical Sweatshirt & Wide Leg Pants, Soft Knit Fabric, Multi-Color Options",
+      "total_gmv": 157173.92,
+      "total_units_sold": 5935,
+      "units_sold_growth_rate_percent": 38
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 31.23,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/118a1620edfe470aaa19ed0179fe8e7d~tplv-fhlh96nyum-origin-image.image",
+      "currency_code": "USD",
+      "floor_price": 31.23,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-21",
+      "launch_time": 1768984233,
+      "period_gmv": 20807.9,
+      "period_units_sold": 1450,
+      "price_display": "$31.23",
+      "product_id": "1732236848379302653",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/442d86458e4f43b6be09f7cc0b76906d~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "8651448769427837693",
+        "shop_name": "Unique Finds Blouses",
+        "total_units_sold": 61144
+      },
+      "title": "2pcs/Set Women Long Sleeve T-Shirt And Leggings, spring/Autumn/Winter Work From Home Outfit Comfortable Outfits For Women 2 Piece Homewear Lounge Sets Woman Lounge Wear Breakfast Outfits For Women pajama set for women",
+      "total_gmv": 156347.03,
+      "total_units_sold": 9807,
+      "units_sold_growth_rate_percent": -23.92
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601280,
+          "name": "Overalls"
+        }
+      },
+      "ceiling_price": 38.87,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/9451a914cc424d138af8a0144694c10a~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "currency_code": "USD",
+      "floor_price": 36.9,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-11",
+      "launch_time": 1757602354,
+      "period_gmv": 32438.76,
+      "period_units_sold": 1400,
+      "price_display": "$36.90  - 38.87",
+      "product_id": "1731671341404360777",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/85726f631db543f98503187b19b18142~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496161875731122249",
+        "shop_name": "BloomChic",
+        "total_units_sold": 372131
+      },
+      "title": "BloomChic Plus Size Women's Sleeveless Leopard Print Relaxed Fit Overalls - Shirred Shoulder Straps, Pockets, Stretch Fabric, Machine Washable Stylish Wear, M-6X, Relaxed Fit Overall\uff0cSohoChic",
+      "total_gmv": 414035.08,
+      "total_units_sold": 15790,
+      "units_sold_growth_rate_percent": 37.25
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 51.06,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/6b5ad23904704014bc7209e67a21bb48~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "currency_code": "USD",
+      "floor_price": 44.25,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-08",
+      "launch_time": 1783497548,
+      "period_gmv": 46091.09,
+      "period_units_sold": 1371,
+      "price_display": "$44.25  - 51.06",
+      "product_id": "1732460981504742117",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/01c18b01d37a4272b6a9ef6653a94ef9~tplv-aphluv4xwc-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "8647577574442046181",
+        "shop_name": "Afant",
+        "total_units_sold": 134228
+      },
+      "title": "Women's Striped Set, Loose Fit Oversized, Round Neck Long Sleeve Top, Elastic Waist Straight Leg Pants, 2-Piece Comfortable Lounge Wear Pajamas Nightwear, Elastic Waist Loungewear",
+      "total_gmv": 199826.37,
+      "total_units_sold": 6046,
+      "units_sold_growth_rate_percent": 5.3
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 2,
+          "name": "Womenswear & Underwear"
+        },
+        "l2": {
+          "id": 842760,
+          "name": "Women's Suits & Overalls"
+        },
+        "l3": {
+          "id": 601291,
+          "name": "Sets"
+        }
+      },
+      "ceiling_price": 48.09,
+      "commission_rate_percent": 3,
+      "cover_url": "https://s.500fd.com/tt_product/67fb186d3b3c4f85a0f122890750d53a~tplv-fhlh96nyum-crop-webp:3000:3000.webp",
+      "currency_code": "USD",
+      "floor_price": 48.09,
+      "is_off_shelf": false,
+      "launch_date": "2026-02-28",
+      "launch_time": 1772221472,
+      "period_gmv": 59549.17,
+      "period_units_sold": 1342,
+      "price_display": "$48.09",
+      "product_id": "1732279170335740003",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/76bab88d1c094432b0584b1e05fdb349~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496203773208987747",
+        "shop_name": "INNO MINT YOGA",
+        "total_units_sold": 49703
+      },
+      "title": "INNO MINT Women's 2-Piece Fitted Workout Set - Clothes for Women, Soft Breathable No Front Seam Outfit, High Stretch Bold Balanced Look Gym Wear with Seamless Yoga Pants, Padded Sports Bra, Spandex Fabric",
+      "total_gmv": 1501727.52,
+      "total_units_sold": 38417,
+      "units_sold_growth_rate_percent": 2.44
+    }
+  ],
+  "total": 500
+}

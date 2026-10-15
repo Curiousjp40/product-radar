@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 90,
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/7c28d201cb0b4491a297c60382ec4f05~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 16,
+      "is_off_shelf": false,
+      "launch_date": "2024-03-31",
+      "launch_time": 1711821919,
+      "period_gmv": 26177.29,
+      "period_units_sold": 1516,
+      "price_display": "$16.00 - 90.00",
+      "product_id": "1729452943073776600",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/854759f094874aeaad671c534a28a861~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495362538929818584",
+        "shop_name": "Muddy Mat",
+        "total_units_sold": 217383
+      },
+      "title": "Muddy Mat Original Anti-Mud Mat",
+      "total_gmv": 2879811.61,
+      "total_units_sold": 154804,
+      "units_sold_growth_rate_percent": 120.03
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 49.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/dcfffeac11db403f9d0cf762cce675db~tplv-fhlh96nyum-crop-webp:1200:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 25.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-09-05",
+      "launch_time": 1757016620,
+      "period_gmv": 13337.54,
+      "period_units_sold": 608,
+      "price_display": "$25.99  - 49.99",
+      "product_id": "1731704190200550034",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/b4bf9271142940a1bd043fea72966eb9~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495650582362360466",
+        "shop_name": "Lesure Pet",
+        "total_units_sold": 247866
+      },
+      "title": "Bedsure Self-Heating Pet Bed Mat\uff0cUltra Soft Corduroy Thermal Bed for Dogs & Cats, No Electric Heat Safe Warm Pad for Winter Cold Weather,Machine Washable",
+      "total_gmv": 462878.96,
+      "total_units_sold": 19796,
+      "units_sold_growth_rate_percent": -5.88
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 99.99,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/6f0fbc594b5840feb8f77aca957ba83d~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 45.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-03-04",
+      "launch_time": 1741064569,
+      "period_gmv": 18498.66,
+      "period_units_sold": 527,
+      "price_display": "$45.98  - 99.99",
+      "product_id": "1730789164546953954",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/90bb2b2eeefc4b1d900d1a63be5f37f5~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495657286590434018",
+        "shop_name": "Sweetcrispy Official",
+        "total_units_sold": 742185
+      },
+      "title": "Sweetcrispy 54-Inch Vertical Cat Scratcher Shelf - Durable Space-Saving Pet Furniture with Anti-Tilt Stable Base, Modern Memory Foam Cozy Nest, Supports Play & Sleep, Satisfies Natural Scratching Instincts, Ideal Gift for Pet Owners",
+      "total_gmv": 496585.34,
+      "total_units_sold": 14235,
+      "units_sold_growth_rate_percent": 54.55
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 51.97,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/62f9287bf1ee43b7a287fb60553610b9~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 32.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-02-28",
+      "launch_time": 1740693449,
+      "period_gmv": 12253,
+      "period_units_sold": 460,
+      "price_display": "$32.98  - 51.97",
+      "product_id": "1730744682162393826",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/90bb2b2eeefc4b1d900d1a63be5f37f5~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495657286590434018",
+        "shop_name": "Sweetcrispy Official",
+        "total_units_sold": 742185
+      },
+      "title": "Sweetcrispy Official Cute Cotton Donut Sleeping Nest for Small Breeds - Home Use, Curl-up Bolster, Plush Waterproof Faux Fur, Anxiety-Free Nesting Support, Non-Slip Base, Stain Resistant, Low Tumble Dry (Fits Cats & Pups for Deep & Comfortable Sleep)",
+      "total_gmv": 259330.18,
+      "total_units_sold": 17135,
+      "units_sold_growth_rate_percent": 202.63
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 49,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/2569cc8d27a74760ada25aef49ca39a3~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
+      "currency_code": "USD",
+      "floor_price": 49,
+      "is_off_shelf": false,
+      "launch_date": "2026-04-23",
+      "launch_time": 1776912849,
+      "period_gmv": 19551,
+      "period_units_sold": 447,
+      "price_display": "$49.00",
+      "product_id": "1732324341825703954",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/16e18fd4dc7942c790f212ef538b9e1e~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494467768462378002",
+        "shop_name": "Pawsity Store",
+        "total_units_sold": 5103
+      },
+      "title": "100% Real Oak Wood Cat Nail File Scratcher - Stress-Free Natural Nail Filing Alternative to Clippers/Noisy Grinders, Safe Scratch Solution, Furniture Protector with Puzzle Box Fun for Indoor Cats (Redirects Claws From Couches)",
+      "total_gmv": 98399.49,
+      "total_units_sold": 3208,
+      "units_sold_growth_rate_percent": -23.72
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 29.23,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/31f30fd93dd44b6aafbf1d59520bcb61~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 24.48,
+      "is_off_shelf": false,
+      "launch_date": "2025-12-11",
+      "launch_time": 1765455414,
+      "period_gmv": 7376.12,
+      "period_units_sold": 351,
+      "price_display": "$24.48  - 29.23",
+      "product_id": "1732131076366570067",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/889e7f2881f84087be1d4c69a8296b18~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494103423962941011",
+        "shop_name": "Hemu Pet Supplies",
+        "total_units_sold": 72566
+      },
+      "title": "Multi-Functional Cat Scratching Board Rocker Bed, Natural Sisal Scratcher, Natural Jute Material for Scratching and Relaxing, Indoor/outdoor Pet Furniture Durable Cat Scratching Post, Pet Toy & Bed, Self-Cleaning Kitty Lounge Chair, Ideal Gift for Cats",
+      "total_gmv": 311677.33,
+      "total_units_sold": 14261,
+      "units_sold_growth_rate_percent": -12.9
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 28.38,
+      "commission_rate_percent": 8.5,
+      "cover_url": "https://s.500fd.com/tt_product/bde9f1e771fe42a7992319f1e062caa0~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
+      "currency_code": "USD",
+      "floor_price": 28.38,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-23",
+      "launch_time": 1787434471,
+      "period_gmv": 6757.23,
+      "period_units_sold": 271,
+      "price_display": "$28.38",
+      "product_id": "1732572136298353265",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/0c30e0ca540e4963811b59929cf6ded0~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494582981504042609",
+        "shop_name": "PetitRinu",
+        "total_units_sold": 13165
+      },
+      "title": "PETITRIUN Wooden Scratcher Lounge Chair(51 x 32 x 31cm / 20.08 x 12.60 x 12.20 inch) - Split-Design, Sisal Scratch-Resistant Bed for Small to Medium Indoor Cats",
+      "total_gmv": 28369.01,
+      "total_units_sold": 1432,
+      "units_sold_growth_rate_percent": 44.92
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813320,
+          "name": "Scratching Pads & Posts"
+        }
+      },
+      "ceiling_price": 51.99,
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/9a4dcafd3a7948328c9ec3f66e7653f1~tplv-fhlh96nyum-crop-webp:1500:1500.webp",
+      "currency_code": "USD",
+      "floor_price": 29.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-01-25",
+      "launch_time": 1737748024,
+      "period_gmv": 5836.29,
+      "period_units_sold": 262,
+      "price_display": "$29.99  - 51.99",
+      "product_id": "1730571160484877288",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6a25267f2f354c09bfa5aa3bcb922e3d~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495783009606339560",
+        "shop_name": "Conlun Shop",
+        "total_units_sold": 9357
+      },
+      "title": "Conlun 22.8 inch L-Shaped Wall-Mounted Cat Scratching Pad - Classic Cardboard Construction, Vertical Sleek Stripes, Ball Toy, Recycled Corrugated Core, Sturdy, Compact & Easy Tool-Free Assembly for Indoor Cats in Apartments",
+      "total_gmv": 36152.48,
+      "total_units_sold": 2321,
+      "units_sold_growth_rate_percent": 38.62
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 813448,
+          "name": "Cat Hammocks "
+        }
+      },
+      "ceiling_price": 46.79,
+      "commission_rate_percent": 7,
+      "cover_url": "https://s.500fd.com/tt_product/6e5cf503b1ae423eaa005b1783e97c11~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 32.99,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-05",
+      "launch_time": 1762351382,
+      "period_gmv": 7192.7,
+      "period_units_sold": 238,
+      "price_display": "$32.99  - 46.79",
+      "product_id": "1731939787849503396",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/acf5af1b10314926aa3970495f3c5901~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496137112813275812",
+        "shop_name": "CheerPals",
+        "total_units_sold": 48910
+      },
+      "title": "Folding Cat Hammock for Window - Cordless, Machine Washable Bed, Robust Metal Frame, Strong Suction Cups\uff0cCat Window Perch for Cats and Small Dogs",
+      "total_gmv": 491947.5,
+      "total_units_sold": 15413,
+      "units_sold_growth_rate_percent": -10.86
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 17,
+          "name": "Pet Supplies"
+        },
+        "l2": {
+          "id": 812808,
+          "name": "Dog & Cat Furniture"
+        },
+        "l3": {
+          "id": 812936,
+          "name": "Beds, Sofas & Mats"
+        }
+      },
+      "ceiling_price": 119.99,
+      "commission_rate_percent": 10.5,
+      "cover_url": "https://s.500fd.com/tt_product/fe77b98e0d2649019d05005e1d72cc77~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "currency_code": "USD",
+      "floor_price": 79.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-01-08",
+      "launch_time": 1767829888,
+      "period_gmv": 9499.13,
+      "period_units_sold": 233,
+      "price_display": "$79.99  - 119.99",
+      "product_id": "1732203153630990581",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/867a49ac0066479db65f78eb8a0651f4~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495163560979958005",
+        "shop_name": "WeCharmer Store",
+        "total_units_sold": 302678
+      },
+      "title": "\u3010Fall Deals\u3011Fluffy Cloud Couch & Mat Bed for Indoor Cats - 3 Styles, All Sizes, Solid Colors, Claw-Safe Fleece, 2:1 Foam+Fiber, Detachable Machine-Wash Cover, 3-Sided Bolster, Head/Neck Cradle, Sleep Support, Anti-Slip Base, Travel-Convenient, L:45\"x37\"",
+      "total_gmv": 204608.28,
+      "total_units_sold": 6094,
+      "units_sold_growth_rate_percent": -5.28
+    }
+  ],
+  "total": 500
+}

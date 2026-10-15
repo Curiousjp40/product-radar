@@ -1,0 +1,405 @@
+{
+  "list": [
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600338,
+          "name": "Decorative Stickers"
+        }
+      },
+      "ceiling_price": 13.9,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/bff3a3977822473d81b7f4fa65432cce~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "currency_code": "USD",
+      "floor_price": 9.9,
+      "is_off_shelf": false,
+      "launch_date": "2025-11-18",
+      "launch_time": 1763455161,
+      "period_gmv": 24693.78,
+      "period_units_sold": 2232,
+      "price_display": "$9.90 - 13.90",
+      "product_id": "1732055978563309700",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/48ee36bf99cb4ecc883d1428ef061bf9~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7495970745355896964",
+        "shop_name": "Luxe Hide Empoewe",
+        "total_units_sold": 909192
+      },
+      "title": "Christmas Refrigerator Magnets,Christmas Tree Magnets for Fridge Stickers Decoration,Adorable Xmas Stickers for Kids, DIY Fridge Santa Reindeer Snowman for Fridge Garage Kitchen Metal Door Christmas Decoration, fun decorations,Christmas gifts,",
+      "total_gmv": 46429.12,
+      "total_units_sold": 4273,
+      "units_sold_growth_rate_percent": 327.59
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 854536,
+          "name": "Refrigerator Magnets"
+        }
+      },
+      "ceiling_price": 13,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/0105395130ac4ebc8b1a1faaeac9a69f~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 8,
+      "is_off_shelf": false,
+      "launch_date": "2025-06-24",
+      "launch_time": 1750734700,
+      "period_gmv": 18890.79,
+      "period_units_sold": 2138,
+      "price_display": "$8.00 - 13.00",
+      "product_id": "1731150607623098678",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/2599e7761f0d4ef5b67aa61c83cf85db~tplv-omjb5zjo8w-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496161030307088694",
+        "shop_name": "Wavhang",
+        "total_units_sold": 602314
+      },
+      "title": "Jar Opener for Weak Hands, Multifunctional Adjustable Can Opener, Stainless Steel Jar Lid Opener Bottle Opener Tool for Seniors with Arthritis, Manual Jar Gripper for Kitchen",
+      "total_gmv": 235962.9,
+      "total_units_sold": 30547,
+      "units_sold_growth_rate_percent": -31.14
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 700654,
+          "name": "Decorative Flowers, Plants & Fruit"
+        }
+      },
+      "ceiling_price": 207.99,
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/f72dd43617114ee988b8fab0e872af34~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 35.09,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-22",
+      "launch_time": 1784712049,
+      "period_gmv": 64196,
+      "period_units_sold": 1937,
+      "price_display": "$35.09  - 207.99",
+      "product_id": "1732502071354822887",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/deff81642115402b824de6e7c00c3e6e~tplv-dx0w9n1ysr-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495819049717565671",
+        "shop_name": "YouSeeCrochet",
+        "total_units_sold": 23593
+      },
+      "title": "Handmade Crochet Flowers Bouquet Halloween Gift Pumpkin Ghost Bouquet Halloween Decor Gift for Her Friend Gift Forever Flowers Handmade Halloween Decoration",
+      "total_gmv": 137295.04,
+      "total_units_sold": 4490,
+      "units_sold_growth_rate_percent": 36.31
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 982408,
+          "name": "Photo Albums"
+        }
+      },
+      "ceiling_price": 29.89,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b72e3ac4f2e14359a32c9d71ea1825bc~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
+      "currency_code": "USD",
+      "floor_price": 10.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-08-07",
+      "launch_time": 1786098613,
+      "period_gmv": 23719.74,
+      "period_units_sold": 1826,
+      "price_display": "$10.99  - 29.89",
+      "product_id": "1732537055971610693",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/fcdd999596b04da88c362a4d43b22f6a~tplv-aphluv4xwc-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496135982661601349",
+        "shop_name": "Beauty Shilion",
+        "total_units_sold": 34530
+      },
+      "title": "DIY Spiral-Bound Christmas Gift Card Album with Surprise Pages - Holiday Festive Student Graduation Card Keeper, Gift Planning Notebook Home Decor Paper Organizer",
+      "total_gmv": 89682.03,
+      "total_units_sold": 7137,
+      "units_sold_growth_rate_percent": -10.45
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600341,
+          "name": "Photo Frames"
+        }
+      },
+      "ceiling_price": 55.89,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/f93b00c965a84c5ea1f82f21a842717c~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 16.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-03-14",
+      "launch_time": 1773440322,
+      "period_gmv": 27401.33,
+      "period_units_sold": 1813,
+      "price_display": "$16.99  - 55.89",
+      "product_id": "1732288674913947952",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6f9d434bb82f4bbb83a3ff1cb5be3fd0~tplv-dx0w9n1ysr-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495982947166423344",
+        "shop_name": "Noble Nook",
+        "total_units_sold": 84804
+      },
+      "title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic DIY Fridge Magnets with Adhesive Backing \u2013 Square Magnets for Crafts, Kitchen, Classroom, Party & Office Decoration Back to School College Dorm Essentials #HomeEssentials #TikTokShopBackToSchool",
+      "total_gmv": 290633.63,
+      "total_units_sold": 20095,
+      "units_sold_growth_rate_percent": 42.31
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 600338,
+          "name": "Decorative Stickers"
+        }
+      },
+      "ceiling_price": 25.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/40e96c77321a459c86e650473d8083a8~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 25.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-09-03",
+      "launch_time": 1788369085,
+      "period_gmv": 46678.04,
+      "period_units_sold": 1796,
+      "price_display": "$25.99",
+      "product_id": "1732609546327724526",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/ef8c80f57e3d47d28d4236d086bb68cf~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496293079737666030",
+        "shop_name": "Bloom & Tidy",
+        "total_units_sold": 119934
+      },
+      "title": "USA Landmark Travel Stickers, American Cities & National Parks Decal Pack, Statue of Liberty, Golden Gate Bridge, Hollywood, Yellowstone Vinyl Stickers",
+      "total_gmv": 232312.69,
+      "total_units_sold": 9781,
+      "units_sold_growth_rate_percent": 21.35
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 982280,
+          "name": "Plaques & Signs"
+        }
+      },
+      "ceiling_price": 19.99,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/f85d123b64b34a1d864e7fa365e1460e~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "currency_code": "USD",
+      "floor_price": 19.99,
+      "is_off_shelf": false,
+      "launch_date": "2026-06-19",
+      "launch_time": 1781799015,
+      "period_gmv": 35469.8,
+      "period_units_sold": 1700,
+      "price_display": "$19.99",
+      "product_id": "1732440480108811153",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/19fe80de440b4e9a938ce92d335bbdf4~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494617348465002385",
+        "shop_name": "UniqueArt",
+        "total_units_sold": 21822
+      },
+      "title": "Printed Metal Plaque Sign & Canvas Poster with After-Sale Instructions Manual, Printing Home Decor Wall Art for Bedroom Room Decorations",
+      "total_gmv": 299725.25,
+      "total_units_sold": 14255,
+      "units_sold_growth_rate_percent": 27.33
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 700654,
+          "name": "Decorative Flowers, Plants & Fruit"
+        }
+      },
+      "ceiling_price": 170,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/ae7e12528dc14e63a0efa01fedb82ede~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "currency_code": "USD",
+      "floor_price": 17,
+      "is_off_shelf": false,
+      "launch_date": "2026-07-22",
+      "launch_time": 1784660141,
+      "period_gmv": 23516.68,
+      "period_units_sold": 1661,
+      "price_display": "$17.00 - 170.00",
+      "product_id": "1732402522142184214",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/501ab60e95fe48fea96575cd9811b1aa~tplv-fhlh96nyum-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7494635594762716950",
+        "shop_name": "NIETING",
+        "total_units_sold": 5113
+      },
+      "title": "N&T NIETING 12-Pack 24\" Real Touch Artificial Norfolk Pine Stems, Lifelike Fake Green Plant Branches with Natural Needle Texture, Decorative for Christmas, Farmhouse Home Entryway Decor, DIY Floral Arrangements, Vase Fillers, Wreath Making Projects",
+      "total_gmv": 68478.34,
+      "total_units_sold": 3443,
+      "units_sold_growth_rate_percent": 124.16
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 854408,
+          "name": "Mirrors"
+        }
+      },
+      "ceiling_price": 142.97,
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/3af45bbf1eda4b7a95ef5e5cd8f7aed0~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 71.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-05-04",
+      "launch_time": 1746361314,
+      "period_gmv": 114665,
+      "period_units_sold": 1615,
+      "price_display": "$71.98  - 142.97",
+      "product_id": "1731094019182858978",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/90bb2b2eeefc4b1d900d1a63be5f37f5~tplv-omjb5zjo8w-resize-webp:300:300.webp",
+        "is_fully_managed": false,
+        "shop_id": "7495657286590434018",
+        "shop_name": "Sweetcrispy Official",
+        "total_units_sold": 742185
+      },
+      "title": "Sweetcrispy Aluminium LED Backlit Arched Floor Standing Mirror - Dimmable 3-Color 200-LED, Clarity-Adjustable, Safety-Enhanced Bedroom Body Mirror, Freestanding Wall-Space-Saving, Floor/Wall/Hang Mount Room & House Decor Accessory",
+      "total_gmv": 1636928.38,
+      "total_units_sold": 22189,
+      "units_sold_growth_rate_percent": 45.5
+    },
+    {
+      "category": {
+        "l1": {
+          "id": 10,
+          "name": "Home Supplies"
+        },
+        "l2": {
+          "id": 852104,
+          "name": "Home Decor"
+        },
+        "l3": {
+          "id": 984200,
+          "name": "Piggy Banks"
+        }
+      },
+      "ceiling_price": 30,
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/f09dad5c16d0472f9fc911045393f42a~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "currency_code": "USD",
+      "floor_price": 14.98,
+      "is_off_shelf": false,
+      "launch_date": "2025-10-07",
+      "launch_time": 1759784628,
+      "period_gmv": 15434.08,
+      "period_units_sold": 1517,
+      "price_display": "$14.98  - 30.00",
+      "product_id": "1731845093792715042",
+      "region": "US",
+      "shop": {
+        "avatar_url": "https://s.500fd.com/tt_shop/6eae315981fd4b49a2408abb4912904a~tplv-dx0w9n1ysr-resize-png:300:300.png",
+        "is_fully_managed": false,
+        "shop_id": "7496046123884120354",
+        "shop_name": "Domicraft",
+        "total_units_sold": 133632
+      },
+      "title": "Piggy Bank for Kids Adults, Electronic ATM Coin Cash Bank with Password Code Lock and Auto Grab Bill Slot, Large Capacity Coin Bank Money Jar for Adults, Designed for All US Coins, Capacity 10000+",
+      "total_gmv": 869147.31,
+      "total_units_sold": 60413,
+      "units_sold_growth_rate_percent": 20.68
+    }
+  ],
+  "total": 500
+}
