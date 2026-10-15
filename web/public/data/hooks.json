@@ -209,5 +209,55 @@
     "home_decor": "room_makeover",
     "home_storage": "room_makeover",
     "pet_furniture": "pet_item"
-  }
+  },
+  "combo_pairs": [
+    {
+      "categories": [
+        "shapewear",
+        "dresses"
+      ],
+      "idea_es": "Pru\u00e9bate la faja y el vestido juntos: antes y despu\u00e9s en un solo video",
+      "idea_en": "Try the shapewear and the dress together: one before/after video"
+    },
+    {
+      "categories": [
+        "sets",
+        "shoes"
+      ],
+      "idea_es": "Un video de look completo: el conjunto con estos zapatos",
+      "idea_en": "A full-look video: the set with these shoes"
+    },
+    {
+      "categories": [
+        "winter_clothing",
+        "shoes"
+      ],
+      "idea_es": "Outfit de invierno completo: la ropa con los zapatos",
+      "idea_en": "A full winter outfit: the clothing with the shoes"
+    },
+    {
+      "categories": [
+        "furniture",
+        "home_decor"
+      ],
+      "idea_es": "Transforma el rinc\u00f3n: el mueble y la decoraci\u00f3n en el mismo video",
+      "idea_en": "Transform the corner: the furniture and the decor in one video"
+    },
+    {
+      "categories": [
+        "home_decor",
+        "home_storage"
+      ],
+      "idea_es": "Organiza y decora a la vez: un video de antes y despu\u00e9s",
+      "idea_en": "Organize and decorate at once: a before/after video"
+    },
+    {
+      "categories": [
+        "pet_furniture",
+        "home_decor"
+      ],
+      "idea_es": "El rinc\u00f3n de tu mascota, decorado: dos productos, un video",
+      "idea_en": "Your pet's corner, decorated: two products, one video"
+    }
+  ]
 }
