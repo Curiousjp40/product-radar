@@ -18,6 +18,8 @@ from collections.abc import Sequence
 
 from engine.features import slope_log1p
 
+_FLAT_SLOPE_TOLERANCE = 1e-9
+
 
 def saturation_badge(
     daily_units_14: Sequence[float] | None,
@@ -41,7 +43,10 @@ def saturation_badge(
             "reason_es": "Ya hay muchas creadoras vendiéndolo frente a lo que realmente se vende.",
             "reason_en": "A lot of creators are already selling it relative to how much it actually sells.",
         }
-    if slope <= 0 and creators_per_100 > creators_per_100_units_entra_ya_max:
+    # A flat series' least-squares slope is ~±1e-17, not exactly 0, and its
+    # sign depends on the CPU/BLAS build (negative locally, positive on
+    # GitHub's runners), so "flat" needs a tolerance, not `<= 0`.
+    if slope <= _FLAT_SLOPE_TOLERANCE and creators_per_100 > creators_per_100_units_entra_ya_max:
         return {
             "level": "muy_lleno",
             "reason_es": "Las ventas no están creciendo y ya hay varias creadoras vendiéndolo.",

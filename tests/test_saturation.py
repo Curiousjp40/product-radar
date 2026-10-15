@@ -62,3 +62,14 @@ def test_custom_thresholds_are_respected():
     )
     assert result is not None
     assert result["level"] == "entra_ya"
+
+
+def test_flat_units_count_as_flat_even_with_tiny_positive_float_slope(monkeypatch):
+    # GitHub's runners compute polyfit's slope for a constant series as a tiny
+    # positive number (~1e-17) instead of 0; that must still count as flat.
+    import engine.saturation as saturation
+
+    monkeypatch.setattr(saturation, "slope_log1p", lambda _units: 2.4e-17)
+    result = saturation.saturation_badge([10.0] * 14, creator_count=4, units_7d=100)
+    assert result is not None
+    assert result["level"] == "muy_lleno"
