@@ -3,7 +3,6 @@ import { t, type Lang } from "../i18n";
 const LINKS: { route: string; labelKey: string }[] = [
   { route: "results", labelKey: "nav_results" },
   { route: "season", labelKey: "nav_season" },
-  { route: "radar", labelKey: "nav_radar" },
   { route: "settings", labelKey: "nav_settings" },
 ];
 

@@ -42,21 +42,36 @@ export interface PicksFile {
   picks: Pick[];
 }
 
+export type CategoryGroup = "fashion" | "home";
+
 export interface Candidate {
   product_id: string;
   title: string;
+  clean_title: string;
+  image_url: string;
   category: string;
+  category_label_es: string;
+  category_label_en: string;
+  group: CategoryGroup;
   shop_name: string;
   // null for a suspicious/excluded candidate (see `suspicious` below) --
   // it never went through scoring, so there's no score/stage to show.
   stage: Stage | null;
+  rank: number;
   price: number;
   commission_rate: number;
+  earnings_per_sale: number;
+  units_7d: number;
+  units_total: number;
   score: number | null;
   ev_typical: number | null;
   daily_units: number[];
+  is_pick: boolean;
+  has_enrichment: boolean;
   suspicious: boolean;
   suspicious_reasons?: string[];
+  fastmoss_url: string;
+  tiktok_search_url: string;
 }
 
 export interface CandidatesFile {
@@ -69,14 +84,23 @@ export interface ProductDetail {
   schema_version: number;
   product_id: string;
   title: string;
+  clean_title: string;
   image_url: string;
   category: string;
+  category_label_es: string;
+  category_label_en: string;
   shop_name: string;
   price: number;
   commission_rate: number;
   earnings_per_sale: number;
+  units_7d: number;
+  units_total: number;
+  creator_count: number | null;
+  video_count: number | null;
   daily_units_14: number[];
+  is_pick: boolean;
   fastmoss_url: string;
+  tiktok_search_url: string;
   videos: VideoCard[];
 }
 

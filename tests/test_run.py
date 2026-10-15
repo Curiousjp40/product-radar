@@ -12,6 +12,7 @@ from engine.run import (
     candidates_to_export_dicts,
     product_detail_dict,
     score_pool,
+    tiktok_search_url,
 )
 
 # Roxie's real views-weighted average category_gpm is ~$10.89 (see
@@ -194,8 +195,12 @@ def _candidate_row(product_id, **overrides):
         "config_category": "shapewear",
         "shop_name": "Shop",
         "stage": "rising",
+        "rank": 1,
         "price": 10.0,
         "commission_rate": 0.1,
+        "earnings_per_sale": 1.5,
+        "units_7d": 100,
+        "units_total": 1000,
         "score": 50,
         "ev_typical": 5.0,
     }
@@ -216,24 +221,23 @@ def test_candidates_to_export_dicts_nan_daily_units_becomes_empty_list():
             _candidate_row("b"),  # no daily_units_14 key -> NaN in the column
         ]
     )
-    out = candidates_to_export_dicts(df)
+    out = candidates_to_export_dicts(df, _CATEGORIES_CFG, pick_ids=set())
     assert out[0]["daily_units"] == [1, 2, 3]
     assert out[1]["daily_units"] == []
     json.dumps(out, allow_nan=False)  # raises if a real NaN slipped through
 
 
 def test_product_detail_dict_nan_daily_units_becomes_empty_list():
-    pick = {
+    cand = {
         "product_id": "a",
         "title": "A",
         "config_category": "shapewear",
         "shop_name": "Shop",
         "price": 10.0,
         "commission_rate": 0.1,
-        "earnings_per_sale": 1.0,
         # no daily_units_14 key, and no videos key either
     }
-    detail = product_detail_dict(pick)
+    detail = product_detail_dict(cand, _CATEGORIES_CFG, is_pick=False, has_enrichment=False)
     assert detail["daily_units_14"] == []
     json.dumps(detail, allow_nan=False)
 
@@ -299,3 +303,12 @@ def test_score_pool_uses_furniture_price_group_not_fashion():
     creator_stats = _creator_stats(config)
     df = score_pool(pool, config, creator_stats, date(2026, 10, 14))
     assert pd.notna(df.iloc[0]["z_fit"])
+
+
+def test_tiktok_search_url_encodes_spaces_and_special_chars():
+    url = tiktok_search_url("Onyx Silent Vibration Wrist-Worn Device")
+    assert url == "https://www.tiktok.com/search?q=Onyx%20Silent%20Vibration%20Wrist-Worn%20Device"
+
+
+def test_tiktok_search_url_encodes_accents():
+    assert tiktok_search_url("Fajas y más") == "https://www.tiktok.com/search?q=Fajas%20y%20m%C3%A1s"

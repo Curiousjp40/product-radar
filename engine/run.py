@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import math
+import urllib.parse
 import uuid
 from datetime import date, timedelta
 from pathlib import Path
@@ -100,6 +101,15 @@ CREATOR = "roxm___"
 # credits) -- "Replace the placeholder in template with the corresponding
 # ID returned by FastMoss MCP tools."
 FASTMOSS_PRODUCT_URL_TEMPLATE = "https://www.fastmoss.com/e-commerce/detail/{product_id}"
+# Free (no FastMoss credits) buttons on every product, full list included --
+# added 2026-10-18 per explicit instruction, not a guess: a TikTok SEARCH
+# link (there's no confirmed way to build a direct TikTok Shop product URL
+# from a FastMoss product_id -- see docs/field_map.md).
+TIKTOK_SEARCH_URL_TEMPLATE = "https://www.tiktok.com/search?q={query}"
+
+
+def tiktok_search_url(clean_product_title: str) -> str:
+    return TIKTOK_SEARCH_URL_TEMPLATE.format(query=urllib.parse.quote(clean_product_title))
 
 # Dry-run only has Phase 0's real fixtures for one category (shapewear) -- it
 # proves the pipeline wiring works end to end on real-shaped data at zero
@@ -964,24 +974,39 @@ def picks_to_export_dicts(
     return out
 
 
-def product_detail_dict(pick: dict) -> dict:
-    """Full detail for one pick's product page (added 2026-10-16) -- written
-    once per pick, not per candidate, since that's all the dashboard links to."""
+def product_detail_dict(cand: dict, categories_cfg: dict, is_pick: bool, has_enrichment: bool) -> dict:
+    """Full product-page detail (redesigned 2026-10-18 for the "Todos" full
+    list: written for every clean candidate, not just the ~9 final picks,
+    since any row there links to its own product page). Stat boxes (sold
+    this week, total sales, commission, earnings, creators, videos) show for
+    every product; `has_enrichment` (the top-15 by preliminary score that
+    got trend + product_video_list) gates the 14-day chart and the embedded
+    video gallery, which only exist for those."""
+    cat_meta = categories_cfg.get(cand["config_category"], {})
+    title = cand["title"]
+    clean = clean_title(title)
+    daily_units_14 = cand.get("daily_units_14") if isinstance(cand.get("daily_units_14"), list) else []
     return {
-        "product_id": pick["product_id"],
-        "title": pick["title"],
-        "image_url": pick.get("image_url") or "",
-        "category": pick["config_category"],
-        "shop_name": pick["shop_name"],
-        "price": pick["price"],
-        "commission_rate": pick["commission_rate"],
-        "earnings_per_sale": round(pick["earnings_per_sale"], 2),
-        # Same NaN-vs-None/falsy-check gap as candidates_to_export_dicts's
-        # daily_units field (see its comment) -- fixed here too for the
-        # same reason, even though no current pick actually lacks trend data.
-        "daily_units_14": pick.get("daily_units_14") if isinstance(pick.get("daily_units_14"), list) else [],
-        "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=pick["product_id"]),
-        "videos": _video_card_dicts(pick.get("videos"), limit=6),
+        "product_id": cand["product_id"],
+        "title": title,
+        "clean_title": clean,
+        "image_url": cand.get("image_url") or "",
+        "category": cand["config_category"],
+        "category_label_es": cat_meta.get("label_es", cand["config_category"]),
+        "category_label_en": cat_meta.get("label_en", cand["config_category"]),
+        "shop_name": cand["shop_name"],
+        "price": cand["price"],
+        "commission_rate": cand["commission_rate"],
+        "earnings_per_sale": round(earnings_per_sale(cand["price"], cand["commission_rate"]), 2),
+        "units_7d": cand.get("units_7d", 0),
+        "units_total": cand.get("units_total", 0),
+        "creator_count": cand.get("creator_count") if has_enrichment else None,
+        "video_count": cand.get("video_count") if has_enrichment else None,
+        "daily_units_14": daily_units_14 if has_enrichment else [],
+        "is_pick": is_pick,
+        "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=cand["product_id"]),
+        "tiktok_search_url": tiktok_search_url(clean),
+        "videos": _video_card_dicts(cand.get("videos"), limit=6) if has_enrichment else [],
     }
 
 
@@ -1000,48 +1025,87 @@ def cache_pick_images(picks: list[dict]) -> None:
                 v["cover_url"] = cached_cover
 
 
-def candidates_to_export_dicts(df: pd.DataFrame, flagged: list[dict] | None = None) -> list[dict]:
+def candidates_to_export_dicts(
+    df: pd.DataFrame, categories_cfg: dict, pick_ids: set[str], flagged: list[dict] | None = None
+) -> list[dict]:
+    """The "Todos" page's full list (redesigned 2026-10-18): every clean
+    candidate (not a trimmed pool), ranked rows grouped by categories.yaml's
+    "group" (Moda/Hogar), her actual picks starred via `is_pick`. Suspicious
+    candidates are still included (with their reasons) so they're visible,
+    not just silently dropped, same as before."""
     out = []
     for _, r in df.iterrows():
+        cat_meta = categories_cfg.get(r["config_category"], {})
+        title = r["title"]
+        clean = clean_title(title)
         out.append(
             {
                 "product_id": r["product_id"],
-                "title": r["title"],
+                "title": title,
+                "clean_title": clean,
+                "image_url": r.get("image_url") or "",
                 "category": r["config_category"],
+                "category_label_es": cat_meta.get("label_es", r["config_category"]),
+                "category_label_en": cat_meta.get("label_en", r["config_category"]),
+                "group": cat_meta.get("group", "fashion"),
                 "shop_name": r["shop_name"],
                 "stage": r["stage"],
+                "rank": int(r["rank"]),
                 "price": r["price"],
                 "commission_rate": r["commission_rate"],
+                "earnings_per_sale": round(r["earnings_per_sale"], 2),
+                "units_7d": int(r["units_7d"]),
+                "units_total": int(r["units_total"]),
                 "score": int(r["score"]),
                 "ev_typical": round(r["ev_typical"], 2),
-                # A candidate outside the trend-fetch pool never gets
+                # A candidate outside the enrichment shortlist never gets
                 # daily_units_14 set at all, which pandas backfills as NaN
                 # (not None) in the DataFrame column -- `or []` doesn't
                 # catch that (nan is truthy), so json.dumps wrote a literal
                 # `NaN` token, invalid JSON that broke JSON.parse on the
                 # whole file (found 2026-10-17 verifying the Radar page).
                 "daily_units": r["daily_units_14"] if isinstance(r["daily_units_14"], list) else [],
+                "is_pick": r["product_id"] in pick_ids,
+                "has_enrichment": bool(pd.notna(r.get("creator_count"))),
                 "suspicious": False,
+                "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=r["product_id"]),
+                "tiktok_search_url": tiktok_search_url(clean),
             }
         )
     # Suspicious listings (added 2026-10-15): excluded from scoring, kept
     # here with their reasons so they're visible rather than silently
     # dropped (spec'd as "exclude + record reason in candidates.json").
     for c in flagged or []:
+        cat_meta = categories_cfg.get(c["config_category"], {})
+        title = c["title"]
+        clean = clean_title(title)
         out.append(
             {
                 "product_id": c["product_id"],
-                "title": c["title"],
+                "title": title,
+                "clean_title": clean,
+                "image_url": c.get("image_url") or "",
                 "category": c["config_category"],
+                "category_label_es": cat_meta.get("label_es", c["config_category"]),
+                "category_label_en": cat_meta.get("label_en", c["config_category"]),
+                "group": cat_meta.get("group", "fashion"),
                 "shop_name": c["shop_name"],
                 "stage": None,
+                "rank": c.get("rank", 0),
                 "price": c["price"],
                 "commission_rate": c["commission_rate"],
+                "earnings_per_sale": round(earnings_per_sale(c["price"], c["commission_rate"]), 2),
+                "units_7d": c.get("units_7d", 0),
+                "units_total": c.get("units_total", 0),
                 "score": None,
                 "ev_typical": None,
                 "daily_units": [],
+                "is_pick": False,
+                "has_enrichment": False,
                 "suspicious": True,
                 "suspicious_reasons": c["suspicious_reasons"],
+                "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
+                "tiktok_search_url": tiktok_search_url(clean),
             }
         )
     return out
@@ -1102,6 +1166,16 @@ async def run(args: argparse.Namespace) -> None:
             creator_stats = _creator_stats(config)
             df = score_pool(pool, config, creator_stats, today)
 
+            # Cached here (on the raw candidate dicts, before `df` derives
+            # from them) so every clean + suspicious candidate's photo and
+            # video thumbnails are local by the time `score_pool` builds the
+            # DataFrame export functions read from -- added 2026-10-18 for
+            # the "Todos" full list, which shows a photo for every row, not
+            # just the ~9 final picks. Must run before the LAST score_pool
+            # call below, not after, or `df`'s image_url stays the stale
+            # remote one.
+            cache_pick_images(pool + flagged)
+
             if not df.empty:
                 prelim_ids = set(df.sort_values("score", ascending=False).head(SHORTLIST_SIZE)["product_id"])
                 shortlist = [c for c in pool if c["product_id"] in prelim_ids]
@@ -1109,6 +1183,7 @@ async def run(args: argparse.Namespace) -> None:
                 # `shortlist` dicts are the same objects referenced in `pool` (shared,
                 # not copied), so enrich_shortlist's mutation is already reflected
                 # in `pool` -- just recompute scores from scratch with it filled in.
+                cache_pick_images(shortlist)  # the new video thumbnails enrichment just added
                 df = score_pool(pool, config, creator_stats, today)
         except BudgetExceeded as e:
             print(f"BUDGET STOP: {e}")
@@ -1117,20 +1192,29 @@ async def run(args: argparse.Namespace) -> None:
 
     weights = config["weights"]
     picks = assemble_picks(df, weights, config["seasons"]["events"]) if not df.empty else []
-    cache_pick_images(picks)
     creators_cfg = config["creators"][CREATOR]
     creator_avg_gpm = creator_avg_category_gpm(
         creators_cfg["category_gpm_per_1k_views"], creators_cfg["category_views"]
     )
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
+    pick_ids = {p["product_id"] for p in picks}
     pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share)
-    candidate_dicts = candidates_to_export_dicts(df, flagged)
+    categories_cfg = config["categories"]["categories"]
+    candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
 
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
         export.write_candidates(week, candidate_dicts)
-        for pick in picks:
-            export.write_product(pick["product_id"], product_detail_dict(pick))
+        # Every clean + suspicious candidate gets its own product page (not
+        # just the ~9 picks) -- the "Todos" full list links to any of them.
+        enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}
+        for cand in pool:
+            export.write_product(
+                cand["product_id"],
+                product_detail_dict(cand, categories_cfg, cand["product_id"] in pick_ids, cand["product_id"] in enriched_ids),
+            )
+        for cand in flagged:
+            export.write_product(cand["product_id"], product_detail_dict(cand, categories_cfg, False, False))
         conn = connect(REPO_ROOT / "data" / "radar.db")
         for stage in tracker.stage_log:
             write_ledger_row(conn, run_id, stage["stage"], stage["credits"], True, stage["note"])

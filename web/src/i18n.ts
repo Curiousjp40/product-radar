@@ -14,7 +14,11 @@ export function locale(lang: Lang): string {
 
 const dict: Record<string, { es: string; en: string }> = {
   nav_this_week: { es: "Esta semana", en: "This week" },
-  nav_radar: { es: "Radar", en: "Radar" },
+  nav_all: { es: "Todos", en: "All" },
+  group_fashion: { es: "Moda", en: "Fashion" },
+  group_home: { es: "Hogar", en: "Home" },
+  all_categories: { es: "Todas", en: "All" },
+  units_sold_short: { es: "vendidos", en: "sold" },
   nav_pipeline: { es: "Mi lista", en: "My list" },
   nav_results: { es: "Mis resultados", en: "My results" },
   nav_season: { es: "Temporada", en: "Season" },
@@ -27,6 +31,7 @@ const dict: Record<string, { es: string; en: string }> = {
   see_details: { es: "Ver detalles", en: "View details" },
   save_to_list: { es: "Guardar en mi lista", en: "Save to my list" },
   open_in_tiktok: { es: "Ver en TikTok", en: "Open in TikTok" },
+  tiktok_videos_button: { es: "Ver videos en TikTok", en: "Watch videos on TikTok" },
   earn_headline: { es: "Ganas ${amount} por venta", en: "You earn ${amount} per sale" },
   price: { es: "Precio", en: "Price" },
   commission: { es: "Comisión", en: "Commission" },
@@ -52,9 +57,6 @@ const dict: Record<string, { es: string; en: string }> = {
   kind_explore: { es: "Prueba", en: "Explore" },
   kind_evergreen: { es: "Vigente", en: "Evergreen" },
   kind_winner_again: { es: "Ganador de nuevo", en: "Winner again" },
-  // "radar" stays only as the app's own name -- everywhere else a FastMoss
-  // candidate is a "producto", never a "candidato" (replaced 2026-10-17).
-  radar_title: { es: "Todos los productos", en: "All candidates" },
   category: { es: "Categoría", en: "Category" },
   stage: { es: "Etapa", en: "Stage" },
   suspicious_label: { es: "Sospechoso", en: "Suspicious" },
@@ -63,6 +65,10 @@ const dict: Record<string, { es: string; en: string }> = {
   product_col: { es: "Producto", en: "Product" },
   status_col: { es: "Estado", en: "Status" },
   open_in_fastmoss: { es: "Ver en FastMoss", en: "View on FastMoss" },
+  sold_this_week: { es: "Vendidos esta semana", en: "Sold this week" },
+  total_sales: { es: "Ventas totales", en: "Total sales" },
+  creators_selling: { es: "Creadoras vendiéndolo", en: "Creators selling it" },
+  videos_count_label: { es: "Videos", en: "Videos" },
   sales_trend_title: { es: "Ventas de los últimos 14 días", en: "Sales over the last 14 days" },
   videos_selling_title: { es: "Videos que venden este producto", en: "Videos selling this product" },
   sales_short: { es: "ventas", en: "sales" },

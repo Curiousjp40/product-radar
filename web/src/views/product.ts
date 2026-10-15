@@ -1,7 +1,13 @@
 import { loadProduct } from "../api";
+import { assetUrl } from "../asset";
 import { t, type Lang } from "../i18n";
 import type { VideoCard } from "../types";
-import { assetUrl } from "../asset";
+
+function formatCount(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
+  return String(n);
+}
 
 function sparklinePath(values: number[], width: number, height: number): string {
   if (values.length === 0) return "";
@@ -16,12 +22,6 @@ function sparklinePath(values: number[], width: number, height: number): string 
       return `${i === 0 ? "M" : "L"}${x.toFixed(1)},${y.toFixed(1)}`;
     })
     .join(" ");
-}
-
-function formatCount(n: number): string {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
-  return String(n);
 }
 
 function videoEmbed(video: VideoCard, lang: Lang): string {
@@ -90,26 +90,37 @@ function watchEmbed(card: HTMLElement): void {
   }, 6000);
 }
 
+function statBox(value: string, label: string): string {
+  return `<div class="stat-box"><b>${value}</b><span>${label}</span></div>`;
+}
+
 export async function renderProduct(container: HTMLElement, lang: Lang, productId: string): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   try {
     const { data, isSample } = await loadProduct(productId);
     const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
     const path = sparklinePath(data.daily_units_14, 280, 60);
+    const categoryLabel = lang === "es" ? data.category_label_es : data.category_label_en;
+
+    const statBoxes = [
+      statBox(formatCount(data.units_7d), t("sold_this_week", lang)),
+      statBox(formatCount(data.units_total), t("total_sales", lang)),
+      statBox(`${(data.commission_rate * 100).toFixed(0)}%`, t("commission", lang)),
+      statBox(`$${data.earnings_per_sale.toFixed(2)}`, t("per_sale", lang)),
+    ];
+    if (data.creator_count !== null) statBoxes.push(statBox(formatCount(data.creator_count), t("creators_selling", lang)));
+    if (data.video_count !== null) statBoxes.push(statBox(formatCount(data.video_count), t("videos_count_label", lang)));
 
     container.innerHTML = `
       ${banner}
       <a class="back-link" href="#/week">&larr; ${t("back_to_week", lang)}</a>
-      ${data.image_url ? `<img class="product-photo" src="${assetUrl(data.image_url)}" alt="${data.title}" />` : ""}
-      <h2 class="view-title product-title">${data.title}</h2>
-      <div class="insight-card">
-        <div class="stat-row">
-          <div class="stat"><b>$${data.price.toFixed(2)}</b><span>${t("price", lang)}</span></div>
-          <div class="stat"><b>${(data.commission_rate * 100).toFixed(0)}%</b><span>${t("commission", lang)}</span></div>
-          <div class="stat"><b>$${data.earnings_per_sale.toFixed(2)}</b><span>${t("per_sale", lang)}</span></div>
-        </div>
-        <div style="font-size:0.8rem;color:var(--text-dim);margin-top:4px">${data.shop_name}</div>
+      <div class="product-gallery">
+        ${data.image_url ? `<img src="${assetUrl(data.image_url)}" alt="${data.title}" />` : ""}
       </div>
+      <h2 class="view-title product-title">${data.title}</h2>
+      <div style="text-align:center;font-size:0.8rem;color:var(--text-dim);margin:-8px 0 12px">${categoryLabel} &middot; ${data.shop_name}</div>
+      <div style="text-align:center;font-size:1.3rem;font-weight:700;margin-bottom:12px">$${data.price.toFixed(2)}</div>
+      <div class="stat-box-grid">${statBoxes.join("")}</div>
       ${
         data.daily_units_14.length > 0
           ? `<div class="insight-card">
@@ -128,7 +139,10 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
             </div>`
           : ""
       }
-      <a class="btn-primary product-fastmoss-link" href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
+      <div class="free-buttons">
+        <a href="${data.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
+        <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
+      </div>
     `;
     if (data.videos.length > 0) {
       loadTikTokEmbedScript();

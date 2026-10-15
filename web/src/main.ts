@@ -2,21 +2,23 @@ import { getLang, setLang, t, type Lang } from "./i18n";
 import { renderMore } from "./views/more";
 import { renderPipeline } from "./views/pipeline";
 import { renderProduct } from "./views/product";
-import { renderRadar } from "./views/radar";
 import { renderResults } from "./views/results";
 import { renderSeason } from "./views/season";
 import { renderSettings } from "./views/settings";
 import { renderThisWeek } from "./views/thisWeek";
+import { renderTodos } from "./views/todos";
 
-// Only 3 tabs in the main nav (added 2026-10-16) -- radar/results/season/
-// settings moved under "Mas" (web/src/views/more.ts) so the bottom-of-phone
-// nav stays simple instead of a 6-way horizontal scroll.
+// 4 tabs (redesign 2026-10-18): Esta semana / Todos / Mi lista / Mas.
+// "Todos" replaces the old "Radar" page as a main tab (same "every
+// candidate" purpose, new ranked-row design); results/season/settings stay
+// under "Mas" so the bottom-of-phone nav doesn't scroll sideways.
 const TABS: { route: string; labelKey: string }[] = [
   { route: "week", labelKey: "nav_this_week" },
+  { route: "todos", labelKey: "nav_all" },
   { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set(["radar", "results", "season", "settings"]);
+const MORE_ROUTES = new Set(["results", "season", "settings"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -62,8 +64,8 @@ async function renderApp(): Promise<void> {
     case "week":
       await renderThisWeek(view, lang);
       break;
-    case "radar":
-      await renderRadar(view, lang);
+    case "todos":
+      await renderTodos(view, lang);
       break;
     case "product":
       await renderProduct(view, lang, route.param ?? "");
