@@ -7,8 +7,6 @@ compatibility_date = "2026-10-15"
 [vars]
 CREDIT_RESET_DATE = "2026-11-15"
 
-# Create with `wrangler kv namespace create product-radar-search-kv`, then
-# paste the id it prints below (see the setup walkthrough).
 [[kv_namespaces]]
 binding = "SEARCH_KV"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "0afd9a40584c49a5b97ffb99d3ebea46"
