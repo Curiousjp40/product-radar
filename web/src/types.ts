@@ -164,3 +164,55 @@ export type PipelineStatusName =
   | "filmed"
   | "posted"
   | "skipped";
+
+// "Buscar cuenta" (account search Worker), added 2026-10-15. The Worker's
+// own response shape, mirroring worker/src/logic.js's map* functions.
+export interface AccountSearchCreator {
+  uid: string;
+  unique_id: string;
+  nickname: string;
+  avatar: string;
+  follower_count: number;
+  video_count_total: number;
+  day28_gmv: number;
+  day28_units_sold: number;
+  day28_video_count: number;
+  total_gmv: number;
+  video_avg_play_count: number;
+  engagement_rate_percent: number;
+  trend_categories: { id: number; name: string }[];
+  age_distribution: { age_range: string; percentage: number }[];
+  gender_distribution: { gender: string; percentage: number }[];
+}
+
+export interface AccountSearchVideo {
+  video_id: string;
+  caption_text: string;
+  play_count: number;
+  video_units_sold: number;
+  video_gmv: number;
+  tiktok_url: string | null;
+}
+
+export interface AccountSearchProduct {
+  product_id: string;
+  title: string;
+  image_url: string | null;
+  price: number;
+  units_sold: number;
+  gmv: number;
+  commission_rate_percent: number;
+}
+
+export interface AccountSearchResult {
+  creator: AccountSearchCreator;
+  top_videos: AccountSearchVideo[];
+  top_products: AccountSearchProduct[];
+  fetched_at: string;
+  from_cache?: boolean;
+  not_found?: boolean;
+  remaining_today?: number;
+  remaining_month?: number;
+  error?: string;
+  message?: string;
+}

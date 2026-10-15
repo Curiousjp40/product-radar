@@ -7,6 +7,7 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 - Never guess FastMoss tool arguments or response fields. Use the saved schemas in `docs/fastmoss_tools.json` and fixtures in `tests/fixtures/`. Missing fields go in `docs/field_map.md`.
 - The FastMoss key is read from the environment only (`.env` locally, GitHub secret `FASTMOSS_API_KEY` in CI). Never print it, commit it, or ask for it in chat. Mask it in logs and error messages (it is part of the MCP URL).
 - Check the credit balance before any paid call; respect the per-run cap (spec section 9); log every call to the credit ledger.
+- Never run `python -m engine.run` in any mode other than `--dry-run`, nor call a FastMoss MCP tool directly, without asking Ryan first and stating the expected credit cost -- `--resume-week` once looked credit-free and silently spent ~45 credits (2026-10-15) because the reuse-from-disk check was wrong. A free, read-only call like `credit_usage_summary` is fine without asking.
 - Algorithms are pure functions with unit tests. Weights and thresholds live in `config/*.yaml`.
 - UI is Spanish-first with an English toggle, and must work at 390px width.
 - Plain-language reasons accompany every score, in Spanish and English.

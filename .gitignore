@@ -12,6 +12,8 @@ __pycache__/
 
 node_modules/
 web/dist/
+worker/.wrangler/
+worker/.dev.vars
 
 .DS_Store
 Thumbs.db

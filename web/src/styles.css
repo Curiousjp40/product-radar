@@ -171,6 +171,115 @@ table.radar-table td {
   text-align: center;
 }
 
+.text-dim {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+/* ---------------------------------------------------------------------
+   Buscar cuenta (account search), added 2026-10-15
+   ------------------------------------------------------------------- */
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.search-box button.btn-accent {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.search-box button.btn-accent:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.search-remaining {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.search-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search-profile h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.search-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.search-video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.search-video-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.search-video-item:last-child {
+  border-bottom: none;
+}
+
+.search-video-caption {
+  font-size: 0.82rem;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-video-stats {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.row-photo {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
 .insight-card {
   background: var(--surface);
   border-radius: var(--radius);
