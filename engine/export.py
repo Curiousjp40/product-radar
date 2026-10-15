@@ -32,6 +32,14 @@ def write_product(product_id: str, detail: dict[str, Any]) -> None:
     _write(DATA_DIR / "products" / f"{product_id}.json", {"schema_version": SCHEMA_VERSION, **detail})
 
 
+def write_hooks(hooks_cfg: dict[str, Any]) -> None:
+    """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
+    2026-10-15) -- static template content (category hooks + shot-list
+    archetypes), not per-week data, but exported the same way so the
+    frontend never needs to parse YAML."""
+    _write(DATA_DIR / "hooks.json", {"schema_version": SCHEMA_VERSION, **hooks_cfg})
+
+
 def write_meta(
     week: str,
     run_id: str,

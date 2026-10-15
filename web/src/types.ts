@@ -35,6 +35,7 @@ export interface Pick {
   summary_en: string;
   videos: VideoCard[];
   fastmoss_url: string;
+  formula_ganadora: FormulaGanadora | null;
 }
 
 export interface PicksFile {
@@ -241,4 +242,13 @@ export interface AccountSearchResult {
   error?: string;
   params?: Record<string, number>;
   detail?: string;
+}
+
+// config/hooks.yaml exported as-is (Part C, added 2026-10-15) -- static
+// template content, not per-week data.
+export interface HooksFile {
+  schema_version: number;
+  hooks: Record<string, { es: string[]; en: string[] }>;
+  shot_lists: Record<string, { es: string[]; en: string[] }>;
+  category_to_shot_list: Record<string, string>;
 }

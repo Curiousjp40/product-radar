@@ -2,14 +2,14 @@ import { loadSeasons } from "../api";
 import { t, type Lang } from "../i18n";
 import type { SeasonEvent } from "../types";
 
-function daysUntil(dateStr: string | null): number | null {
+export function daysUntil(dateStr: string | null): number | null {
   if (!dateStr) return null;
   const target = new Date(dateStr + "T00:00:00Z").getTime();
   const now = Date.now();
   return Math.ceil((target - now) / (1000 * 60 * 60 * 24));
 }
 
-function countdownText(ev: SeasonEvent, lang: Lang): string {
+export function countdownText(ev: SeasonEvent, lang: Lang): string {
   if (!ev.film_start || !ev.film_end) {
     return t("season_dates_tbd", lang);
   }

@@ -32,7 +32,8 @@
       "summary_es": "Tus ventas subieron 279% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
       "summary_en": "Your sales went up 279% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729593807999832237"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729593807999832237",
+      "formula_ganadora": null
     },
     {
       "slot": 2,
@@ -97,7 +98,61 @@
           "duration_seconds": 9
         }
       ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543",
+      "formula_ganadora": {
+        "top_hashtags": [
+          {
+            "hashtag": "halloweencostume",
+            "weight": 75
+          },
+          {
+            "hashtag": "pumpkincostume",
+            "weight": 64
+          },
+          {
+            "hashtag": "halloween2026",
+            "weight": 64
+          },
+          {
+            "hashtag": "sequinpumpkin",
+            "weight": 64
+          },
+          {
+            "hashtag": "pumpkinshirt",
+            "weight": 64
+          },
+          {
+            "hashtag": "tipsyelves",
+            "weight": 7
+          },
+          {
+            "hashtag": "womenshalloweencostume",
+            "weight": 7
+          },
+          {
+            "hashtag": "tiktokshophalloween",
+            "weight": 7
+          }
+        ],
+        "ideal_duration": {
+          "seconds": 24,
+          "source": "videos"
+        },
+        "format_stats": {
+          "reply_pct": 0.0,
+          "price_mention_pct": 0.0,
+          "ad_pct": 100.0
+        },
+        "best_posting_hour": {
+          "hour_start": 15,
+          "hour_end": 17
+        },
+        "top_hooks": [
+          "If you need a quick costume, this is it \ud83d\ude4c\ud83c\udffb",
+          "Halloween costume secured \u2705\ud83c\udf83 not only are these SO CUTE but they are also such great quality \ud83e\udd0c\ud83c\udffc",
+          "STOPPP because this might be the cutest Halloween outfit I\u2019ve found \ud83c\udf83\u2728 Halloween costume = SECURED \ud83d\ude4c\ud83c\udffc The sequins, the pumpkin, the quality\u2026 SO good \ud83d\ude0d This is one of those finds that looks even cuter in person."
+        ]
+      }
     },
     {
       "slot": 3,
@@ -128,7 +183,8 @@
       "summary_es": "Tus ventas subieron 39% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
       "summary_en": "Your sales went up 39% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731906940791328925"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731906940791328925",
+      "formula_ganadora": null
     },
     {
       "slot": 4,
@@ -159,7 +215,8 @@
       "summary_es": "Tus ventas subieron 672% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
       "summary_en": "Your sales went up 672% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732523300086256574"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732523300086256574",
+      "formula_ganadora": null
     },
     {
       "slot": 5,
@@ -190,7 +247,8 @@
       "summary_es": "Tus ventas subieron 71% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
       "summary_en": "Your sales went up 71% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729565286645600783"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729565286645600783",
+      "formula_ganadora": null
     },
     {
       "slot": 6,
@@ -221,7 +279,8 @@
       "summary_es": "Tus ventas subieron 93% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
       "summary_en": "Your sales went up 93% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730843879700075109"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730843879700075109",
+      "formula_ganadora": null
     },
     {
       "slot": 7,
@@ -252,7 +311,8 @@
       "summary_es": "Fajas: $20.79 por cada 1,000 vistas para ti. Tus ventas subieron 54% esta semana.",
       "summary_en": "Shapewear: $20.79 per 1,000 views for you. Your sales went up 54% this week.",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729448905888993450"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729448905888993450",
+      "formula_ganadora": null
     },
     {
       "slot": 8,
@@ -317,38 +377,164 @@
           "duration_seconds": 59
         }
       ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
+      "formula_ganadora": {
+        "top_hashtags": [
+          {
+            "hashtag": "sherpa",
+            "weight": 22
+          },
+          {
+            "hashtag": "comfrtclothing",
+            "weight": 22
+          },
+          {
+            "hashtag": "teddy",
+            "weight": 22
+          },
+          {
+            "hashtag": "winterfit",
+            "weight": 22
+          }
+        ],
+        "ideal_duration": {
+          "seconds": 59,
+          "source": "videos"
+        },
+        "format_stats": {
+          "reply_pct": 0.0,
+          "price_mention_pct": 0.0,
+          "ad_pct": 100.0
+        },
+        "best_posting_hour": {
+          "hour_start": 9,
+          "hour_end": 11
+        },
+        "top_hooks": [
+          "Love",
+          "Love",
+          "LOVE"
+        ]
+      }
     },
     {
       "slot": 9,
       "kind": "explore",
-      "product_id": "1732413125303374302",
-      "title": "FDR Embroidered Script Letter Washed Zip-Up Hoodie, Women's High-Collar Big Hood Sweatshirt Eases Social Anxiety , Flattering Fit & Exclusive Y2K Streetwear Style for Casual Everyday Wear",
-      "clean_title": "FDR Embroidered Script Letter Washed Zip-Up",
-      "image_url": "/img/product_1732413125303374302.webp",
-      "category": "winter_clothing",
-      "shop_name": "FDR",
-      "price": 55.99,
-      "commission_rate": 0.1,
-      "earnings_per_sale": 5.6,
+      "product_id": "1732491682604749463",
+      "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
+      "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
+      "image_url": "/img/product_1732491682604749463.webp",
+      "category": "home_decor",
+      "shop_name": "histrips.",
+      "price": 42.5,
+      "commission_rate": 0.25,
+      "earnings_per_sale": 10.62,
       "stage": "new_to_radar",
-      "score": 58,
-      "ev_typical": 12.73,
-      "ev_upside": 52.79,
+      "score": 63,
+      "ev_typical": 15.48,
+      "ev_upside": 64.22,
       "reasons_es": [
-        "Pagas ~$5.60 por venta.",
-        "Tus ventas subieron 28% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
+        "Pagas ~$10.62 por venta.",
+        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
+        "Tus ventas subieron 27% esta semana."
       ],
       "reasons_en": [
-        "You earn ~$5.60 per sale.",
-        "Your sales went up 28% this week.",
-        "Good timing before Black Friday / Cyber Monday (43 days left)."
+        "You earn ~$10.62 per sale.",
+        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
+        "Your sales went up 27% this week."
       ],
-      "summary_es": "Tus ventas subieron 28% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
-      "summary_en": "Your sales went up 28% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
-      "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732413125303374302"
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Tus ventas subieron 27% esta semana.",
+      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Your sales went up 27% this week.",
+      "videos": [
+        {
+          "video_id": "7680819142462672159",
+          "cover_url": "/img/video_7680819142462672159.jpg",
+          "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
+          "creator_handle": "the_kandiid_guy",
+          "play_count": 1500000,
+          "window_gmv": 10852.97,
+          "window_units_sold": 387,
+          "is_ad": true,
+          "duration_seconds": 33
+        },
+        {
+          "video_id": "7691435211258694926",
+          "cover_url": "/img/video_7691435211258694926.jpg",
+          "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
+          "creator_handle": "mysterypackfinds",
+          "play_count": 2010779,
+          "window_gmv": 4173.5,
+          "window_units_sold": 91,
+          "is_ad": true,
+          "duration_seconds": 56
+        },
+        {
+          "video_id": "7687390788933651743",
+          "cover_url": "/img/video_7687390788933651743.jpg",
+          "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
+          "creator_handle": "showmeproducts",
+          "play_count": 3800000,
+          "window_gmv": 2657.02,
+          "window_units_sold": 84,
+          "is_ad": true,
+          "duration_seconds": 68
+        }
+      ],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
+      "formula_ganadora": {
+        "top_hashtags": [
+          {
+            "hashtag": "histrips",
+            "weight": 158
+          },
+          {
+            "hashtag": "silentalarm",
+            "weight": 74
+          },
+          {
+            "hashtag": "heavysleeper",
+            "weight": 74
+          },
+          {
+            "hashtag": "heavysleeperalarm",
+            "weight": 74
+          },
+          {
+            "hashtag": "alarm",
+            "weight": 11
+          },
+          {
+            "hashtag": "alarmclock",
+            "weight": 11
+          },
+          {
+            "hashtag": "sleep",
+            "weight": 11
+          },
+          {
+            "hashtag": "morning",
+            "weight": 11
+          }
+        ],
+        "ideal_duration": {
+          "seconds": 51,
+          "source": "videos"
+        },
+        "format_stats": {
+          "reply_pct": 0.0,
+          "price_mention_pct": 0.0,
+          "ad_pct": 100.0
+        },
+        "best_posting_hour": {
+          "hour_start": 18,
+          "hour_end": 20
+        },
+        "top_hooks": [
+          "Onyx Vibration Alarm",
+          "The hype on this thing is actually so real",
+          "Silent wrist band alarm"
+        ]
+      }
     }
   ]
 }

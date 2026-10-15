@@ -1,0 +1,176 @@
+# Part C of the 2026-10-15 creator-workflow upgrade: template hooks and shot
+# lists for the "Hoy" (Que grabo hoy) tab. These are generic fallbacks shown
+# alongside the real best hook pulled from a product's own top videos
+# (engine/formula.py's top_hooks) -- a template is only ever a starting
+# point, never a replacement for what's actually selling for her.
+#
+# hooks: 3 per category (es + en), keyed by config/categories.yaml's own
+# category keys so a new target category just needs an entry added here.
+hooks:
+  shapewear:
+    es:
+      - "¿Cómo me veo así en 10 segundos? Te lo muestro"
+      - "El secreto que uso debajo de mi ropa"
+      - "Antes y después que no vas a creer"
+    en:
+      - "How do I look like this in 10 seconds? Let me show you"
+      - "The secret I wear under my clothes"
+      - "Before and after you won't believe"
+  dresses:
+    es:
+      - "El vestido que todas me preguntan"
+      - "Me lo probe y no me lo quite mas"
+      - "Un vestido, tres looks diferentes"
+    en:
+      - "The dress everyone keeps asking about"
+      - "I tried it on and never took it off"
+      - "One dress, three different looks"
+  sets:
+    es:
+      - "Este conjunto resuelve mi outfit en segundos"
+      - "Lo combine de 3 formas distintas"
+      - "El set que parece mas caro de lo que es"
+    en:
+      - "This set solves my outfit in seconds"
+      - "I styled it 3 different ways"
+      - "The set that looks more expensive than it is"
+  furniture:
+    es:
+      - "Asi transforme mi comedor por menos de $X"
+      - "No vas a creer el antes de este mueble"
+      - "Arme esto en menos de 10 minutos"
+    en:
+      - "This is how I transformed my dining room for under $X"
+      - "You won't believe the before on this piece"
+      - "I put this together in under 10 minutes"
+  home_decor:
+    es:
+      - "El detalle que cambio toda mi sala"
+      - "Decorar con poco presupuesto: esto fue lo mejor"
+      - "Asi se ve mi espacio antes y despues"
+    en:
+      - "The one detail that changed my whole living room"
+      - "Decorating on a budget: this was the best find"
+      - "My space before and after"
+  winter_clothing:
+    es:
+      - "Mi arma secreta para el frio"
+      - "Calentita y con estilo, asi de facil"
+      - "Lo que uso para no pasar frio este invierno"
+    en:
+      - "My secret weapon for the cold"
+      - "Warm and stylish, it's that easy"
+      - "What I wear to stay warm this winter"
+  shoes:
+    es:
+      - "Los zapatos que combino con todo"
+      - "Comodos TODO el dia, te lo juro"
+      - "El par que no sabia que necesitaba"
+    en:
+      - "The shoes I wear with everything"
+      - "Comfortable ALL day, I promise"
+      - "The pair I didn't know I needed"
+  pet_furniture:
+    es:
+      - "Mi gato no se baja de esto"
+      - "Lo compre para mi mascota y ahora es mi favorito tambien"
+      - "Asi reacciono mi perro cuando lo vio"
+    en:
+      - "My cat won't get off of this"
+      - "I bought it for my pet and now it's my favorite too"
+      - "This is how my dog reacted when he saw it"
+  home_storage:
+    es:
+      - "Asi organice todo en un fin de semana"
+      - "El closet que necesitabas ver"
+      - "Guarde el doble con este truco"
+    en:
+      - "This is how I organized everything in one weekend"
+      - "The closet you needed to see"
+      - "I doubled my storage with this trick"
+  costumes:
+    es:
+      - "El disfraz que todas me van a copiar"
+      - "Listo en minutos para Halloween"
+      - "Mi disfraz favorito de este año"
+    en:
+      - "The costume everyone's going to copy"
+      - "Ready in minutes for Halloween"
+      - "My favorite costume this year"
+  pajamas:
+    es:
+      - "La pijama mas comoda que eh tenido"
+      - "Asi me regalo a mi misma un buen dormir"
+      - "El set de pijama perfecto para regalar"
+    en:
+      - "The comfiest pajamas I've ever owned"
+      - "This is how I treat myself to a good night's sleep"
+      - "The perfect pajama set to gift"
+  activewear:
+    es:
+      - "Mi outfit para entrenar sin sacrificar estilo"
+      - "Esto es lo que uso para mis rutinas"
+      - "Comodo para entrenar, lindo para salir"
+    en:
+      - "My workout fit that doesn't sacrifice style"
+      - "This is what I wear for my routines"
+      - "Comfortable for the gym, cute for errands"
+
+# shot_lists: 4-5 short steps per video-format archetype (es + en), shared
+# across categories via category_to_shot_list below -- most apparel shares
+# the same try-on structure, most home-goods share the same makeover
+# structure, so the archetype is what actually differs, not the category.
+shot_lists:
+  try_on:
+    es:
+      - "Gancho frente al espejo"
+      - "Primer plano de la tela/ajuste"
+      - "Antes y despues"
+      - "Muestra el precio en pantalla"
+      - "Llamado a la accion: \"link en el carrito naranja\""
+    en:
+      - "Hook in the mirror"
+      - "Close-up of the fabric/fit"
+      - "Before and after"
+      - "Show the price on screen"
+      - "Call to action: \"link in the orange cart\""
+  room_makeover:
+    es:
+      - "Espacio vacio o desordenado"
+      - "Desempaque del producto"
+      - "Resultado ya armado"
+      - "Tomas de detalle"
+      - "Muestra el precio"
+    en:
+      - "Empty or messy space"
+      - "Unboxing the product"
+      - "Assembled result"
+      - "Detail shots"
+      - "Show the price"
+  pet_item:
+    es:
+      - "Gancho: la reaccion de tu mascota"
+      - "Muestra el producto de cerca"
+      - "Tu mascota usandolo"
+      - "Antes y despues"
+      - "Muestra el precio en pantalla"
+    en:
+      - "Hook: your pet's reaction"
+      - "Close-up of the product"
+      - "Your pet using it"
+      - "Before and after"
+      - "Show the price on screen"
+
+category_to_shot_list:
+  shapewear: try_on
+  dresses: try_on
+  sets: try_on
+  winter_clothing: try_on
+  shoes: try_on
+  costumes: try_on
+  pajamas: try_on
+  activewear: try_on
+  furniture: room_makeover
+  home_decor: room_makeover
+  home_storage: room_makeover
+  pet_furniture: pet_item

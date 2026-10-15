@@ -3579,7 +3579,7 @@
         103,
         91
       ],
-      "is_pick": false,
+      "is_pick": true,
       "has_enrichment": true,
       "suspicious": false,
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
@@ -4482,7 +4482,7 @@
       "score": 58,
       "ev_typical": 12.73,
       "daily_units": [],
-      "is_pick": true,
+      "is_pick": false,
       "has_enrichment": false,
       "suspicious": false,
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732413125303374302",

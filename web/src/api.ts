@@ -1,4 +1,4 @@
-import type { CandidatesFile, InsightsFile, MetaFile, PicksFile, ProductDetail, SeasonsFile } from "./types";
+import type { CandidatesFile, HooksFile, InsightsFile, MetaFile, PicksFile, ProductDetail, SeasonsFile } from "./types";
 
 /** Tries the real data path first, falls back to the synthetic sample data
  * (Phase 0a has no scoring pipeline yet, so /data/*.json won't exist until
@@ -35,3 +35,4 @@ export const loadInsights = () => loadJson<InsightsFile>("insights.json");
 export const loadSeasons = () => loadJson<SeasonsFile>("seasons.json");
 export const loadMeta = () => loadJson<MetaFile>("meta.json");
 export const loadProduct = (productId: string) => loadJson<ProductDetail>(`products/${productId}.json`);
+export const loadHooks = () => loadJson<HooksFile>("hooks.json");

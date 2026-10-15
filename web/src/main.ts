@@ -1,5 +1,6 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
 import { renderBuscarCuenta } from "./views/buscarCuenta";
+import { renderHoy } from "./views/hoy";
 import { renderMore } from "./views/more";
 import { renderPipeline } from "./views/pipeline";
 import { renderProduct } from "./views/product";
@@ -8,11 +9,12 @@ import { renderSettings } from "./views/settings";
 import { renderThisWeek } from "./views/thisWeek";
 import { renderTodos } from "./views/todos";
 
-// 4 tabs (redesign 2026-10-18): Esta semana / Todos / Mi lista / Mas.
-// "Todos" replaces the old "Radar" page as a main tab (same "every
-// candidate" purpose, new ranked-row design); results/season/settings stay
-// under "Mas" so the bottom-of-phone nav doesn't scroll sideways.
+// Tabs (Part C, added 2026-10-15): Hoy is now the first screen -- Esta
+// semana / Todos / Mi lista / Mas keep their 2026-10-18 order after it.
+// Full tab-bar reshuffle (adding Muestras, where Mi lista ends up) is
+// Part F's job, not this one's.
 const TABS: { route: string; labelKey: string }[] = [
+  { route: "hoy", labelKey: "nav_hoy" },
   { route: "week", labelKey: "nav_this_week" },
   { route: "todos", labelKey: "nav_all" },
   { route: "pipeline", labelKey: "nav_pipeline" },
@@ -22,7 +24,7 @@ const MORE_ROUTES = new Set(["buscar", "season", "settings"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
-  if (!hash) return { name: "week" };
+  if (!hash) return { name: "hoy" };
   const [name, param] = hash.split("/");
   return { name, param };
 }
@@ -61,6 +63,9 @@ async function renderApp(): Promise<void> {
   const view = document.getElementById("view")!;
   const route = currentRoute();
   switch (route.name) {
+    case "hoy":
+      await renderHoy(view, lang);
+      break;
     case "week":
       await renderThisWeek(view, lang);
       break;
@@ -86,7 +91,7 @@ async function renderApp(): Promise<void> {
       renderMore(view, lang);
       break;
     default:
-      await renderThisWeek(view, lang);
+      await renderHoy(view, lang);
   }
 }
 

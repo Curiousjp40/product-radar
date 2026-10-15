@@ -24,4 +24,5 @@ def load_all() -> dict[str, Any]:
         "categories": _load("categories.yaml"),
         "weights": _load("weights.yaml"),
         "seasons": _load("seasons.yaml"),
+        "hooks": _load("hooks.yaml"),
     }

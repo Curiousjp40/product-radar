@@ -925,3 +925,58 @@ select.status-select {
 .todos-row.suspicious {
   opacity: 0.5;
 }
+
+/* ---------------------------------------------------------------------
+   "Hoy" tab (Part C, added 2026-10-15)
+   ------------------------------------------------------------------- */
+.hoy-season-countdown {
+  margin: -4px 0 12px;
+  padding: 8px 12px;
+  background: var(--surface-2);
+  border-radius: 10px;
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.hoy-card-list {
+  grid-template-columns: 1fr;
+}
+
+.hoy-hook-real,
+.hoy-hook-template {
+  margin: 0 0 4px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.hoy-hook-real .formula-label,
+.hoy-hook-template .formula-label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.hoy-shot-list ol {
+  margin: 4px 0 0;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.btn-mark-filmed {
+  flex: 1;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.btn-mark-filmed.active {
+  background: var(--good);
+  color: #fff;
+  cursor: default;
+}

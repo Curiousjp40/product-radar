@@ -13,6 +13,7 @@ export function locale(lang: Lang): string {
 }
 
 const dict: Record<string, { es: string; en: string }> = {
+  nav_hoy: { es: "Hoy", en: "Today" },
   nav_this_week: { es: "Esta semana", en: "This week" },
   nav_all: { es: "Todos", en: "All" },
   group_fashion: { es: "Moda", en: "Fashion" },
@@ -52,6 +53,20 @@ const dict: Record<string, { es: string; en: string }> = {
   ad_stat_label: { es: "Son anuncios", en: "Are ads" },
   best_hour_label: { es: "Mejor hora para publicar", en: "Best time to post" },
   hooks_label: { es: "Ganchos que funcionan", en: "Hooks that work" },
+  // "Hoy" tab (Part C, added 2026-10-15).
+  hoy_title: { es: "Qué grabo hoy", en: "What to film today" },
+  hoy_empty: {
+    es: "No hay productos nuevos que grabar hoy. ¡Buen trabajo!",
+    en: "No new products to film today. Nice work!",
+  },
+  suggested_hook_label: { es: "Gancho sugerido", en: "Suggested hook" },
+  template_hook_label: { es: "Idea de gancho", en: "Hook idea" },
+  shot_list_label: { es: "Plan de tomas", en: "Shot list" },
+  video_duration_label: { es: "Duración", en: "Length" },
+  video_duration_range: { es: "{lo}-{hi} segundos", en: "{lo}-{hi} seconds" },
+  mark_filmed_button: { es: "Marcar como grabado", en: "Mark as filmed" },
+  see_selling_videos_button: { es: "Ver videos que venden", en: "See the videos that sell" },
+  marked_filmed_label: { es: "Grabado ✓", en: "Filmed ✓" },
   earn_headline: { es: "Ganas ${amount} por venta", en: "You earn ${amount} per sale" },
   commission: { es: "Comisión", en: "Commission" },
   per_sale: { es: "Por venta", en: "Per sale" },

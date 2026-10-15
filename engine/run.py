@@ -1034,7 +1034,10 @@ def _video_card_dicts(videos: list[dict] | None, limit: int) -> list[dict]:
 
 
 def picks_to_export_dicts(
-    picks: list[dict], creator_avg_gpm: float | None = None, spanish_gap_reason_max_share: float = 0.3
+    picks: list[dict],
+    creator_avg_gpm: float | None = None,
+    spanish_gap_reason_max_share: float = 0.3,
+    creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
 ) -> list[dict]:
     out = []
     for p in picks:
@@ -1069,6 +1072,13 @@ def picks_to_export_dicts(
                 "summary_en": join_reasons_as_sentence(summary_reasons_en, "en"),
                 "videos": _video_card_dicts(p.get("videos"), limit=3),
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=p["product_id"]),
+                # Part C (added 2026-10-15): the Hoy tab needs each pick's
+                # hashtags/best hook without an extra per-product fetch.
+                # Computed from the full video list, not the 3-card limit
+                # above, for the best hashtag-weighting accuracy.
+                "formula_ganadora": (
+                    formula_ganadora_dict(p["videos"], creator_sweet_spot_seconds) if p.get("videos") else None
+                ),
             }
         )
     return out
@@ -1313,14 +1323,15 @@ async def run(args: argparse.Namespace) -> None:
         creators_cfg["category_gpm_per_1k_views"], creators_cfg["category_views"]
     )
     spanish_gap_reason_max_share = weights["fit"]["spanish_gap_reason_max_share"]
+    sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
     pick_ids = {p["product_id"] for p in picks}
-    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share)
+    pick_dicts = picks_to_export_dicts(picks, creator_avg_gpm, spanish_gap_reason_max_share, sweet_spot)
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged)
 
-    sweet_spot = tuple(weights["formula_ganadora"]["creator_sweet_spot_seconds"])
     if not args.dry_run:
         export.write_picks(week, CREATOR, pick_dicts)
         export.write_candidates(week, candidate_dicts)
+        export.write_hooks(config["hooks"])
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}
