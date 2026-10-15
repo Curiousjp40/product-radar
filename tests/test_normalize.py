@@ -13,6 +13,7 @@ from engine.normalize import (
     normalize_creator_video,
     normalize_daily_trend,
     normalize_rank_row,
+    rank_videos_by_sales,
     trend_period_summary,
     video_cards_from_product_video_list,
 )
@@ -137,8 +138,36 @@ def test_video_cards_from_product_video_list_real_fixture():
     assert first["play_count"] == 3725608
     assert first["window_gmv"] == 2572.02
     assert first["window_units_sold"] == 82
+    assert first["is_ad"] is True
+    assert first["duration_seconds"] == 68
+    assert first["published_at"] == 1789860158
 
 
 def test_video_cards_from_product_video_list_empty():
     assert video_cards_from_product_video_list({"videos": []}) == []
     assert video_cards_from_product_video_list({}) == []
+
+
+def test_rank_videos_by_sales_real_case():
+    # the real case this guards against: the top-play video (3.7M plays) had
+    # fewer sales (82 units) than the #2-by-plays video (91 units, 2.0M
+    # plays) -- play_count order and sales order are not the same.
+    result = _load("fastmoss_product_video_list.json")
+    cards = video_cards_from_product_video_list(result)
+    ranked = rank_videos_by_sales(cards)
+    assert [c["window_units_sold"] for c in ranked] == [91, 82, 49]
+    assert ranked[0]["video_id"] == "7691435211258694926"
+
+
+def test_rank_videos_by_sales_ties_break_on_gmv_then_plays():
+    cards = [
+        {"video_id": "a", "window_units_sold": 10, "window_gmv": 50.0, "play_count": 100},
+        {"video_id": "b", "window_units_sold": 10, "window_gmv": 80.0, "play_count": 50},
+        {"video_id": "c", "window_units_sold": 5, "window_gmv": 999.0, "play_count": 999999},
+    ]
+    ranked = rank_videos_by_sales(cards)
+    assert [c["video_id"] for c in ranked] == ["b", "a", "c"]
+
+
+def test_rank_videos_by_sales_empty():
+    assert rank_videos_by_sales([]) == []

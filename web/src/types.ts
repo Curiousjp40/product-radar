@@ -9,6 +9,8 @@ export interface VideoCard {
   play_count: number;
   window_gmv: number;
   window_units_sold: number;
+  is_ad: boolean;
+  duration_seconds: number | null;
 }
 
 export interface Pick {

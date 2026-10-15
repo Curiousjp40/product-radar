@@ -36,13 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Autumn%20European-American%20Court%20Style%20Special",
   "videos": [
     {
-      "video_id": "7693593011661344030",
-      "cover_url": "/img/video_7693593011661344030.jpg",
-      "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693593011661344030",
-      "creator_handle": "thesl.shop",
-      "play_count": 1200000,
-      "window_gmv": 1722.41,
-      "window_units_sold": 67
+      "video_id": "7694654327411068190",
+      "cover_url": "/img/video_7694654327411068190.jpg",
+      "tiktok_url": "https://www.tiktok.com/@masatthing/video/7694654327411068190",
+      "creator_handle": "masatthing",
+      "play_count": 219800,
+      "window_gmv": 4149.6,
+      "window_units_sold": 168,
+      "is_ad": true,
+      "duration_seconds": 14
     },
     {
       "video_id": "7693589631635393822",
@@ -51,25 +53,20 @@
       "creator_handle": "thesl.shop",
       "play_count": 719800,
       "window_gmv": 3238.24,
-      "window_units_sold": 129
+      "window_units_sold": 129,
+      "is_ad": true,
+      "duration_seconds": 9
     },
     {
-      "video_id": "7694654327411068190",
-      "cover_url": "/img/video_7694654327411068190.jpg",
-      "tiktok_url": "https://www.tiktok.com/@masatthing/video/7694654327411068190",
-      "creator_handle": "masatthing",
-      "play_count": 219800,
-      "window_gmv": 4149.6,
-      "window_units_sold": 168
-    },
-    {
-      "video_id": "7694624488746470687",
-      "cover_url": "/img/video_7694624488746470687.jpg",
-      "tiktok_url": "https://www.tiktok.com/@clothingplanetc/video/7694624488746470687",
-      "creator_handle": "clothingplanetc",
-      "play_count": 119895,
-      "window_gmv": 98.8,
-      "window_units_sold": 4
+      "video_id": "7693593011661344030",
+      "cover_url": "/img/video_7693593011661344030.jpg",
+      "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693593011661344030",
+      "creator_handle": "thesl.shop",
+      "play_count": 1200000,
+      "window_gmv": 1722.41,
+      "window_units_sold": 67,
+      "is_ad": true,
+      "duration_seconds": 11
     },
     {
       "video_id": "7694038505906785566",
@@ -78,7 +75,9 @@
       "creator_handle": "thesl.shop",
       "play_count": 68100,
       "window_gmv": 1567.8,
-      "window_units_sold": 63
+      "window_units_sold": 63,
+      "is_ad": true,
+      "duration_seconds": 11
     },
     {
       "video_id": "7693547312622128397",
@@ -87,7 +86,20 @@
       "creator_handle": "local.shopus",
       "play_count": 48900,
       "window_gmv": 201.5,
-      "window_units_sold": 8
+      "window_units_sold": 8,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7694624488746470687",
+      "cover_url": "/img/video_7694624488746470687.jpg",
+      "tiktok_url": "https://www.tiktok.com/@clothingplanetc/video/7694624488746470687",
+      "creator_handle": "clothingplanetc",
+      "play_count": 119895,
+      "window_gmv": 98.8,
+      "window_units_sold": 4,
+      "is_ad": true,
+      "duration_seconds": 10
     }
   ]
 }

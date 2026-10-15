@@ -42,7 +42,9 @@
       "creator_handle": "ariii.x",
       "play_count": 4200000,
       "window_gmv": 10853.99,
-      "window_units_sold": 105
+      "window_units_sold": 105,
+      "is_ad": true,
+      "duration_seconds": 9
     },
     {
       "video_id": "7688250425048370445",
@@ -51,25 +53,9 @@
       "creator_handle": "ariii.x",
       "play_count": 4057134,
       "window_gmv": 10434.44,
-      "window_units_sold": 104
-    },
-    {
-      "video_id": "7672630301633432845",
-      "cover_url": "/img/video_7672630301633432845.jpg",
-      "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7672630301633432845",
-      "creator_handle": "ariii.x",
-      "play_count": 1900000,
-      "window_gmv": 6889.18,
-      "window_units_sold": 70
-    },
-    {
-      "video_id": "7690743547921845517",
-      "cover_url": "/img/video_7690743547921845517.jpg",
-      "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7690743547921845517",
-      "creator_handle": "ariii.x",
-      "play_count": 759292,
-      "window_gmv": 6386.39,
-      "window_units_sold": 60
+      "window_units_sold": 104,
+      "is_ad": true,
+      "duration_seconds": 9
     },
     {
       "video_id": "7664460982491696397",
@@ -78,7 +64,31 @@
       "creator_handle": "ariii.x",
       "play_count": 189900,
       "window_gmv": 7296.64,
-      "window_units_sold": 78
+      "window_units_sold": 78,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7672630301633432845",
+      "cover_url": "/img/video_7672630301633432845.jpg",
+      "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7672630301633432845",
+      "creator_handle": "ariii.x",
+      "play_count": 1900000,
+      "window_gmv": 6889.18,
+      "window_units_sold": 70,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7690743547921845517",
+      "cover_url": "/img/video_7690743547921845517.jpg",
+      "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7690743547921845517",
+      "creator_handle": "ariii.x",
+      "play_count": 759292,
+      "window_gmv": 6386.39,
+      "window_units_sold": 60,
+      "is_ad": true,
+      "duration_seconds": 9
     },
     {
       "video_id": "7676357742352698637",
@@ -87,7 +97,9 @@
       "creator_handle": "ariii.x",
       "play_count": 89100,
       "window_gmv": 3591.54,
-      "window_units_sold": 35
+      "window_units_sold": 35,
+      "is_ad": true,
+      "duration_seconds": 9
     }
   ]
 }

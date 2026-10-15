@@ -36,40 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Cute%20Cotton%20Donut%20Sleeping%20Nest",
   "videos": [
     {
-      "video_id": "7679676749659098399",
-      "cover_url": "/img/video_7679676749659098399.jpg",
-      "tiktok_url": "https://www.tiktok.com/@kaorigurll/video/7679676749659098399",
-      "creator_handle": "kaorigurll",
-      "play_count": 185100,
-      "window_gmv": 0,
-      "window_units_sold": 0
-    },
-    {
-      "video_id": "7688929270915140894",
-      "cover_url": "/img/video_7688929270915140894.jpg",
-      "tiktok_url": "https://www.tiktok.com/@losverahome/video/7688929270915140894",
-      "creator_handle": "losverahome",
-      "play_count": 20000,
-      "window_gmv": 146.33,
-      "window_units_sold": 5
-    },
-    {
       "video_id": "7692212089695276319",
       "cover_url": "/img/video_7692212089695276319.jpg",
       "tiktok_url": "https://www.tiktok.com/@madmompolly/video/7692212089695276319",
       "creator_handle": "madmompolly",
       "play_count": 14965,
       "window_gmv": 698.54,
-      "window_units_sold": 26
-    },
-    {
-      "video_id": "7694372168766852383",
-      "cover_url": "/img/video_7694372168766852383.jpg",
-      "tiktok_url": "https://www.tiktok.com/@madmompolly/video/7694372168766852383",
-      "creator_handle": "madmompolly",
-      "play_count": 7255,
-      "window_gmv": 274.86,
-      "window_units_sold": 9
+      "window_units_sold": 26,
+      "is_ad": true,
+      "duration_seconds": 23
     },
     {
       "video_id": "7692656587638459678",
@@ -78,7 +53,9 @@
       "creator_handle": "dulcevause",
       "play_count": 6710,
       "window_gmv": 355.68,
-      "window_units_sold": 13
+      "window_units_sold": 13,
+      "is_ad": true,
+      "duration_seconds": 23
     },
     {
       "video_id": "7686035503438761247",
@@ -87,7 +64,42 @@
       "creator_handle": "dulcevause",
       "play_count": 4396,
       "window_gmv": 346.98,
-      "window_units_sold": 13
+      "window_units_sold": 13,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7694372168766852383",
+      "cover_url": "/img/video_7694372168766852383.jpg",
+      "tiktok_url": "https://www.tiktok.com/@madmompolly/video/7694372168766852383",
+      "creator_handle": "madmompolly",
+      "play_count": 7255,
+      "window_gmv": 274.86,
+      "window_units_sold": 9,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7688929270915140894",
+      "cover_url": "/img/video_7688929270915140894.jpg",
+      "tiktok_url": "https://www.tiktok.com/@losverahome/video/7688929270915140894",
+      "creator_handle": "losverahome",
+      "play_count": 20000,
+      "window_gmv": 146.33,
+      "window_units_sold": 5,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7679676749659098399",
+      "cover_url": "/img/video_7679676749659098399.jpg",
+      "tiktok_url": "https://www.tiktok.com/@kaorigurll/video/7679676749659098399",
+      "creator_handle": "kaorigurll",
+      "play_count": 185100,
+      "window_gmv": 0,
+      "window_units_sold": 0,
+      "is_ad": false,
+      "duration_seconds": 148
     }
   ]
 }

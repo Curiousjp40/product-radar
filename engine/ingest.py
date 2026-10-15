@@ -78,7 +78,7 @@ async def fetch_product_videos(
     product_id: str,
     *,
     time_range_days: int = 90,
-    pagesize: int = 6,
+    pagesize: int = 10,
 ) -> dict:
     """Videos FastMoss has linked to this specific product (section 6.8's
     Spanish-gap input, and the dashboard's "videos selling this product"
@@ -86,7 +86,12 @@ async def fetch_product_videos(
     keyword search, which matched loosely and surfaced unrelated videos
     (homecoming, movie trailers) for products whose titles happened to share
     common words. Filtering by `product_id` returns only videos genuinely
-    linked to it; confirmed via one real call, see docs/field_map.md."""
+    linked to it; confirmed via one real call, see docs/field_map.md.
+
+    pagesize raised 6 -> 10 (same 1 credit either way) so
+    `rank_videos_by_sales` (engine/normalize.py) has more videos to rank by
+    actual sales from, not just whatever page FastMoss's own ordering put
+    first -- `orderby` isn't a documented/trustworthy sort for this tool."""
     return await client.call(
         "product_video_list",
         {

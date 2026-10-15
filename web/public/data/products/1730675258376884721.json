@@ -13,11 +13,60 @@
   "earnings_per_sale": 0.76,
   "units_7d": 1963,
   "units_total": 159402,
-  "creator_count": null,
-  "video_count": null,
-  "daily_units_14": [],
+  "creator_count": 769,
+  "video_count": 465,
+  "daily_units_14": [
+    1847,
+    2649,
+    2267,
+    2220,
+    2091,
+    2450,
+    2233,
+    1891,
+    2513,
+    2412,
+    2965,
+    3413,
+    2085,
+    3034
+  ],
   "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730675258376884721",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FeelinGirl%20%23Livestream%20Seamless%20Thong%20Bodysuit%20Comfort",
-  "videos": []
+  "videos": [
+    {
+      "video_id": "7691435211258694926",
+      "cover_url": "/img/video_7691435211258694926.jpg",
+      "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
+      "creator_handle": "mysterypackfinds",
+      "play_count": 2010779,
+      "window_gmv": 4173.5,
+      "window_units_sold": 91,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7687390788933651743",
+      "cover_url": "/img/video_7687390788933651743.jpg",
+      "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
+      "creator_handle": "showmeproducts",
+      "play_count": 3725608,
+      "window_gmv": 2572.02,
+      "window_units_sold": 82,
+      "is_ad": true,
+      "duration_seconds": 68
+    },
+    {
+      "video_id": "7687749104914418958",
+      "cover_url": "/img/video_7687749104914418958.jpg",
+      "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7687749104914418958",
+      "creator_handle": "zach.finds",
+      "play_count": 1748207,
+      "window_gmv": 1073,
+      "window_units_sold": 49,
+      "is_ad": true,
+      "duration_seconds": 46
+    }
+  ]
 }

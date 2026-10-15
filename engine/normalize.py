@@ -133,13 +133,22 @@ def video_cards_from_product_video_list(result: dict) -> list[dict]:
     Spanish-gap signal and the dashboard's video cards (replaces
     `video_search`, added 2026-10-15 -- see docs/field_map.md for the
     confirmed shape). Each video is genuinely linked to the product (FastMoss
-    filtered by product_id), unlike video_search's free-text match."""
+    filtered by product_id), unlike video_search's free-text match.
+
+    `is_ad`/`duration_seconds`/`published_at` added 2026-10-15 for the
+    "Formula Ganadora" box (section 8.4-equivalent): ad-vs-organic share,
+    length sweet spot, and best posting hour all need these per-video.
+    Order here is whatever FastMoss returned -- callers that care about
+    sales ranking must call `rank_videos_by_sales` explicitly; `orderby`
+    isn't documented for this tool (docs/fastmoss_tools.json has no
+    `items`/enum for it) so it can't be trusted on its own."""
     cards = []
     for v in result.get("videos", []):
         meta = v.get("video_meta", {})
         engagement = v.get("engagement_metrics", {})
         contribution = v.get("product_contribution", {})
         creator = v.get("creator", {})
+        flags = v.get("traffic_flags", {})
         cards.append(
             {
                 "video_id": v.get("video_id"),
@@ -151,9 +160,28 @@ def video_cards_from_product_video_list(result: dict) -> list[dict]:
                 "play_count": engagement.get("play_count", 0),
                 "window_gmv": contribution.get("window_gmv", 0.0),
                 "window_units_sold": contribution.get("window_units_sold", 0),
+                "is_ad": bool(flags.get("is_ad", False)),
+                "duration_seconds": meta.get("duration_seconds"),
+                "published_at": meta.get("published_at"),
             }
         )
     return cards
+
+
+def rank_videos_by_sales(cards: list[dict]) -> list[dict]:
+    """ALWAYS re-sort a product's videos ourselves before saving/showing them
+    (added 2026-10-15, real case: a product's top-play video (3.7M views) had
+    fewer sales (82 units) than its #2 video by plays (91 units, 2.0M views)
+    -- play_count order and sales order are NOT the same, and
+    product_video_list's `orderby` isn't documented well enough to trust
+    (docs/fastmoss_tools.json's schema has no items/enum for it). Units sold
+    first, GMV as the tiebreak (a product can have a high-unit low-price
+    video outrank a true top earner), then play_count last."""
+    return sorted(
+        cards,
+        key=lambda v: (v.get("window_units_sold", 0), v.get("window_gmv", 0.0), v.get("play_count", 0)),
+        reverse=True,
+    )
 
 
 def ads_share_pct_from_overview(overview_result: dict) -> float | None:

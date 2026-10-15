@@ -36,22 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Handmade%20Crochet%20Flowers%20Bouquet%20Halloween%20Gift",
   "videos": [
     {
-      "video_id": "7691814601222098189",
-      "cover_url": "/img/video_7691814601222098189.png",
-      "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7691814601222098189",
-      "creator_handle": "iluvdealz",
-      "play_count": 1500000,
-      "window_gmv": 1744.35,
-      "window_units_sold": 63
-    },
-    {
-      "video_id": "7692072155273514254",
-      "cover_url": "/img/video_7692072155273514254.png",
-      "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7692072155273514254",
-      "creator_handle": "iluvdealz",
-      "play_count": 1300000,
-      "window_gmv": 2332.48,
-      "window_units_sold": 74
+      "video_id": "7689468490343795982",
+      "cover_url": "/img/video_7689468490343795982.png",
+      "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7689468490343795982",
+      "creator_handle": "ibecamethebest",
+      "play_count": 649600,
+      "window_gmv": 5865.79,
+      "window_units_sold": 178,
+      "is_ad": false,
+      "duration_seconds": 0
     },
     {
       "video_id": "7688728348440186126",
@@ -60,25 +53,9 @@
       "creator_handle": "ibecamethebest",
       "play_count": 716500,
       "window_gmv": 4140.62,
-      "window_units_sold": 118
-    },
-    {
-      "video_id": "7689468490343795982",
-      "cover_url": "/img/video_7689468490343795982.png",
-      "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7689468490343795982",
-      "creator_handle": "ibecamethebest",
-      "play_count": 649600,
-      "window_gmv": 5865.79,
-      "window_units_sold": 178
-    },
-    {
-      "video_id": "7689036107337567519",
-      "cover_url": "/img/video_7689036107337567519.jpg",
-      "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519",
-      "creator_handle": "youseecozygifts",
-      "play_count": 582500,
-      "window_gmv": 335.52,
-      "window_units_sold": 11
+      "window_units_sold": 118,
+      "is_ad": false,
+      "duration_seconds": 0
     },
     {
       "video_id": "7686508420614180110",
@@ -87,7 +64,42 @@
       "creator_handle": "jaimeprimedeals",
       "play_count": 575100,
       "window_gmv": 3175.05,
-      "window_units_sold": 95
+      "window_units_sold": 95,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7692072155273514254",
+      "cover_url": "/img/video_7692072155273514254.png",
+      "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7692072155273514254",
+      "creator_handle": "iluvdealz",
+      "play_count": 1300000,
+      "window_gmv": 2332.48,
+      "window_units_sold": 74,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7691814601222098189",
+      "cover_url": "/img/video_7691814601222098189.png",
+      "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7691814601222098189",
+      "creator_handle": "iluvdealz",
+      "play_count": 1500000,
+      "window_gmv": 1744.35,
+      "window_units_sold": 63,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7689036107337567519",
+      "cover_url": "/img/video_7689036107337567519.jpg",
+      "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519",
+      "creator_handle": "youseecozygifts",
+      "play_count": 582500,
+      "window_gmv": 335.52,
+      "window_units_sold": 11,
+      "is_ad": true,
+      "duration_seconds": 13
     }
   ]
 }

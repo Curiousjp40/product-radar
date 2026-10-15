@@ -42,6 +42,9 @@ function videoEmbed(video: VideoCard, lang: Lang): string {
       <div class="video-embed-stats">
         <span>${formatCount(video.play_count)} ${t("views_short", lang)}</span>
         <span>${video.window_units_sold} ${t("sales_short", lang)}</span>
+        <span>$${video.window_gmv.toFixed(0)}</span>
+        <span>@${video.creator_handle}</span>
+        ${video.is_ad ? `<span class="ad-tag">${t("ad_tag", lang)}</span>` : ""}
       </div>
     </div>
   `;
@@ -143,6 +146,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
         <a href="${data.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
         <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
       </div>
+      <p class="free-buttons-note">${t("tiktok_search_note", lang)}</p>
     `;
     if (data.videos.length > 0) {
       loadTikTokEmbedScript();

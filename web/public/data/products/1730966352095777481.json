@@ -42,7 +42,9 @@
       "creator_handle": "anniefernn",
       "play_count": 1500000,
       "window_gmv": 2173.52,
-      "window_units_sold": 114
+      "window_units_sold": 114,
+      "is_ad": true,
+      "duration_seconds": 7
     },
     {
       "video_id": "7673972291285339405",
@@ -51,34 +53,9 @@
       "creator_handle": "shopwithgig1",
       "play_count": 1100000,
       "window_gmv": 2057.79,
-      "window_units_sold": 113
-    },
-    {
-      "video_id": "7686361280541658382",
-      "cover_url": "/img/video_7686361280541658382.jpg",
-      "tiktok_url": "https://www.tiktok.com/@alissia.valentine/video/7686361280541658382",
-      "creator_handle": "alissia.valentine",
-      "play_count": 546200,
-      "window_gmv": 631.05,
-      "window_units_sold": 30
-    },
-    {
-      "video_id": "7674482790557093134",
-      "cover_url": "/img/video_7674482790557093134.jpg",
-      "tiktok_url": "https://www.tiktok.com/@joanna.zakk/video/7674482790557093134",
-      "creator_handle": "joanna.zakk",
-      "play_count": 520400,
-      "window_gmv": 755.01,
-      "window_units_sold": 34
-    },
-    {
-      "video_id": "7692876961693175053",
-      "cover_url": "/img/video_7692876961693175053.jpg",
-      "tiktok_url": "https://www.tiktok.com/@b2266309/video/7692876961693175053",
-      "creator_handle": "b2266309",
-      "play_count": 465900,
-      "window_gmv": 1220.4,
-      "window_units_sold": 60
+      "window_units_sold": 113,
+      "is_ad": true,
+      "duration_seconds": 15
     },
     {
       "video_id": "7689485431691349278",
@@ -87,7 +64,42 @@
       "creator_handle": "alarue18",
       "play_count": 380200,
       "window_gmv": 1640,
-      "window_units_sold": 87
+      "window_units_sold": 87,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7692876961693175053",
+      "cover_url": "/img/video_7692876961693175053.jpg",
+      "tiktok_url": "https://www.tiktok.com/@b2266309/video/7692876961693175053",
+      "creator_handle": "b2266309",
+      "play_count": 465900,
+      "window_gmv": 1220.4,
+      "window_units_sold": 60,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7674482790557093134",
+      "cover_url": "/img/video_7674482790557093134.jpg",
+      "tiktok_url": "https://www.tiktok.com/@joanna.zakk/video/7674482790557093134",
+      "creator_handle": "joanna.zakk",
+      "play_count": 520400,
+      "window_gmv": 755.01,
+      "window_units_sold": 34,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7686361280541658382",
+      "cover_url": "/img/video_7686361280541658382.jpg",
+      "tiktok_url": "https://www.tiktok.com/@alissia.valentine/video/7686361280541658382",
+      "creator_handle": "alissia.valentine",
+      "play_count": 546200,
+      "window_gmv": 631.05,
+      "window_units_sold": 30,
+      "is_ad": true,
+      "duration_seconds": 20
     }
   ]
 }

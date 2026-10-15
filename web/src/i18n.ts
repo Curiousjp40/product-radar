@@ -31,7 +31,12 @@ const dict: Record<string, { es: string; en: string }> = {
   see_details: { es: "Ver detalles", en: "View details" },
   save_to_list: { es: "Guardar en mi lista", en: "Save to my list" },
   open_in_tiktok: { es: "Ver en TikTok", en: "Open in TikTok" },
-  tiktok_videos_button: { es: "Ver videos en TikTok", en: "Watch videos on TikTok" },
+  tiktok_videos_button: { es: "Buscar en TikTok", en: "Search on TikTok" },
+  tiktok_search_note: {
+    es: "TikTok ordena estos resultados a su manera, no por ventas.",
+    en: "TikTok orders these results its own way, not by sales.",
+  },
+  ad_tag: { es: "Anuncio", en: "Ad" },
   earn_headline: { es: "Ganas ${amount} por venta", en: "You earn ${amount} per sale" },
   commission: { es: "Comisión", en: "Commission" },
   per_sale: { es: "Por venta", en: "Per sale" },

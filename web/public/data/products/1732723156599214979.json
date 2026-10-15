@@ -31,7 +31,7 @@
     725,
     349
   ],
-  "is_pick": true,
+  "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt",
   "videos": [
@@ -42,7 +42,9 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 2500000,
       "window_gmv": 25088,
-      "window_units_sold": 512
+      "window_units_sold": 512,
+      "is_ad": true,
+      "duration_seconds": 59
     },
     {
       "video_id": "7693984488652590367",
@@ -51,7 +53,9 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 1835506,
       "window_gmv": 16513,
-      "window_units_sold": 337
+      "window_units_sold": 337,
+      "is_ad": true,
+      "duration_seconds": 76
     },
     {
       "video_id": "7693943031489170718",
@@ -60,16 +64,9 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 815100,
       "window_gmv": 13867,
-      "window_units_sold": 283
-    },
-    {
-      "video_id": "7694399882739666206",
-      "cover_url": "/img/video_7694399882739666206.jpg",
-      "tiktok_url": "https://www.tiktok.com/@aylin.ykt/video/7694399882739666206",
-      "creator_handle": "aylin.ykt",
-      "play_count": 502700,
-      "window_gmv": 1078,
-      "window_units_sold": 22
+      "window_units_sold": 283,
+      "is_ad": true,
+      "duration_seconds": 59
     },
     {
       "video_id": "7693923450271943967",
@@ -78,7 +75,9 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 147500,
       "window_gmv": 9947,
-      "window_units_sold": 203
+      "window_units_sold": 203,
+      "is_ad": true,
+      "duration_seconds": 51
     },
     {
       "video_id": "7693924400470560013",
@@ -87,7 +86,20 @@
       "creator_handle": "delanacrook",
       "play_count": 79600,
       "window_gmv": 5145,
-      "window_units_sold": 105
+      "window_units_sold": 105,
+      "is_ad": true,
+      "duration_seconds": 63
+    },
+    {
+      "video_id": "7694399882739666206",
+      "cover_url": "/img/video_7694399882739666206.jpg",
+      "tiktok_url": "https://www.tiktok.com/@aylin.ykt/video/7694399882739666206",
+      "creator_handle": "aylin.ykt",
+      "play_count": 502700,
+      "window_gmv": 1078,
+      "window_units_sold": 22,
+      "is_ad": true,
+      "duration_seconds": 43
     }
   ]
 }

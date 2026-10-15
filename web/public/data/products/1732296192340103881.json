@@ -36,13 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Elegant%20Feminine%20Solid%20Sleeveless%20A-Line",
   "videos": [
     {
-      "video_id": "7688865310559997215",
-      "cover_url": "/img/video_7688865310559997215.jpg",
-      "tiktok_url": "https://www.tiktok.com/@itsashlyyn/video/7688865310559997215",
-      "creator_handle": "itsashlyyn",
-      "play_count": 1915576,
-      "window_gmv": 2491.06,
-      "window_units_sold": 183
+      "video_id": "7690570511667039502",
+      "cover_url": "/img/video_7690570511667039502.jpg",
+      "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690570511667039502",
+      "creator_handle": "ohhangelbaby",
+      "play_count": 1530204,
+      "window_gmv": 12145.13,
+      "window_units_sold": 949,
+      "is_ad": true,
+      "duration_seconds": 26
     },
     {
       "video_id": "7667963908874931486",
@@ -51,16 +53,9 @@
       "creator_handle": "silviajuliana_0",
       "play_count": 1900000,
       "window_gmv": 5709.98,
-      "window_units_sold": 555
-    },
-    {
-      "video_id": "7690570511667039502",
-      "cover_url": "/img/video_7690570511667039502.jpg",
-      "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690570511667039502",
-      "creator_handle": "ohhangelbaby",
-      "play_count": 1530204,
-      "window_gmv": 12145.13,
-      "window_units_sold": 949
+      "window_units_sold": 555,
+      "is_ad": true,
+      "duration_seconds": 13
     },
     {
       "video_id": "7691140709616717070",
@@ -69,16 +64,20 @@
       "creator_handle": "macwatfit",
       "play_count": 1400000,
       "window_gmv": 2675.95,
-      "window_units_sold": 189
+      "window_units_sold": 189,
+      "is_ad": true,
+      "duration_seconds": 15
     },
     {
-      "video_id": "7695525334334147854",
-      "cover_url": "/img/video_7695525334334147854.jpg",
-      "tiktok_url": "https://www.tiktok.com/@briiwears/video/7695525334334147854",
-      "creator_handle": "briiwears",
-      "play_count": 883900,
-      "window_gmv": 451.5,
-      "window_units_sold": 34
+      "video_id": "7688865310559997215",
+      "cover_url": "/img/video_7688865310559997215.jpg",
+      "tiktok_url": "https://www.tiktok.com/@itsashlyyn/video/7688865310559997215",
+      "creator_handle": "itsashlyyn",
+      "play_count": 1915576,
+      "window_gmv": 2491.06,
+      "window_units_sold": 183,
+      "is_ad": true,
+      "duration_seconds": 7
     },
     {
       "video_id": "7689538322502356254",
@@ -87,7 +86,20 @@
       "creator_handle": "tinkabebe",
       "play_count": 725900,
       "window_gmv": 830.55,
-      "window_units_sold": 65
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7695525334334147854",
+      "cover_url": "/img/video_7695525334334147854.jpg",
+      "tiktok_url": "https://www.tiktok.com/@briiwears/video/7695525334334147854",
+      "creator_handle": "briiwears",
+      "play_count": 883900,
+      "window_gmv": 451.5,
+      "window_units_sold": 34,
+      "is_ad": true,
+      "duration_seconds": 6
     }
   ]
 }

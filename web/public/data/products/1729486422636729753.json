@@ -36,22 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Hidden%20Book%20Safe%20Dictionary%20Secret%20Storage",
   "videos": [
     {
-      "video_id": "7676397641122549023",
-      "cover_url": "/img/video_7676397641122549023.jpg",
-      "tiktok_url": "https://www.tiktok.com/@safe.box96/video/7676397641122549023",
-      "creator_handle": "safe.box96",
-      "play_count": 1600000,
-      "window_gmv": 2376.7,
-      "window_units_sold": 162
-    },
-    {
       "video_id": "7693116392169688334",
       "cover_url": "/img/video_7693116392169688334.jpg",
       "tiktok_url": "https://www.tiktok.com/@es1_chuangpinda001/video/7693116392169688334",
       "creator_handle": "es1_chuangpinda001",
       "play_count": 1200000,
       "window_gmv": 4290.07,
-      "window_units_sold": 271
+      "window_units_sold": 271,
+      "is_ad": true,
+      "duration_seconds": 62
     },
     {
       "video_id": "7672664931271052574",
@@ -60,25 +53,20 @@
       "creator_handle": "safe.box96",
       "play_count": 1200000,
       "window_gmv": 3400.5,
-      "window_units_sold": 226
+      "window_units_sold": 226,
+      "is_ad": true,
+      "duration_seconds": 68
     },
     {
-      "video_id": "7679022340591717646",
-      "cover_url": "/img/video_7679022340591717646.jpg",
-      "tiktok_url": "https://www.tiktok.com/@sz2_chuangpinda002/video/7679022340591717646",
-      "creator_handle": "sz2_chuangpinda002",
-      "play_count": 389900,
-      "window_gmv": 141.24,
-      "window_units_sold": 9
-    },
-    {
-      "video_id": "7691241431175925005",
-      "cover_url": "/img/video_7691241431175925005.jpg",
-      "tiktok_url": "https://www.tiktok.com/@es1_chuangpinda001/video/7691241431175925005",
-      "creator_handle": "es1_chuangpinda001",
-      "play_count": 367900,
-      "window_gmv": 1997.59,
-      "window_units_sold": 128
+      "video_id": "7676397641122549023",
+      "cover_url": "/img/video_7676397641122549023.jpg",
+      "tiktok_url": "https://www.tiktok.com/@safe.box96/video/7676397641122549023",
+      "creator_handle": "safe.box96",
+      "play_count": 1600000,
+      "window_gmv": 2376.7,
+      "window_units_sold": 162,
+      "is_ad": true,
+      "duration_seconds": 69
     },
     {
       "video_id": "7676400799240523039",
@@ -87,7 +75,31 @@
       "creator_handle": "safe.box96",
       "play_count": 286700,
       "window_gmv": 2024.94,
-      "window_units_sold": 133
+      "window_units_sold": 133,
+      "is_ad": true,
+      "duration_seconds": 68
+    },
+    {
+      "video_id": "7691241431175925005",
+      "cover_url": "/img/video_7691241431175925005.jpg",
+      "tiktok_url": "https://www.tiktok.com/@es1_chuangpinda001/video/7691241431175925005",
+      "creator_handle": "es1_chuangpinda001",
+      "play_count": 367900,
+      "window_gmv": 1997.59,
+      "window_units_sold": 128,
+      "is_ad": true,
+      "duration_seconds": 66
+    },
+    {
+      "video_id": "7679022340591717646",
+      "cover_url": "/img/video_7679022340591717646.jpg",
+      "tiktok_url": "https://www.tiktok.com/@sz2_chuangpinda002/video/7679022340591717646",
+      "creator_handle": "sz2_chuangpinda002",
+      "play_count": 389900,
+      "window_gmv": 141.24,
+      "window_units_sold": 9,
+      "is_ad": true,
+      "duration_seconds": 68
     }
   ]
 }

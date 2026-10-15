@@ -42,7 +42,9 @@
       "creator_handle": "rn.ashley",
       "play_count": 2100000,
       "window_gmv": 7351.13,
-      "window_units_sold": 314
+      "window_units_sold": 314,
+      "is_ad": true,
+      "duration_seconds": 39
     },
     {
       "video_id": "7674009077705379103",
@@ -51,7 +53,9 @@
       "creator_handle": "mariasol7126",
       "play_count": 958800,
       "window_gmv": 6832.41,
-      "window_units_sold": 307
+      "window_units_sold": 307,
+      "is_ad": true,
+      "duration_seconds": 13
     },
     {
       "video_id": "7692155127280602381",
@@ -60,25 +64,9 @@
       "creator_handle": "marynicole__",
       "play_count": 567500,
       "window_gmv": 6285.63,
-      "window_units_sold": 239
-    },
-    {
-      "video_id": "7693779453784329503",
-      "cover_url": "/img/video_7693779453784329503.jpg",
-      "tiktok_url": "https://www.tiktok.com/@staygoldlex/video/7693779453784329503",
-      "creator_handle": "staygoldlex",
-      "play_count": 554400,
-      "window_gmv": 2515.65,
-      "window_units_sold": 111
-    },
-    {
-      "video_id": "7688758899045829902",
-      "cover_url": "/img/video_7688758899045829902.jpg",
-      "tiktok_url": "https://www.tiktok.com/@miibbbbbbb/video/7688758899045829902",
-      "creator_handle": "miibbbbbbb",
-      "play_count": 476200,
-      "window_gmv": 1813.62,
-      "window_units_sold": 81
+      "window_units_sold": 239,
+      "is_ad": true,
+      "duration_seconds": 7
     },
     {
       "video_id": "7673568181843184927",
@@ -87,7 +75,31 @@
       "creator_handle": "rn.ashley",
       "play_count": 408000,
       "window_gmv": 4762.08,
-      "window_units_sold": 215
+      "window_units_sold": 215,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7693779453784329503",
+      "cover_url": "/img/video_7693779453784329503.jpg",
+      "tiktok_url": "https://www.tiktok.com/@staygoldlex/video/7693779453784329503",
+      "creator_handle": "staygoldlex",
+      "play_count": 554400,
+      "window_gmv": 2515.65,
+      "window_units_sold": 111,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7688758899045829902",
+      "cover_url": "/img/video_7688758899045829902.jpg",
+      "tiktok_url": "https://www.tiktok.com/@miibbbbbbb/video/7688758899045829902",
+      "creator_handle": "miibbbbbbb",
+      "play_count": 476200,
+      "window_gmv": 1813.62,
+      "window_units_sold": 81,
+      "is_ad": true,
+      "duration_seconds": 9
     }
   ]
 }

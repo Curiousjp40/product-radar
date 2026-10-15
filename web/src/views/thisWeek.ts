@@ -45,7 +45,8 @@ function renderCard(pick: Pick, lang: Lang, statuses: Record<string, string>, di
                     (v) => `
                   <a class="video-thumb" href="${v.tiktok_url}" target="_blank" rel="noopener">
                     ${v.cover_url ? `<img src="${assetUrl(v.cover_url)}" alt="" loading="lazy" />` : `<div class="video-thumb-placeholder"></div>`}
-                    <span class="video-views">${formatCount(v.play_count)} ${t("views_short", lang)}</span>
+                    ${v.is_ad ? `<span class="video-ad-tag">${t("ad_tag", lang)}</span>` : ""}
+                    <span class="video-views">${formatCount(v.play_count)} ${t("views_short", lang)} &middot; ${v.window_units_sold} ${t("sales_short", lang)}</span>
                   </a>`,
                   )
                   .join("")}

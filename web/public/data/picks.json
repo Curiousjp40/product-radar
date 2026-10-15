@@ -22,20 +22,85 @@
       "reasons_es": [
         "Pagas ~$9.40 por venta.",
         "Tus ventas subieron 279% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
         "You earn ~$9.40 per sale.",
         "Your sales went up 279% this week.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Tus ventas subieron 279% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 279% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
+      "summary_es": "Tus ventas subieron 279% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 279% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729593807999832237"
     },
     {
       "slot": 2,
+      "kind": "core",
+      "product_id": "1732567897806639543",
+      "title": "Tipsy Elves Women's Original Halloween Costumes",
+      "clean_title": "Tipsy Elves Women's Original Halloween Costumes",
+      "image_url": "/img/product_1732567897806639543.webp",
+      "category": "costumes",
+      "shop_name": "Tipsy Elves",
+      "price": 60.0,
+      "commission_rate": 0.25,
+      "earnings_per_sale": 15.0,
+      "stage": "new_to_radar",
+      "score": 64,
+      "ev_typical": 34.1,
+      "ev_upside": 141.43,
+      "reasons_es": [
+        "Pagas ~$15.00 por venta.",
+        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
+        "Tus ventas subieron 106% esta semana."
+      ],
+      "reasons_en": [
+        "You earn ~$15.00 per sale.",
+        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
+        "Your sales went up 106% this week."
+      ],
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Tus ventas subieron 106% esta semana.",
+      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Your sales went up 106% this week.",
+      "videos": [
+        {
+          "video_id": "7691450047447239967",
+          "cover_url": "/img/video_7691450047447239967.jpg",
+          "tiktok_url": "https://www.tiktok.com/@kelly.at.home/video/7691450047447239967",
+          "creator_handle": "kelly.at.home",
+          "play_count": 1500000,
+          "window_gmv": 3262.74,
+          "window_units_sold": 65,
+          "is_ad": true,
+          "duration_seconds": 21
+        },
+        {
+          "video_id": "7684318626966506766",
+          "cover_url": "/img/video_7684318626966506766.jpg",
+          "tiktok_url": "https://www.tiktok.com/@shelby_lynnnn/video/7684318626966506766",
+          "creator_handle": "shelby_lynnnn",
+          "play_count": 278600,
+          "window_gmv": 1863.78,
+          "window_units_sold": 35,
+          "is_ad": true,
+          "duration_seconds": 36
+        },
+        {
+          "video_id": "7689480386623081759",
+          "cover_url": "/img/video_7689480386623081759.jpg",
+          "tiktok_url": "https://www.tiktok.com/@lifeofahotmessmom/video/7689480386623081759",
+          "creator_handle": "lifeofahotmessmom",
+          "play_count": 824667,
+          "window_gmv": 1467.59,
+          "window_units_sold": 29,
+          "is_ad": true,
+          "duration_seconds": 9
+        }
+      ],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543"
+    },
+    {
+      "slot": 3,
       "kind": "core",
       "product_id": "1731906940791328925",
       "title": "Metal Pantry Cabinet with 2 Doors and Adjustable Shelves Available in four sizes: 47\"61\" 71\" 75\" Kitchen Storage Cabinet with Gold Handles - Versatile Storage for Kitchen, Bathroom, Dining Room, Utility Room",
@@ -53,20 +118,20 @@
       "reasons_es": [
         "Pagas ~$6.37 por venta.",
         "Tus ventas subieron 39% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
         "You earn ~$6.37 per sale.",
         "Your sales went up 39% this week.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Tus ventas subieron 39% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 39% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
+      "summary_es": "Tus ventas subieron 39% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 39% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731906940791328925"
     },
     {
-      "slot": 3,
+      "slot": 4,
       "kind": "core",
       "product_id": "1732523300086256574",
       "title": "Crocs Women's Dylan Animal Platform Clogs with Metallic Buckle",
@@ -84,48 +149,17 @@
       "reasons_es": [
         "Tus ventas subieron 672% esta semana.",
         "Pagas ~$6.00 por venta.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
         "Your sales went up 672% this week.",
         "You earn ~$6.00 per sale.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Tus ventas subieron 672% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 672% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
+      "summary_es": "Tus ventas subieron 672% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 672% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732523300086256574"
-    },
-    {
-      "slot": 4,
-      "kind": "core",
-      "product_id": "1732567897806639543",
-      "title": "Tipsy Elves Women's Original Halloween Costumes",
-      "clean_title": "Tipsy Elves Women's Original Halloween Costumes",
-      "image_url": "/img/product_1732567897806639543.webp",
-      "category": "costumes",
-      "shop_name": "Tipsy Elves",
-      "price": 60.0,
-      "commission_rate": 0.25,
-      "earnings_per_sale": 15.0,
-      "stage": "new_to_radar",
-      "score": 61,
-      "ev_typical": 34.1,
-      "ev_upside": 141.43,
-      "reasons_es": [
-        "Pagas ~$15.00 por venta.",
-        "Tus ventas subieron 106% esta semana.",
-        "Buen momento antes de Halloween (faltan 17 d\u00edas)."
-      ],
-      "reasons_en": [
-        "You earn ~$15.00 per sale.",
-        "Your sales went up 106% this week.",
-        "Good timing before Halloween (17 days left)."
-      ],
-      "summary_es": "Tus ventas subieron 106% esta semana. Buen momento antes de Halloween (faltan 17 d\u00edas).",
-      "summary_en": "Your sales went up 106% this week. Good timing before Halloween (17 days left).",
-      "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543"
     },
     {
       "slot": 5,
@@ -146,197 +180,175 @@
       "reasons_es": [
         "Pagas ~$20.80 por venta.",
         "Tus ventas subieron 71% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
         "You earn ~$20.80 per sale.",
         "Your sales went up 71% this week.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Tus ventas subieron 71% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 71% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
+      "summary_es": "Tus ventas subieron 71% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 71% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
       "videos": [],
       "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729565286645600783"
     },
     {
       "slot": 6,
       "kind": "core",
-      "product_id": "1732723156599214979",
-      "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
-      "clean_title": "Comfrt",
-      "image_url": "/img/product_1732723156599214979.webp",
-      "category": "winter_clothing",
-      "shop_name": "Comfrt",
-      "price": 49.0,
+      "product_id": "1730843879700075109",
+      "title": "Loveliness Romper Brown Check",
+      "clean_title": "Loveliness Romper Brown Check",
+      "image_url": "/img/product_1730843879700075109.webp",
+      "category": "sets",
+      "shop_name": "Princess Polly",
+      "price": 71.99,
       "commission_rate": 0.1,
-      "earnings_per_sale": 4.9,
-      "stage": "rising",
-      "score": 61,
-      "ev_typical": 22.28,
-      "ev_upside": 92.4,
+      "earnings_per_sale": 7.2,
+      "stage": "new_to_radar",
+      "score": 62,
+      "ev_typical": 16.37,
+      "ev_upside": 67.88,
       "reasons_es": [
-        "Pagas ~$4.90 por venta.",
-        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Pagas ~$7.20 por venta.",
+        "Tus ventas subieron 93% esta semana.",
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
-        "You earn ~$4.90 per sale.",
-        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "You earn ~$7.20 per sale.",
+        "Your sales went up 93% this week.",
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Good timing before Black Friday / Cyber Monday (44 days left).",
-      "videos": [
-        {
-          "video_id": "7693924872270925087",
-          "cover_url": "/img/video_7693924872270925087.jpg",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693924872270925087",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 2500000,
-          "window_gmv": 25088,
-          "window_units_sold": 512
-        },
-        {
-          "video_id": "7693984488652590367",
-          "cover_url": "/img/video_7693984488652590367.jpg",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693984488652590367",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 1835506,
-          "window_gmv": 16513,
-          "window_units_sold": 337
-        },
-        {
-          "video_id": "7693943031489170718",
-          "cover_url": "/img/video_7693943031489170718.jpg",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693943031489170718",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 815100,
-          "window_gmv": 13867,
-          "window_units_sold": 283
-        }
-      ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979"
+      "summary_es": "Tus ventas subieron 93% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 93% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
+      "videos": [],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730843879700075109"
     },
     {
       "slot": 7,
       "kind": "core",
-      "product_id": "1732165713619685617",
-      "title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving Multi-Level Tower with Cozy Condos, Perches, Baskets & Sisal Scratching Posts \u2013 Indoor Cat Activity Center",
-      "clean_title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree",
-      "image_url": "/img/product_1732165713619685617.webp",
-      "category": "pet_furniture",
-      "shop_name": "HOOMIC",
-      "price": 85.99,
-      "commission_rate": 0.07,
-      "earnings_per_sale": 6.02,
+      "product_id": "1729448905888993450",
+      "title": "Leonisa SmartShape Capri Invisible High-Waisted Capri Shaper",
+      "clean_title": "Leonisa SmartShape Capri Invisible High-Waisted Capri",
+      "image_url": "/img/product_1729448905888993450.webp",
+      "category": "shapewear",
+      "shop_name": "Leonisa USA",
+      "price": 84.5,
+      "commission_rate": 0.1,
+      "earnings_per_sale": 8.45,
       "stage": "new_to_radar",
-      "score": 66,
-      "ev_typical": 13.68,
-      "ev_upside": 56.76,
+      "score": 58,
+      "ev_typical": 19.21,
+      "ev_upside": 79.67,
       "reasons_es": [
-        "Pagas ~$6.02 por venta.",
-        "Tus ventas subieron 212% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Pagas ~$8.45 por venta.",
+        "Fajas: $20.79 por cada 1,000 vistas para ti.",
+        "Tus ventas subieron 54% esta semana."
       ],
       "reasons_en": [
-        "You earn ~$6.02 per sale.",
-        "Your sales went up 212% this week.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "You earn ~$8.45 per sale.",
+        "Shapewear: $20.79 per 1,000 views for you.",
+        "Your sales went up 54% this week."
       ],
-      "summary_es": "Tus ventas subieron 212% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 212% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
+      "summary_es": "Fajas: $20.79 por cada 1,000 vistas para ti. Tus ventas subieron 54% esta semana.",
+      "summary_en": "Shapewear: $20.79 per 1,000 views for you. Your sales went up 54% this week.",
       "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732165713619685617"
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729448905888993450"
     },
     {
       "slot": 8,
       "kind": "explore",
-      "product_id": "1732088511267312574",
-      "title": "Crocs Women\u2019s Dylan Platform Elevated Clogs",
-      "clean_title": "Crocs Women\u2019s Dylan Platform Elevated Clogs",
-      "image_url": "/img/product_1732088511267312574.jpg",
-      "category": "shoes",
-      "shop_name": "CROCS US SHOP",
-      "price": 50.0,
-      "commission_rate": 0.1,
-      "earnings_per_sale": 5.0,
+      "product_id": "1732491682604749463",
+      "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
+      "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
+      "image_url": "/img/product_1732491682604749463.webp",
+      "category": "home_decor",
+      "shop_name": "histrips.",
+      "price": 42.5,
+      "commission_rate": 0.25,
+      "earnings_per_sale": 10.62,
       "stage": "new_to_radar",
-      "score": 65,
-      "ev_typical": 11.37,
-      "ev_upside": 47.14,
+      "score": 63,
+      "ev_typical": 15.48,
+      "ev_upside": 64.22,
       "reasons_es": [
-        "Pagas ~$5.00 por venta.",
-        "Tus ventas subieron 217% esta semana.",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Pagas ~$10.62 por venta.",
+        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
+        "Tus ventas subieron 27% esta semana."
       ],
       "reasons_en": [
-        "You earn ~$5.00 per sale.",
-        "Your sales went up 217% this week.",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "You earn ~$10.62 per sale.",
+        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
+        "Your sales went up 27% this week."
       ],
-      "summary_es": "Tus ventas subieron 217% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Your sales went up 217% this week. Good timing before Black Friday / Cyber Monday (44 days left).",
-      "videos": [],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732088511267312574"
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Tus ventas subieron 27% esta semana.",
+      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Your sales went up 27% this week.",
+      "videos": [
+        {
+          "video_id": "7680819142462672159",
+          "cover_url": "/img/video_7680819142462672159.jpg",
+          "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
+          "creator_handle": "the_kandiid_guy",
+          "play_count": 1500000,
+          "window_gmv": 10852.97,
+          "window_units_sold": 387,
+          "is_ad": true,
+          "duration_seconds": 33
+        },
+        {
+          "video_id": "7691435211258694926",
+          "cover_url": "/img/video_7691435211258694926.jpg",
+          "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
+          "creator_handle": "mysterypackfinds",
+          "play_count": 2010779,
+          "window_gmv": 4173.5,
+          "window_units_sold": 91,
+          "is_ad": true,
+          "duration_seconds": 56
+        },
+        {
+          "video_id": "7687390788933651743",
+          "cover_url": "/img/video_7687390788933651743.jpg",
+          "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
+          "creator_handle": "showmeproducts",
+          "play_count": 3800000,
+          "window_gmv": 2657.02,
+          "window_units_sold": 84,
+          "is_ad": true,
+          "duration_seconds": 68
+        }
+      ],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463"
     },
     {
       "slot": 9,
       "kind": "explore",
-      "product_id": "1732723238326670211",
-      "title": "Comfrt | Teddy Half Zip | Plush High-Pile Pullover With Mock Neck & Half Zip",
-      "clean_title": "Comfrt",
-      "image_url": "/img/product_1732723238326670211.webp",
-      "category": "winter_clothing",
-      "shop_name": "Comfrt",
-      "price": 49.0,
+      "product_id": "1732609546327724526",
+      "title": "USA Landmark Travel Stickers, American Cities & National Parks Decal Pack, Statue of Liberty, Golden Gate Bridge, Hollywood, Yellowstone Vinyl Stickers",
+      "clean_title": "USA Landmark Travel Stickers",
+      "image_url": "/img/product_1732609546327724526.webp",
+      "category": "home_decor",
+      "shop_name": "Bloom & Tidy",
+      "price": 25.99,
       "commission_rate": 0.1,
-      "earnings_per_sale": 4.9,
-      "stage": "rising",
-      "score": 56,
-      "ev_typical": 22.28,
-      "ev_upside": 92.4,
+      "earnings_per_sale": 2.6,
+      "stage": "new_to_radar",
+      "score": 76,
+      "ev_typical": 5.91,
+      "ev_upside": 24.51,
       "reasons_es": [
-        "Pagas ~$4.90 por venta.",
-        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas)."
+        "Pagas ~$2.60 por venta.",
+        "Tus ventas subieron 21% esta semana.",
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas)."
       ],
       "reasons_en": [
-        "You earn ~$4.90 per sale.",
-        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
-        "Good timing before Black Friday / Cyber Monday (44 days left)."
+        "You earn ~$2.60 per sale.",
+        "Your sales went up 21% this week.",
+        "Good timing before Black Friday / Cyber Monday (43 days left)."
       ],
-      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Buen momento antes de Black Friday / Cyber Monday (faltan 44 d\u00edas).",
-      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Good timing before Black Friday / Cyber Monday (44 days left).",
-      "videos": [
-        {
-          "video_id": "7693931584830967070",
-          "cover_url": "/img/video_7693931584830967070.jpg",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693931584830967070",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 2200000,
-          "window_gmv": 10388,
-          "window_units_sold": 212
-        },
-        {
-          "video_id": "7695113118279552270",
-          "cover_url": "/img/video_7695113118279552270.jpg",
-          "tiktok_url": "https://www.tiktok.com/@styledbylilea/video/7695113118279552270",
-          "creator_handle": "styledbylilea",
-          "play_count": 931500,
-          "window_gmv": 1078,
-          "window_units_sold": 22
-        },
-        {
-          "video_id": "7693997393238314254",
-          "cover_url": "/img/video_7693997393238314254.jpg",
-          "tiktok_url": "https://www.tiktok.com/@gavinbeckham_/video/7693997393238314254",
-          "creator_handle": "gavinbeckham_",
-          "play_count": 501600,
-          "window_gmv": 2205,
-          "window_units_sold": 45
-        }
-      ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723238326670211"
+      "summary_es": "Tus ventas subieron 21% esta semana. Buen momento antes de Black Friday / Cyber Monday (faltan 43 d\u00edas).",
+      "summary_en": "Your sales went up 21% this week. Good timing before Black Friday / Cyber Monday (43 days left).",
+      "videos": [],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732609546327724526"
     }
   ]
 }

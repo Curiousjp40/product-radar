@@ -455,6 +455,19 @@ select.status-select {
   display: block;
 }
 
+.video-ad-tag {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--warn);
+  border-radius: 6px;
+  padding: 1px 5px;
+  text-transform: uppercase;
+}
+
 .video-views {
   position: absolute;
   bottom: 3px;
@@ -580,10 +593,22 @@ select.status-select {
 
 .video-embed-stats {
   display: flex;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 6px 12px;
   font-size: 0.75rem;
   color: var(--text-dim);
   padding: 6px 2px 2px;
+  align-items: center;
+}
+
+.video-embed-stats .ad-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--warn);
+  border-radius: 6px;
+  padding: 1px 6px;
+  text-transform: uppercase;
 }
 
 /* TikTok embed fallback (added 2026-10-17): shown until watchEmbed() in
@@ -640,7 +665,7 @@ select.status-select {
 .free-buttons {
   display: flex;
   gap: 8px;
-  margin: 8px 0 20px;
+  margin: 8px 0 4px;
 }
 
 .free-buttons a {
@@ -658,6 +683,13 @@ select.status-select {
 .free-buttons a.btn-accent {
   background: var(--accent);
   color: #fff;
+}
+
+.free-buttons-note {
+  margin: 0 0 20px;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  text-align: center;
 }
 
 /* ---------------------------------------------------------------------

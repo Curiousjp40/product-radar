@@ -36,31 +36,15 @@
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%2054-Inch%20Vertical%20Cat%20Scratcher%20Shelf",
   "videos": [
     {
-      "video_id": "7691011918609386783",
-      "cover_url": "/img/video_7691011918609386783.jpg",
-      "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7691011918609386783",
-      "creator_handle": "beans_cream",
-      "play_count": 2400000,
-      "window_gmv": 1280.7,
-      "window_units_sold": 36
-    },
-    {
-      "video_id": "7675157073327410462",
-      "cover_url": "/img/video_7675157073327410462.jpg",
-      "tiktok_url": "https://www.tiktok.com/@jjasminova/video/7675157073327410462",
-      "creator_handle": "jjasminova",
-      "play_count": 1700000,
-      "window_gmv": 2088.89,
-      "window_units_sold": 70
-    },
-    {
       "video_id": "7686292006750014750",
       "cover_url": "/img/video_7686292006750014750.jpg",
       "tiktok_url": "https://www.tiktok.com/@socalshopdeals/video/7686292006750014750",
       "creator_handle": "socalshopdeals",
       "play_count": 1300000,
       "window_gmv": 9876.79,
-      "window_units_sold": 279
+      "window_units_sold": 279,
+      "is_ad": true,
+      "duration_seconds": 43
     },
     {
       "video_id": "7680448209881287966",
@@ -69,16 +53,20 @@
       "creator_handle": "jjasminova",
       "play_count": 1000000,
       "window_gmv": 2609.38,
-      "window_units_sold": 72
+      "window_units_sold": 72,
+      "is_ad": true,
+      "duration_seconds": 19
     },
     {
-      "video_id": "7687589554626333983",
-      "cover_url": "/img/video_7687589554626333983.jpg",
-      "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7687589554626333983",
-      "creator_handle": "beans_cream",
-      "play_count": 342985,
-      "window_gmv": 611.33,
-      "window_units_sold": 17
+      "video_id": "7675157073327410462",
+      "cover_url": "/img/video_7675157073327410462.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jjasminova/video/7675157073327410462",
+      "creator_handle": "jjasminova",
+      "play_count": 1700000,
+      "window_gmv": 2088.89,
+      "window_units_sold": 70,
+      "is_ad": true,
+      "duration_seconds": 18
     },
     {
       "video_id": "7687411067252772127",
@@ -87,7 +75,31 @@
       "creator_handle": "jjasminova",
       "play_count": 244200,
       "window_gmv": 1836.15,
-      "window_units_sold": 48
+      "window_units_sold": 48,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7691011918609386783",
+      "cover_url": "/img/video_7691011918609386783.jpg",
+      "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7691011918609386783",
+      "creator_handle": "beans_cream",
+      "play_count": 2400000,
+      "window_gmv": 1280.7,
+      "window_units_sold": 36,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7687589554626333983",
+      "cover_url": "/img/video_7687589554626333983.jpg",
+      "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7687589554626333983",
+      "creator_handle": "beans_cream",
+      "play_count": 342985,
+      "window_gmv": 611.33,
+      "window_units_sold": 17,
+      "is_ad": true,
+      "duration_seconds": 26
     }
   ]
 }

@@ -57,6 +57,7 @@ from engine.insights import summarize_creator
 from engine.language import spanish_share
 from engine.normalize import (
     normalize_rank_row,
+    rank_videos_by_sales,
     trend_period_summary,
     video_cards_from_product_video_list,
 )
@@ -314,7 +315,7 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
         # match, which returned videos unrelated to the product.
         videos_raw = load_raw_snapshot(week, f"videos_{cand['product_id']}")
         if videos_raw is not None:
-            cards = video_cards_from_product_video_list(videos_raw)
+            cards = rank_videos_by_sales(video_cards_from_product_video_list(videos_raw))
             cand["videos"] = cards
             captions = [v["caption_text"] for v in cards]
             cand["spanish_share"] = spanish_share(captions)
@@ -400,7 +401,7 @@ def _apply_trend(cand: dict, trend_raw: dict) -> None:
 
 
 def _apply_videos(cand: dict, raw: dict) -> None:
-    cards = video_cards_from_product_video_list(raw)
+    cards = rank_videos_by_sales(video_cards_from_product_video_list(raw))
     cand["videos"] = cards
     captions = [v["caption_text"] for v in cards]
     cand["spanish_share"] = spanish_share(captions)
@@ -1012,6 +1013,9 @@ def assemble_picks(
 
 
 def _video_card_dicts(videos: list[dict] | None, limit: int) -> list[dict]:
+    # `videos` is already sorted by rank_videos_by_sales when it was set
+    # (engine/run.py's two `cand["videos"] = ...` sites), so [:limit] here
+    # keeps the top-N by sales, not by whatever order FastMoss returned.
     return [
         {
             "video_id": v["video_id"],
@@ -1021,6 +1025,8 @@ def _video_card_dicts(videos: list[dict] | None, limit: int) -> list[dict]:
             "play_count": v.get("play_count", 0),
             "window_gmv": v.get("window_gmv", 0.0),
             "window_units_sold": v.get("window_units_sold", 0),
+            "is_ad": v.get("is_ad", False),
+            "duration_seconds": v.get("duration_seconds"),
         }
         for v in (videos or [])[:limit]
     ]

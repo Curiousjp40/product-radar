@@ -31,18 +31,20 @@
     103,
     91
   ],
-  "is_pick": false,
+  "is_pick": true,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Onyx%20Silent%20Vibration%20Wrist-Worn%20Device",
   "videos": [
     {
-      "video_id": "7687390788933651743",
-      "cover_url": "/img/video_7687390788933651743.jpg",
-      "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
-      "creator_handle": "showmeproducts",
-      "play_count": 3800000,
-      "window_gmv": 2657.02,
-      "window_units_sold": 84
+      "video_id": "7680819142462672159",
+      "cover_url": "/img/video_7680819142462672159.jpg",
+      "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
+      "creator_handle": "the_kandiid_guy",
+      "play_count": 1500000,
+      "window_gmv": 10852.97,
+      "window_units_sold": 387,
+      "is_ad": true,
+      "duration_seconds": 33
     },
     {
       "video_id": "7691435211258694926",
@@ -51,7 +53,20 @@
       "creator_handle": "mysterypackfinds",
       "play_count": 2010779,
       "window_gmv": 4173.5,
-      "window_units_sold": 91
+      "window_units_sold": 91,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7687390788933651743",
+      "cover_url": "/img/video_7687390788933651743.jpg",
+      "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
+      "creator_handle": "showmeproducts",
+      "play_count": 3800000,
+      "window_gmv": 2657.02,
+      "window_units_sold": 84,
+      "is_ad": true,
+      "duration_seconds": 68
     },
     {
       "video_id": "7687749104914418958",
@@ -60,25 +75,9 @@
       "creator_handle": "zach.finds",
       "play_count": 1748207,
       "window_gmv": 1073,
-      "window_units_sold": 49
-    },
-    {
-      "video_id": "7680819142462672159",
-      "cover_url": "/img/video_7680819142462672159.jpg",
-      "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
-      "creator_handle": "the_kandiid_guy",
-      "play_count": 1500000,
-      "window_gmv": 10852.97,
-      "window_units_sold": 387
-    },
-    {
-      "video_id": "7688859375234059533",
-      "cover_url": "/img/video_7688859375234059533.jpg",
-      "tiktok_url": "https://www.tiktok.com/@the2ndinch/video/7688859375234059533",
-      "creator_handle": "the2ndinch",
-      "play_count": 966300,
-      "window_gmv": 505.75,
-      "window_units_sold": 11
+      "window_units_sold": 49,
+      "is_ad": true,
+      "duration_seconds": 46
     },
     {
       "video_id": "7688047700935232782",
@@ -87,7 +86,20 @@
       "creator_handle": "zach.finds",
       "play_count": 817111,
       "window_gmv": 672.21,
-      "window_units_sold": 25
+      "window_units_sold": 25,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7688859375234059533",
+      "cover_url": "/img/video_7688859375234059533.jpg",
+      "tiktok_url": "https://www.tiktok.com/@the2ndinch/video/7688859375234059533",
+      "creator_handle": "the2ndinch",
+      "play_count": 966300,
+      "window_gmv": 505.75,
+      "window_units_sold": 11,
+      "is_ad": true,
+      "duration_seconds": 28
     }
   ]
 }

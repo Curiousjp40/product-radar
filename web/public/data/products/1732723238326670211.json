@@ -31,46 +31,10 @@
     690,
     500
   ],
-  "is_pick": true,
+  "is_pick": false,
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723238326670211",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt",
   "videos": [
-    {
-      "video_id": "7693931584830967070",
-      "cover_url": "/img/video_7693931584830967070.jpg",
-      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693931584830967070",
-      "creator_handle": "jordyn_gunderson",
-      "play_count": 2200000,
-      "window_gmv": 10388,
-      "window_units_sold": 212
-    },
-    {
-      "video_id": "7695113118279552270",
-      "cover_url": "/img/video_7695113118279552270.jpg",
-      "tiktok_url": "https://www.tiktok.com/@styledbylilea/video/7695113118279552270",
-      "creator_handle": "styledbylilea",
-      "play_count": 931500,
-      "window_gmv": 1078,
-      "window_units_sold": 22
-    },
-    {
-      "video_id": "7693997393238314254",
-      "cover_url": "/img/video_7693997393238314254.jpg",
-      "tiktok_url": "https://www.tiktok.com/@gavinbeckham_/video/7693997393238314254",
-      "creator_handle": "gavinbeckham_",
-      "play_count": 501600,
-      "window_gmv": 2205,
-      "window_units_sold": 45
-    },
-    {
-      "video_id": "7693922619942276382",
-      "cover_url": "/img/video_7693922619942276382.jpg",
-      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693922619942276382",
-      "creator_handle": "jordyn_gunderson",
-      "play_count": 397800,
-      "window_gmv": 11270,
-      "window_units_sold": 230
-    },
     {
       "video_id": "7693929093238131999",
       "cover_url": "/img/video_7693929093238131999.jpg",
@@ -78,7 +42,9 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 367600,
       "window_gmv": 13377,
-      "window_units_sold": 273
+      "window_units_sold": 273,
+      "is_ad": true,
+      "duration_seconds": 68
     },
     {
       "video_id": "7693957109964115230",
@@ -87,7 +53,53 @@
       "creator_handle": "jordyn_gunderson",
       "play_count": 327070,
       "window_gmv": 11858,
-      "window_units_sold": 242
+      "window_units_sold": 242,
+      "is_ad": true,
+      "duration_seconds": 68
+    },
+    {
+      "video_id": "7693922619942276382",
+      "cover_url": "/img/video_7693922619942276382.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693922619942276382",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 397800,
+      "window_gmv": 11270,
+      "window_units_sold": 230,
+      "is_ad": true,
+      "duration_seconds": 39
+    },
+    {
+      "video_id": "7693931584830967070",
+      "cover_url": "/img/video_7693931584830967070.jpg",
+      "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693931584830967070",
+      "creator_handle": "jordyn_gunderson",
+      "play_count": 2200000,
+      "window_gmv": 10388,
+      "window_units_sold": 212,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7693997393238314254",
+      "cover_url": "/img/video_7693997393238314254.jpg",
+      "tiktok_url": "https://www.tiktok.com/@gavinbeckham_/video/7693997393238314254",
+      "creator_handle": "gavinbeckham_",
+      "play_count": 501600,
+      "window_gmv": 2205,
+      "window_units_sold": 45,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7695113118279552270",
+      "cover_url": "/img/video_7695113118279552270.jpg",
+      "tiktok_url": "https://www.tiktok.com/@styledbylilea/video/7695113118279552270",
+      "creator_handle": "styledbylilea",
+      "play_count": 931500,
+      "window_gmv": 1078,
+      "window_units_sold": 22,
+      "is_ad": true,
+      "duration_seconds": 11
     }
   ]
 }
