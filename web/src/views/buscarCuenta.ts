@@ -1,5 +1,6 @@
 import { t, type Lang } from "../i18n";
 import { getStoredPassword, setStoredPassword } from "../searchPassword";
+import { getSavedSearch, listSavedSearches, type SavedSearchSummary } from "../savedSearches";
 import type { AccountSearchResult } from "../types";
 
 /* "Buscar cuenta" -- replaces the old "Cómo te está yendo" / Ari-benchmark
@@ -78,7 +79,7 @@ function errorMessageFor(code: string | undefined, params: Record<string, number
 type ViewState =
   | { kind: "idle" }
   | { kind: "loading"; handle: string }
-  | { kind: "result"; handle: string; data: AccountSearchResult }
+  | { kind: "result"; handle: string; data: AccountSearchResult; fromSaved?: boolean }
   | { kind: "not_found"; handle: string }
   | { kind: "no_worker"; handle: string }
   | { kind: "error"; handle: string; code?: string; params?: Record<string, number> };
@@ -86,6 +87,7 @@ type ViewState =
 let state: ViewState = { kind: "idle" };
 let remainingToday: number | null = null;
 let remainingMonth: number | null = null;
+let savedSearches: SavedSearchSummary[] = [];
 
 function normalizeHandleInput(raw: string): string {
   return raw.trim().replace(/^@/, "").toLowerCase();
@@ -222,6 +224,33 @@ function topProductsHtml(data: AccountSearchResult, lang: Lang): string {
   `;
 }
 
+function savedSearchCardHtml(s: SavedSearchSummary, lang: Lang): string {
+  const date = new Date(s.fetched_at);
+  const dateLabel = Number.isNaN(date.getTime()) ? s.fetched_at : date.toLocaleDateString(lang === "es" ? "es-MX" : "en-US", { month: "short", day: "numeric" });
+  const avatar = s.avatar ? `<img class="saved-search-avatar" src="${proxiedImageUrl(s.avatar)}" alt="" loading="lazy" />` : `<div class="saved-search-avatar"></div>`;
+  return `
+    <button type="button" class="saved-search-card" data-action="open-saved" data-handle="${s.handle}">
+      ${avatar}
+      <div class="saved-search-card-info">
+        <div class="name">${s.nickname}</div>
+        <div class="handle">@${s.handle}</div>
+        <div class="date">${t("saved_search_date", lang, { date: dateLabel })}</div>
+      </div>
+    </button>
+  `;
+}
+
+function savedSearchesHtml(lang: Lang): string {
+  if (savedSearches.length === 0) return "";
+  return `
+    <div class="saved-searches-section">
+      <h3>${t("saved_searches_title", lang)}</h3>
+      <div class="saved-search-grid">${savedSearches.map((s) => savedSearchCardHtml(s, lang)).join("")}</div>
+      <a class="more-link" href="#/comparar-cuentas">${t("compare_accounts_link", lang)}</a>
+    </div>
+  `;
+}
+
 function renderBody(lang: Lang): string {
   if (state.kind === "idle") {
     return `
@@ -230,6 +259,7 @@ function renderBody(lang: Lang): string {
         <button type="submit" class="btn-accent">${t("search_button", lang)}</button>
       </form>
       ${remainingHtml(lang)}
+      ${savedSearchesHtml(lang)}
     `;
   }
 
@@ -252,7 +282,17 @@ function renderBody(lang: Lang): string {
   } else if (state.kind === "error") {
     resultBlock = `<p class="empty-state">${errorMessageFor(state.code, state.params, lang)}</p>${freeButtonsHtml(handle, lang)}`;
   } else if (state.kind === "result") {
+    const fetchedDate = new Date(state.data.fetched_at);
+    const dateLabel = Number.isNaN(fetchedDate.getTime()) ? state.data.fetched_at : fetchedDate.toLocaleDateString(lang === "es" ? "es-MX" : "en-US", { month: "short", day: "numeric" });
     resultBlock = `
+      ${
+        state.fromSaved
+          ? `<div class="saved-search-banner">
+              <span>${t("saved_search_viewing", lang, { date: dateLabel })}</span>
+              <button type="button" class="btn-accent" data-action="refresh-saved" data-handle="${handle}">${t("actualizar_button", lang)}</button>
+            </div>`
+          : ""
+      }
       ${freeButtonsHtml(handle, lang)}
       ${creatorStatsHtml(state.data, lang)}
       ${audienceHtml(state.data, lang)}
@@ -314,9 +354,24 @@ async function runSearch(container: HTMLElement, lang: Lang, handle: string): Pr
       state = { kind: "not_found", handle };
     } else {
       state = { kind: "result", handle, data };
+      void listSavedSearches().then((items) => {
+        savedSearches = items;
+      });
     }
   } catch {
     state = { kind: "error", handle };
+  }
+  render(container, lang);
+}
+
+async function openSaved(container: HTMLElement, lang: Lang, handle: string): Promise<void> {
+  state = { kind: "loading", handle };
+  render(container, lang);
+  const data = await getSavedSearch(handle);
+  if (!data) {
+    state = { kind: "error", handle };
+  } else {
+    state = { kind: "result", handle, data, fromSaved: true };
   }
   render(container, lang);
 }
@@ -334,8 +389,20 @@ function render(container: HTMLElement, lang: Lang): void {
     if (!handle) return;
     void runSearch(container, lang, handle);
   });
+  container.querySelectorAll<HTMLButtonElement>('[data-action="open-saved"]').forEach((btn) => {
+    btn.addEventListener("click", () => {
+      void openSaved(container, lang, btn.dataset.handle!);
+    });
+  });
+  container.querySelector<HTMLButtonElement>('[data-action="refresh-saved"]')?.addEventListener("click", () => {
+    void runSearch(container, lang, (container.querySelector('[data-action="refresh-saved"]') as HTMLButtonElement).dataset.handle!);
+  });
 }
 
 export function renderBuscarCuenta(container: HTMLElement, lang: Lang): void {
   render(container, lang);
+  void listSavedSearches().then((items) => {
+    savedSearches = items;
+    if (state.kind === "idle") render(container, lang);
+  });
 }

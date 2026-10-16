@@ -5,6 +5,7 @@ const LINKS: { route: string; labelKey: string }[] = [
   { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "outreach", labelKey: "nav_outreach" },
   { route: "buscar", labelKey: "nav_buscar_cuenta" },
+  { route: "comparar-cuentas", labelKey: "compare_accounts_title" },
   { route: "ocultos", labelKey: "nav_ocultos" },
   { route: "mejores-horas", labelKey: "nav_mejores_horas" },
   { route: "muestras", labelKey: "nav_muestras_legacy" },

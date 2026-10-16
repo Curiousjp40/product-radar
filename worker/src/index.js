@@ -28,6 +28,7 @@ const PER_RUN_CREDIT_FLOOR = 60;
 // docs/fastmoss_tools.json) = 5cr/search.
 const SEARCH_COST_CREDITS = 5;
 const NOT_FOUND_TTL_SECONDS = 24 * 60 * 60;
+const SAVED_KEY_PREFIX = "saved:";
 
 function corsHeaders() {
   return {
@@ -56,9 +57,62 @@ export default {
     if (url.pathname === "/state") {
       return handleState(request, url, env);
     }
+    if (url.pathname === "/saved") {
+      return handleSaved(request, url, env);
+    }
     return handleSearch(request, env);
   },
 };
+
+/**
+ * Part C6b: every successful search (cache hit or fresh fetch) is also
+ * saved permanently under `saved:<handle>` (no expirationTtl, unlike the
+ * 7-day `cache:<handle>` dedup key) with a small `metadata` blob so the
+ * saved-searches list can be built from one env.SEARCH_KV.list() call
+ * without reading every saved value.
+ */
+async function saveSearchResult(env, handle, result) {
+  await env.SEARCH_KV.put(`${SAVED_KEY_PREFIX}${handle}`, JSON.stringify(result), {
+    metadata: {
+      handle,
+      nickname: result.creator?.nickname ?? handle,
+      avatar: result.creator?.avatar ?? null,
+      fetched_at: result.fetched_at,
+    },
+  });
+}
+
+/**
+ * Part C6b: GET /saved lists every saved search (free -- just KV reads,
+ * no FastMoss calls), GET /saved?handle=X returns one saved search's full
+ * result (also free -- "opening a saved one costs 0 credits"). Reading is
+ * not password-gated (same reasoning as /credits): CORS + Origin already
+ * restrict this to the Pages site, and it's Roxie's own non-sensitive
+ * research data, not something that spends money if read.
+ */
+async function handleSaved(request, url, env) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders() });
+  }
+  const origin = request.headers.get("Origin");
+  if (origin !== ALLOWED_ORIGIN) {
+    return json({ error: "forbidden" }, 403);
+  }
+  if (request.method !== "GET") {
+    return json({ error: "method_not_allowed" }, 405);
+  }
+
+  const handle = url.searchParams.get("handle");
+  if (handle) {
+    const result = await env.SEARCH_KV.get(`${SAVED_KEY_PREFIX}${handle}`, { type: "json" });
+    if (!result) return json({ error: "not_saved" }, 404);
+    return json(result);
+  }
+
+  const listed = await env.SEARCH_KV.list({ prefix: SAVED_KEY_PREFIX });
+  const items = listed.keys.map((k) => k.metadata ?? { handle: k.name.slice(SAVED_KEY_PREFIX.length) });
+  return json({ items });
+}
 
 // Part C5/C4's cross-device sync: Mis Productos, "No me interesa" and "Mi
 // lista" all need to work the same on Roxie's phone and the computer, not
@@ -238,6 +292,7 @@ async function handleSearch(request, env) {
   const cacheKey = cacheKeyFor(handle);
   const cached = await env.SEARCH_KV.get(cacheKey, { type: "json" });
   if (cached) {
+    if (cached.creator) await saveSearchResult(env, handle, cached);
     return json({ ...cached, from_cache: true, remaining_today: dailyLimit - dailyCount, remaining_month: monthlyLimit - monthlyCount });
   }
 
@@ -318,6 +373,7 @@ async function handleSearch(request, env) {
   };
 
   await env.SEARCH_KV.put(cacheKey, JSON.stringify(result), { expirationTtl: CACHE_TTL_SECONDS });
+  await saveSearchResult(env, handle, result);
   await bumpCounters(env, dailyKey, monthlyKey, dailyCount, monthlyCount);
 
   return json({ ...result, from_cache: false, remaining_today: dailyLimit - dailyCount - 1, remaining_month: monthlyLimit - monthlyCount - 1 });
