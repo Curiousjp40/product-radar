@@ -32,7 +32,14 @@ def fetch_mis_productos(token: str, url: str = WORKER_ADMIN_URL, timeout: float 
     (bearer-token gated, see worker/src/index.js's handleAdminMisProductos).
     Raises EarningsFetchError on any failure -- a weekly run should log and
     continue, not crash, if this one optional step fails."""
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+    # Cloudflare blocks the default Python-urllib User-Agent outright (403,
+    # "error code: 1010" -- its basic bot-fight check, confirmed 2026-10-16
+    # testing this exact route) before the request ever reaches the Worker.
+    # A plain browser-looking UA is enough to pass it.
+    req = urllib.request.Request(
+        url,
+        headers={"Authorization": f"Bearer {token}", "User-Agent": "Mozilla/5.0 (compatible; product-radar-weekly-run/1.0)"},
+    )
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             body = json.loads(resp.read().decode("utf-8"))
