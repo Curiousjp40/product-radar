@@ -101,3 +101,43 @@ the Worker -- `engine/earnings.py` now sends a browser-looking UA.
 weights from outcome data) -- part 8 only just started collecting that data,
 there isn't enough of it yet to fit anything against. Phase 5/6 per the spec
 also not started.
+
+### 2026-10-16 "Next round" 8-part request (all done and pushed)
+All 8 parts of the 2026-10-16 "next round (0 FastMoss credits)" request are
+done, tested, and pushed:
+1. Pick mix shifted toward fashion -- `max_hogar_picks` (6 of 20) caps Hogar
+   on the full final picks list (`engine.picks.enforce_group_maximum`,
+   applied after core+explore+evergreen), which also guarantees Moda >= 14
+   as long as every category is fashion/home. Esta semana got a Moda/Hogar/
+   Todo filter bar.
+2. `config/categories.yaml`'s `exclude_title_keywords` (word-boundary
+   matched, not substring -- "magnet" used to also match "magnetic")
+   blocks stickers/decals/magnets/tape in home_decor/home_storage;
+   home_decor also requires a `require_title_keywords` match. Dropped items
+   are logged (`engine.quality.filter_off_category`).
+3. "Ya lo tengo" button (every card + product page) opens a small sheet
+   (muestra/compre, date, note), adds the product to Mis Productos as
+   Recibido, and swaps it out of Hoy/Esta semana for the next-best
+   candidate (`web/src/ownedSwap.ts`, `web/src/pickAdapter.ts`). A
+   re-trending owned product surfaces once on Hoy as "Ya lo tienes: vuelve
+   a grabarlo."
+4. Solicitudes section in Mis Productos: Pendientes/Aprobadas/Rechazadas
+   tabs, a new "aprobado" status, shop-rejection memory
+   (`times_rejected`, warns before re-requesting from a shop that said no
+   before), and an approval-rate stat on Mi Dinero.
+5. Momentum reason template split into momentum_up/momentum_down (used to
+   literally render "went up -39%"); Hoy's hero never leads with a
+   falling-sales pick (`web/src/rotation.ts`'s `reorderForHero`).
+6. Product page no longer shows two different "best time to post" lines
+   from two different sources -- one consolidated line, plus the separate
+   live-time line.
+7. New "En vivo" page (Mas): best time to go live per category, a "Plan
+   para tu proximo live" generator (prioritizes owned Recibido/Grabado,
+   then top fashion picks -- `web/src/livePlan.ts`), top-selling lives
+   last 28 days (`engine.posting_time.top_lives_for_l1`, new
+   `live_highlights.json`), and Ari's-lives benchmark note. Hoy's hero
+   also shows "Mejor hora para un live."
+8. The Mas credits widget no longer computes a bogus "credits/week" from
+   total_consumed/time-since-plan-start -- the real per-run average comes
+   from the local credit_ledger (`engine.budget.average_credits_per_run`),
+   surfaced through `meta.json`, with a "--" fallback under 2 runs.
