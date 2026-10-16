@@ -12,10 +12,10 @@ test("productsToFilmToday is deterministic for the same day", () => {
   assert.equal(first.length, 3);
 });
 
-test("productsToFilmToday defaults to 6 (1 hero + 5 also-good)", () => {
-  const picks = Array.from({ length: 10 }, (_, i) => `p${i}`);
+test("productsToFilmToday defaults to 9 (1 hero + 8 also-good)", () => {
+  const picks = Array.from({ length: 20 }, (_, i) => `p${i}`);
   const result = productsToFilmToday(picks, new Date("2026-10-15T00:00:00Z"), new Set());
-  assert.equal(result.length, 6);
+  assert.equal(result.length, 9);
 });
 
 test("productsToFilmToday rotates to a different set on a different day", () => {

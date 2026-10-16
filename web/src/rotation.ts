@@ -16,7 +16,7 @@ function dayNumber(date: Date): number {
   return Math.floor(date.getTime() / 86_400_000);
 }
 
-export function productsToFilmToday(pickIds: string[], today: Date, excludeIds: Set<string>, count = 6): string[] {
+export function productsToFilmToday(pickIds: string[], today: Date, excludeIds: Set<string>, count = 9): string[] {
   const eligible = pickIds.filter((id) => !excludeIds.has(id));
   if (eligible.length === 0) return [];
   const offset = dayNumber(today) % eligible.length;

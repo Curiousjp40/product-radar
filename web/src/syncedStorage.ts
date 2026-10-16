@@ -10,7 +10,7 @@ import { getStoredPassword } from "./searchPassword";
 
 const WORKER_URL = "https://product-radar-search.roxie-radar.workers.dev";
 
-export type SyncedKey = "mis_productos" | "not_for_me" | "mi_lista" | "hidden_categories";
+export type SyncedKey = "mis_productos" | "not_for_me" | "mi_lista" | "hidden_categories" | "earnings_goal";
 
 function localKey(key: SyncedKey): string {
   return `product-radar:synced:${key}`;

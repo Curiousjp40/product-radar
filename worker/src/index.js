@@ -145,7 +145,7 @@ async function handleSaved(request, url, env) {
 // known key", nothing more. Reads need no password (CORS + Origin check
 // already restrict this to the Pages site); writes need the same
 // SEARCH_PASSWORD as account search, since a write can overwrite real data.
-const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories"]);
+const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories", "earnings_goal"]);
 
 async function handleState(request, url, env) {
   if (request.method === "OPTIONS") {

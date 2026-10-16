@@ -247,7 +247,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const categoryByProductId = new Map(picksData.picks.map((p) => [p.product_id, p.category]));
   const postedIds = new Set(Object.entries(statuses).filter(([, s]) => s === "posted").map(([id]) => id));
   const allPickIds = visiblePicks.map((p) => p.product_id);
-  const todaysIds = productsToFilmToday(allPickIds, today, postedIds, 6);
+  const todaysIds = productsToFilmToday(allPickIds, today, postedIds, 9);
   const byId = new Map(visiblePicks.map((p) => [p.product_id, p]));
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
   const [hero, ...rest] = todaysPicks;
@@ -272,7 +272,8 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
                ? `<h3 class="hoy-also-good-title">${t("hoy_also_good_title", lang)}</h3>
                   <div class="card-grid hoy-also-good-list">${rest.map((p) => alsoGoodCardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed")).join("")}</div>`
                : ""
-           }`
+           }
+           <a class="more-link" href="#/week">${t("ver_20_de_la_semana", lang, { n: picksData.picks.length })}</a>`
     }
   `;
 

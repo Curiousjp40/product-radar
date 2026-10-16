@@ -57,6 +57,7 @@ const dict: Record<string, { es: string; en: string }> = {
   hoy_title: { es: "Qué grabo hoy", en: "What to film today" },
   hoy_hero_label: { es: "Grábalo primero", en: "Film this first" },
   hoy_also_good_title: { es: "También te conviene", en: "Also good" },
+  ver_20_de_la_semana: { es: "Ver los {n} de la semana →", en: "See all {n} this week →" },
   hoy_empty: {
     es: "No hay productos nuevos que grabar hoy. ¡Buen trabajo!",
     en: "No new products to film today. Nice work!",
