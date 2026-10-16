@@ -82,6 +82,7 @@ export interface Candidate {
   has_enrichment: boolean;
   suspicious: boolean;
   suspicious_reasons?: string[];
+  rising_fast: boolean;
   fastmoss_url: string;
   tiktok_search_url: string;
   tiktok_shop_url: string;

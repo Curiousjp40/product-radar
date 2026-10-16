@@ -108,16 +108,6 @@
     "beauty_hair": null
   },
   "groups": {
-    "home": {
-      "sample_size": 127,
-      "used_organic_only": true,
-      "hour_start": 4,
-      "hour_end": 6,
-      "best_weekdays": [
-        2,
-        5
-      ]
-    },
     "fashion": {
       "sample_size": 217,
       "used_organic_only": true,
@@ -126,6 +116,16 @@
       "best_weekdays": [
         0,
         6
+      ]
+    },
+    "home": {
+      "sample_size": 127,
+      "used_organic_only": true,
+      "hour_start": 4,
+      "hour_end": 6,
+      "best_weekdays": [
+        2,
+        5
       ]
     }
   },

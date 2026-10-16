@@ -1704,6 +1704,11 @@ select.status-select {
   color: #7c3aed;
 }
 
+.rising-fast-badge {
+  background: #fef3c7;
+  color: #b45309;
+}
+
 .saturation-reason {
   font-size: 0.78rem;
   color: var(--text-dim);

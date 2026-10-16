@@ -32,6 +32,7 @@ function row(c: Candidate, lang: Lang): string {
             $${c.price.toFixed(2)} &middot; ${(c.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${categoryLabel(c, lang)}
           </div>
           <div class="todos-row-badges">
+            ${c.rising_fast ? `<span class="saturation-badge rising-fast-badge">${t("rising_fast_tag", lang)}</span>` : ""}
             ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
             ${c.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
             ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}

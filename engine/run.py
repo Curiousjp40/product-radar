@@ -1379,6 +1379,12 @@ def candidates_to_export_dicts(
                 "is_pick": r["product_id"] in pick_ids,
                 "has_enrichment": bool(pd.notna(r.get("creator_count"))),
                 "suspicious": False,
+                # Part C "midweek refresh" (added 2026-10-16): only
+                # engine.midweek_refresh ever sets this True (Thursday's
+                # Monday-vs-now rank comparison); the regular Monday run
+                # has no "before" rank to compare against, so it's always
+                # False here.
+                "rising_fast": False,
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=r["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
                 "tiktok_shop_url": tiktok_shop_url(r["product_id"]),
@@ -1430,6 +1436,7 @@ def candidates_to_export_dicts(
                 "has_enrichment": False,
                 "suspicious": True,
                 "suspicious_reasons": c["suspicious_reasons"],
+                "rising_fast": False,
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
                 "tiktok_shop_url": tiktok_shop_url(c["product_id"]),

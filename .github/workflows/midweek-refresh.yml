@@ -1,0 +1,89 @@
+name: Midweek refresh
+
+# Thursday 6:15 AM America/New_York "midweek refresh" (Ryan, 2026-10-16):
+# re-pulls only the top-selling rankings for the active categories (no
+# trend, no video -- those stay Monday-only, except one video call per
+# brand-new top-10 entry), flags 10+ place rank jumps as "Subiendo
+# rapido" / "Rising fast", and re-exports candidates.json + product
+# pages. Picks (picks.json) are untouched.
+#
+# Same DST-safe double-cron gate as weekly-run.yml -- see that file's
+# top comment for why two schedules are needed. SCHEDULE DISABLED for
+# now (commented out below) until Ryan approves the credit estimate a
+# dry run of this workflow reports (dispatch it manually to see it,
+# 0 credits) -- uncomment both `cron:` lines under `schedule:` to turn
+# the weekly Thursday run on.
+on:
+  # schedule:
+  #   - cron: "15 10 * * 4" # 6:15 AM EDT (UTC-4), roughly mid-Mar to early Nov
+  #   - cron: "15 11 * * 4" # 6:15 AM EST (UTC-5), the rest of the year
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (0 credits, just prints the call/credit estimate)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  midweek-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only proceed at 6 AM America/New_York (DST-safe double-cron gate)
+        id: tz_gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run -- skipping the hour check."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          offset=$(TZ=America/New_York date +%z)
+          fired="${{ github.event.schedule }}"
+          echo "Cron that fired: '$fired'; America/New_York offset: $offset"
+          if { [ "$fired" = "15 10 * * 4" ] && [ "$offset" = "-0400" ]; } || \
+             { [ "$fired" = "15 11 * * 4" ] && [ "$offset" = "-0500" ]; }; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "This cron is for the other DST offset -- skipping the rest of this run."
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.tz_gate.outputs.proceed == 'true'
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        if: steps.tz_gate.outputs.proceed == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install engine
+        if: steps.tz_gate.outputs.proceed == 'true'
+        run: pip install -e .
+
+      - name: Run the midweek refresh
+        if: steps.tz_gate.outputs.proceed == 'true'
+        env:
+          FASTMOSS_API_KEY: ${{ secrets.FASTMOSS_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m engine.midweek_refresh --dry-run
+          else
+            python -m engine.midweek_refresh
+          fi
+
+      - name: Commit updated data
+        if: steps.tz_gate.outputs.proceed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data/candidates.json web/public/data/products data/radar.db data/snapshots docs/credit_log.md
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Midweek refresh: $(date -u +%Y-%m-%d)"
+            git push
+          fi

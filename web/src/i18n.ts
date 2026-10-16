@@ -173,6 +173,7 @@ const dict: Record<string, { es: string; en: string }> = {
   pagado_label: { es: "Pagado", en: "Paid" },
   mi_dinero_goal_history_title: { es: "Historial de metas", en: "Goal history" },
   mi_dinero_meta_cumplida: { es: "Meta cumplida", en: "Goal reached" },
+  rising_fast_tag: { es: "Subiendo rápido", en: "Rising fast" },
   // H2 combos (added 2026-10-15).
   combos_title: { es: "Combina y gana más", en: "Combine and earn more" },
   combos_combined_earn: { es: "Ganas {amount} si vendes ambos", en: "Earn {amount} if you sell both" },
