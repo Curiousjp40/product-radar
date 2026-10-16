@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "categories": {
+    "shapewear": {
+      "sample_size": 200,
+      "used_organic_only": false,
+      "hour_start": 8,
+      "hour_end": 10,
+      "best_weekdays": [
+        0,
+        2
+      ]
+    },
+    "dresses": {
+      "sample_size": 43,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        2,
+        6
+      ]
+    },
+    "sets": {
+      "sample_size": 73,
+      "used_organic_only": true,
+      "hour_start": 16,
+      "hour_end": 18,
+      "best_weekdays": [
+        0,
+        6
+      ]
+    },
+    "furniture": {
+      "sample_size": 256,
+      "used_organic_only": false,
+      "hour_start": 14,
+      "hour_end": 16,
+      "best_weekdays": [
+        2,
+        0
+      ]
+    },
+    "home_decor": {
+      "sample_size": 64,
+      "used_organic_only": true,
+      "hour_start": 4,
+      "hour_end": 6,
+      "best_weekdays": [
+        2,
+        4
+      ]
+    },
+    "winter_clothing": {
+      "sample_size": 182,
+      "used_organic_only": false,
+      "hour_start": 22,
+      "hour_end": 24,
+      "best_weekdays": [
+        3,
+        1
+      ]
+    },
+    "shoes": {
+      "sample_size": 194,
+      "used_organic_only": false,
+      "hour_start": 6,
+      "hour_end": 8,
+      "best_weekdays": [
+        4,
+        0
+      ]
+    },
+    "pet_furniture": {
+      "sample_size": 180,
+      "used_organic_only": false,
+      "hour_start": 4,
+      "hour_end": 6,
+      "best_weekdays": [
+        1,
+        3
+      ]
+    },
+    "home_storage": {
+      "sample_size": 167,
+      "used_organic_only": false,
+      "hour_start": 6,
+      "hour_end": 8,
+      "best_weekdays": [
+        3,
+        6
+      ]
+    },
+    "costumes": {
+      "sample_size": 44,
+      "used_organic_only": true,
+      "hour_start": 18,
+      "hour_end": 20,
+      "best_weekdays": [
+        3,
+        0
+      ]
+    },
+    "pajamas": null,
+    "activewear": null,
+    "seasonal": null,
+    "other": null,
+    "beauty_hair": null
+  },
+  "groups": {
+    "fashion": {
+      "sample_size": 217,
+      "used_organic_only": true,
+      "hour_start": 0,
+      "hour_end": 2,
+      "best_weekdays": [
+        0,
+        6
+      ]
+    },
+    "home": {
+      "sample_size": 127,
+      "used_organic_only": true,
+      "hour_start": 4,
+      "hour_end": 6,
+      "best_weekdays": [
+        2,
+        5
+      ]
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730843879700075109",
+  "time_range_days": 90,
+  "total": 575,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "julia_filippo",
+        "creator_uid": "216211517384388608"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 26300,
+        "play_count": 220400,
+        "share_count": 204
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 54426.41,
+        "window_units_sold": 848
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691742135288188191",
+      "video_meta": {
+        "caption_text": "ITS OCT FIRST :)",
+        "cover_url": "https://s.500fd.com/tt_video/oYgrjoPxDQ1x4e48A6FHVlVSBBfiq3EIESAkCv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691742135288188191",
+        "published_at": 1790873296,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@julia_filippo/video/7691742135288188191"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "autumnrsims",
+        "creator_uid": "6987551830055126021"
+      },
+      "engagement_metrics": {
+        "comment_count": 67,
+        "like_count": 40500,
+        "play_count": 1400000,
+        "share_count": 1017
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 10733.99,
+        "window_units_sold": 261
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673282901143784717",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocDEZeRjIVgIkQfEE5sDfHQjo7AFAAPAAHwUQP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673282901143784717",
+        "published_at": 1786575420,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@autumnrsims/video/7673282901143784717"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 216,
+        "play_count": 35000,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 11793.97,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674371802931416350",
+      "video_meta": {
+        "caption_text": "this romper just screams fall\ud83c\udf42\u2615\ufe0f\ud83e\uddf8",
+        "cover_url": "https://s.500fd.com/tt_video/oEIB1QAzHhGGCBLY03ximcAAiCKIAOAEaAfiI2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674371802931416350",
+        "published_at": 1786828942,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7674371802931416350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cxozyt",
+        "creator_uid": "6651696094428987398"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 4014,
+        "play_count": 100800,
+        "share_count": 117
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 8706.22,
+        "window_units_sold": 175
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672525894828821790",
+      "video_meta": {
+        "caption_text": "can you tell I\u2019m soo excited for fall",
+        "cover_url": "https://s.500fd.com/tt_video/oEheDf9CIEyqIbSW3BUAFCe6EvjkA1s4tImjWu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672525894828821790",
+        "published_at": 1786399162,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7672525894828821790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cxozyt",
+        "creator_uid": "6651696094428987398"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 9555,
+        "play_count": 154200,
+        "share_count": 304
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 7655.05,
+        "window_units_sold": 149
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670986078051945758",
+      "video_meta": {
+        "caption_text": "\ud83c\udf42\ud83c\udf41",
+        "cover_url": "https://s.500fd.com/tt_video/o4aBBzndTXB1iTTEiQ0T2RxwEW0IAPiAtVjIz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670986078051945758",
+        "published_at": 1786040637,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7670986078051945758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chaney_traviss",
+        "creator_uid": "7196049197246694446"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 350,
+        "play_count": 22700,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 8729.99,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688545683678219533",
+      "video_meta": {
+        "caption_text": "And it\u2019s a ROMPER!!! ",
+        "cover_url": "https://s.500fd.com/tt_video/oQBzapOJIAwWCIir5fIMC97B6nbcZwR3FuAgi1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688545683678219533",
+        "published_at": 1790129052,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chaney_traviss/video/7688545683678219533"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mads_creed",
+        "creator_uid": "6741333328173990917"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 3192,
+        "play_count": 329700,
+        "share_count": 179
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 4472.46,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672616500313738526",
+      "video_meta": {
+        "caption_text": "For a little pumpkin patch\ud83e\udd0e\ud83e\uddfa\ud83c\udf42 #falloutfitinspo #outfitinspo #pumpkinpatchoutfit #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oUgj49EDQAZhe1qDI8gfOiAIDfArFIAJuEAUTQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672616500313738526",
+        "published_at": 1786420256,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mads_creed/video/7672616500313738526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cxozyt",
+        "creator_uid": "6651696094428987398"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 3988,
+        "play_count": 77300,
+        "share_count": 132
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 5154.8,
+        "window_units_sold": 84
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675126263052356895",
+      "video_meta": {
+        "caption_text": "my new favorite type of dress style ",
+        "cover_url": "https://s.500fd.com/tt_video/owHLOPkejVI8CqI2CYGDfwLwdsPBAAjQdYhfQI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675126263052356895",
+        "published_at": 1787004610,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7675126263052356895"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttshopright2",
+        "creator_uid": "6546935601839489030"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 136,
+        "play_count": 3861,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 5671.68,
+        "window_units_sold": 82
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688050105223499022",
+      "video_meta": {
+        "caption_text": "TikTok will rue the day for messing up my audio #princesspolly #fallfashion #minidress #romper ",
+        "cover_url": "https://s.500fd.com/tt_video/okFQqLFGIGqrxXRfwAIwAmfmgerxmsOIiegwbL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688050105223499022",
+        "published_at": 1790013690,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttshopright2/video/7688050105223499022"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kristinanicoletall",
+        "creator_uid": "6877512417007928326"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 735,
+        "play_count": 70200,
+        "share_count": 31
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495023845212326501",
+        "window_gmv": 5354.37,
+        "window_units_sold": 82
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675343004877557023",
+      "video_meta": {
+        "caption_text": "petite, regular and tall lengths linked on video @Princess Polly  runs true to size \u2728 (6ft size 6 in tall for reference) #TikTokShopBackToSchool #BackToSchool #tallgirlapproved #romper #builtinshorts ",
+        "cover_url": "https://s.500fd.com/tt_video/o8eeSLf5AeVGoGa1gwlQPKRZMIIREqWUAHFIQD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675343004877557023",
+        "published_at": 1787055082,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kristinanicoletall/video/7675343004877557023"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1731935606017331951",
   "title": "20PCS Acrylic Photo Hooks \u2013 Buy 10 Get 10 Free, Stainless Steel & Ceramic Self-Adhesive, Smooth Lightweight Wall-Mount for Room Decor & Organizer, Easy Installation,Perfect for Photos, Keys, Jewelry & Lightweight Items, Versatile Home Accessory",
   "clean_title": "20PCS Acrylic Photo Hooks \u2013 Buy",
-  "image_url": "/img/product_1731935606017331951.jpg",
+  "image_url": "https://s.500fd.com/tt_product/dd896c791f6a4714862f8ecc107b7d42~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731935606017331951",
   "tiktok_search_url": "https://www.tiktok.com/search?q=20PCS%20Acrylic%20Photo%20Hooks%20%E2%80%93%20Buy",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731935606017331951",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7663672163106376973",
+      "cover_url": "https://s.500fd.com/tt_video/oMqAS2apLCzEtAFRzDvIYUtAAWEegFfBvV1DEx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@homepicks02/video/7663672163106376973",
+      "creator_handle": "homepicks02",
+      "play_count": 71431,
+      "window_gmv": 9816.71,
+      "window_units_sold": 1086,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7672386352016624910",
+      "cover_url": "https://s.500fd.com/tt_video/o0pDFEIycIfAhBr5EAAuEfXqkye0UIA0RHSjAl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@churkbqo1c5/video/7672386352016624910",
+      "creator_handle": "churkbqo1c5",
+      "play_count": 1603,
+      "window_gmv": 3490.59,
+      "window_units_sold": 388,
+      "is_ad": false,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7678497800203554061",
+      "cover_url": "https://s.500fd.com/tt_video/oIqIeCLHREGKF1AAJoAAe1IfVPIJjiyHkASwgE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nicksshop_/video/7678497800203554061",
+      "creator_handle": "nicksshop_",
+      "play_count": 4607,
+      "window_gmv": 5584.94,
+      "window_units_sold": 382,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7672337917808823565",
+      "cover_url": "https://s.500fd.com/tt_video/oYDIKPfhIkmIkU8EVzQGeHuj4VALAAzAA4eUQ7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@churkbqo1c5/video/7672337917808823565",
+      "creator_handle": "churkbqo1c5",
+      "play_count": 829,
+      "window_gmv": 2140.88,
+      "window_units_sold": 238,
+      "is_ad": false,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7665670332820262158",
+      "cover_url": "https://s.500fd.com/tt_video/oYe4kFDCjIHnCIA5thEEs6EA7A6Ar8AcwUfFeB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@noah.martinez1591/video/7665670332820262158",
+      "creator_handle": "noah.martinez1591",
+      "play_count": 5003,
+      "window_gmv": 929.77,
+      "window_units_sold": 102,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7671636260603137310",
+      "cover_url": "https://s.500fd.com/tt_video/oEn3KXAOfAEX3BBKABI15JBOIiiKiCAy65AIj4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@amelia.moore743/video/7671636260603137310",
+      "creator_handle": "amelia.moore743",
+      "play_count": 2948,
+      "window_gmv": 1062.42,
+      "window_units_sold": 91,
+      "is_ad": true,
+      "duration_seconds": 41
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 1570
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 1154
+      },
+      {
+        "hashtag": "tiktok",
+        "weight": 1154
+      },
+      {
+        "hashtag": "walldecor",
+        "weight": 1154
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 1086
+      },
+      {
+        "hashtag": "homegoods",
+        "weight": 939
+      },
+      {
+        "hashtag": "home",
+        "weight": 939
+      },
+      {
+        "hashtag": "wall",
+        "weight": 872
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 38,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "Must have to put stuff on the walls with no holes!",
+      "Withthisnail-freeadhesive, younolongerneedtodrillholesin thewall.",
+      "With this nail-free adhesive, you no longer need to drill holes in the wall."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      5,
+      0
+    ]
+  }
 }

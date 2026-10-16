@@ -3,7 +3,7 @@
   "product_id": "1732010990527942743",
   "title": "Women's High Neck Inner Layer + Leopard Print Strap Skirt Set, Casual Daily Spring Autumn Commuter, Two-Piece Ensemble, Top And Skirt Set",
   "clean_title": "Women's High Neck Inner Layer +",
-  "image_url": "/img/product_1732010990527942743.webp",
+  "image_url": "https://s.500fd.com/tt_product/0e11fadb88b3417f8762ac3839c7e838~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732010990527942743",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20High%20Neck%20Inner%20Layer%20%2B",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732010990527942743",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7687831858033249549",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7687831858033249549",
+      "creator_handle": "ttsshopfinds",
+      "play_count": 50000,
+      "window_gmv": 5900.79,
+      "window_units_sold": 288,
+      "is_ad": false,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7693329565749447949",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7693329565749447949",
+      "creator_handle": "ttsshopfinds",
+      "play_count": 85400,
+      "window_gmv": 5437.61,
+      "window_units_sold": 247,
+      "is_ad": false,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7690637877268483359",
+      "cover_url": "https://s.500fd.com/tt_video/oAAXFBErAQRaiOAqBi6VEIQltyvoDXina9Bia~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7690637877268483359",
+      "creator_handle": "momwithaplot",
+      "play_count": 6129,
+      "window_gmv": 5089.85,
+      "window_units_sold": 246,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7689654447663893774",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7689654447663893774",
+      "creator_handle": "ttsshopfinds",
+      "play_count": 50800,
+      "window_gmv": 3641.64,
+      "window_units_sold": 185,
+      "is_ad": false,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7678876352841403678",
+      "cover_url": "https://s.500fd.com/tt_video/oYEn7HREEEAfWIaQDqdAkifpVBFln2kDNTAmRg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yeseniamatostelle/video/7678876352841403678",
+      "creator_handle": "yeseniamatostelle",
+      "play_count": 11600,
+      "window_gmv": 3545.05,
+      "window_units_sold": 184,
+      "is_ad": true,
+      "duration_seconds": 72
+    },
+    {
+      "video_id": "7693275982739819789",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@orangeshoppin/video/7693275982739819789",
+      "creator_handle": "orangeshoppin",
+      "play_count": 839,
+      "window_gmv": 3345.63,
+      "window_units_sold": 170,
+      "is_ad": false,
+      "duration_seconds": 0
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fashion",
+        "weight": 826
+      },
+      {
+        "hashtag": "cheetahprint",
+        "weight": 720
+      },
+      {
+        "hashtag": "dress",
+        "weight": 307
+      },
+      {
+        "hashtag": "oto\u00f1o",
+        "weight": 306
+      },
+      {
+        "hashtag": "cheetah",
+        "weight": 247
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 229
+      },
+      {
+        "hashtag": "womensclothing",
+        "weight": 229
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 229
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 8,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 60.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "This outfit comes with both pieces and is so cute!",
+      "Adorable leopard dress and it comes with a cozy shirt to wear underneath!",
+      "So budget-friendly too \ud83e\udd0e"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      6,
+      0
+    ]
+  }
 }

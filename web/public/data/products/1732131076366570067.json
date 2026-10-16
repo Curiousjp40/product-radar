@@ -3,7 +3,7 @@
   "product_id": "1732131076366570067",
   "title": "Multi-Functional Cat Scratching Board Rocker Bed, Natural Sisal Scratcher, Natural Jute Material for Scratching and Relaxing, Indoor/outdoor Pet Furniture Durable Cat Scratching Post, Pet Toy & Bed, Self-Cleaning Kitty Lounge Chair, Ideal Gift for Cats",
   "clean_title": "Multi-Functional Cat Scratching Board Rocker Bed",
-  "image_url": "/img/product_1732131076366570067.webp",
+  "image_url": "https://s.500fd.com/tt_product/31f30fd93dd44b6aafbf1d59520bcb61~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732131076366570067",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Multi-Functional%20Cat%20Scratching%20Board%20Rocker%20Bed",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732131076366570067",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673122055524535566",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@queenmamasof9/video/7673122055524535566",
+      "creator_handle": "queenmamasof9",
+      "play_count": 274,
+      "window_gmv": 6897.44,
+      "window_units_sold": 422,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7686003822266830110",
+      "cover_url": "https://s.500fd.com/tt_video/o85ULLvET9RQHQqQeBFqAVtDA6VgPEK6fiqEjg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifewithlisadawn/video/7686003822266830110",
+      "creator_handle": "lifewithlisadawn",
+      "play_count": 5860,
+      "window_gmv": 2740.58,
+      "window_units_sold": 135,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7670619246111591694",
+      "cover_url": "https://s.500fd.com/tt_video/osfBd2CgIIvGLJSHwBUEnG0C5QoNke5eAAHLrr~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@foundbyida/video/7670619246111591694",
+      "creator_handle": "foundbyida",
+      "play_count": 805,
+      "window_gmv": 1682.01,
+      "window_units_sold": 99,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7677259149012454669",
+      "cover_url": "https://s.500fd.com/tt_video/ogQ3Wq4EfBxA5gRXoPQAUFEDlND4MiFmlfmzUS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bethz_1105/video/7677259149012454669",
+      "creator_handle": "bethz_1105",
+      "play_count": 37400,
+      "window_gmv": 1052.15,
+      "window_units_sold": 60,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7681854434413907214",
+      "cover_url": "https://s.500fd.com/tt_video/okbO2VYUeACqKgGdIfH2bsgAMLjztNce5kIgHw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@missgiselleatl/video/7681854434413907214",
+      "creator_handle": "missgiselleatl",
+      "play_count": 856700,
+      "window_gmv": 1150.66,
+      "window_units_sold": 59,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7670727221979483406",
+      "cover_url": "https://s.500fd.com/tt_video/okCmjqGy5j8eTK7DnfZSkJVIDkBLIIU9HQAAeS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@simplybecky61/video/7670727221979483406",
+      "creator_handle": "simplybecky61",
+      "play_count": 7874,
+      "window_gmv": 1021.42,
+      "window_units_sold": 56,
+      "is_ad": true,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshop",
+        "weight": 670
+      },
+      {
+        "hashtag": "foryoupage",
+        "weight": 521
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 521
+      },
+      {
+        "hashtag": "catscratcher",
+        "weight": 232
+      },
+      {
+        "hashtag": "catmom",
+        "weight": 176
+      },
+      {
+        "hashtag": "catsoftiktok",
+        "weight": 161
+      },
+      {
+        "hashtag": "catlife",
+        "weight": 135
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 135
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 16,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 8,
+      "hour_end": 10
+    },
+    "top_hooks": [
+      "Can you just see your cat snoozing in this lounge chair?",
+      "Why is this the cutest thing I\u2019ve ever seen?",
+      "La tumbona del chisme\ud83e\udd23el botellon de fanta ya es mas mexicano que gringo\ud83d\ude0c"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      2,
+      6
+    ]
+  }
 }

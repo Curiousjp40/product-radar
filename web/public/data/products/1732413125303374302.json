@@ -3,7 +3,7 @@
   "product_id": "1732413125303374302",
   "title": "FDR Embroidered Script Letter Washed Zip-Up Hoodie, Women's High-Collar Big Hood Sweatshirt Eases Social Anxiety , Flattering Fit & Exclusive Y2K Streetwear Style for Casual Everyday Wear",
   "clean_title": "FDR Embroidered Script Letter Washed Zip-Up",
-  "image_url": "/img/product_1732413125303374302.webp",
+  "image_url": "https://s.500fd.com/tt_product/329d755f114f46baa75b70cbf8ca6b12~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732413125303374302",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FDR%20Embroidered%20Script%20Letter%20Washed%20Zip-Up",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732413125303374302",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7667814570253208863",
+      "cover_url": "https://s.500fd.com/tt_video/osqC0H1ABxxMIfRsCuAjNX8gIfIXpjQUAIeIuM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sx.edwin/video/7667814570253208863",
+      "creator_handle": "sx.edwin",
+      "play_count": 601500,
+      "window_gmv": 16644.34,
+      "window_units_sold": 329,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7690788298930851103",
+      "cover_url": "https://s.500fd.com/tt_video/oIRiVb6KbGBErB5aiBKzka74uqIAB0EPIAs1C~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@s3n8ya/video/7690788298930851103",
+      "creator_handle": "s3n8ya",
+      "play_count": 1500000,
+      "window_gmv": 13479.45,
+      "window_units_sold": 251,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7677965842344070430",
+      "cover_url": "https://s.500fd.com/tt_video/oMVCj2HACZBDJ2jQAAARWnf1EeEFNnEqAErIdd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cvrrent.flow/video/7677965842344070430",
+      "creator_handle": "cvrrent.flow",
+      "play_count": 590900,
+      "window_gmv": 12042.98,
+      "window_units_sold": 219,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7686235751255690510",
+      "cover_url": "https://s.500fd.com/tt_video/oE9VN0AqeAg1N2diPGGqHsFIfIOILRfskfng4k~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7686235751255690510",
+      "creator_handle": "laylahmarline",
+      "play_count": 1860531,
+      "window_gmv": 10217.54,
+      "window_units_sold": 185,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7689168303998111006",
+      "cover_url": "https://s.500fd.com/tt_video/oQoVaGGqQICIBFfseIAAQPSLZtqvtkoAeGtjq0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@itsalexabain/video/7689168303998111006",
+      "creator_handle": "itsalexabain",
+      "play_count": 43400,
+      "window_gmv": 9924.01,
+      "window_units_sold": 180,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7686144321933937934",
+      "cover_url": "https://s.500fd.com/tt_video/oQP5iEBypzBqgQqBG4gIqiUYpUqMnaPEjqqAi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7686144321933937934",
+      "creator_handle": "laylahmarline",
+      "play_count": 3429198,
+      "window_gmv": 10037.67,
+      "window_units_sold": 178,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fashion",
+        "weight": 687
+      },
+      {
+        "hashtag": "zipup",
+        "weight": 548
+      },
+      {
+        "hashtag": "streetwear",
+        "weight": 470
+      },
+      {
+        "hashtag": "fdr",
+        "weight": 329
+      },
+      {
+        "hashtag": "embroidery",
+        "weight": 329
+      },
+      {
+        "hashtag": "jacket",
+        "weight": 329
+      },
+      {
+        "hashtag": "hoodie",
+        "weight": 251
+      },
+      {
+        "hashtag": "mens",
+        "weight": 219
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "5\u20199 140lb | Size Small",
+      "Clothes in Regret NOT buying sooner \ud83e\udd72 FDR .",
+      "Sweatshirt and stilettos> \ud83d\udc85\ud83c\udffd"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 0,
+    "hour_end": 2,
+    "best_weekdays": [
+      0,
+      1
+    ]
+  }
 }

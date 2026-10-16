@@ -6,16 +6,22 @@ import { productsToFilmToday } from "../src/rotation.ts";
 test("productsToFilmToday is deterministic for the same day", () => {
   const picks = ["a", "b", "c", "d", "e"];
   const today = new Date("2026-10-15T12:00:00Z");
-  const first = productsToFilmToday(picks, today, new Set());
-  const second = productsToFilmToday(picks, today, new Set());
+  const first = productsToFilmToday(picks, today, new Set(), 3);
+  const second = productsToFilmToday(picks, today, new Set(), 3);
   assert.deepEqual(first, second);
   assert.equal(first.length, 3);
 });
 
+test("productsToFilmToday defaults to 6 (1 hero + 5 also-good)", () => {
+  const picks = Array.from({ length: 10 }, (_, i) => `p${i}`);
+  const result = productsToFilmToday(picks, new Date("2026-10-15T00:00:00Z"), new Set());
+  assert.equal(result.length, 6);
+});
+
 test("productsToFilmToday rotates to a different set on a different day", () => {
-  const picks = ["a", "b", "c", "d", "e", "f"];
-  const day1 = productsToFilmToday(picks, new Date("2026-10-15T00:00:00Z"), new Set());
-  const day2 = productsToFilmToday(picks, new Date("2026-10-16T00:00:00Z"), new Set());
+  const picks = ["a", "b", "c", "d", "e", "f", "g", "h"];
+  const day1 = productsToFilmToday(picks, new Date("2026-10-15T00:00:00Z"), new Set(), 3);
+  const day2 = productsToFilmToday(picks, new Date("2026-10-16T00:00:00Z"), new Set(), 3);
   assert.notDeepEqual(day1, day2);
 });
 

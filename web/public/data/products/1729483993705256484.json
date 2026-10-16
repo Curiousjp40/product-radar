@@ -3,7 +3,7 @@
   "product_id": "1729483993705256484",
   "title": "CurvySweet Athena Women's Elegant Knitted Fitted Maxi Dress - Sleeveless Convertible Cowl-Scoop Neck, Ruched Waist Formal Wear Wedding Guest Outfits Inspo for Women's Clothes",
   "clean_title": "CurvySweet Athena Women's Elegant Knitted Fitted",
-  "image_url": "/img/product_1729483993705256484.webp",
+  "image_url": "https://s.500fd.com/tt_product/f7cc03bb6c4d45abbd87aa2aec3399d3~tplv-fhlh96nyum-crop-webp:1340:1785.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729483993705256484",
   "tiktok_search_url": "https://www.tiktok.com/search?q=CurvySweet%20Athena%20Women%27s%20Elegant%20Knitted%20Fitted",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729483993705256484",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7683424565346766093",
+      "cover_url": "https://s.500fd.com/tt_video/os8qEWtogHgRAIDfqAQFKzF9EiDCSQfAC3AkDA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7683424565346766093",
+      "creator_handle": "myriamestrella8",
+      "play_count": 239900,
+      "window_gmv": 70351.12,
+      "window_units_sold": 1107,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7684803722941091085",
+      "cover_url": "https://s.500fd.com/tt_video/oYvA0ioIBgAlilWjxFEFCa46b1AqErAkyBxX1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7684803722941091085",
+      "creator_handle": "myriamestrella8",
+      "play_count": 87200,
+      "window_gmv": 34479.95,
+      "window_units_sold": 546,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7686270274127318286",
+      "cover_url": "https://s.500fd.com/tt_video/o0BArhf8AxXY1iACbr4BAJJuiVIBHEawIvCANM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7686270274127318286",
+      "creator_handle": "myriamestrella8",
+      "play_count": 102200,
+      "window_gmv": 34024.9,
+      "window_units_sold": 522,
+      "is_ad": true,
+      "duration_seconds": 146
+    },
+    {
+      "video_id": "7676576871147932958",
+      "cover_url": "https://s.500fd.com/tt_video/oYXikFdEEQEIAGi0KRf42AHARAceqDVZEAhACv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@taylorbise/video/7676576871147932958",
+      "creator_handle": "taylorbise",
+      "play_count": 7800000,
+      "window_gmv": 21839.66,
+      "window_units_sold": 350,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7689632657910533390",
+      "cover_url": "https://s.500fd.com/tt_video/oYDxkDtxIAS9LtAEsDEEkzAA0ECRgAFeq3CFaf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7689632657910533390",
+      "creator_handle": "myriamyourbff",
+      "play_count": 15000,
+      "window_gmv": 21253.78,
+      "window_units_sold": 325,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7677696197745855758",
+      "cover_url": "https://s.500fd.com/tt_video/oAXMBsgjfAI5Gdq7CDRqfBBdqEDSFE79YKqIN1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@meladieugc/video/7677696197745855758",
+      "creator_handle": "meladieugc",
+      "play_count": 1871,
+      "window_gmv": 15458.92,
+      "window_units_sold": 260,
+      "is_ad": true,
+      "duration_seconds": 5
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "weddingguestdress",
+        "weight": 951
+      },
+      {
+        "hashtag": "curvysweet",
+        "weight": 498
+      },
+      {
+        "hashtag": "formaldress",
+        "weight": 498
+      },
+      {
+        "hashtag": "classydress",
+        "weight": 498
+      },
+      {
+        "hashtag": "bridesmaidsdresses",
+        "weight": 350
+      },
+      {
+        "hashtag": "maxidress",
+        "weight": 260
+      },
+      {
+        "hashtag": "elegantmaxidress",
+        "weight": 260
+      },
+      {
+        "hashtag": "tiktokshopfind",
+        "weight": 260
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 34,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 40.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "Replying to I feel so beautiful and I love how stretchy it is!",
+      "Replying to WAIT\u2026 this dress can be worn TWO completely different ways?",
+      "Replying to ."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      2,
+      5
+    ]
+  }
 }

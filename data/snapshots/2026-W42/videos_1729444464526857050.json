@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729444464526857050",
+  "time_range_days": 90,
+  "total": 40,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dollskill",
+        "creator_uid": "6688542654832329734"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 662,
+        "play_count": 74800,
+        "share_count": 61
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4162.4,
+        "window_units_sold": 79
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688525002294988062",
+      "video_meta": {
+        "caption_text": "Wanna have a little fun? \ud83c\udf80 #fembot #costumeideas #austinpowers #halloweencostumes ",
+        "cover_url": "https://s.500fd.com/tt_video/okMEnBqWBIRzEHfEFyACjIIDzAFVs0pBSXfWNo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688525002294988062",
+        "published_at": 1790124239,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollskill/video/7688525002294988062"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopchloemhollis",
+        "creator_uid": "7505499362476557358"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 834,
+        "play_count": 115400,
+        "share_count": 136
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 979.45,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675028537102863630",
+      "video_meta": {
+        "caption_text": "woohoo",
+        "cover_url": "https://s.500fd.com/tt_video/oUfcgMLUe6kZY6XGHLGAgvBuj8VAWC8ILlIoec~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675028537102863630",
+        "published_at": 1786981873,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopchloemhollis/video/7675028537102863630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "xoxoendyiashennel",
+        "creator_uid": "7282038828414747691"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 935,
+        "play_count": 18300,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1141.04,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681466767402732830",
+      "video_meta": {
+        "caption_text": "Wanted to wear this as a night gown however it\u2019s a lil itchy \ud83d\ude2d cute though!  #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ogg5ElQBAPBaaipRtIDGoBAAaTE2wWLUbiV2D~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681466767402732830",
+        "published_at": 1788480869,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@xoxoendyiashennel/video/7681466767402732830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sabinagilman1998",
+        "creator_uid": "6674938223704097797"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 116,
+        "play_count": 22100,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 809.7,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681036627615042830",
+      "video_meta": {
+        "caption_text": "Fembot is ready!!!! @Dolls Kill absolutely killing the Halloween game #halloween #dollskill #fembot #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/oEAfIFYfAFyRHD0qQoDDowAcEvEEmqZSgACxIx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681036627615042830",
+        "published_at": 1788380715,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sabinagilman1998/video/7681036627615042830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mads_creed",
+        "creator_uid": "6741333328173990917"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 495,
+        "play_count": 89000,
+        "share_count": 96
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 572.6,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680599987448728863",
+      "video_meta": {
+        "caption_text": "#halloweencostume #nonbasichalloweencostumes ",
+        "cover_url": "https://s.500fd.com/tt_video/ogtKiLJGUGqEWzRIeAARA1QtIe9TenQIyJQAfA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680599987448728863",
+        "published_at": 1788279051,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mads_creed/video/7680599987448728863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mads_creed",
+        "creator_uid": "6741333328173990917"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 192,
+        "play_count": 17300,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 608.4,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693767614677421342",
+      "video_meta": {
+        "caption_text": "So perfect as a group costume too ",
+        "cover_url": "https://s.500fd.com/tt_video/oM1AKjF74BLEuAiI0iEIbPHAAYCGA0fDJBwBih~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693767614677421342",
+        "published_at": 1791344882,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mads_creed/video/7693767614677421342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mads_creed",
+        "creator_uid": "6741333328173990917"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 1893,
+        "play_count": 482600,
+        "share_count": 358
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 561.1,
+        "window_units_sold": 12
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680596191020682526",
+      "video_meta": {
+        "caption_text": "The cutesttt #nonbasichalloweencostumes #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ooAA3i3P1iAc9QT0ABB1CbUSiArEKIfIaCXZWh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680596191020682526",
+        "published_at": 1788278184,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mads_creed/video/7680596191020682526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopchloemhollis",
+        "creator_uid": "7505499362476557358"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 129,
+        "play_count": 34300,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 385,
+        "window_units_sold": 11
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694107266445856013",
+      "video_meta": {
+        "caption_text": "so good #fembot #halloweencostume #nonbasiccostume #halloween #lastminutecostume ",
+        "cover_url": "https://s.500fd.com/tt_video/o0ACWfD3IEH75cDDv9qEGDdBxImaSZ1fgAAFvR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694107266445856013",
+        "published_at": 1791423963,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopchloemhollis/video/7694107266445856013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "teesfinds1",
+        "creator_uid": "6604972892235382789"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 67,
+        "play_count": 12600,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 266.1,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686914014022061326",
+      "video_meta": {
+        "caption_text": "size xs ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686914014022061326",
+        "published_at": 1789749146,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@teesfinds1/video/7686914014022061326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alyleonarda",
+        "creator_uid": "7226996254860936238"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 18004,
+        "play_count": 986062,
+        "share_count": 592
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 175,
+        "window_units_sold": 5
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694520055198993677",
+      "video_meta": {
+        "caption_text": "#halloweencostume #nonbasichalloweencostumes #fembot #austinpowers ",
+        "cover_url": "https://s.500fd.com/tt_video/oIb0XiDBiILEANZPDIfdCwcAK7nq1BqyiAXrAd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694520055198993677",
+        "published_at": 1791520091,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alyleonarda/video/7694520055198993677"
+      }
+    }
+  ]
+}

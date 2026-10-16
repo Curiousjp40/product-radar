@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732115207281414308",
+  "time_range_days": 90,
+  "total": 601,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dazeemaee",
+        "creator_uid": "6764767030534325254"
+      },
+      "engagement_metrics": {
+        "comment_count": 39,
+        "like_count": 4145,
+        "play_count": 568129,
+        "share_count": 203
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 4222.36,
+        "window_units_sold": 235
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692935258433522958",
+      "video_meta": {
+        "caption_text": "Is alt whimsy a thing?",
+        "cover_url": "https://s.500fd.com/tt_video/oclEtEmDgAAC3v2FfAqRDAAwIcF0ewQYskRGGS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692935258433522958",
+        "published_at": 1791151078,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dazeemaee/video/7692935258433522958"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ketryn.lawrence",
+        "creator_uid": "6958640792949474310"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 11600,
+        "play_count": 271600,
+        "share_count": 603
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 3627.21,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686319363527396638",
+      "video_meta": {
+        "caption_text": "#ootd #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/oAFrR0EEqEVFEaEsSBqFI6pEIBDBp1AfCAfysG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686319363527396638",
+        "published_at": 1789610703,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ketryn.lawrence/video/7686319363527396638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dazeemaee",
+        "creator_uid": "6764767030534325254"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 3927,
+        "play_count": 160713,
+        "share_count": 59
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 3306.42,
+        "window_units_sold": 189
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688741274068864270",
+      "video_meta": {
+        "caption_text": "\ud83d\ude0f",
+        "cover_url": "https://s.500fd.com/tt_video/oYwdIOFkdGk7fj8nHCDAQTZpjoVAyCFIFeEBfu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688741274068864270",
+        "published_at": 1790190720,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dazeemaee/video/7688741274068864270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopwithvall",
+        "creator_uid": "6942194014712972294"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 4571,
+        "play_count": 620300,
+        "share_count": 291
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 3042.06,
+        "window_units_sold": 187
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691928674559347981",
+      "video_meta": {
+        "caption_text": "mini dresses for the win>> \ud83d\udda4#minidress #fallootd #musthaves #fashion #fallclothing",
+        "cover_url": "https://s.500fd.com/tt_video/o8fxfA1ADIBEQxgs4XDvSqQIvQHh7OR7zFmElx~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691928674559347981",
+        "published_at": 1790916734,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopwithvall/video/7691928674559347981"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dazeemaee",
+        "creator_uid": "6764767030534325254"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 2069,
+        "play_count": 144972,
+        "share_count": 47
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 3192.58,
+        "window_units_sold": 181
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689520432566766862",
+      "video_meta": {
+        "caption_text": "\ud83c\udf42\ud83c\udf83",
+        "cover_url": "https://s.500fd.com/tt_video/ocW1EhwB4PA2RirgxIqqaBqAa0Eh6ipIHiUyE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689520432566766862",
+        "published_at": 1790356003,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dazeemaee/video/7689520432566766862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "upgraded.fr",
+        "creator_uid": "6867707756217435141"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 26,
+        "play_count": 4742,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 2014.47,
+        "window_units_sold": 134
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692168906047327519",
+      "video_meta": {
+        "caption_text": "Such a cool dress! #fallclothing ",
+        "cover_url": "https://s.500fd.com/tt_video/osAuWEBtqEhXEej8ADBdbtCwFDKIVIfRvE2sAV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692168906047327519",
+        "published_at": 1790972657,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@upgraded.fr/video/7692168906047327519"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "xumao.giffter",
+        "creator_uid": "7555737683890750519"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 275,
+        "play_count": 57800,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 2404.18,
+        "window_units_sold": 134
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672641482037136653",
+      "video_meta": {
+        "caption_text": "#ootd #fyp #DealsForYouDays #party #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ilcEUPugyi6B4BWs45AEtyWaLIZqnYIK6ZV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672641482037136653",
+        "published_at": 1786528620,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@xumao.giffter/video/7672641482037136653"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ilyximenaa",
+        "creator_uid": "7571635493605475342"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 15700,
+        "play_count": 923800,
+        "share_count": 1062
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 2494.95,
+        "window_units_sold": 131
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678422012280179999",
+      "video_meta": {
+        "caption_text": "love styling this mini dress \ud83d\udda4\u2728 #minidress #longsleevedresses #vneckdress #fallfashion #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/owALAfKPDECqFAfEsPEPznECjCVIj1GA8yROwA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678422012280179999",
+        "published_at": 1787777280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ilyximenaa/video/7678422012280179999"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "extracellestial",
+        "creator_uid": "6868488932167812101"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 743,
+        "play_count": 33300,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 2074.66,
+        "window_units_sold": 119
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689152890493046030",
+      "video_meta": {
+        "caption_text": "So shocked this dress actually fits! I am so in love with her she\u2019s the perfect witchy dress for fall! #creatorsearchinsights #outfitideasandfashionstyling #plussize #plussizeedition #plussizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oMeIS8rqJAHjM1RQJeeQAPCktHaXQaXgVYcuMN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689152890493046030",
+        "published_at": 1790270431,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@extracellestial/video/7689152890493046030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "irissss_12",
+        "creator_uid": "89177477771567104"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 119,
+        "play_count": 2738,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647291361063178404",
+        "window_gmv": 2005.36,
+        "window_units_sold": 119
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669572517199121678",
+      "video_meta": {
+        "caption_text": "\u2728 El vestido western perfecto para rodeos, conciertos o una salida casual. \u00a1Cons\u00edguelo en TikTok Shop! \ud83e\udd20 #vestidovaquero #fyp #western #TikTokShop #rodeo ",
+        "cover_url": "https://s.500fd.com/tt_video/oAUy6AAxqBDd0eIvCwFEguDqEbARqoAIEmfWS8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669572517199121678",
+        "published_at": 1785711531,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@irissss_12/video/7669572517199121678"
+      }
+    }
+  ]
+}

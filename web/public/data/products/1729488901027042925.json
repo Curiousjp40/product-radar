@@ -3,7 +3,7 @@
   "product_id": "1729488901027042925",
   "title": "DIGWAC Memory Foam Mattress (8/10/12/14-in Cotton) - Ergonomic Medium Firm, Stress Relief, Comfort, Perfect Sleep Companion, Shared-Bed Peace, Hotel-Height, Partner-Toss Shield, Dorm Essential, Home Decor",
   "clean_title": "DIGWAC Memory Foam Mattress 8/10/12/14-in Cotton",
-  "image_url": "/img/product_1729488901027042925.webp",
+  "image_url": "https://s.500fd.com/tt_product/ed7fc78b486d48a69f820630f66b31b1~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729488901027042925",
   "tiktok_search_url": "https://www.tiktok.com/search?q=DIGWAC%20Memory%20Foam%20Mattress%208/10/12/14-in%20Cotton",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729488901027042925",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689182786153991438",
+      "cover_url": "https://s.500fd.com/tt_video/oUQjOaIVAfRWeqkhID4V7bAgGeA3LHNw3C6Vug~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thelifeofbre/video/7689182786153991438",
+      "creator_handle": "thelifeofbre",
+      "play_count": 151100,
+      "window_gmv": 21730,
+      "window_units_sold": 171,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7677622953105788174",
+      "cover_url": "https://s.500fd.com/tt_video/ocPTESVrLDAZZAnjSGF4DRqB6Eeg5BrjImf8ME~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@autumndrews/video/7677622953105788174",
+      "creator_handle": "autumndrews",
+      "play_count": 26136,
+      "window_gmv": 11114,
+      "window_units_sold": 92,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7664049886630890765",
+      "cover_url": "https://s.500fd.com/tt_video/ocJxY8DxIiXYJttBhL1CcBOALINGptrfwAmiRI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thelifeofbre/video/7664049886630890765",
+      "creator_handle": "thelifeofbre",
+      "play_count": 23751,
+      "window_gmv": 7114.8,
+      "window_units_sold": 71,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7691817257843952927",
+      "cover_url": "https://s.500fd.com/tt_video/okK8ZDLQmVFtEcHfEAu9mVqkpVRVvAoeEQxBFd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7691817257843952927",
+      "creator_handle": "sylviaapproved",
+      "play_count": 7340,
+      "window_gmv": 5982,
+      "window_units_sold": 46,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7681076412714978591",
+      "cover_url": "https://s.500fd.com/tt_video/o8AfAfWkDEEqFACEbxEVKXILmCVQ0KOAtbRrpA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7681076412714978591",
+      "creator_handle": "dani.salfran",
+      "play_count": 34200,
+      "window_gmv": 5313,
+      "window_units_sold": 42,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7691460591461895454",
+      "cover_url": "https://s.500fd.com/tt_video/owAMQRrqUgTDfG4gDM94Fuj9eYmrZjQOPD2ffA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7691460591461895454",
+      "creator_handle": "sylviaapproved",
+      "play_count": 3609,
+      "window_gmv": 4252,
+      "window_units_sold": 32,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "mattress",
+        "weight": 504
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 309
+      },
+      {
+        "hashtag": "viral",
+        "weight": 242
+      },
+      {
+        "hashtag": "bedframe",
+        "weight": 171
+      },
+      {
+        "hashtag": "bed",
+        "weight": 143
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 129
+      },
+      {
+        "hashtag": "stressrelief",
+        "weight": 97
+      },
+      {
+        "hashtag": "mattressinabox",
+        "weight": 92
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "It\u2019s a must !",
+      "Replying to @\u272c",
+      "Glad I got this !"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      3,
+      0
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732280564760351185",
   "title": "Vacease Cordless Travel Compression Packing Cubes Set with Rechargeable Fast-Compressing Air Pump, Multiple Sizes Durable Home Organizers, Airtight Resealable Recyclable Bags, Portable Space Saving Storage for Luggage & Handbags",
   "clean_title": "Vacease Cordless Travel Compression Packing Cubes",
-  "image_url": "/img/product_1732280564760351185.webp",
+  "image_url": "https://s.500fd.com/tt_product/7fe075e4d0c947d4a5959261feb36d91~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732280564760351185",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Vacease%20Cordless%20Travel%20Compression%20Packing%20Cubes",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732280564760351185",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7665662046662348063",
+      "cover_url": "https://s.500fd.com/tt_video/o4z8UIgI3LGVATAdQmTICf4DIqLljwgImebuec~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665662046662348063",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 4700000,
+      "window_gmv": 12852.22,
+      "window_units_sold": 635,
+      "is_ad": true,
+      "duration_seconds": 42
+    },
+    {
+      "video_id": "7670495734227012894",
+      "cover_url": "https://s.500fd.com/tt_video/ogtifG5tgAqFW5NIbIJI9SYjFQTjAfLwUmCbIe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7670495734227012894",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 3000000,
+      "window_gmv": 9364.87,
+      "window_units_sold": 465,
+      "is_ad": true,
+      "duration_seconds": 47
+    },
+    {
+      "video_id": "7665297190595726623",
+      "cover_url": "https://s.500fd.com/tt_video/oYfqCPRBEqDYGg6EZmFtPE03EGnyIABhJeCViA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665297190595726623",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 568800,
+      "window_gmv": 9274.36,
+      "window_units_sold": 443,
+      "is_ad": true,
+      "duration_seconds": 42
+    },
+    {
+      "video_id": "7679037717707001118",
+      "cover_url": "https://s.500fd.com/tt_video/o0v1KriIEiA1m0Sf6biqRSuQsCWRRCASBALIC0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7679037717707001118",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 1500000,
+      "window_gmv": 9300.46,
+      "window_units_sold": 431,
+      "is_ad": true,
+      "duration_seconds": 42
+    },
+    {
+      "video_id": "7665660344873831710",
+      "cover_url": "https://s.500fd.com/tt_video/oAKhXeUESLjuCI8EiCFUA5RDA8qzcIuafewIlm~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665660344873831710",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 380714,
+      "window_gmv": 6432.84,
+      "window_units_sold": 321,
+      "is_ad": true,
+      "duration_seconds": 47
+    },
+    {
+      "video_id": "7680872273095429407",
+      "cover_url": "https://s.500fd.com/tt_video/o8WmIuLNXLU5nfYvQGGAQeXbGpqA4FERl7Iwef~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7680872273095429407",
+      "creator_handle": "boop.the.snoot89",
+      "play_count": 778499,
+      "window_gmv": 6445.17,
+      "window_units_sold": 286,
+      "is_ad": true,
+      "duration_seconds": 47
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "trucodeviaje",
+        "weight": 2064
+      },
+      {
+        "hashtag": "bolsaalvacio",
+        "weight": 2064
+      },
+      {
+        "hashtag": "organizadoralvacio",
+        "weight": 2064
+      },
+      {
+        "hashtag": "bolsaviajealvacio",
+        "weight": 2064
+      },
+      {
+        "hashtag": "ahorroespacioviaje",
+        "weight": 2064
+      },
+      {
+        "hashtag": "vacuumstoragebags",
+        "weight": 1509
+      },
+      {
+        "hashtag": "spacesaver",
+        "weight": 1066
+      },
+      {
+        "hashtag": "packwithme",
+        "weight": 1066
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 47,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 6,
+      "hour_end": 8
+    },
+    "top_hooks": [
+      "Fit three suitcases worth of clothes into one.",
+      "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo.",
+      "Fit three suitcases worth of clothes into one."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.7,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 6,
+    "hour_end": 8,
+    "best_weekdays": [
+      6,
+      4
+    ]
+  }
 }

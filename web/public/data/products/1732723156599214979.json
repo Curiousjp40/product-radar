@@ -3,7 +3,7 @@
   "product_id": "1732723156599214979",
   "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
   "clean_title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck",
-  "image_url": "/img/product_1732723156599214979.webp",
+  "image_url": "https://s.500fd.com/tt_product/78fbbe2a12384d37be1649cbbf5898e5~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7693924872270925087",
-      "cover_url": "/img/video_7693924872270925087.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/os1mEsMjAf8jAIHAV8Qb25FrIUIGqJfUCVCqDf~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693924872270925087",
       "creator_handle": "jordyn_gunderson",
       "play_count": 2500000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7693984488652590367",
-      "cover_url": "/img/video_7693984488652590367.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oUYRrxEf8EKUsGVjE9RFh4AIDfAAFEEuOBjqoQ~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693984488652590367",
       "creator_handle": "jordyn_gunderson",
       "play_count": 1835506,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7693943031489170718",
-      "cover_url": "/img/video_7693943031489170718.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQI6EbFwB9V1meHGECDAI8xrRKqAYBnEAlE5fh~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693943031489170718",
       "creator_handle": "jordyn_gunderson",
       "play_count": 815100,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7693923450271943967",
-      "cover_url": "/img/video_7693923450271943967.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/owOv5EuRrIA0LBVr2FxOXA0iBsVZaBTsiqAEG~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693923450271943967",
       "creator_handle": "jordyn_gunderson",
       "play_count": 147500,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7693924400470560013",
-      "cover_url": "/img/video_7693924400470560013.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/okjCeFH4Dgqffxjr6V21A2kGyCIIQ7vjDJT9EA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7693924400470560013",
       "creator_handle": "delanacrook",
       "play_count": 79600,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7694399882739666206",
-      "cover_url": "/img/video_7694399882739666206.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ogBCEAqAR3ITLAAglB4AkDAliDaPNAAYAisIE~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@aylin.ykt/video/7694399882739666206",
       "creator_handle": "aylin.ykt",
       "play_count": 502700,
@@ -144,5 +144,16 @@
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

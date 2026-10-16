@@ -3,7 +3,7 @@
   "product_id": "1732682696474792407",
   "title": "Women's Striped Print 2 Piece Set, Mock Neck Long Sleeve Oversized Pullover & Wide Leg Pants, Casual Relaxed Matching Outfit for Home, Travel, Daily Wear, Fall Winter",
   "clean_title": "Women's Striped Print 2 Piece Set",
-  "image_url": "/img/product_1732682696474792407.webp",
+  "image_url": "https://s.500fd.com/tt_product/151b29ac7e36411890ec8565bb22a829~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,107 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732682696474792407",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Striped%20Print%202%20Piece%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732682696474792407",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7693050454040677662",
+      "cover_url": "https://s.500fd.com/tt_video/oMhNLDaD1zigw0iDA4iiApBbCYAIr7GIIdfJqZ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7693050454040677662",
+      "creator_handle": "mayarowen",
+      "play_count": 2514047,
+      "window_gmv": 30665.22,
+      "window_units_sold": 819,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7691510384884256013",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@alwaysshoppin/video/7691510384884256013",
+      "creator_handle": "alwaysshoppin",
+      "play_count": 18800,
+      "window_gmv": 15739.78,
+      "window_units_sold": 449,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7694276962470104333",
+      "cover_url": "https://s.500fd.com/tt_video/owk2YFcIEIjEAzjHxHffaBiAj5bgVDkeHBFEC0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@plumshoppin/video/7694276962470104333",
+      "creator_handle": "plumshoppin",
+      "play_count": 5400,
+      "window_gmv": 12241.23,
+      "window_units_sold": 355,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7691780870180474143",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@deals.by.dyl/video/7691780870180474143",
+      "creator_handle": "deals.by.dyl",
+      "play_count": 117800,
+      "window_gmv": 9631.43,
+      "window_units_sold": 274,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7694176546382286093",
+      "cover_url": "https://s.500fd.com/tt_video/oAaIrQQMADmCUkeW89VjHGARQ2O0gjgHmtee3k~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@plumshoppin/video/7694176546382286093",
+      "creator_handle": "plumshoppin",
+      "play_count": 3458,
+      "window_gmv": 8227.49,
+      "window_units_sold": 229,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7692983808089459999",
+      "cover_url": "https://s.500fd.com/tt_video/o85FgYAQE3DAwVaFv7Bwuq8asdmEREH3QfCIfp~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7692983808089459999",
+      "creator_handle": "mayarowen",
+      "play_count": 89800,
+      "window_gmv": 7882.24,
+      "window_units_sold": 210,
+      "is_ad": true,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [],
+    "ideal_duration": {
+      "seconds": 4,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "There was no way I was passing this one up \ud83e\udd2a\u2728",
+      "sooo adorable and comfy \ud83e\udd79",
+      "I just noticed she left that door WIDE open\u2026\ud83d\ude2d\ud83d\ude2d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

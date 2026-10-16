@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729387696935768412",
+  "time_range_days": 90,
+  "total": 1696,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "vianelismamade3",
+        "creator_uid": "6806809933104890886"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 24,
+        "play_count": 1185,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 11048.05,
+        "window_units_sold": 853
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669942939317062942",
+      "video_meta": {
+        "caption_text": "Sweater de mujer #oto\u00f1o #sweter #ropademujer #invierno #blackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/o0jxl8AIEJDAcVlFRxCeBqHyxAUEREAAElIufi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669942939317062942",
+        "published_at": 1785797770,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vianelismamade3/video/7669942939317062942"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vianelismamade3",
+        "creator_uid": "6806809933104890886"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 35,
+        "play_count": 1083,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 7800.48,
+        "window_units_sold": 575
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7670362404936535327",
+      "video_meta": {
+        "caption_text": "Replying to @Eskatt | Labrador \ud83e\udd88 sweter de mujer #sweter #winter #invierno #blackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/osbGX0DFEFAoImCcUAEVAmEAEipLfRXyqfgBAo~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670362404936535327",
+        "published_at": 1785895430,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vianelismamade3/video/7670362404936535327"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_jessicao17",
+        "creator_uid": "6813384789601829894"
+      },
+      "engagement_metrics": {
+        "comment_count": 111,
+        "like_count": 45500,
+        "play_count": 461900,
+        "share_count": 446
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 6444.06,
+        "window_units_sold": 429
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682202930698603806",
+      "video_meta": {
+        "caption_text": "love fall szn #sweater #fall #ootd #outfitinspo #outfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oYKCAepfCcLqFEA2Eru1RqGDAEsEVlAaYynQIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682202930698603806",
+        "published_at": 1788652266,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_jessicao17/video/7682202930698603806"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gracefindss6",
+        "creator_uid": "6870545369962841093"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 3407,
+        "play_count": 465000,
+        "share_count": 119
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 5722.5,
+        "window_units_sold": 413
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689891190044445965",
+      "video_meta": {
+        "caption_text": "I got a small for reference \u1889\ud802\udf69 #viral #fyp #sweaterweather #falloutfits #octoberfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/ocMvGI9jgFm3qgQU28GeRPPOVVEEfAWeNOAeXq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689891190044445965",
+        "published_at": 1790442337,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gracefindss6/video/7689891190044445965"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kashawna01",
+        "creator_uid": "7295538487452501034"
+      },
+      "engagement_metrics": {
+        "comment_count": 224,
+        "like_count": 90500,
+        "play_count": 6700000,
+        "share_count": 3170
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 5565.49,
+        "window_units_sold": 406
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681066146258291982",
+      "video_meta": {
+        "caption_text": "need these in EVERY color now ",
+        "cover_url": "https://s.500fd.com/tt_video/oQjCeFHFFIYfemMKRVvCA2kYIiQIQdqnDToFEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681066146258291982",
+        "published_at": 1788387599,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kashawna01/video/7681066146258291982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gracefindss6",
+        "creator_uid": "6870545369962841093"
+      },
+      "engagement_metrics": {
+        "comment_count": 108,
+        "like_count": 46000,
+        "play_count": 3500000,
+        "share_count": 1380
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 5287.26,
+        "window_units_sold": 395
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689139057535814926",
+      "video_meta": {
+        "caption_text": "Size: small\ud83e\udef6 #fyp #falloutfits #viral #sweaterweather ",
+        "cover_url": "https://s.500fd.com/tt_video/oQA2eISDqBnp1E0FE66UZAQ3ED4qftUgIRQp96~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689139057535814926",
+        "published_at": 1790267208,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gracefindss6/video/7689139057535814926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "burgerstina",
+        "creator_uid": "7250551996109177899"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 12000,
+        "play_count": 114500,
+        "share_count": 74
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 4356.87,
+        "window_units_sold": 325
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686993248094522655",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owPthuamkyR8EAVBj2Sa62rB1i4AqB6iIID8H~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686993248094522655",
+        "published_at": 1789767595,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@burgerstina/video/7686993248094522655"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 155,
+        "like_count": 87200,
+        "play_count": 1100000,
+        "share_count": 1398
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 4405.69,
+        "window_units_sold": 317
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676588305571450126",
+      "video_meta": {
+        "caption_text": "my fav slouchy sweater for fall \ud83c\udf41",
+        "cover_url": "https://s.500fd.com/tt_video/oAf1IGfAHBCEuLAJeSD9kVIMEInFqurTXFqEW0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676588305571450126",
+        "published_at": 1787345020,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7676588305571450126"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vianelismamade3",
+        "creator_uid": "6806809933104890886"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 35,
+        "play_count": 884,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 3952.2,
+        "window_units_sold": 303
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669513588565937439",
+      "video_meta": {
+        "caption_text": "Sweater casual perfecta para oto\u00f1o #sweter #oto\u00f1o #ropademujer #summerfinds #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oMElAq5CweYEE3FRVTIAZxAVRlAfzMyvABbEgD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669513588565937439",
+        "published_at": 1785697805,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vianelismamade3/video/7669513588565937439"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizbaileyloves",
+        "creator_uid": "7471253787433976878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 339,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959324227143004",
+        "window_gmv": 4015.7,
+        "window_units_sold": 303
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666678537931328799",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666678537931328799",
+        "published_at": 1785037721,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7666678537931328799"
+      }
+    }
+  ]
+}

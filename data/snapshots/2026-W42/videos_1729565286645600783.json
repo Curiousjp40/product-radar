@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729565286645600783",
+  "time_range_days": 90,
+  "total": 1936,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "reynamaderaluna6",
+        "creator_uid": "7242438533486707754"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 564,
+        "play_count": 8027,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 8401.94,
+        "window_units_sold": 49
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675802208545361165",
+      "video_meta": {
+        "caption_text": "\ud83d\ude0d\u2764\ufe0f",
+        "cover_url": "https://s.500fd.com/tt_video/oU2ICtVsiiAFpQCwIICBp0lRvF7hZ91FcBQfAZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675802208545361165",
+        "published_at": 1787162007,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@reynamaderaluna6/video/7675802208545361165"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "legendario9",
+        "creator_uid": "6848723721390474246"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 24,
+        "play_count": 2170,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 8663.18,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687361618602102029",
+      "video_meta": {
+        "caption_text": "las sillas que convinan en todos lasdos  #silla #COLAMY #Dining #Chair #Moder ",
+        "cover_url": "https://s.500fd.com/tt_video/ogpdRqAbrFXEEfo6DAQAog6fUaRgtFIDAZSCmv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 76,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687361618602102029",
+        "published_at": 1789853373,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@legendario9/video/7687361618602102029"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexhigdon_",
+        "creator_uid": "6640242665049669638"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 95,
+        "play_count": 11700,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 8544.68,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681114664851344654",
+      "video_meta": {
+        "caption_text": "10/10! #colamychairs #diningchair #diningroom ",
+        "cover_url": "https://s.500fd.com/tt_video/oowYpU0EAaRgAIkECCFqAzCDgTSEADmSfMmEBe.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681114664851344654",
+        "published_at": 1788398891,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexhigdon_/video/7681114664851344654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexhigdon_",
+        "creator_uid": "6640242665049669638"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 75,
+        "play_count": 8954,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 7703.6,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674405382374133005",
+      "video_meta": {
+        "caption_text": "currently in the process of redoing our dining room and these were the perfect touch \u2728 ordering another set for the ends asap!  #colamychairs #diningchairs #diningroomdecor ",
+        "cover_url": "https://s.500fd.com/tt_video/oMqgElW7QAPoCMGEIdABhDAfARFjvSfFDgMDcE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674405382374133005",
+        "published_at": 1786836767,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexhigdon_/video/7674405382374133005"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alli.rezny",
+        "creator_uid": "6726742648005084165"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 56,
+        "play_count": 7247,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 7043.09,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674759193932385567",
+      "video_meta": {
+        "caption_text": "The prettiest dining chairs \ud83e\udd0e #diningchairs #diningroom #kitchen #diningtable ",
+        "cover_url": "https://s.500fd.com/tt_video/oozVUCIkgiaRbOAJBuDObIhoIziBk7DdEaAvE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674759193932385567",
+        "published_at": 1786919140,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alli.rezny/video/7674759193932385567"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexaa.romo",
+        "creator_uid": "6550831344241393666"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 181,
+        "play_count": 35100,
+        "share_count": 52
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 6529.11,
+        "window_units_sold": 40
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666696685892013325",
+      "video_meta": {
+        "caption_text": "obsessed with these dining chairs \ud83d\ude0d #diningchairs #midcenturymodern #affordablefurniture #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oYAUUoBTiwIwCi1lmyLW94BIHElOvgDBWimva~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666696685892013325",
+        "published_at": 1785041954,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexaa.romo/video/7666696685892013325"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dailindiaztips",
+        "creator_uid": "7389246223091581994"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 67,
+        "play_count": 12800,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 6283.8,
+        "window_units_sold": 39
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665477536893209870",
+      "video_meta": {
+        "caption_text": "Respuesta a @rogerromero662 cup\u00f3n disponible para ordenarte estas sillas y ahorrarte cinco d\u00f3lares pero es por tiempo limitado y no hay tantas opciones. As\u00ed que est\u00e1 sujeto a disponibilidad. Si hab\u00edas pensado en ordenarte estas sillas este es el momento son hermosas elegantes minimalistas son una belleza ##tiktokshopcreatorpicks##tiktokshopblackfridaysale##diningroom##diningtable##diningchair",
+        "cover_url": "https://s.500fd.com/tt_video/o0hfgYDAAIqAFBD99SfCR6PC0k49PTEIAED6OE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 92,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665477536893209870",
+        "published_at": 1784758096,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dailindiaztips/video/7665477536893209870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fleurisx",
+        "creator_uid": "6706993332797096966"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 111,
+        "play_count": 5612,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 5969.81,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665062063693122829",
+      "video_meta": {
+        "caption_text": "GUYS I FINALLY HAVE DINING ROOM FURNITURE AHH \ud83c\udf7d\ufe0f now I need ideas to decorate this space \ud83d\ude1d #cozy #fyp #homeinspo #colamy #colamyhome ",
+        "cover_url": "https://s.500fd.com/tt_video/oEIjfzQfiKMY91GsCAeYL2AkFbQAX9FnH4vUxI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665062063693122829",
+        "published_at": 1784661357,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fleurisx/video/7665062063693122829"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexhigdon_",
+        "creator_uid": "6640242665049669638"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 46,
+        "play_count": 3728,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 6491.14,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677367487465278734",
+      "video_meta": {
+        "caption_text": "Grabbing one more set for the ends of the table too \ud83d\ude0d #diningroom #diningchair #colamychairs ",
+        "cover_url": "https://s.500fd.com/tt_video/oANW0qSZEPd3AFKEjASIAgDfCjAiC4D8EQSfRL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677367487465278734",
+        "published_at": 1787526437,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexhigdon_/video/7677367487465278734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lauralg87890",
+        "creator_uid": "6845462546355831813"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 257,
+        "play_count": 25800,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495315823719647759",
+        "window_gmv": 6008.29,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691173534629989645",
+      "video_meta": {
+        "caption_text": "Unas sillas modernas tapizadas en lino c\u00f3modas minimalistas #hogar #decoracion #tiktokshoprestock  ",
+        "cover_url": "https://s.500fd.com/tt_video/oY0ReGeKQAI9fkDRpOEIx8M2PI1GAQLgq5F9Ue~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691173534629989645",
+        "published_at": 1790743569,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lauralg87890/video/7691173534629989645"
+      }
+    }
+  ]
+}

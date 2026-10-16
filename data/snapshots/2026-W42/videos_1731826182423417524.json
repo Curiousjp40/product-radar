@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731826182423417524",
+  "time_range_days": 90,
+  "total": 377,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "tim_masters13",
+        "creator_uid": "7094794040809686058"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 4053,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 3753.54,
+        "window_units_sold": 376
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691818145195166990",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4zaerApPIf5HStqAIFQgpQ9eQRNVFOInGcGfL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691818145195166990",
+        "published_at": 1790890990,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tim_masters13/video/7691818145195166990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "michellemiller8705",
+        "creator_uid": "6930766487289742341"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 2478,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 2649.62,
+        "window_units_sold": 294
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673265478705368351",
+      "video_meta": {
+        "caption_text": "#CapCut #traveljewelry #traveljewelrypouch #boovo ",
+        "cover_url": "https://s.500fd.com/tt_video/oIaCBNnNzvBYimIIuq8DvRytEF6IAPiAXV5DS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673265478705368351",
+        "published_at": 1786571359,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@michellemiller8705/video/7673265478705368351"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mandyfromtexas",
+        "creator_uid": "7371647114257122347"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 10,
+        "play_count": 5066,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 2186.65,
+        "window_units_sold": 277
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674797966481313055",
+      "video_meta": {
+        "caption_text": "If you travel a lot or run late a lot, this is the perfect grab and go jewelry bag! It holds way more than you would think and keeps your jewelry protected! Comes in a ton of colors and the price you won\u2019t even believe! #traveljewelrybag#travelbag #giftideasforher #CapCut ",
+        "cover_url": "https://s.500fd.com/tt_video/ocIAEqpE0ClAJARFjaQAEFEEwuDAqgAfEfSnEV.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674797966481313055",
+        "published_at": 1786928168,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mandyfromtexas/video/7674797966481313055"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "michellemiller8705",
+        "creator_uid": "6930766487289742341"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 3,
+        "play_count": 887,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 2583.77,
+        "window_units_sold": 275
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668161994175876382",
+      "video_meta": {
+        "caption_text": "#boovo #traveljewelry #traveljewelrybox #traveljewelrypouch ",
+        "cover_url": "https://s.500fd.com/tt_video/osTE6k1YQshEVCaBkVeDfEURijAFIOsAqEQqQX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668161994175876382",
+        "published_at": 1785383108,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@michellemiller8705/video/7668161994175876382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mandyfromtexas",
+        "creator_uid": "7371647114257122347"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 6512,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 1844.82,
+        "window_units_sold": 220
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668173847471869215",
+      "video_meta": {
+        "caption_text": "Cutie so affordable travel jewelry pouch!  Check out all the cute colors!\u2b07\ufe0f@BOOVO BOX  #travelbag #jewelrybag ",
+        "cover_url": "https://s.500fd.com/tt_video/oY1grSxAX4RIBiTTomiIEqvil0HBBBaAAqAEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668173847471869215",
+        "published_at": 1785385868,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mandyfromtexas/video/7668173847471869215"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mandyfromtexas",
+        "creator_uid": "7371647114257122347"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 4291,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 1695.56,
+        "window_units_sold": 193
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669281941740457246",
+      "video_meta": {
+        "caption_text": "Travel grab and go jewelry bag!! Grab multiple to have backup gift ideas!\ud83d\ude4f\ud83c\udffb",
+        "cover_url": "https://s.500fd.com/tt_video/oQEYsqsBTZEEEZFR9LIE2AAVfwAfVF9uTRbI2D~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669281941740457246",
+        "published_at": 1785643869,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mandyfromtexas/video/7669281941740457246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lorimc544",
+        "creator_uid": "7400350688323109930"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1422,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 1705.63,
+        "window_units_sold": 187
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669417825659833614",
+      "video_meta": {
+        "caption_text": "Travel Jewelry Bag with multiple compartments #travelbag #jewelrycase #jewelrybag #organizer #jewelry ",
+        "cover_url": "https://s.500fd.com/tt_video/oMUGLEFMnIhAGG48QAAjIe81kf38UgAoFHQjAf.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669417825659833614",
+        "published_at": 1785680400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lorimc544/video/7669417825659833614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "michellemiller8705",
+        "creator_uid": "6930766487289742341"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1826,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 1530.24,
+        "window_units_sold": 171
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675122873794694430",
+      "video_meta": {
+        "caption_text": "#boovo #traveljewelrypouch #travelpouch #traveljewelry ",
+        "cover_url": "https://s.500fd.com/tt_video/owgaQqospMA6gHetQwXhIjVEeIeAyCgBgq8EDQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675122873794694430",
+        "published_at": 1787003820,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@michellemiller8705/video/7675122873794694430"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "justrachelv",
+        "creator_uid": "7326167287061480494"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 77,
+        "play_count": 66700,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 2672.39,
+        "window_units_sold": 161
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666136581727718670",
+      "video_meta": {
+        "caption_text": "So simple but so smart \ud83d\udc4f\ud83c\udffb #traveltiktok #traveltips #travelhacks #jewelrycase #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/owjCtFHoDQefd9xEqUMdA6kjd3IIIHAeDylUEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666136581727718670",
+        "published_at": 1784911528,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@justrachelv/video/7666136581727718670"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tim_masters13",
+        "creator_uid": "7094794040809686058"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 1,
+        "play_count": 1367,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496159639864445620",
+        "window_gmv": 1853.37,
+        "window_units_sold": 150
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694814147329920270",
+      "video_meta": {
+        "caption_text": "Replying to @LaRae Dunn ",
+        "cover_url": "https://s.500fd.com/tt_video/o8tWeAGkYeeHMLjKVMZbFHkIAQ4SCjQgdASvIm~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 53,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694814147329920270",
+        "published_at": 1791588549,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tim_masters13/video/7694814147329920270"
+      }
+    }
+  ]
+}

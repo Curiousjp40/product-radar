@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732324341825703954",
+  "time_range_days": 90,
+  "total": 287,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "yuanfengalex",
+        "creator_uid": "7612457655479960589"
+      },
+      "engagement_metrics": {
+        "comment_count": 453,
+        "like_count": 33400,
+        "play_count": 2000000,
+        "share_count": 11600
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 4525.67,
+        "window_units_sold": 141
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7671560792424090894",
+      "video_meta": {
+        "caption_text": "#cat #cattoys #catmom #tiktokshop #catnails ",
+        "cover_url": "https://s.500fd.com/tt_video/oYFbG2YgpgIRRGO8bF2LeHeIgjGR6QA9nAehe0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671560792424090894",
+        "published_at": 1786262580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuanfengalex/video/7671560792424090894"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "artlysswhims",
+        "creator_uid": "7341022964999095339"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 19,
+        "play_count": 2465,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 3910.86,
+        "window_units_sold": 125
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691752635145260319",
+      "video_meta": {
+        "caption_text": "I need to get better treats for mine, but my cats do like it. All I have at the moment is cat nip and licky treats. #cattoys #cattoy #cats #catnails #catnailfile ",
+        "cover_url": "https://s.500fd.com/tt_video/ooFGGIAeQ0qEzgRMQF9DGULbQfE0MQeThfAtC1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691752635145260319",
+        "published_at": 1790875745,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@artlysswhims/video/7691752635145260319"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yuanfengalex",
+        "creator_uid": "7612457655479960589"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 396,
+        "play_count": 96300,
+        "share_count": 117
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 2044.92,
+        "window_units_sold": 61
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7675686731810704654",
+      "video_meta": {
+        "caption_text": "#cat #cattoys #tiktokshop #catmom #cats ",
+        "cover_url": "https://s.500fd.com/tt_video/oceFRY80qISOEZD0hBhFPuPEIKDDvAAkcgfFI9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675686731810704654",
+        "published_at": 1787135100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuanfengalex/video/7675686731810704654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sellingmama",
+        "creator_uid": "6887714817097499653"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 205,
+        "play_count": 100100,
+        "share_count": 59
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 2011.14,
+        "window_units_sold": 53
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691001888111676703",
+      "video_meta": {
+        "caption_text": "#cat #cattoy #catmom #catnails #kittensoftiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oECi77ZZEr0EV5uC77HBfE1RbIAiAAfAAj7qII~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691001888111676703",
+        "published_at": 1790700947,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sellingmama/video/7691001888111676703"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosysgatitos",
+        "creator_uid": "7228389999259698222"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 22,
+        "play_count": 1823,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 1773,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693230103374859551",
+      "video_meta": {
+        "caption_text": "He had just woken up from a nap so he was a little groggy\ud83d\ude02  he had to really think  I\u2019m thinking of putting snacks in there next time\ud83e\udd14 #mentalstimulation #cattoy #catscratcher #challenge #catsoftiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oAsEpEADA4ACJgIFfAqREAAnIhHCCwQt9W3GeV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693230103374859551",
+        "published_at": 1791219735,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosysgatitos/video/7693230103374859551"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessicaciraulo",
+        "creator_uid": "6742582886215992326"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 7,
+        "play_count": 1662,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 1845,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693201153416400141",
+      "video_meta": {
+        "caption_text": "#catnails #catnailfile #nailfileforcats #catlover ",
+        "cover_url": "https://s.500fd.com/tt_video/osPvHAeGkQexjDVIvvNKfhq3DCdABIqNLGVxQA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693201153416400141",
+        "published_at": 1791213009,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessicaciraulo/video/7693201153416400141"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessicaciraulo",
+        "creator_uid": "6742582886215992326"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 944,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 1699.89,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692153882373344525",
+      "video_meta": {
+        "caption_text": "#cattoy #catsnails #catnailfile #catsoftiktok #cats ",
+        "cover_url": "https://s.500fd.com/tt_video/os3EdGUQBBhiaiBEAw4AhYINAITB63sgsDFUP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692153882373344525",
+        "published_at": 1790969164,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessicaciraulo/video/7692153882373344525"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yuanfengalex",
+        "creator_uid": "7612457655479960589"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 3271,
+        "play_count": 1100000,
+        "share_count": 987
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 1654.99,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681949612478893326",
+      "video_meta": {
+        "caption_text": "Would your cat choose this over the couch?\ud83d\ude02#cat #catsoftiktok #cattoys #catlover #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oEIabpxpivHivFBIA8dRgEBuE4WUCSDxyMhjU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681949612478893326",
+        "published_at": 1788679860,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuanfengalex/video/7681949612478893326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coffee01973",
+        "creator_uid": "7621823059788841998"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 145,
+        "play_count": 8215,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 895.78,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666541379341847838",
+      "video_meta": {
+        "caption_text": "#CatParents #CatToys #interactivetoys #IndoorCats #CatEnrichment ",
+        "cover_url": "https://s.500fd.com/tt_video/oE9EatDHFGYmZBlGRRKWABlEIfEEIVBfAqQlKE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666541379341847838",
+        "published_at": 1785005777,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coffee01973/video/7666541379341847838"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "carpenter_steve",
+        "creator_uid": "6609365765664571398"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 24,
+        "play_count": 930,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494467768462378002",
+        "window_gmv": 685.08,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7674703447857335565",
+      "video_meta": {
+        "caption_text": "cat scratch box made of red oak. #cat #catsoftiktok #cattoy #animals #everyone .",
+        "cover_url": "https://s.500fd.com/tt_video/ogWEIBQjEY0ESlgBeCZDfD5ROsAFBagg2kOqIj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674703447857335565",
+        "published_at": 1786906167,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@carpenter_steve/video/7674703447857335565"
+      }
+    }
+  ]
+}

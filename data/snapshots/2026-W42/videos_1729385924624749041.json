@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729385924624749041",
+  "time_range_days": 90,
+  "total": 1137,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "isabellaaaanero",
+        "creator_uid": "7329599021180601390"
+      },
+      "engagement_metrics": {
+        "comment_count": 282,
+        "like_count": 77000,
+        "play_count": 10000000,
+        "share_count": 2318
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 21208.33,
+        "window_units_sold": 981
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682995545727716638",
+      "video_meta": {
+        "caption_text": "This result doesn\u2019t get old! Amazed everytime \ud83e\udd0c\ud83c\udffc #feelingirl #shapewear #tummycontrol #bodysuit ",
+        "cover_url": "https://s.500fd.com/tt_video/ooQAepeE4leA6AaA7KgBJWQAeeMa7eAD08Mh9R~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682995545727716638",
+        "published_at": 1788836819,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7682995545727716638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiff_tokz",
+        "creator_uid": "7186276279434609710"
+      },
+      "engagement_metrics": {
+        "comment_count": 73,
+        "like_count": 4544,
+        "play_count": 55600,
+        "share_count": 151
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 15597.98,
+        "window_units_sold": 773
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666683913439317262",
+      "video_meta": {
+        "caption_text": "@FeelinGirl LLC #feelingirl #bodysuit #shapewear #tiktokshopcreatorpicks #tiktokpartner ",
+        "cover_url": "https://s.500fd.com/tt_video/o8HstBM6IAJetjAC2BiinVQAoEBIwAi31lBESv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666683913439317262",
+        "published_at": 1785038972,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7666683913439317262"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiff_tokz",
+        "creator_uid": "7186276279434609710"
+      },
+      "engagement_metrics": {
+        "comment_count": 165,
+        "like_count": 15500,
+        "play_count": 1500000,
+        "share_count": 415
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 14843.9,
+        "window_units_sold": 658
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676224258569243917",
+      "video_meta": {
+        "caption_text": "@FeelinGirl LLC #tiktokshopbacktoschool #tiktokmademebuyit #sohochic #bodysuit #tiktokpartner ",
+        "cover_url": "https://s.500fd.com/tt_video/osCQJEqIBOLa7BbAwifVAXAAlilVA1BCM4KInH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676224258569243917",
+        "published_at": 1787260247,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7676224258569243917"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellaaaanero",
+        "creator_uid": "7329599021180601390"
+      },
+      "engagement_metrics": {
+        "comment_count": 83,
+        "like_count": 11800,
+        "play_count": 1600000,
+        "share_count": 299
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 13375.33,
+        "window_units_sold": 617
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684101584061517086",
+      "video_meta": {
+        "caption_text": "Secured and snatched thanks to @FeelinGirl LLC #feelingirl #shapewear #tummycontrol #bodysuit ",
+        "cover_url": "https://s.500fd.com/tt_video/oEiaCSciAbq4pTaBElGAtpPw8AIBANRjxKEkA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 51,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684101584061517086",
+        "published_at": 1789094326,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7684101584061517086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilyy_turcotte",
+        "creator_uid": "25340095"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 680,
+        "play_count": 37100,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 12452.39,
+        "window_units_sold": 614
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687709923274231054",
+      "video_meta": {
+        "caption_text": "Favvvvv #shapewear #bodysuit #snatched #goingoutoutfit  #goingouttop ",
+        "cover_url": "https://s.500fd.com/tt_video/oAD1jy2pjAgwAIqwwEiYWOpBzfxzn4BiBCAqwI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687709923274231054",
+        "published_at": 1789934473,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilyy_turcotte/video/7687709923274231054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiff_tokz",
+        "creator_uid": "7186276279434609710"
+      },
+      "engagement_metrics": {
+        "comment_count": 272,
+        "like_count": 19100,
+        "play_count": 463400,
+        "share_count": 944
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 12666.96,
+        "window_units_sold": 582
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676209012983074062",
+      "video_meta": {
+        "caption_text": "@FeelinGirl LLC #sohochic #tiktokshopbacktoschool #tiktokmademebuyit #tiktokpartner #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oAC9ESEDA1fDWqjAXq1HEikI3AFlfRAhn4CbYg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676209012983074062",
+        "published_at": 1787256698,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7676209012983074062"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ms.skinnybbl",
+        "creator_uid": "7470311789914342430"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 3407,
+        "play_count": 82100,
+        "share_count": 87
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 10272.93,
+        "window_units_sold": 467
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689687549194898718",
+      "video_meta": {
+        "caption_text": "cute lil body suit i feel like tinker bell #feelingirl #bodysuit #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/osAIAEeARI7EqAQf3AatC0i4ItIDECFnVOdEad~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689687549194898718",
+        "published_at": 1790394921,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ms.skinnybbl/video/7689687549194898718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellaaaanero",
+        "creator_uid": "7329599021180601390"
+      },
+      "engagement_metrics": {
+        "comment_count": 45,
+        "like_count": 8498,
+        "play_count": 1100000,
+        "share_count": 202
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 9906.36,
+        "window_units_sold": 466
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691679381105757471",
+      "video_meta": {
+        "caption_text": "154 lbs & wearing a size medium @FeelinGirl LLC #feelingirl #shapewear #bodysuit #tummycontrol #bodysuitshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfqUaRdErDv8eaEBVFUNQ6bEQ2pQABrlXLVdA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691679381105757471",
+        "published_at": 1790858670,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7691679381105757471"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jiasecret1",
+        "creator_uid": "7516189919552750623"
+      },
+      "engagement_metrics": {
+        "comment_count": 73,
+        "like_count": 23500,
+        "play_count": 369900,
+        "share_count": 1023
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 9400.78,
+        "window_units_sold": 461
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676938970437143821",
+      "video_meta": {
+        "caption_text": "#asian #xyzbca #fyp\u30b7 #4u ",
+        "cover_url": "https://s.500fd.com/tt_video/o8TRPOLJAIGM7fCA6oXAebItqJQCGhUOIf3e9F~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676938970437143821",
+        "published_at": 1787426672,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jiasecret1/video/7676938970437143821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellaaaanero",
+        "creator_uid": "7329599021180601390"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 2965,
+        "play_count": 587182,
+        "share_count": 76
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495167006798612977",
+        "window_gmv": 9427.48,
+        "window_units_sold": 438
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690405161931377950",
+      "video_meta": {
+        "caption_text": "Replying to @cocoandlottie compression is so good \ud83d\ude0a #shapewear #feelingirl #tummycontrol #apronbelly ",
+        "cover_url": "https://s.500fd.com/tt_video/oYvMInA1iADIB2IjtiMtfFYA5OHBXi5dOqszvC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690405161931377950",
+        "published_at": 1790561997,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7690405161931377950"
+      }
+    }
+  ]
+}

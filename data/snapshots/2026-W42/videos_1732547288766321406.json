@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732547288766321406",
+  "time_range_days": 90,
+  "total": 458,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "fireegccnn5",
+        "creator_uid": "7536102453084374029"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 748,
+        "play_count": 543800,
+        "share_count": 531
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 2022.2,
+        "window_units_sold": 95
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689079120617049357",
+      "video_meta": {
+        "caption_text": "10 tiers shoe rack. #shoes #tennisshoes #shoerack #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/ow4MCBUt1rTSRYgaZAIkqAiGUvgEEAw8oiAIB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689079120617049357",
+        "published_at": 1790341380,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fireegccnn5/video/7689079120617049357"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "startingop",
+        "creator_uid": "7535370673914807351"
+      },
+      "engagement_metrics": {
+        "comment_count": 115,
+        "like_count": 4648,
+        "play_count": 1700000,
+        "share_count": 2708
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 1276.23,
+        "window_units_sold": 61
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686808918156233997",
+      "video_meta": {
+        "caption_text": "Very solid materials on this shoe rack! I've been using it for the past year and it's worth every penny.  #shoerack #tiktokshopholidaydeals #tiktokmademebuyit #",
+        "cover_url": "https://s.500fd.com/tt_video/oAEyMOIgSeAFCEQEF0R65rfgAgD8DCAQoABqsa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686808918156233997",
+        "published_at": 1789812840,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@startingop/video/7686808918156233997"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "startingop",
+        "creator_uid": "7535370673914807351"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 151,
+        "play_count": 68775,
+        "share_count": 73
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 1230.32,
+        "window_units_sold": 58
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689076558954302734",
+      "video_meta": {
+        "caption_text": "This is so nice to clear up some space in my room!! #shoeorganizer #shoeshelf #shoerack ",
+        "cover_url": "https://s.500fd.com/tt_video/oEqqODZeAAAmARAYgEFmtFSDzf3sZnREDECC1I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689076558954302734",
+        "published_at": 1790347980,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@startingop/video/7689076558954302734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fireegccnn5",
+        "creator_uid": "7536102453084374029"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 921,
+        "play_count": 196200,
+        "share_count": 401
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 975.42,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686810207464230158",
+      "video_meta": {
+        "caption_text": "Very solid materials on this shoe rack! I've been using it for the past year and it's worth every penny.  #shoerack #tiktokshopholidaydeals #tiktokmademebuyit #",
+        "cover_url": "https://s.500fd.com/tt_video/oEAPAfi6DDFqFACE3aEEQYImrCSQNwSgkeRXkA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686810207464230158",
+        "published_at": 1789820340,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fireegccnn5/video/7686810207464230158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fireegccnn5",
+        "creator_uid": "7536102453084374029"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 1074,
+        "play_count": 543500,
+        "share_count": 645
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 965.23,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686806305918553358",
+      "video_meta": {
+        "caption_text": "Zapatero Organizador #shoesorganizer #zapatero #shoestorage #TikTokShopBlackFriday",
+        "cover_url": "https://s.500fd.com/tt_video/owAdAfC9BBC1iABCVtiBoMEaVBJIGLIwyuIELA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686806305918553358",
+        "published_at": 1789725856,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fireegccnn5/video/7686806305918553358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "startingop",
+        "creator_uid": "7535370673914807351"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 395,
+        "play_count": 233786,
+        "share_count": 263
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 938.06,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691208410603228447",
+      "video_meta": {
+        "caption_text": "Very solid materials on this shoe rack! I've been using it for the past year and it's worth every penny.  #shoerack #TikTokShop#tiktokmademebuyit #tiktokfinds #homegoods",
+        "cover_url": "https://s.500fd.com/tt_video/oUCWAUivUFFAaEKAIqED0rf6QANfAlSqEV5ZOR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691208410603228447",
+        "published_at": 1791129600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@startingop/video/7691208410603228447"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "startingop",
+        "creator_uid": "7535370673914807351"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 404,
+        "play_count": 145300,
+        "share_count": 219
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 859.88,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686809307295272206",
+      "video_meta": {
+        "caption_text": "Very solid materials on this shoe rack! I've been using it for the past year and it's worth every penny.  #shoerack #tiktokshopholidaydeals #tiktokmademebuyit #",
+        "cover_url": "https://s.500fd.com/tt_video/okqCEtxEADEELgAAsCWCfFGehDSohI9FRQrHCA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686809307295272206",
+        "published_at": 1789820100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@startingop/video/7686809307295272206"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gordyyymas",
+        "creator_uid": "6806466190762296325"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 65,
+        "play_count": 28300,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 740.98,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691929435569671454",
+      "video_meta": {
+        "caption_text": "#hogar #tiktokshop #tiktokshopblackfriday #tiktokshopcreatorpicks #mueblesmodernos ",
+        "cover_url": "https://s.500fd.com/tt_video/oAeqj0IBaAsZOG8pAQL0fOUGle9S2SnIQRF1fQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691929435569671454",
+        "published_at": 1790971200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gordyyymas/video/7691929435569671454"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fireegccnn5",
+        "creator_uid": "7536102453084374029"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 36,
+        "play_count": 32000,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 796.97,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689079498406432013",
+      "video_meta": {
+        "caption_text": "10 tiers shoe rack. #shoes #tennisshoes #shoerack #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/owArGo3rBICRs17yAwiAJMIOEBfh1ABEilwRCW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689079498406432013",
+        "published_at": 1790348700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fireegccnn5/video/7689079498406432013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "startingop",
+        "creator_uid": "7535370673914807351"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 106,
+        "play_count": 43200,
+        "share_count": 51
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495527392934923006",
+        "window_gmv": 766.43,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686809115003194638",
+      "video_meta": {
+        "caption_text": "Very solid materials on this shoe rack! I've been using it for the past year and it's worth every penny.  #shoerack #tiktokshopholidaydeals #tiktokmademebuyit #",
+        "cover_url": "https://s.500fd.com/tt_video/okQqCtkAE0DF9CCArgqEr0uARg71DDAeEfSI5S~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686809115003194638",
+        "published_at": 1789816500,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@startingop/video/7686809115003194638"
+      }
+    }
+  ]
+}

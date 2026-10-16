@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731584006987485865",
+  "time_range_days": 90,
+  "total": 379,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "aimi_us",
+        "creator_uid": "7433242449281336363"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2867,
+        "play_count": 1016203,
+        "share_count": 3505
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 5823.64,
+        "window_units_sold": 504
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690960412082294047",
+      "video_meta": {
+        "caption_text": "#fyp #tiktokshop #CityTasteTest #foryour ",
+        "cover_url": "https://s.500fd.com/tt_video/oo1I7eMCXGcVdj3KrjHeACsIqRfQQqG8AV4vRQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690960412082294047",
+        "published_at": 1790691294,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7690960412082294047"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "pocketchangeforyou",
+        "creator_uid": "7394829650507596846"
+      },
+      "engagement_metrics": {
+        "comment_count": 135,
+        "like_count": 10700,
+        "play_count": 1000000,
+        "share_count": 7495
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 3003,
+        "window_units_sold": 330
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689124607470751007",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689124607470751007",
+        "published_at": 1790263845,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@pocketchangeforyou/video/7689124607470751007"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "crus.shop8",
+        "creator_uid": "7403994457899402282"
+      },
+      "engagement_metrics": {
+        "comment_count": 47,
+        "like_count": 4503,
+        "play_count": 826900,
+        "share_count": 2584
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 3597.61,
+        "window_units_sold": 286
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687830186766748942",
+      "video_meta": {
+        "caption_text": "I think It's so COOL\ud83d\ude0e #Thanksgiving #thankfulforyou #funny #tiktokmademebuyit #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oIAwrAqJgiIPuL4w2aBX4UPntEwrBCZJBihEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687830186766748942",
+        "published_at": 1789962483,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@crus.shop8/video/7687830186766748942"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myfamilypov2",
+        "creator_uid": "6821627647064540166"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 1650,
+        "play_count": 143200,
+        "share_count": 1068
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1583.4,
+        "window_units_sold": 174
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690081993974992159",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690081993974992159",
+        "published_at": 1790486759,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myfamilypov2/video/7690081993974992159"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "billyshoppingaddiction",
+        "creator_uid": "7177091732652409902"
+      },
+      "engagement_metrics": {
+        "comment_count": 63,
+        "like_count": 2279,
+        "play_count": 271602,
+        "share_count": 1275
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1785.97,
+        "window_units_sold": 150
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691813335439772942",
+      "video_meta": {
+        "caption_text": "the perfect thanksgiving shirt doesnt exi- #thanksgiving #funnytshirt #tiktokmademebuyit #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ocy8QSYcPDA4zo91wsFxDRqEtEQggB0vQsfleE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691813335439772942",
+        "published_at": 1790889866,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@billyshoppingaddiction/video/7691813335439772942"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lovethis.shirt8",
+        "creator_uid": "6862519662174962694"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 611,
+        "play_count": 193226,
+        "share_count": 446
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1362.62,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687156787400690974",
+      "video_meta": {
+        "caption_text": "Thankful for you\ud83d\ude02\ud83d\ude02\ud83d\ude02 #funny #thankful #thankfulforyou #shirt #tiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oISBQOF7CAVMp4fcEFDAQPr4RbqAiBdEzkEKfL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687156787400690974",
+        "published_at": 1789805714,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lovethis.shirt8/video/7687156787400690974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "crus.shop8",
+        "creator_uid": "7403994457899402282"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 89,
+        "play_count": 20000,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1348.03,
+        "window_units_sold": 129
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688742841740233998",
+      "video_meta": {
+        "caption_text": "I\u2019m going to wear this shirt to the Thanksgiving this year \ud83e\udd23",
+        "cover_url": "https://s.500fd.com/tt_video/o4IrfADZO5eHuFjJVId8UDkIAIxzCh4Q3lneE6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688742841740233998",
+        "published_at": 1790174958,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@crus.shop8/video/7688742841740233998"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bigtee8888",
+        "creator_uid": "7210614171384710190"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 69,
+        "play_count": 31998,
+        "share_count": 65
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1513.45,
+        "window_units_sold": 128
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687171160886250765",
+      "video_meta": {
+        "caption_text": "They\u2019re a lot.That\u2019s why they\u2019re loved.",
+        "cover_url": "https://s.500fd.com/tt_video/oEC8AU1roiCA9ElAEqiB0XfaIA9mgF4kDSuf5R~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687171160886250765",
+        "published_at": 1789809025,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bigtee8888/video/7687171160886250765"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "pocketchangeforyou",
+        "creator_uid": "7394829650507596846"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 306,
+        "play_count": 87100,
+        "share_count": 306
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1146.6,
+        "window_units_sold": 126
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690558077585739039",
+      "video_meta": {
+        "caption_text": "#thanksgiving #thankfulforyou #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690558077585739039",
+        "published_at": 1790597629,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@pocketchangeforyou/video/7690558077585739039"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hinah.09film",
+        "creator_uid": "7421132840301249582"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 56,
+        "play_count": 17343,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496125227112172201",
+        "window_gmv": 1202.55,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688036172907416845",
+      "video_meta": {
+        "caption_text": "I have never bought something so fast like this shirt #funny #thankfulforyou #vintagefashion #tiktokshop #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oM6H4hV0FyjMIXfILsAl2QQGiAfkYH6CaceRIC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688036172907416845",
+        "published_at": 1790010433,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hinah.09film/video/7688036172907416845"
+      }
+    }
+  ]
+}

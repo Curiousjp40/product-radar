@@ -3,7 +3,7 @@
   "product_id": "1729451838695968962",
   "title": "Shapermint High-Waisted Shapewear Panty with Seamless Design & Anti-slip Silicone Strip Fabric Compression Smooth Womenswear Breathable",
   "clean_title": "Shapermint High-Waisted Shapewear Panty with Seamless",
-  "image_url": "/img/product_1729451838695968962.webp",
+  "image_url": "https://s.500fd.com/tt_product/72f5666063984e4386d74b92d990df98~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729451838695968962",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Shapermint%20High-Waisted%20Shapewear%20Panty%20with%20Seamless",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729451838695968962",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7674019973789912334",
+      "cover_url": "https://s.500fd.com/tt_video/ogAezLErAJCGNGmKQSmOnfAlD4IRfpQIAAJfIZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bright.smile.mama/video/7674019973789912334",
+      "creator_handle": "bright.smile.mama",
+      "play_count": 3000000,
+      "window_gmv": 14844.87,
+      "window_units_sold": 820,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7674246823879511309",
+      "cover_url": "https://s.500fd.com/tt_video/o0B8BRBQUA4Sg149iIvBuyymNoUZEA1iEiaBr~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@shopzlink8/video/7674246823879511309",
+      "creator_handle": "shopzlink8",
+      "play_count": 537700,
+      "window_gmv": 12808.3,
+      "window_units_sold": 757,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7672140590380829966",
+      "cover_url": "https://s.500fd.com/tt_video/ociAIJqfH1gE2wCIp6P1RAiWwA4BBBwBA97O4B~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7672140590380829966",
+      "creator_handle": "yvonniedior",
+      "play_count": 2400000,
+      "window_gmv": 12182.67,
+      "window_units_sold": 690,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7668149273732648206",
+      "cover_url": "https://s.500fd.com/tt_video/oUw909A9EErb2lADrvqEqDTCaILoS0AfgAeFBR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nade.fit/video/7668149273732648206",
+      "creator_handle": "nade.fit",
+      "play_count": 2283,
+      "window_gmv": 10123.15,
+      "window_units_sold": 631,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7675190577939369229",
+      "cover_url": "https://s.500fd.com/tt_video/o0gAuE8DqDAKwACeADCsCgpgFAFESIfRUEaUDc~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7675190577939369229",
+      "creator_handle": "yvonniedior",
+      "play_count": 180300,
+      "window_gmv": 10070.89,
+      "window_units_sold": 429,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7673656960427822367",
+      "cover_url": "https://s.500fd.com/tt_video/oMpmeASckqHpIEQUzfFfICAd0TlYyuQujnDtIm~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@angie.mmyers/video/7673656960427822367",
+      "creator_handle": "angie.mmyers",
+      "play_count": 117700,
+      "window_gmv": 7246.46,
+      "window_units_sold": 412,
+      "is_ad": true,
+      "duration_seconds": 29
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "shapewear",
+        "weight": 2418
+      },
+      {
+        "hashtag": "shapermint",
+        "weight": 2229
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 1577
+      },
+      {
+        "hashtag": "snatched",
+        "weight": 820
+      },
+      {
+        "hashtag": "faja",
+        "weight": 820
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 820
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 757
+      },
+      {
+        "hashtag": "seamlessshapewear",
+        "weight": 757
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "This is your sign!",
+      "\u2728\ud83d\udda4 Meet the Shapermint High-Waisted Shapewear Panty \u2014 a seamless design with compression fabric, an anti-slip silicone strip, and a breathable feel.",
+      "Goes to size 4XL ."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      4,
+      6
+    ]
+  }
 }

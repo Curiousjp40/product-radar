@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732477158459740444",
+  "time_range_days": 90,
+  "total": 515,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "let.me.try.it.mom",
+        "creator_uid": "7333077324420056107"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 11,
+        "play_count": 780,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 999.17,
+        "window_units_sold": 100
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672206877744270622",
+      "video_meta": {
+        "caption_text": "Boo \ud83d\udc7b #halloween #halloweendecor #spookyseason ",
+        "cover_url": "https://s.500fd.com/tt_video/oMfU8YjJI0Den5YEtJFayIl5IjWLIACmSiDqeA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672206877744270622",
+        "published_at": 1786324884,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@let.me.try.it.mom/video/7672206877744270622"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lifewithlaurenmaries",
+        "creator_uid": "7330465666620245034"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 13,
+        "play_count": 3773,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 888.11,
+        "window_units_sold": 90
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680644650713058574",
+      "video_meta": {
+        "caption_text": "Spicy Ghost \ud83d\udc7b #halloween #halloweendecor #ghostdecor #middlefingerghost #halloweenathome ",
+        "cover_url": "https://s.500fd.com/tt_video/osIvAivIccBgcXNpga7JIUcI8iwIGmBEHD4D5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680644650713058574",
+        "published_at": 1788289471,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lifewithlaurenmaries/video/7680644650713058574"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "teresaam01",
+        "creator_uid": "6804233833468003334"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 1526,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 351.88,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689911840154914078",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYA7fIBTVIecD4vjAGCDqMOcLFuQqQejiIdm44~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689911840154914078",
+        "published_at": 1790447140,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@teresaam01/video/7689911840154914078"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "watermelonpuff2",
+        "creator_uid": "6876404221475439621"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 99,
+        "play_count": 2311,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 256.87,
+        "window_units_sold": 26
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683911801544658207",
+      "video_meta": {
+        "caption_text": "#ghost #halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/ooYeKk4JG8lvqvxRfY9FA3UIgigQeg6AGeaRQ0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683911801544658207",
+        "published_at": 1789050142,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@watermelonpuff2/video/7683911801544658207"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "conejitasaravia",
+        "creator_uid": "6738905912993760261"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 42,
+        "play_count": 6529,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 215.91,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686033738739764494",
+      "video_meta": {
+        "caption_text": "\ud83d\udde3\ufe0fArriba les \u2934\ufe0fdejo el enlace\ud83e\udef6\ud83c\udffb\ud83d\uded2\ud83c\udf4a #fyp #tiktokshop #elsalvador ",
+        "cover_url": "https://s.500fd.com/tt_video/owpqBPAEEcilg2qBHAHRwSikBBA4RpQACIaYw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686033738739764494",
+        "published_at": 1789544197,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@conejitasaravia/video/7686033738739764494"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "crystalvrussell",
+        "creator_uid": "6795328121992168453"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 387,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 199.8,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7670981225930149151",
+      "video_meta": {
+        "caption_text": "I officially started my  Halloween decor  collection\u2026 and I\u2019m not  even sorry. #TikTokShopCreatorPicks #HalloweenDecor #SpookySeason #TikTokMadeMeBuyIt #HomeDecorFinds",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670981225930149151",
+        "published_at": 1786039507,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@crystalvrussell/video/7670981225930149151"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "conejitasaravia",
+        "creator_uid": "6738905912993760261"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 37,
+        "play_count": 5125,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 192.92,
+        "window_units_sold": 18
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685997724918877453",
+      "video_meta": {
+        "caption_text": "\ud83d\udde3\ufe0fArriba \u2934\ufe0fles dejo el enlace bebes\ud83d\uded2\ud83c\udf4a #fyp #tiktokshop #elsalvador ",
+        "cover_url": "https://s.500fd.com/tt_video/oAexpJkGVCTdmLtLIbuEbAQZIHQUeVfAIjQI9X~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 88,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685997724918877453",
+        "published_at": 1789535811,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@conejitasaravia/video/7685997724918877453"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "trendytokshopp",
+        "creator_uid": "7399859857324557355"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 13,
+        "play_count": 7598,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 162.97,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686515557033577758",
+      "video_meta": {
+        "caption_text": "Isn\u2019t he cute \ud83d\ude0c#halloween #ghost #halloweendecor #halloweendecorations #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oYyvo6AgIXGArUfLfcFYqqep6rTQGRGcQmmIep~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686515557033577758",
+        "published_at": 1789656375,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@trendytokshopp/video/7686515557033577758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "esimp17",
+        "creator_uid": "6643401018883604485"
+      },
+      "engagement_metrics": {
+        "comment_count": 30,
+        "like_count": 1999,
+        "play_count": 507800,
+        "share_count": 1374
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 163.85,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675000522537061646",
+      "video_meta": {
+        "caption_text": "Tough ghost bestie \ud83d\udc7b #ghost #halloween #cute #fall #scary ",
+        "cover_url": "https://s.500fd.com/tt_video/osxBqX3fMG4qFDA8QRRERK0DgEfESJCTZmgZQN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675000522537061646",
+        "published_at": 1786975367,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@esimp17/video/7675000522537061646"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "trendytokshopp",
+        "creator_uid": "7399859857324557355"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 510,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495777546957523228",
+        "window_gmv": 156.95,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692612197624679710",
+      "video_meta": {
+        "caption_text": "\ud83d\ude0c #halloween #halloweendecor #halloweendecorations #tiktokshopfalldealsforyou #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ogCgIUiofGAhp5ddepLeQGrBbRiAnFBBQGeTBI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692612197624679710",
+        "published_at": 1791075864,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@trendytokshopp/video/7692612197624679710"
+      }
+    }
+  ]
+}

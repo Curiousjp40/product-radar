@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730860185720427178",
+  "time_range_days": 90,
+  "total": 827,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "cozyliving_us",
+        "creator_uid": "7545040006247941134"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 84,
+        "play_count": 40200,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 11718.73,
+        "window_units_sold": 253
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679511393145457950",
+      "video_meta": {
+        "caption_text": "#spacesaving #closetorganization #dresser #storagehacks #homefinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oYVElCFkPEDg6eAArJAAf6EyqTIqR6NEVAvxGC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679511393145457950",
+        "published_at": 1788025597,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cozyliving_us/video/7679511393145457950"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 1761,
+        "play_count": 1100000,
+        "share_count": 478
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 10184.92,
+        "window_units_sold": 241
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7668106056563723551",
+      "video_meta": {
+        "caption_text": "The whole family got one of these in their closet this summer \ud83d\ude4c\ud83c\udffb such an affordable way to organize #dressers #organizedhome #closetorganization #closetstorage #organization ",
+        "cover_url": "https://s.500fd.com/tt_video/o4qLVTVRcBjQpAFR0EbQR9XOwaEIAxfzeXKDEY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668106056563723551",
+        "published_at": 1785370086,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7668106056563723551"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bysayma",
+        "creator_uid": "7070314114518565930"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 4567,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 9035.28,
+        "window_units_sold": 173
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682980600914971934",
+      "video_meta": {
+        "caption_text": "Estos gaveteros organizadores te quedan perfectos en la parte de abajo de tu cl\u00f3set #cabinet #organizer #home #closet #TikTokShopBlackFriday ",
+        "cover_url": "https://s.500fd.com/tt_video/ogeeAmA1C9agiAIuQQiqAfTeuNf7FeiCcvZfuhB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682980600914971934",
+        "published_at": 1788833335,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bysayma/video/7682980600914971934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 1240,
+        "play_count": 368200,
+        "share_count": 277
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 7899.45,
+        "window_units_sold": 161
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682942792858864927",
+      "video_meta": {
+        "caption_text": "Highly recommend organizing your closets with these dressers \ud83d\ude4c\ud83c\udffb #storagehacks #closetstorage #organizedhome #closetorganization #homeessentials ",
+        "cover_url": "https://s.500fd.com/tt_video/oo88IaL9AfofLMvfgAGAQ8fjNcUASSEiASIBe0.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682942792858864927",
+        "published_at": 1788824528,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7682942792858864927"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "analaudlg",
+        "creator_uid": "7150034173356278790"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 23,
+        "play_count": 5935,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 6413.42,
+        "window_units_sold": 160
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668915349378698526",
+      "video_meta": {
+        "caption_text": "Gavetero peque\u00f1o\u2026. #dresser #gavetero #ropero #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/o8HAsF6WAsXEXkVqRboBEA9wfEQUICFayjqbfD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668915349378698526",
+        "published_at": 1785558514,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@analaudlg/video/7668915349378698526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bysayma",
+        "creator_uid": "7070314114518565930"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1043,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 7431.6,
+        "window_units_sold": 143
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683001834180480287",
+      "video_meta": {
+        "caption_text": "Gaveteros econ\u00f3micos organizadores #cabinet #organization #closet #home #TikTokShopBlackFriday ",
+        "cover_url": "https://s.500fd.com/tt_video/o00YfAh34VDI4EQq0nFfEBAK3gdyE2ITRxDzEb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683001834180480287",
+        "published_at": 1788838274,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bysayma/video/7683001834180480287"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "olha.hauz",
+        "creator_uid": "7434615949976601646"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 107,
+        "play_count": 52400,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 5537.54,
+        "window_units_sold": 128
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664744550761549070",
+      "video_meta": {
+        "caption_text": "#homereset #closetorganization #tiktokshopfinds #organization #bedroommakeover",
+        "cover_url": "https://s.500fd.com/tt_video/oUpEjEgDgmAC6StFfAqRDAAzISedKXQXqqpCGS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664744550761549070",
+        "published_at": 1784587435,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@olha.hauz/video/7664744550761549070"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cozyliving_us",
+        "creator_uid": "7545040006247941134"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 15,
+        "play_count": 2908,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 4577.41,
+        "window_units_sold": 101
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679168034434551070",
+      "video_meta": {
+        "caption_text": "Solve your overflowing closet on a budget \u2705\ud83c\udf38#dresser #closet #budgetfriendly #storagesolutions #organization ",
+        "cover_url": "https://s.500fd.com/tt_video/oweeqFD5jIIPTIAzvREEaKEA4AOArmAiIVfTMC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679168034434551070",
+        "published_at": 1787955480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cozyliving_us/video/7679168034434551070"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 37,
+        "play_count": 22900,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 3650.87,
+        "window_units_sold": 84
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7674615591801457951",
+      "video_meta": {
+        "caption_text": "Great way to organize and they look nice too PLUS they are affordable \ud83d\ude4c\ud83c\udffb #organizedhome #organization #organizedcloset #closetorganization #closetstorage ",
+        "cover_url": "https://s.500fd.com/tt_video/o4Ii0nI7Eil4RhVTAtIG3ArHmtBm9QZaBoBPk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674615591801457951",
+        "published_at": 1786885719,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7674615591801457951"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bysayma",
+        "creator_uid": "7070314114518565930"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 2039,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495948815109360298",
+        "window_gmv": 3472.76,
+        "window_units_sold": 74
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677311671127395614",
+      "video_meta": {
+        "caption_text": "Gaveteros en descuento #cabinet #storage #organizer #TiktokShopBlackFriday #TiktokShopBacktoSchool @Sweetcrispy Official ",
+        "cover_url": "https://s.500fd.com/tt_video/oIyiUmBViluoRSLSaIK6AA1CnyXIIqCfA1a2ii~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677311671127395614",
+        "published_at": 1787513442,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bysayma/video/7677311671127395614"
+      }
+    }
+  ]
+}

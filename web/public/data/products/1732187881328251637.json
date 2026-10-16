@@ -3,7 +3,7 @@
   "product_id": "1732187881328251637",
   "title": "Women's Simple Solid Backless Halter Sleeveless One-Piece Jumpsuit, Elegant Chic Ruffle Design, Perfect for Casual Wear, All Seasons Fashion, Outfit",
   "clean_title": "Women's Simple Solid Backless Halter Sleeveless",
-  "image_url": "/img/product_1732187881328251637.jpg",
+  "image_url": "https://s.500fd.com/tt_product/ef1f7fc82c40443e88bef0e1e51fbd3f~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732187881328251637",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Simple%20Solid%20Backless%20Halter%20Sleeveless",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732187881328251637",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678750525084454157",
+      "cover_url": "https://s.500fd.com/tt_video/oQiIYWIQ9KBlrpBuAwfQiBApDNIdvFv7BDS1ZC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@makaylajaime/video/7678750525084454157",
+      "creator_handle": "makaylajaime",
+      "play_count": 122400,
+      "window_gmv": 16246.22,
+      "window_units_sold": 1128,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7674683532031151390",
+      "cover_url": "https://s.500fd.com/tt_video/oIOimBBaioJNQ9BxnI0SAAcC323EIqBfA1PUKi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@miriamely25/video/7674683532031151390",
+      "creator_handle": "miriamely25",
+      "play_count": 688,
+      "window_gmv": 8415.44,
+      "window_units_sold": 778,
+      "is_ad": false,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7680569177421188382",
+      "cover_url": "https://s.500fd.com/tt_video/o0C0EVEDApfEu4oA3qtWEycIRAF4sRAlfaCDZA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kristinanicoletall/video/7680569177421188382",
+      "creator_handle": "kristinanicoletall",
+      "play_count": 2900000,
+      "window_gmv": 6356.41,
+      "window_units_sold": 434,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7680260866993835295",
+      "cover_url": "https://s.500fd.com/tt_video/oc49qXMejIIKiQATxrQI1lEAiAUAVfAXKV8epE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kristinanicoletall/video/7680260866993835295",
+      "creator_handle": "kristinanicoletall",
+      "play_count": 1200000,
+      "window_gmv": 5696.42,
+      "window_units_sold": 394,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7668772340372671774",
+      "cover_url": "https://s.500fd.com/tt_video/ooAEH8lZtLqQfBe7yjDPLIhXVb5REPFAcyhEmU~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kristinanicoletall/video/7668772340372671774",
+      "creator_handle": "kristinanicoletall",
+      "play_count": 827000,
+      "window_gmv": 5858.84,
+      "window_units_sold": 388,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7665033304596286751",
+      "cover_url": "https://s.500fd.com/tt_video/owER6JQfk67VXVDiBAfsFAAVLrQr0mMoE6XqqE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kristinadunnn/video/7665033304596286751",
+      "creator_handle": "kristinadunnn",
+      "play_count": 419700,
+      "window_gmv": 3608.01,
+      "window_units_sold": 278,
+      "is_ad": true,
+      "duration_seconds": 21
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 2513
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1663
+      },
+      {
+        "hashtag": "minidress",
+        "weight": 1385
+      },
+      {
+        "hashtag": "midsizefashion",
+        "weight": 1128
+      },
+      {
+        "hashtag": "familyvaction",
+        "weight": 1128
+      },
+      {
+        "hashtag": "tallgirlapproved",
+        "weight": 1106
+      },
+      {
+        "hashtag": "builtinshorts",
+        "weight": 1100
+      },
+      {
+        "hashtag": "halterdress",
+        "weight": 1060
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 22,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Love matching with my mini",
+      "halter mini dress with built-in shorts runs true to size",
+      "hides the tummy and built-in shorts runs true to size"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      6
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1731461210302091904",
   "title": "SHAPELLX Women's Deep V 1-Piece Compression Shapewear Ribbed Jumpsuit - Chest Support, Breathable, High-Waisted Tummy Control Sculpting Clothes for Women, Shapewear Clothing",
   "clean_title": "SHAPELLX Women's Deep V 1-Piece Compression",
-  "image_url": "/img/product_1731461210302091904.webp",
+  "image_url": "https://s.500fd.com/tt_product/07bd54edb6f84e989d6e8e135ab1e13e~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731461210302091904",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SHAPELLX%20Women%27s%20Deep%20V%201-Piece%20Compression",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731461210302091904",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7684739728364670221",
+      "cover_url": "https://s.500fd.com/tt_video/o8lIQgAnigtqWG1qB46TaOriIDuBiumiPUIPE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@taylortalksback/video/7684739728364670221",
+      "creator_handle": "taylortalksback",
+      "play_count": 880000,
+      "window_gmv": 16520.98,
+      "window_units_sold": 554,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7665378116398763277",
+      "cover_url": "https://s.500fd.com/tt_video/oMg3A4iOOgdD2kBAikAmy5a5EBBAaIBvaEEPt~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@nadajanel91/video/7665378116398763277",
+      "creator_handle": "nadajanel91",
+      "play_count": 714502,
+      "window_gmv": 14617.97,
+      "window_units_sold": 519,
+      "is_ad": true,
+      "duration_seconds": 73
+    },
+    {
+      "video_id": "7670716967279545631",
+      "cover_url": "https://s.500fd.com/tt_video/owIIzLUG7CI4IeG2Ie3mbqFAIq3eB5It5VjAjH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@holistichomegoral/video/7670716967279545631",
+      "creator_handle": "holistichomegoral",
+      "play_count": 1900000,
+      "window_gmv": 7868.46,
+      "window_units_sold": 299,
+      "is_ad": false,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7671168387959000334",
+      "cover_url": "https://s.500fd.com/tt_video/o0BOJEVIBKhurBdYwifyAvAAli2OA1BCP2rIg1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7671168387959000334",
+      "creator_handle": "tiff_tokz",
+      "play_count": 40600,
+      "window_gmv": 7509.74,
+      "window_units_sold": 274,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7682522856223264013",
+      "cover_url": "https://s.500fd.com/tt_video/oA7aAOGHbQVMLsohOkeCjtzCffnLm5IwAIHCkQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nadajanel91/video/7682522856223264013",
+      "creator_handle": "nadajanel91",
+      "play_count": 1000000,
+      "window_gmv": 7376.59,
+      "window_units_sold": 249,
+      "is_ad": true,
+      "duration_seconds": 62
+    },
+    {
+      "video_id": "7671182444179098894",
+      "cover_url": "https://s.500fd.com/tt_video/ocrqA1GAAQpALDvf7IeJGM56fheyBgRUAIOGPI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7671182444179098894",
+      "creator_handle": "tiff_tokz",
+      "play_count": 35200,
+      "window_gmv": 6670.7,
+      "window_units_sold": 248,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1280
+      },
+      {
+        "hashtag": "apronbelly",
+        "weight": 768
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 761
+      },
+      {
+        "hashtag": "dealsforyoudays",
+        "weight": 761
+      },
+      {
+        "hashtag": "shapellxnewarrivals2026",
+        "weight": 748
+      },
+      {
+        "hashtag": "shapellx",
+        "weight": 713
+      },
+      {
+        "hashtag": "shapewearbodysuit",
+        "weight": 519
+      },
+      {
+        "hashtag": "shapellxbodysuit",
+        "weight": 519
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 31,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "Still better than a front loading washer though",
+      "It's almost fall!",
+      "Plus size friendly outfit that covers your apron belly & back rolls!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      5,
+      2
+    ]
+  }
 }

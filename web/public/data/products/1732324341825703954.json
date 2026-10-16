@@ -3,7 +3,7 @@
   "product_id": "1732324341825703954",
   "title": "100% Real Oak Wood Cat Nail File Scratcher - Stress-Free Natural Nail Filing Alternative to Clippers/Noisy Grinders, Safe Scratch Solution, Furniture Protector with Puzzle Box Fun for Indoor Cats (Redirects Claws From Couches)",
   "clean_title": "100% Real Oak Wood Cat Nail",
-  "image_url": "/img/product_1732324341825703954.webp",
+  "image_url": "https://s.500fd.com/tt_product/2569cc8d27a74760ada25aef49ca39a3~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732324341825703954",
   "tiktok_search_url": "https://www.tiktok.com/search?q=100%25%20Real%20Oak%20Wood%20Cat%20Nail",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732324341825703954",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7671560792424090894",
+      "cover_url": "https://s.500fd.com/tt_video/oYFbG2YgpgIRRGO8bF2LeHeIgjGR6QA9nAehe0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yuanfengalex/video/7671560792424090894",
+      "creator_handle": "yuanfengalex",
+      "play_count": 2000000,
+      "window_gmv": 4525.67,
+      "window_units_sold": 141,
+      "is_ad": false,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7691752635145260319",
+      "cover_url": "https://s.500fd.com/tt_video/ooFGGIAeQ0qEzgRMQF9DGULbQfE0MQeThfAtC1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@artlysswhims/video/7691752635145260319",
+      "creator_handle": "artlysswhims",
+      "play_count": 2465,
+      "window_gmv": 3910.86,
+      "window_units_sold": 125,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7675686731810704654",
+      "cover_url": "https://s.500fd.com/tt_video/oceFRY80qISOEZD0hBhFPuPEIKDDvAAkcgfFI9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yuanfengalex/video/7675686731810704654",
+      "creator_handle": "yuanfengalex",
+      "play_count": 96300,
+      "window_gmv": 2044.92,
+      "window_units_sold": 61,
+      "is_ad": false,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7691001888111676703",
+      "cover_url": "https://s.500fd.com/tt_video/oECi77ZZEr0EV5uC77HBfE1RbIAiAAfAAj7qII~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sellingmama/video/7691001888111676703",
+      "creator_handle": "sellingmama",
+      "play_count": 100100,
+      "window_gmv": 2011.14,
+      "window_units_sold": 53,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7693201153416400141",
+      "cover_url": "https://s.500fd.com/tt_video/osPvHAeGkQexjDVIvvNKfhq3DCdABIqNLGVxQA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jessicaciraulo/video/7693201153416400141",
+      "creator_handle": "jessicaciraulo",
+      "play_count": 1662,
+      "window_gmv": 1845,
+      "window_units_sold": 45,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7693230103374859551",
+      "cover_url": "https://s.500fd.com/tt_video/oAsEpEADA4ACJgIFfAqREAAnIhHCCwQt9W3GeV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rosysgatitos/video/7693230103374859551",
+      "creator_handle": "rosysgatitos",
+      "play_count": 1823,
+      "window_gmv": 1773,
+      "window_units_sold": 45,
+      "is_ad": true,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "cattoys",
+        "weight": 399
+      },
+      {
+        "hashtag": "catnails",
+        "weight": 364
+      },
+      {
+        "hashtag": "cat",
+        "weight": 326
+      },
+      {
+        "hashtag": "cattoy",
+        "weight": 294
+      },
+      {
+        "hashtag": "catmom",
+        "weight": 255
+      },
+      {
+        "hashtag": "cats",
+        "weight": 228
+      },
+      {
+        "hashtag": "catnailfile",
+        "weight": 212
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 202
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 23,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "I need to get better treats for mine, but my cats do like it.",
+      "He had just woken up from a nap so he was a little groggy\ud83d\ude02 he had to really think I\u2019m thinking of putting snacks in there next time\ud83e\udd14",
+      "Would your cat choose this over the couch?"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      2
+    ]
+  }
 }

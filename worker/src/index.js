@@ -18,7 +18,11 @@ import {
 const ALLOWED_ORIGIN = "https://curiousjp40.github.io";
 const CACHE_TTL_SECONDS = 7 * 24 * 60 * 60;
 const IMAGE_CACHE_CONTROL = "public, max-age=604800"; // 7 days, matches CACHE_TTL_SECONDS
-const PER_RUN_CREDIT_FLOOR = 70; // matches the weekly pipeline's --budget cap
+// Matches the floor Ryan set for the Part C1 video backfill decision
+// (2026-10-15: "60 x Mondays left before the reset") -- kept as one shared
+// number so the search guard and the backfill go/no-stop check always
+// agree on what "enough left for Monday's run" means.
+const PER_RUN_CREDIT_FLOOR = 60;
 // creator_search(1) + creator_video_analysis(1) + creator_product_list(1) +
 // creator_fans_distribution(2, location data -- added 2026-10-15, see
 // docs/fastmoss_tools.json) = 5cr/search.
@@ -46,9 +50,93 @@ export default {
     if (url.pathname === "/img") {
       return handleImageProxy(request, url, ctx);
     }
+    if (url.pathname === "/credits") {
+      return handleCredits(request, env);
+    }
+    if (url.pathname === "/state") {
+      return handleState(request, url, env);
+    }
     return handleSearch(request, env);
   },
 };
+
+// Part C5/C4's cross-device sync: Mis Productos, "No me interesa" and "Mi
+// lista" all need to work the same on Roxie's phone and the computer, not
+// just in one browser's localStorage. One generic key-value route instead
+// of bespoke routes per feature -- each of these is "one JSON blob for a
+// known key", nothing more. Reads need no password (CORS + Origin check
+// already restrict this to the Pages site); writes need the same
+// SEARCH_PASSWORD as account search, since a write can overwrite real data.
+const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories"]);
+
+async function handleState(request, url, env) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders() });
+  }
+  const origin = request.headers.get("Origin");
+  if (origin !== ALLOWED_ORIGIN) {
+    return json({ error: "forbidden" }, 403);
+  }
+  const key = url.searchParams.get("key");
+  if (!key || !STATE_ALLOWED_KEYS.has(key)) {
+    return json({ error: "invalid_key" }, 400);
+  }
+  const kvKey = `state:${key}`;
+
+  if (request.method === "GET") {
+    const stored = await env.SEARCH_KV.get(kvKey, { type: "json" });
+    return json({ data: stored }); // null when nothing's been synced yet
+  }
+
+  if (request.method !== "POST") {
+    return json({ error: "method_not_allowed" }, 405);
+  }
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return json({ error: "invalid_json" }, 400);
+  }
+  if (typeof body.password !== "string" || body.password !== env.SEARCH_PASSWORD) {
+    return json({ error: "wrong_password" }, 401);
+  }
+  if (!("data" in body)) {
+    return json({ error: "missing_data" }, 400);
+  }
+  await env.SEARCH_KV.put(kvKey, JSON.stringify(body.data));
+  return json({ ok: true });
+}
+
+const CREDITS_CACHE_KEY = "cache:credit_usage_summary";
+const CREDITS_CACHE_TTL_SECONDS = 15 * 60; // credit_usage_summary is free, but no reason to hit it every page load
+
+/**
+ * Part C1g: a "Más" credits widget needs the real balance, but the
+ * frontend is a static site with no FastMoss key of its own -- it has to
+ * go through this Worker, same as account search. credit_usage_summary
+ * itself is free/read-only (0 credits, same exemption CLAUDE.md gives
+ * engine.run), so this never touches the paid-call guard; it's just
+ * cached for 15 minutes so a page full of visits doesn't hammer FastMoss.
+ */
+async function handleCredits(request, env) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders() });
+  }
+  if (request.method !== "GET") {
+    return new Response("method not allowed", { status: 405 });
+  }
+  const cached = await env.SEARCH_KV.get(CREDITS_CACHE_KEY, { type: "json" });
+  if (cached) return json(cached);
+
+  try {
+    const [summary] = await callFastMossTools(env.FASTMOSS_API_KEY, [{ tool: "credit_usage_summary", arguments: {} }]);
+    await env.SEARCH_KV.put(CREDITS_CACHE_KEY, JSON.stringify(summary), { expirationTtl: CREDITS_CACHE_TTL_SECONDS });
+    return json(summary);
+  } catch (e) {
+    const message = e instanceof FastMossError ? e.message : "unexpected error";
+    return json({ error: message }, 502);
+  }
+}
 
 /**
  * Proxies an image from an allowlisted CDN host (added 2026-10-15: FastMoss's

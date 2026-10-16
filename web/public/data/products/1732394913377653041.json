@@ -3,7 +3,7 @@
   "product_id": "1732394913377653041",
   "title": "Women's Basic Solid Color Bodycon Slip Dress, Sleeveless Backless Spaghetti Straps Plain Slim Fit Midi Dress, Party Club Date Holiday Daily Casual Elegant Dresses For Ladies All Seasons Summer Fashion Clothes Wear, Chic Elegant Fitted",
   "clean_title": "Women's Basic Solid Color Bodycon Slip",
-  "image_url": "/img/product_1732394913377653041.jpg",
+  "image_url": "https://s.500fd.com/tt_product/87d558d65b404d5eb421c6ec02f0f2a3~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732394913377653041",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Basic%20Solid%20Color%20Bodycon%20Slip",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732394913377653041",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686849280807587102",
+      "cover_url": "https://s.500fd.com/tt_video/oEFIEABYEFAcUrAAQRdDV6UyS3WAylqafE6fCX~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7686849280807587102",
+      "creator_handle": "dj.foof",
+      "play_count": 52900,
+      "window_gmv": 8105.45,
+      "window_units_sold": 531,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7665772273722232095",
+      "cover_url": "https://s.500fd.com/tt_video/oAL1VMWIAAAyAIIHAEiaMSKBqfunb1SiiCBBiI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maddshops/video/7665772273722232095",
+      "creator_handle": "maddshops",
+      "play_count": 850337,
+      "window_gmv": 9654.97,
+      "window_units_sold": 471,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7668292458219965710",
+      "cover_url": "https://s.500fd.com/tt_video/o0NF7EB9I4RSx6VjrfeMrIzBq2qPpD89aDEgAD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sylviegraceee/video/7668292458219965710",
+      "creator_handle": "sylviegraceee",
+      "play_count": 69200,
+      "window_gmv": 4567.59,
+      "window_units_sold": 341,
+      "is_ad": true,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7671420537280728351",
+      "cover_url": "https://s.500fd.com/tt_video/oA7A4EQLZ4MAjrAijQAOXeZI8eqAHUgIcEQPUf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lowkeyprose/video/7671420537280728351",
+      "creator_handle": "lowkeyprose",
+      "play_count": 449300,
+      "window_gmv": 2400.4,
+      "window_units_sold": 173,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7664259577038310686",
+      "cover_url": "https://s.500fd.com/tt_video/o4IMidFLAX2IAEr51AIBbGiSCyicKnf6BcAoBA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@perpetuaaa/video/7664259577038310686",
+      "creator_handle": "perpetuaaa",
+      "play_count": 77700,
+      "window_gmv": 2343.81,
+      "window_units_sold": 143,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7668460860431502606",
+      "cover_url": "https://s.500fd.com/tt_video/o4riqeEErQeAwkzevtQCVUGUuwOLIHT7CA7Y21~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maradiagalpatty/video/7668460860431502606",
+      "creator_handle": "maradiagalpatty",
+      "play_count": 6666,
+      "window_gmv": 1643.25,
+      "window_units_sold": 121,
+      "is_ad": false,
+      "duration_seconds": 65
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 403
+      },
+      {
+        "hashtag": "maxidress",
+        "weight": 254
+      },
+      {
+        "hashtag": "basicdress",
+        "weight": 254
+      },
+      {
+        "hashtag": "summerdress",
+        "weight": 254
+      },
+      {
+        "hashtag": "casualoutfits",
+        "weight": 173
+      },
+      {
+        "hashtag": "loungedress",
+        "weight": 143
+      },
+      {
+        "hashtag": "browndress",
+        "weight": 143
+      },
+      {
+        "hashtag": "paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+        "weight": 121
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 14,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 10.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 8,
+      "hour_end": 10
+    },
+    "top_hooks": [
+      "cannot go wrong with the price of this either, $12?",
+      "i\u2019m wearing xs <3",
+      "6\u20190 140 lbs wearing size xs \ud83d\ude2e\u200d\ud83d\udca8"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      4,
+      3
+    ]
+  }
 }

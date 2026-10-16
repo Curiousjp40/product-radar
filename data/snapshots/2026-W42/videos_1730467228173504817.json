@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730467228173504817",
+  "time_range_days": 90,
+  "total": 563,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "yyaretzii3",
+        "creator_uid": "7332945001402172458"
+      },
+      "engagement_metrics": {
+        "comment_count": 84,
+        "like_count": 47700,
+        "play_count": 2100000,
+        "share_count": 553
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 19909.15,
+        "window_units_sold": 1400
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7665421116311145742",
+      "video_meta": {
+        "caption_text": "My favorite #fyp #tiktokshopfinds #tiktokshop #falloutfits #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/oQuIX5BIEiMSHLWBID1ChBAAMIvspqrfwA0iJI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665421116311145742",
+        "published_at": 1784744960,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yyaretzii3/video/7665421116311145742"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lolabunnyz",
+        "creator_uid": "6810297916672033798"
+      },
+      "engagement_metrics": {
+        "comment_count": 39,
+        "like_count": 5317,
+        "play_count": 313600,
+        "share_count": 139
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 11208.8,
+        "window_units_sold": 752
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7665559871772773646",
+      "video_meta": {
+        "caption_text": "old draft from when i had longer hairrrr lol #fashion #girl #goingout #fyp #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfqiMCpMABil0pEBIrs1uACIAUwj1TqBCIhil~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665559871772773646",
+        "published_at": 1784777263,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lolabunnyz/video/7665559871772773646"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brujitakiss",
+        "creator_uid": "7144510017919091755"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 29,
+        "play_count": 4977,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 9384.02,
+        "window_units_sold": 462
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677692976457469197",
+      "video_meta": {
+        "caption_text": "Sexy, fruncido y perfecto para sentirme m\u00e1s c\u00f3moda. # #VestidoSexy #VestidoFruncido #CurvyStyle #OutfitIdeas #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/osAAFKpAgiITCTdMNaBC4kPlgE0oAyQOBirEb~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 45,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677692976457469197",
+        "published_at": 1787602230,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brujitakiss/video/7677692976457469197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_jessicao17",
+        "creator_uid": "6813384789601829894"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 1615,
+        "play_count": 49900,
+        "share_count": 42
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 7938.8,
+        "window_units_sold": 385
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680237546957180190",
+      "video_meta": {
+        "caption_text": "sooo y2k #aaliyah #rocktheboat #y2k #2000s #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/owdA78XzAC9Ea5VqReACEDWVuEQ0IAFrAEAlfD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680237546957180190",
+        "published_at": 1788194676,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_jessicao17/video/7680237546957180190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mamasherresse",
+        "creator_uid": "8057748"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 435,
+        "play_count": 44400,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4811.45,
+        "window_units_sold": 328
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667607169998654751",
+      "video_meta": {
+        "caption_text": "Giving wineeee #dress #offtheshoulder #womensfashion #plussizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ow1NqEFIB1dgGA0LAifDAMBOKiBVm1iCE5YIyo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667607169998654751",
+        "published_at": 1785253938,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mamasherresse/video/7667607169998654751"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "marinaaa.ro",
+        "creator_uid": "6666811237652283398"
+      },
+      "engagement_metrics": {
+        "comment_count": 52,
+        "like_count": 31100,
+        "play_count": 277300,
+        "share_count": 405
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 6100.92,
+        "window_units_sold": 308
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691727571091819807",
+      "video_meta": {
+        "caption_text": "outfit links \ud83c\udf41 #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/o4qxV2eBUB9QoAFRoE7QsZpFuvECA7f1DFgDEW~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691727571091819807",
+        "published_at": 1790869911,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@marinaaa.ro/video/7691727571091819807"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brujitakiss",
+        "creator_uid": "7144510017919091755"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 38,
+        "play_count": 4013,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 5957.73,
+        "window_units_sold": 296
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677834842167332126",
+      "video_meta": {
+        "caption_text": "Ese drapeado no est\u00e1 ah\u00ed por casualidad: visualmente ayuda a disimular la barriguita y le da una forma preciosa al cuerpo. # #VestidoDrapeado #VestidoMujer #OutfitDeNoche #ModaMujer #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/oINfiBACII1DfKAQJTqRaGFJNQDJUZAeAAfLEG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677834842167332126",
+        "published_at": 1787635249,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brujitakiss/video/7677834842167332126"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brujitakiss",
+        "creator_uid": "7144510017919091755"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 19,
+        "play_count": 2879,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 5316.97,
+        "window_units_sold": 261
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677833879117417759",
+      "video_meta": {
+        "caption_text": "El drapeado hace toda la diferencia: ayuda a disimular la zona de la barriguita mientras marca la figura. Sexy sin tener que ense\u00f1ar de m\u00e1s. \u2728 # #VestidoMujer #VestidoDrapeado #BodyconDress #OutfitMujer #LookDeNoche   ",
+        "cover_url": "https://s.500fd.com/tt_video/oEVC2fpNgA0IB2UIDw0iAkAqJiRiIt7X1uKZDO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677833879117417759",
+        "published_at": 1787635031,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brujitakiss/video/7677833879117417759"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brujitakiss",
+        "creator_uid": "7144510017919091755"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 23,
+        "play_count": 2191,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4502.12,
+        "window_units_sold": 225
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677700516444376351",
+      "video_meta": {
+        "caption_text": "Ajustado donde quiero y fruncido justo donde lo necesito. # #VestidoMujer #BodyconDress #CurvyOutfit #ModaMujer #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/ogYRBfyACiYKIArtBA1AiBUME8IlAAPVCiEAR1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677700516444376351",
+        "published_at": 1787603971,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brujitakiss/video/7677700516444376351"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yyaretzii3",
+        "creator_uid": "7332945001402172458"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 4743,
+        "play_count": 155200,
+        "share_count": 74
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 3177.25,
+        "window_units_sold": 216
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665419648870993166",
+      "video_meta": {
+        "caption_text": "Love it sm #fyp #tiktokshopfinds #tiktokshop #falloutfits #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/oUB1nkVLYAT6BI5ZwEi7MCpBPfo6XqIiBCAhhI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665419648870993166",
+        "published_at": 1784744617,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yyaretzii3/video/7665419648870993166"
+      }
+    }
+  ]
+}

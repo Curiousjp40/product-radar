@@ -3,7 +3,7 @@
   "product_id": "1731584006987485865",
   "title": "Thankful For You Fuckers Funny Thanksgiving T-Shirt Friendsgiving Grateful Fall Season Casual Daily Wear Top",
   "clean_title": "Thankful For You Fuckers Funny Thanksgiving",
-  "image_url": "/img/product_1731584006987485865.webp",
+  "image_url": "https://s.500fd.com/tt_product/0412fd416f08477c8835e2781f362681~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731584006987485865",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Thankful%20For%20You%20Fuckers%20Funny%20Thanksgiving",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731584006987485865",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7690960412082294047",
+      "cover_url": "https://s.500fd.com/tt_video/oo1I7eMCXGcVdj3KrjHeACsIqRfQQqG8AV4vRQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7690960412082294047",
+      "creator_handle": "aimi_us",
+      "play_count": 1016203,
+      "window_gmv": 5823.64,
+      "window_units_sold": 504,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7689124607470751007",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@pocketchangeforyou/video/7689124607470751007",
+      "creator_handle": "pocketchangeforyou",
+      "play_count": 1000000,
+      "window_gmv": 3003,
+      "window_units_sold": 330,
+      "is_ad": false,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7687830186766748942",
+      "cover_url": "https://s.500fd.com/tt_video/oIAwrAqJgiIPuL4w2aBX4UPntEwrBCZJBihEA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@crus.shop8/video/7687830186766748942",
+      "creator_handle": "crus.shop8",
+      "play_count": 826900,
+      "window_gmv": 3597.61,
+      "window_units_sold": 286,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7690081993974992159",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@myfamilypov2/video/7690081993974992159",
+      "creator_handle": "myfamilypov2",
+      "play_count": 143200,
+      "window_gmv": 1583.4,
+      "window_units_sold": 174,
+      "is_ad": false,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7691813335439772942",
+      "cover_url": "https://s.500fd.com/tt_video/ocy8QSYcPDA4zo91wsFxDRqEtEQggB0vQsfleE~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@billyshoppingaddiction/video/7691813335439772942",
+      "creator_handle": "billyshoppingaddiction",
+      "play_count": 271602,
+      "window_gmv": 1785.97,
+      "window_units_sold": 150,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7687156787400690974",
+      "cover_url": "https://s.500fd.com/tt_video/oISBQOF7CAVMp4fcEFDAQPr4RbqAiBdEzkEKfL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lovethis.shirt8/video/7687156787400690974",
+      "creator_handle": "lovethis.shirt8",
+      "play_count": 193226,
+      "window_gmv": 1362.62,
+      "window_units_sold": 142,
+      "is_ad": true,
+      "duration_seconds": 9
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 910
+      },
+      {
+        "hashtag": "thankfulforyou",
+        "weight": 674
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 624
+      },
+      {
+        "hashtag": "thanksgiving",
+        "weight": 562
+      },
+      {
+        "hashtag": "funny",
+        "weight": 548
+      },
+      {
+        "hashtag": "citytastetest",
+        "weight": 504
+      },
+      {
+        "hashtag": "foryour",
+        "weight": 504
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 436
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "I think It's so COOL\ud83d\ude0e",
+      "the perfect thanksgiving shirt doesnt exi-",
+      "Thankful for you\ud83d\ude02\ud83d\ude02\ud83d\ude02"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      1,
+      3
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731788606735487534",
+  "time_range_days": 90,
+  "total": 147,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "aprendeconcarolina",
+        "creator_uid": "7130203702899557422"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 555,
+        "play_count": 61900,
+        "share_count": 46
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 4394.38,
+        "window_units_sold": 312
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675197903333248269",
+      "video_meta": {
+        "caption_text": "#cat #scratch #mat5d #paragatitos #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oAsH4eGcLY7VBjHw0jFeAC0IwjNQQkMeAV42MI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675197903333248269",
+        "published_at": 1787021522,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aprendeconcarolina/video/7675197903333248269"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahgibbons_",
+        "creator_uid": "6832338679064019974"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 12,
+        "play_count": 6392,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 1116.91,
+        "window_units_sold": 76
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686168524795940127",
+      "video_meta": {
+        "caption_text": "If your cat loves scratching the couch, this Smart-Well felt wall scratcher might just save your furniture \ud83d\udc31\ud83d\udecb\ufe0f\u2728 #SmartWell #CatScratcher #WallScratcher #CatFurniture #CatEssentials",
+        "cover_url": "https://s.500fd.com/tt_video/oIqqF0dgQAsECvNEIVAVsEAmARFyvVfLfASDGE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686168524795940127",
+        "published_at": 1789582119,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahgibbons_/video/7686168524795940127"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elducho.thrift",
+        "creator_uid": "6724407288789009413"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 19,
+        "play_count": 2720,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 944.95,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691907128885366046",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYKV5YKOqAvmEN2wAQWefJoMf8fXlNJQgiKVfQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691907128885366046",
+        "published_at": 1790911829,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elducho.thrift/video/7691907128885366046"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "daniag2021",
+        "creator_uid": "6709514071438345222"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 1877,
+        "play_count": 302200,
+        "share_count": 878
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 885.51,
+        "window_units_sold": 64
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675953909763968286",
+      "video_meta": {
+        "caption_text": "Rascador para Gatos\ud83d\udc08\ud83d\udc31 #cat #scratchers #gatos #blackfriday #tiktokshopbacktoschool @Smart-Well ",
+        "cover_url": "https://s.500fd.com/tt_video/oMCEEACWEFAMghAAIR9DV4gGnfdAdrqGlEjfC3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675953909763968286",
+        "published_at": 1787202865,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@daniag2021/video/7675953909763968286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "suzanjohnson5",
+        "creator_uid": "6805728182375138309"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 7,
+        "play_count": 758,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 718.08,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669495457239846174",
+      "video_meta": {
+        "caption_text": "#catstickonwall #scratchapad  #fyf ",
+        "cover_url": "https://s.500fd.com/tt_video/ocEZyAPRqNIAjhIlCPAjEGiiV44aM1vYBbieAx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669495457239846174",
+        "published_at": 1785693583,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@suzanjohnson5/video/7669495457239846174"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "delmylg3",
+        "creator_uid": "7246588751727756331"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 2041,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 589.28,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685176600811326734",
+      "video_meta": {
+        "caption_text": "#parati #gatos #juguetes ",
+        "cover_url": "https://s.500fd.com/tt_video/o8CERtIwpWAini5O2rIK0UfDZ2B1BAVIXK31Mn~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685176600811326734",
+        "published_at": 1789347637,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delmylg3/video/7685176600811326734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kymieann",
+        "creator_uid": "6797953373943825414"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 479,
+        "play_count": 5587,
+        "share_count": 20
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 512,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686631768333634830",
+      "video_meta": {
+        "caption_text": "Do ur cats tear ur furniture up #cats #catscratcher #cattoys #cat #animals ",
+        "cover_url": "https://s.500fd.com/tt_video/ogiRCfQEBB61iCBCYsiZjmIuVApIHilw5yImNA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686631768333634830",
+        "published_at": 1789688488,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kymieann/video/7686631768333634830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boise_brooke",
+        "creator_uid": "6917074996235207685"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 64,
+        "play_count": 2788,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 498.68,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684430958229015821",
+      "video_meta": {
+        "caption_text": "#CatsOfTikTok #cats #CatLover #cattok #blackcats ",
+        "cover_url": "https://s.500fd.com/tt_video/ogJDvVqQkSIDpBalgFSVJfEAFEAR6HpllK1nfQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684430958229015821",
+        "published_at": 1789171385,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boise_brooke/video/7684430958229015821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "asbelrosales19",
+        "creator_uid": "7152576173263012907"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 29,
+        "play_count": 5985,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 499.71,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686219012522462495",
+      "video_meta": {
+        "caption_text": "Tienes gatitos que les guste rasgu\u00f1ar las paredes los muebles etc. Esto es para \u00e9l y para ti. \ud83d\udc08\ud83d\udc3e\ud83d\ude0d#gatos#catsessentials #catsoftiktok #catlover #kittycat ",
+        "cover_url": "https://s.500fd.com/tt_video/o8hRtIq9vKiJAEi7iWkIGqGrAEBaBVvz5VQRi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 84,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686219012522462495",
+        "published_at": 1789588578,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@asbelrosales19/video/7686219012522462495"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "la.brel",
+        "creator_uid": "7204560239512781867"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 464,
+        "play_count": 84100,
+        "share_count": 138
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 476.33,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676154086462393631",
+      "video_meta": {
+        "caption_text": "RASCADOR PARA GATOS. #catscratcher #catscratcherpad #tapeteparagatos #rascadoresparagatos #rascadorparagatos ",
+        "cover_url": "https://s.500fd.com/tt_video/o8E1IVQcoDAYLLZP7yFiERqDeE9AHB0hQQfhHE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676154086462393631",
+        "published_at": 1787244167,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@la.brel/video/7676154086462393631"
+      }
+    }
+  ]
+}

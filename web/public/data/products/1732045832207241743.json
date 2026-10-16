@@ -3,7 +3,7 @@
   "product_id": "1732045832207241743",
   "title": "Women's Vintage Square Toe Mary Jane Shoes, Comfortable Low Heel Single Shoe, Fashion Commuter Women's Shoes, Rubber, All Seasons",
   "clean_title": "Women's Vintage Square Toe Mary Jane",
-  "image_url": "/img/product_1732045832207241743.jpg",
+  "image_url": "https://s.500fd.com/tt_product/4b13bb29d6ca4986bc913d269b0a3310~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732045832207241743",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Vintage%20Square%20Toe%20Mary%20Jane",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732045832207241743",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7670588962049772830",
+      "cover_url": "https://s.500fd.com/tt_video/oUVqcADUIECEAD6efEAAQkAFG2mcym2gDP5RV0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7670588962049772830",
+      "creator_handle": "lifeover43",
+      "play_count": 17400,
+      "window_gmv": 19432.74,
+      "window_units_sold": 1682,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7675829134114786591",
+      "cover_url": "https://s.500fd.com/tt_video/oIFgGAX8wKAEhiI1CQifiBATsBbAMkEyIAB8CA.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7675829134114786591",
+      "creator_handle": "lifeover43",
+      "play_count": 193300,
+      "window_gmv": 17179.24,
+      "window_units_sold": 1322,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7680237975162096927",
+      "cover_url": "https://s.500fd.com/tt_video/o0XbEV1KAfmjAIz6VAQELeFzIxIrq1fXE0AoDA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7680237975162096927",
+      "creator_handle": "lifeover43",
+      "play_count": 56788,
+      "window_gmv": 8925.54,
+      "window_units_sold": 654,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7679062339466956062",
+      "cover_url": "https://s.500fd.com/tt_video/o0EaRpgAivCiG4BIA2Q1REBCCAoiAj6gUoIAl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7679062339466956062",
+      "creator_handle": "lifeover43",
+      "play_count": 740453,
+      "window_gmv": 6695.49,
+      "window_units_sold": 498,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7672886318585728270",
+      "cover_url": "https://s.500fd.com/tt_video/owekZFdLU9H7RSo7CkFEABDuIeAjzpOIIjfpk5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@gracesynod_/video/7672886318585728270",
+      "creator_handle": "gracesynod_",
+      "play_count": 6084,
+      "window_gmv": 2108.83,
+      "window_units_sold": 129,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7695122835462786317",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@willzzshop/video/7695122835462786317",
+      "creator_handle": "willzzshop",
+      "play_count": 11,
+      "window_gmv": 1483.5,
+      "window_units_sold": 129,
+      "is_ad": false,
+      "duration_seconds": 0
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "maryjanes",
+        "weight": 3738
+      },
+      {
+        "hashtag": "fallshoes",
+        "weight": 2348
+      },
+      {
+        "hashtag": "affordablefashion",
+        "weight": 1976
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 1836
+      },
+      {
+        "hashtag": "comfortableflats",
+        "weight": 1682
+      },
+      {
+        "hashtag": "fashionfinds",
+        "weight": 1682
+      },
+      {
+        "hashtag": "tiktokshopfinds",
+        "weight": 1682
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 1407
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 9,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 60.0
+    },
+    "best_posting_hour": {
+      "hour_start": 12,
+      "hour_end": 14
+    },
+    "top_hooks": [
+      "Boutique-style Mary Jane shoes without the boutique price",
+      "These Mary Janes look like they belong in a $$$ fall wardrobe \ud83e\udd0e The square toe + suede look instantly makes jeans, trousers, skirts and dresses feel more expensive\u2026 but the PRICE?",
+      "Replying to These might be the perfect fall shoes for women over 40 \ud83e\udd0e\ud83c\udf42 Cute enough to make your outfit feel put together, but casual enough to wear with jeans, trousers or dresses."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      4,
+      0
+    ]
+  }
 }

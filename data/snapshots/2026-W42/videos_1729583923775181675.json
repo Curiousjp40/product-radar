@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729583923775181675",
+  "time_range_days": 90,
+  "total": 1153,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "luisa.tiktok2",
+        "creator_uid": "7360908187974894635"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1492,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 6334.46,
+        "window_units_sold": 159
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667382081596574989",
+      "video_meta": {
+        "caption_text": "#repisa #furniture #tiktokshopcreatorpicks #mueble #organizer ",
+        "cover_url": "https://s.500fd.com/tt_video/o4RfeAG0gBbHvLjfUuKRSEkIAQSQCIPQRFvAIu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667382081596574989",
+        "published_at": 1785254400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@luisa.tiktok2/video/7667382081596574989"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 5548,
+        "play_count": 279900,
+        "share_count": 143
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 6061.51,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686962042514738463",
+      "video_meta": {
+        "caption_text": "Literally don\u2019t get any better than these #manga #mangacollection #animefigure #anime #display ",
+        "cover_url": "https://s.500fd.com/tt_video/ooqrGetkIWZWBqDEEQmtqEA4BRF0vVfP4AQDKE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686962042514738463",
+        "published_at": 1789760331,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7686962042514738463"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "luisa.tiktok2",
+        "creator_uid": "7360908187974894635"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 2122,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 5680.45,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676293068080811277",
+      "video_meta": {
+        "caption_text": "#organizer #tiktokshopbacktoschool #librero #homefurniture #repisas ",
+        "cover_url": "https://s.500fd.com/tt_video/ogUPQofrAAVASshihbAeacAfANuezQ4ihAOYfg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676293068080811277",
+        "published_at": 1787353200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@luisa.tiktok2/video/7676293068080811277"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 3493,
+        "play_count": 103497,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 5128.54,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679983620131392799",
+      "video_meta": {
+        "caption_text": "Genuinely the perfect shelf for manga and figure or anything really #animefigure #mangacollection #mangarecommendation #shelf #decor ",
+        "cover_url": "https://s.500fd.com/tt_video/oQFZAyeUjLCfwRxCIqIGkHewQEgdAfLDQUUllG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679983620131392799",
+        "published_at": 1788135544,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7679983620131392799"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "layadira.g",
+        "creator_uid": "7461730670949631022"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 479,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 4318.07,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675909209430560013",
+      "video_meta": {
+        "caption_text": "Segawe Modern Aesthetic 5-Tier #segawe #librero #bookcase #bookshelf #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675909209430560013",
+        "published_at": 1787186910,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@layadira.g/video/7675909209430560013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 83,
+        "like_count": 12734,
+        "play_count": 340008,
+        "share_count": 142
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 4575.89,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676254271280614687",
+      "video_meta": {
+        "caption_text": "Perfect books shelves for manga and figures #manga #anime #animefigure #shelf ",
+        "cover_url": "https://s.500fd.com/tt_video/ooiIg2IH5SNyZSBRAAvdisAqBIEsKoCIieQ1iC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676254271280614687",
+        "published_at": 1787267232,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7676254271280614687"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 1816,
+        "play_count": 100237,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 3992.7,
+        "window_units_sold": 96
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690272907318037791",
+      "video_meta": {
+        "caption_text": "Best purchase for my room #anime #manga #mangacollection #animetiktok #animefigure ",
+        "cover_url": "https://s.500fd.com/tt_video/owxHX6DWIFAYQOBuuDEVfVEcE4VlfRM5qloOAh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690272907318037791",
+        "published_at": 1790531205,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7690272907318037791"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 1019,
+        "play_count": 58100,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 3830.13,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691458465977355550",
+      "video_meta": {
+        "caption_text": "#anime #manga #mangacollection #animefigure #mangas ",
+        "cover_url": "https://s.500fd.com/tt_video/owg9MiUkUroV2RXBIMaiERAHEBx9vl46jAvBg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691458465977355550",
+        "published_at": 1790807242,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7691458465977355550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eastonnk",
+        "creator_uid": "7277718394684720170"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 1437,
+        "play_count": 63300,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 3450.95,
+        "window_units_sold": 80
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682052538505514270",
+      "video_meta": {
+        "caption_text": "Best shelves for manga and figures #manga #mangacollection #animefigures #shelves #anime ",
+        "cover_url": "https://s.500fd.com/tt_video/o8AIEFb47YVQfCeQlMDE7IfIqORjENFAQc0Iug~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682052538505514270",
+        "published_at": 1788617263,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eastonnk/video/7682052538505514270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "layadira.g",
+        "creator_uid": "7461730670949631022"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 10,
+        "play_count": 471,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495795592579746667",
+        "window_gmv": 3177.96,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674419572811910414",
+      "video_meta": {
+        "caption_text": "Segawe Modern Aesthetic 5-Tier Narrow MDF Bookshelf - Scratch Resistant Vertical Storage Solution, Fits Tight Spaces, Display Storage Living Room Furniture, Apartment Home Organizer (15.8\"x9.5\"x52\"), Dorm Decor #estantedemadera #bookshelf #librero #bookcase ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674419572811910414",
+        "published_at": 1786840074,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@layadira.g/video/7674419572811910414"
+      }
+    }
+  ]
+}

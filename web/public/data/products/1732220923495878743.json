@@ -3,7 +3,7 @@
   "product_id": "1732220923495878743",
   "title": "Cider V-Neck Halter Ruffle-Hem Tulle Mini Dress with Matching Scarf, Sparkly Glamour Party Dress for Night Out & Festivals",
   "clean_title": "Cider V-Neck Halter Ruffle-Hem Tulle Mini",
-  "image_url": "/img/product_1732220923495878743.webp",
+  "image_url": "https://s.500fd.com/tt_product/8b435bf0ccb34b649b2cd37da68c6158~tplv-fhlh96nyum-crop-webp:900:900.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732220923495878743",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Cider%20V-Neck%20Halter%20Ruffle-Hem%20Tulle%20Mini",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732220923495878743",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673214951762201869",
+      "cover_url": "https://s.500fd.com/tt_video/oY4QyeDAONFgTeAftgYEIpgQ8gkA6eGJvuoRnP~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@marie._.loveee/video/7673214951762201869",
+      "creator_handle": "marie._.loveee",
+      "play_count": 598200,
+      "window_gmv": 62314.5,
+      "window_units_sold": 1263,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7669188008326827294",
+      "cover_url": "https://s.500fd.com/tt_video/oY2mqEQ60HDbA4AWQErEBFvcKVFfRbJEtjGRfi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbyelectra/video/7669188008326827294",
+      "creator_handle": "shelbyelectra",
+      "play_count": 11400000,
+      "window_gmv": 46965.91,
+      "window_units_sold": 827,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7687660676092923166",
+      "cover_url": "https://s.500fd.com/tt_video/osCwjOGHYNBewSfegdmxqotIGKoLQIVvIQAAXK~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@macimccarley/video/7687660676092923166",
+      "creator_handle": "macimccarley",
+      "play_count": 2076406,
+      "window_gmv": 19542.76,
+      "window_units_sold": 350,
+      "is_ad": true,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7678915257531780366",
+      "cover_url": "https://s.500fd.com/tt_video/o8Ct3cMtQWAmgIJQIAQIAeRAO9ff8G8DqeaJAv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7678915257531780366",
+      "creator_handle": "yvonniedior",
+      "play_count": 409900,
+      "window_gmv": 18029.81,
+      "window_units_sold": 300,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7675849566066937101",
+      "cover_url": "https://s.500fd.com/tt_video/ooPGyYa159gyE4kA7YCjCFGBQiAAoBPiIEsAq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@autumnrsims/video/7675849566066937101",
+      "creator_handle": "autumnrsims",
+      "play_count": 2400000,
+      "window_gmv": 11841.09,
+      "window_units_sold": 241,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7669851816401669406",
+      "cover_url": "https://s.500fd.com/tt_video/oA1oIYLfAeUfRTdhQAGAQawEG3pAkJDRAyIIev~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbyelectra/video/7669851816401669406",
+      "creator_handle": "shelbyelectra",
+      "play_count": 542200,
+      "window_gmv": 12128.8,
+      "window_units_sold": 215,
+      "is_ad": true,
+      "duration_seconds": 20
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "minidress",
+        "weight": 1416
+      },
+      {
+        "hashtag": "heels",
+        "weight": 1263
+      },
+      {
+        "hashtag": "birthdaydress",
+        "weight": 1263
+      },
+      {
+        "hashtag": "crutches",
+        "weight": 1263
+      },
+      {
+        "hashtag": "splint",
+        "weight": 1263
+      },
+      {
+        "hashtag": "curvyfashion",
+        "weight": 455
+      },
+      {
+        "hashtag": "plussizefashion",
+        "weight": 300
+      },
+      {
+        "hashtag": "partydress",
+        "weight": 300
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "fav dress I had to get a second color",
+      "I was NOT expecting this to be this cute",
+      "Ladies, if you're looking for a dress that flatters your body type and looks good on anyone, this flowy double-layer dress from Cider is a great option."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      5,
+      6
+    ]
+  }
 }

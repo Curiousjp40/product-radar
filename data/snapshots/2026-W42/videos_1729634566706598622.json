@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729634566706598622",
+  "time_range_days": 90,
+  "total": 169,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "maes_outfits",
+        "creator_uid": "6798345671986070533"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 581,
+        "play_count": 51700,
+        "share_count": 159
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 6198.3,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679258350793641246",
+      "video_meta": {
+        "caption_text": "partners in crime \ud83d\ude94\u26d3\ufe0f #couplescostume #copandinmate #halloweencostume #coupleshalloween #halloweeninspo",
+        "cover_url": "https://s.500fd.com/tt_video/os6IRELJeIGirXAAmCAAewIMVkQojelIqAaGaE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679258350793641246",
+        "published_at": 1788008400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7679258350793641246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "teesfinds1",
+        "creator_uid": "6604972892235382789"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 639,
+        "play_count": 20900,
+        "share_count": 37
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 4190.4,
+        "window_units_sold": 50
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687386109470362893",
+      "video_meta": {
+        "caption_text": "size small #cop #police #legavenue ",
+        "cover_url": "https://s.500fd.com/tt_video/o0pAVXAAC46BSQ1yDRYIPRfnCoBivFi1wI5It3~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687386109470362893",
+        "published_at": 1789859067,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@teesfinds1/video/7687386109470362893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wincentsfinds2",
+        "creator_uid": "6907052602748535814"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 98,
+        "play_count": 6209,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 4171,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689669937908043021",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8FDgELveWkH3afuHIGAgKbxjBVAZCFImmIdeW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689669937908043021",
+        "published_at": 1790447100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7689669937908043021"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sanaaaizhanee",
+        "creator_uid": "6870577417636299782"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 22872,
+        "play_count": 483461,
+        "share_count": 2518
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3988.16,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683239163012910349",
+      "video_meta": {
+        "caption_text": "#copcustom #holloweencostumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/ocgBD2AQeAgDoNafVGrVLpCMZIHkLE8TdL5geG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683239163012910349",
+        "published_at": 1788893532,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sanaaaizhanee/video/7683239163012910349"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mrsasianna",
+        "creator_uid": "7439466037542552619"
+      },
+      "engagement_metrics": {
+        "comment_count": 91,
+        "like_count": 28947,
+        "play_count": 447472,
+        "share_count": 2506
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3338.26,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683576578957217054",
+      "video_meta": {
+        "caption_text": "k who am I arresting today ?! #halloweencostume #halloween #halloweencostumeidea #tiktokshopstockup #tiktokshophalloween ",
+        "cover_url": "https://s.500fd.com/tt_video/o0EEhFqQYBAeEyDFIfQazVBAEnjcEopQUuxARF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683576578957217054",
+        "published_at": 1788972114,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mrsasianna/video/7683576578957217054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sanaaaizhanee",
+        "creator_uid": "6870577417636299782"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 2311,
+        "play_count": 70866,
+        "share_count": 222
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3110.31,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683238262567193869",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ow6wkGWeASwCC6p1IwcABwzSIiIFIFigUuRUPB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683238262567193869",
+        "published_at": 1788893324,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sanaaaizhanee/video/7683238262567193869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ebonieb.xo",
+        "creator_uid": "7478014384058467370"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 988,
+        "play_count": 54500,
+        "share_count": 71
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3045.8,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691852548180839710",
+      "video_meta": {
+        "caption_text": "@Leg Avenue #tiktokshopstockup #tiktokshopdealsforyoudays #tiktokshopblackfriday #tiktokshopcybermonday #halloweencostumeidea ",
+        "cover_url": "https://s.500fd.com/tt_video/oMIMPAVDqC826tIFEAAvDAI2EEmefvOASRQzFz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691852548180839710",
+        "published_at": 1790898996,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ebonieb.xo/video/7691852548180839710"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "miyacromer",
+        "creator_uid": "7059958567886013445"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 3488,
+        "play_count": 133900,
+        "share_count": 736
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 2526.55,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682180948988923166",
+      "video_meta": {
+        "caption_text": "police officer costume that comes with all the accessories! #halloween #halloweencostume #policeofficer #tiktokshopstockup #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/oADqyHb4AAAqARE3AEFknlVDsfNfnuJEEECCcI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682180948988923166",
+        "published_at": 1788647150,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@miyacromer/video/7682180948988923166"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "miyacromer",
+        "creator_uid": "7059958567886013445"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 1846,
+        "play_count": 64800,
+        "share_count": 204
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 2303.75,
+        "window_units_sold": 26
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686317030512872734",
+      "video_meta": {
+        "caption_text": "this police officer Halloween costume that includes all the accessories with these knee high boots = a cute and easy costume! #tiktokshopstockup #outfitinspo #halloweencostume #policeofficer #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/o88q9CpipAclaBCAKFA9tDaAERdXrIEIABviS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686317030512872734",
+        "published_at": 1789610154,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@miyacromer/video/7686317030512872734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ebonieb.xo",
+        "creator_uid": "7478014384058467370"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 422,
+        "play_count": 17000,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 2221.3,
+        "window_units_sold": 24
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691856801335151903",
+      "video_meta": {
+        "caption_text": "@Leg Avenue #tiktokshopstockup #tiktokshopdealsforyoudays #tiktokshopblackfriday #tiktokshopcybermonday #halloweencostumeidea ",
+        "cover_url": "https://s.500fd.com/tt_video/o03NcqEoQEwqTQlEv9qEeDxBvQ58VqqfAATFtR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691856801335151903",
+        "published_at": 1790899984,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ebonieb.xo/video/7691856801335151903"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1732536825905385902",
   "title": "Quilted Multi\u2011Purpose Storage Bag, Portable Zipper Cosmetic Makeup Pouch with Handle, Large Capacity Travel Toiletry Organizer for Bathroom Office",
   "clean_title": "Quilted Multi\u2011Purpose Storage Bag",
-  "image_url": "/img/product_1732536825905385902.webp",
+  "image_url": "https://s.500fd.com/tt_product/3946a0ee2f9e4934b26beaeec966eac0~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732536825905385902",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Quilted%20Multi%E2%80%91Purpose%20Storage%20Bag",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732536825905385902",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681295760301903118",
+      "cover_url": "https://s.500fd.com/tt_video/o8cID4S7QALIkRMCLy4GeHmjOLALMZuAtfmVQf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7681295760301903118",
+      "creator_handle": "unamoonvine",
+      "play_count": 2300000,
+      "window_gmv": 5058.91,
+      "window_units_sold": 509,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7679086046063217933",
+      "cover_url": "https://s.500fd.com/tt_video/ogf8ykDaM1anIwi4mK3iBCHBAb05SIIRu1pACB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7679086046063217933",
+      "creator_handle": "unamoonvine",
+      "play_count": 675300,
+      "window_gmv": 4618.29,
+      "window_units_sold": 483,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7683115928447487245",
+      "cover_url": "https://s.500fd.com/tt_video/oMgfFtlEA2j8AQWIBEFVA6EDAYkzAHTUfePID1~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7683115928447487245",
+      "creator_handle": "unamoonvine",
+      "play_count": 114021,
+      "window_gmv": 2535.67,
+      "window_units_sold": 270,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7690246133054016781",
+      "cover_url": "https://s.500fd.com/tt_video/ooTCAlwfC5cqFDAfE4jERPIDgEPESCAphmuXIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7690246133054016781",
+      "creator_handle": "unamoonvine",
+      "play_count": 108100,
+      "window_gmv": 2237.35,
+      "window_units_sold": 245,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7682768087258516749",
+      "cover_url": "https://s.500fd.com/tt_video/owG2IYCqDgAQpERgAEwPfAGAe6zDnFrzqSQrUE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7682768087258516749",
+      "creator_handle": "unamoonvine",
+      "play_count": 96900,
+      "window_gmv": 2083.94,
+      "window_units_sold": 227,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7684164006604508429",
+      "cover_url": "https://s.500fd.com/tt_video/o4qBERhgiBNgrAA84kAjvuEAiBqiaIoqk4OCc~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unamoonvine/video/7684164006604508429",
+      "creator_handle": "unamoonvine",
+      "play_count": 86397,
+      "window_gmv": 1928.43,
+      "window_units_sold": 203,
+      "is_ad": true,
+      "duration_seconds": 33
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "hairtoolorganizer",
+        "weight": 2483
+      },
+      {
+        "hashtag": "travelessentials",
+        "weight": 1411
+      },
+      {
+        "hashtag": "packinghacks",
+        "weight": 1394
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 1394
+      },
+      {
+        "hashtag": "haircaremusthave",
+        "weight": 779
+      },
+      {
+        "hashtag": "hairtoolbag",
+        "weight": 684
+      },
+      {
+        "hashtag": "travelmusthaves",
+        "weight": 684
+      },
+      {
+        "hashtag": "organizerideas",
+        "weight": 684
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "Traveling with hair tools just got so much easier.",
+      "Perfect for traveling and to help all your hair tools and products in one bag\ud83d\udc97\u2708\ufe0f",
+      "Traveling with hair tools just got so much easier."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      3,
+      6
+    ]
+  }
 }

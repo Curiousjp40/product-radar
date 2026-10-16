@@ -3,7 +3,7 @@
   "product_id": "1732196130659078157",
   "title": "Sweetcrispy Plastic Pet Playpen Gate, Durable Puppy Exercise Playpens with Lockable Door, Non-Slip Bottom, Portable for Indoor & Outdoor Use, Playpen Gate Playpens, Portable Puppy Fence, Puppy-Proof Playpens",
   "clean_title": "Sweetcrispy Plastic Pet Playpen Gate",
-  "image_url": "/img/product_1732196130659078157.jpg",
+  "image_url": "https://s.500fd.com/tt_product/850dfbad72254e6fa64a744e9a4e7257~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732196130659078157",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Plastic%20Pet%20Playpen%20Gate",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732196130659078157",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7666666639399603487",
+      "cover_url": "https://s.500fd.com/tt_video/oouQAEoBRiIQqA8fKPmZDXYMJJeDEBF8VMWE41~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@magallymunozp/video/7666666639399603487",
+      "creator_handle": "magallymunozp",
+      "play_count": 8930,
+      "window_gmv": 12976.16,
+      "window_units_sold": 270,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7666281332842040606",
+      "cover_url": "https://s.500fd.com/tt_video/oMkaEHFmAtVJTY7kEADAIpZzReqAGCBEABEcf3~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@amber.nic0lle/video/7666281332842040606",
+      "creator_handle": "amber.nic0lle",
+      "play_count": 88800,
+      "window_gmv": 5291.18,
+      "window_units_sold": 110,
+      "is_ad": true,
+      "duration_seconds": 53
+    },
+    {
+      "video_id": "7685074580901285150",
+      "cover_url": "https://s.500fd.com/tt_video/oUX6EAmERVifr6Cz3AAtwIApEAxq7fD8bsqEFC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@iesha.ashh/video/7685074580901285150",
+      "creator_handle": "iesha.ashh",
+      "play_count": 49700,
+      "window_gmv": 5606.23,
+      "window_units_sold": 99,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7681177121770720542",
+      "cover_url": "https://s.500fd.com/tt_video/o8eV7ijOIgGM6ZSIcBLvdIogIeRuIACzgfDqRA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@maryeoficial/video/7681177121770720542",
+      "creator_handle": "maryeoficial",
+      "play_count": 43100,
+      "window_gmv": 4880.06,
+      "window_units_sold": 88,
+      "is_ad": true,
+      "duration_seconds": 42
+    },
+    {
+      "video_id": "7675415808717163789",
+      "cover_url": "https://s.500fd.com/tt_video/ocyD4iDbFnfMhjEVgR5nABbE4z9EISBfgqIzzE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@taylorangelini/video/7675415808717163789",
+      "creator_handle": "taylorangelini",
+      "play_count": 4106,
+      "window_gmv": 3329.34,
+      "window_units_sold": 66,
+      "is_ad": false,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7664717271394274590",
+      "cover_url": "https://s.500fd.com/tt_video/oAeSaRNai9GeReKItiLeDgA9gUfJgAKtizPoLA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@n_beattie6/video/7664717271394274590",
+      "creator_handle": "n_beattie6",
+      "play_count": 19100,
+      "window_gmv": 2968.78,
+      "window_units_sold": 62,
+      "is_ad": true,
+      "duration_seconds": 41
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dogmom",
+        "weight": 301
+      },
+      {
+        "hashtag": "tiktokshopsummerglow",
+        "weight": 270
+      },
+      {
+        "hashtag": "refreshedlook",
+        "weight": 270
+      },
+      {
+        "hashtag": "summeressentials",
+        "weight": 270
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 270
+      },
+      {
+        "hashtag": "securepayeveryday",
+        "weight": 270
+      },
+      {
+        "hashtag": "puppyessentials",
+        "weight": 257
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 205
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 38,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "I got my puppy an apartment \ud83e\udd0d he loves his playpen.",
+      "Setting up their playpen\u2728What are some Frenchie musthaves I need?",
+      "ALLL the dog thingssss \ud83e\udd0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      5,
+      4
+    ]
+  }
 }

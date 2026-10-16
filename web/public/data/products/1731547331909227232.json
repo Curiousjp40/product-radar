@@ -3,7 +3,7 @@
   "product_id": "1731547331909227232",
   "title": "\u3010BEDLORE\u3011Cooling Mattress Topper, Thick Pillow-Top Pad for Pressure Relief & Comfort, Soft Breathable, Deep Pockets (Fits 6\u201318 Inches) for Home, Bedroom, Guest Room HomeEssentials",
   "clean_title": "BEDLORE Cooling Mattress Topper",
-  "image_url": "/img/product_1731547331909227232.jpg",
+  "image_url": "https://s.500fd.com/tt_product/2d7d63c79390467d817d348baab0e03b~tplv-fhlh96nyum-origin-image.image",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731547331909227232",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BEDLORE%20Cooling%20Mattress%20Topper",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731547331909227232",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679226718413917453",
+      "cover_url": "https://s.500fd.com/tt_video/ogERDeQk5krEzVDNBgfmFxASEgQZDbnGDhkqME~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7679226718413917453",
+      "creator_handle": "deannaa___",
+      "play_count": 1006012,
+      "window_gmv": 12385.12,
+      "window_units_sold": 400,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7679788587746888973",
+      "cover_url": "https://s.500fd.com/tt_video/o8QB00g6eESZp2LqA7DMIFIUfXEuUBDS9DoRlF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7679788587746888973",
+      "creator_handle": "deannaa___",
+      "play_count": 303300,
+      "window_gmv": 4957.71,
+      "window_units_sold": 162,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7668617789220949261",
+      "cover_url": "https://s.500fd.com/tt_video/o8FEEg6oEFAfBbCgIRNDSKMSGdZDdiqsyDJfB1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dreamhome_jane/video/7668617789220949261",
+      "creator_handle": "dreamhome_jane",
+      "play_count": 20900,
+      "window_gmv": 2678.65,
+      "window_units_sold": 91,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7691436871347358990",
+      "cover_url": "https://s.500fd.com/tt_video/oMYQSid0DDev9S86ZmFdgcQERA34FHVfEFBqTX~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7691436871347358990",
+      "creator_handle": "deannaa___",
+      "play_count": 138200,
+      "window_gmv": 2464,
+      "window_units_sold": 77,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7681036855101443342",
+      "cover_url": "https://s.500fd.com/tt_video/okvIWDYI9UFID3ofEgeYNSqnhWRFmAtKEIGBDC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@iamrichiere/video/7681036855101443342",
+      "creator_handle": "iamrichiere",
+      "play_count": 1384,
+      "window_gmv": 1900.31,
+      "window_units_sold": 62,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7663446681828035854",
+      "cover_url": "https://s.500fd.com/tt_video/o0AP0XhfGalPMErpG8NFCMR6AIQOOCfgepeIgA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealscldrey_ugc/video/7663446681828035854",
+      "creator_handle": "dealscldrey_ugc",
+      "play_count": 14300,
+      "window_gmv": 1442.88,
+      "window_units_sold": 48,
+      "is_ad": true,
+      "duration_seconds": 17
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "mattresstopper",
+        "weight": 747
+      },
+      {
+        "hashtag": "bedding",
+        "weight": 586
+      },
+      {
+        "hashtag": "bamboomattresstopper",
+        "weight": 477
+      },
+      {
+        "hashtag": "mattress",
+        "weight": 477
+      },
+      {
+        "hashtag": "bed",
+        "weight": 477
+      },
+      {
+        "hashtag": "bedlore",
+        "weight": 347
+      },
+      {
+        "hashtag": "coolingmattresstopper",
+        "weight": 224
+      },
+      {
+        "hashtag": "comfybed",
+        "weight": 208
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 37,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 7,
+      "hour_end": 9
+    },
+    "top_hooks": [
+      "Still that same cozy feel but in a cooler option!",
+      "7 Give Your Old Mattress a New Life",
+      "You need this for your bed!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      4,
+      6
+    ]
+  }
 }

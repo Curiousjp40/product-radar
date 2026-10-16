@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731051421250392328",
+  "time_range_days": 90,
+  "total": 291,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "anahimariche25",
+        "creator_uid": "7029496476565128238"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 6807,
+        "play_count": 1200000,
+        "share_count": 336
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 15030.75,
+        "window_units_sold": 343
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678851900841774350",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o48zyQGiGTI3SAy1ARDIIw9itfqYB2CpBB3Awz~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678851900841774350",
+        "published_at": 1787872042,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anahimariche25/video/7678851900841774350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nicksshop_",
+        "creator_uid": "6827632247957996549"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 12,
+        "play_count": 6575,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 6134.39,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691366704848424205",
+      "video_meta": {
+        "caption_text": "Affordable heavy duty bed frame! #bedroom #bed #home ",
+        "cover_url": "https://s.500fd.com/tt_video/oMWkEJivAIJ1aiU9BABAIyX4IW1wOBCCApiCfw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691366704848424205",
+        "published_at": 1790789400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nicksshop_/video/7691366704848424205"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jennifer18158",
+        "creator_uid": "7002398666372793350"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 39,
+        "play_count": 10500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 4120.88,
+        "window_units_sold": 107
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672454937023941901",
+      "video_meta": {
+        "caption_text": "Need a simple metal platform bed frame without a bulky headboard? This minimalist bed frame puts your mattress at the right height without needing a box spring, while leaving useful space underneath for under-bed storage. A practical option for small bedrooms, apartments, guest rooms, first apartments, or anyone who just needs a functional bed frame without a lot of extra furniture. #MetalBedFrame #SmallSpaceLiving #BedroomOrganization #TikTokShopBackToSchool #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/owsjeeE5vEorF6kUINcsCnAIDfAiFHDRwClUgI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672454937023941901",
+        "published_at": 1786382653,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jennifer18158/video/7672454937023941901"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "anahimariche25",
+        "creator_uid": "7029496476565128238"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 41,
+        "play_count": 6426,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 3714.97,
+        "window_units_sold": 102
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669662781108505869",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4mcwA40ApCdIiI1dOifBAwdvHK564IJIdB6CQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669662781108505869",
+        "published_at": 1785732549,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anahimariche25/video/7669662781108505869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariannajimenez52",
+        "creator_uid": "6805612895021876230"
+      },
+      "engagement_metrics": {
+        "comment_count": 46,
+        "like_count": 1548,
+        "play_count": 549600,
+        "share_count": 443
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 2465.1,
+        "window_units_sold": 71
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665931903215619358",
+      "video_meta": {
+        "caption_text": "Base de cama de metal resistente y disponible en todos los tama\u00f1os #bedframe #cama #summermusthaves #blackfriday #heavyduty ",
+        "cover_url": "https://s.500fd.com/tt_video/o8A1iK5l4A3yCIN2AIiWM3qBAfKc6IWiiCAxiI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665931903215619358",
+        "published_at": 1784870400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariannajimenez52/video/7665931903215619358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jennifer18158",
+        "creator_uid": "7002398666372793350"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 32,
+        "play_count": 8496,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 2547.38,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670658596966780173",
+      "video_meta": {
+        "caption_text": "Looking for a simple platform bed frame that doesn\u2019t require a box spring? This heavy-duty metal bed frame supports up to 3,500 lbs, leaves plenty of storage space underneath, and helps get your mattress up off the floor while keeping your bedroom feeling clean and open. It\u2019s a great option for guest rooms, first apartments, dorms, or anyone wanting a simple bedroom setup. #BedFrame #BedroomEssentials #FirstApartment #DormRoom #home ",
+        "cover_url": "https://s.500fd.com/tt_video/oURVOn7uBnAiv3pnnEwWuz1qBaIXIv4g2FpiU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670658596966780173",
+        "published_at": 1785964391,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jennifer18158/video/7670658596966780173"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cupcake_lady_",
+        "creator_uid": "7048837530603389958"
+      },
+      "engagement_metrics": {
+        "comment_count": 161,
+        "like_count": 1766,
+        "play_count": 545490,
+        "share_count": 181
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 2612.74,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689342012067155214",
+      "video_meta": {
+        "caption_text": "It\u2019s super heavy duty and tall!!! #bed #bedframe #heavyduty #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/ooYsNjgtfAIt1dNUCDRq77B6DEDSFEZXPgyQfw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 75,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689342012067155214",
+        "published_at": 1790359200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cupcake_lady_/video/7689342012067155214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jennifer18158",
+        "creator_uid": "7002398666372793350"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 23,
+        "play_count": 3981,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 1860.28,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7670636736720014606",
+      "video_meta": {
+        "caption_text": "Looking for a simple platform bed frame that gets the job done? This metal bed frame doesn\u2019t require a box spring, has under-bed storage space, and is easy to assemble. Great for bedrooms, guest rooms, first apartments, college apartments, or back-to-school room setups. #TikTokShopBackToSchool #PlatformBedFrame #ApartmentEssentials #BedroomSetup #firstapartment ",
+        "cover_url": "https://s.500fd.com/tt_video/ogFN4iPqcALmDR2DEe851RkBSizfIYRgEc2gID~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670636736720014606",
+        "published_at": 1785959301,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jennifer18158/video/7670636736720014606"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "anahimariche25",
+        "creator_uid": "7029496476565128238"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 12,
+        "play_count": 2547,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 1896.46,
+        "window_units_sold": 40
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683005000309558541",
+      "video_meta": {
+        "caption_text": "#metalbedframe ",
+        "cover_url": "https://s.500fd.com/tt_video/o8GEyf4fWguRDJlQHzsEAmBShDnFQ6Spq5RRVU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683005000309558541",
+        "published_at": 1788839016,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anahimariche25/video/7683005000309558541"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yojana_85",
+        "creator_uid": "6798039470040466438"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 203,
+        "play_count": 141728,
+        "share_count": 54
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495991253654341896",
+        "window_gmv": 1463.72,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676456462683540767",
+      "video_meta": {
+        "caption_text": "#bedframe #bedframes ",
+        "cover_url": "https://s.500fd.com/tt_video/ogaELSIEIVIMAXBRYuiQOziAohBhKYOTAPNBo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676456462683540767",
+        "published_at": 1787314312,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yojana_85/video/7676456462683540767"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1732567897806639543",
   "title": "Tipsy Elves Women's Original Halloween Costumes",
   "clean_title": "Tipsy Elves Women's Original Halloween Costumes",
-  "image_url": "/img/product_1732567897806639543.webp",
+  "image_url": "https://s.500fd.com/tt_product/1630c15bb4204231ab3cbed42e67b808~tplv-fhlh96nyum-crop-webp:2000:2333.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732567897806639543",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Tipsy%20Elves%20Women%27s%20Original%20Halloween%20Costumes",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732567897806639543",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691450047447239967",
+      "cover_url": "https://s.500fd.com/tt_video/oA4qMNMqmAToDRWpAIFGvhVD2fyLeSYEEEBy9I~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kelly.at.home/video/7691450047447239967",
+      "creator_handle": "kelly.at.home",
+      "play_count": 1500000,
+      "window_gmv": 3262.74,
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7684318626966506766",
+      "cover_url": "https://s.500fd.com/tt_video/oUC5EkIGA4eHFf7ALVFkIrPIzALjejASi9ET5A~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@shelby_lynnnn/video/7684318626966506766",
+      "creator_handle": "shelby_lynnnn",
+      "play_count": 278600,
+      "window_gmv": 1863.78,
+      "window_units_sold": 35,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7689480386623081759",
+      "cover_url": "https://s.500fd.com/tt_video/oI9IqQC2AAabIhVfjLe6QVGC9kbfmIIL4RVjKt~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeofahotmessmom/video/7689480386623081759",
+      "creator_handle": "lifeofahotmessmom",
+      "play_count": 824667,
+      "window_gmv": 1467.59,
+      "window_units_sold": 29,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7688080271991737630",
+      "cover_url": "https://s.500fd.com/tt_video/o8wqj2x99ANqBRgFAEFPsjVDOfeqsFYEEEBSxI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cassiebrittybeauty/video/7688080271991737630",
+      "creator_handle": "cassiebrittybeauty",
+      "play_count": 779119,
+      "window_gmv": 342.17,
+      "window_units_sold": 7,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7692531081769241886",
+      "cover_url": "https://s.500fd.com/tt_video/o8XsBAgJaD50FUlFAAQARDOCEU8civBEBA5iI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@krissstttina/video/7692531081769241886",
+      "creator_handle": "krissstttina",
+      "play_count": 328018,
+      "window_gmv": 198.4,
+      "window_units_sold": 4,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7692870015871110430",
+      "cover_url": "https://s.500fd.com/tt_video/o8SEVDFwhEDrUmAACGAAfwEeqCIQR2kEVAJpkC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emilyjulial/video/7692870015871110430",
+      "creator_handle": "emilyjulial",
+      "play_count": 523700,
+      "window_gmv": 99.2,
+      "window_units_sold": 2,
+      "is_ad": true,
+      "duration_seconds": 17
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloweencostume",
+        "weight": 75
+      },
+      {
+        "hashtag": "pumpkincostume",
+        "weight": 64
+      },
+      {
+        "hashtag": "halloween2026",
+        "weight": 64
+      },
+      {
+        "hashtag": "sequinpumpkin",
+        "weight": 64
+      },
+      {
+        "hashtag": "pumpkinshirt",
+        "weight": 64
+      },
+      {
+        "hashtag": "tipsyelves",
+        "weight": 7
+      },
+      {
+        "hashtag": "womenshalloweencostume",
+        "weight": 7
+      },
+      {
+        "hashtag": "tiktokshophalloween",
+        "weight": 7
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 24,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "If you need a quick costume, this is it \ud83d\ude4c\ud83c\udffb",
+      "Halloween costume secured \u2705\ud83c\udf83 not only are these SO CUTE but they are also such great quality \ud83e\udd0c\ud83c\udffc",
+      "STOPPP because this might be the cutest Halloween outfit I\u2019ve found \ud83c\udf83\u2728 Halloween costume = SECURED \ud83d\ude4c\ud83c\udffc The sequins, the pumpkin, the quality\u2026 SO good \ud83d\ude0d This is one of those finds that looks even cuter in person."
+    ]
+  },
   "saturation_badge": null,
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      2,
+      4
+    ]
+  }
 }

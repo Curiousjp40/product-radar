@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729412537235968858",
+  "time_range_days": 90,
+  "total": 89,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dollskill",
+        "creator_uid": "6688542654832329734"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 424,
+        "play_count": 144197,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4798.1,
+        "window_units_sold": 86
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689497161070923039",
+      "video_meta": {
+        "caption_text": "how to be a hot Freddy Krueger 101 \ud83e\ude78 #costumeideas #livehighlights #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/o8rDFCJ7pEfADCU2EAAQEfqKVltvqIA1aEARAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689497161070923039",
+        "published_at": 1790350604,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollskill/video/7689497161070923039"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "megan.cothern",
+        "creator_uid": "6806719321277498374"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 414,
+        "play_count": 97400,
+        "share_count": 66
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3256.6,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689459952426994974",
+      "video_meta": {
+        "caption_text": "A little scary & a lot of cute \ud83e\ude78 Halloween costume! #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ocCpAc9tHFCAfEnAEqEDkzf1IANnAMkVEV2zQR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689459952426994974",
+        "published_at": 1790341941,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@megan.cothern/video/7689459952426994974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "donawooow",
+        "creator_uid": "7116938735309243434"
+      },
+      "engagement_metrics": {
+        "comment_count": 54,
+        "like_count": 4073,
+        "play_count": 223200,
+        "share_count": 249
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3205.6,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686510053234314510",
+      "video_meta": {
+        "caption_text": "#fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/osC7AeEV3FVwhIfCIVEDgDfwQarPAgj3HkX1pj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686510053234314510",
+        "published_at": 1789655098,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@donawooow/video/7686510053234314510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "blancavfernandez",
+        "creator_uid": "6765689416586871814"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 2870,
+        "play_count": 270700,
+        "share_count": 383
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1604,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690683490051951903",
+      "video_meta": {
+        "caption_text": "Run before sold out \u203c\ufe0f #costumeideas #costume #halloweencostume #tiktokshopstockup #fy ",
+        "cover_url": "https://s.500fd.com/tt_video/o0rkmzDKIE4DmDZEslqE1DfBuQYpVUMfAA5FlR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690683490051951903",
+        "published_at": 1790626809,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7690683490051951903"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_janiyad",
+        "creator_uid": "7118965433647514666"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 9680,
+        "play_count": 381000,
+        "share_count": 413
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1265.9,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686701629105605901",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUbViUpaiirJJgsD4EAB8naXyBItPykSAInmq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686701629105605901",
+        "published_at": 1789699703,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_janiyad/video/7686701629105605901"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "blancavfernandez",
+        "creator_uid": "6765689416586871814"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 1469,
+        "play_count": 195300,
+        "share_count": 355
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1267.7,
+        "window_units_sold": 24
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690694989751340319",
+      "video_meta": {
+        "caption_text": "Nightmare stalker costume \u203c\ufe0f size small #costumeideas #costume #halloweencostume #tiktokshopstockup #fy ",
+        "cover_url": "https://s.500fd.com/tt_video/o0DEonAAEia3B4i6WYBvAImr1RaAlCvqCA6Rr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690694989751340319",
+        "published_at": 1790629484,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7690694989751340319"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "itsmiamartinezz",
+        "creator_uid": "6715302511882847238"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 456,
+        "play_count": 12078,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1161.2,
+        "window_units_sold": 22
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687340689973120286",
+      "video_meta": {
+        "caption_text": "first halloween fit of the yr \ud83e\udddf\u200d\u2640\ufe0f #foryou #lasheybymia #halloween2026 #dollskill #freddykruger @Dolls Kill ",
+        "cover_url": "https://s.500fd.com/tt_video/oEsuxAArfAEGguCGADRqb7Cd6EEVFEAbcuAIze~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687340689973120286",
+        "published_at": 1789848499,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsmiamartinezz/video/7687340689973120286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_janiyad",
+        "creator_uid": "7118965433647514666"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 1830,
+        "play_count": 70521,
+        "share_count": 94
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 957.9,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687097348693986574",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oI9DKzqfBDRzEQYEFgAKkIIDug7SrnaB0nfkmq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687097348693986574",
+        "published_at": 1789791847,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_janiyad/video/7687097348693986574"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 263,
+        "play_count": 24400,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 748,
+        "window_units_sold": 17
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694199289316166925",
+      "video_meta": {
+        "caption_text": "day 11 of 30 Halloween costume ideas!",
+        "cover_url": "https://s.500fd.com/tt_video/o8iSDxbiAcsVJ8aBEkT4zcPx2AIBAdgH02EKA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694199289316166925",
+        "published_at": 1791445453,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7694199289316166925"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shannonwinter08",
+        "creator_uid": "7412777162250552363"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 36,
+        "play_count": 17100,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 661.2,
+        "window_units_sold": 14
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690397538226048286",
+      "video_meta": {
+        "caption_text": "Some childhood memories just hit different! \ud83d\udc80\ud83c\udf83#halloweencostumes #halloween #FreddyKrueger #NightmareOnElmStreet #HalloweenNostalgia @Dolls Kill ",
+        "cover_url": "https://s.500fd.com/tt_video/okK5O1Xxi9yOAi46rBqE5AixIYdXAgB0CI9fIY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690397538226048286",
+        "published_at": 1790560223,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shannonwinter08/video/7690397538226048286"
+      }
+    }
+  ]
+}

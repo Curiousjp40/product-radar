@@ -3,7 +3,7 @@
   "product_id": "1732201934662832315",
   "title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded Couch Arm Tray Table - Clip-On Sofa Accessory with Anti-Slip Pads, Stable Surface, Cup Holder, 360\u00b0 Rotator Phone Holder, Ideal for TV Watching, Thoughtful Gift, Rectangle Wood Table, Fits 13.7\" Arms",
   "clean_title": "Sweetcrispy Acacia Wood Grain 3-in-1 Spring-Loaded",
-  "image_url": "/img/product_1732201934662832315.webp",
+  "image_url": "https://s.500fd.com/tt_product/e00bb4f10c2049bab21a6fe147defedc~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732201934662832315",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Acacia%20Wood%20Grain%203-in-1%20Spring-Loaded",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732201934662832315",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7677075055251148062",
+      "cover_url": "https://s.500fd.com/tt_video/oAGM9OVDqBc3HMAFE6enCAQwEEcKfiyAYRQyKk~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realtalkcaitlin/video/7677075055251148062",
+      "creator_handle": "realtalkcaitlin",
+      "play_count": 14246,
+      "window_gmv": 19380.62,
+      "window_units_sold": 640,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7678880916546030879",
+      "cover_url": "https://s.500fd.com/tt_video/o8dPTIIR3IABZHVa41AbUA2iBpQDaB3ZiqFEQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realtalkcaitlin/video/7678880916546030879",
+      "creator_handle": "realtalkcaitlin",
+      "play_count": 51900,
+      "window_gmv": 19945.7,
+      "window_units_sold": 602,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7667683236453076254",
+      "cover_url": "https://s.500fd.com/tt_video/oUfIICpZRyaiJKRpRHAnI44FAEiVi1AINKBqmi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@iamsandrascott/video/7667683236453076254",
+      "creator_handle": "iamsandrascott",
+      "play_count": 3261,
+      "window_gmv": 16997.32,
+      "window_units_sold": 570,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7675051677107457294",
+      "cover_url": "https://s.500fd.com/tt_video/oQ2LIICkQOjkYHv5Xe16NgoFVelCHGfYBJIAAH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@danpluskate/video/7675051677107457294",
+      "creator_handle": "danpluskate",
+      "play_count": 2200000,
+      "window_gmv": 12080.6,
+      "window_units_sold": 376,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7691204388865477919",
+      "cover_url": "https://s.500fd.com/tt_video/o4qAVF5gwC1IKAFRkEqQr2HAAvEzAffFpWSDE2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7691204388865477919",
+      "creator_handle": "tori_didit",
+      "play_count": 39800,
+      "window_gmv": 9592.09,
+      "window_units_sold": 288,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7688797298473618702",
+      "cover_url": "https://s.500fd.com/tt_video/osB78i1DuIGWmiaCbpMf6R8J7NIRAIwg01IgAB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@danpluskate/video/7688797298473618702",
+      "creator_handle": "danpluskate",
+      "play_count": 11813,
+      "window_gmv": 9043.82,
+      "window_units_sold": 279,
+      "is_ad": true,
+      "duration_seconds": 37
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "couchtray",
+        "weight": 1242
+      },
+      {
+        "hashtag": "couchtable",
+        "weight": 748
+      },
+      {
+        "hashtag": "sidetable",
+        "weight": 724
+      },
+      {
+        "hashtag": "sofaarmtray",
+        "weight": 724
+      },
+      {
+        "hashtag": "livingroomideas",
+        "weight": 655
+      },
+      {
+        "hashtag": "fallvibes",
+        "weight": 640
+      },
+      {
+        "hashtag": "cozyhome",
+        "weight": 640
+      },
+      {
+        "hashtag": "coucharmtable",
+        "weight": 602
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 29,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 2,
+      "hour_end": 4
+    },
+    "top_hooks": [
+      "Now I can have all the essentials with me in my cozy corner \ud83d\udc9b No more resting my drink on the arm of the couch.",
+      "A couch arm table, say what?",
+      "Every arm chair needs one Store"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      1,
+      6
+    ]
+  }
 }

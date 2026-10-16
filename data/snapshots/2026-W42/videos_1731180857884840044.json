@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731180857884840044",
+  "time_range_days": 90,
+  "total": 1658,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "histutu23",
+        "creator_uid": "7122225211639497774"
+      },
+      "engagement_metrics": {
+        "comment_count": 139,
+        "like_count": 13541,
+        "play_count": 1501381,
+        "share_count": 459
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 14378.81,
+        "window_units_sold": 651
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663949195199499534",
+      "video_meta": {
+        "caption_text": "Low-back friendly & seamless\u2026Say less. #ShapewearS#SeamlessBodysuitL#LowBackDressL#LowBackBodysuit#BodyShaper",
+        "cover_url": "https://s.500fd.com/tt_video/ocTaU4vhBbRkAUAHii4vlIEI7t0OAHBBCAEtg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663949195199499534",
+        "published_at": 1784402260,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@histutu23/video/7663949195199499534"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aunteestruth",
+        "creator_uid": "7367468900084089899"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 13,
+        "play_count": 4203,
+        "share_count": 50
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 10958.01,
+        "window_units_sold": 548
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675868778810412319",
+      "video_meta": {
+        "caption_text": "Front and back support  #backless #shapewear #back #backlessshapewear #tiktokshopbacktoschool @Mobeso.bodysuit ",
+        "cover_url": "https://s.500fd.com/tt_video/ocYIBVMvEiRGmyP8iGoihApIEBaKAB7BPFJoy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675868778810412319",
+        "published_at": 1787179254,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aunteestruth/video/7675868778810412319"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3astafricangirl",
+        "creator_uid": "6799714678656631813"
+      },
+      "engagement_metrics": {
+        "comment_count": 131,
+        "like_count": 5074,
+        "play_count": 667328,
+        "share_count": 442
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 10203.3,
+        "window_units_sold": 505
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666136246254701837",
+      "video_meta": {
+        "caption_text": "@Mobeso Shop #tiktokshopsummersale #tiktokshop #summerfinds #womensfashion #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/o8sqglZwAAAyARqAgEFwYlSDYfUezl5EDECBjI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 64,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666136246254701837",
+        "published_at": 1784911450,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7666136246254701837"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3astafricangirl",
+        "creator_uid": "6799714678656631813"
+      },
+      "engagement_metrics": {
+        "comment_count": 140,
+        "like_count": 8799,
+        "play_count": 1100000,
+        "share_count": 793
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 6204.07,
+        "window_units_sold": 278
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681346211160313102",
+      "video_meta": {
+        "caption_text": "@Mobeso #tiktokshop #summerfinds #tiktokshopsummersale #tiktokbacktoschool #Mobeso ",
+        "cover_url": "https://s.500fd.com/tt_video/okSDXd8xEuIBI7Fgq5oAznZf39vRBJEmZEDmKe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681346211160313102",
+        "published_at": 1788452799,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7681346211160313102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3astafricangirl",
+        "creator_uid": "6799714678656631813"
+      },
+      "engagement_metrics": {
+        "comment_count": 79,
+        "like_count": 3660,
+        "play_count": 561900,
+        "share_count": 240
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 6032.53,
+        "window_units_sold": 276
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680316039355239694",
+      "video_meta": {
+        "caption_text": "@Mobeso #Mobeso #tiktokbacktoschool #tiktokshop #summerfinds #shapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/ogfIECtdX6pyCAgVLkBPICM9wAitB1AvSdBJAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680316039355239694",
+        "published_at": 1788212948,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7680316039355239694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "blancavfernandez",
+        "creator_uid": "6765689416586871814"
+      },
+      "engagement_metrics": {
+        "comment_count": 137,
+        "like_count": 5648,
+        "play_count": 1100000,
+        "share_count": 639
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 6099.74,
+        "window_units_sold": 275
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680569928625311007",
+      "video_meta": {
+        "caption_text": "Backless Shapewear\ud83d\udd17 #mobeso #shapewear #bodysuitshapewear #musthaves #fy ",
+        "cover_url": "https://s.500fd.com/tt_video/oUEACIAzxuBdbAPloAAaBEa93SW07Rbicbipv~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680569928625311007",
+        "published_at": 1788272071,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7680569928625311007"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sammytodd",
+        "creator_uid": "6730775154551112709"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 1183,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 5319.15,
+        "window_units_sold": 266
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668443602992827661",
+      "video_meta": {
+        "caption_text": "Part 2 is up \ud83d\udc97\ud83d\udce6 #whatigot #tiktokshopcreatorhaul #prhaul #unboxingvideo #momcreator ",
+        "cover_url": "https://s.500fd.com/tt_video/oQfFyevSaCDiVuFEAI7A4AA9WORgNqPpBERriB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668443602992827661",
+        "published_at": 1785448673,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sammytodd/video/7668443602992827661"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_chocolatebabii",
+        "creator_uid": "7130058843141358635"
+      },
+      "engagement_metrics": {
+        "comment_count": 34,
+        "like_count": 2080,
+        "play_count": 27800,
+        "share_count": 135
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 4983.88,
+        "window_units_sold": 240
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673945759737187615",
+      "video_meta": {
+        "caption_text": "True to size\ud83d\udd25for tight fit size down!!! #shapewear #shapewear #tummycontrol #faja ",
+        "cover_url": "https://s.500fd.com/tt_video/o4fHfaWAIAEEA1Av0nDHqUQRfIAU2VjB1FKIDO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673945759737187615",
+        "published_at": 1786729751,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_chocolatebabii/video/7673945759737187615"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vonnakv",
+        "creator_uid": "7051806120998208517"
+      },
+      "engagement_metrics": {
+        "comment_count": 30,
+        "like_count": 1885,
+        "play_count": 195765,
+        "share_count": 56
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 4199.71,
+        "window_units_sold": 210
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669525663174446349",
+      "video_meta": {
+        "caption_text": "#shapewearbodysuitforwomen #backlesstop #bodysuitshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/o4DejEkDEIobKFREvSHf91lRJNKMBRgjvqI6AD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669525663174446349",
+        "published_at": 1785723960,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vonnakv/video/7669525663174446349"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vonnakv",
+        "creator_uid": "7051806120998208517"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 618,
+        "play_count": 84400,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495890316019009644",
+        "window_gmv": 4177.21,
+        "window_units_sold": 208
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666858801298984205",
+      "video_meta": {
+        "caption_text": "Backless Bodyshaper thong bodysuit \u2022 medium  #bodyshaper #backlessbodysuit #bodysuitshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/o85IwiPLada4U3VEYCtUBoEg5BLwmm2GJnAiB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666858801298984205",
+        "published_at": 1785090480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vonnakv/video/7666858801298984205"
+      }
+    }
+  ]
+}

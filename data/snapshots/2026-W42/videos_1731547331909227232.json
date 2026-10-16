@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731547331909227232",
+  "time_range_days": 90,
+  "total": 481,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 50,
+        "like_count": 4026,
+        "play_count": 1006012,
+        "share_count": 507
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 12385.12,
+        "window_units_sold": 400
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679226718413917453",
+      "video_meta": {
+        "caption_text": "Ummm ok #mattresstopper #bamboomattresstopper #bedding #mattress #bed ",
+        "cover_url": "https://s.500fd.com/tt_video/ogERDeQk5krEzVDNBgfmFxASEgQZDbnGDhkqME~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679226718413917453",
+        "published_at": 1787959322,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7679226718413917453"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 1120,
+        "play_count": 303300,
+        "share_count": 132
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 4957.71,
+        "window_units_sold": 162
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679788587746888973",
+      "video_meta": {
+        "caption_text": "Still that same cozy feel but in a cooler option! #mattresstopper #coolingmattresstopper #comfybed #pillowtop #bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/o8QB00g6eESZp2LqA7DMIFIUfXEuUBDS9DoRlF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679788587746888973",
+        "published_at": 1788090181,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7679788587746888973"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dreamhome_jane",
+        "creator_uid": "7550634316780340255"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 28,
+        "play_count": 20900,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 2678.65,
+        "window_units_sold": 91
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668617789220949261",
+      "video_meta": {
+        "caption_text": "7 Give Your Old Mattress a New Life #weeklydeals #BedloreLiving #tiktokshopmemorialday #bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/o8FEEg6oEFAfBbCgIRNDSKMSGdZDdiqsyDJfB1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668617789220949261",
+        "published_at": 1785498180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dreamhome_jane/video/7668617789220949261"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 260,
+        "play_count": 138200,
+        "share_count": 26
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 2464,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691436871347358990",
+      "video_meta": {
+        "caption_text": "Ummm ok #mattresstopper #bamboomattresstopper #bedding #mattress #bed",
+        "cover_url": "https://s.500fd.com/tt_video/oMYQSid0DDev9S86ZmFdgcQERA34FHVfEFBqTX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691436871347358990",
+        "published_at": 1790818200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7691436871347358990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "iamrichiere",
+        "creator_uid": "6612050717871079430"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 22,
+        "play_count": 1384,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1900.31,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681036855101443342",
+      "video_meta": {
+        "caption_text": "You need this for your bed! \u2601\ufe0f#mattresstopper #coolingmattresstopper #bedding #beddingessentials ",
+        "cover_url": "https://s.500fd.com/tt_video/okvIWDYI9UFID3ofEgeYNSqnhWRFmAtKEIGBDC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681036855101443342",
+        "published_at": 1788380782,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iamrichiere/video/7681036855101443342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealscldrey_ugc",
+        "creator_uid": "7524227286935208974"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 15,
+        "play_count": 14300,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1442.88,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663446681828035854",
+      "video_meta": {
+        "caption_text": "5 Back-to-school shopping list: \u2705 Twin XL sheets \u2705 This mattress cover \u2705 Done \ud83d\udcdd#WeeklyDeals #summerwins #DealForYouDays #bedlore #back2school ",
+        "cover_url": "https://s.500fd.com/tt_video/o0AP0XhfGalPMErpG8NFCMR6AIQOOCfgepeIgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663446681828035854",
+        "published_at": 1784555700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealscldrey_ugc/video/7663446681828035854"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "roxicubita",
+        "creator_uid": "7184792494498956294"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 7,
+        "play_count": 661,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1245.03,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684697103255244062",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMqOV8lc0BeEYAFRvEjI11xBvpEwAQfGmThDEL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684697103255244062",
+        "published_at": 1789232989,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@roxicubita/video/7684697103255244062"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "officialmrmoodydresser",
+        "creator_uid": "6754742232396776453"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 25,
+        "play_count": 890,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1424.21,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7668350539595336990",
+      "video_meta": {
+        "caption_text": "3 TIKTOK BUYS FOR MY BED!! Storage Bed Frame Cooling Mattress Topper Hotel Quality Pillows. I highly recommend all of these!! #bedding #bedroom #bedroomideas #tiktokshop #CapCut ",
+        "cover_url": "https://s.500fd.com/tt_video/o8BQEVEDARfEfnyAdq3rEpcIDAFUARAah8CLdA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 62,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668350539595336990",
+        "published_at": 1785427005,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@officialmrmoodydresser/video/7668350539595336990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dreamhome_jane",
+        "creator_uid": "7550634316780340255"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 4432,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1472,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687546620698774798",
+      "video_meta": {
+        "caption_text": "7 One simple change, completely different bed#BedloreFallRefreshMustHaves #tiktokshopstockup #BedloreGiftideas #BedloreHomeLifeimprovement #bedlore",
+        "cover_url": "https://s.500fd.com/tt_video/ow1AJmvZEBEEeAiK3BSIGxIAAVB4wXvCPnpBi0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687546620698774798",
+        "published_at": 1789919100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dreamhome_jane/video/7687546620698774798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 90,
+        "play_count": 53028,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 1455.33,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686584801771457806",
+      "video_meta": {
+        "caption_text": "Like sleeping on a cloud \u2601\ufe0f #mattresstopper #bedroommusthaves #comfybed #pillowtop #mattresstoppers ",
+        "cover_url": "https://s.500fd.com/tt_video/osxJVeIggHAVTMWereLkwC6uwGZFYIA2GCHjIX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686584801771457806",
+        "published_at": 1789693200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7686584801771457806"
+      }
+    }
+  ]
+}

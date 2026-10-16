@@ -3,7 +3,7 @@
   "product_id": "1732245399569273196",
   "title": "SHAPERX Sculpting Tummy Control Fajas Colombianas for Women Moldeadoras Shapewear with V-shape Sculpting Elastic Band,clothes for back to school,first day of school outfits Fit Breathable",
   "clean_title": "SHAPERX Sculpting Tummy Control Fajas Colombianas",
-  "image_url": "/img/product_1732245399569273196.webp",
+  "image_url": "https://s.500fd.com/tt_product/ab056a5791284dfba90b64fb1ae2403a~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732245399569273196",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SHAPERX%20Sculpting%20Tummy%20Control%20Fajas%20Colombianas",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732245399569273196",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7666228713796750606",
+      "cover_url": "https://s.500fd.com/tt_video/ocmjM8FfRQpIQN1esApAXJwHIfG6AAfADO4A1M~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7666228713796750606",
+      "creator_handle": "3astafricangirl",
+      "play_count": 1200000,
+      "window_gmv": 21012.94,
+      "window_units_sold": 527,
+      "is_ad": true,
+      "duration_seconds": 99
+    },
+    {
+      "video_id": "7665943835721174285",
+      "cover_url": "https://s.500fd.com/tt_video/ogBYSEYID0lduC5agEf1AiAAqFedAqDEU7vRyi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lau_massiel/video/7665943835721174285",
+      "creator_handle": "lau_massiel",
+      "play_count": 296200,
+      "window_gmv": 14284.3,
+      "window_units_sold": 346,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7686524016055586061",
+      "cover_url": "https://s.500fd.com/tt_video/okAiVvABisg3ayCE6rvANEBAD4EIwqMBgkcOY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7686524016055586061",
+      "creator_handle": "3astafricangirl",
+      "play_count": 13300,
+      "window_gmv": 10677.2,
+      "window_units_sold": 245,
+      "is_ad": true,
+      "duration_seconds": 76
+    },
+    {
+      "video_id": "7679222030482378015",
+      "cover_url": "https://s.500fd.com/tt_video/oUail9BOiqjsSES6UIr0AAGCX6XIIqFfA1Qnki~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rhythmandcoils/video/7679222030482378015",
+      "creator_handle": "rhythmandcoils",
+      "play_count": 65400,
+      "window_gmv": 7779.18,
+      "window_units_sold": 185,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7663916268562468126",
+      "cover_url": "https://s.500fd.com/tt_video/ocebnkaQA3jfAIMEMEXUAsBMAiqrAIA182tIea~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@queendfajas/video/7663916268562468126",
+      "creator_handle": "queendfajas",
+      "play_count": 245100,
+      "window_gmv": 7302.62,
+      "window_units_sold": 169,
+      "is_ad": true,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7689921304320937230",
+      "cover_url": "https://s.500fd.com/tt_video/ocLgVwFCA1bEB3SqREeCDqqpsEIQEAF4ACAufD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lau_massiel/video/7689921304320937230",
+      "creator_handle": "lau_massiel",
+      "play_count": 25861,
+      "window_gmv": 5536.71,
+      "window_units_sold": 126,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "shapewear",
+        "weight": 2018
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 772
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 772
+      },
+      {
+        "hashtag": "faja",
+        "weight": 640
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 628
+      },
+      {
+        "hashtag": "fajasmoldeadoras",
+        "weight": 579
+      },
+      {
+        "hashtag": "summerfinds",
+        "weight": 527
+      },
+      {
+        "hashtag": "postpartum",
+        "weight": 472
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 42,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 40.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "The Colombianas FAJA by will snatch you together!",
+      "SHAPERX Sculpting Tummy Control Fajas Colombianas for Women Moldeadoras Shapewear with V-shape Sculpting Elastic Band",
+      "Respuesta a Louis"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      4,
+      3
+    ]
+  }
 }

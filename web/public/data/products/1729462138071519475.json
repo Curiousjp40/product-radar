@@ -3,7 +3,7 @@
   "product_id": "1729462138071519475",
   "title": "SCUSTY New Colors Added Women's V-Neck Tank Sundress Summer Sleeveless A-Line Mini Dress Casual Loose Dresses with Pockets",
   "clean_title": "SCUSTY New Colors Added Women's V-Neck",
-  "image_url": "/img/product_1729462138071519475.webp",
+  "image_url": "https://s.500fd.com/tt_product/28923e2da04d440ca9ff75467e7fab6c~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729462138071519475",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SCUSTY%20New%20Colors%20Added%20Women%27s%20V-Neck",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729462138071519475",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678086598415633677",
+      "cover_url": "https://s.500fd.com/tt_video/owE2OvAE44aIC2JIkg0i9i0yi3BaFoACBALAC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7678086598415633677",
+      "creator_handle": "girlypopscart",
+      "play_count": 389100,
+      "window_gmv": 7779.66,
+      "window_units_sold": 289,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7677933295597915405",
+      "cover_url": "https://s.500fd.com/tt_video/o0gjykVAvpRaH7U1GHgJxGLYhDLCOAe9IfIMqe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bytiamarie/video/7677933295597915405",
+      "creator_handle": "bytiamarie",
+      "play_count": 4000000,
+      "window_gmv": 5874.9,
+      "window_units_sold": 213,
+      "is_ad": true,
+      "duration_seconds": 72
+    },
+    {
+      "video_id": "7677692065941048607",
+      "cover_url": "https://s.500fd.com/tt_video/oQkUVIgSiAMXAPAvQfIIEyeyAqXVjGtQeAG88A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7677692065941048607",
+      "creator_handle": "sweetteaandsprinkles",
+      "play_count": 20855,
+      "window_gmv": 4893.09,
+      "window_units_sold": 197,
+      "is_ad": true,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7692471699983355150",
+      "cover_url": "https://s.500fd.com/tt_video/okEBIAHAjJPgALGVQLDOegxefyZIlIAAkzklEr~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7692471699983355150",
+      "creator_handle": "deals.and.daisies",
+      "play_count": 375100,
+      "window_gmv": 4336.38,
+      "window_units_sold": 185,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7678858260463619342",
+      "cover_url": "https://s.500fd.com/tt_video/oIEAQ1SCdBGAswIZyuIACiiBRyBJ1SAOMfL5PJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7678858260463619342",
+      "creator_handle": "girlypopscart",
+      "play_count": 121600,
+      "window_gmv": 4188.52,
+      "window_units_sold": 150,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7680328246071774494",
+      "cover_url": "https://s.500fd.com/tt_video/ogeI2eAsfArjGDAQATUIAVEqAILLINqEVbPzAE~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7680328246071774494",
+      "creator_handle": "jackiebentley",
+      "play_count": 26212,
+      "window_gmv": 3628.82,
+      "window_units_sold": 142,
+      "is_ad": true,
+      "duration_seconds": 37
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "plussizefallfashion",
+        "weight": 627
+      },
+      {
+        "hashtag": "apronbellyfriendly",
+        "weight": 627
+      },
+      {
+        "hashtag": "apronbellystyle",
+        "weight": 627
+      },
+      {
+        "hashtag": "plussizedress",
+        "weight": 627
+      },
+      {
+        "hashtag": "plussizedresses",
+        "weight": 627
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 467
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 282
+      },
+      {
+        "hashtag": "falloutfitinspo",
+        "weight": 197
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 34,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "flowy fall dress",
+      "the cutest fall dress",
+      "Replying to Lynn \ud83e\udd8b head-to-toe TT Shop!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      5
+    ]
+  }
 }

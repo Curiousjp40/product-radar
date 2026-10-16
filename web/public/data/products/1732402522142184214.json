@@ -3,7 +3,7 @@
   "product_id": "1732402522142184214",
   "title": "N&T NIETING 12-Pack 24\" Real Touch Artificial Norfolk Pine Stems, Lifelike Fake Green Plant Branches with Natural Needle Texture, Decorative for Christmas, Farmhouse Home Entryway Decor, DIY Floral Arrangements, Vase Fillers, Wreath Making Projects",
   "clean_title": "N&T NIETING 12-Pack 24\" Real Touch",
-  "image_url": "/img/product_1732402522142184214.webp",
+  "image_url": "https://s.500fd.com/tt_product/ae7e12528dc14e63a0efa01fedb82ede~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732402522142184214",
   "tiktok_search_url": "https://www.tiktok.com/search?q=N%26T%20NIETING%2012-Pack%2024%22%20Real%20Touch",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732402522142184214",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691044081710943518",
+      "cover_url": "https://s.500fd.com/tt_video/oUTIyvEQQEAq8gvfBJFV4mtPgeNptEA4DBBRGx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7691044081710943518",
+      "creator_handle": "thedailydemi",
+      "play_count": 338900,
+      "window_gmv": 7573,
+      "window_units_sold": 366,
+      "is_ad": true,
+      "duration_seconds": 47
+    },
+    {
+      "video_id": "7688825775255981342",
+      "cover_url": "https://s.500fd.com/tt_video/ocMIHEODAGYCtIeFf0VjIEAsIm0wlaIiGfsC6q~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7688825775255981342",
+      "creator_handle": "thedailydemi",
+      "play_count": 1092540,
+      "window_gmv": 6237.17,
+      "window_units_sold": 351,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7694024861605219614",
+      "cover_url": "https://s.500fd.com/tt_video/okqE7E9DADkBEjLFfDqREDAuIbGfuxI1qczPSV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7694024861605219614",
+      "creator_handle": "thedailydemi",
+      "play_count": 206200,
+      "window_gmv": 2051.14,
+      "window_units_sold": 138,
+      "is_ad": true,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7691802828691508511",
+      "cover_url": "https://s.500fd.com/tt_video/oY2eGYE2qQU9RXQdxFfLQthIQuGHnnAvzAeKge~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7691802828691508511",
+      "creator_handle": "thedailydemi",
+      "play_count": 10400,
+      "window_gmv": 2951.98,
+      "window_units_sold": 135,
+      "is_ad": true,
+      "duration_seconds": 79
+    },
+    {
+      "video_id": "7688019887976893727",
+      "cover_url": "https://s.500fd.com/tt_video/ogWQAKsQrOfVEhqqLFVDEBEVxD6XfKA1RIBUmV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7688019887976893727",
+      "creator_handle": "thedailydemi",
+      "play_count": 108099,
+      "window_gmv": 2392.7,
+      "window_units_sold": 126,
+      "is_ad": true,
+      "duration_seconds": 63
+    },
+    {
+      "video_id": "7682066179459976462",
+      "cover_url": "https://s.500fd.com/tt_video/osicbV9eQu8FAWn6ZCkQeAHLvF3OCeM7IQo8jh~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@oahufaves/video/7682066179459976462",
+      "creator_handle": "oahufaves",
+      "play_count": 1347,
+      "window_gmv": 2029.73,
+      "window_units_sold": 94,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "christmasdecor",
+        "weight": 1392
+      },
+      {
+        "hashtag": "christmasdecorations",
+        "weight": 1199
+      },
+      {
+        "hashtag": "norfolk",
+        "weight": 1163
+      },
+      {
+        "hashtag": "christmas",
+        "weight": 1073
+      },
+      {
+        "hashtag": "homedecor",
+        "weight": 575
+      },
+      {
+        "hashtag": "tiktokshopfalldealsforyou",
+        "weight": 173
+      },
+      {
+        "hashtag": "pine",
+        "weight": 128
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 126
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 50,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 60.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "Replying to \u273f RESTOCKED YALL!",
+      "Replying to THESE ARE THE BESTTTT!",
+      "Replying to Keller they speak for themselves!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732614934904803424",
   "title": "Women's Striped Long Sleeve Top & Pants Two-piece Set, Casual Cozy Round Neck, for Daily Outdoor Wear in Spring",
   "clean_title": "Women's Striped Long Sleeve Top &",
-  "image_url": "/img/product_1732614934904803424.webp",
+  "image_url": "https://s.500fd.com/tt_product/2b93efd953864a89b32eac3e96840685~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,139 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732614934904803424",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Striped%20Long%20Sleeve%20Top%20%26",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732614934904803424",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7692203439169817886",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@momstylereset/video/7692203439169817886",
+      "creator_handle": "momstylereset",
+      "play_count": 423,
+      "window_gmv": 153.4,
+      "window_units_sold": 10,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7694307436282301727",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7694307436282301727",
+      "creator_handle": "aimi_us",
+      "play_count": 375,
+      "window_gmv": 115.1,
+      "window_units_sold": 8,
+      "is_ad": false,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7694592175501282590",
+      "cover_url": "https://s.500fd.com/tt_video/okjvIA7rKVBKdEIqjyFfEBAparaq7qIfR5D4Er~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7694592175501282590",
+      "creator_handle": "fashion_abaya_closet",
+      "play_count": 719,
+      "window_gmv": 75.9,
+      "window_units_sold": 5,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7694617176849812767",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@bestshop.111/video/7694617176849812767",
+      "creator_handle": "bestshop.111",
+      "play_count": 422,
+      "window_gmv": 74.2,
+      "window_units_sold": 5,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7694983313987063054",
+      "cover_url": "https://s.500fd.com/tt_video/oQJvfADy6EfDuFRFqq8mLGSEgQMKB3zQb5qhEI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7694983313987063054",
+      "creator_handle": "fashion_abaya_closet",
+      "play_count": 1184,
+      "window_gmv": 58.9,
+      "window_units_sold": 4,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7693550560670141709",
+      "cover_url": "https://s.500fd.com/tt_video/o4P8SFDLREDnWQYWYJEIguBAeD1g5qmjxqfCmG~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bennobop/video/7693550560670141709",
+      "creator_handle": "bennobop",
+      "play_count": 12616,
+      "window_gmv": 57.8,
+      "window_units_sold": 4,
+      "is_ad": false,
+      "duration_seconds": 7
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "twopieceset",
+        "weight": 15
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 12
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 12
+      },
+      {
+        "hashtag": "navymatchingset",
+        "weight": 10
+      },
+      {
+        "hashtag": "sportyoutfit",
+        "weight": 10
+      },
+      {
+        "hashtag": "stripedset",
+        "weight": 10
+      },
+      {
+        "hashtag": "casualoutfit",
+        "weight": 10
+      },
+      {
+        "hashtag": "americanstyle",
+        "weight": 9
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 11,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "Navy two-piece matching set with sporty white side stripes, a fitted long-sleeve top, and matching slim pants \ud83d\udc99 Clean, comfortable, and easy for errands, travel days, or casual everyday wear.",
+      "Literally last night it was full price, go get yours!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      4,
+      6
+    ]
+  }
 }

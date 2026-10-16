@@ -3,7 +3,7 @@
   "product_id": "1729385768681640506",
   "title": "SONGMICS Farmhouse Hidden Storage Hallway Chest Bench - Multi-Functional Indoor Furniture, 2 Safety Hinges, 2-Side Grab Handles, Sturdy Particleboard, 300lb Capacity, 15.7''d x 39.4''w x 18.1''h, Room Decor, Apartment Furniture, Household Items",
   "clean_title": "SONGMICS Farmhouse Hidden Storage Hallway Chest",
-  "image_url": "/img/product_1729385768681640506.webp",
+  "image_url": "https://s.500fd.com/tt_product/dee3d40f3c764c279e16a522b7df5bd5~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729385768681640506",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SONGMICS%20Farmhouse%20Hidden%20Storage%20Hallway%20Chest",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729385768681640506",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7684052666825067807",
+      "cover_url": "https://s.500fd.com/tt_video/oUq5RCqB1AP0nOPiioCZzAIbCi2jfUvAgIITK4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yeseniamatostelle/video/7684052666825067807",
+      "creator_handle": "yeseniamatostelle",
+      "play_count": 10800,
+      "window_gmv": 4789.64,
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 49
+    },
+    {
+      "video_id": "7683939439860632863",
+      "cover_url": "https://s.500fd.com/tt_video/oUiAsFI1IJGGGjAfj2KLLVFQecUGVqQRrIIfqf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emily_anne_finds/video/7683939439860632863",
+      "creator_handle": "emily_anne_finds",
+      "play_count": 271700,
+      "window_gmv": 4374.93,
+      "window_units_sold": 64,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7681734641295838495",
+      "cover_url": "https://s.500fd.com/tt_video/ooAQDRjbNkqIeFAsIGGfeIPMUaAGI7LAm94RZe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@heatheratl/video/7681734641295838495",
+      "creator_handle": "heatheratl",
+      "play_count": 9682,
+      "window_gmv": 4640.13,
+      "window_units_sold": 58,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7673732389457153311",
+      "cover_url": "https://s.500fd.com/tt_video/ooFbAkbfwLTxpRSFgpIGuwekgfpmAQJGQUeHNG~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@happyhourx96/video/7673732389457153311",
+      "creator_handle": "happyhourx96",
+      "play_count": 3015,
+      "window_gmv": 3886.81,
+      "window_units_sold": 53,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7664716572602207519",
+      "cover_url": "https://s.500fd.com/tt_video/oAOEiKFXdQDHxmGAsOrAfGEJqeQYR8IEVxzoiB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@officialburt/video/7664716572602207519",
+      "creator_handle": "officialburt",
+      "play_count": 12211,
+      "window_gmv": 3565.24,
+      "window_units_sold": 50,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7678083266393656607",
+      "cover_url": "https://s.500fd.com/tt_video/oICWICFKZtVDX0MOECDAIcjfRWqACBKE9gEnfu~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yayathestar_/video/7678083266393656607",
+      "creator_handle": "yayathestar_",
+      "play_count": 27100,
+      "window_gmv": 4082.87,
+      "window_units_sold": 47,
+      "is_ad": true,
+      "duration_seconds": 29
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "toyrotation",
+        "weight": 150
+      },
+      {
+        "hashtag": "toystorage",
+        "weight": 148
+      },
+      {
+        "hashtag": "organizedhome",
+        "weight": 141
+      },
+      {
+        "hashtag": "cleanhome",
+        "weight": 109
+      },
+      {
+        "hashtag": "storagechest",
+        "weight": 96
+      },
+      {
+        "hashtag": "paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+        "weight": 65
+      },
+      {
+        "hashtag": "storagebin",
+        "weight": 64
+      },
+      {
+        "hashtag": "toyorganization",
+        "weight": 64
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "A NEED for messy play rooms!",
+      "the prettiest storage solution for allll the things cluttering your space!",
+      "We LOVE these"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      4
+    ]
+  }
 }

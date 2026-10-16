@@ -3,7 +3,7 @@
   "product_id": "1732311086078792281",
   "title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic DIY Fridge Magnets with Adhesive Backing ,Halloween Decorations,Square Magnets for Crafts, Kitchen, Classroom, Party,Office Decoration",
   "clean_title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic",
-  "image_url": "/img/product_1732311086078792281.jpg",
+  "image_url": "https://s.500fd.com/tt_product/8eb381f1148d46f9aa4d44becfef1c40~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732311086078792281",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Magnetic%20Photo%20Frames%202%22x2%22%20Clear%20Acrylic",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732311086078792281",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7684453546368011533",
+      "cover_url": "https://s.500fd.com/tt_video/o8kCS2oAWVfMdPkBEfMjdz8OI4HWkqQVAQKQe5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thereeseco/video/7684453546368011533",
+      "creator_handle": "thereeseco",
+      "play_count": 2600000,
+      "window_gmv": 7902.69,
+      "window_units_sold": 816,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7685586848550358286",
+      "cover_url": "https://s.500fd.com/tt_video/oYfq8CRNEfDqmRXEOYF4oQITD0uBQgB0KtFS7A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@katerina_edwards/video/7685586848550358286",
+      "creator_handle": "katerina_edwards",
+      "play_count": 4754875,
+      "window_gmv": 3038.6,
+      "window_units_sold": 300,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7685394018036993293",
+      "cover_url": "https://s.500fd.com/tt_video/owAzDEVqSEKHnRpQCsofBFAqeD6QYAQqkuDxqg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thereeseco/video/7685394018036993293",
+      "creator_handle": "thereeseco",
+      "play_count": 17700,
+      "window_gmv": 2025.43,
+      "window_units_sold": 201,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7685447167632280846",
+      "cover_url": "https://s.500fd.com/tt_video/ogCg9tYgAJGEDqSqRF6CDEpT0EQeIAFQAFAqfD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@katerina_edwards/video/7685447167632280846",
+      "creator_handle": "katerina_edwards",
+      "play_count": 59200,
+      "window_gmv": 1631.56,
+      "window_units_sold": 164,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7689575459826208013",
+      "cover_url": "https://s.500fd.com/tt_video/ooiB7xICIBAfEI62B1WwHwl8pAi433WB2gGbt9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@watchkimshop/video/7689575459826208013",
+      "creator_handle": "watchkimshop",
+      "play_count": 3380,
+      "window_gmv": 1483.15,
+      "window_units_sold": 164,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7687681406452911373",
+      "cover_url": "https://s.500fd.com/tt_video/og2ygAmgEkXuNQgVlYX8HCAf9Qc1J8g6jeMeI7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@givethemgrace/video/7687681406452911373",
+      "creator_handle": "givethemgrace",
+      "play_count": 4258,
+      "window_gmv": 1499.49,
+      "window_units_sold": 152,
+      "is_ad": true,
+      "duration_seconds": 9
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "diymagnets",
+        "weight": 980
+      },
+      {
+        "hashtag": "keepsakeideas",
+        "weight": 980
+      },
+      {
+        "hashtag": "handwritingkeepsake",
+        "weight": 980
+      },
+      {
+        "hashtag": "memorykeepsake",
+        "weight": 980
+      },
+      {
+        "hashtag": "sentimentalgift",
+        "weight": 816
+      },
+      {
+        "hashtag": "fridgemagnets",
+        "weight": 700
+      },
+      {
+        "hashtag": "keepsake",
+        "weight": 591
+      },
+      {
+        "hashtag": "diymagnet",
+        "weight": 390
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 14,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "Some things are just too special to stay tucked away in a box \u2665 turning an old handwritten birthday card from my Grammy into a DIY keepsake magnet so I can see a little piece of her every day",
+      "This is your sign to save your loved ones handwriting writing, you never know what\u2019s the last time!",
+      "The cutest way to save the very first picture I have of him \ud83e\udd0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      0,
+      6
+    ]
+  }
 }

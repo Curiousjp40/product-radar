@@ -3,7 +3,7 @@
   "product_id": "1729505773514822531",
   "title": "Comfrt | Minimalist Hoodie - Mega",
   "clean_title": "Comfrt | Minimalist Hoodie - Mega",
-  "image_url": "/img/product_1729505773514822531.webp",
+  "image_url": "https://s.500fd.com/tt_product/c773bfed66074ec896d52671715cc053~tplv-fhlh96nyum-crop-webp:4000:4000.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729505773514822531",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt%20%7C%20Minimalist%20Hoodie%20-%20Mega",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729505773514822531",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7680687402301639949",
+      "cover_url": "https://s.500fd.com/tt_video/oMilDfgREE5SQJS1qGqgFBqXQgR0A2iKeDZHX6~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7680687402301639949",
+      "creator_handle": "delanacrook",
+      "play_count": 1800000,
+      "window_gmv": 28249.47,
+      "window_units_sold": 525,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7677774224353774862",
+      "cover_url": "https://s.500fd.com/tt_video/okUlpIIMqF3XffeWQtV7VAQbRO3Z8MHAOGQiMf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7677774224353774862",
+      "creator_handle": "delanacrook",
+      "play_count": 1325242,
+      "window_gmv": 18491.97,
+      "window_units_sold": 355,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7680680917685406989",
+      "cover_url": "https://s.500fd.com/tt_video/osBtXrfFGYx61iYCC36AAUpLiSIBQIGwIpOKEE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7680680917685406989",
+      "creator_handle": "delanacrook",
+      "play_count": 419200,
+      "window_gmv": 14045.08,
+      "window_units_sold": 268,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7688802240122948878",
+      "cover_url": "https://s.500fd.com/tt_video/oAcgTRHNA7zEBfSqRMaBDI5PPEIZICF0bGvtfD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@brodo.vordo/video/7688802240122948878",
+      "creator_handle": "brodo.vordo",
+      "play_count": 4083,
+      "window_gmv": 7650.23,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 41
+    },
+    {
+      "video_id": "7685460295925435679",
+      "cover_url": "https://s.500fd.com/tt_video/osDEnqCijFJIABVgeqrBRGAz0EIdfEoDIoPYwD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@to0thlessqueen/video/7685460295925435679",
+      "creator_handle": "to0thlessqueen",
+      "play_count": 13389,
+      "window_gmv": 7224.64,
+      "window_units_sold": 145,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7666256878011174174",
+      "cover_url": "https://s.500fd.com/tt_video/osRiVuZBSyBEmB7SiCBSnakAVEIAjAEvFAQgI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@coyotefunn/video/7666256878011174174",
+      "creator_handle": "coyotefunn",
+      "play_count": 1403,
+      "window_gmv": 6606.95,
+      "window_units_sold": 135,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "comfort",
+        "weight": 145
+      },
+      {
+        "hashtag": "weightedhoodie",
+        "weight": 145
+      },
+      {
+        "hashtag": "fashion",
+        "weight": 145
+      },
+      {
+        "hashtag": "hoodie",
+        "weight": 135
+      },
+      {
+        "hashtag": "comfrtclothing",
+        "weight": 135
+      },
+      {
+        "hashtag": "comfrt",
+        "weight": 135
+      },
+      {
+        "hashtag": "cozy",
+        "weight": 135
+      },
+      {
+        "hashtag": "hoodies",
+        "weight": 135
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "I finally got one !",
+      "Comfrt | Minimalist Hoodie, So Soft Oversized Hoodie Cozy vibes for Fallseason \ud83e\ude76\ud83d\udda4",
+      "Honest review on new tall line sweats !"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

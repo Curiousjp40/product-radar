@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729462138071519475",
+  "time_range_days": 90,
+  "total": 374,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 39,
+        "like_count": 2482,
+        "play_count": 389100,
+        "share_count": 139
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 7779.66,
+        "window_units_sold": 289
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678086598415633677",
+      "video_meta": {
+        "caption_text": "flowy fall dress #plussizefallfashion #apronbellyfriendly #apronbellystyle #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/owE2OvAE44aIC2JIkg0i9i0yi3BaFoACBALAC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678086598415633677",
+        "published_at": 1787693863,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7678086598415633677"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bytiamarie",
+        "creator_uid": "7429348871425983534"
+      },
+      "engagement_metrics": {
+        "comment_count": 164,
+        "like_count": 31800,
+        "play_count": 4000000,
+        "share_count": 1476
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 5874.9,
+        "window_units_sold": 213
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677933295597915405",
+      "video_meta": {
+        "caption_text": "the cutest fall dress ",
+        "cover_url": "https://s.500fd.com/tt_video/o0gjykVAvpRaH7U1GHgJxGLYhDLCOAe9IfIMqe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 72,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677933295597915405",
+        "published_at": 1787658204,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bytiamarie/video/7677933295597915405"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sweetteaandsprinkles",
+        "creator_uid": "6912970007023551493"
+      },
+      "engagement_metrics": {
+        "comment_count": 40,
+        "like_count": 268,
+        "play_count": 20855,
+        "share_count": 28
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 4893.09,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677692065941048607",
+      "video_meta": {
+        "caption_text": "Replying to @Jessa Lynn \ud83e\udd8b head-to-toe TT Shop! #falloutfits #falloutfitinspo #falloutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oQkUVIgSiAMXAPAvQfIIEyeyAqXVjGtQeAG88A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677692065941048607",
+        "published_at": 1787602009,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7677692065941048607"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.and.daisies",
+        "creator_uid": "7490370121882797102"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 2039,
+        "play_count": 375100,
+        "share_count": 119
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 4336.38,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692471699983355150",
+      "video_meta": {
+        "caption_text": "So cutiee and SO flattering #plussizefashion #curvyfashion #thanksgivingoutfit #falloutfits #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/okEBIAHAjJPgALGVQLDOegxefyZIlIAAkzklEr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692471699983355150",
+        "published_at": 1791043157,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7692471699983355150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 555,
+        "play_count": 121600,
+        "share_count": 24
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 4188.52,
+        "window_units_sold": 150
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678858260463619342",
+      "video_meta": {
+        "caption_text": "flowy fall dress \ud83c\udf42\ud83e\udd0e #plussizefallfashion #apronbellyfriendly #apronbellystyle #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oIEAQ1SCdBGAswIZyuIACiiBRyBJ1SAOMfL5PJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678858260463619342",
+        "published_at": 1787873525,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7678858260463619342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jackiebentley",
+        "creator_uid": "6790060352911721477"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 173,
+        "play_count": 26212,
+        "share_count": 20
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 3628.82,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680328246071774494",
+      "video_meta": {
+        "caption_text": "The FP inspired dresses make the perfect fall fit! @SCUSTY ",
+        "cover_url": "https://s.500fd.com/tt_video/ogeI2eAsfArjGDAQATUIAVEqAILLINqEVbPzAE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680328246071774494",
+        "published_at": 1788303600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7680328246071774494"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 91,
+        "like_count": 2267,
+        "play_count": 41700,
+        "share_count": 96
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 3165.74,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683244627993873677",
+      "video_meta": {
+        "caption_text": "plus size fall dresses \ud83c\udf42\ud83e\udd0e #apronbellyfriendly #apronbellystyle #plussizefallfashion #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oYSCoHFACFPDv8eYAAARlSf5E3DFgXEqgEoIbL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683244627993873677",
+        "published_at": 1788894803,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7683244627993873677"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbaybay27",
+        "creator_uid": "6754153549096158213"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 42,
+        "play_count": 6870,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 2787.51,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671474564404104461",
+      "video_meta": {
+        "caption_text": "I cannot wait for the colder weather \ud83c\udf42\ud83c\udf42",
+        "cover_url": "https://s.500fd.com/tt_video/7b2696e9258c454f947eb3712e24b92a~tplv-photomode-image-cover:640:0:q72.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671474564404104461",
+        "published_at": 1786154370,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbaybay27/video/7671474564404104461"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "geewalt1",
+        "creator_uid": "6930425394856248325"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 60,
+        "play_count": 23700,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 2101.63,
+        "window_units_sold": 85
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674625841694838030",
+      "video_meta": {
+        "caption_text": "EASY to make these dresses cute! I size down to an XS, and I'm 5'3, 135. #dress #falloutfits #falloutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/okjCvHn8ApdIfD7Vf3kLI4pAICjelq7BYAGvIh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674625841694838030",
+        "published_at": 1786888123,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@geewalt1/video/7674625841694838030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 76,
+        "play_count": 19500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495544445937420531",
+        "window_gmv": 2039.07,
+        "window_units_sold": 73
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683218023519489293",
+      "video_meta": {
+        "caption_text": "flowy fall dress \ud83c\udf42\ud83e\udd0e #plussizefallfashion #apronbellyfriendly #apronbellystyle #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oICWAj5QeLFWeIIFQVIGaFeEQOBLASwIHkAvHj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683218023519489293",
+        "published_at": 1788888614,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7683218023519489293"
+      }
+    }
+  ]
+}

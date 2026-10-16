@@ -9,12 +9,54 @@ from __future__ import annotations
 
 import sqlite3
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from engine.client import FastMossConnection
 
 CREDIT_LOG_PATH = Path(__file__).resolve().parent.parent / "docs" / "credit_log.md"
+
+
+def mondays_remaining(today: date, reset_date: date) -> int:
+    """Mondays from `today` (inclusive) up to `reset_date` (exclusive) --
+    mirrors worker/src/logic.js's mondaysRemaining exactly (same semantics,
+    used there for the Buscar cuenta search quota) so both halves of the
+    app count "Mondays left before the reset" the same way."""
+    count = 0
+    d = today
+    while d < reset_date:
+        if d.weekday() == 0:  # Monday
+            count += 1
+        d += timedelta(days=1)
+    return count
+
+
+def dynamic_weekly_budget(
+    balance: int,
+    today: date,
+    reset_date: date,
+    safety_floor_credits: int = 300,
+) -> dict:
+    """This week's --budget isn't a fixed number -- it's whatever's left of
+    the TOTAL balance (plan + top-up; `balance` is already the combined
+    figure check_balance returns) after keeping one flat safety floor in
+    reserve, split evenly across the Mondays remaining before the next
+    plan reset. Simplified 2026-10-16 after Ryan bought 2,000 never-expiring
+    top-up credits: with credits no longer scarce, one flat floor (big
+    enough to cover Buscar cuenta searches and the monthly live-timing pull
+    together) replaced the two itemized per-purpose reserves this used to
+    split out. Returns the full breakdown so the caller can log exactly how
+    the number was derived."""
+    mondays_left = max(mondays_remaining(today, reset_date), 1)
+    available = max(balance - safety_floor_credits, 0)
+    per_run = max(available // mondays_left, 0)
+    return {
+        "balance": balance,
+        "safety_floor_credits": safety_floor_credits,
+        "available_for_weekly_runs": available,
+        "mondays_left": mondays_left,
+        "budget_per_run": per_run,
+    }
 
 
 class BudgetExceeded(RuntimeError):
@@ -99,7 +141,10 @@ def credits_used_for_week(conn: sqlite3.Connection, week: str) -> int:
 
 def append_credit_log(run_id: str, date: str, credits_used: int, balance_after: int, notes: str) -> None:
     """Appends one line to docs/credit_log.md, matching its existing table
-    format."""
-    line = f"| {date} | {run_id} | {credits_used} | {balance_after} / 500 | {notes} |\n"
+    format. balance_after is the plan+top-up total (no fixed "/500" any
+    more -- that denominator stopped meaning anything once top-up credits,
+    which never expire and aren't capped at the plan's monthly amount,
+    existed alongside the plan's own balance)."""
+    line = f"| {date} | {run_id} | {credits_used} | {balance_after} | {notes} |\n"
     with CREDIT_LOG_PATH.open("a", encoding="utf-8") as f:
         f.write(line)

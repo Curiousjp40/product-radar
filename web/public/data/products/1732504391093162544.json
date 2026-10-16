@@ -3,7 +3,7 @@
   "product_id": "1732504391093162544",
   "title": "HEYDUDE Remi Field Boot - Women's Comfortable Slip on Boots",
   "clean_title": "HEYDUDE Remi Field Boot",
-  "image_url": "/img/product_1732504391093162544.webp",
+  "image_url": "https://s.500fd.com/tt_product/52d6c07aefaf4d2cac68d507af25787e~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732504391093162544",
   "tiktok_search_url": "https://www.tiktok.com/search?q=HEYDUDE%20Remi%20Field%20Boot",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732504391093162544",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681358720965561613",
+      "cover_url": "https://s.500fd.com/tt_video/osYZeRAQIdGAMk2L1tCjuVqYpfhHjIJJQxxReq~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@julie.patterson0/video/7681358720965561613",
+      "creator_handle": "julie.patterson0",
+      "play_count": 1700000,
+      "window_gmv": 15860.18,
+      "window_units_sold": 174,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7691732990392618254",
+      "cover_url": "https://s.500fd.com/tt_video/ogAnORoqIQRMbGKQrse8FXhfdM0ZlQQy7RffhA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7691732990392618254",
+      "creator_handle": "bekahlynnewithtwins",
+      "play_count": 13100,
+      "window_gmv": 12750,
+      "window_units_sold": 150,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7684054613753924878",
+      "cover_url": "https://s.500fd.com/tt_video/osAMVROKev9nICg61e1HoSsAQ0kfZ8uhiA8Xj9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@spongebobprodsz/video/7684054613753924878",
+      "creator_handle": "spongebobprodsz",
+      "play_count": 37873,
+      "window_gmv": 13310.34,
+      "window_units_sold": 144,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7683331413663419661",
+      "cover_url": "https://s.500fd.com/tt_video/oUk0ISCM0DAUrpuSmKFeDRqEiEmgLB8oI4fIgE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7683331413663419661",
+      "creator_handle": "bekstheshoppingmom",
+      "play_count": 765500,
+      "window_gmv": 12290.7,
+      "window_units_sold": 141,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7684484781219810573",
+      "cover_url": "https://s.500fd.com/tt_video/oEeqpEDTIDBEnGqQfEAgIr3FcMkgy6zWk6tRSx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7684484781219810573",
+      "creator_handle": "bekstheshoppingmom",
+      "play_count": 1464672,
+      "window_gmv": 12299.1,
+      "window_units_sold": 139,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7691169471196663054",
+      "cover_url": "https://s.500fd.com/tt_video/okfQEGeFQAI1HOKRwOCIMIpINQ1GAhLLq5FYee~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7691169471196663054",
+      "creator_handle": "bekstheshoppingmom",
+      "play_count": 13300,
+      "window_gmv": 9180,
+      "window_units_sold": 108,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "heydude",
+        "weight": 792
+      },
+      {
+        "hashtag": "fallboots",
+        "weight": 460
+      },
+      {
+        "hashtag": "heydudeboots",
+        "weight": 430
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 396
+      },
+      {
+        "hashtag": "heydudenewarrivals",
+        "weight": 387
+      },
+      {
+        "hashtag": "heydudeshoes",
+        "weight": 361
+      },
+      {
+        "hashtag": "heydudenewarrivalscampaign",
+        "weight": 335
+      },
+      {
+        "hashtag": "heyduderemiboot",
+        "weight": 249
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 20,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 23,
+      "hour_end": 1
+    },
+    "top_hooks": [
+      "Hey Dude Remi field boots are back!",
+      "The Remi field boots are comfy, cute, and casual for fall activities \ud83e\udd0e\ud83c\udf42\ud83e\udeb5",
+      "POV: you found the boots you\u2019re about to wear all fall \ud83c\udf42\ud83e\udd0e\ud83e\udeb5"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      3,
+      4
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729417808759264131",
+  "time_range_days": 90,
+  "total": 2534,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 101,
+        "like_count": 9348,
+        "play_count": 945800,
+        "share_count": 389
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 12819.33,
+        "window_units_sold": 260
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663878015604018445",
+      "video_meta": {
+        "caption_text": "#comfrt #comfrtclothing #comfrthoodie #plussizehoodie #zipuphoodie ",
+        "cover_url": "https://s.500fd.com/tt_video/oMihJAP1LAikBqJAi1WcBIkBJNbfIxqACvqwEB.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663878015604018445",
+        "published_at": 1784385685,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7663878015604018445"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 237,
+        "play_count": 28300,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 11219.47,
+        "window_units_sold": 225
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669163993780489502",
+      "video_meta": {
+        "caption_text": "Comfrt | Cloud Zip Hoodie | Soft Mega Oversized Zip Up Hoodie For Men & Women ##comfrt",
+        "cover_url": "https://s.500fd.com/tt_video/oklEBbER2FOSABVfOq8vRkAtaEQYfErDQuWBr4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669163993780489502",
+        "published_at": 1785690180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7669163993780489502"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hkapproved",
+        "creator_uid": "7136001771466277934"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 85,
+        "play_count": 19800,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 10754.73,
+        "window_units_sold": 209
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687326861734497550",
+      "video_meta": {
+        "caption_text": "Whipped this baby out the SECOND it dropped below 75 degrees",
+        "cover_url": "https://s.500fd.com/tt_video/ocCrSEdIDK98tC39gEfxA0AAgFfQAqDEy7PRau~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687326861734497550",
+        "published_at": 1789922460,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hkapproved/video/7687326861734497550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kboston0505",
+        "creator_uid": "6652828868658020358"
+      },
+      "engagement_metrics": {
+        "comment_count": 359,
+        "like_count": 67500,
+        "play_count": 246600,
+        "share_count": 1159
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 10836.73,
+        "window_units_sold": 202
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7684031388328250638",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAL7KGMIldQhRWeVAxEQjUTLwedhBUIkHGICAe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684031388328250638",
+        "published_at": 1789077987,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kboston0505/video/7684031388328250638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "inkayliescloset",
+        "creator_uid": "7413766709121614890"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 139,
+        "play_count": 36100,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 10288.13,
+        "window_units_sold": 196
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688779720661552397",
+      "video_meta": {
+        "caption_text": "@kaylie\u2019s fashion finds \ud83e\udd0e\u2728 YESS finally this caramel color is back \ud83e\udd0e\ud83d\ude4c\ud83c\udffc it is perfection for fall \u2014 I loveloveLOVE the Comfrt hoodies! @Comfrt #comfrt #comfrthoodie #ziphoodie #oversizedhoodie #hoodie",
+        "cover_url": "https://s.500fd.com/tt_video/oIB2gCCAAHiUIB2UQEJU7OiaI20PraahAtB4H~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688779720661552397",
+        "published_at": 1790183577,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@inkayliescloset/video/7688779720661552397"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 776,
+        "play_count": 56911,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 9500.51,
+        "window_units_sold": 190
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688527605208730910",
+      "video_meta": {
+        "caption_text": "Comfrt | Cloud Zip Hoodie - Mega | Soft Mega Oversized Zip Up Hoodie For Men & Women #comfrt #comfrtclothing #hoodie ",
+        "cover_url": "https://s.500fd.com/tt_video/o4KrkvAEEQiCR2zBsAjIyrilBKAAUMRACIaBT~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688527605208730910",
+        "published_at": 1790183580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7688527605208730910"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jordyn_gunderson",
+        "creator_uid": "6899593008406053893"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 157,
+        "play_count": 43000,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 9450.35,
+        "window_units_sold": 173
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681100313872420126",
+      "video_meta": {
+        "caption_text": "WOWOWOW",
+        "cover_url": "https://s.500fd.com/tt_video/o0pqAY8IPBV50EwiNo8qwABhREiBxCBjAajqq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681100313872420126",
+        "published_at": 1788395545,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7681100313872420126"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 277,
+        "play_count": 17400,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 7890.68,
+        "window_units_sold": 155
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673933118042164510",
+      "video_meta": {
+        "caption_text": "Comfrt | Cloud Zip Hoodie - Mega | Soft Mega Oversized Zip Up Hoodie For Men & Women ##comfrt##zipuphoodie##hoodie",
+        "cover_url": "https://s.500fd.com/tt_video/oAjD9IYwAiAQpAZUO0qFEm4fIEcfUAjfAADSId~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673933118042164510",
+        "published_at": 1786732140,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7673933118042164510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vonnakv",
+        "creator_uid": "7051806120998208517"
+      },
+      "engagement_metrics": {
+        "comment_count": 51,
+        "like_count": 3612,
+        "play_count": 130600,
+        "share_count": 154
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6663.7,
+        "window_units_sold": 127
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687640223315922189",
+      "video_meta": {
+        "caption_text": "Cmfrt oversize zip up hoodie and leggings!  #oversizedhoodie #fallshopping #leggings #zipup ",
+        "cover_url": "https://s.500fd.com/tt_video/o0aUpt48FPn46PfZBqT1BwgfVkQEgOf1YeffgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687640223315922189",
+        "published_at": 1789918239,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vonnakv/video/7687640223315922189"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hkapproved",
+        "creator_uid": "7136001771466277934"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 46,
+        "play_count": 8118,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6495.28,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689244881436413197",
+      "video_meta": {
+        "caption_text": "There\u2019s just something about a grey oversized zip up (color \u201cstorm\u201d) ",
+        "cover_url": "https://s.500fd.com/tt_video/owA1CAzTYkPElrmiWy5lLz4rBAIagipv0BQAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689244881436413197",
+        "published_at": 1790291861,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hkapproved/video/7689244881436413197"
+      }
+    }
+  ]
+}

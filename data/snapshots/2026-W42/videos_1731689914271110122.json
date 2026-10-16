@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731689914271110122",
+  "time_range_days": 90,
+  "total": 296,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "yeseniamatostelle",
+        "creator_uid": "7430540805385782315"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 273,
+        "play_count": 8292,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 2777.23,
+        "window_units_sold": 131
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682855530313862430",
+      "video_meta": {
+        "caption_text": "#paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii #ideasdeoutfits #fashion #estilo ",
+        "cover_url": "https://s.500fd.com/tt_video/owL9rhxEhPRCDQ9I0BFqAfUDACV0XELGfvnEPt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682855530313862430",
+        "published_at": 1788804207,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yeseniamatostelle/video/7682855530313862430"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "doodledew4",
+        "creator_uid": "6955851592018330630"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 1366,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 948.05,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688300839852592397",
+      "video_meta": {
+        "caption_text": "So compy!!!#spotlightfinds#Fyp #tiktokshop #Foryou#outfitcheck ",
+        "cover_url": "https://s.500fd.com/tt_video/ocHRQFLyhIGcffAASqAAe3IFqkQeG2BOIAlVqJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688300839852592397",
+        "published_at": 1790524800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@doodledew4/video/7688300839852592397"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lacatra_chita504",
+        "creator_uid": "7230952472955946026"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 577,
+        "play_count": 9751,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 911.83,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686878822364450078",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ostvAAi53Rq1xHBAilAqoRamMBCAzI4vrEEhR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686878822364450078",
+        "published_at": 1789740956,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lacatra_chita504/video/7686878822364450078"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "joha.stefanie",
+        "creator_uid": "7381966546212242474"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 6,
+        "play_count": 1093,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 1006.32,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683756812755029279",
+      "video_meta": {
+        "caption_text": "Hoodie Pant Set Women / Set de pantalon y blusa  #womenset #tiktokshopstockup #christmasgifts #merrychristmas ",
+        "cover_url": "https://s.500fd.com/tt_video/oYiD7iBIKB1CUDCgMAALAbC2EfZWz1iiQGIARA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683756812755029279",
+        "published_at": 1789014062,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@joha.stefanie/video/7683756812755029279"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nova_vault0",
+        "creator_uid": "7457951966663132206"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 378,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 805,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680680365207407902",
+      "video_meta": {
+        "caption_text": "my favorite kind of outfit: cute without trying \ud83e\udd0d",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680680365207407902",
+        "published_at": 1788297768,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nova_vault0/video/7680680365207407902"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "edenariee",
+        "creator_uid": "7388994327891952686"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 17,
+        "play_count": 2434,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 796.84,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676398949430824223",
+      "video_meta": {
+        "caption_text": "Women's Hooded Long Sleeve Drawstring Top & Casual Loose Pants Set, 2 Piece for Spring & Fall, Comfortable Daily Wear #TikTokShopBlackFriday #TikTokShopCyberMonday #spotlightfinds #ootd/ #clothing ",
+        "cover_url": "https://s.500fd.com/tt_video/o4slACliavLEABykAYMGYAIDI5oAERgGBDiVq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676398949430824223",
+        "published_at": 1787300964,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@edenariee/video/7676398949430824223"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elisapalacio21",
+        "creator_uid": "6756932680653489158"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 42,
+        "play_count": 5797,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 817.49,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691777900307041550",
+      "video_meta": {
+        "caption_text": "Estos set de dos piezas con su\u00e9ter y capucha son ideales para la temporada c\u00f3modos y un outfit perfecto y casual #outfit #set #ropadetemporada #sueter #casual ",
+        "cover_url": "https://s.500fd.com/tt_video/ocsHL8QeMO9qXeVRHeQrVIg2fFIg5sOAUCGX1A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 61,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691777900307041550",
+        "published_at": 1790881630,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elisapalacio21/video/7691777900307041550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "susie_dertsakyan",
+        "creator_uid": "7089526487695049771"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 34,
+        "play_count": 1465,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 805.4,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691340968540327182",
+      "video_meta": {
+        "caption_text": "#fallootdinspo #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oUYq8eOmDAcoJGnIAQLgeRIGReeamBkIORF96Q~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691340968540327182",
+        "published_at": 1790779917,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@susie_dertsakyan/video/7691340968540327182"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinydessie23",
+        "creator_uid": "6812339217601414150"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 19,
+        "play_count": 741,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 692.46,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693802912216091935",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/og6F4HAYvAIx3fLwCBI1CSA64iiqiCW9huwITx~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693802912216091935",
+        "published_at": 1791353130,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinydessie23/video/7693802912216091935"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "migdreysiperez",
+        "creator_uid": "7017834091693622277"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 808,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8652028831891887082",
+        "window_gmv": 832.36,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695118971187645709",
+      "video_meta": {
+        "caption_text": "Conjunto de dos piezas liso para mujer: sudadera de manga larga con capucha y cord\u00f3n ajustable y pantal\u00f3n casual de corte ajustado; un conjunto elegante ideal para entrenamientos diarios y uso casual.#tiktokchopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ9oISnKnDAgj75qzoF9DRqHXEhgeBmyImfsKE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695118971187645709",
+        "published_at": 1791659526,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@migdreysiperez/video/7695118971187645709"
+      }
+    }
+  ]
+}

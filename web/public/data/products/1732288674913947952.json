@@ -3,7 +3,7 @@
   "product_id": "1732288674913947952",
   "title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic DIY Fridge Magnets with Adhesive Backing \u2013 Square Magnets for Crafts, Kitchen, Classroom, Party & Office Decoration Back to School College Dorm Essentials #HomeEssentials #TikTokShopBackToSchool",
   "clean_title": "Magnetic Photo Frames 2\"x2\" Clear Acrylic",
-  "image_url": "/img/product_1732288674913947952.webp",
+  "image_url": "https://s.500fd.com/tt_product/f93b00c965a84c5ea1f82f21a842717c~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732288674913947952",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Magnetic%20Photo%20Frames%202%22x2%22%20Clear%20Acrylic",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732288674913947952",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7664382094600113421",
+      "cover_url": "https://s.500fd.com/tt_video/oQfIQer1MAhjGfcgEo9IAFCkaHuLQUwkUkISPF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@destineekayy/video/7664382094600113421",
+      "creator_handle": "destineekayy",
+      "play_count": 6900000,
+      "window_gmv": 28515.84,
+      "window_units_sold": 1941,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7683903191162916110",
+      "cover_url": "https://s.500fd.com/tt_video/oArqBidLEIUFCGtAxgqIo5eURIYmDDDmEf1IjS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thereeseco/video/7683903191162916110",
+      "creator_handle": "thereeseco",
+      "play_count": 11500000,
+      "window_gmv": 9797.59,
+      "window_units_sold": 624,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7686139010665794829",
+      "cover_url": "https://s.500fd.com/tt_video/oIVAkVqe1E4EUALj6HKIEtoAAVIfAheCk2pGIL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@davienjgarcia/video/7686139010665794829",
+      "creator_handle": "davienjgarcia",
+      "play_count": 95700,
+      "window_gmv": 6484.01,
+      "window_units_sold": 427,
+      "is_ad": false,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7681120565180075295",
+      "cover_url": "https://s.500fd.com/tt_video/okWYMwAIi4BATqPiG7A2q10k8QUiICBOEBoCfS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@life.with.megan6/video/7681120565180075295",
+      "creator_handle": "life.with.megan6",
+      "play_count": 2504529,
+      "window_gmv": 6756.34,
+      "window_units_sold": 420,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7680308093548252446",
+      "cover_url": "https://s.500fd.com/tt_video/okzFeQ7Fr4VAUoe3ZbEuCFKIjIyD2A5qgQfEdD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@stephsharesitall/video/7680308093548252446",
+      "creator_handle": "stephsharesitall",
+      "play_count": 309449,
+      "window_gmv": 5948.83,
+      "window_units_sold": 374,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7692909491540577550",
+      "cover_url": "https://s.500fd.com/tt_video/osQ9QRBqkwCtRFM34OfDIgCES7DfA6rEKQ56Er~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@perfectlykelsey/video/7692909491540577550",
+      "creator_handle": "perfectlykelsey",
+      "play_count": 189403,
+      "window_gmv": 4996.49,
+      "window_units_sold": 322,
+      "is_ad": true,
+      "duration_seconds": 42
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "magnets",
+        "weight": 2315
+      },
+      {
+        "hashtag": "kidsartwork",
+        "weight": 2180
+      },
+      {
+        "hashtag": "magneticart",
+        "weight": 1941
+      },
+      {
+        "hashtag": "artworkdisplay",
+        "weight": 1941
+      },
+      {
+        "hashtag": "artsandcrafts",
+        "weight": 1941
+      },
+      {
+        "hashtag": "custommagnets",
+        "weight": 1260
+      },
+      {
+        "hashtag": "childhoodmemories",
+        "weight": 863
+      },
+      {
+        "hashtag": "scrapbooking",
+        "weight": 842
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 16,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "Such a cute way to show off their work and use to hang up their other art work!",
+      "What a sweet season I\u2019m living in \ud83e\udd7a trying to preserve the tiny details as we go",
+      "Iv used these to save my sons artwork too!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      6,
+      3
+    ]
+  }
 }

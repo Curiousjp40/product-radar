@@ -3,7 +3,7 @@
   "product_id": "1732223289243832844",
   "title": "Lace Panel off Shoulder Flare Sleeve T-Shirt, Y2K Backless Sexy Crop Top for Spring & Summer, Vintage Elegant Casual Women's Fashion",
   "clean_title": "Lace Panel off Shoulder Flare Sleeve",
-  "image_url": "/img/product_1732223289243832844.webp",
+  "image_url": "https://s.500fd.com/tt_product/1c3ddb809aad489d8f96be7315dd9a2c~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,128 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732223289243832844",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Lace%20Panel%20off%20Shoulder%20Flare%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732223289243832844",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679586672140455199",
+      "cover_url": "https://s.500fd.com/tt_video/ockTR1PbqIVdE5E7XBkivieiI3BD9kAEzAfX3a~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7679586672140455199",
+      "creator_handle": "dj.foof",
+      "play_count": 515982,
+      "window_gmv": 13515.52,
+      "window_units_sold": 1313,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7681134518887140622",
+      "cover_url": "https://s.500fd.com/tt_video/oUYAgmDFeQqCFya8hSfBRpzSz5j63NEmAEDUmQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aisovok/video/7681134518887140622",
+      "creator_handle": "aisovok",
+      "play_count": 11200000,
+      "window_gmv": 6410.14,
+      "window_units_sold": 606,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7687727776593448222",
+      "cover_url": "https://s.500fd.com/tt_video/ogOhSqACfACqAcD8E7twufIAqFRzEstANVEEE7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7687727776593448222",
+      "creator_handle": "dj.foof",
+      "play_count": 43700,
+      "window_gmv": 4619.22,
+      "window_units_sold": 439,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7688842330207489294",
+      "cover_url": "https://s.500fd.com/tt_video/o43BA0Cii6EMWAX1A3AIIQWiifC3EXCJBBVBwW~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7688842330207489294",
+      "creator_handle": "melsdailyinspo",
+      "play_count": 5100000,
+      "window_gmv": 4003.15,
+      "window_units_sold": 366,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7684881736324451615",
+      "cover_url": "https://s.500fd.com/tt_video/ogp6I8LYAPqXTeHMIAGAQ6T0jwVAXEFIAFIgee~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbyelectra/video/7684881736324451615",
+      "creator_handle": "shelbyelectra",
+      "play_count": 681090,
+      "window_gmv": 3609,
+      "window_units_sold": 337,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7665905759321951518",
+      "cover_url": "https://s.500fd.com/tt_video/ooBiaqlXIAbMtIiwMfIxCL8iQJg5WAR6B2A6i1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kimoradiaries/video/7665905759321951518",
+      "creator_handle": "kimoradiaries",
+      "play_count": 3256,
+      "window_gmv": 3401.49,
+      "window_units_sold": 317,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "falloutfits",
+        "weight": 311
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 311
+      },
+      {
+        "hashtag": "outfitinspo",
+        "weight": 311
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 268
+      },
+      {
+        "hashtag": "goingouttop",
+        "weight": 268
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 20.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "and for only $10?",
+      "less than $7 (also currently obsessed w this version of this song)\ud83d\udc08\u200d\u2b1b",
+      "so glad this restocked the perf lace"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      5,
+      2
+    ]
+  }
 }

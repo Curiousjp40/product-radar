@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729467441089778277",
+  "time_range_days": 90,
+  "total": 1244,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 106,
+        "play_count": 18900,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 22320.23,
+        "window_units_sold": 467
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673260194155023646",
+      "video_meta": {
+        "caption_text": "the BEST satin dress for every occasion ",
+        "cover_url": "https://s.500fd.com/tt_video/oUicfGe4gAUX40ARPQlIVosAfQHGAALopzJjwe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673260194155023646",
+        "published_at": 1786570125,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7673260194155023646"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 1257,
+        "play_count": 90500,
+        "share_count": 104
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 22094.6,
+        "window_units_sold": 422
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681094573912804639",
+      "video_meta": {
+        "caption_text": "OYS Women's Sexy One Shoulder Satin High Split Cocktail Fit Wedding Party Maxi Formal Dress #gown #weddingguestdress #maxidress #satindress ",
+        "cover_url": "https://s.500fd.com/tt_video/o0RB3AE4lp0iat3B6AuCs8NHIvAEYAMF3bAii~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681094573912804639",
+        "published_at": 1788480000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7681094573912804639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 205,
+        "play_count": 12827,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 20432.94,
+        "window_units_sold": 412
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688758799301102878",
+      "video_meta": {
+        "caption_text": "i have every color in this, which tells u how much i love this satin dress\ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/oURiVLsaKhBIrB5niD9IUaz3y1IAHXEviAPCQ~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688758799301102878",
+        "published_at": 1790178670,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7688758799301102878"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "allisynmichelle",
+        "creator_uid": "6748960238752252934"
+      },
+      "engagement_metrics": {
+        "comment_count": 188,
+        "like_count": 10700,
+        "play_count": 119700,
+        "share_count": 30
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 16999.19,
+        "window_units_sold": 324
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689131812727065887",
+      "video_meta": {
+        "caption_text": "Is this one in first place now? It might be. It\u2019s soooo comfortable and so sleek and I\u2019m in love. #weddingguestdress #dress #wedding #vlog #tryon ",
+        "cover_url": "https://s.500fd.com/tt_video/osAAiCL1KiYAAIbIRS1fBiSWCBmHMqEzJ3NTdA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 116,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689131812727065887",
+        "published_at": 1790265522,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@allisynmichelle/video/7689131812727065887"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "marissagracieee",
+        "creator_uid": "6941437073505272837"
+      },
+      "engagement_metrics": {
+        "comment_count": 266,
+        "like_count": 42800,
+        "play_count": 441400,
+        "share_count": 2469
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 13046.44,
+        "window_units_sold": 267
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666059555893267725",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o0xCQS8LTDAToW1eu1FsDRqGjEYgXBEYQSfBGE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666059555893267725",
+        "published_at": 1784893597,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@marissagracieee/video/7666059555893267725"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 194,
+        "play_count": 18900,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 13889.6,
+        "window_units_sold": 265
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688094753572801823",
+      "video_meta": {
+        "caption_text": "they seriously have every color of this dress and it NEVER failsss",
+        "cover_url": "https://s.500fd.com/tt_video/ooUVYeMsAAAoAjT1AILeYMqGHey8awzIIIEFjQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688094753572801823",
+        "published_at": 1790024068,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7688094753572801823"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "abrinascloset",
+        "creator_uid": "7362355453732111403"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 434,
+        "play_count": 51400,
+        "share_count": 56
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 12436.58,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673983038572793101",
+      "video_meta": {
+        "caption_text": "Replying to @MamaKC ",
+        "cover_url": "https://s.500fd.com/tt_video/oIdIwEqDA1AErc5FfAUjHAAvIQfuwfQR3EQDmk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 61,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673983038572793101",
+        "published_at": 1786738438,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@abrinascloset/video/7673983038572793101"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "abrinascloset",
+        "creator_uid": "7362355453732111403"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 92,
+        "play_count": 13500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 8624.23,
+        "window_units_sold": 186
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667982965720321294",
+      "video_meta": {
+        "caption_text": "still can\u2019t believe I got the prettiest wedding guest dress from TikTok\ud83e\udee3 #weddingguestdress #weddingguestoutfit #elegantdress #blacktiedress #weddingday ",
+        "cover_url": "https://s.500fd.com/tt_video/oMgihDaJIASKewAE9DJEtSYApEBRgAFVqqCoIf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667982965720321294",
+        "published_at": 1785341452,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@abrinascloset/video/7667982965720321294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "abrinascloset",
+        "creator_uid": "7362355453732111403"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 172,
+        "play_count": 10900,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 8364.71,
+        "window_units_sold": 174
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674010705938353422",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owdGLJueyRMA5DBfIAACIe2PIkfPpQAEDOxGAy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674010705938353422",
+        "published_at": 1786744873,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@abrinascloset/video/7674010705938353422"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "peachyfindsgems",
+        "creator_uid": "7382743954934989870"
+      },
+      "engagement_metrics": {
+        "comment_count": 33,
+        "like_count": 4277,
+        "play_count": 681800,
+        "share_count": 234
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495443990254291557",
+        "window_gmv": 7620.78,
+        "window_units_sold": 158
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674268347441106206",
+      "video_meta": {
+        "caption_text": "#wedding #weddingguestdress #weddingattire #formaldress #weddingtok ",
+        "cover_url": "https://s.500fd.com/tt_video/oMUElnDQFzyogeAovR9KAB5ELvBQQVGfAqH1mE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674268347441106206",
+        "published_at": 1786831800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@peachyfindsgems/video/7674268347441106206"
+      }
+    }
+  ]
+}

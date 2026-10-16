@@ -3,7 +3,7 @@
   "product_id": "1729452943073776600",
   "title": "Muddy Mat Original Anti-Mud Mat",
   "clean_title": "Muddy Mat Original Anti-Mud Mat",
-  "image_url": "/img/product_1729452943073776600.jpg",
+  "image_url": "https://s.500fd.com/tt_product/7c28d201cb0b4491a297c60382ec4f05~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7663341217354222861",
-      "cover_url": "/img/video_7663341217354222861.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oogAYEafqDApqbatADCQBQHWFAhESIfRFEdrZZ~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@goldendealsforyou/video/7663341217354222861",
       "creator_handle": "goldendealsforyou",
       "play_count": 354100,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7684810158865747230",
-      "cover_url": "/img/video_7684810158865747230.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o4EAIqWfeiaEjSIju7SVQAF4AAMDeCAIAcv6lE~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@nextgenthreads/video/7684810158865747230",
       "creator_handle": "nextgenthreads",
       "play_count": 29700,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7688764413423258911",
-      "cover_url": "/img/video_7688764413423258911.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oUFpIqEDAafICt7AeVfnIi6QmAFCrjAZ5uEDoA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7688764413423258911",
       "creator_handle": "hollysmith883",
       "play_count": 1200000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7685760723913280781",
-      "cover_url": "/img/video_7685760723913280781.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oAErvoQgSDAF0EUTeFRVrqf714DODB7Q6LtqMp~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@betterbybrian/video/7685760723913280781",
       "creator_handle": "betterbybrian",
       "play_count": 28700,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7680445188275244319",
-      "cover_url": "/img/video_7680445188275244319.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oI2XwICyQPjqeifnL8fgWgNpVFWbmMjiLEQAAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@heathbroome/video/7680445188275244319",
       "creator_handle": "heathbroome",
       "play_count": 16400,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7675769175926754591",
-      "cover_url": "/img/video_7675769175926754591.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ocRPCPBj3FBIEAlHdACclic76A3oziEaAXUAJ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@hollysmith883/video/7675769175926754591",
       "creator_handle": "hollysmith883",
       "play_count": 22800,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      3,
+      5
+    ]
+  }
 }

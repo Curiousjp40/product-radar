@@ -3,7 +3,7 @@
   "product_id": "1730966352095777481",
   "title": "Women's Gingham Print Plaid Button Decor V Neck Dress, Casual Fashion Short Sleeve Dress for Daily Outdoor Wear, Ladies Clothes for Summer, Mini Dress, Summer Dresses",
   "clean_title": "Women's Gingham Print Plaid Button Decor",
-  "image_url": "/img/product_1730966352095777481.webp",
+  "image_url": "https://s.500fd.com/tt_product/e7f7ae622c4b4f0986b49deec44b5865~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7693223526890802446",
-      "cover_url": "/img/video_7693223526890802446.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o0nDFiDwFGeSw0DEKRaaABqE5zPIISHfgq9XbE~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@anniefernn/video/7693223526890802446",
       "creator_handle": "anniefernn",
       "play_count": 1500000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7673972291285339405",
-      "cover_url": "/img/video_7673972291285339405.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/og2UCfbtEuUFP7bALAIQfUp3jyASDHJ5IfBQRk~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@shopwithgig1/video/7673972291285339405",
       "creator_handle": "shopwithgig1",
       "play_count": 1100000,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7689485431691349278",
-      "cover_url": "/img/video_7689485431691349278.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooDJ437fI1iAGqiYAYB20Qi0AmPWAA0IwTicIC~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@alarue18/video/7689485431691349278",
       "creator_handle": "alarue18",
       "play_count": 380200,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7692876961693175053",
-      "cover_url": "/img/video_7692876961693175053.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oM8CuIgwfAECBZLyBDRqPvBNlEDSFErDPpWIBe~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@b2266309/video/7692876961693175053",
       "creator_handle": "b2266309",
       "play_count": 465900,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7674482790557093134",
-      "cover_url": "/img/video_7674482790557093134.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooCBEEvWF9kpXI4oAAEAiBu2XAYgai7PgBu1i~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@joanna.zakk/video/7674482790557093134",
       "creator_handle": "joanna.zakk",
       "play_count": 520400,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7686361280541658382",
-      "cover_url": "/img/video_7686361280541658382.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/owADAcLW2mqQfCfAlFD3OImVSq4REDFgAYzEcI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@alissia.valentine/video/7686361280541658382",
       "creator_handle": "alissia.valentine",
       "play_count": 546200,
@@ -164,5 +164,16 @@
     "reason_en": "Sales aren't growing and several creators are already selling it."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

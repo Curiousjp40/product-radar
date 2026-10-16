@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732027199022469228",
+  "time_range_days": 90,
+  "total": 2416,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lizbaileyloves",
+        "creator_uid": "7471253787433976878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 716,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 42570.8,
+        "window_units_sold": 878
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673642317584108830",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o0bRIZUfAIXGAQfRp7QD8sLoRmQeUIeQFODCGx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673642317584108830",
+        "published_at": 1786659094,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7673642317584108830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 270,
+        "play_count": 25600,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 18139.88,
+        "window_units_sold": 366
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668089774254656798",
+      "video_meta": {
+        "caption_text": "It\u2019s time to get back in that waist trainer #faja #shapewear #waisttrainer ",
+        "cover_url": "https://s.500fd.com/tt_video/o0DUqxfcCLRoqFTEPxfBATVUEaIEhIsARSp5ka~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668089774254656798",
+        "published_at": 1785368085,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7668089774254656798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlnamedgreymyy",
+        "creator_uid": "7034913862835586095"
+      },
+      "engagement_metrics": {
+        "comment_count": 64,
+        "like_count": 75500,
+        "play_count": 2200000,
+        "share_count": 219
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 15099.28,
+        "window_units_sold": 302
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675841417494809887",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osGjfADhhE2ETFRJqW9uEAVEAESGBtCI9sfhE4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675841417494809887",
+        "published_at": 1787171120,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlnamedgreymyy/video/7675841417494809887"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mykattshop",
+        "creator_uid": "7413417325968213034"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 1424,
+        "play_count": 78900,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 14596.14,
+        "window_units_sold": 287
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665170233010703647",
+      "video_meta": {
+        "caption_text": "#weightedvest #walkingvest #weightedworkout #tiktokshopcreatorpicks #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/okSjkwEDjAyLeAq4IjfHTQAIDfAaFIAdDEAUEQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665170233010703647",
+        "published_at": 1784686537,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mykattshop/video/7665170233010703647"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlnamedgreymyy",
+        "creator_uid": "7034913862835586095"
+      },
+      "engagement_metrics": {
+        "comment_count": 62,
+        "like_count": 30900,
+        "play_count": 528100,
+        "share_count": 148
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 11381,
+        "window_units_sold": 224
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676680976872803614",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYBiREDDieQfyN54JCg7VB1EHw5FQEqCEQAAM1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676680976872803614",
+        "published_at": 1787366589,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlnamedgreymyy/video/7676680976872803614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlnamedgreymyy",
+        "creator_uid": "7034913862835586095"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 15100,
+        "play_count": 566700,
+        "share_count": 78
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 10967.4,
+        "window_units_sold": 215
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7675157896358858015",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osAR0COSIhEBAB4VQPVaiI2AboDUoii5WRNRM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675157896358858015",
+        "published_at": 1787011969,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlnamedgreymyy/video/7675157896358858015"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 60,
+        "play_count": 4763,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 9776.76,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669938183005637918",
+      "video_meta": {
+        "caption_text": "Time to start back being consistent with waist trainer #waist #trainer #faja #shapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/oMkgIVKP4DADG192mRFeERqBREEA7BFcIwfAxE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669938183005637918",
+        "published_at": 1785796667,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7669938183005637918"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bri_inthemoment",
+        "creator_uid": "6972758353002251269"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 457,
+        "play_count": 14876,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 10191.44,
+        "window_units_sold": 196
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680258430984080671",
+      "video_meta": {
+        "caption_text": "SHAPSHE Waist Shapewear Corset for Women Sport Workout Vest for Women Gym Zipper and Hooks #corset #shapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/oIviaBAABXiVBXqVlZEEIdHERZNswyBIn0pVm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680258430984080671",
+        "published_at": 1788199538,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bri_inthemoment/video/7680258430984080671"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_markeah_",
+        "creator_uid": "24792376"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 995,
+        "play_count": 102100,
+        "share_count": 200
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 10043.45,
+        "window_units_sold": 191
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686883253801798926",
+      "video_meta": {
+        "caption_text": "snatched me up so good i could barely believe it \ud83d\ude2d\ud83d\ude0d #shapewear #fyppp #fyp\u30b7 ",
+        "cover_url": "https://s.500fd.com/tt_video/o063EEFMAfSjnBWtDADAIurzRHqgSCCEAUEKfl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686883253801798926",
+        "published_at": 1789741988,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_markeah_/video/7686883253801798926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nelliemarie143",
+        "creator_uid": "6794248101245076485"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 671,
+        "play_count": 94551,
+        "share_count": 80
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495421440316901484",
+        "window_gmv": 9848.39,
+        "window_units_sold": 189
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682559935074422030",
+      "video_meta": {
+        "caption_text": "Waist trainer \ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e yeahhhh I\u2019m in a small now ! #waisttrainer #shapeshe #corset ",
+        "cover_url": "https://s.500fd.com/tt_video/ocu3FTdUIgm7Si5Bh4lEsAQi0Gap7vIvb6PCB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682559935074422030",
+        "published_at": 1788739020,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nelliemarie143/video/7682559935074422030"
+      }
+    }
+  ]
+}

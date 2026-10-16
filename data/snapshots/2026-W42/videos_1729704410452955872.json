@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729704410452955872",
+  "time_range_days": 90,
+  "total": 1248,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "c.luuuuuuuu",
+        "creator_uid": "7304083377351066667"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 124,
+        "play_count": 10589,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 13680,
+        "window_units_sold": 380
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691831961945427214",
+      "video_meta": {
+        "caption_text": "So soft and comfy #comfy ",
+        "cover_url": "https://s.500fd.com/tt_video/oYKqpBBAiAs9DRomgQFkv4SDzf7HXHuEDEBFeQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691831961945427214",
+        "published_at": 1790894199,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@c.luuuuuuuu/video/7691831961945427214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bysayma",
+        "creator_uid": "7070314114518565930"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 1700,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 12441.53,
+        "window_units_sold": 377
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684475326755441950",
+      "video_meta": {
+        "caption_text": "Este topper de bamboo es la suavidad extra que estaba necesitando mi colch\u00f3n #topper #mattress #mattresstopper #bed #TikTokShopBlackFriday ",
+        "cover_url": "https://s.500fd.com/tt_video/oA3gAQ1CjsSQVAe8SrcS6X1tHAeMICWdq7CIqf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684475326755441950",
+        "published_at": 1789181351,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bysayma/video/7684475326755441950"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "blandonesther2cuenta",
+        "creator_uid": "7059451260815672366"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 3866,
+        "play_count": 202600,
+        "share_count": 65
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 13581.08,
+        "window_units_sold": 370
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665825861416865037",
+      "video_meta": {
+        "caption_text": "Ame este Forro de colch\u00f3n \ud83e\udd0d #forro #comodidad #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/o0gGUxQce9NPICssaWgH6Y1AI2kDJAgg2AeLje~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665825861416865037",
+        "published_at": 1784839192,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@blandonesther2cuenta/video/7665825861416865037"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fitwithmadz",
+        "creator_uid": "86659138390290432"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 56,
+        "play_count": 7026,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 11644.83,
+        "window_units_sold": 352
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673591632331099406",
+      "video_meta": {
+        "caption_text": "loving my new mattress topper!!",
+        "cover_url": "https://s.500fd.com/tt_video/o0V6HZfDkQhkjHUIoEQczfnheCxAxELnFGjxQA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673591632331099406",
+        "published_at": 1786647313,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fitwithmadz/video/7673591632331099406"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealswithayn",
+        "creator_uid": "7122091204682925102"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 2312,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 11322.01,
+        "window_units_sold": 328
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670307759685913870",
+      "video_meta": {
+        "caption_text": "This is amazing #fyp\u30b7 #tiktokshop #bamboomattresstopper #mattresstopper ",
+        "cover_url": "https://s.500fd.com/tt_video/oQRIzOiBzA3wmyJFCkQsaOwEBfAZiBAjHBA1TI.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670307759685913870",
+        "published_at": 1785882715,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealswithayn/video/7670307759685913870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "crazy_shop_finds",
+        "creator_uid": "6777867301426775046"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 45,
+        "play_count": 31274,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 10797.75,
+        "window_units_sold": 306
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679246472914734367",
+      "video_meta": {
+        "caption_text": "There sooo cheap now #bamboo #mattresstopper ",
+        "cover_url": "https://s.500fd.com/tt_video/o8HGLCDfFI1QlKQSQEehIesVqKJsVQATTIAjAo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679246472914734367",
+        "published_at": 1787963917,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@crazy_shop_finds/video/7679246472914734367"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "trendingdailydeals",
+        "creator_uid": "7275064108713804843"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 61,
+        "play_count": 21159,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 10085.99,
+        "window_units_sold": 294
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680296747238755614",
+      "video_meta": {
+        "caption_text": "These bedsore mattress toppers are so comfortable #sleep #bedroommakeover #mattresstopper #mattress #bedroom ",
+        "cover_url": "https://s.500fd.com/tt_video/o05e6FWIEICEASKGeVfVEAEAjAxQVDqZIAlUEp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680296747238755614",
+        "published_at": 1788208453,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@trendingdailydeals/video/7680296747238755614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thegameisfree",
+        "creator_uid": "7421990267346846766"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 19,
+        "play_count": 5522,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 8661.97,
+        "window_units_sold": 245
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681123261861645598",
+      "video_meta": {
+        "caption_text": "solving back problems for less \u2705 #bedlore #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oUJeUecJGIpVLoqIXjIUaygfMCqg303A2Qj7aA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681123261861645598",
+        "published_at": 1788400887,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thegameisfree/video/7681123261861645598"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ulovebabyilis",
+        "creator_uid": "6964148944569893894"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 1680,
+        "play_count": 110023,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 8041.27,
+        "window_units_sold": 228
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7677348541857156366",
+      "video_meta": {
+        "caption_text": "i lovee it #foryoupage #fyp #babyilis #ttshop ",
+        "cover_url": "https://s.500fd.com/tt_video/okUgAcFgAH71HZVAPLtPIBIfWGnfeVACjHCQck~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677348541857156366",
+        "published_at": 1787522034,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ulovebabyilis/video/7677348541857156366"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thegameisfree",
+        "creator_uid": "7421990267346846766"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 29,
+        "play_count": 10700,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 7163.03,
+        "window_units_sold": 204
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681117858268597535",
+      "video_meta": {
+        "caption_text": "this is your sign to NOT do it #fyp #bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/oEEnvpEBAYACwB2ANaxIjjRW7wADAQUiAb0il~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681117858268597535",
+        "published_at": 1788399632,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thegameisfree/video/7681117858268597535"
+      }
+    }
+  ]
+}

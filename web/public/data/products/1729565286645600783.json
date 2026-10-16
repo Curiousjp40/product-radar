@@ -3,7 +3,7 @@
   "product_id": "1729565286645600783",
   "title": "COLAMY NOYA Dining Chair Modern Upholstered Wood - High-Quality Fabric Finish Natural Wood Frame Ergonomic Backrest Design, Indoor Furniture",
   "clean_title": "COLAMY NOYA Dining Chair Modern Upholstered",
-  "image_url": "/img/product_1729565286645600783.webp",
+  "image_url": "https://s.500fd.com/tt_product/0e1cd233eece4eff8be3d142357e99eb~tplv-fhlh96nyum-crop-webp:4284:4284.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729565286645600783",
   "tiktok_search_url": "https://www.tiktok.com/search?q=COLAMY%20NOYA%20Dining%20Chair%20Modern%20Upholstered",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729565286645600783",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7675802208545361165",
+      "cover_url": "https://s.500fd.com/tt_video/oU2ICtVsiiAFpQCwIICBp0lRvF7hZ91FcBQfAZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@reynamaderaluna6/video/7675802208545361165",
+      "creator_handle": "reynamaderaluna6",
+      "play_count": 8027,
+      "window_gmv": 8401.94,
+      "window_units_sold": 49,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7687361618602102029",
+      "cover_url": "https://s.500fd.com/tt_video/ogpdRqAbrFXEEfo6DAQAog6fUaRgtFIDAZSCmv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@legendario9/video/7687361618602102029",
+      "creator_handle": "legendario9",
+      "play_count": 2170,
+      "window_gmv": 8663.18,
+      "window_units_sold": 47,
+      "is_ad": true,
+      "duration_seconds": 76
+    },
+    {
+      "video_id": "7681114664851344654",
+      "cover_url": "https://s.500fd.com/tt_video/oowYpU0EAaRgAIkECCFqAzCDgTSEADmSfMmEBe.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alexhigdon_/video/7681114664851344654",
+      "creator_handle": "alexhigdon_",
+      "play_count": 11700,
+      "window_gmv": 8544.68,
+      "window_units_sold": 46,
+      "is_ad": true,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7674405382374133005",
+      "cover_url": "https://s.500fd.com/tt_video/oMqgElW7QAPoCMGEIdABhDAfARFjvSfFDgMDcE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alexhigdon_/video/7674405382374133005",
+      "creator_handle": "alexhigdon_",
+      "play_count": 8954,
+      "window_gmv": 7703.6,
+      "window_units_sold": 45,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7674759193932385567",
+      "cover_url": "https://s.500fd.com/tt_video/oozVUCIkgiaRbOAJBuDObIhoIziBk7DdEaAvE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alli.rezny/video/7674759193932385567",
+      "creator_handle": "alli.rezny",
+      "play_count": 7247,
+      "window_gmv": 7043.09,
+      "window_units_sold": 42,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7666696685892013325",
+      "cover_url": "https://s.500fd.com/tt_video/oYAUUoBTiwIwCi1lmyLW94BIHElOvgDBWimva~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alexaa.romo/video/7666696685892013325",
+      "creator_handle": "alexaa.romo",
+      "play_count": 35100,
+      "window_gmv": 6529.11,
+      "window_units_sold": 40,
+      "is_ad": true,
+      "duration_seconds": 27
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "diningroom",
+        "weight": 163
+      },
+      {
+        "hashtag": "colamychairs",
+        "weight": 127
+      },
+      {
+        "hashtag": "diningchairs",
+        "weight": 127
+      },
+      {
+        "hashtag": "diningchair",
+        "weight": 121
+      },
+      {
+        "hashtag": "colamy",
+        "weight": 84
+      },
+      {
+        "hashtag": "diningtable",
+        "weight": 81
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 79
+      },
+      {
+        "hashtag": "silla",
+        "weight": 47
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "las sillas que convinan en todos lasdos",
+      "currently in the process of redoing our dining room and these were the perfect touch \u2728 ordering another set for the ends asap!",
+      "The prettiest dining chairs \ud83e\udd0e"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      5,
+      2
+    ]
+  }
 }

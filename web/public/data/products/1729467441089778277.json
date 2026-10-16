@@ -3,7 +3,7 @@
   "product_id": "1729467441089778277",
   "title": "OYS Women's Sexy One Shoulder Satin High Split Cocktail Fit Wedding Party Maxi Formal Dress",
   "clean_title": "OYS Women's Sexy One Shoulder Satin",
-  "image_url": "/img/product_1729467441089778277.webp",
+  "image_url": "https://s.500fd.com/tt_product/f226348061c04cefa97565b64e479038~tplv-fhlh96nyum-origin-webp.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729467441089778277",
   "tiktok_search_url": "https://www.tiktok.com/search?q=OYS%20Women%27s%20Sexy%20One%20Shoulder%20Satin",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729467441089778277",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673260194155023646",
+      "cover_url": "https://s.500fd.com/tt_video/oUicfGe4gAUX40ARPQlIVosAfQHGAALopzJjwe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7673260194155023646",
+      "creator_handle": "dj.foof",
+      "play_count": 18900,
+      "window_gmv": 22320.23,
+      "window_units_sold": 467,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7681094573912804639",
+      "cover_url": "https://s.500fd.com/tt_video/o0RB3AE4lp0iat3B6AuCs8NHIvAEYAMF3bAii~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7681094573912804639",
+      "creator_handle": "klothesminded",
+      "play_count": 90500,
+      "window_gmv": 22094.6,
+      "window_units_sold": 422,
+      "is_ad": true,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7688758799301102878",
+      "cover_url": "https://s.500fd.com/tt_video/oURiVLsaKhBIrB5niD9IUaz3y1IAHXEviAPCQ~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7688758799301102878",
+      "creator_handle": "dj.foof",
+      "play_count": 12827,
+      "window_gmv": 20432.94,
+      "window_units_sold": 412,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7689131812727065887",
+      "cover_url": "https://s.500fd.com/tt_video/osAAiCL1KiYAAIbIRS1fBiSWCBmHMqEzJ3NTdA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@allisynmichelle/video/7689131812727065887",
+      "creator_handle": "allisynmichelle",
+      "play_count": 119700,
+      "window_gmv": 16999.19,
+      "window_units_sold": 324,
+      "is_ad": false,
+      "duration_seconds": 116
+    },
+    {
+      "video_id": "7666059555893267725",
+      "cover_url": "https://s.500fd.com/tt_video/o0xCQS8LTDAToW1eu1FsDRqGjEYgXBEYQSfBGE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@marissagracieee/video/7666059555893267725",
+      "creator_handle": "marissagracieee",
+      "play_count": 441400,
+      "window_gmv": 13046.44,
+      "window_units_sold": 267,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7688094753572801823",
+      "cover_url": "https://s.500fd.com/tt_video/ooUVYeMsAAAoAjT1AILeYMqGHey8awzIIIEFjQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7688094753572801823",
+      "creator_handle": "dj.foof",
+      "play_count": 18900,
+      "window_gmv": 13889.6,
+      "window_units_sold": 265,
+      "is_ad": true,
+      "duration_seconds": 30
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "weddingguestdress",
+        "weight": 1090
+      },
+      {
+        "hashtag": "wedding",
+        "weight": 482
+      },
+      {
+        "hashtag": "gown",
+        "weight": 422
+      },
+      {
+        "hashtag": "maxidress",
+        "weight": 422
+      },
+      {
+        "hashtag": "satindress",
+        "weight": 422
+      },
+      {
+        "hashtag": "dress",
+        "weight": 324
+      },
+      {
+        "hashtag": "vlog",
+        "weight": 324
+      },
+      {
+        "hashtag": "tryon",
+        "weight": 324
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 21,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "the BEST satin dress for every occasion",
+      "OYS Women's Sexy One Shoulder Satin High Split Cocktail Fit Wedding Party Maxi Formal Dress",
+      "i have every color in this, which tells u how much i love this satin dress\ud83d\ude2d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

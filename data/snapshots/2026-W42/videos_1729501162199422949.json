@@ -1,0 +1,71 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729501162199422949",
+  "time_range_days": 90,
+  "total": 2,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "micocinarapida",
+        "creator_uid": "6796486384871556101"
+      },
+      "engagement_metrics": {
+        "comment_count": 126,
+        "like_count": 23500,
+        "play_count": 500900,
+        "share_count": 3369
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494310058161768421",
+        "window_gmv": 376,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694773588020251917",
+      "video_meta": {
+        "caption_text": "Same wall. Different skill levels.  #cats #catwall #gatos #catsoftiktok #gymtok ",
+        "cover_url": "https://s.500fd.com/tt_video/o0oAvOeIMAJ8rPeIgQJfGxAXA1IfL5RAGNGUpS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694773588020251917",
+        "published_at": 1791579112,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@micocinarapida/video/7694773588020251917"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sacagaweiner",
+        "creator_uid": "6753723760149382149"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 108,
+        "play_count": 8998,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494310058161768421",
+        "window_gmv": 105,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684433979113590030",
+      "video_meta": {
+        "caption_text": "#catscratch #furnituresaver #catparent #catlover ",
+        "cover_url": "https://s.500fd.com/tt_video/o8WFqOeITAkBqveIXQFeGXAaYkQtLwR1Gtelmk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684433979113590030",
+        "published_at": 1789171734,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sacagaweiner/video/7684433979113590030"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731684545402213210",
+  "time_range_days": 90,
+  "total": 336,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 547,
+        "play_count": 75600,
+        "share_count": 85
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 11192.2,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679503717749640478",
+      "video_meta": {
+        "caption_text": "PIRATE HALLOWEEN COSTUME!!",
+        "cover_url": "https://s.500fd.com/tt_video/oYESTvAEAMIICyAulRdi8iTADMBaWpA5BAUAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679503717749640478",
+        "published_at": 1788023812,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7679503717749640478"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilyy_turcotte",
+        "creator_uid": "25340095"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 900,
+        "play_count": 64100,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4772.15,
+        "window_units_sold": 50
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685109866112765197",
+      "video_meta": {
+        "caption_text": "These are PERFECT #halloweencostume #halloween #halloween2026 #costumes #haul ",
+        "cover_url": "https://s.500fd.com/tt_video/oYwNRvK1qQS7E9DhfBpFhF4EQiDHhtArcgfLsR~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 109,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685109866112765197",
+        "published_at": 1789329097,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilyy_turcotte/video/7685109866112765197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nataliesszz",
+        "creator_uid": "6679254297203180549"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 5352,
+        "play_count": 135074,
+        "share_count": 332
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3984,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694446827352984863",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEGIRAfWILAe5IAAQGzGUfHqKTVAqrrQKQyeJV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694446827352984863",
+        "published_at": 1791503024,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7694446827352984863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "italiajjacqueline",
+        "creator_uid": "6600890743560110085"
+      },
+      "engagement_metrics": {
+        "comment_count": 34,
+        "like_count": 9248,
+        "play_count": 1000000,
+        "share_count": 1541
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3967.65,
+        "window_units_sold": 38
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677682331695500575",
+      "video_meta": {
+        "caption_text": "the sexiest pirate !!! i\u2019m obsessed  #piratecostume #halloweencostume #costume #collegehalloweencostume #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/o83qEmpubBPRzA76bo6MPdICiBoiaImcVAyC0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677682331695500575",
+        "published_at": 1787599737,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@italiajjacqueline/video/7677682331695500575"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nataliesszz",
+        "creator_uid": "6679254297203180549"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 1773,
+        "play_count": 41073,
+        "share_count": 93
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2822,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694445946029116702",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8PANipIBRAIiA3jRkEdDaAKqxAsExAlpBBgQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694445946029116702",
+        "published_at": 1791502813,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7694445946029116702"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nataliesszz",
+        "creator_uid": "6679254297203180549"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1450,
+        "play_count": 28439,
+        "share_count": 62
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2656,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694452987225279774",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osqEkWXADGfGj1ayAAAjEFeCITILIMIVAEeIMK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694452987225279774",
+        "published_at": 1791504451,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7694452987225279774"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1273,
+        "play_count": 59454,
+        "share_count": 166
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3549.15,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677727320534207758",
+      "video_meta": {
+        "caption_text": "pirate costume never disappoints \ud83c\udff4\u200d\u2620\ufe0f\ud83c\udf83 #halloweencostume #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/oEgP1EAoxMBIl4U6PxW7XiN3xAOoxiEaAzP98~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677727320534207758",
+        "published_at": 1787610216,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7677727320534207758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nataliesszz",
+        "creator_uid": "6679254297203180549"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 998,
+        "play_count": 26889,
+        "share_count": 53
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2490,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694444113306946846",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owVD2ARAEDzAIDFAqjgAeKCf3gsRC4EyIEE9O2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694444113306946846",
+        "published_at": 1791502393,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7694444113306946846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coolestbabeoutthere",
+        "creator_uid": "7031732285536125957"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 1764,
+        "play_count": 25416,
+        "share_count": 64
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3280.15,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685141788046183694",
+      "video_meta": {
+        "caption_text": "pirate costume is always a good one \ud83c\udff4\u200d\u2620\ufe0f #piratecostume #costumeinspo #captainjacksparrow #piratesofthecaribbean #cutecostumes ",
+        "cover_url": "https://s.500fd.com/tt_video/o8DccCnUIg3GKi0BS4GEjADincaqdHIYZ9vFB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685141788046183694",
+        "published_at": 1789336532,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7685141788046183694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missspearls",
+        "creator_uid": "6737376621856228357"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 671,
+        "play_count": 197000,
+        "share_count": 350
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2735.15,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680596322436566303",
+      "video_meta": {
+        "caption_text": "5\u20199 small  #costumeideas #halloweencostume #piratecostume ",
+        "cover_url": "https://s.500fd.com/tt_video/owH5hBqIGni3iSofCA4W7q1c9WIKSAhFiISACl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680596322436566303",
+        "published_at": 1788278213,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missspearls/video/7680596322436566303"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1729650038858421114",
   "title": "Women's Overbust Lace Push-Up Corset Top - Basic Cute Undergarment, Bodyshaping Torso-Smoothing Shapewear, Medieval Renaissance Design, Clubwear, Plus Size, Cosplay Birthday Halloween Clothes Women, Fajas Para Mujer, 819AJ-D1",
   "clean_title": "Women's Overbust Lace Push-Up Corset Top",
-  "image_url": "/img/product_1729650038858421114.webp",
+  "image_url": "https://s.500fd.com/tt_product/fa1a1f8f80dc46a8a3864c6cb8df3801~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729650038858421114",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Overbust%20Lace%20Push-Up%20Corset%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729650038858421114",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686608965106437389",
+      "cover_url": "https://s.500fd.com/tt_video/o8QYQEDaRpzrA7DqKFdqfDZK2EwE0E3gS4FFBe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7686608965106437389",
+      "creator_handle": "wincentsfinds2",
+      "play_count": 95000,
+      "window_gmv": 15879.15,
+      "window_units_sold": 607,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7686170417655991582",
+      "cover_url": "https://s.500fd.com/tt_video/oofihsOVqCEFRfiIAQkA7AA02bNApqdlDERVEF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thisadrie/video/7686170417655991582",
+      "creator_handle": "thisadrie",
+      "play_count": 11500,
+      "window_gmv": 2308.94,
+      "window_units_sold": 89,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7685875808182766878",
+      "cover_url": "https://s.500fd.com/tt_video/oARBxAE5lqnia1XB3AtCbwF3IvAEpAHblRAmi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ashtonsjokes/video/7685875808182766878",
+      "creator_handle": "ashtonsjokes",
+      "play_count": 6617,
+      "window_gmv": 1218.73,
+      "window_units_sold": 47,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7695110508642307358",
+      "cover_url": "https://s.500fd.com/tt_video/o8JEODFykEDxD6AAZaAAffEGqKIORRaEVAkohC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jademirandaxo/video/7695110508642307358",
+      "creator_handle": "jademirandaxo",
+      "play_count": 1739,
+      "window_gmv": 909.65,
+      "window_units_sold": 35,
+      "is_ad": false,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7683702134738603278",
+      "cover_url": "https://s.500fd.com/tt_video/ocUjtQEFsAzUhDkmIc5ofuAIDfAOFHAzCEAVfQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aniaisrich/video/7683702134738603278",
+      "creator_handle": "aniaisrich",
+      "play_count": 194200,
+      "window_gmv": 727.67,
+      "window_units_sold": 29,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7695449512428588319",
+      "cover_url": "https://s.500fd.com/tt_video/ocd1ALnCiDqiAruArAiIZ0wrI0xRBiC0CfgIoq~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@kyaburke/video/7695449512428588319",
+      "creator_handle": "kyaburke",
+      "play_count": 31000,
+      "window_gmv": 727.72,
+      "window_units_sold": 28,
+      "is_ad": true,
+      "duration_seconds": 8
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "corset",
+        "weight": 159
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 136
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 118
+      },
+      {
+        "hashtag": "college",
+        "weight": 89
+      },
+      {
+        "hashtag": "inspo",
+        "weight": 89
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 88
+      },
+      {
+        "hashtag": "plussize",
+        "weight": 47
+      },
+      {
+        "hashtag": "plussizecostumes",
+        "weight": 47
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "They are always gone before October",
+      "plus size friendly!",
+      "a black corset is a closet STAPLE"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      1,
+      5
+    ]
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732721456963686789",
+  "time_range_days": 90,
+  "total": 1,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "chajakvc",
+        "creator_uid": "7528341733428544525"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 35,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495186951737149829",
+        "window_gmv": 11.99,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693924916357352735",
+      "video_meta": {
+        "caption_text": "If your house is messy, you need this storage bag.#storage #homestorage ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693924916357352735",
+        "published_at": 1791381522,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chajakvc/video/7693924916357352735"
+      }
+    }
+  ]
+}

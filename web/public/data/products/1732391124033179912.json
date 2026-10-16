@@ -3,7 +3,7 @@
   "product_id": "1732391124033179912",
   "title": "5-Drawer Fabric Storage Tower Dresser, Solid, Stable, Multifunctional Cupboard Cabinet with Fabric Bins, Apartment Furniture for Bedroom Closet Organization, Entryway Use, Room Accessories, Aesthetic Decor, Living Room Decorations",
   "clean_title": "5-Drawer Fabric Storage Tower Dresser",
-  "image_url": "/img/product_1732391124033179912.webp",
+  "image_url": "https://s.500fd.com/tt_product/76c1ffbb5f5a4f3a9099c7eb4b73b39a~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732391124033179912",
   "tiktok_search_url": "https://www.tiktok.com/search?q=5-Drawer%20Fabric%20Storage%20Tower%20Dresser",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732391124033179912",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7671705401414421791",
+      "cover_url": "https://s.500fd.com/tt_video/o8CeIqoBHBA4XVgPD6i5iI1E5CuAZA1OItvw3i~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@habitualhome_us/video/7671705401414421791",
+      "creator_handle": "habitualhome_us",
+      "play_count": 9200000,
+      "window_gmv": 54141.5,
+      "window_units_sold": 1141,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7682422159020543263",
+      "cover_url": "https://s.500fd.com/tt_video/oEPdayaDkWR0EAlA41CS6gcBgiAApBliIEcAH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7682422159020543263",
+      "creator_handle": "_maryannn0711",
+      "play_count": 10500000,
+      "window_gmv": 33515.98,
+      "window_units_sold": 602,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7679465286373854495",
+      "cover_url": "https://s.500fd.com/tt_video/o41CEStCABi0OAAA08wBfiQ0iiKQGIXZIXSn3A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@glamazontay/video/7679465286373854495",
+      "creator_handle": "glamazontay",
+      "play_count": 113700,
+      "window_gmv": 32423.27,
+      "window_units_sold": 581,
+      "is_ad": false,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7673166008399432991",
+      "cover_url": "https://s.500fd.com/tt_video/owIlQUoeReEQiZRGzHepzOL7OYUGIDAQAfmR5F~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7673166008399432991",
+      "creator_handle": "_maryannn0711",
+      "play_count": 6500000,
+      "window_gmv": 21918.11,
+      "window_units_sold": 455,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7672120402579180831",
+      "cover_url": "https://s.500fd.com/tt_video/okQfeGJpZ4jYOLoINMHG7AARU2QeAf4AOgAuI2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@homesmartpicks_us/video/7672120402579180831",
+      "creator_handle": "homesmartpicks_us",
+      "play_count": 1100000,
+      "window_gmv": 19731.46,
+      "window_units_sold": 401,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7683695673308417310",
+      "cover_url": "https://s.500fd.com/tt_video/oUVAqADTPEMIfAFjrIDQBRfAAQIwA9fF5i8DEi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@habitualhome_us/video/7683695673308417310",
+      "creator_handle": "habitualhome_us",
+      "play_count": 877300,
+      "window_gmv": 19823.69,
+      "window_units_sold": 398,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dresser",
+        "weight": 2074
+      },
+      {
+        "hashtag": "organizedhome",
+        "weight": 1566
+      },
+      {
+        "hashtag": "closet",
+        "weight": 1539
+      },
+      {
+        "hashtag": "affordablefurniture",
+        "weight": 1539
+      },
+      {
+        "hashtag": "closetorganization",
+        "weight": 1528
+      },
+      {
+        "hashtag": "homeorganization",
+        "weight": 1399
+      },
+      {
+        "hashtag": "storagehack",
+        "weight": 1141
+      },
+      {
+        "hashtag": "dressers",
+        "weight": 1057
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 14,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "Upgrade your closet storage on a budget \ud83d\udc47\ud83c\udf38\ud83d\udda4",
+      "The best organization hack I have found \ud83d\ude4c\ud83c\udffb love these storage dressers",
+      "I gave my closet a whole transformation just by adding this drawer system!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      5,
+      6
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732477923578581997",
+  "time_range_days": 90,
+  "total": 419,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 34,
+        "play_count": 3591,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 8838.18,
+        "window_units_sold": 234
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690796178815962398",
+      "video_meta": {
+        "caption_text": "I\u2019m in love with this jacket \ud83d\ude29\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/oUO7GM4sqQUvRfQyMF7tnehgg9YEfMAfXA4Rnc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690796178815962398",
+        "published_at": 1790680020,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7690796178815962398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 2005,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 5457.65,
+        "window_units_sold": 141
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690722147580333343",
+      "video_meta": {
+        "caption_text": "I\u2019m actually obsessed \ud83d\ude29\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/o4waFf9ZDE1qFEcEr1E3ufQiuBVQR8OAr0RY3A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690722147580333343",
+        "published_at": 1790635796,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7690722147580333343"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vclaraa1",
+        "creator_uid": "6843029149695640582"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 6242,
+        "play_count": 588500,
+        "share_count": 641
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 3497.93,
+        "window_units_sold": 113
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689972753536945421",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMFeDrfDSE7dR3qEkRUUCuzE4CZA9EWAFAARIg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689972753536945421",
+        "published_at": 1790461331,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vclaraa1/video/7689972753536945421"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1603,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 3559.37,
+        "window_units_sold": 92
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691863749803674911",
+      "video_meta": {
+        "caption_text": "This jacket is so dang cute!! \ud83e\udd79\ud83e\udd0e\ud83c\udf42",
+        "cover_url": "https://s.500fd.com/tt_video/o4ciXVLeVIG59aCAneUAeUI1V9Q9NiCgouVffK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691863749803674911",
+        "published_at": 1790901598,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7691863749803674911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollybusiness",
+        "creator_uid": "6999655215625257990"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 2059,
+        "play_count": 35000,
+        "share_count": 69
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 2656.68,
+        "window_units_sold": 76
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692153570770144526",
+      "video_meta": {
+        "caption_text": "Fall fits are for the baddies \u2728 #creatorsearchinsights #tiktokshopfalldealsforyou #fallootd #viral ",
+        "cover_url": "https://s.500fd.com/tt_video/oMAABkiREigAIDxu1gFiQACIEAaB4ArBP4Ds7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692153570770144526",
+        "published_at": 1790969098,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollybusiness/video/7692153570770144526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1146,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 2900.36,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691347533729254686",
+      "video_meta": {
+        "caption_text": "I\u2019m actually obsessed with this jacket!!\ud83d\ude29\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/o8F8ATPesLVZURkCIqIGjfeoQ0FlAsIJQU6RfG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691347533729254686",
+        "published_at": 1790781425,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7691347533729254686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollybusiness",
+        "creator_uid": "6999655215625257990"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 1438,
+        "play_count": 18800,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 2459.23,
+        "window_units_sold": 73
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692161603034172686",
+      "video_meta": {
+        "caption_text": "Fall inspo \u2728 It\u2019s that time of year \ud83c\udf42  Which is your fav ? \ud83e\udee7\ud83c\udf42 #falloutfitinspo #tiktokshopfalldealsforyou #outfitinspo #CapCut ",
+        "cover_url": "https://s.500fd.com/tt_video/oIBgEA1Eg7AQrAAAKBODlDAkiravaS4ZMisIE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692161603034172686",
+        "published_at": 1790970956,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollybusiness/video/7692161603034172686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 194,
+        "play_count": 15800,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 2141.28,
+        "window_units_sold": 59
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691462816372395278",
+      "video_meta": {
+        "caption_text": "Plaid jackets are so fall coded #plaidjacket #falloutfit #falloutfitinspo #fall #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/owIx23MiP4Omb9gGcUDEI7B9BkWF4A67utira~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691462816372395278",
+        "published_at": 1790808261,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7691462816372395278"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nutaylao",
+        "creator_uid": "7144560561790829610"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 558,
+        "play_count": 11100,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 1816.68,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688883669125123358",
+      "video_meta": {
+        "caption_text": "Ladies TikTok shop is the plug for the flyest jackets this fall & winter! PSA \ud83d\udea8\ud83d\udea8\ud83d\udea8",
+        "cover_url": "https://s.500fd.com/tt_video/o8BLZGSaBISwu09bAiiBVnReLBf2q1EEibAOEt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 129,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688883669125123358",
+        "published_at": 1790207748,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nutaylao/video/7688883669125123358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jjoannaa7",
+        "creator_uid": "6785972729205244933"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 9162,
+        "play_count": 443820,
+        "share_count": 383
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657152926807069677",
+        "window_gmv": 2005.13,
+        "window_units_sold": 55
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691465364051397902",
+      "video_meta": {
+        "caption_text": "Im in love with this jacket \ud83e\uddf8\ud83c\udf42. #falloutfit #ropabonita #tiktokfashion #ootd #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/oggPiTBZ09BIE4k2tACCHiK4KAwrkiEaA2VAr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691465364051397902",
+        "published_at": 1790808841,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jjoannaa7/video/7691465364051397902"
+      }
+    }
+  ]
+}

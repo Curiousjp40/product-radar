@@ -1,7 +1,10 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
 import { renderBuscarCuenta } from "./views/buscarCuenta";
 import { renderHoy } from "./views/hoy";
+import { renderMejoresHoras } from "./views/mejoresHoras";
+import { renderMisProductos } from "./views/misProductos";
 import { renderMore } from "./views/more";
+import { renderOcultos } from "./views/ocultos";
 import { renderOutreach } from "./views/outreach";
 import { renderPipeline } from "./views/pipeline";
 import { renderProduct } from "./views/product";
@@ -11,24 +14,21 @@ import { renderSettings } from "./views/settings";
 import { renderThisWeek } from "./views/thisWeek";
 import { renderTodos } from "./views/todos";
 
-// Tabs (Part D, added 2026-10-15): Hoy / Esta semana / Todos / Muestras /
-// Mas -- Mi lista moved under Mas. Kept them separate rather than merging
-// Mi lista into Muestras: Mi lista is a lightweight status tracker across
-// every stage (including "skipped", "sample_requested" -- things that
-// never need a physical sample at all, e.g. filming from stock she already
-// owns), while Muestras has its own richer record (received date, value,
-// a post-by deadline, an optional TikTok link) that only makes sense once
-// a physical sample actually exists. Merging them would either lose that
-// lightweight tracking or force every shortlisted item through sample
-// fields it doesn't have.
+// Tabs (Part D, added 2026-10-15; Muestras replaced by Mis Productos
+// 2026-10-16, Part C5): Hoy / Esta semana / Todos / Mis Productos / Mas.
+// The old Muestras page/data still exists at #/muestras (linked from Mas,
+// not deleted) since its request-sample buttons elsewhere on the site
+// still write to it -- Mis Productos is the new primary inventory/pipeline
+// view, synced across devices via the Worker, superseding Muestras as the
+// main tab without breaking what already pointed at the old one.
 const TABS: { route: string; labelKey: string }[] = [
   { route: "hoy", labelKey: "nav_hoy" },
   { route: "week", labelKey: "nav_this_week" },
   { route: "todos", labelKey: "nav_all" },
-  { route: "muestras", labelKey: "nav_muestras" },
+  { route: "mis-productos", labelKey: "nav_mis_productos" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach"]);
+const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach", "ocultos", "mejores-horas", "muestras"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -91,6 +91,15 @@ async function renderApp(): Promise<void> {
       break;
     case "muestras":
       await renderSamples(view, lang);
+      break;
+    case "mis-productos":
+      await renderMisProductos(view, lang);
+      break;
+    case "ocultos":
+      await renderOcultos(view, lang);
+      break;
+    case "mejores-horas":
+      await renderMejoresHoras(view, lang);
       break;
     case "buscar":
       renderBuscarCuenta(view, lang);

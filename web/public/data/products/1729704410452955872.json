@@ -3,7 +3,7 @@
   "product_id": "1729704410452955872",
   "title": "\u3010BEDLORE\u3011Thick Fitted Sheet Mattress Pad, Fluffy Pillow Top Comfort Layer, Cooling & Soft Mattress Cover with Deep Pockets (Fits 6\u201318 Inch Mattresses), Ideal for Bedroom & Home Use HomeEssentials",
   "clean_title": "BEDLORE Thick Fitted Sheet Mattress Pad",
-  "image_url": "/img/product_1729704410452955872.jpg",
+  "image_url": "https://s.500fd.com/tt_product/25ca04a5f222457499cae212cb674e9f~tplv-fhlh96nyum-origin-image.image",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729704410452955872",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BEDLORE%20Thick%20Fitted%20Sheet%20Mattress%20Pad",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729704410452955872",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691831961945427214",
+      "cover_url": "https://s.500fd.com/tt_video/oYKqpBBAiAs9DRomgQFkv4SDzf7HXHuEDEBFeQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@c.luuuuuuuu/video/7691831961945427214",
+      "creator_handle": "c.luuuuuuuu",
+      "play_count": 10589,
+      "window_gmv": 13680,
+      "window_units_sold": 380,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7684475326755441950",
+      "cover_url": "https://s.500fd.com/tt_video/oA3gAQ1CjsSQVAe8SrcS6X1tHAeMICWdq7CIqf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bysayma/video/7684475326755441950",
+      "creator_handle": "bysayma",
+      "play_count": 1700,
+      "window_gmv": 12441.53,
+      "window_units_sold": 377,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7665825861416865037",
+      "cover_url": "https://s.500fd.com/tt_video/o0gGUxQce9NPICssaWgH6Y1AI2kDJAgg2AeLje~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@blandonesther2cuenta/video/7665825861416865037",
+      "creator_handle": "blandonesther2cuenta",
+      "play_count": 202600,
+      "window_gmv": 13581.08,
+      "window_units_sold": 370,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7673591632331099406",
+      "cover_url": "https://s.500fd.com/tt_video/o0V6HZfDkQhkjHUIoEQczfnheCxAxELnFGjxQA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fitwithmadz/video/7673591632331099406",
+      "creator_handle": "fitwithmadz",
+      "play_count": 7026,
+      "window_gmv": 11644.83,
+      "window_units_sold": 352,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7670307759685913870",
+      "cover_url": "https://s.500fd.com/tt_video/oQRIzOiBzA3wmyJFCkQsaOwEBfAZiBAjHBA1TI.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealswithayn/video/7670307759685913870",
+      "creator_handle": "dealswithayn",
+      "play_count": 2312,
+      "window_gmv": 11322.01,
+      "window_units_sold": 328,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7679246472914734367",
+      "cover_url": "https://s.500fd.com/tt_video/o8HGLCDfFI1QlKQSQEehIesVqKJsVQATTIAjAo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@crazy_shop_finds/video/7679246472914734367",
+      "creator_handle": "crazy_shop_finds",
+      "play_count": 31274,
+      "window_gmv": 10797.75,
+      "window_units_sold": 306,
+      "is_ad": true,
+      "duration_seconds": 14
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "mattresstopper",
+        "weight": 1305
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 698
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 677
+      },
+      {
+        "hashtag": "mattress",
+        "weight": 671
+      },
+      {
+        "hashtag": "bedlore",
+        "weight": 449
+      },
+      {
+        "hashtag": "comfy",
+        "weight": 380
+      },
+      {
+        "hashtag": "topper",
+        "weight": 377
+      },
+      {
+        "hashtag": "bed",
+        "weight": 377
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "So soft and comfy",
+      "Este topper de bamboo es la suavidad extra que estaba necesitando mi colch\u00f3n",
+      "Ame este Forro de colch\u00f3n \ud83e\udd0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      3,
+      4
+    ]
+  }
 }

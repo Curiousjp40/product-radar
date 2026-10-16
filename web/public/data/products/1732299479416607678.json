@@ -3,7 +3,7 @@
   "product_id": "1732299479416607678",
   "title": "Crocs Women's Dylan Platform Buckle Wedge Sandals",
   "clean_title": "Crocs Women's Dylan Platform Buckle Wedge",
-  "image_url": "/img/product_1732299479416607678.jpg",
+  "image_url": "https://s.500fd.com/tt_product/ca0f98929b3d4f9a8734c289b6caa4e9~tplv-fhlh96nyum-origin-image.image",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732299479416607678",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Crocs%20Women%27s%20Dylan%20Platform%20Buckle%20Wedge",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732299479416607678",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7671655999228398862",
+      "cover_url": "https://s.500fd.com/tt_video/oIymUHgdNZMNANArgeHICQVc4kWqj7eQj8e887~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7671655999228398862",
+      "creator_handle": "bekahlynnewithtwins",
+      "play_count": 464700,
+      "window_gmv": 8734.69,
+      "window_units_sold": 159,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7669271675032128781",
+      "cover_url": "https://s.500fd.com/tt_video/ogEuIABAIuyNAmB1RiBXf5Zs702CEiAwJi1gBo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7669271675032128781",
+      "creator_handle": "bekahlynnewithtwins",
+      "play_count": 241700,
+      "window_gmv": 8383.36,
+      "window_units_sold": 154,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7674419035794099486",
+      "cover_url": "https://s.500fd.com/tt_video/oAvBuDamOgR0EAlA1ECFXSABKiAAoB4iIEmAE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@greenreaper.xo/video/7674419035794099486",
+      "creator_handle": "greenreaper.xo",
+      "play_count": 874500,
+      "window_gmv": 8717.63,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7690698188642127117",
+      "cover_url": "https://s.500fd.com/tt_video/oICEEA4bEFAYnuAgIRvDSZbmt32Aleq6OD1fCV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kelliscroggins1/video/7690698188642127117",
+      "creator_handle": "kelliscroggins1",
+      "play_count": 1200000,
+      "window_gmv": 7565.31,
+      "window_units_sold": 144,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7671765635285667085",
+      "cover_url": "https://s.500fd.com/tt_video/ogyUHReGkgtWjBUIILegz76yvCJASIiHLVfTgA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7671765635285667085",
+      "creator_handle": "sophmademebuyit",
+      "play_count": 154600,
+      "window_gmv": 7646.04,
+      "window_units_sold": 141,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7667075069348220191",
+      "cover_url": "https://s.500fd.com/tt_video/oUEmIAEAR7mZAHDqcFBQfdIfDwiExEAAVPuDC5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahgibbons_/video/7667075069348220191",
+      "creator_handle": "sarahgibbons_",
+      "play_count": 18700,
+      "window_gmv": 7736.01,
+      "window_units_sold": 136,
+      "is_ad": true,
+      "duration_seconds": 15
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "crocs",
+        "weight": 1163
+      },
+      {
+        "hashtag": "crocsdylan",
+        "weight": 558
+      },
+      {
+        "hashtag": "crocswedges",
+        "weight": 467
+      },
+      {
+        "hashtag": "comfyheels",
+        "weight": 402
+      },
+      {
+        "hashtag": "altoutfits",
+        "weight": 402
+      },
+      {
+        "hashtag": "crocsnewarrivals",
+        "weight": 268
+      },
+      {
+        "hashtag": "platformshoes",
+        "weight": 268
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 245
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 1,
+      "hour_end": 3
+    },
+    "top_hooks": [
+      "Crocs new Dylan wedges are for the working girlies \ud83d\udc69\ud83c\udffb\u200d\ud83c\udfeb\ud83d\udda4",
+      "Crocs Dylan wedges are so comfy for work \ud83d\udda4",
+      "The most comfortable wedge sandals"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      5,
+      0
+    ]
+  }
 }

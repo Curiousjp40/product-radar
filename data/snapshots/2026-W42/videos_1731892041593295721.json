@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731892041593295721",
+  "time_range_days": 90,
+  "total": 1236,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 17,
+        "play_count": 4756,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 14275.19,
+        "window_units_sold": 934
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673356130319453453",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocsG4eIH2LyD50IZRnihewAgGeAfLOS5uFhpng~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673356130319453453",
+        "published_at": 1786592460,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673356130319453453"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 72,
+        "like_count": 7184,
+        "play_count": 538600,
+        "share_count": 201
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 12969.64,
+        "window_units_sold": 794
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673550002957946125",
+      "video_meta": {
+        "caption_text": "2 Pack of Shapewear shorts #shapewearshorts #tummycontrolshapewear #plussize ",
+        "cover_url": "https://s.500fd.com/tt_video/oU7pJ7oAQfjWnD2ArAXI94hAGRcpMOAeR8fQfI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673550002957946125",
+        "published_at": 1786637601,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7673550002957946125"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "labekaoficial",
+        "creator_uid": "6616396935711014917"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 152,
+        "play_count": 53800,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 8865.3,
+        "window_units_sold": 561
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678063416602266893",
+      "video_meta": {
+        "caption_text": "@KKpeople Shapewear #sohochic #kkpeople #tiktokshopsummersale #tiktokshopbacktoschool #blackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/ooCI29bhEESRIONJeNIGeOeGwlALAAeAAO1qIh.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678063416602266893",
+        "published_at": 1787688469,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7678063416602266893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 10,
+        "play_count": 1531,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 7933.99,
+        "window_units_sold": 514
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673640558753058061",
+      "video_meta": {
+        "caption_text": "DONT PLAY YOURSELF GET THEM WHILE THEY ARE STILL AT THIS PRICE @Kakapeople-Shapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/o4eXAxIGgRkHjPM0O0AXNfifB8f8p7QFIZlPxA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673640558753058061",
+        "published_at": 1786658696,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673640558753058061"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kkpeople.shapewear",
+        "creator_uid": "7414064184046175275"
+      },
+      "engagement_metrics": {
+        "comment_count": 221,
+        "like_count": 18966,
+        "play_count": 1827686,
+        "share_count": 1609
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 7046.1,
+        "window_units_sold": 443
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664517041327475981",
+      "video_meta": {
+        "caption_text": "Yall did your thing with this one!!#WeeklyDeals #kakapeople #SummerWins #hourgalss #shapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/ooHBnk1uB1IZiF1CiuAFMEIBdw6pLqwAnsfDd2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 71,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664517041327475981",
+        "published_at": 1784534491,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kkpeople.shapewear/video/7664517041327475981"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 1501,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 6869.99,
+        "window_units_sold": 440
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673353651284348173",
+      "video_meta": {
+        "caption_text": "Make sure check out this price ",
+        "cover_url": "https://s.500fd.com/tt_video/oYTfkFDSjIHyrI4po9EIviCAOBxAousIfUfmwh~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673353651284348173",
+        "published_at": 1786591879,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673353651284348173"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 8,
+        "play_count": 729,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 5549,
+        "window_units_sold": 359
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673947825197059341",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogpfLUBVQcqeFBYRQpyfUOA8GGWwTI8R1AeMtQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 69,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673947825197059341",
+        "published_at": 1786730241,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673947825197059341"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 382,
+        "play_count": 34100,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 5506.61,
+        "window_units_sold": 339
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671413655652633870",
+      "video_meta": {
+        "caption_text": "Shapewear shorts base layer that hides and smooths apron belly undress dresses #tummycontrolshapewear #fajashort #kakapeople #womensshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/o0F2ifAII7GA7k3LKBE0BUVw4AWHjIAAE6hBef~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671413655652633870",
+        "published_at": 1786140191,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7671413655652633870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 3,
+        "play_count": 817,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 5028,
+        "window_units_sold": 325
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673952013578816782",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQFWGWGtfXreSlMbeVYaIedIMUYLgRp7OgAAb6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 94,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673952013578816782",
+        "published_at": 1786731228,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673952013578816782"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shanaespov",
+        "creator_uid": "6914715010426438662"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 15,
+        "play_count": 792,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 5078,
+        "window_units_sold": 325
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673670013017967885",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocUfrxAWQtlGCJ4IQ07enHAjFjFk7kfb1AhDjE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673670013017967885",
+        "published_at": 1786665547,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673670013017967885"
+      }
+    }
+  ]
+}

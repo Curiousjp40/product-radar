@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729451838695968962",
+  "time_range_days": 90,
+  "total": 814,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "bright.smile.mama",
+        "creator_uid": "7231391230373708846"
+      },
+      "engagement_metrics": {
+        "comment_count": 303,
+        "like_count": 7801,
+        "play_count": 3000000,
+        "share_count": 901
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 14844.87,
+        "window_units_sold": 820
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674019973789912334",
+      "video_meta": {
+        "caption_text": "This is your sign! #snatched #shapewear #faja #ootd #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ogAezLErAJCGNGmKQSmOnfAlD4IRfpQIAAJfIZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674019973789912334",
+        "published_at": 1786747029,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bright.smile.mama/video/7674019973789912334"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopzlink8",
+        "creator_uid": "7611228672352355342"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 894,
+        "play_count": 537700,
+        "share_count": 88
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 12808.3,
+        "window_units_sold": 757
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674246823879511309",
+      "video_meta": {
+        "caption_text": "\u2728\ud83d\udda4 Meet the Shapermint High-Waisted Shapewear Panty \u2014 a seamless design with compression fabric, an anti-slip silicone strip, and a breathable feel. \ud83d\udc47 #TikTokShop #Shapermint #Shapewear #SeamlessShapewear #WomensFashion",
+        "cover_url": "https://s.500fd.com/tt_video/o0B8BRBQUA4Sg149iIvBuyymNoUZEA1iEiaBr~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674246823879511309",
+        "published_at": 1786799845,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopzlink8/video/7674246823879511309"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 258,
+        "like_count": 20200,
+        "play_count": 2400000,
+        "share_count": 1056
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 12182.67,
+        "window_units_sold": 690
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672140590380829966",
+      "video_meta": {
+        "caption_text": "Goes to size 4XL .Affordable Highwaist tummy smoothing shapewear #shapewearunderwear #tummycontrolshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/ociAIJqfH1gE2wCIp6P1RAiWwA4BBBwBA97O4B~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672140590380829966",
+        "published_at": 1786309461,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7672140590380829966"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nade.fit",
+        "creator_uid": "6786278008866276358"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 15,
+        "play_count": 2283,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 10123.15,
+        "window_units_sold": 631
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668149273732648206",
+      "video_meta": {
+        "caption_text": "@Shapermint \ud83e\udd0e\ud83e\udd0d . . #shapermint #controlabdomen #highpants #basics #summervibes ",
+        "cover_url": "https://s.500fd.com/tt_video/oUw909A9EErb2lADrvqEqDTCaILoS0AfgAeFBR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668149273732648206",
+        "published_at": 1785416400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nade.fit/video/7668149273732648206"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 2193,
+        "play_count": 180300,
+        "share_count": 66
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 10070.89,
+        "window_units_sold": 429
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675190577939369229",
+      "video_meta": {
+        "caption_text": "Replying to @Laticejackson76 shaping panties can be worn under pants without obvious panty line #shapewear #shapeweargirl #shapermint #tummycontrolundies ",
+        "cover_url": "https://s.500fd.com/tt_video/o0gAuE8DqDAKwACeADCsCgpgFAFESIfRUEaUDc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675190577939369229",
+        "published_at": 1787019589,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7675190577939369229"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angie.mmyers",
+        "creator_uid": "6806383514281395206"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 132,
+        "play_count": 117700,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 7246.46,
+        "window_units_sold": 412
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673656960427822367",
+      "video_meta": {
+        "caption_text": "Finally, some shape where I can breathe in!@Shapermint #shapermint #shapewear #tiktokshopcreatorpicks #tiktokshopbacktoschool #seamless ",
+        "cover_url": "https://s.500fd.com/tt_video/oMpmeASckqHpIEQUzfFfICAd0TlYyuQujnDtIm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673656960427822367",
+        "published_at": 1786662502,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angie.mmyers/video/7673656960427822367"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "winnermindset68",
+        "creator_uid": "7439860311299195946"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 40,
+        "play_count": 11700,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 4390.47,
+        "window_units_sold": 315
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675092247548857613",
+      "video_meta": {
+        "caption_text": "So amazing",
+        "cover_url": "https://s.500fd.com/tt_video/oogikIt0ACBEoBzPiAZLlaDmCnI479EvAANSc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675092247548857613",
+        "published_at": 1786996692,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@winnermindset68/video/7675092247548857613"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "winnermindset68",
+        "creator_uid": "7439860311299195946"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 21,
+        "play_count": 4681,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 3554.15,
+        "window_units_sold": 271
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675091782597643533",
+      "video_meta": {
+        "caption_text": "So great",
+        "cover_url": "https://s.500fd.com/tt_video/oYCIBiwtEv1AnzC2IBDAFJiAOQl6ZBfb7wA0O2~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675091782597643533",
+        "published_at": 1786996590,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@winnermindset68/video/7675091782597643533"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "winnermindset68",
+        "creator_uid": "7439860311299195946"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 7,
+        "play_count": 5030,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 3351.16,
+        "window_units_sold": 253
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675091384604314893",
+      "video_meta": {
+        "caption_text": "Love it",
+        "cover_url": "https://s.500fd.com/tt_video/oAGu8FCRSDqEg5EczgA1AmgCIfPHoeDEBgQA2A~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675091384604314893",
+        "published_at": 1786996489,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@winnermindset68/video/7675091384604314893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lifeintheashlane",
+        "creator_uid": "6762659857780409350"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 426,
+        "play_count": 13800,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495314957100550338",
+        "window_gmv": 3819.08,
+        "window_units_sold": 249
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669151395446082829",
+      "video_meta": {
+        "caption_text": "@Shapermint has the curvy plus size ladies at the forefront of their minds! Their shapewear is top tier and we are going to explore all the pieces that you will want to live in every day! ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ERkbEBoAjdpuSKEeyqTzgEDfAkFDAPgCAqkI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669151395446082829",
+        "published_at": 1785613484,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lifeintheashlane/video/7669151395446082829"
+      }
+    }
+  ]
+}

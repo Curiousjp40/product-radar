@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731684420159378266",
+  "time_range_days": 90,
+  "total": 157,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "_nottbrooke",
+        "creator_uid": "6948615887231452166"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 1437,
+        "play_count": 367600,
+        "share_count": 128
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 10915,
+        "window_units_sold": 92
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688881811916721422",
+      "video_meta": {
+        "caption_text": "itching for halloween \ud83d\ude16 #killbillcostume #halloweencostume #halloween #killbill #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/o8Q00VhIvCMxbAjSiQQAeLIHqZGhUaCCUee1Wk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688881811916721422",
+        "published_at": 1790207326,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_nottbrooke/video/7688881811916721422"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahshopsss",
+        "creator_uid": "6828249487891366917"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 4561,
+        "play_count": 786900,
+        "share_count": 596
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 7390.08,
+        "window_units_sold": 67
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680666982454218015",
+      "video_meta": {
+        "caption_text": "5\u20199 145lbs wearing size small but i would size up to med! #killbill #halloweencostumeinspo #killbillcostume #halloween2026 #dollskillhalloween ",
+        "cover_url": "https://s.500fd.com/tt_video/ooYNgDYA1yitoCvXAxiiArB7CSAIjVQIIGfaq5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680666982454218015",
+        "published_at": 1788294658,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahshopsss/video/7680666982454218015"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahshopsss",
+        "creator_uid": "6828249487891366917"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 3580,
+        "play_count": 440600,
+        "share_count": 189
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 7809.21,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681067505279913246",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o42lRrN0gQgc7ebIURVIxMICMg7lqmf8AAeXUj~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681067505279913246",
+        "published_at": 1788387909,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahshopsss/video/7681067505279913246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isiskellier",
+        "creator_uid": "6745631985883137030"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 315,
+        "play_count": 21500,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 7293.5,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688468652605181198",
+      "video_meta": {
+        "caption_text": "wearing a size medium #isiskellier ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ4hiya7BOAbt9y9rZUlEBiIBlmPKJjEFL6rg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688468652605181198",
+        "published_at": 1790111130,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isiskellier/video/7688468652605181198"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "avagriner",
+        "creator_uid": "6681349460381844485"
+      },
+      "engagement_metrics": {
+        "comment_count": 34,
+        "like_count": 15800,
+        "play_count": 1600000,
+        "share_count": 1162
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 6641.77,
+        "window_units_sold": 58
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687713371164036365",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osEUFRCqlswP6FzUfDCDqgAES2DfAhiAZIA7ED~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687713371164036365",
+        "published_at": 1789935267,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@avagriner/video/7687713371164036365"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tierrawilliams1",
+        "creator_uid": "6803095806763271173"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 807,
+        "play_count": 24789,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3025.34,
+        "window_units_sold": 26
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685206167236185358",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ooL1Q0Ft92SCQzUODGDAQQpgRhqgrBVEF1E1fe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685206167236185358",
+        "published_at": 1789351514,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tierrawilliams1/video/7685206167236185358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tierrawilliams1",
+        "creator_uid": "6803095806763271173"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 1406,
+        "play_count": 17700,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2489.34,
+        "window_units_sold": 22
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685210745742626061",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4KlIYnEjkNfLfeMWAGqtQpTQAMVWrDpyJoHFC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685210745742626061",
+        "published_at": 1789352585,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tierrawilliams1/video/7685210745742626061"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dannastewart",
+        "creator_uid": "6785797402937033733"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 5567,
+        "play_count": 138306,
+        "share_count": 512
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2356.84,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678592798592994573",
+      "video_meta": {
+        "caption_text": "165 | med | 5\u20197 #Halloween #Halloweencostume #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ASHI7VkITHfjxg9sPeCL1HeGDrH6gD2d0JcA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678592798592994573",
+        "published_at": 1787811769,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dannastewart/video/7678592798592994573"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angelicfaves",
+        "creator_uid": "7196126773381219371"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 410,
+        "play_count": 66900,
+        "share_count": 43
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2350,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691503207490571533",
+      "video_meta": {
+        "caption_text": "officially time to start getting your halloween costumes #killbill #halloweencostumes #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/ooIx9fMvIXAsQ9JeeAQIAaRAOV2H8Gk7qXyFAe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691503207490571533",
+        "published_at": 1790817689,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angelicfaves/video/7691503207490571533"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ayannasabrina",
+        "creator_uid": "6778880015427322885"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 379,
+        "play_count": 16200,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1593.67,
+        "window_units_sold": 19
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674384175373225229",
+      "video_meta": {
+        "caption_text": "I can\u2019t take myself seriously \ud83e\udd23\ud83e\udd23 #killbill #halloweencostume #halloween #halloween2026 ",
+        "cover_url": "https://s.500fd.com/tt_video/oI45Ci5CiICEw5QiHAfHKApAIArN1BJ8BAP9Bo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674384175373225229",
+        "published_at": 1786831828,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ayannasabrina/video/7674384175373225229"
+      }
+    }
+  ]
+}

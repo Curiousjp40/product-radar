@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729481989510829614",
+  "time_range_days": 90,
+  "total": 64,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sarahgibbons_",
+        "creator_uid": "6832338679064019974"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 12,
+        "play_count": 4541,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 1616.04,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686166119593364767",
+      "video_meta": {
+        "caption_text": "This Smart-Well Kawaii self-adhesive felt wall scratcher is such a cute way to give your cat a scratching spot without taking up floor space \ud83d\udc31\ud83d\udc97\u2728 #SmartWell #CatScratcher #WallScratcher #CatEnrichment #CatEssentials",
+        "cover_url": "https://s.500fd.com/tt_video/o8EAqqDE0CrAIARamhIACFEE9vDmjqAceftn2V~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686166119593364767",
+        "published_at": 1789581953,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahgibbons_/video/7686166119593364767"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "daniag2021",
+        "creator_uid": "6709514071438345222"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 1583,
+        "play_count": 250300,
+        "share_count": 385
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 1377.1,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678554120642514207",
+      "video_meta": {
+        "caption_text": "Respuesta a @Lia\u2764\ufe0f\u200d\ud83d\udd25 Rascador para Gatos\ud83d\udc08\u200d\u2b1b\ud83d\udc08 #cat #scratchers #gatos #BlackFriday #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/o0vAaya7AfiI2UqVjBsEIy3xLQgeQAWfAIAH8M~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678554120642514207",
+        "published_at": 1787802718,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@daniag2021/video/7678554120642514207"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "delmylg3",
+        "creator_uid": "7246588751727756331"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 23,
+        "play_count": 4479,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 858.12,
+        "window_units_sold": 61
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685874597484449038",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8HpOy1MpUvE9qximplJYy4tBJIagiG1LByAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685874597484449038",
+        "published_at": 1789512213,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delmylg3/video/7685874597484449038"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leo_and_simba",
+        "creator_uid": "7389079193370182699"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 18,
+        "play_count": 3953,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 702.3,
+        "window_units_sold": 49
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678848933359062303",
+      "video_meta": {
+        "caption_text": "If you\u2019re a cat keeps scratching your furniture, give them a better cat scratcher. These wall scratcher is easy to install, saves a lot of space and allows cats fully stretched while they scratch plus no cardboard mess and it actually looks good in the house and right now it\u2019s on a pretty good deal. #CatScratcher #tiktokshopcreatorpicks #BackToSchool #tiktokshopbacktoschool  #Sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/okADFIqfQ01ACNqwXXixAiSCIiHBZA9qSIvqgz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678848933359062303",
+        "published_at": 1787871936,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leo_and_simba/video/7678848933359062303"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "introvertedcatlady",
+        "creator_uid": "7183079499269096491"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 331,
+        "play_count": 71100,
+        "share_count": 52
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 564.53,
+        "window_units_sold": 40
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688398893024857374",
+      "video_meta": {
+        "caption_text": "Yes, there will be people saying, \u201cthis will just encourage them to scratch your couches\u201d well you know what, they do it regardless of what I do, might as well have something there to hide the ruined couch \ud83d\ude05 #cats #catlife #catscratcher #catmusthaves #catenrichment ",
+        "cover_url": "https://s.500fd.com/tt_video/oY2jSVEIIEAq26sfDrFVyVWn5jxeqEAxDBqRE6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688398893024857374",
+        "published_at": 1790094896,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@introvertedcatlady/video/7688398893024857374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "stephanie.p.f",
+        "creator_uid": "7100284980804830254"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 21,
+        "play_count": 1841,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 549.43,
+        "window_units_sold": 39
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685565560784031007",
+      "video_meta": {
+        "caption_text": "#smartwell #kawaii #self #adhesive #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/oEnjiTACvBWHA9ELAoia0LTAiRqUBTMlIBdEA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685565560784031007",
+        "published_at": 1789453573,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@stephanie.p.f/video/7685565560784031007"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "delanaswanson5",
+        "creator_uid": "6997917492698186757"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 25,
+        "play_count": 5121,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 455.69,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677085605146135821",
+      "video_meta": {
+        "caption_text": "The cats will LOVE this wall sticker cat scratcher. Check the deal and styles in the link. #catscratcher #cats #cattoys #wallsticker #pethome ",
+        "cover_url": "https://s.500fd.com/tt_video/o40QSQfVgAwMDr4kRFfAnqDBdXivWEEJMREZMU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677085605146135821",
+        "published_at": 1787487780,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delanaswanson5/video/7677085605146135821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elvasco2027",
+        "creator_uid": "7474839602719015982"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 119,
+        "play_count": 17000,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 407.54,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691475006022257951",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ooKlLHIQQQAqVe9eKNLU71dte7eSdRAGGFmGGI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691475006022257951",
+        "published_at": 1790811236,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elvasco2027/video/7691475006022257951"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missgiselleatl",
+        "creator_uid": "6799091922217632774"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 2607,
+        "play_count": 53500,
+        "share_count": 324
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 368.17,
+        "window_units_sold": 27
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673284450045791501",
+      "video_meta": {
+        "caption_text": "Este rascador adhesivo para gatos es s\u00faper funcional para mantener a tus gatos, entretenidos y felices sin sacrificar tus muebles, ya que de esta forma los proteges, tambi\u00e9n lo puedes poner en la pared y a los gatos, les encantan los rascadores verticales! ##catscratcher##catmom##catessentials##rascadoresparagatos##tiktokshopsummersale",
+        "cover_url": "https://s.500fd.com/tt_video/osCtAeTfwFDWvIPIQUED16fAQB4iAs5zHk5Etj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673284450045791501",
+        "published_at": 1786576005,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missgiselleatl/video/7673284450045791501"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "itsmebethc",
+        "creator_uid": "6817675171194733574"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 1408,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496225629371009582",
+        "window_gmv": 356.63,
+        "window_units_sold": 26
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674700694837873950",
+      "video_meta": {
+        "caption_text": "Most fun \ud83e\udd29 scratch toy for your curious kitties \ud83d\udc31 #catscratchpad #cattoy #couchprotection #tiktokshopbacktoschool #tiktokshopcreatorpick ",
+        "cover_url": "https://s.500fd.com/tt_video/oUeIadV1OAjxIZ4ILAAeAggGCAMqBM0CYZe77T~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 101,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674700694837873950",
+        "published_at": 1786905918,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsmebethc/video/7674700694837873950"
+      }
+    }
+  ]
+}

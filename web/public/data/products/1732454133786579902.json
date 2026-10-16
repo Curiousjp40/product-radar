@@ -3,7 +3,7 @@
   "product_id": "1732454133786579902",
   "title": "Crocs Women's Loaferette Slip-On Clogs with Chunky, Platform Heel",
   "clean_title": "Crocs Women's Loaferette Slip-On Clogs with",
-  "image_url": "/img/product_1732454133786579902.webp",
+  "image_url": "https://s.500fd.com/tt_product/dc515890f2b146eda70d6ac3b52831c6~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732454133786579902",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Crocs%20Women%27s%20Loaferette%20Slip-On%20Clogs%20with",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732454133786579902",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7671402175280467230",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7671402175280467230",
+      "creator_handle": "lizbaileyloves",
+      "play_count": 417,
+      "window_gmv": 19479.74,
+      "window_units_sold": 264,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7683024873001717022",
+      "cover_url": "https://s.500fd.com/tt_video/o89gAIuKj0mgVALef4sPpyQf0vkGICLDqK8I85~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thebethedit/video/7683024873001717022",
+      "creator_handle": "thebethedit",
+      "play_count": 398600,
+      "window_gmv": 13376,
+      "window_units_sold": 159,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7690018984883735821",
+      "cover_url": "https://s.500fd.com/tt_video/ocCuAb2cBFi3TINHQVEDr5fwQegPAewPHk4Rlj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kelseyyyshops/video/7690018984883735821",
+      "creator_handle": "kelseyyyshops",
+      "play_count": 25600,
+      "window_gmv": 9448.51,
+      "window_units_sold": 154,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7685897640336248095",
+      "cover_url": "https://s.500fd.com/tt_video/ogbUpBD6EFAsICCqaAEVAyEAErcNfRepq1zCA6~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@greenreaper.xo/video/7685897640336248095",
+      "creator_handle": "greenreaper.xo",
+      "play_count": 653534,
+      "window_gmv": 7179.58,
+      "window_units_sold": 114,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7668002485990083871",
+      "cover_url": "https://s.500fd.com/tt_video/ooLjGIAEIHUC6CI2QCUREqLqY1evbIeGVfAq9n~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cynthia_overthinks/video/7668002485990083871",
+      "creator_handle": "cynthia_overthinks",
+      "play_count": 235600,
+      "window_gmv": 7861.94,
+      "window_units_sold": 104,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7675341801003257102",
+      "cover_url": "https://s.500fd.com/tt_video/oE7kovKk80vAiECA6EgAaBuEkOAI45YBiSsWR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aestheticmomstyle/video/7675341801003257102",
+      "creator_handle": "aestheticmomstyle",
+      "play_count": 1300000,
+      "window_gmv": 7815.11,
+      "window_units_sold": 100,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "crocs",
+        "weight": 1001
+      },
+      {
+        "hashtag": "fallshoes",
+        "weight": 418
+      },
+      {
+        "hashtag": "clogs",
+        "weight": 303
+      },
+      {
+        "hashtag": "backtoschool",
+        "weight": 264
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 264
+      },
+      {
+        "hashtag": "loaferette",
+        "weight": 252
+      },
+      {
+        "hashtag": "crocsseptemberspotlight",
+        "weight": 239
+      },
+      {
+        "hashtag": "crocsnewarrivals",
+        "weight": 204
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 17,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "CROC Loaferettes have my heart \ud83d\udc9c this fall",
+      "OBSESSED \ud83d\udda4 if you\u2019re a half size then size down!",
+      "Crocs NEW Clogs\ud83d\udd25"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      4,
+      5
+    ]
+  }
 }

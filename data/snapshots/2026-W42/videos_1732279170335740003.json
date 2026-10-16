@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732279170335740003",
+  "time_range_days": 90,
+  "total": 3149,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 827,
+        "play_count": 117693,
+        "share_count": 53
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 17281.21,
+        "window_units_sold": 471
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666954349859441950",
+      "video_meta": {
+        "caption_text": "brb gonna order every color of this layered set\ud83e\udd2d",
+        "cover_url": "https://s.500fd.com/tt_video/oAmxI0FgAKVoTcaMEADAQ5Z9R6qAfCDEAnECfh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666954349859441950",
+        "published_at": 1785101930,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7666954349859441950"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 376,
+        "play_count": 16700,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 11721.55,
+        "window_units_sold": 316
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673553462742813982",
+      "video_meta": {
+        "caption_text": "this set is simply SO GOOD",
+        "cover_url": "https://s.500fd.com/tt_video/o8AiQUABi9Rya3BERTPAawBAmAEI3nz8nlJEN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673553462742813982",
+        "published_at": 1786638405,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7673553462742813982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "haileyscloset37",
+        "creator_uid": "6787900699864024070"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 4672,
+        "play_count": 614900,
+        "share_count": 133
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 12159.01,
+        "window_units_sold": 316
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664645654374845726",
+      "video_meta": {
+        "caption_text": "I need more it\u2019s just too cute \ud83d\ude29  #tiktokshop #outfitinspo #matchingset #ootd #comftoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oISvqQPQGs9JICSxAIerAkUhcLfqnUII04Kjde~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664645654374845726",
+        "published_at": 1784564405,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@haileyscloset37/video/7664645654374845726"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "calleighpaige07",
+        "creator_uid": "6700367528135345157"
+      },
+      "engagement_metrics": {
+        "comment_count": 61,
+        "like_count": 18400,
+        "play_count": 506100,
+        "share_count": 75
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 9659.13,
+        "window_units_sold": 263
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7672888936636632333",
+      "video_meta": {
+        "caption_text": "Everyone\u2019s fav outfit :)  #outfitinspo #outfitideas #ootd #matchingset ",
+        "cover_url": "https://s.500fd.com/tt_video/o0e0JkL2Ggbfw3qeAPLJIhGDbFewpnOgItAhR7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672888936636632333",
+        "published_at": 1786483696,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@calleighpaige07/video/7672888936636632333"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lacomadrelulu",
+        "creator_uid": "6754042045205087238"
+      },
+      "engagement_metrics": {
+        "comment_count": 85,
+        "like_count": 39000,
+        "play_count": 289600,
+        "share_count": 109
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 11208.96,
+        "window_units_sold": 249
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694347070299311374",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUDYJEBIBXpQfB0YwivAAYAA5i3mA1BCjyaIcH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694347070299311374",
+        "published_at": 1791479815,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lacomadrelulu/video/7694347070299311374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "izasfaves",
+        "creator_uid": "7569704470634333239"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 2048,
+        "play_count": 641400,
+        "share_count": 62
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 8259.78,
+        "window_units_sold": 203
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665880443446643999",
+      "video_meta": {
+        "caption_text": "love this set #twopieceset #workoutset #yogaset #pilatesoutfit @Kiko From Innomintyoga ",
+        "cover_url": "https://s.500fd.com/tt_video/ogVzaBFm0vREarIasVKG0BREiiAyKAIAbINib~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665880443446643999",
+        "published_at": 1784851891,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@izasfaves/video/7665880443446643999"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lacomadrelulu",
+        "creator_uid": "6754042045205087238"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 8148,
+        "play_count": 113700,
+        "share_count": 35
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 8320,
+        "window_units_sold": 183
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694546812358675726",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oY1rIIZCABiRpwxXJhnAfic2FBpbxIS8IEZOuG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694546812358675726",
+        "published_at": 1791526337,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lacomadrelulu/video/7694546812358675726"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "titleykm",
+        "creator_uid": "6725205872724083717"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 104,
+        "play_count": 15000,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 6718.72,
+        "window_units_sold": 183
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670543971298381086",
+      "video_meta": {
+        "caption_text": "this layer trend is my favorite \ud83e\udd2d\ud83c\udf38",
+        "cover_url": "https://s.500fd.com/tt_video/oEAcAPSOaihioCZCI1iB2zv1IznFA9W5iqzeHI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670543971298381086",
+        "published_at": 1785937716,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@titleykm/video/7670543971298381086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "southernblondies",
+        "creator_uid": "6998276643681256453"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 13,
+        "play_count": 1102,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 6202.82,
+        "window_units_sold": 173
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677776735215045918",
+      "video_meta": {
+        "caption_text": "Pick your color!\u2019 Insanely good and affordable! #pilates #yogaset #leggingsoutfit #gymtok #gymfit @INNO MINT YOGA ",
+        "cover_url": "https://s.500fd.com/tt_video/ocVNEaFDAfVQKJFMEADAIFjkRxqA8CCEAPEif1.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677776735215045918",
+        "published_at": 1787621714,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@southernblondies/video/7677776735215045918"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "southernblondies",
+        "creator_uid": "6998276643681256453"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 6,
+        "play_count": 971,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496203773208987747",
+        "window_gmv": 5647.29,
+        "window_units_sold": 154
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673626729885240606",
+      "video_meta": {
+        "caption_text": "every color is needed! #pilatesoutfit #foryoupage #matchingset #gymwear #leggingsoutfit @INNO MINT YOGA ",
+        "cover_url": "https://s.500fd.com/tt_video/oAgegVQeGMUfA7GpKLjoemL0MUuRnI2AUVGuFW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673626729885240606",
+        "published_at": 1786655464,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@southernblondies/video/7673626729885240606"
+      }
+    }
+  ]
+}

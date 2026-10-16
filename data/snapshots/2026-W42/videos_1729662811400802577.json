@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729662811400802577",
+  "time_range_days": 90,
+  "total": 356,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "christopher_finds",
+        "creator_uid": "7315672820171965486"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 14,
+        "play_count": 4743,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 4013.58,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667756607643634957",
+      "video_meta": {
+        "caption_text": "My cats are going to love this #catscratcher #catmom ",
+        "cover_url": "https://s.500fd.com/tt_video/o8gIBAv7BBWNrpdpZsixwwIiIAzyCqIfC0A1RK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667756607643634957",
+        "published_at": 1785288729,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7667756607643634957"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "christopher_finds",
+        "creator_uid": "7315672820171965486"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 52,
+        "play_count": 34900,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 3706.77,
+        "window_units_sold": 91
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676161107576343821",
+      "video_meta": {
+        "caption_text": "This cat tower is huge #catmom ",
+        "cover_url": "https://s.500fd.com/tt_video/ow9BIgLZ9fk5fmuOHEGAQbDVjrVAZCEIumILe9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676161107576343821",
+        "published_at": 1787245547,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7676161107576343821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lovenunucat",
+        "creator_uid": "7038403815080625158"
+      },
+      "engagement_metrics": {
+        "comment_count": 470,
+        "like_count": 96794,
+        "play_count": 280229,
+        "share_count": 3081
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 3178.08,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683925425550085406",
+      "video_meta": {
+        "caption_text": "Did you know 99.9% of the calico cats are girls? Beanie is a girl \ud83e\udd70#calicocat #munchkincat #catsoftiktok #sillykitty #funnypets ",
+        "cover_url": "https://s.500fd.com/tt_video/oYQFQEImjkoRAwGV5LN6e933uGKI1IIAqfZwCf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683925425550085406",
+        "published_at": 1789053315,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lovenunucat/video/7683925425550085406"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "christopher_finds",
+        "creator_uid": "7315672820171965486"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1744,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 2499.61,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668385986199489806",
+      "video_meta": {
+        "caption_text": "Cat scratch Tower that\u2019s actually affordable ",
+        "cover_url": "https://s.500fd.com/tt_video/o4dulyziDQdHsrvhA8FFkkjePCf1UfHQEIAFI1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668385986199489806",
+        "published_at": 1785435258,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7668385986199489806"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "remi.and.the.beans",
+        "creator_uid": "7213452077673759786"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 311,
+        "play_count": 45600,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 2405.06,
+        "window_units_sold": 57
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677691417703075086",
+      "video_meta": {
+        "caption_text": "Replying to @Hazel Rubes YES! The top & bottom peices are exactly the same, so they are interchangeable! If your cats are tearing up your furniture, try these! #catscratcher #scratchingpost #catmusthaves #catscratchingpost #cats ",
+        "cover_url": "https://s.500fd.com/tt_video/oUIAZqZEeCKAugRImcQAEFEDPRDA6jAYKfqD4S~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677691417703075086",
+        "published_at": 1787601861,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@remi.and.the.beans/video/7677691417703075086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "beth.reads.books",
+        "creator_uid": "6874712120031642629"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 30,
+        "play_count": 10683,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 2161.19,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665518041458920718",
+      "video_meta": {
+        "caption_text": "Replying to @RonPXP the giant one and the imitation sisal JUST came back in stock and go out of stock often! #catscratcher #scratcher #catfurniture #catbed #catstuff ",
+        "cover_url": "https://s.500fd.com/tt_video/o8JFGpuWh2OQRkffOAgDede8ZtiAQWgMM4IFkY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 68,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665518041458920718",
+        "published_at": 1784767524,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@beth.reads.books/video/7665518041458920718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "remi.and.the.beans",
+        "creator_uid": "7213452077673759786"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 308,
+        "play_count": 59100,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 2201.6,
+        "window_units_sold": 53
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676267462853283086",
+      "video_meta": {
+        "caption_text": "We have 5 of these \ud83d\ude06 If your cats like the scratch your furniture, try these! #catscratcher #scratchingpost #cats #made4pets #backtoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oYIDHqSEHB5XagRqfsIAKFEDRlDphhDTWfDWKS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676267462853283086",
+        "published_at": 1787270304,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@remi.and.the.beans/video/7676267462853283086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "theviralhomefinds",
+        "creator_uid": "7501792745536734250"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 48,
+        "play_count": 14754,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 2051.87,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666230289944841503",
+      "video_meta": {
+        "caption_text": "the best cat scratching posts FINALLY are back! But they will sell out again \ud83d\ude35\u200d\ud83d\udcab #cattoy #catengagement #catlover #catsoftiktok #made4pets ",
+        "cover_url": "https://s.500fd.com/tt_video/o4eGIAeeUjIAP6GBR3AfElLIdtAzApj9GqQ6Jo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666230289944841503",
+        "published_at": 1784933341,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@theviralhomefinds/video/7666230289944841503"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "valentinagm609",
+        "creator_uid": "7378571439794013227"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 24,
+        "play_count": 2161,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 1774.28,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671655745443663117",
+      "video_meta": {
+        "caption_text": "Lo mejor de todo es que mientras se rasca se puede estirar \ud83d\ude0d\ud83d\udc31 #petlover #catsoftiktok #tiktokshopsummersale #made4pets @Made4pets-us ",
+        "cover_url": "https://s.500fd.com/tt_video/oUuOA7GESQUULrfNekeCj1D8NR95ZmInAIHc4I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671655745443663117",
+        "published_at": 1786196591,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@valentinagm609/video/7671655745443663117"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "beth.reads.books",
+        "creator_uid": "6874712120031642629"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 9,
+        "play_count": 5253,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495750018093910289",
+        "window_gmv": 1673.72,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667682070088453390",
+      "video_meta": {
+        "caption_text": "Replying to @Shelli Bell nothing sticking out on top! Hope this answers your question! #catscratcher #scratcher #catfurniture #cattoys #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oMvaFiUIBgApibQB1cEFda4Fo6KmIkAUbBXkq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667682070088453390",
+        "published_at": 1785271381,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@beth.reads.books/video/7667682070088453390"
+      }
+    }
+  ]
+}

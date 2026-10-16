@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732010990527942743",
+  "time_range_days": 90,
+  "total": 657,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "ttsshopfinds",
+        "creator_uid": "7100790905222136878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 270,
+        "play_count": 50000,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 5900.79,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687831858033249549",
+      "video_meta": {
+        "caption_text": "#cheetahprint #fashion ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687831858033249549",
+        "published_at": 1789962865,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7687831858033249549"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttsshopfinds",
+        "creator_uid": "7100790905222136878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 417,
+        "play_count": 85400,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 5437.61,
+        "window_units_sold": 247
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693329565749447949",
+      "video_meta": {
+        "caption_text": "#cheetah #cheetahprint #fashion ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693329565749447949",
+        "published_at": 1791242894,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7693329565749447949"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 24,
+        "play_count": 6129,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 5089.85,
+        "window_units_sold": 246
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690637877268483359",
+      "video_meta": {
+        "caption_text": "This outfit comes with both pieces and is so cute!! ",
+        "cover_url": "https://s.500fd.com/tt_video/oAAXFBErAQRaiOAqBi6VEIQltyvoDXina9Bia~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690637877268483359",
+        "published_at": 1790625120,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7690637877268483359"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttsshopfinds",
+        "creator_uid": "7100790905222136878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 293,
+        "play_count": 50800,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 3641.64,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689654447663893774",
+      "video_meta": {
+        "caption_text": "#fashion #cheetahprint #dress ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689654447663893774",
+        "published_at": 1790387217,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7689654447663893774"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yeseniamatostelle",
+        "creator_uid": "7430540805385782315"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 321,
+        "play_count": 11600,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 3545.05,
+        "window_units_sold": 184
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678876352841403678",
+      "video_meta": {
+        "caption_text": "#paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii #estilo #ideasdeoutfits #oto\u00f1o #BackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/oYEn7HREEEAfWIaQDqdAkifpVBFln2kDNTAmRg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 72,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678876352841403678",
+        "published_at": 1787877737,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yeseniamatostelle/video/7678876352841403678"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "orangeshoppin",
+        "creator_uid": "6852411315647185925"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 839,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 3345.63,
+        "window_units_sold": 170
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693275982739819789",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693275982739819789",
+        "published_at": 1791230421,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@orangeshoppin/video/7693275982739819789"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "megan_swisher86",
+        "creator_uid": "7431285910962783278"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 12,
+        "play_count": 4502,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 3132.76,
+        "window_units_sold": 170
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689164184486956302",
+      "video_meta": {
+        "caption_text": "Adorable leopard dress and it comes with a cozy shirt to wear underneath! #falloutfits #casualdress #leopardprint ",
+        "cover_url": "https://s.500fd.com/tt_video/oIAAsQA9qbVAab0zYeISELaIjHDGwAwkRIeF0f~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689164184486956302",
+        "published_at": 1790273057,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@megan_swisher86/video/7689164184486956302"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexlcookkk",
+        "creator_uid": "6746914700951241734"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 11,
+        "play_count": 3866,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 2548.54,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691127030041087246",
+      "video_meta": {
+        "caption_text": "So budget-friendly too \ud83e\udd0e #womensfashion #womensclothing #falloutfit #fallfashion #winterfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ocf1AgAC1iDfVBCRwfbffBifL9xjXpf7axi3MIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691127030041087246",
+        "published_at": 1790730067,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexlcookkk/video/7691127030041087246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maggi_arroyo",
+        "creator_uid": "7326014813251994670"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 1967,
+        "play_count": 169684,
+        "share_count": 147
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 2379.24,
+        "window_units_sold": 122
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681051869677964574",
+      "video_meta": {
+        "caption_text": "Ahora que est\u00e1 en tendencia el \u00e1nima print. Aparte el vestido es ideal para el oto\u00f1o. Es perfecto, incluye la blusa que es una muy buena opci\u00f3n. Ord\u00e9nalo antes de qu\u00e9 se agote\u2026 #dress #vestido #oto\u00f1o #sohochic #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/oAfEYlEAiABiA9Av4GBbK1IATEAoolIGEiQCCI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681051869677964574",
+        "published_at": 1788384266,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maggi_arroyo/video/7681051869677964574"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexlcookkk",
+        "creator_uid": "6746914700951241734"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 7,
+        "play_count": 2420,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651858881803817047",
+        "window_gmv": 2265.67,
+        "window_units_sold": 106
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691433066841115918",
+      "video_meta": {
+        "caption_text": "Comes in other colors too \ud83e\udd0e #womensfashion #womensclothing #fallfashion #winterfashion #fashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oYbpPCpB1Ad0vPiiiQtrmAE7CBc9fXjwkIIbOD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691433066841115918",
+        "published_at": 1790801337,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexlcookkk/video/7691433066841115918"
+      }
+    }
+  ]
+}

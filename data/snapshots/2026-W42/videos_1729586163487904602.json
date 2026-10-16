@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729586163487904602",
+  "time_range_days": 90,
+  "total": 122,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 10186,
+        "play_count": 331793,
+        "share_count": 705
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3021,
+        "window_units_sold": 57
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694364466443488526",
+      "video_meta": {
+        "caption_text": "Perfect Costume!!!#fyp\u30c4 #viralvideo #tiktokblowthisup #viral #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/o4BDPrbRnF3f8AGH9rAAevgO8vYYjHjee4hv6I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694364466443488526",
+        "published_at": 1791483859,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7694364466443488526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 22420,
+        "play_count": 217315,
+        "share_count": 1745
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2703,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694364343516859661",
+      "video_meta": {
+        "caption_text": "Work Work Work !!!#fyp\u30c4 #viralvideo #tiktokblowthisup #viral #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/o8pyIQHEjkGfPeDO3AE7oItjIAEVJfD1mq8HFC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694364343516859661",
+        "published_at": 1791483848,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7694364343516859661"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 4367,
+        "play_count": 105300,
+        "share_count": 402
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3249,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688380681696709919",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oIuoZDqDVCnsj4rFEL6TUAIEIIfyfZTApjIayf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688380681696709919",
+        "published_at": 1790090657,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7688380681696709919"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nelliemarie143",
+        "creator_uid": "6794248101245076485"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 4639,
+        "play_count": 199100,
+        "share_count": 938
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2498.7,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681397492675579149",
+      "video_meta": {
+        "caption_text": "Halloween costume \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83e\udd70\ud83e\udd70.. soo hott can\u2019t believe it\u2019s Halloween time already. I\u2019m wearing a medium #halloweencostume #halloween #2026halloweencostumes ",
+        "cover_url": "https://s.500fd.com/tt_video/o8vAmiOIBgAZiDWwRmElCa4zB9ApEoAkTBznd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681397492675579149",
+        "published_at": 1788472200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nelliemarie143/video/7681397492675579149"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 2008,
+        "play_count": 51800,
+        "share_count": 158
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2541.8,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688439663354268959",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogw30a5eGIGyryZVAKLCqyjzWCe9VnIIIhAeIZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688439663354268959",
+        "published_at": 1790104364,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7688439663354268959"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 100,
+        "like_count": 95757,
+        "play_count": 1452579,
+        "share_count": 7300
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2810.8,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677691090006297886",
+      "video_meta": {
+        "caption_text": "halloween is in 30 minutes btw",
+        "cover_url": "https://s.500fd.com/tt_video/ooto3Cm0V2Id3mYMCfFEAKDfIGAj2aLIIWfaqU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677691090006297886",
+        "published_at": 1787601779,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7677691090006297886"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 1219,
+        "play_count": 21851,
+        "share_count": 92
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1219,
+        "window_units_sold": 23
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694364499238800654",
+      "video_meta": {
+        "caption_text": "OBSESSED \ud83d\udd28\ud83d\ude9c#fyp\u30c4 #viralvideo #tiktokblowthisup #viral #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/oUr1eXRcgIEPKWDO3vrRPGeFHgboIA2eAAqLeG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694364499238800654",
+        "published_at": 1791483872,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7694364499238800654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nelliemarie143",
+        "creator_uid": "6794248101245076485"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 506,
+        "play_count": 35093,
+        "share_count": 95
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1780.6,
+        "window_units_sold": 22
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684560322694319374",
+      "video_meta": {
+        "caption_text": "I love it \u2026 soooo adorable. Halloween is really next month. #halloween #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ocADKLRZVSeoGFaUjeqChKIdAkIfH18Q7V4vIQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684560322694319374",
+        "published_at": 1789229160,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nelliemarie143/video/7684560322694319374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "imaniiibrooks",
+        "creator_uid": "7595199658940498957"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 2292,
+        "play_count": 167300,
+        "share_count": 319
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1562,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689678947902115102",
+      "video_meta": {
+        "caption_text": "#halloweencostume #costumeinspo #halloween #costumeideas #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/oAtKUByE6Di5iRevCA73vq1lOSI4WABOiItABB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689678947902115102",
+        "published_at": 1790392913,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@imaniiibrooks/video/7689678947902115102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 241,
+        "play_count": 12721,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1060,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694364417206521101",
+      "video_meta": {
+        "caption_text": "SO READY \ud83d\udd28\ud83d\ude9c\ud83d\udd29#fyp\u30c4 #viralvideo #tiktokblowthisup #viral #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/ok2H95GILLoRjvPfbjocACqIgguIQkEeAV7fxI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694364417206521101",
+        "published_at": 1791483849,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7694364417206521101"
+      }
+    }
+  ]
+}

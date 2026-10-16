@@ -3,7 +3,7 @@
   "product_id": "1729404448458052442",
   "title": "Bite The Boyfriend Costume",
   "clean_title": "Bite The Boyfriend Costume",
-  "image_url": "/img/product_1729404448458052442.jpg",
+  "image_url": "https://s.500fd.com/tt_product/0a46ffe9d7154a9a8ac6e45186562dbf~tplv-omjb5zjo8w-resize-jpeg:800:800.jpeg",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729404448458052442",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Bite%20The%20Boyfriend%20Costume",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729404448458052442",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7688436117233749262",
+      "cover_url": "https://s.500fd.com/tt_video/okzKEyQZAf5jAQZfV2QFOhFJI2HlkZfnCrGyDw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7688436117233749262",
+      "creator_handle": "its_leah0912",
+      "play_count": 703800,
+      "window_gmv": 5510.38,
+      "window_units_sold": 89,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7686678405059841311",
+      "cover_url": "https://s.500fd.com/tt_video/o88MvAesqWQEiIjNIJAfQ0LIDe3G3VZqGUIRCV~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@zoraidasdiary/video/7686678405059841311",
+      "creator_handle": "zoraidasdiary",
+      "play_count": 177800,
+      "window_gmv": 5393.49,
+      "window_units_sold": 85,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7688135017872117022",
+      "cover_url": "https://s.500fd.com/tt_video/ooAfIIEVqQnubjfAhZG8CWfYrMOcl3BMJv750A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dollskill/video/7688135017872117022",
+      "creator_handle": "dollskill",
+      "play_count": 26750,
+      "window_gmv": 3421.2,
+      "window_units_sold": 56,
+      "is_ad": true,
+      "duration_seconds": 5
+    },
+    {
+      "video_id": "7678726872552852749",
+      "cover_url": "https://s.500fd.com/tt_video/oMGgqfAQIvGAIkeLKdEKEVoLMA8HjIAAI8uRed~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lesly.baez/video/7678726872552852749",
+      "creator_handle": "lesly.baez",
+      "play_count": 593400,
+      "window_gmv": 2817.64,
+      "window_units_sold": 45,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7690745204726304030",
+      "cover_url": "https://s.500fd.com/tt_video/oIBDRBAzAGi4EymAsEAlBRijI97vraCCA5BAE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dollskill/video/7690745204726304030",
+      "creator_handle": "dollskill",
+      "play_count": 40687,
+      "window_gmv": 2562,
+      "window_units_sold": 43,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7676531613475360030",
+      "cover_url": "https://s.500fd.com/tt_video/oM2RgiEE9A4puRVbEnTdCeAIDfApFEASICAqIQ~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7676531613475360030",
+      "creator_handle": "maes_outfits",
+      "play_count": 1428757,
+      "window_gmv": 2373.05,
+      "window_units_sold": 43,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "jennifersbody",
+        "weight": 297
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 162
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 158
+      },
+      {
+        "hashtag": "meganfox",
+        "weight": 128
+      },
+      {
+        "hashtag": "fyp\u30c4",
+        "weight": 89
+      },
+      {
+        "hashtag": "foryoupage",
+        "weight": 89
+      },
+      {
+        "hashtag": "viralvideo",
+        "weight": 89
+      },
+      {
+        "hashtag": "tiktokblowthisup",
+        "weight": 89
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "Ugh I love her \ud83d\ude0d",
+      "are you Halloween ready?",
+      "the backpack everyone wants \ud83d\ude33"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

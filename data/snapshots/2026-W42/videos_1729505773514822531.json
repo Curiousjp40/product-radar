@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729505773514822531",
+  "time_range_days": 90,
+  "total": 2614,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "delanacrook",
+        "creator_uid": "6754046915803169797"
+      },
+      "engagement_metrics": {
+        "comment_count": 76,
+        "like_count": 3877,
+        "play_count": 1800000,
+        "share_count": 1161
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 28249.47,
+        "window_units_sold": 525
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680687402301639949",
+      "video_meta": {
+        "caption_text": "runnn",
+        "cover_url": "https://s.500fd.com/tt_video/oMilDfgREE5SQJS1qGqgFBqXQgR0A2iKeDZHX6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680687402301639949",
+        "published_at": 1788299412,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7680687402301639949"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "delanacrook",
+        "creator_uid": "6754046915803169797"
+      },
+      "engagement_metrics": {
+        "comment_count": 87,
+        "like_count": 3233,
+        "play_count": 1325242,
+        "share_count": 307
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 18491.97,
+        "window_units_sold": 355
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677774224353774862",
+      "video_meta": {
+        "caption_text": "RUNNN",
+        "cover_url": "https://s.500fd.com/tt_video/okUlpIIMqF3XffeWQtV7VAQbRO3Z8MHAOGQiMf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677774224353774862",
+        "published_at": 1787621132,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7677774224353774862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "delanacrook",
+        "creator_uid": "6754046915803169797"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1205,
+        "play_count": 419200,
+        "share_count": 126
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 14045.08,
+        "window_units_sold": 268
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680680917685406989",
+      "video_meta": {
+        "caption_text": "omg RUN",
+        "cover_url": "https://s.500fd.com/tt_video/osBtXrfFGYx61iYCC36AAUpLiSIBQIGwIpOKEE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680680917685406989",
+        "published_at": 1788297902,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@delanacrook/video/7680680917685406989"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brodo.vordo",
+        "creator_uid": "7524431680716276767"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 17,
+        "play_count": 4083,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 7650.23,
+        "window_units_sold": 149
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688802240122948878",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAcgTRHNA7zEBfSqRMaBDI5PPEIZICF0bGvtfD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688802240122948878",
+        "published_at": 1790188789,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brodo.vordo/video/7688802240122948878"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "to0thlessqueen",
+        "creator_uid": "6953733482481861638"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 719,
+        "play_count": 13389,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 7224.64,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685460295925435679",
+      "video_meta": {
+        "caption_text": "I finally got one !!! #comfort #weightedhoodie #fashion ",
+        "cover_url": "https://s.500fd.com/tt_video/osDEnqCijFJIABVgeqrBRGAz0EIdfEoDIoPYwD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685460295925435679",
+        "published_at": 1789410697,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@to0thlessqueen/video/7685460295925435679"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coyotefunn",
+        "creator_uid": "6655769104803332102"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 11,
+        "play_count": 1403,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6606.95,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666256878011174174",
+      "video_meta": {
+        "caption_text": "Comfrt | Minimalist Hoodie, So Soft Oversized Hoodie Cozy vibes for Fallseason \ud83e\ude76\ud83d\udda4#hoodie #comfrtclothing #comfrt #cozy #hoodies @Comfrt ",
+        "cover_url": "https://s.500fd.com/tt_video/osRiVuZBSyBEmB7SiCBSnakAVEIAjAEvFAQgI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666256878011174174",
+        "published_at": 1784939532,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coyotefunn/video/7666256878011174174"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "the_blonde_amazon",
+        "creator_uid": "6610058767143059462"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 213,
+        "play_count": 41192,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6611.75,
+        "window_units_sold": 133
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676616788850789645",
+      "video_meta": {
+        "caption_text": "Honest review on @Comfrt new tall line sweats ! As a 5\u201911 girl ",
+        "cover_url": "https://s.500fd.com/tt_video/oYIZRjCVIEI0SFk61TCDmAEIkdHfAeYlyIifEa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676616788850789645",
+        "published_at": 1787351650,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@the_blonde_amazon/video/7676616788850789645"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jordyn_gunderson",
+        "creator_uid": "6899593008406053893"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 85,
+        "play_count": 14900,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6682.99,
+        "window_units_sold": 124
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684428416870911262",
+      "video_meta": {
+        "caption_text": "YESSS",
+        "cover_url": "https://s.500fd.com/tt_video/ooQfkVcIHCSMZAjhLpgAeLIILkGBLSFCies9wq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 65,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684428416870911262",
+        "published_at": 1789170431,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7684428416870911262"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cokekenz",
+        "creator_uid": "6797460685367395333"
+      },
+      "engagement_metrics": {
+        "comment_count": 69,
+        "like_count": 4121,
+        "play_count": 43000,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 6244.82,
+        "window_units_sold": 122
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690684200550288654",
+      "video_meta": {
+        "caption_text": "using the back camera feels so weird",
+        "cover_url": "https://s.500fd.com/tt_video/ooogUUzLAjmEsfSqRrPBD8l0JEIPICF6PiTufD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 274,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690684200550288654",
+        "published_at": 1790626967,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cokekenz/video/7690684200550288654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3xtracreamcheese",
+        "creator_uid": "19527755"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 991,
+        "play_count": 42800,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495045046260173699",
+        "window_gmv": 5469.59,
+        "window_units_sold": 114
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668046178231061774",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oIg6QS8UQDAvvML4ElFzDRqEjEpggBgaQjfeUE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668046178231061774",
+        "published_at": 1785356154,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7668046178231061774"
+      }
+    }
+  ]
+}

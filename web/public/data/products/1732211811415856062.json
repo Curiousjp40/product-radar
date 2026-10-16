@@ -3,7 +3,7 @@
   "product_id": "1732211811415856062",
   "title": "Crocs Women's Saturday Two-Strap Sandals",
   "clean_title": "Crocs Women's Saturday Two-Strap Sandals",
-  "image_url": "/img/product_1732211811415856062.jpg",
+  "image_url": "https://s.500fd.com/tt_product/c0d62aec01f64663858edae969f81e8c~tplv-fhlh96nyum-origin-image.image",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732211811415856062",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Crocs%20Women%27s%20Saturday%20Two-Strap%20Sandals",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732211811415856062",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678869159924600094",
+      "cover_url": "https://s.500fd.com/tt_video/oQEHA09IkFCAbIaAEVEDrtffIA5dAWt1IqQepj~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7678869159924600094",
+      "creator_handle": "lizbaileyloves",
+      "play_count": 747,
+      "window_gmv": 19610.39,
+      "window_units_sold": 469,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7678008190734175518",
+      "cover_url": "https://s.500fd.com/tt_video/oMaIwkNE9VIUAwBRkEiw66iCs3Dc52bjAvRBo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7678008190734175518",
+      "creator_handle": "lizbaileyloves",
+      "play_count": 855,
+      "window_gmv": 18122.64,
+      "window_units_sold": 430,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7672898970548587789",
+      "cover_url": "https://s.500fd.com/tt_video/oAB8cWUlGEEizW7uFSvnjIABnIaR8Xi5ZgZs4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@xdallas_333/video/7672898970548587789",
+      "creator_handle": "xdallas_333",
+      "play_count": 5200000,
+      "window_gmv": 15246.92,
+      "window_units_sold": 409,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7682414034817256717",
+      "cover_url": "https://s.500fd.com/tt_video/oUIHdqeE7BWX7gRNgpIAuFEDqaDSInCTkfRZwS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@xdallas_333/video/7682414034817256717",
+      "creator_handle": "xdallas_333",
+      "play_count": 3600000,
+      "window_gmv": 10975.63,
+      "window_units_sold": 393,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7677726312072580382",
+      "cover_url": "https://s.500fd.com/tt_video/oYRAzIiBvxwRNn16AahMMEtVQDMDiio9I2B3K~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7677726312072580382",
+      "creator_handle": "lizbaileyloves",
+      "play_count": 572,
+      "window_gmv": 16282.47,
+      "window_units_sold": 381,
+      "is_ad": true,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7677723638375714078",
+      "cover_url": "https://s.500fd.com/tt_video/oAt5ADEEVAFME5DfEA5M2VqQwCRHjApCEIeCAN~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7677723638375714078",
+      "creator_handle": "lizbaileyloves",
+      "play_count": 754,
+      "window_gmv": 13459.03,
+      "window_units_sold": 323,
+      "is_ad": true,
+      "duration_seconds": 30
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "crocs",
+        "weight": 1811
+      },
+      {
+        "hashtag": "crocssandals",
+        "weight": 1014
+      },
+      {
+        "hashtag": "backtoschool",
+        "weight": 881
+      },
+      {
+        "hashtag": "crocssaturday",
+        "weight": 409
+      },
+      {
+        "hashtag": "crocsnewarrivals",
+        "weight": 402
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 261
+      },
+      {
+        "hashtag": "fall",
+        "weight": 261
+      },
+      {
+        "hashtag": "crocsshoes",
+        "weight": 212
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "they now come in the leopard print too!",
+      "Replying to x | \u029f\u1d1c\u0274\u1d00\u0280 \u1d00\u029f\u1d04\u029c\u1d07\u1d0d\u028f \ud83c\udf19",
+      "Replying to | Toddler Boy Mama\ud83d\udc99\ud83e\ude75"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

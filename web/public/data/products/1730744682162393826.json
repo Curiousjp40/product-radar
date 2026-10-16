@@ -3,7 +3,7 @@
   "product_id": "1730744682162393826",
   "title": "Sweetcrispy Official Cute Cotton Donut Sleeping Nest for Small Breeds - Home Use, Curl-up Bolster, Plush Waterproof Faux Fur, Anxiety-Free Nesting Support, Non-Slip Base, Stain Resistant, Low Tumble Dry (Fits Cats & Pups for Deep & Comfortable Sleep)",
   "clean_title": "Sweetcrispy Cute Cotton Donut Sleeping Nest",
-  "image_url": "/img/product_1730744682162393826.jpg",
+  "image_url": "https://s.500fd.com/tt_product/62f9287bf1ee43b7a287fb60553610b9~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7692212089695276319",
-      "cover_url": "/img/video_7692212089695276319.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooQtAVpIpCHMVAj2iqQAGLIIMdGlfgGeiealGq~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@madmompolly/video/7692212089695276319",
       "creator_handle": "madmompolly",
       "play_count": 14965,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7692656587638459678",
-      "cover_url": "/img/video_7692656587638459678.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oc9jEmfDVEpCRfqEhzxEDwScBCmAtE5AFAAvIA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@dulcevause/video/7692656587638459678",
       "creator_handle": "dulcevause",
       "play_count": 6710,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7686035503438761247",
-      "cover_url": "/img/video_7686035503438761247.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oUVCq0fACkADlbhpAAARKjfiEZEFqSEqAEiIcM~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@dulcevause/video/7686035503438761247",
       "creator_handle": "dulcevause",
       "play_count": 4396,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7694372168766852383",
-      "cover_url": "/img/video_7694372168766852383.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oYeegUIGddeQ05kTzr4PRmMgZiLeTGAH3jFV7A~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@madmompolly/video/7694372168766852383",
       "creator_handle": "madmompolly",
       "play_count": 7255,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7688929270915140894",
-      "cover_url": "/img/video_7688929270915140894.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ocEA01FCwBkAAAIn8SIACiiigkBk9WAnofL8HK~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@losverahome/video/7688929270915140894",
       "creator_handle": "losverahome",
       "play_count": 20000,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7679676749659098399",
-      "cover_url": "/img/video_7679676749659098399.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooyA3TR3IAvlR4SPTpiAAhECJEOxiBaRsIEAB~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@kaorigurll/video/7679676749659098399",
       "creator_handle": "kaorigurll",
       "play_count": 185100,
@@ -164,5 +164,16 @@
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      4,
+      2
+    ]
+  }
 }

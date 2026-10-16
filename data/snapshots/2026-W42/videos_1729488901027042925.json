@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729488901027042925",
+  "time_range_days": 90,
+  "total": 261,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "thelifeofbre",
+        "creator_uid": "6911822262753346566"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 716,
+        "play_count": 151100,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 21730,
+        "window_units_sold": 171
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689182786153991438",
+      "video_meta": {
+        "caption_text": "It\u2019s a must !!! #fyp #viral #mattress #bedframe ",
+        "cover_url": "https://s.500fd.com/tt_video/oUQjOaIVAfRWeqkhID4V7bAgGeA3LHNw3C6Vug~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689182786153991438",
+        "published_at": 1790277389,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thelifeofbre/video/7689182786153991438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "autumndrews",
+        "creator_uid": "6607580"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 57,
+        "play_count": 26136,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 11114,
+        "window_units_sold": 92
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677622953105788174",
+      "video_meta": {
+        "caption_text": "Replying to @\u272c #bed #mattress #mattressinabox #beddingdecor #newmattress ",
+        "cover_url": "https://s.500fd.com/tt_video/ocPTESVrLDAZZAnjSGF4DRqB6Eeg5BrjImf8ME~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677622953105788174",
+        "published_at": 1787585944,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@autumndrews/video/7677622953105788174"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thelifeofbre",
+        "creator_uid": "6911822262753346566"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 151,
+        "play_count": 23751,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 7114.8,
+        "window_units_sold": 71
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664049886630890765",
+      "video_meta": {
+        "caption_text": "Glad I got this !!! #fyp #viral #tiktokshopsummersale #summervibe #mattress ",
+        "cover_url": "https://s.500fd.com/tt_video/ocJxY8DxIiXYJttBhL1CcBOALINGptrfwAmiRI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664049886630890765",
+        "published_at": 1784425694,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thelifeofbre/video/7664049886630890765"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sylviaapproved",
+        "creator_uid": "6532062849215266817"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 45,
+        "play_count": 7340,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 5982,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691817257843952927",
+      "video_meta": {
+        "caption_text": "So cloud like! #mattress #shopwithconfidence #tiktokshopcreatorpicks #stressrelief #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/okK8ZDLQmVFtEcHfEAu9mVqkpVRVvAoeEQxBFd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691817257843952927",
+        "published_at": 1790890783,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7691817257843952927"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dani.salfran",
+        "creator_uid": "7517370392262099981"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 95,
+        "play_count": 34200,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 5313,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681076412714978591",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n H\u00edbrido Ergon\u00f3mico de memory foam y resortes individuales. Variedad de modelos y tama\u00f1os. Te llega en caja sellado al vac\u00edo.@Top Furniture #mattress #colchones #colchon #furniture #home ",
+        "cover_url": "https://s.500fd.com/tt_video/o8AfAfWkDEEqFACEbxEVKXILmCVQ0KOAtbRrpA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681076412714978591",
+        "published_at": 1788389981,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7681076412714978591"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sylviaapproved",
+        "creator_uid": "6532062849215266817"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 24,
+        "play_count": 3609,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 4252,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691460591461895454",
+      "video_meta": {
+        "caption_text": "Y lo mejor de todo es que est\u00e1 s\u00faper c\u00f3modo! #colchon #colchones #cama #tiktokshopcreatorpicks #parati ",
+        "cover_url": "https://s.500fd.com/tt_video/owAMQRrqUgTDfG4gDM94Fuj9eYmrZjQOPD2ffA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691460591461895454",
+        "published_at": 1790807738,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7691460591461895454"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sylviaapproved",
+        "creator_uid": "6532062849215266817"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 34,
+        "play_count": 8791,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 3771,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691408410889227551",
+      "video_meta": {
+        "caption_text": "So cloud like! #mattress #bed #tiktokshopcreatorpicks #mattress #stressrelief ",
+        "cover_url": "https://s.500fd.com/tt_video/oUfXBP1CCipqI1X6ID1AiAs9IOIqAWWsWiAM4Z~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691408410889227551",
+        "published_at": 1790795595,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7691408410889227551"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gemrubiio",
+        "creator_uid": "6819509633372472326"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 12,
+        "play_count": 6575,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 2706,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688431731594005791",
+      "video_meta": {
+        "caption_text": "\ud83d\udcaf #ergonomico #memoryfoam #colchonhibrido #homedecor #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oUFENlVeIh3EVnsCllgDfEKRvoAFAAsAApIqQb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688431731594005791",
+        "published_at": 1790102530,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gemrubiio/video/7688431731594005791"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sylviaapproved",
+        "creator_uid": "6532062849215266817"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 13,
+        "play_count": 1376,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 2366,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693239563879255326",
+      "video_meta": {
+        "caption_text": "Soft, firm & supportive ! #mattress #bed #stressrelief #tiktokshopcreatorpicks #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/osaIAgwEBQg4EcqwiiejEHiNDByLv2A4RBBf7V~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693239563879255326",
+        "published_at": 1791221949,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sylviaapproved/video/7693239563879255326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "estherlyn_yepez",
+        "creator_uid": "7314885710296089646"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 1670,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494205326512326253",
+        "window_gmv": 2416,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669240025254481183",
+      "video_meta": {
+        "caption_text": "#home #colchonhibrido #descanso#summervibes  @Top Furniture ",
+        "cover_url": "https://s.500fd.com/tt_video/oARPwdB6YuBIEAVSb7tM5im4oATmniEaA6Rxm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669240025254481183",
+        "published_at": 1785634109,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@estherlyn_yepez/video/7669240025254481183"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1732203153630990581",
   "title": "\u3010Fall Deals\u3011Fluffy Cloud Couch & Mat Bed for Indoor Cats - 3 Styles, All Sizes, Solid Colors, Claw-Safe Fleece, 2:1 Foam+Fiber, Detachable Machine-Wash Cover, 3-Sided Bolster, Head/Neck Cradle, Sleep Support, Anti-Slip Base, Travel-Convenient, L:45\"x37\"",
   "clean_title": "Fall Deals Fluffy Cloud Couch &",
-  "image_url": "/img/product_1732203153630990581.webp",
+  "image_url": "https://s.500fd.com/tt_product/fe77b98e0d2649019d05005e1d72cc77~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732203153630990581",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Fall%20Deals%20Fluffy%20Cloud%20Couch%20%26",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732203153630990581",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7663448285302050079",
+      "cover_url": "https://s.500fd.com/tt_video/oYBUC0NEIZ6LsaEAfAjQtIv2jN0VGIGfIecQhq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7663448285302050079",
+      "creator_handle": "wecharmer_petsofa",
+      "play_count": 859500,
+      "window_gmv": 6828.31,
+      "window_units_sold": 263,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7670693696240700686",
+      "cover_url": "https://s.500fd.com/tt_video/oItqcBB8EDBi5xxFfEAgIEriPezYmznO1BZRSx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fosterkittytrouble/video/7670693696240700686",
+      "creator_handle": "fosterkittytrouble",
+      "play_count": 109300,
+      "window_gmv": 2502.63,
+      "window_units_sold": 97,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7667138936405314847",
+      "cover_url": "https://s.500fd.com/tt_video/ogAOOLtRszGKGTdFjexCkAIEAqIeIbeguUwhgI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7667138936405314847",
+      "creator_handle": "wecharmer_petsofa",
+      "play_count": 29400,
+      "window_gmv": 1912.1,
+      "window_units_sold": 77,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7680945853154086175",
+      "cover_url": "https://s.500fd.com/tt_video/ogElHJIAV8AFFEDMSZRlemf7mODIEBoItD7qhY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lymonline/video/7680945853154086175",
+      "creator_handle": "lymonline",
+      "play_count": 339400,
+      "window_gmv": 2448.32,
+      "window_units_sold": 75,
+      "is_ad": true,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7671250250660580638",
+      "cover_url": "https://s.500fd.com/tt_video/osy1kTDvAAA7AIcBAEitOwKBMfO5xZuiiCBB1I~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7671250250660580638",
+      "creator_handle": "wecharmer_petsofa",
+      "play_count": 92700,
+      "window_gmv": 1706.79,
+      "window_units_sold": 68,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7693325187772665101",
+      "cover_url": "https://s.500fd.com/tt_video/oEBhCfneDDHqFE6EzEELCNIoxBSIPLIgu5Rp4A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@oceanandjaylatv/video/7693325187772665101",
+      "creator_handle": "oceanandjaylatv",
+      "play_count": 19000,
+      "window_gmv": 2731.2,
+      "window_units_sold": 56,
+      "is_ad": false,
+      "duration_seconds": 27
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "summerwinsforeveryyou",
+        "weight": 462
+      },
+      {
+        "hashtag": "pets",
+        "weight": 462
+      },
+      {
+        "hashtag": "tiktokshopdealsforyoudays",
+        "weight": 462
+      },
+      {
+        "hashtag": "funnypets",
+        "weight": 394
+      },
+      {
+        "hashtag": "catsoftiktok",
+        "weight": 317
+      },
+      {
+        "hashtag": "cats",
+        "weight": 97
+      },
+      {
+        "hashtag": "catlover",
+        "weight": 97
+      },
+      {
+        "hashtag": "cattok",
+        "weight": 97
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 24,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "my kitties are completely obsessed with this new cat couch I got them (honestly I would too it looks SO comfy and soft)",
+      "Go shop this dog couch my dog loves it \ud83d\udda4",
+      "This is the most popular piece of cat furniture in my house."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      2,
+      0
+    ]
+  }
 }

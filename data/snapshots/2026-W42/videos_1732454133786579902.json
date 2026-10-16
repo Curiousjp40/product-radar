@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732454133786579902",
+  "time_range_days": 90,
+  "total": 1131,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lizbaileyloves",
+        "creator_uid": "7471253787433976878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 417,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 19479.74,
+        "window_units_sold": 264
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671402175280467230",
+      "video_meta": {
+        "caption_text": "cocoa crocs..shut up & get in my closet \ud83c\udf6b\u2615\ufe0f\ud83c\udf69\ud83c\udf6a @Crocs #backtoschool #fallfashion #fallshoes ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671402175280467230",
+        "published_at": 1786157280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7671402175280467230"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thebethedit",
+        "creator_uid": "7400403973842781227"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 2190,
+        "play_count": 398600,
+        "share_count": 224
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 13376,
+        "window_units_sold": 159
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683024873001717022",
+      "video_meta": {
+        "caption_text": "CROC Loaferettes have my heart \ud83d\udc9c this fall #crocs #loaferette #tiktokshoprestock #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/o89gAIuKj0mgVALef4sPpyQf0vkGICLDqK8I85~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683024873001717022",
+        "published_at": 1788843652,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thebethedit/video/7683024873001717022"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kelseyyyshops",
+        "creator_uid": "7430126996426802219"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 132,
+        "play_count": 25600,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 9448.51,
+        "window_units_sold": 154
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690018984883735821",
+      "video_meta": {
+        "caption_text": "@Crocs #crocs #fallshoes #tiktokshopstockup #CrocsSeptemberSpotlight #crocsshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/ocCuAb2cBFi3TINHQVEDr5fwQegPAewPHk4Rlj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690018984883735821",
+        "published_at": 1790472085,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kelseyyyshops/video/7690018984883735821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "greenreaper.xo",
+        "creator_uid": "6808996774955713542"
+      },
+      "engagement_metrics": {
+        "comment_count": 61,
+        "like_count": 7411,
+        "play_count": 653534,
+        "share_count": 1938
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 7179.58,
+        "window_units_sold": 114
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685897640336248095",
+      "video_meta": {
+        "caption_text": "OBSESSED \ud83d\udda4 if you\u2019re a half size then size down! @Crocs #crocs #falloutfitinspo #altoutfits #altmom #clogs ",
+        "cover_url": "https://s.500fd.com/tt_video/ogbUpBD6EFAsICCqaAEVAyEAErcNfRepq1zCA6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685897640336248095",
+        "published_at": 1789512508,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@greenreaper.xo/video/7685897640336248095"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cynthia_overthinks",
+        "creator_uid": "7363399300083516462"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 1285,
+        "play_count": 235600,
+        "share_count": 278
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 7861.94,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668002485990083871",
+      "video_meta": {
+        "caption_text": "Crocs NEW Clogs\ud83d\udd25 #crocs #clogs #tiktokshopsummersale #crocsnewarrivals #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/ooLjGIAEIHUC6CI2QCUREqLqY1evbIeGVfAq9n~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668002485990083871",
+        "published_at": 1785345973,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cynthia_overthinks/video/7668002485990083871"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aestheticmomstyle",
+        "creator_uid": "6809008923087012870"
+      },
+      "engagement_metrics": {
+        "comment_count": 216,
+        "like_count": 21200,
+        "play_count": 1300000,
+        "share_count": 6941
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 7815.11,
+        "window_units_sold": 100
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675341801003257102",
+      "video_meta": {
+        "caption_text": "Crocs Loaferette \ud83d\udda4\u2728 #crocs #crocsnewarrivals #tiktokshopcreatorpicks #tiktokshopcreatorfinds #tiktokshopbacktoschool @Crocs  ",
+        "cover_url": "https://s.500fd.com/tt_video/oE7kovKk80vAiECA6EgAaBuEkOAI45YBiSsWR~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675341801003257102",
+        "published_at": 1787054823,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aestheticmomstyle/video/7675341801003257102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahlynnewithtwins",
+        "creator_uid": "7400864291073655851"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 125,
+        "play_count": 35233,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 6715.86,
+        "window_units_sold": 98
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682923008683429133",
+      "video_meta": {
+        "caption_text": "I can\u2019t get over how cute these new crocs are!! #crocs #crocsloaferette #crocsspotlightday #crocs #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/osfJkcGJQLADQsCPAHIkSOIbH6nrejJfVWdcAJ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682923008683429133",
+        "published_at": 1788819927,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7682923008683429133"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juniperheartsit",
+        "creator_uid": "7345291321428558891"
+      },
+      "engagement_metrics": {
+        "comment_count": 52,
+        "like_count": 1646,
+        "play_count": 259700,
+        "share_count": 236
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 6974.13,
+        "window_units_sold": 93
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664272969455258911",
+      "video_meta": {
+        "caption_text": "The new Y2K studded crocs are true to size but they\u2019re already selling out \ud83d\ude2b check if you get the studded ones! Some just come with jibbitz holes in these Crocs Loaferette clogs! #loaferette #y2kstyle #studdedshoes #crocssuperbrandday #carbongrey ",
+        "cover_url": "https://s.500fd.com/tt_video/oMf45AgeeUI3KIQpycLeQFA4579X2QQ3GbGERR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664272969455258911",
+        "published_at": 1784477636,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juniperheartsit/video/7664272969455258911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "greenreaper.xo",
+        "creator_uid": "6808996774955713542"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 368,
+        "play_count": 51900,
+        "share_count": 94
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5734.03,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691052244317310239",
+      "video_meta": {
+        "caption_text": "OBSESSED \ud83d\udda4 yes you can add charms and true to size! Half sizes can size down @Crocs #crocs #crocsclogs #altoutfits #altmom #falloutfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/o4EACIA7XoBbwAIlOAAwBEaVGc81gR0i1yirP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691052244317310239",
+        "published_at": 1790712670,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@greenreaper.xo/video/7691052244317310239"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cynthia_overthinks",
+        "creator_uid": "7363399300083516462"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 452,
+        "play_count": 19400,
+        "share_count": 66
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5294.23,
+        "window_units_sold": 85
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687636172042030350",
+      "video_meta": {
+        "caption_text": "New Crocs! #crocs #crocsseptemberspotlight #clogs ",
+        "cover_url": "https://s.500fd.com/tt_video/osKvIQ3gM7dDfJedAQ8HAtAAfWj8AqORlZEG8f~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687636172042030350",
+        "published_at": 1789917309,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cynthia_overthinks/video/7687636172042030350"
+      }
+    }
+  ]
+}

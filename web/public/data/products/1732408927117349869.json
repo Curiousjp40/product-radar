@@ -3,7 +3,7 @@
   "product_id": "1732408927117349869",
   "title": "2026 Upgraded Cordless Vacuum Compression Bag Set, 24 Pack 3 Sizes  Travel Storage Bags, USB Rechargeable Handheld Pump, Waterproof Reusable Space Saver Zipper Pouches for Luggage Suitcase Clothes Carry-On Packing",
   "clean_title": "2026 Upgraded Cordless Vacuum Compression Bag",
-  "image_url": "/img/product_1732408927117349869.webp",
+  "image_url": "https://s.500fd.com/tt_product/c1c87c60015744d78f4f1ff08cf05e3e~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732408927117349869",
   "tiktok_search_url": "https://www.tiktok.com/search?q=2026%20Upgraded%20Cordless%20Vacuum%20Compression%20Bag",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732408927117349869",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7667545728616647950",
+      "cover_url": "https://s.500fd.com/tt_video/oUqvSYoP9B1IJAFRsDKILI8FQaErgvfJuhmDEe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jakesrandomvibes1/video/7667545728616647950",
+      "creator_handle": "jakesrandomvibes1",
+      "play_count": 9772,
+      "window_gmv": 512.73,
+      "window_units_sold": 27,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7664591419251739917",
+      "cover_url": "https://s.500fd.com/tt_video/oAuQAIeKj7oQUAGeexCvaCZJyl2GICLvkxmHAt~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jakesrandomvibes1/video/7664591419251739917",
+      "creator_handle": "jakesrandomvibes1",
+      "play_count": 21900,
+      "window_gmv": 132.93,
+      "window_units_sold": 7,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7668918864687811854",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@kcessentialsreal/video/7668918864687811854",
+      "creator_handle": "kcessentialsreal",
+      "play_count": 306,
+      "window_gmv": 94.95,
+      "window_units_sold": 5,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7694315905567804686",
+      "cover_url": "https://s.500fd.com/tt_video/oMeneS7X2VF7QAIgsfvL9I5GCpnQjQjHdxkAHH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bolloamericano/video/7694315905567804686",
+      "creator_handle": "bolloamericano",
+      "play_count": 1431,
+      "window_gmv": 139.38,
+      "window_units_sold": 4,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7684799132057308429",
+      "cover_url": "https://s.500fd.com/tt_video/oQxJnoEQQHAVrMSfhyFkLvF7uFQ7eIAEDCejD8~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@www.tiktok.comdalgis/video/7684799132057308429",
+      "creator_handle": "www.tiktok.comdalgis",
+      "play_count": 1123,
+      "window_gmv": 75.96,
+      "window_units_sold": 4,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7685193163799153933",
+      "cover_url": "https://s.500fd.com/tt_video/oYCvAK7TLLasJIpGgVIGRgecgdefAUyIHkdDoj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@john_1610/video/7685193163799153933",
+      "creator_handle": "john_1610",
+      "play_count": 2076,
+      "window_gmv": 58.39,
+      "window_units_sold": 3,
+      "is_ad": true,
+      "duration_seconds": 15
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "travelhacks",
+        "weight": 39
+      },
+      {
+        "hashtag": "luggageorganization",
+        "weight": 27
+      },
+      {
+        "hashtag": "travelsolutions",
+        "weight": 27
+      },
+      {
+        "hashtag": "vacuumsealer",
+        "weight": 27
+      },
+      {
+        "hashtag": "spacesaving",
+        "weight": 27
+      },
+      {
+        "hashtag": "moras",
+        "weight": 15
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 13
+      },
+      {
+        "hashtag": "organizaciondeviaje",
+        "weight": 9
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 8,
+      "hour_end": 10
+    },
+    "top_hooks": [
+      "Packing your bags is now a breeze, thanks to the vacuum pump!",
+      "You\u2019re not gonna believe this \u2014 it\u2019s 50% off right now.",
+      "Travel vacuum bag set with cordless vacuum."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.5,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

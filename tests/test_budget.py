@@ -1,6 +1,16 @@
+from datetime import date
+
 import pytest
 
-from engine.budget import BudgetExceeded, BudgetTracker, check_balance, credits_used_for_week, write_ledger_row
+from engine.budget import (
+    BudgetExceeded,
+    BudgetTracker,
+    check_balance,
+    credits_used_for_week,
+    dynamic_weekly_budget,
+    mondays_remaining,
+    write_ledger_row,
+)
 from engine.client import FixtureReplayClient
 from engine.db import connect
 
@@ -76,3 +86,51 @@ def test_budget_tracker_without_conn_does_not_touch_the_db():
     tracker = BudgetTracker(hard_cap=80, starting_balance=500, run_id="r1")
     tracker.checkpoint("trend", balance_now=490)
     assert tracker.spent == 10
+
+
+def test_mondays_remaining_real_case_2026_10_15_to_reset():
+    # the real case this was added for: 283 credits, 4 Mondays before the
+    # 2026-11-15 reset (Oct 19, 26, Nov 2, Nov 9).
+    assert mondays_remaining(date(2026, 10, 15), date(2026, 11, 15)) == 4
+
+
+def test_mondays_remaining_counts_today_if_it_is_a_monday():
+    monday = date(2026, 10, 19)
+    assert mondays_remaining(monday, date(2026, 10, 26)) == 1
+
+
+def test_mondays_remaining_excludes_the_reset_date_itself():
+    reset_is_a_monday = date(2026, 11, 16)  # a Monday
+    assert mondays_remaining(date(2026, 11, 16), reset_is_a_monday) == 0
+
+
+def test_dynamic_weekly_budget_real_case():
+    # 2026-10-16: balance is now plan (283) + the 2,000-credit top-up = 2283.
+    result = dynamic_weekly_budget(2283, date(2026, 10, 15), date(2026, 11, 15))
+    assert result == {
+        "balance": 2283,
+        "safety_floor_credits": 300,
+        "available_for_weekly_runs": 1983,
+        "mondays_left": 4,
+        "budget_per_run": 495,  # floor(1983 / 4)
+    }
+
+
+def test_dynamic_weekly_budget_never_goes_negative():
+    result = dynamic_weekly_budget(10, date(2026, 10, 15), date(2026, 11, 15))
+    assert result["budget_per_run"] == 0
+    assert result["available_for_weekly_runs"] == 0
+
+
+def test_dynamic_weekly_budget_divides_by_at_least_one_monday():
+    # the day of the reset itself (or later): mondays_remaining is 0, but
+    # the budget must still divide by something, not raise ZeroDivisionError.
+    result = dynamic_weekly_budget(2283, date(2026, 11, 15), date(2026, 11, 15))
+    assert result["mondays_left"] == 1
+    assert result["budget_per_run"] == 1983
+
+
+def test_dynamic_weekly_budget_respects_a_custom_safety_floor():
+    result = dynamic_weekly_budget(2283, date(2026, 10, 15), date(2026, 11, 15), safety_floor_credits=1000)
+    assert result["available_for_weekly_runs"] == 1283
+    assert result["budget_per_run"] == 320  # floor(1283 / 4)

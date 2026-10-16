@@ -3,7 +3,7 @@
   "product_id": "1729452942713197528",
   "title": "Muddy Mat Cloud K-9 Chenille Pet Bed - Round",
   "clean_title": "Muddy Mat Cloud K-9 Chenille Pet",
-  "image_url": "/img/product_1729452942713197528.jpg",
+  "image_url": "https://s.500fd.com/tt_product/27efb38f5dfb45aa805bda6c34a5d74c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729452942713197528",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Muddy%20Mat%20Cloud%20K-9%20Chenille%20Pet",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729452942713197528",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7667391975427018015",
+      "cover_url": "https://s.500fd.com/tt_video/ogGI4NiFJ32rZoqHCGVTD7AIBfAliiBHCA11AI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@smittyyyyyyy1/video/7667391975427018015",
+      "creator_handle": "smittyyyyyyy1",
+      "play_count": 318400,
+      "window_gmv": 5636.91,
+      "window_units_sold": 180,
+      "is_ad": true,
+      "duration_seconds": 72
+    },
+    {
+      "video_id": "7666127725156945183",
+      "cover_url": "https://s.500fd.com/tt_video/oQpE4f4jfAWRDcAIAzkEAVCVjEYFEyTcq86XAB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@leroybrownesq/video/7666127725156945183",
+      "creator_handle": "leroybrownesq",
+      "play_count": 97877,
+      "window_gmv": 3230.25,
+      "window_units_sold": 98,
+      "is_ad": true,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7677071691075292447",
+      "cover_url": "https://s.500fd.com/tt_video/oYAACWSKcXo7cIBlBwIEaKiGBpATaxCViDPR9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@gembosells/video/7677071691075292447",
+      "creator_handle": "gembosells",
+      "play_count": 51463,
+      "window_gmv": 1341.92,
+      "window_units_sold": 41,
+      "is_ad": true,
+      "duration_seconds": 53
+    },
+    {
+      "video_id": "7665793971792203038",
+      "cover_url": "https://s.500fd.com/tt_video/oEl5IVEDVbfEqe0FXqliEqUIx8F6ARAYymB6DA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7665793971792203038",
+      "creator_handle": "lifeover43",
+      "play_count": 743,
+      "window_gmv": 1352.15,
+      "window_units_sold": 40,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7666734171674463519",
+      "cover_url": "https://s.500fd.com/tt_video/oMEre3IAVJAF8EbbbZRcrZfTOYDqEBpQaFHqbL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@paramagician23/video/7666734171674463519",
+      "creator_handle": "paramagician23",
+      "play_count": 10435,
+      "window_gmv": 895.89,
+      "window_units_sold": 28,
+      "is_ad": true,
+      "duration_seconds": 50
+    },
+    {
+      "video_id": "7685035859095162143",
+      "cover_url": "https://s.500fd.com/tt_video/oUaV7RxumAPDMhZicEyBDDBPiaGFAq93I3ILY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lul_mama18/video/7685035859095162143",
+      "creator_handle": "lul_mama18",
+      "play_count": 3166,
+      "window_gmv": 1047.4,
+      "window_units_sold": 26,
+      "is_ad": true,
+      "duration_seconds": 56
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dogbed",
+        "weight": 306
+      },
+      {
+        "hashtag": "dogs",
+        "weight": 278
+      },
+      {
+        "hashtag": "muddymat",
+        "weight": 266
+      },
+      {
+        "hashtag": "dog",
+        "weight": 180
+      },
+      {
+        "hashtag": "muddymatbed",
+        "weight": 180
+      },
+      {
+        "hashtag": "creatorsearchinsights",
+        "weight": 98
+      },
+      {
+        "hashtag": "summerwins",
+        "weight": 98
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 98
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 54,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "I tried the other bed for over a year.",
+      "Muddy Mat CLOUD soft dog bed that\u2019s washable and comfortable Mat",
+      "I never seen a dog bed that can do this!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

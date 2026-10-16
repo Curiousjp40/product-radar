@@ -3,7 +3,7 @@
   "product_id": "1732722698794996331",
   "title": "SMALL CASEPACK. 10.5",
   "clean_title": "SMALL CASEPACK. 10.5",
-  "image_url": "/img/product_1732722698794996331.jpg",
+  "image_url": "https://s.500fd.com/tt_product/ca07a9afc1e24841a0825d502f13d68a~tplv-fhlh96nyum-origin-image.image",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 64,
+    "used_organic_only": true,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      2,
+      4
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732728366472467321",
+  "time_range_days": 90,
+  "total": 32,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 202,
+        "like_count": 8382,
+        "play_count": 1300000,
+        "share_count": 589
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 1062.46,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692189619877580063",
+      "video_meta": {
+        "caption_text": "#tiktokshopblackfriday #shopwithconfidence ",
+        "cover_url": "https://s.500fd.com/tt_video/osBjAbfJB17B1ioCOZ3AA4qkiYIiJEIAIqrP0E~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692189619877580063",
+        "published_at": 1790977469,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7692189619877580063"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 295,
+        "play_count": 47700,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 441.77,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692914782713810206",
+      "video_meta": {
+        "caption_text": "#shopwithconfidence ",
+        "cover_url": "https://s.500fd.com/tt_video/oY6gsP5pwAcAiC786ERAaBUEVzcIALwBiuWCK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692914782713810206",
+        "published_at": 1791146316,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7692914782713810206"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinkerpaige",
+        "creator_uid": "7018984702444061702"
+      },
+      "engagement_metrics": {
+        "comment_count": 87,
+        "like_count": 4962,
+        "play_count": 1000000,
+        "share_count": 371
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 257.86,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690300940322213150",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAeMWF8sbRfa6b2lQEbfQ8ofUv5wqgA4UQzGAM~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690300940322213150",
+        "published_at": 1790537727,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinkerpaige/video/7690300940322213150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 376,
+        "play_count": 60900,
+        "share_count": 20
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 260.91,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692193861090692382",
+      "video_meta": {
+        "caption_text": "Replying to @Megs #tiktokshopblackfriday #shopwithconfidence ",
+        "cover_url": "https://s.500fd.com/tt_video/owWIqQUgAAMbI3ccjLeeFVGCpjgewIItzyivDA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692193861090692382",
+        "published_at": 1790978462,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7692193861090692382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 357,
+        "play_count": 83300,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 401.7,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695558773871545631",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osleIskmAvdjAgyfVggMPYLpIdIwqDedCgPwG0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695558773871545631",
+        "published_at": 1791761913,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7695558773871545631"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mikeythreaddeals",
+        "creator_uid": "7149718797431604267"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 79,
+        "play_count": 31100,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 176.91,
+        "window_units_sold": 19
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694787833835326751",
+      "video_meta": {
+        "caption_text": "#tiktokshop #freeshipping ",
+        "cover_url": "https://s.500fd.com/tt_video/oUI2lINivhgUdJR74VDEIaBjBYutAAVnCiisa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694787833835326751",
+        "published_at": 1791582418,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mikeythreaddeals/video/7694787833835326751"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 22,
+        "play_count": 5645,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 206.85,
+        "window_units_sold": 17
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695558534284512543",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o0QYgGIajOSmAfMV8WeB8iIfct2IJQHAqyD4Cg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695558534284512543",
+        "published_at": 1791761863,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7695558534284512543"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "psychicallykate",
+        "creator_uid": "7501817670201066538"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 4419,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 109.98,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691370915963112735",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o0vku9wEToE7vWTqA2CIRPdF1f24TSEVEDPBAe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691370915963112735",
+        "published_at": 1790786868,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@psychicallykate/video/7691370915963112735"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinkerpaige",
+        "creator_uid": "7018984702444061702"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 80,
+        "play_count": 21300,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 104.93,
+        "window_units_sold": 14
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692128944501427470",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogcfGeoLqQIiRFO97FfFSV0EQjDJjoAFUAf1qV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692128944501427470",
+        "published_at": 1790963368,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinkerpaige/video/7692128944501427470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinkerpaige",
+        "creator_uid": "7018984702444061702"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 39,
+        "play_count": 7168,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494623911779272569",
+        "window_gmv": 101.94,
+        "window_units_sold": 10
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695177135169817886",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogiwPW8iduszC4aBIVCA28PX5IIBIrRKYgE0A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695177135169817886",
+        "published_at": 1791673059,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinkerpaige/video/7695177135169817886"
+      }
+    }
+  ]
+}

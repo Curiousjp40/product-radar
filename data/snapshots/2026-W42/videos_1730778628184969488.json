@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730778628184969488",
+  "time_range_days": 90,
+  "total": 1230,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "chxrish222",
+        "creator_uid": "7124427279506621482"
+      },
+      "engagement_metrics": {
+        "comment_count": 1058,
+        "like_count": 386400,
+        "play_count": 3332812,
+        "share_count": 6101
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 26209.93,
+        "window_units_sold": 1615
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666214492392443167",
+      "video_meta": {
+        "caption_text": "#fypage   ",
+        "cover_url": "https://s.500fd.com/tt_video/owae7LrcAw3jQGAZQiuI5fswbzIIxUfqACCHQo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666214492392443167",
+        "published_at": 1784929664,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chxrish222/video/7666214492392443167"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rositamurcia777",
+        "creator_uid": "7484465200776217646"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 10,
+        "play_count": 443,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 12023.32,
+        "window_units_sold": 830
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7678161705796504862",
+      "video_meta": {
+        "caption_text": "#women 's #plain #dressup  , Summer Cl",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678161705796504862",
+        "published_at": 1787711350,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7678161705796504862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vanearevalo_3",
+        "creator_uid": "6931112642417705989"
+      },
+      "engagement_metrics": {
+        "comment_count": 92,
+        "like_count": 12600,
+        "play_count": 203241,
+        "share_count": 47
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 8863.36,
+        "window_units_sold": 469
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682939090592877855",
+      "video_meta": {
+        "caption_text": "D\u00edgame a qu\u00e9 horas vieron este video y c\u00f3mo estaban cuando lo vieron \ud83e\udd23\ud83e\udd7a #fyp #paratipage #vyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oEhnDf8FEEDVQHSZsEqAFBWfQuR0AJPisEVQ3M~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682939090592877855",
+        "published_at": 1788823667,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vanearevalo_3/video/7682939090592877855"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aurora.alcaraz",
+        "creator_uid": "6746689230338065413"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 1124,
+        "play_count": 22500,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 6254.43,
+        "window_units_sold": 393
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688548042869394719",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688548042869394719",
+        "published_at": 1790129607,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aurora.alcaraz/video/7688548042869394719"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vanearevalo_3",
+        "creator_uid": "6931112642417705989"
+      },
+      "engagement_metrics": {
+        "comment_count": 59,
+        "like_count": 3695,
+        "play_count": 98093,
+        "share_count": 26
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 6018.9,
+        "window_units_sold": 362
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678388035423178014",
+      "video_meta": {
+        "caption_text": "Ayuda las leo en los comentarios \ud83d\ude29\ud83d\ude48\ud83e\ude77\ud83d\udc99#fyp #vyp #reveal ",
+        "cover_url": "https://s.500fd.com/tt_video/oYi6U7j1RAaWiRABi8j4qIHAqdPfIipcCqrAIB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 110,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678388035423178014",
+        "published_at": 1787764037,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vanearevalo_3/video/7678388035423178014"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aurora.alcaraz",
+        "creator_uid": "6746689230338065413"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 6386,
+        "play_count": 177800,
+        "share_count": 179
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 4960.61,
+        "window_units_sold": 322
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7665073930058632478",
+      "video_meta": {
+        "caption_text": "Size s \ud83d\udc9c #outfitideas #summer2026 #summerfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/okUICa5dED0XRVoftqFCAAQERAh8AgvfEACqA9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665073930058632478",
+        "published_at": 1784664112,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aurora.alcaraz/video/7665073930058632478"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zoesecrets4u",
+        "creator_uid": "6913199921245717509"
+      },
+      "engagement_metrics": {
+        "comment_count": 55,
+        "like_count": 59000,
+        "play_count": 1100000,
+        "share_count": 1452
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 4243.64,
+        "window_units_sold": 277
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667783027577064717",
+      "video_meta": {
+        "caption_text": "a literal dream \ud83c\udf80 #summerdress #summerlooks #tiktokshopsummersale #outfitinspo #flowydress ",
+        "cover_url": "https://s.500fd.com/tt_video/oAqpILJP1EJACAB1cBNiNBgiI6BAWFAwIwfKBP~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667783027577064717",
+        "published_at": 1785299400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zoesecrets4u/video/7667783027577064717"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chxrish222",
+        "creator_uid": "7124427279506621482"
+      },
+      "engagement_metrics": {
+        "comment_count": 52,
+        "like_count": 27800,
+        "play_count": 416000,
+        "share_count": 454
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 4231.03,
+        "window_units_sold": 267
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7667976937519713567",
+      "video_meta": {
+        "caption_text": "which style is your favorite? #fypage #CapCut ",
+        "cover_url": "https://s.500fd.com/tt_video/oIIhqEIxfBBbAqA3IPpEBgrqjViIRa8ipO55fZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667976937519713567",
+        "published_at": 1785340030,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chxrish222/video/7667976937519713567"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 226,
+        "play_count": 10819,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 3307.86,
+        "window_units_sold": 205
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677255545870421279",
+      "video_meta": {
+        "caption_text": "Women's Plain Dress, Summer Clothes Women, Casual Sleeveless Backless Dress for Beach Holiday Vacation, Ladies Summer Clothes, Elegance",
+        "cover_url": "https://s.500fd.com/tt_video/oI1AKwLBmBMEYAiIyiVIU03AARC7AnfCQuFBiW~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677255545870421279",
+        "published_at": 1787505720,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7677255545870421279"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aurora.alcaraz",
+        "creator_uid": "6746689230338065413"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1226,
+        "play_count": 41700,
+        "share_count": 48
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647592758759756048",
+        "window_gmv": 2851.74,
+        "window_units_sold": 179
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664368058907053343",
+      "video_meta": {
+        "caption_text": "Such a chic summer dress \ud83d\udc9c #summerfashion #fashiontrends #styleinspo #outfitideas #summer2026 ",
+        "cover_url": "https://s.500fd.com/tt_video/oIhw1ckQBlAiPyT7NEgr2dZhBaIuIXARjCLiV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664368058907053343",
+        "published_at": 1784499762,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aurora.alcaraz/video/7664368058907053343"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730900941669503416",
+  "time_range_days": 90,
+  "total": 307,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "specificallyketchup",
+        "creator_uid": "6849170897968038917"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 7118,
+        "play_count": 127500,
+        "share_count": 28
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 7677.56,
+        "window_units_sold": 599
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685933036155850015",
+      "video_meta": {
+        "caption_text": "Finally won my series. I know you guys are worried about the fan I\u2019m worried too. ",
+        "cover_url": "https://s.500fd.com/tt_video/osEACIA4XTBCnO6VIFC7BIa56Sp3SRRi2Fiqv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 83,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685933036155850015",
+        "published_at": 1789520746,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@specificallyketchup/video/7685933036155850015"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "amarahshoptok",
+        "creator_uid": "7601371343670576141"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 12755,
+        "play_count": 311862,
+        "share_count": 647
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 4046.28,
+        "window_units_sold": 339
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665149025083034911",
+      "video_meta": {
+        "caption_text": "\ud83d\udc60\u2728 @Hugcitar #maxidress #backlessdress #dress #womensfashion #elegantstyle ",
+        "cover_url": "https://s.500fd.com/tt_video/o49EIFfIIwoEV0YBVgXDfEJROkAFCjBAsY4qIC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665149025083034911",
+        "published_at": 1784681601,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@amarahshoptok/video/7665149025083034911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chrystaljoythriving",
+        "creator_uid": "7430534722054636587"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 35,
+        "play_count": 1224,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 4232.08,
+        "window_units_sold": 333
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674335836162264351",
+      "video_meta": {
+        "caption_text": "the color of this dress would look so beautiful at any black tie event",
+        "cover_url": "https://s.500fd.com/tt_video/oEKVY5fCAAAoAjLkAEFZAtqDWfufP9WEIIECAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674335836162264351",
+        "published_at": 1786820567,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chrystaljoythriving/video/7674335836162264351"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "glowdaily18",
+        "creator_uid": "7057434137545049093"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 128,
+        "play_count": 26000,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 4305.94,
+        "window_units_sold": 320
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676486894540147982",
+      "video_meta": {
+        "caption_text": "Stand out gently at upscale night gatherings #eveninggown #dress #ootd #tiktokfashion #reception ",
+        "cover_url": "https://s.500fd.com/tt_video/oEVAkmIUpE3ELALjjHfIGDTAAEIdAzeCOhXGIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676486894540147982",
+        "published_at": 1787366340,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@glowdaily18/video/7676486894540147982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "glowdaily18",
+        "creator_uid": "7057434137545049093"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 34,
+        "play_count": 7682,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 2204.99,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676132847236713742",
+      "video_meta": {
+        "caption_text": "Effortless glamour for late-night dinners #ootd #nightoutfit #curvyfit #tiktokfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/o0RCoFD3AQtfCphCiqgnAjSHWAEEIAa3DxGeEg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676132847236713742",
+        "published_at": 1787280300,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@glowdaily18/video/7676132847236713742"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizdoestts",
+        "creator_uid": "7606125346438005773"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 1975,
+        "play_count": 65700,
+        "share_count": 74
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1673.54,
+        "window_units_sold": 149
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665150879099587871",
+      "video_meta": {
+        "caption_text": "\ud83d\udda4 @Hugcitar #maxidress #weddingguestdress #goingoutoutfit #womensfashion #classystyle ",
+        "cover_url": "https://s.500fd.com/tt_video/oofqXYRdEADYUgZEoFFYQE2iE1VGIABeBlBV2A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665150879099587871",
+        "published_at": 1784682027,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizdoestts/video/7665150879099587871"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "herfashionfinds_",
+        "creator_uid": "7441708407434265646"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 86,
+        "play_count": 2855,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1596.06,
+        "window_units_sold": 137
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7670204036099919117",
+      "video_meta": {
+        "caption_text": "perfection \ud83d\udc57\ud83c\udf89\ud83c\udf38\ud83d\udc95\ud83e\udd73\ud83e\udee7 #dress  ",
+        "cover_url": "https://s.500fd.com/tt_video/owH4IUBCWjQIIDLjefQCbAAkzFAeSdvkQL5ICG~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670204036099919117",
+        "published_at": 1785858576,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@herfashionfinds_/video/7670204036099919117"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "joannakoetter",
+        "creator_uid": "6949619051485463558"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 106,
+        "play_count": 2337,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1483.52,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675780762670501150",
+      "video_meta": {
+        "caption_text": "Someone said it\u2019s giving Ada from Resident evil vibes\ud83d\udde1\ufe0f\ud83e\udd40  #summerdress #darkfeminineenergy ",
+        "cover_url": "https://s.500fd.com/tt_video/oQVEMEFhCIDG6iAAnUAAfdEdqLQqRGTEVAfdsC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675780762670501150",
+        "published_at": 1787156987,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@joannakoetter/video/7675780762670501150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jkozler2",
+        "creator_uid": "6562253574419628038"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 320,
+        "play_count": 29100,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1360.9,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670351300676160798",
+      "video_meta": {
+        "caption_text": "Comes in so many other colors too",
+        "cover_url": "https://s.500fd.com/tt_video/ocfU1GjDIiD5zlaEAHFfwIAfISAbQAEzR2Aq9A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670351300676160798",
+        "published_at": 1785892849,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jkozler2/video/7670351300676160798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "anattsfinds",
+        "creator_uid": "7289158041001706542"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 60,
+        "play_count": 2878,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1253.93,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671762339942665502",
+      "video_meta": {
+        "caption_text": "We are so back \ud83d\udc95 #dress #nightdress #blackdress #formaldress #datenightoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oUkqLTNhAAA9ARFUAEFvdkVDCfVrf05EEECB3I~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671762339942665502",
+        "published_at": 1786221383,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anattsfinds/video/7671762339942665502"
+      }
+    }
+  ]
+}

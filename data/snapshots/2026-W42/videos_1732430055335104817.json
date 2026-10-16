@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732430055335104817",
+  "time_range_days": 90,
+  "total": 883,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 141,
+        "like_count": 82116,
+        "play_count": 5621364,
+        "share_count": 2112
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 6610.61,
+        "window_units_sold": 604
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679182757452467469",
+      "video_meta": {
+        "caption_text": "this was a neeed for fall ",
+        "cover_url": "https://s.500fd.com/tt_video/oEy8CAAfVCHJTrpRElFEAADkIIAjvSAIEAfDkf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679182757452467469",
+        "published_at": 1787949093,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7679182757452467469"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rositamurcia777",
+        "creator_uid": "7484465200776217646"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 666,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 5845.28,
+        "window_units_sold": 552
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680209430352268574",
+      "video_meta": {
+        "caption_text": "#women 's #solid #color Sexy Deep ",
+        "cover_url": "https://s.500fd.com/tt_video/oEqCKHRAcyfGodb0DFHjeHerIEILrKIVAIiQvV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680209430352268574",
+        "published_at": 1788188133,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7680209430352268574"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "paola.shops",
+        "creator_uid": "6798270441569354757"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 15000,
+        "play_count": 938200,
+        "share_count": 387
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 3836.95,
+        "window_units_sold": 400
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676986909016591629",
+      "video_meta": {
+        "caption_text": "#tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/okpFSBpB1AIzFhaiiirRAAErCBcKfRhwIIIwu7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676986909016591629",
+        "published_at": 1787437832,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@paola.shops/video/7676986909016591629"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3xtracreamcheese",
+        "creator_uid": "19527755"
+      },
+      "engagement_metrics": {
+        "comment_count": 56,
+        "like_count": 57100,
+        "play_count": 2300000,
+        "share_count": 1093
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4112.01,
+        "window_units_sold": 398
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672875022901431566",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUEAxI4529BFul6UskD5BIaLhK7t6gOi0kinv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672875022901431566",
+        "published_at": 1786480460,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7672875022901431566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": ".foodgotmewasted",
+        "creator_uid": "7136189762923119659"
+      },
+      "engagement_metrics": {
+        "comment_count": 86,
+        "like_count": 4213,
+        "play_count": 38551,
+        "share_count": 30
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4908.49,
+        "window_units_sold": 396
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682593751742680350",
+      "video_meta": {
+        "caption_text": "Obsessed \ud83e\ude75",
+        "cover_url": "https://s.500fd.com/tt_video/oYWmeAopBqJJiIgVcPLeICANcD8TrUgcjfG1IF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682593751742680350",
+        "published_at": 1788743263,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@.foodgotmewasted/video/7682593751742680350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 62,
+        "like_count": 27200,
+        "play_count": 898000,
+        "share_count": 338
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4402.98,
+        "window_units_sold": 394
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679491236230597901",
+      "video_meta": {
+        "caption_text": "brb need in every colorrr",
+        "cover_url": "https://s.500fd.com/tt_video/o80EVFaOV8Hpeo1mCxFEA7DfIJAjn2CQQkf3kg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679491236230597901",
+        "published_at": 1788020908,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7679491236230597901"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 112,
+        "like_count": 79432,
+        "play_count": 4727311,
+        "share_count": 1925
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4489.83,
+        "window_units_sold": 366
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680227445722680589",
+      "video_meta": {
+        "caption_text": "perfect staple black mini dress (size s)",
+        "cover_url": "https://s.500fd.com/tt_video/oUKaeDlJQASSp9AErDTEnGZAWIERgAFoqrCdkf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680227445722680589",
+        "published_at": 1788192339,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7680227445722680589"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ellaenchantd",
+        "creator_uid": "6751113150467359750"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 2611,
+        "play_count": 133800,
+        "share_count": 25
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 4826.68,
+        "window_units_sold": 339
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693215208453459230",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocqPaBDoAEPIlKisPREiinAyDBBAjAyJBBAyu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693215208453459230",
+        "published_at": 1791216269,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ellaenchantd/video/7693215208453459230"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 9167,
+        "play_count": 1023165,
+        "share_count": 309
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 3457.82,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679866466384137486",
+      "video_meta": {
+        "caption_text": "sooo many compliments on this",
+        "cover_url": "https://s.500fd.com/tt_video/oAETAdcKrXJAjILAQVQMJe8ggAepAvfUHkRvnj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679866466384137486",
+        "published_at": 1788108280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7679866466384137486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ellaenchantd",
+        "creator_uid": "6751113150467359750"
+      },
+      "engagement_metrics": {
+        "comment_count": 56,
+        "like_count": 1880,
+        "play_count": 79400,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646959719942030641",
+        "window_gmv": 3823.92,
+        "window_units_sold": 276
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693379618795048222",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/os7ESYPBQ50EVkxBWEGDfE0R9UAFEeFAoDbqQm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693379618795048222",
+        "published_at": 1791254542,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ellaenchantd/video/7693379618795048222"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1729386653759476209",
   "title": "FeelinGirl Women V Neck Bodysuit Thong Shapewear Basic Fabric Fashion Womenswear Vneck Body Sculpting Garment  newarrivals SohoChic",
   "clean_title": "FeelinGirl Women V Neck Bodysuit Thong",
-  "image_url": "/img/product_1729386653759476209.jpg",
+  "image_url": "https://s.500fd.com/tt_product/9f10f1c9b6e34abe8017c11c236fa75b~tplv-fhlh96nyum-origin-image.image",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729386653759476209",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FeelinGirl%20Women%20V%20Neck%20Bodysuit%20Thong",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729386653759476209",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7666908892240088351",
+      "cover_url": "https://s.500fd.com/tt_video/oYIAQqfeKiJINRIjnqzUfALo8AsGrDAIAv4bME~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kaymademebuyit/video/7666908892240088351",
+      "creator_handle": "kaymademebuyit",
+      "play_count": 18300,
+      "window_gmv": 20723.92,
+      "window_units_sold": 614,
+      "is_ad": false,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7682276125426470175",
+      "cover_url": "https://s.500fd.com/tt_video/ogQcQHQPG7kcAxGqsLeueOAu6SeRfIHAUB7YFC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@theblackreginageorge22/video/7682276125426470175",
+      "creator_handle": "theblackreginageorge22",
+      "play_count": 2800000,
+      "window_gmv": 13280.59,
+      "window_units_sold": 362,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7672043955827133726",
+      "cover_url": "https://s.500fd.com/tt_video/o8MeDf84IEkqI3kIqFUAFCs4E8jJA7ufVIhBKB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@xxclusive.mae/video/7672043955827133726",
+      "creator_handle": "xxclusive.mae",
+      "play_count": 744,
+      "window_gmv": 7312.1,
+      "window_units_sold": 229,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7677621945541709069",
+      "cover_url": "https://s.500fd.com/tt_video/oYBuAZLjhFuKxEGFQqEDnKfgQfh5gK0uDSMggR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@look_its_britt/video/7677621945541709069",
+      "creator_handle": "look_its_britt",
+      "play_count": 1400000,
+      "window_gmv": 6873.86,
+      "window_units_sold": 197,
+      "is_ad": true,
+      "duration_seconds": 86
+    },
+    {
+      "video_id": "7678714293545733390",
+      "cover_url": "https://s.500fd.com/tt_video/o4QQQFDeRRgkAuDqhFKTfPYQOVhEcExgSkEgBV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@look_its_britt/video/7678714293545733390",
+      "creator_handle": "look_its_britt",
+      "play_count": 1300000,
+      "window_gmv": 6743.07,
+      "window_units_sold": 193,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7682994894524173581",
+      "cover_url": "https://s.500fd.com/tt_video/oYB4Lz8e6upgeUE4J5GeugfPgeeaImLAzSjEgY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@islandgal_5homedecor/video/7682994894524173581",
+      "creator_handle": "islandgal_5homedecor",
+      "play_count": 12000,
+      "window_gmv": 6811.5,
+      "window_units_sold": 188,
+      "is_ad": true,
+      "duration_seconds": 5
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bodysuit",
+        "weight": 972
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 801
+      },
+      {
+        "hashtag": "feelingirl",
+        "weight": 614
+      },
+      {
+        "hashtag": "bangkok",
+        "weight": 614
+      },
+      {
+        "hashtag": "thailand",
+        "weight": 614
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 586
+      },
+      {
+        "hashtag": "theblackreginageorge22",
+        "weight": 510
+      },
+      {
+        "hashtag": "midsizefashion",
+        "weight": 362
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "The body suit had me snatched and this pants were airy & super comfortable \u2728",
+      "Shapeware that you can wear out .",
+      "This feelin girl bodysuit EATS !"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      6,
+      3
+    ]
+  }
 }

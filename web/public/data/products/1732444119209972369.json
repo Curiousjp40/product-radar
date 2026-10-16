@@ -3,7 +3,7 @@
   "product_id": "1732444119209972369",
   "title": "VASAGLE Stable Heavy-Duty Steel Alloy King Size Bed Frame - Modern Furniture for Small Spaces, Apartment Bed Frame, 1100 lb Capacity, No Box Spring Needed, Underbed Storage, Easy Setup, Mattress Retainers, Matte Black, Open Grid Design",
   "clean_title": "VASAGLE Stable Heavy-Duty Steel Alloy King",
-  "image_url": "/img/product_1732444119209972369.webp",
+  "image_url": "https://s.500fd.com/tt_product/738970decfa04ec18e3447b417c28a6d~tplv-fhlh96nyum-crop-webp:1024:1024.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732444119209972369",
   "tiktok_search_url": "https://www.tiktok.com/search?q=VASAGLE%20Stable%20Heavy-Duty%20Steel%20Alloy%20King",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732444119209972369",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7672827806660824350",
+      "cover_url": "https://s.500fd.com/tt_video/o8BeqETIDJ8w1CXYAEfEApBX8FIltUIIjfnjI7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@letsdrillit/video/7672827806660824350",
+      "creator_handle": "letsdrillit",
+      "play_count": 52700,
+      "window_gmv": 8155.11,
+      "window_units_sold": 179,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7668886325348617486",
+      "cover_url": "https://s.500fd.com/tt_video/oEEWQmREIDAf5IhtFqPgzxexSBFujWbDVDYSa0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aywspace_6677/video/7668886325348617486",
+      "creator_handle": "aywspace_6677",
+      "play_count": 109100,
+      "window_gmv": 4022.16,
+      "window_units_sold": 101,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7668485447059836191",
+      "cover_url": "https://s.500fd.com/tt_video/oU6rcxAafAE2Od1GBBRqNuBP7iEViEBcFfpIK4~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@skunkywawa/video/7668485447059836191",
+      "creator_handle": "skunkywawa",
+      "play_count": 1885,
+      "window_gmv": 2923.82,
+      "window_units_sold": 75,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7672141633655295263",
+      "cover_url": "https://s.500fd.com/tt_video/ock49QwEtajfMITIBCFUA7xDAHqEtIYEfOeICw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dave_mvc55/video/7672141633655295263",
+      "creator_handle": "dave_mvc55",
+      "play_count": 105700,
+      "window_gmv": 3170.24,
+      "window_units_sold": 69,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7670290246977867038",
+      "cover_url": "https://s.500fd.com/tt_video/oEANIdBWO9SfwAKtyvXFqa3iHE2iIC1QiIAAHd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dave_mvc55/video/7670290246977867038",
+      "creator_handle": "dave_mvc55",
+      "play_count": 2000000,
+      "window_gmv": 2924.46,
+      "window_units_sold": 64,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7677779587111177502",
+      "cover_url": "https://s.500fd.com/tt_video/oYmZfq19QVf8AXxktFUQKAQ5IFeMFAMfRg98GY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@melissa_mariche/video/7677779587111177502",
+      "creator_handle": "melissa_mariche",
+      "play_count": 24062,
+      "window_gmv": 2725.57,
+      "window_units_sold": 62,
+      "is_ad": true,
+      "duration_seconds": 30
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bedframe",
+        "weight": 394
+      },
+      {
+        "hashtag": "metalbedframe",
+        "weight": 211
+      },
+      {
+        "hashtag": "mvc55",
+        "weight": 133
+      },
+      {
+        "hashtag": "bedframes",
+        "weight": 133
+      },
+      {
+        "hashtag": "beds",
+        "weight": 133
+      },
+      {
+        "hashtag": "vasagle",
+        "weight": 110
+      },
+      {
+        "hashtag": "underbedstorage",
+        "weight": 101
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 101
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 26,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "VASAGLE 16 inch Queen metal platform bed frame with heavy duty steel support, up to 1100 lb capacity, under bed storage, mattress retainers and no box spring needed.",
+      "Nice bed frame",
+      "Nice bed frame"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      1,
+      4
+    ]
+  }
 }

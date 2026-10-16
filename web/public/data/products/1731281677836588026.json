@@ -3,7 +3,7 @@
   "product_id": "1731281677836588026",
   "title": "EL ELENGATINE Women's Plus-Size Denim Shirt Dress - Vintage Oversized Collar, Cotton-Polyester Drape Fabric, Half-Zip, Long Sleeves, Pocket, Streetwear Cute Trendy Clothes for Women, Vintage Clothing, Casual Womens Dresses",
   "clean_title": "EL ELENGATINE Women's Plus-Size Denim Shirt",
-  "image_url": "/img/product_1731281677836588026.webp",
+  "image_url": "https://s.500fd.com/tt_product/1503d8b829c246db81820f452675a738~tplv-fhlh96nyum-crop-webp:1964:1964.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731281677836588026",
   "tiktok_search_url": "https://www.tiktok.com/search?q=EL%20ELENGATINE%20Women%27s%20Plus-Size%20Denim%20Shirt",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731281677836588026",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689238527984389389",
+      "cover_url": "https://s.500fd.com/tt_video/ow3IQ81rwAfjMX0QNFfQAPCkUHaWQnoZVuAfKl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alondrasanchez001/video/7689238527984389389",
+      "creator_handle": "alondrasanchez001",
+      "play_count": 112600,
+      "window_gmv": 7659.78,
+      "window_units_sold": 238,
+      "is_ad": true,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7684722680951606542",
+      "cover_url": "https://s.500fd.com/tt_video/oQElmcwUvAEraeCtABI1mpBTniBJiCAsLsAIk3~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7684722680951606542",
+      "creator_handle": "girlypopscart",
+      "play_count": 765100,
+      "window_gmv": 6291.09,
+      "window_units_sold": 191,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7685554885688823053",
+      "cover_url": "https://s.500fd.com/tt_video/oAwqI2CVHATIdujBOEP4fCVAozYDUFtfRkakfI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@katiannjo_/video/7685554885688823053",
+      "creator_handle": "katiannjo_",
+      "play_count": 2100000,
+      "window_gmv": 6189.05,
+      "window_units_sold": 182,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7689511736344399134",
+      "cover_url": "https://s.500fd.com/tt_video/owRlfABWsoGiliIL1rB09EqCAIK2AIGILd00ia~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@chanellyhailey/video/7689511736344399134",
+      "creator_handle": "chanellyhailey",
+      "play_count": 2243,
+      "window_gmv": 5568.43,
+      "window_units_sold": 166,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7680675130556599565",
+      "cover_url": "https://s.500fd.com/tt_video/oU4UvOdIgWDiC9c6EPLNpcakioYdXaAVBItFB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbysjourney_/video/7680675130556599565",
+      "creator_handle": "shelbysjourney_",
+      "play_count": 127826,
+      "window_gmv": 5048.5,
+      "window_units_sold": 147,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7681416489777270030",
+      "cover_url": "https://s.500fd.com/tt_video/oEaZ7gebzSVAcfBv1cIACLMIjH1GHA6koge8vh~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbysjourney_/video/7681416489777270030",
+      "creator_handle": "shelbysjourney_",
+      "play_count": 99300,
+      "window_gmv": 4448.76,
+      "window_units_sold": 132,
+      "is_ad": true,
+      "duration_seconds": 36
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 277
+      },
+      {
+        "hashtag": "dress",
+        "weight": 277
+      },
+      {
+        "hashtag": "apronbellyfriendly",
+        "weight": 191
+      },
+      {
+        "hashtag": "apronbellystyle",
+        "weight": 191
+      },
+      {
+        "hashtag": "plussizefallfashion",
+        "weight": 191
+      },
+      {
+        "hashtag": "plussizedress",
+        "weight": 191
+      },
+      {
+        "hashtag": "plussizedresses",
+        "weight": 191
+      },
+      {
+        "hashtag": "citytastetest",
+        "weight": 166
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 33,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 12,
+      "hour_end": 14
+    },
+    "top_hooks": [
+      "Me encant\u00f3 este vestido est\u00e1 s\u00faper c\u00f3modo orden\u00e9 talla mediana y me qued\u00f3 s\u00faper bien de lo largo \u2026 soy alta mido 5\u20197",
+      "plus size denim dress \ud83d\udc96",
+      "the new brown version of this work friendly dress is soooo classy + cute\ud83c\udf42\ud83e\udd0e\ud83e\udd29"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

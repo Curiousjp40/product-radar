@@ -3,7 +3,7 @@
   "product_id": "1731583186078437389",
   "title": "Sweetcrispy Floor Mirror Stand Mirror Full Length, With LED Lights and No LED Lights Two styles, LED Floor Mirror styles Dimming & 3 Color Lighting",
   "clean_title": "Sweetcrispy Floor Mirror Stand Mirror Full",
-  "image_url": "/img/product_1731583186078437389.webp",
+  "image_url": "https://s.500fd.com/tt_product/58a399cf717244b39a8da06d60bb8594~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 64,
+    "used_organic_only": true,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      2,
+      4
+    ]
+  }
 }

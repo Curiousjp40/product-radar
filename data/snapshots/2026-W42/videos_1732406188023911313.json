@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732406188023911313",
+  "time_range_days": 90,
+  "total": 1414,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "camille.essence",
+        "creator_uid": "6962646367735038981"
+      },
+      "engagement_metrics": {
+        "comment_count": 192,
+        "like_count": 188700,
+        "play_count": 5100000,
+        "share_count": 4262
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 9617.77,
+        "window_units_sold": 1122
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667253436118797581",
+      "video_meta": {
+        "caption_text": "#y2k #ootd #tiktokshopsummersale #dress #fashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ1giB5MwcxIAEKm1AIBovi1CdBnJ8fjBrAUBA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667253436118797581",
+        "published_at": 1785171564,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@camille.essence/video/7667253436118797581"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juliesofiaa",
+        "creator_uid": "6677989257158689797"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 10500,
+        "play_count": 139500,
+        "share_count": 67
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 8439.3,
+        "window_units_sold": 905
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673902336858770718",
+      "video_meta": {
+        "caption_text": "for everyone asking for my dress I linked it <3",
+        "cover_url": "https://s.500fd.com/tt_video/o8IAfUVI2EyAgAjdooQADFEI2LDg7fAMAf0jaq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673902336858770718",
+        "published_at": 1786719653,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juliesofiaa/video/7673902336858770718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gabiarellanoo",
+        "creator_uid": "6760468416199459845"
+      },
+      "engagement_metrics": {
+        "comment_count": 75,
+        "like_count": 69900,
+        "play_count": 1500000,
+        "share_count": 1770
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 8299.4,
+        "window_units_sold": 857
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683137487866170654",
+      "video_meta": {
+        "caption_text": "#y2k #2000s #cluboutfit #paratii #fyp\u30b7 ",
+        "cover_url": "https://s.500fd.com/tt_video/oMgNnoUAfMbgEDMfMgQA3fWJ9AASeA83QfiABO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683137487866170654",
+        "published_at": 1788908520,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gabiarellanoo/video/7683137487866170654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "marisolgatos",
+        "creator_uid": "6790776336174908422"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 17,
+        "play_count": 1776,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 4157.72,
+        "window_units_sold": 525
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671088199703203102",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4LEEEuDACACJ4jFfAqREAAuEQ1fhdIlSVWBiV.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671088199703203102",
+        "published_at": 1786064412,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@marisolgatos/video/7671088199703203102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "camille.essence",
+        "creator_uid": "6962646367735038981"
+      },
+      "engagement_metrics": {
+        "comment_count": 98,
+        "like_count": 102800,
+        "play_count": 2800000,
+        "share_count": 2434
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 3192.05,
+        "window_units_sold": 392
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670909277426453774",
+      "video_meta": {
+        "caption_text": "#y2k #fashion #tiktokshopsummersale #OOTD #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/okx0Li2TAnmkSgaBI2aiEa4ZEA6AcJiBiAPBO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670909277426453774",
+        "published_at": 1786022757,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@camille.essence/video/7670909277426453774"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "haayits.meri",
+        "creator_uid": "6794405959789347845"
+      },
+      "engagement_metrics": {
+        "comment_count": 456,
+        "like_count": 261900,
+        "play_count": 3600000,
+        "share_count": 3869
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 3776.37,
+        "window_units_sold": 364
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666942313154841869",
+      "video_meta": {
+        "caption_text": "i loveddd this dress (it has shorts underneath) \ud83e\udd0e #vacationoutfits #mexico #vacay #outfitinspo #backtoschooloutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/okdReZEBxAi4nmS4EIOJcDgEDfAPFDAgWCAqnI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666942313154841869",
+        "published_at": 1785099147,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@haayits.meri/video/7666942313154841869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alideckerrr",
+        "creator_uid": "18621207"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1255,
+        "play_count": 71900,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 2798.26,
+        "window_units_sold": 348
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668416671027252494",
+      "video_meta": {
+        "caption_text": "\ud83d\udda4",
+        "cover_url": "https://s.500fd.com/tt_video/ocRBBFDMMTJfLiapMqehAkSXsuQEQVIyD7YvEg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668416671027252494",
+        "published_at": 1785442399,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alideckerrr/video/7668416671027252494"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "camille.essence",
+        "creator_uid": "6962646367735038981"
+      },
+      "engagement_metrics": {
+        "comment_count": 47,
+        "like_count": 43000,
+        "play_count": 1300000,
+        "share_count": 1126
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 2794.82,
+        "window_units_sold": 336
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670910761987869965",
+      "video_meta": {
+        "caption_text": "#y2k #fashion #tiktokshopsummersale #dress #OOTD ",
+        "cover_url": "https://s.500fd.com/tt_video/owaEOA0EMkIVAwBgjPijBxiM3SAAaI9t4vSBn~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670910761987869965",
+        "published_at": 1786023108,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@camille.essence/video/7670910761987869965"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maradiagalpatty",
+        "creator_uid": "6807225685725348869"
+      },
+      "engagement_metrics": {
+        "comment_count": 47,
+        "like_count": 1984,
+        "play_count": 132741,
+        "share_count": 102
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 2388.09,
+        "window_units_sold": 293
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668458947501640974",
+      "video_meta": {
+        "caption_text": "#paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii #fyp\u30b7\u309aviral #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/ookC1nTAp6mGVC4XDYejtbezI0HLr1IUAQeQpU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 70,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668458947501640974",
+        "published_at": 1785452243,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maradiagalpatty/video/7668458947501640974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "avacarpenter",
+        "creator_uid": "6761211689197061126"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 14200,
+        "play_count": 298500,
+        "share_count": 312
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8653744907177268113",
+        "window_gmv": 2847.36,
+        "window_units_sold": 273
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665441512477527326",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQPgaFvEEQDQAQYSRCf5Qn6ARhAMqDV0EFURBf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665441512477527326",
+        "published_at": 1784749703,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@avacarpenter/video/7665441512477527326"
+      }
+    }
+  ]
+}

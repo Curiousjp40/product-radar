@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731208195967717743",
+  "time_range_days": 90,
+  "total": 5710,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dealsbygold",
+        "creator_uid": "7514201877377336366"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 38,
+        "play_count": 16204,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 40192.46,
+        "window_units_sold": 1453
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673300805520231693",
+      "video_meta": {
+        "caption_text": "SALE ENDS TONIGHT\u203c\ufe0f #tiktokshopcreatorpicks #tiktokshopsummersale #tiktokshopbacktoschool #tiktokshopcybermonday #tiktokshopblackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/ogVCoEca1pBa4XN9AyiiwUB7CPAISuLIIgf9po~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673300805520231693",
+        "published_at": 1786579592,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsbygold/video/7673300805520231693"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myriamestrella8",
+        "creator_uid": "7314774908154872874"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 1257,
+        "play_count": 120400,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 40518.63,
+        "window_units_sold": 1284
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677359111436176654",
+      "video_meta": {
+        "caption_text": "Replying to @Book.lovin.Brandy and it got here so fast!!",
+        "cover_url": "https://s.500fd.com/tt_video/oUBDHeeGkEV9jbVIedHGCFbuLEYAxIsALAABIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677359111436176654",
+        "published_at": 1787623200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7677359111436176654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angieeres",
+        "creator_uid": "6999379374965441541"
+      },
+      "engagement_metrics": {
+        "comment_count": 30,
+        "like_count": 20200,
+        "play_count": 143400,
+        "share_count": 98
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 32997.6,
+        "window_units_sold": 1044
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688561449303559455",
+      "video_meta": {
+        "caption_text": "My favoriteeee \ud83e\udd70",
+        "cover_url": "https://s.500fd.com/tt_video/oAAAEEfqVE4H7RKQEKmfBFgstD2Qq0QxOrO8FA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688561449303559455",
+        "published_at": 1790132720,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angieeres/video/7688561449303559455"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatlololikes",
+        "creator_uid": "6712539342751007749"
+      },
+      "engagement_metrics": {
+        "comment_count": 394,
+        "like_count": 15200,
+        "play_count": 5336084,
+        "share_count": 1894
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 30123.09,
+        "window_units_sold": 1005
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667275483377093919",
+      "video_meta": {
+        "caption_text": "Ultra-Soft and works with so many outfits. Truly the best overall cardigan I\u2019ve ever found. \ud83d\udc30#oversizedcardigan #cardigan #fallstyle #workwear #wardrobeessentials ",
+        "cover_url": "https://s.500fd.com/tt_video/o4miIqcITBAno3Cz5ei9iI1FJC3AiAHMI7vbni~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667275483377093919",
+        "published_at": 1785176695,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7667275483377093919"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatlololikes",
+        "creator_uid": "6712539342751007749"
+      },
+      "engagement_metrics": {
+        "comment_count": 150,
+        "like_count": 2050,
+        "play_count": 587600,
+        "share_count": 160
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 23508.3,
+        "window_units_sold": 765
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673589708164779294",
+      "video_meta": {
+        "caption_text": "Replying to @rossettiRM it just keeps getting better \ud83e\udd0d #viralcardigan #oversizedcardigan #oversizedsweater #openfrontcardigan #fallstyle ",
+        "cover_url": "https://s.500fd.com/tt_video/ogepfAMfIQJQADgk8RAAQJAWqC8ze8VJnJqGUI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673589708164779294",
+        "published_at": 1786646842,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7673589708164779294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myriamestrella8",
+        "creator_uid": "7314774908154872874"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 811,
+        "play_count": 54090,
+        "share_count": 26
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 18210.09,
+        "window_units_sold": 608
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665535262797171982",
+      "video_meta": {
+        "caption_text": "OMG",
+        "cover_url": "https://s.500fd.com/tt_video/oUqmEvAEECiWg0hBTAzc8pikByA4PFSABIajA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665535262797171982",
+        "published_at": 1784771534,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7665535262797171982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chelly_15",
+        "creator_uid": "6779389673061204997"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 7689,
+        "play_count": 723600,
+        "share_count": 367
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 18611.13,
+        "window_units_sold": 599
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673574543885077791",
+      "video_meta": {
+        "caption_text": "This grey beige color goes with anything \ud83c\udf42\ud83e\udd0e#fyp#fall#falloutfits#fashiontiktok#cardigans ",
+        "cover_url": "https://s.500fd.com/tt_video/oMp0vbDrIFANQrEfmAEqAAIAItgafjDeU92DAQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673574543885077791",
+        "published_at": 1786643308,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chelly_15/video/7673574543885077791"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealsbygold",
+        "creator_uid": "7514201877377336366"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 1362,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 15371.45,
+        "window_units_sold": 550
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673292309001162014",
+      "video_meta": {
+        "caption_text": "Crazy deal! #tiktokshopcreatorpicks #tiktokshopsummersale #tiktokshopbacktoschool #tiktokshopcybermonday #tiktokshopblackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/ok7QSVpkCAGKEefRFgARaIID9AcUeHCFmbf3sg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673292309001162014",
+        "published_at": 1786577602,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsbygold/video/7673292309001162014"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angieeres",
+        "creator_uid": "6999379374965441541"
+      },
+      "engagement_metrics": {
+        "comment_count": 104,
+        "like_count": 116200,
+        "play_count": 723700,
+        "share_count": 2034
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 17865.14,
+        "window_units_sold": 519
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674720366236814623",
+      "video_meta": {
+        "caption_text": "Knit cardigan in the size M & color grey beige \ud83e\udd0e",
+        "cover_url": "https://s.500fd.com/tt_video/osUEjCAqVgqeIvIyKCBXzskQgVMLMyARjA8fye~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674720366236814623",
+        "published_at": 1786910098,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angieeres/video/7674720366236814623"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chelly_15",
+        "creator_uid": "6779389673061204997"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 7606,
+        "play_count": 568900,
+        "share_count": 437
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495298029896567151",
+        "window_gmv": 16707.22,
+        "window_units_sold": 485
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664686821619633439",
+      "video_meta": {
+        "caption_text": "\ud83c\udf42\ud83c\udf41\u2615\ufe0f#fyp#cardigans#fall2026#fall#fashiontiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oQBEEXWVGQAnWJAUIucAefF10AEyLBDaqQ6R1F~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664686821619633439",
+        "published_at": 1784573978,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chelly_15/video/7664686821619633439"
+      }
+    }
+  ]
+}

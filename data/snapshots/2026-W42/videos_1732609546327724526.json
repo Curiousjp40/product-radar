@@ -1,0 +1,71 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732609546327724526",
+  "time_range_days": 90,
+  "total": 2,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "itsnorraa1",
+        "creator_uid": "7187420558512915498"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 151,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496293079737666030",
+        "window_gmv": 3508.65,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693290541131238669",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693290541131238669",
+        "published_at": 1791233799,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsnorraa1/video/7693290541131238669"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "funnybaby_hhh",
+        "creator_uid": "7176560579167929390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 116,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496293079737666030",
+        "window_gmv": 0,
+        "window_units_sold": 0
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683058703725022495",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683058703725022495",
+        "published_at": 1788851554,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@funnybaby_hhh/video/7683058703725022495"
+      }
+    }
+  ]
+}

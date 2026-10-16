@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731684756568249178",
+  "time_range_days": 90,
+  "total": 129,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "coolestbabeoutthere",
+        "creator_uid": "7031732285536125957"
+      },
+      "engagement_metrics": {
+        "comment_count": 46,
+        "like_count": 1964,
+        "play_count": 38496,
+        "share_count": 75
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 5070.72,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682916605071838478",
+      "video_meta": {
+        "caption_text": "call me a firefighter cause i\u2019m real hot #firefightercostume #costumeinspo #halloweencostumeideas #fireburning #hotgirlcostumes ",
+        "cover_url": "https://s.500fd.com/tt_video/o0fRQEPl052PU4NfYVBSQhiNgJFADqAzngDSDE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682916605071838478",
+        "published_at": 1788818433,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7682916605071838478"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "italiajjacqueline",
+        "creator_uid": "6600890743560110085"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 6168,
+        "play_count": 150882,
+        "share_count": 882
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3453.62,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679214974027451678",
+      "video_meta": {
+        "caption_text": "the most boots down costume ever!!!!  #firefightercostume #halloweencostume #halloween2026 #collegehalloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/o8RLNTpSjzAABIjTUQPBaDAxEiACDiAEGlIRz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679214974027451678",
+        "published_at": 1787956577,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@italiajjacqueline/video/7679214974027451678"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "geminijayden",
+        "creator_uid": "2760671"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 173,
+        "play_count": 12700,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2128,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694676760020995359",
+      "video_meta": {
+        "caption_text": "Saving lives this Halloween! #halloweencostume #dollskillhalloween #cutecostumes #halloween #fashiontiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oINQAIRIseAegmWwNLe1iMIARGd9eoAhNASeGo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694676760020995359",
+        "published_at": 1791556571,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@geminijayden/video/7694676760020995359"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missspearls",
+        "creator_uid": "6737376621856228357"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 685,
+        "play_count": 69800,
+        "share_count": 99
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2973.7,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680589845818903839",
+      "video_meta": {
+        "caption_text": "5\u20199 small",
+        "cover_url": "https://s.500fd.com/tt_video/oQfi9qe0dVkDQAEZ3qbFZIwDCkFcLQjtfzqAFI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680589845818903839",
+        "published_at": 1788276708,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missspearls/video/7680589845818903839"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aaliyahrmorales",
+        "creator_uid": "6655557112926306309"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 4090,
+        "play_count": 281500,
+        "share_count": 533
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2114.7,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684739538836589854",
+      "video_meta": {
+        "caption_text": "#halloween #halloweencostume #halloween2026 #firefighter #fireman ",
+        "cover_url": "https://s.500fd.com/tt_video/oIWdvDF0QICvpfOI1tVIWGeCSgFxqvleAA9Lqj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684739538836589854",
+        "published_at": 1789242869,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aaliyahrmorales/video/7684739538836589854"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missspearls",
+        "creator_uid": "6737376621856228357"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 132,
+        "play_count": 14551,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2146.4,
+        "window_units_sold": 19
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681672780470914335",
+      "video_meta": {
+        "caption_text": "#firefightercostume #halloweencostume #halloweencostumeidea ",
+        "cover_url": "https://s.500fd.com/tt_video/okNiipfBqI6NI91Cqy7jKTNWaANAJiPpiCZ6IA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681672780470914335",
+        "published_at": 1788528847,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missspearls/video/7681672780470914335"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "geminijayden",
+        "creator_uid": "2760671"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 1877,
+        "play_count": 133100,
+        "share_count": 385
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1950.82,
+        "window_units_sold": 18
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675076799914626335",
+      "video_meta": {
+        "caption_text": "Thanks @Dolls Kill #halloween2026 #dollskillhalloween #halloweencostume #cutehalloweencostumes #tiktokshophalloween ",
+        "cover_url": "https://s.500fd.com/tt_video/oYwRMeVNsAfGGW4gExuIALFUZQDLQXfOqofBJY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675076799914626335",
+        "published_at": 1786993092,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@geminijayden/video/7675076799914626335"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coolestbabespam",
+        "creator_uid": "7321551730188174378"
+      },
+      "engagement_metrics": {
+        "comment_count": 102,
+        "like_count": 34475,
+        "play_count": 1021746,
+        "share_count": 3054
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1577.4,
+        "window_units_sold": 17
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683869731576614174",
+      "video_meta": {
+        "caption_text": "yk who to call #firefightercostume #costumeinspo #halloweencostumeideas #halloween2026 #hot ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ANKLlT2RB3GWfjjeNCSBIuAqI0IKqgYVeKgs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683869731576614174",
+        "published_at": 1789040345,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolestbabespam/video/7683869731576614174"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lillian_harriss",
+        "creator_uid": "6663535404219809798"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 10000,
+        "play_count": 1100000,
+        "share_count": 1469
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1478.1,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686255229213396254",
+      "video_meta": {
+        "caption_text": "@Dolls Kill Halloween costume inspo always \ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude92\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude92\ud83e\uddd1\ud83c\udffb\u200d\ud83d\ude92\ud83d\ude92\ud83d\ude92\ud83d\ude92\ud83e\uddef\ud83e\uddef\ud83e\uddef#dollskill #halloween2026 #halloweeninspo #firefightercostume #dollskillhalloween ",
+        "cover_url": "https://s.500fd.com/tt_video/osHEQAVRiEvxWtD9ExAFNqPeQfItqHEBxBA3WA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686255229213396254",
+        "published_at": 1789595771,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lillian_harriss/video/7686255229213396254"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thisadrie",
+        "creator_uid": "6664988588310675462"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 116,
+        "play_count": 8204,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 1650.7,
+        "window_units_sold": 14
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688911454531030286",
+      "video_meta": {
+        "caption_text": "Just call us! \ud83d\ude92#fyp #firefighter #costume #halloween #inspo ",
+        "cover_url": "https://s.500fd.com/tt_video/oACj0kpfRqidCSD5BYB0KfiHhFXtgA2INOgzIE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688911454531030286",
+        "published_at": 1790214224,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thisadrie/video/7688911454531030286"
+      }
+    }
+  ]
+}

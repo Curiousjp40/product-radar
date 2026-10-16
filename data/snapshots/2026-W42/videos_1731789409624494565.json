@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731789409624494565",
+  "time_range_days": 90,
+  "total": 854,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "crystalsehy",
+        "creator_uid": "6728549356121031685"
+      },
+      "engagement_metrics": {
+        "comment_count": 55,
+        "like_count": 3482,
+        "play_count": 840300,
+        "share_count": 462
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 37785.87,
+        "window_units_sold": 1075
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676910138934005006",
+      "video_meta": {
+        "caption_text": "Oh how I love this flowy, feminine fall dress \ud83e\udef0\ud83e\udef0\ud83e\udef0 the Sweetheart neck line is so flattering.\ud83d\udc95 I would\u2019ve even worn this when I was pregnant. Beautifully made. Love.\ud83d\ude0d",
+        "cover_url": "https://s.500fd.com/tt_video/owA8aP0AIioBg4C3onTaAJ3kBANEoWdR9nE9i~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676910138934005006",
+        "published_at": 1787419957,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@crystalsehy/video/7676910138934005006"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 136,
+        "like_count": 14100,
+        "play_count": 2300000,
+        "share_count": 1656
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 9612.96,
+        "window_units_sold": 345
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668006503458065694",
+      "video_meta": {
+        "caption_text": "my favorite dress got released as long sleeve and I\u2019m loving this! ",
+        "cover_url": "https://s.500fd.com/tt_video/oAjEaaBl9F9pABVweqzcRlA2tEE2fEiDIqO142~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668006503458065694",
+        "published_at": 1785346910,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7668006503458065694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 4652,
+        "play_count": 877800,
+        "share_count": 348
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 7406.93,
+        "window_units_sold": 239
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670498981981572383",
+      "video_meta": {
+        "caption_text": "a gorgeous dress that flatters so many bodystyles!! I love this so much! I\u2019m in a small at 5\u20193 140",
+        "cover_url": "https://s.500fd.com/tt_video/o8t4BfqYDEhqFyeEazEFxDElcBVIG3aA2tRoZA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670498981981572383",
+        "published_at": 1785927259,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7670498981981572383"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 524,
+        "play_count": 154800,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 4374.4,
+        "window_units_sold": 150
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668337813686848799",
+      "video_meta": {
+        "caption_text": "This fall dress is so gorgeous! What a good length too. I\u2019m 5\u20193 in a small ",
+        "cover_url": "https://s.500fd.com/tt_video/ocapaBkZSE0EM9I0mAKiVRztBvKhl2irBcxAn~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668337813686848799",
+        "published_at": 1785424041,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7668337813686848799"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 146,
+        "play_count": 62310,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 4885.39,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688417881834523935",
+      "video_meta": {
+        "caption_text": "Such a good fall dress \ud83d\ude0d",
+        "cover_url": "https://s.500fd.com/tt_video/oE6xIyeir1ElsS3qANCIRvViufS92aEVEBFBAo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688417881834523935",
+        "published_at": 1790108280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7688417881834523935"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 91,
+        "like_count": 2267,
+        "play_count": 41700,
+        "share_count": 96
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 4975.88,
+        "window_units_sold": 138
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683244627993873677",
+      "video_meta": {
+        "caption_text": "plus size fall dresses \ud83c\udf42\ud83e\udd0e #apronbellyfriendly #apronbellystyle #plussizefallfashion #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oYSCoHFACFPDv8eYAAARlSf5E3DFgXEqgEoIbL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683244627993873677",
+        "published_at": 1788894803,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7683244627993873677"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "noemic503",
+        "creator_uid": "6797421128505361409"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 641,
+        "play_count": 9071,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 4215.59,
+        "window_units_sold": 124
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679153702736891167",
+      "video_meta": {
+        "caption_text": "Ordena tu talla regular hay en m\u00e1s colores #fyp #tiktokshopcreatorpicks #fall #mujeres #arriva503\ud83c\uddf8\ud83c\uddfb ",
+        "cover_url": "https://s.500fd.com/tt_video/ogtMQAEIEIAVeQIfx1FqRRSbHbsfiIA5DC6jBs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679153702736891167",
+        "published_at": 1787942320,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@noemic503/video/7679153702736891167"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momwithaplot",
+        "creator_uid": "6754516198932939782"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 49,
+        "play_count": 12800,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 3580.03,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689876874784230686",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYEw31sCIAf6xAIn4TIAOiiiu7BXDWBb5PaOlq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689876874784230686",
+        "published_at": 1790451540,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7689876874784230686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sweetteaandsprinkles",
+        "creator_uid": "6912970007023551493"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 116,
+        "play_count": 19600,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 3980.07,
+        "window_units_sold": 119
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675011389848702238",
+      "video_meta": {
+        "caption_text": "Fall is coming and I ABSOLUTELY LOVE this dress! It\u2019s soooo flattering and cute! #falldresses #dresses #midsizedress #midsize ",
+        "cover_url": "https://s.500fd.com/tt_video/o0hDIYDq1EKACAi8HBQisC8iI9BALkAcsAfuls~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675011389848702238",
+        "published_at": 1786977882,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7675011389848702238"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 88,
+        "play_count": 46600,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495586738370415077",
+        "window_gmv": 3591.01,
+        "window_units_sold": 111
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692221767351405855",
+      "video_meta": {
+        "caption_text": "So many pretty colors to choose from \ud83d\ude0d #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oIAABQIaEiERsIiAcM8bBvEnQEiKyBjpBiVww~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692221767351405855",
+        "published_at": 1790984962,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7692221767351405855"
+      }
+    }
+  ]
+}

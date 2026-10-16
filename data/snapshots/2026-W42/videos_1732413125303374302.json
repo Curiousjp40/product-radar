@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732413125303374302",
+  "time_range_days": 90,
+  "total": 1100,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sx.edwin",
+        "creator_uid": "7502088841815360542"
+      },
+      "engagement_metrics": {
+        "comment_count": 60,
+        "like_count": 7436,
+        "play_count": 601500,
+        "share_count": 350
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 16644.34,
+        "window_units_sold": 329
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667814570253208863",
+      "video_meta": {
+        "caption_text": "5\u20199 140lb | Size Small #fashion #fdr #embroidery #jacket #zipup ",
+        "cover_url": "https://s.500fd.com/tt_video/osqC0H1ABxxMIfRsCuAjNX8gIfIXpjQUAIeIuM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667814570253208863",
+        "published_at": 1785302224,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sx.edwin/video/7667814570253208863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "s3n8ya",
+        "creator_uid": "6966002176821478406"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 33800,
+        "play_count": 1500000,
+        "share_count": 1509
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 13479.45,
+        "window_units_sold": 251
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690788298930851103",
+      "video_meta": {
+        "caption_text": "@FDR #hoodie #streetwear ",
+        "cover_url": "https://s.500fd.com/tt_video/oIRiVb6KbGBErB5aiBKzka74uqIAB0EPIAs1C~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690788298930851103",
+        "published_at": 1790651207,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@s3n8ya/video/7690788298930851103"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cvrrent.flow",
+        "creator_uid": "6788318442425943046"
+      },
+      "engagement_metrics": {
+        "comment_count": 231,
+        "like_count": 7204,
+        "play_count": 590900,
+        "share_count": 259
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 12042.98,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677965842344070430",
+      "video_meta": {
+        "caption_text": "Clothes in Regret NOT buying sooner \ud83e\udd72 FDR  . #fashion #zipup #streetwear #mens #outfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oMVCj2HACZBDJ2jQAAARWnf1EeEFNnEqAErIdd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677965842344070430",
+        "published_at": 1787665768,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cvrrent.flow/video/7677965842344070430"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 87,
+        "like_count": 33931,
+        "play_count": 1860531,
+        "share_count": 850
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 10217.54,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686235751255690510",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oE9VN0AqeAg1N2diPGGqHsFIfIOILRfskfng4k~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686235751255690510",
+        "published_at": 1789591242,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7686235751255690510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "itsalexabain",
+        "creator_uid": "7172064993159349290"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 2129,
+        "play_count": 43400,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 9924.01,
+        "window_units_sold": 180
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689168303998111006",
+      "video_meta": {
+        "caption_text": "Sweatshirt and stilettos> \ud83d\udc85\ud83c\udffd  #oversizedsweatshirt #falloutfitinspo #OOTD #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/oQoVaGGqQICIBFfseIAAQPSLZtqvtkoAeGtjq0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689168303998111006",
+        "published_at": 1790274016,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsalexabain/video/7689168303998111006"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 179,
+        "like_count": 68695,
+        "play_count": 3429198,
+        "share_count": 2056
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 10037.67,
+        "window_units_sold": 178
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686144321933937934",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQP5iEBypzBqgQqBG4gIqiUYpUqMnaPEjqqAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686144321933937934",
+        "published_at": 1789569941,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7686144321933937934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 70,
+        "like_count": 32700,
+        "play_count": 2400000,
+        "share_count": 1490
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 8690.57,
+        "window_units_sold": 158
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687805875532090638",
+      "video_meta": {
+        "caption_text": "movie night \ud83e\uddf8\ud83d\udd2a\ud83d\udc7b\ud83c\udf83\ud83d\udda4\ud83c\udf7f",
+        "cover_url": "https://s.500fd.com/tt_video/okaECCjYiiAnhWBwIICBpiomECkql81w6BJfAs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687805875532090638",
+        "published_at": 1789956808,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7687805875532090638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 79,
+        "like_count": 25600,
+        "play_count": 1800000,
+        "share_count": 885
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 8755.26,
+        "window_units_sold": 157
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685065149912255758",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUIoX7IAknAX0Qa1eCjevT8exwMVHCtQqDiVVm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685065149912255758",
+        "published_at": 1789318688,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7685065149912255758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 45,
+        "like_count": 24700,
+        "play_count": 1500000,
+        "share_count": 765
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 8737.55,
+        "window_units_sold": 155
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684340446834806029",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oksfEFLTAwgR0DhDIuQDAe5lSmEEpqJSgBBkE8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684340446834806029",
+        "published_at": 1789149966,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7684340446834806029"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sx.edwin",
+        "creator_uid": "7502088841815360542"
+      },
+      "engagement_metrics": {
+        "comment_count": 184,
+        "like_count": 5020,
+        "play_count": 665300,
+        "share_count": 351
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 6689.25,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668852036091317534",
+      "video_meta": {
+        "caption_text": "#fyp #viral #fashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oEiJED3bAvlRAQlFqfQtr3FxENEtVTfPBdJ4Da~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668852036091317534",
+        "published_at": 1785543769,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sx.edwin/video/7668852036091317534"
+      }
+    }
+  ]
+}

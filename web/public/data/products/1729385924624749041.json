@@ -3,7 +3,7 @@
   "product_id": "1729385924624749041",
   "title": "FeelinGirl Seamless Covered Bust Jumpsuit Thong Bodysuit Fit Comfort Slimming  Womenswear Breathable Hip Tops Soft Body Hugging bodysuit shapewear  newarrivals SohoChic",
   "clean_title": "FeelinGirl Seamless Covered Bust Jumpsuit Thong",
-  "image_url": "/img/product_1729385924624749041.webp",
+  "image_url": "https://s.500fd.com/tt_product/d508c29018ad48938d03d0bed7b80f30~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729385924624749041",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FeelinGirl%20Seamless%20Covered%20Bust%20Jumpsuit%20Thong",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729385924624749041",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7682995545727716638",
+      "cover_url": "https://s.500fd.com/tt_video/ooQAepeE4leA6AaA7KgBJWQAeeMa7eAD08Mh9R~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7682995545727716638",
+      "creator_handle": "isabellaaaanero",
+      "play_count": 10000000,
+      "window_gmv": 21208.33,
+      "window_units_sold": 981,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7666683913439317262",
+      "cover_url": "https://s.500fd.com/tt_video/o8HstBM6IAJetjAC2BiinVQAoEBIwAi31lBESv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7666683913439317262",
+      "creator_handle": "tiff_tokz",
+      "play_count": 55600,
+      "window_gmv": 15597.98,
+      "window_units_sold": 773,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7676224258569243917",
+      "cover_url": "https://s.500fd.com/tt_video/osCQJEqIBOLa7BbAwifVAXAAlilVA1BCM4KInH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7676224258569243917",
+      "creator_handle": "tiff_tokz",
+      "play_count": 1500000,
+      "window_gmv": 14843.9,
+      "window_units_sold": 658,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7684101584061517086",
+      "cover_url": "https://s.500fd.com/tt_video/oEiaCSciAbq4pTaBElGAtpPw8AIBANRjxKEkA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellaaaanero/video/7684101584061517086",
+      "creator_handle": "isabellaaaanero",
+      "play_count": 1600000,
+      "window_gmv": 13375.33,
+      "window_units_sold": 617,
+      "is_ad": true,
+      "duration_seconds": 51
+    },
+    {
+      "video_id": "7687709923274231054",
+      "cover_url": "https://s.500fd.com/tt_video/oAD1jy2pjAgwAIqwwEiYWOpBzfxzn4BiBCAqwI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lilyy_turcotte/video/7687709923274231054",
+      "creator_handle": "lilyy_turcotte",
+      "play_count": 37100,
+      "window_gmv": 12452.39,
+      "window_units_sold": 614,
+      "is_ad": true,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7676209012983074062",
+      "cover_url": "https://s.500fd.com/tt_video/oAC9ESEDA1fDWqjAXq1HEikI3AFlfRAhn4CbYg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiff_tokz/video/7676209012983074062",
+      "creator_handle": "tiff_tokz",
+      "play_count": 463400,
+      "window_gmv": 12666.96,
+      "window_units_sold": 582,
+      "is_ad": true,
+      "duration_seconds": 42
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bodysuit",
+        "weight": 4576
+      },
+      {
+        "hashtag": "shapewear",
+        "weight": 3889
+      },
+      {
+        "hashtag": "feelingirl",
+        "weight": 3742
+      },
+      {
+        "hashtag": "tummycontrol",
+        "weight": 2502
+      },
+      {
+        "hashtag": "tiktokpartner",
+        "weight": 2013
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1355
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 1240
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 1240
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 48,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 23,
+      "hour_end": 1
+    },
+    "top_hooks": [
+      "This result doesn\u2019t get old!",
+      "Secured and snatched thanks to LLC",
+      "cute lil body suit i feel like tinker bell"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      6
+    ]
+  }
 }

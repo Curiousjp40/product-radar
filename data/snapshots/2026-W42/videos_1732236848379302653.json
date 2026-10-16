@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732236848379302653",
+  "time_range_days": 90,
+  "total": 232,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "knqmjjnccb54445",
+        "creator_uid": "7126528571875132458"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 569,
+        "play_count": 98738,
+        "share_count": 98
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 3245.51,
+        "window_units_sold": 222
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683931412914883870",
+      "video_meta": {
+        "caption_text": "2 Pcs/Set Women's Long Sleeve T-shirt and Plaid Leggings#twopieceset #Fallfashion #OOTD #casualoutfits #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/owjC0LIcJHXeK5RbfVmcAUqLf3gIg76VGZOKIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683931412914883870",
+        "published_at": 1789054712,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@knqmjjnccb54445/video/7683931412914883870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 497,
+        "play_count": 109700,
+        "share_count": 131
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1670.55,
+        "window_units_sold": 117
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691259766932262158",
+      "video_meta": {
+        "caption_text": "#americanstyle #usafashion #womenoutfit #womensfashion #usashopping ",
+        "cover_url": "https://s.500fd.com/tt_video/oQmC9XC6MiggAApW710HIKwrwiIJfByBI82BYW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691259766932262158",
+        "published_at": 1790782200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7691259766932262158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 455,
+        "play_count": 73300,
+        "share_count": 93
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1557.07,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687927798496857375",
+      "video_meta": {
+        "caption_text": "#americanstyle #usafashion #womenoutfit #OOTD #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ocFH63hqsAzAEWQFEq9QNRABV4ifQeycEwqAQD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687927798496857375",
+        "published_at": 1789985236,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7687927798496857375"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coolusa88",
+        "creator_uid": "7550564477742629902"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 159,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1531.65,
+        "window_units_sold": 108
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690848589437881614",
+      "video_meta": {
+        "caption_text": "#fashiontiktok #tiktokshop #cute\ud83d\udc95 #usa\ud83c\uddfa\ud83c\uddf8 #usashopping ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690848589437881614",
+        "published_at": 1790703360,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolusa88/video/7690848589437881614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "christine_rn_3648",
+        "creator_uid": "7188665059749774382"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 1,
+        "play_count": 565,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 2287.01,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682223549888597278",
+      "video_meta": {
+        "caption_text": "I am obsessed with this outfit. Perfect for the fall!! #falloutfits #fallfashiontrends #cuteoutfits #tiktokshop #creatorsearchinsights ",
+        "cover_url": "https://s.500fd.com/tt_video/ooJQDrYfuGCTc9yecGC8AFeRrfxggUN4AqvRFg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682223549888597278",
+        "published_at": 1788657064,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christine_rn_3648/video/7682223549888597278"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aimi_us",
+        "creator_uid": "7433242449281336363"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 707,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1165.45,
+        "window_units_sold": 82
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692111638324907294",
+      "video_meta": {
+        "caption_text": "#fyp #tiktokshop #CityTasteTest ",
+        "cover_url": "https://s.500fd.com/tt_video/o4IgfqpESB9MVAR2p3QAVFEE63DcAvD62fA1tV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692111638324907294",
+        "published_at": 1790959327,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7692111638324907294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "christine_rn_3648",
+        "creator_uid": "7188665059749774382"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 2,
+        "play_count": 670,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1483.77,
+        "window_units_sold": 79
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681742207153376542",
+      "video_meta": {
+        "caption_text": "So comfortable. I'm coming many of colors, grab them now before they're gone. Great price too. #pink #fashion #fashiontiktok #plaid #tiktokshopblackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/ocFWACliavqEABUKA2H9QAImb9pAERsMBBij4~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681742207153376542",
+        "published_at": 1788545004,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christine_rn_3648/video/7681742207153376542"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maddiejunee",
+        "creator_uid": "7445113031031948334"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 43,
+        "play_count": 3168,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1086.2,
+        "window_units_sold": 76
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692644896456412446",
+      "video_meta": {
+        "caption_text": "#tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthetic #tiktokshopfinds",
+        "cover_url": "https://s.500fd.com/tt_video/ootjIIALtgBj8jXAAeIg8cg4esDbGeMCq21V9H~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692644896456412446",
+        "published_at": 1791083480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maddiejunee/video/7692644896456412446"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 516,
+        "play_count": 126150,
+        "share_count": 89
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 893.51,
+        "window_units_sold": 64
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685710019391737102",
+      "video_meta": {
+        "caption_text": "#usafashion #americanstyle #usashopping #womenoutfit #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ogISqDI7ADDFgqAUIhWEBcppfSFMRq7EcGNFfX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685710019391737102",
+        "published_at": 1789482600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7685710019391737102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vibenest897",
+        "creator_uid": "7525641559205119031"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 514,
+        "play_count": 18500,
+        "share_count": 95
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651448769427837693",
+        "window_gmv": 1234.63,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680851920860368142",
+      "video_meta": {
+        "caption_text": "Casual two-piece set,super soft & comfy!! #ootd #tiktokmademebuyit #twopieceset #falldealsforyou #set ",
+        "cover_url": "https://s.500fd.com/tt_video/oM9EZlACIFMjACSAcq5xRAgA4EE7fDfDIX3jHH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680851920860368142",
+        "published_at": 1788348300,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vibenest897/video/7680851920860368142"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1729593807999832237",
   "title": "\u300cMRH\u300d10\"12 \"14\" -Inch Twin, Full, Queen, King,Luxury Hybrid Mattress -Memory Foamand IndividualPocket Springs for UltimateComfort and Support -Perfectfor Family Roomsand Hotels in outdoorfun, MotionIsolation Mattress, High Quality Mattress sohochic, Queen",
   "clean_title": "MRH 10\"12 \"14\" -Inch Twin, Full, Queen, King,Luxury Hybrid Mattress -Memory Foamand",
-  "image_url": "/img/product_1729593807999832237.jpg",
+  "image_url": "https://s.500fd.com/tt_product/4ff926d561294fba94fb987cfe7c0eef~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729593807999832237",
   "tiktok_search_url": "https://www.tiktok.com/search?q=MRH%2010%2212%20%2214%22%20-Inch%20Twin%2C%20Full%2C%20Queen%2C%20King%2CLuxury%20Hybrid%20Mattress%20-Memory%20Foamand",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729593807999832237",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681511361469336863",
+      "cover_url": "https://s.500fd.com/tt_video/ocRKEXQAU0At8gNa8ZGwsa4f8HY6QFegfDfqJ0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mzznofilter/video/7681511361469336863",
+      "creator_handle": "mzznofilter",
+      "play_count": 62300,
+      "window_gmv": 45644.08,
+      "window_units_sold": 345,
+      "is_ad": false,
+      "duration_seconds": 51
+    },
+    {
+      "video_id": "7668416505708678414",
+      "cover_url": "https://s.500fd.com/tt_video/oMaBBlmBuUB3iDFEMvr0Jg1tE9sIAPi4FUi5L~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7668416505708678414",
+      "creator_handle": "zashianahoward",
+      "play_count": 11500,
+      "window_gmv": 6639.9,
+      "window_units_sold": 58,
+      "is_ad": true,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7678753442885586189",
+      "cover_url": "https://s.500fd.com/tt_video/oUKSpIfIBWxRDAaYwivaACC5HiJFo1BC0xlInQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7678753442885586189",
+      "creator_handle": "zashianahoward",
+      "play_count": 11200,
+      "window_gmv": 6375.79,
+      "window_units_sold": 54,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7679882756624502029",
+      "cover_url": "https://s.500fd.com/tt_video/oAMURqG2lutEEbMuDAIJgfxfdxVg1FIDCPSBpG~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7679882756624502029",
+      "creator_handle": "zashianahoward",
+      "play_count": 12101,
+      "window_gmv": 6054.67,
+      "window_units_sold": 47,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7694357628213939470",
+      "cover_url": "https://s.500fd.com/tt_video/oQf829vSxBDFNzKIFIjCkFA3eQigaq4JDERHEv~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7694357628213939470",
+      "creator_handle": "zashianahoward",
+      "play_count": 7115,
+      "window_gmv": 6556,
+      "window_units_sold": 38,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7669823913601387789",
+      "cover_url": "https://s.500fd.com/tt_video/oY8wfYgIE2DAcSJFKMBM9qs60LTDREBaEWGRf5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7669823913601387789",
+      "creator_handle": "zashianahoward",
+      "play_count": 9087,
+      "window_gmv": 4097.09,
+      "window_units_sold": 36,
+      "is_ad": true,
+      "duration_seconds": 23
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "mattress",
+        "weight": 439
+      },
+      {
+        "hashtag": "newbed",
+        "weight": 345
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 345
+      },
+      {
+        "hashtag": "unboxing",
+        "weight": 345
+      },
+      {
+        "hashtag": "mrh",
+        "weight": 225
+      },
+      {
+        "hashtag": "fiberglassfree",
+        "weight": 186
+      },
+      {
+        "hashtag": "hybrid",
+        "weight": 180
+      },
+      {
+        "hashtag": "affordablemattress",
+        "weight": 158
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 33,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 60.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Love this and honestly the price was amazing!",
+      "Replying to .",
+      "Replying to Favored Next LEVEL UP"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      6
+    ]
+  }
 }

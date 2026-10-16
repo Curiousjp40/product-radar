@@ -3,7 +3,7 @@
   "product_id": "1731562565773857014",
   "title": "Women's Striped Knit Dress Set, Outfit, Long Sleeve, Cropped, Casual Style, Comfortable Fabric, Fashion Design, Womenswear, Vneck, Perfect for Daily Wear, Casual Everyday Wear",
   "clean_title": "Women's Striped Knit Dress Set",
-  "image_url": "/img/product_1731562565773857014.jpg",
+  "image_url": "https://s.500fd.com/tt_product/21b94c4d87bc4315b4b55f3a337457c3~tplv-fhlh96nyum-origin-image.image",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731562565773857014",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Striped%20Knit%20Dress%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731562565773857014",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7682178540082679053",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@sortofawesome/video/7682178540082679053",
+      "creator_handle": "sortofawesome",
+      "play_count": 19,
+      "window_gmv": 6026.98,
+      "window_units_sold": 254,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7664720463070825741",
+      "cover_url": "https://s.500fd.com/tt_video/o0193AfCSXQKsjRiEZgXQ9FE7DRWBqesD9DoBM~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@tiffanyfowler1990/video/7664720463070825741",
+      "creator_handle": "tiffanyfowler1990",
+      "play_count": 669,
+      "window_gmv": 3168.25,
+      "window_units_sold": 229,
+      "is_ad": false,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7688403372122148127",
+      "cover_url": "https://s.500fd.com/tt_video/oMjNESi3HPqaWGcyiBBAIjW4Iz1AsAqC6Vi8fJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@holistichomegoral/video/7688403372122148127",
+      "creator_handle": "holistichomegoral",
+      "play_count": 70738,
+      "window_gmv": 2164.12,
+      "window_units_sold": 134,
+      "is_ad": false,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7683369270604041485",
+      "cover_url": "https://s.500fd.com/tt_video/o4AAGGiIEDgqYmofWziSguCd67fXhEAWBCMRA7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mikaylarob/video/7683369270604041485",
+      "creator_handle": "mikaylarob",
+      "play_count": 2373,
+      "window_gmv": 2661.25,
+      "window_units_sold": 123,
+      "is_ad": false,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7686311869996371230",
+      "cover_url": "https://s.500fd.com/tt_video/oQAQEfxWVaqgeFqj9NGQZQhMUrhGIfLAf8cRQ0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lilypadtts/video/7686311869996371230",
+      "creator_handle": "lilypadtts",
+      "play_count": 17906,
+      "window_gmv": 2139.6,
+      "window_units_sold": 117,
+      "is_ad": false,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7686933271304867103",
+      "cover_url": "https://s.500fd.com/tt_video/o8WAsCIvkLGGjRAeGw5dLeaIeMqJ9VQI8YQRFb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@allie.shuttle/video/7686933271304867103",
+      "creator_handle": "allie.shuttle",
+      "play_count": 1441,
+      "window_gmv": 1624.85,
+      "window_units_sold": 105,
+      "is_ad": false,
+      "duration_seconds": 30
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 334
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 326
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 298
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 254
+      },
+      {
+        "hashtag": "fallintofun",
+        "weight": 254
+      },
+      {
+        "hashtag": "cardigan",
+        "weight": 229
+      },
+      {
+        "hashtag": "fallfashiontrends",
+        "weight": 229
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 229
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 16,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "Women's dress set.",
+      "Plus Size Friendly Fall outfit that covers your arms",
+      "this 2 piece dress set is SO soft and comfy\ud83d\ude0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      5
+    ]
+  }
 }

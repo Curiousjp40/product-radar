@@ -3,7 +3,7 @@
   "product_id": "1732109097590231862",
   "title": "WIRELESS PLUNGE PLUNGE THONG BODYSUIT",
   "clean_title": "WIRELESS PLUNGE PLUNGE THONG BODYSUIT",
-  "image_url": "/img/product_1732109097590231862.webp",
+  "image_url": "https://s.500fd.com/tt_product/19b5d271c611468d8c39524d7f0f3562~tplv-fhlh96nyum-crop-webp:3059:3059.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732109097590231862",
   "tiktok_search_url": "https://www.tiktok.com/search?q=WIRELESS%20PLUNGE%20PLUNGE%20THONG%20BODYSUIT",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732109097590231862",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678932695090482462",
+      "cover_url": "https://s.500fd.com/tt_video/ocbfQFvLAKDRYDtOIUDE8W4Fy7EEkqwVAEBRIe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vasilvana1/video/7678932695090482462",
+      "creator_handle": "vasilvana1",
+      "play_count": 257800,
+      "window_gmv": 22227.17,
+      "window_units_sold": 858,
+      "is_ad": false,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7665832097071795470",
+      "cover_url": "https://s.500fd.com/tt_video/oogHISqLHDA4AhA6AoFsDRqADEEgKCLYQdfeFE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@xogypsy/video/7665832097071795470",
+      "creator_handle": "xogypsy",
+      "play_count": 2000000,
+      "window_gmv": 17426.9,
+      "window_units_sold": 691,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7672056557403770126",
+      "cover_url": "https://s.500fd.com/tt_video/osvGYgApBWpQrbReAFEV0IvOn4x4eO4neeASQL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sylviegraceee/video/7672056557403770126",
+      "creator_handle": "sylviegraceee",
+      "play_count": 469900,
+      "window_gmv": 12527.34,
+      "window_units_sold": 519,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7690662469391666463",
+      "cover_url": "https://s.500fd.com/tt_video/oMGiHCB4EKIKCxAuKf486IVo1NAuAB2LXAiAAi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ms.skinnybbl/video/7690662469391666463",
+      "creator_handle": "ms.skinnybbl",
+      "play_count": 395000,
+      "window_gmv": 12188.51,
+      "window_units_sold": 450,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7676258792614432014",
+      "cover_url": "https://s.500fd.com/tt_video/ocVI4QiCQAlnBHJMCVMwjzwEBPABiBAvOBA1eI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@keeseesworld/video/7676258792614432014",
+      "creator_handle": "keeseesworld",
+      "play_count": 1000000,
+      "window_gmv": 9004.94,
+      "window_units_sold": 368,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7670757214344187167",
+      "cover_url": "https://s.500fd.com/tt_video/ogREQfA08AqRDDhIFkiEAJBVAEdFIE6fqtDbYZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ninadoesitall/video/7670757214344187167",
+      "creator_handle": "ninadoesitall",
+      "play_count": 51700,
+      "window_gmv": 8552.93,
+      "window_units_sold": 350,
+      "is_ad": true,
+      "duration_seconds": 29
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bodysuit",
+        "weight": 1094
+      },
+      {
+        "hashtag": "body",
+        "weight": 858
+      },
+      {
+        "hashtag": "bodysuitshapewear",
+        "weight": 699
+      },
+      {
+        "hashtag": "skimsdupe",
+        "weight": 450
+      },
+      {
+        "hashtag": "shapeweargirl",
+        "weight": 368
+      },
+      {
+        "hashtag": "bodysuitstyle",
+        "weight": 368
+      },
+      {
+        "hashtag": "shapewearbodysuitforwomen",
+        "weight": 368
+      },
+      {
+        "hashtag": "womensclothing",
+        "weight": 368
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "you need this",
+      "such a STAPLE.",
+      "my belly piercing peaking thru the body suit\ud83d\udc94"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 0,
+    "hour_end": 2,
+    "best_weekdays": [
+      4,
+      3
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732060648127434855",
   "title": "3PCS Modern Mini Felt Jewelry Roll Organizer Set - Portable Multifunctional Foldable Anti-Scratch Storage Boxes with 4 Compartments, Rose Gold Buckle Closure, PU & Silicone Accents, for Jewelry Organization, Mini Travel Products",
   "clean_title": "3PCS Modern Mini Felt Jewelry Roll",
-  "image_url": "/img/product_1732060648127434855.webp",
+  "image_url": "https://s.500fd.com/tt_product/4f24d9d253414d748955dfc56a757da6~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732060648127434855",
   "tiktok_search_url": "https://www.tiktok.com/search?q=3PCS%20Modern%20Mini%20Felt%20Jewelry%20Roll",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732060648127434855",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7692222515908758797",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@mini.sun85/video/7692222515908758797",
+      "creator_handle": "mini.sun85",
+      "play_count": 420,
+      "window_gmv": 10.74,
+      "window_units_sold": 4,
+      "is_ad": false,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7677912518769134862",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7677912518769134862",
+      "creator_handle": "limeijemhxe",
+      "play_count": 344,
+      "window_gmv": 2.67,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7674925602574519566",
+      "cover_url": "https://s.500fd.com/tt_video/oMfOC9VABBAiAIwY6MBgp1IIQEEWD0IKWiFC2Y~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7674925602574519566",
+      "creator_handle": "limeijemhxe",
+      "play_count": 344,
+      "window_gmv": 2.67,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7681608402388143374",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7681608402388143374",
+      "creator_handle": "limeijemhxe",
+      "play_count": 343,
+      "window_gmv": 2.67,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7678974206201089293",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7678974206201089293",
+      "creator_handle": "limeijemhxe",
+      "play_count": 335,
+      "window_gmv": 2.67,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7681938392065658125",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7681938392065658125",
+      "creator_handle": "limeijemhxe",
+      "play_count": 316,
+      "window_gmv": 2.67,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 40
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshop",
+        "weight": 5
+      },
+      {
+        "hashtag": "shopping",
+        "weight": 4
+      },
+      {
+        "hashtag": "minibag",
+        "weight": 2
+      },
+      {
+        "hashtag": "jewelrybox",
+        "weight": 2
+      },
+      {
+        "hashtag": "aesthetics",
+        "weight": 2
+      },
+      {
+        "hashtag": "minijewelrycase",
+        "weight": 2
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 2
+      },
+      {
+        "hashtag": "jewelrycase",
+        "weight": 2
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "The cutest and smallest travel jewelry bag \ud83d\ude0a\ud83d\udc95\u263a\ufe0f",
+      "This is the most travel-friendly mini jewelry case I've ever seen!",
+      "This is the most travel-friendly mini jewelry case I've ever seen!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      4,
+      3
+    ]
+  }
 }

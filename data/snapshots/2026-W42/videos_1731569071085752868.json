@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731569071085752868",
+  "time_range_days": 90,
+  "total": 1048,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "tts.finds05",
+        "creator_uid": "15441185"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 2969,
+        "play_count": 812400,
+        "share_count": 374
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 22146.97,
+        "window_units_sold": 384
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672926167309061389",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oogKt74LBItbh78VAZiBkCjfYCfhUZHEioASIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672926167309061389",
+        "published_at": 1786492349,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tts.finds05/video/7672926167309061389"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zoesecrets4u",
+        "creator_uid": "6913199921245717509"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 30400,
+        "play_count": 523200,
+        "share_count": 759
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 15337.97,
+        "window_units_sold": 232
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678187131499547918",
+      "video_meta": {
+        "caption_text": "obsessed \u2728 #dress #fancydress #elegnatdress #partydress #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oUAPYEkgYI4XAAkC6qAm1AJiBor5aBZpicCEO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678187131499547918",
+        "published_at": 1787717265,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zoesecrets4u/video/7678187131499547918"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laurie_stone",
+        "creator_uid": "7371549795191620650"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 339,
+        "play_count": 127400,
+        "share_count": 51
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 13068.51,
+        "window_units_sold": 224
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669120263820201246",
+      "video_meta": {
+        "caption_text": "This one is special \ud83d\udc9b #WomensFashion #Dress #Bodycon #BuiltinBra #weddingguestdress @CurvySweet-US ",
+        "cover_url": "https://s.500fd.com/tt_video/osDqAhBoAAAuARIBAEFpbMVDQfeYBFjEEECBuI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669120263820201246",
+        "published_at": 1785609900,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laurie_stone/video/7669120263820201246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vprincemusic",
+        "creator_uid": "6853154610765382661"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 105,
+        "play_count": 3934,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 15147.97,
+        "window_units_sold": 221
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691862688376343821",
+      "video_meta": {
+        "caption_text": "Which Ivory & which black?! Hellpppp \ud83d\udc83\ud83c\udffd\ud83d\udc83\ud83c\udffd\ud83d\udc83\ud83c\udffd  #helpmepickmyfit #weddingguestdress ",
+        "cover_url": "https://s.500fd.com/tt_video/ocFxISEDA6fD1w1Afqv9ETSQGAFz6RAvwtCzwg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 156,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691862688376343821",
+        "published_at": 1790901359,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vprincemusic/video/7691862688376343821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "meraylee_",
+        "creator_uid": "7184118732478071854"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 141,
+        "play_count": 5497,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 12113.54,
+        "window_units_sold": 221
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672578860835245326",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/okQGU9Ek9ylPICqZaaNHXeMAIzke0qmQdAeLj8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672578860835245326",
+        "published_at": 1786411491,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@meraylee_/video/7672578860835245326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "officialburt",
+        "creator_uid": "7123419808528598062"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 710,
+        "play_count": 169400,
+        "share_count": 158
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 12620.97,
+        "window_units_sold": 211
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675340718231096606",
+      "video_meta": {
+        "caption_text": "So pretty \ud83d\ude0d\ud83d\ude0d #tiktokshopcreatorpicks #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oMRPjJBniEBIEAlshAC2Ui3y3AdoSiEaARQAZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675340718231096606",
+        "published_at": 1787054553,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@officialburt/video/7675340718231096606"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brookeabarcia",
+        "creator_uid": "6722578681330467846"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 2469,
+        "play_count": 292800,
+        "share_count": 301
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 8304.94,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666921796687432973",
+      "video_meta": {
+        "caption_text": "this dress for a wedding would be insane!!\ud83e\uded2 size small #weddingguestdress #dress #formal ",
+        "cover_url": "https://s.500fd.com/tt_video/oABzkEzIGhtGMEYPAIeNAnAAiLefAUHIZKOjwm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666921796687432973",
+        "published_at": 1785094363,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brookeabarcia/video/7666921796687432973"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brookejcampbell",
+        "creator_uid": "242852836131172353"
+      },
+      "engagement_metrics": {
+        "comment_count": 1161,
+        "like_count": 121300,
+        "play_count": 695600,
+        "share_count": 1795
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 7459.58,
+        "window_units_sold": 134
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666887281369713934",
+      "video_meta": {
+        "caption_text": "A little commotion for the dress \ud83d\ude4c\ud83c\udffb @Stone Haven ",
+        "cover_url": "https://s.500fd.com/tt_video/oY36EAmERSIf5FBjQgAkKIAZEAiqveDTVyXDFC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666887281369713934",
+        "published_at": 1785086324,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brookejcampbell/video/7666887281369713934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tierrawilliams1",
+        "creator_uid": "6803095806763271173"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 921,
+        "play_count": 27400,
+        "share_count": 62
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 8647.91,
+        "window_units_sold": 130
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680367784932445454",
+      "video_meta": {
+        "caption_text": "Take me to dinner \u2764\ufe0f #reddress #formaldress #datenightoutfit #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/ocEC7bNeks7VLHAfQleijS1GAILIkDEbtzL8Qs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680367784932445454",
+        "published_at": 1788224990,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tierrawilliams1/video/7680367784932445454"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "meraylee_",
+        "creator_uid": "7184118732478071854"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 42,
+        "play_count": 3238,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496113907254463012",
+        "window_gmv": 7136.27,
+        "window_units_sold": 124
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672822305487080735",
+      "video_meta": {
+        "caption_text": "Replying to @Courtney | Mom Glow Up ",
+        "cover_url": "https://s.500fd.com/tt_video/osIA7UVI9C1f2AjsmvQA5FEIaVDXzeBYafQa0q~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672822305487080735",
+        "published_at": 1786468167,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@meraylee_/video/7672822305487080735"
+      }
+    }
+  ]
+}

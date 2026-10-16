@@ -3,7 +3,7 @@
   "product_id": "1731180857884840044",
   "title": "Mobeso Snatched Seamless Thong Shapewear Bodysuit \u2013 V-Neck Tummy Control & Butt Lifter Faja Body Shaper, Breathable Sculpting Innerwear, No VPL for Dress, True-to-Chart Fit",
   "clean_title": "Mobeso Snatched Seamless Thong Shapewear Bodysuit",
-  "image_url": "/img/product_1731180857884840044.webp",
+  "image_url": "https://s.500fd.com/tt_product/c5a2790590e34fbaa8156460300ece92~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731180857884840044",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Mobeso%20Snatched%20Seamless%20Thong%20Shapewear%20Bodysuit",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731180857884840044",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7663949195199499534",
+      "cover_url": "https://s.500fd.com/tt_video/ocTaU4vhBbRkAUAHii4vlIEI7t0OAHBBCAEtg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@histutu23/video/7663949195199499534",
+      "creator_handle": "histutu23",
+      "play_count": 1501381,
+      "window_gmv": 14378.81,
+      "window_units_sold": 651,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7675868778810412319",
+      "cover_url": "https://s.500fd.com/tt_video/ocYIBVMvEiRGmyP8iGoihApIEBaKAB7BPFJoy~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aunteestruth/video/7675868778810412319",
+      "creator_handle": "aunteestruth",
+      "play_count": 4203,
+      "window_gmv": 10958.01,
+      "window_units_sold": 548,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7666136246254701837",
+      "cover_url": "https://s.500fd.com/tt_video/o8sqglZwAAAyARqAgEFwYlSDYfUezl5EDECBjI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7666136246254701837",
+      "creator_handle": "3astafricangirl",
+      "play_count": 667328,
+      "window_gmv": 10203.3,
+      "window_units_sold": 505,
+      "is_ad": true,
+      "duration_seconds": 64
+    },
+    {
+      "video_id": "7681346211160313102",
+      "cover_url": "https://s.500fd.com/tt_video/okSDXd8xEuIBI7Fgq5oAznZf39vRBJEmZEDmKe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7681346211160313102",
+      "creator_handle": "3astafricangirl",
+      "play_count": 1100000,
+      "window_gmv": 6204.07,
+      "window_units_sold": 278,
+      "is_ad": true,
+      "duration_seconds": 47
+    },
+    {
+      "video_id": "7680316039355239694",
+      "cover_url": "https://s.500fd.com/tt_video/ogfIECtdX6pyCAgVLkBPICM9wAitB1AvSdBJAi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7680316039355239694",
+      "creator_handle": "3astafricangirl",
+      "play_count": 561900,
+      "window_gmv": 6032.53,
+      "window_units_sold": 276,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7680569928625311007",
+      "cover_url": "https://s.500fd.com/tt_video/oUEACIAzxuBdbAPloAAaBEa93SW07Rbicbipv~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7680569928625311007",
+      "creator_handle": "blancavfernandez",
+      "play_count": 1100000,
+      "window_gmv": 6099.74,
+      "window_units_sold": 275,
+      "is_ad": true,
+      "duration_seconds": 39
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "shapewear",
+        "weight": 1579
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 1059
+      },
+      {
+        "hashtag": "summerfinds",
+        "weight": 1059
+      },
+      {
+        "hashtag": "bodyshaper",
+        "weight": 859
+      },
+      {
+        "hashtag": "mobeso",
+        "weight": 829
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 783
+      },
+      {
+        "hashtag": "bodysuitshapewear",
+        "weight": 693
+      },
+      {
+        "hashtag": "shapewears",
+        "weight": 651
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 12,
+      "hour_end": 14
+    },
+    "top_hooks": [
+      "Low-back friendly & seamless\u2026Say less.",
+      "Front and back support .",
+      "Part 2 is up \ud83d\udc97\ud83d\udce6"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      5,
+      2
+    ]
+  }
 }

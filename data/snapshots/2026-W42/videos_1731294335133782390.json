@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731294335133782390",
+  "time_range_days": 90,
+  "total": 753,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "myriamyourbff",
+        "creator_uid": "7393772132880368683"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 1072,
+        "play_count": 133300,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 10219.77,
+        "window_units_sold": 604
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688863303589842189",
+      "video_meta": {
+        "caption_text": "WOWZAA",
+        "cover_url": "https://s.500fd.com/tt_video/oAFtSFDBREDjaITJG0EI0PBAVDRgIeaQtqfLZq~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688863303589842189",
+        "published_at": 1790203013,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7688863303589842189"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myriamestrella8",
+        "creator_uid": "7314774908154872874"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 617,
+        "play_count": 30600,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 9177.53,
+        "window_units_sold": 543
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689205288964082974",
+      "video_meta": {
+        "caption_text": "I found one!! \u2764\ufe0f\u2744\ufe0f I\u2019m 5\u201d6 wearing the XL",
+        "cover_url": "https://s.500fd.com/tt_video/osagiAC41EwEp0IArA4ilRRWBP1MCAi1BaEAL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689205288964082974",
+        "published_at": 1790282626,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7689205288964082974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jackiebentley",
+        "creator_uid": "6790060352911721477"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 778,
+        "play_count": 204200,
+        "share_count": 58
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 4346.78,
+        "window_units_sold": 236
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670605776616049934",
+      "video_meta": {
+        "caption_text": "The perfect dress for any fall event! @WIHOLL FASHION ",
+        "cover_url": "https://s.500fd.com/tt_video/ow1zqttiq3I0DIRIOAi1AdBBwUp9dBJ2fbOCGw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670605776616049934",
+        "published_at": 1785967200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7670605776616049934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "norasocial",
+        "creator_uid": "7257167779957949483"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 3294,
+        "play_count": 1500000,
+        "share_count": 341
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 3715.5,
+        "window_units_sold": 222
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683317265973923085",
+      "video_meta": {
+        "caption_text": "The perfect fall dress \ud83c\udf42\u2728\ud83d\udcf8",
+        "cover_url": "https://s.500fd.com/tt_video/okGEpfKg4gHRDzAIAfxEAhCSoDoFEsuaqsBdAC~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683317265973923085",
+        "published_at": 1788911714,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@norasocial/video/7683317265973923085"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "catshrank",
+        "creator_uid": "6830554650539049990"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 339,
+        "play_count": 82551,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 3506.13,
+        "window_units_sold": 208
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681431882055044365",
+      "video_meta": {
+        "caption_text": "It\u2019s back and the cutest fall dress #dress #falloutfits #plussizefashion #affordablefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/okiy2EkPagtiZB4B37gCAASpAamIAnpkEL80Y~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681431882055044365",
+        "published_at": 1788472741,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@catshrank/video/7681431882055044365"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "usingmyimaginason",
+        "creator_uid": "6858749918728176645"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 1394,
+        "play_count": 371676,
+        "share_count": 147
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 2705.51,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678774289008577805",
+      "video_meta": {
+        "caption_text": "#creatorsearchinsights #thebabydolldress The cutest easy fall dress from @WIHOLL @WIHOLL FASHION \ud83c\udf42 Flowy, flattering, comfy AND it has pockets!  #falldress #comfydress #fallstyle ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ARnkEE0AxNRgSJEvyUfhgIDfAVFDA0CCAqHQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678774289008577805",
+        "published_at": 1787858100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7678774289008577805"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "soyabundanciaa",
+        "creator_uid": "6770097293868090373"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 43,
+        "play_count": 9041,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 2068.4,
+        "window_units_sold": 124
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687787230705782030",
+      "video_meta": {
+        "caption_text": "WIHOLL Vestido tipo su\u00e9ter estilo babydoll para mujer, casual, de manga larga y cuello cuadrado, ideal para oto\u00f1o. ",
+        "cover_url": "https://s.500fd.com/tt_video/ogPifABWmgCBciI01oYhDBpCwEAwAh0Iu9yEib~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687787230705782030",
+        "published_at": 1789952460,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@soyabundanciaa/video/7687787230705782030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "catshrank",
+        "creator_uid": "6830554650539049990"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 30,
+        "play_count": 3745,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 1926.84,
+        "window_units_sold": 116
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684001274156633358",
+      "video_meta": {
+        "caption_text": "The perfect fall dress #dress #curvyfashion #fallfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oUBPADOo4FCs0EwCIqEDfofuIiDdg5wuDSjxHR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684001274156633358",
+        "published_at": 1789090740,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@catshrank/video/7684001274156633358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "catshrank",
+        "creator_uid": "6830554650539049990"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 61,
+        "play_count": 13200,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 1911.19,
+        "window_units_sold": 113
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687010854008540429",
+      "video_meta": {
+        "caption_text": "This fall Dress is soft #dress #falldress #curvyfashion #tiktokshopstockup #fallfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oY9BIV2IjkzeI8asfAE3XgpWQAmVCqGlex3HLC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687010854008540429",
+        "published_at": 1789864920,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@catshrank/video/7687010854008540429"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brooke_erin_3",
+        "creator_uid": "6847298770490557445"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 1271,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 1859.32,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678161058896350494",
+      "video_meta": {
+        "caption_text": "Cute babydoll sweater dress for fall pictures, weddings, or even a cute church dress. #dress #cutedress #sweaterdress #falldress #womensfashion   ",
+        "cover_url": "https://s.500fd.com/tt_video/oQk6VFDgREEC0QXSfcEQ07BAnMRAc3kTjqfol8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678161058896350494",
+        "published_at": 1787711196,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brooke_erin_3/video/7678161058896350494"
+      }
+    }
+  ]
+}

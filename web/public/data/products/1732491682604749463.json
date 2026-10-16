@@ -3,7 +3,7 @@
   "product_id": "1732491682604749463",
   "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
   "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
-  "image_url": "/img/product_1732491682604749463.webp",
+  "image_url": "https://s.500fd.com/tt_product/d5437faba31e48bf8b3889941d119877~tplv-fhlh96nyum-crop-webp:2393:2393.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7680819142462672159",
-      "cover_url": "/img/video_7680819142462672159.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ogEXIBibIwqSANB1siuXPxmsWfyC4iRAqB9GAQ~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
       "creator_handle": "the_kandiid_guy",
       "play_count": 1500000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7691435211258694926",
-      "cover_url": "/img/video_7691435211258694926.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooMRoWFeaQDLY8FAe0eAfdEjq9QNG8gOIW6udF~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
       "creator_handle": "mysterypackfinds",
       "play_count": 2010779,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7687390788933651743",
-      "cover_url": "/img/video_7687390788933651743.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/osmBw8g5IEEjXPBw4AaiBvBVT8iXRHql5RGAF~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
       "creator_handle": "showmeproducts",
       "play_count": 3800000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7687749104914418958",
-      "cover_url": "/img/video_7687749104914418958.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQ62HRfDkQyJjVVIjXPoeYsLwCyAgEqZFKReQA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7687749104914418958",
       "creator_handle": "zach.finds",
       "play_count": 1748207,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7688047700935232782",
-      "cover_url": "/img/video_7688047700935232782.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oYIDqsCpwwcWEByMWY5DmfBAEySsxy5IHgfFRb~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7688047700935232782",
       "creator_handle": "zach.finds",
       "play_count": 817111,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7688859375234059533",
-      "cover_url": "/img/video_7688859375234059533.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oAUvUmJPHBBr08OFiI4B03aUBEENWg3vSiUAR~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@the2ndinch/video/7688859375234059533",
       "creator_handle": "the2ndinch",
       "play_count": 966300,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      5
+    ]
+  }
 }

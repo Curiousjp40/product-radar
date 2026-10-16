@@ -3,7 +3,7 @@
   "product_id": "1729742098567566065",
   "title": "WIHOLL Women's Basic Minimalist Long Sleeve Round Neck Tunic Top - Lady's Spandex Shirt with Thumb Holes, Cuffed Sleeves, Curved Hem, Clothes for Women, Back to School Outfits to Wear with Leggings",
   "clean_title": "WIHOLL Women's Basic Minimalist Long Sleeve",
-  "image_url": "/img/product_1729742098567566065.jpg",
+  "image_url": "https://s.500fd.com/tt_product/70a2d91dcaee4d0b9d9881b345acbc23~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729742098567566065",
   "tiktok_search_url": "https://www.tiktok.com/search?q=WIHOLL%20Women%27s%20Basic%20Minimalist%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729742098567566065",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691716874010201374",
+      "cover_url": "https://s.500fd.com/tt_video/oYAPAfDRDQFqFA6RXeEdOsI9fJUQaq1A8cGofA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7691716874010201374",
+      "creator_handle": "whatlololikes",
+      "play_count": 51500,
+      "window_gmv": 15624.52,
+      "window_units_sold": 705,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7688460035864792334",
+      "cover_url": "https://s.500fd.com/tt_video/ocfQgEvERXWQqA5fyzWs2ucDZSkDEBFGSRsDaE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@the_blonde_amazon/video/7688460035864792334",
+      "creator_handle": "the_blonde_amazon",
+      "play_count": 49000,
+      "window_gmv": 14075.03,
+      "window_units_sold": 612,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7680238167299067150",
+      "cover_url": "https://s.500fd.com/tt_video/oovVlwa1uEg6E4UBiWus3QsBwidApBBiIIjRs~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7680238167299067150",
+      "creator_handle": "vibe_with_stephanie",
+      "play_count": 899,
+      "window_gmv": 14191.64,
+      "window_units_sold": 566,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7677662282922446094",
+      "cover_url": "https://s.500fd.com/tt_video/oAABAVhMNC1IfBcA1CBksEp4JRiIiSiwAm8C1o~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dontbossmebecky/video/7677662282922446094",
+      "creator_handle": "dontbossmebecky",
+      "play_count": 1774,
+      "window_gmv": 12251.64,
+      "window_units_sold": 506,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7684042054619434270",
+      "cover_url": "https://s.500fd.com/tt_video/oEUGRDAofAIKEOFhADRqsyCSZEEVFEAkJzAQe9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7684042054619434270",
+      "creator_handle": "she_is_she_will",
+      "play_count": 1200000,
+      "window_gmv": 9301.82,
+      "window_units_sold": 382,
+      "is_ad": true,
+      "duration_seconds": 58
+    },
+    {
+      "video_id": "7683977839749696798",
+      "cover_url": "https://s.500fd.com/tt_video/okqTVMFCBBnQvAFR5EzQ6TFHaoERAgflnkeDE4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@beautyunseen/video/7683977839749696798",
+      "creator_handle": "beautyunseen",
+      "play_count": 21000,
+      "window_gmv": 9347.72,
+      "window_units_sold": 360,
+      "is_ad": true,
+      "duration_seconds": 34
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "womensfashion",
+        "weight": 951
+      },
+      {
+        "hashtag": "leggingsoutfit",
+        "weight": 705
+      },
+      {
+        "hashtag": "tunictop",
+        "weight": 705
+      },
+      {
+        "hashtag": "longtshirt",
+        "weight": 705
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 705
+      },
+      {
+        "hashtag": "fallstyle",
+        "weight": 705
+      },
+      {
+        "hashtag": "longsleeve",
+        "weight": 663
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 663
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 31,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "Truly the most perfect legging top \ud83e\udd0c\ud83c\udffc\u2728",
+      "An oversized long sleeve with thumb holes?",
+      "The perfect trendy fall top!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      3
+    ]
+  }
 }

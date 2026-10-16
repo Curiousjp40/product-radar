@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729518604574299544",
+  "time_range_days": 90,
+  "total": 213,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sharing_store",
+        "creator_uid": "7275064310035481642"
+      },
+      "engagement_metrics": {
+        "comment_count": 214,
+        "like_count": 20900,
+        "play_count": 4500000,
+        "share_count": 4203
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 18132.44,
+        "window_units_sold": 1565
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686463260089961742",
+      "video_meta": {
+        "caption_text": "#nativityscene #christianchristmas #christiangifts #christmasdecor #christiantiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oYeEUz7aQj4ES9qByrxDfD4RwpAFGy8gywbqQ6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686463260089961742",
+        "published_at": 1789644202,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sharing_store/video/7686463260089961742"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "trendtreasure02",
+        "creator_uid": "7538020385527235639"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 4851,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 2711,
+        "window_units_sold": 220
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689405690586107167",
+      "video_meta": {
+        "caption_text": "Set up this adorable pocket-sized mini nativity scene anywhere for a cozy holiday touch. #sohochic #tiktokshopstockup #christmasdecor #holidaygift #nativityscene ",
+        "cover_url": "https://s.500fd.com/tt_video/oQipACliaPBEABwSAACg3AIr27rAERZOBQiRB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689405690586107167",
+        "published_at": 1790525280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@trendtreasure02/video/7689405690586107167"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "flyingfish0110",
+        "creator_uid": "7560670123826316302"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 1237,
+        "play_count": 573946,
+        "share_count": 220
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 2340.87,
+        "window_units_sold": 212
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689403901874933006",
+      "video_meta": {
+        "caption_text": "You're definitely going to be amazed by how much detail they fit into this tiny Bethlehem scene. #sohochic #tiktokshopstockup #christmasdecor #holidaygift #nativityscene",
+        "cover_url": "https://s.500fd.com/tt_video/osNQB2fBJEzSIh1CkQ5UCWvy2BIAmiBAiAABIw~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689403901874933006",
+        "published_at": 1790431320,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@flyingfish0110/video/7689403901874933006"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alwaysshoppin",
+        "creator_uid": "7311942875432551470"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 120,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 2299.23,
+        "window_units_sold": 177
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688261032803912974",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688261032803912974",
+        "published_at": 1790062841,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alwaysshoppin/video/7688261032803912974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "berlinreviews1",
+        "creator_uid": "6821302736206709766"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 22,
+        "play_count": 6144,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 1955.34,
+        "window_units_sold": 166
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688374890465971487",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688374890465971487",
+        "published_at": 1790089299,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7688374890465971487"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "paigarl",
+        "creator_uid": "7442210314480010286"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 1089,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 1753.84,
+        "window_units_sold": 147
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690129948685700366",
+      "video_meta": {
+        "caption_text": "#nativityscene #christianchristmas #christiangifts #christmasdecor #christiantiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/okp4jECBvA1gHjzbAaCArEVkSA4Uiir5IGBKW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690129948685700366",
+        "published_at": 1790497968,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@paigarl/video/7690129948685700366"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sharing_store",
+        "creator_uid": "7275064310035481642"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 975,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 1427.94,
+        "window_units_sold": 127
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689057818694946061",
+      "video_meta": {
+        "caption_text": "#nativityscene #christianchristmas #christiangift #christmasdecor #christiantiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/ogVpCqs1eAF0D5GfRtfqPfQAILGEB1MD1IIQOA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689057818694946061",
+        "published_at": 1790248295,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sharing_store/video/7689057818694946061"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "xy.top",
+        "creator_uid": "7527241726835704845"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 20,
+        "play_count": 7228,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 849.25,
+        "window_units_sold": 79
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688775869707373837",
+      "video_meta": {
+        "caption_text": "#nativityscene #christianchristmas #christiangifts #christmasdecor #christiantiktok",
+        "cover_url": "https://s.500fd.com/tt_video/oMY6QHAXeQ96FjJAeHIazjQAxAChM8VCkieVPo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688775869707373837",
+        "published_at": 1790182670,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@xy.top/video/7688775869707373837"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coffeemomma2001",
+        "creator_uid": "7389550915475670059"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 942,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 831.76,
+        "window_units_sold": 76
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691639263263313166",
+      "video_meta": {
+        "caption_text": "\u2728Tiny Nativity Scene in a Metal Tin#fyp #TikTokShop #Christmasgift #nativity #holidaydecor",
+        "cover_url": "https://s.500fd.com/tt_video/oAAOFIGDqOn8MAT2AGFkNDvfLEKIIQeGVRfUeI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691639263263313166",
+        "published_at": 1790955540,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coffeemomma2001/video/7691639263263313166"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rollandmedia",
+        "creator_uid": "7275108369173070891"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 1320,
+        "play_count": 299399,
+        "share_count": 234
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495387041313032600",
+        "window_gmv": 854.4,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686461392903327006",
+      "video_meta": {
+        "caption_text": "#nativityscene #christianchristmas #christmasdecor #christiantiktok #religiouschristmas ",
+        "cover_url": "https://s.500fd.com/tt_video/o8aEB0qKvIBCiA7IbKrvAR4bELzIAviAaVJV6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686461392903327006",
+        "published_at": 1789643785,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rollandmedia/video/7686461392903327006"
+      }
+    }
+  ]
+}

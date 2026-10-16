@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731424444221592017",
+  "time_range_days": 90,
+  "total": 40,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "olivia.schick",
+        "creator_uid": "6622401935042707461"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 291,
+        "play_count": 49700,
+        "share_count": 87
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 773.99,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685661154940701982",
+      "video_meta": {
+        "caption_text": "Can\u2019t believe this went on sale right after I paid full price for it! Totally worth it seeing how warm and comfortable the neighborhood strays are. @Clawsable thanks for helping keep these kitties warm during the harsh winters, so much better than sleeping under a deck or in the snow! #cathouse #outdoorcathouse #straycat #kittens #catsoftiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/oAaRDEA5QjqE1YEGQBogGVFedq4o9EfPvNAlOv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685661154940701982",
+        "published_at": 1789457511,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@olivia.schick/video/7685661154940701982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zach.finds",
+        "creator_uid": "7574234289404724237"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 19,
+        "play_count": 2384,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 736.98,
+        "window_units_sold": 11
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694739299605941517",
+      "video_meta": {
+        "caption_text": "These are PERFECT for the outdoor cats!!",
+        "cover_url": "https://s.500fd.com/tt_video/oIj6BIfBpIx8I91CLNcvjZAJJALAUipxiJgCIw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694739299605941517",
+        "published_at": 1791590400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7694739299605941517"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "decadentdoxiesofk",
+        "creator_uid": "7382361108420969518"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 33,
+        "play_count": 3406,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 586.99,
+        "window_units_sold": 10
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692912744261078285",
+      "video_meta": {
+        "caption_text": "If you have outdoor cats, barn cats, or even a neighborhood kitty you worry about when it gets cold, LOOK at this. \ud83e\udd79 This heated cat house is insulated, weatherproof, raised 6 inches off the ground, and even has a safe escape door. It\u2019s on sale right now, and with winter coming, I would grab it while it\u2019s marked down. \ud83d\udc3e\u2744\ufe0f I\u2019m telling you right now, if you\u2019ve been worried about an outside cat this winter, this is worth looking at. It gives them a warm, dry place to get out of the wind and weather, and I love that it\u2019s raised off the cold ground. Tap the cart and check the deal before the price changes. #TikTokShop #CatTok #OutdoorCats #CatHouse #PetMustHaves ",
+        "cover_url": "https://s.500fd.com/tt_video/oofHCtpADABEZXgFfdDkSqI3wEvbitRmrFUELG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692912744261078285",
+        "published_at": 1791145851,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@decadentdoxiesofk/video/7692912744261078285"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zach.finds",
+        "creator_uid": "7574234289404724237"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 33,
+        "play_count": 3984,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 553.99,
+        "window_units_sold": 9
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694508375488417038",
+      "video_meta": {
+        "caption_text": "The cats NEED a home this winter!! ",
+        "cover_url": "https://s.500fd.com/tt_video/o0SKywnRMIcgExZDEqGgdIDqFEfGABWyuQeQNU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694508375488417038",
+        "published_at": 1791517363,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7694508375488417038"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "olivia.schick",
+        "creator_uid": "6622401935042707461"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 67,
+        "play_count": 727,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 447.99,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694682867942608158",
+      "video_meta": {
+        "caption_text": "We love Chip and all the neighborhood cats!! #straycat #catsoftiktok #heatedcathouse #outdoorcathouse #outdoorcat ",
+        "cover_url": "https://s.500fd.com/tt_video/oQRBKAEWVsbiaWWBBAALm2NSIv9EJBpianqki~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694682867942608158",
+        "published_at": 1791557988,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@olivia.schick/video/7694682867942608158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lgq421",
+        "creator_uid": "6976336770410218502"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 23,
+        "play_count": 2047,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 437.99,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692864849579199758",
+      "video_meta": {
+        "caption_text": "Waterproof Parachute Material Exterior Fully Insulated Interior. With a Cozy Heating Pad and Weatherproof Cord. #cattok #cat #tiktokshopblackfriday #Shopwithconfidence #Cathouse ",
+        "cover_url": "https://s.500fd.com/tt_video/oIJRgOFCqIDxepDAeAHAf2EFrFQYGEhOIXeiFF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692864849579199758",
+        "published_at": 1791134694,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lgq421/video/7692864849579199758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lgq421",
+        "creator_uid": "6976336770410218502"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 31,
+        "play_count": 4524,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 361,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692592572463680782",
+      "video_meta": {
+        "caption_text": "Your cat will use this year round. Winter cold or rainy days. #cattok #Cathouse #Shopwithconfidence #tiktokshopblackfriday #cat ",
+        "cover_url": "https://s.500fd.com/tt_video/ocvBZSaGyHg6E4UBzGrnPGlBuipAsBEiIErx5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692592572463680782",
+        "published_at": 1791071307,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lgq421/video/7692592572463680782"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lgq421",
+        "creator_uid": "6976336770410218502"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 4,
+        "play_count": 910,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 379.99,
+        "window_units_sold": 6
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692585791511366926",
+      "video_meta": {
+        "caption_text": "You can leave it out year round to protect them from the rain. Has an escape hatch in the back! #cattok #tiktokshopblackfriday #Shopwithconfidence #cat #Cathouse ",
+        "cover_url": "https://s.500fd.com/tt_video/ok0zRoGQGIe8hecsOAGijgqBQApr6qMffrGOWF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692585791511366926",
+        "published_at": 1791069722,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lgq421/video/7692585791511366926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "comfortail",
+        "creator_uid": "7524909813361640503"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 35,
+        "play_count": 2061,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 160,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680845925454974221",
+      "video_meta": {
+        "caption_text": "Your outdoor cat needs this warm shelter for cold nights hetead cat house#outdoor #cat #straycat ",
+        "cover_url": "https://s.500fd.com/tt_video/osBKA22lyFqx2C9BIqEDfRfYIj1bgk1tDSXaiV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680845925454974221",
+        "published_at": 1788336318,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@comfortail/video/7680845925454974221"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zach.finds",
+        "creator_uid": "7574234289404724237"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 209,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496190432593938897",
+        "window_gmv": 159,
+        "window_units_sold": 3
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694739438752042253",
+      "video_meta": {
+        "caption_text": "These are almost gone so make sure to hurry!!",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694739438752042253",
+        "published_at": 1791594000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7694739438752042253"
+      }
+    }
+  ]
+}

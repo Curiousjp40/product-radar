@@ -3,7 +3,7 @@
   "product_id": "1730843879700075109",
   "title": "Loveliness Romper Brown Check",
   "clean_title": "Loveliness Romper Brown Check",
-  "image_url": "/img/product_1730843879700075109.webp",
+  "image_url": "https://s.500fd.com/tt_product/6892787f70b04ef0aa70cd12bf6d9a1c~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730843879700075109",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Loveliness%20Romper%20Brown%20Check",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730843879700075109",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691742135288188191",
+      "cover_url": "https://s.500fd.com/tt_video/oYgrjoPxDQ1x4e48A6FHVlVSBBfiq3EIESAkCv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@julia_filippo/video/7691742135288188191",
+      "creator_handle": "julia_filippo",
+      "play_count": 220400,
+      "window_gmv": 54426.41,
+      "window_units_sold": 848,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7673282901143784717",
+      "cover_url": "https://s.500fd.com/tt_video/ocDEZeRjIVgIkQfEE5sDfHQjo7AFAAPAAHwUQP~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@autumnrsims/video/7673282901143784717",
+      "creator_handle": "autumnrsims",
+      "play_count": 1400000,
+      "window_gmv": 10733.99,
+      "window_units_sold": 261,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7674371802931416350",
+      "cover_url": "https://s.500fd.com/tt_video/oEIB1QAzHhGGCBLY03ximcAAiCKIAOAEaAfiI2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7674371802931416350",
+      "creator_handle": "dj.foof",
+      "play_count": 35000,
+      "window_gmv": 11793.97,
+      "window_units_sold": 219,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7672525894828821790",
+      "cover_url": "https://s.500fd.com/tt_video/oEheDf9CIEyqIbSW3BUAFCe6EvjkA1s4tImjWu~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7672525894828821790",
+      "creator_handle": "cxozyt",
+      "play_count": 100800,
+      "window_gmv": 8706.22,
+      "window_units_sold": 175,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7670986078051945758",
+      "cover_url": "https://s.500fd.com/tt_video/o4aBBzndTXB1iTTEiQ0T2RxwEW0IAPiAtVjIz~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7670986078051945758",
+      "creator_handle": "cxozyt",
+      "play_count": 154200,
+      "window_gmv": 7655.05,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7688545683678219533",
+      "cover_url": "https://s.500fd.com/tt_video/oQBzapOJIAwWCIir5fIMC97B6nbcZwR3FuAgi1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@chaney_traviss/video/7688545683678219533",
+      "creator_handle": "chaney_traviss",
+      "play_count": 22700,
+      "window_gmv": 8729.99,
+      "window_units_sold": 139,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "romper",
+        "weight": 164
+      },
+      {
+        "hashtag": "falloutfitinspo",
+        "weight": 88
+      },
+      {
+        "hashtag": "outfitinspo",
+        "weight": 88
+      },
+      {
+        "hashtag": "pumpkinpatchoutfit",
+        "weight": 88
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 88
+      },
+      {
+        "hashtag": "princesspolly",
+        "weight": 82
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 82
+      },
+      {
+        "hashtag": "minidress",
+        "weight": 82
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "ITS OCT FIRST :)",
+      "this romper just screams fall\ud83c\udf42\u2615\ufe0f\ud83e\uddf8",
+      "can you tell I\u2019m soo excited for fall"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      2
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732158146250183146",
+  "time_range_days": 90,
+  "total": 539,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "floerns",
+        "creator_uid": "7372444457599976490"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 7557,
+        "play_count": 522880,
+        "share_count": 1575
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 8619.13,
+        "window_units_sold": 231
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681614755710225694",
+      "video_meta": {
+        "caption_text": "so cuteeeeee!! I\u2019m obsessed \ud83e\udd79\ud83c\udf42\ud83c\udf83\ud83e\udd8c #deermakeup #halloweencostume #halloween #costumeideas #gothic ",
+        "cover_url": "https://s.500fd.com/tt_video/ocY1BUkjQFOa8IgfG4GKRHeQCBWalAf0BeAisq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681614755710225694",
+        "published_at": 1788515376,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@floerns/video/7681614755710225694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 69,
+        "like_count": 13100,
+        "play_count": 827000,
+        "share_count": 2122
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 7567.75,
+        "window_units_sold": 188
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684362628617096462",
+      "video_meta": {
+        "caption_text": "This dress is perfect for this costume #halloweencostume #costumeideas #angelcostume #minidress #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oI5kFari59IFCIgImAi1AVuBwPp8OBPzfiUCI7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684362628617096462",
+        "published_at": 1789171200,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7684362628617096462"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 33,
+        "play_count": 4663,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 5013.53,
+        "window_units_sold": 133
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690616608133483790",
+      "video_meta": {
+        "caption_text": "Made a costume out of this Halloween gothic mini dress #halloweencostume #halloween #bunnycostume #fall #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/o0QDquF1jE9oEBoUNV2Df86AEVSm1GpQ9gfFRH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690616608133483790",
+        "published_at": 1790611246,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7690616608133483790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kensysolis",
+        "creator_uid": "6702862839960863749"
+      },
+      "engagement_metrics": {
+        "comment_count": 59,
+        "like_count": 4504,
+        "play_count": 163200,
+        "share_count": 35
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 4336.95,
+        "window_units_sold": 126
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664749360076360991",
+      "video_meta": {
+        "caption_text": "Vestido ",
+        "cover_url": "https://s.500fd.com/tt_video/oYKNQoIGB6egtnfGUSq9ieKQgXLZ1NAeEfKkdA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664749360076360991",
+        "published_at": 1784588548,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kensysolis/video/7664749360076360991"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "floerns",
+        "creator_uid": "7372444457599976490"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 2916,
+        "play_count": 63500,
+        "share_count": 231
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 4604.44,
+        "window_units_sold": 125
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677881176631020830",
+      "video_meta": {
+        "caption_text": "your irl rapunzel \ud83c\udf38 #rapunzel #halloweencostume #cosplay #disneyprincess #halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/oUnIOCkcIMoGIqfakeXEADQQjAn8Aev8IAEVAq~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677881176631020830",
+        "published_at": 1787646073,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@floerns/video/7677881176631020830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 856,
+        "play_count": 112200,
+        "share_count": 180
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 5019.21,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684843518971415822",
+      "video_meta": {
+        "caption_text": "What costume would you make with this dress?? #gothic #halloween #tiktokshopcreatorpicks #OOTD #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/oEHniUDSiqlzPgmC4EAB5EanYBIvPgzZBIILq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684843518971415822",
+        "published_at": 1789267081,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7684843518971415822"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 44,
+        "like_count": 13400,
+        "play_count": 838000,
+        "share_count": 2268
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 4240.11,
+        "window_units_sold": 114
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684026375585484046",
+      "video_meta": {
+        "caption_text": "What costume would you make with this dress? #halloween #gothic #minidress #costumeideas #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/ok7EVuSIUZaiCgBMK0KhyCxyW4JBjPBiCAIqk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684026375585484046",
+        "published_at": 1789092000,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7684026375585484046"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylasinspooo",
+        "creator_uid": "7602175201723925518"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 262,
+        "play_count": 35300,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 3398.97,
+        "window_units_sold": 91
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673288812277157133",
+      "video_meta": {
+        "caption_text": "#gothic #cosplay #corsetdress #minidress #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/os8AIFEf5GD1G0A7e4aGFX5OfxIC7pQRfOIQbh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673288812277157133",
+        "published_at": 1786576790,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylasinspooo/video/7673288812277157133"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yellow76435",
+        "creator_uid": "7524938872128996365"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 65,
+        "play_count": 9590,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 2327.1,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663781791655890190",
+      "video_meta": {
+        "caption_text": "#OOTD#WomenFashion#spotlightfinds#SummerWins #superbrandday",
+        "cover_url": "https://s.500fd.com/tt_video/osAuIsBOLlZfy6QVb7sxpYSiDd2iIC1WBIwATD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663781791655890190",
+        "published_at": 1784455080,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yellow76435/video/7663781791655890190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sihebb.shh",
+        "creator_uid": "7479655364210361390"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 9125,
+        "play_count": 812700,
+        "share_count": 771
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495753394246224362",
+        "window_gmv": 4043.29,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688978407689866527",
+      "video_meta": {
+        "caption_text": "#minidress #gothic #womenfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oQoaGeI7IIfqgR93NEVALCySgmjXAVPY7IKDZf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688978407689866527",
+        "published_at": 1790229826,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sihebb.shh/video/7688978407689866527"
+      }
+    }
+  ]
+}

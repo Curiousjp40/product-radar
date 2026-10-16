@@ -3,7 +3,7 @@
   "product_id": "1729493620818874839",
   "title": "AUTOMET 3 Pack Womens Long Sleeve Basic Shirts Underscrub Compression Tops Y2K Street Look, High Stretch, Buttery-Soft, Gym to Club Staple, Pairs with Cargo or Jeans, Daily Chic Staple",
   "clean_title": "AUTOMET 3 Pack Womens Long Sleeve",
-  "image_url": "/img/product_1729493620818874839.jpg",
+  "image_url": "https://s.500fd.com/tt_product/cfc25281c539453ca7ca8598f189aebf~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729493620818874839",
   "tiktok_search_url": "https://www.tiktok.com/search?q=AUTOMET%203%20Pack%20Womens%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729493620818874839",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7669834587480083725",
+      "cover_url": "https://s.500fd.com/tt_video/oQUJHBfBkEzpjsUIVu7b54jWwChA0ieWiC8eIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sagealexandraa/video/7669834587480083725",
+      "creator_handle": "sagealexandraa",
+      "play_count": 507300,
+      "window_gmv": 14036.83,
+      "window_units_sold": 542,
+      "is_ad": false,
+      "duration_seconds": 20
+    },
+    {
+      "video_id": "7678935135990910239",
+      "cover_url": "https://s.500fd.com/tt_video/owPQAfRIjx3HQ1qgELDfR6IwiGfbeiA1GCFSkU~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vasilvana1/video/7678935135990910239",
+      "creator_handle": "vasilvana1",
+      "play_count": 55300,
+      "window_gmv": 16690.33,
+      "window_units_sold": 512,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7664356300481891614",
+      "cover_url": "https://s.500fd.com/tt_video/oMdEIABlgA4RDDxiMQ7aYlABA4XBB1i7vAEIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@southernblondies/video/7664356300481891614",
+      "creator_handle": "southernblondies",
+      "play_count": 3843,
+      "window_gmv": 10554.79,
+      "window_units_sold": 464,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7673271828634193166",
+      "cover_url": "https://s.500fd.com/tt_video/ogyW4dUiaP4EnBaZgFwCGAIx84nBEgz0B8iKI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@heyyitsliz/video/7673271828634193166",
+      "creator_handle": "heyyitsliz",
+      "play_count": 372500,
+      "window_gmv": 7281.01,
+      "window_units_sold": 299,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7688907169135185183",
+      "cover_url": "https://s.500fd.com/tt_video/o4kj6aQLLAWhVRqMIYjFeJAQM8AeXIAenEAVPg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ninathornton3/video/7688907169135185183",
+      "creator_handle": "ninathornton3",
+      "play_count": 29400,
+      "window_gmv": 6261.27,
+      "window_units_sold": 271,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7665402745469406495",
+      "cover_url": "https://s.500fd.com/tt_video/oUpAfQeI2AgopLiUgQJaGdAeASIrLHRAGtDf9B~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mykattshop/video/7665402745469406495",
+      "creator_handle": "mykattshop",
+      "play_count": 42900,
+      "window_gmv": 6073.41,
+      "window_units_sold": 264,
+      "is_ad": true,
+      "duration_seconds": 71
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "longsleeve",
+        "weight": 667
+      },
+      {
+        "hashtag": "sagealexandraa",
+        "weight": 542
+      },
+      {
+        "hashtag": "linedancer",
+        "weight": 542
+      },
+      {
+        "hashtag": "westernfashion",
+        "weight": 542
+      },
+      {
+        "hashtag": "7forallmankind",
+        "weight": 542
+      },
+      {
+        "hashtag": "linedancing",
+        "weight": 542
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 467
+      },
+      {
+        "hashtag": "basics",
+        "weight": 464
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "Live my life and party\ud83e\udd0e\ud83e\udd0d \u2022 \u2022 \u2022 The vide of this video makes me for excited for fall\ud83e\udd7a\u2728 \u2022 \u2022 \u2022",
+      "AUTOMET 3 Pack Womens Long Sleeve Basic Shirts Underscrub Compression Tops Y2K Street Look, High Stretch, Buttery-Soft, Gym to Club Staple, Pairs with Cargo or Jeans, Daily Chic Staple",
+      "Wear these Allll the time!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 0,
+    "hour_end": 2,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

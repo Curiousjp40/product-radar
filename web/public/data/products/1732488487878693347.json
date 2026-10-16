@@ -3,7 +3,7 @@
   "product_id": "1732488487878693347",
   "title": "OFEEFAN  Womens Long Sleeve Shirts Ruched Hem Fall Tops Lightweight Sweaters",
   "clean_title": "OFEEFAN Womens Long Sleeve Shirts Ruched",
-  "image_url": "/img/product_1732488487878693347.webp",
+  "image_url": "https://s.500fd.com/tt_product/b3a28c9eda6e4bb992a5bc4db7908964~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732488487878693347",
   "tiktok_search_url": "https://www.tiktok.com/search?q=OFEEFAN%20Womens%20Long%20Sleeve%20Shirts%20Ruched",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732488487878693347",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689438883527904526",
+      "cover_url": "https://s.500fd.com/tt_video/oEIIAJ1Az6lSOJ22BBEaQWiCHAABDwfxiYCAGB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@katrinagmoore/video/7689438883527904526",
+      "creator_handle": "katrinagmoore",
+      "play_count": 15166,
+      "window_gmv": 20592,
+      "window_units_sold": 792,
+      "is_ad": true,
+      "duration_seconds": 72
+    },
+    {
+      "video_id": "7682766186265808159",
+      "cover_url": "https://s.500fd.com/tt_video/ocAyGEq4qEk5qX84ADB4UBJnFLsQVQfR0EspeA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@julie_trimble/video/7682766186265808159",
+      "creator_handle": "julie_trimble",
+      "play_count": 503700,
+      "window_gmv": 13750.94,
+      "window_units_sold": 599,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7682208035124677901",
+      "cover_url": "https://s.500fd.com/tt_video/oIfbc0hADFBESOgfuIDPSqI5nIZ5NrRqKFyEqv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jennmccoy81/video/7682208035124677901",
+      "creator_handle": "jennmccoy81",
+      "play_count": 342339,
+      "window_gmv": 6289.06,
+      "window_units_sold": 274,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7681679746278673695",
+      "cover_url": "https://s.500fd.com/tt_video/oERCIES2A2AIOAyqjsViiewmECUfSAVaEABzE3.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dana_ann2/video/7681679746278673695",
+      "creator_handle": "dana_ann2",
+      "play_count": 53573,
+      "window_gmv": 4580.98,
+      "window_units_sold": 210,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7682966586256297229",
+      "cover_url": "https://s.500fd.com/tt_video/oQNlItsPAHYjAg8vVwg5DeLLIuHeksewCBP4Go~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jennmccoy81/video/7682966586256297229",
+      "creator_handle": "jennmccoy81",
+      "play_count": 83800,
+      "window_gmv": 4580.82,
+      "window_units_sold": 194,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7684821538683489549",
+      "cover_url": "https://s.500fd.com/tt_video/ooFTGPG8ldee8yfwLytkIKRIB84LIRqeOQAARl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yessssfinds/video/7684821538683489549",
+      "creator_handle": "yessssfinds",
+      "play_count": 74500,
+      "window_gmv": 3694.46,
+      "window_units_sold": 154,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 1221
+      },
+      {
+        "hashtag": "fashionover50",
+        "weight": 979
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 854
+      },
+      {
+        "hashtag": "longsleeve",
+        "weight": 792
+      },
+      {
+        "hashtag": "sideruched",
+        "weight": 792
+      },
+      {
+        "hashtag": "elevatedbasics",
+        "weight": 792
+      },
+      {
+        "hashtag": "wiholl",
+        "weight": 792
+      },
+      {
+        "hashtag": "ttsacl",
+        "weight": 792
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 31,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 7,
+      "hour_end": 9
+    },
+    "top_hooks": [
+      "This side ruched long sleeve top is the basic that\u2019s not basic at all!",
+      "Flattering and simple!",
+      "This lightweight sweater is perfect for fall!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      5,
+      4
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732591747935343345",
   "title": "WIHOLL Women's Long-Sleeve Casual Blouse Top, Crew Neck Babydoll Peplum Tunic, 2026 Fall Fashion Clothes for Women",
   "clean_title": "WIHOLL Women's Long-Sleeve Casual Blouse Top",
-  "image_url": "/img/product_1732591747935343345.jpg",
+  "image_url": "https://s.500fd.com/tt_product/6f97796abe8b4bd79fe7b9255e80d068~tplv-fhlh96nyum-origin-image.image",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732591747935343345",
   "tiktok_search_url": "https://www.tiktok.com/search?q=WIHOLL%20Women%27s%20Long-Sleeve%20Casual%20Blouse%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732591747935343345",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7690334316273945870",
+      "cover_url": "https://s.500fd.com/tt_video/ocIB1XA1BGwMCBdXiGcBKtAAiCJm5ZAE5wfiIj~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7690334316273945870",
+      "creator_handle": "myriamyourbff",
+      "play_count": 1800000,
+      "window_gmv": 22044.31,
+      "window_units_sold": 997,
+      "is_ad": true,
+      "duration_seconds": 50
+    },
+    {
+      "video_id": "7689586708404260110",
+      "cover_url": "https://s.500fd.com/tt_video/okuEwtACcFelACSAWqwzRPgAZEEmfD6DI25nPb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7689586708404260110",
+      "creator_handle": "myriamestrella8",
+      "play_count": 36200,
+      "window_gmv": 19422.08,
+      "window_units_sold": 938,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7682598551095872799",
+      "cover_url": "https://s.500fd.com/tt_video/o0iK0AVDqCExB4aFEAAhIAI0EE6efnvAnRQrE7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7682598551095872799",
+      "creator_handle": "bekahhoush",
+      "play_count": 744924,
+      "window_gmv": 7708.04,
+      "window_units_sold": 392,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7688476296233389326",
+      "cover_url": "https://s.500fd.com/tt_video/oUADAIjyDXqIfCjA7CDvuEAISs9RESFgA8QETe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7688476296233389326",
+      "creator_handle": "myriamyourbff",
+      "play_count": 118400,
+      "window_gmv": 7997.96,
+      "window_units_sold": 359,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7682467571718737183",
+      "cover_url": "https://s.500fd.com/tt_video/oQm7qA5laEL9mAnFAnBCiyCIAABiPpKdLbR2E~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7682467571718737183",
+      "creator_handle": "bekahhoush",
+      "play_count": 153031,
+      "window_gmv": 4034.89,
+      "window_units_sold": 223,
+      "is_ad": true,
+      "duration_seconds": 41
+    },
+    {
+      "video_id": "7682777063798983949",
+      "cover_url": "https://s.500fd.com/tt_video/okeUhFBRSDqUnTENtgbuADRrQfziwuDEGOQSrM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@katrinagmoore/video/7682777063798983949",
+      "creator_handle": "katrinagmoore",
+      "play_count": 22756,
+      "window_gmv": 4320.27,
+      "window_units_sold": 219,
+      "is_ad": true,
+      "duration_seconds": 84
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fashion",
+        "weight": 615
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 615
+      },
+      {
+        "hashtag": "fyp\u30b7",
+        "weight": 615
+      },
+      {
+        "hashtag": "ttshop",
+        "weight": 615
+      },
+      {
+        "hashtag": "tiktokshopfinds",
+        "weight": 615
+      },
+      {
+        "hashtag": "creatorsearchinsights",
+        "weight": 347
+      },
+      {
+        "hashtag": "falltops",
+        "weight": 347
+      },
+      {
+        "hashtag": "tunictop",
+        "weight": 347
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 40,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "So many designs to choose from \ud83d\ude0d",
+      "I feel so adorable in this top!",
+      "This tunic top has a layered look, but it\u2019s all one piece!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      4,
+      1
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729477268298045144",
+  "time_range_days": 90,
+  "total": 655,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lockinthosedeals",
+        "creator_uid": "7470661905234052138"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 164,
+        "play_count": 133000,
+        "share_count": 105
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 6752.27,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668736318427417869",
+      "video_meta": {
+        "caption_text": "declutter and organize with these bins #storagecontainers #storage #onail ",
+        "cover_url": "https://s.500fd.com/tt_video/osHsiU0FiZ8D6gsE4EAB7OajzBI8vNECKIyTm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668736318427417869",
+        "published_at": 1785516845,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lockinthosedeals/video/7668736318427417869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealzdad",
+        "creator_uid": "7495243377083188270"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 719,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 5640,
+        "window_units_sold": 188
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675115871584439582",
+      "video_meta": {
+        "caption_text": "Grab this easy access storage from the side that's also stackable! Perfect for the garage, pantry, office or closet. . #schoolsupplies #officesupplies #garagestorage #storagesolutions ",
+        "cover_url": "https://s.500fd.com/tt_video/o8W3ANqQvPQeBARVAJAgj9AX08IerfIqIMIEAu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675115871584439582",
+        "published_at": 1787055086,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealzdad/video/7675115871584439582"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealzdad",
+        "creator_uid": "7495243377083188270"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 581,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 5520,
+        "window_units_sold": 184
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674670804788907295",
+      "video_meta": {
+        "caption_text": "Finally, a great quality stackable storage that allows me access to my stuff from the side . #springcleaning #getorganized #christmasdecorating ",
+        "cover_url": "https://s.500fd.com/tt_video/okfFCIEQEKjqCiAC6f3HBIeoVIA6LDI2AAEAAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674670804788907295",
+        "published_at": 1786898569,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealzdad/video/7674670804788907295"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealzdad",
+        "creator_uid": "7495243377083188270"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 540,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 5399.94,
+        "window_units_sold": 180
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674330391204908318",
+      "video_meta": {
+        "caption_text": "Grab your foldable stackable storage solution from Onail to prep for this holiday season",
+        "cover_url": "https://s.500fd.com/tt_video/oQAiAQBAAI1AiCGl2KfBIkstt5jksFCaAiiQ7E.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674330391204908318",
+        "published_at": 1786819303,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealzdad/video/7674330391204908318"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "samantha8535",
+        "creator_uid": "6813496201858778118"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1019,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 4769.81,
+        "window_units_sold": 159
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666847062696283405",
+      "video_meta": {
+        "caption_text": "@ONAIL HOME #storage #organizedhome #organizing #tiktokshopaffiliate #affiliate ",
+        "cover_url": "https://s.500fd.com/tt_video/oAkm4GwMfAEVl5pyBBI1rPAUHiBpiCYyGwNI10~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666847062696283405",
+        "published_at": 1785088800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@samantha8535/video/7666847062696283405"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ceaserbeauty",
+        "creator_uid": "6829087195241006086"
+      },
+      "engagement_metrics": {
+        "comment_count": 107,
+        "like_count": 15300,
+        "play_count": 1000000,
+        "share_count": 1516
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 3588.62,
+        "window_units_sold": 138
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693283650384776478",
+      "video_meta": {
+        "caption_text": "The perfect storage for pantry, off season clothes, beauty products, lines and so much more\ud83c\udf80 #storagecabinets #storagebins #homeorganization #stackablestorage #pinkaesthetic  ",
+        "cover_url": "https://s.500fd.com/tt_video/o8ACAfIfDETqFEAuEjMgRCtDAEPEViAH2oxmIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 131,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693283650384776478",
+        "published_at": 1791232201,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ceaserbeauty/video/7693283650384776478"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealsbyjwil",
+        "creator_uid": "7440459903864751150"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 18,
+        "play_count": 4989,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 4003.15,
+        "window_units_sold": 130
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675098443798367518",
+      "video_meta": {
+        "caption_text": "Organization is EASY when you have the storage for it \ud83d\udce6 #homeorganization #organizedhome #storagecontainers #homestorage #tiktokshopcreatorfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/ooItreIgQI1d7BdItbVIDGXCBQSbqLKeAAtLej~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675098443798367518",
+        "published_at": 1786998137,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsbyjwil/video/7675098443798367518"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealsbyjwil",
+        "creator_uid": "7440459903864751150"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 9,
+        "play_count": 2977,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 3839.57,
+        "window_units_sold": 127
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673937545645919519",
+      "video_meta": {
+        "caption_text": "Declutter & organization made EASY \ud83d\ude0c #organizationhacks #homeorganization #homeorganizationhacks #storagecontainers #tiktokshopbacktoschoolsale ",
+        "cover_url": "https://s.500fd.com/tt_video/owepKyGXREGfNeKIemLTdgE0Q82JgAFqpmOUqA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673937545645919519",
+        "published_at": 1786727844,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsbyjwil/video/7673937545645919519"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "captravision",
+        "creator_uid": "6690537823500354565"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 663,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 4945.83,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681682481514319117",
+      "video_meta": {
+        "caption_text": "#storage #tots #honegoods #organization ",
+        "cover_url": "https://s.500fd.com/tt_video/oo4auB40apPdRRSaCaIUJAi0rvgEIJTyiiG9B~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681682481514319117",
+        "published_at": 1788531118,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@captravision/video/7681682481514319117"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizdailyfinds",
+        "creator_uid": "6762717328146760710"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 38,
+        "play_count": 7817,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495431595733256920",
+        "window_gmv": 3214.59,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677689251995127053",
+      "video_meta": {
+        "caption_text": "declutter and organize your home with these foldable stackable storage bins! I got the 5 layer XXL size but they have so many more sizes available! #homeorganization #declutter #tiktokshopbacktoschool ##storagehacks##storagecabinet",
+        "cover_url": "https://s.500fd.com/tt_video/ogbnCfhaDDOqFHAEKMEoKsEcjBSIUmWge4RaHA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677689251995127053",
+        "published_at": 1787601358,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizdailyfinds/video/7677689251995127053"
+      }
+    }
+  ]
+}

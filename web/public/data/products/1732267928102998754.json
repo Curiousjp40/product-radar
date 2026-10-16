@@ -3,7 +3,7 @@
   "product_id": "1732267928102998754",
   "title": "Sweetcrispy Rectangular Japanese Polyester Memory Foam Futon Mattress - Portable Foldable Roll Up Sleeping Tatami Mat, Pressure Relief, Easy Unfolding, Durable, Space-Saving, Comfortable, Travel-Friendly, with Storage Bag for Kids",
   "clean_title": "Sweetcrispy Rectangular Japanese Polyester Memory Foam",
-  "image_url": "/img/product_1732267928102998754.webp",
+  "image_url": "https://s.500fd.com/tt_product/bd2dd13da1a643eab3fbedb7e51e0210~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732267928102998754",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%20Rectangular%20Japanese%20Polyester%20Memory%20Foam",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732267928102998754",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7683700621278498079",
+      "cover_url": "https://s.500fd.com/tt_video/oYQDjVA3QFGEIfvUIAQAI00fM2yAHFIDAmqEUf~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@rosesoma/video/7683700621278498079",
+      "creator_handle": "rosesoma",
+      "play_count": 18500,
+      "window_gmv": 47565.97,
+      "window_units_sold": 756,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7678033996185439501",
+      "cover_url": "https://s.500fd.com/tt_video/o8QObVSIAC743AjRxyQAELIHbtGPiGCeBeebtk~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@debbiedoesdeals7/video/7678033996185439501",
+      "creator_handle": "debbiedoesdeals7",
+      "play_count": 39500,
+      "window_gmv": 3869.08,
+      "window_units_sold": 64,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7678375518030269726",
+      "cover_url": "https://s.500fd.com/tt_video/oo3ejiooVQq8I0I2ICHLyoMIgCGE3fAsNAe07I~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@anamariaclick/video/7678375518030269726",
+      "creator_handle": "anamariaclick",
+      "play_count": 8823,
+      "window_gmv": 4087.97,
+      "window_units_sold": 53,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7677650342535777549",
+      "cover_url": "https://s.500fd.com/tt_video/oIgjz4GIgINsjfGHPfVIxGOCGg3DkT3eAAJLYj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mateoverdeciajr/video/7677650342535777549",
+      "creator_handle": "mateoverdeciajr",
+      "play_count": 31500,
+      "window_gmv": 2654.53,
+      "window_units_sold": 48,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7680257677200477470",
+      "cover_url": "https://s.500fd.com/tt_video/oYFVFqx5ECBcAFaqYCVEnAEw7dBlBeDsEIcfRz~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sathiho04/video/7680257677200477470",
+      "creator_handle": "sathiho04",
+      "play_count": 93600,
+      "window_gmv": 2818.77,
+      "window_units_sold": 43,
+      "is_ad": true,
+      "duration_seconds": 92
+    },
+    {
+      "video_id": "7680193058540981534",
+      "cover_url": "https://s.500fd.com/tt_video/o4IWjiyIA9LIVBw1TsqiiM0SEADf8ySVgABhCM~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sathiho04/video/7680193058540981534",
+      "creator_handle": "sathiho04",
+      "play_count": 45400,
+      "window_gmv": 2676.73,
+      "window_units_sold": 40,
+      "is_ad": true,
+      "duration_seconds": 88
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "mattress",
+        "weight": 756
+      },
+      {
+        "hashtag": "camping",
+        "weight": 756
+      },
+      {
+        "hashtag": "guests",
+        "weight": 756
+      },
+      {
+        "hashtag": "hosting",
+        "weight": 756
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 756
+      },
+      {
+        "hashtag": "floormattress",
+        "weight": 168
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 146
+      },
+      {
+        "hashtag": "moras",
+        "weight": 146
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 30,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "portable mattress for guests!",
+      "Looking for a comfortable and space-saving mattress setup?",
+      "Enjoy maximum comfort and protection at home with this practical tatami."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      2,
+      0
+    ]
+  }
 }

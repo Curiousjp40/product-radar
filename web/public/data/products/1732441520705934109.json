@@ -3,7 +3,7 @@
   "product_id": "1732441520705934109",
   "title": "[Titans]Super cute and adorable handmade figurines, suitable for arranging on tables, decoration, and DIY combinations.",
   "clean_title": "Titans Super cute and adorable handmade",
-  "image_url": "/img/product_1732441520705934109.webp",
+  "image_url": "https://s.500fd.com/tt_product/112a2ca897934398973b52ac0474d53d~tplv-fhlh96nyum-crop-webp:4284:5712.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 64,
+    "used_organic_only": true,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      2,
+      4
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1731906940791328925",
   "title": "Metal Pantry Cabinet with 2 Doors and Adjustable Shelves Available in four sizes: 47\"61\" 71\" 75\" Kitchen Storage Cabinet with Gold Handles - Versatile Storage for Kitchen, Bathroom, Dining Room, Utility Room",
   "clean_title": "Metal Pantry Cabinet with 2 Doors",
-  "image_url": "/img/product_1731906940791328925.webp",
+  "image_url": "https://s.500fd.com/tt_product/d4e1bd92b7f349c49bdab00e630681c9~tplv-fhlh96nyum-crop-webp:3000:3000.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731906940791328925",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Metal%20Pantry%20Cabinet%20with%202%20Doors",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731906940791328925",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673338732749016351",
+      "cover_url": "https://s.500fd.com/tt_video/ocfABEESPWDAj0ABzWAKFt9IffqABUIIL4E7tj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shoppin4ux2/video/7673338732749016351",
+      "creator_handle": "shoppin4ux2",
+      "play_count": 13200,
+      "window_gmv": 27258,
+      "window_units_sold": 299,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7685583295685479694",
+      "cover_url": "https://s.500fd.com/tt_video/o0WIVkG7BBrVDpgop6iqwXIiIAzxDgTfCZA1QF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@susanluckhardt/video/7685583295685479694",
+      "creator_handle": "susanluckhardt",
+      "play_count": 1800000,
+      "window_gmv": 24502,
+      "window_units_sold": 256,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7688584832699469069",
+      "cover_url": "https://s.500fd.com/tt_video/o4QabHSDqBryGeFFEYX1yAQoEDomfsugnRQnNk~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@susanluckhardt/video/7688584832699469069",
+      "creator_handle": "susanluckhardt",
+      "play_count": 413571,
+      "window_gmv": 21972,
+      "window_units_sold": 238,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7688818945457016077",
+      "cover_url": "https://s.500fd.com/tt_video/oISEWLuDIezESqtBV0cDfDQRuWAFCiCggCnqI0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@susanluckhardt/video/7688818945457016077",
+      "creator_handle": "susanluckhardt",
+      "play_count": 394828,
+      "window_gmv": 19653,
+      "window_units_sold": 217,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7691957142219214093",
+      "cover_url": "https://s.500fd.com/tt_video/osQbqRBqTvfUHFQLpQlDogGES9DfAswEhQT3E1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@susanluckhardt/video/7691957142219214093",
+      "creator_handle": "susanluckhardt",
+      "play_count": 211700,
+      "window_gmv": 13362,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 50
+    },
+    {
+      "video_id": "7674406658776386846",
+      "cover_url": "https://s.500fd.com/tt_video/o4DBAVE9QCugnIEyHfR8Er0EegqQPA1GA3AAFq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealzdad/video/7674406658776386846",
+      "creator_handle": "dealzdad",
+      "play_count": 2094,
+      "window_gmv": 12405,
+      "window_units_sold": 137,
+      "is_ad": true,
+      "duration_seconds": 36
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "garagestorage",
+        "weight": 1096
+      },
+      {
+        "hashtag": "organization",
+        "weight": 840
+      },
+      {
+        "hashtag": "storage",
+        "weight": 730
+      },
+      {
+        "hashtag": "metalcabinets",
+        "weight": 495
+      },
+      {
+        "hashtag": "clutter",
+        "weight": 455
+      },
+      {
+        "hashtag": "garagesystem",
+        "weight": 363
+      },
+      {
+        "hashtag": "garage",
+        "weight": 256
+      },
+      {
+        "hashtag": "tiktokshopfinds",
+        "weight": 256
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 42,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 2,
+      "hour_end": 4
+    },
+    "top_hooks": [
+      "Great deal on Kitchen Pantry Cabinet",
+      "no visual clutter \ud83e\udd24",
+      "plus they\u2019re good for inside or outside \ud83d\ude0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 6,
+    "hour_end": 8,
+    "best_weekdays": [
+      3,
+      2
+    ]
+  }
 }

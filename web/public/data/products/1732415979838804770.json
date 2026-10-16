@@ -3,7 +3,7 @@
   "product_id": "1732415979838804770",
   "title": "10/12/14 Inch Memory Mattress with Independent Springs, Provides Pressure Relief, Motion Isolation and Firm Edges, Medium Firm",
   "clean_title": "10/12/14 Inch Memory Mattress with Independent",
-  "image_url": "/img/product_1732415979838804770.webp",
+  "image_url": "https://s.500fd.com/tt_product/65b5a4ec5b134408b5e2ad30476b06b1~tplv-fhlh96nyum-crop-webp:1280:1280.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732415979838804770",
   "tiktok_search_url": "https://www.tiktok.com/search?q=10/12/14%20Inch%20Memory%20Mattress%20with%20Independent",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732415979838804770",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678417890621590815",
+      "cover_url": "https://s.500fd.com/tt_video/o4BPQ8EVIAAggIjQAIENeANAeZfGHLuDnqHcTI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7678417890621590815",
+      "creator_handle": "dani.salfran",
+      "play_count": 996800,
+      "window_gmv": 29093,
+      "window_units_sold": 256,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7670594753985006879",
+      "cover_url": "https://s.500fd.com/tt_video/oUXqcJDAQEBEkDhQfEAAQfQFP2mh2aIyrVlRV2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7670594753985006879",
+      "creator_handle": "dani.salfran",
+      "play_count": 770400,
+      "window_gmv": 23667,
+      "window_units_sold": 230,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7693369798587108622",
+      "cover_url": "https://s.500fd.com/tt_video/ogH7I2CVHAfQPTjYZEKyfD4AEfsDiFu4KkCVNI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@una_flor_cubana/video/7693369798587108622",
+      "creator_handle": "una_flor_cubana",
+      "play_count": 49200,
+      "window_gmv": 22039.5,
+      "window_units_sold": 179,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7679664381004696846",
+      "cover_url": "https://s.500fd.com/tt_video/o4bBiAhMdC26lWKTEBGiifE3ppSL1IA4MBiIwM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kymieann/video/7679664381004696846",
+      "creator_handle": "kymieann",
+      "play_count": 37104,
+      "window_gmv": 17928,
+      "window_units_sold": 147,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7664430989388647693",
+      "cover_url": "https://s.500fd.com/tt_video/owCewLylAvpjfGA9gYDHrae2CPIIuUUkAIC7gV~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@karin.recomends/video/7664430989388647693",
+      "creator_handle": "karin.recomends",
+      "play_count": 2900000,
+      "window_gmv": 13925.5,
+      "window_units_sold": 128,
+      "is_ad": true,
+      "duration_seconds": 39
+    },
+    {
+      "video_id": "7676362502166433038",
+      "cover_url": "https://s.500fd.com/tt_video/ogsCSCiQjEBPF1AArWAwvaiB1HIYI87BJAxf6B~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@carlita.familia/video/7676362502166433038",
+      "creator_handle": "carlita.familia",
+      "play_count": 303600,
+      "window_gmv": 14161.5,
+      "window_units_sold": 123,
+      "is_ad": true,
+      "duration_seconds": 75
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "colchon",
+        "weight": 1127
+      },
+      {
+        "hashtag": "mattress",
+        "weight": 956
+      },
+      {
+        "hashtag": "furniture",
+        "weight": 692
+      },
+      {
+        "hashtag": "colchones",
+        "weight": 577
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 553
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 396
+      },
+      {
+        "hashtag": "hogar",
+        "weight": 281
+      },
+      {
+        "hashtag": "colchonhibrido",
+        "weight": 232
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "Colch\u00f3n de Memory Foam y Resirtes individuales.",
+      "Colch\u00f3n h\u00edbrido de espuma de alta densidad y resortes individuales .",
+      "colch\u00f3n memory foam de la marca Sleep."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.9,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      2,
+      0
+    ]
+  }
 }

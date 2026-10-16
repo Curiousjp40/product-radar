@@ -3,7 +3,7 @@
   "product_id": "1732721456963686789",
   "title": "Spacious Moving Storage Bin, ZipperedOrganizer for Quilts, Bedding & Sweaters, LargeCapacity Fabric Bag for Moving Day, Closet &Bedroom Use",
   "clean_title": "Spacious Moving Storage Bin",
-  "image_url": "/img/product_1732721456963686789.webp",
+  "image_url": "https://s.500fd.com/tt_product/c5eeb872ae7f49958f1a3c11d19d2db2~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,59 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732721456963686789",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Spacious%20Moving%20Storage%20Bin",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732721456963686789",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7693924916357352735",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@chajakvc/video/7693924916357352735",
+      "creator_handle": "chajakvc",
+      "play_count": 35,
+      "window_gmv": 11.99,
+      "window_units_sold": 1,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "storage",
+        "weight": 1
+      },
+      {
+        "hashtag": "homestorage",
+        "weight": 1
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "If your house is messy, you need this storage bag."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 167,
+    "used_organic_only": false,
+    "hour_start": 6,
+    "hour_end": 8,
+    "best_weekdays": [
+      3,
+      6
+    ]
+  }
 }

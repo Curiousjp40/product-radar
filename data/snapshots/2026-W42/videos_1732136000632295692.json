@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732136000632295692",
+  "time_range_days": 90,
+  "total": 697,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "heyyitsliz",
+        "creator_uid": "6908848007022740485"
+      },
+      "engagement_metrics": {
+        "comment_count": 113,
+        "like_count": 35800,
+        "play_count": 376700,
+        "share_count": 1088
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 8072.96,
+        "window_units_sold": 376
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677717320441072910",
+      "video_meta": {
+        "caption_text": "\ud83e\uddf8\ud83c\udf53",
+        "cover_url": "https://s.500fd.com/tt_video/o4yUBUk6IigMzqmsLk6i1ACIEEau4REBP5xox~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677717320441072910",
+        "published_at": 1787607895,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@heyyitsliz/video/7677717320441072910"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 142,
+        "play_count": 19900,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 6165.34,
+        "window_units_sold": 302
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667619116471110942",
+      "video_meta": {
+        "caption_text": "and for under $18??!",
+        "cover_url": "https://s.500fd.com/tt_video/osAoBAxlTlPECmPijrwG5gA2BAIaRiib4BiAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667619116471110942",
+        "published_at": 1785256714,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7667619116471110942"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lujushop",
+        "creator_uid": "7098734302712316971"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 2242,
+        "play_count": 148900,
+        "share_count": 100
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 5669.85,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691375405542001934",
+      "video_meta": {
+        "caption_text": "This is exactly what I want to wear for every fall activity.\u2028#PumpkinPatchOutfit #FallFashion #GinghamDress #AutumnStyle #FallOOTD",
+        "cover_url": "https://s.500fd.com/tt_video/o8rqA97IPVUS0EQiJvPFP4BSgEiBKQDjBa19j~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691375405542001934",
+        "published_at": 1790787924,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lujushop/video/7691375405542001934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "helenczap",
+        "creator_uid": "6796434644508623878"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 3260,
+        "play_count": 487900,
+        "share_count": 136
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 4029.45,
+        "window_units_sold": 208
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667356283246251277",
+      "video_meta": {
+        "caption_text": "#plussizefashion #curvyfashion #fallfashion #fallvibes #apronbelly ",
+        "cover_url": "https://s.500fd.com/tt_video/o8fR7f5SZBDi9jXIEIz009AvBWXgAqaCBERnit~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667356283246251277",
+        "published_at": 1785195529,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@helenczap/video/7667356283246251277"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizsmiles1",
+        "creator_uid": "6690735481828869125"
+      },
+      "engagement_metrics": {
+        "comment_count": 193,
+        "like_count": 17017,
+        "play_count": 181504,
+        "share_count": 238
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 3499.89,
+        "window_units_sold": 167
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666255481375165727",
+      "video_meta": {
+        "caption_text": "Outfit ideas",
+        "cover_url": "https://s.500fd.com/tt_video/oE7QsJSVEDAZnVbk0iFNAJQERA01JZDfEfBqDA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666255481375165727",
+        "published_at": 1784939209,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizsmiles1/video/7666255481375165727"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jujubeingdelulu",
+        "creator_uid": "7374248687589491758"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 1857,
+        "play_count": 132088,
+        "share_count": 52
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 3324.57,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689225403826785566",
+      "video_meta": {
+        "caption_text": "can\u2019t get overr this little dress ",
+        "cover_url": "https://s.500fd.com/tt_video/o4LaqQXgGPfuzEdDAIeyA0AAkLXAAVIIfv0jHW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689225403826785566",
+        "published_at": 1790287310,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jujubeingdelulu/video/7689225403826785566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jujubeingdelulu",
+        "creator_uid": "7374248687589491758"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 3181,
+        "play_count": 864600,
+        "share_count": 162
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 3668.96,
+        "window_units_sold": 159
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670783960414260511",
+      "video_meta": {
+        "caption_text": "the cutest little gingham dress omg",
+        "cover_url": "https://s.500fd.com/tt_video/o0dpEEAFUQI0DRFA7eEdKlQBAIMkDf2BVtYqVo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670783960414260511",
+        "published_at": 1785993580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jujubeingdelulu/video/7670783960414260511"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jujubeingdelulu",
+        "creator_uid": "7374248687589491758"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 5349,
+        "play_count": 1136129,
+        "share_count": 321
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 2780.39,
+        "window_units_sold": 152
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681164283379453215",
+      "video_meta": {
+        "caption_text": "my fav little mini dress like how cute!!!",
+        "cover_url": "https://s.500fd.com/tt_video/o44xIbAmfAIiUpEuADRqkkCmeEEVFEA9bPAQ37~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681164283379453215",
+        "published_at": 1788410442,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jujubeingdelulu/video/7681164283379453215"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "helenczap",
+        "creator_uid": "6796434644508623878"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 3976,
+        "play_count": 435800,
+        "share_count": 143
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 2889.48,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665749419177889055",
+      "video_meta": {
+        "caption_text": "definitely will also work for fall! \ud83c\udf42 #plussizefashion #curvyfashion #apronbelly #fallfashion #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/ogSGnGxfQAqjeKJIqIbI5vxZ2QrjAYL7UECrSe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665749419177889055",
+        "published_at": 1784821396,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@helenczap/video/7665749419177889055"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kittybobitties",
+        "creator_uid": "6853638055116260357"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 1053,
+        "play_count": 47000,
+        "share_count": 31
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651629413817094412",
+        "window_gmv": 2476.86,
+        "window_units_sold": 121
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7674468261018242317",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocCApEJ4IEEprP4mk4aiBBBkExiHgAo6TAMAw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674468261018242317",
+        "published_at": 1786851406,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kittybobitties/video/7674468261018242317"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732447910779589481",
+  "time_range_days": 90,
+  "total": 1080,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 248,
+        "play_count": 14600,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 7099.02,
+        "window_units_sold": 181
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684349160455228685",
+      "video_meta": {
+        "caption_text": "For reference, I'm wearing a size 2XL. I'm 5'6\" and weigh 270 lbs. This shapewear is super stretchy and goes up to a size 3XL (which fits sizes 20/22/24). Key features: \u2728 Bathroom friendly \u2728 Tummy control \u2728 Size up for best fit Hope this helps with your sizing decisions!   #tummycontrol #tiktokshop#shapewear #kakapeople #TummyControl ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ2I7UiC5A0rnkJvCyV8SLwEBfAkiBASLBA1iI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684349160455228685",
+        "published_at": 1789151995,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7684349160455228685"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiktok_shop_christie",
+        "creator_uid": "7397634882631861290"
+      },
+      "engagement_metrics": {
+        "comment_count": 157,
+        "like_count": 709,
+        "play_count": 137300,
+        "share_count": 55
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 6034.21,
+        "window_units_sold": 166
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682044157812067614",
+      "video_meta": {
+        "caption_text": "A faja with a bra #faja #fajascolombianas #bra #tiktokshopstockup #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ECci1YgBAjizBOIfX7AKAAi4GapTzJDC1AIp~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682044157812067614",
+        "published_at": 1788615317,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7682044157812067614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 149,
+        "play_count": 7377,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 6140.32,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684350283324951821",
+      "video_meta": {
+        "caption_text": "Bathroom friendly tummy control Shapewear #kakapeople #shapewear #tiktokshop #womensshapewear ",
+        "cover_url": "https://s.500fd.com/tt_video/oUpIECLSeEGjFVAAgxAAeQIjVkILj9eHkAAJTE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684350283324951821",
+        "published_at": 1789257660,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7684350283324951821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiktok_shop_christie",
+        "creator_uid": "7397634882631861290"
+      },
+      "engagement_metrics": {
+        "comment_count": 85,
+        "like_count": 343,
+        "play_count": 69000,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 4611.73,
+        "window_units_sold": 130
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682104388936109342",
+      "video_meta": {
+        "caption_text": "A faja with a bra. #faja #fajascolombianas #supportivebra #tiktokshopstockup #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/o4AA2wIIEIAVZTOefULqcACADUKeQIASGEKjAG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682104388936109342",
+        "published_at": 1788629326,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7682104388936109342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "labekaoficial",
+        "creator_uid": "6616396935711014917"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 268,
+        "play_count": 69800,
+        "share_count": 56
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 3695.55,
+        "window_units_sold": 121
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691857367406857485",
+      "video_meta": {
+        "caption_text": "@KKpeople Shapewear #kkpeople #fajas #tiktokshopstockup #blackfridaysale #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/ooDeAQFbQS5eiIEw5fN9iskcleEaeAkLA7AAFV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691857367406857485",
+        "published_at": 1790900124,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7691857367406857485"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "labekaoficial",
+        "creator_uid": "6616396935711014917"
+      },
+      "engagement_metrics": {
+        "comment_count": 79,
+        "like_count": 631,
+        "play_count": 157500,
+        "share_count": 112
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 3446.21,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673696275526634766",
+      "video_meta": {
+        "caption_text": "Respuesta a @Yolanda Garcia @KKpeople Shapewear #kkpeople #tiktokshopbacktoschool #tiktokshopsummersale #blackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/oINejnuBUIkAIAHwcEfFJDIEQhDAi0AatAfkiO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673696275526634766",
+        "published_at": 1786671663,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7673696275526634766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "labekaoficial",
+        "creator_uid": "6616396935711014917"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 52,
+        "play_count": 16700,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 2980.63,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690932534334475533",
+      "video_meta": {
+        "caption_text": "@KKpeople Shapewear #kkpeopleshapewear #fajas #tiktokshopfalldealsforyou #tiktokshopstockup #blackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/ogfor6tSuCDFtpIEAIYAfAA3oX5gmqv3DER7EC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690932534334475533",
+        "published_at": 1790684782,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7690932534334475533"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiktok_shop_christie",
+        "creator_uid": "7397634882631861290"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 126,
+        "play_count": 34000,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 3309.02,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682096054359051550",
+      "video_meta": {
+        "caption_text": "Finally a faja with a built in bra that\u2019s actually lifting and supporting the bust area #faja #fajascolombianas #fajawithbra #tiktokshopstockup #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/ogic7AICEiAfbICcA1AAMG5iKBiTGSTBi06ba4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682096054359051550",
+        "published_at": 1788627384,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7682096054359051550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiktok_shop_christie",
+        "creator_uid": "7397634882631861290"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 32,
+        "play_count": 5757,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 3094.44,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685907878154112286",
+      "video_meta": {
+        "caption_text": "#faja #fajascolombianas #tiktokshopstockup #tiktokshopbacktoschool #tiktokshopholidayhaul ",
+        "cover_url": "https://s.500fd.com/tt_video/oM10qQQffGM5AiA7QxeRFOcpeUWIGpKQJqw68E~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685907878154112286",
+        "published_at": 1789514888,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7685907878154112286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "labekaoficial",
+        "creator_uid": "6616396935711014917"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 520,
+        "play_count": 99700,
+        "share_count": 172
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495895979614243689",
+        "window_gmv": 2847.62,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676073539224603918",
+      "video_meta": {
+        "caption_text": "Respuesta a @mariapicazo77 @KKpeople Shapewear #kkpeople #sohochic #blackfridaysale #tiktokshopsummersale #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oACiY5jEEo3CJYQBFGdBfBlIIjAiAA3wAjk1IX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676073539224603918",
+        "published_at": 1787225160,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7676073539224603918"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732613702330258280",
+  "time_range_days": 90,
+  "total": 67,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "barbarabolufe",
+        "creator_uid": "6811624889499665413"
+      },
+      "engagement_metrics": {
+        "comment_count": 47,
+        "like_count": 1362,
+        "play_count": 63478,
+        "share_count": 345
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 2128.5,
+        "window_units_sold": 80
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692575198364667166",
+      "video_meta": {
+        "caption_text": "P\u00eddanlo una talla m\u00e1s grande \ud83d\ude09 #gatubela #catwoman #costumeideas #halloweencostume #halloween @Fashion Nova ",
+        "cover_url": "https://s.500fd.com/tt_video/oQhM1iI7IABhArA2E2DCB8DB6KiGIYliTAdpfA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692575198364667166",
+        "published_at": 1791067247,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@barbarabolufe/video/7692575198364667166"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 441,
+        "play_count": 16100,
+        "share_count": 40
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 1953,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692189585404644622",
+      "video_meta": {
+        "caption_text": "Here's the cat costume from Fashion Nova! I'm wearing a size1X 2XL and I\u2018m 5\u20196\u201d and 268 lbs, so hopefully that helps with size reference for anyone interested. #FashionNova #HalloweenCostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ooFAvftIA8jPAQfIKELVASGGAckaAH12eEgIpp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692189585404644622",
+        "published_at": 1790977468,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7692189585404644622"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chavelysantana93",
+        "creator_uid": "6829071589235065861"
+      },
+      "engagement_metrics": {
+        "comment_count": 1083,
+        "like_count": 69600,
+        "play_count": 480900,
+        "share_count": 5833
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 1916.95,
+        "window_units_sold": 67
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690347435280928030",
+      "video_meta": {
+        "caption_text": "#loveoyloquiero #loveoyloquiero #foryou #moda #",
+        "cover_url": "https://s.500fd.com/tt_video/oQBdE5aBi1QmtqAXARpEmMRIJqYvqri0VAIla~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690347435280928030",
+        "published_at": 1790548558,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chavelysantana93/video/7690347435280928030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "barbarabolufe",
+        "creator_uid": "6811624889499665413"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 529,
+        "play_count": 10674,
+        "share_count": 28
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 1372.5,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692261942920105246",
+      "video_meta": {
+        "caption_text": "Talla S 145 lbs #gatubela #catwoman #costumeideas #halloweencostume #halloween @Fashion Nova ",
+        "cover_url": "https://s.500fd.com/tt_video/oMCZEyogAeejAE64VAIDjLF6IxIAqMfZEJAHDA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692261942920105246",
+        "published_at": 1790994309,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@barbarabolufe/video/7692261942920105246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 123,
+        "play_count": 10906,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 1390.5,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692186884201647374",
+      "video_meta": {
+        "caption_text": "Replying to @Yvonniedior Sharing part four of my Halloween costume haul, all from Fashion Nova! I\u2019m wearing a size 1X/2X and I\u2019m 5\u20196\u201d tall. Let me know what you think of this one! #FashionNova #HalloweenCostume #CostumeHaul #PlusSizeFashion #Halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/ocMQkgjBAAaeHmVdjLemEVGEfAgEwII2UASnAA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692186884201647374",
+        "published_at": 1790976854,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7692186884201647374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "barbarabolufe",
+        "creator_uid": "6811624889499665413"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 425,
+        "play_count": 18500,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 1152,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694709687232613662",
+      "video_meta": {
+        "caption_text": "#catwoman #gatubela #costumeideas #halloweencostume #halloween @Fashion Nova ",
+        "cover_url": "https://s.500fd.com/tt_video/ocRBSAEQlsIiacxBZAGDW910IPAEJALw5hAki~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694709687232613662",
+        "published_at": 1791564230,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@barbarabolufe/video/7694709687232613662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "barbarabolufe",
+        "creator_uid": "6811624889499665413"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 406,
+        "play_count": 4905,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 976.5,
+        "window_units_sold": 38
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694121320170261790",
+      "video_meta": {
+        "caption_text": "#gatubela #catwoman #catwomancostume #costumeideas #halloweencostume @Fashion Nova ",
+        "cover_url": "https://s.500fd.com/tt_video/o0qHfADx9ADEqFRfqbVhKAVEAEzHC7GIAA7wEt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694121320170261790",
+        "published_at": 1791427235,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@barbarabolufe/video/7694121320170261790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "stephaniealvae",
+        "creator_uid": "7092576252708176902"
+      },
+      "engagement_metrics": {
+        "comment_count": 89,
+        "like_count": 1331,
+        "play_count": 30200,
+        "share_count": 211
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 805.5,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686997432634494221",
+      "video_meta": {
+        "caption_text": "#dizfrazhalloween ",
+        "cover_url": "https://s.500fd.com/tt_video/oEtQkQZ4AAdfH4BprLeG2VGCG8WaOIEe4a15Fb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686997432634494221",
+        "published_at": 1789768573,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@stephaniealvae/video/7686997432634494221"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "neenthedream",
+        "creator_uid": "6696578545102390274"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 113,
+        "play_count": 2636,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 652.5,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695975054923943199",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocAADTA3Ots2mEJZBYIEaNiAB2A42F2lilvRo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695975054923943199",
+        "published_at": 1791864180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@neenthedream/video/7695975054923943199"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 116,
+        "play_count": 4972,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 801,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692191795962219790",
+      "video_meta": {
+        "caption_text": "Im 5\u20196 268 wearing size 1x/2xThis Halloween, I tried out this Fashion Nova costume! It turned out so cute. \ud83d\ude3b #HalloweenCostume #FashionNova #CuteCostume #HalloweenFun #CostumeIdeas ",
+        "cover_url": "https://s.500fd.com/tt_video/ooGeIIIGAYeOfhbATrJARi6Q4ALegGAA8HJstA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692191795962219790",
+        "published_at": 1790977989,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7692191795962219790"
+      }
+    }
+  ]
+}

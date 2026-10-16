@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729448042746384953",
+  "time_range_days": 90,
+  "total": 864,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dealsbygold",
+        "creator_uid": "7514201877377336366"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 3930,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 38256.11,
+        "window_units_sold": 1072
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671319289328127263",
+      "video_meta": {
+        "caption_text": "SALE ENDS TONIGHT\u203c\ufe0f #tiktokshopcreatorpicks #tiktokshopsummersale #tiktokshopbacktoschool #tiktokshopcybermonday #tiktokshopblackfriday ",
+        "cover_url": "https://s.500fd.com/tt_video/oMf1lEI9CwBOX2viSAiAtIwGivjpIAA1wWDqtA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671319289328127263",
+        "published_at": 1786118238,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsbygold/video/7671319289328127263"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ohhangelbaby",
+        "creator_uid": "7489527312687825963"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 357,
+        "play_count": 21400,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 11874.23,
+        "window_units_sold": 314
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689591024645098766",
+      "video_meta": {
+        "caption_text": "The most flattering sweatpants I\u2019ve ever worn. #ootd #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/ocv2QqaEFZg3E4kACbC3WO6BaiAArBmiIEHAQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689591024645098766",
+        "published_at": 1790372455,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7689591024645098766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatsinlivscart",
+        "creator_uid": "7201275298042037294"
+      },
+      "engagement_metrics": {
+        "comment_count": 40,
+        "like_count": 2405,
+        "play_count": 276000,
+        "share_count": 71
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 9645.48,
+        "window_units_sold": 238
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683048466045603086",
+      "video_meta": {
+        "caption_text": "holy cow i\u2019m obsessed #sweats #sweatpants #qinsen #cozy ",
+        "cover_url": "https://s.500fd.com/tt_video/oM4YwqAoIEhujxAD6rqEfDBCnQ0sShAfgAOFER~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683048466045603086",
+        "published_at": 1788849177,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7683048466045603086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatsinlivscart",
+        "creator_uid": "7201275298042037294"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 504,
+        "play_count": 46500,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 8386.95,
+        "window_units_sold": 214
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684423367578930445",
+      "video_meta": {
+        "caption_text": "#qinsen #sweatpants #gymgirls #gymfit ",
+        "cover_url": "https://s.500fd.com/tt_video/owAljImJDICm7kq5AnFASsRp0CfPqADEECgeEp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684423367578930445",
+        "published_at": 1789169258,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7684423367578930445"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "addison____3",
+        "creator_uid": "7081650379928683566"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 535,
+        "play_count": 59400,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 7273.2,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666973076252347662",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYfERxOo9AgaxhqATRfABfUge4adCfeRml2hWZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 61,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666973076252347662",
+        "published_at": 1785106302,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@addison____3/video/7666973076252347662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sadie3nicole",
+        "creator_uid": "7006092990315283461"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 368,
+        "play_count": 17700,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 5192.97,
+        "window_units_sold": 131
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690068981343882527",
+      "video_meta": {
+        "caption_text": "work fittt",
+        "cover_url": "https://s.500fd.com/tt_video/osu4VzAufAIDAtqwDDRqfRBQnEEVFEtUbJEIP6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690068981343882527",
+        "published_at": 1790483725,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sadie3nicole/video/7690068981343882527"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yasmadaysicortina",
+        "creator_uid": "6801422751607669765"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 284,
+        "play_count": 49072,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 3782.44,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665777119129079054",
+      "video_meta": {
+        "caption_text": "\u3010Two Options, Not a set\u3011QINSEN Women Half Zip Sports Top and Pants\u3010Two Options, Not a set, needs to be ordered separately\u3011 ##tiktikshopcreatorpicks##Summervibes##sports##tiktokshopsummersale",
+        "cover_url": "https://s.500fd.com/tt_video/o0Ei8AaPHiWA4tvmExEAg8vmBAioiyBBT4kJI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665777119129079054",
+        "published_at": 1784830800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yasmadaysicortina/video/7665777119129079054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jubbilix_",
+        "creator_uid": "6770474005512029189"
+      },
+      "engagement_metrics": {
+        "comment_count": 48,
+        "like_count": 3193,
+        "play_count": 27000,
+        "share_count": 122
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 3643.49,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684718628666707231",
+      "video_meta": {
+        "caption_text": "Wearing these sweats all the time don\u2019t mind me ",
+        "cover_url": "https://s.500fd.com/tt_video/o8qCSfnAqzbG8SgpF3SjereAINILWaIVAQQgZJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684718628666707231",
+        "published_at": 1789238001,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jubbilix_/video/7684718628666707231"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angiexroman",
+        "creator_uid": "6816131546253837317"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 94,
+        "play_count": 8327,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 3587.06,
+        "window_units_sold": 85
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672524759569124639",
+      "video_meta": {
+        "caption_text": "But before, and after is crazy  #cargosweats #sweats #falloutfits #backtoschool #bblsweats ",
+        "cover_url": "https://s.500fd.com/tt_video/ocW0jU2k9ThEIk30IAQPhpefXVbAfFIDCRqC8I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672524759569124639",
+        "published_at": 1786398900,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angiexroman/video/7672524759569124639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nutaylao",
+        "creator_uid": "7144560561790829610"
+      },
+      "engagement_metrics": {
+        "comment_count": 58,
+        "like_count": 6443,
+        "play_count": 64700,
+        "share_count": 110
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294890295659065",
+        "window_gmv": 3304.7,
+        "window_units_sold": 83
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679455876637396255",
+      "video_meta": {
+        "caption_text": "I love sweater weather & fall \ud83c\udf83\ud83c\udf42\ud83c\udf41",
+        "cover_url": "https://s.500fd.com/tt_video/og4LJDqB1A67KZpiiFMX8AI9CixSfScAaIIIa9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679455876637396255",
+        "published_at": 1788012676,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nutaylao/video/7679455876637396255"
+      }
+    }
+  ]
+}

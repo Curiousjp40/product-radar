@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732415979838804770",
+  "time_range_days": 90,
+  "total": 264,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dani.salfran",
+        "creator_uid": "7517370392262099981"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 3317,
+        "play_count": 996800,
+        "share_count": 677
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 29093,
+        "window_units_sold": 256
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678417890621590815",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n de Memory Foam y Resirtes individuales. Varios tama\u00f1o y modelos disponibles.@InnoStruct Furniture #mattress #colchones #furniture #colchon #colchon ",
+        "cover_url": "https://s.500fd.com/tt_video/o4BPQ8EVIAAggIjQAIENeANAeZfGHLuDnqHcTI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678417890621590815",
+        "published_at": 1787770989,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7678417890621590815"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dani.salfran",
+        "creator_uid": "7517370392262099981"
+      },
+      "engagement_metrics": {
+        "comment_count": 48,
+        "like_count": 2061,
+        "play_count": 770400,
+        "share_count": 453
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 23667,
+        "window_units_sold": 230
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670594753985006879",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n h\u00edbrido de espuma de alta densidad y resortes individuales . Variedad de tama\u00f1os y modelos.@InnoStruct Furniture #mattress #colchones #colchon #furniture #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oUXqcJDAQEBEkDhQfEAAQfQFP2mh2aIyrVlRV2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670594753985006879",
+        "published_at": 1785949533,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7670594753985006879"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "una_flor_cubana",
+        "creator_uid": "7302162228386776110"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 1362,
+        "play_count": 49200,
+        "share_count": 46
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 22039.5,
+        "window_units_sold": 179
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693369798587108622",
+      "video_meta": {
+        "caption_text": "colch\u00f3n memory foam de la marca Sleep. es alto, c\u00f3modo y no se transfiere el movimiento de un lado al otro. viene en varios colores y es una buena opci\u00f3n si busc\u00e1s algo bueno y econ\u00f3mico para tu cama. #colchon #memoryfoam #descanso #hogar #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/ogH7I2CVHAfQPTjYZEKyfD4AEfsDiFu4KkCVNI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693369798587108622",
+        "published_at": 1791252259,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@una_flor_cubana/video/7693369798587108622"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kymieann",
+        "creator_uid": "6797953373943825414"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 1755,
+        "play_count": 37104,
+        "share_count": 24
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 17928,
+        "window_units_sold": 147
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679664381004696846",
+      "video_meta": {
+        "caption_text": "The perfect mattress it\u2019s so soft #mattress #sleep #relax #bed #mattresses ",
+        "cover_url": "https://s.500fd.com/tt_video/o4bBiAhMdC26lWKTEBGiifE3ppSL1IA4MBiIwM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679664381004696846",
+        "published_at": 1788061221,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kymieann/video/7679664381004696846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "karin.recomends",
+        "creator_uid": "6534369943163507727"
+      },
+      "engagement_metrics": {
+        "comment_count": 352,
+        "like_count": 9907,
+        "play_count": 2900000,
+        "share_count": 2727
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 13925.5,
+        "window_units_sold": 128
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664430989388647693",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n hibrido con memory foam #colchonhibrido #mattress #tiktokshopcreatorpicks #tiktokshopsummersale #summerwins ",
+        "cover_url": "https://s.500fd.com/tt_video/owCewLylAvpjfGA9gYDHrae2CPIIuUUkAIC7gV~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664430989388647693",
+        "published_at": 1784514427,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@karin.recomends/video/7664430989388647693"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "carlita.familia",
+        "creator_uid": "7331108766240408619"
+      },
+      "engagement_metrics": {
+        "comment_count": 71,
+        "like_count": 22600,
+        "play_count": 303600,
+        "share_count": 74
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 14161.5,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676362502166433038",
+      "video_meta": {
+        "caption_text": "As\u00ed que agusto \u2764\ufe0f #parati ",
+        "cover_url": "https://s.500fd.com/tt_video/ogsCSCiQjEBPF1AArWAwvaiB1HIYI87BJAxf6B~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 75,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676362502166433038",
+        "published_at": 1787292439,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@carlita.familia/video/7676362502166433038"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "silviajuliana_0",
+        "creator_uid": "6899132133530158085"
+      },
+      "engagement_metrics": {
+        "comment_count": 66,
+        "like_count": 7865,
+        "play_count": 1437307,
+        "share_count": 1144
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 13639.5,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685912852007292191",
+      "video_meta": {
+        "caption_text": "Ahora si a descansar como se debe \u2601\ufe0f\ud83d\udd6f\ufe0f\ud83e\udd0d\ud83e\ude9e@InnoStruct Furniture #furniture #colchon #matress #autumn #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/oclAgTWzI0YVmzRPpqiADhIy9EnWiBaR2atgB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685912852007292191",
+        "published_at": 1789516050,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@silviajuliana_0/video/7685912852007292191"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "karin.recomends",
+        "creator_uid": "6534369943163507727"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 162,
+        "play_count": 80500,
+        "share_count": 37
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 11572,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671120885939555597",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n h\u00edbrido , disponible en todos los tama\u00f1os #tiktokshopcreatorpicks #tiktokshopsummersale #mattress #colchonhibrido #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oI8ehvG3QLAUQaC6OIIkulIaHApSejKqUNejAN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671120885939555597",
+        "published_at": 1786072038,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@karin.recomends/video/7671120885939555597"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "familiajlov",
+        "creator_uid": "6807555997617931270"
+      },
+      "engagement_metrics": {
+        "comment_count": 100,
+        "like_count": 6375,
+        "play_count": 269100,
+        "share_count": 238
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 11199,
+        "window_units_sold": 102
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676137028399992078",
+      "video_meta": {
+        "caption_text": "As\u00ed NO se abre un colch\u00f3n \ud83d\ude05\ud83d\ude02 pero por lo menos aprendimos la lecci\u00f3n. Y para las que me preguntaron, aqu\u00ed les dejo la informaci\u00f3n del colch\u00f3n \ud83e\udd0d #Colch\u00f3n #TikTokShop #Hogar #Recomendaciones #FamiliaJLOV ",
+        "cover_url": "https://s.500fd.com/tt_video/oMlEAD4EhAFxDEEfEg1HNSqgHCROhAJZEIfCAR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676137028399992078",
+        "published_at": 1787239941,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@familiajlov/video/7676137028399992078"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dani.salfran",
+        "creator_uid": "7517370392262099981"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 886,
+        "play_count": 293000,
+        "share_count": 205
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494645080498145058",
+        "window_gmv": 9285,
+        "window_units_sold": 91
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675897065389526303",
+      "video_meta": {
+        "caption_text": "Colch\u00f3n de Memory foam y resortes individuales. Varios tama\u00f1os y modelos disponibles.@InnoStruct Furniture #mattress #colchon #furniture #colchones #tiktokshopsummersale ",
+        "cover_url": "https://s.500fd.com/tt_video/o4GAeJQQ8dMAGIAfevAdWlGQ88UACqIRQeETUj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675897065389526303",
+        "published_at": 1787184075,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dani.salfran/video/7675897065389526303"
+      }
+    }
+  ]
+}

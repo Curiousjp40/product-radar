@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731495774411592614",
+  "time_range_days": 90,
+  "total": 373,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 8657,
+        "play_count": 510500,
+        "share_count": 1103
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 45668.12,
+        "window_units_sold": 403
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689133381530946846",
+      "video_meta": {
+        "caption_text": "go on put ya shoes in here now! \ud83c\udf41 ",
+        "cover_url": "https://s.500fd.com/tt_video/oAuQAIlGjHfQVASe1goaephQYiVGICLlqo5ISc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689133381530946846",
+        "published_at": 1790265882,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7689133381530946846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 92,
+        "like_count": 26877,
+        "play_count": 3523948,
+        "share_count": 7300
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 46063.47,
+        "window_units_sold": 378
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680227701008928030",
+      "video_meta": {
+        "caption_text": "GET ORGANIZED",
+        "cover_url": "https://s.500fd.com/tt_video/oU1SuwupIUtSAxZCIXoVViAjDIioZqf3QA1BJi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680227701008928030",
+        "published_at": 1788192385,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7680227701008928030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 59,
+        "play_count": 15800,
+        "share_count": 42
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 17097.04,
+        "window_units_sold": 151
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685941309701442846",
+      "video_meta": {
+        "caption_text": "Replying to @dlelu it\u2019s literally gorgeous \ud83d\ude2d\ud83d\ude29",
+        "cover_url": "https://s.500fd.com/tt_video/o887AGViaPAEEBaoriyvaAIFp2qDIRncB8iyo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685941309701442846",
+        "published_at": 1789522670,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7685941309701442846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 10,
+        "play_count": 1484,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 6689.9,
+        "window_units_sold": 59
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683915480263953694",
+      "video_meta": {
+        "caption_text": "get you one \ud83e\udd17",
+        "cover_url": "https://s.500fd.com/tt_video/oEXVCFf9IHPLE9gAgASIRG3ij9eVGIDCIeHQNq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683915480263953694",
+        "published_at": 1789051000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7683915480263953694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 30,
+        "play_count": 5050,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 5530.5,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694032874302967071",
+      "video_meta": {
+        "caption_text": "Replying to @ducatiboiii you see it!!! \ud83e\udd7e ",
+        "cover_url": "https://s.500fd.com/tt_video/oQc7g3DjEFAIIjBx7CEVUsEMEfrBfRUGqgjHAG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694032874302967071",
+        "published_at": 1791406648,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7694032874302967071"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "monicanicole90",
+        "creator_uid": "7021220713185051654"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 386,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 4188.42,
+        "window_units_sold": 42
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672207069281324318",
+      "video_meta": {
+        "caption_text": "Upgrade your entryway with this shoe cabinet. No more shoes all over the place\u2026.and extra storage! #shoeorganizer #shoes #entryway #organizedhouse #organization ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672207069281324318",
+        "published_at": 1786324925,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@monicanicole90/video/7672207069281324318"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleigh.williamsxx",
+        "creator_uid": "6857280278168486917"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 13,
+        "play_count": 1387,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 4217.39,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680228517241572639",
+      "video_meta": {
+        "caption_text": "gray oak is the color I have \ud83e\udde1",
+        "cover_url": "https://s.500fd.com/tt_video/ogizRCICIiAf0IKVE13AdSuaqAiO8pSBtrihAy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680228517241572639",
+        "published_at": 1788192582,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleigh.williamsxx/video/7680228517241572639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brandongilmore",
+        "creator_uid": "111005645830500352"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 68,
+        "play_count": 16800,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 3515.1,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665513966289898783",
+      "video_meta": {
+        "caption_text": "This slim shoe cabinet gives you extra storage without taking up a ton of room! #shoestorage #storagehacks #storagesolutions ",
+        "cover_url": "https://s.500fd.com/tt_video/oAaBBomhFKBbiGoEjghASRyoE0YIAviA6VrYi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665513966289898783",
+        "published_at": 1784811600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brandongilmore/video/7665513966289898783"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cozycart_tts",
+        "creator_uid": "7513195821815727135"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 883,
+        "play_count": 23300,
+        "share_count": 367
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 3152.79,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669943421800320270",
+      "video_meta": {
+        "caption_text": "#storage #furniture #cleanhome #tiktokshopsummersale #organizedhome ",
+        "cover_url": "https://s.500fd.com/tt_video/o0B4M85JIQ8kgecYAEUAXCfEQfjjAF5YHHquDr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669943421800320270",
+        "published_at": 1785797876,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cozycart_tts/video/7669943421800320270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "monicanicole90",
+        "creator_uid": "7021220713185051654"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 495,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496177623588768678",
+        "window_gmv": 2904.62,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667742888100384031",
+      "video_meta": {
+        "caption_text": "@ClaytonMFWilson wears size 13 and his shoes even fit in here too! That just shows how spacious the cabinet is! You\u2019re welcome for the aesthetic house! #shoestorage #shoecabinet #organizedhome #organizerideas #shoe ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667742888100384031",
+        "published_at": 1785285525,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@monicanicole90/video/7667742888100384031"
+      }
+    }
+  ]
+}

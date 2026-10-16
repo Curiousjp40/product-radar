@@ -3,7 +3,7 @@
   "product_id": "1731051421250392328",
   "title": "Edenza  Bed Frame, 14 16 18 Inch Heavy Duty Metal Platform Bed Frame  Size Support Up to 3500 lbs, No Box Spring Needed/No Shaking/Steel Slat Support/Noise Free/Easy Assembly Heavy Duty Twin Full Queen King Metal Bed Frame affordable  bed  frame summergar",
   "clean_title": "Edenza Bed Frame",
-  "image_url": "/img/product_1731051421250392328.webp",
+  "image_url": "https://s.500fd.com/tt_product/8e9c18eb29b54e7b898baaa565eb9006~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731051421250392328",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Edenza%20Bed%20Frame",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731051421250392328",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678851900841774350",
+      "cover_url": "https://s.500fd.com/tt_video/o48zyQGiGTI3SAy1ARDIIw9itfqYB2CpBB3Awz~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@anahimariche25/video/7678851900841774350",
+      "creator_handle": "anahimariche25",
+      "play_count": 1200000,
+      "window_gmv": 15030.75,
+      "window_units_sold": 343,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7691366704848424205",
+      "cover_url": "https://s.500fd.com/tt_video/oMWkEJivAIJ1aiU9BABAIyX4IW1wOBCCApiCfw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nicksshop_/video/7691366704848424205",
+      "creator_handle": "nicksshop_",
+      "play_count": 6575,
+      "window_gmv": 6134.39,
+      "window_units_sold": 145,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7672454937023941901",
+      "cover_url": "https://s.500fd.com/tt_video/owsjeeE5vEorF6kUINcsCnAIDfAiFHDRwClUgI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jennifer18158/video/7672454937023941901",
+      "creator_handle": "jennifer18158",
+      "play_count": 10500,
+      "window_gmv": 4120.88,
+      "window_units_sold": 107,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7669662781108505869",
+      "cover_url": "https://s.500fd.com/tt_video/o4mcwA40ApCdIiI1dOifBAwdvHK564IJIdB6CQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@anahimariche25/video/7669662781108505869",
+      "creator_handle": "anahimariche25",
+      "play_count": 6426,
+      "window_gmv": 3714.97,
+      "window_units_sold": 102,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7665931903215619358",
+      "cover_url": "https://s.500fd.com/tt_video/o8A1iK5l4A3yCIN2AIiWM3qBAfKc6IWiiCAxiI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ariannajimenez52/video/7665931903215619358",
+      "creator_handle": "ariannajimenez52",
+      "play_count": 549600,
+      "window_gmv": 2465.1,
+      "window_units_sold": 71,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7670658596966780173",
+      "cover_url": "https://s.500fd.com/tt_video/oURVOn7uBnAiv3pnnEwWuz1qBaIXIv4g2FpiU~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jennifer18158/video/7670658596966780173",
+      "creator_handle": "jennifer18158",
+      "play_count": 8496,
+      "window_gmv": 2547.38,
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 21
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bedframe",
+        "weight": 225
+      },
+      {
+        "hashtag": "home",
+        "weight": 210
+      },
+      {
+        "hashtag": "bed",
+        "weight": 201
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 158
+      },
+      {
+        "hashtag": "metalbedframe",
+        "weight": 147
+      },
+      {
+        "hashtag": "bedroom",
+        "weight": 145
+      },
+      {
+        "hashtag": "heavyduty",
+        "weight": 127
+      },
+      {
+        "hashtag": "firstapartment",
+        "weight": 116
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 20,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Affordable heavy duty bed frame!",
+      "Need a simple metal platform bed frame without a bulky headboard?",
+      "Base de cama de metal resistente y disponible en todos los tama\u00f1os"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      3,
+      0
+    ]
+  }
 }

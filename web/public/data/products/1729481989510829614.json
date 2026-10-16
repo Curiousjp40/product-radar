@@ -3,7 +3,7 @@
   "product_id": "1729481989510829614",
   "title": "SmartWell Cartoon Self Adhesive Felt Wall Mounted Cat Scratching Pad With Flat Animal Print Vertical Design For Tight Spots Size Options Glossy Cabinet Fit Easy To Apply Furniture Cover And Home Decor Decorative Accent",
   "clean_title": "SmartWell Cartoon Self Adhesive Felt Wall",
-  "image_url": "/img/product_1729481989510829614.webp",
+  "image_url": "https://s.500fd.com/tt_product/f6227f399afd4062990c43652bb7483c~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729481989510829614",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SmartWell%20Cartoon%20Self%20Adhesive%20Felt%20Wall",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729481989510829614",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686166119593364767",
+      "cover_url": "https://s.500fd.com/tt_video/o8EAqqDE0CrAIARamhIACFEE9vDmjqAceftn2V~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@sarahgibbons_/video/7686166119593364767",
+      "creator_handle": "sarahgibbons_",
+      "play_count": 4541,
+      "window_gmv": 1616.04,
+      "window_units_sold": 115,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7678554120642514207",
+      "cover_url": "https://s.500fd.com/tt_video/o0vAaya7AfiI2UqVjBsEIy3xLQgeQAWfAIAH8M~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@daniag2021/video/7678554120642514207",
+      "creator_handle": "daniag2021",
+      "play_count": 250300,
+      "window_gmv": 1377.1,
+      "window_units_sold": 97,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7685874597484449038",
+      "cover_url": "https://s.500fd.com/tt_video/o8HpOy1MpUvE9qximplJYy4tBJIagiG1LByAI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@delmylg3/video/7685874597484449038",
+      "creator_handle": "delmylg3",
+      "play_count": 4479,
+      "window_gmv": 858.12,
+      "window_units_sold": 61,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7678848933359062303",
+      "cover_url": "https://s.500fd.com/tt_video/okADFIqfQ01ACNqwXXixAiSCIiHBZA9qSIvqgz~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@leo_and_simba/video/7678848933359062303",
+      "creator_handle": "leo_and_simba",
+      "play_count": 3953,
+      "window_gmv": 702.3,
+      "window_units_sold": 49,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7688398893024857374",
+      "cover_url": "https://s.500fd.com/tt_video/oY2jSVEIIEAq26sfDrFVyVWn5jxeqEAxDBqRE6~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@introvertedcatlady/video/7688398893024857374",
+      "creator_handle": "introvertedcatlady",
+      "play_count": 71100,
+      "window_gmv": 564.53,
+      "window_units_sold": 40,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7685565560784031007",
+      "cover_url": "https://s.500fd.com/tt_video/oEnjiTACvBWHA9ELAoia0LTAiRqUBTMlIBdEA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@stephanie.p.f/video/7685565560784031007",
+      "creator_handle": "stephanie.p.f",
+      "play_count": 1841,
+      "window_gmv": 549.43,
+      "window_units_sold": 39,
+      "is_ad": true,
+      "duration_seconds": 42
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "catscratcher",
+        "weight": 263
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 172
+      },
+      {
+        "hashtag": "catenrichment",
+        "weight": 155
+      },
+      {
+        "hashtag": "smartwell",
+        "weight": 154
+      },
+      {
+        "hashtag": "catessentials",
+        "weight": 142
+      },
+      {
+        "hashtag": "wallscratcher",
+        "weight": 115
+      },
+      {
+        "hashtag": "cat",
+        "weight": 97
+      },
+      {
+        "hashtag": "scratchers",
+        "weight": 97
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 33,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "This Smart-Well Kawaii self-adhesive felt wall scratcher is such a cute way to give your cat a scratching spot without taking up floor space \ud83d\udc31\ud83d\udc97\u2728",
+      "Respuesta a \u2764\ufe0f\u200d\ud83d\udd25 Rascador para Gatos\ud83d\udc08\u200d\u2b1b\ud83d\udc08",
+      "If you\u2019re a cat keeps scratching your furniture, give them a better cat scratcher."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

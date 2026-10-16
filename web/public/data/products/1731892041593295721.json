@@ -3,7 +3,7 @@
   "product_id": "1731892041593295721",
   "title": "(KKPeople ZeroG Faja Shapewear) Tummy Control Pants for Women Butt-Lifting Shapewear, Sexy and Comfortable High-Waist Body Sculpting Garment Womenswear Compression",
   "clean_title": "KKPeople ZeroG Faja Shapewear Tummy Control",
-  "image_url": "/img/product_1731892041593295721.webp",
+  "image_url": "https://s.500fd.com/tt_product/783355ed0aec42c69b664da76b7072c9~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731892041593295721",
   "tiktok_search_url": "https://www.tiktok.com/search?q=KKPeople%20ZeroG%20Faja%20Shapewear%20Tummy%20Control",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731892041593295721",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673356130319453453",
+      "cover_url": "https://s.500fd.com/tt_video/ocsG4eIH2LyD50IZRnihewAgGeAfLOS5uFhpng~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673356130319453453",
+      "creator_handle": "shanaespov",
+      "play_count": 4756,
+      "window_gmv": 14275.19,
+      "window_units_sold": 934,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7673550002957946125",
+      "cover_url": "https://s.500fd.com/tt_video/oU7pJ7oAQfjWnD2ArAXI94hAGRcpMOAeR8fQfI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7673550002957946125",
+      "creator_handle": "yvonniedior",
+      "play_count": 538600,
+      "window_gmv": 12969.64,
+      "window_units_sold": 794,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7678063416602266893",
+      "cover_url": "https://s.500fd.com/tt_video/ooCI29bhEESRIONJeNIGeOeGwlALAAeAAO1qIh.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@labekaoficial/video/7678063416602266893",
+      "creator_handle": "labekaoficial",
+      "play_count": 53800,
+      "window_gmv": 8865.3,
+      "window_units_sold": 561,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7673640558753058061",
+      "cover_url": "https://s.500fd.com/tt_video/o4eXAxIGgRkHjPM0O0AXNfifB8f8p7QFIZlPxA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673640558753058061",
+      "creator_handle": "shanaespov",
+      "play_count": 1531,
+      "window_gmv": 7933.99,
+      "window_units_sold": 514,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7664517041327475981",
+      "cover_url": "https://s.500fd.com/tt_video/ooHBnk1uB1IZiF1CiuAFMEIBdw6pLqwAnsfDd2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kkpeople.shapewear/video/7664517041327475981",
+      "creator_handle": "kkpeople.shapewear",
+      "play_count": 1827686,
+      "window_gmv": 7046.1,
+      "window_units_sold": 443,
+      "is_ad": true,
+      "duration_seconds": 71
+    },
+    {
+      "video_id": "7673353651284348173",
+      "cover_url": "https://s.500fd.com/tt_video/oYTfkFDSjIHyrI4po9EIviCAOBxAousIfUfmwh~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shanaespov/video/7673353651284348173",
+      "creator_handle": "shanaespov",
+      "play_count": 1501,
+      "window_gmv": 6869.99,
+      "window_units_sold": 440,
+      "is_ad": true,
+      "duration_seconds": 17
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tummycontrolshapewear",
+        "weight": 1133
+      },
+      {
+        "hashtag": "shapewearshorts",
+        "weight": 794
+      },
+      {
+        "hashtag": "plussize",
+        "weight": 794
+      },
+      {
+        "hashtag": "kakapeople",
+        "weight": 782
+      },
+      {
+        "hashtag": "sohochic",
+        "weight": 561
+      },
+      {
+        "hashtag": "kkpeople",
+        "weight": 561
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 561
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 561
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 35,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 23,
+      "hour_end": 1
+    },
+    "top_hooks": [
+      "2 Pack of Shapewear shorts",
+      "DONT PLAY YOURSELF GET THEM WHILE THEY ARE STILL AT THIS PRICE -Shapewear",
+      "Yall did your thing with this one!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

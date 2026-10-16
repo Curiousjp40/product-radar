@@ -37,12 +37,14 @@ export interface Pick {
   summary_en: string;
   videos: VideoCard[];
   fastmoss_url: string;
+  tiktok_search_url: string;
   tiktok_shop_url: string;
   formula_ganadora: FormulaGanadora | null;
   saturation_badge: SaturationBadge | null;
   effort_minutes: number | null;
   spanish_share: number | null;
   pocas_creadoras_latinas: boolean;
+  best_video_time: BestVideoTime | null;
 }
 
 export interface PicksFile {
@@ -113,6 +115,20 @@ export interface FormulaGanadora {
   top_hooks: string[];
 }
 
+// Part C7a, added 2026-10-16: free best-time-to-post, computed from every
+// video ever saved to data/snapshots/*/videos_*.json (see
+// engine/posting_time.py). basis_level says which pool the window/weekdays
+// came from -- "product" (this item's own videos), "category", "group", or
+// "all" -- never blank, there's always some fallback level with a window.
+export interface BestVideoTime {
+  basis_level: "product" | "category" | "group" | "all";
+  sample_size: number;
+  used_organic_only: boolean;
+  hour_start: number;
+  hour_end: number;
+  best_weekdays: number[]; // 0=Monday .. 6=Sunday, America/New_York
+}
+
 export interface ProductDetail {
   schema_version: number;
   product_id: string;
@@ -141,6 +157,22 @@ export interface ProductDetail {
   effort_minutes: number | null;
   spanish_share: number | null;
   pocas_creadoras_latinas: boolean;
+  best_video_time: BestVideoTime | null;
+}
+
+// Part C7c, matches engine/export.py's write_best_times.
+export interface CategoryGroupBestTime {
+  sample_size: number;
+  used_organic_only: boolean;
+  hour_start: number;
+  hour_end: number;
+  best_weekdays: number[];
+}
+
+export interface BestTimesFile {
+  schema_version: number;
+  categories: Record<string, CategoryGroupBestTime | null>;
+  groups: Record<string, CategoryGroupBestTime | null>;
 }
 
 export interface CreatorInsights {

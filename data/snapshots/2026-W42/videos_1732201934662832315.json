@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732201934662832315",
+  "time_range_days": 90,
+  "total": 416,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "realtalkcaitlin",
+        "creator_uid": "7296582967276389422"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 37,
+        "play_count": 14246,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 19380.62,
+        "window_units_sold": 640
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677075055251148062",
+      "video_meta": {
+        "caption_text": "Now I can have all the essentials with me in my cozy corner \ud83d\udc9b No more resting my drink on the arm of the couch.  #couchtray #fallvibes #cozyhome #sidetable #sofaarmtray ",
+        "cover_url": "https://s.500fd.com/tt_video/oAGM9OVDqBc3HMAFE6enCAQwEEcKfiyAYRQyKk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677075055251148062",
+        "published_at": 1787458345,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realtalkcaitlin/video/7677075055251148062"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "realtalkcaitlin",
+        "creator_uid": "7296582967276389422"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 100,
+        "play_count": 51900,
+        "share_count": 25
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 19945.7,
+        "window_units_sold": 602
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678880916546030879",
+      "video_meta": {
+        "caption_text": "A couch arm table, say what?? I use this every night now. It\u2019s been so nice to have a spot for my snack and drink.  #couchtray #coucharmtable #cozyera #movienight ",
+        "cover_url": "https://s.500fd.com/tt_video/o8dPTIIR3IABZHVa41AbUA2iBpQDaB3ZiqFEQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678880916546030879",
+        "published_at": 1787878801,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realtalkcaitlin/video/7678880916546030879"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "iamsandrascott",
+        "creator_uid": "6662530440694251525"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 10,
+        "play_count": 3261,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 16997.32,
+        "window_units_sold": 570
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667683236453076254",
+      "video_meta": {
+        "caption_text": "Every arm chair needs one #armchair #sofaaccessories #cupholder #summermusthave #woodtray @Sweetcrispy Store ",
+        "cover_url": "https://s.500fd.com/tt_video/oUfIICpZRyaiJKRpRHAnI44FAEiVi1AINKBqmi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667683236453076254",
+        "published_at": 1785271638,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iamsandrascott/video/7667683236453076254"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "danpluskate",
+        "creator_uid": "7245903268311434282"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 4067,
+        "play_count": 2200000,
+        "share_count": 1606
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 12080.6,
+        "window_units_sold": 376
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675051677107457294",
+      "video_meta": {
+        "caption_text": "This was made for my living room! #livingroomideas #coolgadgets #couchtable #portabletable ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ2LIICkQOjkYHv5Xe16NgoFVelCHGfYBJIAAH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675051677107457294",
+        "published_at": 1786987255,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@danpluskate/video/7675051677107457294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tori_didit",
+        "creator_uid": "7434339577521718314"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 88,
+        "play_count": 39800,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 9592.09,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691204388865477919",
+      "video_meta": {
+        "caption_text": "The fact that I can turn the arm of my couch into a little table in two seconds \ud83d\ude2d drinks, snacks, remote\u2026everything finally has a spot #CouchAccessories#noCouchAccessoriesHomeMustHaves #couchtable #relaxing ",
+        "cover_url": "https://s.500fd.com/tt_video/o4qAVF5gwC1IKAFRkEqQr2HAAvEzAffFpWSDE2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691204388865477919",
+        "published_at": 1790748081,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7691204388865477919"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "danpluskate",
+        "creator_uid": "7245903268311434282"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 11813,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 9043.82,
+        "window_units_sold": 279
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688797298473618702",
+      "video_meta": {
+        "caption_text": "Replying to @jessethemaltese most practical thing for our living room! #livingroomdecor #livingroomideas #endtable #livingroominspiration ",
+        "cover_url": "https://s.500fd.com/tt_video/osB78i1DuIGWmiaCbpMf6R8J7NIRAIwg01IgAB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688797298473618702",
+        "published_at": 1790187665,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@danpluskate/video/7688797298473618702"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tori_didit",
+        "creator_uid": "7434339577521718314"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 43,
+        "play_count": 14700,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 5822.18,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686018239066934558",
+      "video_meta": {
+        "caption_text": "Why did nobody tell me I needed a little couch side table this bad?! \ud83d\ude2d\u2615\ufe0f Perfect for my drink, phone, snack everything I\u2019m constantly reaching for. #CouchSideTable #SofaSideTable #CouchAccessories #LivingRoomFinds #HomeFinds",
+        "cover_url": "https://s.500fd.com/tt_video/owIfwZEAqCALOIHOCyj6eVebAHGAIEAIKAOVtq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 60,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686018239066934558",
+        "published_at": 1789540590,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7686018239066934558"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tori_didit",
+        "creator_uid": "7434339577521718314"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 1420,
+        "play_count": 367300,
+        "share_count": 195
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 4603.18,
+        "window_units_sold": 141
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674777048103144735",
+      "video_meta": {
+        "caption_text": "It\u2019s the little things that make your home feel more comfortable. \ud83e\udd0e Being able to finally sit down with my coffee and actually RELAX without putting it on the floor or balancing it next to me\u2026 I\u2019m obsessed. #S#SectionalCouchC#CouchFindsL#LivingRoomInspoC#CozyHomeHomeFinds ",
+        "cover_url": "https://s.500fd.com/tt_video/o4QAAzBUIABl42SPCoiAA7ECIEJJiBaRS4vAB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 50,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674777048103144735",
+        "published_at": 1786923298,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7674777048103144735"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "heatheratl",
+        "creator_uid": "6640153218846326790"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 61,
+        "play_count": 28300,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 2774.74,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673906121924463903",
+      "video_meta": {
+        "caption_text": "the perfect little table! This sofa armrest table allows you to have all your things within reach without taking up floor space. Adjustable for all different size sofa/chair arms! #sofatable #endtable #livingroom #spacesaving #tiktokshopbacktoschool @Sweetcrispy Store Christmas gift idea ",
+        "cover_url": "https://s.500fd.com/tt_video/o8sPMpeDeAFiMgGhRRcfz4gA3LGLlfgQFUIgQw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673906121924463903",
+        "published_at": 1786720527,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@heatheratl/video/7673906121924463903"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "makpackmusthaves",
+        "creator_uid": "6822053220699112454"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 1933,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957915591608507",
+        "window_gmv": 2519.04,
+        "window_units_sold": 84
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668194525885533453",
+      "video_meta": {
+        "caption_text": "#couchtable #table #sidetable #sofaarmtray #smallspaceliving ",
+        "cover_url": "https://s.500fd.com/tt_video/oIZaDfooEE3SIm5ENCqgFBXqIwRuAAVcxD1ifi~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668194525885533453",
+        "published_at": 1785390699,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@makpackmusthaves/video/7668194525885533453"
+      }
+    }
+  ]
+}

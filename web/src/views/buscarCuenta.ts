@@ -1,4 +1,5 @@
 import { t, type Lang } from "../i18n";
+import { getStoredPassword, setStoredPassword } from "../searchPassword";
 import type { AccountSearchResult } from "../types";
 
 /* "Buscar cuenta" -- replaces the old "Cómo te está yendo" / Ari-benchmark
@@ -11,26 +12,6 @@ import type { AccountSearchResult } from "../types";
  * in the PR/commit this shipped with). Until then, the page only offers the
  * free "open in TikTok" button -- no password gate, no fetch attempt. */
 const WORKER_URL = "https://product-radar-search.roxie-radar.workers.dev";
-
-const PASSWORD_KEY = "product-radar:search-password";
-
-function getStoredPassword(): string | null {
-  try {
-    return localStorage.getItem(PASSWORD_KEY);
-  } catch {
-    return null;
-  }
-}
-
-function setStoredPassword(value: string | null): void {
-  try {
-    if (value === null) localStorage.removeItem(PASSWORD_KEY);
-    else localStorage.setItem(PASSWORD_KEY, value);
-  } catch {
-    // storage unavailable (private mode, blocked site data) -- she'll just
-    // be asked again next visit, the page still works either way.
-  }
-}
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;

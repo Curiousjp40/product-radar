@@ -3,7 +3,7 @@
   "product_id": "1732703278105465074",
   "title": "Women's Autumn European-American Court Style Special Clothing - Long-Sleeved Horn-Sleeve High-Waist Crew Neck Fun Big Skirt Dress for Halloween Clothes",
   "clean_title": "Women's Autumn European-American Court Style Special",
-  "image_url": "/img/product_1732703278105465074.webp",
+  "image_url": "https://s.500fd.com/tt_product/2adc2dce1d21485ea073b9044959b3c6~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7694654327411068190",
-      "cover_url": "/img/video_7694654327411068190.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/osRBbFEtCVZfH7yL3qHxAnVIKSIEINzfDO5VEA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@masatthing/video/7694654327411068190",
       "creator_handle": "masatthing",
       "play_count": 219800,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7693589631635393822",
-      "cover_url": "/img/video_7693589631635393822.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o0KOYW6IXE4ICHFii1oA6fBziHvAABxADIjFAb~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693589631635393822",
       "creator_handle": "thesl.shop",
       "play_count": 719800,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7693593011661344030",
-      "cover_url": "/img/video_7693593011661344030.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQllvFI7MiDRijAGBgAItUCsE6iBq3uAAaAPE~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7693593011661344030",
       "creator_handle": "thesl.shop",
       "play_count": 1200000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7694038505906785566",
-      "cover_url": "/img/video_7694038505906785566.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oMVDzAAAEDaAI1FAqZfAAtrfHdoRCWExGEElPd~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@thesl.shop/video/7694038505906785566",
       "creator_handle": "thesl.shop",
       "play_count": 68100,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7693547312622128397",
-      "cover_url": "/img/video_7693547312622128397.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oceRwIgGAXnFPC6LeerGOIAPgTJOLEgGfVTWzI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@local.shopus/video/7693547312622128397",
       "creator_handle": "local.shopus",
       "play_count": 48900,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7694624488746470687",
-      "cover_url": "/img/video_7694624488746470687.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oYjsRITpAyIAcHQVYZqXQc9khCl8fefjHAMMI7~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@clothingplanetc/video/7694624488746470687",
       "creator_handle": "clothingplanetc",
       "play_count": 119895,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      4,
+      1
+    ]
+  }
 }

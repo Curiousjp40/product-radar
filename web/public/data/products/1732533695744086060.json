@@ -3,7 +3,7 @@
   "product_id": "1732533695744086060",
   "title": "YeeZaa Women's Groove Mini Slip Dress Country Concert & Date Night Dress Lace Deep V-Neck Mini Dress Sexy Y2k Ruffle Hem Flowy Swing Boho Short Dresses",
   "clean_title": "YeeZaa Women's Groove Mini Slip Dress",
-  "image_url": "/img/product_1732533695744086060.webp",
+  "image_url": "https://s.500fd.com/tt_product/41b3f92ad75a40e88e3b0bb4ab36a5ae~tplv-fhlh96nyum-crop-webp:2200:2200.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732533695744086060",
   "tiktok_search_url": "https://www.tiktok.com/search?q=YeeZaa%20Women%27s%20Groove%20Mini%20Slip%20Dress",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732533695744086060",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686203180304108831",
+      "cover_url": "https://s.500fd.com/tt_video/o8qCVwWAqbVGNeEQF5QjSVe0IKILq4IVAI6Iew~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@torijflow/video/7686203180304108831",
+      "creator_handle": "torijflow",
+      "play_count": 800200,
+      "window_gmv": 16147.66,
+      "window_units_sold": 422,
+      "is_ad": true,
+      "duration_seconds": 62
+    },
+    {
+      "video_id": "7685889140700761358",
+      "cover_url": "https://s.500fd.com/tt_video/o4R2LDCBAkxIbD4qbcSFEOfqIBBfdtppKgDwEg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_trashlynn_/video/7685889140700761358",
+      "creator_handle": "_trashlynn_",
+      "play_count": 74500,
+      "window_gmv": 12758.88,
+      "window_units_sold": 327,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7681412526847855903",
+      "cover_url": "https://s.500fd.com/tt_video/o4AyEyidA0KDLukZiABAI4T6Iq1A3BCCAOijfX~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@taylorbatoria/video/7681412526847855903",
+      "creator_handle": "taylorbatoria",
+      "play_count": 1900000,
+      "window_gmv": 7816.92,
+      "window_units_sold": 217,
+      "is_ad": true,
+      "duration_seconds": 48
+    },
+    {
+      "video_id": "7692884953754832158",
+      "cover_url": "https://s.500fd.com/tt_video/oc84n1V3fAAgBhBBCixC8dIAdiIdUYsoFqiEiN~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@torijflow/video/7692884953754832158",
+      "creator_handle": "torijflow",
+      "play_count": 375700,
+      "window_gmv": 7657.56,
+      "window_units_sold": 207,
+      "is_ad": true,
+      "duration_seconds": 78
+    },
+    {
+      "video_id": "7687222643069668622",
+      "cover_url": "https://s.500fd.com/tt_video/o0FBKAmqrAYLDSUAE0ZoFRACSndfQf2AEbagID~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@crystalsehy/video/7687222643069668622",
+      "creator_handle": "crystalsehy",
+      "play_count": 23601,
+      "window_gmv": 6922.63,
+      "window_units_sold": 185,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7687298244786883853",
+      "cover_url": "https://s.500fd.com/tt_video/o46IxViCXAxb3uJQC8KGxxwEBfAIiBATrBA12I~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@crystalsehy/video/7687298244786883853",
+      "creator_handle": "crystalsehy",
+      "play_count": 3555,
+      "window_gmv": 6972.31,
+      "window_units_sold": 181,
+      "is_ad": true,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallfashion",
+        "weight": 814
+      },
+      {
+        "hashtag": "countryconcertoutfit",
+        "weight": 629
+      },
+      {
+        "hashtag": "boujeeonabudget",
+        "weight": 629
+      },
+      {
+        "hashtag": "classyfashion",
+        "weight": 629
+      },
+      {
+        "hashtag": "lookforless",
+        "weight": 629
+      },
+      {
+        "hashtag": "bohostyle",
+        "weight": 366
+      },
+      {
+        "hashtag": "lacedress",
+        "weight": 185
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 185
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 52,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "The quality is SO good!",
+      "preparing and imagining",
+      "Eeeeeeekkkk so many cutie ways to style this for fall!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

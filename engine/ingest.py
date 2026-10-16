@@ -7,12 +7,37 @@ checks the budget between stages.
 from __future__ import annotations
 
 import json
+from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
 
 from engine.client import FastMossConnection
 
 SNAPSHOTS_DIR = Path(__file__).resolve().parent.parent / "data" / "snapshots"
+
+
+def _iso_week_label(d: date) -> str:
+    """Duplicated from engine.run.iso_week_label (not imported -- run.py
+    already imports from this module, so the reverse import would be
+    circular) -- a one-liner, not worth restructuring the module layout
+    over."""
+    y, w, _ = d.isocalendar()
+    return f"{y}-W{w:02d}"
+
+
+def find_recent_snapshot(name: str, today: date, max_weeks_old: int = 4) -> dict[str, Any] | None:
+    """Reuse across weeks (Part 1a, added 2026-10-15): searches `name`'s
+    snapshot (e.g. "videos_<product_id>") across today's ISO week and the
+    `max_weeks_old` previous ones, most recent first, and returns whichever
+    one it finds -- a product's video/hashtag data doesn't go stale after
+    just 7 days, so re-fetching it every week a product stays on the
+    shortlist wasted credits on products that were already covered."""
+    for weeks_back in range(max_weeks_old + 1):
+        week = _iso_week_label(today - timedelta(weeks=weeks_back))
+        snapshot = load_raw_snapshot(week, name)
+        if snapshot is not None:
+            return snapshot
+    return None
 
 
 def save_raw_snapshot(week: str, name: str, payload: dict[str, Any]) -> str:

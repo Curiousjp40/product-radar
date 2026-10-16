@@ -3,7 +3,7 @@
   "product_id": "1731684756568249178",
   "title": "911 Firefighter Costume",
   "clean_title": "911 Firefighter Costume",
-  "image_url": "/img/product_1731684756568249178.webp",
+  "image_url": "https://s.500fd.com/tt_product/c4063426967b4cef884436a5117ae80d~tplv-fhlh96nyum-crop-webp:2847:2847.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731684756568249178",
   "tiktok_search_url": "https://www.tiktok.com/search?q=911%20Firefighter%20Costume",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731684756568249178",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7682916605071838478",
+      "cover_url": "https://s.500fd.com/tt_video/o0fRQEPl052PU4NfYVBSQhiNgJFADqAzngDSDE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7682916605071838478",
+      "creator_handle": "coolestbabeoutthere",
+      "play_count": 38496,
+      "window_gmv": 5070.72,
+      "window_units_sold": 48,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7679214974027451678",
+      "cover_url": "https://s.500fd.com/tt_video/o8RLNTpSjzAABIjTUQPBaDAxEiACDiAEGlIRz~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@italiajjacqueline/video/7679214974027451678",
+      "creator_handle": "italiajjacqueline",
+      "play_count": 150882,
+      "window_gmv": 3453.62,
+      "window_units_sold": 32,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7680589845818903839",
+      "cover_url": "https://s.500fd.com/tt_video/oQfi9qe0dVkDQAEZ3qbFZIwDCkFcLQjtfzqAFI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@missspearls/video/7680589845818903839",
+      "creator_handle": "missspearls",
+      "play_count": 69800,
+      "window_gmv": 2973.7,
+      "window_units_sold": 28,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7694676760020995359",
+      "cover_url": "https://s.500fd.com/tt_video/oINQAIRIseAegmWwNLe1iMIARGd9eoAhNASeGo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@geminijayden/video/7694676760020995359",
+      "creator_handle": "geminijayden",
+      "play_count": 12700,
+      "window_gmv": 2128,
+      "window_units_sold": 28,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7684739538836589854",
+      "cover_url": "https://s.500fd.com/tt_video/oIWdvDF0QICvpfOI1tVIWGeCSgFxqvleAA9Lqj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aaliyahrmorales/video/7684739538836589854",
+      "creator_handle": "aaliyahrmorales",
+      "play_count": 281500,
+      "window_gmv": 2114.7,
+      "window_units_sold": 21,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7681672780470914335",
+      "cover_url": "https://s.500fd.com/tt_video/okNiipfBqI6NI91Cqy7jKTNWaANAJiPpiCZ6IA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@missspearls/video/7681672780470914335",
+      "creator_handle": "missspearls",
+      "play_count": 14551,
+      "window_gmv": 2146.4,
+      "window_units_sold": 19,
+      "is_ad": true,
+      "duration_seconds": 8
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "firefightercostume",
+        "weight": 131
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 118
+      },
+      {
+        "hashtag": "halloween2026",
+        "weight": 103
+      },
+      {
+        "hashtag": "costumeinspo",
+        "weight": 65
+      },
+      {
+        "hashtag": "halloweencostumeideas",
+        "weight": 65
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 63
+      },
+      {
+        "hashtag": "dollskillhalloween",
+        "weight": 61
+      },
+      {
+        "hashtag": "fireburning",
+        "weight": 48
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "call me a firefighter cause i\u2019m real hot",
+      "the most boots down costume ever!",
+      "Saving lives this Halloween!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

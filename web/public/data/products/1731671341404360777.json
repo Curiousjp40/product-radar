@@ -3,7 +3,7 @@
   "product_id": "1731671341404360777",
   "title": "BloomChic Plus Size Women's Sleeveless Leopard Print Relaxed Fit Overalls - Shirred Shoulder Straps, Pockets, Stretch Fabric, Machine Washable Stylish Wear, M-6X, Relaxed Fit Overall\uff0cSohoChic",
   "clean_title": "BloomChic Plus Size Women's Sleeveless Leopard",
-  "image_url": "/img/product_1731671341404360777.webp",
+  "image_url": "https://s.500fd.com/tt_product/9451a914cc424d138af8a0144694c10a~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731671341404360777",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BloomChic%20Plus%20Size%20Women%27s%20Sleeveless%20Leopard",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731671341404360777",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7669841290967649566",
+      "cover_url": "https://s.500fd.com/tt_video/ooBEYwfBEY4EV4cCwwcDfELRAXAFAAMAAhGqIh~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7669841290967649566",
+      "creator_handle": "sweetteaandsprinkles",
+      "play_count": 126800,
+      "window_gmv": 10841.65,
+      "window_units_sold": 440,
+      "is_ad": true,
+      "duration_seconds": 42
+    },
+    {
+      "video_id": "7689227720114408718",
+      "cover_url": "https://s.500fd.com/tt_video/okR1RZy2qESAEAD8nCti7CfiIUBAU9Apvgfu9T~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7689227720114408718",
+      "creator_handle": "yvonniedior",
+      "play_count": 51100,
+      "window_gmv": 9966.13,
+      "window_units_sold": 332,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7683361230341360909",
+      "cover_url": "https://s.500fd.com/tt_video/o8viaDA4BmitBDaghxEIIpW0gx67yoGTGxqUY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@xiomaradenise_/video/7683361230341360909",
+      "creator_handle": "xiomaradenise_",
+      "play_count": 6853,
+      "window_gmv": 8122.46,
+      "window_units_sold": 232,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7687450503969639693",
+      "cover_url": "https://s.500fd.com/tt_video/o4vEI4BqmAqgcPBiFTlarkAcA5dCB9i5PAEgW~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kaylieburran/video/7687450503969639693",
+      "creator_handle": "kaylieburran",
+      "play_count": 946800,
+      "window_gmv": 6475.51,
+      "window_units_sold": 228,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7673321504020450573",
+      "cover_url": "https://s.500fd.com/tt_video/ocvuEicIBgA9idd5KWEVta4Hr5CnI2QU7BM0t~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@kenziefordham/video/7673321504020450573",
+      "creator_handle": "kenziefordham",
+      "play_count": 673200,
+      "window_gmv": 5447.38,
+      "window_units_sold": 200,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7689223544860953870",
+      "cover_url": "https://s.500fd.com/tt_video/owwUYaBIPWdriAaikBB6cg4HcAkA1CnCEVAXE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7689223544860953870",
+      "creator_handle": "yvonniedior",
+      "play_count": 22100,
+      "window_gmv": 5877.9,
+      "window_units_sold": 182,
+      "is_ad": true,
+      "duration_seconds": 40
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "leopardprint",
+        "weight": 746
+      },
+      {
+        "hashtag": "plussizefallfashion",
+        "weight": 660
+      },
+      {
+        "hashtag": "rompers",
+        "weight": 640
+      },
+      {
+        "hashtag": "romper",
+        "weight": 576
+      },
+      {
+        "hashtag": "overallsoutfits",
+        "weight": 514
+      },
+      {
+        "hashtag": "plussizefashion",
+        "weight": 510
+      },
+      {
+        "hashtag": "romperstyle",
+        "weight": 440
+      },
+      {
+        "hashtag": "teacheroutfit",
+        "weight": 440
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 33,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "Such a comfortable & cute romper for work or play!",
+      "Adjustable straps leopard oversized overalls",
+      "Replying to BloomChic Plus Size Leopard Print Overalls have that relaxed wide-leg fit, stretchy fabric and pockets for such an easy plus-size outfit."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      3
+    ]
+  }
 }

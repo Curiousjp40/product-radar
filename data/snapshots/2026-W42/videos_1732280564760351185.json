@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732280564760351185",
+  "time_range_days": 90,
+  "total": 1068,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 83,
+        "like_count": 8199,
+        "play_count": 4700000,
+        "share_count": 1942
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 12852.22,
+        "window_units_sold": 635
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665662046662348063",
+      "video_meta": {
+        "caption_text": "Fit three suitcases worth of clothes into one. #spacesaver#packwithme#vacuumstoragebags #dealsforyoudays#summerwins ",
+        "cover_url": "https://s.500fd.com/tt_video/o4z8UIgI3LGVATAdQmTICf4DIqLljwgImebuec~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665662046662348063",
+        "published_at": 1785061980,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665662046662348063"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 2708,
+        "play_count": 3000000,
+        "share_count": 1328
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 9364.87,
+        "window_units_sold": 465
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670495734227012894",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #ahorroespacioviaje ",
+        "cover_url": "https://s.500fd.com/tt_video/ogtifG5tgAqFW5NIbIJI9SYjFQTjAfLwUmCbIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670495734227012894",
+        "published_at": 1785926503,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7670495734227012894"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 586,
+        "play_count": 568800,
+        "share_count": 144
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 9274.36,
+        "window_units_sold": 443
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665297190595726623",
+      "video_meta": {
+        "caption_text": "Fit three suitcases worth of clothes into one. #travelbetter #packsmart #vacuumstoragebags #tiktokfinds #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfqCPRBEqDYGg6EZmFtPE03EGnyIABhJeCViA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665297190595726623",
+        "published_at": 1784804280,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665297190595726623"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 2303,
+        "play_count": 1500000,
+        "share_count": 389
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 9300.46,
+        "window_units_sold": 431
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679037717707001118",
+      "video_meta": {
+        "caption_text": "Fit three suitcases worth of clothes into one. #spacesaver#packwithme#vacuumstoragebags #dealsforyoudays#summerwins ",
+        "cover_url": "https://s.500fd.com/tt_video/o0v1KriIEiA1m0Sf6biqRSuQsCWRRCASBALIC0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679037717707001118",
+        "published_at": 1787915306,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7679037717707001118"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 460,
+        "play_count": 380714,
+        "share_count": 234
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 6432.84,
+        "window_units_sold": 321
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665660344873831710",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #ahorroespacioviaje ",
+        "cover_url": "https://s.500fd.com/tt_video/oAKhXeUESLjuCI8EiCFUA5RDA8qzcIuafewIlm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665660344873831710",
+        "published_at": 1784975100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7665660344873831710"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 859,
+        "play_count": 778499,
+        "share_count": 413
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 6445.17,
+        "window_units_sold": 286
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680872273095429407",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #ahorroespacioviaje ",
+        "cover_url": "https://s.500fd.com/tt_video/o8WmIuLNXLU5nfYvQGGAQeXbGpqA4FERl7Iwef~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680872273095429407",
+        "published_at": 1788342449,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7680872273095429407"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 811,
+        "play_count": 602674,
+        "share_count": 164
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 6433.64,
+        "window_units_sold": 285
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681258028011752734",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #ahorroespacioviaje ",
+        "cover_url": "https://s.500fd.com/tt_video/oEALlWfl6MtiMPMQj8XCpfIsAqQTIJNgGVfgQk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681258028011752734",
+        "published_at": 1788432266,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7681258028011752734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 648,
+        "play_count": 469400,
+        "share_count": 147
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 5136.09,
+        "window_units_sold": 246
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681993370209684766",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #AhorroEspacioViaje ",
+        "cover_url": "https://s.500fd.com/tt_video/ow1gIzfDqIl5jCVIY7ISyN4ebCHA7EweFDGjQA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681993370209684766",
+        "published_at": 1788603517,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7681993370209684766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 507,
+        "play_count": 538600,
+        "share_count": 244
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 4865.55,
+        "window_units_sold": 241
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669741270515879199",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #ahorroespacioviaje ",
+        "cover_url": "https://s.500fd.com/tt_video/owiqZDzMBIxUpw8KAoiCqBIQOAfS1uiEisAQCO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669741270515879199",
+        "published_at": 1785758340,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7669741270515879199"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "boop.the.snoot89",
+        "creator_uid": "7052393205824881670"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 320,
+        "play_count": 287500,
+        "share_count": 149
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495861480253196753",
+        "window_gmv": 4494.32,
+        "window_units_sold": 220
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670123653765418270",
+      "video_meta": {
+        "caption_text": "Deja de llenar tus abrigos de invierno y su\u00e9teres pesados en el armario con este conjunto de almacenamiento al vac\u00edo. Dobla, cierra, presiona el bot\u00f3n y mira c\u00f3mo se encoge. Ahorro de espacio, sin desorden, perfecto para la familia o para viajar! \ud83e\udde5 \u2728 Haga clic en el enlace y empacar ahora! #TrucoDeViaje #BolsaAlVacio #OrganizadorAlVacio #BolsaViajeAlVacio #AhorroEspacioViaje ",
+        "cover_url": "https://s.500fd.com/tt_video/oADxfVpQQB7ckIEbOfRwEPxEqBxccAFzG1AxFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670123653765418270",
+        "published_at": 1785846900,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@boop.the.snoot89/video/7670123653765418270"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730023660863067004",
+  "time_range_days": 90,
+  "total": 428,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "robinwierschem",
+        "creator_uid": "6869461852121531397"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 177,
+        "play_count": 103200,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 27531.78,
+        "window_units_sold": 461
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675172077229395213",
+      "video_meta": {
+        "caption_text": "@Cushionaire #clogs #mules #suedeshoes #fallshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/o48v2IYggI45cFUi8x7wlABiBorOaBsGiZFED~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675172077229395213",
+        "published_at": 1787139060,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@robinwierschem/video/7675172077229395213"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melrein82",
+        "creator_uid": "6928864910671938565"
+      },
+      "engagement_metrics": {
+        "comment_count": 50,
+        "like_count": 2496,
+        "play_count": 1557126,
+        "share_count": 487
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 24763.16,
+        "window_units_sold": 407
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676144243030658318",
+      "video_meta": {
+        "caption_text": "So cute with leggings and a chunky sweater. You can get three pair of these for the cost of the namebrand  ones and they have free shipping  and are on sale today @Cushionaire #loafers #mulesshoes",
+        "cover_url": "https://s.500fd.com/tt_video/ocEAHqVE8CyA6gR0emIACFEDSJD7bhADJf0QJS.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676144243030658318",
+        "published_at": 1787318940,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melrein82/video/7676144243030658318"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chamleys.closet",
+        "creator_uid": "7422454240448365614"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 88,
+        "play_count": 105000,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 12939,
+        "window_units_sold": 224
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691397671004769550",
+      "video_meta": {
+        "caption_text": "the comfiest clogs \ud83e\udd0e true to size ",
+        "cover_url": "https://s.500fd.com/tt_video/o86QEfJoEFADpvHgQRFDSRP7V2VdVrq9EDsfBZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691397671004769550",
+        "published_at": 1790793111,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chamleys.closet/video/7691397671004769550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahlynnewithtwins",
+        "creator_uid": "7400864291073655851"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 67,
+        "play_count": 48100,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 11659.45,
+        "window_units_sold": 195
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683243561961131295",
+      "video_meta": {
+        "caption_text": "Good quality clogs that are easy to walk in are a must have for fall \ud83e\udd0e\ud83c\udf42 #womensclogs #cuahionaireclogs #fallclogs #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o0EAGIA3tqBcB9oVR5E5BIaZX0gT9RbiVliqv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683243561961131295",
+        "published_at": 1788894553,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7683243561961131295"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "donawooow",
+        "creator_uid": "7116938735309243434"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 79,
+        "play_count": 5047,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 7430.21,
+        "window_units_sold": 118
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680542902962982175",
+      "video_meta": {
+        "caption_text": "#fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/ooTZI0CVIAzQJejK5IqTeBxAWVTGLLxpYqLxeI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 51,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680542902962982175",
+        "published_at": 1788265778,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@donawooow/video/7680542902962982175"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alygraphs",
+        "creator_uid": "6572135604203782149"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 45,
+        "play_count": 28244,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 7003.07,
+        "window_units_sold": 116
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683640478255877407",
+      "video_meta": {
+        "caption_text": "this is \u201cchocolate\u201d \ud83e\udd0e\ud83c\udf42 @Cushionaire #cushionaire #suedeclogs #fallclogs #loaferclogs ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ZoDfwXEEPVQKj7JAqAFCSDIXRcAA3yFEfAwH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683640478255877407",
+        "published_at": 1788986968,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alygraphs/video/7683640478255877407"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 32,
+        "play_count": 14386,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 6678.1,
+        "window_units_sold": 114
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687081020193033503",
+      "video_meta": {
+        "caption_text": "So cute + comfy \ud83e\udd29 #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oQnf4AA0qFQvCVpbJxFEAeDCRtAGEIAQI0fRUf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687081020193033503",
+        "published_at": 1789814700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7687081020193033503"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "markiewilliams5",
+        "creator_uid": "7423011255223223339"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 183,
+        "play_count": 38100,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 6561.35,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685444584079363359",
+      "video_meta": {
+        "caption_text": "Cute, COMFY, and so easy to throw-on!\ud83e\udd0e\ud83c\udf42@Cushionaire  #sliponshoes #fallshoes #tiktokshopstockup #tiktokshopfalldealsforyou #CapCut ",
+        "cover_url": "https://s.500fd.com/tt_video/oEF8mAbqqAe4E0yAEz1CFRXCVTQfQc6AEVCAID~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685444584079363359",
+        "published_at": 1789407033,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@markiewilliams5/video/7685444584079363359"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahlynnewithtwins",
+        "creator_uid": "7400864291073655851"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 1741,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 6173.69,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691138657104792845",
+      "video_meta": {
+        "caption_text": "Lightweight, comfy, easy to wear- everything I want in a clog \ud83e\udd0c\ud83c\udffb\ud83e\udd0e#cushionaire #cushionaireclogs #fallclogs ",
+        "cover_url": "https://s.500fd.com/tt_video/oMgf4qHRKFLZEAGBIugAFLIOj0GbmeSuLekLeI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691138657104792845",
+        "published_at": 1790732776,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7691138657104792845"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizconditt",
+        "creator_uid": "6838669697702740997"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 1471,
+        "play_count": 1100000,
+        "share_count": 196
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495902043642170236",
+        "window_gmv": 6232.71,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676269315670150413",
+      "video_meta": {
+        "caption_text": "These clogs from @Cushionaire are literally everything! Definitely gonna be THE fall shoe this year!  #clogs #fallshoes #suedeclogs #tiktokshopbacktoschool #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oYLIwi0DIW1I1AlPHqAQmelrZN2BCAiRpXLBOH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676269315670150413",
+        "published_at": 1787270735,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizconditt/video/7676269315670150413"
+      }
+    }
+  ]
+}

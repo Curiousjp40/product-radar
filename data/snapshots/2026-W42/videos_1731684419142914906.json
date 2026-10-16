@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731684419142914906",
+  "time_range_days": 90,
+  "total": 326,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "payton_l0rincz",
+        "creator_uid": "7056657414489179141"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 8254,
+        "play_count": 326200,
+        "share_count": 1150
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 6926.84,
+        "window_units_sold": 61
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674300480582962446",
+      "video_meta": {
+        "caption_text": "@Dolls Kill SIZE XS #DOLLSKILL #HALLOWEEN #HALLOWEENCOSTUME #WOODYCOSTUME #TIKTOKSHOP ",
+        "cover_url": "https://s.500fd.com/tt_video/o8cviBAiiIGwOICw5RCQ0sIEF3lQBfKAp8E1jA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674300480582962446",
+        "published_at": 1786812350,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@payton_l0rincz/video/7674300480582962446"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 7849,
+        "play_count": 131500,
+        "share_count": 567
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 7665,
+        "window_units_sold": 55
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682022389638515998",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oIa4lAf6VnQCIBReEHAFILFEOLgVkqctD3EABh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682022389638515998",
+        "published_at": 1788610259,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7682022389638515998"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "donawooow",
+        "creator_uid": "7116938735309243434"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 956,
+        "play_count": 67423,
+        "share_count": 26
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4187,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687992326219697421",
+      "video_meta": {
+        "caption_text": "#fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/ooxlrUAZig8CEq7rB4lMa4PiEBQBFJ4aPUI9E~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687992326219697421",
+        "published_at": 1790000217,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@donawooow/video/7687992326219697421"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 2161,
+        "play_count": 40000,
+        "share_count": 123
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4338,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681015069190196510",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o0Pp2IBDs8Cy9RhBKARIciVNYsYdgagEZxpAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681015069190196510",
+        "published_at": 1788375705,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7681015069190196510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "imaniiibrooks",
+        "creator_uid": "7595199658940498957"
+      },
+      "engagement_metrics": {
+        "comment_count": 121,
+        "like_count": 29372,
+        "play_count": 190308,
+        "share_count": 1712
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4080,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681674257868360991",
+      "video_meta": {
+        "caption_text": "#costume #halloween #halloweencostume #cowboycostume #viral ",
+        "cover_url": "https://s.500fd.com/tt_video/o49175QIIqjyHgJgxCLVAlUGAEqeeItFeZNIzN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681674257868360991",
+        "published_at": 1788533940,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@imaniiibrooks/video/7681674257868360991"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juliasuselesshauls",
+        "creator_uid": "6912634050747188229"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 1747,
+        "play_count": 148900,
+        "share_count": 265
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2863.41,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672557509575494943",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAnyIYFb0Fq2GVu6IDDAIQefjkUAZChIPmEWfc~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672557509575494943",
+        "published_at": 1786462260,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juliasuselesshauls/video/7672557509575494943"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 899,
+        "play_count": 21100,
+        "share_count": 47
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3992,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681389162116828446",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oosQEVg8EFAjemFAQR5DVEvQcIjOW8qzXEOfBZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681389162116828446",
+        "published_at": 1788462796,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7681389162116828446"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mads_creed",
+        "creator_uid": "6741333328173990917"
+      },
+      "engagement_metrics": {
+        "comment_count": 119,
+        "like_count": 32400,
+        "play_count": 976600,
+        "share_count": 1527
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2625.42,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671252389294394655",
+      "video_meta": {
+        "caption_text": "The amount of ppl asking to buy this bc it sold out so fast\ud83d\ude2d #halloweencostume #halloweencostumeinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/o8AA1LW7c6O5Gw7AjecE41IeAqIYIBAIOUoeEt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671252389294394655",
+        "published_at": 1786102687,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mads_creed/video/7671252389294394655"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "imaniiibrooks",
+        "creator_uid": "7595199658940498957"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 3609,
+        "play_count": 50493,
+        "share_count": 380
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3743,
+        "window_units_sold": 27
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681673801100250398",
+      "video_meta": {
+        "caption_text": "#halloweencostume #costume #costumeinspo #halloween #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oAlIAEwDRmeIqAyfaNKmOsbHSC7DEBFsVJ5EGU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681673801100250398",
+        "published_at": 1788529083,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@imaniiibrooks/video/7681673801100250398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 2641,
+        "play_count": 26400,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3355,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681019022451821854",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ooBq10V3YBEi11Yhr3PduEABpIaj2Ai5pRm9A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681019022451821854",
+        "published_at": 1788376637,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7681019022451821854"
+      }
+    }
+  ]
+}

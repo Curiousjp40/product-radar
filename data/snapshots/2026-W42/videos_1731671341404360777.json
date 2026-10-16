@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731671341404360777",
+  "time_range_days": 90,
+  "total": 700,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sweetteaandsprinkles",
+        "creator_uid": "6912970007023551493"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 517,
+        "play_count": 126800,
+        "share_count": 55
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 10841.65,
+        "window_units_sold": 440
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669841290967649566",
+      "video_meta": {
+        "caption_text": "Such a comfortable & cute romper for work or play!! #romper #rompers #romperstyle #teacheroutfit @BloomChic ",
+        "cover_url": "https://s.500fd.com/tt_video/ooBEYwfBEY4EV4cCwwcDfELRAXAFAAMAAhGqIh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669841290967649566",
+        "published_at": 1785774105,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7669841290967649566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 665,
+        "play_count": 51100,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 9966.13,
+        "window_units_sold": 332
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689227720114408718",
+      "video_meta": {
+        "caption_text": "Adjustable straps leopard oversized overalls #plussizefallfashion #leopardprint #apronbelly #overallsoutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/okR1RZy2qESAEAD8nCti7CfiIUBAU9Apvgfu9T~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689227720114408718",
+        "published_at": 1790287850,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7689227720114408718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "xiomaradenise_",
+        "creator_uid": "7410486888610432043"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 35,
+        "play_count": 6853,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 8122.46,
+        "window_units_sold": 232
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683361230341360909",
+      "video_meta": {
+        "caption_text": "Replying to @Olivia BloomChic Plus Size Leopard Print Overalls have that relaxed wide-leg fit, stretchy fabric and pockets for such an easy plus-size outfit. \ud83d\udc06\ud83e\udd0e #BloomChic #BloomChicPlusSize #PlusSizeOveralls #PlusSizeFashion #LeopardPrint ",
+        "cover_url": "https://s.500fd.com/tt_video/o8viaDA4BmitBDaghxEIIpW0gx67yoGTGxqUY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683361230341360909",
+        "published_at": 1788921952,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@xiomaradenise_/video/7683361230341360909"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaylieburran",
+        "creator_uid": "7144896414652646446"
+      },
+      "engagement_metrics": {
+        "comment_count": 60,
+        "like_count": 4233,
+        "play_count": 946800,
+        "share_count": 469
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 6475.51,
+        "window_units_sold": 228
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687450503969639693",
+      "video_meta": {
+        "caption_text": "The cutest overalls for us thick girls!!",
+        "cover_url": "https://s.500fd.com/tt_video/o4vEI4BqmAqgcPBiFTlarkAcA5dCB9i5PAEgW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687450503969639693",
+        "published_at": 1789874074,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaylieburran/video/7687450503969639693"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kenziefordham",
+        "creator_uid": "7342681063651279918"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 4438,
+        "play_count": 673200,
+        "share_count": 425
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 5447.38,
+        "window_units_sold": 200
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673321504020450573",
+      "video_meta": {
+        "caption_text": "I swear these jumpsuits look cute on all body types. #jumpsuits #rompers #plussize #ootd #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ocvuEicIBgA9idd5KWEVta4Hr5CnI2QU7BM0t~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673321504020450573",
+        "published_at": 1786584410,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kenziefordham/video/7673321504020450573"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 197,
+        "play_count": 22100,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 5877.9,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689223544860953870",
+      "video_meta": {
+        "caption_text": "Adjusting straps leopard overalls , Tall girl friendly too! #plussizefallfashion #leopardprint #overallsoutfits #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/owwUYaBIPWdriAaikBB6cg4HcAkA1CnCEVAXE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689223544860953870",
+        "published_at": 1790286880,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7689223544860953870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "janaesreviews0",
+        "creator_uid": "6917745165244662790"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 1495,
+        "play_count": 242866,
+        "share_count": 65
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 4761.68,
+        "window_units_sold": 146
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678032055187393806",
+      "video_meta": {
+        "caption_text": "Replying to @peacefulnest #plussizefallfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/o8MQi7fkILA06bGAQNyGQfOCrfsNfqUb3caeKz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678032055187393806",
+        "published_at": 1787681180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@janaesreviews0/video/7678032055187393806"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "natylite87",
+        "creator_uid": "6537729549558354959"
+      },
+      "engagement_metrics": {
+        "comment_count": 70,
+        "like_count": 1517,
+        "play_count": 167800,
+        "share_count": 82
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 3474.29,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673272354750942494",
+      "video_meta": {
+        "caption_text": "definitely gonna be a fall staple #plussizeclothing #plussizefashion #bloomchic #tiktokshopbacktoschool #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ogffZVJZdp9vEAis8lUiuRHBFq5CeIG8f1UAAQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 62,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673272354750942494",
+        "published_at": 1786572956,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@natylite87/video/7673272354750942494"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "preciousisgrowing",
+        "creator_uid": "6794129632502629382"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 91,
+        "play_count": 6215,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 4272.62,
+        "window_units_sold": 136
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675506216965049630",
+      "video_meta": {
+        "caption_text": "@BloomChic #plussizefashion #plussizeapproved #romper #curvyfashion #plussize ",
+        "cover_url": "https://s.500fd.com/tt_video/ocCiE4VFIOzCqSQANEJBfijI5hAiGmmAQiz1IT~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675506216965049630",
+        "published_at": 1787093071,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@preciousisgrowing/video/7675506216965049630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleighmtz",
+        "creator_uid": "6725964346290652165"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 883,
+        "play_count": 180500,
+        "share_count": 52
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 2907.19,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665201107492211999",
+      "video_meta": {
+        "caption_text": "So comfy and cute! #tiktokshopsummersale #fallfashion #overalls ",
+        "cover_url": "https://s.500fd.com/tt_video/ocVjhpADeAJNAfGfR7CA96QAxLGfQgLAxUIIQy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665201107492211999",
+        "published_at": 1784693728,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleighmtz/video/7665201107492211999"
+      }
+    }
+  ]
+}

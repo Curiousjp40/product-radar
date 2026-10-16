@@ -3,7 +3,7 @@
   "product_id": "1732319130017566809",
   "title": "Women's American Retro Sleeveless Short Dark Wash Denim Summer Dress, A-Line Dress, Flattering Fit, Perfect for Daily Commute, Dates, Parties and Vacations, Sleeveless Casual Sundress",
   "clean_title": "Women's American Retro Sleeveless Short Dark",
-  "image_url": "/img/product_1732319130017566809.webp",
+  "image_url": "https://s.500fd.com/tt_product/5e755d7638ff43b78c4ddd2f1eac3469~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732319130017566809",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20American%20Retro%20Sleeveless%20Short%20Dark",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732319130017566809",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681133442020445470",
+      "cover_url": "https://s.500fd.com/tt_video/oANCAh3fCYgqFEA4E4jIR3eDAE0EVcAJX9mqIA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@spacecadetmomma/video/7681133442020445470",
+      "creator_handle": "spacecadetmomma",
+      "play_count": 836770,
+      "window_gmv": 5474.15,
+      "window_units_sold": 220,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7675869100756831501",
+      "cover_url": "https://s.500fd.com/tt_video/ocUMjFUeVIkAIAHBVEDLTETIQeGAFWA0FAeQMd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nancyramosrizo199625/video/7675869100756831501",
+      "creator_handle": "nancyramosrizo199625",
+      "play_count": 1196,
+      "window_gmv": 2740.7,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 5
+    },
+    {
+      "video_id": "7677670728816151821",
+      "cover_url": "https://s.500fd.com/tt_video/oAeQfbjwqYOfZrSyFevgAPYHRMAGOXnggl49Ik~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677670728816151821",
+      "creator_handle": "cryysstallove",
+      "play_count": 122600,
+      "window_gmv": 3003.49,
+      "window_units_sold": 145,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7677859547385580813",
+      "cover_url": "https://s.500fd.com/tt_video/oIP3QuLI5SkbkfbNHHGAQgGSjxVAPCeIpnIxed~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677859547385580813",
+      "creator_handle": "cryysstallove",
+      "play_count": 73759,
+      "window_gmv": 2598.62,
+      "window_units_sold": 130,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7685434070481833246",
+      "cover_url": "https://s.500fd.com/tt_video/oYBIIDKIAC9BvCB2iAAimVaLEfJX1XiBYAL2oA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7685434070481833246",
+      "creator_handle": "tiktok_shop_christie",
+      "play_count": 11100,
+      "window_gmv": 1766.35,
+      "window_units_sold": 96,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7677446559822384398",
+      "cover_url": "https://s.500fd.com/tt_video/ospIWaLFuIGurfFAolkAezIzVLIxjtfHkUR4xC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677446559822384398",
+      "creator_handle": "cryysstallove",
+      "play_count": 44924,
+      "window_gmv": 1851.39,
+      "window_units_sold": 87,
+      "is_ad": true,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "denimdress",
+        "weight": 659
+      },
+      {
+        "hashtag": "sohochic",
+        "weight": 377
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 297
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 297
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 237
+      },
+      {
+        "hashtag": "falloutfitinspo",
+        "weight": 226
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 220
+      },
+      {
+        "hashtag": "denim",
+        "weight": 219
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 16,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "Fall outfit for the win \ud83d\ude0d a denim mini dress",
+      "I swear I\u2019m obsessed with the fit of this Jean dress",
+      "Obsessed with this denim dress would be an understatement!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

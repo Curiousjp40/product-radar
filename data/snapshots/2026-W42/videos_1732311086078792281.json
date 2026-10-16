@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732311086078792281",
+  "time_range_days": 90,
+  "total": 364,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "thereeseco",
+        "creator_uid": "7406027457411384366"
+      },
+      "engagement_metrics": {
+        "comment_count": 314,
+        "like_count": 125400,
+        "play_count": 2600000,
+        "share_count": 11000
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 7902.69,
+        "window_units_sold": 816
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684453546368011533",
+      "video_meta": {
+        "caption_text": "Some things are just too special to stay tucked away in a box \u2665 turning an old handwritten birthday card from my Grammy into a DIY keepsake magnet so I can see a little piece of her every day #DIYMagnets #KeepsakeIdeas #HandwritingKeepsake #MemoryKeepsake #sentimentalgift ",
+        "cover_url": "https://s.500fd.com/tt_video/o8kCS2oAWVfMdPkBEfMjdz8OI4HWkqQVAQKQe5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684453546368011533",
+        "published_at": 1789224480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thereeseco/video/7684453546368011533"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katerina_edwards",
+        "creator_uid": "6822816685213795334"
+      },
+      "engagement_metrics": {
+        "comment_count": 217,
+        "like_count": 93444,
+        "play_count": 4754875,
+        "share_count": 8169
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 3038.6,
+        "window_units_sold": 300
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685586848550358286",
+      "video_meta": {
+        "caption_text": "This is your sign to save your loved ones handwriting writing, you never know what\u2019s the last time! #keepsake #diymagnet #memories #fridgemagnets #sentimentalgifts ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfq8CRNEfDqmRXEOYF4oQITD0uBQgB0KtFS7A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685586848550358286",
+        "published_at": 1789440150,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katerina_edwards/video/7685586848550358286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thereeseco",
+        "creator_uid": "7406027457411384366"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 124,
+        "play_count": 17700,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 2025.43,
+        "window_units_sold": 201
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685394018036993293",
+      "video_meta": {
+        "caption_text": "The cutest way to save the very first picture I have of him \ud83e\udd0d #babyultrasound #keepsake #scrapbooking #expectingmom #babypictures ",
+        "cover_url": "https://s.500fd.com/tt_video/owAzDEVqSEKHnRpQCsofBFAqeD6QYAQqkuDxqg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685394018036993293",
+        "published_at": 1789395282,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thereeseco/video/7685394018036993293"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "watchkimshop",
+        "creator_uid": "7253402658632647726"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 5,
+        "play_count": 3380,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 1483.15,
+        "window_units_sold": 164
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689575459826208013",
+      "video_meta": {
+        "caption_text": "#giftideas #craftideas #magnets #magnetkit ",
+        "cover_url": "https://s.500fd.com/tt_video/ooiB7xICIBAfEI62B1WwHwl8pAi433WB2gGbt9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689575459826208013",
+        "published_at": 1790521200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@watchkimshop/video/7689575459826208013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katerina_edwards",
+        "creator_uid": "6822816685213795334"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 528,
+        "play_count": 59200,
+        "share_count": 72
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 1631.56,
+        "window_units_sold": 164
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685447167632280846",
+      "video_meta": {
+        "caption_text": "Don\u2019t keep the special things away in the box! Turning my birthday card from my grandparents that are not here anymore into magnet so I can remember them every day! #DIYMagnets #handwritingkeepsake #keepsakeideas #fridgemagnets #memorykeepsake ",
+        "cover_url": "https://s.500fd.com/tt_video/ogCg9tYgAJGEDqSqRF6CDEpT0EQeIAFQAFAqfD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685447167632280846",
+        "published_at": 1789407649,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katerina_edwards/video/7685447167632280846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "givethemgrace",
+        "creator_uid": "6775011816513258501"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 4258,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 1499.49,
+        "window_units_sold": 152
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687681406452911373",
+      "video_meta": {
+        "caption_text": "not only is this more affordable than buying photo magnets but this would make for great gifts!!! #christmasgifts #christmasgiftidea #magnets #custommagnets #diy ",
+        "cover_url": "https://s.500fd.com/tt_video/og2ygAmgEkXuNQgVlYX8HCAf9Qc1J8g6jeMeI7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687681406452911373",
+        "published_at": 1789927827,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@givethemgrace/video/7687681406452911373"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mama.kay0567",
+        "creator_uid": "7405032475136902187"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 2827,
+        "play_count": 176600,
+        "share_count": 80
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 1216.85,
+        "window_units_sold": 125
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687402839257124126",
+      "video_meta": {
+        "caption_text": "Iterally the coolest thing.. can\u2019t wait to turn all our memories into magnets \ud83d\ude4c #magnetgifts #fridgemagnets #keepsakes #customfridgemagnet ",
+        "cover_url": "https://s.500fd.com/tt_video/o4F4Sk2MGgaGUe4QAxLHqTjBVCeQVtIgIeA9IX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687402839257124126",
+        "published_at": 1789862963,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mama.kay0567/video/7687402839257124126"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jhllosywwd8",
+        "creator_uid": "7456688400828924974"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 211,
+        "play_count": 35000,
+        "share_count": 42
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 894.89,
+        "window_units_sold": 111
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680147420562361630",
+      "video_meta": {
+        "caption_text": "\ud83d\udc95\ud83e\udd70\ud83e\udd79Blank DIY fridge magnet blanks. Customize your own fridge decor. Fun craft supplies for you. #DIY #FridgeMagnets #Craft #DIYProject #HalloweenDecor",
+        "cover_url": "https://s.500fd.com/tt_video/oYo6EK5nfBAXX9A5Aqi7iI1ACCBAJB5SIiv1Vi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680147420562361630",
+        "published_at": 1788173698,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jhllosywwd8/video/7680147420562361630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katerina_edwards",
+        "creator_uid": "6822816685213795334"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 36,
+        "play_count": 8828,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 943.01,
+        "window_units_sold": 90
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691827031226469646",
+      "video_meta": {
+        "caption_text": "My grandparents are in heaven, singing with the angels, and I am making their handwriting into magnets so I can feel them close every day! #grief #griefjourney #grandparents #diymagnet #keepsake ",
+        "cover_url": "https://s.500fd.com/tt_video/oMf2CGeegAQ9ZPAixcbI72fAxQLNAALUV7Sjse~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691827031226469646",
+        "published_at": 1790893056,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katerina_edwards/video/7691827031226469646"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "trapezoidmouth",
+        "creator_uid": "6955325025886225414"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 1618,
+        "play_count": 10500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495998119524141657",
+        "window_gmv": 855.95,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689941941416381710",
+      "video_meta": {
+        "caption_text": "#girlhouse ",
+        "cover_url": "https://s.500fd.com/tt_video/o4fqkaRCEyBup4ai0KileEAXDPAuIgC7CPASgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 63,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689941941416381710",
+        "published_at": 1790454143,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@trapezoidmouth/video/7689941941416381710"
+      }
+    }
+  ]
+}

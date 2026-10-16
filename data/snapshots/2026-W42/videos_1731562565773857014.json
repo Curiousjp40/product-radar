@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731562565773857014",
+  "time_range_days": 90,
+  "total": 314,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sortofawesome",
+        "creator_uid": "7625926813932340237"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 19,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 6026.98,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682178540082679053",
+      "video_meta": {
+        "caption_text": "CRAZY DEAL! #TikTokShopStockUp #fallintofun ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682178540082679053",
+        "published_at": 1788646602,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sortofawesome/video/7682178540082679053"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiffanyfowler1990",
+        "creator_uid": "6814670174526129157"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 9,
+        "play_count": 669,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 3168.25,
+        "window_units_sold": 229
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664720463070825741",
+      "video_meta": {
+        "caption_text": "Women's dress set. Good for all seasons. #dress #cardigan #fallfashiontrends #tiktokshopsummersale #summerwins ",
+        "cover_url": "https://s.500fd.com/tt_video/o0193AfCSXQKsjRiEZgXQ9FE7DRWBqesD9DoBM~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664720463070825741",
+        "published_at": 1784581822,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiffanyfowler1990/video/7664720463070825741"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "holistichomegoral",
+        "creator_uid": "6810519907010184197"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 2191,
+        "play_count": 70738,
+        "share_count": 109
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 2164.12,
+        "window_units_sold": 134
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688403372122148127",
+      "video_meta": {
+        "caption_text": "Plus Size Friendly Fall outfit that covers your arms #outfitideas ",
+        "cover_url": "https://s.500fd.com/tt_video/oMjNESi3HPqaWGcyiBBAIjW4Iz1AsAqC6Vi8fJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688403372122148127",
+        "published_at": 1790095933,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@holistichomegoral/video/7688403372122148127"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mikaylarob",
+        "creator_uid": "6810054994554209285"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 69,
+        "play_count": 2373,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 2661.25,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683369270604041485",
+      "video_meta": {
+        "caption_text": "this 2 piece dress set is SO soft and comfy\ud83d\ude0d",
+        "cover_url": "https://s.500fd.com/tt_video/o4AAGGiIEDgqYmofWziSguCd67fXhEAWBCMRA7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683369270604041485",
+        "published_at": 1788923826,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mikaylarob/video/7683369270604041485"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilypadtts",
+        "creator_uid": "7545916365355680781"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 557,
+        "play_count": 17906,
+        "share_count": 26
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 2139.6,
+        "window_units_sold": 117
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686311869996371230",
+      "video_meta": {
+        "caption_text": "#knitdress #casualset #falloutfit #ootd #fallfashion \ud83d\udc97",
+        "cover_url": "https://s.500fd.com/tt_video/oQAQEfxWVaqgeFqj9NGQZQhMUrhGIfLAf8cRQ0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686311869996371230",
+        "published_at": 1789608949,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilypadtts/video/7686311869996371230"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "allie.shuttle",
+        "creator_uid": "6822868833432323078"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 19,
+        "play_count": 1441,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 1624.85,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686933271304867103",
+      "video_meta": {
+        "caption_text": "Comfortable. Adorable. Put together! #falloutfit #twopieceset #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/o8WAsCIvkLGGjRAeGw5dLeaIeMqJ9VQI8YQRFb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686933271304867103",
+        "published_at": 1789758240,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@allie.shuttle/video/7686933271304867103"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilypadtts",
+        "creator_uid": "7545916365355680781"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 690,
+        "play_count": 19600,
+        "share_count": 34
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 1483.04,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686311768217488670",
+      "video_meta": {
+        "caption_text": "#knitdress #casualset #falloutfit #ootd #fallfashion \ud83d\udc97",
+        "cover_url": "https://s.500fd.com/tt_video/ogzVVueqhARNCNtdAIueWhoYD4ef5ehggiKVWQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686311768217488670",
+        "published_at": 1789608933,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilypadtts/video/7686311768217488670"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "britt_fit_",
+        "creator_uid": "6967379385549014022"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 30,
+        "play_count": 2641,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 1170.24,
+        "window_units_sold": 82
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689219573429701902",
+      "video_meta": {
+        "caption_text": "I got compliments all day on this outfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oIhaY4WzC1YkAIAsiiTPrIEcyQm6AvBBTAE7g~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689219573429701902",
+        "published_at": 1790285957,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@britt_fit_/video/7689219573429701902"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "britt_fit_",
+        "creator_uid": "6967379385549014022"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 4,
+        "play_count": 942,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 1836.46,
+        "window_units_sold": 80
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689883804080639245",
+      "video_meta": {
+        "caption_text": "This set is so comfy & cute!",
+        "cover_url": "https://s.500fd.com/tt_video/ooXnEHAFcQkvejVAtgIbwSQf649dDfVCkKgVB3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689883804080639245",
+        "published_at": 1790440614,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@britt_fit_/video/7689883804080639245"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "model_height",
+        "creator_uid": "6764650168211293190"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 664,
+        "play_count": 39000,
+        "share_count": 35
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647226857772650742",
+        "window_gmv": 1390.46,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685959815050317086",
+      "video_meta": {
+        "caption_text": "Throw it on, add boots and somehow you look like you actually planned the outfit \ud83e\udd0e\ud83c\udf42 #FallOutfitInspo #FallFashion #MatchingSet #CurvyFashion #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/oUXURguvqIVAEAE5BCqFfFPEQzDAUIAKBAfc4O~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685959815050317086",
+        "published_at": 1789526978,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@model_height/video/7685959815050317086"
+      }
+    }
+  ]
+}

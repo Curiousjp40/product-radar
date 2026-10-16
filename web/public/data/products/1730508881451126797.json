@@ -3,7 +3,7 @@
   "product_id": "1730508881451126797",
   "title": "Sweetcrispy 9 Drawers Dresser for Bedroom, Storage Drawers, Fabric Storage Tower Chest of Drawers with Fabric Bins, Sturdy Metal Frame",
   "clean_title": "Sweetcrispy 9 Drawers Dresser for Bedroom",
-  "image_url": "/img/product_1730508881451126797.jpg",
+  "image_url": "https://s.500fd.com/tt_product/c9841a536b644d11a7f5b7bccc33141a~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730508881451126797",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sweetcrispy%209%20Drawers%20Dresser%20for%20Bedroom",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730508881451126797",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681423423649762591",
+      "cover_url": "https://s.500fd.com/tt_video/oQIIzFV2eEAcIjDFQfJQAqAAEuyyUMoxrEXAjf~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@cozyliving_us/video/7681423423649762591",
+      "creator_handle": "cozyliving_us",
+      "play_count": 4370,
+      "window_gmv": 17277.6,
+      "window_units_sold": 323,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7694401094167907614",
+      "cover_url": "https://s.500fd.com/tt_video/o8QEQFq0AB8TEnDSQfjtKVFAEfAF4ygrG2AARj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@leslypocasangre/video/7694401094167907614",
+      "creator_handle": "leslypocasangre",
+      "play_count": 3282,
+      "window_gmv": 14459.4,
+      "window_units_sold": 263,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7667651164195933470",
+      "cover_url": "https://s.500fd.com/tt_video/oYnCHQfE0AoDpw8UdQFeGNALSCQaFRRHDlreeR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_yella.xo/video/7667651164195933470",
+      "creator_handle": "_yella.xo",
+      "play_count": 986,
+      "window_gmv": 10411.96,
+      "window_units_sold": 205,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7679149107637783822",
+      "cover_url": "https://s.500fd.com/tt_video/oIQERFqYdBM5DSDUQfZU9SFgEQ0icktPkeGARZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_m8ce_/video/7679149107637783822",
+      "creator_handle": "_m8ce_",
+      "play_count": 1486,
+      "window_gmv": 8144.92,
+      "window_units_sold": 151,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7672846054139661599",
+      "cover_url": "https://s.500fd.com/tt_video/oAOCZfb7aATIB2jIDQ2iAhAqbiPiEhmC1xWgm1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@36rosy3/video/7672846054139661599",
+      "creator_handle": "36rosy3",
+      "play_count": 2000000,
+      "window_gmv": 5198.73,
+      "window_units_sold": 100,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7665871125716405535",
+      "cover_url": "https://s.500fd.com/tt_video/occpUGp3UNIywe2iCeLIAjGTIxAjaJiIIOepqU~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7665871125716405535",
+      "creator_handle": "_maryannn0711",
+      "play_count": 32472,
+      "window_gmv": 3459.27,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 20
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dresser",
+        "weight": 540
+      },
+      {
+        "hashtag": "drawer",
+        "weight": 323
+      },
+      {
+        "hashtag": "beforeandafter",
+        "weight": 323
+      },
+      {
+        "hashtag": "bedroomupgrade",
+        "weight": 323
+      },
+      {
+        "hashtag": "organizedhome",
+        "weight": 323
+      },
+      {
+        "hashtag": "tiktokshopfalldealsforyou",
+        "weight": 263
+      },
+      {
+        "hashtag": "dealsforyoudays",
+        "weight": 205
+      },
+      {
+        "hashtag": "bedroom",
+        "weight": 205
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 19,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "One works great, but two hits perfect.",
+      "Sweetcrispy 9 Drawers Dresser",
+      "Catch these deals while they last!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

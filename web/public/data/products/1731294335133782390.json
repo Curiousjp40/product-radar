@@ -3,7 +3,7 @@
   "product_id": "1731294335133782390",
   "title": "WIHOLL Womens Square Neck Long Sleeve Fall Dresses Casual Babydoll Sweater Dress",
   "clean_title": "WIHOLL Womens Square Neck Long Sleeve",
-  "image_url": "/img/product_1731294335133782390.webp",
+  "image_url": "https://s.500fd.com/tt_product/eff6188b45844cb89dbb7395802e3859~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731294335133782390",
   "tiktok_search_url": "https://www.tiktok.com/search?q=WIHOLL%20Womens%20Square%20Neck%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731294335133782390",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7688863303589842189",
+      "cover_url": "https://s.500fd.com/tt_video/oAFtSFDBREDjaITJG0EI0PBAVDRgIeaQtqfLZq~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7688863303589842189",
+      "creator_handle": "myriamyourbff",
+      "play_count": 133300,
+      "window_gmv": 10219.77,
+      "window_units_sold": 604,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7689205288964082974",
+      "cover_url": "https://s.500fd.com/tt_video/osagiAC41EwEp0IArA4ilRRWBP1MCAi1BaEAL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7689205288964082974",
+      "creator_handle": "myriamestrella8",
+      "play_count": 30600,
+      "window_gmv": 9177.53,
+      "window_units_sold": 543,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7670605776616049934",
+      "cover_url": "https://s.500fd.com/tt_video/ow1zqttiq3I0DIRIOAi1AdBBwUp9dBJ2fbOCGw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7670605776616049934",
+      "creator_handle": "jackiebentley",
+      "play_count": 204200,
+      "window_gmv": 4346.78,
+      "window_units_sold": 236,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7683317265973923085",
+      "cover_url": "https://s.500fd.com/tt_video/okGEpfKg4gHRDzAIAfxEAhCSoDoFEsuaqsBdAC~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@norasocial/video/7683317265973923085",
+      "creator_handle": "norasocial",
+      "play_count": 1500000,
+      "window_gmv": 3715.5,
+      "window_units_sold": 222,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7681431882055044365",
+      "cover_url": "https://s.500fd.com/tt_video/okiy2EkPagtiZB4B37gCAASpAamIAnpkEL80Y~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@catshrank/video/7681431882055044365",
+      "creator_handle": "catshrank",
+      "play_count": 82551,
+      "window_gmv": 3506.13,
+      "window_units_sold": 208,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7678774289008577805",
+      "cover_url": "https://s.500fd.com/tt_video/o4ARnkEE0AxNRgSJEvyUfhgIDfAVFDA0CCAqHQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7678774289008577805",
+      "creator_handle": "usingmyimaginason",
+      "play_count": 371676,
+      "window_gmv": 2705.51,
+      "window_units_sold": 163,
+      "is_ad": true,
+      "duration_seconds": 41
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 549
+      },
+      {
+        "hashtag": "falldress",
+        "weight": 388
+      },
+      {
+        "hashtag": "curvyfashion",
+        "weight": 229
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 229
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 208
+      },
+      {
+        "hashtag": "plussizefashion",
+        "weight": 208
+      },
+      {
+        "hashtag": "affordablefashion",
+        "weight": 208
+      },
+      {
+        "hashtag": "creatorsearchinsights",
+        "weight": 163
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "I found one!",
+      "The perfect dress for any fall event!",
+      "The perfect fall dress \ud83c\udf42\u2728\ud83d\udcf8"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

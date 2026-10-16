@@ -3,7 +3,7 @@
   "product_id": "1729412537235968858",
   "title": "Nightmare Stalker Costume",
   "clean_title": "Nightmare Stalker Costume",
-  "image_url": "/img/product_1729412537235968858.webp",
+  "image_url": "https://s.500fd.com/tt_product/251b7d9b18a34c5f97e48dc3ea4fa537~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729412537235968858",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Nightmare%20Stalker%20Costume",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729412537235968858",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689497161070923039",
+      "cover_url": "https://s.500fd.com/tt_video/o8rDFCJ7pEfADCU2EAAQEfqKVltvqIA1aEARAF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dollskill/video/7689497161070923039",
+      "creator_handle": "dollskill",
+      "play_count": 144197,
+      "window_gmv": 4798.1,
+      "window_units_sold": 86,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7689459952426994974",
+      "cover_url": "https://s.500fd.com/tt_video/ocCpAc9tHFCAfEnAEqEDkzf1IANnAMkVEV2zQR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@megan.cothern/video/7689459952426994974",
+      "creator_handle": "megan.cothern",
+      "play_count": 97400,
+      "window_gmv": 3256.6,
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7686510053234314510",
+      "cover_url": "https://s.500fd.com/tt_video/osC7AeEV3FVwhIfCIVEDgDfwQarPAgj3HkX1pj~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@donawooow/video/7686510053234314510",
+      "creator_handle": "donawooow",
+      "play_count": 223200,
+      "window_gmv": 3205.6,
+      "window_units_sold": 62,
+      "is_ad": true,
+      "duration_seconds": 58
+    },
+    {
+      "video_id": "7690683490051951903",
+      "cover_url": "https://s.500fd.com/tt_video/o0rkmzDKIE4DmDZEslqE1DfBuQYpVUMfAA5FlR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7690683490051951903",
+      "creator_handle": "blancavfernandez",
+      "play_count": 270700,
+      "window_gmv": 1604,
+      "window_units_sold": 29,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7686701629105605901",
+      "cover_url": "https://s.500fd.com/tt_video/oUbViUpaiirJJgsD4EAB8naXyBItPykSAInmq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_janiyad/video/7686701629105605901",
+      "creator_handle": "_janiyad",
+      "play_count": 381000,
+      "window_gmv": 1265.9,
+      "window_units_sold": 28,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7690694989751340319",
+      "cover_url": "https://s.500fd.com/tt_video/o0DEonAAEia3B4i6WYBvAImr1RaAlCvqCA6Rr~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@blancavfernandez/video/7690694989751340319",
+      "creator_handle": "blancavfernandez",
+      "play_count": 195300,
+      "window_gmv": 1267.7,
+      "window_units_sold": 24,
+      "is_ad": true,
+      "duration_seconds": 8
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloweencostume",
+        "weight": 204
+      },
+      {
+        "hashtag": "costumeideas",
+        "weight": 139
+      },
+      {
+        "hashtag": "livehighlights",
+        "weight": 86
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 62
+      },
+      {
+        "hashtag": "costume",
+        "weight": 53
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 53
+      },
+      {
+        "hashtag": "fy",
+        "weight": 53
+      },
+      {
+        "hashtag": "foryou",
+        "weight": 22
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "how to be a hot Freddy Krueger 101 \ud83e\ude78",
+      "A little scary & a lot of cute \ud83e\ude78 Halloween costume!",
+      "Run before sold out \u203c\ufe0f"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      4,
+      3
+    ]
+  }
 }

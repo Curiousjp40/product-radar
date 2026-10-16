@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729578045835022896",
+  "time_range_days": 90,
+  "total": 353,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "victoriaaa131313",
+        "creator_uid": "6791143434772022278"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 218,
+        "play_count": 49100,
+        "share_count": 55
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 10189.94,
+        "window_units_sold": 276
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691731963450756365",
+      "video_meta": {
+        "caption_text": "at this price \u2728\ud83d\ude4c\ud83c\udffc\ud83d\ude33 the sparkle on these Heydudes \ud83e\udd0c\ud83c\udffc #heydude #heydudes ",
+        "cover_url": "https://s.500fd.com/tt_video/okxZt8QQQOAq7ef8BCWI9ydDMyiFoRAeMFQGQf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691731963450756365",
+        "published_at": 1790870933,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@victoriaaa131313/video/7691731963450756365"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she.found.what",
+        "creator_uid": "7393438679945397290"
+      },
+      "engagement_metrics": {
+        "comment_count": 105,
+        "like_count": 4894,
+        "play_count": 1200000,
+        "share_count": 1365
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 20897.86,
+        "window_units_sold": 245
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692639524257615134",
+      "video_meta": {
+        "caption_text": "They\u2019re back but not for long! #heydudes #shimmer #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/o0wMXCl73IXo3c3GQEIdQ8YHqfgeVgAJEIfjAE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692639524257615134",
+        "published_at": 1791082222,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she.found.what/video/7692639524257615134"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "victoriaaa131313",
+        "creator_uid": "6791143434772022278"
+      },
+      "engagement_metrics": {
+        "comment_count": 67,
+        "like_count": 16100,
+        "play_count": 2400000,
+        "share_count": 4267
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 9876.64,
+        "window_units_sold": 214
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687985205977550093",
+      "video_meta": {
+        "caption_text": "#heydude #heydudes #heydudenewarrivals ",
+        "cover_url": "https://s.500fd.com/tt_video/oU2BQAreAAeBcAN8Nt4eaVYKtGieJgi7eXtz4J~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687985205977550093",
+        "published_at": 1789998583,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@victoriaaa131313/video/7687985205977550093"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekstheshoppingmom",
+        "creator_uid": "6796108374577546245"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 87,
+        "play_count": 54789,
+        "share_count": 35
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 7646.76,
+        "window_units_sold": 170
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687688031117102367",
+      "video_meta": {
+        "caption_text": "The moment we\u2019ve all been waiting for!! #heydude #heydudewendys #heydudeglitter #glitterheydude #glitterheydudesforwomen ",
+        "cover_url": "https://s.500fd.com/tt_video/oID4gzfcCzMCqF1EzeiBAOViEsQETQlARtNppd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687688031117102367",
+        "published_at": 1789929370,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7687688031117102367"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekstheshoppingmom",
+        "creator_uid": "6796108374577546245"
+      },
+      "engagement_metrics": {
+        "comment_count": 401,
+        "like_count": 22976,
+        "play_count": 2560201,
+        "share_count": 5923
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 9138.62,
+        "window_units_sold": 157
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687382228879412510",
+      "video_meta": {
+        "caption_text": "Hey dude glitter Wendy\u2019s are back!! #heydude #heydudeglitterwendys #heydudeglittershoes #glittershoes #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oAe5Eq36fABBFMDFEXFv8XIAxFRuwrRdxVEIE1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687382228879412510",
+        "published_at": 1789858169,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7687382228879412510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "officialburt",
+        "creator_uid": "7123419808528598062"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 2051,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 4512.95,
+        "window_units_sold": 115
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691409522191076639",
+      "video_meta": {
+        "caption_text": "Yall\u2026 they\u2019re back!! #tiktokshopcreatorpicks #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/ooNQAIlKG9rQqAYe9fee2rE0cCsGRFLzUb8Q8k~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691409522191076639",
+        "published_at": 1790795850,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@officialburt/video/7691409522191076639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jess.ick.a",
+        "creator_uid": "6891972456731608070"
+      },
+      "engagement_metrics": {
+        "comment_count": 116,
+        "like_count": 9437,
+        "play_count": 955200,
+        "share_count": 1383
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 6023.74,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688070658617560334",
+      "video_meta": {
+        "caption_text": "Probably my most complemented shoe #heydudeshoes #heydudenewarrivalcampaign #heydudenewarrivals #heyduderush #sparkleshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/os4G1dcIvVjsJgegcCLVADbGAQkU4HfoewYIPi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688070658617560334",
+        "published_at": 1790018464,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jess.ick.a/video/7688070658617560334"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekstheshoppingmom",
+        "creator_uid": "6796108374577546245"
+      },
+      "engagement_metrics": {
+        "comment_count": 30,
+        "like_count": 1993,
+        "play_count": 311900,
+        "share_count": 537
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 5892.17,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687177661604433183",
+      "video_meta": {
+        "caption_text": "Hey dude finally brought back their glitter shoes!! #heydude #heydudeglittershoee ",
+        "cover_url": "https://s.500fd.com/tt_video/oAkkgEqizXBJIM1CzaDpRod3V5AuiIV5GOAPB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687177661604433183",
+        "published_at": 1789810583,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekstheshoppingmom/video/7687177661604433183"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jess.ick.a",
+        "creator_uid": "6891972456731608070"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 314,
+        "play_count": 78308,
+        "share_count": 57
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 3452.91,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691837535319887117",
+      "video_meta": {
+        "caption_text": "My most complemented shoe #heydudeshoes #heyduderush #fallshoes #glittershoes #holidayshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/o0FOsZGKLAslf5eHAGEKAJfRgIsIQIAeAqckuI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691837535319887117",
+        "published_at": 1790895508,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jess.ick.a/video/7691837535319887117"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jess.ick.a",
+        "creator_uid": "6891972456731608070"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 214,
+        "play_count": 53400,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495161274526632496",
+        "window_gmv": 4001.89,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690347730086006030",
+      "video_meta": {
+        "caption_text": "Probably my most complemented shoe #heydudeshoes #sparkleshoes #heydudenewarrivals #heydudenewarrivalscampaign #heyduderush ",
+        "cover_url": "https://s.500fd.com/tt_video/oEq5Rqu9ue0EEmcJDAQZk1mfkKGgrFQDFkSBQZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690347730086006030",
+        "published_at": 1790548636,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jess.ick.a/video/7690347730086006030"
+      }
+    }
+  ]
+}

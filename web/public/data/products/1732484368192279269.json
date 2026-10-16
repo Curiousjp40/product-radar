@@ -3,7 +3,7 @@
   "product_id": "1732484368192279269",
   "title": "Women's Striped Set, Loose Fit Oversized, Casual Style Round Neck Long Sleeve Top, Pocket Shorts, 2-Piece Set, Soft Comfortable, Thick Warm Home Wear",
   "clean_title": "Women's Striped Set, Loose Fit Oversized, Casual Style Round Neck Long Sleeve",
-  "image_url": "/img/product_1732484368192279269.webp",
+  "image_url": "https://s.500fd.com/tt_product/3840e14d5f244dc9aca3e3d1d5aac5eb~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732484368192279269",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Striped%20Set%2C%20Loose%20Fit%20Oversized%2C%20Casual%20Style%20Round%20Neck%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732484368192279269",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7670251385497193741",
+      "cover_url": "https://s.500fd.com/tt_video/oQSj9DcDIAS0S2FE9DNEmuQRPIRRg9FCqyBeBf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@alexandraryoo/video/7670251385497193741",
+      "creator_handle": "alexandraryoo",
+      "play_count": 495700,
+      "window_gmv": 25808.84,
+      "window_units_sold": 681,
+      "is_ad": true,
+      "duration_seconds": 71
+    },
+    {
+      "video_id": "7676509745699638558",
+      "cover_url": "https://s.500fd.com/tt_video/ogCRKEeIBzahDBcNAivPArAAQibZA1iC20jIEI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kennedyyoungs/video/7676509745699638558",
+      "creator_handle": "kennedyyoungs",
+      "play_count": 553500,
+      "window_gmv": 11854.79,
+      "window_units_sold": 498,
+      "is_ad": false,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7678803682766392589",
+      "cover_url": "https://s.500fd.com/tt_video/oc4IM8flIQekgUX0FGVAXCOCQ5jSACpEZHGdke~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@chaney_traviss/video/7678803682766392589",
+      "creator_handle": "chaney_traviss",
+      "play_count": 5100000,
+      "window_gmv": 13459.74,
+      "window_units_sold": 497,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7685838269740780831",
+      "cover_url": "https://s.500fd.com/tt_video/o866l1ACfAB8AVBhCUipqxIAKiIOMVyABKiEiu~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@caitlingrayowren/video/7685838269740780831",
+      "creator_handle": "caitlingrayowren",
+      "play_count": 1600000,
+      "window_gmv": 5799.65,
+      "window_units_sold": 232,
+      "is_ad": true,
+      "duration_seconds": 72
+    },
+    {
+      "video_id": "7676488232393051405",
+      "cover_url": "https://s.500fd.com/tt_video/o8IR0SqAFB2k4SrIDDIo6iFGkoEBegfxEXEx1W~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tts.finds05/video/7676488232393051405",
+      "creator_handle": "tts.finds05",
+      "play_count": 893200,
+      "window_gmv": 5818.72,
+      "window_units_sold": 210,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7673617616312864031",
+      "cover_url": "https://s.500fd.com/tt_video/okQGVUpAFEdLGD2eGQIyffLDVAAJPAe7IKRAqq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@luubbaa/video/7673617616312864031",
+      "creator_handle": "luubbaa",
+      "play_count": 38700,
+      "window_gmv": 7110.44,
+      "window_units_sold": 199,
+      "is_ad": true,
+      "duration_seconds": 17
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "matchingset",
+        "weight": 1566
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 836
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 697
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 681
+      },
+      {
+        "hashtag": "fallootd",
+        "weight": 681
+      },
+      {
+        "hashtag": "momoutfit",
+        "weight": 681
+      },
+      {
+        "hashtag": "set",
+        "weight": 498
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 498
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "An outfit that converts to pajamas that\u2019s a two for one deal sign me up!",
+      "The quality on this set SHOCKED me!",
+      "This is adorable."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      1,
+      3
+    ]
+  }
 }

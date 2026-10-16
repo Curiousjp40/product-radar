@@ -3,7 +3,7 @@
   "product_id": "1731671149295211078",
   "title": "Vtopmart 1/2/4 Pack 24QT Clear Craft Storage Bin with Removable Trays&Adjustable Dividers, Multifunctional &  Lockable Containers for Art Supply Coloring Books Sensory Toys Medicine Playdough Hair Bows Sewing Nail Polish, TikTokShopFallDealsForYou",
   "clean_title": "Vtopmart 1/2/4 Pack 24QT Clear Craft",
-  "image_url": "/img/product_1731671149295211078.jpg",
+  "image_url": "https://s.500fd.com/tt_product/0e1ccb959d984101b875bedfc0b77470~tplv-fhlh96nyum-origin-image.image",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7668819089414032653",
-      "cover_url": "/img/video_7668819089414032653.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ocDaASDtQCHb4IEeNfRPEogDd5USRgpCAAAAFq~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@forever_barnesfamily/video/7668819089414032653",
       "creator_handle": "forever_barnesfamily",
       "play_count": 936700,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7665751374155500831",
-      "cover_url": "/img/video_7665751374155500831.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oI3GLC1lGIYUbWlIgSEWIeAPq4xRUgA9eIhjAe~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@rickhutchugc/video/7665751374155500831",
       "creator_handle": "rickhutchugc",
       "play_count": 138300,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7665034335170481422",
-      "cover_url": "/img/video_7665034335170481422.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oEEDfALS6SF4bEQq6XFfDBgmprb6sUQNR7DkE6~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@berly702/video/7665034335170481422",
       "creator_handle": "berly702",
       "play_count": 613900,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7689607559942114591",
-      "cover_url": "/img/video_7689607559942114591.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oIXLWfwq2APeQULFQDhf9GeFUpt8gnsIRo4AQM~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@desireebaca_/video/7689607559942114591",
       "creator_handle": "desireebaca_",
       "play_count": 1300000,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7689609519088831775",
-      "cover_url": "/img/video_7689609519088831775.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o4AD0EvEqE5vejn5ADBQNTntFDsIVQfRyEoytM~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@desireebaca_/video/7689609519088831775",
       "creator_handle": "desireebaca_",
       "play_count": 197200,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7676645622807645454",
-      "cover_url": "/img/video_7676645622807645454.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oUIjPkVAdQReUpfIGHIvlELua5CChAe1I7IB5K~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@courtneyttsapproved/video/7676645622807645454",
       "creator_handle": "courtneyttsapproved",
       "play_count": 315585,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

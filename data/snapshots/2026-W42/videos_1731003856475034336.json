@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731003856475034336",
+  "time_range_days": 90,
+  "total": 3769,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "hammyk6",
+        "creator_uid": "7150837336212030507"
+      },
+      "engagement_metrics": {
+        "comment_count": 45,
+        "like_count": 9345,
+        "play_count": 3600000,
+        "share_count": 706
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 74907.35,
+        "window_units_sold": 2108
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664791222057405710",
+      "video_meta": {
+        "caption_text": "Such an easy upgrade to your mattress no need to spend all that money on a new one #mattresstopper #mattress #sleep #hotelbed #bamboomattresstopper ",
+        "cover_url": "https://s.500fd.com/tt_video/oY9eySgQEYDAXSlFsCBDKqzw5d4DREGwQux4fi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664791222057405710",
+        "published_at": 1784598296,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hammyk6/video/7664791222057405710"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "iamsandrascott",
+        "creator_uid": "6662530440694251525"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 1754,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 61283.45,
+        "window_units_sold": 1751
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671442622736616735",
+      "video_meta": {
+        "caption_text": "washes great in cold water #mattresspad #mattresstopper #bamboomattresstopper @Bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/osAccimkqEEkc7azABBzhpWdiDeIVIfRHELt2o~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671442622736616735",
+        "published_at": 1786146935,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iamsandrascott/video/7671442622736616735"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tori_didit",
+        "creator_uid": "7434339577521718314"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 2507,
+        "play_count": 735500,
+        "share_count": 170
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 57666.8,
+        "window_units_sold": 1622
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684115999028727071",
+      "video_meta": {
+        "caption_text": "I thought waking up sore every morning was just \"getting older\" \ud83d\ude44 Turns out it was my rock-hard mattress the whole time. Added a bamboo topper and I'm getting out of bed like a normal person again, not creaking like I'm 80 \ud83d\ude2d\u2601\ufe0f\u2728 #bettersleep #bamboomattresstopper #bamboo #roommakeover #cozy  ",
+        "cover_url": "https://s.500fd.com/tt_video/oIIRBEjP2AAi27AEa2NpqBAjdliEmtAAyCP3D~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684115999028727071",
+        "published_at": 1789097689,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7684115999028727071"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "projectbetter",
+        "creator_uid": "6639851094128689158"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 4053,
+        "play_count": 54800,
+        "share_count": 35
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 46985.77,
+        "window_units_sold": 1323
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682734352068775199",
+      "video_meta": {
+        "caption_text": "This mattress topper saved my marriage \ud83d\ude26",
+        "cover_url": "https://s.500fd.com/tt_video/oYAIIjfe9MVQ8COuyEMRzQj5qPjjQuXA9V4ICf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682734352068775199",
+        "published_at": 1788775996,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@projectbetter/video/7682734352068775199"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "grind2hardosha",
+        "creator_uid": "6744609318726992901"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 2663,
+        "play_count": 367000,
+        "share_count": 98
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 46950.2,
+        "window_units_sold": 1309
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688761230403636511",
+      "video_meta": {
+        "caption_text": "She really thought I would spend that much on her \ud83d\ude02\ud83d\ude45\ud83c\udffd\u200d\u2642\ufe0f",
+        "cover_url": "https://s.500fd.com/tt_video/oAOit9S6E93EVxsB4zmBfEnRuNAiBxfAp4LqIa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688761230403636511",
+        "published_at": 1790179241,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@grind2hardosha/video/7688761230403636511"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "projectbetter",
+        "creator_uid": "6639851094128689158"
+      },
+      "engagement_metrics": {
+        "comment_count": 215,
+        "like_count": 10800,
+        "play_count": 2800000,
+        "share_count": 481
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 42735.59,
+        "window_units_sold": 1215
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680786921794178335",
+      "video_meta": {
+        "caption_text": "This mattress topper is life changing ",
+        "cover_url": "https://s.500fd.com/tt_video/o4extWCjqMVSLRIWjAAWAPE9B8WTvfIQfEAZ0g~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680786921794178335",
+        "published_at": 1788322575,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@projectbetter/video/7680786921794178335"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gini.tx.home",
+        "creator_uid": "7412753485068256299"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 1509,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 42965.55,
+        "window_units_sold": 1202
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676930296909925645",
+      "video_meta": {
+        "caption_text": "Feels incredible!! I genuinely did not believe this tiny package was holding a king-size mattress topper \ud83d\ude02 But once it expanded, it became so thick and fluffy! Such an easy way to make your bed feel softer and cozier without replacing your mattress!  #MattressTopper #KingSizeBed #BedroomUpgrade #CozyBedroom #bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/o0wJeU6EFajZCIEISCFVA76DA0klZHJ4f9EIde~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676930296909925645",
+        "published_at": 1787424637,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gini.tx.home/video/7676930296909925645"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tori_didit",
+        "creator_uid": "7434339577521718314"
+      },
+      "engagement_metrics": {
+        "comment_count": 65,
+        "like_count": 7301,
+        "play_count": 2700000,
+        "share_count": 763
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 36252,
+        "window_units_sold": 1007
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690398667521510686",
+      "video_meta": {
+        "caption_text": "I didn\u2019t need a new mattress\u2026 I just needed THIS on top of it \ud83d\ude2d\ud83d\ude4c\ud83c\udffc It completely changed how my bed feels. #BambooMattressTopper #CoolingMattressTopper #BedroomUpgrade #SleepTok #bettersleep ",
+        "cover_url": "https://s.500fd.com/tt_video/oM5o1FBRVDqeuHEVyA7pA5O8Qfu1uvEEaLQTcK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690398667521510686",
+        "published_at": 1790560485,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7690398667521510686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bwlsteals",
+        "creator_uid": "6861314362671809541"
+      },
+      "engagement_metrics": {
+        "comment_count": 382,
+        "like_count": 69700,
+        "play_count": 8700000,
+        "share_count": 3237
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 35493.8,
+        "window_units_sold": 986
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688853769878015263",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/4d037c1342b0400dac538acbb39af5cf~tplv-photomode-image-cover:640:0:q70.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688853769878015263",
+        "published_at": 1790200791,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bwlsteals/video/7688853769878015263"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "reviewwthbee",
+        "creator_uid": "7358513191796671530"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 149,
+        "play_count": 80400,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 30625,
+        "window_units_sold": 927
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679227239833029902",
+      "video_meta": {
+        "caption_text": "Bamboo Cooling Mattress Topper with Fitted Sheet, Thick Luxury Comfort Layer, Breathable & Soft on Skin, Deep Pocket Design, Machine Washable, Ideal for Bedroom & Home Use HomeEssentials#homeessentials #bamboocoolingmattresstopper ",
+        "cover_url": "https://s.500fd.com/tt_video/owSEI4BpAP3gwW0i3G6ajUAOEJsuBIixPFIXK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679227239833029902",
+        "published_at": 1787959443,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@reviewwthbee/video/7679227239833029902"
+      }
+    }
+  ]
+}

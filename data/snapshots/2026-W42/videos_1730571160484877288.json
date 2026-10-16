@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730571160484877288",
+  "time_range_days": 90,
+  "total": 31,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "brittney_greeson",
+        "creator_uid": "6808599576149525509"
+      },
+      "engagement_metrics": {
+        "comment_count": 209,
+        "like_count": 17300,
+        "play_count": 1600000,
+        "share_count": 3292
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 5433.31,
+        "window_units_sold": 271
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691769303116434719",
+      "video_meta": {
+        "caption_text": "Cat scratcher to put near furniture so the cats can scratch the cat scratching post instead of your furniture! #catscratchingfurniture #catlover #catfurniture #catscratchingpost #catscratcher ",
+        "cover_url": "https://s.500fd.com/tt_video/o0iQ44tQEDpvxVCe0wF9AYQERA0wRzjfEGBqiq~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691769303116434719",
+        "published_at": 1790879625,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brittney_greeson/video/7691769303116434719"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brittney_greeson",
+        "creator_uid": "6808599576149525509"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 37,
+        "play_count": 9106,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 1654.49,
+        "window_units_sold": 69
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692510172488420639",
+      "video_meta": {
+        "caption_text": "Cat scratcher to put near furniture so the cats can scratch the cat scratching post instead of your furniture! #catscratchingfurniture #catlover #catfurniture #catscratchingpost #catscratcher",
+        "cover_url": "https://s.500fd.com/tt_video/oUhivCAVIAIqHPY41f3WBIKR1VKSlBENYDiAAi~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692510172488420639",
+        "published_at": 1791052107,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brittney_greeson/video/7692510172488420639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosysgatitos",
+        "creator_uid": "7228389999259698222"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 72,
+        "play_count": 12300,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 835.44,
+        "window_units_sold": 49
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678881422928612639",
+      "video_meta": {
+        "caption_text": "I think I can tell which way is their favorite \ud83e\udd2d #catscratcher #catsoftiktok #cattok #catessentials #cats ",
+        "cover_url": "https://s.500fd.com/tt_video/oUAAiCg1KiAAAIoI8NQfBi3SCBsHcGEwLwMETA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678881422928612639",
+        "published_at": 1787878914,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosysgatitos/video/7678881422928612639"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosysgatitos",
+        "creator_uid": "7228389999259698222"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 100,
+        "play_count": 21900,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 691.25,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677840399846624542",
+      "video_meta": {
+        "caption_text": "idk guys, I think it\u2019s working\ud83e\udd37\ud83c\udffb\u200d\u2640\ufe0f Really just have to surround our place with scratchers\ud83e\udee2 #catscratcher #cattok #catsoftiktok #scratching #cutecats ",
+        "cover_url": "https://s.500fd.com/tt_video/o0lFSEC7IQRVEtAIifxuaQSZqpAVnDBfjAEAAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677840399846624542",
+        "published_at": 1787636554,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosysgatitos/video/7677840399846624542"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizablumen",
+        "creator_uid": "6632616773434212357"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 4,
+        "play_count": 931,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 309.69,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668505929335328014",
+      "video_meta": {
+        "caption_text": "Our new addition\ud83e\udef6\ud83c\udffb\ud83e\udef6\ud83c\udffb\ud83e\udd79\ud83e\udd79\ud83e\udd79 he loves his new scratching post #scratchingpost #catscratcher ",
+        "cover_url": "https://s.500fd.com/tt_video/ok7OEfDFDDDqFqhEhYEAALIxbBSQ44OggeRZEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668505929335328014",
+        "published_at": 1785463183,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizablumen/video/7668505929335328014"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brittney_greeson",
+        "creator_uid": "6808599576149525509"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 3,
+        "play_count": 2656,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 535.88,
+        "window_units_sold": 23
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693150631648873759",
+      "video_meta": {
+        "caption_text": "I\u2019m obsessed with my new cat scratcher! It\u2019s smaller! Fits under my furniture! Keeps my cats from tearing up my furniture! Under $20 AND FREE SHIPPING \ud83d\ude3b\ud83d\ude3b\ud83d\ude3b #catsoftiktok #catscratcher #catlover #catscratchingpost #cathacks ",
+        "cover_url": "https://s.500fd.com/tt_video/osORDEA1QSqHR0EeQBHqXVFEHwauHEf43WAIyC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693150631648873759",
+        "published_at": 1791201246,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brittney_greeson/video/7693150631648873759"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosysgatitos",
+        "creator_uid": "7228389999259698222"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 42,
+        "play_count": 3604,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 372.04,
+        "window_units_sold": 18
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691072803453357342",
+      "video_meta": {
+        "caption_text": "Chuby is especially in love with it. He uses it every day\ud83d\ude42\u200d\u2195\ufe0f  We have moved it around the house and he follows it everywhere\ud83d\ude02 #catscratcher #catsoftiktok #scratcher #cattok #catscratchers ",
+        "cover_url": "https://s.500fd.com/tt_video/ooaKB9IwEoBrArAEzAPR8LXgciuAQiABC0lII~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691072803453357342",
+        "published_at": 1790717445,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosysgatitos/video/7691072803453357342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dancingquen01",
+        "creator_uid": "7473147431207994410"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 66,
+        "play_count": 2334,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 404.12,
+        "window_units_sold": 18
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7684419073618349342",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUUAPAiknyB2IaAQTIq7i8kifzqAa1ICicEMzS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684419073618349342",
+        "published_at": 1789168255,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dancingquen01/video/7684419073618349342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizablumen",
+        "creator_uid": "6632616773434212357"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 337,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 119.88,
+        "window_units_sold": 12
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669280040219102478",
+      "video_meta": {
+        "caption_text": "The zoomies he gets with this new scratcher is adorable\ud83e\udd79\ud83e\udd79\ud83e\udd79\ud83e\udd79 ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669280040219102478",
+        "published_at": 1785643431,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizablumen/video/7669280040219102478"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "life.of.penny.poo",
+        "creator_uid": "7356748890152059946"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 24,
+        "play_count": 681,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495783009606339560",
+        "window_gmv": 83.93,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7673302135324380447",
+      "video_meta": {
+        "caption_text": "From a stray to having a kitty corner\u2026#kittycorner #catfinds #petfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/owv9QLavVsRyEAlA30BnUmCBKiAAnB7iIE2AI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673302135324380447",
+        "published_at": 1786579891,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@life.of.penny.poo/video/7673302135324380447"
+      }
+    }
+  ]
+}

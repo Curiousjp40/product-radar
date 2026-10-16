@@ -3,7 +3,7 @@
   "product_id": "1732596517377904894",
   "title": "Comfortable Retro Striped Thick Sole Sneakers, Old School Sneakers, Neutral Rubber Sole Walking Training Shoes, Lightweight Casual Sports Shoes, Anti-Slip Daily Wear",
   "clean_title": "Comfortable Retro Striped Thick Sole Sneakers",
-  "image_url": "/img/product_1732596517377904894.webp",
+  "image_url": "https://s.500fd.com/tt_product/ec1e5306340a452d9bcec03324f170fa~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,118 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732596517377904894",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Comfortable%20Retro%20Striped%20Thick%20Sole%20Sneakers",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732596517377904894",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7693603785096138015",
+      "cover_url": "https://s.500fd.com/tt_video/oohKfrc3I4OKALGGNAUIAAQV29AFJeGcRQfeGs~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@awdigitalmarketing/video/7693603785096138015",
+      "creator_handle": "awdigitalmarketing",
+      "play_count": 6059,
+      "window_gmv": 191.23,
+      "window_units_sold": 12,
+      "is_ad": false,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7693223146672901407",
+      "cover_url": "https://s.500fd.com/tt_video/o0aeAHOI6BIVhA4VA1AQjoVLpeGdeBIqIG6EAD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@awdigitalmarketing/video/7693223146672901407",
+      "creator_handle": "awdigitalmarketing",
+      "play_count": 14062,
+      "window_gmv": 81.2,
+      "window_units_sold": 6,
+      "is_ad": false,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7694406419696618766",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@yomielij/video/7694406419696618766",
+      "creator_handle": "yomielij",
+      "play_count": 225,
+      "window_gmv": 30.6,
+      "window_units_sold": 2,
+      "is_ad": false,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7693487473514630430",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@thetiffbarrett/video/7693487473514630430",
+      "creator_handle": "thetiffbarrett",
+      "play_count": 53,
+      "window_gmv": 12.5,
+      "window_units_sold": 1,
+      "is_ad": false,
+      "duration_seconds": 14
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "widewidthsneakers",
+        "weight": 18
+      },
+      {
+        "hashtag": "womenssneakers",
+        "weight": 18
+      },
+      {
+        "hashtag": "widefeetshoes",
+        "weight": 18
+      },
+      {
+        "hashtag": "comfortablesneakers",
+        "weight": 18
+      },
+      {
+        "hashtag": "walkingshoes",
+        "weight": 18
+      },
+      {
+        "hashtag": "calzadoeconomico",
+        "weight": 2
+      },
+      {
+        "hashtag": "calzadobonito",
+        "weight": 2
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 2
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Women Sneakers that is wide foot friendly and comfortable to wear.",
+      "Women's sneakers that are wide foot friendly and comfortable to wear.",
+      "Calzado bueno bonito y barato!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 194,
+    "used_organic_only": false,
+    "hour_start": 6,
+    "hour_end": 8,
+    "best_weekdays": [
+      4,
+      0
+    ]
+  }
 }

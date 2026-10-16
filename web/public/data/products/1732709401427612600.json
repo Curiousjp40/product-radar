@@ -3,7 +3,7 @@
   "product_id": "1732709401427612600",
   "title": "Corset Sculpt Long Jumpsuit - High-Compression Polyamide-Spandex Blend with Corset-Inspired Contour Seaming & Glute-Accentuating Rear Detailing for Instant Hourglass Silhouette",
   "clean_title": "Corset Sculpt Long Jumpsuit",
-  "image_url": "/img/product_1732709401427612600.webp",
+  "image_url": "https://s.500fd.com/tt_product/32d0982f8ffd45a5a037e1d39c76b04a~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 73,
+    "used_organic_only": true,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      6
+    ]
+  }
 }

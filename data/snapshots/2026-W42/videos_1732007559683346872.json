@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732007559683346872",
+  "time_range_days": 90,
+  "total": 455,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "reemoee",
+        "creator_uid": "7040212494431323141"
+      },
+      "engagement_metrics": {
+        "comment_count": 1196,
+        "like_count": 304300,
+        "play_count": 5800000,
+        "share_count": 9080
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 17457.33,
+        "window_units_sold": 1318
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7669974987645668638",
+      "video_meta": {
+        "caption_text": "more introverted than I appear",
+        "cover_url": "https://s.500fd.com/tt_video/oYnlAx8IvaVUxIOiCRDM6ABiREiBHaCQ3aESD~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669974987645668638",
+        "published_at": 1785805220,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@reemoee/video/7669974987645668638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "megannlxb",
+        "creator_uid": "102233856442826752"
+      },
+      "engagement_metrics": {
+        "comment_count": 570,
+        "like_count": 155500,
+        "play_count": 2600000,
+        "share_count": 5653
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 6924.66,
+        "window_units_sold": 546
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678367973572201759",
+      "video_meta": {
+        "caption_text": "definitely miss the bailes \ud83e\udd27 #fyp\u30b7 #parati #westernoutfits #westernwear #westernfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oQGfEEAFLQyoiRGAyFEjSqQwJkCNDfgBVxCquP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678367973572201759",
+        "published_at": 1787759366,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@megannlxb/video/7678367973572201759"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "novaa.llynn",
+        "creator_uid": "6962526669953991686"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 21,
+        "play_count": 1637,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 5583.08,
+        "window_units_sold": 495
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677716994178698510",
+      "video_meta": {
+        "caption_text": "i love a different style kinda dress <3  #dress #womensclothing #womenclothes #cluboutfit #dresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oYD5MwfsAKaLqFAEPifCAASkEjIDuE5gRvCAAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677716994178698510",
+        "published_at": 1787607810,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@novaa.llynn/video/7677716994178698510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 115,
+        "play_count": 6881,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 5180.89,
+        "window_units_sold": 459
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669204579074067743",
+      "video_meta": {
+        "caption_text": "like i\u2019m obsesseddd",
+        "cover_url": "https://s.500fd.com/tt_video/ooE6AqnC2uzEEEFRCuQAT3AVOfAf694cADbIPD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669204579074067743",
+        "published_at": 1785625855,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7669204579074067743"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coolestbabespam",
+        "creator_uid": "7321551730188174378"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 12700,
+        "play_count": 595100,
+        "share_count": 298
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1742.26,
+        "window_units_sold": 162
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667352266541731102",
+      "video_meta": {
+        "caption_text": "dancing in this is so fun #clubbing #clubdress #goingoutdress #goingoutoutfit #fundress ",
+        "cover_url": "https://s.500fd.com/tt_video/okXnRfxtqIVsEtE76BZiRdQiIkBFygA5WAfHFO~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667352266541731102",
+        "published_at": 1785194581,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolestbabespam/video/7667352266541731102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lovellyynikkii",
+        "creator_uid": "122138916106780672"
+      },
+      "engagement_metrics": {
+        "comment_count": 220,
+        "like_count": 92200,
+        "play_count": 2000000,
+        "share_count": 2975
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 2256.34,
+        "window_units_sold": 152
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668107773325987085",
+      "video_meta": {
+        "caption_text": "\u2728\ud83d\udc99 #fyp\u30b7 ",
+        "cover_url": "https://s.500fd.com/tt_video/ogQGU1FkvWFSICug4J6HafHAItk4qnfQuAeLjl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668107773325987085",
+        "published_at": 1785370495,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lovellyynikkii/video/7668107773325987085"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lovellyynikkii",
+        "creator_uid": "122138916106780672"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 4605,
+        "play_count": 167900,
+        "share_count": 191
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 2170.97,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668002207136075022",
+      "video_meta": {
+        "caption_text": "\ud83d\udc99\ud83d\udc99 #fyp\u30b7 #fyp\u30b7\u309aviral #xyzbca #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/ok4CCf79BBV1iUdC3qiNR8I4NApItJhwyIIrtA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668002207136075022",
+        "published_at": 1785345918,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lovellyynikkii/video/7668002207136075022"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yvonniedior",
+        "creator_uid": "7024216088130241542"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 259,
+        "play_count": 7351,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1749.9,
+        "window_units_sold": 143
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691083124184337678",
+      "video_meta": {
+        "caption_text": "Friend, class is in session. \ud83d\udcda Today\u2019s lesson: how I layer my shapewear when I want that exaggerated snatched-waist look. \ud83d\udc40 #Shapewear #PlusSizeShapewear #ShapewearTips #CurvyFashion #plussizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oQIE3OxEkAaiAgBwdLCYNQ7DZ4NB8vziAAIr3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 97,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691083124184337678",
+        "published_at": 1790719864,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7691083124184337678"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "talexiajohnson",
+        "creator_uid": "6862844462704739333"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 746,
+        "play_count": 57000,
+        "share_count": 51
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1610.88,
+        "window_units_sold": 136
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670094504346569998",
+      "video_meta": {
+        "caption_text": "Plus Size Mini Dress for Going Out / Party Dress / Birthday Dress #plussize #fashion #dress #tiktokshop #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oknhAxzIPmU6tIpikPd7D4BDgEiBoPCAlaGhF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670094504346569998",
+        "published_at": 1785833053,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@talexiajohnson/video/7670094504346569998"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "beautywithaj",
+        "creator_uid": "6763274144936363013"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 267,
+        "play_count": 23100,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647185368539369912",
+        "window_gmv": 1912.61,
+        "window_units_sold": 132
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675099064165207327",
+      "video_meta": {
+        "caption_text": "Date night, girls night out! Loving this dress that you can wear the shoulders different ways \ud83e\udef6\ud83c\udffc #datenightdress #girlsnightoutfit #fashiondress ",
+        "cover_url": "https://s.500fd.com/tt_video/o42qBDv0EwgFPGbAkAXIgBlrR30eDEC9EfGIbV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675099064165207327",
+        "published_at": 1787162940,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@beautywithaj/video/7675099064165207327"
+      }
+    }
+  ]
+}

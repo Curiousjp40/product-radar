@@ -29,6 +29,7 @@ from engine.budget import (
     append_credit_log,
     check_balance,
     credits_used_for_week,
+    dynamic_weekly_budget,
 )
 from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
@@ -49,14 +50,17 @@ from engine.fit import (
 from engine.formula import formula_ganadora_dict
 from engine.images import cache_image
 from engine.ingest import (
+    SNAPSHOTS_DIR,
     fetch_daily_trend,
     fetch_product_videos,
     fetch_top_selling,
+    find_recent_snapshot,
     load_raw_snapshot,
     resolve_category_ids,
     save_raw_snapshot,
 )
 from engine.insights import summarize_creator
+from engine.posting_time import best_time_for_pool, best_video_time, load_video_records
 from engine.language import spanish_share
 from engine.normalize import (
     normalize_rank_row,
@@ -134,15 +138,14 @@ def tiktok_shop_url(product_id: str) -> str:
 # credits, not a realistic multi-category simulation. The real run spans
 # whichever categories.yaml categories are active() for `today` (below).
 DRY_RUN_CATEGORY_KEYS = ["shapewear"]
-# SHORTLIST_SIZE candidates (by preliminary score, before trend/video
-# enrichment) get the expensive per-product calls -- lowered from 15 to 12
-# on 2026-10-15 to bring the weekly run down to a ~60-credit target (was
-# ~70) until the Nov 15 subscription reset, after an unrelated incident
-# left less balance than planned for the remaining Mondays. A full real run
-# (12 categories: 5 core x 3 pages + 4 secondary x 2 pages + up to 2
-# seasonal x 2 pages in-window = 23-27 credits for the full list) + 12 x
-# (trend=2cr + video=1cr) = 23-27 + 36 = 59-63 credits, comfortably under
-# the ~60 target and the 75-credit hard cap (config/weights.yaml).
+# Superseded 2026-10-15 (Part 1c) by config/weights.yaml's `enrichment`
+# section (video_tier_size/trend_tier_size) -- kept only as the fallback
+# default if that config is ever missing. The old fixed SHORTLIST_SIZE=12
+# (every one of the 12 got BOTH trend + video) is why only 29 of 250
+# products ever had videos: tiered enrichment now spends the 1-credit
+# product_video_list call on a wider pool (video_tier_size, e.g. 30) and
+# reserves the 2-credit sales_trend call for just the top trend_tier_size
+# (e.g. 15) -- see enrich_shortlist's docstring.
 SHORTLIST_SIZE = 12
 
 
@@ -340,31 +343,42 @@ def ingest_from_snapshots(week: str, category_keys: list[str]) -> list[dict]:
 
 
 async def enrich_shortlist(
-    client, shortlist: list[dict], week: str, tracker: BudgetTracker, resume_mode: bool = False
+    client,
+    shortlist: list[dict],
+    week: str,
+    tracker: BudgetTracker,
+    resume_mode: bool = False,
+    trend_tier_size: int = 15,
+    cache_max_weeks_old: int = 4,
+    today: date | None = None,
 ) -> None:
     """Trend (14-day chart + creator/video counts, section 6.2/6.3/6.5) and
-    video cards + Spanish-gap signal (section 6.8), for the preliminary top
-    `SHORTLIST_SIZE` candidates by score only (budget) -- renamed from
-    enrich_spanish_gap 2026-10-18 when trend-fetching moved here too (it used
-    to run on a separate "top 3 per category" pool inside ingest(), which no
-    longer exists now that the full list isn't trimmed before scoring).
+    video cards + Spanish-gap signal (section 6.8) for `shortlist` (score
+    order, widest tier -- see `video_tier_size` at the call site). Tiered
+    since 2026-10-15 (Part 1c): only the top `trend_tier_size` candidates
+    get the 2-credit sales_trend call at all -- lower-ranked ones in
+    `shortlist` only ever get the 1-credit product_video_list call, since a
+    real month (283cr, 4 Mondays) couldn't afford trend for everyone who'd
+    benefit from at least having videos/hashtags.
 
-    Always tries an on-disk snapshot (data/snapshots/<week>/trend_<id>.json /
-    videos_<id>.json) before making a paid call -- zero cost, zero network,
-    whether or not this is a resume. `resume_mode=True` (set by
-    `--resume-week`, added 2026-10-15 after a real incident: this check used
-    to look at in-memory candidate fields that `ingest_from_snapshots` never
-    populates, so a resumed run re-spent ~45 credits re-fetching data that
-    was already on disk) raises MissingSnapshotError instead of falling
-    through to a live call when no snapshot exists -- resume mode must make
-    ZERO paid calls, full stop; a missing snapshot is a hard failure to
-    surface and fix, not something to silently buy again."""
+    Reuses a RECENT (not just this week's) snapshot before making a paid
+    call -- `find_recent_snapshot` checks the last `cache_max_weeks_old`
+    ISO weeks, not just this one (2026-10-15, Part 1a: video/hashtag data
+    doesn't go stale after 7 days, so a product that was enriched 2 weeks
+    ago and is still on the shortlist shouldn't cost credits again).
+    `resume_mode=True` (set by `--resume-week`, added 2026-10-15 after a
+    real incident: this check used to look at in-memory candidate fields
+    that `ingest_from_snapshots` never populates, so a resumed run re-spent
+    ~45 credits re-fetching data that was already on disk) raises
+    MissingSnapshotError instead of falling through to a live call when no
+    snapshot exists -- resume mode must make ZERO paid calls, full stop; a
+    missing snapshot is a hard failure to surface and fix, not something to
+    silently buy again."""
+    today = today or date.today()
     fetched = 0
-    for cand in shortlist:
-        if tracker.would_exceed(2):
-            break
-        if cand.get("daily_units_14") is None:
-            trend_raw = load_raw_snapshot(week, f"trend_{cand['product_id']}")
+    for rank, cand in enumerate(shortlist):
+        if rank < trend_tier_size and cand.get("daily_units_14") is None:
+            trend_raw = find_recent_snapshot(f"trend_{cand['product_id']}", today, cache_max_weeks_old)
             if trend_raw is not None:
                 _apply_trend(cand, trend_raw)
             elif resume_mode:
@@ -372,7 +386,7 @@ async def enrich_shortlist(
                     f"no cached trend snapshot for product {cand['product_id']} -- "
                     f"--resume-week makes zero paid calls, so this run can't proceed"
                 )
-            else:
+            elif not tracker.would_exceed(2):
                 try:
                     trend_raw = await fetch_daily_trend(client, cand["product_id"])
                     save_raw_snapshot(week, f"trend_{cand['product_id']}", trend_raw)
@@ -380,31 +394,32 @@ async def enrich_shortlist(
                 except FastMossError:
                     pass
                 balance = await check_balance(client)
-                tracker.checkpoint("trend", balance, note=f"product {fetched + 1}/{len(shortlist)}")
+                tracker.checkpoint("trend", balance, note=f"product {rank + 1}/{len(shortlist)}")
 
         if cand.get("videos") is not None:
             fetched += 1
             continue
-        raw = load_raw_snapshot(week, f"videos_{cand['product_id']}")
-        if raw is not None:
-            _apply_videos(cand, raw)
-        elif resume_mode:
+        video_raw = find_recent_snapshot(f"videos_{cand['product_id']}", today, cache_max_weeks_old)
+        if video_raw is not None:
+            _apply_videos(cand, video_raw)
+            fetched += 1
+            continue
+        if resume_mode:
             raise MissingSnapshotError(
                 f"no cached video snapshot for product {cand['product_id']} -- "
                 f"--resume-week makes zero paid calls, so this run can't proceed"
             )
-        else:
-            try:
-                raw = await fetch_product_videos(client, cand["product_id"])
-                save_raw_snapshot(week, f"videos_{cand['product_id']}", raw)
-                _apply_videos(cand, raw)
-            except FastMossError:
-                pass
-            fetched += 1
-            balance = await check_balance(client)
-            tracker.checkpoint("videos", balance, note=f"candidate {fetched}/{len(shortlist)}")
-            continue
+        if tracker.would_exceed(1):
+            break  # shortlist is score order -- once we can't afford this, we can't afford the rest either
+        try:
+            video_raw = await fetch_product_videos(client, cand["product_id"])
+            save_raw_snapshot(week, f"videos_{cand['product_id']}", video_raw)
+            _apply_videos(cand, video_raw)
+        except FastMossError:
+            pass
         fetched += 1
+        balance = await check_balance(client)
+        tracker.checkpoint("videos", balance, note=f"candidate {fetched}/{len(shortlist)}")
 
 
 def _apply_trend(cand: dict, trend_raw: dict) -> None:
@@ -1086,6 +1101,7 @@ def picks_to_export_dicts(
     categories_cfg: dict | None = None,
     saturation_cfg: dict | None = None,
     pocas_latinas_cfg: dict | None = None,
+    video_time_lookup: dict[str, dict | None] | None = None,
 ) -> list[dict]:
     out = []
     for p in picks:
@@ -1128,6 +1144,7 @@ def picks_to_export_dicts(
                 "summary_en": join_reasons_as_sentence(summary_reasons_en, "en"),
                 "videos": _video_card_dicts(p.get("videos"), limit=3),
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=p["product_id"]),
+                "tiktok_search_url": tiktok_search_url(clean_title(p["title"])),
                 "tiktok_shop_url": tiktok_shop_url(p["product_id"]),
                 # Part C (added 2026-10-15): the Hoy tab needs each pick's
                 # hashtags/best hook without an extra per-product fetch.
@@ -1148,6 +1165,7 @@ def picks_to_export_dicts(
                     p.get("units_7d", 0),
                     pocas_latinas_cfg,
                 ),
+                "best_video_time": (video_time_lookup or {}).get(p["product_id"]),
             }
         )
     return out
@@ -1161,6 +1179,7 @@ def product_detail_dict(
     creator_sweet_spot_seconds: tuple[int, int] = (13, 30),
     saturation_cfg: dict | None = None,
     pocas_latinas_cfg: dict | None = None,
+    video_time_lookup: dict[str, dict | None] | None = None,
 ) -> dict:
     """Full product-page detail (redesigned 2026-10-18 for the "Todos" full
     list: written for every clean candidate, not just the ~9 final picks,
@@ -1174,7 +1193,14 @@ def product_detail_dict(
     title = cand["title"]
     clean = clean_title(title)
     daily_units_14 = cand.get("daily_units_14") if isinstance(cand.get("daily_units_14"), list) else []
+    # Videos/hashtags/formula_ganadora are gated on the product actually
+    # HAVING videos, independent of `has_enrichment` (which means "has
+    # trend data" everywhere else this flag is used, e.g. outreach.ts) --
+    # Part C1's video backfill (2026-10-16) deliberately fetches videos for
+    # far more products than ever get the trend call, so a backfilled
+    # product with videos but no trend must still show its videos.
     videos = cand.get("videos") or []
+    has_videos = bool(videos)
     creator_count = cand.get("creator_count") if has_enrichment else None
     return {
         "product_id": cand["product_id"],
@@ -1198,8 +1224,8 @@ def product_detail_dict(
         "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=cand["product_id"]),
         "tiktok_search_url": tiktok_search_url(clean),
         "tiktok_shop_url": tiktok_shop_url(cand["product_id"]),
-        "videos": _video_card_dicts(videos, limit=6) if has_enrichment else [],
-        "formula_ganadora": formula_ganadora_dict(videos, creator_sweet_spot_seconds) if has_enrichment and videos else None,
+        "videos": _video_card_dicts(videos, limit=6) if has_videos else [],
+        "formula_ganadora": formula_ganadora_dict(videos, creator_sweet_spot_seconds) if has_videos else None,
         "saturation_badge": (
             _saturation_dict(daily_units_14, creator_count, cand.get("units_7d", 0), saturation_cfg)
             if has_enrichment
@@ -1207,7 +1233,63 @@ def product_detail_dict(
         ),
         "spanish_share": cand.get("spanish_share"),
         "pocas_creadoras_latinas": _pocas_latinas(cand.get("spanish_share"), cand.get("units_7d", 0), pocas_latinas_cfg),
+        "best_video_time": (video_time_lookup or {}).get(cand["product_id"]),
     }
+
+
+def compute_best_video_times(
+    pool: list[dict],
+    categories_cfg: dict,
+    today: date | None = None,
+    snapshots_dir: Path = SNAPSHOTS_DIR,
+) -> dict[str, dict | None]:
+    """Part C7a: free (0-credit) best-time-to-post, computed from every
+    video we've ever saved to disk -- recomputed every run as more videos
+    accumulate, independent of which products got enriched THIS run (a
+    product's own videos from 3 weeks ago still count). Returns
+    product_id -> best_video_time() result (or None), for every candidate
+    in `pool`; callers attach it to each export dict as "best_video_time"."""
+    today = today or date.today()
+    records = load_video_records(snapshots_dir)
+    product_id_to_category = {c["product_id"]: c["config_category"] for c in pool}
+    product_id_to_group = {
+        c["product_id"]: categories_cfg.get(c["config_category"], {}).get("group", "fashion") for c in pool
+    }
+    return {
+        c["product_id"]: best_video_time(
+            c["product_id"],
+            c["config_category"],
+            product_id_to_group[c["product_id"]],
+            records,
+            product_id_to_category,
+            product_id_to_group,
+        )
+        for c in pool
+    }
+
+
+def compute_best_times_by_category_and_group(
+    pool: list[dict],
+    categories_cfg: dict,
+    snapshots_dir: Path = SNAPSHOTS_DIR,
+) -> tuple[dict[str, dict | None], dict[str, dict | None]]:
+    """Part C7c's Mas -> "Mejores horas" page: one best-time summary per
+    category and per group (fashion/home), computed the same way
+    compute_best_video_times computes per-product ones, just without that
+    function's product -> category -> group -> all fallback ladder (the
+    page wants to see category/group numbers even when a category itself
+    is thin, not have them silently fall through to "all")."""
+    records = load_video_records(snapshots_dir)
+    product_id_to_category = {c["product_id"]: c["config_category"] for c in pool}
+    product_id_to_group = {
+        c["product_id"]: categories_cfg.get(c["config_category"], {}).get("group", "fashion") for c in pool
+    }
+    categories = {cat: best_time_for_pool([r for r in records if product_id_to_category.get(r["product_id"]) == cat]) for cat in categories_cfg}
+    groups = {
+        group: best_time_for_pool([r for r in records if product_id_to_group.get(r["product_id"]) == group])
+        for group in {categories_cfg.get(c, {}).get("group", "fashion") for c in categories_cfg}
+    }
+    return categories, groups
 
 
 def cache_pick_images(picks: list[dict]) -> None:
@@ -1371,7 +1453,29 @@ async def run(args: argparse.Namespace) -> None:
     flagged: list[dict] = []
     async with client_cm as client:
         starting_balance = await check_balance(client)
-        tracker = BudgetTracker(hard_cap=args.budget, starting_balance=starting_balance, run_id=run_id, conn=conn)
+
+        credits_cfg = config["weights"]["credits"]
+        if args.budget is not None:
+            effective_budget = args.budget
+            print(f"--budget {args.budget} passed explicitly -- skipping the dynamic budget calculation.")
+        else:
+            reset_date = date.fromisoformat(credits_cfg["reset_date"])
+            budget_calc = dynamic_weekly_budget(
+                starting_balance,
+                today,
+                reset_date,
+                safety_floor_credits=credits_cfg["safety_floor_credits"],
+            )
+            effective_budget = min(budget_calc["budget_per_run"], credits_cfg["hard_cap_per_run"])
+            print(
+                "Dynamic budget: balance={balance} - safety_floor_credits={safety_floor_credits} = "
+                "{available_for_weekly_runs} available / {mondays_left} Mondays left = {budget_per_run}/run "
+                f"(capped at hard_cap_per_run={credits_cfg['hard_cap_per_run']} -> using {effective_budget})".format(
+                    **budget_calc
+                )
+            )
+
+        tracker = BudgetTracker(hard_cap=effective_budget, starting_balance=starting_balance, run_id=run_id, conn=conn)
 
         try:
             if args.resume_week:
@@ -1409,9 +1513,26 @@ async def run(args: argparse.Namespace) -> None:
             cache_pick_images(pool + flagged)
 
             if not df.empty:
-                prelim_ids = set(df.sort_values("score", ascending=False).head(SHORTLIST_SIZE)["product_id"])
-                shortlist = [c for c in pool if c["product_id"] in prelim_ids]
-                await enrich_shortlist(client, shortlist, week, tracker, resume_mode=bool(args.resume_week))
+                enrichment_cfg = config["weights"].get("enrichment", {})
+                video_tier_size = enrichment_cfg.get("video_tier_size", SHORTLIST_SIZE)
+                trend_tier_size = enrichment_cfg.get("trend_tier_size", SHORTLIST_SIZE)
+                cache_max_weeks_old = enrichment_cfg.get("video_cache_max_weeks", 4)
+                # Preserves score order (pool's own order doesn't match df's
+                # sort) -- enrich_shortlist's trend/video tiering depends on
+                # `shortlist`'s position, not just set membership.
+                ranked_ids = list(df.sort_values("score", ascending=False).head(video_tier_size)["product_id"])
+                pool_by_id = {c["product_id"]: c for c in pool}
+                shortlist = [pool_by_id[pid] for pid in ranked_ids if pid in pool_by_id]
+                await enrich_shortlist(
+                    client,
+                    shortlist,
+                    week,
+                    tracker,
+                    resume_mode=bool(args.resume_week),
+                    trend_tier_size=trend_tier_size,
+                    cache_max_weeks_old=cache_max_weeks_old,
+                    today=today,
+                )
                 # `shortlist` dicts are the same objects referenced in `pool` (shared,
                 # not copied), so enrich_shortlist's mutation is already reflected
                 # in `pool` -- just recompute scores from scratch with it filled in.
@@ -1434,6 +1555,7 @@ async def run(args: argparse.Namespace) -> None:
     saturation_cfg = weights["saturation_badge"]
     pocas_latinas_cfg = weights["pocas_latinas"]
     pick_ids = {p["product_id"] for p in picks}
+    video_time_lookup = compute_best_video_times(pool + flagged, categories_cfg, today)
     pick_dicts = picks_to_export_dicts(
         picks,
         creator_avg_gpm,
@@ -1442,6 +1564,7 @@ async def run(args: argparse.Namespace) -> None:
         categories_cfg,
         saturation_cfg,
         pocas_latinas_cfg,
+        video_time_lookup,
     )
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg, pocas_latinas_cfg)
 
@@ -1456,6 +1579,8 @@ async def run(args: argparse.Namespace) -> None:
         export.write_picks(week, CREATOR, pick_dicts, data_dir=export_dir)
         export.write_candidates(week, candidate_dicts, data_dir=export_dir)
         export.write_hooks(config["hooks"], data_dir=export_dir)
+        best_times_by_category, best_times_by_group = compute_best_times_by_category_and_group(pool + flagged, categories_cfg)
+        export.write_best_times(best_times_by_category, best_times_by_group, data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}
@@ -1470,13 +1595,16 @@ async def run(args: argparse.Namespace) -> None:
                     sweet_spot,
                     saturation_cfg,
                     pocas_latinas_cfg,
+                    video_time_lookup,
                 ),
                 data_dir=export_dir,
             )
         for cand in flagged:
             export.write_product(
                 cand["product_id"],
-                product_detail_dict(cand, categories_cfg, False, False, sweet_spot, saturation_cfg, pocas_latinas_cfg),
+                product_detail_dict(
+                    cand, categories_cfg, False, False, sweet_spot, saturation_cfg, pocas_latinas_cfg, video_time_lookup
+                ),
                 data_dir=export_dir,
             )
     if not args.dry_run:
@@ -1508,7 +1636,7 @@ async def run(args: argparse.Namespace) -> None:
 
     if args.print_picks or args.dry_run:
         print_picks(pick_dicts)
-    print(f"\nCredits this run: {tracker.spent} (cap {args.budget}). Balance: {final_balance}/500.")
+    print(f"\nCredits this run: {tracker.spent} (cap {effective_budget}). Balance: {final_balance}/500.")
 
 
 def main() -> None:
@@ -1517,7 +1645,12 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="replay fixtures, zero credits")
     parser.add_argument("--week", default=None, help="ISO week label, e.g. 2026-W43 (default: current)")
     parser.add_argument("--print-picks", action="store_true", help="print the Top 10 to stdout")
-    parser.add_argument("--budget", type=int, default=75, help="hard credit cap for this run")
+    parser.add_argument(
+        "--budget",
+        type=int,
+        default=None,
+        help="hard credit cap for this run; omit to compute it dynamically (see engine.budget.dynamic_weekly_budget)",
+    )
     parser.add_argument(
         "--resume-week",
         default=None,

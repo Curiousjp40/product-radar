@@ -3,7 +3,7 @@
   "product_id": "1731003856475034336",
   "title": "\u3010BEDLORE\u3011Bamboo Cooling Mattress Topper with Fitted Sheet, Thick Luxury Comfort Layer, Breathable & Soft on Skin, Deep Pocket Design, Machine Washable, Ideal for Bedroom & Home Use HomeEssentials",
   "clean_title": "BEDLORE Bamboo Cooling Mattress Topper with",
-  "image_url": "/img/product_1731003856475034336.jpg",
+  "image_url": "https://s.500fd.com/tt_product/3490c1f794ff4ddb8be06dfd2886db28~tplv-fhlh96nyum-origin-image.image",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731003856475034336",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BEDLORE%20Bamboo%20Cooling%20Mattress%20Topper%20with",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731003856475034336",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7664791222057405710",
+      "cover_url": "https://s.500fd.com/tt_video/oY9eySgQEYDAXSlFsCBDKqzw5d4DREGwQux4fi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@hammyk6/video/7664791222057405710",
+      "creator_handle": "hammyk6",
+      "play_count": 3600000,
+      "window_gmv": 74907.35,
+      "window_units_sold": 2108,
+      "is_ad": true,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7671442622736616735",
+      "cover_url": "https://s.500fd.com/tt_video/osAccimkqEEkc7azABBzhpWdiDeIVIfRHELt2o~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@iamsandrascott/video/7671442622736616735",
+      "creator_handle": "iamsandrascott",
+      "play_count": 1754,
+      "window_gmv": 61283.45,
+      "window_units_sold": 1751,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7684115999028727071",
+      "cover_url": "https://s.500fd.com/tt_video/oIIRBEjP2AAi27AEa2NpqBAjdliEmtAAyCP3D~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@tori_didit/video/7684115999028727071",
+      "creator_handle": "tori_didit",
+      "play_count": 735500,
+      "window_gmv": 57666.8,
+      "window_units_sold": 1622,
+      "is_ad": true,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7682734352068775199",
+      "cover_url": "https://s.500fd.com/tt_video/oYAIIjfe9MVQ8COuyEMRzQj5qPjjQuXA9V4ICf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@projectbetter/video/7682734352068775199",
+      "creator_handle": "projectbetter",
+      "play_count": 54800,
+      "window_gmv": 46985.77,
+      "window_units_sold": 1323,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7688761230403636511",
+      "cover_url": "https://s.500fd.com/tt_video/oAOit9S6E93EVxsB4zmBfEnRuNAiBxfAp4LqIa~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@grind2hardosha/video/7688761230403636511",
+      "creator_handle": "grind2hardosha",
+      "play_count": 367000,
+      "window_gmv": 46950.2,
+      "window_units_sold": 1309,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7680786921794178335",
+      "cover_url": "https://s.500fd.com/tt_video/o4extWCjqMVSLRIWjAAWAPE9B8WTvfIQfEAZ0g~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@projectbetter/video/7680786921794178335",
+      "creator_handle": "projectbetter",
+      "play_count": 2800000,
+      "window_gmv": 42735.59,
+      "window_units_sold": 1215,
+      "is_ad": true,
+      "duration_seconds": 44
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "bamboomattresstopper",
+        "weight": 6488
+      },
+      {
+        "hashtag": "mattresstopper",
+        "weight": 5061
+      },
+      {
+        "hashtag": "bettersleep",
+        "weight": 2629
+      },
+      {
+        "hashtag": "bedroomupgrade",
+        "weight": 2209
+      },
+      {
+        "hashtag": "mattress",
+        "weight": 2108
+      },
+      {
+        "hashtag": "sleep",
+        "weight": 2108
+      },
+      {
+        "hashtag": "hotelbed",
+        "weight": 2108
+      },
+      {
+        "hashtag": "mattresspad",
+        "weight": 1751
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 38,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "Such an easy upgrade to your mattress no need to spend all that money on a new one",
+      "washes great in cold water",
+      "I thought waking up sore every morning was just \"getting older\" \ud83d\ude44 Turns out it was my rock-hard mattress the whole time."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      0,
+      3
+    ]
+  }
 }

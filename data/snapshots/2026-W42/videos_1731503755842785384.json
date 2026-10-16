@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731503755842785384",
+  "time_range_days": 90,
+  "total": 408,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "rositamurcia777",
+        "creator_uid": "7484465200776217646"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 12,
+        "play_count": 1421,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 20542.25,
+        "window_units_sold": 984
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673697650520214814",
+      "video_meta": {
+        "caption_text": "#knee #high #PU #leather #Boots",
+        "cover_url": "https://s.500fd.com/tt_video/o4qjlfEbtT625eq2I3NYcoAIDfA0FIFCtCAUnQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673697650520214814",
+        "published_at": 1786671982,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7673697650520214814"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fasika236",
+        "creator_uid": "7253598398514365483"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 7678,
+        "play_count": 1017137,
+        "share_count": 330
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 8612.08,
+        "window_units_sold": 335
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672093195072752926",
+      "video_meta": {
+        "caption_text": "Obsessed with these black boots \ud83d\udda4\u2728#Knee High PU Leather Boots, Fashionable Comfortable Design, Available in 4 Colors, Trendy Shoes for All Seasons, Perfect for Stylish Lovers",
+        "cover_url": "https://s.500fd.com/tt_video/o0QGeUpAvQQg8Xe4MQIVT4WdvfBFxA8eQwR0pC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672093195072752926",
+        "published_at": 1786298416,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fasika236/video/7672093195072752926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nicolette.valenti",
+        "creator_uid": "6773481911491838981"
+      },
+      "engagement_metrics": {
+        "comment_count": 100,
+        "like_count": 20200,
+        "play_count": 1300000,
+        "share_count": 952
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 4632.86,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682843418745228575",
+      "video_meta": {
+        "caption_text": "SO COMFY AND PERFECT FOR FALL! I love these boots SO much! True to size and I\u2019m wearing color \u201ccoffee brown\u201d \ud83e\udd0e\ud83c\udf42\u2615\ufe0f #boots #falloutfits #falloutfitinspo #fallfashion #fallaesthetic ",
+        "cover_url": "https://s.500fd.com/tt_video/osVguAUfF8NDgbjit8AEkQgYeASoeeeKsN4gXM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682843418745228575",
+        "published_at": 1788801395,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nicolette.valenti/video/7682843418745228575"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mileyl1cious",
+        "creator_uid": "6821788592508781573"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 275,
+        "play_count": 3961,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 2432.64,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687811888012446989",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8f6nbGdQLA5QMCYWFIkfmIdHxSRejmwVcUiAr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687811888012446989",
+        "published_at": 1789958210,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mileyl1cious/video/7687811888012446989"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "marinaaa.ro",
+        "creator_uid": "6666811237652283398"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 2522,
+        "play_count": 29397,
+        "share_count": 40
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 3040.39,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681070098781588766",
+      "video_meta": {
+        "caption_text": "outfit details \ud83e\udd0d",
+        "cover_url": "https://s.500fd.com/tt_video/osiIaaIY6CJ0AyBMBAfRiqAKAJEgJAuNiFT1pC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681070098781588766",
+        "published_at": 1788388509,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@marinaaa.ro/video/7681070098781588766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mileyl1cious",
+        "creator_uid": "6821788592508781573"
+      },
+      "engagement_metrics": {
+        "comment_count": 185,
+        "like_count": 120800,
+        "play_count": 3000000,
+        "share_count": 4855
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 2416.81,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673670523569720589",
+      "video_meta": {
+        "caption_text": "Never taking these off!! #falloutfits #falloutfitinspo #fallfashion #fallaesthetic #fashiontok ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ8eNUAfeAQ0mdDmGGGpSsF2WIOILR9f4JyQSa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673670523569720589",
+        "published_at": 1786665675,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mileyl1cious/video/7673670523569720589"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hxvnsentfinds",
+        "creator_uid": "6806122607285765126"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 36,
+        "play_count": 2331,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 2584.81,
+        "window_units_sold": 95
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690818598352293151",
+      "video_meta": {
+        "caption_text": "Check the price for urself cuz wow #goingoutoutfit#blacksharkboots#comfylowheel#givenchybootsvibes#highkneeboots  ",
+        "cover_url": "https://s.500fd.com/tt_video/oERgET7ERVtfMYeoRAD08QWuIAwq13DcBBtEFB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690818598352293151",
+        "published_at": 1790658271,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hxvnsentfinds/video/7690818598352293151"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gracieloo19",
+        "creator_uid": "6667328143868608517"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 26,
+        "play_count": 5914,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 3036.97,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684726003008163103",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8BFAocp0FOSLEaBEqEDgafzIIg2AAAeEVl1rR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684726003008163103",
+        "published_at": 1789239720,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gracieloo19/video/7684726003008163103"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mileyl1cious",
+        "creator_uid": "6821788592508781573"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 291,
+        "play_count": 6872,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 2453.41,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687359398854921486",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogfyIFMEEQdQgyrwvdfp6hCARF6WqDSUDG4MBE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687359398854921486",
+        "published_at": 1789852868,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mileyl1cious/video/7687359398854921486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mileyl1cious",
+        "creator_uid": "6821788592508781573"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 136,
+        "play_count": 3257,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647579042145538152",
+        "window_gmv": 2572.35,
+        "window_units_sold": 72
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687295508368346381",
+      "video_meta": {
+        "caption_text": "this song is so fall 2022 \ud83d\ude41 #ootd #ootdinspo #falloutfits #fallaesthetic #fashiontok ",
+        "cover_url": "https://s.500fd.com/tt_video/owaDBxU7Ecmp4qsI6dvguwaqCiCABiCB25UIC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687295508368346381",
+        "published_at": 1789837981,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mileyl1cious/video/7687295508368346381"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1730956645222159074",
   "title": "Overbed Bedside Table Adjustable with Wheels, Mobile Standing Stand Up Rolling Laptop PC Desks with Tilting Top Height Tray Side Computer Workstation",
   "clean_title": "Overbed Bedside Table Adjustable with Wheels",
-  "image_url": "/img/product_1730956645222159074.jpg",
+  "image_url": "https://s.500fd.com/tt_product/6f69eaff5f394a8d97583161fac8d99c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730956645222159074",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Overbed%20Bedside%20Table%20Adjustable%20with%20Wheels",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730956645222159074",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7669548682378759438",
+      "cover_url": "https://s.500fd.com/tt_video/ooCWAaZ3HLmJDI2GQUIGFfeEgcp0Aq4wHkfF0j~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealsfordayzz/video/7669548682378759438",
+      "creator_handle": "dealsfordayzz",
+      "play_count": 89300,
+      "window_gmv": 23456.33,
+      "window_units_sold": 394,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7678779641628314910",
+      "cover_url": "https://s.500fd.com/tt_video/o0oIA5SEiRNgi81VtiDCCHizQB7Xf1A4IBA9Sq~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@rosesoma/video/7678779641628314910",
+      "creator_handle": "rosesoma",
+      "play_count": 4400000,
+      "window_gmv": 17854.33,
+      "window_units_sold": 319,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7678530730430844190",
+      "cover_url": "https://s.500fd.com/tt_video/oIQfrzAcVQqEE7IzPCHLf44IgsGFzjAUpAe4iu~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@queenmamasof9/video/7678530730430844190",
+      "creator_handle": "queenmamasof9",
+      "play_count": 557,
+      "window_gmv": 9862.8,
+      "window_units_sold": 216,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7679893715363597599",
+      "cover_url": "https://s.500fd.com/tt_video/os7EeEcDAgACcaIFfAqREAAlIOopWlQIHyXEmV~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@rosesoma/video/7679893715363597599",
+      "creator_handle": "rosesoma",
+      "play_count": 1020041,
+      "window_gmv": 10605.49,
+      "window_units_sold": 189,
+      "is_ad": true,
+      "duration_seconds": 67
+    },
+    {
+      "video_id": "7671074801011903774",
+      "cover_url": "https://s.500fd.com/tt_video/o4aEcLFdvID8hwDAHomAfaEQqqQeRnaEVI9SQB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rosesoma/video/7671074801011903774",
+      "creator_handle": "rosesoma",
+      "play_count": 156500,
+      "window_gmv": 6390.49,
+      "window_units_sold": 125,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7679299774494887198",
+      "cover_url": "https://s.500fd.com/tt_video/oUjoSAZnSKAPQiI1CSifiBAtDWXA1KEbIAB6CB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rosesoma/video/7679299774494887198",
+      "creator_handle": "rosesoma",
+      "play_count": 150827,
+      "window_gmv": 6699.89,
+      "window_units_sold": 122,
+      "is_ad": true,
+      "duration_seconds": 20
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "workfromhome",
+        "weight": 962
+      },
+      {
+        "hashtag": "workingfromhome",
+        "weight": 962
+      },
+      {
+        "hashtag": "desk",
+        "weight": 962
+      },
+      {
+        "hashtag": "standingdesk",
+        "weight": 962
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 651
+      },
+      {
+        "hashtag": "table",
+        "weight": 483
+      },
+      {
+        "hashtag": "bedside",
+        "weight": 483
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 216
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "adjustable overbed desk for cozy nights working in bed!",
+      "Overbed adjustable desks for working anywhere around the house!",
+      "Replying to in loveeee with this table!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      6,
+      2
+    ]
+  }
 }

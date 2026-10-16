@@ -3,7 +3,7 @@
   "product_id": "1731364779997827299",
   "title": "Replica \u201cFull Armor God\u201d Metal Challenge Coin Collectible, Unique Desktop Decor, Ideal for Holiday Party Prizes",
   "clean_title": "Replica \u201cFull Armor God\u201d Metal Challenge",
-  "image_url": "/img/product_1731364779997827299.webp",
+  "image_url": "https://s.500fd.com/tt_product/9d0b851f07aa4bb4b3476c62f770f0a8~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731364779997827299",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Replica%20%E2%80%9CFull%20Armor%20God%E2%80%9D%20Metal%20Challenge",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731364779997827299",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7664695966175431967",
+      "cover_url": "https://s.500fd.com/tt_video/o4HcQyLlKqqr6Gx8IFGAQCv7jIUAeCaIrPIfea~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@hard2fathom/video/7664695966175431967",
+      "creator_handle": "hard2fathom",
+      "play_count": 6563,
+      "window_gmv": 574.93,
+      "window_units_sold": 291,
+      "is_ad": false,
+      "duration_seconds": 41
+    },
+    {
+      "video_id": "7679222179204058399",
+      "cover_url": "https://s.500fd.com/tt_video/osdI9TkdEDJkuV9koiFEAPQERAieAsvfEACqAh~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tacticaltxdad/video/7679222179204058399",
+      "creator_handle": "tacticaltxdad",
+      "play_count": 67500,
+      "window_gmv": 302.19,
+      "window_units_sold": 157,
+      "is_ad": false,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7687614489075666189",
+      "cover_url": "https://s.500fd.com/tt_video/owolEjEVHAAIHCjeAERMfA5AvBQDXFlTekL5qI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mikko_shopp/video/7687614489075666189",
+      "creator_handle": "mikko_shopp",
+      "play_count": 249000,
+      "window_gmv": 255.32,
+      "window_units_sold": 132,
+      "is_ad": false,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7693693458170662157",
+      "cover_url": "https://s.500fd.com/tt_video/oEBmRMDfx2Xf2SIJKl2LSqBEES2FIEqZDQgAYA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@espressoqueen5/video/7693693458170662157",
+      "creator_handle": "espressoqueen5",
+      "play_count": 583,
+      "window_gmv": 166.8,
+      "window_units_sold": 84,
+      "is_ad": false,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7681105823535287583",
+      "cover_url": "https://s.500fd.com/tt_video/o4pjxAtfYqJhkIQV0MLeICA25iiDoWQYjLGfIp~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@1raisedright/video/7681105823535287583",
+      "creator_handle": "1raisedright",
+      "play_count": 1421,
+      "window_gmv": 108.36,
+      "window_units_sold": 56,
+      "is_ad": false,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7676307932933311758",
+      "cover_url": "https://s.500fd.com/tt_video/oAEI0cRuIhpIkEDEfPuGeHcjLrALAA3AAPeVQg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@saltandswampoutdoors/video/7676307932933311758",
+      "creator_handle": "saltandswampoutdoors",
+      "play_count": 619,
+      "window_gmv": 106.38,
+      "window_units_sold": 55,
+      "is_ad": false,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "armorofgod",
+        "weight": 861
+      },
+      {
+        "hashtag": "fullarmorofgod",
+        "weight": 358
+      },
+      {
+        "hashtag": "ephesians6",
+        "weight": 358
+      },
+      {
+        "hashtag": "bibletok",
+        "weight": 358
+      },
+      {
+        "hashtag": "spiritualwarfare",
+        "weight": 314
+      },
+      {
+        "hashtag": "summerwins",
+        "weight": 291
+      },
+      {
+        "hashtag": "summervibe",
+        "weight": 291
+      },
+      {
+        "hashtag": "tiktokspotlightfinds",
+        "weight": 291
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 22,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 10.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "Carry a reminder of your faith wherever you go.",
+      "Sometimes spreading the Gospel can be as simple as leaving something behind for the right person to find.",
+      "Whether you carry it in your pocket, keep it in your car, or give it to someone you love, it's a pretty powerful little reminder to armor up before you walk out into the world."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      4
+    ]
+  }
 }

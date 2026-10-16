@@ -3,7 +3,7 @@
   "product_id": "1730900941669503416",
   "title": "Women's Plain Split Thigh Backless Dress, Elegant Sexy Sleeveless Dress for Party Club Dating Wear, Ladies Clothes for All Seasons, Floor Length Slip Dress, Evening Party Dresses",
   "clean_title": "Women's Plain Split Thigh Backless Dress",
-  "image_url": "/img/product_1730900941669503416.jpg",
+  "image_url": "https://s.500fd.com/tt_product/538cfd78d62742ff9569c33ee2e5f563~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730900941669503416",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Plain%20Split%20Thigh%20Backless%20Dress",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730900941669503416",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7685933036155850015",
+      "cover_url": "https://s.500fd.com/tt_video/osEACIA4XTBCnO6VIFC7BIa56Sp3SRRi2Fiqv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@specificallyketchup/video/7685933036155850015",
+      "creator_handle": "specificallyketchup",
+      "play_count": 127500,
+      "window_gmv": 7677.56,
+      "window_units_sold": 599,
+      "is_ad": true,
+      "duration_seconds": 83
+    },
+    {
+      "video_id": "7665149025083034911",
+      "cover_url": "https://s.500fd.com/tt_video/o49EIFfIIwoEV0YBVgXDfEJROkAFCjBAsY4qIC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@amarahshoptok/video/7665149025083034911",
+      "creator_handle": "amarahshoptok",
+      "play_count": 311862,
+      "window_gmv": 4046.28,
+      "window_units_sold": 339,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7674335836162264351",
+      "cover_url": "https://s.500fd.com/tt_video/oEKVY5fCAAAoAjLkAEFZAtqDWfufP9WEIIECAI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@chrystaljoythriving/video/7674335836162264351",
+      "creator_handle": "chrystaljoythriving",
+      "play_count": 1224,
+      "window_gmv": 4232.08,
+      "window_units_sold": 333,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7676486894540147982",
+      "cover_url": "https://s.500fd.com/tt_video/oEVAkmIUpE3ELALjjHfIGDTAAEIdAzeCOhXGIe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@glowdaily18/video/7676486894540147982",
+      "creator_handle": "glowdaily18",
+      "play_count": 26000,
+      "window_gmv": 4305.94,
+      "window_units_sold": 320,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7676132847236713742",
+      "cover_url": "https://s.500fd.com/tt_video/o0RCoFD3AQtfCphCiqgnAjSHWAEEIAa3DxGeEg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@glowdaily18/video/7676132847236713742",
+      "creator_handle": "glowdaily18",
+      "play_count": 7682,
+      "window_gmv": 2204.99,
+      "window_units_sold": 163,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7665150879099587871",
+      "cover_url": "https://s.500fd.com/tt_video/oofqXYRdEADYUgZEoFFYQE2iE1VGIABeBlBV2A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizdoestts/video/7665150879099587871",
+      "creator_handle": "lizdoestts",
+      "play_count": 65700,
+      "window_gmv": 1673.54,
+      "window_units_sold": 149,
+      "is_ad": true,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 899
+      },
+      {
+        "hashtag": "maxidress",
+        "weight": 488
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 488
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 483
+      },
+      {
+        "hashtag": "tiktokfashion",
+        "weight": 483
+      },
+      {
+        "hashtag": "backlessdress",
+        "weight": 339
+      },
+      {
+        "hashtag": "elegantstyle",
+        "weight": 339
+      },
+      {
+        "hashtag": "eveninggown",
+        "weight": 320
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 15,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "Finally won my series.",
+      "the color of this dress would look so beautiful at any black tie event",
+      "Stand out gently at upscale night gatherings"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      4,
+      5
+    ]
+  }
 }

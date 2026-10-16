@@ -3,7 +3,7 @@
   "product_id": "1732460981504742117",
   "title": "Women's Striped Set, Loose Fit Oversized, Round Neck Long Sleeve Top, Elastic Waist Straight Leg Pants, 2-Piece Comfortable Lounge Wear Pajamas Nightwear, Elastic Waist Loungewear",
   "clean_title": "Women's Striped Set, Loose Fit Oversized, Round Neck Long Sleeve Top, Elastic",
-  "image_url": "/img/product_1732460981504742117.webp",
+  "image_url": "https://s.500fd.com/tt_product/6b5ad23904704014bc7209e67a21bb48~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732460981504742117",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Striped%20Set%2C%20Loose%20Fit%20Oversized%2C%20Round%20Neck%20Long%20Sleeve%20Top%2C%20Elastic",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732460981504742117",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7678465629728361759",
+      "cover_url": "https://s.500fd.com/tt_video/o8AAoQQgQQAqFrP8dxXUeeIBk8fePRAxMJYGAy~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_alexisrankinn/video/7678465629728361759",
+      "creator_handle": "_alexisrankinn",
+      "play_count": 2100000,
+      "window_gmv": 10731.18,
+      "window_units_sold": 324,
+      "is_ad": true,
+      "duration_seconds": 39
+    },
+    {
+      "video_id": "7686519720371162399",
+      "cover_url": "https://s.500fd.com/tt_video/oQHeIvwWAIpjAISgVAQFeaL0IlIYqAeAEJAgGA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aleydazav/video/7686519720371162399",
+      "creator_handle": "aleydazav",
+      "play_count": 27500,
+      "window_gmv": 10800.88,
+      "window_units_sold": 313,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7680404598913240333",
+      "cover_url": "https://s.500fd.com/tt_video/o8m9oREIIHAVesLfeRFkWyixN2yxuIAwDCIjE4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emily.perk/video/7680404598913240333",
+      "creator_handle": "emily.perk",
+      "play_count": 636407,
+      "window_gmv": 10286.24,
+      "window_units_sold": 302,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7686118523952958734",
+      "cover_url": "https://s.500fd.com/tt_video/oU1sADQEcAFpDwgfEguqkSqClCRfqAy8EIJCAB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@brandirosales/video/7686118523952958734",
+      "creator_handle": "brandirosales",
+      "play_count": 388900,
+      "window_gmv": 7042.23,
+      "window_units_sold": 213,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7692115251709381901",
+      "cover_url": "https://s.500fd.com/tt_video/owFGDEA1IDqAosRjQJfAGIFA2fmF4OfeutApI6~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sabrenabyler_/video/7692115251709381901",
+      "creator_handle": "sabrenabyler_",
+      "play_count": 122000,
+      "window_gmv": 6219.66,
+      "window_units_sold": 168,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7670729040998763807",
+      "cover_url": "https://s.500fd.com/tt_video/oQJnKiAc3zmavRABBIijBtcs5niAA3IAl0PEE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@runteachrepeatt/video/7670729040998763807",
+      "creator_handle": "runteachrepeatt",
+      "play_count": 2916,
+      "window_gmv": 4186.06,
+      "window_units_sold": 134,
+      "is_ad": false,
+      "duration_seconds": 50
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "matchingset",
+        "weight": 1057
+      },
+      {
+        "hashtag": "twopieceset",
+        "weight": 953
+      },
+      {
+        "hashtag": "loungeset",
+        "weight": 785
+      },
+      {
+        "hashtag": "stripedset",
+        "weight": 532
+      },
+      {
+        "hashtag": "affordablefashion",
+        "weight": 313
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 313
+      },
+      {
+        "hashtag": "tiktokshopfashion",
+        "weight": 313
+      },
+      {
+        "hashtag": "stripes",
+        "weight": 302
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 30,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 9,
+      "hour_end": 11
+    },
+    "top_hooks": [
+      "VIRAL EVERYDAY SET!",
+      "Consider this your sign to get one \ud83d\udc96",
+      "& the material is SO soft and comfy."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      3,
+      0
+    ]
+  }
 }

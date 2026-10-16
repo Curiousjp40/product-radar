@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732592330137441031",
+  "time_range_days": 90,
+  "total": 142,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "deyanira.956",
+        "creator_uid": "7071727884785026091"
+      },
+      "engagement_metrics": {
+        "comment_count": 54,
+        "like_count": 935,
+        "play_count": 164500,
+        "share_count": 303
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 2639.9,
+        "window_units_sold": 127
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689578222282951949",
+      "video_meta": {
+        "caption_text": "Respuesta a @NEGRA.IA\ud83e\udd16 shop #lasmonjasdedurango #halloween #lamonja #viralvideo #shopping ",
+        "cover_url": "https://s.500fd.com/tt_video/ok2EI4Br5ntggcCia3yaGUAzBrA2BbizvEEFK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689578222282951949",
+        "published_at": 1790369458,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deyanira.956/video/7689578222282951949"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "karen.tarazona1095",
+        "creator_uid": "7169562671536440326"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 1552,
+        "play_count": 20000,
+        "share_count": 36
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 1866.83,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685540845709233439",
+      "video_meta": {
+        "caption_text": "#paratii #foryou ",
+        "cover_url": "https://s.500fd.com/tt_video/ooASZEIfqEKFhdzvADBOa5TqFCWIVIfRsEP9oW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 60,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685540845709233439",
+        "published_at": 1789429438,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@karen.tarazona1095/video/7685540845709233439"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "eud_officiel",
+        "creator_uid": "7062394151146947631"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 6,
+        "play_count": 1744,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 1484.67,
+        "window_units_sold": 70
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691610182169677086",
+      "video_meta": {
+        "caption_text": "#Women's #Full-Length #Polyester #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o8avDfqbEE4VQuFxwBqAFB9eInRhACqk9EUXUc~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691610182169677086",
+        "published_at": 1790842598,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@eud_officiel/video/7691610182169677086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "stephanie.p.f",
+        "creator_uid": "7100284980804830254"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 72,
+        "play_count": 1634,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 682.82,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695520831555800350",
+      "video_meta": {
+        "caption_text": "#Women #costume #lady #halloween #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/ooAARvEQIIAV7xlfEeFqXuGFU3tyFIADDEfjAk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695520831555800350",
+        "published_at": 1791753084,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@stephanie.p.f/video/7695520831555800350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coreaccessory5",
+        "creator_uid": "7649406230406169614"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 14,
+        "play_count": 7117,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 510.68,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679827306940091661",
+      "video_meta": {
+        "caption_text": "Halloween Adult Men's Priest Costume, Virgin Mary Robe, Priest and Nun Cosplay Outfit tiktokshopbacktoschool Halloween Outfit #\"#halloweenready #halloweenshopping2026 #fashionoutfitsblackgirl #halloweencostumeideasforduo #blackgirlhalloweencostume #TikTokShopBackToSchool #tiktokshopbacktoschool #sohochic\"",
+        "cover_url": "https://s.500fd.com/tt_video/oolofekIIEmUBQjIzFLqNd8GM2IfjOKKeOUUxM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679827306940091661",
+        "published_at": 1788101100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coreaccessory5/video/7679827306940091661"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yuyimadera",
+        "creator_uid": "7158196953754780677"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1341,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 446.12,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684743323256409357",
+      "video_meta": {
+        "caption_text": "#ad #halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/owGELueLHtw2VLVIfnSCAVkoISgHYggAjv1fRp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684743323256409357",
+        "published_at": 1789243758,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuyimadera/video/7684743323256409357"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yuyimadera",
+        "creator_uid": "7158196953754780677"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 37,
+        "play_count": 1448,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 427.03,
+        "window_units_sold": 23
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687325925599497486",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ow2sB3PBpI6GIq1Cp3mXmV52uAkAVieOiCSSIw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687325925599497486",
+        "published_at": 1789845067,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuyimadera/video/7687325925599497486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elprofenyc",
+        "creator_uid": "6660174009593118726"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 29,
+        "play_count": 8036,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 437.74,
+        "window_units_sold": 22
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689932020427918605",
+      "video_meta": {
+        "caption_text": "\u00a1El disfraz que no puede faltar este Halloween! \ud83d\udc7b\ud83d\ude02 \u00bfTodav\u00eda no tienes disfraz para Halloween? \ud83d\ude02 Este disfraz de monja o Virgen Mar\u00eda es perfecto para fiestas, cosplay y para sorprender a todos. \ud83c\udf83 \u00a1Consigue el tuyo aqu\u00ed en TikTok Shop! \ud83d\uded2 #TikTokShop #Halloween2026 #DisfracesHalloween #DisfrazDeMonja #TikTokShopFinds",
+        "cover_url": "https://s.500fd.com/tt_video/oYsQPAAaVFHlst6wE8FEADDfIcAjoeAQIQf0kE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689932020427918605",
+        "published_at": 1790451841,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elprofenyc/video/7689932020427918605"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "unkutliljanky",
+        "creator_uid": "7130147364631381035"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 15,
+        "play_count": 1277,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 420.16,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687336809889565982",
+      "video_meta": {
+        "caption_text": "This Full Length Priest Costume is VERY! nice and amazing for Halloween\ud83d\udc4f\ud83c\udffd\u263a\ufe0f",
+        "cover_url": "https://s.500fd.com/tt_video/oUBJR6A6ATiVEImA7EClaHicI8uPqaCtASBAo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687336809889565982",
+        "published_at": 1789847590,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@unkutliljanky/video/7687336809889565982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "funny.bone.rgv",
+        "creator_uid": "6886636333579781126"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 856,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494531997728933639",
+        "window_gmv": 399.43,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692582238076046606",
+      "video_meta": {
+        "caption_text": "Women's Halloween costume #Halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/o8rHpnDaFexcwiBRv9UMHC3fFpRQQkEfAqY23E~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692582238076046606",
+        "published_at": 1791068892,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@funny.bone.rgv/video/7692582238076046606"
+      }
+    }
+  ]
+}

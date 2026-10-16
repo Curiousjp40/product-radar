@@ -3,7 +3,7 @@
   "product_id": "1732236848379302653",
   "title": "2pcs/Set Women Long Sleeve T-Shirt And Leggings, spring/Autumn/Winter Work From Home Outfit Comfortable Outfits For Women 2 Piece Homewear Lounge Sets Woman Lounge Wear Breakfast Outfits For Women pajama set for women",
   "clean_title": "2pcs/Set Women Long Sleeve T-Shirt And",
-  "image_url": "/img/product_1732236848379302653.jpg",
+  "image_url": "https://s.500fd.com/tt_product/118a1620edfe470aaa19ed0179fe8e7d~tplv-fhlh96nyum-origin-image.image",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732236848379302653",
   "tiktok_search_url": "https://www.tiktok.com/search?q=2pcs/Set%20Women%20Long%20Sleeve%20T-Shirt%20And",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732236848379302653",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7683931412914883870",
+      "cover_url": "https://s.500fd.com/tt_video/owjC0LIcJHXeK5RbfVmcAUqLf3gIg76VGZOKIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@knqmjjnccb54445/video/7683931412914883870",
+      "creator_handle": "knqmjjnccb54445",
+      "play_count": 98738,
+      "window_gmv": 3245.51,
+      "window_units_sold": 222,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7691259766932262158",
+      "cover_url": "https://s.500fd.com/tt_video/oQmC9XC6MiggAApW710HIKwrwiIJfByBI82BYW~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7691259766932262158",
+      "creator_handle": "fashion_abaya_closet",
+      "play_count": 109700,
+      "window_gmv": 1670.55,
+      "window_units_sold": 117,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7687927798496857375",
+      "cover_url": "https://s.500fd.com/tt_video/ocFH63hqsAzAEWQFEq9QNRABV4ifQeycEwqAQD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7687927798496857375",
+      "creator_handle": "fashion_abaya_closet",
+      "play_count": 73300,
+      "window_gmv": 1557.07,
+      "window_units_sold": 109,
+      "is_ad": false,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7690848589437881614",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@coolusa88/video/7690848589437881614",
+      "creator_handle": "coolusa88",
+      "play_count": 159,
+      "window_gmv": 1531.65,
+      "window_units_sold": 108,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7682223549888597278",
+      "cover_url": "https://s.500fd.com/tt_video/ooJQDrYfuGCTc9yecGC8AFeRrfxggUN4AqvRFg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@christine_rn_3648/video/7682223549888597278",
+      "creator_handle": "christine_rn_3648",
+      "play_count": 565,
+      "window_gmv": 2287.01,
+      "window_units_sold": 99,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7692111638324907294",
+      "cover_url": "https://s.500fd.com/tt_video/o4IgfqpESB9MVAR2p3QAVFEE63DcAvD62fA1tV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7692111638324907294",
+      "creator_handle": "aimi_us",
+      "play_count": 707,
+      "window_gmv": 1165.45,
+      "window_units_sold": 82,
+      "is_ad": false,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshop",
+        "weight": 587
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 387
+      },
+      {
+        "hashtag": "americanstyle",
+        "weight": 290
+      },
+      {
+        "hashtag": "usafashion",
+        "weight": 290
+      },
+      {
+        "hashtag": "womenoutfit",
+        "weight": 290
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 290
+      },
+      {
+        "hashtag": "usashopping",
+        "weight": 289
+      },
+      {
+        "hashtag": "twopieceset",
+        "weight": 278
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 40.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "2 Pcs/Set Women's Long Sleeve T-shirt and Plaid Leggings",
+      "I am obsessed with this outfit.",
+      "Casual two-piece set,super soft & comfy!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      3,
+      0
+    ]
+  }
 }

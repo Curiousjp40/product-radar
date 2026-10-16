@@ -3,7 +3,7 @@
   "product_id": "1732171696888648231",
   "title": "EVELLYHOOTD Women's Sohochic Leopard Print Genuine Suede Leather Loafers - Mule Flats Clogs, Slip-On Casual Shoes with Arch Support for Casual Walks, Gifts for Women",
   "clean_title": "EVELLYHOOTD Women's Sohochic Leopard Print Genuine",
-  "image_url": "/img/product_1732171696888648231.jpg",
+  "image_url": "https://s.500fd.com/tt_product/66cf0598859f4f79851d6e11badea998~tplv-fhlh96nyum-origin-image.image",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732171696888648231",
   "tiktok_search_url": "https://www.tiktok.com/search?q=EVELLYHOOTD%20Women%27s%20Sohochic%20Leopard%20Print%20Genuine",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732171696888648231",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686901833960393997",
+      "cover_url": "https://s.500fd.com/tt_video/oAYRjrEFkAjeaaSRE4yLuNgIDfAUFDAdXCAqVQ~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@shop.with.selena/video/7686901833960393997",
+      "creator_handle": "shop.with.selena",
+      "play_count": 778400,
+      "window_gmv": 10977.82,
+      "window_units_sold": 230,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7691145598967319821",
+      "cover_url": "https://s.500fd.com/tt_video/oUDK8DfAIhvHqFdEHi9BASSoEvQDcQ6gRjaej9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shelbysjourney_/video/7691145598967319821",
+      "creator_handle": "shelbysjourney_",
+      "play_count": 38768,
+      "window_gmv": 7488.79,
+      "window_units_sold": 156,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7685903979821272351",
+      "cover_url": "https://s.500fd.com/tt_video/okIATqvEICdAEARAtxQAFFEEEoDekqATFfkCgV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lindaannettem/video/7685903979821272351",
+      "creator_handle": "lindaannettem",
+      "play_count": 30500,
+      "window_gmv": 7485.78,
+      "window_units_sold": 156,
+      "is_ad": true,
+      "duration_seconds": 94
+    },
+    {
+      "video_id": "7671278532084960543",
+      "cover_url": "https://s.500fd.com/tt_video/oE3pnRKAEICAiBoBWB7iEIC1VAvLaba1Rbi2X~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@theashleywill/video/7671278532084960543",
+      "creator_handle": "theashleywill",
+      "play_count": 1900000,
+      "window_gmv": 7243.29,
+      "window_units_sold": 155,
+      "is_ad": true,
+      "duration_seconds": 50
+    },
+    {
+      "video_id": "7688523427283586335",
+      "cover_url": "https://s.500fd.com/tt_video/owNbHjE0DIu2ezgyAiFEqrjeTCf1VlIIEcAdIZ~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@stephanie_stimson/video/7688523427283586335",
+      "creator_handle": "stephanie_stimson",
+      "play_count": 180500,
+      "window_gmv": 7032,
+      "window_units_sold": 150,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7669825010403429663",
+      "cover_url": "https://s.500fd.com/tt_video/osQjGqUAWfxw1ekhDIQGH4F72ZVCiAfyEYIFlp~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@karlieroper/video/7669825010403429663",
+      "creator_handle": "karlieroper",
+      "play_count": 108800,
+      "window_gmv": 6752.94,
+      "window_units_sold": 143,
+      "is_ad": true,
+      "duration_seconds": 15
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallshoes",
+        "weight": 679
+      },
+      {
+        "hashtag": "clogs",
+        "weight": 392
+      },
+      {
+        "hashtag": "sliponshoes",
+        "weight": 380
+      },
+      {
+        "hashtag": "loafersoutfit",
+        "weight": 230
+      },
+      {
+        "hashtag": "loafersshoes",
+        "weight": 230
+      },
+      {
+        "hashtag": "leopard",
+        "weight": 230
+      },
+      {
+        "hashtag": "shoeshaul",
+        "weight": 156
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 156
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 37,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 30.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 11,
+      "hour_end": 13
+    },
+    "top_hooks": [
+      "Replying to Wilson here they are!",
+      "the cutest clogs for fall are finally back\ud83e\udd0c\ud83c\udffc\ud83e\udd0e",
+      "fall gave me an excuse to buy more shoes \ud83c\udf42\ud83d\udc62\ud83e\udd0e Which pair are you grabbing first?"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      4,
+      1
+    ]
+  }
 }

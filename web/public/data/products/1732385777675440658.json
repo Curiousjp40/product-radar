@@ -3,7 +3,7 @@
   "product_id": "1732385777675440658",
   "title": "Women's Summer New Rivet Halter Jumpsuit, Deep V Backless Waist Buckle Slim Fit, Sexy European Style Butt Lift Short Pants, Tied Shorts Jumpsuit",
   "clean_title": "Women's Summer New Rivet Halter Jumpsuit",
-  "image_url": "/img/product_1732385777675440658.webp",
+  "image_url": "https://s.500fd.com/tt_product/4ec98eaeb0524c8d9a058209849bc1ae~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,123 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732385777675440658",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Summer%20New%20Rivet%20Halter%20Jumpsuit",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732385777675440658",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7675538412341939469",
+      "cover_url": "https://s.500fd.com/tt_video/oAm2oASDqCf8nOdFEAAPAAIoEDoJfhvg0RQZEb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7675538412341939469",
+      "creator_handle": "yvonniedior",
+      "play_count": 97900,
+      "window_gmv": 9355.43,
+      "window_units_sold": 702,
+      "is_ad": false,
+      "duration_seconds": 49
+    },
+    {
+      "video_id": "7682932144536112415",
+      "cover_url": "https://s.500fd.com/tt_video/oUAIe3o4NUg8EogySxYffhvQAhOfAAeIi0QAQi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7682932144536112415",
+      "creator_handle": "nataliesszz",
+      "play_count": 1002389,
+      "window_gmv": 4435.52,
+      "window_units_sold": 343,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7674025486338575630",
+      "cover_url": "https://s.500fd.com/tt_video/osCbjFDnfr5f1970fT8okTyECqhFQIUHHQAAZs~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7674025486338575630",
+      "creator_handle": "wincentsfinds2",
+      "play_count": 246500,
+      "window_gmv": 4325.51,
+      "window_units_sold": 273,
+      "is_ad": false,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7677038482535075103",
+      "cover_url": "https://s.500fd.com/tt_video/oAxU5EAFfAQWnfM8DDjVZeCgoEIqFIkVvJ3QB3~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@hernameterrica/video/7677038482535075103",
+      "creator_handle": "hernameterrica",
+      "play_count": 109100,
+      "window_gmv": 3780.62,
+      "window_units_sold": 268,
+      "is_ad": false,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7677285649992486175",
+      "cover_url": "https://s.500fd.com/tt_video/oQVCiHoACzeDLOlFAAARrzfKEhEFLMEqAEGI0M~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@hernameterrica/video/7677285649992486175",
+      "creator_handle": "hernameterrica",
+      "play_count": 57700,
+      "window_gmv": 3101.93,
+      "window_units_sold": 214,
+      "is_ad": false,
+      "duration_seconds": 46
+    },
+    {
+      "video_id": "7678205643626450189",
+      "cover_url": "https://s.500fd.com/tt_video/okADEthcS6qQfBX8lEDnqQGySj7REbFgge6Eo3~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7678205643626450189",
+      "creator_handle": "cryysstallove",
+      "play_count": 2973226,
+      "window_gmv": 2807.08,
+      "window_units_sold": 198,
+      "is_ad": false,
+      "duration_seconds": 7
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "jumpsuit",
+        "weight": 1184
+      },
+      {
+        "hashtag": "jumpsuitoutfit",
+        "weight": 702
+      },
+      {
+        "hashtag": "romper",
+        "weight": 702
+      },
+      {
+        "hashtag": "romperoutfit",
+        "weight": 268
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 10.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "Back in stock short romper jumpsuit",
+      "Replying to Love Gemini"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      1,
+      4
+    ]
+  }
 }

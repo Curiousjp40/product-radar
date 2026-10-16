@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731602751530177225",
+  "time_range_days": 90,
+  "total": 859,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "nishikisses",
+        "creator_uid": "7048500544320308271"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 1015,
+        "play_count": 67000,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 17663.61,
+        "window_units_sold": 698
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686604293385784590",
+      "video_meta": {
+        "caption_text": "one of my fav sets! how cute is it!! #offtheshoulder #set #fall ",
+        "cover_url": "https://s.500fd.com/tt_video/oEAmeEaeV9HbSIQYCpLIAhGlIWAj53MQQ2eXkJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686604293385784590",
+        "published_at": 1789677035,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nishikisses/video/7686604293385784590"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_jessicao17",
+        "creator_uid": "6813384789601829894"
+      },
+      "engagement_metrics": {
+        "comment_count": 136,
+        "like_count": 145300,
+        "play_count": 6500000,
+        "share_count": 5316
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 21065.83,
+        "window_units_sold": 637
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673644302995557662",
+      "video_meta": {
+        "caption_text": "sera el pelo o el outfit #sensaciondelbloque #randy #ootd #outfitinspo #reggaeton ",
+        "cover_url": "https://s.500fd.com/tt_video/oAohdDWGpbQerzJ8FvLIASGxRfAGKcxQQ1efUI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673644302995557662",
+        "published_at": 1786659558,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_jessicao17/video/7673644302995557662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jordanobermeier__",
+        "creator_uid": "7127320689825055790"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 9322,
+        "play_count": 789600,
+        "share_count": 252
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 15130.07,
+        "window_units_sold": 624
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664963405316394253",
+      "video_meta": {
+        "caption_text": "Living so good (in this set)",
+        "cover_url": "https://s.500fd.com/tt_video/osQfQEDWRanXAbDq5FqQf9qNiqiExElgSu29Bi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664963405316394253",
+        "published_at": 1784638421,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jordanobermeier__/video/7664963405316394253"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilypadtts",
+        "creator_uid": "7545916365355680781"
+      },
+      "engagement_metrics": {
+        "comment_count": 47,
+        "like_count": 67400,
+        "play_count": 2200000,
+        "share_count": 2165
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 10094.63,
+        "window_units_sold": 439
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681924551915162911",
+      "video_meta": {
+        "caption_text": "#offshoulder #twopieceset #falloutfit #ootd #falloutfitinspo \ud83d\udc97",
+        "cover_url": "https://s.500fd.com/tt_video/okBf1FHfRqE5OVENBoDbc3F61cWmAAmE8rrHIE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681924551915162911",
+        "published_at": 1788587466,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilypadtts/video/7681924551915162911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sortofawesome",
+        "creator_uid": "7625926813932340237"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 12,
+        "play_count": 844,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 15073.93,
+        "window_units_sold": 380
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674420835456765198",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owasBtaEEh1i4o6EBDPgBBRTBiEAFiAB66UIG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674420835456765198",
+        "published_at": 1786840369,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sortofawesome/video/7674420835456765198"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isabellatts0",
+        "creator_uid": "7558715905845953591"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 26100,
+        "play_count": 2400000,
+        "share_count": 1693
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 7279.47,
+        "window_units_sold": 247
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682153512138034445",
+      "video_meta": {
+        "caption_text": "So comfy #falloutfit #fall #ootd #ootdinspo #autumnaesthetic ",
+        "cover_url": "https://s.500fd.com/tt_video/o0UQA9OIeL2fHgVQ5LPpINIF4G1gecALjDCvMk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682153512138034445",
+        "published_at": 1788640775,
+        "region": "GB",
+        "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7682153512138034445"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "addison____3",
+        "creator_uid": "7081650379928683566"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 404,
+        "play_count": 38053,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 6880.81,
+        "window_units_sold": 244
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688529302542912799",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQDzfV2VQBBscIEmLfRJEZmE3RnmyAuLDiAbFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688529302542912799",
+        "published_at": 1790125238,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@addison____3/video/7688529302542912799"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "orangeshoppin",
+        "creator_uid": "6852411315647185925"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 64,
+        "play_count": 12400,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 4786.13,
+        "window_units_sold": 235
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692683006498131214",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692683006498131214",
+        "published_at": 1791092373,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@orangeshoppin/video/7692683006498131214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "my.shopping.cartt",
+        "creator_uid": "7582848686574093325"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 118,
+        "play_count": 44200,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 4889.58,
+        "window_units_sold": 230
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670764007074123022",
+      "video_meta": {
+        "caption_text": "Cant get enough its so cheap #fashioninspo #womensfashion #trending #clothes",
+        "cover_url": "https://s.500fd.com/tt_video/oww10AhXASBIcEIqBdFfDBgUfBjZdgE4RYDsEN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670764007074123022",
+        "published_at": 1785988946,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@my.shopping.cartt/video/7670764007074123022"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ilovekk444",
+        "creator_uid": "7133862018209334314"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 2996,
+        "play_count": 32612,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927639111570121",
+        "window_gmv": 4815.35,
+        "window_units_sold": 196
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689575007118249247",
+      "video_meta": {
+        "caption_text": "#fyp\u30b7 #ttshop #haul #blowthisup ",
+        "cover_url": "https://s.500fd.com/tt_video/ooRftFrfA5CRjD49QwtEbx2c9lEEtqJVACBtIk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 60,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689575007118249247",
+        "published_at": 1790368716,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ilovekk444/video/7689575007118249247"
+      }
+    }
+  ]
+}

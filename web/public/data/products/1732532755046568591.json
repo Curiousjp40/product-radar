@@ -3,7 +3,7 @@
   "product_id": "1732532755046568591",
   "title": "3-in-1 Entryway Organizer:  Rack with Coat Rack, 5-Tier  Storage Stand with 8 Hooks, Freestanding Hall Tree for Living Room, Bedroom shoe organizer Adjustable Shelf Rack Closet Rack",
   "clean_title": "3-in-1 Entryway Organizer: Rack with Coat",
-  "image_url": "/img/product_1732532755046568591.webp",
+  "image_url": "https://s.500fd.com/tt_product/94dae48a364a44c2b751ba5d90731d6a~tplv-fhlh96nyum-crop-webp:900:900.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732532755046568591",
   "tiktok_search_url": "https://www.tiktok.com/search?q=3-in-1%20Entryway%20Organizer%3A%20Rack%20with%20Coat",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732532755046568591",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691907576346217741",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@meghouse24/video/7691907576346217741",
+      "creator_handle": "meghouse24",
+      "play_count": 4587,
+      "window_gmv": 13018.8,
+      "window_units_sold": 571,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7691041472967216414",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7691041472967216414",
+      "creator_handle": "berlinreviews1",
+      "play_count": 21300,
+      "window_gmv": 5061.6,
+      "window_units_sold": 222,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7690652184031104286",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7690652184031104286",
+      "creator_handle": "berlinreviews1",
+      "play_count": 31400,
+      "window_gmv": 4286.4,
+      "window_units_sold": 188,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7695971899393805582",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@meghouse24/video/7695971899393805582",
+      "creator_handle": "meghouse24",
+      "play_count": 242,
+      "window_gmv": 3784.8,
+      "window_units_sold": 166,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7690668446706650382",
+      "cover_url": "https://s.500fd.com/tt_video/o0IE6iqSrBIoDXBtIfi32SEgitvVPu5eNmtARl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@my.daily.steals/video/7690668446706650382",
+      "creator_handle": "my.daily.steals",
+      "play_count": 9871,
+      "window_gmv": 3739.2,
+      "window_units_sold": 164,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7690596725362363662",
+      "cover_url": "https://s.500fd.com/tt_video/ogXnSVgP4ELdnFoqA0KtQfQ0fxENLBDSvDoRuF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@caitlynjones/video/7690596725362363662",
+      "creator_handle": "caitlynjones",
+      "play_count": 7546,
+      "window_gmv": 3716.4,
+      "window_units_sold": 163,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "organizedhome",
+        "weight": 820
+      },
+      {
+        "hashtag": "home",
+        "weight": 571
+      },
+      {
+        "hashtag": "declutter",
+        "weight": 571
+      },
+      {
+        "hashtag": "shoestorage",
+        "weight": 327
+      },
+      {
+        "hashtag": "closetstorage",
+        "weight": 164
+      },
+      {
+        "hashtag": "shoecloset",
+        "weight": 164
+      },
+      {
+        "hashtag": "shoeorganizer",
+        "weight": 164
+      },
+      {
+        "hashtag": "shoeorganization",
+        "weight": 164
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 0,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "Picking up my shoes is a must for me",
+      "the perfect closet storage system!",
+      "One rack for boots, kids\u2019 shoes, hats + jackets = instant organization!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

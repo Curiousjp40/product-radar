@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729537945661117437",
+  "time_range_days": 90,
+  "total": 1349,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "macwatfit",
+        "creator_uid": "6748318086774506501"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 2781,
+        "play_count": 593200,
+        "share_count": 282
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 11162.62,
+        "window_units_sold": 343
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681557580405017869",
+      "video_meta": {
+        "caption_text": "Comfy ribbed knit lounge set \ud83e\udde1 (this is in the color brown, not brick red!) #loungeset #ribbedset #ribbedknit #ribbedlongsleeve #coffeeshopfit ",
+        "cover_url": "https://s.500fd.com/tt_video/os0UULEjkGVEN0IAwAACAoD2Iee1AWHIGeQAMA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681557580405017869",
+        "published_at": 1788502043,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7681557580405017869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "makaylajaime",
+        "creator_uid": "7351619786357605418"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 2272,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 9885.54,
+        "window_units_sold": 297
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671080416291474702",
+      "video_meta": {
+        "caption_text": "The perfect set for fall #midsizefashion #petitefashion #apronbellystyle #postpatum  midsize petite vacation fashion curvy fashion summer fashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oMSqB1UsEDwFT5JAPgZQdK8eRcxYDDGkEf0QES~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671080416291474702",
+        "published_at": 1786062603,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@makaylajaime/video/7671080416291474702"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lizzmi45",
+        "creator_uid": "6755878335014028293"
+      },
+      "engagement_metrics": {
+        "comment_count": 55,
+        "like_count": 3045,
+        "play_count": 486400,
+        "share_count": 249
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 8855.5,
+        "window_units_sold": 271
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672279672171842846",
+      "video_meta": {
+        "caption_text": "Perfect fall outfit #tiktokshopcreatorpicks #matchingset #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oQqfWFnfA6rjLDv6Q60IMyMEr9EIeUbqAHCyQa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672279672171842846",
+        "published_at": 1786393980,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizzmi45/video/7672279672171842846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.and.daisies",
+        "creator_uid": "7490370121882797102"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 333,
+        "play_count": 65700,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 8853.7,
+        "window_units_sold": 267
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689175918593559821",
+      "video_meta": {
+        "caption_text": "I will never get over this set it\u2019s sooo comfy and so freaking flattering #twopieceset #2pieceset #loungeset #plussizefashion #comfyoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/ocIgBbDPwAAi6gAEa0VprBJ1ckiE8NA4YCGWC.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689175918593559821",
+        "published_at": 1790275793,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7689175918593559821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "macwatfit",
+        "creator_uid": "6748318086774506501"
+      },
+      "engagement_metrics": {
+        "comment_count": 57,
+        "like_count": 6379,
+        "play_count": 740111,
+        "share_count": 706
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 8439.38,
+        "window_units_sold": 259
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685616294766333198",
+      "video_meta": {
+        "caption_text": "Cozy fall coffee shop fit \ud83c\udf41\u2615\ufe0f #twopieceset #2pieceset #cozyfalloutfits #cozyoutfit #loungewear ",
+        "cover_url": "https://s.500fd.com/tt_video/oII3jC2iPcLwqogCtkAEEABhByAL4AmbiAiqa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685616294766333198",
+        "published_at": 1789447022,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7685616294766333198"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "genx.terrica",
+        "creator_uid": "7462965756529198126"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 36,
+        "play_count": 1272,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 7970.5,
+        "window_units_sold": 242
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670790720919293214",
+      "video_meta": {
+        "caption_text": "The cutest and most comfortable 2 pc set Sleeveless puffer vest \ud83d\udd17:  @Terrica \u274c The Style Effect  #loungeset  #falldealsforyou  #casualoutfit #traveloutfit #comfortableoutfit  @btfbm_us ",
+        "cover_url": "https://s.500fd.com/tt_video/oI60CrAIiIBAdVFiBLCKBqHfxA9EREAAEk5yfD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670790720919293214",
+        "published_at": 1785995155,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@genx.terrica/video/7670790720919293214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lifeover43",
+        "creator_uid": "6799772151484335110"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 1413,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 7639.24,
+        "window_units_sold": 241
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680380486077680927",
+      "video_meta": {
+        "caption_text": "This is exactly my kind of outfit\u2014comfy enough to lounge in but cute enough to actually leave the house. \ud83d\ude4c This 2-piece set is SO easy to style with sneakers, a cardigan, denim jacket or vest, so you can wear it completely differently all fall. The wide-leg pants + simple black top make it look so much more put together than your typical lounge set. \ud83d\udda4 #Over40Style #ComfyOutfits #LoungeSet #FallOutfitIdeas #TikTokShopFashion",
+        "cover_url": "https://s.500fd.com/tt_video/oEJhADFEyAFjElnfEAeW7VqWMCR8lAUiEIZCAd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680380486077680927",
+        "published_at": 1788278400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lifeover43/video/7680380486077680927"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "staygoldlex",
+        "creator_uid": "6797461007582643206"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 3182,
+        "play_count": 235862,
+        "share_count": 161
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 7394.96,
+        "window_units_sold": 227
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682466347283975454",
+      "video_meta": {
+        "caption_text": "Love me a good 2 piece set \ud83e\udd0e  #2pieceset #outfitinspo #falloutfits #outfitideas #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oQydRZngqEVAEAEgmCnF1CpEIaDAf2AB9Afgnk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682466347283975454",
+        "published_at": 1788713599,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@staygoldlex/video/7682466347283975454"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "akerns_yo",
+        "creator_uid": "6874297514528883718"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 6,
+        "play_count": 877,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 6440.18,
+        "window_units_sold": 208
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681004385261964557",
+      "video_meta": {
+        "caption_text": "mom OOTD: cozy lounge sets alllllll fall + winter long! true to size. (size up if in between) @btfbm_us #momstyle #momootd #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/oEAoaG0eDICOHYhjARFASyRtNCfnqADEEzg8Em~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681004385261964557",
+        "published_at": 1788373236,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@akerns_yo/video/7681004385261964557"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lindaannettem",
+        "creator_uid": "6811964865076102149"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 399,
+        "play_count": 29800,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495294915427208189",
+        "window_gmv": 6594.14,
+        "window_units_sold": 202
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673272748122148126",
+      "video_meta": {
+        "caption_text": "Two piece set= instant outfit\ud83e\udd0e Cute, comfy & already put together for you @btfbm_us @btfbm_shop #falloutfits #2piecesets #easyoutfit #midsizeoutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/okoAidvBKEwNIz1C980hBPFn8BPADihAiAAeIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673272748122148126",
+        "published_at": 1786573051,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lindaannettem/video/7673272748122148126"
+      }
+    }
+  ]
+}

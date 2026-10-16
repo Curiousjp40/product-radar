@@ -3,7 +3,7 @@
   "product_id": "1730996876570366842",
   "title": "Women's Lace Up Boned Overbust Corset Top Bustier Lingerie Bodyshaper Top Halloween Costumes Shapewear Gothic Party Outfit Floral Blue Witchy Clothing 819AJ D3",
   "clean_title": "Women's Lace Up Boned Overbust Corset",
-  "image_url": "/img/product_1730996876570366842.webp",
+  "image_url": "https://s.500fd.com/tt_product/b937d02af82741be9fdccc4524aaa158~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730996876570366842",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Lace%20Up%20Boned%20Overbust%20Corset",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730996876570366842",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689151694487162143",
+      "cover_url": "https://s.500fd.com/tt_video/oAI4YIA16W1W1i3I26uBsACCqnifAXCR8IkQiq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7689151694487162143",
+      "creator_handle": "maes_outfits",
+      "play_count": 101126,
+      "window_gmv": 6862.36,
+      "window_units_sold": 297,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7689153058223197471",
+      "cover_url": "https://s.500fd.com/tt_video/oYiXCTKiAAr3cBaBElyABcP77AIBAVR1xiEvA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7689153058223197471",
+      "creator_handle": "maes_outfits",
+      "play_count": 52417,
+      "window_gmv": 6267.54,
+      "window_units_sold": 269,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7688934497009552670",
+      "cover_url": "https://s.500fd.com/tt_video/o8qaGeJFIICqQoKMeAVALEqpIfjSAAEsFIXAua~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7688934497009552670",
+      "creator_handle": "maes_outfits",
+      "play_count": 71800,
+      "window_gmv": 6141.67,
+      "window_units_sold": 259,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7689502684843429151",
+      "cover_url": "https://s.500fd.com/tt_video/o0edASgCTVevEAI6mUvLeISGElAEbIj2QZqAAI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7689502684843429151",
+      "creator_handle": "maes_outfits",
+      "play_count": 48845,
+      "window_gmv": 5673.97,
+      "window_units_sold": 249,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7673658071486434574",
+      "cover_url": "https://s.500fd.com/tt_video/oE3IHf9kJQAkXMVbMlTwefGygAEx4CD7UQgjyF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7673658071486434574",
+      "creator_handle": "wincentsfinds2",
+      "play_count": 4500000,
+      "window_gmv": 5612.24,
+      "window_units_sold": 246,
+      "is_ad": true,
+      "duration_seconds": 66
+    },
+    {
+      "video_id": "7690318874696338719",
+      "cover_url": "https://s.500fd.com/tt_video/ogOAIIALsEAdCjAAfSIc4CIwRfgpGejEqFmVX5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ny9essa/video/7690318874696338719",
+      "creator_handle": "ny9essa",
+      "play_count": 1300000,
+      "window_gmv": 5652.14,
+      "window_units_sold": 243,
+      "is_ad": true,
+      "duration_seconds": 7
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloweencostume",
+        "weight": 1250
+      },
+      {
+        "hashtag": "katherinepierce",
+        "weight": 1074
+      },
+      {
+        "hashtag": "tvd",
+        "weight": 1074
+      },
+      {
+        "hashtag": "thevampirediaries",
+        "weight": 1074
+      },
+      {
+        "hashtag": "halloween2026",
+        "weight": 566
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 353
+      },
+      {
+        "hashtag": "halloweentransition",
+        "weight": 259
+      },
+      {
+        "hashtag": "iconiccostumes",
+        "weight": 249
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Corset size xxs",
+      "def the most iconic costume for brunettes",
+      "running it back cause this costume is too good."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      4
+    ]
+  }
 }

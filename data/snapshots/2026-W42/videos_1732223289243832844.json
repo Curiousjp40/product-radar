@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732223289243832844",
+  "time_range_days": 90,
+  "total": 997,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 5399,
+        "play_count": 515982,
+        "share_count": 165
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 13515.52,
+        "window_units_sold": 1313
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679586672140455199",
+      "video_meta": {
+        "caption_text": "and for only $10?!!!",
+        "cover_url": "https://s.500fd.com/tt_video/ockTR1PbqIVdE5E7XBkivieiI3BD9kAEzAfX3a~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679586672140455199",
+        "published_at": 1788043125,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7679586672140455199"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aisovok",
+        "creator_uid": "7378985940855424043"
+      },
+      "engagement_metrics": {
+        "comment_count": 215,
+        "like_count": 312500,
+        "play_count": 11200000,
+        "share_count": 3426
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 6410.14,
+        "window_units_sold": 606
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681134518887140622",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUYAgmDFeQqCFya8hSfBRpzSz5j63NEmAEDUmQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681134518887140622",
+        "published_at": 1788403515,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aisovok/video/7681134518887140622"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 395,
+        "play_count": 43700,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 4619.22,
+        "window_units_sold": 439
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687727776593448222",
+      "video_meta": {
+        "caption_text": "less than $7 (also currently obsessed w this version of this song)\ud83d\udc08\u200d\u2b1b",
+        "cover_url": "https://s.500fd.com/tt_video/ogOhSqACfACqAcD8E7twufIAqFRzEstANVEEE7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687727776593448222",
+        "published_at": 1789938622,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7687727776593448222"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 87,
+        "like_count": 137400,
+        "play_count": 5100000,
+        "share_count": 3694
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 4003.15,
+        "window_units_sold": 366
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688842330207489294",
+      "video_meta": {
+        "caption_text": "so glad this restocked the perf lace ",
+        "cover_url": "https://s.500fd.com/tt_video/o43BA0Cii6EMWAX1A3AIIQWiifC3EXCJBBVBwW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688842330207489294",
+        "published_at": 1790198135,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7688842330207489294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbyelectra",
+        "creator_uid": "7531472864269616158"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 3533,
+        "play_count": 681090,
+        "share_count": 107
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 3609,
+        "window_units_sold": 337
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684881736324451615",
+      "video_meta": {
+        "caption_text": "one of my most complimented tops ",
+        "cover_url": "https://s.500fd.com/tt_video/ogp6I8LYAPqXTeHMIAGAQ6T0jwVAXEFIAFIgee~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684881736324451615",
+        "published_at": 1789304400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbyelectra/video/7684881736324451615"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kimoradiaries",
+        "creator_uid": "7595771350676030519"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 131,
+        "play_count": 3256,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 3401.49,
+        "window_units_sold": 317
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665905759321951518",
+      "video_meta": {
+        "caption_text": "im in loveeee \ud83d\udc08\u200d\u2b1b",
+        "cover_url": "https://s.500fd.com/tt_video/ooBiaqlXIAbMtIiwMfIxCL8iQJg5WAR6B2A6i1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665905759321951518",
+        "published_at": 1784857789,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kimoradiaries/video/7665905759321951518"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ohhangelbaby",
+        "creator_uid": "7489527312687825963"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 1809,
+        "play_count": 93400,
+        "share_count": 36
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 3192.79,
+        "window_units_sold": 311
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690277853375630606",
+      "video_meta": {
+        "caption_text": "Off shoulder lace top. I\u2019m 5\u20194\u201d wearing small! #falloutfits #ootd #outfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/og4viAaWBsA4bJ54rwkSEAiIBuAPz5bEAlCBg~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690277853375630606",
+        "published_at": 1790532353,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690277853375630606"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aisovok",
+        "creator_uid": "7378985940855424043"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 72200,
+        "play_count": 4200000,
+        "share_count": 739
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 3457.19,
+        "window_units_sold": 306
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682133413834312974",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8xUrg5ac4bR6kJiSE6BF4BviaBSAp96IYIQx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682133413834312974",
+        "published_at": 1788636077,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aisovok/video/7682133413834312974"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melsdailyinspo",
+        "creator_uid": "7539004672733643790"
+      },
+      "engagement_metrics": {
+        "comment_count": 231,
+        "like_count": 85241,
+        "play_count": 3308135,
+        "share_count": 1460
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 3409.1,
+        "window_units_sold": 300
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689510383454883085",
+      "video_meta": {
+        "caption_text": "the most perfecttt fall top ",
+        "cover_url": "https://s.500fd.com/tt_video/o0XtveIIAljgAQeI8ELVAQFGAkkGAHSieUbIIu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689510383454883085",
+        "published_at": 1790353689,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7689510383454883085"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mills24h",
+        "creator_uid": "7431650582819996715"
+      },
+      "engagement_metrics": {
+        "comment_count": 99,
+        "like_count": 251121,
+        "play_count": 5860359,
+        "share_count": 4918
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646927636524798476",
+        "window_gmv": 2777.26,
+        "window_units_sold": 268
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690961851160481037",
+      "video_meta": {
+        "caption_text": "#fallfashion #goingouttop ",
+        "cover_url": "https://s.500fd.com/tt_video/o4m5ZGdfQAkJqfGIXHkI85C2cQtjANLcV3Cq4e~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690961851160481037",
+        "published_at": 1790691633,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mills24h/video/7690961851160481037"
+      }
+    }
+  ]
+}

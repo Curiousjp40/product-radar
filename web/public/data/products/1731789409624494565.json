@@ -3,7 +3,7 @@
   "product_id": "1731789409624494565",
   "title": "Chicovar Women's Fall Sweetheart Neckline Knot Front Flowy Mini Chiffon Dresses, Lantern Sleeve, A-Line Cut, No Scratchy, No Sheer, Westernfashion, Family Photos, Church, Party, Casual, or Daily Wear, Sohochic Long Sleeve Womenswear",
   "clean_title": "Chicovar Women's Fall Sweetheart Neckline Knot",
-  "image_url": "/img/product_1731789409624494565.webp",
+  "image_url": "https://s.500fd.com/tt_product/84e59d7776a14856a1e03256d5f4b842~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731789409624494565",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Chicovar%20Women%27s%20Fall%20Sweetheart%20Neckline%20Knot",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731789409624494565",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7676910138934005006",
+      "cover_url": "https://s.500fd.com/tt_video/owA8aP0AIioBg4C3onTaAJ3kBANEoWdR9nE9i~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@crystalsehy/video/7676910138934005006",
+      "creator_handle": "crystalsehy",
+      "play_count": 840300,
+      "window_gmv": 37785.87,
+      "window_units_sold": 1075,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7668006503458065694",
+      "cover_url": "https://s.500fd.com/tt_video/oAjEaaBl9F9pABVweqzcRlA2tEE2fEiDIqO142~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7668006503458065694",
+      "creator_handle": "momwithaplot",
+      "play_count": 2300000,
+      "window_gmv": 9612.96,
+      "window_units_sold": 345,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7670498981981572383",
+      "cover_url": "https://s.500fd.com/tt_video/o8t4BfqYDEhqFyeEazEFxDElcBVIG3aA2tRoZA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7670498981981572383",
+      "creator_handle": "momwithaplot",
+      "play_count": 877800,
+      "window_gmv": 7406.93,
+      "window_units_sold": 239,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7668337813686848799",
+      "cover_url": "https://s.500fd.com/tt_video/ocapaBkZSE0EM9I0mAKiVRztBvKhl2irBcxAn~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7668337813686848799",
+      "creator_handle": "momwithaplot",
+      "play_count": 154800,
+      "window_gmv": 4374.4,
+      "window_units_sold": 150,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7688417881834523935",
+      "cover_url": "https://s.500fd.com/tt_video/oE6xIyeir1ElsS3qANCIRvViufS92aEVEBFBAo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@momwithaplot/video/7688417881834523935",
+      "creator_handle": "momwithaplot",
+      "play_count": 62310,
+      "window_gmv": 4885.39,
+      "window_units_sold": 145,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7683244627993873677",
+      "cover_url": "https://s.500fd.com/tt_video/oYSCoHFACFPDv8eYAAARlSf5E3DFgXEqgEoIbL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7683244627993873677",
+      "creator_handle": "girlypopscart",
+      "play_count": 41700,
+      "window_gmv": 4975.88,
+      "window_units_sold": 138,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 235
+      },
+      {
+        "hashtag": "apronbellyfriendly",
+        "weight": 138
+      },
+      {
+        "hashtag": "apronbellystyle",
+        "weight": 138
+      },
+      {
+        "hashtag": "plussizefallfashion",
+        "weight": 138
+      },
+      {
+        "hashtag": "plussizedress",
+        "weight": 138
+      },
+      {
+        "hashtag": "plussizedresses",
+        "weight": 138
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 124
+      },
+      {
+        "hashtag": "fall",
+        "weight": 124
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 14,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 13,
+      "hour_end": 15
+    },
+    "top_hooks": [
+      "Oh how I love this flowy, feminine fall dress \ud83e\udef0\ud83e\udef0\ud83e\udef0 the Sweetheart neck line is so flattering.",
+      "my favorite dress got released as long sleeve and I\u2019m loving this!",
+      "a gorgeous dress that flatters so many bodystyles!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 9,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      5,
+      2
+    ]
+  }
 }

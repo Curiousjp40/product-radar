@@ -3,7 +3,7 @@
   "product_id": "1732440631520235998",
   "title": "FDR Women's Buttercream Cropped Zip-Up Hoodie & Sweatpants Set, Soft Casual Two-Piece Outfit with Hooded Jacket, Y2K Minimalist Streetwear Style for Daily Wear, Baggy Pant Lounge and Active Looks",
   "clean_title": "FDR Women's Buttercream Cropped Zip-Up Hoodie",
-  "image_url": "/img/product_1732440631520235998.webp",
+  "image_url": "https://s.500fd.com/tt_product/9f85e221acb14f02850a6775caf2b2ff~tplv-fhlh96nyum-crop-webp:1500:2000.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732440631520235998",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FDR%20Women%27s%20Buttercream%20Cropped%20Zip-Up%20Hoodie",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732440631520235998",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7683656010178874654",
+      "cover_url": "https://s.500fd.com/tt_video/ocAdAfflDECqFA5EAhE1dxEIoCVI0H7AtBR9SA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7683656010178874654",
+      "creator_handle": "klothesminded",
+      "play_count": 446600,
+      "window_gmv": 26078.29,
+      "window_units_sold": 647,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7681091670565276959",
+      "cover_url": "https://s.500fd.com/tt_video/oIAI9BVHAujdEfEIFXACKEIDYApqMAmE59fnDe~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7681091670565276959",
+      "creator_handle": "klothesminded",
+      "play_count": 300200,
+      "window_gmv": 22899.39,
+      "window_units_sold": 570,
+      "is_ad": true,
+      "duration_seconds": 38
+    },
+    {
+      "video_id": "7689661661652765982",
+      "cover_url": "https://s.500fd.com/tt_video/o0r3CM1ZpVPElrLic2p0GiAKBBIaRiPq0BtAI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7689661661652765982",
+      "creator_handle": "klothesminded",
+      "play_count": 32900,
+      "window_gmv": 9232.56,
+      "window_units_sold": 234,
+      "is_ad": true,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7680348268764630285",
+      "cover_url": "https://s.500fd.com/tt_video/oIkELNIACCYDGZrYAAAjBefgIDHFWFEVAEeIt6~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@ohronysha/video/7680348268764630285",
+      "creator_handle": "ohronysha",
+      "play_count": 289800,
+      "window_gmv": 4723.33,
+      "window_units_sold": 119,
+      "is_ad": true,
+      "duration_seconds": 66
+    },
+    {
+      "video_id": "7695523438550682911",
+      "cover_url": "https://s.500fd.com/tt_video/oQfHQhFrQAqQ5GGqPITdeHKAXdsGLLxtfUqf7R~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kitabita4/video/7695523438550682911",
+      "creator_handle": "kitabita4",
+      "play_count": 34600,
+      "window_gmv": 4252.59,
+      "window_units_sold": 108,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7677302953484504333",
+      "cover_url": "https://s.500fd.com/tt_video/okLpfFCRSDqCi2EJQgA5AxmkEf8u54DEKbIA0A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@histutu23/video/7677302953484504333",
+      "creator_handle": "histutu23",
+      "play_count": 891500,
+      "window_gmv": 3886.97,
+      "window_units_sold": 103,
+      "is_ad": true,
+      "duration_seconds": 37
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 186
+      },
+      {
+        "hashtag": "fy",
+        "weight": 119
+      },
+      {
+        "hashtag": "foryourpage",
+        "weight": 119
+      },
+      {
+        "hashtag": "fyp\u30b7",
+        "weight": 119
+      },
+      {
+        "hashtag": "womensjoggingsets",
+        "weight": 103
+      },
+      {
+        "hashtag": "tiktockshopcreatorpicks",
+        "weight": 103
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 103
+      },
+      {
+        "hashtag": "fdr",
+        "weight": 103
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 38,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "FDR Sweat set!",
+      "FDR Women's Buttercream Cropped Zip-Up Hoodie & Sweatpants Set, Soft Casual Two-Piece Outfit with Hooded Jacket, Y2K Minimalist Streetwear Style for Daily Wear, Baggy Pant Lounge and Active Looks",
+      "These gone be sold out !"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      5
+    ]
+  }
 }

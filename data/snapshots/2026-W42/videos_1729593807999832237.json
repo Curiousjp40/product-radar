@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729593807999832237",
+  "time_range_days": 90,
+  "total": 209,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mzznofilter",
+        "creator_uid": "6910125345552499718"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 2450,
+        "play_count": 62300,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 45644.08,
+        "window_units_sold": 345
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681511361469336863",
+      "video_meta": {
+        "caption_text": "Love this and honestly the price was amazing! #newbed #mattress #tiktokshop #unboxing ",
+        "cover_url": "https://s.500fd.com/tt_video/ocRKEXQAU0At8gNa8ZGwsa4f8HY6QFegfDfqJ0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 51,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681511361469336863",
+        "published_at": 1788491254,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mzznofilter/video/7681511361469336863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 63,
+        "play_count": 11500,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 6639.9,
+        "window_units_sold": 58
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668416505708678414",
+      "video_meta": {
+        "caption_text": "Replying to @Zack #mrh #mattress #hybrid #pillowtop #fiberglassfree ",
+        "cover_url": "https://s.500fd.com/tt_video/oMaBBlmBuUB3iDFEMvr0Jg1tE9sIAPi4FUi5L~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668416505708678414",
+        "published_at": 1785442362,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7668416505708678414"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 61,
+        "play_count": 11200,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 6375.79,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678753442885586189",
+      "video_meta": {
+        "caption_text": "Replying to @woewitch #mrh #affordablemattress #hybrid #fiberglassfree #memoryfoam ",
+        "cover_url": "https://s.500fd.com/tt_video/oUKSpIfIBWxRDAaYwivaACC5HiJFo1BC0xlInQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678753442885586189",
+        "published_at": 1787849117,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7678753442885586189"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 80,
+        "play_count": 12101,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 6054.67,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679882756624502029",
+      "video_meta": {
+        "caption_text": "Replying to @Simply.Sam___ #mrh ",
+        "cover_url": "https://s.500fd.com/tt_video/oAMURqG2lutEEbMuDAIJgfxfdxVg1FIDCPSBpG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679882756624502029",
+        "published_at": 1788112067,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7679882756624502029"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 47,
+        "play_count": 7115,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 6556,
+        "window_units_sold": 38
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694357628213939470",
+      "video_meta": {
+        "caption_text": "Replying to @Divinely Favored Next LEVEL UP #hybrid #softmattress #affordablemattress #pillowtop #fiberglassfree ",
+        "cover_url": "https://s.500fd.com/tt_video/oQf829vSxBDFNzKIFIjCkFA3eQigaq4JDERHEv~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694357628213939470",
+        "published_at": 1791482283,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7694357628213939470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 46,
+        "play_count": 9087,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 4097.09,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669823913601387789",
+      "video_meta": {
+        "caption_text": "Replying to @goddessboot2 #mrh #mattress #affordablemattress #fiberglassfree #pillowtop ",
+        "cover_url": "https://s.500fd.com/tt_video/oY8wfYgIE2DAcSJFKMBM9qs60LTDREBaEWGRf5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669823913601387789",
+        "published_at": 1785770082,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7669823913601387789"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juanitateempodera",
+        "creator_uid": "7154780063874286638"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 326,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 5281.9,
+        "window_units_sold": 32
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680883552652774670",
+      "video_meta": {
+        "caption_text": "\u2728 Encuentra el colch\u00f3n ideal para tus espacios de descanso favoritos. Este modelo h\u00edbrido de lujo combina espuma de memoria y resortes de bolsillo individuales para ofrecer comodidad y soporte en cada uso. Cuenta con aislamiento de movimiento, y viene en m\u00faltiples tama\u00f1os para adaptarse a habitaciones familiares o espacios de alojamiento. Dise\u00f1ado con materiales de alta calidad para uso cotidiano. Toca para comprar y agregar el tuyo a tu carrito.\n\nEl color, el tama\u00f1o, la textura y el rendimiento pueden variar seg\u00fan el producto y el uso.\n\n#fyp #esenciaparahogar #articulosdedescanso #TikTokShopBackToSchool #Moras",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680883552652774670",
+        "published_at": 1788345079,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juanitateempodera/video/7680883552652774670"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zashianahoward",
+        "creator_uid": "6777760177938301957"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 62,
+        "play_count": 10117,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 3438.55,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677589208751541518",
+      "video_meta": {
+        "caption_text": "Replying to @RachelRose71186 #mrh #affordablemattress #fiberglass #hybrid #memoryfoam ",
+        "cover_url": "https://s.500fd.com/tt_video/oYEeQkzfIuLQU9IjeRGVDEFkaQgD6GAHAwpZMC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677589208751541518",
+        "published_at": 1787578083,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zashianahoward/video/7677589208751541518"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "andreaguevara_m",
+        "creator_uid": "6619427198968692741"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 3932,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 3360.68,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676609948364721421",
+      "video_meta": {
+        "caption_text": "#tiktokshopbacktoschool #tiktokmademebuyit ",
+        "cover_url": "https://s.500fd.com/tt_video/os3FsEClEYRSCwAunflfIIMHqCAziD6MiAEgAD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676609948364721421",
+        "published_at": 1787350064,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@andreaguevara_m/video/7676609948364721421"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mariahdontexist",
+        "creator_uid": "6790437901672104966"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 47,
+        "play_count": 12200,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495823126968240301",
+        "window_gmv": 3539.72,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690025841140452622",
+      "video_meta": {
+        "caption_text": "And it\u2019s so cheap!!!!!!!! ",
+        "cover_url": "https://s.500fd.com/tt_video/oAfqftRtEXDugwKE26FQuQT6DgruQgBwHgGSYA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690025841140452622",
+        "published_at": 1790473679,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mariahdontexist/video/7690025841140452622"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1731208195967717743",
   "title": "PrettyGarden Women's Oversized Cardigan Sweater Fall Long Lantern Sleeve Knit Open Front Lightweight Sweater Knitwear Tops",
   "clean_title": "PrettyGarden Women's Oversized Cardigan Sweater Fall",
-  "image_url": "/img/product_1731208195967717743.jpg",
+  "image_url": "https://s.500fd.com/tt_product/c2036e454d9d47fc8232d21307c1b508~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731208195967717743",
   "tiktok_search_url": "https://www.tiktok.com/search?q=PrettyGarden%20Women%27s%20Oversized%20Cardigan%20Sweater%20Fall",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731208195967717743",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673300805520231693",
+      "cover_url": "https://s.500fd.com/tt_video/ogVCoEca1pBa4XN9AyiiwUB7CPAISuLIIgf9po~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealsbygold/video/7673300805520231693",
+      "creator_handle": "dealsbygold",
+      "play_count": 16204,
+      "window_gmv": 40192.46,
+      "window_units_sold": 1453,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7677359111436176654",
+      "cover_url": "https://s.500fd.com/tt_video/oUBDHeeGkEV9jbVIedHGCFbuLEYAxIsALAABIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7677359111436176654",
+      "creator_handle": "myriamestrella8",
+      "play_count": 120400,
+      "window_gmv": 40518.63,
+      "window_units_sold": 1284,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7688561449303559455",
+      "cover_url": "https://s.500fd.com/tt_video/oAAAEEfqVE4H7RKQEKmfBFgstD2Qq0QxOrO8FA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@angieeres/video/7688561449303559455",
+      "creator_handle": "angieeres",
+      "play_count": 143400,
+      "window_gmv": 32997.6,
+      "window_units_sold": 1044,
+      "is_ad": false,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7667275483377093919",
+      "cover_url": "https://s.500fd.com/tt_video/o4miIqcITBAno3Cz5ei9iI1FJC3AiAHMI7vbni~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7667275483377093919",
+      "creator_handle": "whatlololikes",
+      "play_count": 5336084,
+      "window_gmv": 30123.09,
+      "window_units_sold": 1005,
+      "is_ad": true,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7673589708164779294",
+      "cover_url": "https://s.500fd.com/tt_video/ogepfAMfIQJQADgk8RAAQJAWqC8ze8VJnJqGUI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7673589708164779294",
+      "creator_handle": "whatlololikes",
+      "play_count": 587600,
+      "window_gmv": 23508.3,
+      "window_units_sold": 765,
+      "is_ad": true,
+      "duration_seconds": 41
+    },
+    {
+      "video_id": "7665535262797171982",
+      "cover_url": "https://s.500fd.com/tt_video/oUqmEvAEECiWg0hBTAzc8pikByA4PFSABIajA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7665535262797171982",
+      "creator_handle": "myriamestrella8",
+      "play_count": 54090,
+      "window_gmv": 18210.09,
+      "window_units_sold": 608,
+      "is_ad": true,
+      "duration_seconds": 46
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 2003
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 2003
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 2003
+      },
+      {
+        "hashtag": "tiktokshopcybermonday",
+        "weight": 2003
+      },
+      {
+        "hashtag": "tiktokshopblackfriday",
+        "weight": 2003
+      },
+      {
+        "hashtag": "oversizedcardigan",
+        "weight": 1770
+      },
+      {
+        "hashtag": "fallstyle",
+        "weight": 1770
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 1084
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 14,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "SALE ENDS TONIGHT\u203c\ufe0f",
+      "Replying to .",
+      "My favoriteeee \ud83e\udd70"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

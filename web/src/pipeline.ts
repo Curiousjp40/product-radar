@@ -74,3 +74,47 @@ export async function getAllFeedback(): Promise<Record<string, string>> {
   }
   return out;
 }
+
+export async function clearFeedback(productId: string): Promise<void> {
+  const map = loadMap();
+  if (map[productId]) {
+    delete map[productId].feedback;
+    saveMap(map);
+  }
+}
+
+const HIDDEN_CATEGORIES_KEY = "product-radar:hidden-categories";
+
+function loadHiddenCategories(): Set<string> {
+  try {
+    const raw = localStorage.getItem(HIDDEN_CATEGORIES_KEY);
+    const parsed: unknown = raw ? JSON.parse(raw) : [];
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveHiddenCategories(set: Set<string>): void {
+  try {
+    localStorage.setItem(HIDDEN_CATEGORIES_KEY, JSON.stringify([...set]));
+  } catch {
+    // storage unavailable: nothing to persist this visit
+  }
+}
+
+export function getHiddenCategories(): string[] {
+  return [...loadHiddenCategories()];
+}
+
+export function hideCategory(category: string): void {
+  const set = loadHiddenCategories();
+  set.add(category);
+  saveHiddenCategories(set);
+}
+
+export function unhideCategory(category: string): void {
+  const set = loadHiddenCategories();
+  set.delete(category);
+  saveHiddenCategories(set);
+}

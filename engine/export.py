@@ -38,6 +38,17 @@ def write_product(product_id: str, detail: dict[str, Any], data_dir: Path | None
     _write((data_dir or DATA_DIR) / "products" / f"{product_id}.json", {"schema_version": SCHEMA_VERSION, **detail})
 
 
+def write_best_times(categories: dict[str, dict | None], groups: dict[str, dict | None], data_dir: Path | None = None) -> None:
+    """Part C7c's Mas -> "Mejores horas" page: a per-category and per-group
+    breakdown of best_video_time (engine/posting_time.py), computed once at
+    export time rather than making the frontend re-derive it from every
+    product's own best_video_time."""
+    _write(
+        (data_dir or DATA_DIR) / "best_times.json",
+        {"schema_version": SCHEMA_VERSION, "categories": categories, "groups": groups},
+    )
+
+
 def write_hooks(hooks_cfg: dict[str, Any], data_dir: Path | None = None) -> None:
     """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
     2026-10-15) -- static template content (category hooks + shot-list

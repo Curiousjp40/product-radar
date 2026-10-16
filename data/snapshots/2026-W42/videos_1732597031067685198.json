@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732597031067685198",
+  "time_range_days": 90,
+  "total": 63,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mmn911911",
+        "creator_uid": "6948064010027189253"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 775,
+        "play_count": 46200,
+        "share_count": 199
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 3908.57,
+        "window_units_sold": 365
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690182064372469023",
+      "video_meta": {
+        "caption_text": "#halloween #gift #doll #gift #ghostface ",
+        "cover_url": "https://s.500fd.com/tt_video/okK5II7l1EKACAi6BBXiRCIiImBANMAEBAfLAV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690182064372469023",
+        "published_at": 1790510085,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mmn911911/video/7690182064372469023"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jimmywxtt9d",
+        "creator_uid": "7524925557520499726"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 11100,
+        "play_count": 1100000,
+        "share_count": 5451
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 1924.81,
+        "window_units_sold": 193
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683479706695372063",
+      "video_meta": {
+        "caption_text": "Halloween Ghostface Bear Plush\ud83d\udc7b\ud83d\udda4\ud83d\udda4#ghostface #bear#halloweencostume #plush #giftforher ",
+        "cover_url": "https://s.500fd.com/tt_video/o8YoaqAFfACdAdDgEErCQAQAJFRAToeAuVEIEs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683479706695372063",
+        "published_at": 1788958800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jimmywxtt9d/video/7683479706695372063"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "livshoppingdaily",
+        "creator_uid": "7418189769168962603"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 41,
+        "play_count": 1852,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 2246.1,
+        "window_units_sold": 188
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7684635165439626510",
+      "video_meta": {
+        "caption_text": "#ghostface #bear#plushdoll #halloween#dealsforyoudays  ",
+        "cover_url": "https://s.500fd.com/tt_video/oYaIIPJIgJ3IkPSCSVeGeHUj4lALNMpAUecVg0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684635165439626510",
+        "published_at": 1789218593,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@livshoppingdaily/video/7684635165439626510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosadeals",
+        "creator_uid": "7418181911372563498"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 5219,
+        "play_count": 162859,
+        "share_count": 1308
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 2122.73,
+        "window_units_sold": 167
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682028257428000030",
+      "video_meta": {
+        "caption_text": "#halloween #plush#ghostface #dealsforyoudays #cute  ",
+        "cover_url": "https://s.500fd.com/tt_video/ooVyGA7lDQUTM49yATFFVfRZZBfQqbEQEDA0En~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682028257428000030",
+        "published_at": 1788611741,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosadeals/video/7682028257428000030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rosadeals",
+        "creator_uid": "7418181911372563498"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 894,
+        "play_count": 59700,
+        "share_count": 361
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 1317.31,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682725904832924958",
+      "video_meta": {
+        "caption_text": "Replying to @\ud835\udcab\ud835\udcc7\ud835\udcbe\ud835\udcc3\ud835\udcb8\u212f\ud835\udcc8\ud835\udcb6 \ud835\ude34\ud835\udcfd\ud835\udcf2\ud835\udcfd\u1974\uaadd want my boyfriend to get me this Ghostface bear plush \ud83e\udd29#ghostface #plush #dealsforyoudays #cute #halloween   ",
+        "cover_url": "https://s.500fd.com/tt_video/oc9ZQVKuNDAshmZVSoFxERqGkE4AOBbnQgfweE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682725904832924958",
+        "published_at": 1788774082,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rosadeals/video/7682725904832924958"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mmn911911",
+        "creator_uid": "6948064010027189253"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 23,
+        "play_count": 2527,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 955.75,
+        "window_units_sold": 93
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691316130111065375",
+      "video_meta": {
+        "caption_text": "OMG! You need this Halloween ghost face plush\ud83d\udc40 #halloween #car #ghostface #gift #plush ",
+        "cover_url": "https://s.500fd.com/tt_video/owrc08cRBrAiP8CMJEm3U92yBaIMInAR1DAiV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691316130111065375",
+        "published_at": 1790774100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mmn911911/video/7691316130111065375"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chuai_homebedding",
+        "creator_uid": "7291843606011757611"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 33,
+        "play_count": 2411,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 979.7,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7684101424271166734",
+      "video_meta": {
+        "caption_text": "\ud83c\udf83\ud83d\udda4 Spooky#halloween #doll #plush #ghostface #toy",
+        "cover_url": "https://s.500fd.com/tt_video/osPTEJmuLBAZaCAdAbixBI1ACCVw9BmUI0f3ji~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684101424271166734",
+        "published_at": 1789094300,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chuai_homebedding/video/7684101424271166734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "livshoppingdaily",
+        "creator_uid": "7418189769168962603"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 861,
+        "play_count": 36300,
+        "share_count": 328
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 833.62,
+        "window_units_sold": 71
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682023517352660237",
+      "video_meta": {
+        "caption_text": "#halloween #ghostface #plush #summerwins #fyp  ",
+        "cover_url": "https://s.500fd.com/tt_video/oQ8IKiPpaWt4WMoIwnRUCMEgcBq5pcZ6BHAiB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682023517352660237",
+        "published_at": 1788610495,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@livshoppingdaily/video/7682023517352660237"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mmn911911",
+        "creator_uid": "6948064010027189253"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 1559,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 672.21,
+        "window_units_sold": 64
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691724668360822046",
+      "video_meta": {
+        "caption_text": "#balloween #gift #doll #ghostface #plush ",
+        "cover_url": "https://s.500fd.com/tt_video/oAVDFCBZnEvAXF78IAAvEfY1VfvpqQAxMEzRA0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691724668360822046",
+        "published_at": 1790869239,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mmn911911/video/7691724668360822046"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mmn911911",
+        "creator_uid": "6948064010027189253"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 1458,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8657093033294270798",
+        "window_gmv": 696.3,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694622491964149023",
+      "video_meta": {
+        "caption_text": "#tiktokshopcreatorpicks #halloweendoll #plush #ghostface #doll ",
+        "cover_url": "https://s.500fd.com/tt_video/ocGLAIBATIyk1LdIfqreDsan3fAHEjAoIVEZAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694622491964149023",
+        "published_at": 1791543933,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mmn911911/video/7694622491964149023"
+      }
+    }
+  ]
+}

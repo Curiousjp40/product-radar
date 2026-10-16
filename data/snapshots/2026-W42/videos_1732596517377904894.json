@@ -1,0 +1,133 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732596517377904894",
+  "time_range_days": 90,
+  "total": 4,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "awdigitalmarketing",
+        "creator_uid": "7573765823032034359"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 27,
+        "play_count": 6059,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8655665047530148094",
+        "window_gmv": 191.23,
+        "window_units_sold": 12
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693603785096138015",
+      "video_meta": {
+        "caption_text": "Women Sneakers that is wide foot friendly and comfortable to wear. #WideWidthSneakers #WomensSneakers #WideFeetShoes #ComfortableSneakers #walkingshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/oohKfrc3I4OKALGGNAUIAAQV29AFJeGcRQfeGs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693603785096138015",
+        "published_at": 1791306756,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@awdigitalmarketing/video/7693603785096138015"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "awdigitalmarketing",
+        "creator_uid": "7573765823032034359"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 21,
+        "play_count": 14062,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8655665047530148094",
+        "window_gmv": 81.2,
+        "window_units_sold": 6
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693223146672901407",
+      "video_meta": {
+        "caption_text": "Women's sneakers that are wide foot friendly and comfortable to wear. \ud83d\udc5f #WideWidthSneakers #WomensSneakers #WideFeetShoes #ComfortableSneakers #WalkingShoes ",
+        "cover_url": "https://s.500fd.com/tt_video/o0aeAHOI6BIVhA4VA1AQjoVLpeGdeBIqIG6EAD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693223146672901407",
+        "published_at": 1791218116,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@awdigitalmarketing/video/7693223146672901407"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yomielij",
+        "creator_uid": "7243157255771849770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 225,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8655665047530148094",
+        "window_gmv": 30.6,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694406419696618766",
+      "video_meta": {
+        "caption_text": "Calzado bueno bonito y barato!!#calzadoeconomico #calzadobonito#tiktokshop #enviogratis ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694406419696618766",
+        "published_at": 1791493612,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yomielij/video/7694406419696618766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thetiffbarrett",
+        "creator_uid": "15529918"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 53,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8655665047530148094",
+        "window_gmv": 12.5,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693487473514630430",
+      "video_meta": {
+        "caption_text": "GRWN TikTok Shop Fall Edition  \u2705 Frames \u2705 Set \u2705 Sneakers  \u2705 Cardigan  \u2705 Bag #tiktokshopblackfriday #ShopWithConfidence #authenTik #tiktokshopstockup #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693487473514630430",
+        "published_at": 1791279700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thetiffbarrett/video/7693487473514630430"
+      }
+    }
+  ]
+}

@@ -1,7 +1,9 @@
-import { loadHooks, loadPicks } from "../api";
+import { loadCandidates, loadHooks, loadPicks } from "../api";
+import { bestVideoTimeHtml } from "../bestTime";
 import { t, type Lang } from "../i18n";
-import { getAllFeedback, getAllStatuses, setStatus } from "../pipeline";
-import type { ComboPair, Pick } from "../types";
+import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
+import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
+import type { Candidate, ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
 import { hasRequestedSample, requestSample } from "../samples";
@@ -29,21 +31,69 @@ function formatHourRange(hourStart: number, hourEnd: number): string {
 }
 
 // Left-column compact row (Part F split view).
-function rowHtml(pick: Pick, lang: Lang, dismissed: boolean, selected: boolean): string {
+function rowHtml(pick: Pick, lang: Lang, selected: boolean): string {
   const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
   return `
-    <a class="week-row ${selected ? "selected" : ""}" href="#/product/${pick.product_id}" data-product-id="${pick.product_id}" style="${dismissed ? "opacity:0.4" : ""}">
-      ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
-      <div class="week-row-body">
-        <div class="week-row-title">${pick.clean_title}</div>
-        <div class="week-row-meta">
-          <span class="week-row-earn">${earnLine}</span>
-          <span class="week-row-price">$${pick.price.toFixed(2)}</span>
-          ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
-          ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
+    <div class="week-row ${selected ? "selected" : ""}" data-product-id="${pick.product_id}">
+      <a class="week-row-link" href="#/product/${pick.product_id}" data-product-id="${pick.product_id}">
+        ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
+        <div class="week-row-body">
+          <div class="week-row-title">${pick.clean_title}</div>
+          <div class="week-row-meta">
+            <span class="week-row-earn">${earnLine}</span>
+            <span class="week-row-price">$${pick.price.toFixed(2)}</span>
+            ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
+            ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+    </div>
+  `;
+}
+
+// "Esta semana, todo lo demás": the rest of this week's candidates (not in
+// the curated ~9 picks), grouped by category -- Part C3's "not just the
+// curated picks" ask, without redefining what a "pick" is in the engine.
+function allThisWeekHtml(candidates: Candidate[], excludeIds: Set<string>, lang: Lang): string {
+  const rest = candidates.filter((c) => !excludeIds.has(c.product_id) && !c.suspicious);
+  if (rest.length === 0) return "";
+  const byCategory = new Map<string, Candidate[]>();
+  for (const c of rest) {
+    const list = byCategory.get(c.category) ?? [];
+    list.push(c);
+    byCategory.set(c.category, list);
+  }
+  const categories = [...byCategory.keys()].sort((a, b) => (byCategory.get(b)!.length - byCategory.get(a)!.length));
+  return `
+    <h3 class="view-title" style="margin-top:28px">${t("all_this_week_title", lang)}</h3>
+    ${categories
+      .map((cat) => {
+        const items = byCategory.get(cat)!.sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
+        const label = lang === "es" ? items[0].category_label_es : items[0].category_label_en;
+        return `
+          <div class="week-category-group">
+            <h4 class="week-category-group-title">${label}</h4>
+            <div class="card-grid">
+              ${items
+                .map(
+                  (c) => `
+                <article class="pick-card">
+                  <a class="card-photo-link" href="#/product/${c.product_id}">
+                    ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
+                  </a>
+                  <div class="card-body">
+                    <h3 class="card-title">${c.clean_title}</h3>
+                    <div class="card-earn">${t("earn_headline", lang, { amount: c.earnings_per_sale.toFixed(2) })}</div>
+                  </div>
+                </article>`,
+                )
+                .join("")}
+            </div>
+          </div>
+        `;
+      })
+      .join("")}
   `;
 }
 
@@ -105,6 +155,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
       ${pick.saturation_badge ? `<p class="saturation-reason">${lang === "es" ? pick.saturation_badge.reason_es : pick.saturation_badge.reason_en}</p>` : ""}
       ${pick.pocas_creadoras_latinas ? `<p class="saturation-reason">${t("pocas_latinas_reason", lang)}</p>` : ""}
       ${summary ? `<p class="week-detail-summary">${summary}</p>` : ""}
+      ${bestVideoTimeHtml(pick.best_video_time, lang)}
       ${
         videos.length > 0
           ? `<div class="week-detail-videos">
@@ -119,7 +170,10 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
                 )
                 .join("")}
             </div>`
-          : ""
+          : `<div class="week-detail-videos-empty">
+              <p class="empty-state">${t("no_videos_analyzed_yet", lang)}</p>
+              <a href="${pick.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
+            </div>`
       }
       ${
         topHashtags.length > 0
@@ -163,6 +217,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
           <span aria-hidden="true">${saved ? "♥" : "♡"}</span> ${saved ? t("guardado_label", lang) : t("guardar_button", lang)}
         </button>
         <a class="btn-save-pill" href="#/product/${pick.product_id}">${t("ver_todos_detalles_button", lang)}</a>
+        <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
       </div>
     </div>
   `;
@@ -170,14 +225,24 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
 
 export async function renderThisWeek(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const [{ data, isSample }, { data: hooks }] = await Promise.all([loadPicks(), loadHooks()]);
+  const [{ data: rawData, isSample }, { data: hooks }, { data: candidatesData }] = await Promise.all([
+    loadPicks(),
+    loadHooks(),
+    loadCandidates(),
+  ]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
-  if (data.picks.length === 0) {
+  if (rawData.picks.length === 0) {
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
   const [statuses, feedback] = await Promise.all([getAllStatuses(), getAllFeedback()]);
-  const dismissed = new Set(Object.keys(feedback).filter((id) => feedback[id] === "not_for_me"));
+  const hiddenCategories = new Set(getHiddenCategories());
+  const data = { ...rawData, picks: rawData.picks.filter((p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category)) };
+  const categoryByProductId = new Map(rawData.picks.map((p) => [p.product_id, p.category]));
+  if (data.picks.length === 0) {
+    container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
+    return;
+  }
   const picksById = new Map(data.picks.map((p) => [p.product_id, p]));
 
   function wireDetail(detailEl: HTMLElement, productId: string): void {
@@ -229,25 +294,47 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
   }
 
   const firstId = data.picks[0].product_id;
+  const excludeIds = new Set(data.picks.map((p) => p.product_id));
   container.innerHTML = `
     ${banner}
     ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
     <div class="week-split">
-      <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, dismissed.has(p.product_id), p.product_id === firstId)).join("")}</div>
+      <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, p.product_id === firstId)).join("")}</div>
       <div class="week-detail"></div>
     </div>
+    <div class="category-hide-prompt-slot"></div>
+    ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang)}
   `;
   renderDetail(firstId);
 
-  container.querySelectorAll<HTMLElement>(".week-row").forEach((row) => {
-    const id = row.dataset.productId!;
-    row.addEventListener("click", (e) => {
+  container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {
+    const id = link.dataset.productId!;
+    link.addEventListener("click", (e) => {
       // Desktop (split view): select in place, no navigation. Phone/tablet:
       // the detail panel is hidden by CSS, so let the <a href> navigate to
       // the full product page instead.
       if (window.matchMedia("(min-width: 1024px)").matches) {
         e.preventDefault();
         selectRow(id);
+      }
+    });
+  });
+
+  container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const { productId, category } = btn.dataset;
+      if (!productId || !category) return;
+      await setFeedback(productId, "not_for_me");
+      const updatedFeedback = await getAllFeedback();
+      if (!getHiddenCategories().includes(category) && countHiddenInCategory(updatedFeedback, categoryByProductId, category) >= 3) {
+        const label = lang === "es" ? rawData.picks.find((p) => p.category === category)?.category_label_es : rawData.picks.find((p) => p.category === category)?.category_label_en;
+        const slot = container.querySelector(".category-hide-prompt-slot");
+        if (slot) {
+          slot.innerHTML = categoryHidePromptHtml(category, label ?? category, lang);
+          wireCategoryHidePrompt(container, () => void renderThisWeek(container, lang));
+        }
+      } else {
+        void renderThisWeek(container, lang);
       }
     });
   });

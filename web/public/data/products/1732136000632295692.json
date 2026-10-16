@@ -3,7 +3,7 @@
   "product_id": "1732136000632295692",
   "title": "Women Sleeveless Round Neck Gingham Plaid Mini Dress, Smocked Bodice Tiered Ruffle Hem A-Line Short Dress, Slim Fit Flowy Skirt, Casual Versatile Summer Dress for Beach Vacation Daily Outings",
   "clean_title": "Women Sleeveless Round Neck Gingham Plaid",
-  "image_url": "/img/product_1732136000632295692.webp",
+  "image_url": "https://s.500fd.com/tt_product/614edbcea8394e3a96142e37792fc7e5~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732136000632295692",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%20Sleeveless%20Round%20Neck%20Gingham%20Plaid",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732136000632295692",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7677717320441072910",
+      "cover_url": "https://s.500fd.com/tt_video/o4yUBUk6IigMzqmsLk6i1ACIEEau4REBP5xox~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@heyyitsliz/video/7677717320441072910",
+      "creator_handle": "heyyitsliz",
+      "play_count": 376700,
+      "window_gmv": 8072.96,
+      "window_units_sold": 376,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7667619116471110942",
+      "cover_url": "https://s.500fd.com/tt_video/osAoBAxlTlPECmPijrwG5gA2BAIaRiib4BiAE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7667619116471110942",
+      "creator_handle": "dj.foof",
+      "play_count": 19900,
+      "window_gmv": 6165.34,
+      "window_units_sold": 302,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7691375405542001934",
+      "cover_url": "https://s.500fd.com/tt_video/o8rqA97IPVUS0EQiJvPFP4BSgEiBKQDjBa19j~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lujushop/video/7691375405542001934",
+      "creator_handle": "lujushop",
+      "play_count": 148900,
+      "window_gmv": 5669.85,
+      "window_units_sold": 288,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7667356283246251277",
+      "cover_url": "https://s.500fd.com/tt_video/o8fR7f5SZBDi9jXIEIz009AvBWXgAqaCBERnit~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@helenczap/video/7667356283246251277",
+      "creator_handle": "helenczap",
+      "play_count": 487900,
+      "window_gmv": 4029.45,
+      "window_units_sold": 208,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7666255481375165727",
+      "cover_url": "https://s.500fd.com/tt_video/oE7QsJSVEDAZnVbk0iFNAJQERA01JZDfEfBqDA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizsmiles1/video/7666255481375165727",
+      "creator_handle": "lizsmiles1",
+      "play_count": 181504,
+      "window_gmv": 3499.89,
+      "window_units_sold": 167,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7689225403826785566",
+      "cover_url": "https://s.500fd.com/tt_video/o4LaqQXgGPfuzEdDAIeyA0AAkLXAAVIIfv0jHW~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jujubeingdelulu/video/7689225403826785566",
+      "creator_handle": "jujubeingdelulu",
+      "play_count": 132088,
+      "window_gmv": 3324.57,
+      "window_units_sold": 163,
+      "is_ad": true,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallfashion",
+        "weight": 638
+      },
+      {
+        "hashtag": "plussizefashion",
+        "weight": 350
+      },
+      {
+        "hashtag": "curvyfashion",
+        "weight": 350
+      },
+      {
+        "hashtag": "apronbelly",
+        "weight": 350
+      },
+      {
+        "hashtag": "pumpkinpatchoutfit",
+        "weight": 288
+      },
+      {
+        "hashtag": "ginghamdress",
+        "weight": 288
+      },
+      {
+        "hashtag": "autumnstyle",
+        "weight": 288
+      },
+      {
+        "hashtag": "fallootd",
+        "weight": 288
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 10.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "and for under $18?",
+      "This is exactly what I want to wear for every fall activity.",
+      "can\u2019t get overr this little dress"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

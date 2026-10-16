@@ -3,7 +3,7 @@
   "product_id": "1731610554383569260",
   "title": "SHAPERX Shapewear for Women Tummy Control Bodysuits Zip-Up Comfort Ultra Stretch Fabric Customizable Fit Breathable Mesh Design Comfortable Fit",
   "clean_title": "SHAPERX Shapewear for Women Tummy Control",
-  "image_url": "/img/product_1731610554383569260.jpg",
+  "image_url": "https://s.500fd.com/tt_product/ef4a7209363e4598a6a948fc8bed70f0~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7691435211258694926",
-      "cover_url": "/img/video_7691435211258694926.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooMRoWFeaQDLY8FAe0eAfdEjq9QNG8gOIW6udF~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
       "creator_handle": "mysterypackfinds",
       "play_count": 2010779,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7687390788933651743",
-      "cover_url": "/img/video_7687390788933651743.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/osmBw8g5IEEjXPBw4AaiBvBVT8iXRHql5RGAF~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
       "creator_handle": "showmeproducts",
       "play_count": 3725608,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7687749104914418958",
-      "cover_url": "/img/video_7687749104914418958.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQ62HRfDkQyJjVVIjXPoeYsLwCyAgEqZFKReQA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@zach.finds/video/7687749104914418958",
       "creator_handle": "zach.finds",
       "play_count": 1748207,
@@ -115,5 +115,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 200,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      0,
+      2
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732478278788092840",
+  "time_range_days": 90,
+  "total": 813,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dailydoseofnia",
+        "creator_uid": "7400049889512997934"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 8,
+        "play_count": 714,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 13608.45,
+        "window_units_sold": 385
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683925218770947342",
+      "video_meta": {
+        "caption_text": "It\u2019s long sweater season \ud83e\udd70\u2728 \u2022 \u2022 #longsweater #sweater #sweaterweather #fallfashion #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ospijBRI0oiWBWfPCw6iGp1VymIwUA4giIhAHl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683925218770947342",
+        "published_at": 1789053271,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dailydoseofnia/video/7683925218770947342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 32,
+        "play_count": 4940,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 6336.61,
+        "window_units_sold": 157
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689049728616631566",
+      "video_meta": {
+        "caption_text": "#americanstyle #usafashion #womenoutfit #womensfashion #usashopping ",
+        "cover_url": "https://s.500fd.com/tt_video/o0qhIRpJbF9gfALG3OCg5hTHe0RuAUeFVwfGI4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689049728616631566",
+        "published_at": 1790519760,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7689049728616631566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cuquilamoracomediante",
+        "creator_uid": "7121104313104270382"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 182,
+        "play_count": 1611,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3935.97,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692243976165887262",
+      "video_meta": {
+        "caption_text": "Hermoso #abrigo #outfit #arruinateconmigo #parati ",
+        "cover_url": "https://s.500fd.com/tt_video/oc7qbccDYA25CRp9AIFFwVVDlfiTezFEEEBbAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 64,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692243976165887262",
+        "published_at": 1790990131,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cuquilamoracomediante/video/7692243976165887262"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "masatthing",
+        "creator_uid": "6682742416740533254"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 38,
+        "play_count": 7248,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 5076.81,
+        "window_units_sold": 143
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683531735400779039",
+      "video_meta": {
+        "caption_text": "#cardigan #fallfreshness #dealsforyoudays #tiktokshopbacktoschool #sohochic  ",
+        "cover_url": "https://s.500fd.com/tt_video/ocu8ts3VaEbjYAqzA8B5ijGIUCBiPqqhcgRFI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683531735400779039",
+        "published_at": 1788961653,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@masatthing/video/7683531735400779039"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leahwatkins8",
+        "creator_uid": "6910737892161913862"
+      },
+      "engagement_metrics": {
+        "comment_count": 78,
+        "like_count": 743,
+        "play_count": 67500,
+        "share_count": 40
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 4668.35,
+        "window_units_sold": 143
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681745695878941966",
+      "video_meta": {
+        "caption_text": "Might be playing favorites with this one! Sooo good! #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oYoSN2mEwtQZmAiqACLQRF3FGfUEeAESDD2BgR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 60,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681745695878941966",
+        "published_at": 1788545805,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leahwatkins8/video/7681745695878941966"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "simplisienna",
+        "creator_uid": "7548962815894668343"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 128,
+        "play_count": 34100,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3336.68,
+        "window_units_sold": 127
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688148018444373278",
+      "video_meta": {
+        "caption_text": "This sweater is so cute. #sweater #fallfashion #womensfashion #outfitinspo #cardigan ",
+        "cover_url": "https://s.500fd.com/tt_video/osRjIVYHhDAekU9yccFjERqB1E4A7BbsQ5fajE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688148018444373278",
+        "published_at": 1790036461,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@simplisienna/video/7688148018444373278"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shawnieshops",
+        "creator_uid": "6801639775818023941"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 32,
+        "play_count": 7155,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3405.84,
+        "window_units_sold": 120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680316052915473694",
+      "video_meta": {
+        "caption_text": "Women's Cable Knit Long Cardigan Sweater #cableknitcardigan  Wearing a size medium ",
+        "cover_url": "https://s.500fd.com/tt_video/oEuQw9ftIvFRUVVFfVkM8QsG2hAWENeAXIvqIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680316052915473694",
+        "published_at": 1788212949,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shawnieshops/video/7680316052915473694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hodan_lily",
+        "creator_uid": "6705174529720812549"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 235,
+        "play_count": 26523,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3453.32,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688095589958978847",
+      "video_meta": {
+        "caption_text": "Loving this beautiful cable-knit long cardigan! Cozy, stylish, and easy to dress up or down. \ud83d\udc9b#LongCardigan #FallFashion #WinterStyle #CozyOutfits #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/oADxVVKrIBOsuIEjkfRmETfEWn8xZA50C2ADFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688095589958978847",
+        "published_at": 1790024258,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hodan_lily/video/7688095589958978847"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "antonietafashionway",
+        "creator_uid": "7399175667844170794"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 139,
+        "play_count": 11333,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3358.42,
+        "window_units_sold": 108
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680747710156229919",
+      "video_meta": {
+        "caption_text": "#longcardigan #cardigans #cardiganoutfits #cardiganstyles ",
+        "cover_url": "https://s.500fd.com/tt_video/oMlAYBE328D6RrAV82rcFJuEfoVEcqQEfOIiyQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680747710156229919",
+        "published_at": 1788313442,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@antonietafashionway/video/7680747710156229919"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "antonietafashionway",
+        "creator_uid": "7399175667844170794"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 165,
+        "play_count": 16538,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647465511166448552",
+        "window_gmv": 3231.45,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678167739311099166",
+      "video_meta": {
+        "caption_text": "#cardiganstyle #sweaterstyle #cardiganoutfits #womensfashion #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/ocUFONOAeU3G7BuqHeoGOLeeRzQLOVIqAQMgz8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678167739311099166",
+        "published_at": 1787712751,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@antonietafashionway/video/7678167739311099166"
+      }
+    }
+  ]
+}

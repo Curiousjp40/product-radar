@@ -3,7 +3,7 @@
   "product_id": "1729570368820908464",
   "title": "Pinspark Women's 2-Piece Thin Sports Set - Long-Sleeved Half-Zip Cardigan Sweatshirt & Sports Pants, Runs Large, Tops for Women, Stylish Wear, Everyday Wear, Running, Multiple Colors & Sizes, Stylish Women's Wear",
   "clean_title": "Pinspark Women's 2-Piece Thin Sports Set",
-  "image_url": "/img/product_1729570368820908464.jpg",
+  "image_url": "https://s.500fd.com/tt_product/4ba43de6d67e48f3bfa0e1474aca84b2~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729570368820908464",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Pinspark%20Women%27s%202-Piece%20Thin%20Sports%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729570368820908464",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7685573944904125709",
+      "cover_url": "https://s.500fd.com/tt_video/ooozyFCRSDqCqcETpgALAtOwEfegCCDEziIAKA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7685573944904125709",
+      "creator_handle": "myriamestrella8",
+      "play_count": 26100,
+      "window_gmv": 45188.62,
+      "window_units_sold": 1042,
+      "is_ad": true,
+      "duration_seconds": 62
+    },
+    {
+      "video_id": "7684808394984688910",
+      "cover_url": "https://s.500fd.com/tt_video/osdyEkf9ADAI77ABAeFqHjVACIiAGESSI0f3lE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7684808394984688910",
+      "creator_handle": "myriamyourbff",
+      "play_count": 169400,
+      "window_gmv": 17679.5,
+      "window_units_sold": 442,
+      "is_ad": true,
+      "duration_seconds": 50
+    },
+    {
+      "video_id": "7670892353397345567",
+      "cover_url": "https://s.500fd.com/tt_video/o0fIaIiGApAEegcLeAUjIAAZI0otA6QCPBBDDq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@officialburt/video/7670892353397345567",
+      "creator_handle": "officialburt",
+      "play_count": 778900,
+      "window_gmv": 13768.15,
+      "window_units_sold": 339,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7669062660377349390",
+      "cover_url": "https://s.500fd.com/tt_video/oQAIaffbmAQjDuwQJIjEA6CkfH2FQYRZUakaBb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@luckybamboo293/video/7669062660377349390",
+      "creator_handle": "luckybamboo293",
+      "play_count": 34300,
+      "window_gmv": 12969.62,
+      "window_units_sold": 339,
+      "is_ad": true,
+      "duration_seconds": 35
+    },
+    {
+      "video_id": "7682956319195794702",
+      "cover_url": "https://s.500fd.com/tt_video/osNBfABR1SAmTEQqEnFfDCgWjWxAgWISRADyEZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7682956319195794702",
+      "creator_handle": "myriamyourbff",
+      "play_count": 30000,
+      "window_gmv": 12794.85,
+      "window_units_sold": 303,
+      "is_ad": true,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7691088376535043359",
+      "cover_url": "https://s.500fd.com/tt_video/oQ85BmGbHqCSgAQfeZfWbR0MFJvoegGwbBUAUQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@officialburt/video/7691088376535043359",
+      "creator_handle": "officialburt",
+      "play_count": 34933,
+      "window_gmv": 10939.68,
+      "window_units_sold": 284,
+      "is_ad": true,
+      "duration_seconds": 33
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallfashion",
+        "weight": 1862
+      },
+      {
+        "hashtag": "richmomaesthetic",
+        "weight": 1042
+      },
+      {
+        "hashtag": "elevatedcasual",
+        "weight": 1042
+      },
+      {
+        "hashtag": "quarterzip",
+        "weight": 1042
+      },
+      {
+        "hashtag": "quietluxury",
+        "weight": 1042
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 962
+      },
+      {
+        "hashtag": "comfyoutfit",
+        "weight": 781
+      },
+      {
+        "hashtag": "twopieceset",
+        "weight": 717
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 35,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "SO CHIC \ud83e\udd0e This is exactly the kind of comfy piece that somehow makes an outfit look expensive!",
+      "This is dangerously comfy for something that makes me feel this put together \ud83d\ude2d\ud83e\udd0e It\u2019s giving rich mom running errands with absolutely nowhere to rush to",
+      "So comfy \ud83d\ude0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      0,
+      5
+    ]
+  }
 }

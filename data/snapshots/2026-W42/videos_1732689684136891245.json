@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732689684136891245",
+  "time_range_days": 90,
+  "total": 13,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "moore.bully",
+        "creator_uid": "7666749316220011533"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 1205,
+        "play_count": 222600,
+        "share_count": 320
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 671.76,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689805314832616717",
+      "video_meta": {
+        "caption_text": "#tiktok #tiktokshop #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oMnv3hjICZjjDQBIvCLVAWlGAukfDHGwe1bIe4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689805314832616717",
+        "published_at": 1790422402,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@moore.bully/video/7689805314832616717"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "foudo26",
+        "creator_uid": "7395844321155417131"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 1831,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 672.99,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7696120924566801677",
+      "video_meta": {
+        "caption_text": "\"Pon una canastita de drenaje junto al grifo y ten tus cepillos y pa\u00f1os de cocina siempre a la mano, dejando la encimera mucho m\u00e1s ordenada. #tiktok #tiktokshop #fyp #SohoChic\"",
+        "cover_url": "https://s.500fd.com/tt_video/oMvEIlEIIDgqXizfUHFSOqTrpW1BKEAeDBhROp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7696120924566801677",
+        "published_at": 1791892836,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@foudo26/video/7696120924566801677"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "skilled_loggers",
+        "creator_uid": "7391806455118382122"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 22,
+        "play_count": 5916,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 479.43,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690924237476941086",
+      "video_meta": {
+        "caption_text": "#tiktok #tiktokshop #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/oQfGp66VuBEF8XmEBIqieiAlx5aAvqzvDER7Eu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690924237476941086",
+        "published_at": 1790685000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@skilled_loggers/video/7690924237476941086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "biraubrandolese",
+        "creator_uid": "7419984018358256682"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 49,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 407.95,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695352264755563807",
+      "video_meta": {
+        "caption_text": "#tiktok #tiktokshop #tiktokmademebuyit #tiktokshopblackfriday #fyp ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695352264755563807",
+        "published_at": 1791716700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@biraubrandolese/video/7695352264755563807"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hireinacac",
+        "creator_uid": "7177386592360121390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1143,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 313.1,
+        "window_units_sold": 20
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694693608347143437",
+      "video_meta": {
+        "caption_text": "#fyp #tiktok #tiktokshop #tiktokmademebuyit",
+        "cover_url": "https://s.500fd.com/tt_video/oYkFAJYGfArMsMqYvI4FWK7kjfZeNDJLAgOgeh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694693608347143437",
+        "published_at": 1791560498,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hireinacac/video/7694693608347143437"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "moore.bully",
+        "creator_uid": "7666749316220011533"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 10,
+        "play_count": 1333,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 125.7,
+        "window_units_sold": 10
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689661649044704526",
+      "video_meta": {
+        "caption_text": "#tiktok #tiktokshop #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/og3khx7CIIqApppf5mEBgWB1Wp1iiB95AwuTKW~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689661649044704526",
+        "published_at": 1790388893,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@moore.bully/video/7689661649044704526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nnmbbb3",
+        "creator_uid": "7507471348412580910"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 21,
+        "play_count": 6787,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 109.13,
+        "window_units_sold": 7
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694221469676473614",
+      "video_meta": {
+        "caption_text": "Don\u2019t leave your dish sponge sitting on the counter, it collects water and makes a mess! This faucet storage rack is perfect for holding sponges, steel wool and air-drying dish cloths #faucetrack #kitchenstorage #fyp #foryou #tiktokshop #tiktok #KitchenGadget #homegood",
+        "cover_url": "https://s.500fd.com/tt_video/oQyhEvgxgjlVAEsPqAIDMIFBCeDHS1fWCSAWDA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694221469676473614",
+        "published_at": 1791450615,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nnmbbb3/video/7694221469676473614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jore8884",
+        "creator_uid": "7493039273445983278"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 32,
+        "play_count": 5915,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 74.35,
+        "window_units_sold": 5
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693080135062261006",
+      "video_meta": {
+        "caption_text": "This Little Gadget Keeps Your Sink Area So Much Cleaner & More Organized! \ud83d\udeb0\u2728 #KitchenGadgets #KitchenOrganization #KitchenHacks #CleaningHacks #TikTokShop",
+        "cover_url": "https://s.500fd.com/tt_video/oACGpwAhfAIllfGSADjVpeESnEHkFIAIipAQ5u~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693080135062261006",
+        "published_at": 1791184876,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jore8884/video/7693080135062261006"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "stohs.duma",
+        "creator_uid": "7536108941139395614"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 4319,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 31.18,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694986409358282015",
+      "video_meta": {
+        "caption_text": "Installthisorganizerrightonyourfaucettokeepyourcleaningtoolsneatandeasytograb.Itdrainswell,keepseverythingdryandclean.\u2728#TikTokShopFallDealsForYou#dishes#DealsForYou#dishrack#tiktokshop",
+        "cover_url": "https://s.500fd.com/tt_video/os06AUWEhcIByAzqA5AQRKnFffGwggEVEDsCAs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694986409358282015",
+        "published_at": 1791628702,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@stohs.duma/video/7694986409358282015"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shumsky.hainey",
+        "creator_uid": "7532747690305471543"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 2510,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494842871326017389",
+        "window_gmv": 31.18,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694611125912046879",
+      "video_meta": {
+        "caption_text": "\"Who else hates a messy, moldy sink area? on This kitchen sink organizer just saved my life!\"#KitchenHacks #KitchenOrganization #SinkOrganizer #CleanTok #HomeHacks",
+        "cover_url": "https://s.500fd.com/tt_video/oUaIvAAbBEAsrBlq4JiIAiDAIEw5BH9Rjv2QA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694611125912046879",
+        "published_at": 1791543600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shumsky.hainey/video/7694611125912046879"
+      }
+    }
+  ]
+}

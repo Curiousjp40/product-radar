@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731606094029557804",
+  "time_range_days": 90,
+  "total": 75,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mirandadailyshoe",
+        "creator_uid": "7293069230275085358"
+      },
+      "engagement_metrics": {
+        "comment_count": 54,
+        "like_count": 3635,
+        "play_count": 179400,
+        "share_count": 550
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 487.74,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693515863520988429",
+      "video_meta": {
+        "caption_text": "Plush lined winter chunky sneakers#sneakers #chunkysneakers #wintershoes #warmshoes #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/o0gIwi5GI3RI1A3fEk8YPmAGn8ZBCAi3pW3Bd9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693515863520988429",
+        "published_at": 1791289800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mirandadailyshoe/video/7693515863520988429"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rachel_2c3c",
+        "creator_uid": "7412370652793996331"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 85,
+        "play_count": 6704,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 534.76,
+        "window_units_sold": 31
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682055933349956877",
+      "video_meta": {
+        "caption_text": "Plush lined winter sneakers#sneakers #chunkysneakers #sliponshoes #platformshoes #warmshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/owVAkkceXEIEEALjKHAIbUsAAOIZAveCxqJGIe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682055933349956877",
+        "published_at": 1788619836,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rachel_2c3c/video/7682055933349956877"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kikiboutiques",
+        "creator_uid": "7302990602395583530"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 949,
+        "play_count": 53200,
+        "share_count": 159
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 417.03,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682054903346334990",
+      "video_meta": {
+        "caption_text": "Plush lined winter comfy sneakers#sneakers #womensneakers #sliponshoes #platformshoes #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oIRIEJ63jBAEJZAdAhi0BI1ACCxw1BuTIJfjci~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682054903346334990",
+        "published_at": 1788622620,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kikiboutiques/video/7682054903346334990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessicahernand280",
+        "creator_uid": "6922092417538851846"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 7,
+        "play_count": 930,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 257.72,
+        "window_units_sold": 18
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689137600325487902",
+      "video_meta": {
+        "caption_text": "Estos tenis son una maravilla para el fr\u00edo \ud83d\ude0d S\u00faper calientitos y afelpados por dentro, \u00a1tus pies se sienten abrazaditos! \ud83e\udd70 #tenist\u00e9rmicos #teniscalientitos #calzadodeinvierno #tenisdemujer #antideslizantes    Estos tenis son una maravilla para el fr\u00edo \ud83d\ude0d S\u00faper calientitos y afelpados por dentro, \u00a1tus pies se sienten abrazaditos! \ud83e\udd70     ",
+        "cover_url": "https://s.500fd.com/tt_video/o0d3IVEDBYfEpmUCmqUqEhAQfhFb6RAtmwB11A~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 45,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689137600325487902",
+        "published_at": 1790266869,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessicahernand280/video/7689137600325487902"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "liurbin",
+        "creator_uid": "7206905996110791722"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 774,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 232.65,
+        "window_units_sold": 17
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691512284383907103",
+      "video_meta": {
+        "caption_text": "zapatos t\u00e9rmicos #ZapatosTermicos #CalzadoDeInvierno #PiesCalientitos #blackfridaydeals #ZapatosConPeluche ",
+        "cover_url": "https://s.500fd.com/tt_video/owUIAi0BI64E1Avf9R1XOtb87B6BCAiQqDFi7u~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691512284383907103",
+        "published_at": 1790819762,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@liurbin/video/7691512284383907103"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "claumejia1114",
+        "creator_uid": "6818697284550378502"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 1906,
+        "play_count": 200158,
+        "share_count": 519
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 269.13,
+        "window_units_sold": 17
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689303193515265310",
+      "video_meta": {
+        "caption_text": "Casual Warm Sneakers  zapatos calentitos para el invierno  #zapatos #warm #wintershoes #zapatosdeinvierno ",
+        "cover_url": "https://s.500fd.com/tt_video/oYyAmIfEEAaJVQ7q4IESjyAHABECFfIADxCe51~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689303193515265310",
+        "published_at": 1790305428,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@claumejia1114/video/7689303193515265310"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessicahernand280",
+        "creator_uid": "6922092417538851846"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 7,
+        "play_count": 633,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 239.46,
+        "window_units_sold": 16
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689137834128624927",
+      "video_meta": {
+        "caption_text": "Si tus pies siempre tienen fr\u00edo, NECESITAS estos tenis \ud83e\udd79\ud83d\udd25 Vienen s\u00faper afelpados por dentro y adem\u00e1s tienen suela antideslizante. #teniscalientitos #tenisdeinvierno #tenist\u00e9rmicos #calzadoc\u00f3modo #antideslizantes ",
+        "cover_url": "https://s.500fd.com/tt_video/oMRB4FENCOkft5tRFqeRAoVqPIIEQi5tDUnhEA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689137834128624927",
+        "published_at": 1790266921,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessicahernand280/video/7689137834128624927"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessicahernand280",
+        "creator_uid": "6922092417538851846"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 683,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 197.5,
+        "window_units_sold": 15
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689138012722138398",
+      "video_meta": {
+        "caption_text": "Parecen tenis normales, pero por dentro son otro nivel \ud83d\ude0d\ud83d\udd25 S\u00faper suavecitos, afelpados y calientitos para los d\u00edas m\u00e1s fr\u00edos. #tenist\u00e9rmicos #tenisafelpados #calzadodeinvierno #tenisdemujer #calientitos ",
+        "cover_url": "https://s.500fd.com/tt_video/oIeElv8TEDTtDVy1FTFiA5IERAubB6QfESBqYU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 49,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689138012722138398",
+        "published_at": 1790266965,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessicahernand280/video/7689138012722138398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "liurbina",
+        "creator_uid": "6801563282455430150"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 77,
+        "play_count": 7305,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 202.88,
+        "window_units_sold": 14
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691517296036171038",
+      "video_meta": {
+        "caption_text": "zapatos afelpado para invierno #ZapatosTermicos #CalzadoDeInvierno #PiesCalientitos #ModaInvernal #zapatosconpeluche ",
+        "cover_url": "https://s.500fd.com/tt_video/ooDiwAfjqXIBAwIWC1AvEniitgw8019kBiiuAx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691517296036171038",
+        "published_at": 1790820937,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@liurbina/video/7691517296036171038"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yadicyglez2",
+        "creator_uid": "7081811109025219630"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 11,
+        "play_count": 1061,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647402781463187500",
+        "window_gmv": 205.42,
+        "window_units_sold": 13
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695204724638846221",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMBqyADhIDCEAGv5fEAgQ3AFztV9wGRvfMCRSt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695204724638846221",
+        "published_at": 1791679487,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yadicyglez2/video/7695204724638846221"
+      }
+    }
+  ]
+}

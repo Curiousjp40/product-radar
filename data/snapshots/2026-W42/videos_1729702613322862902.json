@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729702613322862902",
+  "time_range_days": 90,
+  "total": 757,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "evermoresea",
+        "creator_uid": "7283315489936884779"
+      },
+      "engagement_metrics": {
+        "comment_count": 202,
+        "like_count": 137700,
+        "play_count": 7000000,
+        "share_count": 1927
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 3766.85,
+        "window_units_sold": 338
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671111576551804190",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/osnqAVViaPTEuB3vGWD20AIg18nDIRVrBQiEa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671111576551804190",
+        "published_at": 1786069855,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@evermoresea/video/7671111576551804190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "evermoresea",
+        "creator_uid": "7283315489936884779"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 11100,
+        "play_count": 736700,
+        "share_count": 152
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 3753.33,
+        "window_units_sold": 323
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674094968457137438",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8grjPIQQQApTOfec3LUfirAAMifwRAGGF7GG5~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674094968457137438",
+        "published_at": 1786764480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@evermoresea/video/7674094968457137438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "evermoresea",
+        "creator_uid": "7283315489936884779"
+      },
+      "engagement_metrics": {
+        "comment_count": 204,
+        "like_count": 143200,
+        "play_count": 7500000,
+        "share_count": 2318
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 3472.41,
+        "window_units_sold": 314
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670316881189850398",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEjlC2yiIqOfLdhdcACTXISOIAy1Q7BmwrKiiA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670316881189850398",
+        "published_at": 1785884835,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@evermoresea/video/7670316881189850398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "starlitwrld",
+        "creator_uid": "6740602495464227845"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 5319,
+        "play_count": 184500,
+        "share_count": 272
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 3397.87,
+        "window_units_sold": 292
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690008179362581790",
+      "video_meta": {
+        "caption_text": "I used this to save up for 16 ARIRANG concerts with BTS....this book really is my lifesaver \ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/oYd7Z1ACfABHAwBaCbM4LiIAziIWDXFALKiEiM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690008179362581790",
+        "published_at": 1790469568,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@starlitwrld/video/7690008179362581790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gleamingcheetah",
+        "creator_uid": "7270230708610581550"
+      },
+      "engagement_metrics": {
+        "comment_count": 46,
+        "like_count": 1238,
+        "play_count": 45200,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 2117.02,
+        "window_units_sold": 184
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680593726787292429",
+      "video_meta": {
+        "caption_text": "\ud83d\udc46Save $5,050 with this money saving challenge\ud83e\udd29 #savingmoney #100envelopechallenge #moneymanifestation #money",
+        "cover_url": "https://s.500fd.com/tt_video/ocbUygn8W4Vzg7qi5E6BtUBPiaCLApz1IWIwO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680593726787292429",
+        "published_at": 1788277591,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gleamingcheetah/video/7680593726787292429"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "evermoresea",
+        "creator_uid": "7283315489936884779"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 10100,
+        "play_count": 596300,
+        "share_count": 126
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 2022.35,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666676958008216863",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEc8C4liIqEfBExFgAAsbIFMEAG1l0Bt1RiiiA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666676958008216863",
+        "published_at": 1785037350,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@evermoresea/video/7666676958008216863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "grashanae",
+        "creator_uid": "7106329391463285806"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 1311,
+        "play_count": 48871,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 1786.39,
+        "window_units_sold": 159
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666664731746258206",
+      "video_meta": {
+        "caption_text": "Finally going to start saving money for real this time!!!",
+        "cover_url": "https://s.500fd.com/tt_video/owWqZCDRIEBErpnofEAAIUqFeXlIb7obwDaRVd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 86,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666664731746258206",
+        "published_at": 1785034497,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@grashanae/video/7666664731746258206"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamarvia",
+        "creator_uid": "7145260110156530734"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4432,
+        "play_count": 183400,
+        "share_count": 37
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 1751.84,
+        "window_units_sold": 151
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670643894152875278",
+      "video_meta": {
+        "caption_text": "this book helped alott and its only $11, get yall one!!  #fyp #viral #trend #foryoupage ",
+        "cover_url": "https://s.500fd.com/tt_video/owfUePjLIVD5rnLELNFIfQ4BHAyMQACnzjEkzA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670643894152875278",
+        "published_at": 1785960966,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamarvia/video/7670643894152875278"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thecandylady07",
+        "creator_uid": "7056142518535160838"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 176,
+        "play_count": 9567,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 1765.48,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683560499451055390",
+      "video_meta": {
+        "caption_text": "Replying to @\ud835\udce2\ud835\udcf2\ud835\udcf6\ud835\udcf9\ud835\udcf5\ud835\udd02 \ud835\udcdc\ud835\udcef \ud835\udcd3\ud835\udcea\ud835\udcf2\ud83d\udc95 hope this help \ud83d\ude18 #savingmoney #budgetbinder ",
+        "cover_url": "https://s.500fd.com/tt_video/owZvjGQLQAq5ByEIuIfIyfpj8Q9jAMLnVCCMke~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 128,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683560499451055390",
+        "published_at": 1788968348,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thecandylady07/video/7683560499451055390"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "evermoresea",
+        "creator_uid": "7283315489936884779"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 13500,
+        "play_count": 920100,
+        "share_count": 183
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495954065098705206",
+        "window_gmv": 1659.16,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675962469952605471",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owVnhkpRMQu5EfKEEqnAs8D6FPfEAB0MEQFMa9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675962469952605471",
+        "published_at": 1787199304,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@evermoresea/video/7675962469952605471"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1732619848784450333",
   "title": "[youyou] Krystal&cherry DTF Cup Wraps UVDTF Individual Claims Live Versatile for Various",
   "clean_title": "youyou Krystal&cherry DTF Cup Wraps UVDTF",
-  "image_url": "/img/product_1732619848784450333.webp",
+  "image_url": "https://s.500fd.com/tt_product/fd4fae17867346fe8656fc09482a87dd~tplv-fhlh96nyum-crop-webp:735:735.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 64,
+    "used_organic_only": true,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      2,
+      4
+    ]
+  }
 }

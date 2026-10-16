@@ -3,7 +3,7 @@
   "product_id": "1732067065360322564",
   "title": "Kitsure 10-Tier Stackable Shoe Rack Organizer - Home Storage Organization Solution with Side Handles, Easy Assembly Shelf for Closet Entryway, Apartment Accessories to Organize in Style for Small Spaces",
   "clean_title": "Kitsure 10-Tier Stackable Shoe Rack Organizer",
-  "image_url": "/img/product_1732067065360322564.webp",
+  "image_url": "https://s.500fd.com/tt_product/90056bc10c3844a0a6bfe725dfe8c67d~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732067065360322564",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Kitsure%2010-Tier%20Stackable%20Shoe%20Rack%20Organizer",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732067065360322564",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7672872678772051230",
+      "cover_url": "https://s.500fd.com/tt_video/o8BiKRB1iAtOPh7VAIWxAB9Cs8FEIKAfA1cN3i~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shoppin4ux2/video/7672872678772051230",
+      "creator_handle": "shoppin4ux2",
+      "play_count": 10200,
+      "window_gmv": 77940.18,
+      "window_units_sold": 2896,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7668131200510201102",
+      "cover_url": "https://s.500fd.com/tt_video/oUCpWqfzDQrYSVntA8FFSERqMBfDq1DQEigHEa~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@teresatbj/video/7668131200510201102",
+      "creator_handle": "teresatbj",
+      "play_count": 2679,
+      "window_gmv": 18230.96,
+      "window_units_sold": 677,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7678164413366488333",
+      "cover_url": "https://s.500fd.com/tt_video/oIVAkdc6FEfIKAWjfH5Q8eKAAHIwAi8EKPoMQw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aprendeconcarolina/video/7678164413366488333",
+      "creator_handle": "aprendeconcarolina",
+      "play_count": 9583,
+      "window_gmv": 16912.41,
+      "window_units_sold": 579,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7675194289877486862",
+      "cover_url": "https://s.500fd.com/tt_video/ocxrPJACvBlrA0E4ADia9SlAigokBJnkICEE4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aprendeconcarolina/video/7675194289877486862",
+      "creator_handle": "aprendeconcarolina",
+      "play_count": 5000,
+      "window_gmv": 15670.86,
+      "window_units_sold": 530,
+      "is_ad": true,
+      "duration_seconds": 85
+    },
+    {
+      "video_id": "7675314039060221214",
+      "cover_url": "https://s.500fd.com/tt_video/oUX1QBB5EiAiZG0kPCAAIzGihhEebjiiaBFIqM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yuyui8927/video/7675314039060221214",
+      "creator_handle": "yuyui8927",
+      "play_count": 4100000,
+      "window_gmv": 14760.29,
+      "window_units_sold": 499,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7679826369919880462",
+      "cover_url": "https://s.500fd.com/tt_video/o8DBeoPfmU2qFDA1IdXSROhDgEDES9FMaXlAQy~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@teresatbj/video/7679826369919880462",
+      "creator_handle": "teresatbj",
+      "play_count": 2460,
+      "window_gmv": 9422.1,
+      "window_units_sold": 320,
+      "is_ad": true,
+      "duration_seconds": 15
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "zapatera",
+        "weight": 1292
+      },
+      {
+        "hashtag": "shoes",
+        "weight": 1282
+      },
+      {
+        "hashtag": "shoerack",
+        "weight": 1176
+      },
+      {
+        "hashtag": "shoestorage",
+        "weight": 997
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 850
+      },
+      {
+        "hashtag": "homeorganization",
+        "weight": 677
+      },
+      {
+        "hashtag": "tiktokshopfinds",
+        "weight": 677
+      },
+      {
+        "hashtag": "organizationhacks",
+        "weight": 677
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 34,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 4,
+      "hour_end": 6
+    },
+    "top_hooks": [
+      "Great deal on Kitsure Shoe Rack",
+      "If you need a little shoe organization too, it\u2019s in the orange cart above my name.",
+      "Respuesta a @\ud83d\udcabAlicia Solis \ud83c\udf38"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

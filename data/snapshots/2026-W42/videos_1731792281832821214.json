@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731792281832821214",
+  "time_range_days": 90,
+  "total": 986,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "itsalexabain",
+        "creator_uid": "7172064993159349290"
+      },
+      "engagement_metrics": {
+        "comment_count": 419,
+        "like_count": 131700,
+        "play_count": 3400000,
+        "share_count": 2883
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 17772.76,
+        "window_units_sold": 384
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684471206367530271",
+      "video_meta": {
+        "caption_text": "If it\u2019s not this oversized I don\u2019t want it  #oversizedsweatshirt #falloutfitinspo #OOTD #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/o8cXVIQuEGGhAIAtQj9ICcOJQqLejSeIoVQBeI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684471206367530271",
+        "published_at": 1789180386,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsalexabain/video/7684471206367530271"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juliasuselesshauls",
+        "creator_uid": "6912634050747188229"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 5685,
+        "play_count": 558700,
+        "share_count": 390
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 15123.25,
+        "window_units_sold": 383
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665566370192575775",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYecIbeGqQerjdUIOIVmLwyxDCCAjIkMLGQXQA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665566370192575775",
+        "published_at": 1784827320,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juliasuselesshauls/video/7665566370192575775"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "severetrades1",
+        "creator_uid": "7407650873350210606"
+      },
+      "engagement_metrics": {
+        "comment_count": 331,
+        "like_count": 41400,
+        "play_count": 106000,
+        "share_count": 2827
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 13478.01,
+        "window_units_sold": 306
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688784615967952158",
+      "video_meta": {
+        "caption_text": "#sosatrades1 #worr #fyp #duck #severe ",
+        "cover_url": "https://s.500fd.com/tt_video/oIfnFAqGVEDmrIeLIAABqAE8IIh0earAzjIOCV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688784615967952158",
+        "published_at": 1790184683,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@severetrades1/video/7688784615967952158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3xtracreamcheese",
+        "creator_uid": "19527755"
+      },
+      "engagement_metrics": {
+        "comment_count": 95,
+        "like_count": 43900,
+        "play_count": 2700000,
+        "share_count": 1136
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 11367.25,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672414675560090893",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8CWwAIwpWAimiP5hQIExPf3CIBsBA2IMCK1d5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672414675560090893",
+        "published_at": 1786373282,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7672414675560090893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatsinlivscart",
+        "creator_uid": "7201275298042037294"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 21808,
+        "play_count": 600429,
+        "share_count": 483
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 12913.62,
+        "window_units_sold": 287
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688596194771160333",
+      "video_meta": {
+        "caption_text": "#cozy #hoodie #fall ",
+        "cover_url": "https://s.500fd.com/tt_video/o8fGAYYCb1OgEwi0Yx3ikCsBB4A1WIIzD4JAAB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688596194771160333",
+        "published_at": 1790140814,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7688596194771160333"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 250,
+        "play_count": 22400,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 11732.65,
+        "window_units_sold": 281
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676627950048988447",
+      "video_meta": {
+        "caption_text": "FDR Big Hood Eases Social Anxiety Hoodie for Men & Women High Neck Zip-up Sweatshirt Essentials Minimalist Heavyweight Hoodies Casual Longsleeves Top Embroidered Unisex Vintage Pullover Perfect for Daily Wear,Sports, ##tiktokshopbacktoschool",
+        "cover_url": "https://s.500fd.com/tt_video/ocIaIo35iPVijDBIA61GREBqbAcqCvu0lIVqV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676627950048988447",
+        "published_at": 1787354238,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7676627950048988447"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "itsalexabain",
+        "creator_uid": "7172064993159349290"
+      },
+      "engagement_metrics": {
+        "comment_count": 262,
+        "like_count": 28700,
+        "play_count": 1700000,
+        "share_count": 1371
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 12668.22,
+        "window_units_sold": 273
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684669780279708958",
+      "video_meta": {
+        "caption_text": "I\u2019m wearing color \u201choodie washed black\u201d with the embroidery \ud83d\udda4 @FDR  #oversizedhoodie #falloutfitinspo #oversizedsweatshirt #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/oQB1dld9AAA1AIZVAEicUbKBDfmC9oriiCBClI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684669780279708958",
+        "published_at": 1789226632,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsalexabain/video/7684669780279708958"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gabooooooo11",
+        "creator_uid": "6869922526140367877"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 10100,
+        "play_count": 47000,
+        "share_count": 166
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 11295.38,
+        "window_units_sold": 258
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685208602667257102",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ocNIxseSIDHIkfTCoOuGeHkjELALBPrAyg9VQc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685208602667257102",
+        "published_at": 1789352086,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gabooooooo11/video/7685208602667257102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3xtracreamcheese",
+        "creator_uid": "19527755"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 15100,
+        "play_count": 818900,
+        "share_count": 206
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 7908.35,
+        "window_units_sold": 200
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669846214963170573",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ok4viSaxB3AJDNwwnJUkECiIBYzv9tSIEDBhg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669846214963170573",
+        "published_at": 1785775254,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7669846214963170573"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 98,
+        "like_count": 32800,
+        "play_count": 3600000,
+        "share_count": 1270
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 8301.98,
+        "window_units_sold": 196
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679470113485032718",
+      "video_meta": {
+        "caption_text": "I can\u2019t wait to wear this when it\u2019s actually cold omg ",
+        "cover_url": "https://s.500fd.com/tt_video/oYXEKfvSAglRD4jQEO9EAzBS9DkFQyW5qlT7eK~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679470113485032718",
+        "published_at": 1788015991,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7679470113485032718"
+      }
+    }
+  ]
+}

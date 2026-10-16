@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732196130659078157",
+  "time_range_days": 90,
+  "total": 137,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "magallymunozp",
+        "creator_uid": "7062021306221429806"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 44,
+        "play_count": 8930,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 12976.16,
+        "window_units_sold": 270
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666666639399603487",
+      "video_meta": {
+        "caption_text": "#tiktokshopsummerglow #refreshedlook #summeressentials #tiktokshopsummersale #securepayeveryday ",
+        "cover_url": "https://s.500fd.com/tt_video/oouQAEoBRiIQqA8fKPmZDXYMJJeDEBF8VMWE41~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666666639399603487",
+        "published_at": 1785034942,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@magallymunozp/video/7666666639399603487"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "amber.nic0lle",
+        "creator_uid": "6748631531088675845"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 1833,
+        "play_count": 88800,
+        "share_count": 194
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 5291.18,
+        "window_units_sold": 110
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666281332842040606",
+      "video_meta": {
+        "caption_text": "I got my puppy an apartment \ud83e\udd0d he loves his playpen. Today is day four crate treating him and he slept through the entire night not a single cry & he didn\u2019t even wake up to use the bathroom so I would say it\u2019s going up pretty freaking good \ud83e\udd79\ud83e\udd0d #cratetraining #dogcrate #puppyplaypen #puppyessentials #dogmom ",
+        "cover_url": "https://s.500fd.com/tt_video/oMkaEHFmAtVJTY7kEADAIpZzReqAGCBEABEcf3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 53,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666281332842040606",
+        "published_at": 1784945226,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@amber.nic0lle/video/7666281332842040606"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "iesha.ashh",
+        "creator_uid": "7128993445914346539"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 403,
+        "play_count": 49700,
+        "share_count": 51
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 5606.23,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685074580901285150",
+      "video_meta": {
+        "caption_text": "Setting up their playpen\u2728What are some Frenchie musthaves I need?! \ud83d\udc40 #frenchietok #frenchie #dogtok #dogmom #pettok ",
+        "cover_url": "https://s.500fd.com/tt_video/oUX6EAmERVifr6Cz3AAtwIApEAxq7fD8bsqEFC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685074580901285150",
+        "published_at": 1789320878,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@iesha.ashh/video/7685074580901285150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maryeoficial",
+        "creator_uid": "7124504680156562475"
+      },
+      "engagement_metrics": {
+        "comment_count": 40,
+        "like_count": 1752,
+        "play_count": 43100,
+        "share_count": 52
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 4880.06,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681177121770720542",
+      "video_meta": {
+        "caption_text": "#shopping #blackfriday #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/o8eV7ijOIgGM6ZSIcBLvdIogIeRuIACzgfDqRA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 42,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681177121770720542",
+        "published_at": 1788413444,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maryeoficial/video/7681177121770720542"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "taylorangelini",
+        "creator_uid": "6566358943231967233"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 239,
+        "play_count": 4106,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 3329.34,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7675415808717163789",
+      "video_meta": {
+        "caption_text": "ALLL the dog thingssss \ud83e\udd0d #puppy #petowner #dog #dogmusthaves #petsoftiktok ",
+        "cover_url": "https://s.500fd.com/tt_video/ocyD4iDbFnfMhjEVgR5nABbE4z9EISBfgqIzzE~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675415808717163789",
+        "published_at": 1787072037,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@taylorangelini/video/7675415808717163789"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "n_beattie6",
+        "creator_uid": "7316532097871021099"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 71,
+        "play_count": 19100,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2968.78,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664717271394274590",
+      "video_meta": {
+        "caption_text": "Safe space for your puppy to play, nap, and explore\u2014without taking over the whole house. \ud83d\udc36\ud83e\udd0d #TikTokShop #PuppyEssentials #DogMom #PetMustHaves #newpuppy ",
+        "cover_url": "https://s.500fd.com/tt_video/oAeSaRNai9GeReKItiLeDgA9gUfJgAKtizPoLA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664717271394274590",
+        "published_at": 1784581078,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@n_beattie6/video/7664717271394274590"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "n_beattie6",
+        "creator_uid": "7316532097871021099"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 196,
+        "play_count": 59900,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2668.06,
+        "window_units_sold": 55
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664275398485675294",
+      "video_meta": {
+        "caption_text": "Your puppy\u2019s new favorite safe space. \ud83d\udc36\u2728 #TikTokShop #PuppyEssentials #DogMustHaves #PetProducts #puppylife ",
+        "cover_url": "https://s.500fd.com/tt_video/oEbeefSBMgqi85QPABWNUtGj3F8zpeQgQpASRc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664275398485675294",
+        "published_at": 1784478238,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@n_beattie6/video/7664275398485675294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailywith_kaylee",
+        "creator_uid": "6571836016449536005"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 26,
+        "play_count": 4435,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2111.35,
+        "window_units_sold": 38
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691779803246120206",
+      "video_meta": {
+        "caption_text": "If your dog is getting older & can\u2019t handle being in a kennel anymore then this playpen is an absolute life saver for peace of mind!  #geriatricdog #puppyplaypen #dogcrate #tiktokshopfalldealsforyou #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oIE6wAf6SvQAMsRFEbgtIyFEYsAWAqeRD2DrCa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691779803246120206",
+        "published_at": 1790882076,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailywith_kaylee/video/7691779803246120206"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "taylorangelini",
+        "creator_uid": "6566358943231967233"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 106,
+        "play_count": 4482,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 1909.62,
+        "window_units_sold": 34
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688012609764855054",
+      "video_meta": {
+        "caption_text": "the face my puppy makes after peeing in my room \ud83d\ude43 #puppy #goldenretriever #dog #playpen #dogmusthaves ",
+        "cover_url": "https://s.500fd.com/tt_video/oUYciAVgpkAfWIQVFYLeHEAjenyA3sIUjAGMIP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688012609764855054",
+        "published_at": 1790004968,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@taylorangelini/video/7688012609764855054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dandychigginsmama",
+        "creator_uid": "7411253009252009003"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 36,
+        "play_count": 10200,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 1656.44,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688046899881987358",
+      "video_meta": {
+        "caption_text": "Replying to @Mel\u2019s Affordable Finds \ud83d\udc96 Puppy-proofing the entire house? No thanks \ud83d\ude02 This gives them a safe little space to play while I can actually get things done without constantly wondering what they\u2019re getting into. @Sweetcrispy S  #AuthenTik #PuppyEssentials #DogMom #PetMustHaves #PuppyTraining",
+        "cover_url": "https://s.500fd.com/tt_video/o4AAxiLDcW5gBbDAIfnBLdC4AKitiCAIM1DnEZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688046899881987358",
+        "published_at": 1790012936,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dandychigginsmama/video/7688046899881987358"
+      }
+    }
+  ]
+}

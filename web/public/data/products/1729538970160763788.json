@@ -3,7 +3,7 @@
   "product_id": "1729538970160763788",
   "title": "Dream Pairs Women's Mary Janes Platform Heels - Low Chunky Heel, Round Toe, Adjustable Ankle Strap, '90s Retro Oxfords, 1.2\" Platform Lift (4.5 to 6 cm), Trending Shoes for Women, Summer Student Footwear",
   "clean_title": "Dream Pairs Women's Mary Janes Platform",
-  "image_url": "/img/product_1729538970160763788.webp",
+  "image_url": "https://s.500fd.com/tt_product/f2171905b57d4bc4a684130f62c54488~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729538970160763788",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Dream%20Pairs%20Women%27s%20Mary%20Janes%20Platform",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729538970160763788",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7685217082304105741",
+      "cover_url": "https://s.500fd.com/tt_video/oUBLAYYpbFG3XE2KQqEDrEfIQfzCgBy4DSnCdR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7685217082304105741",
+      "creator_handle": "kalilashops",
+      "play_count": 8400000,
+      "window_gmv": 38098.71,
+      "window_units_sold": 912,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7674098450757061901",
+      "cover_url": "https://s.500fd.com/tt_video/oUQAfTkifS3AYAN2xtgAHLIcfvGXifAEresR9Q~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7674098450757061901",
+      "creator_handle": "kalilashops",
+      "play_count": 2100000,
+      "window_gmv": 14609.32,
+      "window_units_sold": 364,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7672970088525450510",
+      "cover_url": "https://s.500fd.com/tt_video/oIUik07nzC1IeAij5H6IvbYC6eIPAQfpG53BiD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7672970088525450510",
+      "creator_handle": "kalilashops",
+      "play_count": 1600000,
+      "window_gmv": 12773.46,
+      "window_units_sold": 326,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7669142278375525663",
+      "cover_url": "https://s.500fd.com/tt_video/oURB9EWbAeAIIAFq3kVFER8bECKfOAZuUADREy~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@greenreaper.xo/video/7669142278375525663",
+      "creator_handle": "greenreaper.xo",
+      "play_count": 1500000,
+      "window_gmv": 12827.46,
+      "window_units_sold": 317,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7687017214364503326",
+      "cover_url": "https://s.500fd.com/tt_video/osxzVAXlaE4MxARVAdBviYCIAABivqDtKFR3E~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sweetteaandsprinkles/video/7687017214364503326",
+      "creator_handle": "sweetteaandsprinkles",
+      "play_count": 233800,
+      "window_gmv": 12504.19,
+      "window_units_sold": 294,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7683339094994439438",
+      "cover_url": "https://s.500fd.com/tt_video/okTqoKDIQDBEa1l5fEAgQfpF1LBwYOpOHsnRSa~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bekahlynnewithtwins/video/7683339094994439438",
+      "creator_handle": "bekahlynnewithtwins",
+      "play_count": 607500,
+      "window_gmv": 11305.34,
+      "window_units_sold": 269,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "maryjaneshoes",
+        "weight": 2544
+      },
+      {
+        "hashtag": "platformshoes",
+        "weight": 2324
+      },
+      {
+        "hashtag": "maryjanes",
+        "weight": 2075
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1781
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 912
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 869
+      },
+      {
+        "hashtag": "dreampairs",
+        "weight": 789
+      },
+      {
+        "hashtag": "altoutfits",
+        "weight": 763
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 20,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "Mary Jane shoes Pairs",
+      "Mary Jane shoes Pairs",
+      "Mary Jane shoes Pairs"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      6,
+      4
+    ]
+  }
 }

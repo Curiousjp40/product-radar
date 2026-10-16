@@ -3,7 +3,7 @@
   "product_id": "1729504303167214700",
   "title": "SHAPSHE Butt Lifting Panties V Crossover Shapewear Shorts Fajas Colombianas Moldeadoras",
   "clean_title": "SHAPSHE Butt Lifting Panties V Crossover",
-  "image_url": "/img/product_1729504303167214700.webp",
+  "image_url": "https://s.500fd.com/tt_product/590b90b57bab48b7859277631af599da~tplv-fhlh96nyum-crop-webp:2157:2466.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729504303167214700",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SHAPSHE%20Butt%20Lifting%20Panties%20V%20Crossover",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729504303167214700",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673087708763409678",
+      "cover_url": "https://s.500fd.com/tt_video/og1ZpN8hSAIEiAiIzBaIzK3BDPCHwJf1iRSBim~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shapedeals/video/7673087708763409678",
+      "creator_handle": "shapedeals",
+      "play_count": 343800,
+      "window_gmv": 10866.72,
+      "window_units_sold": 288,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7691083124184337678",
+      "cover_url": "https://s.500fd.com/tt_video/oQIE3OxEkAaiAgBwdLCYNQ7DZ4NB8vziAAIr3~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7691083124184337678",
+      "creator_handle": "yvonniedior",
+      "play_count": 7351,
+      "window_gmv": 6999.63,
+      "window_units_sold": 195,
+      "is_ad": true,
+      "duration_seconds": 97
+    },
+    {
+      "video_id": "7689180333387959582",
+      "cover_url": "https://s.500fd.com/tt_video/okvmVrBKIiAnIJAWJEiqBdCci5r8fIE11MNyA2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@claudia_mesa_cuba/video/7689180333387959582",
+      "creator_handle": "claudia_mesa_cuba",
+      "play_count": 10700,
+      "window_gmv": 6939.79,
+      "window_units_sold": 193,
+      "is_ad": true,
+      "duration_seconds": 52
+    },
+    {
+      "video_id": "7691040116369837325",
+      "cover_url": "https://s.500fd.com/tt_video/ooeRhvECdARGS8SEErBEEmgEDfA4FDAwQCAqBI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yvonniedior/video/7691040116369837325",
+      "creator_handle": "yvonniedior",
+      "play_count": 7378,
+      "window_gmv": 5949.05,
+      "window_units_sold": 165,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7689171345992650014",
+      "cover_url": "https://s.500fd.com/tt_video/oEAVPLoIRKSimsV1Eb5orUa3ihUA1sAnBIADB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@divinetruth111/video/7689171345992650014",
+      "creator_handle": "divinetruth111",
+      "play_count": 3951,
+      "window_gmv": 6119.31,
+      "window_units_sold": 159,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7670241090254982413",
+      "cover_url": "https://s.500fd.com/tt_video/o8uweAfSScIA2KRBE5gDEaFEMnAAAqy7D4DiCP~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mikaylarob/video/7670241090254982413",
+      "creator_handle": "mikaylarob",
+      "play_count": 50900,
+      "window_gmv": 6195.31,
+      "window_units_sold": 157,
+      "is_ad": true,
+      "duration_seconds": 7
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "shapewear",
+        "weight": 1019
+      },
+      {
+        "hashtag": "shapewearshorts",
+        "weight": 604
+      },
+      {
+        "hashtag": "buttlifting",
+        "weight": 500
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 453
+      },
+      {
+        "hashtag": "panties",
+        "weight": 343
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 343
+      },
+      {
+        "hashtag": "shapshe",
+        "weight": 324
+      },
+      {
+        "hashtag": "faja",
+        "weight": 308
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 42,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "Friend, class is in session.",
+      "Levanta tus pompis y te comprime el abdomen bajo \ud83d\udc4c\ud83c\udffd",
+      "Waist trainer that actually gives me room to adjust as I keep wearing it \ud83d\udc4f\ud83c\udffe I love that it has multiple hook settings + the zipper so I can customize the fit without feeling like I\u2019m stuck in one settings PlusSizeShapewear"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

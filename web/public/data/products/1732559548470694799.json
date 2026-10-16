@@ -3,7 +3,7 @@
   "product_id": "1732559548470694799",
   "title": "Women's Plain Knit Cardigan Set, Button Front Design, Striped Tank Top, Loose Leg Pants, Elegant Casual Style, Fall & Winter Wear",
   "clean_title": "Women's Plain Knit Cardigan Set",
-  "image_url": "/img/product_1732559548470694799.webp",
+  "image_url": "https://s.500fd.com/tt_product/73de3a073f054fca9587b449d7d33bde~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732559548470694799",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Plain%20Knit%20Cardigan%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732559548470694799",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7696064613284056334",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@jioseoui77/video/7696064613284056334",
+      "creator_handle": "jioseoui77",
+      "play_count": 299,
+      "window_gmv": 1068.5,
+      "window_units_sold": 25,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7694162771230969118",
+      "cover_url": "https://s.500fd.com/tt_video/o4EAH1aCzB5A2AIA5rIADiiiQKBXvYAPtfnxGK~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jkozler2/video/7694162771230969118",
+      "creator_handle": "jkozler2",
+      "play_count": 699,
+      "window_gmv": 796.28,
+      "window_units_sold": 24,
+      "is_ad": false,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7689615083000859917",
+      "cover_url": "https://s.500fd.com/tt_video/ooiECa9jiiAK8WBwIIwBpWm14vAMAy13oB1fAD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lala.od/video/7689615083000859917",
+      "creator_handle": "lala.od",
+      "play_count": 877,
+      "window_gmv": 724.53,
+      "window_units_sold": 24,
+      "is_ad": false,
+      "duration_seconds": 5
+    },
+    {
+      "video_id": "7690002639643331870",
+      "cover_url": "https://s.500fd.com/tt_video/osEwniAgeHGsfAeBOFsqAwdYA5UEzQ4W4Y4ReL~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@productsreview24/video/7690002639643331870",
+      "creator_handle": "productsreview24",
+      "play_count": 1571,
+      "window_gmv": 684.53,
+      "window_units_sold": 24,
+      "is_ad": false,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7691069689111252237",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@aubreymilani/video/7691069689111252237",
+      "creator_handle": "aubreymilani",
+      "play_count": 490,
+      "window_gmv": 610.57,
+      "window_units_sold": 19,
+      "is_ad": false,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7689674285530598686",
+      "cover_url": "https://s.500fd.com/tt_video/ogaBBGrKcCBNihiEx131dR4KESNIAviAdV30L~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zoey11n/video/7689674285530598686",
+      "creator_handle": "zoey11n",
+      "play_count": 4986,
+      "window_gmv": 579.31,
+      "window_units_sold": 18,
+      "is_ad": false,
+      "duration_seconds": 24
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "ootd",
+        "weight": 25
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 25
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 25
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 25
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 25
+      },
+      {
+        "hashtag": "womensplainset",
+        "weight": 24
+      },
+      {
+        "hashtag": "3peiceset",
+        "weight": 24
+      },
+      {
+        "hashtag": "fallsets",
+        "weight": 19
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 15,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "Comes in so many colors too!",
+      "Cutest sets on TikTok rn, love it \ud83d\ude0d",
+      "Women's Plain Knit Cardigan Set, Button Front Design, Striped Tank Top, Loose Leg Pants, Elegant Casual Style, Fall & Winter Wear"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      5,
+      1
+    ]
+  }
 }

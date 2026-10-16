@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732444119209972369",
+  "time_range_days": 90,
+  "total": 484,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "letsdrillit",
+        "creator_uid": "6912481495937942533"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 197,
+        "play_count": 52700,
+        "share_count": 18
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 8155.11,
+        "window_units_sold": 179
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672827806660824350",
+      "video_meta": {
+        "caption_text": "VASAGLE 16 inch Queen metal platform bed frame with heavy duty steel support, up to 1100 lb capacity, under bed storage, mattress retainers and no box spring needed. Black metal bed frame for bedrooms, guest rooms and easy room upgrades.",
+        "cover_url": "https://s.500fd.com/tt_video/o8BeqETIDJ8w1CXYAEfEApBX8FIltUIIjfnjI7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672827806660824350",
+        "published_at": 1786497249,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@letsdrillit/video/7672827806660824350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aywspace_6677",
+        "creator_uid": "7551626705229431821"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 233,
+        "play_count": 109100,
+        "share_count": 47
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 4022.16,
+        "window_units_sold": 101
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668886325348617486",
+      "video_meta": {
+        "caption_text": "No way!!\ud83d\udecf\ufe0f\ud83d\udce6#MetalBedFrame#UnderBedStorage#TikTokMadeMeBuyIt#renterfriendly#fpy #bedframe ##homedecor #",
+        "cover_url": "https://s.500fd.com/tt_video/oEEWQmREIDAf5IhtFqPgzxexSBFujWbDVDYSa0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668886325348617486",
+        "published_at": 1785551762,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aywspace_6677/video/7668886325348617486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "skunkywawa",
+        "creator_uid": "6825358546685002757"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1885,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 2923.82,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668485447059836191",
+      "video_meta": {
+        "caption_text": "#tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oU6rcxAafAE2Od1GBBRqNuBP7iEViEBcFfpIK4~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668485447059836191",
+        "published_at": 1785458413,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@skunkywawa/video/7668485447059836191"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dave_mvc55",
+        "creator_uid": "6761594859146413061"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 379,
+        "play_count": 105700,
+        "share_count": 50
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 3170.24,
+        "window_units_sold": 69
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672141633655295263",
+      "video_meta": {
+        "caption_text": "Nice bed frame #mvc55 #bedframe #bedframes #beds ",
+        "cover_url": "https://s.500fd.com/tt_video/ock49QwEtajfMITIBCFUA7xDAHqEtIYEfOeICw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672141633655295263",
+        "published_at": 1786377600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dave_mvc55/video/7672141633655295263"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dave_mvc55",
+        "creator_uid": "6761594859146413061"
+      },
+      "engagement_metrics": {
+        "comment_count": 121,
+        "like_count": 5399,
+        "play_count": 2000000,
+        "share_count": 655
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 2924.46,
+        "window_units_sold": 64
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670290246977867038",
+      "video_meta": {
+        "caption_text": "Nice bed frame #mvc55 #bedframe #bedframes #beds ",
+        "cover_url": "https://s.500fd.com/tt_video/oEANIdBWO9SfwAKtyvXFqa3iHE2iIC1QiIAAHd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670290246977867038",
+        "published_at": 1785949200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dave_mvc55/video/7670290246977867038"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melissa_mariche",
+        "creator_uid": "6716338603133944838"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 165,
+        "play_count": 24062,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 2725.57,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677779587111177502",
+      "video_meta": {
+        "caption_text": "#metalbedframe #bedframe #vasagle ",
+        "cover_url": "https://s.500fd.com/tt_video/oYmZfq19QVf8AXxktFUQKAQ5IFeMFAMfRg98GY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677779587111177502",
+        "published_at": 1787622378,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melissa_mariche/video/7677779587111177502"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "__dream_cars__",
+        "creator_uid": "7261856265746400298"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 14,
+        "play_count": 2941,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 2327.58,
+        "window_units_sold": 50
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669391889753296141",
+      "video_meta": {
+        "caption_text": "Upgrade your bedroom with the VASAGLE Full Metal Bed Frame! \u2728 This heavy-duty platform bed boasts an incredible 1100 lb weight capacity, so you know it's built to last. Forget the box spring \u2013 this frame has you covered, plus built-in under-bed storage to keep your space tidy. Easy setup means you'll be enjoying your new bed in no time. Complete with mattress retainers and a sleek matte black finish. Ready for a smarter sleep solution? Tap the link to shop! #fyp #foryourpage #tiktokshop #bedframe #Moras",
+        "cover_url": "https://s.500fd.com/tt_video/oIBUt1glp6n8kqCEYBiijJvaTWI7PamAtA4MJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669391889753296141",
+        "published_at": 1785669543,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@__dream_cars__/video/7669391889753296141"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "savannahmhopkins",
+        "creator_uid": "6791831423303205893"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 266,
+        "play_count": 56300,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 1883.91,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669565888445664543",
+      "video_meta": {
+        "caption_text": "It\u2019s not a scam it\u2019s really that cheap and works well. #bedframe #metalbedframe #bed #kingbedframe ",
+        "cover_url": "https://s.500fd.com/tt_video/o0Dv9VtEIBjbbIExafRxEF4EBU1l8Af6E2A0Fq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669565888445664543",
+        "published_at": 1785709982,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@savannahmhopkins/video/7669565888445664543"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tukeratinacolombiana1",
+        "creator_uid": "7283853553792566314"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 64,
+        "play_count": 18825,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 1905.73,
+        "window_units_sold": 48
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666440537041308958",
+      "video_meta": {
+        "caption_text": "Dile adi\u00f3s a la cama ruidosa  y al espacio desaprovechado! \ud83d\udecf\ufe0f\u2728 Esta base de cama met\u00e1lica VASAGLE aguanta hasta 1100 lbs (aprox. 500 kg), es s\u00faper resistente y no necesita box spring. Adem\u00e1s, deja espacio libre abajo para organizar todo lo que necesitas. \ud83d\udce6 #Vasagle #BaseDeCama #OrganizacionHogar #HabitacionModerna #MueblesFuncionales  ",
+        "cover_url": "https://s.500fd.com/tt_video/o8qjpBamVAAXzizC6iqa95mI4EknPBS2pRGSI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666440537041308958",
+        "published_at": 1784982328,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tukeratinacolombiana1/video/7666440537041308958"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "letsdrillit",
+        "creator_uid": "6912481495937942533"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 29,
+        "play_count": 7749,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496102198451210897",
+        "window_gmv": 2167.11,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674737364421315870",
+      "video_meta": {
+        "caption_text": "14 inch queen metal platform bed frame with 1100 lb weight capacity, heavy duty steel construction, mattress anti slip stoppers, noise free support and no box spring needed. Sturdy modern bed frame available in twin, full, queen and king sizes.",
+        "cover_url": "https://s.500fd.com/tt_video/owfqyeRmELDgqC7EXJFUDEcQEyV1IABvinEVLA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674737364421315870",
+        "published_at": 1787024337,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@letsdrillit/video/7674737364421315870"
+      }
+    }
+  ]
+}

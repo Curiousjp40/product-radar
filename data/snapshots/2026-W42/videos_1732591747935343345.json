@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732591747935343345",
+  "time_range_days": 90,
+  "total": 385,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "myriamyourbff",
+        "creator_uid": "7393772132880368683"
+      },
+      "engagement_metrics": {
+        "comment_count": 704,
+        "like_count": 21500,
+        "play_count": 1800000,
+        "share_count": 625
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 22044.31,
+        "window_units_sold": 997
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690334316273945870",
+      "video_meta": {
+        "caption_text": "WOW \ud83d\ude32 ",
+        "cover_url": "https://s.500fd.com/tt_video/ocIB1XA1BGwMCBdXiGcBKtAAiCJm5ZAE5wfiIj~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 50,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690334316273945870",
+        "published_at": 1790545509,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7690334316273945870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myriamestrella8",
+        "creator_uid": "7314774908154872874"
+      },
+      "engagement_metrics": {
+        "comment_count": 86,
+        "like_count": 2350,
+        "play_count": 36200,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 19422.08,
+        "window_units_sold": 938
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689586708404260110",
+      "video_meta": {
+        "caption_text": "OMGGG omg!!! \ud83d\ude33",
+        "cover_url": "https://s.500fd.com/tt_video/okuEwtACcFelACSAWqwzRPgAZEEmfD6DI25nPb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689586708404260110",
+        "published_at": 1790371445,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7689586708404260110"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 54,
+        "like_count": 4115,
+        "play_count": 744924,
+        "share_count": 318
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 7708.04,
+        "window_units_sold": 392
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682598551095872799",
+      "video_meta": {
+        "caption_text": "So many designs to choose from \ud83d\ude0d #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/o0iK0AVDqCExB4aFEAAhIAI0EE6efnvAnRQrE7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682598551095872799",
+        "published_at": 1788744381,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7682598551095872799"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "myriamyourbff",
+        "creator_uid": "7393772132880368683"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 1333,
+        "play_count": 118400,
+        "share_count": 43
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 7997.96,
+        "window_units_sold": 359
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688476296233389326",
+      "video_meta": {
+        "caption_text": "I feel so adorable in this top!! \ud83d\udda4 I\u2019m 5\u201d6 and I\u2019m wearing the XL",
+        "cover_url": "https://s.500fd.com/tt_video/oUADAIjyDXqIfCjA7CDvuEAISs9RESFgA8QETe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688476296233389326",
+        "published_at": 1790121600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamyourbff/video/7688476296233389326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 905,
+        "play_count": 153031,
+        "share_count": 65
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 4034.89,
+        "window_units_sold": 223
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682467571718737183",
+      "video_meta": {
+        "caption_text": "Selling fast!! #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oQm7qA5laEL9mAnFAnBCiyCIAABiPpKdLbR2E~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682467571718737183",
+        "published_at": 1788713886,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7682467571718737183"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katrinagmoore",
+        "creator_uid": "70492077783920640"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 252,
+        "play_count": 22756,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 4320.27,
+        "window_units_sold": 219
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682777063798983949",
+      "video_meta": {
+        "caption_text": "This tunic top has a layered look, but it\u2019s all one piece!! I\u2019m a TTS large wearing the large in the coffee striped shade!! \ud83d\ude0d @WIHOLL #tunic #longsleeve #layeredlook #wiholl #ttsacl ",
+        "cover_url": "https://s.500fd.com/tt_video/okeUhFBRSDqUnTENtgbuADRrQfziwuDEGOQSrM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 84,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682777063798983949",
+        "published_at": 1788785945,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katrinagmoore/video/7682777063798983949"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "usingmyimaginason",
+        "creator_uid": "6858749918728176645"
+      },
+      "engagement_metrics": {
+        "comment_count": 33,
+        "like_count": 2254,
+        "play_count": 414200,
+        "share_count": 179
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 4197.93,
+        "window_units_sold": 211
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684318398993534222",
+      "video_meta": {
+        "caption_text": "#creatorsearchinsights #autumntop Flattering flowy tunic top from @WIHOLL perfect for leggings, jeans & cute autumn outfits. \ud83c\udf42 #falltops #tunictop #fallwardrobe ",
+        "cover_url": "https://s.500fd.com/tt_video/oQffkw9ADDBExVgQ7HDDSqIwpIp2yLRNCFDEOh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684318398993534222",
+        "published_at": 1789158960,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7684318398993534222"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jackiebentley",
+        "creator_uid": "6790060352911721477"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 70,
+        "play_count": 22343,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 4051.13,
+        "window_units_sold": 206
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682532683339091213",
+      "video_meta": {
+        "caption_text": "Living this tunic that\u2019s perfect for work but cute enough to wear out after! @WIHOLL ",
+        "cover_url": "https://s.500fd.com/tt_video/o4qSIdREADE6tgHue1BBfFtxVDStzIrKRdnJOF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682532683339091213",
+        "published_at": 1788743700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7682532683339091213"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jackiebentley",
+        "creator_uid": "6790060352911721477"
+      },
+      "engagement_metrics": {
+        "comment_count": 46,
+        "like_count": 1664,
+        "play_count": 303100,
+        "share_count": 139
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 3352.8,
+        "window_units_sold": 164
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681895615902616846",
+      "video_meta": {
+        "caption_text": "Loving this tunic that\u2019s perfect for work but cute enough to wear out after work! @WIHOLL ",
+        "cover_url": "https://s.500fd.com/tt_video/oUWbIcbJ1IpQCHB9kATiBymiI6BHwWAvuwfg3B~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681895615902616846",
+        "published_at": 1788645600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7681895615902616846"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "usingmyimaginason",
+        "creator_uid": "6858749918728176645"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 589,
+        "play_count": 125000,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 2852.17,
+        "window_units_sold": 136
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685402408259783949",
+      "video_meta": {
+        "caption_text": "#creatorsearchinsights #stylingpeplumtops Flowy, flattering and perfect with leggings or jeans. \ud83d\udc06\ud83c\udf42 #falltops #fallwardrobe #tunictop ",
+        "cover_url": "https://s.500fd.com/tt_video/osk6ABAq9P0EACIaJAgi4Bg0iiwlE4AAQECol~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685402408259783949",
+        "published_at": 1789418160,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7685402408259783949"
+      }
+    }
+  ]
+}

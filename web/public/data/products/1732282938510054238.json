@@ -3,7 +3,7 @@
   "product_id": "1732282938510054238",
   "title": "\u30102/3 Packages Shipping\u3011Ovios 108\" U-Shaped Modern Sofa Modular Sectional Cloud Couch with 2 Ottoman, Comfy Chenille Deep Seat Sofa Bed with 5 Pillows for Living Room, Bedroom and Apartment, 5-Seater",
   "clean_title": "2/3 Packages Shipping Ovios 108\" U-Shaped",
-  "image_url": "/img/product_1732282938510054238.jpg",
+  "image_url": "https://s.500fd.com/tt_product/aefbdd711fc3458f8b780c74155ff561~tplv-fhlh96nyum-origin-image.image",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 256,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      2,
+      0
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732222624717901927",
   "title": "Women's 2pcs Set Loose Striped V-Neck Drop Shoulder Long Sleeve T-Shirt &Elastic Waist Striped Pants, Brown, Casual Sets For Women, Pajamas Set, Sleepwear Loungewear, Casual Sets For Women Brown Two Piece Set Women",
   "clean_title": "Women's 2pcs Set Loose Striped V-Neck",
-  "image_url": "/img/product_1732222624717901927.webp",
+  "image_url": "https://s.500fd.com/tt_product/aedf678dafb840a5915dbf0f472fda28~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7674729048601398559",
-      "cover_url": "/img/video_7674729048601398559.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oE1V8frLAAA2AjvEAILeBOqGvepLhuDIIIEEEQ~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@rn.ashley/video/7674729048601398559",
       "creator_handle": "rn.ashley",
       "play_count": 2100000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7674009077705379103",
-      "cover_url": "/img/video_7674009077705379103.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oIoyfQeNegcdiHYgQTjAudMTXf8XAKVhngrfCz~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@mariasol7126/video/7674009077705379103",
       "creator_handle": "mariasol7126",
       "play_count": 958800,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7692155127280602381",
-      "cover_url": "/img/video_7692155127280602381.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQBRAYAXPB4kDzExvAiaR0njigs4BmPUIoGI4~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@marynicole__/video/7692155127280602381",
       "creator_handle": "marynicole__",
       "play_count": 567500,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7673568181843184927",
-      "cover_url": "/img/video_7673568181843184927.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oELhagpp9AweQCNDI6tfjGfFUU7eQ1qWRH2AIG~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@rn.ashley/video/7673568181843184927",
       "creator_handle": "rn.ashley",
       "play_count": 408000,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7693779453784329503",
-      "cover_url": "/img/video_7693779453784329503.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oAVAq8XZ3EAQ5ALj5IFgsufAAiIEA0eMfdLGIs~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@staygoldlex/video/7693779453784329503",
       "creator_handle": "staygoldlex",
       "play_count": 554400,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7688758899045829902",
-      "cover_url": "/img/video_7688758899045829902.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ow9RSIwGA9UFrLeLeCqGOFAeIvzHYzIn9fYGYI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@miibbbbbbb/video/7688758899045829902",
       "creator_handle": "miibbbbbbb",
       "play_count": 476200,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      6,
+      4
+    ]
+  }
 }

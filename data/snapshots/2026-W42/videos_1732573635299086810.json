@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732573635299086810",
+  "time_range_days": 90,
+  "total": 175,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "nnnnylsoj",
+        "creator_uid": "6959222640256353285"
+      },
+      "engagement_metrics": {
+        "comment_count": 87,
+        "like_count": 57500,
+        "play_count": 1300000,
+        "share_count": 377
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 7205,
+        "window_units_sold": 710
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694408564307184910",
+      "video_meta": {
+        "caption_text": "Muah here yall go \ud83d\udc8b",
+        "cover_url": "https://s.500fd.com/tt_video/oYeJlCemBrgAgAImD8YLcR8GFEfQIgGQf8IAMO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694408564307184910",
+        "published_at": 1791494118,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nnnnylsoj/video/7694408564307184910"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "xx.midna",
+        "creator_uid": "7173467686160319534"
+      },
+      "engagement_metrics": {
+        "comment_count": 182,
+        "like_count": 48200,
+        "play_count": 231900,
+        "share_count": 2399
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 6304.84,
+        "window_units_sold": 608
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686650439802146079",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEesGevjRIoUQe7t1EqALFoYQCGdATw89QaQfo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686650439802146079",
+        "published_at": 1789687779,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@xx.midna/video/7686650439802146079"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessell_",
+        "creator_uid": "6671440709634342917"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 1483,
+        "play_count": 43200,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 4059.8,
+        "window_units_sold": 476
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692502644958481678",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oojCJLH3FHzefig2nVHbA0kBUKQIgevEGoQHIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692502644958481678",
+        "published_at": 1791050365,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessell_/video/7692502644958481678"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttshopright2",
+        "creator_uid": "6546935601839489030"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 1010,
+        "play_count": 38900,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 1824,
+        "window_units_sold": 240
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691178126117719309",
+      "video_meta": {
+        "caption_text": "#longsleeve #fallfinds ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691178126117719309",
+        "published_at": 1790741963,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttshopright2/video/7691178126117719309"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttshopright2",
+        "creator_uid": "6546935601839489030"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 6224,
+        "play_count": 374300,
+        "share_count": 244
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 1527.6,
+        "window_units_sold": 201
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692294617743559950",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692294617743559950",
+        "published_at": 1791001936,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttshopright2/video/7692294617743559950"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ttsshopfinds",
+        "creator_uid": "7100790905222136878"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 5394,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 1436.4,
+        "window_units_sold": 189
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692658188793007373",
+      "video_meta": {
+        "caption_text": "#fashion #longsleeve ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692658188793007373",
+        "published_at": 1791086580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ttsshopfinds/video/7692658188793007373"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilasoutfitlab",
+        "creator_uid": "7289376631435674666"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 12700,
+        "play_count": 751100,
+        "share_count": 431
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 3701,
+        "window_units_sold": 168
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689495153660202254",
+      "video_meta": {
+        "caption_text": "#sohochic #soptlightfinds #fyp\u30b7 #top ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689495153660202254",
+        "published_at": 1790350144,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilasoutfitlab/video/7689495153660202254"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilasoutfitlab",
+        "creator_uid": "7289376631435674666"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 373,
+        "play_count": 65000,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 1605.3,
+        "window_units_sold": 78
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690195822826278158",
+      "video_meta": {
+        "caption_text": "#soptlightfinds #fyp\u30b7 #sohochic #top ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690195822826278158",
+        "published_at": 1790513279,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilasoutfitlab/video/7690195822826278158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gu.gc3",
+        "creator_uid": "7633030751730664462"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 846,
+        "play_count": 160000,
+        "share_count": 71
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 515.06,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683545683139284238",
+      "video_meta": {
+        "caption_text": "This vintage striped top + denim combo just works \ud83e\udd0e #VintageStyle #SquareNeckTop #FallOutfit #StreetStyle #OOTD  ",
+        "cover_url": "https://s.500fd.com/tt_video/o4cE0EwDgT2BrBSFfeqRDCAxIBhDEoQBXDoyDS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683545683139284238",
+        "published_at": 1788964938,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gu.gc3/video/7683545683139284238"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "scarletsierra10",
+        "creator_uid": "6930695634878219269"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 28,
+        "play_count": 2953,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646979663901725146",
+        "window_gmv": 401.6,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692071570512055582",
+      "video_meta": {
+        "caption_text": "Striped crop top \ud83e\udd0e #TikTokShop #StripedTop #VintageStyle #Streetwear #OOTD  ",
+        "cover_url": "https://s.500fd.com/tt_video/oAkQATq9WdGsIbKRL3AreggGfAuUfSKFc9egOc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692071570512055582",
+        "published_at": 1790950004,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@scarletsierra10/video/7692071570512055582"
+      }
+    }
+  ]
+}

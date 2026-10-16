@@ -3,7 +3,7 @@
   "product_id": "1732613708030841704",
   "title": "Sultry Police 6 Piece Costume Set - Blue/combo",
   "clean_title": "Sultry Police 6 Piece Costume Set",
-  "image_url": "/img/product_1732613708030841704.webp",
+  "image_url": "https://s.500fd.com/tt_product/c2ea7a64cbbb4762831496dd86a58a6d~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732613708030841704",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Sultry%20Police%206%20Piece%20Costume%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732613708030841704",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689295919816133902",
+      "cover_url": "https://s.500fd.com/tt_video/o4QhrqCEXBdo3gRq46QAdFEDyuDQ6tHzgfakfS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ana1ici2/video/7689295919816133902",
+      "creator_handle": "ana1ici2",
+      "play_count": 650000,
+      "window_gmv": 8752.85,
+      "window_units_sold": 117,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7689354834268507405",
+      "cover_url": "https://s.500fd.com/tt_video/oA4HQYF8hbSds9p2DHDAQMt0RRqgEBeERhEFfP~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ana1ici2/video/7689354834268507405",
+      "creator_handle": "ana1ici2",
+      "play_count": 512300,
+      "window_gmv": 7007.58,
+      "window_units_sold": 96,
+      "is_ad": false,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7688840291977071886",
+      "cover_url": "https://s.500fd.com/tt_video/o4pzQABeHkIdPIgVbaLeHCAtZf3rg0Qtj0GMI9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ana1ici2/video/7688840291977071886",
+      "creator_handle": "ana1ici2",
+      "play_count": 635500,
+      "window_gmv": 6571.58,
+      "window_units_sold": 85,
+      "is_ad": false,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7691407707286310158",
+      "cover_url": "https://s.500fd.com/tt_video/oQm3irUXwe7IAELp1AICyriyClB9JqvXB7AaBA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@zzzuulll/video/7691407707286310158",
+      "creator_handle": "zzzuulll",
+      "play_count": 57154,
+      "window_gmv": 4888.71,
+      "window_units_sold": 71,
+      "is_ad": false,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7688926184817642766",
+      "cover_url": "https://s.500fd.com/tt_video/ocaABrrCSIBciaMEAN04Pg3sEdjIAvi4MksqA~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@zsarmaniwriightt/video/7688926184817642766",
+      "creator_handle": "zsarmaniwriightt",
+      "play_count": 78300,
+      "window_gmv": 4610.1,
+      "window_units_sold": 56,
+      "is_ad": false,
+      "duration_seconds": 90
+    },
+    {
+      "video_id": "7689550041521851661",
+      "cover_url": "https://s.500fd.com/tt_video/og6DFBJRsE0wstJtQKijEf60SitfqQAbCDyRgT~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ana1ici2/video/7689550041521851661",
+      "creator_handle": "ana1ici2",
+      "play_count": 77700,
+      "window_gmv": 4103.1,
+      "window_units_sold": 56,
+      "is_ad": false,
+      "duration_seconds": 13
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloween",
+        "weight": 455
+      },
+      {
+        "hashtag": "fyp\u30b7",
+        "weight": 329
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 153
+      },
+      {
+        "hashtag": "fashionnova",
+        "weight": 56
+      },
+      {
+        "hashtag": "halloween2026",
+        "weight": 56
+      },
+      {
+        "hashtag": "costumeideas",
+        "weight": 56
+      },
+      {
+        "hashtag": "fy",
+        "weight": 56
+      },
+      {
+        "hashtag": "isiskellier",
+        "weight": 53
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 13,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "Halloween costumes 2026: PART 2",
+      "love this costume \ud83d\ude0d I\u2019m wearing a size medium",
+      "My husbands reaction | Prison wife edition | Halloween costume"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      3,
+      2
+    ]
+  }
 }

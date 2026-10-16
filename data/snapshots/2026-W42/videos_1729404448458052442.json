@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729404448458052442",
+  "time_range_days": 90,
+  "total": 499,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 46,
+        "like_count": 10200,
+        "play_count": 703800,
+        "share_count": 574
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 5510.38,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688436117233749262",
+      "video_meta": {
+        "caption_text": "THIS COSTUME!!!#fyp\u30c4 #foryoupage #viralvideo #tiktokblowthisup #jennefersbody ",
+        "cover_url": "https://s.500fd.com/tt_video/okzKEyQZAf5jAQZfV2QFOhFJI2HlkZfnCrGyDw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688436117233749262",
+        "published_at": 1790103542,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7688436117233749262"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "zoraidasdiary",
+        "creator_uid": "6804036011616060422"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 5274,
+        "play_count": 177800,
+        "share_count": 374
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 5393.49,
+        "window_units_sold": 85
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686678405059841311",
+      "video_meta": {
+        "caption_text": "Ugh I love her \ud83d\ude0d #jennifersbody #halloween #halloweencostume #tiktokshopfinds #meganfox ",
+        "cover_url": "https://s.500fd.com/tt_video/o88MvAesqWQEiIjNIJAfQ0LIDe3G3VZqGUIRCV~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686678405059841311",
+        "published_at": 1789694291,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@zoraidasdiary/video/7686678405059841311"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollskill",
+        "creator_uid": "6688542654832329734"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 221,
+        "play_count": 26750,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3421.2,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688135017872117022",
+      "video_meta": {
+        "caption_text": "are you Halloween ready? \ud83e\ude78 #jennifersbody #costumeideas #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/ooAfIIEVqQnubjfAhZG8CWfYrMOcl3BMJv750A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688135017872117022",
+        "published_at": 1790033440,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollskill/video/7688135017872117022"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lesly.baez",
+        "creator_uid": "6749242433424933894"
+      },
+      "engagement_metrics": {
+        "comment_count": 111,
+        "like_count": 15400,
+        "play_count": 593400,
+        "share_count": 1090
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2817.64,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678726872552852749",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMGgqfAQIvGAIkeLKdEKEVoLMA8HjIAAI8uRed~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678726872552852749",
+        "published_at": 1787842936,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lesly.baez/video/7678726872552852749"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollskill",
+        "creator_uid": "6688542654832329734"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 67,
+        "play_count": 40687,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2562,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690745204726304030",
+      "video_meta": {
+        "caption_text": "the backpack everyone wants \ud83d\ude33 #backpack #halloweenishere #tiktoklive ",
+        "cover_url": "https://s.500fd.com/tt_video/oIBDRBAzAGi4EymAsEAlBRijI97vraCCA5BAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690745204726304030",
+        "published_at": 1790641168,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollskill/video/7690745204726304030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maes_outfits",
+        "creator_uid": "6798345671986070533"
+      },
+      "engagement_metrics": {
+        "comment_count": 63,
+        "like_count": 33214,
+        "play_count": 1428757,
+        "share_count": 1420
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2373.05,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676531613475360030",
+      "video_meta": {
+        "caption_text": "she\u2019s actually just a really good friend \ud83d\ude1a #JennifersBody #JenniferCheck #JenniferCheckCostume #HalloweenCostumeIdeas #MeganFox",
+        "cover_url": "https://s.500fd.com/tt_video/oM2RgiEE9A4puRVbEnTdCeAIDfApFEASICAqIQ~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676531613475360030",
+        "published_at": 1787331807,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7676531613475360030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alideckerrr",
+        "creator_uid": "18621207"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 613,
+        "play_count": 44823,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2452.45,
+        "window_units_sold": 40
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679461234621566222",
+      "video_meta": {
+        "caption_text": "stocking up on all the cutest halloween costumes\ud83d\udc9c\ud83c\udf83 @Dolls Kill #dollskill #halloweencostume #bitetheboyfriend #vampire ",
+        "cover_url": "https://s.500fd.com/tt_video/o0fV2urSkBDF6B4IEQDkmrAGWK0guqfJDERlEU~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679461234621566222",
+        "published_at": 1788013936,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alideckerrr/video/7679461234621566222"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tessonnn",
+        "creator_uid": "7166741481843360811"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 3535,
+        "play_count": 57200,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2163.89,
+        "window_units_sold": 40
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676674188169563405",
+      "video_meta": {
+        "caption_text": "#jennifersbody #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/oQqpJAVMQSClfEIqCiFfDBgsTBA8SOI4R3DvEb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676674188169563405",
+        "published_at": 1787365015,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tessonnn/video/7676674188169563405"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wesleyrbarker",
+        "creator_uid": "827585"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 325,
+        "play_count": 70130,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2268,
+        "window_units_sold": 37
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694018563073412382",
+      "video_meta": {
+        "caption_text": "Reviewing Jennifer\u2019s body cheer costume! #halloween #halloweencostume #jennifersbody @Dolls Kill ",
+        "cover_url": "https://s.500fd.com/tt_video/ow1BAZYfDGN1iiAxEKTRIpuBAioCKHAJrjYDIA.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694018563073412382",
+        "published_at": 1791406740,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wesleyrbarker/video/7694018563073412382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lesly.baez",
+        "creator_uid": "6749242433424933894"
+      },
+      "engagement_metrics": {
+        "comment_count": 79,
+        "like_count": 4612,
+        "play_count": 204700,
+        "share_count": 252
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2284.64,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678738742533688590",
+      "video_meta": {
+        "caption_text": "It\u2019s almost that time of the year\ud83d\ude01 #halloween #costume #jennifersbody  ",
+        "cover_url": "https://s.500fd.com/tt_video/o05QcWwSfAINR4ywBBI13EA0XiBpiCRb4ClIIz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678738742533688590",
+        "published_at": 1787845697,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lesly.baez/video/7678738742533688590"
+      }
+    }
+  ]
+}

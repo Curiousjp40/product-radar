@@ -3,7 +3,7 @@
   "product_id": "1729450355894621018",
   "title": "Fast N' Curious Costume",
   "clean_title": "Fast N' Curious Costume",
-  "image_url": "/img/product_1729450355894621018.jpg",
+  "image_url": "https://s.500fd.com/tt_product/d0ee63546d354f28b10662554a448d93~tplv-omjb5zjo8w-resize-jpeg:800:800.jpeg",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729450355894621018",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Fast%20N%27%20Curious%20Costume",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729450355894621018",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7680335537726655774",
+      "cover_url": "https://s.500fd.com/tt_video/oM2ipRnAEEcZiBwBAC58AISWlAPAaDIIrgiCY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahshopsss/video/7680335537726655774",
+      "creator_handle": "sarahshopsss",
+      "play_count": 1030711,
+      "window_gmv": 12394.88,
+      "window_units_sold": 86,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7678798303387061518",
+      "cover_url": "https://s.500fd.com/tt_video/og70QukjrIESI8DkH6AF1IOfQfJPVeECYFI5hA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7678798303387061518",
+      "creator_handle": "coolestbabeoutthere",
+      "play_count": 1029670,
+      "window_gmv": 8346.39,
+      "window_units_sold": 63,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7670277239610576159",
+      "cover_url": "https://s.500fd.com/tt_video/oQeIAkUQke0GuElmApqSJeIvLIAjDA5Eg8s5AI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@maes_outfits/video/7670277239610576159",
+      "creator_handle": "maes_outfits",
+      "play_count": 1500000,
+      "window_gmv": 3759.97,
+      "window_units_sold": 40,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7678438200787864862",
+      "cover_url": "https://s.500fd.com/tt_video/oE47Eu5BAPAPFioRAISC9BUAaAE49uKzyil8X~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dollskill/video/7678438200787864862",
+      "creator_handle": "dollskill",
+      "play_count": 37400,
+      "window_gmv": 4219.49,
+      "window_units_sold": 33,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7684038337119718669",
+      "cover_url": "https://s.500fd.com/tt_video/oIWF2EBGQ3RS9A0w0f8TGQzHqGdYoDxeoHEgAD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7684038337119718669",
+      "creator_handle": "its_leah0912",
+      "play_count": 92397,
+      "window_gmv": 4470.3,
+      "window_units_sold": 31,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7680312549551688990",
+      "cover_url": "https://s.500fd.com/tt_video/o0R0rAuaeUDseIQqkVLeQFAeB5PWPoIqGiGGRF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahshopsss/video/7680312549551688990",
+      "creator_handle": "sarahshopsss",
+      "play_count": 68500,
+      "window_gmv": 4046.28,
+      "window_units_sold": 30,
+      "is_ad": true,
+      "duration_seconds": 9
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "sukicostume",
+        "weight": 261
+      },
+      {
+        "hashtag": "costume",
+        "weight": 242
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 238
+      },
+      {
+        "hashtag": "suki",
+        "weight": 238
+      },
+      {
+        "hashtag": "fastandfurious",
+        "weight": 177
+      },
+      {
+        "hashtag": "sukifastandfurious",
+        "weight": 63
+      },
+      {
+        "hashtag": "costumeinspo",
+        "weight": 63
+      },
+      {
+        "hashtag": "halloweencostumes",
+        "weight": 63
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 9,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "all sizes RESTOCKED - wearing size med 5\u20199 145lbs (wear over denim shorts to make it more accurate).",
+      "it\u2019s time for a whole lot of costumes \ud83d\ude1b",
+      "size xs (wear over denim shorts to make it more acccurate)."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      2
+    ]
+  }
 }

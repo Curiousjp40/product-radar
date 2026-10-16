@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732135107029930684",
+  "time_range_days": 90,
+  "total": 435,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "kristalheredia",
+        "creator_uid": "6766815754026484741"
+      },
+      "engagement_metrics": {
+        "comment_count": 58,
+        "like_count": 8685,
+        "play_count": 119900,
+        "share_count": 143
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 8175.72,
+        "window_units_sold": 359
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7678450639201963294",
+      "video_meta": {
+        "caption_text": "I\u2019m obsessed\u2026 ",
+        "cover_url": "https://s.500fd.com/tt_video/o8VDWA8AECYAIjFAqrjAnV1fRY5RC6EjPEEifa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678450639201963294",
+        "published_at": 1787778619,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kristalheredia/video/7678450639201963294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kristalheredia",
+        "creator_uid": "6766815754026484741"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 1797,
+        "play_count": 21800,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 5419.98,
+        "window_units_sold": 240
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7679889283624275230",
+      "video_meta": {
+        "caption_text": "I ordered this in every other pattern for obvious reasons! Wearing a size large. ",
+        "cover_url": "https://s.500fd.com/tt_video/oUcHqEQ3JHDYACAHQ6eEBl0UuVFqRloEwUu6fk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679889283624275230",
+        "published_at": 1788113579,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kristalheredia/video/7679889283624275230"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayafindss777",
+        "creator_uid": "7484630717063775274"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 16500,
+        "play_count": 1300000,
+        "share_count": 1230
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 3766.84,
+        "window_units_sold": 214
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668325984017435934",
+      "video_meta": {
+        "caption_text": "love these sooo comfy",
+        "cover_url": "https://s.500fd.com/tt_video/oYDaVIkQD0C31CudAEfeARAATFqhAqEED5WR6W~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668325984017435934",
+        "published_at": 1785421286,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayafindss777/video/7668325984017435934"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayafindss777",
+        "creator_uid": "7484630717063775274"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 3259,
+        "play_count": 278000,
+        "share_count": 237
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 3732.83,
+        "window_units_sold": 192
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677315980581686558",
+      "video_meta": {
+        "caption_text": "these replaced all my big tees",
+        "cover_url": "https://s.500fd.com/tt_video/o86kjoRBCJ6ELAPiIi8aiybEjM5yADEtTBIjV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677315980581686558",
+        "published_at": 1787514439,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayafindss777/video/7677315980581686558"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayafindss777",
+        "creator_uid": "7484630717063775274"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 36,
+        "play_count": 4126,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 3438.33,
+        "window_units_sold": 147
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7696211905366543647",
+      "video_meta": {
+        "caption_text": "TikTok shop takes ALL my money\ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/o8IAcVXI5ENAqAjnuFQAGFEIf3D4unAx8fk8fq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7696211905366543647",
+        "published_at": 1791930120,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayafindss777/video/7696211905366543647"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "0nly1mssperfectt",
+        "creator_uid": "6935867650178548741"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 856,
+        "play_count": 42500,
+        "share_count": 49
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 2916.19,
+        "window_units_sold": 140
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678550857977236766",
+      "video_meta": {
+        "caption_text": "#mssperfectt ",
+        "cover_url": "https://s.500fd.com/tt_video/oYCC7Efi1AjWq2BVNIBeRqAB3gImiSECB8W6sP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678550857977236766",
+        "published_at": 1787801958,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@0nly1mssperfectt/video/7678550857977236766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shireztaylerr",
+        "creator_uid": "7152196059199947819"
+      },
+      "engagement_metrics": {
+        "comment_count": 250,
+        "like_count": 149700,
+        "play_count": 1200000,
+        "share_count": 9802
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 2714.76,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681876196413541645",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEfjLK4c4qyyQgE5AMFF2EXDBe40mQR3DlSAGD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681876196413541645",
+        "published_at": 1788576197,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shireztaylerr/video/7681876196413541645"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "juliasuselesshauls",
+        "creator_uid": "6912634050747188229"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 3117,
+        "play_count": 781400,
+        "share_count": 183
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 1982.07,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693408090682641694",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4VoxiBROQ25Ee3EEqHA4mDpFDfHABgquQAIoX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693408090682641694",
+        "published_at": 1791306120,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@juliasuselesshauls/video/7693408090682641694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "caitlyn.birkner",
+        "creator_uid": "278730013598846977"
+      },
+      "engagement_metrics": {
+        "comment_count": 44,
+        "like_count": 8205,
+        "play_count": 196200,
+        "share_count": 170
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 1757.54,
+        "window_units_sold": 90
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672745125965073678",
+      "video_meta": {
+        "caption_text": "#western #westernfashion #westernstyle #fyp #cowgirlboots ",
+        "cover_url": "https://s.500fd.com/tt_video/oU7EI4BnPhWgGRDimE3a0UAFEU0FBsi7vAIO9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672745125965073678",
+        "published_at": 1786542000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@caitlyn.birkner/video/7672745125965073678"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lexiawill2x",
+        "creator_uid": "7068826943726683178"
+      },
+      "engagement_metrics": {
+        "comment_count": 78,
+        "like_count": 6039,
+        "play_count": 96900,
+        "share_count": 307
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494101015221274300",
+        "window_gmv": 2120.91,
+        "window_units_sold": 90
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670056772744350990",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMuCjA59YSGCFEQqrcFfDBgfICCuPIQ7RPD0EO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670056772744350990",
+        "published_at": 1785824269,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lexiawill2x/video/7670056772744350990"
+      }
+    }
+  ]
+}

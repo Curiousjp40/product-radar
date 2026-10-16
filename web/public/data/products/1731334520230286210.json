@@ -3,7 +3,7 @@
   "product_id": "1731334520230286210",
   "title": "Foldable Over The Sink Dish Drying Rack, Carbon Steel 2-Tier Pullout Sliding Dish Organizer, Removable Cutlery Holder, Adjustable 360\u00b0 Swivel Drain Guide, Space Saver for Small Kitchen Storage",
   "clean_title": "Foldable Over The Sink Dish Drying",
-  "image_url": "/img/product_1731334520230286210.jpg",
+  "image_url": "https://s.500fd.com/tt_product/eb5a9a61396a4c70bdb1274cd63b621e~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731334520230286210",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Foldable%20Over%20The%20Sink%20Dish%20Drying",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731334520230286210",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679201486047350047",
+      "cover_url": "https://s.500fd.com/tt_video/owAf7WGRQgegAkRlfS81o5xAGe4YqMUVQUnSFs~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@laurenbreaves/video/7679201486047350047",
+      "creator_handle": "laurenbreaves",
+      "play_count": 1100,
+      "window_gmv": 6037.53,
+      "window_units_sold": 167,
+      "is_ad": false,
+      "duration_seconds": 106
+    },
+    {
+      "video_id": "7669764704599919903",
+      "cover_url": "https://s.500fd.com/tt_video/oEvE3DFcuIDvKmAAquAAfgEtqgQpROWEVAoHeC~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@samuel.marthin4/video/7669764704599919903",
+      "creator_handle": "samuel.marthin4",
+      "play_count": 10800,
+      "window_gmv": 4020.73,
+      "window_units_sold": 112,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7685307415817882893",
+      "cover_url": "https://s.500fd.com/tt_video/o80xs1ACfABnAkBVCqtnlUIwqiIt9UDALJiEB9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sunwardnest_/video/7685307415817882893",
+      "creator_handle": "sunwardnest_",
+      "play_count": 296000,
+      "window_gmv": 3941.63,
+      "window_units_sold": 105,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7672506666369289486",
+      "cover_url": "https://s.500fd.com/tt_video/ogtE6A3iHkDpkEIUR9FfHCAEkO3xAiIOjDDfIf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jyl.encuentras/video/7672506666369289486",
+      "creator_handle": "jyl.encuentras",
+      "play_count": 11500,
+      "window_gmv": 3802.95,
+      "window_units_sold": 105,
+      "is_ad": true,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7665166383088454926",
+      "cover_url": "https://s.500fd.com/tt_video/okEIywAGsXUsAEkAfUFBjeAAiQQx8HqMgAkQLe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sunwardcasa/video/7665166383088454926",
+      "creator_handle": "sunwardcasa",
+      "play_count": 1200000,
+      "window_gmv": 3392.87,
+      "window_units_sold": 96,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7669206176692784415",
+      "cover_url": "https://s.500fd.com/tt_video/oYBuzpTRBFd9fAG7bNAANXQQgeMAbubfn8BfdU~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@gl.lezstealz/video/7669206176692784415",
+      "creator_handle": "gl.lezstealz",
+      "play_count": 18200,
+      "window_gmv": 3349.38,
+      "window_units_sold": 93,
+      "is_ad": true,
+      "duration_seconds": 66
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dishrack",
+        "weight": 718
+      },
+      {
+        "hashtag": "kitchenhacks",
+        "weight": 372
+      },
+      {
+        "hashtag": "kitchen",
+        "weight": 274
+      },
+      {
+        "hashtag": "dishdryingrack",
+        "weight": 272
+      },
+      {
+        "hashtag": "kitchenfinds",
+        "weight": 245
+      },
+      {
+        "hashtag": "kitchenorganization",
+        "weight": 208
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 199
+      },
+      {
+        "hashtag": "dishwasherhack",
+        "weight": 199
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 52,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 7,
+      "hour_end": 9
+    },
+    "top_hooks": [
+      "Excited about this!",
+      "Era hora de una actualizaci\u00f3n",
+      "If your kitchen counter is always covered with wet dishes, this dish rack is such a nice daily upgrade."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      1
+    ]
+  }
 }

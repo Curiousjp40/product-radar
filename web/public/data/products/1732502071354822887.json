@@ -3,7 +3,7 @@
   "product_id": "1732502071354822887",
   "title": "Handmade Crochet Flowers Bouquet Halloween Gift Pumpkin Ghost Bouquet Halloween Decor Gift for Her Friend Gift Forever Flowers Handmade Halloween Decoration",
   "clean_title": "Handmade Crochet Flowers Bouquet Halloween Gift",
-  "image_url": "/img/product_1732502071354822887.webp",
+  "image_url": "https://s.500fd.com/tt_product/f72dd43617114ee988b8fab0e872af34~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7689468490343795982",
-      "cover_url": "/img/video_7689468490343795982.png",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
       "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7689468490343795982",
       "creator_handle": "ibecamethebest",
       "play_count": 649600,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7688728348440186126",
-      "cover_url": "/img/video_7688728348440186126.png",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
       "tiktok_url": "https://www.tiktok.com/@ibecamethebest/video/7688728348440186126",
       "creator_handle": "ibecamethebest",
       "play_count": 716500,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7686508420614180110",
-      "cover_url": "/img/video_7686508420614180110.png",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
       "tiktok_url": "https://www.tiktok.com/@jaimeprimedeals/video/7686508420614180110",
       "creator_handle": "jaimeprimedeals",
       "play_count": 575100,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7692072155273514254",
-      "cover_url": "/img/video_7692072155273514254.png",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
       "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7692072155273514254",
       "creator_handle": "iluvdealz",
       "play_count": 1300000,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7691814601222098189",
-      "cover_url": "/img/video_7691814601222098189.png",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
       "tiktok_url": "https://www.tiktok.com/@iluvdealz/video/7691814601222098189",
       "creator_handle": "iluvdealz",
       "play_count": 1500000,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7689036107337567519",
-      "cover_url": "/img/video_7689036107337567519.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oQLATECBvA8RhrwIAaFAqEulAA0xiiroIyBao~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@youseecozygifts/video/7689036107337567519",
       "creator_handle": "youseecozygifts",
       "play_count": 582500,
@@ -162,5 +162,16 @@
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      2,
+      3
+    ]
+  }
 }

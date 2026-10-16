@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729586161668821850",
+  "time_range_days": 90,
+  "total": 208,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 3712,
+        "like_count": 596000,
+        "play_count": 3600000,
+        "share_count": 44000
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 15335.3,
+        "window_units_sold": 137
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679928034614447374",
+      "video_meta": {
+        "caption_text": "the perfect costume for you and your bestie \u2620\ufe0f\ud83e\ude77 #halloweencostume #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/ooHRUVSCdarIIdLjfQgHxfAkzVAewTlS4ZKg9G~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679928034614447374",
+        "published_at": 1788122614,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7679928034614447374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollskill",
+        "creator_uid": "6688542654832329734"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 620,
+        "play_count": 149000,
+        "share_count": 82
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 10004,
+        "window_units_sold": 100
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688095481947295007",
+      "video_meta": {
+        "caption_text": "your favorite Clawdeen Wolf costume \ud83d\udc9c\ud83d\udc3a #monsterhigh #costumeideas #tiktoklive ",
+        "cover_url": "https://s.500fd.com/tt_video/oQvDFB8wZEq2FeoxIDciEf8BVms8qQA92EsRAh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688095481947295007",
+        "published_at": 1790024235,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollskill/video/7688095481947295007"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lilyy_turcotte",
+        "creator_uid": "25340095"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 900,
+        "play_count": 64100,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 6598.6,
+        "window_units_sold": 70
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685109866112765197",
+      "video_meta": {
+        "caption_text": "These are PERFECT #halloweencostume #halloween #halloween2026 #costumes #haul ",
+        "cover_url": "https://s.500fd.com/tt_video/oYwNRvK1qQS7E9DhfBpFhF4EQiDHhtArcgfLsR~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 109,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685109866112765197",
+        "published_at": 1789329097,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lilyy_turcotte/video/7685109866112765197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 5809,
+        "play_count": 56300,
+        "share_count": 337
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4488.3,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682470394313395470",
+      "video_meta": {
+        "caption_text": "hi ghoul\u2019s \u2620\ufe0f\ud83e\ude77 #halloweencostume #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/ogYfQHCVHACQvqrcfI0leC5AdzTGOLbyzksniE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682470394313395470",
+        "published_at": 1788714552,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7682470394313395470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 1195,
+        "play_count": 36800,
+        "share_count": 56
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2988,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695528402018766094",
+      "video_meta": {
+        "caption_text": "costume of the year is on sale rn \ud83e\udd2b\ud83d\udc3a",
+        "cover_url": "https://s.500fd.com/tt_video/o0EVEiCzgKuVAI6oqmIvoZFgCRDMSAfABZBeD2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695528402018766094",
+        "published_at": 1791754855,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7695528402018766094"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cxozyt",
+        "creator_uid": "6651696094428987398"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 768,
+        "play_count": 42500,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3054,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694064212024233246",
+      "video_meta": {
+        "caption_text": "fav character for a reason \ud83d\ude48\ud83c\udf83",
+        "cover_url": "https://s.500fd.com/tt_video/o0ctVDqGVCzctheLI1rZAAIKIIRGejUAejIrzZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694064212024233246",
+        "published_at": 1791413938,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7694064212024233246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "notamaraa",
+        "creator_uid": "7177879653180261422"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 2905,
+        "play_count": 105700,
+        "share_count": 1188
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 4241.9,
+        "window_units_sold": 36
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679910625723649294",
+      "video_meta": {
+        "caption_text": "monster high costumes are my fav \u2620\ufe0f @kya \u2740 #halloweencostume #costumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/oELgqshfAFYCI8SqV9vBDMWBkiIlIEiUq6RlfB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679910625723649294",
+        "published_at": 1788118554,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@notamaraa/video/7679910625723649294"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cxozyt",
+        "creator_uid": "6651696094428987398"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 15400,
+        "play_count": 250900,
+        "share_count": 1329
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 3224.3,
+        "window_units_sold": 33
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684745201314729246",
+      "video_meta": {
+        "caption_text": "a monster high halloween \ud83d\udc9c\ud83d\udc3a",
+        "cover_url": "https://s.500fd.com/tt_video/oscqpEDIIEBELqhnfEAAIvMFcblUQ6DMxmfRVs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684745201314729246",
+        "published_at": 1789244185,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cxozyt/video/7684745201314729246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "pinspo.girl",
+        "creator_uid": "7132497962366026794"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 3442,
+        "play_count": 328300,
+        "share_count": 161
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2724,
+        "window_units_sold": 30
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689967253088898317",
+      "video_meta": {
+        "caption_text": "Replying to @UGC & Travel by Von This is the cutest, most accurate costume I\u2019ve found of her! \ud83e\udd2d #werewolfcostume #halloweencostume #halloweencostumeidea #sexycostume #werewolfgirl ",
+        "cover_url": "https://s.500fd.com/tt_video/ogI4GvwXfAE33BCYABI1QIB1QiBJiCAaBCAIE7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 45,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689967253088898317",
+        "published_at": 1790460047,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@pinspo.girl/video/7689967253088898317"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "geminijayden",
+        "creator_uid": "2760671"
+      },
+      "engagement_metrics": {
+        "comment_count": 139,
+        "like_count": 41336,
+        "play_count": 1039647,
+        "share_count": 4091
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494963428163095386",
+        "window_gmv": 2967.35,
+        "window_units_sold": 25
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676152011032726815",
+      "video_meta": {
+        "caption_text": "I need to see more girls in this costume this year!!#dollskillhalloween #monsterhighcostume #clawdeenwolf #costumeideas #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/ogAHCA4ZZlvEnoCicT5x37AKBAIaRiUrdB4AE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676152011032726815",
+        "published_at": 1787243424,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@geminijayden/video/7676152011032726815"
+      }
+    }
+  ]
+}

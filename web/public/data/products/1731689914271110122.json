@@ -3,7 +3,7 @@
   "product_id": "1731689914271110122",
   "title": "Women's Solid Basic 2-Piece Outfit, Drawstring Hooded Long Sleeve Top & Slim Fit Casual Pants, Chic Matching Set for Daily Workout and Casual Wear",
   "clean_title": "Women's Solid Basic 2-Piece Outfit",
-  "image_url": "/img/product_1731689914271110122.webp",
+  "image_url": "https://s.500fd.com/tt_product/bac02388efd049699266f5681eb5a7f6~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731689914271110122",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Solid%20Basic%202-Piece%20Outfit",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731689914271110122",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7682855530313862430",
+      "cover_url": "https://s.500fd.com/tt_video/owL9rhxEhPRCDQ9I0BFqAfUDACV0XELGfvnEPt~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@yeseniamatostelle/video/7682855530313862430",
+      "creator_handle": "yeseniamatostelle",
+      "play_count": 8292,
+      "window_gmv": 2777.23,
+      "window_units_sold": 131,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7683756812755029279",
+      "cover_url": "https://s.500fd.com/tt_video/oYiD7iBIKB1CUDCgMAALAbC2EfZWz1iiQGIARA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@joha.stefanie/video/7683756812755029279",
+      "creator_handle": "joha.stefanie",
+      "play_count": 1093,
+      "window_gmv": 1006.32,
+      "window_units_sold": 47,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7688300839852592397",
+      "cover_url": "https://s.500fd.com/tt_video/ocHRQFLyhIGcffAASqAAe3IFqkQeG2BOIAlVqJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@doodledew4/video/7688300839852592397",
+      "creator_handle": "doodledew4",
+      "play_count": 1366,
+      "window_gmv": 948.05,
+      "window_units_sold": 47,
+      "is_ad": false,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7686878822364450078",
+      "cover_url": "https://s.500fd.com/tt_video/ostvAAi53Rq1xHBAilAqoRamMBCAzI4vrEEhR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lacatra_chita504/video/7686878822364450078",
+      "creator_handle": "lacatra_chita504",
+      "play_count": 9751,
+      "window_gmv": 911.83,
+      "window_units_sold": 47,
+      "is_ad": false,
+      "duration_seconds": 58
+    },
+    {
+      "video_id": "7680680365207407902",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@nova_vault0/video/7680680365207407902",
+      "creator_handle": "nova_vault0",
+      "play_count": 378,
+      "window_gmv": 805,
+      "window_units_sold": 46,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7676398949430824223",
+      "cover_url": "https://s.500fd.com/tt_video/o4slACliavLEABykAYMGYAIDI5oAERgGBDiVq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@edenariee/video/7676398949430824223",
+      "creator_handle": "edenariee",
+      "play_count": 2434,
+      "window_gmv": 796.84,
+      "window_units_sold": 42,
+      "is_ad": false,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "paratiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+        "weight": 131
+      },
+      {
+        "hashtag": "ideasdeoutfits",
+        "weight": 131
+      },
+      {
+        "hashtag": "fashion",
+        "weight": 131
+      },
+      {
+        "hashtag": "estilo",
+        "weight": 131
+      },
+      {
+        "hashtag": "spotlightfinds",
+        "weight": 89
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 82
+      },
+      {
+        "hashtag": "womenset",
+        "weight": 47
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 47
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 40.0
+    },
+    "best_posting_hour": {
+      "hour_start": 10,
+      "hour_end": 12
+    },
+    "top_hooks": [
+      "Hoodie Pant Set Women / Set de pantalon y blusa",
+      "my favorite kind of outfit: cute without trying \ud83e\udd0d",
+      "Women's Hooded Long Sleeve Drawstring Top & Casual Loose Pants Set, 2 Piece for Spring & Fall, Comfortable Daily Wear /"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      0,
+      6
+    ]
+  }
 }

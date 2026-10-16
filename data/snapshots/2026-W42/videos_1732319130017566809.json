@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732319130017566809",
+  "time_range_days": 90,
+  "total": 367,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "spacecadetmomma",
+        "creator_uid": "6818886579042780166"
+      },
+      "engagement_metrics": {
+        "comment_count": 66,
+        "like_count": 7199,
+        "play_count": 836770,
+        "share_count": 473
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 5474.15,
+        "window_units_sold": 220
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681133442020445470",
+      "video_meta": {
+        "caption_text": "Fall outfit for the win \ud83d\ude0d a denim mini dress #denimdress #falloutfit #sohochic #fallfashion #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oANCAh3fCYgqFEA4E4jIR3eDAE0EVcAJX9mqIA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681133442020445470",
+        "published_at": 1788403257,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spacecadetmomma/video/7681133442020445470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nancyramosrizo199625",
+        "creator_uid": "7020881255664665606"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 14,
+        "play_count": 1196,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 2740.7,
+        "window_units_sold": 149
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675869100756831501",
+      "video_meta": {
+        "caption_text": "#summerfashioninspo #affordablefashion #denim #denimdress ",
+        "cover_url": "https://s.500fd.com/tt_video/ocUMjFUeVIkAIAHBVEDLTETIQeGAFWA0FAeQMd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675869100756831501",
+        "published_at": 1787177572,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nancyramosrizo199625/video/7675869100756831501"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cryysstallove",
+        "creator_uid": "6727714338037122053"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 2482,
+        "play_count": 122600,
+        "share_count": 83
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 3003.49,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677670728816151821",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAeQfbjwqYOfZrSyFevgAPYHRMAGOXnggl49Ik~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677670728816151821",
+        "published_at": 1787597045,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677670728816151821"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cryysstallove",
+        "creator_uid": "6727714338037122053"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 1314,
+        "play_count": 73759,
+        "share_count": 58
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 2598.62,
+        "window_units_sold": 130
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677859547385580813",
+      "video_meta": {
+        "caption_text": "#falloutfitinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/oIP3QuLI5SkbkfbNHHGAQgGSjxVAPCeIpnIxed~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677859547385580813",
+        "published_at": 1787641073,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677859547385580813"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tiktok_shop_christie",
+        "creator_uid": "7397634882631861290"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 74,
+        "play_count": 11100,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1766.35,
+        "window_units_sold": 96
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685434070481833246",
+      "video_meta": {
+        "caption_text": "I swear I\u2019m obsessed with the fit of this Jean dress #jeandress #jeandressoutfit #falloutfitinspo #minijeandress #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/oYBIIDKIAC9BvCB2iAAimVaLEfJX1XiBYAL2oA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685434070481833246",
+        "published_at": 1789404592,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tiktok_shop_christie/video/7685434070481833246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cryysstallove",
+        "creator_uid": "6727714338037122053"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 849,
+        "play_count": 44924,
+        "share_count": 51
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1851.39,
+        "window_units_sold": 87
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677446559822384398",
+      "video_meta": {
+        "caption_text": "#falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/ospIWaLFuIGurfFAolkAezIzVLIxjtfHkUR4xC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677446559822384398",
+        "published_at": 1787544858,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cryysstallove/video/7677446559822384398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spacecadetmomma",
+        "creator_uid": "6818886579042780166"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 160,
+        "play_count": 29591,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1961.55,
+        "window_units_sold": 80
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681336511912054047",
+      "video_meta": {
+        "caption_text": "Obsessed with this denim dress would be an understatement! This will be a fall wardrobe staple!!! #denimdress #falloutfits #sohochic #dressoutfit #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/oAu3EIicAAKzs1RZiABAItT5IM1AlBCCAMiVfw~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681336511912054047",
+        "published_at": 1788450537,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spacecadetmomma/video/7681336511912054047"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spacecadetmomma",
+        "creator_uid": "6818886579042780166"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 81,
+        "play_count": 11500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1762.95,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681727674447875359",
+      "video_meta": {
+        "caption_text": "Okay but this denim dress is a whole vibe! It's a need for the fall wardrobe #falloutfit #denimdress #sohochic #fallfashion #ootd ",
+        "cover_url": "https://s.500fd.com/tt_video/okfqT0REE2Dmb1JEueFqrIAqEaA1QACmvRAV8A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681727674447875359",
+        "published_at": 1788541613,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spacecadetmomma/video/7681727674447875359"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spacecadetmomma",
+        "creator_uid": "6818886579042780166"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 484,
+        "play_count": 87112,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1385.62,
+        "window_units_sold": 70
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693151854951173406",
+      "video_meta": {
+        "caption_text": "The denim dress EVERYONE keeps asking me about!!! #denim #denimdress #falloutfits #falldealsforyou #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oAgIAbwI51AkEgqDvF5oEEENDDePfPADRDBD7V~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693151854951173406",
+        "published_at": 1791201521,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spacecadetmomma/video/7693151854951173406"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "heatherorourke4",
+        "creator_uid": "6902085020019246085"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 168,
+        "play_count": 40200,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8651282894614073433",
+        "window_gmv": 1169.22,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664855760395963661",
+      "video_meta": {
+        "caption_text": "I\u2019m 5\u20193\u201d 135lbs wearing a small. #denimdress #stretchydenim #jeandress #dresses ",
+        "cover_url": "https://s.500fd.com/tt_video/ogQEfFqQwBU1DhDpQfRGJSKgE6CP4XnFJqnARd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664855760395963661",
+        "published_at": 1784613335,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@heatherorourke4/video/7664855760395963661"
+      }
+    }
+  ]
+}

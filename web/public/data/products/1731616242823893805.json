@@ -3,7 +3,7 @@
   "product_id": "1731616242823893805",
   "title": "Women's Retro Lace Overbust Corset Top - Off-Shoulder Bodice with Hook&Eye Front, Adjustable Lacing, Polyester Knitting Fabric, Shapewear for Party & Wedding, Do Not Wring Clothing",
   "clean_title": "Women's Retro Lace Overbust Corset Top",
-  "image_url": "/img/product_1731616242823893805.webp",
+  "image_url": "https://s.500fd.com/tt_product/36c0615f352f473fa991d2aadabbbf10~tplv-fhlh96nyum-crop-webp:2218:2954.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731616242823893805",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Retro%20Lace%20Overbust%20Corset%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731616242823893805",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7687640803597946142",
+      "cover_url": "https://s.500fd.com/tt_video/ogdfTZ9gTLaehAwB6VsqBe1YAxRfYA2U4efEod~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687640803597946142",
+      "creator_handle": "violetsells",
+      "play_count": 3117782,
+      "window_gmv": 7249.22,
+      "window_units_sold": 286,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7678507799885778207",
+      "cover_url": "https://s.500fd.com/tt_video/o0jEE6iiYAqRIpwPiCBAIJR5IM1AiAiCPeiLva~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7678507799885778207",
+      "creator_handle": "rositamurcia777",
+      "play_count": 1915,
+      "window_gmv": 3563.86,
+      "window_units_sold": 147,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7687389602033847582",
+      "cover_url": "https://s.500fd.com/tt_video/oAZeq8DwIEvQEr4IiGVIvDDCXQ4WqkHfAAsFej~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687389602033847582",
+      "creator_handle": "violetsells",
+      "play_count": 49055,
+      "window_gmv": 2279.28,
+      "window_units_sold": 90,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7687405866156428575",
+      "cover_url": "https://s.500fd.com/tt_video/oUvEIABq4crRpmUiUJQavVAnDvEWB8i4PEIuZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687405866156428575",
+      "creator_handle": "violetsells",
+      "play_count": 43942,
+      "window_gmv": 2201.57,
+      "window_units_sold": 88,
+      "is_ad": true,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7692541700799073549",
+      "cover_url": "https://s.500fd.com/tt_video/o00FsUAgIlGAgkKLsfC38VlvIV5HjILBgvf2eQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@melinaglows/video/7692541700799073549",
+      "creator_handle": "melinaglows",
+      "play_count": 123500,
+      "window_gmv": 1657.06,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7687683438593232159",
+      "cover_url": "https://s.500fd.com/tt_video/oI2dEa30jB3RwAd2ShbwvmIDiBriaIIXVAA2U~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687683438593232159",
+      "creator_handle": "violetsells",
+      "play_count": 52186,
+      "window_gmv": 1637.08,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "corset",
+        "weight": 734
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 653
+      },
+      {
+        "hashtag": "beauty",
+        "weight": 530
+      },
+      {
+        "hashtag": "women",
+        "weight": 147
+      },
+      {
+        "hashtag": "sexy",
+        "weight": 147
+      },
+      {
+        "hashtag": "lace",
+        "weight": 147
+      },
+      {
+        "hashtag": "top",
+        "weight": 147
+      },
+      {
+        "hashtag": "corsettop",
+        "weight": 65
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 22,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "getting my costume early this year before it sells out!",
+      "SO GLAD I GOT IT BEFORE IT SELLS OUT",
+      "SOMEONE FIND MY WAIST"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      6,
+      2
+    ]
+  }
 }

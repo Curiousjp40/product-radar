@@ -3,7 +3,7 @@
   "product_id": "1732131533229822183",
   "title": "SHECURVE Easyslide Bathroom Friendly Shapewear Faja for Women Tummy Control Butt Lifter Bodysuit with Back Pull Down Bathroom Design Back Support & Cotton Gusset for New Moms Postpartum & Everyday Wear",
   "clean_title": "SHECURVE Easyslide Bathroom Friendly Shapewear Faja",
-  "image_url": "/img/product_1732131533229822183.jpg",
+  "image_url": "https://s.500fd.com/tt_product/17d3441e286141fcb17210e8a660bb04~tplv-fhlh96nyum-origin-image.image",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732131533229822183",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SHECURVE%20Easyslide%20Bathroom%20Friendly%20Shapewear%20Faja",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732131533229822183",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679140912290630926",
+      "cover_url": "https://s.500fd.com/tt_video/oUAOKAEp45g9KAAHBCRkEIXjABPyXAigA1Bia~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dontbossmebecky/video/7679140912290630926",
+      "creator_handle": "dontbossmebecky",
+      "play_count": 1152,
+      "window_gmv": 17371.22,
+      "window_units_sold": 571,
+      "is_ad": true,
+      "duration_seconds": 71
+    },
+    {
+      "video_id": "7683648454509219103",
+      "cover_url": "https://s.500fd.com/tt_video/o8WEwaDBFuzdozhnFRinABvEtmeIIVBfAqcsKE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7683648454509219103",
+      "creator_handle": "klothesminded",
+      "play_count": 105600,
+      "window_gmv": 15839.84,
+      "window_units_sold": 511,
+      "is_ad": true,
+      "duration_seconds": 36
+    },
+    {
+      "video_id": "7669879847920913695",
+      "cover_url": "https://s.500fd.com/tt_video/oEYJWFVDqB4pagzFEVeOMAQkEE0wfcuAgRQy9K~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7669879847920913695",
+      "creator_handle": "nessa19930",
+      "play_count": 872900,
+      "window_gmv": 12468.7,
+      "window_units_sold": 418,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7681486317993217311",
+      "cover_url": "https://s.500fd.com/tt_video/o0LEeGFmGEDtGsBA4CKAfwE5qaIiR9OEVOyhHB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7681486317993217311",
+      "creator_handle": "nessa19930",
+      "play_count": 743500,
+      "window_gmv": 9681.95,
+      "window_units_sold": 314,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7669593860678503693",
+      "cover_url": "https://s.500fd.com/tt_video/ogxvVmgbfAEVS8BsADRqwxCi3EDSFEAf79AIzl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mikaylarob/video/7669593860678503693",
+      "creator_handle": "mikaylarob",
+      "play_count": 249500,
+      "window_gmv": 9144.53,
+      "window_units_sold": 297,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7673702992310193438",
+      "cover_url": "https://s.500fd.com/tt_video/oozIqQezAAaiIF3AjFfanUDCNufgqEI7ENQNC8~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7673702992310193438",
+      "creator_handle": "nessa19930",
+      "play_count": 239000,
+      "window_gmv": 8861.31,
+      "window_units_sold": 286,
+      "is_ad": true,
+      "duration_seconds": 50
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "faja",
+        "weight": 2036
+      },
+      {
+        "hashtag": "shapewear",
+        "weight": 1934
+      },
+      {
+        "hashtag": "tummycontrol",
+        "weight": 1375
+      },
+      {
+        "hashtag": "shapeweargirl",
+        "weight": 672
+      },
+      {
+        "hashtag": "fajascolombianas",
+        "weight": 481
+      },
+      {
+        "hashtag": "shecurve",
+        "weight": 437
+      },
+      {
+        "hashtag": "seamlessshapewear",
+        "weight": 437
+      },
+      {
+        "hashtag": "fajasreductoras",
+        "weight": 418
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 34,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "Easyslide Bathroom Friendly Shapewear Faja for Women Tummy Control",
+      "I can\u2019t believe it took this long to create a bathroom friendly faja\ud83d\ude2d",
+      "Snatched AND bathroom friendly?"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      2,
+      0
+    ]
+  }
 }

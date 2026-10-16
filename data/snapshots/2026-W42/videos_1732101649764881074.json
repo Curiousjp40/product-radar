@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732101649764881074",
+  "time_range_days": 90,
+  "total": 313,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "bsv_xo",
+        "creator_uid": "6753263860851196933"
+      },
+      "engagement_metrics": {
+        "comment_count": 51,
+        "like_count": 4017,
+        "play_count": 91900,
+        "share_count": 146
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 23042.93,
+        "window_units_sold": 1678
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664800689813523726",
+      "video_meta": {
+        "caption_text": "yes to the dress ",
+        "cover_url": "https://s.500fd.com/tt_video/oEe5lAfWkvQCU1jaIyAGIlFELSPjwUe7DUHaCJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664800689813523726",
+        "published_at": 1784600500,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bsv_xo/video/7664800689813523726"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "niinadaniielle",
+        "creator_uid": "6772266074005210117"
+      },
+      "engagement_metrics": {
+        "comment_count": 572,
+        "like_count": 149200,
+        "play_count": 1800000,
+        "share_count": 5625
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 8487.4,
+        "window_units_sold": 651
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676257267796282655",
+      "video_meta": {
+        "caption_text": "\ud83c\udf38",
+        "cover_url": "https://s.500fd.com/tt_video/ogiziizCiICEAPQF8HfWwAsAIADm1BKpiAv1BJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676257267796282655",
+        "published_at": 1787267931,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@niinadaniielle/video/7676257267796282655"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bsv_xo",
+        "creator_uid": "6753263860851196933"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 683,
+        "play_count": 11800,
+        "share_count": 25
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 8424.65,
+        "window_units_sold": 577
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7665522771438472462",
+      "video_meta": {
+        "caption_text": "I really can\u2019t get over this dress #fyp #tiktokshop ",
+        "cover_url": "https://s.500fd.com/tt_video/ooQGUwAof0ltIEeRtSDHXrAAIDkOCIAISAeLj0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665522771438472462",
+        "published_at": 1784768628,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bsv_xo/video/7665522771438472462"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "niinadaniielle",
+        "creator_uid": "6772266074005210117"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 9457,
+        "play_count": 226400,
+        "share_count": 455
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 7443.11,
+        "window_units_sold": 564
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676637405327150367",
+      "video_meta": {
+        "caption_text": "\ud83e\ude77\ud83e\ude77\ud83e\ude77\ud83e\ude77",
+        "cover_url": "https://s.500fd.com/tt_video/oMmIIH7w1EKACAiy5BRiwCKiIyBAtmAvMAfVRb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676637405327150367",
+        "published_at": 1787356443,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@niinadaniielle/video/7676637405327150367"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brooklynnbk",
+        "creator_uid": "4488813"
+      },
+      "engagement_metrics": {
+        "comment_count": 152,
+        "like_count": 79216,
+        "play_count": 986901,
+        "share_count": 2482
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 4283.87,
+        "window_units_sold": 318
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676673929271938334",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oIMRBf8pCirKIlBDUA1AiB2JEyIIAACICiMATl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676673929271938334",
+        "published_at": 1787364948,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brooklynnbk/video/7676673929271938334"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vaquerafer",
+        "creator_uid": "6836499298134344710"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 122,
+        "play_count": 1609,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 2806.48,
+        "window_units_sold": 244
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7673611734011088159",
+      "video_meta": {
+        "caption_text": "#karolg #karolgoutfitideas #karolgconcierto ",
+        "cover_url": "https://s.500fd.com/tt_video/o8VIwfievAIjDSSQIHzEAOCqJIfFQTDEURMJSD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673611734011088159",
+        "published_at": 1786651982,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vaquerafer/video/7673611734011088159"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "reemoee",
+        "creator_uid": "7040212494431323141"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 2077,
+        "play_count": 14900,
+        "share_count": 93
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 3468.51,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690024156754218270",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oEqwUr4WfFfIcALGGQ2IiEuBm4RfAPeuqXdGIc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690024156754218270",
+        "published_at": 1790473286,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@reemoee/video/7690024156754218270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "theycallmems.maam",
+        "creator_uid": "6776430017066714118"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 24500,
+        "play_count": 391100,
+        "share_count": 199
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 4089.85,
+        "window_units_sold": 171
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664672130012925197",
+      "video_meta": {
+        "caption_text": "the IT girl dress of 2026 \ud83e\udd0d\ud83c\udf38\ud83d\udc95\ud83c\udf80",
+        "cover_url": "https://s.500fd.com/tt_video/o8lI8iY0gMHIkMvCm5WGeHojGRALLxMAUeeUgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664672130012925197",
+        "published_at": 1784579520,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@theycallmems.maam/video/7664672130012925197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hernameterrica",
+        "creator_uid": "6648289386265214981"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 1620,
+        "play_count": 38800,
+        "share_count": 169
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 1780.82,
+        "window_units_sold": 154
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7672836064389762335",
+      "video_meta": {
+        "caption_text": "#birthdaydress #meshdress",
+        "cover_url": "https://s.500fd.com/tt_video/osesvG9QgAqlG2HIEIxIHkPeTgDjAILqU2CwYe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672836064389762335",
+        "published_at": 1786471371,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hernameterrica/video/7672836064389762335"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cleopatraaduess",
+        "creator_uid": "6799806826046358534"
+      },
+      "engagement_metrics": {
+        "comment_count": 102,
+        "like_count": 31900,
+        "play_count": 371500,
+        "share_count": 533
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647042387379589810",
+        "window_gmv": 2809.45,
+        "window_units_sold": 154
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7667662797529976077",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQERuRCqnapALFnDeLBDsgAESLDfALcAwIA8EQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667662797529976077",
+        "published_at": 1785266893,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cleopatraaduess/video/7667662797529976077"
+      }
+    }
+  ]
+}

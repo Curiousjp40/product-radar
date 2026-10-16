@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732440631520235998",
+  "time_range_days": 90,
+  "total": 449,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 54,
+        "like_count": 5164,
+        "play_count": 446600,
+        "share_count": 405
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 26078.29,
+        "window_units_sold": 647
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683656010178874654",
+      "video_meta": {
+        "caption_text": "FDR sweatsuit!!! Sooo cute! ",
+        "cover_url": "https://s.500fd.com/tt_video/ocAdAfflDECqFA5EAhE1dxEIoCVI0H7AtBR9SA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683656010178874654",
+        "published_at": 1788992388,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7683656010178874654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 4851,
+        "play_count": 300200,
+        "share_count": 320
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 22899.39,
+        "window_units_sold": 570
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681091670565276959",
+      "video_meta": {
+        "caption_text": "FDR Sweat set!! 10/10 ",
+        "cover_url": "https://s.500fd.com/tt_video/oIAI9BVHAujdEfEIFXACKEIDYApqMAmE59fnDe~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681091670565276959",
+        "published_at": 1788400800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7681091670565276959"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 473,
+        "play_count": 32900,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 9232.56,
+        "window_units_sold": 234
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689661661652765982",
+      "video_meta": {
+        "caption_text": "FDR Women's Buttercream Cropped Zip-Up Hoodie & Sweatpants Set, Soft Casual Two-Piece Outfit with Hooded Jacket, Y2K Minimalist Streetwear Style for Daily Wear, Baggy Pant Lounge and Active Looks",
+        "cover_url": "https://s.500fd.com/tt_video/o0r3CM1ZpVPElrLic2p0GiAKBBIaRiPq0BtAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 55,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689661661652765982",
+        "published_at": 1790447340,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7689661661652765982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ohronysha",
+        "creator_uid": "17848581"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 5954,
+        "play_count": 289800,
+        "share_count": 313
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 4723.33,
+        "window_units_sold": 119
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680348268764630285",
+      "video_meta": {
+        "caption_text": "These gone be sold out ! \ud83e\udd2b\ud83d\udd25\ud83e\udd0f\ud83c\udffd#fy #foryourpage #fyp\u30b7\u309aviral ",
+        "cover_url": "https://s.500fd.com/tt_video/oIkELNIACCYDGZrYAAAjBefgIDHFWFEVAEeIt6~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 66,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680348268764630285",
+        "published_at": 1788220448,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ohronysha/video/7680348268764630285"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kitabita4",
+        "creator_uid": "6766767514182501381"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 1812,
+        "play_count": 34600,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 4252.59,
+        "window_units_sold": 108
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695523438550682911",
+      "video_meta": {
+        "caption_text": "Replying to @Kie\u2019s World\ud83e\ude77 ",
+        "cover_url": "https://s.500fd.com/tt_video/oQfHQhFrQAqQ5GGqPITdeHKAXdsGLLxtfUqf7R~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695523438550682911",
+        "published_at": 1791753691,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kitabita4/video/7695523438550682911"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "histutu23",
+        "creator_uid": "7122225211639497774"
+      },
+      "engagement_metrics": {
+        "comment_count": 200,
+        "like_count": 46000,
+        "play_count": 891500,
+        "share_count": 1952
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 3886.97,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677302953484504333",
+      "video_meta": {
+        "caption_text": "My model wasn\u2019t really in the mood today \ud83d\ude29 but the cute #womensjoggingsets must be seen \ud83d\ude1c#tiktockshopcreatorpicks #tiktokshopbacktoschool #fdr #butteryellow ",
+        "cover_url": "https://s.500fd.com/tt_video/okLpfFCRSDqCi2EJQgA5AxmkEf8u54DEKbIA0A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677302953484504333",
+        "published_at": 1787511408,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@histutu23/video/7677302953484504333"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "babyxxverde",
+        "creator_uid": "7255027563949638702"
+      },
+      "engagement_metrics": {
+        "comment_count": 67,
+        "like_count": 26400,
+        "play_count": 433600,
+        "share_count": 539
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 3904.31,
+        "window_units_sold": 102
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681459903508040973",
+      "video_meta": {
+        "caption_text": "#babyverde #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/osyIpIBkwAOPBF9wIifyQ1BAIyTipiC1y02JDa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681459903508040973",
+        "published_at": 1788479263,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@babyxxverde/video/7681459903508040973"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "beautywithaj",
+        "creator_uid": "6763274144936363013"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 223,
+        "play_count": 38900,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 3696.53,
+        "window_units_sold": 95
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679434751878368543",
+      "video_meta": {
+        "caption_text": "I\u2019m kinda obsessed with this cropped zip up hoodie.. it\u2019s thick but not bulky, and hugs your waist perfectly! \ud83d\ude0d #buttercreamyellow #croppedjacket #zipuphoodie ",
+        "cover_url": "https://s.500fd.com/tt_video/ogUM1tWGDIaV3SzNAyFDVIR4eBfBqjEIE6AaEk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679434751878368543",
+        "published_at": 1788012000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@beautywithaj/video/7679434751878368543"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sabinagilman1998",
+        "creator_uid": "6674938223704097797"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 1255,
+        "play_count": 144070,
+        "share_count": 96
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 3466.88,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678150845418065165",
+      "video_meta": {
+        "caption_text": "The quality of this set is incredible!!! #athleisure #loungeset ",
+        "cover_url": "https://s.500fd.com/tt_video/oUpORkzLqESAEAD2RCjFUCWEIQDAf6A7OgfjYA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678150845418065165",
+        "published_at": 1787708816,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sabinagilman1998/video/7678150845418065165"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "farahheartss",
+        "creator_uid": "7445318150684410922"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 21600,
+        "play_count": 405900,
+        "share_count": 652
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496152587431872990",
+        "window_gmv": 3074.57,
+        "window_units_sold": 84
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671318270154231070",
+      "video_meta": {
+        "caption_text": "Can we skip to falll???? \ud83e\udee3  #fyp #fyppppppppppppppppppppppp #viral #fashiontiktok #fashiontiktokoutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oUD15FOeGpIzTUQJFfGrZ6LfY2E1AA8Qc5f1QR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671318270154231070",
+        "published_at": 1786117996,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@farahheartss/video/7671318270154231070"
+      }
+    }
+  ]
+}

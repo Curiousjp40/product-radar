@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729742098567566065",
+  "time_range_days": 90,
+  "total": 1497,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "whatlololikes",
+        "creator_uid": "6712539342751007749"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 63,
+        "play_count": 51500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 15624.52,
+        "window_units_sold": 705
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691716874010201374",
+      "video_meta": {
+        "caption_text": "Truly the most perfect legging top \ud83e\udd0c\ud83c\udffc\u2728 #leggingsoutfit #tunictop #longtshirt #falloutfits #fallstyle ",
+        "cover_url": "https://s.500fd.com/tt_video/oYAPAfDRDQFqFA6RXeEdOsI9fJUQaq1A8cGofA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691716874010201374",
+        "published_at": 1790867416,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatlololikes/video/7691716874010201374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "the_blonde_amazon",
+        "creator_uid": "6610058767143059462"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 107,
+        "play_count": 49000,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 14075.03,
+        "window_units_sold": 612
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688460035864792334",
+      "video_meta": {
+        "caption_text": "An oversized long sleeve with thumb holes? Yes. I need every color ",
+        "cover_url": "https://s.500fd.com/tt_video/ocfQgEvERXWQqA5fyzWs2ucDZSkDEBFGSRsDaE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688460035864792334",
+        "published_at": 1790109129,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@the_blonde_amazon/video/7688460035864792334"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vibe_with_stephanie",
+        "creator_uid": "6894813898965648390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 899,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 14191.64,
+        "window_units_sold": 566
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680238167299067150",
+      "video_meta": {
+        "caption_text": "The perfect trendy fall top! @WIHOLL  #raglan ",
+        "cover_url": "https://s.500fd.com/tt_video/oovVlwa1uEg6E4UBiWus3QsBwidApBBiIIjRs~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680238167299067150",
+        "published_at": 1788194842,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7680238167299067150"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dontbossmebecky",
+        "creator_uid": "6742220928212403205"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 12,
+        "play_count": 1774,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 12251.64,
+        "window_units_sold": 506
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677662282922446094",
+      "video_meta": {
+        "caption_text": "@WIHOLL @WIHOLL FASHION ",
+        "cover_url": "https://s.500fd.com/tt_video/oAABAVhMNC1IfBcA1CBksEp4JRiIiSiwAm8C1o~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677662282922446094",
+        "published_at": 1787595093,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dontbossmebecky/video/7677662282922446094"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 88,
+        "like_count": 4207,
+        "play_count": 1200000,
+        "share_count": 345
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 9301.82,
+        "window_units_sold": 382
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684042054619434270",
+      "video_meta": {
+        "caption_text": "#shirt #longsleeve #FallFashion #fashion #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oEUGRDAofAIKEOFhADRqsyCSZEEVFEAkJzAQe9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684042054619434270",
+        "published_at": 1789129800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7684042054619434270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "beautyunseen",
+        "creator_uid": "6940324688241591301"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 89,
+        "play_count": 21000,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 9347.72,
+        "window_units_sold": 360
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683977839749696798",
+      "video_meta": {
+        "caption_text": "Plus size basic that we all need in our closets to be comfortable and to layer with. #fashionover40 #falldealsforyou #vintagetshirt #longsleeveshirt #plussizebasictops ",
+        "cover_url": "https://s.500fd.com/tt_video/okqTVMFCBBnQvAFR5EzQ6TFHaoERAgflnkeDE4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683977839749696798",
+        "published_at": 1789065518,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@beautyunseen/video/7683977839749696798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sho.momma",
+        "creator_uid": "7407558207856722987"
+      },
+      "engagement_metrics": {
+        "comment_count": 62,
+        "like_count": 3347,
+        "play_count": 741505,
+        "share_count": 166
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 7344.79,
+        "window_units_sold": 295
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680760705838075167",
+      "video_meta": {
+        "caption_text": "I see why you\u2019re all getting multiple colors now ",
+        "cover_url": "https://s.500fd.com/tt_video/o0CixaEAKTAi5i8iCVILzSfuAWBdiBAIbAz1PX~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680760705838075167",
+        "published_at": 1788316470,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sho.momma/video/7680760705838075167"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "long.eleven",
+        "creator_uid": "7655216780802540557"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 184,
+        "play_count": 87700,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 6402.35,
+        "window_units_sold": 288
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668649604962880782",
+      "video_meta": {
+        "caption_text": "#WIHOLL #DealsForYouDays  #SummerWins #tiktokshopdealsforyoudays  #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oY3hEBVW1xBEyMjsA6iiwIBaCNAIZHaIIdfxpk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668649604962880782",
+        "published_at": 1785510000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@long.eleven/video/7668649604962880782"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 2768,
+        "play_count": 886662,
+        "share_count": 254
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 6753.97,
+        "window_units_sold": 281
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685853823855856927",
+      "video_meta": {
+        "caption_text": "#longsleeve #longsleevetop #fashion #FallFashion #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oggHEjQqALrRAQQsqkQVmfFtEgETVafRBFI4DJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685853823855856927",
+        "published_at": 1789520400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7685853823855856927"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "devynlynnae",
+        "creator_uid": "7221384974037124138"
+      },
+      "engagement_metrics": {
+        "comment_count": 221,
+        "like_count": 1580,
+        "play_count": 189400,
+        "share_count": 66
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495880532819217137",
+        "window_gmv": 5868.93,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668263500648664351",
+      "video_meta": {
+        "caption_text": "\ud83e\udd0d When the thumbhole top was  MADE for puffer vests! #thumbholesleeves #thumbholes #leggingstops #falltops #fallbasics ",
+        "cover_url": "https://s.500fd.com/tt_video/ocCWUPUEAuRjAQjI0CFqASDDASVeAEjifyaE05~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668263500648664351",
+        "published_at": 1785406742,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@devynlynnae/video/7668263500648664351"
+      }
+    }
+  ]
+}

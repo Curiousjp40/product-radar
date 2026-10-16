@@ -3,7 +3,7 @@
   "product_id": "1732464729760370847",
   "title": "Aesthetic Multifunctional Rice Strainer Basket with Handle - Sturdy BPA-Free Transparent Plastic Kitchen Utensil, Colander for Draining Vegetables, Fruits",
   "clean_title": "Aesthetic Multifunctional Rice Strainer Basket with",
-  "image_url": "/img/product_1732464729760370847.webp",
+  "image_url": "https://s.500fd.com/tt_product/4f4bd2e06ee94bfaac04604294bea646~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732464729760370847",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Aesthetic%20Multifunctional%20Rice%20Strainer%20Basket%20with",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732464729760370847",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7689015942734499085",
+      "cover_url": "https://s.500fd.com/tt_video/oY8R7tEO0fXSY0S1E82c3lgIDfAZFDDJvBcqNQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realife.55/video/7689015942734499085",
+      "creator_handle": "realife.55",
+      "play_count": 26400,
+      "window_gmv": 11021,
+      "window_units_sold": 1070,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7692754314481257758",
+      "cover_url": "https://s.500fd.com/tt_video/o0Fc5sBqwA6QE2vBE0rifRJBVOCfQNmgEagAID~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@funnymoments.711/video/7692754314481257758",
+      "creator_handle": "funnymoments.711",
+      "play_count": 430400,
+      "window_gmv": 6328.46,
+      "window_units_sold": 511,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7675660765004565773",
+      "cover_url": "https://s.500fd.com/tt_video/ooAoHINVkIBBdjqIQWFeCLbC6G1zetEMeu6cEA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realife.55/video/7675660765004565773",
+      "creator_handle": "realife.55",
+      "play_count": 277600,
+      "window_gmv": 4337.45,
+      "window_units_sold": 485,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7670436013235309838",
+      "cover_url": "https://s.500fd.com/tt_video/ocCbCfsLBBl1iQWC8yi3WIEPOApIVsaw9zI20A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realife.55/video/7670436013235309838",
+      "creator_handle": "realife.55",
+      "play_count": 268100,
+      "window_gmv": 4232.34,
+      "window_units_sold": 481,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7681275036501626125",
+      "cover_url": "https://s.500fd.com/tt_video/o8fHXVXSmBDFmvYIEQltxlA93B0gvq4CDERZEe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realife.55/video/7681275036501626125",
+      "creator_handle": "realife.55",
+      "play_count": 149500,
+      "window_gmv": 4063.16,
+      "window_units_sold": 418,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7684141016940563725",
+      "cover_url": "https://s.500fd.com/tt_video/oIyUIkFnAcSUfgdHDADAQ2onRcqgGCFEA4Ecfd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@realife.55/video/7684141016940563725",
+      "creator_handle": "realife.55",
+      "play_count": 243200,
+      "window_gmv": 4149.12,
+      "window_units_sold": 417,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 4121
+      },
+      {
+        "hashtag": "dealsforyoudays",
+        "weight": 3896
+      },
+      {
+        "hashtag": "tiktokshopmemorialday",
+        "weight": 3610
+      },
+      {
+        "hashtag": "sohochic",
+        "weight": 3415
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 3129
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 797
+      },
+      {
+        "hashtag": "tiktok",
+        "weight": 511
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 511
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 26,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 4,
+      "hour_end": 6
+    },
+    "top_hooks": [
+      "Este colador para arroz es muy pr\u00e1ctico, te sirve para lavar arroz, verduras y frutas sin complicaciones.",
+      "Despu\u00e9s de cargarlo, coloca esta funda de silicona en tu cargador.",
+      "\u00a150% de descuento y env\u00edo gratis en 24 horas!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.9,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      6,
+      2
+    ]
+  }
 }

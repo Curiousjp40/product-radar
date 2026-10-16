@@ -1,9 +1,11 @@
 import { loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl } from "../asset";
+import { bestVideoTimeHtml } from "../bestTime";
 import { addEntry, getEntries, getMonthlyGoal, setMonthlyGoal } from "../earningsGoal";
 import { bestCategoryForGoal, earningsProgress, earningsThisMonth, videosNeeded } from "../earningsGoalLogic";
+import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
-import { getAllStatuses, setStatus } from "../pipeline";
+import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import { productsToFilmToday } from "../rotation";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
@@ -85,6 +87,7 @@ function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
         data-name="${pick.clean_title.replace(/"/g, "&quot;")}"
         ${requested ? "disabled" : ""}
       >${requested ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
+      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
     </div>
   `;
 }
@@ -106,6 +109,7 @@ function heroHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed:
         <div class="hoy-hero-earn">${earnLine}</div>
         ${why ? `<p class="hoy-hero-why">${why}</p>` : ""}
         ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
+        ${bestVideoTimeHtml(pick.best_video_time, lang)}
         ${hashtagsHtml(pick, lang, 5)}
         ${shotListDetailsHtml(pick, hooks, lang)}
         ${actionButtons(pick, lang, filmed)}
@@ -228,17 +232,23 @@ function wireGoalCard(container: HTMLElement, rerender: () => void): void {
 
 export async function renderHoy(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const [{ data: picksData, isSample }, { data: hooks }, statuses] = await Promise.all([
+  const [{ data: picksData, isSample }, { data: hooks }, statuses, feedback] = await Promise.all([
     loadPicks(),
     loadHooks(),
     getAllStatuses(),
+    getAllFeedback(),
   ]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
   const today = new Date();
+  const hiddenCategories = new Set(getHiddenCategories());
+  const visiblePicks = picksData.picks.filter(
+    (p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category),
+  );
+  const categoryByProductId = new Map(picksData.picks.map((p) => [p.product_id, p.category]));
   const postedIds = new Set(Object.entries(statuses).filter(([, s]) => s === "posted").map(([id]) => id));
-  const allPickIds = picksData.picks.map((p) => p.product_id);
-  const todaysIds = productsToFilmToday(allPickIds, today, postedIds);
-  const byId = new Map(picksData.picks.map((p) => [p.product_id, p]));
+  const allPickIds = visiblePicks.map((p) => p.product_id);
+  const todaysIds = productsToFilmToday(allPickIds, today, postedIds, 6);
+  const byId = new Map(visiblePicks.map((p) => [p.product_id, p]));
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
   const [hero, ...rest] = todaysPicks;
 
@@ -267,6 +277,23 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   `;
 
   wireGoalCard(container, () => void renderHoy(container, lang));
+  wireCategoryHidePrompt(container, () => void renderHoy(container, lang));
+
+  container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const { productId, category } = btn.dataset;
+      if (!productId || !category) return;
+      await setFeedback(productId, "not_for_me");
+      const updatedFeedback = await getAllFeedback();
+      if (!getHiddenCategories().includes(category) && countHiddenInCategory(updatedFeedback, categoryByProductId, category) >= 3) {
+        const label = lang === "es" ? picksData.picks.find((p) => p.category === category)?.category_label_es : picksData.picks.find((p) => p.category === category)?.category_label_en;
+        container.insertAdjacentHTML("beforeend", categoryHidePromptHtml(category, label ?? category, lang));
+        wireCategoryHidePrompt(container, () => void renderHoy(container, lang));
+      } else {
+        void renderHoy(container, lang);
+      }
+    });
+  });
 
   container.querySelectorAll<HTMLButtonElement>('[data-action="mark-filmed"]').forEach((btn) => {
     btn.addEventListener("click", () => {

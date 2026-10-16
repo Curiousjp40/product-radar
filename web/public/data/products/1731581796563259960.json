@@ -3,7 +3,7 @@
   "product_id": "1731581796563259960",
   "title": "Project Cloud Women's Genuine Leather Platform Clogs | Walking Girl Shoes Footwear | ProjectPlush | Lightweight Non-Slip \u2013 Benton Chunky",
   "clean_title": "Project Cloud Women's Genuine Leather Platform",
-  "image_url": "/img/product_1731581796563259960.webp",
+  "image_url": "https://s.500fd.com/tt_product/5b9cee57b75a439a8679e60ec3728392~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731581796563259960",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Project%20Cloud%20Women%27s%20Genuine%20Leather%20Platform",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731581796563259960",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7673338602629238046",
+      "cover_url": "https://s.500fd.com/tt_video/oQOlI9IK3iBRsNA2B1ALr0wnExiBMGFAAaAPE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shoppin4ux2/video/7673338602629238046",
+      "creator_handle": "shoppin4ux2",
+      "play_count": 15000,
+      "window_gmv": 30002.32,
+      "window_units_sold": 541,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7688442030959201550",
+      "cover_url": "https://s.500fd.com/tt_video/oceRHIeGkgTQjbVIuVegLZDaLCaATIpULjrxgA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7688442030959201550",
+      "creator_handle": "sophmademebuyit",
+      "play_count": 21218,
+      "window_gmv": 10820.8,
+      "window_units_sold": 194,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7665893678308658445",
+      "cover_url": "https://s.500fd.com/tt_video/oIWxKc54GbgIBiq5DmshEPPikuMBBjaAAiAEA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7665893678308658445",
+      "creator_handle": "jackiebentley",
+      "play_count": 136100,
+      "window_gmv": 9704.3,
+      "window_units_sold": 176,
+      "is_ad": true,
+      "duration_seconds": 41
+    },
+    {
+      "video_id": "7676598017872432398",
+      "cover_url": "https://s.500fd.com/tt_video/oYPIqKBEftR7KQoQrBFqAwCDgqSRmDgVfMiEps~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@heather_and_zep/video/7676598017872432398",
+      "creator_handle": "heather_and_zep",
+      "play_count": 7029,
+      "window_gmv": 9230.14,
+      "window_units_sold": 165,
+      "is_ad": true,
+      "duration_seconds": 43
+    },
+    {
+      "video_id": "7684373792537251086",
+      "cover_url": "https://s.500fd.com/tt_video/owCRPvkUEgPYyi9Bm4FEFAaipraq8uIhnVvDB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7684373792537251086",
+      "creator_handle": "sophmademebuyit",
+      "play_count": 636700,
+      "window_gmv": 9255.05,
+      "window_units_sold": 148,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7675134652541193486",
+      "cover_url": "https://s.500fd.com/tt_video/okjxOlACvBwOA7ErADiaqvBAigoUBmakIROE4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emma.ry/video/7675134652541193486",
+      "creator_handle": "emma.ry",
+      "play_count": 952,
+      "window_gmv": 8126.33,
+      "window_units_sold": 146,
+      "is_ad": true,
+      "duration_seconds": 53
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "projectcloud",
+        "weight": 1111
+      },
+      {
+        "hashtag": "platformclogs",
+        "weight": 672
+      },
+      {
+        "hashtag": "clogs",
+        "weight": 652
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 523
+      },
+      {
+        "hashtag": "womensshoes",
+        "weight": 165
+      },
+      {
+        "hashtag": "fallfashiontrends",
+        "weight": 165
+      },
+      {
+        "hashtag": "fallshoes",
+        "weight": 165
+      },
+      {
+        "hashtag": "sliponshoes",
+        "weight": 165
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 4,
+      "hour_end": 6
+    },
+    "top_hooks": [
+      "Great deal on Project Cloud Women's Genuine Leather Platform Clogs",
+      "Clogs are the best fall shoes because they are so easy to style with angering and Cloud Shoes has the cutest and comfiest ones!",
+      "What footwear do you wear to work?"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

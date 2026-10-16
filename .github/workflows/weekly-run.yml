@@ -62,7 +62,12 @@ jobs:
         if: steps.tz_gate.outputs.proceed == 'true'
         env:
           FASTMOSS_API_KEY: ${{ secrets.FASTMOSS_API_KEY }}
-        run: python -m engine.run --budget 75 --print-picks
+        # No --budget: engine.run now computes it dynamically every run
+        # (config/weights.yaml's credits section -- balance minus the
+        # Buscar cuenta search reserve and 7b's monthly live-timing pull,
+        # split across the Mondays left before the reset), logged plainly
+        # at the top of this step's output. Added 2026-10-15, Part 1b.
+        run: python -m engine.run --print-picks
 
       - name: Commit updated data
         if: steps.tz_gate.outputs.proceed == 'true'

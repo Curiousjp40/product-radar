@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732391124033179912",
+  "time_range_days": 90,
+  "total": 727,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "habitualhome_us",
+        "creator_uid": "7527720645121016846"
+      },
+      "engagement_metrics": {
+        "comment_count": 285,
+        "like_count": 105100,
+        "play_count": 9200000,
+        "share_count": 15800
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 54141.5,
+        "window_units_sold": 1141
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671705401414421791",
+      "video_meta": {
+        "caption_text": "Upgrade your closet storage on a budget \ud83d\udc47\ud83c\udf38\ud83d\udda4#closet #homeorganization #storagehack #dresser #affordablefurniture ",
+        "cover_url": "https://s.500fd.com/tt_video/o8CeIqoBHBA4XVgPD6i5iI1E5CuAZA1OItvw3i~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671705401414421791",
+        "published_at": 1786208126,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@habitualhome_us/video/7671705401414421791"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 186,
+        "like_count": 41500,
+        "play_count": 10500000,
+        "share_count": 9032
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 33515.98,
+        "window_units_sold": 602
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682422159020543263",
+      "video_meta": {
+        "caption_text": "The best organization hack I have found \ud83d\ude4c\ud83c\udffb love these storage dressers #dressers #organizedhome #closetorganizing #storagehacks #storage ",
+        "cover_url": "https://s.500fd.com/tt_video/oEPdayaDkWR0EAlA41CS6gcBgiAApBliIEcAH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682422159020543263",
+        "published_at": 1788703321,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7682422159020543263"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "glamazontay",
+        "creator_uid": "6911437046750577670"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 4107,
+        "play_count": 113700,
+        "share_count": 160
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 32423.27,
+        "window_units_sold": 581
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7679465286373854495",
+      "video_meta": {
+        "caption_text": "I gave my closet a whole transformation just by adding this drawer system! \ud83d\ude0d It helped cut down SO much clutter and made everything look way more organized and put together. And it was super easy to assemble! If your closet needs a little upgrade, definitely grab yours while they\u2019re on sale! \ud83d\udecd\ufe0f\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/o41CEStCABi0OAAA08wBfiQ0iiKQGIXZIXSn3A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679465286373854495",
+        "published_at": 1788014862,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@glamazontay/video/7679465286373854495"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 67,
+        "like_count": 17300,
+        "play_count": 6500000,
+        "share_count": 3301
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 21918.11,
+        "window_units_sold": 455
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673166008399432991",
+      "video_meta": {
+        "caption_text": "Highly recommend if you are looking to organize your space \ud83d\ude4c\ud83c\udffb #dressers #affordabledressers #organizedhome #closetorganization #closetstorage ",
+        "cover_url": "https://s.500fd.com/tt_video/owIlQUoeReEQiZRGzHepzOL7OYUGIDAQAfmR5F~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673166008399432991",
+        "published_at": 1786548192,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7673166008399432991"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "homesmartpicks_us",
+        "creator_uid": "7527711920158786573"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 7371,
+        "play_count": 1100000,
+        "share_count": 810
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 19731.46,
+        "window_units_sold": 401
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672120402579180831",
+      "video_meta": {
+        "caption_text": "#closetorganization #roomreset #dreamcloset #organizer #dresser ",
+        "cover_url": "https://s.500fd.com/tt_video/okQfeGJpZ4jYOLoINMHG7AARU2QeAf4AOgAuI2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672120402579180831",
+        "published_at": 1786385640,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@homesmartpicks_us/video/7672120402579180831"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "habitualhome_us",
+        "creator_uid": "7527720645121016846"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 6224,
+        "play_count": 877300,
+        "share_count": 835
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 19823.69,
+        "window_units_sold": 398
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683695673308417310",
+      "video_meta": {
+        "caption_text": "10/10! This is my dream closet storage solution!#closet #storagesolutions #closetorganization #affordablefurniture #spacesaving ",
+        "cover_url": "https://s.500fd.com/tt_video/oUVAqADTPEMIfAFjrIDQBRfAAQIwA9fF5i8DEi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683695673308417310",
+        "published_at": 1788999825,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@habitualhome_us/video/7683695673308417310"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 1426,
+        "play_count": 505600,
+        "share_count": 377
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 13072.75,
+        "window_units_sold": 274
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666107717940956447",
+      "video_meta": {
+        "caption_text": "Affordable + great quality! Love this closet organization hack \ud83d\udc5a\ud83d\udc59\ud83d\udc57 #closetorganization #closetorganizationhacks #dresser #storage #organization ",
+        "cover_url": "https://s.500fd.com/tt_video/oIfGjvouUQqlIvIHfCxLzjNIQmGQ0lAaLAe7Gr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666107717940956447",
+        "published_at": 1784904804,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7666107717940956447"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 1225,
+        "play_count": 573000,
+        "share_count": 310
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 14148.1,
+        "window_units_sold": 258
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678114710956281119",
+      "video_meta": {
+        "caption_text": "These motivated me to organize all the closets in the house and I am so glad they did \ud83d\ude4c\ud83c\udffb\ud83d\udc4f\ud83c\udffb #organizedhome #organizationhacks #storagehacks #homeorganization #dresser ",
+        "cover_url": "https://s.500fd.com/tt_video/oYJ3LFPEEQeIA1juiOfSqztARq6SqDV3EH1LBG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678114710956281119",
+        "published_at": 1787700405,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7678114710956281119"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "homesmartpicks_us",
+        "creator_uid": "7527711920158786573"
+      },
+      "engagement_metrics": {
+        "comment_count": 49,
+        "like_count": 10400,
+        "play_count": 1800000,
+        "share_count": 1891
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 11855.56,
+        "window_units_sold": 251
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672111693475958046",
+      "video_meta": {
+        "caption_text": "Low-Cost makeover to level up closet space. #roomorganization #bedroommakeover #storagedresser #organizedhome #tiktokshopfind ",
+        "cover_url": "https://s.500fd.com/tt_video/ogMy01ABfABJAWBACQO4iWIA1iIEGP7AuKiEiM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672111693475958046",
+        "published_at": 1786302724,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@homesmartpicks_us/video/7672111693475958046"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_ky.m_",
+        "creator_uid": "7281986166968026158"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 95,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494598898067735816",
+        "window_gmv": 10339.58,
+        "window_units_sold": 224
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678872689360129293",
+      "video_meta": {
+        "caption_text": "Organize your space with the NOVA CASA 5-Drawer Fabric Storage Tower Dresser. This solid and stable multifunctional cupboard cabinet features fabric bins designed for bedroom closet organization, entryway use, or living room decorations. A great choice for aesthetic decor and apartment furniture. Shop now.\n\nColor, size, texture, and performance may vary depending on the product and how it is used.\n\n#fyp #foryourpage #tiktokshop #TikTokShopBackToSchool #Moras",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678872689360129293",
+        "published_at": 1787876883,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_ky.m_/video/7678872689360129293"
+      }
+    }
+  ]
+}

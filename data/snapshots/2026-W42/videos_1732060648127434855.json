@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732060648127434855",
+  "time_range_days": 90,
+  "total": 22,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mini.sun85",
+        "creator_uid": "7583900345521964087"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 420,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 10.74,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692222515908758797",
+      "video_meta": {
+        "caption_text": "#shopping #tiktokshop ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692222515908758797",
+        "published_at": 1790985142,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mini.sun85/video/7692222515908758797"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 287,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683849646678101261",
+      "video_meta": {
+        "caption_text": "#VelvetPouch #TravelJewelryCase #ChicOrganization #PackingEssentials #TravelInStyle ",
+        "cover_url": "https://s.500fd.com/tt_video/osABDJwi1V1IPAXPw2BUMIfkpUhIiIiwvX2C1V~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683849646678101261",
+        "published_at": 1789079400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7683849646678101261"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 316,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681938392065658125",
+      "video_meta": {
+        "caption_text": "#jewelryorganizer #storagebag #compactandportable #productrecommendation\ud83d\udd25",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681938392065658125",
+        "published_at": 1788701400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7681938392065658125"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 343,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681608402388143374",
+      "video_meta": {
+        "caption_text": "This is the most travel-friendly mini jewelry case I've ever seen! \ud83d\ude0d\ud83c\udf80 #Aesthetics #MiniJewelryCase #WomensFashion #jewelrycase",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681608402388143374",
+        "published_at": 1788530400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7681608402388143374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 335,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7678974206201089293",
+      "video_meta": {
+        "caption_text": "This is the most travel-friendly mini jewelry case I've ever seen! \ud83d\ude0d\ud83c\udf80 #Aesthetics #MiniJewelryCase #WomensFashion #jewelrycase",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678974206201089293",
+        "published_at": 1788125400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7678974206201089293"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 272,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7678282282074934542",
+      "video_meta": {
+        "caption_text": "Girls I swear it\u2019s tiniest traveling jewelry bag!!!\ud83d\udc95\ud83d\ude0a#minibag #jewelrybox #tiktokshop#usa",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678282282074934542",
+        "published_at": 1787765400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7678282282074934542"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 344,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7677912518769134862",
+      "video_meta": {
+        "caption_text": "The cutest and smallest travel jewelry bag \ud83d\ude0a\ud83d\udc95\u263a\ufe0f #minibag #jewelrybox #fashionfinds #travellife #viralvideo",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677912518769134862",
+        "published_at": 1787666400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7677912518769134862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 344,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7674925602574519566",
+      "video_meta": {
+        "caption_text": "New arrival! \ud83d\uded2This compact yet powerful jewelry pouch is absolutely adorable\ud83d\udc8d\ud83d\udc96\ud83d\udc96#jewelry #travel #jewelryorganization",
+        "cover_url": "https://s.500fd.com/tt_video/oMfOC9VABBAiAIwY6MBgp1IIQEEWD0IKWiFC2Y~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674925602574519566",
+        "published_at": 1787002200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7674925602574519566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 288,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 2.67,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7673359194157862157",
+      "video_meta": {
+        "caption_text": "POV: You finally found it\u2728\ud83d\udc95 The cutest tiniest traveling jewelry bag \ud83d\udc8e\ud83c\udf80\ud83d\udc96#travelhacks#JewelryStorage#JewelryPouch#Storage bag",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673359194157862157",
+        "published_at": 1786593175,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7673359194157862157"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "limeijemhxe",
+        "creator_uid": "7472689743797961770"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 15,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494215256461837415",
+        "window_gmv": 0,
+        "window_units_sold": 0
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685336598006779150",
+      "video_meta": {
+        "caption_text": "The cutest and smallest travel jewelry bag \ud83d\udc95\ud83d\udc95 #minibag #jewelrybox #fashionfinds #travellife",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685336598006779150",
+        "published_at": 1789394400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@limeijemhxe/video/7685336598006779150"
+      }
+    }
+  ]
+}

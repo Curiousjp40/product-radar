@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732532755046568591",
+  "time_range_days": 90,
+  "total": 274,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "meghouse24",
+        "creator_uid": "6626576401272078342"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 4587,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 13018.8,
+        "window_units_sold": 571
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691907576346217741",
+      "video_meta": {
+        "caption_text": "#organizedhome #home #declutter ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691907576346217741",
+        "published_at": 1790911818,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@meghouse24/video/7691907576346217741"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "berlinreviews1",
+        "creator_uid": "6821302736206709766"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 49,
+        "play_count": 21300,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 5061.6,
+        "window_units_sold": 222
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691041472967216414",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691041472967216414",
+        "published_at": 1790710159,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7691041472967216414"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "berlinreviews1",
+        "creator_uid": "6821302736206709766"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 178,
+        "play_count": 31400,
+        "share_count": 30
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 4286.4,
+        "window_units_sold": 188
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690652184031104286",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690652184031104286",
+        "published_at": 1790619529,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7690652184031104286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "meghouse24",
+        "creator_uid": "6626576401272078342"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 242,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 3784.8,
+        "window_units_sold": 166
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695971899393805582",
+      "video_meta": {
+        "caption_text": "Picking up my shoes is a must for me",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695971899393805582",
+        "published_at": 1791858106,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@meghouse24/video/7695971899393805582"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "my.daily.steals",
+        "creator_uid": "7170558986213803050"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 38,
+        "play_count": 9871,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 3739.2,
+        "window_units_sold": 164
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690668446706650382",
+      "video_meta": {
+        "caption_text": "the perfect closet storage system! #closetstorage #shoecloset #shoeorganizer #shoeorganization #shoestorage ",
+        "cover_url": "https://s.500fd.com/tt_video/o0IE6iqSrBIoDXBtIfi32SEgitvVPu5eNmtARl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690668446706650382",
+        "published_at": 1790623319,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@my.daily.steals/video/7690668446706650382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "caitlynjones",
+        "creator_uid": "1684989"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 15,
+        "play_count": 7546,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 3716.4,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690596725362363662",
+      "video_meta": {
+        "caption_text": "One rack for boots, kids\u2019 shoes, hats + jackets = instant organization! \ud83d\udda4 #GarageOrganization #ShoeStorage ",
+        "cover_url": "https://s.500fd.com/tt_video/ogXnSVgP4ELdnFoqA0KtQfQ0fxENLBDSvDoRuF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690596725362363662",
+        "published_at": 1790606628,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@caitlynjones/video/7690596725362363662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "caitlynjones",
+        "creator_uid": "1684989"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 908,
+        "play_count": 431019,
+        "share_count": 409
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 3237.6,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690598534374034701",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/d8f4ed2e8ced468e93e11d64d969f0c1~tplv-photomode-image-cover:640:0:q70.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690598534374034701",
+        "published_at": 1790607043,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@caitlynjones/video/7690598534374034701"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brodysdailydeals",
+        "creator_uid": "7251872105054585899"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 17,
+        "play_count": 25855,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 3192,
+        "window_units_sold": 140
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692166695221284110",
+      "video_meta": {
+        "caption_text": "#organizedhome ",
+        "cover_url": "https://s.500fd.com/tt_video/oAPqQESReEGBxTDSDagFNwRdIfEFqEEBUCBgAA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692166695221284110",
+        "published_at": 1790972178,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brodysdailydeals/video/7692166695221284110"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "berlinreviews1",
+        "creator_uid": "6821302736206709766"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 22,
+        "play_count": 3989,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 2827.2,
+        "window_units_sold": 124
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690664725369064734",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/5b2b503336144091b2dc54613175d080~tplv-photomode-image-cover:640:0:q70.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690664725369064734",
+        "published_at": 1790622438,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@berlinreviews1/video/7690664725369064734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brodysdailydeals",
+        "creator_uid": "7251872105054585899"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 38,
+        "play_count": 34800,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494801156502357647",
+        "window_gmv": 2485.2,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691786676061867277",
+      "video_meta": {
+        "caption_text": "No more shoes piled at the door! #gamechanger #shoerack #organizedhome ",
+        "cover_url": "https://s.500fd.com/tt_video/oAySIOALeIdBNGBAiIRfXvQW1EtNGeXFI1wqre~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691786676061867277",
+        "published_at": 1790883667,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brodysdailydeals/video/7691786676061867277"
+      }
+    }
+  ]
+}

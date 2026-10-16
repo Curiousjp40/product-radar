@@ -3,7 +3,7 @@
   "product_id": "1732165713619685617",
   "title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving Multi-Level Tower with Cozy Condos, Perches, Baskets & Sisal Scratching Posts \u2013 Indoor Cat Activity Center",
   "clean_title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree",
-  "image_url": "/img/product_1732165713619685617.webp",
+  "image_url": "https://s.500fd.com/tt_product/15a44c47bd9145d2b00aaaa407d42243~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732165713619685617",
   "tiktok_search_url": "https://www.tiktok.com/search?q=HOOMIC%2073-Inch%20Fan-Shaped%20Corner%20Cat%20Tree",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732165713619685617",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7666535331952364830",
+      "cover_url": "https://s.500fd.com/tt_video/ooD9AEuAFIAZWFkEuVZfBERVIeA0CRADlqEQAE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@carathevettech/video/7666535331952364830",
+      "creator_handle": "carathevettech",
+      "play_count": 1325731,
+      "window_gmv": 14278.11,
+      "window_units_sold": 178,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7664922527948426509",
+      "cover_url": "https://s.500fd.com/tt_video/o4f8R0YSXCDFdRmIAQIAlAAgiFcgxqUtDERfEC~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@ajvl333/video/7664922527948426509",
+      "creator_handle": "ajvl333",
+      "play_count": 56000,
+      "window_gmv": 6147.69,
+      "window_units_sold": 83,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7676948718993591566",
+      "cover_url": "https://s.500fd.com/tt_video/o01qQ1BRAAAkARrpgEFyiASDEft0fEgEDECCKI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sadiereevesstevens/video/7676948718993591566",
+      "creator_handle": "sadiereevesstevens",
+      "play_count": 83800,
+      "window_gmv": 5951.92,
+      "window_units_sold": 72,
+      "is_ad": false,
+      "duration_seconds": 152
+    },
+    {
+      "video_id": "7676510388447644942",
+      "cover_url": "https://s.500fd.com/tt_video/o0CtAc3iRFCA8EHAEqEDeZfOIALagGEFDSISjR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ajvl333/video/7676510388447644942",
+      "creator_handle": "ajvl333",
+      "play_count": 18900,
+      "window_gmv": 3305.16,
+      "window_units_sold": 47,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7666569924839623950",
+      "cover_url": "https://s.500fd.com/tt_video/oQIwSqEQIDgqaIZfsQFSKTzFAa7geEAdDBRREx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@shopsmoothdeals/video/7666569924839623950",
+      "creator_handle": "shopsmoothdeals",
+      "play_count": 19700,
+      "window_gmv": 2813.55,
+      "window_units_sold": 37,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7683700678191090974",
+      "cover_url": "https://s.500fd.com/tt_video/osv7E4xQAp7jAQORVSQdMxFCIPIDqfffCjHaDw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@outf1tnspo/video/7683700678191090974",
+      "creator_handle": "outf1tnspo",
+      "play_count": 1501,
+      "window_gmv": 2922.75,
+      "window_units_sold": 36,
+      "is_ad": true,
+      "duration_seconds": 19
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "cattree",
+        "weight": 216
+      },
+      {
+        "hashtag": "cattok",
+        "weight": 190
+      },
+      {
+        "hashtag": "catlover",
+        "weight": 120
+      },
+      {
+        "hashtag": "purr",
+        "weight": 83
+      },
+      {
+        "hashtag": "meow",
+        "weight": 83
+      },
+      {
+        "hashtag": "newborn",
+        "weight": 72
+      },
+      {
+        "hashtag": "postpartum",
+        "weight": 72
+      },
+      {
+        "hashtag": "firsttimemom",
+        "weight": 72
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "10/10 for this 73\u201d cheetah print cat tree!",
+      "One of my cats\u2019 favorite cat trees!",
+      "Yay for a successful(ish) independent nap!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      1,
+      5
+    ]
+  }
 }

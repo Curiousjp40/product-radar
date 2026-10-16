@@ -3,7 +3,7 @@
   "product_id": "1729662811400802577",
   "title": "Made4Pets Plain Freestanding Sisal Vertical Scratcher for Indoor Cats, 19.25\" L x 19.25\" W x 41.73\" H, Sturdy Base, Replaceable Spring Toy, Compact Design, Space-Saving Build, Supports Nail Health, Deters Sofa Scratching",
   "clean_title": "Made4Pets Plain Freestanding Sisal Vertical Scratcher",
-  "image_url": "/img/product_1729662811400802577.jpg",
+  "image_url": "https://s.500fd.com/tt_product/9890024f0c5f4756a96f32599080805d~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729662811400802577",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Made4Pets%20Plain%20Freestanding%20Sisal%20Vertical%20Scratcher",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729662811400802577",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7667756607643634957",
+      "cover_url": "https://s.500fd.com/tt_video/o8gIBAv7BBWNrpdpZsixwwIiIAzyCqIfC0A1RK~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7667756607643634957",
+      "creator_handle": "christopher_finds",
+      "play_count": 4743,
+      "window_gmv": 4013.58,
+      "window_units_sold": 103,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7676161107576343821",
+      "cover_url": "https://s.500fd.com/tt_video/ow9BIgLZ9fk5fmuOHEGAQbDVjrVAZCEIumILe9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7676161107576343821",
+      "creator_handle": "christopher_finds",
+      "play_count": 34900,
+      "window_gmv": 3706.77,
+      "window_units_sold": 91,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7683925425550085406",
+      "cover_url": "https://s.500fd.com/tt_video/oYQFQEImjkoRAwGV5LN6e933uGKI1IIAqfZwCf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lovenunucat/video/7683925425550085406",
+      "creator_handle": "lovenunucat",
+      "play_count": 280229,
+      "window_gmv": 3178.08,
+      "window_units_sold": 72,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7668385986199489806",
+      "cover_url": "https://s.500fd.com/tt_video/o4dulyziDQdHsrvhA8FFkkjePCf1UfHQEIAFI1~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7668385986199489806",
+      "creator_handle": "christopher_finds",
+      "play_count": 1744,
+      "window_gmv": 2499.61,
+      "window_units_sold": 65,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7677691417703075086",
+      "cover_url": "https://s.500fd.com/tt_video/oUIAZqZEeCKAugRImcQAEFEDPRDA6jAYKfqD4S~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@remi.and.the.beans/video/7677691417703075086",
+      "creator_handle": "remi.and.the.beans",
+      "play_count": 45600,
+      "window_gmv": 2405.06,
+      "window_units_sold": 57,
+      "is_ad": true,
+      "duration_seconds": 32
+    },
+    {
+      "video_id": "7665518041458920718",
+      "cover_url": "https://s.500fd.com/tt_video/o8JFGpuWh2OQRkffOAgDede8ZtiAQWgMM4IFkY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@beth.reads.books/video/7665518041458920718",
+      "creator_handle": "beth.reads.books",
+      "play_count": 10683,
+      "window_gmv": 2161.19,
+      "window_units_sold": 54,
+      "is_ad": true,
+      "duration_seconds": 68
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "catscratcher",
+        "weight": 310
+      },
+      {
+        "hashtag": "catmom",
+        "weight": 194
+      },
+      {
+        "hashtag": "catsoftiktok",
+        "weight": 168
+      },
+      {
+        "hashtag": "made4pets",
+        "weight": 149
+      },
+      {
+        "hashtag": "scratchingpost",
+        "weight": 110
+      },
+      {
+        "hashtag": "cats",
+        "weight": 110
+      },
+      {
+        "hashtag": "scratcher",
+        "weight": 97
+      },
+      {
+        "hashtag": "catfurniture",
+        "weight": 97
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 31,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 30.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "My cats are going to love this",
+      "This cat tower is huge",
+      "Did you know 99."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      1,
+      3
+    ]
+  }
 }

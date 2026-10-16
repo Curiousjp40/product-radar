@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731093726010380869",
+  "time_range_days": 90,
+  "total": 1415,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lopezkaren1323",
+        "creator_uid": "7349164364195824682"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 9,
+        "play_count": 2446,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 60722.36,
+        "window_units_sold": 1328
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672900468196117790",
+      "video_meta": {
+        "caption_text": "#zapateros #zapateras ",
+        "cover_url": "https://s.500fd.com/tt_video/ocNunaiE7742IZAxhRbAB0VabKnuIn8RiBPuP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672900468196117790",
+        "published_at": 1786486380,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lopezkaren1323/video/7672900468196117790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "darlingdorestant0",
+        "creator_uid": "6801447387984217094"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 128,
+        "play_count": 20400,
+        "share_count": 59
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 15542.91,
+        "window_units_sold": 335
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682161425392995598",
+      "video_meta": {
+        "caption_text": "#tiktokshop #tiktokshopholidayhaul #tiktokshopcreatorpicks #tiktokshopdealsforyoudayse #memorialday ",
+        "cover_url": "https://s.500fd.com/tt_video/oMQVCcpaIZTLKChA8AoIO24FjpeGGHDfIedI8k~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682161425392995598",
+        "published_at": 1788642612,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@darlingdorestant0/video/7682161425392995598"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "uforu.decor",
+        "creator_uid": "7530220878056686647"
+      },
+      "engagement_metrics": {
+        "comment_count": 105,
+        "like_count": 5689,
+        "play_count": 2600000,
+        "share_count": 3787
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 13278.08,
+        "window_units_sold": 257
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681274098814553375",
+      "video_meta": {
+        "caption_text": "If you're a sneaker collector, you definitely need this display shoe rack. #shoerack #shoeorganizer #shoestorage #organization #sneakerhead ",
+        "cover_url": "https://s.500fd.com/tt_video/ogqUIyJEADE1hALS6veBfFDt1EVg1Q3DRVmybD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681274098814553375",
+        "published_at": 1788527880,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@uforu.decor/video/7681274098814553375"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "savagejohnny",
+        "creator_uid": "7285526357764965419"
+      },
+      "engagement_metrics": {
+        "comment_count": 23,
+        "like_count": 1755,
+        "play_count": 72700,
+        "share_count": 68
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 7496.47,
+        "window_units_sold": 250
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691045272834559246",
+      "video_meta": {
+        "caption_text": "This shoe cabinet storage organizer made my closet look so good! #closet #organize #shoe #storagehacks #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oQCRIeGO3FvqAFIvnqpfGgAZbEI6fOeDI8FREp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691045272834559246",
+        "published_at": 1790711053,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@savagejohnny/video/7691045272834559246"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "savagejohnny",
+        "creator_uid": "7285526357764965419"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 118,
+        "play_count": 79524,
+        "share_count": 34
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 7099.99,
+        "window_units_sold": 228
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690354879604280606",
+      "video_meta": {
+        "caption_text": "I found the perfect shoe storage bin for your closet\u2026 #shoes #storage #storagehacks #closet #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/oQIIerIAqAAXMQ0QFujfHc8eAIMsIEAQ0AiVMz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690354879604280606",
+        "published_at": 1790550294,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@savagejohnny/video/7690354879604280606"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "blackcali",
+        "creator_uid": "6842021699950593029"
+      },
+      "engagement_metrics": {
+        "comment_count": 26,
+        "like_count": 628,
+        "play_count": 128900,
+        "share_count": 169
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 10929.59,
+        "window_units_sold": 221
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677765311898127629",
+      "video_meta": {
+        "caption_text": "Grab it \ud83e\udef5\ud83c\udffd\ud83e\udef5\ud83c\udffd while it\u2019s on the mid year sale\ud83d\udcaf @UFORU NEST #shoecabinet #shoerackorganizer #usa #tiktokshopunboxing #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/oglGGeeHIIxkIv54tDVALCUMILjcAbNxOHOwed~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677765311898127629",
+        "published_at": 1787619057,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@blackcali/video/7677765311898127629"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sunshineflorida02",
+        "creator_uid": "7619263674591396877"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 658,
+        "play_count": 286000,
+        "share_count": 379
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 9759.83,
+        "window_units_sold": 206
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670486076871445791",
+      "video_meta": {
+        "caption_text": "#storage #shoecabinet #shoes #usa_tiktok #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/ogfqVcR1EkDcozREmCFqVIGqEKN8IAB9weEV3A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670486076871445791",
+        "published_at": 1785924261,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sunshineflorida02/video/7670486076871445791"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "savagejohnny",
+        "creator_uid": "7285526357764965419"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 70,
+        "play_count": 58750,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 5839.66,
+        "window_units_sold": 191
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691514871489334559",
+      "video_meta": {
+        "caption_text": "This shoe organizer holds a min of 18 pairs of shoes?! #shoes #organize #homehacks #homessentials #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oYcBVkIfG9KqFEAuIAEsRwMDAEEEVPEDexv8Ip~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691514871489334559",
+        "published_at": 1790820369,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@savagejohnny/video/7691514871489334559"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "irmagonzalesdela",
+        "creator_uid": "6704028431426749446"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 3501,
+        "play_count": 36600,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 5895.01,
+        "window_units_sold": 176
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693743012530195743",
+      "video_meta": {
+        "caption_text": "Me gust\u00f3 mucho \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d ",
+        "cover_url": "https://s.500fd.com/tt_video/o4LYqIrIBhKTtAqOAifpAdEokigRF1iCS4FImF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693743012530195743",
+        "published_at": 1791339155,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@irmagonzalesdela/video/7693743012530195743"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "savagejohnny",
+        "creator_uid": "7285526357764965419"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 22,
+        "play_count": 12700,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496093982340057669",
+        "window_gmv": 3957.04,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689555359198989581",
+      "video_meta": {
+        "caption_text": "I found the perfect shoe organizer.. #shoes #storagehacks #homehacks #organize #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/owEBrfREQDAfgQC2Mq5gtS56SBFkAytDscVcws~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689555359198989581",
+        "published_at": 1790364156,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@savagejohnny/video/7689555359198989581"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "product_id": "1731606094029557804",
   "title": "Women's Plus-Size Warm Fleece-Lined Low Top Sneakers, Casual Lifestyle Sneaker, Casual Shoes for Fall & Winter, Comfortable for Indoor and Outdoor Wear, Winter Shoes, Lowtop Casual Sneakers",
   "clean_title": "Women's Plus-Size Warm Fleece-Lined Low Top",
-  "image_url": "/img/product_1731606094029557804.jpg",
+  "image_url": "https://s.500fd.com/tt_product/8a9deff4438046b6b61eaca640916f7a~tplv-fhlh96nyum-origin-image.image",
   "category": "shoes",
   "category_label_es": "Zapatos",
   "category_label_en": "Shoes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731606094029557804",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Plus-Size%20Warm%20Fleece-Lined%20Low%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731606094029557804",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7693515863520988429",
+      "cover_url": "https://s.500fd.com/tt_video/o0gIwi5GI3RI1A3fEk8YPmAGn8ZBCAi3pW3Bd9~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mirandadailyshoe/video/7693515863520988429",
+      "creator_handle": "mirandadailyshoe",
+      "play_count": 179400,
+      "window_gmv": 487.74,
+      "window_units_sold": 33,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7682055933349956877",
+      "cover_url": "https://s.500fd.com/tt_video/owVAkkceXEIEEALjKHAIbUsAAOIZAveCxqJGIe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rachel_2c3c/video/7682055933349956877",
+      "creator_handle": "rachel_2c3c",
+      "play_count": 6704,
+      "window_gmv": 534.76,
+      "window_units_sold": 31,
+      "is_ad": false,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7682054903346334990",
+      "cover_url": "https://s.500fd.com/tt_video/oIRIEJ63jBAEJZAdAhi0BI1ACCxw1BuTIJfjci~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kikiboutiques/video/7682054903346334990",
+      "creator_handle": "kikiboutiques",
+      "play_count": 53200,
+      "window_gmv": 417.03,
+      "window_units_sold": 25,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7689137600325487902",
+      "cover_url": "https://s.500fd.com/tt_video/o0d3IVEDBYfEpmUCmqUqEhAQfhFb6RAtmwB11A~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@jessicahernand280/video/7689137600325487902",
+      "creator_handle": "jessicahernand280",
+      "play_count": 930,
+      "window_gmv": 257.72,
+      "window_units_sold": 18,
+      "is_ad": false,
+      "duration_seconds": 45
+    },
+    {
+      "video_id": "7689303193515265310",
+      "cover_url": "https://s.500fd.com/tt_video/oYyAmIfEEAaJVQ7q4IESjyAHABECFfIADxCe51~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@claumejia1114/video/7689303193515265310",
+      "creator_handle": "claumejia1114",
+      "play_count": 200158,
+      "window_gmv": 269.13,
+      "window_units_sold": 17,
+      "is_ad": false,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7691512284383907103",
+      "cover_url": "https://s.500fd.com/tt_video/owUIAi0BI64E1Avf9R1XOtb87B6BCAiQqDFi7u~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@liurbin/video/7691512284383907103",
+      "creator_handle": "liurbin",
+      "play_count": 774,
+      "window_gmv": 232.65,
+      "window_units_sold": 17,
+      "is_ad": false,
+      "duration_seconds": 47
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "sneakers",
+        "weight": 89
+      },
+      {
+        "hashtag": "chunkysneakers",
+        "weight": 64
+      },
+      {
+        "hashtag": "warmshoes",
+        "weight": 64
+      },
+      {
+        "hashtag": "calzadodeinvierno",
+        "weight": 64
+      },
+      {
+        "hashtag": "falldealsforyou",
+        "weight": 58
+      },
+      {
+        "hashtag": "sliponshoes",
+        "weight": 56
+      },
+      {
+        "hashtag": "platformshoes",
+        "weight": 56
+      },
+      {
+        "hashtag": "wintershoes",
+        "weight": 50
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 32,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 30.0
+    },
+    "best_posting_hour": {
+      "hour_start": 12,
+      "hour_end": 14
+    },
+    "top_hooks": [
+      "Plush lined winter chunky sneakers",
+      "Plush lined winter sneakers",
+      "Plush lined winter comfy sneakers"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.5,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      1,
+      5
+    ]
+  }
 }

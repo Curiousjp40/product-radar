@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1730508881451126797",
+  "time_range_days": 90,
+  "total": 668,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "cozyliving_us",
+        "creator_uid": "7545040006247941134"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 38,
+        "play_count": 4370,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 17277.6,
+        "window_units_sold": 323
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681423423649762591",
+      "video_meta": {
+        "caption_text": "One works great, but two hits perfect.\ud83d\ude31\ud83d\udc95\u2705#dresser #drawer #beforeandafter #bedroomupgrade #organizedhome ",
+        "cover_url": "https://s.500fd.com/tt_video/oQIIzFV2eEAcIjDFQfJQAqAAEuyyUMoxrEXAjf~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681423423649762591",
+        "published_at": 1788470772,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cozyliving_us/video/7681423423649762591"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leslypocasangre",
+        "creator_uid": "7302421358203438126"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 12,
+        "play_count": 3282,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 14459.4,
+        "window_units_sold": 263
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694401094167907614",
+      "video_meta": {
+        "caption_text": "Sweetcrispy 9 Drawers Dresser  #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/o8QEQFq0AB8TEnDSQfjtKVFAEfAF4ygrG2AARj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694401094167907614",
+        "published_at": 1791492376,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leslypocasangre/video/7694401094167907614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_yella.xo",
+        "creator_uid": "6808377181157229574"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 986,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 10411.96,
+        "window_units_sold": 205
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667651164195933470",
+      "video_meta": {
+        "caption_text": "Catch these deals while they last! #dealsforyoudays #bedroom #9drawerdresser #summersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oYnCHQfE0AoDpw8UdQFeGNALSCQaFRRHDlreeR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667651164195933470",
+        "published_at": 1785264180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_yella.xo/video/7667651164195933470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_m8ce_",
+        "creator_uid": "7432019644054307882"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 13,
+        "play_count": 1486,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 8144.92,
+        "window_units_sold": 151
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679149107637783822",
+      "video_meta": {
+        "caption_text": "This is actually crazy. \ud83e\udd2a #dresser #bedroommakeover #bedroomdecor #raybee #raybeefurniture ",
+        "cover_url": "https://s.500fd.com/tt_video/oIQERFqYdBM5DSDUQfZU9SFgEQ0icktPkeGARZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679149107637783822",
+        "published_at": 1787956200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_m8ce_/video/7679149107637783822"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "36rosy3",
+        "creator_uid": "6718015316167967749"
+      },
+      "engagement_metrics": {
+        "comment_count": 65,
+        "like_count": 4230,
+        "play_count": 2000000,
+        "share_count": 1364
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 5198.73,
+        "window_units_sold": 100
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672846054139661599",
+      "video_meta": {
+        "caption_text": "Organisador de 9 cajones  s\u00faper econ\u00f3mico #sweestcrispy #tiktokshopsummmersale ",
+        "cover_url": "https://s.500fd.com/tt_video/oAOCZfb7aATIB2jIDQ2iAhAqbiPiEhmC1xWgm1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672846054139661599",
+        "published_at": 1786473699,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@36rosy3/video/7672846054139661599"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_maryannn0711",
+        "creator_uid": "6994090593275511814"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 50,
+        "play_count": 32472,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 3459.27,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665871125716405535",
+      "video_meta": {
+        "caption_text": "Love this dresser and love the price even more \ud83d\ude4c\ud83c\udffb #dresser #affordabledresser #storage #organization #bedroomstorage ",
+        "cover_url": "https://s.500fd.com/tt_video/occpUGp3UNIywe2iCeLIAjGTIxAjaJiIIOepqU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665871125716405535",
+        "published_at": 1784849723,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_maryannn0711/video/7665871125716405535"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "36rosy3",
+        "creator_uid": "6718015316167967749"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 64,
+        "play_count": 36300,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 3441.95,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684164214671330590",
+      "video_meta": {
+        "caption_text": "Con descuento por tiempo limitado Organisador de 9 cajones #sweetcrispy#tiktokshoptopcku ",
+        "cover_url": "https://s.500fd.com/tt_video/osDWjtfEEyJ6qFQEQP3BApVfEoIEoIxARWmLpt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684164214671330590",
+        "published_at": 1789134300,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@36rosy3/video/7684164214671330590"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "36rosy3",
+        "creator_uid": "6718015316167967749"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 10,
+        "play_count": 2502,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2977.86,
+        "window_units_sold": 55
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691081544277986591",
+      "video_meta": {
+        "caption_text": "Respuesta a @morales62800 Sweetcrispy 9 Drawers Dresser #sweetcrispy #organisador #tiktokshoptopcku ",
+        "cover_url": "https://s.500fd.com/tt_video/osxegcUGDRjGdbGrQhALNefBge1IqTIFSkl5wA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691081544277986591",
+        "published_at": 1790719479,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@36rosy3/video/7691081544277986591"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "karin.recomends",
+        "creator_uid": "6534369943163507727"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 16,
+        "play_count": 3521,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2882.34,
+        "window_units_sold": 55
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688609449371602189",
+      "video_meta": {
+        "caption_text": "Gave Teri de 9 gavetas #tiktokshopbacktoschool #tiktokshopsummersale #gavetero #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/oUuzKNLiwBaUJEaIApZCUICsvbiBE1L8g1rR4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688609449371602189",
+        "published_at": 1790143905,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@karin.recomends/video/7688609449371602189"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "36rosy3",
+        "creator_uid": "6718015316167967749"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 11,
+        "play_count": 6491,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495957905333913613",
+        "window_gmv": 2523.18,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689632133425466655",
+      "video_meta": {
+        "caption_text": "Respuesta a @\ud83c\udf53JAZMIN\ud83d\udc8eGONZALZ Organisador 9 cajones #organisador #sweetcrispy #tiktokshoptopcku ",
+        "cover_url": "https://s.500fd.com/tt_video/oMGwI7fDqQpejqVIhHPINb3huC4AcEePFOmxQA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689632133425466655",
+        "published_at": 1790382012,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@36rosy3/video/7689632133425466655"
+      }
+    }
+  ]
+}

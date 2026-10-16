@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732397386659434927",
+  "time_range_days": 90,
+  "total": 448,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "everett74694",
+        "creator_uid": "7529477727444583437"
+      },
+      "engagement_metrics": {
+        "comment_count": 96,
+        "like_count": 5409,
+        "play_count": 357200,
+        "share_count": 534
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 1105.2,
+        "window_units_sold": 549
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680369925684219149",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool",
+        "cover_url": "https://s.500fd.com/tt_video/owdE7c4AEia9BBiinzBMAI8YJgzAk2vkCAW3p~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680369925684219149",
+        "published_at": 1788225490,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@everett74694/video/7680369925684219149"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "paigarl",
+        "creator_uid": "7442210314480010286"
+      },
+      "engagement_metrics": {
+        "comment_count": 78,
+        "like_count": 2062,
+        "play_count": 147400,
+        "share_count": 98
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 967.9,
+        "window_units_sold": 487
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681604309519240461",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/os31ywgQEzDAmSeFohBKsqFqu45DREKFQgXsfE~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681604309519240461",
+        "published_at": 1788512957,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@paigarl/video/7681604309519240461"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "robbi3991",
+        "creator_uid": "7515310997588313130"
+      },
+      "engagement_metrics": {
+        "comment_count": 39,
+        "like_count": 3061,
+        "play_count": 206900,
+        "share_count": 109
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 873.49,
+        "window_units_sold": 443
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680847979544055054",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool",
+        "cover_url": "https://s.500fd.com/tt_video/o8FpqBnqlALTDM4QE6X9yR2BS7XfI1eFEUOgID~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680847979544055054",
+        "published_at": 1788336795,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@robbi3991/video/7680847979544055054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ida793555",
+        "creator_uid": "7525365248355877943"
+      },
+      "engagement_metrics": {
+        "comment_count": 572,
+        "like_count": 31131,
+        "play_count": 2047084,
+        "share_count": 2548
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 795.96,
+        "window_units_sold": 398
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7679534378606759199",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/oEjEfFIXA0lfErJbeVGcA6qm2AIIQAcVDlXUEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679534378606759199",
+        "published_at": 1788065040,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ida793555/video/7679534378606759199"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "themiles4",
+        "creator_uid": "7260343348853179438"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 3171,
+        "play_count": 250700,
+        "share_count": 145
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 617.81,
+        "window_units_sold": 310
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683130328029990158",
+      "video_meta": {
+        "caption_text": "#tiktokbacktoschool #coin ",
+        "cover_url": "https://s.500fd.com/tt_video/o492rF8IEQEQAwPYfffZ6xCAjomMVDkUHGAmCz~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683130328029990158",
+        "published_at": 1788868192,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@themiles4/video/7683130328029990158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "annalife_shop",
+        "creator_uid": "7262291953252811818"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 440,
+        "play_count": 41300,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 525.17,
+        "window_units_sold": 262
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681559730736696590",
+      "video_meta": {
+        "caption_text": "#TikTokShopBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/oofVHxRbAAArAjj3AELlNYkGDefFZiMIHIECaI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681559730736696590",
+        "published_at": 1788502563,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@annalife_shop/video/7681559730736696590"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ida793555",
+        "creator_uid": "7525365248355877943"
+      },
+      "engagement_metrics": {
+        "comment_count": 35,
+        "like_count": 2085,
+        "play_count": 91500,
+        "share_count": 109
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 491.91,
+        "window_units_sold": 244
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680874274629881118",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/oYwXBzALfAEE0KCVADjVkoEw8EIqFIAyffAIwg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680874274629881118",
+        "published_at": 1788342916,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ida793555/video/7680874274629881118"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chinesecabbage26",
+        "creator_uid": "7260104712824669227"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 126,
+        "play_count": 6643,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 431.88,
+        "window_units_sold": 216
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683380507270319373",
+      "video_meta": {
+        "caption_text": "#tiktokbacktoschool #coin ",
+        "cover_url": "https://s.500fd.com/tt_video/oof4BkkADACEAwgqxXD4SqQ8oIAnfsRnNFQEFD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683380507270319373",
+        "published_at": 1788926443,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chinesecabbage26/video/7683380507270319373"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "everett74694",
+        "creator_uid": "7529477727444583437"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 231,
+        "play_count": 26900,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 428.9,
+        "window_units_sold": 213
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681238035555552525",
+      "video_meta": {
+        "caption_text": "#TikTokBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/oAICKBuYA2AIaAV1JJJii6ETEBJfWA1ZWwBPC6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681238035555552525",
+        "published_at": 1788432960,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@everett74694/video/7681238035555552525"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mia_stationeryfinds",
+        "creator_uid": "7229671742460478510"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 125,
+        "play_count": 15213,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646942602435858863",
+        "window_gmv": 421.3,
+        "window_units_sold": 210
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681647999503617293",
+      "video_meta": {
+        "caption_text": "\u271d\ufe0f#TikTokBackToSchool ",
+        "cover_url": "https://s.500fd.com/tt_video/o8FCJxI0QEVtAfvDrZqE1DLBmQKqS5xfgAKF0R~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681647999503617293",
+        "published_at": 1788523091,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mia_stationeryfinds/video/7681647999503617293"
+      }
+    }
+  ]
+}

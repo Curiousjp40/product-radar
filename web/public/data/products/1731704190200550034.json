@@ -3,7 +3,7 @@
   "product_id": "1731704190200550034",
   "title": "Bedsure Self-Heating Pet Bed Mat\uff0cUltra Soft Corduroy Thermal Bed for Dogs & Cats, No Electric Heat Safe Warm Pad for Winter Cold Weather,Machine Washable",
   "clean_title": "Bedsure Self-Heating Pet Bed Mat\uff0cUltra Soft",
-  "image_url": "/img/product_1731704190200550034.webp",
+  "image_url": "https://s.500fd.com/tt_product/dcfffeac11db403f9d0cf762cce675db~tplv-fhlh96nyum-crop-webp:1200:1600.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731704190200550034",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Bedsure%20Self-Heating%20Pet%20Bed%20Mat%EF%BC%8CUltra%20Soft",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731704190200550034",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7691842139243728142",
+      "cover_url": "https://s.500fd.com/tt_video/oU11dDmQWwFuDQbfEgleySqb6lRovABxEQ4BIx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7691842139243728142",
+      "creator_handle": "usingmyimaginason",
+      "play_count": 82830,
+      "window_gmv": 3482.11,
+      "window_units_sold": 165,
+      "is_ad": true,
+      "duration_seconds": 71
+    },
+    {
+      "video_id": "7685889581601836318",
+      "cover_url": "https://s.500fd.com/tt_video/oEQDFC7OcEgAaFPTIAA9EfUqVhqyqQAWeEMRAN~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mariahbowman/video/7685889581601836318",
+      "creator_handle": "mariahbowman",
+      "play_count": 754913,
+      "window_gmv": 2983.49,
+      "window_units_sold": 139,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7688852868614327583",
+      "cover_url": "https://s.500fd.com/tt_video/oIj8JXX1AwJjVMjMQwSIvfffGXQIaVXqAPC0Qq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@oakdeals99/video/7688852868614327583",
+      "creator_handle": "oakdeals99",
+      "play_count": 1715,
+      "window_gmv": 1828.85,
+      "window_units_sold": 88,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7688129580548295966",
+      "cover_url": "https://s.500fd.com/tt_video/o0ERYeQj499JmmDEBAfKF9AVFhQpmcHmEbsqcE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mariahbowman/video/7688129580548295966",
+      "creator_handle": "mariahbowman",
+      "play_count": 23700,
+      "window_gmv": 1771.85,
+      "window_units_sold": 85,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7689483351396289806",
+      "cover_url": "https://s.500fd.com/tt_video/oAEOQvIgSHAF8EoiyMRr2tffLbDXDBhIaEIqL2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7689483351396289806",
+      "creator_handle": "christopher_finds",
+      "play_count": 3781,
+      "window_gmv": 1340.95,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 28
+    },
+    {
+      "video_id": "7685784387924921630",
+      "cover_url": "https://s.500fd.com/tt_video/ogsCIUeGqQRjjRVIuZ9ceURspCDAzIPBLJebgA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@introvertedcatlady/video/7685784387924921630",
+      "creator_handle": "introvertedcatlady",
+      "play_count": 668000,
+      "window_gmv": 1403.52,
+      "window_units_sold": 60,
+      "is_ad": true,
+      "duration_seconds": 43
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "catbed",
+        "weight": 462
+      },
+      {
+        "hashtag": "selfwarmingpetbeds",
+        "weight": 327
+      },
+      {
+        "hashtag": "catessentials",
+        "weight": 318
+      },
+      {
+        "hashtag": "selfheating",
+        "weight": 250
+      },
+      {
+        "hashtag": "petproducts",
+        "weight": 224
+      },
+      {
+        "hashtag": "heatingpad",
+        "weight": 184
+      },
+      {
+        "hashtag": "catmomlife",
+        "weight": 165
+      },
+      {
+        "hashtag": "petbeds",
+        "weight": 139
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "\u2026they love it, winter is coming \ud83d\udd25\u2744\ufe0f Pet",
+      "all my pets love these beds!",
+      "My dog LIVES on this thing all winter long \ud83d\udc36"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

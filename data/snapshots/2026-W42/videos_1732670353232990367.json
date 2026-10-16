@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732670353232990367",
+  "time_range_days": 90,
+  "total": 17,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "realife.55",
+        "creator_uid": "7626210001179231245"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 175,
+        "play_count": 25400,
+        "share_count": 43
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 14429.01,
+        "window_units_sold": 479
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689418034867391758",
+      "video_meta": {
+        "caption_text": "\u00a1Quien invent\u00f3 esta herramienta merece un aumento de sueldo! #fyp#tiktokshopmemorialday#DealsForYouDays#tiktokshopbacktoschool#SohoChic",
+        "cover_url": "https://s.500fd.com/tt_video/o0eAuRmZAbeRSzIqGGEFOURlnIgsQILs0Ve2eG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689418034867391758",
+        "published_at": 1790332224,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realife.55/video/7689418034867391758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "musthavemaddie",
+        "creator_uid": "7681186863289271309"
+      },
+      "engagement_metrics": {
+        "comment_count": 284,
+        "like_count": 28300,
+        "play_count": 2100000,
+        "share_count": 15200
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 8345.74,
+        "window_units_sold": 272
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686828591547567391",
+      "video_meta": {
+        "caption_text": "#tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/oMKWGehzIItqgfMyKHVALCGaQVjjAfcQVIH1WZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686828591547567391",
+        "published_at": 1789729265,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@musthavemaddie/video/7686828591547567391"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hudsocgsoob",
+        "creator_uid": "7641129875637879822"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 1163,
+        "play_count": 125400,
+        "share_count": 693
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 6043.11,
+        "window_units_sold": 207
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687898325277838622",
+      "video_meta": {
+        "caption_text": "You can keep one of these foldable drain baskets in the kitchen.#tiktokshop #tiktokshoprestock #tiktokshopholidayhaul #dealsforyoudays #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/o0IQzRBqAsw5aF6qe9uDwAEEVbEfA2BHBIOkEO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687898325277838622",
+        "published_at": 1789978377,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hudsocgsoob/video/7687898325277838622"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hudsocgsoob",
+        "creator_uid": "7641129875637879822"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 22,
+        "play_count": 2209,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 3883.2,
+        "window_units_sold": 123
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688219942998592798",
+      "video_meta": {
+        "caption_text": "Para escurrir y enjuagar la comida despu\u00e9s de blanquearla, con este bowl es bien f\u00e1cil y pr\u00e1ctico.#tiktokshop #tiktokshoprestock #tiktokshopholidayhaul #dealsforyoudays #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/os8AaoCeADpEg6VqRvjBE6ys2iIYEBiyJC2sfB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688219942998592798",
+        "published_at": 1790053231,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hudsocgsoob/video/7688219942998592798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "realife.55",
+        "creator_uid": "7626210001179231245"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 40,
+        "play_count": 12406,
+        "share_count": 9
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 2332.95,
+        "window_units_sold": 81
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693026325287816462",
+      "video_meta": {
+        "caption_text": "Oh my gosh! Why didn\u2019t I find this sooner! #fyp#tiktokshopmemorialday#DealsForYouDays#tiktokshopbacktoschool#SohoChic",
+        "cover_url": "https://s.500fd.com/tt_video/ocVhmqpPgtjwC5pIQTfGFHAfHjWX3k8fmAyMmQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693026325287816462",
+        "published_at": 1791172286,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realife.55/video/7693026325287816462"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "musthavemaddie",
+        "creator_uid": "7681186863289271309"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 62,
+        "play_count": 17057,
+        "share_count": 28
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 1752.82,
+        "window_units_sold": 57
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688985258741501215",
+      "video_meta": {
+        "caption_text": "#tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/oAa8IIAL7It2ejDA3hIa4aQYAew5Ge5Cq4lV30~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688985258741501215",
+        "published_at": 1790231433,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@musthavemaddie/video/7688985258741501215"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "musthavemaddie",
+        "creator_uid": "7681186863289271309"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 125,
+        "play_count": 64400,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 1497.41,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692353455997848863",
+      "video_meta": {
+        "caption_text": "#tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/osvAhi6IBRAAiRrxmyEvbaAuX0CsEuNVCB8Ci~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692353455997848863",
+        "published_at": 1791015676,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@musthavemaddie/video/7692353455997848863"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "realife.55",
+        "creator_uid": "7626210001179231245"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 32,
+        "play_count": 1529,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 1489.5,
+        "window_units_sold": 50
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687919562259516686",
+      "video_meta": {
+        "caption_text": "Solo pon la base sobre la encimera, vierte la pasta o las verduras directamente aqu\u00ed y el agua escurre limpiamente hacia el fregadero. Viene en tres tama\u00f1os distintos, puedes elegir el que mejor se adapte al tama\u00f1o de tus verduras o la pasta. #fyp#tiktokshopmemorialday#DealsForYouDays#tiktokshopbacktoschool#SohoChic",
+        "cover_url": "https://s.500fd.com/tt_video/oUitQISRrEZPrdDvDxgFNsn1IfeqqFEBADm1hA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687919562259516686",
+        "published_at": 1789983349,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realife.55/video/7687919562259516686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "realife.55",
+        "creator_uid": "7626210001179231245"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 36,
+        "play_count": 4093,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 1379.54,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693506077303819534",
+      "video_meta": {
+        "caption_text": "\u00a1Quien invent\u00f3 esta herramienta merece un aumento de sueldo! #fyp#tiktokshopmemorialday#DealsForYouDays#tiktokshopbacktoschool#SohoChic",
+        "cover_url": "https://s.500fd.com/tt_video/oQeEjamKVIkyI1H40CiWKfUQQ6MEfoAoZA8dz7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693506077303819534",
+        "published_at": 1791284026,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@realife.55/video/7693506077303819534"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "musthavemaddie",
+        "creator_uid": "7681186863289271309"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 29,
+        "play_count": 4534,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494210607105344671",
+        "window_gmv": 1043.56,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688262094550093087",
+      "video_meta": {
+        "caption_text": "#tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsforyoudays ",
+        "cover_url": "https://s.500fd.com/tt_video/oM4YBoIQIIAVtcZeCYLqkFlreeMN5IAwGCGjDj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688262094550093087",
+        "published_at": 1790063083,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@musthavemaddie/video/7688262094550093087"
+      }
+    }
+  ]
+}

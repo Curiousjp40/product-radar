@@ -3,7 +3,7 @@
   "product_id": "1731293365950976419",
   "title": "2-Count 16oz/470ml Light-Blocking Dark Green Glass 2-in-1 Oil Sprayer Dispenser, Kitchen Gadgets with Precise Nozzle for Controlled Spray, Refillable Food-Grade Mister for Air Fryer, BBQ Even Coat, Works with Olive, Avocado, Soy Sauce, Refillable To Cut W",
   "clean_title": "2-Count 16oz/470ml Light-Blocking Dark Green Glass",
-  "image_url": "/img/product_1731293365950976419.jpg",
+  "image_url": "https://s.500fd.com/tt_product/182b267bb51547b4835e8c8e746977bd~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "home_storage",
   "category_label_es": "Organizaci\u00f3n",
   "category_label_en": "Home Storage",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731293365950976419",
   "tiktok_search_url": "https://www.tiktok.com/search?q=2-Count%2016oz/470ml%20Light-Blocking%20Dark%20Green%20Glass",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731293365950976419",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7670941060817865998",
+      "cover_url": "https://s.500fd.com/tt_video/oANRDEgfIgqBmFEEIB0K6SF98d3KqDfKvzA6hM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@juanitateempodera/video/7670941060817865998",
+      "creator_handle": "juanitateempodera",
+      "play_count": 579,
+      "window_gmv": 15126.23,
+      "window_units_sold": 1161,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7664721407175052558",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@.duffman_2.0/video/7664721407175052558",
+      "creator_handle": ".duffman_2.0",
+      "play_count": 181100,
+      "window_gmv": 6715.18,
+      "window_units_sold": 485,
+      "is_ad": true,
+      "duration_seconds": 0
+    },
+    {
+      "video_id": "7683001603023981838",
+      "cover_url": "https://s.500fd.com/tt_video/oUVPMkegQhvaCpkIITFfxHAQCjLVYkea9AsGwI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_k_l_t/video/7683001603023981838",
+      "creator_handle": "_k_l_t",
+      "play_count": 770,
+      "window_gmv": 3530.71,
+      "window_units_sold": 257,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7680243098424823054",
+      "cover_url": "https://s.500fd.com/tt_video/oQEN0VEgShAFWEbtCURfwlfaASDLDCAIXAJqyV~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@thewealthchic10k/video/7680243098424823054",
+      "creator_handle": "thewealthchic10k",
+      "play_count": 375700,
+      "window_gmv": 2809.94,
+      "window_units_sold": 200,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7680340166548131103",
+      "cover_url": "https://s.500fd.com/tt_video/owCIlLD5FAeeLDWQAjdSAEwIGzEEIqAfAVBb8E~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@mattdotgarcia/video/7680340166548131103",
+      "creator_handle": "mattdotgarcia",
+      "play_count": 24500,
+      "window_gmv": 2638.11,
+      "window_units_sold": 191,
+      "is_ad": false,
+      "duration_seconds": 34
+    },
+    {
+      "video_id": "7685109741810437389",
+      "cover_url": "https://s.500fd.com/tt_video/ocD2IcALagzbqNRASeiNWegeMofvGeIKQV3Vtb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@.duffman_2.0/video/7685109741810437389",
+      "creator_handle": ".duffman_2.0",
+      "play_count": 7291,
+      "window_gmv": 2252.4,
+      "window_units_sold": 158,
+      "is_ad": true,
+      "duration_seconds": 61
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "freidoradeaire",
+        "weight": 1308
+      },
+      {
+        "hashtag": "moras",
+        "weight": 1308
+      },
+      {
+        "hashtag": "dispensadordeaceite",
+        "weight": 1161
+      },
+      {
+        "hashtag": "accesoriosdecocina",
+        "weight": 1161
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 1161
+      },
+      {
+        "hashtag": "kitchenessentials",
+        "weight": 921
+      },
+      {
+        "hashtag": "kitchenhacks",
+        "weight": 802
+      },
+      {
+        "hashtag": "cooking",
+        "weight": 485
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 60.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "Prepara tus recetas en la cocina con este accesorio pr\u00e1ctico.",
+      "Still using aerosol cooking spray?",
+      "If you\u2019re tired of making the same dinners every week, save this EASY weeknight dinner."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.3,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      0,
+      6
+    ]
+  }
 }

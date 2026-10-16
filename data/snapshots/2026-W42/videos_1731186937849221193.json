@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731186937849221193",
+  "time_range_days": 90,
+  "total": 423,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "sarahstella353",
+        "creator_uid": "6875472562810684421"
+      },
+      "engagement_metrics": {
+        "comment_count": 182,
+        "like_count": 21700,
+        "play_count": 3500000,
+        "share_count": 2940
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 10602.89,
+        "window_units_sold": 321
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679400138766437663",
+      "video_meta": {
+        "caption_text": "I\u2019m in a size medium. #tiktokshopcreatorpicks #curvyfashion #fallfashion #plussizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/okjCqLIfkdPe5BJnfVTSAsqK7QgIgkjsGW1FIA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679400138766437663",
+        "published_at": 1787999740,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7679400138766437663"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahstella353",
+        "creator_uid": "6875472562810684421"
+      },
+      "engagement_metrics": {
+        "comment_count": 117,
+        "like_count": 7598,
+        "play_count": 838800,
+        "share_count": 1815
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 6267.37,
+        "window_units_sold": 217
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671619741835922718",
+      "video_meta": {
+        "caption_text": "#tiktokshopcreatorpicks #jumpsuit #curvyfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oAIE3FqOxBs6EwDMIfOdxVIAEaE1RdfPFRFARZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671619741835922718",
+        "published_at": 1786188177,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7671619741835922718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahstella353",
+        "creator_uid": "6875472562810684421"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 863,
+        "play_count": 151500,
+        "share_count": 124
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 4022.24,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672595085640387870",
+      "video_meta": {
+        "caption_text": "#womensfashion #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o4QiKDneUtINP3o6C0FEAiDgIeAjiOcIERfuqo~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672595085640387870",
+        "published_at": 1786415267,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7672595085640387870"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashleighmtz",
+        "creator_uid": "6725964346290652165"
+      },
+      "engagement_metrics": {
+        "comment_count": 50,
+        "like_count": 5549,
+        "play_count": 629390,
+        "share_count": 419
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 4031.64,
+        "window_units_sold": 126
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684383231751327007",
+      "video_meta": {
+        "caption_text": "thick thighs approved! i'm wearing a size L btw #fallfashion",
+        "cover_url": "https://s.500fd.com/tt_video/ocCpVEwIDVzlGCaAAEfXABAA0Fy6AqECOePVDk~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684383231751327007",
+        "published_at": 1789159926,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleighmtz/video/7684383231751327007"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "extracellestial",
+        "creator_uid": "6868488932167812101"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 338,
+        "play_count": 28608,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 3143.37,
+        "window_units_sold": 110
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678692975102233869",
+      "video_meta": {
+        "caption_text": "These overalls are so cute for the fall! #creatorsearchinsights #fashionoutfitsideas #fallfashion #fallaesthetic #plussize ",
+        "cover_url": "https://s.500fd.com/tt_video/okDIGQiIIBw1QQSfrMipQ1uvnqkvQCA0BABIF2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678692975102233869",
+        "published_at": 1787835041,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@extracellestial/video/7678692975102233869"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "apriljxo",
+        "creator_uid": "6759302465889731590"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 318,
+        "play_count": 12500,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 2811.16,
+        "window_units_sold": 107
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689576582746295583",
+      "video_meta": {
+        "caption_text": "I\u2019m in love with these overalls from @BloomChic ! They are a great fall transition piece because they are lightweight! ",
+        "cover_url": "https://s.500fd.com/tt_video/o0kT3tZRDQWTc2r0A1FEVPRyABfTqfEIEWAYEt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689576582746295583",
+        "published_at": 1790369078,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@apriljxo/video/7689576582746295583"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "brooke_erin_3",
+        "creator_uid": "6847298770490557445"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 19,
+        "play_count": 8037,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 3749.55,
+        "window_units_sold": 103
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684216774132321566",
+      "video_meta": {
+        "caption_text": "Cute patchwork jumpsuit for my midsize and plus size girls. #jumpsuit #overalls #plussize #plussizefashion #falloutfits  ",
+        "cover_url": "https://s.500fd.com/tt_video/oABDS4lvAAEi2AjPYMv0rEABqIaq4miz1RChA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684216774132321566",
+        "published_at": 1789121200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@brooke_erin_3/video/7684216774132321566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sarahstella353",
+        "creator_uid": "6875472562810684421"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 215,
+        "play_count": 26400,
+        "share_count": 34
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 3095.04,
+        "window_units_sold": 93
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682840454265720095",
+      "video_meta": {
+        "caption_text": "Replying to @lovie_louie  you are so right !!! I\u2019m in a large. #tiktokshopcreatorpicks #curvyfashion #fallfashion #midsizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oMF4sHzqnAUSERaPE37usR7BVXefQmh9EPGAQD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682840454265720095",
+        "published_at": 1788800703,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7682840454265720095"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "janaesreviews0",
+        "creator_uid": "6917745165244662790"
+      },
+      "engagement_metrics": {
+        "comment_count": 62,
+        "like_count": 1408,
+        "play_count": 199661,
+        "share_count": 81
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 2808.49,
+        "window_units_sold": 91
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687314943548443918",
+      "video_meta": {
+        "caption_text": "#bloomchic #plussizefalloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oMPrDfjrEEASIE1GiDqgFBsuI2RtAGfU2DqsLA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687314943548443918",
+        "published_at": 1789842503,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@janaesreviews0/video/7687314943548443918"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "traci_lee_9",
+        "creator_uid": "6618471262476746757"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 58,
+        "play_count": 14200,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161875731122249",
+        "window_gmv": 2377.2,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681055899208649997",
+      "video_meta": {
+        "caption_text": "Plus size boho overalls are perfect for fall. @BloomChic #overalls #plussizefashion #plussizefallfashion #fallfashion #bohostyle ",
+        "cover_url": "https://s.500fd.com/tt_video/oMJxWql9EfgJAFKUWFSIjgDLWtCmBaDpEQ3fRG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681055899208649997",
+        "published_at": 1788395700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@traci_lee_9/video/7681055899208649997"
+      }
+    }
+  ]
+}

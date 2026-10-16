@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731704190200550034",
+  "time_range_days": 90,
+  "total": 150,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "usingmyimaginason",
+        "creator_uid": "6858749918728176645"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 521,
+        "play_count": 82830,
+        "share_count": 41
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 3482.11,
+        "window_units_sold": 165
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691842139243728142",
+      "video_meta": {
+        "caption_text": "\u2026they love it, winter is coming \ud83d\udd25\u2744\ufe0f @Lesure Pet #catbed #catmomlife #selfheating ",
+        "cover_url": "https://s.500fd.com/tt_video/oU11dDmQWwFuDQbfEgleySqb6lRovABxEQ4BIx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 71,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691842139243728142",
+        "published_at": 1790896568,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7691842139243728142"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mariahbowman",
+        "creator_uid": "4981039"
+      },
+      "engagement_metrics": {
+        "comment_count": 90,
+        "like_count": 6848,
+        "play_count": 754913,
+        "share_count": 722
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 2983.49,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685889581601836318",
+      "video_meta": {
+        "caption_text": "all my pets love these beds!! + i\u2019m loving it not upping my electricity bill & its safe to have in my home at all times!! #petbeds #catbed #selfwarmingpetbeds #petproducts #catessentials ",
+        "cover_url": "https://s.500fd.com/tt_video/oEQDFC7OcEgAaFPTIAA9EfUqVhqyqQAWeEMRAN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685889581601836318",
+        "published_at": 1789520400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mariahbowman/video/7685889581601836318"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "oakdeals99",
+        "creator_uid": "7593494755805447181"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 9,
+        "play_count": 1715,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1828.85,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688852868614327583",
+      "video_meta": {
+        "caption_text": "My dog LIVES on this thing all winter long \ud83d\udc36 #heatingpad #dogessentials #tiktokshopcreatorpicks #dogparents #dogheatingpad ",
+        "cover_url": "https://s.500fd.com/tt_video/oIj8JXX1AwJjVMjMQwSIvfffGXQIaVXqAPC0Qq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688852868614327583",
+        "published_at": 1790211600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@oakdeals99/video/7688852868614327583"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mariahbowman",
+        "creator_uid": "4981039"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 68,
+        "play_count": 23700,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1771.85,
+        "window_units_sold": 85
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688129580548295966",
+      "video_meta": {
+        "caption_text": "a cat lovers MUST HAVE for this \ud83e\udd76 #selfheating #selfwarmingpetbeds #petproducts #catlovers #catessentials ",
+        "cover_url": "https://s.500fd.com/tt_video/o0ERYeQj499JmmDEBAfKF9AVFhQpmcHmEbsqcE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688129580548295966",
+        "published_at": 1790037900,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mariahbowman/video/7688129580548295966"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "christopher_finds",
+        "creator_uid": "7315672820171965486"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 37,
+        "play_count": 3781,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1340.95,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689483351396289806",
+      "video_meta": {
+        "caption_text": "The first ever heating pad I\u2019ve seen where you don\u2019t need to plug-in, our cats are loving it",
+        "cover_url": "https://s.500fd.com/tt_video/oAEOQvIgSHAF8EoiyMRr2tffLbDXDBhIaEIqL2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689483351396289806",
+        "published_at": 1790347391,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@christopher_finds/video/7689483351396289806"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "introvertedcatlady",
+        "creator_uid": "7183079499269096491"
+      },
+      "engagement_metrics": {
+        "comment_count": 138,
+        "like_count": 15900,
+        "play_count": 668000,
+        "share_count": 520
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1403.52,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685784387924921630",
+      "video_meta": {
+        "caption_text": "The self warming bed that\u2019s safe for the home that your pets won\u2019t want to get off of \ud83d\ude39 #catbed #dogbed #petmusthaves #selfwarmingpetbeds #petfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/ogsCIUeGqQRjjRVIuZ9ceURspCDAzIPBLJebgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685784387924921630",
+        "published_at": 1789486139,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@introvertedcatlady/video/7685784387924921630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "usingmyimaginason",
+        "creator_uid": "6858749918728176645"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 35,
+        "play_count": 3259,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1076.71,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692555903622565133",
+      "video_meta": {
+        "caption_text": "#creatorsearchinsights ..give your fur baby a cozy spot for chilly-day naps \ud83d\udc3e This soft, self-warming pet mat from @Lesure Pet uses their own body heat\u2014no plugging in required! #catessentials #petbed #catbed #petgifts ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfvAwdGXqpgIgEe50qFnEsDCKA2wQRCLoSAAD.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692555903622565133",
+        "published_at": 1791062770,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@usingmyimaginason/video/7692555903622565133"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "oakdeals99",
+        "creator_uid": "7593494755805447181"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 19,
+        "play_count": 3695,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1006.92,
+        "window_units_sold": 49
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691479175785401631",
+      "video_meta": {
+        "caption_text": "This thing is gonna keep my dog warm and cozy all winter! \ud83d\udc36 #heatingpad #dogessentials #tiktokshopcreatorpicks #dogparents #dogheatingpad ",
+        "cover_url": "https://s.500fd.com/tt_video/oUJiQf1I9ROBKAnnAmq6sPiwiCAIWJX4KpygnI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691479175785401631",
+        "published_at": 1790816400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@oakdeals99/video/7691479175785401631"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "frankiefind",
+        "creator_uid": "7540403135475860535"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 13,
+        "play_count": 5682,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 1069.53,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683394971969309965",
+      "video_meta": {
+        "caption_text": "your cats will LOVE this in the winter. this is a self heating pet mat that uses a self-heating technology that absorbs your pets heat and holds it. \ud83d\udc36\ud83d\udc31\u2744\ufe0f #heatingpad #dogs #cats #dogbed #catbed ",
+        "cover_url": "https://s.500fd.com/tt_video/osalI4kjrIcc4iG4HgALXQxhIe5XVhICeDtfgA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683394971969309965",
+        "published_at": 1788929809,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@frankiefind/video/7683394971969309965"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "introvertedcatlady",
+        "creator_uid": "7183079499269096491"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 590,
+        "play_count": 67343,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495650582362360466",
+        "window_gmv": 979.73,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691397294339394846",
+      "video_meta": {
+        "caption_text": "And that\u2019s a fake fire too..so no heat is coming from anywhere but her body heat on the self warming bed \ud83e\udd79 #cats #catessentials #petbed #petmusthaves #selfwarmingpetbeds ",
+        "cover_url": "https://s.500fd.com/tt_video/oMVvVQsQDgqgUBqdAEfkA2FrRFhiGqEEIpARf6~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691397294339394846",
+        "published_at": 1790792994,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@introvertedcatlady/video/7691397294339394846"
+      }
+    }
+  ]
+}

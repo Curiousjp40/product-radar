@@ -3,7 +3,7 @@
   "product_id": "1731569071085752868",
   "title": "Curvysweet Isolde Women's 1-Shoulder Tight Knit Mesh Ruched Maxi Formal Gown - Built-in Bra, Sleeveless, Elegant, Ribbon Accent, Womens Dresses, Formal Wedding Guest Dress, Black Tie Attire",
   "clean_title": "Curvysweet Isolde Women's 1-Shoulder Tight Knit",
-  "image_url": "/img/product_1731569071085752868.jpg",
+  "image_url": "https://s.500fd.com/tt_product/102507578e81405399a47156b2a3e2e0~tplv-fhlh96nyum-origin-image.image",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731569071085752868",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Curvysweet%20Isolde%20Women%27s%201-Shoulder%20Tight%20Knit",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731569071085752868",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7672926167309061389",
+      "cover_url": "https://s.500fd.com/tt_video/oogKt74LBItbh78VAZiBkCjfYCfhUZHEioASIe~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@tts.finds05/video/7672926167309061389",
+      "creator_handle": "tts.finds05",
+      "play_count": 812400,
+      "window_gmv": 22146.97,
+      "window_units_sold": 384,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7678187131499547918",
+      "cover_url": "https://s.500fd.com/tt_video/oUAPYEkgYI4XAAkC6qAm1AJiBor5aBZpicCEO~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@zoesecrets4u/video/7678187131499547918",
+      "creator_handle": "zoesecrets4u",
+      "play_count": 523200,
+      "window_gmv": 15337.97,
+      "window_units_sold": 232,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7669120263820201246",
+      "cover_url": "https://s.500fd.com/tt_video/osDqAhBoAAAuARIBAEFpbMVDQfeYBFjEEECBuI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@laurie_stone/video/7669120263820201246",
+      "creator_handle": "laurie_stone",
+      "play_count": 127400,
+      "window_gmv": 13068.51,
+      "window_units_sold": 224,
+      "is_ad": true,
+      "duration_seconds": 56
+    },
+    {
+      "video_id": "7691862688376343821",
+      "cover_url": "https://s.500fd.com/tt_video/ocFxISEDA6fD1w1Afqv9ETSQGAFz6RAvwtCzwg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vprincemusic/video/7691862688376343821",
+      "creator_handle": "vprincemusic",
+      "play_count": 3934,
+      "window_gmv": 15147.97,
+      "window_units_sold": 221,
+      "is_ad": false,
+      "duration_seconds": 156
+    },
+    {
+      "video_id": "7672578860835245326",
+      "cover_url": "https://s.500fd.com/tt_video/okQGU9Ek9ylPICqZaaNHXeMAIzke0qmQdAeLj8~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@meraylee_/video/7672578860835245326",
+      "creator_handle": "meraylee_",
+      "play_count": 5497,
+      "window_gmv": 12113.54,
+      "window_units_sold": 221,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7675340718231096606",
+      "cover_url": "https://s.500fd.com/tt_video/oMRPjJBniEBIEAlshAC2Ui3y3AdoSiEaARQAZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@officialburt/video/7675340718231096606",
+      "creator_handle": "officialburt",
+      "play_count": 169400,
+      "window_gmv": 12620.97,
+      "window_units_sold": 211,
+      "is_ad": true,
+      "duration_seconds": 36
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dress",
+        "weight": 595
+      },
+      {
+        "hashtag": "weddingguestdress",
+        "weight": 584
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 443
+      },
+      {
+        "hashtag": "fancydress",
+        "weight": 232
+      },
+      {
+        "hashtag": "elegnatdress",
+        "weight": 232
+      },
+      {
+        "hashtag": "partydress",
+        "weight": 232
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 224
+      },
+      {
+        "hashtag": "bodycon",
+        "weight": 224
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 24,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "This one is special \ud83d\udc9b -US",
+      "Which Ivory & which black?",
+      "So pretty \ud83d\ude0d\ud83d\ude0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      2,
+      5
+    ]
+  }
 }

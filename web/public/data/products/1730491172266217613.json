@@ -3,7 +3,7 @@
   "product_id": "1730491172266217613",
   "title": "Avidlove Women Long Sleeve Bodysuit Turtle Neck Shapewear Body Suits Mesh One Piece Leotard Shirt Going Out Tops Fall Outfits Gifts Womenswear Basic Bottom CompressionElegant Everyday Nylon Overalls Spandex",
   "clean_title": "Avidlove Women Long Sleeve Bodysuit Turtle",
-  "image_url": "/img/product_1730491172266217613.jpg",
+  "image_url": "https://s.500fd.com/tt_product/6c897b1a83694db1b0d95bf20885a2ce~tplv-fhlh96nyum-origin-image.image",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730491172266217613",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Avidlove%20Women%20Long%20Sleeve%20Bodysuit%20Turtle",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730491172266217613",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7688858660126117133",
+      "cover_url": "https://s.500fd.com/tt_video/ocAM0BofRqEyCSDxCYD0PBFFAEGtgAzEeHUAIE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7688858660126117133",
+      "creator_handle": "ohhangelbaby",
+      "play_count": 517400,
+      "window_gmv": 14611.5,
+      "window_units_sold": 610,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7678067118478200078",
+      "cover_url": "https://s.500fd.com/tt_video/oAIsWGJqQNbeLLecFsEGXAARICOeArYA9QAMIf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@annaschae.finds/video/7678067118478200078",
+      "creator_handle": "annaschae.finds",
+      "play_count": 540500,
+      "window_gmv": 11044.28,
+      "window_units_sold": 468,
+      "is_ad": true,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7679842149273177358",
+      "cover_url": "https://s.500fd.com/tt_video/oYDI4Kw6HDjKHkro94FEAfQEjApfAJHfIAEVAI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@annaschae.finds/video/7679842149273177358",
+      "creator_handle": "annaschae.finds",
+      "play_count": 45500,
+      "window_gmv": 2521.41,
+      "window_units_sold": 102,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7681370755988475149",
+      "cover_url": "https://s.500fd.com/tt_video/ok6Bmp1IZGnB9AdtwlphNfiziCAI6ETwJbPSYI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@marguelp/video/7681370755988475149",
+      "creator_handle": "marguelp",
+      "play_count": 9718,
+      "window_gmv": 2195.94,
+      "window_units_sold": 90,
+      "is_ad": true,
+      "duration_seconds": 80
+    },
+    {
+      "video_id": "7668932112824732942",
+      "cover_url": "https://s.500fd.com/tt_video/o8TCBNUpGIAsIpsw81hKtfB0Zwi3uABB1EIIVi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@anitathomas74/video/7668932112824732942",
+      "creator_handle": "anitathomas74",
+      "play_count": 560,
+      "window_gmv": 1907.91,
+      "window_units_sold": 89,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7689253845678951694",
+      "cover_url": "https://s.500fd.com/tt_video/ocL9EkoDZGA6tfAxA2LVHjVACIfA2EwaI5eU1I~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thinjen/video/7689253845678951694",
+      "creator_handle": "thinjen",
+      "play_count": 14200,
+      "window_gmv": 2075.94,
+      "window_units_sold": 77,
+      "is_ad": true,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "falloutfits",
+        "weight": 1270
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 700
+      },
+      {
+        "hashtag": "outfitinspo",
+        "weight": 675
+      },
+      {
+        "hashtag": "datenightoutfit",
+        "weight": 570
+      },
+      {
+        "hashtag": "longsleevebodysuit",
+        "weight": 570
+      },
+      {
+        "hashtag": "goingoutoutfit",
+        "weight": 570
+      },
+      {
+        "hashtag": "wardrobeessential",
+        "weight": 468
+      },
+      {
+        "hashtag": "tiktokshopstockup",
+        "weight": 160
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 29,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "The cutest turtleneck mesh bodysuit!",
+      "The perfect going out top for fall!",
+      "OOTD del dia"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      2,
+      1
+    ]
+  }
 }

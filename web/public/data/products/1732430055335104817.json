@@ -3,7 +3,7 @@
   "product_id": "1732430055335104817",
   "title": "Women's Solid Color Sexy Deep V Neck Half Sleeves Bodycon Dress, Basic Plain Ruched Slim Fit A-line Mini Dress, Party Club Date Holiday Daily Casual Elegant Short Dresses For Ladies All Seasons Summer Fashion Chic Clothes Wear Bodycon Fitted Dress",
   "clean_title": "Women's Solid Color Sexy Deep V",
-  "image_url": "/img/product_1732430055335104817.webp",
+  "image_url": "https://s.500fd.com/tt_product/0e33b6dd5bf2481d86bcc359076b2848~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,124 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732430055335104817",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Solid%20Color%20Sexy%20Deep%20V",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732430055335104817",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679182757452467469",
+      "cover_url": "https://s.500fd.com/tt_video/oEy8CAAfVCHJTrpRElFEAADkIIAjvSAIEAfDkf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7679182757452467469",
+      "creator_handle": "melsdailyinspo",
+      "play_count": 5621364,
+      "window_gmv": 6610.61,
+      "window_units_sold": 604,
+      "is_ad": true,
+      "duration_seconds": 31
+    },
+    {
+      "video_id": "7680209430352268574",
+      "cover_url": "https://s.500fd.com/tt_video/oEqCKHRAcyfGodb0DFHjeHerIEILrKIVAIiQvV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7680209430352268574",
+      "creator_handle": "rositamurcia777",
+      "play_count": 666,
+      "window_gmv": 5845.28,
+      "window_units_sold": 552,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7676986909016591629",
+      "cover_url": "https://s.500fd.com/tt_video/okpFSBpB1AIzFhaiiirRAAErCBcKfRhwIIIwu7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@paola.shops/video/7676986909016591629",
+      "creator_handle": "paola.shops",
+      "play_count": 938200,
+      "window_gmv": 3836.95,
+      "window_units_sold": 400,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7672875022901431566",
+      "cover_url": "https://s.500fd.com/tt_video/oUEAxI4529BFul6UskD5BIaLhK7t6gOi0kinv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7672875022901431566",
+      "creator_handle": "3xtracreamcheese",
+      "play_count": 2300000,
+      "window_gmv": 4112.01,
+      "window_units_sold": 398,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7682593751742680350",
+      "cover_url": "https://s.500fd.com/tt_video/oYWmeAopBqJJiIgVcPLeICANcD8TrUgcjfG1IF~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@.foodgotmewasted/video/7682593751742680350",
+      "creator_handle": ".foodgotmewasted",
+      "play_count": 38551,
+      "window_gmv": 4908.49,
+      "window_units_sold": 396,
+      "is_ad": false,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7679491236230597901",
+      "cover_url": "https://s.500fd.com/tt_video/o80EVFaOV8Hpeo1mCxFEA7DfIJAjn2CQQkf3kg~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@melsdailyinspo/video/7679491236230597901",
+      "creator_handle": "melsdailyinspo",
+      "play_count": 898000,
+      "window_gmv": 4402.98,
+      "window_units_sold": 394,
+      "is_ad": true,
+      "duration_seconds": 11
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "women",
+        "weight": 552
+      },
+      {
+        "hashtag": "solid",
+        "weight": 552
+      },
+      {
+        "hashtag": "color",
+        "weight": 552
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 400
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 12,
+      "hour_end": 14
+    },
+    "top_hooks": [
+      "this was a neeed for fall",
+      "'s Sexy Deep",
+      "brb need in every colorrr"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      4,
+      1
+    ]
+  }
 }

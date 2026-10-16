@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732614934904803424",
+  "time_range_days": 90,
+  "total": 13,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "momstylereset",
+        "creator_uid": "7516600675246638111"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 4,
+        "play_count": 423,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 153.4,
+        "window_units_sold": 10
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692203439169817886",
+      "video_meta": {
+        "caption_text": "Navy two-piece matching set with sporty white side stripes, a fitted long-sleeve top, and matching slim pants \ud83d\udc99 Clean, comfortable, and easy for errands, travel days, or casual everyday wear. #navymatchingset #twopieceset #sportyoutfit #stripedset #casualoutfit ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692203439169817886",
+        "published_at": 1790980691,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momstylereset/video/7692203439169817886"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aimi_us",
+        "creator_uid": "7433242449281336363"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 375,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 115.1,
+        "window_units_sold": 8
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694307436282301727",
+      "video_meta": {
+        "caption_text": "#fyp #tiktokshop #CityTasteTest #foryour ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694307436282301727",
+        "published_at": 1791470580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aimi_us/video/7694307436282301727"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bestshop.111",
+        "creator_uid": "7297521416416347179"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 1,
+        "play_count": 422,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 74.2,
+        "window_units_sold": 5
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694617176849812767",
+      "video_meta": {
+        "caption_text": "#casualset #twopieceset #fallfashion #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694617176849812767",
+        "published_at": 1791545580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bestshop.111/video/7694617176849812767"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 719,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 75.9,
+        "window_units_sold": 5
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694592175501282590",
+      "video_meta": {
+        "caption_text": "#americanstyle #usafashion #womenoutfit #womensfashion #usashopping ",
+        "cover_url": "https://s.500fd.com/tt_video/okjvIA7rKVBKdEIqjyFfEBAparaq7qIfR5D4Er~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694592175501282590",
+        "published_at": 1791556620,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7694592175501282590"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fashion_abaya_closet",
+        "creator_uid": "7405914311891551274"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 14,
+        "play_count": 1184,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 58.9,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694983313987063054",
+      "video_meta": {
+        "caption_text": "#americanstyle #usafashion #womenoutfit #womensfashion #usashopping ",
+        "cover_url": "https://s.500fd.com/tt_video/oQJvfADy6EfDuFRFqq8mLGSEgQMKB3zQb5qhEI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694983313987063054",
+        "published_at": 1791729000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7694983313987063054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bennobop",
+        "creator_uid": "7432634711712547886"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 127,
+        "play_count": 12616,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 57.8,
+        "window_units_sold": 4
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693550560670141709",
+      "video_meta": {
+        "caption_text": "\ud83d\udc95#Fyp #tiktokshop #Foryou#outfitcheck ",
+        "cover_url": "https://s.500fd.com/tt_video/o4P8SFDLREDnWQYWYJEIguBAeD1g5qmjxqfCmG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693550560670141709",
+        "published_at": 1791306000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bennobop/video/7693550560670141709"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "momstylereset",
+        "creator_uid": "7516600675246638111"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 20,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 27.8,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694085306382929182",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694085306382929182",
+        "published_at": 1791418851,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@momstylereset/video/7694085306382929182"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "06462473yyy",
+        "creator_uid": "7428461839830746158"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 296,
+        "play_count": 90695,
+        "share_count": 61
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 33.3,
+        "window_units_sold": 2
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7690904446221421837",
+      "video_meta": {
+        "caption_text": "#WomenFashion#TikTokFashion #FashionTikTok #beaty#OOTD",
+        "cover_url": "https://s.500fd.com/tt_video/o0JERF8fDDluqSv7sBFqgUIERAiJBHOfEZBqr5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690904446221421837",
+        "published_at": 1790681700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@06462473yyy/video/7690904446221421837"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spherevoice",
+        "creator_uid": "7360737441428309038"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 85,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 13.9,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694196836709584142",
+      "video_meta": {
+        "caption_text": "#tiktokmademebuyit #falloutfitinspo #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694196836709584142",
+        "published_at": 1791444897,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spherevoice/video/7694196836709584142"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelly.vecchi",
+        "creator_uid": "7297329171302433834"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 49,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647052285683863648",
+        "window_gmv": 13.9,
+        "window_units_sold": 1
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694147196492516639",
+      "video_meta": {
+        "caption_text": "Literally last night it was full price, go get yours! I got the green one #falldealsforyou #womensset ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694147196492516639",
+        "published_at": 1791433267,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelly.vecchi/video/7694147196492516639"
+      }
+    }
+  ]
+}

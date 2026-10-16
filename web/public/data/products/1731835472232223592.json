@@ -3,7 +3,7 @@
   "product_id": "1731835472232223592",
   "title": "Cat Fight 5 Piece Costume Set - Black",
   "clean_title": "Cat Fight 5 Piece Costume Set",
-  "image_url": "/img/product_1731835472232223592.webp",
+  "image_url": "https://s.500fd.com/tt_product/64e32b2f46e446a98be29a65f67e28e7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731835472232223592",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Cat%20Fight%205%20Piece%20Costume%20Set",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731835472232223592",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7687984729336892703",
+      "cover_url": "https://s.500fd.com/tt_video/oohqKoVeoA83BRZlAIF9sNVD8fah7YTEEEByxI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@littlemarie23_/video/7687984729336892703",
+      "creator_handle": "littlemarie23_",
+      "play_count": 1600000,
+      "window_gmv": 13872.05,
+      "window_units_sold": 239,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7689274122081176862",
+      "cover_url": "https://s.500fd.com/tt_video/ogD37eKfjVEGdqIBCTDrwzF4uEeaAA1QsIlKQI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kensysolis/video/7689274122081176862",
+      "creator_handle": "kensysolis",
+      "play_count": 96100,
+      "window_gmv": 8748.2,
+      "window_units_sold": 164,
+      "is_ad": false,
+      "duration_seconds": 26
+    },
+    {
+      "video_id": "7688133678861520142",
+      "cover_url": "https://s.500fd.com/tt_video/o4eIfLWYIgMDZgJAnMyA8zQgVGgFjdaHkie38C~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@c.luuuuuuuu/video/7688133678861520142",
+      "creator_handle": "c.luuuuuuuu",
+      "play_count": 54300,
+      "window_gmv": 8895.37,
+      "window_units_sold": 161,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7692547545716903181",
+      "cover_url": "https://s.500fd.com/tt_video/o0PxZpHwQIvkvzmHtaVIBG0CgQz8k04eAAfLfj~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@melianid/video/7692547545716903181",
+      "creator_handle": "melianid",
+      "play_count": 171700,
+      "window_gmv": 5834.9,
+      "window_units_sold": 112,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7691415484528364814",
+      "cover_url": "https://s.500fd.com/tt_video/o09W0AXERIJAbS1f8CEAb7DqAWeFED9WCglWZv~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7691415484528364814",
+      "creator_handle": "coolestbabeoutthere",
+      "play_count": 57700,
+      "window_gmv": 6243.36,
+      "window_units_sold": 101,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7694409379944090893",
+      "cover_url": "https://s.500fd.com/tt_video/oQKIjVX8kfeIICtNHAQrb4FeHpdAXLIGEYkCsB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jessell_/video/7694409379944090893",
+      "creator_handle": "jessell_",
+      "play_count": 24861,
+      "window_gmv": 4100.2,
+      "window_units_sold": 86,
+      "is_ad": false,
+      "duration_seconds": 23
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "costume",
+        "weight": 645
+      },
+      {
+        "hashtag": "catwoman",
+        "weight": 340
+      },
+      {
+        "hashtag": "catwomen",
+        "weight": 339
+      },
+      {
+        "hashtag": "halloween",
+        "weight": 322
+      },
+      {
+        "hashtag": "costumeideas",
+        "weight": 239
+      },
+      {
+        "hashtag": "octoberfinds",
+        "weight": 239
+      },
+      {
+        "hashtag": "costumeinspo",
+        "weight": 184
+      },
+      {
+        "hashtag": "catwomencostume",
+        "weight": 177
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 15,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 20.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "Had to use this audio",
+      "Disfraz para Halloween",
+      "catwoman will always be iconic"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      3,
+      0
+    ]
+  }
 }

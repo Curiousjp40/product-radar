@@ -143,6 +143,16 @@ there is no confirmed way to build a direct TikTok Shop product link from a
 FastMoss product_id, so the dashboard does not have an "Abrir en TikTok
 Shop" button.
 
+## `live_search` (tested 2026-10-16, 3 real calls, 3 credits -- Part C7b verification)
+
+Confirmed real response shape: `{list: [{creator: {...}, live: {room_id, title, started_at, ended_at, duration_seconds, linked_product_count, cover_url}, performance_summary: {live_gmv, live_units_sold, gmv_per_viewer, total_viewer_count, currency}}], total}`. `started_at`/`ended_at` are Unix seconds (not confirmed yet whether UTC or UTC+8 -- performance_summary's `currency: "USD"` and matching US-looking handles suggest these are already in a sensible timezone for a US-region filter, but this needs a second check against a live with a known real-world time before trusting it for a "best hour" conversion).
+
+**Two real problems found, not yet worked around:**
+- `filter.product_category` (an integer category ID, confirmed via the tool's own schema) returned an **empty list** for both `601259` (shapewear's `fastmoss_category_id`) and `871048` (furniture's) against the same 28-day US window that returned 60,000 total lives with no category filter. Our `config/categories.yaml` category IDs may be from a different taxonomy than whatever `live_search` expects for `product_category` -- unconfirmed which ID space it wants.
+- `orderby: [{field: "total_gmv"|"total_units_sold", order: "desc"}]` returned the **exact same 10 lives in the exact same order** for both fields -- real evidence the ordering isn't sorting by either field for this account/window. Every one of those 10 lives also had `live_gmv: 0, live_units_sold: 0, gmv_per_viewer: 0` despite real `total_viewer_count` (11-3513) and `linked_product_count` (0-48), so GMV/units attribution may simply lag behind most lives ending, separate from the ordering bug.
+
+Fixture: `tests/fixtures/live_search_us_28d.json`. Part C7b (live-posting-time, "best hour to go live per category, ranked by GMV/units") can't be built against this endpoint as designed until one of these is resolved -- either the right category-ID space for `product_category`, or a working `orderby`, or both. Flagged to Ryan instead of spending the other 9 categories' credits repeating the same broken pattern.
+
 ## Not yet confirmed
 
 - Review **count** (vs. the `product_rating` average found via `video_detail_analysis`) -- candidate: `product_review_list`.

@@ -3,7 +3,7 @@
   "product_id": "1732158146250183146",
   "title": "Women's Halloween Gothic Off-Shoulder Chiffon A-Line Mini Dress Costume, Ruched Jacquard Waist, Ruffle Trim, Dark Romantic Spooky Party Outfit",
   "clean_title": "Women's Halloween Gothic Off-Shoulder Chiffon A-Line",
-  "image_url": "/img/product_1732158146250183146.jpg",
+  "image_url": "https://s.500fd.com/tt_product/7311b8f2418c414f99fcdd820e9e3abd~tplv-fhlh96nyum-origin-image.image",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732158146250183146",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Halloween%20Gothic%20Off-Shoulder%20Chiffon%20A-Line",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732158146250183146",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681614755710225694",
+      "cover_url": "https://s.500fd.com/tt_video/ocY1BUkjQFOa8IgfG4GKRHeQCBWalAf0BeAisq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@floerns/video/7681614755710225694",
+      "creator_handle": "floerns",
+      "play_count": 522880,
+      "window_gmv": 8619.13,
+      "window_units_sold": 231,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7684362628617096462",
+      "cover_url": "https://s.500fd.com/tt_video/oI5kFari59IFCIgImAi1AVuBwPp8OBPzfiUCI7~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7684362628617096462",
+      "creator_handle": "isabellatts0",
+      "play_count": 827000,
+      "window_gmv": 7567.75,
+      "window_units_sold": 188,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7690616608133483790",
+      "cover_url": "https://s.500fd.com/tt_video/o0QDquF1jE9oEBoUNV2Df86AEVSm1GpQ9gfFRH~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7690616608133483790",
+      "creator_handle": "isabellatts0",
+      "play_count": 4663,
+      "window_gmv": 5013.53,
+      "window_units_sold": 133,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7664749360076360991",
+      "cover_url": "https://s.500fd.com/tt_video/oYKNQoIGB6egtnfGUSq9ieKQgXLZ1NAeEfKkdA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kensysolis/video/7664749360076360991",
+      "creator_handle": "kensysolis",
+      "play_count": 163200,
+      "window_gmv": 4336.95,
+      "window_units_sold": 126,
+      "is_ad": false,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7677881176631020830",
+      "cover_url": "https://s.500fd.com/tt_video/oUnIOCkcIMoGIqfakeXEADQQjAn8Aev8IAEVAq~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@floerns/video/7677881176631020830",
+      "creator_handle": "floerns",
+      "play_count": 63500,
+      "window_gmv": 4604.44,
+      "window_units_sold": 125,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7684843518971415822",
+      "cover_url": "https://s.500fd.com/tt_video/oEHniUDSiqlzPgmC4EAB5EanYBIvPgzZBIILq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7684843518971415822",
+      "creator_handle": "isabellatts0",
+      "play_count": 112200,
+      "window_gmv": 5019.21,
+      "window_units_sold": 123,
+      "is_ad": true,
+      "duration_seconds": 8
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloween",
+        "weight": 726
+      },
+      {
+        "hashtag": "halloweencostume",
+        "weight": 677
+      },
+      {
+        "hashtag": "costumeideas",
+        "weight": 656
+      },
+      {
+        "hashtag": "gothic",
+        "weight": 647
+      },
+      {
+        "hashtag": "minidress",
+        "weight": 481
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 459
+      },
+      {
+        "hashtag": "deermakeup",
+        "weight": 231
+      },
+      {
+        "hashtag": "cosplay",
+        "weight": 216
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 8,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 5,
+      "hour_end": 7
+    },
+    "top_hooks": [
+      "This dress is perfect for this costume",
+      "Made a costume out of this Halloween gothic mini dress",
+      "your irl rapunzel \ud83c\udf38"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 4,
+    "hour_end": 6,
+    "best_weekdays": [
+      4,
+      0
+    ]
+  }
 }

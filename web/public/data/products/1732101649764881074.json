@@ -3,7 +3,7 @@
   "product_id": "1732101649764881074",
   "title": "Women's Long Sleeve Mesh Dress, Sexy Backless A-Line Short Dress, Slim-Fitting Plain Design, All Seasons Fashion, Basic",
   "clean_title": "Women's Long Sleeve Mesh Dress",
-  "image_url": "/img/product_1732101649764881074.webp",
+  "image_url": "https://s.500fd.com/tt_product/26176b4131f147c88d8f89051c1d6933~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,136 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732101649764881074",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Long%20Sleeve%20Mesh%20Dress",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732101649764881074",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7664800689813523726",
+      "cover_url": "https://s.500fd.com/tt_video/oEe5lAfWkvQCU1jaIyAGIlFELSPjwUe7DUHaCJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bsv_xo/video/7664800689813523726",
+      "creator_handle": "bsv_xo",
+      "play_count": 91900,
+      "window_gmv": 23042.93,
+      "window_units_sold": 1678,
+      "is_ad": false,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7676257267796282655",
+      "cover_url": "https://s.500fd.com/tt_video/ogiziizCiICEAPQF8HfWwAsAIADm1BKpiAv1BJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@niinadaniielle/video/7676257267796282655",
+      "creator_handle": "niinadaniielle",
+      "play_count": 1800000,
+      "window_gmv": 8487.4,
+      "window_units_sold": 651,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7665522771438472462",
+      "cover_url": "https://s.500fd.com/tt_video/ooQGUwAof0ltIEeRtSDHXrAAIDkOCIAISAeLj0~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bsv_xo/video/7665522771438472462",
+      "creator_handle": "bsv_xo",
+      "play_count": 11800,
+      "window_gmv": 8424.65,
+      "window_units_sold": 577,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7676637405327150367",
+      "cover_url": "https://s.500fd.com/tt_video/oMmIIH7w1EKACAiy5BRiwCKiIyBAtmAvMAfVRb~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@niinadaniielle/video/7676637405327150367",
+      "creator_handle": "niinadaniielle",
+      "play_count": 226400,
+      "window_gmv": 7443.11,
+      "window_units_sold": 564,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7676673929271938334",
+      "cover_url": "https://s.500fd.com/tt_video/oIMRBf8pCirKIlBDUA1AiB2JEyIIAACICiMATl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@brooklynnbk/video/7676673929271938334",
+      "creator_handle": "brooklynnbk",
+      "play_count": 986901,
+      "window_gmv": 4283.87,
+      "window_units_sold": 318,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7673611734011088159",
+      "cover_url": "https://s.500fd.com/tt_video/o8VIwfievAIjDSSQIHzEAOCqJIfFQTDEURMJSD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vaquerafer/video/7673611734011088159",
+      "creator_handle": "vaquerafer",
+      "play_count": 1609,
+      "window_gmv": 2806.48,
+      "window_units_sold": 244,
+      "is_ad": false,
+      "duration_seconds": 15
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 577
+      },
+      {
+        "hashtag": "tiktokshop",
+        "weight": 577
+      },
+      {
+        "hashtag": "karolg",
+        "weight": 244
+      },
+      {
+        "hashtag": "karolgoutfitideas",
+        "weight": 244
+      },
+      {
+        "hashtag": "karolgconcierto",
+        "weight": 244
+      },
+      {
+        "hashtag": "birthdaydress",
+        "weight": 154
+      },
+      {
+        "hashtag": "meshdress",
+        "weight": 154
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 12,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 0.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "yes to the dress",
+      "I really can\u2019t get over this dress",
+      "the IT girl dress of 2026 \ud83e\udd0d\ud83c\udf38\ud83d\udc95\ud83c\udf80"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      0,
+      2
+    ]
+  }
 }

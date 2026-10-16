@@ -3,7 +3,7 @@
   "product_id": "1729468671204299410",
   "title": "Lesure Jacquard Donut Dog Bed - Original Design Pattern,Cute Home Decor as Gift for Pet,Washable Cover Cute Home Decor as Gift for Pet,Anti Slip Bottom",
   "clean_title": "Lesure Jacquard Donut Dog Bed",
-  "image_url": "/img/product_1729468671204299410.jpg",
+  "image_url": "https://s.500fd.com/tt_product/a8de7a95c3694d6d9adaacef509c7d2b~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729468671204299410",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Lesure%20Jacquard%20Donut%20Dog%20Bed",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729468671204299410",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7676128324694936846",
+      "cover_url": "https://s.500fd.com/tt_video/ok7eeAGDsWIHHLjEVRo9rUkIAgfcCHDgSnaiIQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@justrachelv/video/7676128324694936846",
+      "creator_handle": "justrachelv",
+      "play_count": 84500,
+      "window_gmv": 1787.14,
+      "window_units_sold": 100,
+      "is_ad": true,
+      "duration_seconds": 16
+    },
+    {
+      "video_id": "7672911333997808926",
+      "cover_url": "https://s.500fd.com/tt_video/osQQEKmgiBAEqCAWAdi2iI1ABCUA0BbPITfT7i~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@unleashedliving/video/7672911333997808926",
+      "creator_handle": "unleashedliving",
+      "play_count": 91800,
+      "window_gmv": 1449.96,
+      "window_units_sold": 88,
+      "is_ad": true,
+      "duration_seconds": 33
+    },
+    {
+      "video_id": "7692316656827174157",
+      "cover_url": "https://s.500fd.com/tt_video/o0EA5BwYfAI1Vw74CBI1gUAnmiBpiCBWEE6IU8~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dianadelaherran/video/7692316656827174157",
+      "creator_handle": "dianadelaherran",
+      "play_count": 25600,
+      "window_gmv": 1344.81,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 57
+    },
+    {
+      "video_id": "7681352101049470222",
+      "cover_url": "https://s.500fd.com/tt_video/oIaZragmfAQhRQKEGDRqKRBgpEDSFEePKaXQKw~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@justrachelv/video/7681352101049470222",
+      "creator_handle": "justrachelv",
+      "play_count": 7564,
+      "window_gmv": 1141.62,
+      "window_units_sold": 62,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7676621783826451725",
+      "cover_url": "https://s.500fd.com/tt_video/ogJBR2CACGuBMPz5AAAIu1ftCwBiI1i1wELIis~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@smalltownbeautybytess/video/7676621783826451725",
+      "creator_handle": "smalltownbeautybytess",
+      "play_count": 53700,
+      "window_gmv": 1130.85,
+      "window_units_sold": 61,
+      "is_ad": false,
+      "duration_seconds": 65
+    },
+    {
+      "video_id": "7677681805138398477",
+      "cover_url": "https://s.500fd.com/tt_video/owRCTDOSA6AIOAwqbJSFEs8jECcfoA4MSgDmEf~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@smalltownbeautybytess/video/7677681805138398477",
+      "creator_handle": "smalltownbeautybytess",
+      "play_count": 28574,
+      "window_gmv": 883.51,
+      "window_units_sold": 47,
+      "is_ad": false,
+      "duration_seconds": 43
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "dogbed",
+        "weight": 299
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 193
+      },
+      {
+        "hashtag": "dogmom",
+        "weight": 173
+      },
+      {
+        "hashtag": "seniordog",
+        "weight": 162
+      },
+      {
+        "hashtag": "seniordogsoftiktok",
+        "weight": 162
+      },
+      {
+        "hashtag": "dogsoftiktok",
+        "weight": 131
+      },
+      {
+        "hashtag": "doglover",
+        "weight": 93
+      },
+      {
+        "hashtag": "lesurepet",
+        "weight": 88
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 38,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "My precious old man is so comfy now \ud83d\ude2d",
+      "even when my knees are bent it's so fricken comfy!",
+      "Agarre tama\u00f1o M, pero vienen amplias"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      5,
+      3
+    ]
+  }
 }

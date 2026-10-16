@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729558952707527581",
+  "time_range_days": 90,
+  "total": 1947,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "myriamestrella8",
+        "creator_uid": "7314774908154872874"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 1503,
+        "play_count": 121100,
+        "share_count": 30
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 38959.75,
+        "window_units_sold": 1539
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683293750495366413",
+      "video_meta": {
+        "caption_text": "This is exactly the kind of top I want for fall \ud83d\ude2d ",
+        "cover_url": "https://s.500fd.com/tt_video/oobDAsqQBMbDzCSFgHSgIfEhFEARFAogfUZkAI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683293750495366413",
+        "published_at": 1788919200,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@myriamestrella8/video/7683293750495366413"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "akerns_yo",
+        "creator_uid": "6874297514528883718"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 19,
+        "play_count": 8563,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 24736.2,
+        "window_units_sold": 1142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664229716890569998",
+      "video_meta": {
+        "caption_text": "@shewin_official_us #workshirt #workoutfits #fallfashiontrends #midsizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oYABAHQc411IvBOA2BBmjEfTJL0IigiwAycCYu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664229716890569998",
+        "published_at": 1784467590,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@akerns_yo/video/7664229716890569998"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "akerns_yo",
+        "creator_uid": "6874297514528883718"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 9,
+        "play_count": 5528,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 25019.97,
+        "window_units_sold": 1120
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671394947488156942",
+      "video_meta": {
+        "caption_text": "fall work outfits made easy! @SHEWIN #workoutfits #sweater #midsizefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/o8FkTACU7AE3HUfAEklIDjiEkfsfQdPAIUOAID~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 45,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671394947488156942",
+        "published_at": 1786135858,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@akerns_yo/video/7671394947488156942"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vibe_with_stephanie",
+        "creator_uid": "6894813898965648390"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 8,
+        "play_count": 1808,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 20611.68,
+        "window_units_sold": 954
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668348022811626766",
+      "video_meta": {
+        "caption_text": "@shewin_official_us loving these light sweaters for fall and the colors!!! #fallsweaters #falloutfitinspo #sweaterweather #shewin #cutesweater ",
+        "cover_url": "https://s.500fd.com/tt_video/o8f3SDa4QAStPKDE3D4En6H1jQDRgOFsqWBMEf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668348022811626766",
+        "published_at": 1785426421,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7668348022811626766"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 1094,
+        "play_count": 320900,
+        "share_count": 107
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 15028.94,
+        "window_units_sold": 635
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689556480323865887",
+      "video_meta": {
+        "caption_text": "One of my favs \ud83d\ude0d #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/owAEEvW2kmqIfBvssGDsnIcXVtyREpFAWxUEfx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689556480323865887",
+        "published_at": 1790364405,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7689556480323865887"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaitilyndecker",
+        "creator_uid": "6684577504286409734"
+      },
+      "engagement_metrics": {
+        "comment_count": 27,
+        "like_count": 1633,
+        "play_count": 513500,
+        "share_count": 85
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 13705.07,
+        "window_units_sold": 623
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663908731591216398",
+      "video_meta": {
+        "caption_text": "I love it when I can wear my blouse with leggings! \u2764\ufe0f\u200d\ud83d\udd25\ud83c\udf89 #falltrends ",
+        "cover_url": "https://s.500fd.com/tt_video/okBUEbaBiyGrThAiAAYAuDgEQmsPBlixk4IIa~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663908731591216398",
+        "published_at": 1784392839,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitilyndecker/video/7663908731591216398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "life_with_b76",
+        "creator_uid": "6866183676319237125"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 7,
+        "play_count": 1388,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 12801.54,
+        "window_units_sold": 589
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666502645292502285",
+      "video_meta": {
+        "caption_text": "Replying to @Steph \ud83d\udc95 the perfect top and it literally goes with everything!   5\u20196 & 128lbs Small  #oversizedshirt #casualoutfits #fashionover40 #closetstaple #basictop ",
+        "cover_url": "https://s.500fd.com/tt_video/oE1Mp4S4Ixn0AUnCIsWkxBABFIi6cpfPzwGBEi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666502645292502285",
+        "published_at": 1784996772,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@life_with_b76/video/7666502645292502285"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 317,
+        "like_count": 46368,
+        "play_count": 8153827,
+        "share_count": 4531
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 13818.54,
+        "window_units_sold": 587
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688405732269624607",
+      "video_meta": {
+        "caption_text": "One of my favs \ud83d\ude0d #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oQtsK3A2PBpDF3EzlyiaXbqXiRr9BGmVIbzIA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688405732269624607",
+        "published_at": 1790096488,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7688405732269624607"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "akerns_yo",
+        "creator_uid": "6874297514528883718"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 5,
+        "play_count": 3387,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 13937.74,
+        "window_units_sold": 574
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680979023446510862",
+      "video_meta": {
+        "caption_text": "legging approved and doesn't cling? yes honey! @SHEWIN #workoutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/ogE0rAREEDAfdICYAqAgYJe1SCFHcUmDFyBdZm~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680979023446510862",
+        "published_at": 1788367337,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@akerns_yo/video/7680979023446510862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bekahhoush",
+        "creator_uid": "6738960084510835718"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 99,
+        "play_count": 44322,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495804002442709917",
+        "window_gmv": 13232.5,
+        "window_units_sold": 538
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690284476986903838",
+      "video_meta": {
+        "caption_text": "One of my favs \ud83d\ude0d #fashion #fyp #fyp\u30b7 #ttshop #tiktokshopfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oEhEEfWycAvRDRAQAqpEANCVwEuFIeKxq6EhAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690284476986903838",
+        "published_at": 1790533903,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bekahhoush/video/7690284476986903838"
+      }
+    }
+  ]
+}

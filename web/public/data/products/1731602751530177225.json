@@ -3,7 +3,7 @@
   "product_id": "1731602751530177225",
   "title": "Women\u2018s Off the Shoulder Long Sleeve Jumper & Pants, 2 Piece Set Two Pieces Outfits Fall Basic Sweatsuit Outfits, Jumper Suit, Womenswear, Sweatshirt, Clothes, Lady #GLOBAL PICKS",
   "clean_title": "Women\u2018s Off the Shoulder Long Sleeve",
-  "image_url": "/img/product_1731602751530177225.webp",
+  "image_url": "https://s.500fd.com/tt_product/09f26ef18d3f439bae8d0bf778d9cedb~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731602751530177225",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%E2%80%98s%20Off%20the%20Shoulder%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731602751530177225",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7686604293385784590",
+      "cover_url": "https://s.500fd.com/tt_video/oEAmeEaeV9HbSIQYCpLIAhGlIWAj53MQQ2eXkJ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nishikisses/video/7686604293385784590",
+      "creator_handle": "nishikisses",
+      "play_count": 67000,
+      "window_gmv": 17663.61,
+      "window_units_sold": 698,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7673644302995557662",
+      "cover_url": "https://s.500fd.com/tt_video/oAohdDWGpbQerzJ8FvLIASGxRfAGKcxQQ1efUI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_jessicao17/video/7673644302995557662",
+      "creator_handle": "_jessicao17",
+      "play_count": 6500000,
+      "window_gmv": 21065.83,
+      "window_units_sold": 637,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7664963405316394253",
+      "cover_url": "https://s.500fd.com/tt_video/osQfQEDWRanXAbDq5FqQf9qNiqiExElgSu29Bi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jordanobermeier__/video/7664963405316394253",
+      "creator_handle": "jordanobermeier__",
+      "play_count": 789600,
+      "window_gmv": 15130.07,
+      "window_units_sold": 624,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7681924551915162911",
+      "cover_url": "https://s.500fd.com/tt_video/okBf1FHfRqE5OVENBoDbc3F61cWmAAmE8rrHIE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lilypadtts/video/7681924551915162911",
+      "creator_handle": "lilypadtts",
+      "play_count": 2200000,
+      "window_gmv": 10094.63,
+      "window_units_sold": 439,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7674420835456765198",
+      "cover_url": "https://s.500fd.com/tt_video/owasBtaEEh1i4o6EBDPgBBRTBiEAFiAB66UIG~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sortofawesome/video/7674420835456765198",
+      "creator_handle": "sortofawesome",
+      "play_count": 844,
+      "window_gmv": 15073.93,
+      "window_units_sold": 380,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7682153512138034445",
+      "cover_url": "https://s.500fd.com/tt_video/o0UQA9OIeL2fHgVQ5LPpINIF4G1gecALjDCvMk~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@isabellatts0/video/7682153512138034445",
+      "creator_handle": "isabellatts0",
+      "play_count": 2400000,
+      "window_gmv": 7279.47,
+      "window_units_sold": 247,
+      "is_ad": true,
+      "duration_seconds": 8
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "ootd",
+        "weight": 1323
+      },
+      {
+        "hashtag": "fall",
+        "weight": 945
+      },
+      {
+        "hashtag": "offtheshoulder",
+        "weight": 698
+      },
+      {
+        "hashtag": "set",
+        "weight": 698
+      },
+      {
+        "hashtag": "falloutfit",
+        "weight": 686
+      },
+      {
+        "hashtag": "sensaciondelbloque",
+        "weight": 637
+      },
+      {
+        "hashtag": "randy",
+        "weight": 637
+      },
+      {
+        "hashtag": "outfitinspo",
+        "weight": 637
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 8,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "one of my fav sets!",
+      "sera el pelo o el outfit",
+      "Living so good (in this set)"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

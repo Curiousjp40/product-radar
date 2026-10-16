@@ -3,7 +3,7 @@
   "product_id": "1731111392266851038",
   "title": "Leg Avenue Iridescent Strapless Fairy Wings - Lightweight Polyester Women's Halloween Costumes & Accessories Adults, U-Wire Ethereal Touch Roleplay Accessory for Bodysuits & Bras",
   "clean_title": "Leg Avenue Iridescent Strapless Fairy Wings",
-  "image_url": "/img/product_1731111392266851038.webp",
+  "image_url": "https://s.500fd.com/tt_product/aa9abe975b0e444aa89bf634075194b7~tplv-fhlh96nyum-crop-webp:1536:2048.webp",
   "category": "costumes",
   "category_label_es": "Disfraces",
   "category_label_en": "Costumes",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731111392266851038",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Leg%20Avenue%20Iridescent%20Strapless%20Fairy%20Wings",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731111392266851038",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7685805387060088078",
+      "cover_url": "https://s.500fd.com/tt_video/ooZllVwCBqAiv2dA3EAxDpCjBaIWEZ4g2A0ik~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7685805387060088078",
+      "creator_handle": "j0slyn",
+      "play_count": 555100,
+      "window_gmv": 3698.16,
+      "window_units_sold": 104,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7682907926381513998",
+      "cover_url": "https://s.500fd.com/tt_video/o8XgGANVPAe2Hf3AQrmlJjsEke88gXKAI7EAQM~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7682907926381513998",
+      "creator_handle": "j0slyn",
+      "play_count": 1813683,
+      "window_gmv": 3706.44,
+      "window_units_sold": 99,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7692891178479488270",
+      "cover_url": "https://s.500fd.com/tt_video/okpeFA2dUkRFiIgVehLeHCA9MRHlGIgvjVGEIh~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7692891178479488270",
+      "creator_handle": "j0slyn",
+      "play_count": 1200000,
+      "window_gmv": 2718.78,
+      "window_units_sold": 80,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7690079665108667662",
+      "cover_url": "https://s.500fd.com/tt_video/osgAk4CgIprimMEBSt7iEq2PSBuAA1iAta4RA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7690079665108667662",
+      "creator_handle": "j0slyn",
+      "play_count": 1500000,
+      "window_gmv": 2131.26,
+      "window_units_sold": 64,
+      "is_ad": true,
+      "duration_seconds": 9
+    },
+    {
+      "video_id": "7669128405362724109",
+      "cover_url": "https://s.500fd.com/tt_video/ognuI9nB4vEuLimgUINR4B2AaPEA483DBiUEY~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sunnyinthesouth/video/7669128405362724109",
+      "creator_handle": "sunnyinthesouth",
+      "play_count": 388200,
+      "window_gmv": 1981.91,
+      "window_units_sold": 61,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7685530381486918926",
+      "cover_url": "https://s.500fd.com/tt_video/o8FEbfPTIcnESkqCRQaDfDQR02AFAAHgAxwqQd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7685530381486918926",
+      "creator_handle": "j0slyn",
+      "play_count": 109000,
+      "window_gmv": 1792.44,
+      "window_units_sold": 51,
+      "is_ad": true,
+      "duration_seconds": 31
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "halloweencostume",
+        "weight": 410
+      },
+      {
+        "hashtag": "fairycostume",
+        "weight": 379
+      },
+      {
+        "hashtag": "fairywings",
+        "weight": 316
+      },
+      {
+        "hashtag": "costumeideas",
+        "weight": 235
+      },
+      {
+        "hashtag": "halloweencostumeideas",
+        "weight": 155
+      },
+      {
+        "hashtag": "costumeinspo",
+        "weight": 104
+      },
+      {
+        "hashtag": "whimsicalcostume",
+        "weight": 99
+      },
+      {
+        "hashtag": "halloweencostumeidea",
+        "weight": 99
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 17,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "day 1 of 30 Halloween costume ideas woooo",
+      "dressing up as a fairy for Halloween is so underrated <3",
+      "it\u2019s October lock in yall !"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 14,
+    "hour_end": 16,
+    "best_weekdays": [
+      1,
+      6
+    ]
+  }
 }

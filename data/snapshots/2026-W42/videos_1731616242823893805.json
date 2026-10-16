@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731616242823893805",
+  "time_range_days": 90,
+  "total": 192,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "violetsells",
+        "creator_uid": "7502585070928561183"
+      },
+      "engagement_metrics": {
+        "comment_count": 251,
+        "like_count": 95376,
+        "play_count": 3117782,
+        "share_count": 2539
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 7249.22,
+        "window_units_sold": 286
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687640803597946142",
+      "video_meta": {
+        "caption_text": "getting my costume early this year before it sells out!! #corset #beauty #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ogdfTZ9gTLaehAwB6VsqBe1YAxRfYA2U4efEod~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687640803597946142",
+        "published_at": 1789918370,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687640803597946142"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "rositamurcia777",
+        "creator_uid": "7484465200776217646"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 1915,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 3563.86,
+        "window_units_sold": 147
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678507799885778207",
+      "video_meta": {
+        "caption_text": "#women 's #sexy #lace #corset #Top ",
+        "cover_url": "https://s.500fd.com/tt_video/o0jEE6iiYAqRIpwPiCBAIJR5IM1AiAiCPeiLva~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678507799885778207",
+        "published_at": 1787791927,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7678507799885778207"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "violetsells",
+        "creator_uid": "7502585070928561183"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 1590,
+        "play_count": 49055,
+        "share_count": 77
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 2279.28,
+        "window_units_sold": 90
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687389602033847582",
+      "video_meta": {
+        "caption_text": "SO GLAD I GOT IT BEFORE IT SELLS OUT #corset #halloweencostume #beauty ",
+        "cover_url": "https://s.500fd.com/tt_video/oAZeq8DwIEvQEr4IiGVIvDDCXQ4WqkHfAAsFej~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687389602033847582",
+        "published_at": 1789859889,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687389602033847582"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "violetsells",
+        "creator_uid": "7502585070928561183"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 976,
+        "play_count": 43942,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 2201.57,
+        "window_units_sold": 88
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687405866156428575",
+      "video_meta": {
+        "caption_text": "SOMEONE FIND MY WAIST #beauty #corset #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/oUvEIABq4crRpmUiUJQavVAnDvEWB8i4PEIuZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687405866156428575",
+        "published_at": 1789863672,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687405866156428575"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melinaglows",
+        "creator_uid": "7571842188436325390"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 1283,
+        "play_count": 123500,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1657.06,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692541700799073549",
+      "video_meta": {
+        "caption_text": "The lace OMG! For ref i\u2019m wearing a XS! #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/o00FsUAgIlGAgkKLsfC38VlvIV5HjILBgvf2eQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692541700799073549",
+        "published_at": 1791059447,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melinaglows/video/7692541700799073549"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "violetsells",
+        "creator_uid": "7502585070928561183"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 644,
+        "play_count": 52186,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1637.08,
+        "window_units_sold": 66
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687683438593232159",
+      "video_meta": {
+        "caption_text": "SO HAPPY I GOT MY HAND ON IT  THIS YEAR #corset #beauty #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/oI2dEa30jB3RwAd2ShbwvmIDiBriaIIXVAA2U~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687683438593232159",
+        "published_at": 1789928297,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@violetsells/video/7687683438593232159"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "angelab0ss",
+        "creator_uid": "6750076126041162758"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 57,
+        "play_count": 10100,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1655.39,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681005730689797407",
+      "video_meta": {
+        "caption_text": "Wow #corsettop ",
+        "cover_url": "https://s.500fd.com/tt_video/oMtEhO0ElAaiARBhHDC8Juxs6AaBYvoiAAIpq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681005730689797407",
+        "published_at": 1788373536,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@angelab0ss/video/7681005730689797407"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melinaglows",
+        "creator_uid": "7571842188436325390"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 648,
+        "play_count": 85900,
+        "share_count": 39
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1543.88,
+        "window_units_sold": 62
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692293742572653837",
+      "video_meta": {
+        "caption_text": "stop being indecisive and get the corset\u2026 ",
+        "cover_url": "https://s.500fd.com/tt_video/o8fWBn0ADACEAug1rmDjSqQOwIARfCRiIFkEGU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692293742572653837",
+        "published_at": 1791001718,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melinaglows/video/7692293742572653837"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melinaglows",
+        "creator_uid": "7571842188436325390"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 1100,
+        "play_count": 233400,
+        "share_count": 56
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1619.4,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695191288643079438",
+      "video_meta": {
+        "caption_text": "For ref i\u2019m wearing a S (120lbs 5\u20193) ",
+        "cover_url": "https://s.500fd.com/tt_video/ooP8hIBjRyDZlNrBr4gIziUJu0K0WaXE7OsAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695191288643079438",
+        "published_at": 1791676363,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melinaglows/video/7695191288643079438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "taylor.currier",
+        "creator_uid": "6893281813147698181"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 673,
+        "play_count": 14900,
+        "share_count": 20
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496161754808748845",
+        "window_gmv": 1480.86,
+        "window_units_sold": 57
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691104916747668750",
+      "video_meta": {
+        "caption_text": "what color corset should i do next? \ud83e\ude77\ud83c\udf83 \u2022 \u2022 \u2022 #taylorcurrier #halloween #halloweencostume #halloweencostumeideas #corset ",
+        "cover_url": "https://s.500fd.com/tt_video/o0SDXbHCEamEIzFgqscABSEfPPiRBHEv8IDJe2~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 70,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691104916747668750",
+        "published_at": 1790724920,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@taylor.currier/video/7691104916747668750"
+      }
+    }
+  ]
+}

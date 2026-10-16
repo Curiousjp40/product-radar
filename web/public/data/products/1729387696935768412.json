@@ -3,7 +3,7 @@
   "product_id": "1729387696935768412",
   "title": "Women's Plain Scoop Neck Sweater, Casual Chic Drop Shoulder Long Sleeve Jumper, Women Fall & Winter Knit Top",
   "clean_title": "Women's Plain Scoop Neck Sweater",
-  "image_url": "/img/product_1729387696935768412.jpg",
+  "image_url": "https://s.500fd.com/tt_product/aeecf0bc9d4548c78eee1e994fa0f4ac~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729387696935768412",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Plain%20Scoop%20Neck%20Sweater",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729387696935768412",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7669942939317062942",
+      "cover_url": "https://s.500fd.com/tt_video/o0jxl8AIEJDAcVlFRxCeBqHyxAUEREAAElIufi~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vianelismamade3/video/7669942939317062942",
+      "creator_handle": "vianelismamade3",
+      "play_count": 1185,
+      "window_gmv": 11048.05,
+      "window_units_sold": 853,
+      "is_ad": true,
+      "duration_seconds": 55
+    },
+    {
+      "video_id": "7670362404936535327",
+      "cover_url": "https://s.500fd.com/tt_video/osbGX0DFEFAoImCcUAEVAmEAEipLfRXyqfgBAo~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@vianelismamade3/video/7670362404936535327",
+      "creator_handle": "vianelismamade3",
+      "play_count": 1083,
+      "window_gmv": 7800.48,
+      "window_units_sold": 575,
+      "is_ad": false,
+      "duration_seconds": 54
+    },
+    {
+      "video_id": "7682202930698603806",
+      "cover_url": "https://s.500fd.com/tt_video/oYKCAepfCcLqFEA2Eru1RqGDAEsEVlAaYynQIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_jessicao17/video/7682202930698603806",
+      "creator_handle": "_jessicao17",
+      "play_count": 461900,
+      "window_gmv": 6444.06,
+      "window_units_sold": 429,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7689891190044445965",
+      "cover_url": "https://s.500fd.com/tt_video/ocMvGI9jgFm3qgQU28GeRPPOVVEEfAWeNOAeXq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@gracefindss6/video/7689891190044445965",
+      "creator_handle": "gracefindss6",
+      "play_count": 465000,
+      "window_gmv": 5722.5,
+      "window_units_sold": 413,
+      "is_ad": false,
+      "duration_seconds": 49
+    },
+    {
+      "video_id": "7681066146258291982",
+      "cover_url": "https://s.500fd.com/tt_video/oQjCeFHFFIYfemMKRVvCA2kYIiQIQdqnDToFEA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@kashawna01/video/7681066146258291982",
+      "creator_handle": "kashawna01",
+      "play_count": 6700000,
+      "window_gmv": 5565.49,
+      "window_units_sold": 406,
+      "is_ad": true,
+      "duration_seconds": 29
+    },
+    {
+      "video_id": "7689139057535814926",
+      "cover_url": "https://s.500fd.com/tt_video/oQA2eISDqBnp1E0FE66UZAQ3ED4qftUgIRQp96~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@gracefindss6/video/7689139057535814926",
+      "creator_handle": "gracefindss6",
+      "play_count": 3500000,
+      "window_gmv": 5287.26,
+      "window_units_sold": 395,
+      "is_ad": true,
+      "duration_seconds": 37
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "sweter",
+        "weight": 1731
+      },
+      {
+        "hashtag": "invierno",
+        "weight": 1428
+      },
+      {
+        "hashtag": "blackfriday",
+        "weight": 1428
+      },
+      {
+        "hashtag": "oto\u00f1o",
+        "weight": 1156
+      },
+      {
+        "hashtag": "ropademujer",
+        "weight": 1156
+      },
+      {
+        "hashtag": "viral",
+        "weight": 808
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 808
+      },
+      {
+        "hashtag": "sweaterweather",
+        "weight": 808
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 33,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 18,
+      "hour_end": 20
+    },
+    "top_hooks": [
+      "Sweater de mujer",
+      "Replying to | Labrador \ud83e\udd88 sweter de mujer",
+      "love fall szn"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      0,
+      1
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729650038858421114",
+  "time_range_days": 90,
+  "total": 134,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "wincentsfinds2",
+        "creator_uid": "6907052602748535814"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 1320,
+        "play_count": 95000,
+        "share_count": 77
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 15879.15,
+        "window_units_sold": 607
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686608965106437389",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8QYQEDaRpzrA7DqKFdqfDZK2EwE0E3gS4FFBe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686608965106437389",
+        "published_at": 1789870680,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7686608965106437389"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thisadrie",
+        "creator_uid": "6664988588310675462"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 344,
+        "play_count": 11500,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 2308.94,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686170417655991582",
+      "video_meta": {
+        "caption_text": "They are always gone before October #fyp #halloween #corset #college #inspo ",
+        "cover_url": "https://s.500fd.com/tt_video/oofihsOVqCEFRfiIAQkA7AA02bNApqdlDERVEF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686170417655991582",
+        "published_at": 1789576015,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thisadrie/video/7686170417655991582"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ashtonsjokes",
+        "creator_uid": "6843095730849186822"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 105,
+        "play_count": 6617,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 1218.73,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685875808182766878",
+      "video_meta": {
+        "caption_text": "plus size friendly! #plussize #plussizecostumes #corset #halloween #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/oARBxAE5lqnia1XB3AtCbwF3IvAEpAHblRAmi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685875808182766878",
+        "published_at": 1789507427,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashtonsjokes/video/7685875808182766878"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jademirandaxo",
+        "creator_uid": "6751026368031261701"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 133,
+        "play_count": 1739,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 909.65,
+        "window_units_sold": 35
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7695110508642307358",
+      "video_meta": {
+        "caption_text": "a black corset is a closet STAPLE #rockyhorror #janet #halloweencostume #31daysofhalloween #timcurry ",
+        "cover_url": "https://s.500fd.com/tt_video/o8JEODFykEDxD6AAZaAAffEGqKIORRaEVAkohC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695110508642307358",
+        "published_at": 1791657540,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jademirandaxo/video/7695110508642307358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "aniaisrich",
+        "creator_uid": "7425776121823052846"
+      },
+      "engagement_metrics": {
+        "comment_count": 52,
+        "like_count": 12400,
+        "play_count": 194200,
+        "share_count": 1015
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 727.67,
+        "window_units_sold": 29
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683702134738603278",
+      "video_meta": {
+        "caption_text": "Miss Misa Amane costume  #deathnote#anime#misaamane#halloweencostume#fyp",
+        "cover_url": "https://s.500fd.com/tt_video/ocUjtQEFsAzUhDkmIc5ofuAIDfAOFHAzCEAVfQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683702134738603278",
+        "published_at": 1789001324,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@aniaisrich/video/7683702134738603278"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kyaburke",
+        "creator_uid": "6712580801127711749"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 5499,
+        "play_count": 31000,
+        "share_count": 296
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 727.72,
+        "window_units_sold": 28
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695449512428588319",
+      "video_meta": {
+        "caption_text": "phantom of the opera couples costume \ud83d\udd6f\ufe0f",
+        "cover_url": "https://s.500fd.com/tt_video/ocd1ALnCiDqiAruArAiIZ0wrI0xRBiC0CfgIoq~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695449512428588319",
+        "published_at": 1791736483,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kyaburke/video/7695449512428588319"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ph33nbaby",
+        "creator_uid": "6649551962910539781"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 2,
+        "play_count": 496,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 696.64,
+        "window_units_sold": 27
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686336998696619277",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686336998696619277",
+        "published_at": 1789614817,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ph33nbaby/video/7686336998696619277"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "accasiag",
+        "creator_uid": "6915818966346908677"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 439,
+        "play_count": 6781,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 617.55,
+        "window_units_sold": 24
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686269382976179470",
+      "video_meta": {
+        "caption_text": "I can\u2019t decide which one im doing this yr?? #halloween2026 #costumeideas #halloweencostume #targetaudiencereached ",
+        "cover_url": "https://s.500fd.com/tt_video/oQOxW7gUrEeBMvVqAmDgQHQrfvEObBDSJDoRqF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 5,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686269382976179470",
+        "published_at": 1789599071,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@accasiag/video/7686269382976179470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vanillagirlshop",
+        "creator_uid": "7121773371646346286"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 136,
+        "play_count": 3569,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 554.77,
+        "window_units_sold": 23
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683721543301582094",
+      "video_meta": {
+        "caption_text": "linked! size xs \ud83d\udda4\ud83d\udc8b giving black swan energy #halloweencostumeideas #snatch #corset #princess ",
+        "cover_url": "https://s.500fd.com/tt_video/oQGbAI0ABIERBL8IfkCeCOrC98AQEjAfiVECAH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683721543301582094",
+        "published_at": 1789005861,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vanillagirlshop/video/7683721543301582094"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kyaburke",
+        "creator_uid": "6712580801127711749"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 561,
+        "play_count": 12200,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495912284128643962",
+        "window_gmv": 545.79,
+        "window_units_sold": 21
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695054850505182494",
+      "video_meta": {
+        "caption_text": "it\u2019s almost time for halloween\u2026 costume reveal for this year \ud83d\ude48",
+        "cover_url": "https://s.500fd.com/tt_video/oseKGU83rQUbReQLUFKWKroQQhMIiiAbfA8Q7f~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695054850505182494",
+        "published_at": 1791644597,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kyaburke/video/7695054850505182494"
+      }
+    }
+  ]
+}

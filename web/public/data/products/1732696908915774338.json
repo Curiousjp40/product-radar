@@ -3,7 +3,7 @@
   "product_id": "1732696908915774338",
   "title": "Thank You for Shopping With Us \u2013 Customer Appreciation Gift for TikTok Shop Buyers",
   "clean_title": "Thank You for Shopping With Us",
-  "image_url": "/img/product_1732696908915774338.webp",
+  "image_url": "https://s.500fd.com/tt_product/59d652d0ab094c41aa5e353e549cd49e~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -25,5 +25,16 @@
   "formula_ganadora": null,
   "saturation_badge": null,
   "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "category",
+    "sample_size": 182,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      3,
+      1
+    ]
+  }
 }

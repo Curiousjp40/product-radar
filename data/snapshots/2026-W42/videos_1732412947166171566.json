@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732412947166171566",
+  "time_range_days": 90,
+  "total": 878,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "kaitlovesit",
+        "creator_uid": "7611509269897167886"
+      },
+      "engagement_metrics": {
+        "comment_count": 478,
+        "like_count": 56560,
+        "play_count": 16642660,
+        "share_count": 16560
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 40328.65,
+        "window_units_sold": 3617
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681918210429472013",
+      "video_meta": {
+        "caption_text": "and it\u2019s perfect to travel with! #retainers #orthocare #teethtok #teethaligners ",
+        "cover_url": "https://s.500fd.com/tt_video/oICMmBIwpzAi7idqCzI65TfDUQBqBAjIhDA1wb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681918210429472013",
+        "published_at": 1788585993,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitlovesit/video/7681918210429472013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaitlovesit",
+        "creator_uid": "7611509269897167886"
+      },
+      "engagement_metrics": {
+        "comment_count": 61,
+        "like_count": 649,
+        "play_count": 393600,
+        "share_count": 108
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 9449.14,
+        "window_units_sold": 812
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683275436058545422",
+      "video_meta": {
+        "caption_text": "Replying to @Zzzs no cups for me! #retainercase #orthodontics #retainers #teethcleaning ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfRIEkCapO6dsRAoVBhQzvegDFlDqAHoXDSgE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683275436058545422",
+        "published_at": 1788901976,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitlovesit/video/7683275436058545422"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dyeh34",
+        "creator_uid": "7491584133711479851"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 1642,
+        "play_count": 959200,
+        "share_count": 1097
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 5222.86,
+        "window_units_sold": 477
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663995739151830302",
+      "video_meta": {
+        "caption_text": "El kit de retenedor que llevo conmigo a todos lados \u2728 #DentureStorageHolder #3in1RetainerBox #AlignerCase #PortableDentalCase #LeakproofRetainerCase ",
+        "cover_url": "https://s.500fd.com/tt_video/ocUCI3vIADEPhAAA8e7EfF53uIqKTQckjftQKA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663995739151830302",
+        "published_at": 1784472600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dyeh34/video/7663995739151830302"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaitlovesit",
+        "creator_uid": "7611509269897167886"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 32,
+        "play_count": 52000,
+        "share_count": 17
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 5093.65,
+        "window_units_sold": 460
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683021249697549598",
+      "video_meta": {
+        "caption_text": "easy to bring on the go with you! #retainers #orthodontics #teethtok #teethcare ",
+        "cover_url": "https://s.500fd.com/tt_video/oIHQpAfcVnQDgkRsEgAZIWFEuGvGDqfzDcE5Bb~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683021249697549598",
+        "published_at": 1788842800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitlovesit/video/7683021249697549598"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elducho.thrift",
+        "creator_uid": "6724407288789009413"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 249,
+        "play_count": 231100,
+        "share_count": 40
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 4633.17,
+        "window_units_sold": 450
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672581497466965279",
+      "video_meta": {
+        "caption_text": "I love that this gives my retainer an actual home AND makes cleaning it so much easier \ud83d\ude4c It has a soak container, drain tray, brush and even a mirror all in one. #RetainerCase #RetainerCleaner #DentalCare #TikTokMadeMeBuyIt ",
+        "cover_url": "https://s.500fd.com/tt_video/o8g0BtA9eAQgsiLvJGjU6FCCfIIqLIMfDPtQZl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672581497466965279",
+        "published_at": 1786412116,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elducho.thrift/video/7672581497466965279"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "catiefindz",
+        "creator_uid": "7573891700318356494"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 4531,
+        "play_count": 3345900,
+        "share_count": 2372
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 4254.76,
+        "window_units_sold": 418
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676404279908846879",
+      "video_meta": {
+        "caption_text": "You don't have to eat at 5-star spots every day, but you deserve to take your retainers out with class wherever you're sitting.#denturestorageholder #3in1retainerbox #alignercase #ClearAligners #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/ooAEERGIuFqIfB9G9CBBJIe9ViERiCiA3i5ElU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676404279908846879",
+        "published_at": 1787302168,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@catiefindz/video/7676404279908846879"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaitlovesit",
+        "creator_uid": "7611509269897167886"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 31,
+        "play_count": 48400,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 4485.86,
+        "window_units_sold": 391
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683982673399811341",
+      "video_meta": {
+        "caption_text": "And it\u2019s easy to travel with you on the go! #retainers #orthodontics #teethalignment #teethtok ",
+        "cover_url": "https://s.500fd.com/tt_video/owdFCEBSItRSdwm6pft0FQvwqZJfSDPkoDEgAD~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683982673399811341",
+        "published_at": 1789066643,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitlovesit/video/7683982673399811341"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kaitlovesit",
+        "creator_uid": "7611509269897167886"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 51,
+        "play_count": 44800,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 4131.9,
+        "window_units_sold": 352
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683210392591420703",
+      "video_meta": {
+        "caption_text": "Replying to @mwc542 a MUST if you have retainers! #retainers #orthodontics #orthocare ",
+        "cover_url": "https://s.500fd.com/tt_video/oIhuIqcetGAyPWg6fHLEIjVCyI7A6ClQQBebgI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683210392591420703",
+        "published_at": 1788886831,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kaitlovesit/video/7683210392591420703"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "theoriginalshayshay",
+        "creator_uid": "7149316398115914794"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 1617,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 2713.29,
+        "window_units_sold": 271
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680017526830468365",
+      "video_meta": {
+        "caption_text": "A simple little case for cleaning and storing your retainers or aligners. #RetainerCleaner #RetainerCase #AlignerCleaner #ClearAligners #RetainerCleaning ",
+        "cover_url": "https://s.500fd.com/tt_video/ocsGpUg8eJYi7pIqRA9TzfAQY4AusODefF2q4Q~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680017526830468365",
+        "published_at": 1788143445,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@theoriginalshayshay/video/7680017526830468365"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "elyssashauls",
+        "creator_uid": "7223236602355713070"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 515,
+        "play_count": 199200,
+        "share_count": 117
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103726733493678",
+        "window_gmv": 2309.66,
+        "window_units_sold": 222
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667075209769372941",
+      "video_meta": {
+        "caption_text": "#retainers #retainercase #travelessentials #teethcare ",
+        "cover_url": "https://s.500fd.com/tt_video/oAK3Q4FfvHS25U3NDFDAQwZ7RBqg2BbESuExfO~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667075209769372941",
+        "published_at": 1785130069,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@elyssashauls/video/7667075209769372941"
+      }
+    }
+  ]
+}

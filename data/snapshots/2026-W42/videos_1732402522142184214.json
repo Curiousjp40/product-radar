@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732402522142184214",
+  "time_range_days": 90,
+  "total": 191,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 468,
+        "play_count": 338900,
+        "share_count": 43
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 7573,
+        "window_units_sold": 366
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691044081710943518",
+      "video_meta": {
+        "caption_text": "Replying to @Anna \u273f RESTOCKED YALL! #christmas #christmasdecor #christmasdecorations #norfolk #homedecor ",
+        "cover_url": "https://s.500fd.com/tt_video/oUTIyvEQQEAq8gvfBJFV4mtPgeNptEA4DBBRGx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 47,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691044081710943518",
+        "published_at": 1790710760,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7691044081710943518"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 106,
+        "like_count": 4500,
+        "play_count": 1092540,
+        "share_count": 291
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 6237.17,
+        "window_units_sold": 351
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688825775255981342",
+      "video_meta": {
+        "caption_text": "Replying to @cozy_corners_with_d THESE ARE THE BESTTTT!! #norfolk #christmas #christmasdecor #christmasdecorations ",
+        "cover_url": "https://s.500fd.com/tt_video/ocMIHEODAGYCtIeFf0VjIEAsIm0wlaIiGfsC6q~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688825775255981342",
+        "published_at": 1790194263,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7688825775255981342"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 292,
+        "play_count": 206200,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 2051.14,
+        "window_units_sold": 138
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694024861605219614",
+      "video_meta": {
+        "caption_text": "Replying to @mama Keller they speak for themselves!!!! #christmas #christmasdecor #christmasdecorations #norfolk ",
+        "cover_url": "https://s.500fd.com/tt_video/okqE7E9DADkBEjLFfDqREDAuIbGfuxI1qczPSV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694024861605219614",
+        "published_at": 1791404778,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7694024861605219614"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 20,
+        "play_count": 10400,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 2951.98,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691802828691508511",
+      "video_meta": {
+        "caption_text": "Replying to @Teresa Cox and they are on sale now!!!! #norfolk #christmas #christmasdecor #christmasdecorations ",
+        "cover_url": "https://s.500fd.com/tt_video/oY2eGYE2qQU9RXQdxFfLQthIQuGHnnAvzAeKge~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 79,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691802828691508511",
+        "published_at": 1790887427,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7691802828691508511"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 184,
+        "play_count": 108099,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 2392.7,
+        "window_units_sold": 126
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688019887976893727",
+      "video_meta": {
+        "caption_text": "Replying to @Southern Bama Mama there\u2019s a reason they sell out every year!! #christmasdecor #christmasdecorations #homedecor #tiktokmademebuyit ",
+        "cover_url": "https://s.500fd.com/tt_video/ogWQAKsQrOfVEhqqLFVDEBEVxD6XfKA1RIBUmV~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 63,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688019887976893727",
+        "published_at": 1790006640,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7688019887976893727"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "oahufaves",
+        "creator_uid": "6844346479865512966"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 11,
+        "play_count": 1347,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 2029.73,
+        "window_units_sold": 94
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682066179459976462",
+      "video_meta": {
+        "caption_text": "#holidaydecor #fauxflorals #aesthetic #aestheticdecor #christmasdecor ",
+        "cover_url": "https://s.500fd.com/tt_video/osicbV9eQu8FAWn6ZCkQeAHLvF3OCeM7IQo8jh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682066179459976462",
+        "published_at": 1788620425,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@oahufaves/video/7682066179459976462"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "thedailydemi",
+        "creator_uid": "6832727432418083845"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 26,
+        "play_count": 15300,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 1411.18,
+        "window_units_sold": 83
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695093769271659807",
+      "video_meta": {
+        "caption_text": "Replying to @creationsbymini these are AMAZING and sell FAST!!! #christmas #christmasdecor #christmasdecorations #homedecor ",
+        "cover_url": "https://s.500fd.com/tt_video/ocdrXFKEEI7IALyxnKfX2IBAR5eiqDVkEE7xB0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 56,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695093769271659807",
+        "published_at": 1791653653,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@thedailydemi/video/7695093769271659807"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 251,
+        "play_count": 88100,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 1806.55,
+        "window_units_sold": 74
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691126478276234510",
+      "video_meta": {
+        "caption_text": "This can be used and styled so many different ways! #stems #artificialgrass #norfolk #pine #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oQvBAe1I88yBxBlXw0JtiPi8iCAICAX4CnoEAE.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691126478276234510",
+        "published_at": 1790729938,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7691126478276234510"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 92,
+        "play_count": 40200,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 1223.45,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690998107013647630",
+      "video_meta": {
+        "caption_text": "So many ways to style this! #norfolk #pine #christmasdecor #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/okeVB1jCIhGdT7aI16LQ7EAhHeAOIAEw9BAkfA.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690998107013647630",
+        "published_at": 1790726400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7690998107013647630"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deannaa___",
+        "creator_uid": "56690193969221632"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 124,
+        "play_count": 53203,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494635594762716950",
+        "window_gmv": 840.85,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692154672756296974",
+      "video_meta": {
+        "caption_text": "You can use these and style these so many different ways. That\u2019s what I love about them. You\u2019re going to want to grab these before they sell out. #norfolk #christmasdecor #stems #tiktokshopfalldealsforyou #tiktokshopblackfridaysale ",
+        "cover_url": "https://s.500fd.com/tt_video/oADArSLGQBWwOQEFgfRBEv8DlUb6AgugJZAeFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692154672756296974",
+        "published_at": 1790982000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deannaa___/video/7692154672756296974"
+      }
+    }
+  ]
+}

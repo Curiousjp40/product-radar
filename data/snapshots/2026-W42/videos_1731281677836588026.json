@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731281677836588026",
+  "time_range_days": 90,
+  "total": 470,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "alondrasanchez001",
+        "creator_uid": "6629107646774542341"
+      },
+      "engagement_metrics": {
+        "comment_count": 72,
+        "like_count": 9469,
+        "play_count": 112600,
+        "share_count": 33
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 7659.78,
+        "window_units_sold": 238
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689238527984389389",
+      "video_meta": {
+        "caption_text": "Me encant\u00f3 este vestido est\u00e1 s\u00faper c\u00f3modo orden\u00e9 talla mediana y me qued\u00f3 s\u00faper bien de lo largo \u2026 soy alta mido 5\u20197",
+        "cover_url": "https://s.500fd.com/tt_video/ow3IQ81rwAfjMX0QNFfQAPCkUHaWQnoZVuAfKl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689238527984389389",
+        "published_at": 1790290365,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alondrasanchez001/video/7689238527984389389"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "girlypopscart",
+        "creator_uid": "6750781935336260613"
+      },
+      "engagement_metrics": {
+        "comment_count": 221,
+        "like_count": 14000,
+        "play_count": 765100,
+        "share_count": 635
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 6291.09,
+        "window_units_sold": 191
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684722680951606542",
+      "video_meta": {
+        "caption_text": "plus size denim dress \ud83d\udc96 #apronbellyfriendly #apronbellystyle #plussizefallfashion #plussizedress #plussizedresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oQElmcwUvAEraeCtABI1mpBTniBJiCAsLsAIk3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684722680951606542",
+        "published_at": 1789238939,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7684722680951606542"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katiannjo_",
+        "creator_uid": "6918512097861043206"
+      },
+      "engagement_metrics": {
+        "comment_count": 221,
+        "like_count": 36900,
+        "play_count": 2100000,
+        "share_count": 2272
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 6189.05,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685554885688823053",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oAwqI2CVHATIdujBOEP4fCVAozYDUFtfRkakfI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685554885688823053",
+        "published_at": 1789432709,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katiannjo_/video/7685554885688823053"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chanellyhailey",
+        "creator_uid": "6781633154660811782"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 65,
+        "play_count": 2243,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 5568.43,
+        "window_units_sold": 166
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689511736344399134",
+      "video_meta": {
+        "caption_text": "It\u2019s timeee. Wearing a size xl #CityTasteTest #fyp #dress #fall ",
+        "cover_url": "https://s.500fd.com/tt_video/owRlfABWsoGiliIL1rB09EqCAIK2AIGILd00ia~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689511736344399134",
+        "published_at": 1790353998,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chanellyhailey/video/7689511736344399134"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbysjourney_",
+        "creator_uid": "7268719618574828587"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 535,
+        "play_count": 127826,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 5048.5,
+        "window_units_sold": 147
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680675130556599565",
+      "video_meta": {
+        "caption_text": "the new brown version of this work friendly dress is soooo classy + cute\ud83c\udf42\ud83e\udd0e\ud83e\udd29",
+        "cover_url": "https://s.500fd.com/tt_video/oU4UvOdIgWDiC9c6EPLNpcakioYdXaAVBItFB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 38,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680675130556599565",
+        "published_at": 1788296546,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbysjourney_/video/7680675130556599565"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbysjourney_",
+        "creator_uid": "7268719618574828587"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 354,
+        "play_count": 99300,
+        "share_count": 22
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 4448.76,
+        "window_units_sold": 132
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681416489777270030",
+      "video_meta": {
+        "caption_text": "the brown denim is everything\ud83e\udd0e\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/oEaZ7gebzSVAcfBv1cIACLMIjH1GHA6koge8vh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681416489777270030",
+        "published_at": 1788469158,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbysjourney_/video/7681416489777270030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "katiannjo_",
+        "creator_uid": "6918512097861043206"
+      },
+      "engagement_metrics": {
+        "comment_count": 48,
+        "like_count": 8371,
+        "play_count": 710700,
+        "share_count": 446
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 4146.02,
+        "window_units_sold": 128
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690344480272125197",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oY6FEhbEXBDggAA2t8A5PlEAiBriaIlqk4mCN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690344480272125197",
+        "published_at": 1790547882,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@katiannjo_/video/7690344480272125197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ansari.sumayah",
+        "creator_uid": "7147122414921696302"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 801,
+        "play_count": 25800,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 4056.83,
+        "window_units_sold": 116
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681339834446728479",
+      "video_meta": {
+        "caption_text": "Name a better season for denim , I\u2019ll wait \ud83e\udd37\ud83c\udffe\u200d\u2640\ufe0f #foryou #fallfashion #fallaesthetic #trendy #modest ",
+        "cover_url": "https://s.500fd.com/tt_video/oMi8AznEZuI2mAeqAMAQRMxFkfERN6EVEDmCAw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681339834446728479",
+        "published_at": 1788451311,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ansari.sumayah/video/7681339834446728479"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chanellyhailey",
+        "creator_uid": "6781633154660811782"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 757,
+        "play_count": 69182,
+        "share_count": 57
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 3667.64,
+        "window_units_sold": 111
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679867914283011358",
+      "video_meta": {
+        "caption_text": "#fyp #denim #dress #leopard ",
+        "cover_url": "https://s.500fd.com/tt_video/oQzMEAFqA6V60nxUEADAI8leRyqAXCCEAFEZfE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 48,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679867914283011358",
+        "published_at": 1788108604,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chanellyhailey/video/7679867914283011358"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nelliemarie143",
+        "creator_uid": "6794248101245076485"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 144,
+        "play_count": 12467,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495925172675578874",
+        "window_gmv": 3414.16,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690047955113446669",
+      "video_meta": {
+        "caption_text": "Jean dresses \ud83e\udd70\ud83e\udd70\ud83e\udd70\ud83e\udd70\ud83e\udd70\ud83e\udd70\ud83e\udd70 #jeandress ",
+        "cover_url": "https://s.500fd.com/tt_video/oM8ECfIxqgJRDLAQAomEAhCSEDuFIXfRqInBAF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690047955113446669",
+        "published_at": 1790478827,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nelliemarie143/video/7690047955113446669"
+      }
+    }
+  ]
+}

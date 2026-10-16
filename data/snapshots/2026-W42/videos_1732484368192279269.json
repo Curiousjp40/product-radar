@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732484368192279269",
+  "time_range_days": 90,
+  "total": 1216,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "alexandraryoo",
+        "creator_uid": "7338545147096220715"
+      },
+      "engagement_metrics": {
+        "comment_count": 34,
+        "like_count": 2470,
+        "play_count": 495700,
+        "share_count": 184
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 25808.84,
+        "window_units_sold": 681
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670251385497193741",
+      "video_meta": {
+        "caption_text": "An outfit that converts to pajamas that\u2019s a two for one deal sign me up!  #tiktokshopbacktoschool #tiktokshopsummersale #fallootd #matchingset #momoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oQSj9DcDIAS0S2FE9DNEmuQRPIRRg9FCqyBeBf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 71,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670251385497193741",
+        "published_at": 1785869599,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexandraryoo/video/7670251385497193741"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kennedyyoungs",
+        "creator_uid": "6912201700644652038"
+      },
+      "engagement_metrics": {
+        "comment_count": 91,
+        "like_count": 3727,
+        "play_count": 553500,
+        "share_count": 223
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 11854.79,
+        "window_units_sold": 498
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676509745699638558",
+      "video_meta": {
+        "caption_text": "The quality on this set SHOCKED me! Love the brushed fleece as we move into fall! \ud83e\udd0e #matchingset #tiktokshop #set #fallfashion #affordablefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ogCRKEeIBzahDBcNAivPArAAQibZA1iC20jIEI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676509745699638558",
+        "published_at": 1787326715,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kennedyyoungs/video/7676509745699638558"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chaney_traviss",
+        "creator_uid": "7196049197246694446"
+      },
+      "engagement_metrics": {
+        "comment_count": 120,
+        "like_count": 41300,
+        "play_count": 5100000,
+        "share_count": 2093
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 13459.74,
+        "window_units_sold": 497
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678803682766392589",
+      "video_meta": {
+        "caption_text": "This is adorable. You need.",
+        "cover_url": "https://s.500fd.com/tt_video/oc4IM8flIQekgUX0FGVAXCOCQ5jSACpEZHGdke~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678803682766392589",
+        "published_at": 1787860816,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chaney_traviss/video/7678803682766392589"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "caitlingrayowren",
+        "creator_uid": "6796073275870708741"
+      },
+      "engagement_metrics": {
+        "comment_count": 152,
+        "like_count": 3768,
+        "play_count": 1600000,
+        "share_count": 319
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 5799.65,
+        "window_units_sold": 232
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685838269740780831",
+      "video_meta": {
+        "caption_text": "\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e #stripedset #loungewearset #matchingset #shortsset #falloutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/o866l1ACfAB8AVBhCUipqxIAKiIOMVyABKiEiu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 72,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685838269740780831",
+        "published_at": 1789498693,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@caitlingrayowren/video/7685838269740780831"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tts.finds05",
+        "creator_uid": "15441185"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 10300,
+        "play_count": 893200,
+        "share_count": 322
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 5818.72,
+        "window_units_sold": 210
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676488232393051405",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o8IR0SqAFB2k4SrIDDIo6iFGkoEBegfxEXEx1W~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676488232393051405",
+        "published_at": 1787321707,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tts.finds05/video/7676488232393051405"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "addison____3",
+        "creator_uid": "7081650379928683566"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 116,
+        "play_count": 7659,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 4630.95,
+        "window_units_sold": 199
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685501500906278157",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/okRS514ejVId6kHfCyGhxQLMNAfUAAtgUXjFgI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685501500906278157",
+        "published_at": 1789420287,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@addison____3/video/7685501500906278157"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "luubbaa",
+        "creator_uid": "6757846385326801925"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 500,
+        "play_count": 38700,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 7110.44,
+        "window_units_sold": 199
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673617616312864031",
+      "video_meta": {
+        "caption_text": "matching sets everyday to feel more put together \ud83e\udd0e #matchingsets#fallfits#tiktokshop#amazonfinds#postpartumoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/okQGVUpAFEdLGD2eGQIyffLDVAAJPAe7IKRAqq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673617616312864031",
+        "published_at": 1786653346,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@luubbaa/video/7673617616312864031"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tts.finds05",
+        "creator_uid": "15441185"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 5812,
+        "play_count": 838100,
+        "share_count": 272
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 5410.71,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676489504747834638",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/os1RS6IXIhC2AFiCIkuIUBAlEIipvpvGVwRBei~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676489504747834638",
+        "published_at": 1787322008,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tts.finds05/video/7676489504747834638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "addison____3",
+        "creator_uid": "7081650379928683566"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 93,
+        "play_count": 3627,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 4296.53,
+        "window_units_sold": 183
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685561381143334157",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owdmWF5GqeDRRhNoBnFEgkD7EqARAxUQIbfdSJ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685561381143334157",
+        "published_at": 1789434221,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@addison____3/video/7685561381143334157"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alexandraryoo",
+        "creator_uid": "7338545147096220715"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 22,
+        "play_count": 5848,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647577574442046181",
+        "window_gmv": 5423.44,
+        "window_units_sold": 155
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677127606713535758",
+      "video_meta": {
+        "caption_text": "Matching set that\u2019s easy for moms!   #tiktokshopsummersales #tiktokshopbacktoschool #matchingset #momapprovedoutfit #matchingsets",
+        "cover_url": "https://s.500fd.com/tt_video/oQZeXnIKQEpS9WrHUoVIKDwCFQDukxffAAxFCj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 70,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677127606713535758",
+        "published_at": 1787558760,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alexandraryoo/video/7677127606713535758"
+      }
+    }
+  ]
+}

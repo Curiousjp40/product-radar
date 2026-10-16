@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732682696474792407",
+  "time_range_days": 90,
+  "total": 473,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 52,
+        "like_count": 10917,
+        "play_count": 2514047,
+        "share_count": 623
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 30665.22,
+        "window_units_sold": 819
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693050454040677662",
+      "video_meta": {
+        "caption_text": "There was no way I was passing this one up \ud83e\udd2a\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/oMhNLDaD1zigw0iDA4iiApBbCYAIr7GIIdfJqZ~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693050454040677662",
+        "published_at": 1791212340,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7693050454040677662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alwaysshoppin",
+        "creator_uid": "7311942875432551470"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 37,
+        "play_count": 18800,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 15739.78,
+        "window_units_sold": 449
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691510384884256013",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691510384884256013",
+        "published_at": 1790819343,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alwaysshoppin/video/7691510384884256013"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "plumshoppin",
+        "creator_uid": "7561361315349464119"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 17,
+        "play_count": 5400,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 12241.23,
+        "window_units_sold": 355
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694276962470104333",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owk2YFcIEIjEAzjHxHffaBiAj5bgVDkeHBFEC0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694276962470104333",
+        "published_at": 1791463496,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@plumshoppin/video/7694276962470104333"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.by.dyl",
+        "creator_uid": "7519379770321339447"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 636,
+        "play_count": 117800,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 9631.43,
+        "window_units_sold": 274
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691780870180474143",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691780870180474143",
+        "published_at": 1790882309,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.by.dyl/video/7691780870180474143"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "plumshoppin",
+        "creator_uid": "7561361315349464119"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 9,
+        "play_count": 3458,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 8227.49,
+        "window_units_sold": 229
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7694176546382286093",
+      "video_meta": {
+        "caption_text": "sooo adorable and comfy \ud83e\udd79",
+        "cover_url": "https://s.500fd.com/tt_video/oAaIrQQMADmCUkeW89VjHGARQ2O0gjgHmtee3k~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694176546382286093",
+        "published_at": 1791440135,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@plumshoppin/video/7694176546382286093"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 233,
+        "play_count": 89800,
+        "share_count": 25
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 7882.24,
+        "window_units_sold": 210
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692983808089459999",
+      "video_meta": {
+        "caption_text": "I just noticed she left that door WIDE open\u2026\ud83d\ude2d\ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/o85FgYAQE3DAwVaFv7Bwuq8asdmEREH3QfCIfp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692983808089459999",
+        "published_at": 1791165540,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7692983808089459999"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "orangeshoppin",
+        "creator_uid": "6852411315647185925"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 17,
+        "play_count": 6305,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 7161.99,
+        "window_units_sold": 201
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693093606772477197",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/526abfcd5704436da3a8a078085e7923~tplv-photomode-image-cover:640:0:q70.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693093606772477197",
+        "published_at": 1791188014,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@orangeshoppin/video/7693093606772477197"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.by.dyl",
+        "creator_uid": "7519379770321339447"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 28,
+        "play_count": 7699,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 5996.57,
+        "window_units_sold": 187
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691780858126126367",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691780858126126367",
+        "published_at": 1790882306,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.by.dyl/video/7691780858126126367"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "benettsdeals",
+        "creator_uid": "7129161668622631979"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 156,
+        "play_count": 38264,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 5788.28,
+        "window_units_sold": 172
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692112806191041822",
+      "video_meta": {
+        "caption_text": "I will be living in this set\u2026",
+        "cover_url": "https://s.500fd.com/tt_video/0613538db4c0432bad708fe9a3a8933e~tplv-photomode-image-cover:640:0:q70.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692112806191041822",
+        "published_at": 1790959586,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@benettsdeals/video/7692112806191041822"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayarowen",
+        "creator_uid": "7602584700628386829"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 62,
+        "play_count": 12900,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494153604810966487",
+        "window_gmv": 5239.91,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7693038509073976607",
+      "video_meta": {
+        "caption_text": "I haddd to find it \ud83e\udd2a\ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/oILEEFl3EFATpwBAIRpDV3jfytKcgqqDUE9fBd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693038509073976607",
+        "published_at": 1791175130,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayarowen/video/7693038509073976607"
+      }
+    }
+  ]
+}

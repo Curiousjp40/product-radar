@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731003956413633248",
+  "time_range_days": 90,
+  "total": 523,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lopeztips",
+        "creator_uid": "6810836048693888006"
+      },
+      "engagement_metrics": {
+        "comment_count": 112,
+        "like_count": 7355,
+        "play_count": 1924457,
+        "share_count": 1272
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 108366.58,
+        "window_units_sold": 2989
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665164873860484382",
+      "video_meta": {
+        "caption_text": "Ahora mi cama se siente como una nube y es ahora mi favorito \ud83d\ude0d #cama #mattresstopper #sleep #mattres #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/ogAAWECUqEAMIijmADCsBKnYFALEVIfRuELegv~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 178,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665164873860484382",
+        "published_at": 1784685285,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lopeztips/video/7665164873860484382"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinaopenslt",
+        "creator_uid": "7566170189823771662"
+      },
+      "engagement_metrics": {
+        "comment_count": 43,
+        "like_count": 1187,
+        "play_count": 1300000,
+        "share_count": 430
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 17767.18,
+        "window_units_sold": 488
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664540230501846286",
+      "video_meta": {
+        "caption_text": "7   I Can\u2019t Believe One Layer Changed My Sleep \ud83d\ude34#weeklydeals #BedloreLiving #tiktokshopmemorialday #bedlore #SummerVibes ",
+        "cover_url": "https://s.500fd.com/tt_video/oMZIAEfBjrTEUA6fdUvuJew652GDICFykYHHWd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664540230501846286",
+        "published_at": 1784566860,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinaopenslt/video/7664540230501846286"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "queenmamasof9",
+        "creator_uid": "7043524535181968390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 401,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 6557.53,
+        "window_units_sold": 183
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678539737342168350",
+      "video_meta": {
+        "caption_text": "#tiktokshop #foryoupage #tiktokmademebuyit",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678539737342168350",
+        "published_at": 1787799362,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@queenmamasof9/video/7678539737342168350"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leci.bby",
+        "creator_uid": "7143286087187514410"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 880,
+        "play_count": 58600,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 5911.94,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675039619276197151",
+      "video_meta": {
+        "caption_text": "It\u2019s so comfortable!\ud83d\udd25\ud83e\udd0c\ud83c\udffd#fyp\u30b7 #college #dormroom #bedding #trending ",
+        "cover_url": "https://s.500fd.com/tt_video/ogAQTfCMf0qgeFNWD4GN3gvJUD3GIfLAkERR4B~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675039619276197151",
+        "published_at": 1786984443,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leci.bby/video/7675039619276197151"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dealsfromjd",
+        "creator_uid": "7231309432608916523"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 219,
+        "play_count": 205700,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 5576.2,
+        "window_units_sold": 151
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663984917944028447",
+      "video_meta": {
+        "caption_text": "Bamboo cooling mattress cover \u2744\ufe0f\ud83e\udd76 #mattresscover #matresstopper #coolingblanket #coolingmattresstopper #bedroom ",
+        "cover_url": "https://s.500fd.com/tt_video/o8gIAi8CjGgIUA8fbhYthfcDQSaBICifqMhIP4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663984917944028447",
+        "published_at": 1784584800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dealsfromjd/video/7663984917944028447"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "murkianaa",
+        "creator_uid": "6776424511548457989"
+      },
+      "engagement_metrics": {
+        "comment_count": 10,
+        "like_count": 560,
+        "play_count": 90800,
+        "share_count": 25
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 5418.24,
+        "window_units_sold": 145
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683582658475068686",
+      "video_meta": {
+        "caption_text": "Apartment Vloggy Vlog: Put my new bamboo mattress topper on my bed with me \ud83d\udc93\ud83d\udecf\ufe0f\ud83c\udfe1  #mattresstopper #beddingupgrade #homefinds #bamboo #sleep ",
+        "cover_url": "https://s.500fd.com/tt_video/o4PQGesTIImkQeIaVAVALE8DIIjyAASgFHkAfC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683582658475068686",
+        "published_at": 1788973546,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@murkianaa/video/7683582658475068686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "clarisjc",
+        "creator_uid": "7267276798826791979"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 6,
+        "play_count": 1837,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 5117.6,
+        "window_units_sold": 142
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671382217146305805",
+      "video_meta": {
+        "caption_text": "Upgrade your bedding with the BEDLORE Bamboo Mattress Topper. This ultra soft pillow top mattress pad features a cooling and breathable design for hotel quality comfort. It has a deep pocket fitting six to eighteen inches. Tap to shop today. #fyp #foryourpage #tiktokshop #mattresstopper #Moras",
+        "cover_url": "https://s.500fd.com/tt_video/ooADCYw2rAqQfB5HkxDjjIJtSdOVEmFgeRQCS1~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671382217146305805",
+        "published_at": 1786132871,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@clarisjc/video/7671382217146305805"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinaopenslt",
+        "creator_uid": "7566170189823771662"
+      },
+      "engagement_metrics": {
+        "comment_count": 77,
+        "like_count": 3885,
+        "play_count": 4000000,
+        "share_count": 964
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 4946.21,
+        "window_units_sold": 137
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671209888911052045",
+      "video_meta": {
+        "caption_text": "7 #BedloreBacktoSchoolBestpicks #TikTokShopBackToSchool #homemakeover #HomeEssentials ",
+        "cover_url": "https://s.500fd.com/tt_video/oMRHnRDEF6he6n1Bhj9qAC0IqwNEIkAfAUzeLE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671209888911052045",
+        "published_at": 1786098180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinaopenslt/video/7671209888911052045"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinaopenslt",
+        "creator_uid": "7566170189823771662"
+      },
+      "engagement_metrics": {
+        "comment_count": 19,
+        "like_count": 682,
+        "play_count": 829500,
+        "share_count": 210
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 3949.29,
+        "window_units_sold": 109
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671212388988816670",
+      "video_meta": {
+        "caption_text": "7 #BedloreBacktoSchoolBestpicks #TikTokShopBackToSchool #homemakeover #HomeEssentials ",
+        "cover_url": "https://s.500fd.com/tt_video/okD10qlfICo6TEEgzfjnIEyIH4avzAneBhAvFU~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671212388988816670",
+        "published_at": 1786275120,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinaopenslt/video/7671212388988816670"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "homevibeswithmia",
+        "creator_uid": "7534576563909084174"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 51,
+        "play_count": 36700,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495881586596809440",
+        "window_gmv": 3578.27,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7674980196063120670",
+      "video_meta": {
+        "caption_text": "4     The Moment You Lie Down, You\u2019ll Know It Was Worth It#bedlorebacktoschoolbestpicks #TikTokshopbacktoschool #homemakeover #HomeEssentials #bedlore ",
+        "cover_url": "https://s.500fd.com/tt_video/oweIIBXqugAgOQpzgeBPMeGHAAIwuCGoVQyjSL~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7674980196063120670",
+        "published_at": 1786972386,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@homevibeswithmia/video/7674980196063120670"
+      }
+    }
+  ]
+}

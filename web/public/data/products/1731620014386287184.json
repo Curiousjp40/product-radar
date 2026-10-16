@@ -3,7 +3,7 @@
   "product_id": "1731620014386287184",
   "title": "BOFEKTE 3-in-1 Foldable Under Desk Walking Pad Treadmill - Home Workout Equipment with Basic Walking Mat, Handles, Remote Control, Light-Up LED Screen, 400 lbs Capacity, Portable Lightweight Fitness Machine",
   "clean_title": "BOFEKTE 3-in-1 Foldable Under Desk Walking",
-  "image_url": "/img/product_1731620014386287184.webp",
+  "image_url": "https://s.500fd.com/tt_product/feafe4f2cf4c48a1a8841ad1d01d2798~tplv-fhlh96nyum-crop-webp:1500:1498.webp",
   "category": "furniture",
   "category_label_es": "Muebles",
   "category_label_en": "Furniture",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7693437972544326925",
-      "cover_url": "/img/video_7693437972544326925.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ogepKShkiCHLs2AgMg3RSjAs4AdAqVfYGIjJIe~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7693437972544326925",
       "creator_handle": "ariii.x",
       "play_count": 4200000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7688250425048370445",
-      "cover_url": "/img/video_7688250425048370445.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oEsteAGysJeO0LG0qXwfbCIRAIJyFfoQczsJIo~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7688250425048370445",
       "creator_handle": "ariii.x",
       "play_count": 4057134,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7664460982491696397",
-      "cover_url": "/img/video_7664460982491696397.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oMcUuCDKIHCEkh1nfIAAIZNFV0dfUv8VsSfjko~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7664460982491696397",
       "creator_handle": "ariii.x",
       "play_count": 189900,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7672630301633432845",
-      "cover_url": "/img/video_7672630301633432845.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oUeCUUnk9CHLZd4gKgyvYeAfgFyAXUKxGIj1IL~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7672630301633432845",
       "creator_handle": "ariii.x",
       "play_count": 1900000,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7690743547921845517",
-      "cover_url": "/img/video_7690743547921845517.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o8mI4aUiaPpEEBoHGdApnAI57zrDIgsuBAipP~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7690743547921845517",
       "creator_handle": "ariii.x",
       "play_count": 759292,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7676357742352698637",
-      "cover_url": "/img/video_7676357742352698637.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o0YeYDDDQAk8pjGIsHzEeaaIcQkjAwFqVPC9Yf~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@ariii.x/video/7676357742352698637",
       "creator_handle": "ariii.x",
       "play_count": 89100,
@@ -164,5 +164,16 @@
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
   },
   "spanish_share": 0.16666666666666666,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 0,
+    "hour_end": 2,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

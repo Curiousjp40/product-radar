@@ -3,7 +3,7 @@
   "product_id": "1731627621571137976",
   "title": "Women Summer Sexy Halter Sleeveless Backless Party Club Stretch Mini Dress Party Dating Wear",
   "clean_title": "Women Summer Sexy Halter Sleeveless Backless",
-  "image_url": "/img/product_1731627621571137976.webp",
+  "image_url": "https://s.500fd.com/tt_product/7a2634a995774c43979e4a6cce34e5bf~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,138 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731627621571137976",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%20Summer%20Sexy%20Halter%20Sleeveless%20Backless",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731627621571137976",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7670299536257994014",
+      "cover_url": "https://s.500fd.com/tt_video/o4G5Gev3IIrqINYfIAUALE4yEvjMAAfNBItA9l~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7670299536257994014",
+      "creator_handle": "nataliesszz",
+      "play_count": 512300,
+      "window_gmv": 6457.15,
+      "window_units_sold": 580,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7670300412334935326",
+      "cover_url": "https://s.500fd.com/tt_video/os7q0FEQ4AN0ARd3AEFfcYVD2fVDCamEEEBVyI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7670300412334935326",
+      "creator_handle": "nataliesszz",
+      "play_count": 309900,
+      "window_gmv": 5094.98,
+      "window_units_sold": 470,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7670299819037969694",
+      "cover_url": "https://s.500fd.com/tt_video/oIM5A9Viav2EjBQ95FgRXAImy8nAERJxBYikv~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7670299819037969694",
+      "creator_handle": "nataliesszz",
+      "play_count": 184800,
+      "window_gmv": 4876.17,
+      "window_units_sold": 436,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7665933042703289613",
+      "cover_url": "https://s.500fd.com/tt_video/oETB6BfiTwMZ1JxpSIA7IYAHDCIqiKCrByJW3i~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@seanna_stine/video/7665933042703289613",
+      "creator_handle": "seanna_stine",
+      "play_count": 465498,
+      "window_gmv": 3539.6,
+      "window_units_sold": 428,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7671066059029515551",
+      "cover_url": "https://s.500fd.com/tt_video/oI7ehItfAkRfExeoAAYBAeUoaAnAzlOEAZgL4f~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7671066059029515551",
+      "creator_handle": "nataliesszz",
+      "play_count": 98800,
+      "window_gmv": 3619.93,
+      "window_units_sold": 327,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7671066273169575199",
+      "cover_url": "https://s.500fd.com/tt_video/oI4zCAqB1AG2SJHii5ZolAEvCiC1fOoAFIIiF8~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@nataliesszz/video/7671066273169575199",
+      "creator_handle": "nataliesszz",
+      "play_count": 101000,
+      "window_gmv": 3492.75,
+      "window_units_sold": 307,
+      "is_ad": true,
+      "duration_seconds": 5
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fyp",
+        "weight": 664
+      },
+      {
+        "hashtag": "fitcheck",
+        "weight": 428
+      },
+      {
+        "hashtag": "viral",
+        "weight": 428
+      },
+      {
+        "hashtag": "trending",
+        "weight": 428
+      },
+      {
+        "hashtag": "foryoupage",
+        "weight": 428
+      },
+      {
+        "hashtag": "cluboutfit",
+        "weight": 132
+      },
+      {
+        "hashtag": "goingoutoutfit",
+        "weight": 132
+      },
+      {
+        "hashtag": "birthdayoutfit",
+        "weight": 132
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 10,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "We\u2019re gonna be here a while hehe \u263a\ufe0f"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      1,
+      3
+    ]
+  }
 }

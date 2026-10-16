@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731636865911395028",
+  "time_range_days": 90,
+  "total": 1534,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "jessell_",
+        "creator_uid": "6671440709634342917"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 8025,
+        "play_count": 223200,
+        "share_count": 74
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 35103.34,
+        "window_units_sold": 1437
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683201950204169485",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owYoDfeOEEJSI4NUUBqgFBagELRDAmrDGDXPJd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683201950204169485",
+        "published_at": 1788884869,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessell_/video/7683201950204169485"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "holistic.wellness.glow",
+        "creator_uid": "6780488318469555205"
+      },
+      "engagement_metrics": {
+        "comment_count": 79,
+        "like_count": 39300,
+        "play_count": 1700000,
+        "share_count": 736
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 31086.12,
+        "window_units_sold": 655
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680748034942110990",
+      "video_meta": {
+        "caption_text": "#fallboot #fallfashion #tiktokshopstockup #fallinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/5e6ff6d90ac3453089c3181fef20d0fa~tplv-photomode-image-cover:640:0:q72.jpeg",
+        "duration_seconds": 0,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680748034942110990",
+        "published_at": 1788313520,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@holistic.wellness.glow/video/7680748034942110990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bubba.finds",
+        "creator_uid": "7532195050130932791"
+      },
+      "engagement_metrics": {
+        "comment_count": 699,
+        "like_count": 310847,
+        "play_count": 13341939,
+        "share_count": 13924
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 16481.65,
+        "window_units_sold": 580
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676600346818481438",
+      "video_meta": {
+        "caption_text": "pumpkin patch approved",
+        "cover_url": "https://s.500fd.com/tt_video/o8kLSZGAAjEBmBRsCOBpJIi5Vai2IioCIwMEP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676600346818481438",
+        "published_at": 1787347808,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bubba.finds/video/7676600346818481438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "whatsinlivscart",
+        "creator_uid": "7201275298042037294"
+      },
+      "engagement_metrics": {
+        "comment_count": 84,
+        "like_count": 13900,
+        "play_count": 1200000,
+        "share_count": 629
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 10312.72,
+        "window_units_sold": 401
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680432081817603341",
+      "video_meta": {
+        "caption_text": "(sorry abt the price\ud83d\ude05) OCTOBER WE ARE ONE MONTH CLOSERRR! #boots #fall #foldoverboots #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oYGVQgLqAgkPSAoWHIGAQ6LSjEVAYC6IeLIeeC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680432081817603341",
+        "published_at": 1788239975,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7680432081817603341"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "spicytoes",
+        "creator_uid": "7071957681472586794"
+      },
+      "engagement_metrics": {
+        "comment_count": 59,
+        "like_count": 30447,
+        "play_count": 459790,
+        "share_count": 331
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 9667.27,
+        "window_units_sold": 396
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691000166236687647",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUCAjPD1dVefv1z03xngq67EBQsFIIVTIQAAfZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691000166236687647",
+        "published_at": 1790700542,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@spicytoes/video/7691000166236687647"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "maddiejunee",
+        "creator_uid": "7445113031031948334"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 4070,
+        "play_count": 349000,
+        "share_count": 201
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 9656.06,
+        "window_units_sold": 361
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677071746645757214",
+      "video_meta": {
+        "caption_text": "In love with these #fallboots #fallfashion #pumkinpatch #tallboots #leatherboots ",
+        "cover_url": "https://s.500fd.com/tt_video/owCCKA1KmVCmiiIqOiifEBAFtcWtfiIiRxBxE5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677071746645757214",
+        "published_at": 1787457574,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@maddiejunee/video/7677071746645757214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "marinaaa.ro",
+        "creator_uid": "6666811237652283398"
+      },
+      "engagement_metrics": {
+        "comment_count": 194,
+        "like_count": 114600,
+        "play_count": 1000000,
+        "share_count": 2555
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 8502.39,
+        "window_units_sold": 289
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7671828863831346463",
+      "video_meta": {
+        "caption_text": "outfit details \ud83e\udd0e #outfitideas #fall ",
+        "cover_url": "https://s.500fd.com/tt_video/ocez8Bm5U9IOMQA3C9FEAeDKI7AjVhYIE3fYq5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671828863831346463",
+        "published_at": 1786236872,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@marinaaa.ro/video/7671828863831346463"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "addy_nailedit",
+        "creator_uid": "6939154013489775621"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 353,
+        "play_count": 19700,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 7256.99,
+        "window_units_sold": 284
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689209084029046030",
+      "video_meta": {
+        "caption_text": "I\u2019m off to run fall errands #fall #brownboots #fallfashion #fallboots #boots ",
+        "cover_url": "https://s.500fd.com/tt_video/o4w1tv7EPzRiEQrQGBFqAjeDgsS4iDVvfYtEjq~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689209084029046030",
+        "published_at": 1790283511,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@addy_nailedit/video/7689209084029046030"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bubba.finds",
+        "creator_uid": "7532195050130932791"
+      },
+      "engagement_metrics": {
+        "comment_count": 48,
+        "like_count": 55500,
+        "play_count": 1600000,
+        "share_count": 1977
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 7039.98,
+        "window_units_sold": 283
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681045015354789151",
+      "video_meta": {
+        "caption_text": "autumn in stars hollow core",
+        "cover_url": "https://s.500fd.com/tt_video/ogAp8q8ipANVaBq6dbERiJxBIRS0YIEMABPij~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681045015354789151",
+        "published_at": 1788382681,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bubba.finds/video/7681045015354789151"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hill3ryy",
+        "creator_uid": "7042434225127670789"
+      },
+      "engagement_metrics": {
+        "comment_count": 83,
+        "like_count": 60100,
+        "play_count": 1500000,
+        "share_count": 2020
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932002796245716",
+        "window_gmv": 7589.76,
+        "window_units_sold": 276
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678437111149710623",
+      "video_meta": {
+        "caption_text": "so fall coded #fall #ootd #outfit #viral ",
+        "cover_url": "https://s.500fd.com/tt_video/oQIHqQpgGDBMpCJlAIeeAREcwLcYQVIIfzEjK9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678437111149710623",
+        "published_at": 1787781600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hill3ryy/video/7678437111149710623"
+      }
+    }
+  ]
+}

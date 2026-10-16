@@ -3,7 +3,7 @@
   "product_id": "1730789164546953954",
   "title": "Sweetcrispy 54-Inch Vertical Cat Scratcher Shelf - Durable Space-Saving Pet Furniture with Anti-Tilt Stable Base, Modern Memory Foam Cozy Nest, Supports Play & Sleep, Satisfies Natural Scratching Instincts, Ideal Gift for Pet Owners",
   "clean_title": "Sweetcrispy 54-Inch Vertical Cat Scratcher Shelf",
-  "image_url": "/img/product_1730789164546953954.webp",
+  "image_url": "https://s.500fd.com/tt_product/6f0fbc594b5840feb8f77aca957ba83d~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7686292006750014750",
-      "cover_url": "/img/video_7686292006750014750.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oEBhRODYqdzfHqonWj8mVrTEF8rFQEqVEQAAeX~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@socalshopdeals/video/7686292006750014750",
       "creator_handle": "socalshopdeals",
       "play_count": 1300000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7680448209881287966",
-      "cover_url": "/img/video_7680448209881287966.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oobEOiEBAYACKeBifAqREAAyEnW2ylIwmQFCkV~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@jjasminova/video/7680448209881287966",
       "creator_handle": "jjasminova",
       "play_count": 1000000,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7675157073327410462",
-      "cover_url": "/img/video_7675157073327410462.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooET79EAV5AFBE6oC3Ry6gfwAKDcECAIqArqeD~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@jjasminova/video/7675157073327410462",
       "creator_handle": "jjasminova",
       "play_count": 1700000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7687411067252772127",
-      "cover_url": "/img/video_7687411067252772127.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/owWJIxqjAIQlVCGzIAALYX7FEeKeVpIEfAd4vA~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@jjasminova/video/7687411067252772127",
       "creator_handle": "jjasminova",
       "play_count": 244200,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7691011918609386783",
-      "cover_url": "/img/video_7691011918609386783.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oEV7ux4TZVvErrnivPrMzDA9BCIaRiO2AB3AI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7691011918609386783",
       "creator_handle": "beans_cream",
       "play_count": 2400000,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7687589554626333983",
-      "cover_url": "/img/video_7687589554626333983.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/okIDqrEsF9U8EBf61s4Eao8AESVivXqIoAfFRz~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@beans_cream/video/7687589554626333983",
       "creator_handle": "beans_cream",
       "play_count": 342985,
@@ -164,5 +164,16 @@
     "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   "product_id": "1732296192340103881",
   "title": "Women's Elegant Feminine Solid Sleeveless A-Line Mini Short Dress Womenswear with Back Tie, Slim Fit for Daily Wear, Casual Outings, and Party Occasions",
   "clean_title": "Women's Elegant Feminine Solid Sleeveless A-Line",
-  "image_url": "/img/product_1732296192340103881.webp",
+  "image_url": "https://s.500fd.com/tt_product/c92182be7bc340159acd8c4d829fc36a~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7690570511667039502",
-      "cover_url": "/img/video_7690570511667039502.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/owf0PDAdeAI8FqFfAGjVVoEcyIHkLIAyoMAQ62~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7690570511667039502",
       "creator_handle": "ohhangelbaby",
       "play_count": 1530204,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7667963908874931486",
-      "cover_url": "/img/video_7667963908874931486.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oY8SEVGfkDAKFqAQAhF0ERqABEMAiCEaIEf3qE~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@silviajuliana_0/video/7667963908874931486",
       "creator_handle": "silviajuliana_0",
       "play_count": 1900000,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7691140709616717070",
-      "cover_url": "/img/video_7691140709616717070.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o8fq6MRCEwDvG8tEFaFvBEA8D7AfIgC8GGASUA~tplv-photomode-zoomcover:480:480.avif",
       "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7691140709616717070",
       "creator_handle": "macwatfit",
       "play_count": 1400000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7688865310559997215",
-      "cover_url": "/img/video_7688865310559997215.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/o8E0KTAtfAErlZCLADRqNkCIVEEVFEAaSFAIse~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@itsashlyyn/video/7688865310559997215",
       "creator_handle": "itsashlyyn",
       "play_count": 1915576,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7689538322502356254",
-      "cover_url": "/img/video_7689538322502356254.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oYW8AB0ETAi1iZ8fCA22SK1nuCIIWApciI9BAl~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@tinkabebe/video/7689538322502356254",
       "creator_handle": "tinkabebe",
       "play_count": 725900,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7695525334334147854",
-      "cover_url": "/img/video_7695525334334147854.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ocO5ArfJ6yeERRFGYGQAnoAIVfAfWa3XAGLI5D~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@briiwears/video/7695525334334147854",
       "creator_handle": "briiwears",
       "play_count": 883900,
@@ -164,5 +164,16 @@
     "reason_en": "A normal level of competition -- not crowded, not wide open either."
   },
   "spanish_share": 0.0,
-  "pocas_creadoras_latinas": true
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 8,
+    "hour_end": 10,
+    "best_weekdays": [
+      0,
+      2
+    ]
+  }
 }

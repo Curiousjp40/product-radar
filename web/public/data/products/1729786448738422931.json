@@ -3,7 +3,7 @@
   "product_id": "1729786448738422931",
   "title": "Tanming Womens Fitted U-Back Corduroy Overall Dress, Round Neck A Line Skirtall Jumper Mini Dress Pinafore with Pockets",
   "clean_title": "Tanming Womens Fitted U-Back Corduroy Overall",
-  "image_url": "/img/product_1729786448738422931.jpg",
+  "image_url": "https://s.500fd.com/tt_product/cfa6a92bdbeb4c4cbadb83e3b0afe2b6~tplv-fhlh96nyum-origin-image.image",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729786448738422931",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Tanming%20Womens%20Fitted%20U-Back%20Corduroy%20Overall",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729786448738422931",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7668704397546835214",
+      "cover_url": "https://s.500fd.com/tt_video/oICQvT2ejUIebkHJCgGZRpLWBCH2AAfITZbVQI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7668704397546835214",
+      "creator_handle": "vibe_with_stephanie",
+      "play_count": 15600,
+      "window_gmv": 15343.2,
+      "window_units_sold": 555,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7685850322501225758",
+      "cover_url": "https://s.500fd.com/tt_video/oEAWAfKuBiC1iApCdpioNzEDVBKIOtoAxuIxAA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7685850322501225758",
+      "creator_handle": "she_is_she_will",
+      "play_count": 1182168,
+      "window_gmv": 6199.69,
+      "window_units_sold": 211,
+      "is_ad": true,
+      "duration_seconds": 58
+    },
+    {
+      "video_id": "7687416997814029581",
+      "cover_url": "https://s.500fd.com/tt_video/oIwiQ4kjCIAmFeGeHLALyXSxQeM0VnICUFIMvA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7687416997814029581",
+      "creator_handle": "deals.and.daisies",
+      "play_count": 40000,
+      "window_gmv": 4978.41,
+      "window_units_sold": 180,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7686281245273165087",
+      "cover_url": "https://s.500fd.com/tt_video/oYiSPKwqsAAEBCAAoBAtaKEWlB0IkEBRrFi9E~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7686281245273165087",
+      "creator_handle": "she_is_she_will",
+      "play_count": 313200,
+      "window_gmv": 4386.99,
+      "window_units_sold": 157,
+      "is_ad": true,
+      "duration_seconds": 65
+    },
+    {
+      "video_id": "7686630263123643679",
+      "cover_url": "https://s.500fd.com/tt_video/ossk6FBRVDqqryEVZAipATYZIfD3ftEEUFITGB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@simplistyle_72/video/7686630263123643679",
+      "creator_handle": "simplistyle_72",
+      "play_count": 8780,
+      "window_gmv": 3094.3,
+      "window_units_sold": 105,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7688939966671457567",
+      "cover_url": "https://s.500fd.com/tt_video/oYfwrBG1ELARILEaQAIqAmIAIpT2ejp0VfjCAR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7688939966671457567",
+      "creator_handle": "she_is_she_will",
+      "play_count": 167700,
+      "window_gmv": 2647.28,
+      "window_units_sold": 96,
+      "is_ad": true,
+      "duration_seconds": 54
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallfashion",
+        "weight": 726
+      },
+      {
+        "hashtag": "corduroy",
+        "weight": 723
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 651
+      },
+      {
+        "hashtag": "corduroydress",
+        "weight": 618
+      },
+      {
+        "hashtag": "falldress",
+        "weight": 618
+      },
+      {
+        "hashtag": "fallstyle",
+        "weight": 555
+      },
+      {
+        "hashtag": "fallfashiontrends",
+        "weight": 555
+      },
+      {
+        "hashtag": "dresses",
+        "weight": 546
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 40,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "Such a versatile fall staple piece!",
+      "I liveeee for fall \ud83c\udf42 Everything\u2019s in the orange cart",
+      "Cute, cute corduroy dress."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      4,
+      2
+    ]
+  }
 }

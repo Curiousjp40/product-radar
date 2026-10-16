@@ -1,5 +1,5 @@
 import json
-from datetime import date
+from datetime import date, timedelta
 
 import pandas as pd
 import pytest
@@ -461,6 +461,38 @@ def test_product_detail_dict_formula_ganadora_none_when_enriched_but_no_videos()
     assert detail["formula_ganadora"] is None
 
 
+def test_product_detail_dict_shows_videos_even_without_trend_enrichment():
+    # Part C1's video backfill (2026-10-16) fetches videos for far more
+    # products than ever get the trend call -- a backfilled product with
+    # videos but has_enrichment=False (no trend data) must still show its
+    # videos/hashtags/formula_ganadora, not hide them behind the trend gate.
+    cand = {
+        "product_id": "a",
+        "title": "A",
+        "config_category": "shapewear",
+        "shop_name": "Shop",
+        "price": 10.0,
+        "commission_rate": 0.1,
+        "videos": [
+            {
+                "video_id": "v1",
+                "caption_text": "#fajas mira esto!",
+                "window_units_sold": 10,
+                "window_gmv": 100.0,
+                "play_count": 500,
+                "is_ad": False,
+                "duration_seconds": 20,
+            }
+        ],
+    }
+    detail = product_detail_dict(cand, _CATEGORIES_CFG, is_pick=False, has_enrichment=False)
+    assert len(detail["videos"]) == 1
+    assert detail["formula_ganadora"] is not None
+    # trend-only fields stay gated on has_enrichment regardless
+    assert detail["daily_units_14"] == []
+    assert detail["creator_count"] is None
+
+
 _CATEGORIES_CFG = load_all()["categories"]["categories"]
 
 
@@ -576,29 +608,79 @@ _VIDEOS_FIXTURE = {
 }
 
 
+# A real date/ISO-week pair (not the old fake "2026-W99" placeholder --
+# find_recent_snapshot (added 2026-10-15, Part 1a) derives week labels from
+# a real `today` via isocalendar(), which only ever produces W01-W53, so a
+# fake week string can no longer stand in for "today's week" here). Test
+# isolation still comes from tmp_path, not from the week label being fake.
+_TEST_TODAY = date(2026, 1, 5)  # a Monday
+_TEST_WEEK = "2026-W02"
+
+
 async def test_enrich_shortlist_reuses_snapshot_without_any_paid_call(tmp_path, monkeypatch):
     monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
-    week = "2026-W99"
-    save_raw_snapshot(week, "trend_1", _TREND_FIXTURE)
-    save_raw_snapshot(week, "videos_1", _VIDEOS_FIXTURE)
+    save_raw_snapshot(_TEST_WEEK, "trend_1", _TREND_FIXTURE)
+    save_raw_snapshot(_TEST_WEEK, "videos_1", _VIDEOS_FIXTURE)
     shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
     tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
 
-    await enrich_shortlist(_ClientNeverCalled(), shortlist, week, tracker)
+    await enrich_shortlist(_ClientNeverCalled(), shortlist, _TEST_WEEK, tracker, today=_TEST_TODAY)
 
     assert shortlist[0]["daily_units_14"] == list(range(14))
     assert shortlist[0]["videos"][0]["caption_text"] == "unboxing this"
     assert tracker.spent == 0
 
 
+async def test_enrich_shortlist_reuses_a_snapshot_from_a_previous_week(tmp_path, monkeypatch):
+    # Part 1a: a product enriched 2 weeks ago and still on the shortlist
+    # must not cost credits again.
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    two_weeks_before = _iso_week_label_for_test(_TEST_TODAY - timedelta(weeks=2))
+    save_raw_snapshot(two_weeks_before, "trend_1", _TREND_FIXTURE)
+    save_raw_snapshot(two_weeks_before, "videos_1", _VIDEOS_FIXTURE)
+    shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
+    tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
+
+    await enrich_shortlist(_ClientNeverCalled(), shortlist, _TEST_WEEK, tracker, today=_TEST_TODAY)
+
+    assert shortlist[0]["daily_units_14"] == list(range(14))
+    assert tracker.spent == 0
+
+
+def _iso_week_label_for_test(d: date) -> str:
+    y, w, _ = d.isocalendar()
+    return f"{y}-W{w:02d}"
+
+
 async def test_enrich_shortlist_resume_mode_hard_fails_without_snapshot(tmp_path, monkeypatch):
     monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
-    week = "2026-W99"
     shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
     tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
 
     with pytest.raises(MissingSnapshotError):
-        await enrich_shortlist(_ClientNeverCalled(), shortlist, week, tracker, resume_mode=True)
+        await enrich_shortlist(_ClientNeverCalled(), shortlist, _TEST_WEEK, tracker, resume_mode=True, today=_TEST_TODAY)
+
+
+async def test_enrich_shortlist_only_fetches_trend_for_the_top_trend_tier(tmp_path, monkeypatch):
+    # Part 1c: rank 0 is within trend_tier_size=1, so it gets both trend
+    # (2cr) and video (1cr); rank 1 is outside it, so it only gets video
+    # (1cr) -- never sales_trend, even though it has budget for it.
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    shortlist = [
+        {"product_id": "1", "daily_units_14": None, "videos": None},
+        {"product_id": "2", "daily_units_14": None, "videos": None},
+    ]
+    tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
+    client = _ClientReturnsFixedData(_TREND_FIXTURE, _VIDEOS_FIXTURE, balance_after=97)
+
+    await enrich_shortlist(client, shortlist, _TEST_WEEK, tracker, trend_tier_size=1, today=_TEST_TODAY)
+
+    assert shortlist[0]["daily_units_14"] == list(range(14))  # rank 0: got trend
+    assert shortlist[1]["daily_units_14"] is None  # rank 1: outside the trend tier, never asked for it
+    assert shortlist[0]["videos"] is not None
+    assert shortlist[1]["videos"] is not None  # rank 1 still gets videos
+    assert client.calls.count("product_sales_trend") == 1
+    assert client.calls.count("product_video_list") == 2
 
 
 async def test_enrich_shortlist_live_mode_still_fetches_when_snapshot_missing(tmp_path, monkeypatch):
@@ -606,12 +688,11 @@ async def test_enrich_shortlist_live_mode_still_fetches_when_snapshot_missing(tm
     # be able to fetch fresh data (this isn't the bug the safeguard above
     # targets; only --resume-week must make zero paid calls).
     monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
-    week = "2026-W99"
     shortlist = [{"product_id": "1", "daily_units_14": None, "videos": None}]
     tracker = BudgetTracker(hard_cap=75, starting_balance=100, run_id="test")
     client = _ClientReturnsFixedData(_TREND_FIXTURE, _VIDEOS_FIXTURE, balance_after=97)
 
-    await enrich_shortlist(client, shortlist, week, tracker, resume_mode=False)
+    await enrich_shortlist(client, shortlist, _TEST_WEEK, tracker, resume_mode=False, today=_TEST_TODAY)
 
     assert shortlist[0]["daily_units_14"] == list(range(14))
     assert shortlist[0]["videos"][0]["caption_text"] == "unboxing this"

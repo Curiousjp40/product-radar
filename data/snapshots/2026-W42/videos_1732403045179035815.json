@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732403045179035815",
+  "time_range_days": 90,
+  "total": 464,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "rositamurcia777",
+        "creator_uid": "7484465200776217646"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1476,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 4061.8,
+        "window_units_sold": 372
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678483801168760094",
+      "video_meta": {
+        "caption_text": "#y2k #leopard #print #lace Trim Co",
+        "cover_url": "https://s.500fd.com/tt_video/o8fh6jEQQEAqotjfZdFVPEywiGLh9EAmDB3RGr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678483801168760094",
+        "published_at": 1787786341,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@rositamurcia777/video/7678483801168760094"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "anniiieswrld",
+        "creator_uid": "175182494886084608"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 2720,
+        "play_count": 249300,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 2620.78,
+        "window_units_sold": 249
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678864488736640287",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMUIAeZhwAejG1HQGejIA5CqnIILQHMMVhvdOc~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678864488736640287",
+        "published_at": 1787874979,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@anniiieswrld/video/7678864488736640287"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "laylahmarline",
+        "creator_uid": "7404290704759866414"
+      },
+      "engagement_metrics": {
+        "comment_count": 20,
+        "like_count": 25900,
+        "play_count": 789900,
+        "share_count": 1150
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 2427.26,
+        "window_units_sold": 245
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688812171190488334",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o4ooYqobESBCAFo9LCSIRgDTeRXtBwDsEQCfRF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688812171190488334",
+        "published_at": 1790191123,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@laylahmarline/video/7688812171190488334"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "scarlet.rivass",
+        "creator_uid": "6796554428025619462"
+      },
+      "engagement_metrics": {
+        "comment_count": 69,
+        "like_count": 12108,
+        "play_count": 381581,
+        "share_count": 267
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1941.44,
+        "window_units_sold": 155
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689348426797976845",
+      "video_meta": {
+        "caption_text": "#CapCut #scarletrivass #leopardcorset ",
+        "cover_url": "https://s.500fd.com/tt_video/oYP2IwYJ1EJACABwDBWiCCbiIWBAlMALZwfNbH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689348426797976845",
+        "published_at": 1790315957,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@scarlet.rivass/video/7689348426797976845"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mayafindss777",
+        "creator_uid": "7484630717063775274"
+      },
+      "engagement_metrics": {
+        "comment_count": 9,
+        "like_count": 4953,
+        "play_count": 350700,
+        "share_count": 138
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1606.95,
+        "window_units_sold": 150
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690962867578785054",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owrDFC7N8E8AeCo7EAAhEfbaVyuaqIAdCEuRAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690962867578785054",
+        "published_at": 1790697600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mayafindss777/video/7690962867578785054"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "pookkisses",
+        "creator_uid": "7622074708607435790"
+      },
+      "engagement_metrics": {
+        "comment_count": 129,
+        "like_count": 119123,
+        "play_count": 3253390,
+        "share_count": 3898
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1227.83,
+        "window_units_sold": 101
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679946660595748109",
+      "video_meta": {
+        "caption_text": "almost perfect corset #fashion #cute ",
+        "cover_url": "https://s.500fd.com/tt_video/okqICG3miiAJrSCwIIjBpVlrlVprM51USBGfAu~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679946660595748109",
+        "published_at": 1788126950,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@pookkisses/video/7679946660595748109"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jjoannaa7",
+        "creator_uid": "6785972729205244933"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 1522,
+        "play_count": 63300,
+        "share_count": 100
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1397.33,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680860906988834061",
+      "video_meta": {
+        "caption_text": "Such a cute outfit \ud83d\udc06\ud83c\udf52. #baddie #leopardprint #corsettop #tiktokfashion #sohochic ",
+        "cover_url": "https://s.500fd.com/tt_video/owSLItCVHAgQfMjQEE9LfF2AvzKDLFiXek2z3I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680860906988834061",
+        "published_at": 1788339807,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jjoannaa7/video/7680860906988834061"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yesis_life",
+        "creator_uid": "6744422052725376006"
+      },
+      "engagement_metrics": {
+        "comment_count": 256,
+        "like_count": 17200,
+        "play_count": 262300,
+        "share_count": 97
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1005.57,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677365960579370253",
+      "video_meta": {
+        "caption_text": "Me ped\u00ed una talla M. #corset #outfit #datenight #womenoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/owI5pRCqwiWeuFxKgmED7gAESKDfA6VA7QAPE3~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677365960579370253",
+        "published_at": 1787526077,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yesis_life/video/7677365960579370253"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wincentsfinds2",
+        "creator_uid": "6907052602748535814"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 105,
+        "play_count": 6610,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 942.24,
+        "window_units_sold": 93
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7683284076354112781",
+      "video_meta": {
+        "caption_text": "TIKTOK SHOP HAUL",
+        "cover_url": "https://s.500fd.com/tt_video/oUIICp1AEsbJOwzgBBERPUiKq8AAwwf5igC7Gj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 219,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683284076354112781",
+        "published_at": 1788903987,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wincentsfinds2/video/7683284076354112781"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gleamingcheetah",
+        "creator_uid": "7270230708610581550"
+      },
+      "engagement_metrics": {
+        "comment_count": 113,
+        "like_count": 2672,
+        "play_count": 44500,
+        "share_count": 29
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647165989127295143",
+        "window_gmv": 1009.13,
+        "window_units_sold": 89
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683935756020092173",
+      "video_meta": {
+        "caption_text": "\ud83d\udc06\ud83d\udc06 #foryoupage #cheetahprint #corset ",
+        "cover_url": "https://s.500fd.com/tt_video/oIbqEvUEIGiXgyiB7vS0uriUB4C4rLaAuIa1o~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683935756020092173",
+        "published_at": 1789055721,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gleamingcheetah/video/7683935756020092173"
+      }
+    }
+  ]
+}

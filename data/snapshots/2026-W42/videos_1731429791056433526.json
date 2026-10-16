@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731429791056433526",
+  "time_range_days": 90,
+  "total": 1268,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "shannonjohn_",
+        "creator_uid": "6920352783695184901"
+      },
+      "engagement_metrics": {
+        "comment_count": 505,
+        "like_count": 25200,
+        "play_count": 6113408,
+        "share_count": 3145
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 16471.05,
+        "window_units_sold": 675
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678898043772570894",
+      "video_meta": {
+        "caption_text": "10/10 this plaid hoodie is so cute!\u2019 ",
+        "cover_url": "https://s.500fd.com/tt_video/oUZAEDAFeEAzCRAg6oEkC0IOW77qDf2CSSBq6Q~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678898043772570894",
+        "published_at": 1787882796,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shannonjohn_/video/7678898043772570894"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melissaannfindss",
+        "creator_uid": "7367790805778301995"
+      },
+      "engagement_metrics": {
+        "comment_count": 120,
+        "like_count": 8080,
+        "play_count": 2300000,
+        "share_count": 930
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 6124.78,
+        "window_units_sold": 295
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669957573461708062",
+      "video_meta": {
+        "caption_text": "Favorite basic! \ud83d\ude0d #casualoutfits #casualstyle #falloutfits #BackToSchool #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/ooxALzA0iRpBEq6nBA6oagKiEAVBcIdjvlIAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669957573461708062",
+        "published_at": 1785801168,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melissaannfindss/video/7669957573461708062"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melissaannfindss",
+        "creator_uid": "7367790805778301995"
+      },
+      "engagement_metrics": {
+        "comment_count": 63,
+        "like_count": 2146,
+        "play_count": 1200000,
+        "share_count": 283
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 5123.06,
+        "window_units_sold": 236
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675153414170430734",
+      "video_meta": {
+        "caption_text": "Such a comfy and cute outfit for fall!  #fallstyle #falloutfits #tiktokshopbacktoschool #casualstyle #casualoutfits ",
+        "cover_url": "https://s.500fd.com/tt_video/oMrewASBqCn6aDUiiAA5IAEYEDYDfgHgYRI3C4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 30,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675153414170430734",
+        "published_at": 1787010931,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melissaannfindss/video/7675153414170430734"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melissaannfindss",
+        "creator_uid": "7367790805778301995"
+      },
+      "engagement_metrics": {
+        "comment_count": 21,
+        "like_count": 1162,
+        "play_count": 602700,
+        "share_count": 120
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 4792.06,
+        "window_units_sold": 214
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673263408610954526",
+      "video_meta": {
+        "caption_text": "Replying to @Catherine yessssss! \ud83d\ude4c\ud83c\udffc #falloutfits #longsleeve #plaid #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/ok0zRFGIEQDIA2fZO5fhKA4AjAbDUDqbIAfPE4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673263408610954526",
+        "published_at": 1786570873,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melissaannfindss/video/7673263408610954526"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "chrissyashley.tt",
+        "creator_uid": "6739267459121480709"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 56,
+        "play_count": 44800,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 5312.75,
+        "window_units_sold": 210
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683246423566994719",
+      "video_meta": {
+        "caption_text": "Wearing the color light army green \u2728 #wiholl #pulloverhoodie #leggingsoutfit #falloutfit #oversizedhoodie ",
+        "cover_url": "https://s.500fd.com/tt_video/o01oVQtQDZ20FBvDAEffArMwIF0mTqEEBxiRXA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683246423566994719",
+        "published_at": 1788895222,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@chrissyashley.tt/video/7683246423566994719"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yakaira_munoz",
+        "creator_uid": "6774905485487260677"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 1,
+        "play_count": 182,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 4314.14,
+        "window_units_sold": 208
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682521685555219726",
+      "video_meta": {
+        "caption_text": "WIHOLL Womens Fashion Tops Hoodies #hoodies #blackfriday #fall #falldealsforyou #fashion ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682521685555219726",
+        "published_at": 1788726488,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yakaira_munoz/video/7682521685555219726"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yakaira_munoz",
+        "creator_uid": "6774905485487260677"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 3,
+        "play_count": 516,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 5081.95,
+        "window_units_sold": 199
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684108393597930765",
+      "video_meta": {
+        "caption_text": "WIHOLL Womens Fashion Tops Hoodie pullovers #fashion #hoodie #pullovers #blackfriday #falldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/ooD9AEqAfQ3RoF4IukhfFD1exxAsEjAJGVItAH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684108393597930765",
+        "published_at": 1789095914,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yakaira_munoz/video/7684108393597930765"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "southernlakemom",
+        "creator_uid": "6765319965387506693"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 183,
+        "play_count": 101295,
+        "share_count": 19
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 4401.69,
+        "window_units_sold": 197
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691043428028779790",
+      "video_meta": {
+        "caption_text": "Soft. Oversized. Leggings approved. \u2764\ufe0f @WIHOLL FASHION #hoodie #buffaloplaid #leggingsoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/ogFoIwSRAEnBfCDGDAgFVv2qEfETqpECAANv8A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 24,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691043428028779790",
+        "published_at": 1790794800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@southernlakemom/video/7691043428028779790"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tinajones92461",
+        "creator_uid": "7140047714546140206"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 21,
+        "play_count": 786,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 3766.13,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676588771764161805",
+      "video_meta": {
+        "caption_text": "@WIHOLL #pulloverhoodie #casualtop #womenstop #backtoschoolshopping ",
+        "cover_url": "https://s.500fd.com/tt_video/o4DI4SCyIBZilEE9PfRuECfDIh8PLgrTAxAsFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 87,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676588771764161805",
+        "published_at": 1787345137,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tinajones92461/video/7676588771764161805"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dleonard2126",
+        "creator_uid": "6785718065210868741"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 65,
+        "play_count": 15106,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496046066432575862",
+        "window_gmv": 4168.73,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692103085052759309",
+      "video_meta": {
+        "caption_text": "#wiholl #womenstops #womenslongsleeveshirt #womensfashion #tiktokshopfalldealsforyou @vqsandtattoos\u274c ",
+        "cover_url": "https://s.500fd.com/tt_video/oUQ2fqjE9B91ugR7srQA9FEDc1DyMvJWnfIOyS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692103085052759309",
+        "published_at": 1790957348,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dleonard2126/video/7692103085052759309"
+      }
+    }
+  ]
+}

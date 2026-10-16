@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732352813212012671",
+  "time_range_days": 90,
+  "total": 825,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "deestarks79",
+        "creator_uid": "6810823646208263174"
+      },
+      "engagement_metrics": {
+        "comment_count": 249,
+        "like_count": 5904,
+        "play_count": 92700,
+        "share_count": 222
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 9402.59,
+        "window_units_sold": 514
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7668036335273397534",
+      "video_meta": {
+        "caption_text": "I may only be 5\u20195, 155 but I stand out. I got this maxi dress in a size Medium. #llyacostume #affordablefashion #maxidress #midsizefashion #summerlooks ",
+        "cover_url": "https://s.500fd.com/tt_video/osoIDiP1aBgAUlyEpl5lA3ERABA2mqqoVWAiB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668036335273397534",
+        "published_at": 1785353858,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deestarks79/video/7668036335273397534"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deestarks79",
+        "creator_uid": "6810823646208263174"
+      },
+      "engagement_metrics": {
+        "comment_count": 4902,
+        "like_count": 97682,
+        "play_count": 454947,
+        "share_count": 11976
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 8472.68,
+        "window_units_sold": 398
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7685115926672477470",
+      "video_meta": {
+        "caption_text": "Dance in the rain like no one\u2019s watching\u2026 cause most times they ain\u2019t. #grannylove said so #justforlaughs #notinvisible #singingintherain ",
+        "cover_url": "https://s.500fd.com/tt_video/oIY2aAElaEa3BAAlAQBziBCIAABiPqonlERcE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 61,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685115926672477470",
+        "published_at": 1789330497,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deestarks79/video/7685115926672477470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "naavoguee",
+        "creator_uid": "6668630304146014214"
+      },
+      "engagement_metrics": {
+        "comment_count": 50,
+        "like_count": 9566,
+        "play_count": 123660,
+        "share_count": 203
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 7864.02,
+        "window_units_sold": 394
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7686706555785317645",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owCIVglty5VAgNRqo7IfCLWIjHfGRATkzgeqI0~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686706555785317645",
+        "published_at": 1789700855,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@naavoguee/video/7686706555785317645"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "michaelbetznerphotograph",
+        "creator_uid": "6786433294676722693"
+      },
+      "engagement_metrics": {
+        "comment_count": 380,
+        "like_count": 15700,
+        "play_count": 253500,
+        "share_count": 1023
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 5949.96,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7676549082210487565",
+      "video_meta": {
+        "caption_text": "Yall it\u2019s gorge and so comfy ",
+        "cover_url": "https://s.500fd.com/tt_video/oYrw4CkiavKEABdTAwUM8AIyI7oAEgi5Blitp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 90,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676549082210487565",
+        "published_at": 1787335875,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@michaelbetznerphotograph/video/7676549082210487565"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deadgjrl",
+        "creator_uid": "6561116386399158277"
+      },
+      "engagement_metrics": {
+        "comment_count": 783,
+        "like_count": 82800,
+        "play_count": 1500000,
+        "share_count": 5681
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 4685.57,
+        "window_units_sold": 232
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689147675748420878",
+      "video_meta": {
+        "caption_text": "this dressss \ud83d\ude0b #dress #fashion #vacationdress #alt ",
+        "cover_url": "https://s.500fd.com/tt_video/okyZISZLPDAyVfFIZVF2DRqDaEkguButIIfv1E~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 25,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689147675748420878",
+        "published_at": 1790269214,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deadgjrl/video/7689147675748420878"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "makenziethehallie",
+        "creator_uid": "6773142608946054149"
+      },
+      "engagement_metrics": {
+        "comment_count": 405,
+        "like_count": 16800,
+        "play_count": 538000,
+        "share_count": 1771
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 4438.02,
+        "window_units_sold": 196
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7681428588830182670",
+      "video_meta": {
+        "caption_text": "the ultimate hot girl cut out strappy vaca style dress. I am STUNNED. I need to go on a cruise stat and be the hot alt soft goth girl on the beach.  #cutoutdress #strappydress #bodycon #hourglass  #hotgirlsummer ",
+        "cover_url": "https://s.500fd.com/tt_video/oY2nliZkEgn6Ci0BA4OECATiAvapEdIq4pvAB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681428588830182670",
+        "published_at": 1788471974,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@makenziethehallie/video/7681428588830182670"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "3astafricangirl",
+        "creator_uid": "6799714678656631813"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 217,
+        "play_count": 9796,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 3130.17,
+        "window_units_sold": 161
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688407990914895117",
+      "video_meta": {
+        "caption_text": "#tiktokshop #TikTokShopBackToSchool #ootd #SohoChic #sexy ",
+        "cover_url": "https://s.500fd.com/tt_video/ooIHELCqDgAIKCRjAEEnfAtAyyXDsFfZrSztAE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688407990914895117",
+        "published_at": 1790422800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@3astafricangirl/video/7688407990914895117"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "alaina.jinaee",
+        "creator_uid": "6979284679288144902"
+      },
+      "engagement_metrics": {
+        "comment_count": 109,
+        "like_count": 12300,
+        "play_count": 357700,
+        "share_count": 809
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 3047.99,
+        "window_units_sold": 158
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666238027114630431",
+      "video_meta": {
+        "caption_text": "I am already red from stepping outside\ud83d\ude05 #ootd #dress ",
+        "cover_url": "https://s.500fd.com/tt_video/oEv4e5IIIQApZsjeV8LUjX9iiuHJCRAfGFeGFp~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666238027114630431",
+        "published_at": 1784935145,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@alaina.jinaee/video/7666238027114630431"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dollybusiness",
+        "creator_uid": "6999655215625257990"
+      },
+      "engagement_metrics": {
+        "comment_count": 62,
+        "like_count": 4942,
+        "play_count": 124236,
+        "share_count": 508
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 3114.19,
+        "window_units_sold": 138
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7680634055511035149",
+      "video_meta": {
+        "caption_text": "Omg I have to wear this \ud83e\udd79 #fyp\u30b7\u309aviral #birthdaydress #vacationoutfits #dresses ",
+        "cover_url": "https://s.500fd.com/tt_video/oUAiAegiGHEVLAbI1uIMjFIDLEkQheNApQjfAA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680634055511035149",
+        "published_at": 1788287005,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dollybusiness/video/7680634055511035149"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wesleyrbarker",
+        "creator_uid": "827585"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 704,
+        "play_count": 47400,
+        "share_count": 37
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646932005196697727",
+        "window_gmv": 2770.06,
+        "window_units_sold": 133
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7679122440106085663",
+      "video_meta": {
+        "caption_text": "This dress is HOT #vacation #cutoutdress #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o8yisCBoEyIKCyAa9f7iRINb1TAutBURSAiAAi~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 35,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679122440106085663",
+        "published_at": 1787935031,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wesleyrbarker/video/7679122440106085663"
+      }
+    }
+  ]
+}

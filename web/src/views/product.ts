@@ -1,7 +1,9 @@
 import { loadProduct } from "../api";
 import { assetUrl } from "../asset";
+import { bestVideoTimeHtml } from "../bestTime";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
+import { setFeedback } from "../pipeline";
 import { hasRequestedSample, requestSample } from "../samples";
 import type { FormulaGanadora, VideoCard } from "../types";
 
@@ -205,6 +207,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       }
       <div class="stat-box-grid">${statBoxes.join("")}</div>
       <p class="commission-note">${t("commission_open_note", lang)}</p>
+      <div class="insight-card">${bestVideoTimeHtml(data.best_video_time, lang)}</div>
       ${
         data.daily_units_14.length > 0
           ? `<div class="insight-card">
@@ -221,7 +224,13 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
               <h3>${t("videos_selling_title", lang)}</h3>
               <div class="video-embed-grid">${data.videos.map((v) => videoEmbed(v, lang)).join("")}</div>
             </div>`
-          : ""
+          : `<div class="insight-card">
+              <h3>${t("videos_selling_title", lang)}</h3>
+              <p class="empty-state" style="padding:4px 0 14px">${t("no_videos_analyzed_yet", lang)}</p>
+              <div class="free-buttons" style="margin:0">
+                <a href="${data.tiktok_search_url}" target="_blank" rel="noopener" class="btn-accent">${t("tiktok_videos_button", lang)}</a>
+              </div>
+            </div>`
       }
       ${data.formula_ganadora ? formulaGanadoraHtml(data.formula_ganadora, lang) : ""}
       <div class="free-buttons">
@@ -237,6 +246,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
         >${hasRequestedSample(data.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
         <a href="${data.tiktok_search_url}" target="_blank" rel="noopener">${t("tiktok_videos_button", lang)}</a>
         <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
+        <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${data.product_id}">${t("not_for_me_button", lang)}</button>
       </div>
       <p class="free-buttons-note">${t("tiktok_search_note", lang)}</p>
     `;
@@ -252,6 +262,11 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       sampleBtn.textContent = t("sample_requested_label", lang);
       sampleBtn.classList.add("active");
       sampleBtn.disabled = true;
+    });
+    const notForMeBtn = container.querySelector<HTMLButtonElement>('[data-action="not-for-me"]');
+    notForMeBtn?.addEventListener("click", async () => {
+      await setFeedback(data.product_id, "not_for_me");
+      location.hash = "#/week";
     });
     const copyBtn = container.querySelector<HTMLButtonElement>(".copy-hashtags-btn");
     copyBtn?.addEventListener("click", () => {

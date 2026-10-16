@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732353172386124734",
+  "time_range_days": 90,
+  "total": 941,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "ashleyjazmine",
+        "creator_uid": "6820274366467867653"
+      },
+      "engagement_metrics": {
+        "comment_count": 71,
+        "like_count": 13200,
+        "play_count": 1000000,
+        "share_count": 1194
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 9001.51,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678550882371259661",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/o847fABRbsGBXiIT1CF7gDpCwINPAMPIwT49i4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678550882371259661",
+        "published_at": 1787801968,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ashleyjazmine/video/7678550882371259661"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leahfrzr",
+        "creator_uid": "6807303228855305221"
+      },
+      "engagement_metrics": {
+        "comment_count": 112,
+        "like_count": 69600,
+        "play_count": 3600000,
+        "share_count": 12100
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 8126.57,
+        "window_units_sold": 245
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677667499155918111",
+      "video_meta": {
+        "caption_text": "cozy szn crocs \ud83e\uddf8\ud83c\udf42 #crocs  #fallshoes #fallaesthetic #tiktokshopbacktoschool @Crocs ",
+        "cover_url": "https://s.500fd.com/tt_video/oooZ9mvQA3jfAQ4I6EXVAGEMAeq1AIWf8RGIni~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677667499155918111",
+        "published_at": 1787596288,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leahfrzr/video/7677667499155918111"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "leahfrzr",
+        "creator_uid": "6807303228855305221"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 394,
+        "play_count": 28100,
+        "share_count": 48
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5032.49,
+        "window_units_sold": 163
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689536557736381726",
+      "video_meta": {
+        "caption_text": "#crocs #fallshoes #fallaesthetic @Crocs ",
+        "cover_url": "https://s.500fd.com/tt_video/o4Ea2ruAiPCiaTBIAw0GREBC4AdiA1XjENzAl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689536557736381726",
+        "published_at": 1790359765,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@leahfrzr/video/7689536557736381726"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kalilashops",
+        "creator_uid": "7405634174982734894"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 106,
+        "play_count": 14200,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5974.98,
+        "window_units_sold": 156
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690384026695257357",
+      "video_meta": {
+        "caption_text": "Crocs metallic buckle #crocsnewarrivals #crocssuperbrandday #tiktokshopdealsforyoudays #tiktokshopcreatorpicks #tiktokshopblackfriday @Crocs ",
+        "cover_url": "https://s.500fd.com/tt_video/os53sGcNIAkjrIJIsHuIHfSkwIGjAVLWV5Cfoe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690384026695257357",
+        "published_at": 1790557082,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7690384026695257357"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 876,
+        "play_count": 98700,
+        "share_count": 212
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5219.38,
+        "window_units_sold": 141
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681738717928672525",
+      "video_meta": {
+        "caption_text": "Absolutely my new favorite @Crocs so cute but a little more elevated\u2728\ud83d\udc4c\ud83c\udffc #crocs #crocsclogs #crocsspotlightday ",
+        "cover_url": "https://s.500fd.com/tt_video/oEtBMEFXqKDlF5FbBfFEgQDZEmARn6DII2fbSw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681738717928672525",
+        "published_at": 1788544203,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7681738717928672525"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dallas__333",
+        "creator_uid": "6976238001504420869"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 82,
+        "play_count": 10700,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 4556.77,
+        "window_units_sold": 139
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687644631806381326",
+      "video_meta": {
+        "caption_text": "#crocs ",
+        "cover_url": "https://s.500fd.com/tt_video/oAWw63fiLtRzJIPINBiqAAmBgWSjVDnDvfrEg8~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 11,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687644631806381326",
+        "published_at": 1789919281,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dallas__333/video/7687644631806381326"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "isspano",
+        "creator_uid": "7443212434858525742"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 2894,
+        "play_count": 250074,
+        "share_count": 394
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 4147.49,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689318599885999374",
+      "video_meta": {
+        "caption_text": "Crocs for all fall long \ud83e\uddf8\ud83e\udd0e they are true to size \ud83e\udd70 #crocs #crocsclogs #fallfashion #socks #clogs ",
+        "cover_url": "https://s.500fd.com/tt_video/osAdRI9cVHDq8UFeAGCsOrIaLI8IkIejqIOq1e~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 34,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689318599885999374",
+        "published_at": 1790309030,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@isspano/video/7689318599885999374"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_thehamiltons",
+        "creator_uid": "6629403306748739590"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 1496,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5224.99,
+        "window_units_sold": 133
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691122152103234830",
+      "video_meta": {
+        "caption_text": "I am obsessed #creatorsearchinsights #productstobuy  #crocs #clogs  #shoes ",
+        "cover_url": "https://s.500fd.com/tt_video/oM8AcFgWdRYeGEAEde43vD4O41IMFqgRtGgnfe~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691122152103234830",
+        "published_at": 1790731080,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_thehamiltons/video/7691122152103234830"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kelseyyyshops",
+        "creator_uid": "7430126996426802219"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 1325,
+        "play_count": 273365,
+        "share_count": 232
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 5569.01,
+        "window_units_sold": 128
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667032185676827917",
+      "video_meta": {
+        "caption_text": "@Crocs #crocs #crocsshoes #shoes #tiktokshopsummersale #crocssuperbrandday ",
+        "cover_url": "https://s.500fd.com/tt_video/ok0sEzfZgU0RAIMnq6QrIkF2EwDNSsfiBuCKD5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667032185676827917",
+        "published_at": 1785120059,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kelseyyyshops/video/7667032185676827917"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kalilashops",
+        "creator_uid": "7405634174982734894"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 71,
+        "play_count": 6946,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495832567110863806",
+        "window_gmv": 4241.5,
+        "window_units_sold": 116
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687793087699094797",
+      "video_meta": {
+        "caption_text": "Crocs metallic buckle #crocssuperbrandday #crocsnewarrivals #crocsseptemberspotlight #tiktokshopcreatorpicks #tiktokshopstockup @CROCS US SHOP ",
+        "cover_url": "https://s.500fd.com/tt_video/oIHwQTBqDgeQxmRW8E7yfEKAw6uDsF9YISkhiE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687793087699094797",
+        "published_at": 1789953833,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7687793087699094797"
+      }
+    }
+  ]
+}

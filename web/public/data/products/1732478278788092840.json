@@ -3,7 +3,7 @@
   "product_id": "1732478278788092840",
   "title": "Women's Cable Knit Long Cardigan, Stand Collar Single Button Fall Winter Commute Jacket, Slim Fit Elegant Outerwear for Daily Wear Knitting",
   "clean_title": "Women's Cable Knit Long Cardigan",
-  "image_url": "/img/product_1732478278788092840.webp",
+  "image_url": "https://s.500fd.com/tt_product/4ee68c117eb5407fa2fb73895bcb6a32~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732478278788092840",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Cable%20Knit%20Long%20Cardigan",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732478278788092840",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7683925218770947342",
+      "cover_url": "https://s.500fd.com/tt_video/ospijBRI0oiWBWfPCw6iGp1VymIwUA4giIhAHl~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dailydoseofnia/video/7683925218770947342",
+      "creator_handle": "dailydoseofnia",
+      "play_count": 714,
+      "window_gmv": 13608.45,
+      "window_units_sold": 385,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7689049728616631566",
+      "cover_url": "https://s.500fd.com/tt_video/o0qhIRpJbF9gfALG3OCg5hTHe0RuAUeFVwfGI4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@fashion_abaya_closet/video/7689049728616631566",
+      "creator_handle": "fashion_abaya_closet",
+      "play_count": 4940,
+      "window_gmv": 6336.61,
+      "window_units_sold": 157,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7692243976165887262",
+      "cover_url": "https://s.500fd.com/tt_video/oc7qbccDYA25CRp9AIFFwVVDlfiTezFEEEBbAI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cuquilamoracomediante/video/7692243976165887262",
+      "creator_handle": "cuquilamoracomediante",
+      "play_count": 1611,
+      "window_gmv": 3935.97,
+      "window_units_sold": 148,
+      "is_ad": true,
+      "duration_seconds": 64
+    },
+    {
+      "video_id": "7683531735400779039",
+      "cover_url": "https://s.500fd.com/tt_video/ocu8ts3VaEbjYAqzA8B5ijGIUCBiPqqhcgRFI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@masatthing/video/7683531735400779039",
+      "creator_handle": "masatthing",
+      "play_count": 7248,
+      "window_gmv": 5076.81,
+      "window_units_sold": 143,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7681745695878941966",
+      "cover_url": "https://s.500fd.com/tt_video/oYoSN2mEwtQZmAiqACLQRF3FGfUEeAESDD2BgR~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@leahwatkins8/video/7681745695878941966",
+      "creator_handle": "leahwatkins8",
+      "play_count": 67500,
+      "window_gmv": 4668.35,
+      "window_units_sold": 143,
+      "is_ad": true,
+      "duration_seconds": 60
+    },
+    {
+      "video_id": "7688148018444373278",
+      "cover_url": "https://s.500fd.com/tt_video/osRjIVYHhDAekU9yccFjERqB1E4A7BbsQ5fajE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@simplisienna/video/7688148018444373278",
+      "creator_handle": "simplisienna",
+      "play_count": 34100,
+      "window_gmv": 3336.68,
+      "window_units_sold": 127,
+      "is_ad": true,
+      "duration_seconds": 10
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallfashion",
+        "weight": 621
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 528
+      },
+      {
+        "hashtag": "sweater",
+        "weight": 512
+      },
+      {
+        "hashtag": "longsweater",
+        "weight": 385
+      },
+      {
+        "hashtag": "sweaterweather",
+        "weight": 385
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 381
+      },
+      {
+        "hashtag": "cardigan",
+        "weight": 270
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 240
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 21,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 21,
+      "hour_end": 23
+    },
+    "top_hooks": [
+      "It\u2019s long sweater season \ud83e\udd70\u2728 \u2022 \u2022",
+      "Might be playing favorites with this one!",
+      "This sweater is so cute."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      3,
+      6
+    ]
+  }
 }

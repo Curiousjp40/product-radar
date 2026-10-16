@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732131076366570067",
+  "time_range_days": 90,
+  "total": 185,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "queenmamasof9",
+        "creator_uid": "7043524535181968390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 4,
+        "play_count": 274,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 6897.44,
+        "window_units_sold": 422
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673122055524535566",
+      "video_meta": {
+        "caption_text": "#tiktokshop #foryoupage #tiktokmademebuyit",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673122055524535566",
+        "published_at": 1786537961,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@queenmamasof9/video/7673122055524535566"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lifewithlisadawn",
+        "creator_uid": "7119340202069558314"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 20,
+        "play_count": 5860,
+        "share_count": 7
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 2740.58,
+        "window_units_sold": 135
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686003822266830110",
+      "video_meta": {
+        "caption_text": "Can you just see your cat snoozing in this lounge chair?? Your cats will be able to scratch on the own furniture! #catlife #catscratcher #catmom #tiktokshopcreatorpicks #tiktokshopholidayhaul ",
+        "cover_url": "https://s.500fd.com/tt_video/o85ULLvET9RQHQqQeBFqAVtDA6VgPEK6fiqEjg~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 57,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686003822266830110",
+        "published_at": 1789560600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lifewithlisadawn/video/7686003822266830110"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "foundbyida",
+        "creator_uid": "7154012128024888362"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 805,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 1682.01,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670619246111591694",
+      "video_meta": {
+        "caption_text": "#tiktokshop #foryoupage #tiktokmademebuyit",
+        "cover_url": "https://s.500fd.com/tt_video/osfBd2CgIIvGLJSHwBUEnG0C5QoNke5eAAHLrr~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670619246111591694",
+        "published_at": 1785955230,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@foundbyida/video/7670619246111591694"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "bethz_1105",
+        "creator_uid": "6669900387862953989"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 168,
+        "play_count": 37400,
+        "share_count": 34
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 1052.15,
+        "window_units_sold": 60
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677259149012454669",
+      "video_meta": {
+        "caption_text": "Why is this the cutest thing I\u2019ve ever seen?! \ud83d\ude2d #catrecliner #catscratchrecliner #catsoftiktok #tiktokshopbacktoschool #tiktokshopmusthaves ",
+        "cover_url": "https://s.500fd.com/tt_video/ogQ3Wq4EfBxA5gRXoPQAUFEDlND4MiFmlfmzUS~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677259149012454669",
+        "published_at": 1787501216,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@bethz_1105/video/7677259149012454669"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missgiselleatl",
+        "creator_uid": "6799091922217632774"
+      },
+      "engagement_metrics": {
+        "comment_count": 672,
+        "like_count": 201600,
+        "play_count": 856700,
+        "share_count": 14800
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 1150.66,
+        "window_units_sold": 59
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681854434413907214",
+      "video_meta": {
+        "caption_text": "La tumbona del chisme\ud83e\udd23el botellon de fanta ya es mas mexicano que gringo\ud83d\ude0c #botellondefanta #gatonaranja #orangecat ",
+        "cover_url": "https://s.500fd.com/tt_video/okbO2VYUeACqKgGdIfH2bsgAMLjztNce5kIgHw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681854434413907214",
+        "published_at": 1788571131,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missgiselleatl/video/7681854434413907214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "simplybecky61",
+        "creator_uid": "6990095692236801029"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 65,
+        "play_count": 7874,
+        "share_count": 4
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 1021.42,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670727221979483406",
+      "video_meta": {
+        "caption_text": "The purr-fect place to scratch, lounge, and nap.\ud83d\udc96#catsoftiktok #catscratcher #catslovers ",
+        "cover_url": "https://s.500fd.com/tt_video/okCmjqGy5j8eTK7DnfZSkJVIDkBLIIU9HQAAeS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670727221979483406",
+        "published_at": 1785980387,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@simplybecky61/video/7670727221979483406"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tatummarie1337",
+        "creator_uid": "7409050065435001898"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 253,
+        "play_count": 138200,
+        "share_count": 57
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 948.54,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668913404844723470",
+      "video_meta": {
+        "caption_text": "Give your feline friend the ultimate spot to relax and play! \ud83d\udc3e This multi-functional cat recliner doubles as a scratching pad, keeping claws healthy and your furniture safe. It's a cozy cat nest, a fun sofa toy, and a pet hammock all in one. Perfect for kittens and adult cats alike. Tap to shop this must-have for happy purrs! #fyp #foryourpage #tiktokshop #catlover #Moras",
+        "cover_url": "https://s.500fd.com/tt_video/ogaoT8yCVQ8AGSffgrIJZbDq428FED0XBgMQ6b~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668913404844723470",
+        "published_at": 1785558065,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tatummarie1337/video/7668913404844723470"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "yuiop112390",
+        "creator_uid": "7631529107831325709"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 809,
+        "play_count": 233100,
+        "share_count": 122
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 924.76,
+        "window_units_sold": 50
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683470867954732301",
+      "video_meta": {
+        "caption_text": "Stop wasting money on wants and start investing in NEEDS. \ud83d\udcb8 This is officially my smartest purchase this year! \ud83d\ude4c #tiktokshop #smartbuy #sohochic #bestpurchase #useful ",
+        "cover_url": "https://s.500fd.com/tt_video/oQOiCLlBEu9CpLUAoh2BfBDIYKAiBzJwvka1IF~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683470867954732301",
+        "published_at": 1788959580,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@yuiop112390/video/7683470867954732301"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "tx_welder",
+        "creator_uid": "7140486456092410926"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 19,
+        "play_count": 3414,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 1101.6,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7695226462139403551",
+      "video_meta": {
+        "caption_text": "At this point, my cat has better furniture than I do! \ud83d\ude02\ud83d\udc31\u2764\ufe0f A little rocking lounge chair that doubles as a scratching board! Perfect for scratching, playing, and relaxing. \ud83d\udc3e #catsoftiktok #catlover #catparent #tiktokshop #fyp @Adriana Lopez ",
+        "cover_url": "https://s.500fd.com/tt_video/oweVHIjDISGlXKJI37L97EA7IeAXIAEddQAqfA~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7695226462139403551",
+        "published_at": 1791684543,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@tx_welder/video/7695226462139403551"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "missgiselleatl",
+        "creator_uid": "6799091922217632774"
+      },
+      "engagement_metrics": {
+        "comment_count": 36,
+        "like_count": 3144,
+        "play_count": 112800,
+        "share_count": 226
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494103423962941011",
+        "window_gmv": 804.71,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680698952328547598",
+      "video_meta": {
+        "caption_text": "Replying to @pAan si vives en USA \ud83c\uddfa\ud83c\uddf8 la puedes conseguir aqui en tiktokshop la sillita rascador mas linda para los gatitos jajaja aguanta bastante y a ellos les encanta \ud83d\ude2d\u2665\ufe0f #TikTokShopBackToSchool #catscratcher #catchair #catbed #catmom ",
+        "cover_url": "https://s.500fd.com/tt_video/oUfRXbGABFAiJdw739Bjp1IxSIjmDUIJ6iACKl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680698952328547598",
+        "published_at": 1788302098,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@missgiselleatl/video/7680698952328547598"
+      }
+    }
+  ]
+}

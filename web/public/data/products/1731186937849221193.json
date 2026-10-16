@@ -3,7 +3,7 @@
   "product_id": "1731186937849221193",
   "title": "BloomChic Plus Size Strapless Paisley Jumpsuit [M-6X] - Women's Stylish Boho Rayon Overalls with Pockets, Sleeveless Fitted Summer Vacation Outfit, Clothes for Women, SohoChic",
   "clean_title": "BloomChic Plus Size Strapless Paisley Jumpsuit",
-  "image_url": "/img/product_1731186937849221193.jpg",
+  "image_url": "https://s.500fd.com/tt_product/8330f1b0efb84a3f809a41dfd53091b5~tplv-fhlh96nyum-origin-image.image",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731186937849221193",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BloomChic%20Plus%20Size%20Strapless%20Paisley%20Jumpsuit",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731186937849221193",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679400138766437663",
+      "cover_url": "https://s.500fd.com/tt_video/okjCqLIfkdPe5BJnfVTSAsqK7QgIgkjsGW1FIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7679400138766437663",
+      "creator_handle": "sarahstella353",
+      "play_count": 3500000,
+      "window_gmv": 10602.89,
+      "window_units_sold": 321,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7671619741835922718",
+      "cover_url": "https://s.500fd.com/tt_video/oAIE3FqOxBs6EwDMIfOdxVIAEaE1RdfPFRFARZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7671619741835922718",
+      "creator_handle": "sarahstella353",
+      "play_count": 838800,
+      "window_gmv": 6267.37,
+      "window_units_sold": 217,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7672595085640387870",
+      "cover_url": "https://s.500fd.com/tt_video/o4QiKDneUtINP3o6C0FEAiDgIeAjiOcIERfuqo~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sarahstella353/video/7672595085640387870",
+      "creator_handle": "sarahstella353",
+      "play_count": 151500,
+      "window_gmv": 4022.24,
+      "window_units_sold": 135,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7684383231751327007",
+      "cover_url": "https://s.500fd.com/tt_video/ocCpVEwIDVzlGCaAAEfXABAA0Fy6AqECOePVDk~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ashleighmtz/video/7684383231751327007",
+      "creator_handle": "ashleighmtz",
+      "play_count": 629390,
+      "window_gmv": 4031.64,
+      "window_units_sold": 126,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7678692975102233869",
+      "cover_url": "https://s.500fd.com/tt_video/okDIGQiIIBw1QQSfrMipQ1uvnqkvQCA0BABIF2~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@extracellestial/video/7678692975102233869",
+      "creator_handle": "extracellestial",
+      "play_count": 28608,
+      "window_gmv": 3143.37,
+      "window_units_sold": 110,
+      "is_ad": true,
+      "duration_seconds": 40
+    },
+    {
+      "video_id": "7689576582746295583",
+      "cover_url": "https://s.500fd.com/tt_video/o0kT3tZRDQWTc2r0A1FEVPRyABfTqfEIEWAYEt~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@apriljxo/video/7689576582746295583",
+      "creator_handle": "apriljxo",
+      "play_count": 12500,
+      "window_gmv": 2811.16,
+      "window_units_sold": 107,
+      "is_ad": true,
+      "duration_seconds": 56
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 766
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 725
+      },
+      {
+        "hashtag": "curvyfashion",
+        "weight": 631
+      },
+      {
+        "hashtag": "plussizefashion",
+        "weight": 499
+      },
+      {
+        "hashtag": "jumpsuit",
+        "weight": 320
+      },
+      {
+        "hashtag": "plussize",
+        "weight": 213
+      },
+      {
+        "hashtag": "overalls",
+        "weight": 178
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 135
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 25,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 10.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 6,
+      "hour_end": 8
+    },
+    "top_hooks": [
+      "I\u2019m in a size medium.",
+      "thick thighs approved!",
+      "These overalls are so cute for the fall!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 6,
+    "hour_end": 8,
+    "best_weekdays": [
+      5,
+      0
+    ]
+  }
 }

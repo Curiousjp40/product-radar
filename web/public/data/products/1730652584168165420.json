@@ -3,7 +3,7 @@
   "product_id": "1730652584168165420",
   "title": "LUCKMEEY Women High Waisted Seamless Shapewear Shorts Tummy Control Butt Lift Faja Body Shaper Breathable Slimming High Waist Shaping Shorts with Built-in Crotch Invisible Fit for Everyday Wear#sohochic",
   "clean_title": "LUCKMEEY Women High Waisted Seamless Shapewear",
-  "image_url": "/img/product_1730652584168165420.webp",
+  "image_url": "https://s.500fd.com/tt_product/dfec5299f6a7478dbcf0682dfbe765c7~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
   "category": "shapewear",
   "category_label_es": "Fajas",
   "category_label_en": "Shapewear",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1730652584168165420",
   "tiktok_search_url": "https://www.tiktok.com/search?q=LUCKMEEY%20Women%20High%20Waisted%20Seamless%20Shapewear",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1730652584168165420",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7682242094441696526",
+      "cover_url": "https://s.500fd.com/tt_video/oo9cUCpB1Az55jgiirwm7AEgCBgcvTKwxIIo2f~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@soyabundanciaa/video/7682242094441696526",
+      "creator_handle": "soyabundanciaa",
+      "play_count": 3000000,
+      "window_gmv": 15392.44,
+      "window_units_sold": 734,
+      "is_ad": true,
+      "duration_seconds": 30
+    },
+    {
+      "video_id": "7670060507935673614",
+      "cover_url": "https://s.500fd.com/tt_video/oExdgcDDPIqpFhQdsSfBRlhz3f1WhYEXAEDWiI~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@lupitallamascisne/video/7670060507935673614",
+      "creator_handle": "lupitallamascisne",
+      "play_count": 2100000,
+      "window_gmv": 10843.04,
+      "window_units_sold": 548,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7667087499424058637",
+      "cover_url": "https://s.500fd.com/tt_video/oYhmpU1MWUvECmCibH4dOq49BBIagic3QBaAE~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lupitallamascisne/video/7667087499424058637",
+      "creator_handle": "lupitallamascisne",
+      "play_count": 3310150,
+      "window_gmv": 10395.64,
+      "window_units_sold": 543,
+      "is_ad": true,
+      "duration_seconds": 75
+    },
+    {
+      "video_id": "7685582548734430477",
+      "cover_url": "https://s.500fd.com/tt_video/oUI5iVKiPPstjog6YUBEExBpBrB84AZqg2iqa~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@soyabundanciaa/video/7685582548734430477",
+      "creator_handle": "soyabundanciaa",
+      "play_count": 2141,
+      "window_gmv": 7629.23,
+      "window_units_sold": 391,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7664022776881106189",
+      "cover_url": "https://s.500fd.com/tt_video/o0gEL1FXYQD0Y0JAQoegfjEXqcQVRbgDSoDBFB~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@la_cubanita_2/video/7664022776881106189",
+      "creator_handle": "la_cubanita_2",
+      "play_count": 1900000,
+      "window_gmv": 6787.26,
+      "window_units_sold": 347,
+      "is_ad": true,
+      "duration_seconds": 62
+    },
+    {
+      "video_id": "7684097673535802637",
+      "cover_url": "https://s.500fd.com/tt_video/oYGeARGCnQVpLluxRkeCjszfHniqzsInAIHUPI~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@soyabundanciaa/video/7684097673535802637",
+      "creator_handle": "soyabundanciaa",
+      "play_count": 293300,
+      "window_gmv": 6986.6,
+      "window_units_sold": 320,
+      "is_ad": true,
+      "duration_seconds": 25
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 2071
+      },
+      {
+        "hashtag": "sohochic",
+        "weight": 2071
+      },
+      {
+        "hashtag": "capcut",
+        "weight": 2056
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 1410
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1410
+      },
+      {
+        "hashtag": "shapewear",
+        "weight": 1410
+      },
+      {
+        "hashtag": "fajas",
+        "weight": 1410
+      },
+      {
+        "hashtag": "dealsforyoudays",
+        "weight": 862
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 30,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 20.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "LUCKMEEY - Pantalones cortos moldeadores sin costuras de talle alto para mujer: control de abdomen, efecto levantamiento de gl\u00fateos, transpirables y reductores, con refuerzo en la entrepierna y ajuste invisible para uso diario.",
+      "Fajita short super c\u00f3moda y zero notable \ud83d\udc83\u2728.",
+      "Fajita moldeadora s\u00faper c\u00f3moda de usar \ud83d\udc81\ud83c\udffc\u200d\u2640\ufe0f\u2764\ufe0f TALLA M."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.9,
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      1,
+      5
+    ]
+  }
 }

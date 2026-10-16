@@ -3,7 +3,7 @@
   "product_id": "1732322374685462794",
   "title": "Women's Solid Color Sleeveless Waist-Cinching Top & Slim Fit Shorts Set, Chic Stylish Hollow Out Design, Perfect for Outings and Dates, Womenswear",
   "clean_title": "Women's Solid Color Sleeveless Waist-Cinching Top",
-  "image_url": "/img/product_1732322374685462794.webp",
+  "image_url": "https://s.500fd.com/tt_product/77f60c723c5e4bbba153d6eca9cb5720~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732322374685462794",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Solid%20Color%20Sleeveless%20Waist-Cinching%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732322374685462794",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7664746670944472333",
+      "cover_url": "https://s.500fd.com/tt_video/ocQNeqcE3Bq94gRqj2QA6FEDapDlYXFnhfYRpS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7664746670944472333",
+      "creator_handle": "emma.casteel",
+      "play_count": 2200000,
+      "window_gmv": 6623.68,
+      "window_units_sold": 987,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7669498131188321549",
+      "cover_url": "https://s.500fd.com/tt_video/oMIGQAUAIGYAgfLApz2AgDhe6f8GJ5RvfQOb0d~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lnysie/video/7669498131188321549",
+      "creator_handle": "lnysie",
+      "play_count": 598200,
+      "window_gmv": 5351.95,
+      "window_units_sold": 536,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7669866206270115102",
+      "cover_url": "https://s.500fd.com/tt_video/oMhUKWJGUMpDwQRrrAAeARXeI88faeQQ7ZQA1A~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lnysie/video/7669866206270115102",
+      "creator_handle": "lnysie",
+      "play_count": 1200000,
+      "window_gmv": 4165.92,
+      "window_units_sold": 479,
+      "is_ad": false,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7664766991680556318",
+      "cover_url": "https://s.500fd.com/tt_video/oIGvGeolIIHqQQulfFUALC7eQGjXAhXIqIslpN~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emily..easton/video/7664766991680556318",
+      "creator_handle": "emily..easton",
+      "play_count": 1336940,
+      "window_gmv": 2529.56,
+      "window_units_sold": 450,
+      "is_ad": false,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7681408203598368031",
+      "cover_url": "https://s.500fd.com/tt_video/o4ElZVeI5C6HjAjt4tIA6FEIf2DyFMBqpfDhBq~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ariattfinds/video/7681408203598368031",
+      "creator_handle": "ariattfinds",
+      "play_count": 584900,
+      "window_gmv": 7793.64,
+      "window_units_sold": 381,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7668017890100088077",
+      "cover_url": "https://s.500fd.com/tt_video/oI2R1aE1lmKn5qScEXUdRWgQDfAIFDEwJBfqkQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7668017890100088077",
+      "creator_handle": "emma.casteel",
+      "play_count": 706300,
+      "window_gmv": 3192.07,
+      "window_units_sold": 328,
+      "is_ad": false,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "goingoutoutfit",
+        "weight": 2241
+      },
+      {
+        "hashtag": "womensfashion",
+        "weight": 1860
+      },
+      {
+        "hashtag": "womenclothing",
+        "weight": 1860
+      },
+      {
+        "hashtag": "concertoutfit",
+        "weight": 1619
+      },
+      {
+        "hashtag": "summerclothes",
+        "weight": 987
+      },
+      {
+        "hashtag": "affordablefashion",
+        "weight": 569
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 381
+      },
+      {
+        "hashtag": "2pieceset",
+        "weight": 304
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 11,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 10.0
+    },
+    "best_posting_hour": {
+      "hour_start": 16,
+      "hour_end": 18
+    },
+    "top_hooks": [
+      "the perfect outfit for your next concert/going out!",
+      "this whole outfit is on sale right now!",
+      "the boots have free shipping\ud83e\udd2d\ud83d\udda4"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 16,
+    "hour_end": 18,
+    "best_weekdays": [
+      6,
+      0
+    ]
+  }
 }

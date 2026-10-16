@@ -136,10 +136,34 @@ seasonality_extra: # added 2026-10-15
   boosted_category_multiplier: 1.3 # extra lift for a season's boosted_categories (e.g. Black Friday)
 
 credits: # section 9
-  hard_cap_per_run: 75 # lowered 2026-10-15 (was 90) for the ~60/run target through the Nov 15 reset
+  hard_cap_per_run: 75 # absolute ceiling regardless of the dynamic budget below -- a last-resort guard
   skip_optional_stages_below_balance: 150
   digest_warn_month_projection_above: 400
   daily_series_refetch_min_days: 6
+  # --budget is no longer a fixed number when not passed explicitly on the
+  # CLI -- engine.run.main() computes it via engine.budget.dynamic_weekly_
+  # budget from the REAL current balance (a free check, plan + never-
+  # expiring top-up credits combined), this reset date, and one flat
+  # safety floor, splitting what's left across the Mondays remaining.
+  # Matches worker/wrangler.toml's CREDIT_RESET_DATE (keep both in sync).
+  reset_date: "2026-11-15"
+  # Simplified 2026-10-16 after the 2,000-credit top-up: one flat floor
+  # (instead of two itemized per-purpose reserves) big enough to cover
+  # Buscar cuenta searches and 7b's monthly live-timing pull together, so
+  # Monday's run is never blocked regardless of what else drew on the
+  # balance that week.
+  safety_floor_credits: 300
+
+enrichment: # Part 1c of the 2026-10-15 creator-workflow upgrade
+  # Tiered so a real month's budget covers videos/hashtags for more than
+  # just SHORTLIST_SIZE=12 products (only 29 of 250 ever had videos under
+  # the old flat scheme): the top trend_tier_size get BOTH sales_trend
+  # (2cr) and product_video_list (1cr); the wider video_tier_size get only
+  # product_video_list. Both skip the paid call entirely when
+  # find_recent_snapshot finds one from the last video_cache_max_weeks.
+  trend_tier_size: 15
+  video_tier_size: 30
+  video_cache_max_weeks: 4
 
 formula_ganadora: # Part B of the 2026-10-15 creator-workflow upgrade
   # Her real length_sweet_spot (web/public/data/insights.json): 13-20s and

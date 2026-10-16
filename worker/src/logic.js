@@ -49,18 +49,19 @@ export function creditGuardOk(balanceAfterSpend, perRunFloor, mondaysLeft) {
 }
 
 /**
- * Search-count limits, tightened until the Nov 15 credit reset (added
- * 2026-10-15, same day as the ~45-credit mistake that prompted the other
- * safeguards): only 2 searches/month until the balance resets, then back
- * to the normal 3/day + 15/month. The per-run credit-floor guard
- * (creditGuardOk) stays on regardless of which phase this is -- this limit
- * is an extra, simpler cap on top of it, not a replacement for it.
+ * Search-count limits. Tightened to 2/month right after the 2026-10-15
+ * typo mistake while credits were scarce; raised to 5/day + 40/month on
+ * 2026-10-16 once the 2,000-credit top-up made credits no longer the
+ * binding constraint -- `now`/`resetDate` are kept as parameters (not
+ * dropped) so a future tightening doesn't need to change the call site
+ * again. The per-run credit-floor guard (creditGuardOk) stays on
+ * regardless -- this limit is an extra, simpler cap on top of it, not a
+ * replacement for it.
  */
 export function searchLimitsFor(now, resetDate) {
-  if (now < resetDate) {
-    return { daily: 3, monthly: 2 };
-  }
-  return { daily: 3, monthly: 15 };
+  void now;
+  void resetDate;
+  return { daily: 5, monthly: 40 };
 }
 
 /**

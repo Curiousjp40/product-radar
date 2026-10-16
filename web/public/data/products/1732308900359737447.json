@@ -3,7 +3,7 @@
   "product_id": "1732308900359737447",
   "title": "UV Resistant Fade-Resistant Colorful Fall Artificial Flower Bouquet (6/12/24/48-Piece Set) - Hanging Window Outdoor Halloween Decorations, Home Goods for House Decor & Decorating for Halloween",
   "clean_title": "UV Resistant Fade-Resistant Colorful Fall Artificial",
-  "image_url": "/img/product_1732308900359737447.webp",
+  "image_url": "https://s.500fd.com/tt_product/a085f0eaa3674518be6e6bf5b28de5c3~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732308900359737447",
   "tiktok_search_url": "https://www.tiktok.com/search?q=UV%20Resistant%20Fade-Resistant%20Colorful%20Fall%20Artificial",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732308900359737447",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7670708275503041806",
+      "cover_url": "https://s.500fd.com/tt_video/okft19cScBDFecrIDI1i8mAnuLRgKqWbDERzE5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@t.raethecurator/video/7670708275503041806",
+      "creator_handle": "t.raethecurator",
+      "play_count": 870,
+      "window_gmv": 13230.39,
+      "window_units_sold": 1540,
+      "is_ad": true,
+      "duration_seconds": 67
+    },
+    {
+      "video_id": "7670927391782456589",
+      "cover_url": "https://s.500fd.com/tt_video/okJqBp5LENeFSzNAygYQdEsFRuBgDDJ2EfMQGS~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@t.raethecurator/video/7670927391782456589",
+      "creator_handle": "t.raethecurator",
+      "play_count": 1138,
+      "window_gmv": 12384.56,
+      "window_units_sold": 1443,
+      "is_ad": true,
+      "duration_seconds": 12
+    },
+    {
+      "video_id": "7672137759540251918",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@t.raethecurator/video/7672137759540251918",
+      "creator_handle": "t.raethecurator",
+      "play_count": 467,
+      "window_gmv": 10645.36,
+      "window_units_sold": 1247,
+      "is_ad": true,
+      "duration_seconds": 22
+    },
+    {
+      "video_id": "7665682353775185166",
+      "cover_url": "https://s.500fd.com/tt_video/o8cmQeLKjjIBxLUDOIGAQOhsGSpAeFbRwfIceW~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@giccer6/video/7665682353775185166",
+      "creator_handle": "giccer6",
+      "play_count": 884800,
+      "window_gmv": 9228.36,
+      "window_units_sold": 1012,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7665313152791285006",
+      "cover_url": "https://s.500fd.com/tt_video/oA4ABqIa2EEgmIigtL3BpPMFsFiUwBo8CAU7c~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@giccer6/video/7665313152791285006",
+      "creator_handle": "giccer6",
+      "play_count": 1116660,
+      "window_gmv": 9580.36,
+      "window_units_sold": 980,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7672573973237943566",
+      "cover_url": "https://s.500fd.com/default/video_default.png",
+      "tiktok_url": "https://www.tiktok.com/@t.raethecurator/video/7672573973237943566",
+      "creator_handle": "t.raethecurator",
+      "play_count": 190,
+      "window_gmv": 6530.66,
+      "window_units_sold": 781,
+      "is_ad": true,
+      "duration_seconds": 45
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "fallflowers",
+        "weight": 3484
+      },
+      {
+        "hashtag": "porchdecor",
+        "weight": 3008
+      },
+      {
+        "hashtag": "artificialflowers",
+        "weight": 2812
+      },
+      {
+        "hashtag": "falldecor",
+        "weight": 2723
+      },
+      {
+        "hashtag": "autumndecor",
+        "weight": 2259
+      },
+      {
+        "hashtag": "cozyvibes",
+        "weight": 2028
+      },
+      {
+        "hashtag": "dealsforyoudays",
+        "weight": 1960
+      },
+      {
+        "hashtag": "fall",
+        "weight": 1917
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 24,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 20,
+      "hour_end": 22
+    },
+    "top_hooks": [
+      "The secret to full fall planters without trying to keep anything alive.",
+      "Pretty fall planters without the watering, wilting, or trying to keep anything alive.",
+      "All the fall curb appeal without remembering to water a single thing."
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      6,
+      3
+    ]
+  }
 }

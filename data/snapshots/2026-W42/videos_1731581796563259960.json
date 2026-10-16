@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731581796563259960",
+  "time_range_days": 90,
+  "total": 1473,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "shoppin4ux2",
+        "creator_uid": "7640825841379738637"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 14,
+        "play_count": 15000,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 30002.32,
+        "window_units_sold": 541
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673338602629238046",
+      "video_meta": {
+        "caption_text": "Great deal on Project Cloud Women's Genuine Leather Platform Clogs ",
+        "cover_url": "https://s.500fd.com/tt_video/oQOlI9IK3iBRsNA2B1ALr0wnExiBMGFAAaAPE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 7,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673338602629238046",
+        "published_at": 1786608000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shoppin4ux2/video/7673338602629238046"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 84,
+        "play_count": 21218,
+        "share_count": 15
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 10820.8,
+        "window_units_sold": 194
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688442030959201550",
+      "video_meta": {
+        "caption_text": "@Project Cloud #projectcloud #platformclogs #clogs #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/oceRHIeGkgTQjbVIuVegLZDaLCaATIpULjrxgA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688442030959201550",
+        "published_at": 1790104937,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7688442030959201550"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jackiebentley",
+        "creator_uid": "6790060352911721477"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 394,
+        "play_count": 136100,
+        "share_count": 82
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 9704.3,
+        "window_units_sold": 176
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7665893678308658445",
+      "video_meta": {
+        "caption_text": "Clogs are the best fall shoes because they are so easy to style with angering and @Project Cloud Shoes has the cutest and comfiest ones!",
+        "cover_url": "https://s.500fd.com/tt_video/oIWxKc54GbgIBiq5DmshEPPikuMBBjaAAiAEA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 41,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665893678308658445",
+        "published_at": 1784938500,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jackiebentley/video/7665893678308658445"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "heather_and_zep",
+        "creator_uid": "6829856896578290694"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 15,
+        "play_count": 7029,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 9230.14,
+        "window_units_sold": 165
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676598017872432398",
+      "video_meta": {
+        "caption_text": "#projectcloud #womensshoes #fallfashiontrends #fallshoes #sliponshoes @Project Cloud ",
+        "cover_url": "https://s.500fd.com/tt_video/oYPIqKBEftR7KQoQrBFqAwCDgqSRmDgVfMiEps~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 43,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676598017872432398",
+        "published_at": 1787347288,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@heather_and_zep/video/7676598017872432398"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 71,
+        "like_count": 4439,
+        "play_count": 636700,
+        "share_count": 489
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 9255.05,
+        "window_units_sold": 148
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7684373792537251086",
+      "video_meta": {
+        "caption_text": "@Project Cloud #projectcloud ",
+        "cover_url": "https://s.500fd.com/tt_video/owCRPvkUEgPYyi9Bm4FEFAaipraq8uIhnVvDB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7684373792537251086",
+        "published_at": 1789157721,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7684373792537251086"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emma.ry",
+        "creator_uid": "6565794388869087238"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 8,
+        "play_count": 952,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 8126.33,
+        "window_units_sold": 146
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675134652541193486",
+      "video_meta": {
+        "caption_text": "What footwear do you wear to work?! Clogs/slip-on shoes are a go-to for my healthcare job!! @Project Cloud #projectcloud #projectcloudshoes #platformclogs #platformshoes #tiktokshopbacktoschool ",
+        "cover_url": "https://s.500fd.com/tt_video/okjxOlACvBwOA7ErADiaqvBAigoUBmakIROE4~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 53,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675134652541193486",
+        "published_at": 1787006571,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emma.ry/video/7675134652541193486"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 626,
+        "play_count": 124800,
+        "share_count": 60
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 7583.77,
+        "window_units_sold": 129
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682472551913770253",
+      "video_meta": {
+        "caption_text": "@Project Cloud #projectcloud #platformclogs #clogs ",
+        "cover_url": "https://s.500fd.com/tt_video/oofHHL8MkBofj5VIAgTppOVz2CLACQseW60jAA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 17,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682472551913770253",
+        "published_at": 1788715052,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7682472551913770253"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 222,
+        "play_count": 86200,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 7506.53,
+        "window_units_sold": 126
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692586252205378829",
+      "video_meta": {
+        "caption_text": "These are the black mono @Project Cloud #projectcloud #clogs #affordableshoes #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/o8RDjVyCgeXIIHT4HAgYXbkerXXAfLgGPDkCgx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692586252205378829",
+        "published_at": 1791069832,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7692586252205378829"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 71,
+        "play_count": 22700,
+        "share_count": 13
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 7146.48,
+        "window_units_sold": 106
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690280739925019918",
+      "video_meta": {
+        "caption_text": "@Project Cloud #projectcloud #clogs #platformclogs #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/oAVqB573EqaFN2XAMg4IuYSeR19KDDFxEf3QUS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690280739925019918",
+        "published_at": 1790533038,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7690280739925019918"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sophmademebuyit",
+        "creator_uid": "7520310673173316621"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 1606,
+        "play_count": 337100,
+        "share_count": 242
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7496277027852552760",
+        "window_gmv": 5850.7,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686323691768106254",
+      "video_meta": {
+        "caption_text": "@Project Cloud #projectcloud #clogs #platformclogs #tiktokshopstockup ",
+        "cover_url": "https://s.500fd.com/tt_video/okDWVS9KQBqqPQEOZfRnED3Dftx20gVDQiAvFq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 19,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686323691768106254",
+        "published_at": 1789611714,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sophmademebuyit/video/7686323691768106254"
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729619419885441051",
+  "time_range_days": 90,
+  "total": 2366,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "lizbaileyloves",
+        "creator_uid": "7471253787433976878"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 6,
+        "play_count": 888,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 52052.45,
+        "window_units_sold": 2253
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7676173340465302814",
+      "video_meta": {
+        "caption_text": "keep feet warm but not too warm \ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e\ud83e\udd0e @EverFoamsSlippers ",
+        "cover_url": "https://s.500fd.com/tt_video/oUAgAQkAj46QVAf8cAADIng0saBMIEXDqLKIfe~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7676173340465302814",
+        "published_at": 1787248387,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lizbaileyloves/video/7676173340465302814"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "find.it.here21",
+        "creator_uid": "7317010238636065835"
+      },
+      "engagement_metrics": {
+        "comment_count": 1046,
+        "like_count": 60000,
+        "play_count": 8800000,
+        "share_count": 12600
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 17256.98,
+        "window_units_sold": 730
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680375982976503053",
+      "video_meta": {
+        "caption_text": "#sohochic #everfoams #slippers ",
+        "cover_url": "https://s.500fd.com/tt_video/okeVfMjEIFGLWsqIaWLqnIAqHOAkQAEbFeAkoA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680375982976503053",
+        "published_at": 1788260460,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@find.it.here21/video/7680375982976503053"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "0nly1mssperfectt",
+        "creator_uid": "6935867650178548741"
+      },
+      "engagement_metrics": {
+        "comment_count": 122,
+        "like_count": 43158,
+        "play_count": 185664,
+        "share_count": 760
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 11183.51,
+        "window_units_sold": 475
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677307523023506718",
+      "video_meta": {
+        "caption_text": "#mssperfectt i couldn\u2019t even hear the sound fr\ud83d\ude2d",
+        "cover_url": "https://s.500fd.com/tt_video/oY68oRiAlI1miBqA4a33CI8LVAPWaYGvPMiRt~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677307523023506718",
+        "published_at": 1787512469,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@0nly1mssperfectt/video/7677307523023506718"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kalilashops",
+        "creator_uid": "7405634174982734894"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 2615,
+        "play_count": 430200,
+        "share_count": 379
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 9669.65,
+        "window_units_sold": 418
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7664821419326311693",
+      "video_meta": {
+        "caption_text": "Memory foam slippers #houseslippers #memoryfoam #plantarfasciitis #tiktokshopsummersale #tiktokshopcreatorpicks @EverFoams-US ",
+        "cover_url": "https://s.500fd.com/tt_video/o46G4JkGUC6uSknLIUkdWAQBIHyeevBAejQpqn~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 28,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664821419326311693",
+        "published_at": 1784605323,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kalilashops/video/7664821419326311693"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cassriverdeals",
+        "creator_uid": "7616528842807264270"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 6,
+        "play_count": 538,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 8636.43,
+        "window_units_sold": 371
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666119424834915615",
+      "video_meta": {
+        "caption_text": "Get this deal while you can! Best cruise shoes I\u2019ve ever had!#summerslipper #slippershoes #sliponshoes ",
+        "cover_url": "https://s.500fd.com/tt_video/osx4ABYzIAVeW0EEyEhiFmQuHIJRAUiPqjBW2f~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666119424834915615",
+        "published_at": 1784907534,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cassriverdeals/video/7666119424834915615"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "find.it.here21",
+        "creator_uid": "7317010238636065835"
+      },
+      "engagement_metrics": {
+        "comment_count": 215,
+        "like_count": 5479,
+        "play_count": 1300000,
+        "share_count": 1182
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 8444.99,
+        "window_units_sold": 361
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683098277759225101",
+      "video_meta": {
+        "caption_text": "#everfoams #slippers ",
+        "cover_url": "https://s.500fd.com/tt_video/okSUA2efcuEAmi2AIUgYeT4eQA7pATHUcQf7EN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 22,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683098277759225101",
+        "published_at": 1788865260,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@find.it.here21/video/7683098277759225101"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "cassriverdeals",
+        "creator_uid": "7616528842807264270"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 4,
+        "play_count": 403,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 8127.13,
+        "window_units_sold": 348
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7666112719426260255",
+      "video_meta": {
+        "caption_text": "The best house shoes, get the mail shoes, all around comfy summer sandal slippers ever! #houseshoes #slippershoes #summerslipper ",
+        "cover_url": "https://s.500fd.com/default/video_default.png",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666112719426260255",
+        "published_at": 1784905971,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@cassriverdeals/video/7666112719426260255"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "stacymalcolm2",
+        "creator_uid": "7191157670749422635"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 16,
+        "play_count": 6063,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 8056.06,
+        "window_units_sold": 343
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672430015941709087",
+      "video_meta": {
+        "caption_text": "@EverFoamsSlippers cozy but not hot \ud83d\udc95 #tiktokshopsummersale #tiktokshoplaborday #tiktokbacktoschool #slippersandals #womensslippers ",
+        "cover_url": "https://s.500fd.com/tt_video/o4E5IBQ4G8T5AUGpfLxVefOpSSAR7I9AUseoFS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672430015941709087",
+        "published_at": 1786376838,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@stacymalcolm2/video/7672430015941709087"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "teaandtruecrimewithbella",
+        "creator_uid": "7168881415739065386"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 51,
+        "play_count": 15452,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 6905.12,
+        "window_units_sold": 283
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685584276724731149",
+      "video_meta": {
+        "caption_text": "Every woman needs a good pair of slippers!!  #fallweather #tiktokshopbacktoschool #creatorsearchinsights #tiktokshopcreatorpicks ",
+        "cover_url": "https://s.500fd.com/tt_video/o09l4CkiaPTEABqpANuj1AIPo1qAEgimBri9j~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685584276724731149",
+        "published_at": 1789439543,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@teaandtruecrimewithbella/video/7685584276724731149"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "be_your_self.1988",
+        "creator_uid": "7373131003978417195"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 127,
+        "play_count": 2261,
+        "share_count": 2
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495893902978549787",
+        "window_gmv": 6238.38,
+        "window_units_sold": 277
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670271419061751054",
+      "video_meta": {
+        "caption_text": "#plussizefashion #widefeet #slippers #widefeetfriendly #plussize ",
+        "cover_url": "https://s.500fd.com/tt_video/o0ClvkIwp7AiriSR9NIx6OfipLBuBA1I8B11ny~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 52,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670271419061751054",
+        "published_at": 1785874257,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@be_your_self.1988/video/7670271419061751054"
+      }
+    }
+  ]
+}

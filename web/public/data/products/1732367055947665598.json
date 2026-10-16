@@ -3,7 +3,7 @@
   "product_id": "1732367055947665598",
   "title": "1:72 F-18 Fighter Jet Plastic Model Kit, DIY Collectible Model, DIY Building Model, Realistic Aircraft Replica, Open Cockpit, Landing Gear, Display Base, Perfect for Aviation Enthusiasts",
   "clean_title": "1:72 F-18 Fighter Jet Plastic Model",
-  "image_url": "/img/product_1732367055947665598.webp",
+  "image_url": "https://s.500fd.com/tt_product/073e964fa06246e6b9ebe3ca7c7adaa7~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732367055947665598",
   "tiktok_search_url": "https://www.tiktok.com/search?q=1%3A72%20F-18%20Fighter%20Jet%20Plastic%20Model",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732367055947665598",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7672959326910237965",
+      "cover_url": "https://s.500fd.com/tt_video/d7e9bdfbe86d4d97810cf7d8d8c6c3fd~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@pickrush0/video/7672959326910237965",
+      "creator_handle": "pickrush0",
+      "play_count": 47700,
+      "window_gmv": 324.46,
+      "window_units_sold": 46,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7682987381460569358",
+      "cover_url": "https://s.500fd.com/tt_video/oMcEjSxYQukfk6nCu9rDfHI9TBHFCGqATqfqQV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@skylarsketch3/video/7682987381460569358",
+      "creator_handle": "skylarsketch3",
+      "play_count": 2028,
+      "window_gmv": 219.66,
+      "window_units_sold": 32,
+      "is_ad": false,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7673029934897745165",
+      "cover_url": "https://s.500fd.com/tt_video/o8FmYCSUeP8JOgGCEea9p72FIr7fIjgLfU4AID~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@skylarsketch3/video/7673029934897745165",
+      "creator_handle": "skylarsketch3",
+      "play_count": 9957,
+      "window_gmv": 186.2,
+      "window_units_sold": 25,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7692078730235088141",
+      "cover_url": "https://s.500fd.com/tt_video/oM3wPKUCqlOm1eefFVXQADMDRfAGk9EQQT83I4~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@jackeeviral74/video/7692078730235088141",
+      "creator_handle": "jackeeviral74",
+      "play_count": 1277,
+      "window_gmv": 136.1,
+      "window_units_sold": 20,
+      "is_ad": true,
+      "duration_seconds": 86
+    },
+    {
+      "video_id": "7688189766885575950",
+      "cover_url": "https://s.500fd.com/tt_video/oEhZODfIarF9OUuffMzj4IVf3ljoYNB6EQMFBD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@julietjourney4/video/7688189766885575950",
+      "creator_handle": "julietjourney4",
+      "play_count": 55600,
+      "window_gmv": 96.66,
+      "window_units_sold": 12,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7694401671216123150",
+      "cover_url": "https://s.500fd.com/tt_video/o8A7lFUEEQmIguyCAQfC8NHARgKKqDS5DCf1Bt~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@bear_necessitie/video/7694401671216123150",
+      "creator_handle": "bear_necessitie",
+      "play_count": 45700,
+      "window_gmv": 81.6,
+      "window_units_sold": 12,
+      "is_ad": true,
+      "duration_seconds": 21
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "f18modelkit",
+        "weight": 71
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 71
+      },
+      {
+        "hashtag": "diycollectibles",
+        "weight": 58
+      },
+      {
+        "hashtag": "scalemodel",
+        "weight": 57
+      },
+      {
+        "hashtag": "tiktokmademebuyit",
+        "weight": 57
+      },
+      {
+        "hashtag": "deskdecor",
+        "weight": 57
+      },
+      {
+        "hashtag": "aviationenthusiast",
+        "weight": 56
+      },
+      {
+        "hashtag": "aviationhacks",
+        "weight": 46
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 15,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 80.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "STOP SCROLLING \ud83d\udee9\ufe0f This 1:72 F18 model kit is *chef's kiss* \u2708\ufe0f Open cockpit, landing gear & realistic details?",
+      "Level up your desk setup with this realistic F18 replica!",
+      "Such A Cool Gift Idea For Jet Lovers!"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      1,
+      0
+    ]
+  }
 }

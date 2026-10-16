@@ -3,7 +3,7 @@
   "product_id": "1729486422636729753",
   "title": "Hidden Book Safe Dictionary Secret Storage Box with Combination Lock for Cash Jewelry Valuables Home Office  Money Box Vault Safe Box Safe Deposit Box Decor Metal Lightweight Safety Ornaments fathersdaygift Travel Portable Safe",
   "clean_title": "Hidden Book Safe Dictionary Secret Storage",
-  "image_url": "/img/product_1729486422636729753.webp",
+  "image_url": "https://s.500fd.com/tt_product/b9fef630dba84940b1c4f640a4497e4a~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "home_decor",
   "category_label_es": "Decoraci\u00f3n",
   "category_label_en": "Home Decor",
@@ -39,7 +39,7 @@
   "videos": [
     {
       "video_id": "7693116392169688334",
-      "cover_url": "/img/video_7693116392169688334.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ooTQEkGUFGAgWfALArLVHrVADEfA8EXhI7eBDI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@es1_chuangpinda001/video/7693116392169688334",
       "creator_handle": "es1_chuangpinda001",
       "play_count": 1200000,
@@ -50,7 +50,7 @@
     },
     {
       "video_id": "7672664931271052574",
-      "cover_url": "/img/video_7672664931271052574.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ocAml6aBi3JxwsAoAAvArnREDYHPBni7lAI70~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@safe.box96/video/7672664931271052574",
       "creator_handle": "safe.box96",
       "play_count": 1200000,
@@ -61,7 +61,7 @@
     },
     {
       "video_id": "7676397641122549023",
-      "cover_url": "/img/video_7676397641122549023.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/oICiVEeIBs3kACCGAifTA2AAmiXFAqECi9VVkI~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@safe.box96/video/7676397641122549023",
       "creator_handle": "safe.box96",
       "play_count": 1600000,
@@ -72,7 +72,7 @@
     },
     {
       "video_id": "7676400799240523039",
-      "cover_url": "/img/video_7676400799240523039.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/okC8ADeipFCAcCAAEqED2Of0IAa5AzuvEVImgV~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@safe.box96/video/7676400799240523039",
       "creator_handle": "safe.box96",
       "play_count": 286700,
@@ -83,7 +83,7 @@
     },
     {
       "video_id": "7691241431175925005",
-      "cover_url": "/img/video_7691241431175925005.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/okD5AE3AsIxeeFAJEI7fCfhZ3KApJWA68qEYAO~tplv-photomode-zoomcover:480:480.jpeg",
       "tiktok_url": "https://www.tiktok.com/@es1_chuangpinda001/video/7691241431175925005",
       "creator_handle": "es1_chuangpinda001",
       "play_count": 367900,
@@ -94,7 +94,7 @@
     },
     {
       "video_id": "7679022340591717646",
-      "cover_url": "/img/video_7679022340591717646.jpg",
+      "cover_url": "https://s.500fd.com/tt_video/ogqVCRCBEejFYqXAlAiIIjWOjhe9DHQ8IfjIAk~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
       "tiktok_url": "https://www.tiktok.com/@sz2_chuangpinda002/video/7679022340591717646",
       "creator_handle": "sz2_chuangpinda002",
       "play_count": 389900,
@@ -162,5 +162,16 @@
     "reason_en": "Sales are climbing and few creators are selling it yet."
   },
   "spanish_share": 0.3333333333333333,
-  "pocas_creadoras_latinas": false
+  "pocas_creadoras_latinas": false,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 6,
+    "used_organic_only": false,
+    "hour_start": 20,
+    "hour_end": 22,
+    "best_weekdays": [
+      0,
+      1
+    ]
+  }
 }

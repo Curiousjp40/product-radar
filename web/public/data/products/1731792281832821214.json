@@ -3,7 +3,7 @@
   "product_id": "1731792281832821214",
   "title": "FDR Big Hood Eases Social Anxiety Hoodie for Men & Women High Neck Zip-up Sweatshirt Essentials Minimalist Heavyweight Hoodies Casual Longsleeves Top Embroidered Unisex Vintage Pullover Perfect for Daily Wear,Sports,  Activewear, S",
   "clean_title": "FDR Big Hood Eases Social Anxiety",
-  "image_url": "/img/product_1731792281832821214.webp",
+  "image_url": "https://s.500fd.com/tt_product/5288215fbf51f4be6f07d4103b22a6b2~tplv-fhlh96nyum-crop-webp:800:800.webp",
   "category": "winter_clothing",
   "category_label_es": "Ropa de invierno",
   "category_label_en": "Winter Clothing",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731792281832821214",
   "tiktok_search_url": "https://www.tiktok.com/search?q=FDR%20Big%20Hood%20Eases%20Social%20Anxiety",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731792281832821214",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7684471206367530271",
+      "cover_url": "https://s.500fd.com/tt_video/o8cXVIQuEGGhAIAtQj9ICcOJQqLejSeIoVQBeI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@itsalexabain/video/7684471206367530271",
+      "creator_handle": "itsalexabain",
+      "play_count": 3400000,
+      "window_gmv": 17772.76,
+      "window_units_sold": 384,
+      "is_ad": true,
+      "duration_seconds": 7
+    },
+    {
+      "video_id": "7665566370192575775",
+      "cover_url": "https://s.500fd.com/tt_video/oYecIbeGqQerjdUIOIVmLwyxDCCAjIkMLGQXQA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@juliasuselesshauls/video/7665566370192575775",
+      "creator_handle": "juliasuselesshauls",
+      "play_count": 558700,
+      "window_gmv": 15123.25,
+      "window_units_sold": 383,
+      "is_ad": true,
+      "duration_seconds": 18
+    },
+    {
+      "video_id": "7688784615967952158",
+      "cover_url": "https://s.500fd.com/tt_video/oIfnFAqGVEDmrIeLIAABqAE8IIh0earAzjIOCV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@severetrades1/video/7688784615967952158",
+      "creator_handle": "severetrades1",
+      "play_count": 106000,
+      "window_gmv": 13478.01,
+      "window_units_sold": 306,
+      "is_ad": true,
+      "duration_seconds": 27
+    },
+    {
+      "video_id": "7672414675560090893",
+      "cover_url": "https://s.500fd.com/tt_video/o8CWwAIwpWAimiP5hQIExPf3CIBsBA2IMCK1d5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@3xtracreamcheese/video/7672414675560090893",
+      "creator_handle": "3xtracreamcheese",
+      "play_count": 2700000,
+      "window_gmv": 11367.25,
+      "window_units_sold": 288,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7688596194771160333",
+      "cover_url": "https://s.500fd.com/tt_video/o8fGAYYCb1OgEwi0Yx3ikCsBB4A1WIIzD4JAAB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7688596194771160333",
+      "creator_handle": "whatsinlivscart",
+      "play_count": 600429,
+      "window_gmv": 12913.62,
+      "window_units_sold": 287,
+      "is_ad": true,
+      "duration_seconds": 5
+    },
+    {
+      "video_id": "7676627950048988447",
+      "cover_url": "https://s.500fd.com/tt_video/ocIaIo35iPVijDBIA61GREBqbAcqCvu0lIVqV~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7676627950048988447",
+      "creator_handle": "klothesminded",
+      "play_count": 22400,
+      "window_gmv": 11732.65,
+      "window_units_sold": 281,
+      "is_ad": true,
+      "duration_seconds": 36
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 938
+      },
+      {
+        "hashtag": "oversizedsweatshirt",
+        "weight": 657
+      },
+      {
+        "hashtag": "falloutfitinspo",
+        "weight": 657
+      },
+      {
+        "hashtag": "ootd",
+        "weight": 384
+      },
+      {
+        "hashtag": "sosatrades1",
+        "weight": 306
+      },
+      {
+        "hashtag": "worr",
+        "weight": 306
+      },
+      {
+        "hashtag": "fyp",
+        "weight": 306
+      },
+      {
+        "hashtag": "duck",
+        "weight": 306
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 13,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "If it\u2019s not this oversized I don\u2019t want it",
+      "FDR Big Hood Eases Social Anxiety Hoodie for Men & Women High Neck Zip-up Sweatshirt Essentials Minimalist Heavyweight Hoodies Casual Longsleeves Top Embroidered Unisex Vintage Pullover Perfect for Daily Wear,Sports, #",
+      "I\u2019m wearing color \u201choodie washed black\u201d with the embroidery \ud83d\udda4"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 12,
+    "hour_end": 14,
+    "best_weekdays": [
+      3,
+      4
+    ]
+  }
 }

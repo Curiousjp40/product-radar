@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1729786448738422931",
+  "time_range_days": 90,
+  "total": 306,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "vibe_with_stephanie",
+        "creator_uid": "6894813898965648390"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 35,
+        "play_count": 15600,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 15343.2,
+        "window_units_sold": 555
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7668704397546835214",
+      "video_meta": {
+        "caption_text": "Such a versatile fall staple piece! #corduroy #corduroydress #fallstyle #falldress #fallfashiontrends ",
+        "cover_url": "https://s.500fd.com/tt_video/oICQvT2ejUIebkHJCgGZRpLWBCH2AAfITZbVQI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668704397546835214",
+        "published_at": 1785509396,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7668704397546835214"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 118,
+        "like_count": 3166,
+        "play_count": 1182168,
+        "share_count": 512
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 6199.69,
+        "window_units_sold": 211
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685850322501225758",
+      "video_meta": {
+        "caption_text": "#dresses #dress #FallFashion #fashion #womensfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oEAWAfKuBiC1iApCdpioNzEDVBKIOtoAxuIxAA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 58,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685850322501225758",
+        "published_at": 1789516800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7685850322501225758"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "deals.and.daisies",
+        "creator_uid": "7490370121882797102"
+      },
+      "engagement_metrics": {
+        "comment_count": 22,
+        "like_count": 657,
+        "play_count": 40000,
+        "share_count": 27
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 4978.41,
+        "window_units_sold": 180
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687416997814029581",
+      "video_meta": {
+        "caption_text": "I liveeee for fall \ud83c\udf42  Everything\u2019s in the orange cart #fallfashion #falloutfits #plussizefashion #midsizefashion #fallootd ",
+        "cover_url": "https://s.500fd.com/tt_video/oIwiQ4kjCIAmFeGeHLALyXSxQeM0VnICUFIMvA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687416997814029581",
+        "published_at": 1789866270,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7687416997814029581"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 692,
+        "play_count": 313200,
+        "share_count": 115
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 4386.99,
+        "window_units_sold": 157
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686281245273165087",
+      "video_meta": {
+        "caption_text": "#dress #dresses #womensfashion #fashion #FallFashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oYiSPKwqsAAEBCAAoBAtaKEWlB0IkEBRrFi9E~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 65,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686281245273165087",
+        "published_at": 1789605000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7686281245273165087"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "simplistyle_72",
+        "creator_uid": "7151366616469685291"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 11,
+        "play_count": 8780,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 3094.3,
+        "window_units_sold": 105
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7686630263123643679",
+      "video_meta": {
+        "caption_text": "Cute, cute corduroy dress.#corduroy #falloutfits #womensfashion #ladiesfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/ossk6FBRVDqqryEVZAipATYZIfD3ftEEUFITGB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7686630263123643679",
+        "published_at": 1789683081,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@simplistyle_72/video/7686630263123643679"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 260,
+        "play_count": 167700,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 2647.28,
+        "window_units_sold": 96
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7688939966671457567",
+      "video_meta": {
+        "caption_text": "#dress #dresses #fashion #womensfashion #FallFashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oYfwrBG1ELARILEaQAIqAmIAIpT2ejp0VfjCAR~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 54,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688939966671457567",
+        "published_at": 1790297100,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7688939966671457567"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "she_is_she_will",
+        "creator_uid": "7065904628474348590"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 37,
+        "play_count": 20520,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 2315.97,
+        "window_units_sold": 82
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690788747855645982",
+      "video_meta": {
+        "caption_text": "#dresses #dress #fashion #womensfashion #FallFashion ",
+        "cover_url": "https://s.500fd.com/tt_video/okUuxAVDqCVuiKKFEAAyfAIbEEJ2fuLAuRQ2Fx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 53,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690788747855645982",
+        "published_at": 1790685480,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@she_is_she_will/video/7690788747855645982"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbaybay27",
+        "creator_uid": "6754153549096158213"
+      },
+      "engagement_metrics": {
+        "comment_count": 11,
+        "like_count": 122,
+        "play_count": 30700,
+        "share_count": 11
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 2294.46,
+        "window_units_sold": 81
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679643164478590222",
+      "video_meta": {
+        "caption_text": "the best quality and such a vibeee \ud83e\udd0e\u2728",
+        "cover_url": "https://s.500fd.com/tt_video/oYOBpBAEaMi5LI3tEogmpbVraTIvF4StOkiUI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679643164478590222",
+        "published_at": 1788056279,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbaybay27/video/7679643164478590222"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shelbaybay27",
+        "creator_uid": "6754153549096158213"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 169,
+        "play_count": 37100,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 2234.14,
+        "window_units_sold": 79
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677747648350260493",
+      "video_meta": {
+        "caption_text": "I neeeed a 70 degree day PLSSSS",
+        "cover_url": "https://s.500fd.com/tt_video/ooj0iHvMA4qQfNdVQakLI1RGQCleBwfZbAGrIy~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677747648350260493",
+        "published_at": 1787614957,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shelbaybay27/video/7677747648350260493"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "vibe_with_stephanie",
+        "creator_uid": "6894813898965648390"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 0,
+        "play_count": 847,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495478086912805011",
+        "window_gmv": 1751.37,
+        "window_units_sold": 63
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666929329791716621",
+      "video_meta": {
+        "caption_text": "Overall dress \ud83c\udf42 #overalldress #corduroy #corduroydress #falldresses #falldress ",
+        "cover_url": "https://s.500fd.com/tt_video/ocA2EiB6Bm4xBZBgnkqam2EAAsRZBuG1AIiv7~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666929329791716621",
+        "published_at": 1785096123,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@vibe_with_stephanie/video/7666929329791716621"
+      }
+    }
+  ]
+}

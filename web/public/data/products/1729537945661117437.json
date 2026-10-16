@@ -3,7 +3,7 @@
   "product_id": "1729537945661117437",
   "title": "BTFBM 2-Piece Ribbed Knit Long Sleeve Crop Top Wide Leg Pants Matching Lounge Set Loungewear",
   "clean_title": "BTFBM 2-Piece Ribbed Knit Long Sleeve",
-  "image_url": "/img/product_1729537945661117437.jpg",
+  "image_url": "https://s.500fd.com/tt_product/c107c77f39a749c2bc9560b44946a6c4~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729537945661117437",
   "tiktok_search_url": "https://www.tiktok.com/search?q=BTFBM%202-Piece%20Ribbed%20Knit%20Long%20Sleeve",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729537945661117437",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7681557580405017869",
+      "cover_url": "https://s.500fd.com/tt_video/os0UULEjkGVEN0IAwAACAoD2Iee1AWHIGeQAMA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7681557580405017869",
+      "creator_handle": "macwatfit",
+      "play_count": 593200,
+      "window_gmv": 11162.62,
+      "window_units_sold": 343,
+      "is_ad": true,
+      "duration_seconds": 14
+    },
+    {
+      "video_id": "7671080416291474702",
+      "cover_url": "https://s.500fd.com/tt_video/oMSqB1UsEDwFT5JAPgZQdK8eRcxYDDGkEf0QES~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@makaylajaime/video/7671080416291474702",
+      "creator_handle": "makaylajaime",
+      "play_count": 2272,
+      "window_gmv": 9885.54,
+      "window_units_sold": 297,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7672279672171842846",
+      "cover_url": "https://s.500fd.com/tt_video/oQqfWFnfA6rjLDv6Q60IMyMEr9EIeUbqAHCyQa~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@lizzmi45/video/7672279672171842846",
+      "creator_handle": "lizzmi45",
+      "play_count": 486400,
+      "window_gmv": 8855.5,
+      "window_units_sold": 271,
+      "is_ad": true,
+      "duration_seconds": 17
+    },
+    {
+      "video_id": "7689175918593559821",
+      "cover_url": "https://s.500fd.com/tt_video/ocIgBbDPwAAi6gAEa0VprBJ1ckiE8NA4YCGWC.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@deals.and.daisies/video/7689175918593559821",
+      "creator_handle": "deals.and.daisies",
+      "play_count": 65700,
+      "window_gmv": 8853.7,
+      "window_units_sold": 267,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7685616294766333198",
+      "cover_url": "https://s.500fd.com/tt_video/oII3jC2iPcLwqogCtkAEEABhByAL4AmbiAiqa~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@macwatfit/video/7685616294766333198",
+      "creator_handle": "macwatfit",
+      "play_count": 740111,
+      "window_gmv": 8439.38,
+      "window_units_sold": 259,
+      "is_ad": true,
+      "duration_seconds": 25
+    },
+    {
+      "video_id": "7670790720919293214",
+      "cover_url": "https://s.500fd.com/tt_video/oI60CrAIiIBAdVFiBLCKBqHfxA9EREAAEk5yfD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@genx.terrica/video/7670790720919293214",
+      "creator_handle": "genx.terrica",
+      "play_count": 1272,
+      "window_gmv": 7970.5,
+      "window_units_sold": 242,
+      "is_ad": true,
+      "duration_seconds": 21
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "loungeset",
+        "weight": 1093
+      },
+      {
+        "hashtag": "2pieceset",
+        "weight": 753
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 700
+      },
+      {
+        "hashtag": "twopieceset",
+        "weight": 526
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 498
+      },
+      {
+        "hashtag": "ribbedset",
+        "weight": 343
+      },
+      {
+        "hashtag": "ribbedknit",
+        "weight": 343
+      },
+      {
+        "hashtag": "ribbedlongsleeve",
+        "weight": 343
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 22,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 14,
+      "hour_end": 16
+    },
+    "top_hooks": [
+      "Comfy ribbed knit lounge set \ud83e\udde1 (this is in the color brown, not brick red!",
+      "The perfect set for fall midsize petite vacation fashion curvy fashion summer fashion",
+      "Perfect fall outfit"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 2,
+    "hour_end": 4,
+    "best_weekdays": [
+      4,
+      0
+    ]
+  }
 }

@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731111392266851038",
+  "time_range_days": 90,
+  "total": 130,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 24,
+        "like_count": 7667,
+        "play_count": 555100,
+        "share_count": 534
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3698.16,
+        "window_units_sold": 104
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685805387060088078",
+      "video_meta": {
+        "caption_text": "day 1 of 30 Halloween costume ideas woooo #halloweencostumeideas #costumeinspo #costumeideas #fairycostume #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/ooZllVwCBqAiv2dA3EAxDpCjBaIWEZ4g2A0ik~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685805387060088078",
+        "published_at": 1789491048,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7685805387060088078"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 53,
+        "like_count": 30100,
+        "play_count": 1813683,
+        "share_count": 1766
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 3706.44,
+        "window_units_sold": 99
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682907926381513998",
+      "video_meta": {
+        "caption_text": "dressing up as a fairy for Halloween is so underrated <3 #fairywings #halloweencostume #whimsicalcostume #fairycostume #halloweencostumeidea ",
+        "cover_url": "https://s.500fd.com/tt_video/o8XgGANVPAe2Hf3AQrmlJjsEke88gXKAI7EAQM~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682907926381513998",
+        "published_at": 1788816414,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7682907926381513998"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 60,
+        "like_count": 16400,
+        "play_count": 1200000,
+        "share_count": 523
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 2718.78,
+        "window_units_sold": 80
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692891178479488270",
+      "video_meta": {
+        "caption_text": "it\u2019s October lock in yall ! #fairywings #costumeideas #halloweencostume #fairycostume ",
+        "cover_url": "https://s.500fd.com/tt_video/okpeFA2dUkRFiIgVehLeHCA9MRHlGIgvjVGEIh~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692891178479488270",
+        "published_at": 1791140830,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7692891178479488270"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 28,
+        "like_count": 22500,
+        "play_count": 1500000,
+        "share_count": 1156
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 2131.26,
+        "window_units_sold": 64
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690079665108667662",
+      "video_meta": {
+        "caption_text": "they just effortlessly slide in to any dress / corset / bra ! ",
+        "cover_url": "https://s.500fd.com/tt_video/osgAk4CgIprimMEBSt7iEq2PSBuAA1iAta4RA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 9,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690079665108667662",
+        "published_at": 1790486230,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7690079665108667662"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sunnyinthesouth",
+        "creator_uid": "6769350816665109509"
+      },
+      "engagement_metrics": {
+        "comment_count": 13,
+        "like_count": 4357,
+        "play_count": 388200,
+        "share_count": 478
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1981.91,
+        "window_units_sold": 61
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669128405362724109",
+      "video_meta": {
+        "caption_text": "Every season is fairy season \ud83e\uddda\u200d\u2640\ufe0f ",
+        "cover_url": "https://s.500fd.com/tt_video/ognuI9nB4vEuLimgUINR4B2AaPEA483DBiUEY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 18,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669128405362724109",
+        "published_at": 1785608126,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sunnyinthesouth/video/7669128405362724109"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "j0slyn",
+        "creator_uid": "18345966"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 616,
+        "play_count": 109000,
+        "share_count": 60
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1792.44,
+        "window_units_sold": 51
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7685530381486918926",
+      "video_meta": {
+        "caption_text": "strapless wings r a GAME CHANGER #costumeideas #fairyprincess #fairycostume #fairywings #halloweencostumeideas ",
+        "cover_url": "https://s.500fd.com/tt_video/o8FEbfPTIcnESkqCRQaDfDQR02AFAAHgAxwqQd~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 31,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7685530381486918926",
+        "published_at": 1789427000,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@j0slyn/video/7685530381486918926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mk_ultracool",
+        "creator_uid": "6747039001432196101"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 852,
+        "play_count": 90500,
+        "share_count": 67
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1509.3,
+        "window_units_sold": 45
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692147021398019359",
+      "video_meta": {
+        "caption_text": "Leg Avenue Strapless Fairy Wings #fairywings #wings #fairycostume #halloweencostume #tiktokshopfalldealsforyou ",
+        "cover_url": "https://s.500fd.com/tt_video/oUQIftMJBXA4AiKfpbQoofimgBfE8N5fV4h3Ak~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692147021398019359",
+        "published_at": 1790967563,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mk_ultracool/video/7692147021398019359"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "sunnyinthesouth",
+        "creator_uid": "6769350816665109509"
+      },
+      "engagement_metrics": {
+        "comment_count": 12,
+        "like_count": 969,
+        "play_count": 158500,
+        "share_count": 119
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1371.09,
+        "window_units_sold": 43
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672575579614366990",
+      "video_meta": {
+        "caption_text": "It\u2019s fairy season all year long \ud83e\uddda ",
+        "cover_url": "https://s.500fd.com/tt_video/owBH3uGWLAIL9d6QAjYeAEfIbFzEIkAeAUOFkI~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 16,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672575579614366990",
+        "published_at": 1786410727,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@sunnyinthesouth/video/7672575579614366990"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "itsjustrhirhi",
+        "creator_uid": "122672391154999296"
+      },
+      "engagement_metrics": {
+        "comment_count": 2,
+        "like_count": 27,
+        "play_count": 6093,
+        "share_count": 8
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1388.45,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680935389724495134",
+      "video_meta": {
+        "caption_text": "These sell super fast! Restocked for 2026 #halloweencostume #halloweencosplay #fairywings ",
+        "cover_url": "https://s.500fd.com/tt_video/oEf1qrImCqBTZYwiZKiS0E7hixuaIAA3BRBquA~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 13,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680935389724495134",
+        "published_at": 1788357143,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@itsjustrhirhi/video/7680935389724495134"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "danisalvadore_",
+        "creator_uid": "7381891476894483502"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 250,
+        "play_count": 8161,
+        "share_count": 10
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495852900930980574",
+        "window_gmv": 1496.72,
+        "window_units_sold": 41
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7678465937766452493",
+      "video_meta": {
+        "caption_text": "These were perfect for my dark fairy outfit last year \ud83e\uddda\u2728\ud83c\udff9 #wings #fairycore #renfaire #tinkerbell #halloweencostume ",
+        "cover_url": "https://s.500fd.com/tt_video/oInPQqWUEuH2AFQCPASEAgDZurAjCnD6EICfRf~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678465937766452493",
+        "published_at": 1787782189,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@danisalvadore_/video/7678465937766452493"
+      }
+    }
+  ]
+}

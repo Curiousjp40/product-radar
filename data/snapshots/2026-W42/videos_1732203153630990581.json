@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732203153630990581",
+  "time_range_days": 90,
+  "total": 747,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "wecharmer_petsofa",
+        "creator_uid": "7431744945181049902"
+      },
+      "engagement_metrics": {
+        "comment_count": 14,
+        "like_count": 1776,
+        "play_count": 859500,
+        "share_count": 954
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 6828.31,
+        "window_units_sold": 263
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7663448285302050079",
+      "video_meta": {
+        "caption_text": "#summerwinsforeveryyou #catsoftiktok #pets #tiktokshopdealsforyoudays #funnypets ",
+        "cover_url": "https://s.500fd.com/tt_video/oYBUC0NEIZ6LsaEAfAjQtIv2jN0VGIGfIecQhq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7663448285302050079",
+        "published_at": 1784388180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7663448285302050079"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "fosterkittytrouble",
+        "creator_uid": "7234727595699029038"
+      },
+      "engagement_metrics": {
+        "comment_count": 33,
+        "like_count": 1873,
+        "play_count": 109300,
+        "share_count": 153
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 2502.63,
+        "window_units_sold": 97
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7670693696240700686",
+      "video_meta": {
+        "caption_text": "my kitties are completely obsessed with this new cat couch I got them (honestly I would too it looks SO comfy and soft) #cats #catlover #cattok #catbed #spoiledcat ",
+        "cover_url": "https://s.500fd.com/tt_video/oItqcBB8EDBi5xxFfEAgIEriPezYmznO1BZRSx~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 40,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7670693696240700686",
+        "published_at": 1785972561,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@fosterkittytrouble/video/7670693696240700686"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wecharmer_petsofa",
+        "creator_uid": "7431744945181049902"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 61,
+        "play_count": 29400,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1912.1,
+        "window_units_sold": 77
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7667138936405314847",
+      "video_meta": {
+        "caption_text": "#summerwinsforeveryyou #pets #tiktokshopdealsforyoudays #funnypets #halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/ogAOOLtRszGKGTdFjexCkAIEAqIeIbeguUwhgI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667138936405314847",
+        "published_at": 1785166140,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7667138936405314847"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lymonline",
+        "creator_uid": "180178340987863041"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 1834,
+        "play_count": 339400,
+        "share_count": 344
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 2448.32,
+        "window_units_sold": 75
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7680945853154086175",
+      "video_meta": {
+        "caption_text": "#petsoftiktok #dogbed #tiktokshopcreatorpicks #petsofa ",
+        "cover_url": "https://s.500fd.com/tt_video/ogElHJIAV8AFFEDMSZRlemf7mODIEBoItD7qhY~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 20,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7680945853154086175",
+        "published_at": 1788359602,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lymonline/video/7680945853154086175"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wecharmer_petsofa",
+        "creator_uid": "7431744945181049902"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 167,
+        "play_count": 92700,
+        "share_count": 73
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1706.79,
+        "window_units_sold": 68
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671250250660580638",
+      "video_meta": {
+        "caption_text": "#summerwinsforeveryyou #tiktokshopdealsforyoudays #catsofa #dealsforyoudays #pets ",
+        "cover_url": "https://s.500fd.com/tt_video/osy1kTDvAAA7AIcBAEitOwKBMfO5xZuiiCBB1I~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671250250660580638",
+        "published_at": 1786290600,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7671250250660580638"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "oceanandjaylatv",
+        "creator_uid": "6929600280762319877"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 245,
+        "play_count": 19000,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 2731.2,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7693325187772665101",
+      "video_meta": {
+        "caption_text": "Go shop this dog couch my dog loves it \ud83d\udda4",
+        "cover_url": "https://s.500fd.com/tt_video/oEBhCfneDDHqFE6EzEELCNIoxBSIPLIgu5Rp4A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 27,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7693325187772665101",
+        "published_at": 1791241867,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@oceanandjaylatv/video/7693325187772665101"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emookitkats",
+        "creator_uid": "182849181382750208"
+      },
+      "engagement_metrics": {
+        "comment_count": 31,
+        "like_count": 1760,
+        "play_count": 12300,
+        "share_count": 12
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1799.92,
+        "window_units_sold": 56
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7689708592382938399",
+      "video_meta": {
+        "caption_text": "This is the most popular piece of cat furniture in my house. Comes in a variety of colors to fit your home! Removable washable cover makes for easy maintenance! ",
+        "cover_url": "https://s.500fd.com/tt_video/oEiqVAL1WAHkiuqAiyo6CIVBKX3fIovAC7vAEB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689708592382938399",
+        "published_at": 1790399830,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emookitkats/video/7689708592382938399"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "wecharmer_petsofa",
+        "creator_uid": "7431744945181049902"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 28,
+        "play_count": 26400,
+        "share_count": 14
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1344.28,
+        "window_units_sold": 54
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666084770748697887",
+      "video_meta": {
+        "caption_text": "#summerwinsforeveryyou #catsoftiktok #pets #tiktokshopdealsforyoudays #funnypets ",
+        "cover_url": "https://s.500fd.com/tt_video/ocpjprAYfAQ6ldFBGDRq14BgZEEVFEest2IQV5~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666084770748697887",
+        "published_at": 1784991180,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@wecharmer_petsofa/video/7666084770748697887"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "gelenasolano",
+        "creator_uid": "6988946897261347846"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 316,
+        "play_count": 4725,
+        "share_count": 6
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1209.79,
+        "window_units_sold": 47
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678183264351276302",
+      "video_meta": {
+        "caption_text": "\u00bfTU PERRITO SE ADUE\u00d1A DE TU SOF\u00c1 PORQUE SU CAMITA NO ES LO SUFICIENTEMENTE C\u00d3MODA? ESTE SOF\u00c1 SUAVE Y ACOLCHADO LE DA SU PROPIO ESPACIO PARA DESCANSAR. Marca: WeCharmer Producto: Fluffy Cloud Pet Sofa Bed #WeCharmer #PetSofaBed #CamaParaPerros #MascotasFelices #TikTokShopFinds @WeCharmer Store ",
+        "cover_url": "https://s.500fd.com/tt_video/o0ixOAUZMkHHrIQVeHLeHCAOeYYFPKQhjoGpI9~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 37,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678183264351276302",
+        "published_at": 1788548400,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@gelenasolano/video/7678183264351276302"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mabeleameliapadil",
+        "creator_uid": "7150467873306215470"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 142,
+        "play_count": 7612,
+        "share_count": 5
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495163560979958005",
+        "window_gmv": 1451.32,
+        "window_units_sold": 46
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7690336048446082317",
+      "video_meta": {
+        "caption_text": "Me encanta \ud83d\ude0a #mascota #mascotas #dog #perros #home ",
+        "cover_url": "https://s.500fd.com/tt_video/oM4zeBA5fAQ5yetfEDGqb9FkHEOIFR4hKjgQps~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 46,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7690336048446082317",
+        "published_at": 1790545901,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mabeleameliapadil/video/7690336048446082317"
+      }
+    }
+  ]
+}

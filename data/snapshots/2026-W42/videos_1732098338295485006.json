@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732098338295485006",
+  "time_range_days": 90,
+  "total": 633,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "makaylajaime",
+        "creator_uid": "7351619786357605418"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 5,
+        "play_count": 1166,
+        "share_count": 0
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 8004.96,
+        "window_units_sold": 866
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7672949137943366926",
+      "video_meta": {
+        "caption_text": "Mostly size xl 200lbs 5ftf#midsizefashion #fallfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oIsDFC5U8IkKTTm3IC3UEfQQkleeUQAkPHEjAM~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672949137943366926",
+        "published_at": 1786497700,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@makaylajaime/video/7672949137943366926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ciara..sanders",
+        "creator_uid": "6814652134378734597"
+      },
+      "engagement_metrics": {
+        "comment_count": 100,
+        "like_count": 116900,
+        "play_count": 4500000,
+        "share_count": 3282
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 7979.49,
+        "window_units_sold": 783
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7666175712545590541",
+      "video_meta": {
+        "caption_text": "and this COLOR teal i\u2019m obsessed #tigerprint #minidress #goingoutdress #sexy #goingoutoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/ooc4OEBBPAugDgxmAapAPEckjAj6iimwI5BjH~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7666175712545590541",
+        "published_at": 1784920638,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ciara..sanders/video/7666175712545590541"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "dj.foof",
+        "creator_uid": "6696886000284615685"
+      },
+      "engagement_metrics": {
+        "comment_count": 8,
+        "like_count": 356,
+        "play_count": 36300,
+        "share_count": 16
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 6345.36,
+        "window_units_sold": 700
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7672243829503839519",
+      "video_meta": {
+        "caption_text": "going out sets >>",
+        "cover_url": "https://s.500fd.com/tt_video/oIeAjEEUTRDAjCA9kLA1FK5IfeqABUIISbEyo8~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 21,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7672243829503839519",
+        "published_at": 1786333492,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7672243829503839519"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "novaa.llynn",
+        "creator_uid": "6962526669953991686"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 264,
+        "play_count": 3594,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 5370.07,
+        "window_units_sold": 674
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678077568708250894",
+      "video_meta": {
+        "caption_text": "love some animal print\ud83d\udc97 #animalprint #cluboutfit #womensclothing #womenclothing #womensclothes ",
+        "cover_url": "https://s.500fd.com/tt_video/osHA0EQAv8MAjbAeXeAbWIOH87kACVIIAzElei~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678077568708250894",
+        "published_at": 1787691764,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@novaa.llynn/video/7678077568708250894"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "_chocolatebabii",
+        "creator_uid": "7130058843141358635"
+      },
+      "engagement_metrics": {
+        "comment_count": 41,
+        "like_count": 9056,
+        "play_count": 182100,
+        "share_count": 293
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 5063.07,
+        "window_units_sold": 600
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7675451577305468190",
+      "video_meta": {
+        "caption_text": "True to size in 5\u20199 wearing Large #twopieceset #skirtsets #twopieceoutfit #tiktokfashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oEgEVzqQJkbDdBxXAiVTKfELFEAR0Dhteia0ZI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7675451577305468190",
+        "published_at": 1787080351,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@_chocolatebabii/video/7675451577305468190"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "una_flor_cubana",
+        "creator_uid": "7302162228386776110"
+      },
+      "engagement_metrics": {
+        "comment_count": 56,
+        "like_count": 4004,
+        "play_count": 56200,
+        "share_count": 44
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 4533.46,
+        "window_units_sold": 470
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7671432915711986957",
+      "video_meta": {
+        "caption_text": "Conjunto outfit de fiesta animal print femenino  #womensfashion #conjunto #ropafemenina #outfit #partyoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/o4L90A0U7AfBH5DAIPRMDjzEkPseQ3VAI9eAIG~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 65,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7671432915711986957",
+        "published_at": 1786144675,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@una_flor_cubana/video/7671432915711986957"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "miaavaleriaa_",
+        "creator_uid": "63598242218680320"
+      },
+      "engagement_metrics": {
+        "comment_count": 303,
+        "like_count": 180225,
+        "play_count": 1641569,
+        "share_count": 3743
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 2588.09,
+        "window_units_sold": 224
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679944539884375327",
+      "video_meta": {
+        "caption_text": "#foryoupage #outfitinspo #goingoutoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/oUajCAUiIKXf3JCBpAAl1IASEAF1z0BqN2OiiB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679944539884375327",
+        "published_at": 1788126446,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@miaavaleriaa_/video/7679944539884375327"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopchloemhollis",
+        "creator_uid": "7505499362476557358"
+      },
+      "engagement_metrics": {
+        "comment_count": 1,
+        "like_count": 43,
+        "play_count": 3733,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 1628.25,
+        "window_units_sold": 199
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7691742411344678158",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oYF5xgVqvAVqDmXBEtAodRjBSiefQ2RoESAgID~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691742411344678158",
+        "published_at": 1790873369,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopchloemhollis/video/7691742411344678158"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "hernameterrica",
+        "creator_uid": "6648289386265214981"
+      },
+      "engagement_metrics": {
+        "comment_count": 5,
+        "like_count": 856,
+        "play_count": 54700,
+        "share_count": 32
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 3144.25,
+        "window_units_sold": 192
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7692950574580518175",
+      "video_meta": {
+        "caption_text": "#twopieceoutfit #skirtset ",
+        "cover_url": "https://s.500fd.com/tt_video/oYYE0iCPiLsAd3sIlKRxGV2dBMaBAA14dI2VC~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692950574580518175",
+        "published_at": 1791154648,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@hernameterrica/video/7692950574580518175"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "shopchloemhollis",
+        "creator_uid": "7505499362476557358"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 196,
+        "play_count": 8051,
+        "share_count": 3
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8646929172884001358",
+        "window_gmv": 1342.24,
+        "window_units_sold": 182
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7678473134525271310",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/ogqESIaDgArFDg7kRFfC2qDBNDj5jEEesQCBBP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7678473134525271310",
+        "published_at": 1787783876,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@shopchloemhollis/video/7678473134525271310"
+      }
+    }
+  ]
+}

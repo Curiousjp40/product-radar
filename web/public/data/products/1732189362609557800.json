@@ -3,7 +3,7 @@
   "product_id": "1732189362609557800",
   "title": "Women's Solid Color Cami Lounge Dress, Elegant Sleeveless Long Dress for Summer, Ladies Sleepwear for Indoor Wear",
   "clean_title": "Women's Solid Color Cami Lounge Dress",
-  "image_url": "/img/product_1732189362609557800.jpg",
+  "image_url": "https://s.500fd.com/tt_product/36be1bbd10134e058aecbfb64de774fe~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "dresses",
   "category_label_es": "Vestidos",
   "category_label_en": "Dresses",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732189362609557800",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Solid%20Color%20Cami%20Lounge%20Dress",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732189362609557800",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7679160528203222303",
+      "cover_url": "https://s.500fd.com/tt_video/oE9AiafBKE5SIz1CM2EECSiORB9Asi3AiAAvIA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@thatfamily77/video/7679160528203222303",
+      "creator_handle": "thatfamily77",
+      "play_count": 75711,
+      "window_gmv": 8810.74,
+      "window_units_sold": 568,
+      "is_ad": false,
+      "duration_seconds": 177
+    },
+    {
+      "video_id": "7664277292960533790",
+      "cover_url": "https://s.500fd.com/tt_video/oUCEI9F1Iq8EVeXCq5aDfEcRurAFAAPAADvqQs~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@anikorains/video/7664277292960533790",
+      "creator_handle": "anikorains",
+      "play_count": 2000000,
+      "window_gmv": 6401.53,
+      "window_units_sold": 547,
+      "is_ad": true,
+      "duration_seconds": 15
+    },
+    {
+      "video_id": "7665567104619253006",
+      "cover_url": "https://s.500fd.com/tt_video/ocD5YEfE8IkYVFkEPSNfNBJMPEucBRgYhqIYAD~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@collier_triplets/video/7665567104619253006",
+      "creator_handle": "collier_triplets",
+      "play_count": 1105655,
+      "window_gmv": 7995.51,
+      "window_units_sold": 477,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7676338495689985294",
+      "cover_url": "https://s.500fd.com/tt_video/oU5RrfBIEI2NnpRH61VEHGWCDIvske9eAA6Lmr~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@.melmel.07/video/7676338495689985294",
+      "creator_handle": ".melmel.07",
+      "play_count": 182900,
+      "window_gmv": 6255.67,
+      "window_units_sold": 412,
+      "is_ad": false,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7672181492822363406",
+      "cover_url": "https://s.500fd.com/tt_video/owSvnEagRI4wPBUV2zHQXAMiBnKkaBEIiM5E5~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@cheyennemac2.0/video/7672181492822363406",
+      "creator_handle": "cheyennemac2.0",
+      "play_count": 2000000,
+      "window_gmv": 2536.81,
+      "window_units_sold": 190,
+      "is_ad": true,
+      "duration_seconds": 13
+    },
+    {
+      "video_id": "7679810981429546253",
+      "cover_url": "https://s.500fd.com/tt_video/oUJEZ6FlAEDhUfEAoSRgfqEWqUIGRdPDSQ5CKB~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@faithhopelovejesus/video/7679810981429546253",
+      "creator_handle": "faithhopelovejesus",
+      "play_count": 1330,
+      "window_gmv": 2759.17,
+      "window_units_sold": 184,
+      "is_ad": true,
+      "duration_seconds": 20
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "loungewear",
+        "weight": 1073
+      },
+      {
+        "hashtag": "sahm",
+        "weight": 1045
+      },
+      {
+        "hashtag": "housedress",
+        "weight": 723
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 588
+      },
+      {
+        "hashtag": "nightvlog",
+        "weight": 568
+      },
+      {
+        "hashtag": "teatimewithtee",
+        "weight": 568
+      },
+      {
+        "hashtag": "momof3",
+        "weight": 568
+      },
+      {
+        "hashtag": "motherhood",
+        "weight": 568
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 70.0
+    },
+    "best_posting_hour": {
+      "hour_start": 19,
+      "hour_end": 21
+    },
+    "top_hooks": [
+      "Tea time with Tee a sahm x 3 taking time for myself while chatting and venting with you guys!",
+      "Every time I wear this dress.",
+      "3 for 1 \ud83d\ude0d"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.1,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      4,
+      2
+    ]
+  }
 }

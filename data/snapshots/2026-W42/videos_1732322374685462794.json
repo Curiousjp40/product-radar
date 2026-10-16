@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732322374685462794",
+  "time_range_days": 90,
+  "total": 161,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "emma.casteel",
+        "creator_uid": "6720263801935004677"
+      },
+      "engagement_metrics": {
+        "comment_count": 97,
+        "like_count": 51300,
+        "play_count": 2200000,
+        "share_count": 2086
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 6623.68,
+        "window_units_sold": 987
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664746670944472333",
+      "video_meta": {
+        "caption_text": "the perfect outfit for your next concert/going out!!  #womensfashion #womenclothing #goingoutoutfit #concertoutfit #summerclothes ",
+        "cover_url": "https://s.500fd.com/tt_video/ocQNeqcE3Bq94gRqj2QA6FEDapDlYXFnhfYRpS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664746670944472333",
+        "published_at": 1784587924,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7664746670944472333"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lnysie",
+        "creator_uid": "6709476918268052485"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 19900,
+        "play_count": 598200,
+        "share_count": 449
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 5351.95,
+        "window_units_sold": 536
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7669498131188321549",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oMIGQAUAIGYAgfLApz2AgDhe6f8GJ5RvfQOb0d~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669498131188321549",
+        "published_at": 1785700800,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lnysie/video/7669498131188321549"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "lnysie",
+        "creator_uid": "6709476918268052485"
+      },
+      "engagement_metrics": {
+        "comment_count": 29,
+        "like_count": 31000,
+        "play_count": 1200000,
+        "share_count": 994
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 4165.92,
+        "window_units_sold": 479
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7669866206270115102",
+      "video_meta": {
+        "caption_text": "Size small",
+        "cover_url": "https://s.500fd.com/tt_video/oMhUKWJGUMpDwQRrrAAeARXeI88faeQQ7ZQA1A~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669866206270115102",
+        "published_at": 1785779905,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@lnysie/video/7669866206270115102"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emily..easton",
+        "creator_uid": "6773120464073769989"
+      },
+      "engagement_metrics": {
+        "comment_count": 96,
+        "like_count": 114300,
+        "play_count": 1336940,
+        "share_count": 1392
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 2529.56,
+        "window_units_sold": 450
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7664766991680556318",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oIGvGeolIIHqQQulfFUALC7eQGjXAhXIqIslpN~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7664766991680556318",
+        "published_at": 1784592649,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emily..easton/video/7664766991680556318"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "ariattfinds",
+        "creator_uid": "7579046761119204366"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 19200,
+        "play_count": 584900,
+        "share_count": 771
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 7793.64,
+        "window_units_sold": 381
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681408203598368031",
+      "video_meta": {
+        "caption_text": "#ootd #goingoutoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/o4ElZVeI5C6HjAjt4tIA6FEIf2DyFMBqpfDhBq~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681408203598368031",
+        "published_at": 1788467226,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@ariattfinds/video/7681408203598368031"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emma.casteel",
+        "creator_uid": "6720263801935004677"
+      },
+      "engagement_metrics": {
+        "comment_count": 17,
+        "like_count": 12100,
+        "play_count": 706300,
+        "share_count": 469
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 3192.07,
+        "window_units_sold": 328
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7668017890100088077",
+      "video_meta": {
+        "caption_text": "this whole outfit is on sale right now!!\u2728\ud83d\udda4 #womensfashion #womenclothing #goingoutoutfit #concertoutfit #affordablefashion ",
+        "cover_url": "https://s.500fd.com/tt_video/oI2R1aE1lmKn5qScEXUdRWgQDfAIFDEwJBfqkQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7668017890100088077",
+        "published_at": 1785349579,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7668017890100088077"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emma.casteel",
+        "creator_uid": "6720263801935004677"
+      },
+      "engagement_metrics": {
+        "comment_count": 0,
+        "like_count": 353,
+        "play_count": 39000,
+        "share_count": 23
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 2777.14,
+        "window_units_sold": 304
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689489535603854605",
+      "video_meta": {
+        "caption_text": "the boots have free shipping\ud83e\udd2d\ud83d\udda4 #womenclothing #womensfashion #goingoutoutfit #2pieceset #concertoutfit ",
+        "cover_url": "https://s.500fd.com/tt_video/o8oqB2N4EWhFc6jA3g6ItUeuR3daDDBnEf0IsS~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689489535603854605",
+        "published_at": 1790348827,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7689489535603854605"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emma.casteel",
+        "creator_uid": "6720263801935004677"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 748,
+        "play_count": 63900,
+        "share_count": 38
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 2324.03,
+        "window_units_sold": 241
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7677692687113309453",
+      "video_meta": {
+        "caption_text": "this set is so cheap right omg\ud83e\udd2dsize s #womenclothing #womensfashion #affordablefashion #goingoutoutfit #cuteboots ",
+        "cover_url": "https://s.500fd.com/tt_video/ooH4J8CZIiSVdqiBlp1CMBPARIMYpIsfwAhiKI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 10,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677692687113309453",
+        "published_at": 1787602165,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emma.casteel/video/7677692687113309453"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "emily..easton",
+        "creator_uid": "6773120464073769989"
+      },
+      "engagement_metrics": {
+        "comment_count": 34,
+        "like_count": 14600,
+        "play_count": 360400,
+        "share_count": 219
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 1528.48,
+        "window_units_sold": 230
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7665129862813781279",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oUI9AIxiPcCd0gRBtVFEIiBMBAiIAA3ypFima~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7665129862813781279",
+        "published_at": 1784677141,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@emily..easton/video/7665129862813781279"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "adrishoppingcart",
+        "creator_uid": "7549429479500907534"
+      },
+      "engagement_metrics": {
+        "comment_count": 60,
+        "like_count": 47500,
+        "play_count": 934200,
+        "share_count": 901
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "8647145322393932042",
+        "window_gmv": 2365.44,
+        "window_units_sold": 228
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7667402770349100319",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/owkEffBocAhRDxbIBlnEAoBVFEaFIlCXqlWaBZ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 6,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7667402770349100319",
+        "published_at": 1785206341,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@adrishoppingcart/video/7667402770349100319"
+      }
+    }
+  ]
+}

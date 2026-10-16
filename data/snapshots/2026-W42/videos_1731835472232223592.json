@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1731835472232223592",
+  "time_range_days": 90,
+  "total": 603,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "littlemarie23_",
+        "creator_uid": "6699857518502904837"
+      },
+      "engagement_metrics": {
+        "comment_count": 110,
+        "like_count": 34000,
+        "play_count": 1600000,
+        "share_count": 2280
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 13872.05,
+        "window_units_sold": 239
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7687984729336892703",
+      "video_meta": {
+        "caption_text": "Had to use this audio #halloween #costume #costumeideas #catwoman #octoberfinds ",
+        "cover_url": "https://s.500fd.com/tt_video/oohqKoVeoA83BRZlAIF9sNVD8fah7YTEEEByxI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687984729336892703",
+        "published_at": 1789998463,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@littlemarie23_/video/7687984729336892703"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "kensysolis",
+        "creator_uid": "6702862839960863749"
+      },
+      "engagement_metrics": {
+        "comment_count": 61,
+        "like_count": 4148,
+        "play_count": 96100,
+        "share_count": 45
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 8748.2,
+        "window_units_sold": 164
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7689274122081176862",
+      "video_meta": {
+        "caption_text": "Disfraz para Halloween ",
+        "cover_url": "https://s.500fd.com/tt_video/ogD37eKfjVEGdqIBCTDrwzF4uEeaAA1QsIlKQI~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 26,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7689274122081176862",
+        "published_at": 1790298654,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@kensysolis/video/7689274122081176862"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "c.luuuuuuuu",
+        "creator_uid": "7304083377351066667"
+      },
+      "engagement_metrics": {
+        "comment_count": 65,
+        "like_count": 3973,
+        "play_count": 54300,
+        "share_count": 87
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 8895.37,
+        "window_units_sold": 161
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7688133678861520142",
+      "video_meta": {
+        "caption_text": "\ud83e\udd77\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f #costume",
+        "cover_url": "https://s.500fd.com/tt_video/o4eIfLWYIgMDZgJAnMyA8zQgVGgFjdaHkie38C~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7688133678861520142",
+        "published_at": 1790033135,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@c.luuuuuuuu/video/7688133678861520142"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melianid",
+        "creator_uid": "7007220597143503878"
+      },
+      "engagement_metrics": {
+        "comment_count": 86,
+        "like_count": 16000,
+        "play_count": 171700,
+        "share_count": 432
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 5834.9,
+        "window_units_sold": 112
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692547545716903181",
+      "video_meta": {
+        "caption_text": "#catwomen #catwomencostume #mely #holloween #dance ",
+        "cover_url": "https://s.500fd.com/tt_video/o0PxZpHwQIvkvzmHtaVIBG0CgQz8k04eAAfLfj~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 15,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692547545716903181",
+        "published_at": 1791060810,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melianid/video/7692547545716903181"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "coolestbabeoutthere",
+        "creator_uid": "7031732285536125957"
+      },
+      "engagement_metrics": {
+        "comment_count": 37,
+        "like_count": 2235,
+        "play_count": 57700,
+        "share_count": 137
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 6243.36,
+        "window_units_sold": 101
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7691415484528364814",
+      "video_meta": {
+        "caption_text": "catwoman will always be iconic #catwomancostume #catwoman #costumeinspo #hotgirlcostumes #fyp ",
+        "cover_url": "https://s.500fd.com/tt_video/o09W0AXERIJAbS1f8CEAb7DqAWeFED9WCglWZv~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 12,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7691415484528364814",
+        "published_at": 1790797246,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@coolestbabeoutthere/video/7691415484528364814"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "jessell_",
+        "creator_uid": "6671440709634342917"
+      },
+      "engagement_metrics": {
+        "comment_count": 4,
+        "like_count": 2114,
+        "play_count": 24861,
+        "share_count": 21
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 4100.2,
+        "window_units_sold": 86
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7694409379944090893",
+      "video_meta": {
+        "caption_text": "",
+        "cover_url": "https://s.500fd.com/tt_video/oQKIjVX8kfeIICtNHAQrb4FeHpdAXLIGEYkCsB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7694409379944090893",
+        "published_at": 1791494311,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@jessell_/video/7694409379944090893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "asiabrowwn",
+        "creator_uid": "7661549660637709325"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 657,
+        "play_count": 90400,
+        "share_count": 611
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 4749.65,
+        "window_units_sold": 83
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687216560947121438",
+      "video_meta": {
+        "caption_text": "\ud83d\udc08\u200d\u2b1bCatwoman for Halloween\ud83d\udc08\u200d\u2b1b #costume #halloweencostume #halloween #costumeinspo ",
+        "cover_url": "https://s.500fd.com/tt_video/o0CsE0fDVIrMRmqEQ9gi9rQncBcAeEkrFDt0QA~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 8,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687216560947121438",
+        "published_at": 1789936560,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@asiabrowwn/video/7687216560947121438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 1448,
+        "play_count": 167200,
+        "share_count": 211
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 4387.58,
+        "window_units_sold": 83
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7682863133559393549",
+      "video_meta": {
+        "caption_text": "PERRRRRRFECT for Halloween!!!#viral #viralvideo #fyp\u30c4 #catwomen #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/oke5xJsJgVjpgAIUBgFLFIfGCsuMPgjeaykAPH~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 39,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682863133559393549",
+        "published_at": 1788805984,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7682863133559393549"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "its_leah0912",
+        "creator_uid": "6948452224779912197"
+      },
+      "engagement_metrics": {
+        "comment_count": 15,
+        "like_count": 2157,
+        "play_count": 55029,
+        "share_count": 134
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 4268.83,
+        "window_units_sold": 79
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7682863475940461838",
+      "video_meta": {
+        "caption_text": "I am CATWOMEN #viral #viralvideo #fyp\u30c4 #catwomen #costume ",
+        "cover_url": "https://s.500fd.com/tt_video/owmXAgioGQM7afUdAcLHkHjlTCeAV1HQIoAfIP~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 14,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7682863475940461838",
+        "published_at": 1788806070,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@its_leah0912/video/7682863475940461838"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "melianid",
+        "creator_uid": "7007220597143503878"
+      },
+      "engagement_metrics": {
+        "comment_count": 25,
+        "like_count": 2355,
+        "play_count": 36100,
+        "share_count": 55
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7495828139121281896",
+        "window_gmv": 3361.5,
+        "window_units_sold": 65
+      },
+      "traffic_flags": {
+        "is_ad": false
+      },
+      "video_id": "7692546942525590798",
+      "video_meta": {
+        "caption_text": "#catwomen #catwomencostume #mely #holloween #dance ",
+        "cover_url": "https://s.500fd.com/tt_video/oYBOOZFCIIOAspyf5PIDhkB1AI1iiBSLAwESaY~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 23,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7692546942525590798",
+        "published_at": 1791060683,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@melianid/video/7692546942525590798"
+      }
+    }
+  ]
+}

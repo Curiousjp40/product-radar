@@ -3,7 +3,7 @@
   "product_id": "1732098338295485006",
   "title": "Women's Fashion Animal Print Shawl Top + Trendy Short Skirt, Boho Outfit Sets, Spring & Fall Lightweight Comfortable Casual Wear, Perfect for Daily Home Outdoor Womenswear Clothes, Skirt And Top Set",
   "clean_title": "Women's Fashion Animal Print Shawl Top",
-  "image_url": "/img/product_1732098338295485006.jpg",
+  "image_url": "https://s.500fd.com/tt_product/dc53668765b34abaadd18adbf1ae44c9~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732098338295485006",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Women%27s%20Fashion%20Animal%20Print%20Shawl%20Top",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732098338295485006",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7672949137943366926",
+      "cover_url": "https://s.500fd.com/tt_video/oIsDFC5U8IkKTTm3IC3UEfQQkleeUQAkPHEjAM~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@makaylajaime/video/7672949137943366926",
+      "creator_handle": "makaylajaime",
+      "play_count": 1166,
+      "window_gmv": 8004.96,
+      "window_units_sold": 866,
+      "is_ad": false,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7666175712545590541",
+      "cover_url": "https://s.500fd.com/tt_video/ooc4OEBBPAugDgxmAapAPEckjAj6iimwI5BjH~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ciara..sanders/video/7666175712545590541",
+      "creator_handle": "ciara..sanders",
+      "play_count": 4500000,
+      "window_gmv": 7979.49,
+      "window_units_sold": 783,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7672243829503839519",
+      "cover_url": "https://s.500fd.com/tt_video/oIeAjEEUTRDAjCA9kLA1FK5IfeqABUIISbEyo8~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@dj.foof/video/7672243829503839519",
+      "creator_handle": "dj.foof",
+      "play_count": 36300,
+      "window_gmv": 6345.36,
+      "window_units_sold": 700,
+      "is_ad": true,
+      "duration_seconds": 21
+    },
+    {
+      "video_id": "7678077568708250894",
+      "cover_url": "https://s.500fd.com/tt_video/osHA0EQAv8MAjbAeXeAbWIOH87kACVIIAzElei~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@novaa.llynn/video/7678077568708250894",
+      "creator_handle": "novaa.llynn",
+      "play_count": 3594,
+      "window_gmv": 5370.07,
+      "window_units_sold": 674,
+      "is_ad": true,
+      "duration_seconds": 8
+    },
+    {
+      "video_id": "7675451577305468190",
+      "cover_url": "https://s.500fd.com/tt_video/oEgEVzqQJkbDdBxXAiVTKfELFEAR0Dhteia0ZI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@_chocolatebabii/video/7675451577305468190",
+      "creator_handle": "_chocolatebabii",
+      "play_count": 182100,
+      "window_gmv": 5063.07,
+      "window_units_sold": 600,
+      "is_ad": true,
+      "duration_seconds": 6
+    },
+    {
+      "video_id": "7671432915711986957",
+      "cover_url": "https://s.500fd.com/tt_video/o4L90A0U7AfBH5DAIPRMDjzEkPseQ3VAI9eAIG~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@una_flor_cubana/video/7671432915711986957",
+      "creator_handle": "una_flor_cubana",
+      "play_count": 56200,
+      "window_gmv": 4533.46,
+      "window_units_sold": 470,
+      "is_ad": true,
+      "duration_seconds": 65
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "goingoutoutfit",
+        "weight": 1007
+      },
+      {
+        "hashtag": "midsizefashion",
+        "weight": 866
+      },
+      {
+        "hashtag": "fallfashion",
+        "weight": 866
+      },
+      {
+        "hashtag": "twopieceoutfit",
+        "weight": 792
+      },
+      {
+        "hashtag": "tigerprint",
+        "weight": 783
+      },
+      {
+        "hashtag": "minidress",
+        "weight": 783
+      },
+      {
+        "hashtag": "goingoutdress",
+        "weight": 783
+      },
+      {
+        "hashtag": "sexy",
+        "weight": 783
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 9,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 90.0
+    },
+    "best_posting_hour": {
+      "hour_start": 15,
+      "hour_end": 17
+    },
+    "top_hooks": [
+      "Mostly size xl 200lbs 5ftf",
+      "and this COLOR teal i\u2019m obsessed",
+      "going out sets >>"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 18,
+    "hour_end": 20,
+    "best_weekdays": [
+      1,
+      4
+    ]
+  }
 }

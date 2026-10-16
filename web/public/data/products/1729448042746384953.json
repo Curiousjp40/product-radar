@@ -3,7 +3,7 @@
   "product_id": "1729448042746384953",
   "title": "\u3010Two Options, Not a set\u3011QINSEN Women Half Zip Sports Top and Pants\u3010Two Options, Not a set, needs to be ordered separately\u3011",
   "clean_title": "Two Options, Not a set QINSEN Women Half Zip Sports Top and",
-  "image_url": "/img/product_1729448042746384953.webp",
+  "image_url": "https://s.500fd.com/tt_product/3610b55d93d0423f81f1b966fbac5807~tplv-fhlh96nyum-crop-webp:600:601.webp",
   "category": "sets",
   "category_label_es": "Conjuntos",
   "category_label_en": "Sets",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1729448042746384953",
   "tiktok_search_url": "https://www.tiktok.com/search?q=Two%20Options%2C%20Not%20a%20set%20QINSEN%20Women%20Half%20Zip%20Sports%20Top%20and",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1729448042746384953",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7671319289328127263",
+      "cover_url": "https://s.500fd.com/tt_video/oMf1lEI9CwBOX2viSAiAtIwGivjpIAA1wWDqtA~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@dealsbygold/video/7671319289328127263",
+      "creator_handle": "dealsbygold",
+      "play_count": 3930,
+      "window_gmv": 38256.11,
+      "window_units_sold": 1072,
+      "is_ad": true,
+      "duration_seconds": 11
+    },
+    {
+      "video_id": "7689591024645098766",
+      "cover_url": "https://s.500fd.com/tt_video/ocv2QqaEFZg3E4kACbC3WO6BaiAArBmiIEHAQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@ohhangelbaby/video/7689591024645098766",
+      "creator_handle": "ohhangelbaby",
+      "play_count": 21400,
+      "window_gmv": 11874.23,
+      "window_units_sold": 314,
+      "is_ad": true,
+      "duration_seconds": 23
+    },
+    {
+      "video_id": "7683048466045603086",
+      "cover_url": "https://s.500fd.com/tt_video/oM4YwqAoIEhujxAD6rqEfDBCnQ0sShAfgAOFER~tplv-tiktokx-cropcenter-q:300:400:q70.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7683048466045603086",
+      "creator_handle": "whatsinlivscart",
+      "play_count": 276000,
+      "window_gmv": 9645.48,
+      "window_units_sold": 238,
+      "is_ad": true,
+      "duration_seconds": 44
+    },
+    {
+      "video_id": "7684423367578930445",
+      "cover_url": "https://s.500fd.com/tt_video/owAljImJDICm7kq5AnFASsRp0CfPqADEECgeEp~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@whatsinlivscart/video/7684423367578930445",
+      "creator_handle": "whatsinlivscart",
+      "play_count": 46500,
+      "window_gmv": 8386.95,
+      "window_units_sold": 214,
+      "is_ad": true,
+      "duration_seconds": 10
+    },
+    {
+      "video_id": "7666973076252347662",
+      "cover_url": "https://s.500fd.com/tt_video/oYfERxOo9AgaxhqATRfABfUge4adCfeRml2hWZ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@addison____3/video/7666973076252347662",
+      "creator_handle": "addison____3",
+      "play_count": 59400,
+      "window_gmv": 7273.2,
+      "window_units_sold": 182,
+      "is_ad": true,
+      "duration_seconds": 61
+    },
+    {
+      "video_id": "7690068981343882527",
+      "cover_url": "https://s.500fd.com/tt_video/osu4VzAufAIDAtqwDDRqfRBQnEEVFEtUbJEIP6~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@sadie3nicole/video/7690068981343882527",
+      "creator_handle": "sadie3nicole",
+      "play_count": 17700,
+      "window_gmv": 5192.97,
+      "window_units_sold": 131,
+      "is_ad": true,
+      "duration_seconds": 12
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 1176
+      },
+      {
+        "hashtag": "tiktokshopcreatorpicks",
+        "weight": 1072
+      },
+      {
+        "hashtag": "tiktokshopbacktoschool",
+        "weight": 1072
+      },
+      {
+        "hashtag": "tiktokshopcybermonday",
+        "weight": 1072
+      },
+      {
+        "hashtag": "tiktokshopblackfriday",
+        "weight": 1072
+      },
+      {
+        "hashtag": "sweatpants",
+        "weight": 452
+      },
+      {
+        "hashtag": "qinsen",
+        "weight": 452
+      },
+      {
+        "hashtag": "falloutfits",
+        "weight": 399
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 18,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 17,
+      "hour_end": 19
+    },
+    "top_hooks": [
+      "SALE ENDS TONIGHT\u203c\ufe0f",
+      "The most flattering sweatpants I\u2019ve ever worn.",
+      "holy cow i\u2019m obsessed"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.0,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 10,
+    "hour_end": 12,
+    "best_weekdays": [
+      4,
+      1
+    ]
+  }
 }

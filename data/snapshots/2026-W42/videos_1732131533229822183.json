@@ -1,0 +1,319 @@
+{
+  "page": 1,
+  "pagesize": 10,
+  "product_id": "1732131533229822183",
+  "time_range_days": 90,
+  "total": 1457,
+  "videos": [
+    {
+      "creator": {
+        "creator_handle": "dontbossmebecky",
+        "creator_uid": "6742220928212403205"
+      },
+      "engagement_metrics": {
+        "comment_count": 7,
+        "like_count": 31,
+        "play_count": 1152,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 17371.22,
+        "window_units_sold": 571
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679140912290630926",
+      "video_meta": {
+        "caption_text": "@Dana Pritchard \u2764\ufe0f ",
+        "cover_url": "https://s.500fd.com/tt_video/oUAOKAEp45g9KAAHBCRkEIXjABPyXAigA1Bia~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 71,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679140912290630926",
+        "published_at": 1787940983,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@dontbossmebecky/video/7679140912290630926"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "klothesminded",
+        "creator_uid": "7048332519968834565"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 943,
+        "play_count": 105600,
+        "share_count": 101
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 15839.84,
+        "window_units_sold": 511
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7683648454509219103",
+      "video_meta": {
+        "caption_text": "Easyslide Bathroom Friendly Shapewear Faja for Women Tummy Control #faja #shapewear #tummycontrol ",
+        "cover_url": "https://s.500fd.com/tt_video/o8WEwaDBFuzdozhnFRinABvEtmeIIVBfAqcsKE~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 36,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7683648454509219103",
+        "published_at": 1788990624,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@klothesminded/video/7683648454509219103"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nessa19930",
+        "creator_uid": "6783882659292218373"
+      },
+      "engagement_metrics": {
+        "comment_count": 63,
+        "like_count": 3343,
+        "play_count": 872900,
+        "share_count": 270
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 12468.7,
+        "window_units_sold": 418
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669879847920913695",
+      "video_meta": {
+        "caption_text": "I can\u2019t believe it took this long to create a bathroom friendly faja\ud83d\ude2d#faja #shapewear #fajasreductoras #shapeweargirl @SHECURVE ",
+        "cover_url": "https://s.500fd.com/tt_video/oEYJWFVDqB4pagzFEVeOMAQkEE0wfcuAgRQy9K~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 59,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669879847920913695",
+        "published_at": 1785783081,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7669879847920913695"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nessa19930",
+        "creator_uid": "6783882659292218373"
+      },
+      "engagement_metrics": {
+        "comment_count": 32,
+        "like_count": 1837,
+        "play_count": 743500,
+        "share_count": 184
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 9681.95,
+        "window_units_sold": 314
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7681486317993217311",
+      "video_meta": {
+        "caption_text": "Snatched AND bathroom friendly?! This easy-glide faja is a game changer \ud83d\ude0d\ud83d\ude4c #Faja #Shapewear #BathroomFriendly #TummyControl #BodyShaper @SHECURVE ",
+        "cover_url": "https://s.500fd.com/tt_video/o0LEeGFmGEDtGsBA4CKAfwE5qaIiR9OEVOyhHB~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 29,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7681486317993217311",
+        "published_at": 1788485417,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7681486317993217311"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mikaylarob",
+        "creator_uid": "6810054994554209285"
+      },
+      "engagement_metrics": {
+        "comment_count": 6,
+        "like_count": 795,
+        "play_count": 249500,
+        "share_count": 77
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 9144.53,
+        "window_units_sold": 297
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7669593860678503693",
+      "video_meta": {
+        "caption_text": "this shapewear is SO snatching + smoothing\ud83d\ude0d\ud83e\udd0c\ud83c\udffd#shecurveshapewear #tummycontrol #tummycontrolshapewear #fajas #fajascolombianas ",
+        "cover_url": "https://s.500fd.com/tt_video/ogxvVmgbfAEVS8BsADRqwxCi3EDSFEAf79AIzl~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7669593860678503693",
+        "published_at": 1785716502,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mikaylarob/video/7669593860678503693"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nessa19930",
+        "creator_uid": "6783882659292218373"
+      },
+      "engagement_metrics": {
+        "comment_count": 18,
+        "like_count": 887,
+        "play_count": 239000,
+        "share_count": 84
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 8861.31,
+        "window_units_sold": 286
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673702992310193438",
+      "video_meta": {
+        "caption_text": "Finally\u2026 a faja that understands bathroom breaks shouldn\u2019t be complicated \ud83d\ude02#bathroomhack #shapewearhack #shapeweartiktok #faja @SHECURVE ",
+        "cover_url": "https://s.500fd.com/tt_video/oozIqQezAAaiIF3AjFfanUDCNufgqEI7ENQNC8~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 50,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673702992310193438",
+        "published_at": 1786673219,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7673702992310193438"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "nessa19930",
+        "creator_uid": "6783882659292218373"
+      },
+      "engagement_metrics": {
+        "comment_count": 16,
+        "like_count": 541,
+        "play_count": 204400,
+        "share_count": 68
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 7813.19,
+        "window_units_sold": 254
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7677990603518528798",
+      "video_meta": {
+        "caption_text": "Comfy, smoothing AND bathroom friendly?! \ud83d\ude4c Finally a faja made for real life. \ud83d\ude0d #BathroomFriendlyFaja #Faja #Shapewear #shapeweargirl @SHECURVE ",
+        "cover_url": "https://s.500fd.com/tt_video/o8GZaIDGIFAKQVBj2CEVHZEPEzbcfRybqae0Aw~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7677990603518528798",
+        "published_at": 1787671527,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@nessa19930/video/7677990603518528798"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mom.ish_",
+        "creator_uid": "2817615"
+      },
+      "engagement_metrics": {
+        "comment_count": 78,
+        "like_count": 3382,
+        "play_count": 847200,
+        "share_count": 309
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 7954.54,
+        "window_units_sold": 253
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7679087108086074654",
+      "video_meta": {
+        "caption_text": "#shecurve #seamlessshapewear #shapewear #faja #tummycontrol ",
+        "cover_url": "https://s.500fd.com/tt_video/owgAGECBPAmRjD8FAazAFEyldARZiipSIDBRH~tplv-photomode-zoomcover:480:480.avif",
+        "duration_seconds": 44,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7679087108086074654",
+        "published_at": 1787926805,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mom.ish_/video/7679087108086074654"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "soyabundanciaa",
+        "creator_uid": "6770097293868090373"
+      },
+      "engagement_metrics": {
+        "comment_count": 3,
+        "like_count": 22,
+        "play_count": 2009,
+        "share_count": 1
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 5510.74,
+        "window_units_sold": 185
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7687794337404570893",
+      "video_meta": {
+        "caption_text": "Respuesta a @emma esta es la faja so\u00f1ada de las que usamos faja diariamente ",
+        "cover_url": "https://s.500fd.com/tt_video/okpfB3FFIEej4IZHRiVIwDECYIcUkQDfAA1FWj~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 32,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7687794337404570893",
+        "published_at": 1789954121,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@soyabundanciaa/video/7687794337404570893"
+      }
+    },
+    {
+      "creator": {
+        "creator_handle": "mom.ish_",
+        "creator_uid": "2817615"
+      },
+      "engagement_metrics": {
+        "comment_count": 143,
+        "like_count": 7176,
+        "play_count": 1300000,
+        "share_count": 747
+      },
+      "product_contribution": {
+        "metric_window_days": 90,
+        "shop_id": "7494275594249667815",
+        "window_gmv": 5727.27,
+        "window_units_sold": 184
+      },
+      "traffic_flags": {
+        "is_ad": true
+      },
+      "video_id": "7673538330918669598",
+      "video_meta": {
+        "caption_text": "#shapewear #shecurve #seamlessshapewear #postpartum #fajascolombianas ",
+        "cover_url": "https://s.500fd.com/tt_video/oA7iAeDI4QpJFLVJqUfFGZvfQqloxeRYAEQIPQ~tplv-photomode-zoomcover:480:480.jpeg",
+        "duration_seconds": 33,
+        "fastmoss_url": "https://www.fastmoss.com/media-source/video/7673538330918669598",
+        "published_at": 1786634882,
+        "region": "US",
+        "tiktok_url": "https://www.tiktok.com/@mom.ish_/video/7673538330918669598"
+      }
+    }
+  ]
+}

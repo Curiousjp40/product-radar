@@ -3,7 +3,7 @@
   "product_id": "1731788606735487534",
   "title": "SmartWell 5D Woven Print 5D Art Cat Scratcher Pad - Self-Adhesive High-Density Furniture Protector, Claw-Safe Smooth Surface, Durable for Heavy Scratching, Home Decor, Glass/Wood Compatible, Doors/Sofa Saver with Bonus Toy",
   "clean_title": "SmartWell 5D Woven Print 5D Art",
-  "image_url": "/img/product_1731788606735487534.webp",
+  "image_url": "https://s.500fd.com/tt_product/ecbbe5ee00f44ebea4cf1f5349146de9~tplv-fhlh96nyum-crop-webp:2048:2048.webp",
   "category": "pet_furniture",
   "category_label_es": "Mascotas",
   "category_label_en": "Pet Furniture",
@@ -21,9 +21,140 @@
   "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731788606735487534",
   "tiktok_search_url": "https://www.tiktok.com/search?q=SmartWell%205D%20Woven%20Print%205D%20Art",
   "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731788606735487534",
-  "videos": [],
-  "formula_ganadora": null,
+  "videos": [
+    {
+      "video_id": "7675197903333248269",
+      "cover_url": "https://s.500fd.com/tt_video/oAsH4eGcLY7VBjHw0jFeAC0IwjNQQkMeAV42MI~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@aprendeconcarolina/video/7675197903333248269",
+      "creator_handle": "aprendeconcarolina",
+      "play_count": 61900,
+      "window_gmv": 4394.38,
+      "window_units_sold": 312,
+      "is_ad": true,
+      "duration_seconds": 49
+    },
+    {
+      "video_id": "7686168524795940127",
+      "cover_url": "https://s.500fd.com/tt_video/oIqqF0dgQAsECvNEIVAVsEAmARFyvVfLfASDGE~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@sarahgibbons_/video/7686168524795940127",
+      "creator_handle": "sarahgibbons_",
+      "play_count": 6392,
+      "window_gmv": 1116.91,
+      "window_units_sold": 76,
+      "is_ad": true,
+      "duration_seconds": 24
+    },
+    {
+      "video_id": "7691907128885366046",
+      "cover_url": "https://s.500fd.com/tt_video/oYKV5YKOqAvmEN2wAQWefJoMf8fXlNJQgiKVfQ~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@elducho.thrift/video/7691907128885366046",
+      "creator_handle": "elducho.thrift",
+      "play_count": 2720,
+      "window_gmv": 944.95,
+      "window_units_sold": 66,
+      "is_ad": true,
+      "duration_seconds": 19
+    },
+    {
+      "video_id": "7675953909763968286",
+      "cover_url": "https://s.500fd.com/tt_video/oMCEEACWEFAMghAAIR9DV4gGnfdAdrqGlEjfC3~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@daniag2021/video/7675953909763968286",
+      "creator_handle": "daniag2021",
+      "play_count": 302200,
+      "window_gmv": 885.51,
+      "window_units_sold": 64,
+      "is_ad": true,
+      "duration_seconds": 37
+    },
+    {
+      "video_id": "7669495457239846174",
+      "cover_url": "https://s.500fd.com/tt_video/ocEZyAPRqNIAjhIlCPAjEGiiV44aM1vYBbieAx~tplv-photomode-zoomcover:480:480.jpeg",
+      "tiktok_url": "https://www.tiktok.com/@suzanjohnson5/video/7669495457239846174",
+      "creator_handle": "suzanjohnson5",
+      "play_count": 758,
+      "window_gmv": 718.08,
+      "window_units_sold": 54,
+      "is_ad": true,
+      "duration_seconds": 59
+    },
+    {
+      "video_id": "7685176600811326734",
+      "cover_url": "https://s.500fd.com/tt_video/o8CERtIwpWAini5O2rIK0UfDZ2B1BAVIXK31Mn~tplv-photomode-zoomcover:480:480.avif",
+      "tiktok_url": "https://www.tiktok.com/@delmylg3/video/7685176600811326734",
+      "creator_handle": "delmylg3",
+      "play_count": 2041,
+      "window_gmv": 589.28,
+      "window_units_sold": 41,
+      "is_ad": true,
+      "duration_seconds": 37
+    }
+  ],
+  "formula_ganadora": {
+    "top_hashtags": [
+      {
+        "hashtag": "cat",
+        "weight": 412
+      },
+      {
+        "hashtag": "scratch",
+        "weight": 312
+      },
+      {
+        "hashtag": "mat5d",
+        "weight": 312
+      },
+      {
+        "hashtag": "paragatitos",
+        "weight": 312
+      },
+      {
+        "hashtag": "tiktokshopsummersale",
+        "weight": 312
+      },
+      {
+        "hashtag": "catscratcher",
+        "weight": 146
+      },
+      {
+        "hashtag": "gatos",
+        "weight": 139
+      },
+      {
+        "hashtag": "smartwell",
+        "weight": 76
+      }
+    ],
+    "ideal_duration": {
+      "seconds": 37,
+      "source": "videos"
+    },
+    "format_stats": {
+      "reply_pct": 0.0,
+      "price_mention_pct": 0.0,
+      "ad_pct": 100.0
+    },
+    "best_posting_hour": {
+      "hour_start": 22,
+      "hour_end": 0
+    },
+    "top_hooks": [
+      "If your cat loves scratching the couch, this Smart-Well felt wall scratcher might just save your furniture \ud83d\udc31\ud83d\udecb\ufe0f\u2728",
+      "Rascador para Gatos\ud83d\udc08\ud83d\udc31 -Well",
+      "Do ur cats tear ur furniture up"
+    ]
+  },
   "saturation_badge": null,
-  "spanish_share": null,
-  "pocas_creadoras_latinas": false
+  "spanish_share": 0.2,
+  "pocas_creadoras_latinas": true,
+  "best_video_time": {
+    "basis_level": "product",
+    "sample_size": 10,
+    "used_organic_only": false,
+    "hour_start": 22,
+    "hour_end": 24,
+    "best_weekdays": [
+      0,
+      2
+    ]
+  }
 }
