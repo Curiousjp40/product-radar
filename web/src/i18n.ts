@@ -51,7 +51,6 @@ const dict: Record<string, { es: string; en: string }> = {
   reply_stat_label: { es: "Respuestas a comentarios", en: "Replies to comments" },
   price_mention_stat_label: { es: "Mencionan el precio", en: "Mention the price" },
   ad_stat_label: { es: "Son anuncios", en: "Are ads" },
-  best_hour_label: { es: "Mejor hora para publicar", en: "Best time to post" },
   hooks_label: { es: "Ganchos que funcionan", en: "Hooks that work" },
   // "Hoy" tab (Part C, added 2026-10-15).
   hoy_title: { es: "Qué grabo hoy", en: "What to film today" },
@@ -293,6 +292,9 @@ const dict: Record<string, { es: string; en: string }> = {
     en: "Sample data -- this isn't real yet (Phase 0a)",
   },
   no_data: { es: "No hay datos disponibles.", en: "No data available." },
+  group_filter_all: { es: "Todo", en: "All" },
+  group_filter_moda: { es: "Moda", en: "Fashion" },
+  group_filter_hogar: { es: "Hogar", en: "Home" },
   // "Buscar cuenta" (account search Worker), added 2026-10-15.
   buscar_cuenta_title: { es: "Buscar cuenta", en: "Search account" },
   search_button: { es: "Buscar", en: "Search" },
@@ -341,9 +343,10 @@ const dict: Record<string, { es: string; en: string }> = {
   credits_widget_plan: { es: "{n} del plan", en: "{n} plan" },
   credits_widget_topup: { es: "{n} comprados", en: "{n} top-up" },
   credits_widget_reset: { es: "El plan se renueva el {date}", en: "Plan resets {date}" },
-  credits_widget_avg_per_week: { es: "~{n} créditos/semana en promedio", en: "~{n} credits/week on average" },
+  credits_widget_avg_per_run: { es: "~{n} créditos por corrida en promedio", en: "~{n} credits per run on average" },
+  credits_widget_avg_per_run_unknown: { es: "Promedio por corrida: — (necesita 2+ corridas)", en: "Average per run: — (needs 2+ runs)" },
   credits_widget_unavailable: { es: "No pudimos cargar el saldo de créditos.", en: "Couldn't load the credit balance." },
-  best_time_video_label: { es: "Mejor hora para grabar y publicar", en: "Best time to film and post" },
+  best_time_video_label: { es: "Mejor hora para publicar", en: "Best time to post" },
   best_time_video_unavailable: {
     es: "Todavía no tenemos suficientes videos para calcular la mejor hora.",
     en: "We don't have enough videos yet to calculate the best time.",

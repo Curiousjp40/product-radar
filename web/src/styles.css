@@ -637,6 +637,7 @@ select.status-select {
   gap: 12px;
 }
 
+
 .week-list {
   display: flex;
   flex-direction: column;

@@ -1,3 +1,4 @@
+import { loadMeta } from "../api";
 import { fetchCreditsSummary } from "../credits";
 import { t, type Lang } from "../i18n";
 
@@ -32,7 +33,7 @@ export function renderMore(container: HTMLElement, lang: Lang): void {
     </div>
   `;
 
-  void fetchCreditsSummary().then((summary) => {
+  void Promise.all([fetchCreditsSummary(), loadMeta().catch(() => null)]).then(([summary, meta]) => {
     const widget = container.querySelector(".credits-widget");
     if (!widget) return;
     if (!summary) {
@@ -40,6 +41,11 @@ export function renderMore(container: HTMLElement, lang: Lang): void {
       return;
     }
     const total = summary.plan_credits_remaining + summary.topup_credits_remaining;
+    const avgPerRun = meta?.data?.avg_credits_per_run ?? null;
+    const avgLine =
+      avgPerRun !== null
+        ? t("credits_widget_avg_per_run", lang, { n: Math.round(avgPerRun) })
+        : t("credits_widget_avg_per_run_unknown", lang);
     widget.innerHTML = `
       <h3>${t("credits_widget_title", lang)}</h3>
       <p class="goal-progress-text">${t("credits_widget_remaining", lang, { n: total })}</p>
@@ -48,7 +54,7 @@ export function renderMore(container: HTMLElement, lang: Lang): void {
         ${t("credits_widget_topup", lang, { n: summary.topup_credits_remaining })}
       </p>
       <p class="goal-progress-text" style="color:var(--text-dim)">${t("credits_widget_reset", lang, { date: formatResetDate(summary.plan_expire_at, lang) })}</p>
-      ${summary.avg_credits_per_week !== null ? `<p class="goal-progress-text" style="color:var(--text-dim)">${t("credits_widget_avg_per_week", lang, { n: summary.avg_credits_per_week })}</p>` : ""}
+      <p class="goal-progress-text" style="color:var(--text-dim)">${avgLine}</p>
     `;
   });
 }

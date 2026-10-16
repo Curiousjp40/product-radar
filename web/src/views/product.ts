@@ -101,17 +101,6 @@ function statBox(value: string, label: string): string {
   return `<div class="stat-box"><b>${value}</b><span>${label}</span></div>`;
 }
 
-// "7-9 PM" style: 24h hour -> 12h, condensed to one AM/PM suffix when both
-// ends share it (the common case), e.g. 19/21 -> "7-9 PM".
-function formatHourRange(hourStart: number, hourEnd: number): string {
-  const to12 = (h: number) => (h % 12 === 0 ? 12 : h % 12);
-  const period = (h: number) => (h < 12 ? "AM" : "PM");
-  const startPeriod = period(hourStart);
-  const endPeriod = period(hourEnd);
-  if (startPeriod === endPeriod) return `${to12(hourStart)}-${to12(hourEnd)} ${startPeriod}`;
-  return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
-}
-
 function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
   const duration =
     formula.ideal_duration.seconds !== null
@@ -147,14 +136,6 @@ function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
           ${t("ad_stat_label", lang)}: ${stats.ad_pct}%
         </div>
       </div>
-      ${
-        formula.best_posting_hour
-          ? `<div class="formula-section">
-              <span class="formula-label">${t("best_hour_label", lang)}</span>
-              <div class="formula-value">${formatHourRange(formula.best_posting_hour.hour_start, formula.best_posting_hour.hour_end)}</div>
-            </div>`
-          : ""
-      }
       ${
         formula.top_hooks.length > 0
           ? `<div class="formula-section">

@@ -42,10 +42,10 @@
       ]
     },
     "home_decor": {
-      "sample_size": 64,
+      "sample_size": 42,
       "used_organic_only": true,
-      "hour_start": 4,
-      "hour_end": 6,
+      "hour_start": 2,
+      "hour_end": 4,
       "best_weekdays": [
         2,
         4
@@ -119,13 +119,13 @@
       ]
     },
     "home": {
-      "sample_size": 127,
+      "sample_size": 105,
       "used_organic_only": true,
       "hour_start": 4,
       "hour_end": 6,
       "best_weekdays": [
-        2,
-        5
+        3,
+        2
       ]
     }
   },

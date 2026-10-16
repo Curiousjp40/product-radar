@@ -113,6 +113,14 @@ picks: # section 6.12 / 6.13
   max_per_brand: 1 # added 2026-10-19: stricter than max_per_shop -- the same brand can sell through more than one shop
   min_moda_core_picks: 2 # added 2026-10-19: real case, 2026-W42's Top 9 had zero fajas/vestidos/conjuntos
   min_hogar_picks: 2 # same date -- Hogar was also under-represented that week
+  # "More clothing in Esta semana" (2026-10-16): the actual lever is
+  # max_hogar_picks (enforce_group_maximum, applied to the full 20-pick
+  # list) -- capping Hogar at 6 out of 20 guarantees Moda at >= 14 since
+  # every scanned category is either "fashion" or "home". min_moda_picks
+  # is kept alongside it for documentation/parity with the request, though
+  # nothing currently reads it as its own floor.
+  min_moda_picks: 14
+  max_hogar_picks: 6
   title_jaccard_duplicate_threshold: 0.6
   rank_blend:
     score_weight: 0.5

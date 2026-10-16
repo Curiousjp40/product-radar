@@ -23,3 +23,21 @@ export function productsToFilmToday(pickIds: string[], today: Date, excludeIds: 
   const rotated = [...eligible.slice(offset), ...eligible.slice(0, offset)];
   return rotated.slice(0, count);
 }
+
+/** Part C "wording + hero" fix (2026-10-16): the hero ("Grabalo primero")
+ * must never be a product with falling 7-day sales -- reorders the
+ * already-rotated list so the first item with a non-negative (or
+ * unknown, i.e. not enough data to call it falling) trend leads, instead
+ * of always using whichever happened to land first in the rotation.
+ * Falls back to the original order if EVERY eligible product is falling
+ * (never blocks the feature outright for one bad week). `trendPctFor`
+ * returns weeklyUnitsChangePct's result (null | number) for an id, so
+ * this stays decoupled from the Pick shape itself. */
+export function reorderForHero(ids: string[], trendPctFor: (id: string) => number | null): string[] {
+  const index = ids.findIndex((id) => {
+    const pct = trendPctFor(id);
+    return pct === null || pct >= 0;
+  });
+  if (index <= 0) return ids;
+  return [ids[index], ...ids.slice(0, index), ...ids.slice(index + 1)];
+}

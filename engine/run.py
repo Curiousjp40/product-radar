@@ -28,6 +28,7 @@ from engine.budget import (
     BudgetTracker,
     MissingSnapshotError,
     append_credit_log,
+    average_credits_per_run,
     check_balance,
     credits_used_for_week,
     dynamic_weekly_budget,
@@ -73,6 +74,7 @@ from engine.picks import (
     build_top10,
     candidate_event_ids,
     compute_blended_ranks,
+    enforce_group_maximum,
     enforce_group_minimums,
     filter_diverse_topn,
     is_near_duplicate,
@@ -82,7 +84,7 @@ from engine.picks import (
     thompson_sample_categories,
 )
 from engine.posting_time import best_live_time_for_l1, best_time_for_pool, best_video_time, load_live_records, load_video_records
-from engine.quality import shop_round_price_cluster_ids, suspicious_reasons
+from engine.quality import filter_off_category, shop_round_price_cluster_ids, suspicious_reasons
 from engine.saturation import saturation_badge
 from engine.scoring import (
     composite_score,
@@ -927,8 +929,15 @@ def build_reasons(
                     reasons_es.append(render_reason("lead", "es"))
                     reasons_en.append(render_reason("lead", "en"))
                 else:
-                    reasons_es.append(render_reason("momentum", "es", pct=row["wow"] * 100))
-                    reasons_en.append(render_reason("momentum", "en", pct=row["wow"] * 100))
+                    # Fixed 2026-10-16: the template used to always say
+                    # "subieron"/"went up" even when wow was negative,
+                    # literally rendering "sales went up -39%". pct is
+                    # always the absolute value now; the template name
+                    # picks the right verb for the real direction.
+                    momentum_key = "momentum_up" if row["wow"] >= 0 else "momentum_down"
+                    pct_abs = abs(row["wow"] * 100)
+                    reasons_es.append(render_reason(momentum_key, "es", pct=pct_abs))
+                    reasons_en.append(render_reason(momentum_key, "en", pct=pct_abs))
             elif comp == "earnings":
                 reasons_es.append(render_reason("earnings", "es", amount=row["earnings_per_sale"]))
                 reasons_en.append(render_reason("earnings", "en", amount=row["earnings_per_sale"]))
@@ -1100,6 +1109,28 @@ def assemble_picks(
         explore_slots=weights["picks"]["explore_slots"],
         evergreen_slots=0,  # no evergreen candidate available yet this run
     )
+    # "More clothing in Esta semana" (2026-10-16): caps Hogar at
+    # max_hogar_picks across the FULL final list (core + explore +
+    # evergreen), not just the core slots -- explore/evergreen aren't
+    # restricted by group and could otherwise push Hogar back over budget
+    # after enforce_group_minimums above only guarded the core slots. Since
+    # every scanned category is either "fashion" or "home" (categories.yaml),
+    # capping Hogar at max_hogar_picks also guarantees min_moda_picks whenever
+    # the list reaches its full target size.
+    if categories_cfg is not None:
+        max_hogar = weights["picks"].get("max_hogar_picks")
+        if max_hogar is not None:
+            picks = enforce_group_maximum(
+                picks,
+                ranked,
+                categories_cfg,
+                predicate=lambda meta: meta.get("group") == "home",
+                max_count=max_hogar,
+                max_per_category=max_per_category,
+                max_per_shop=max_per_shop,
+                max_per_brand=max_per_brand,
+                title_jaccard_threshold=title_jaccard_threshold,
+            )
     return picks
 
 
@@ -1189,6 +1220,9 @@ def picks_to_export_dicts(
                 # needs the localized label without a per-product fetch.
                 "category_label_es": cat_meta.get("label_es", p["config_category"]),
                 "category_label_en": cat_meta.get("label_en", p["config_category"]),
+                # Moda/Hogar/Todo filter on Esta semana (added 2026-10-16):
+                # needs each pick's group without a per-category lookup.
+                "group": cat_meta.get("group", "fashion"),
                 # H3 (added 2026-10-15): earnings/hour on the product page
                 # comes from pairing this with earnings_per_sale client-side.
                 "effort_minutes": cat_meta.get("effort_minutes"),
@@ -1609,6 +1643,15 @@ async def run(args: argparse.Namespace) -> None:
                 pool = ingest_from_snapshots(args.resume_week, category_keys)
             else:
                 pool = await ingest(client, config, week, date_value, today, tracker, args.dry_run)
+            # Off-category filter (added 2026-10-16): a hard drop, unlike
+            # the suspicious-listing filter below -- these aren't flagged
+            # for review, they're simply the wrong kind of product for
+            # their category (stickers under "home decor", etc.), per
+            # config/categories.yaml's exclude_title_keywords/require_
+            # title_keywords.
+            pool, off_category_dropped = filter_off_category(pool, config["categories"]["categories"])
+            for d in off_category_dropped:
+                print(f"Dropped off-category: {d['title']!r} ({d['config_category']}) -- {d['drop_reason']}")
             # Suspicious-listing filter (added 2026-10-15): exclude from
             # scoring/picks, but keep (with reasons) for export so they're
             # visible rather than silently dropped.
@@ -1735,6 +1778,7 @@ async def run(args: argparse.Namespace) -> None:
             credits_used_this_week=credits_used_for_week(conn, week),
             credits_used_month=500 - final_balance,
             credits_balance=final_balance,
+            avg_credits_per_run=average_credits_per_run(conn),
         )
         append_credit_log(
             run_id,

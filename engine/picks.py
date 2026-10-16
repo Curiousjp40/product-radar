@@ -186,6 +186,75 @@ def enforce_group_minimums(
     return working
 
 
+def enforce_group_maximum(
+    selected: list[dict],
+    ranked_candidates: list[dict],
+    categories_cfg: dict,
+    predicate: Callable[[dict], bool],
+    max_count: int,
+    max_per_category: int,
+    max_per_shop: int,
+    max_per_brand: int,
+    title_jaccard_threshold: float,
+) -> list[dict]:
+    """The mirror of `enforce_group_minimums`: caps how many of `selected`
+    may satisfy `predicate` at `max_count`, instead of guaranteeing a floor.
+
+    Added 2026-10-16 for Roxie's "more clothing in Esta semana" request
+    (~14 fashion / 6 home out of 20): applied to the FULL final picks list
+    (core + explore + evergreen), not just the core slots, since explore/
+    evergreen candidates aren't restricted by group and could otherwise
+    push Hogar back over its cap after `enforce_group_minimums` already
+    guaranteed Moda-core's own floor within the core slots alone.
+
+    Drops the worst-ranked (highest blended_rank) matching picks over the
+    cap, backfilling each dropped slot with the best-ranked NON-matching
+    candidate from `ranked_candidates` that doesn't violate the existing
+    diversity caps or near-duplicate check. A backfill that can't be made
+    (no eligible candidate left) just shrinks the list by one rather than
+    forcing a bad pick."""
+    working = list(selected)
+    matching = [c for c in working if predicate(categories_cfg.get(c["category"], {}))]
+    excess = len(matching) - max_count
+    if excess <= 0:
+        return working
+    worst_first = sorted(matching, key=lambda c: c["blended_rank"], reverse=True)
+    drop_ids = {c["product_id"] for c in worst_first[:excess]}
+    working = [c for c in working if c["product_id"] not in drop_ids]
+    used_ids = {c["product_id"] for c in working}
+    target_size = len(selected)
+    for cand in ranked_candidates:
+        if len(working) >= target_size:
+            break
+        if cand["product_id"] in used_ids or predicate(categories_cfg.get(cand["category"], {})):
+            continue
+        category_counts: dict[str, int] = {}
+        shop_counts: dict[str, int] = {}
+        brand_counts: dict[str, int] = {}
+        for c in working:
+            category_counts[c["category"]] = category_counts.get(c["category"], 0) + 1
+            shop_counts[c["shop_id"]] = shop_counts.get(c["shop_id"], 0) + 1
+            brand_counts[extract_brand(c["title"])] = brand_counts.get(extract_brand(c["title"]), 0) + 1
+        brand = extract_brand(cand["title"])
+        if (
+            category_counts.get(cand["category"], 0) >= max_per_category
+            or shop_counts.get(cand["shop_id"], 0) >= max_per_shop
+            or brand_counts.get(brand, 0) >= max_per_brand
+            or any(is_near_duplicate(cand["title"], s["title"], title_jaccard_threshold) for s in working)
+        ):
+            continue
+        # A backfilled candidate comes straight from `ranked_candidates`,
+        # which never went through build_top10's `add()` -- it has no
+        # "kind"/"slot" yet (those get reassigned below for the whole list
+        # anyway, but "kind" has no other source, so default it to "core").
+        working.append({**cand, "kind": cand.get("kind", "core")})
+        used_ids.add(cand["product_id"])
+    working.sort(key=lambda c: c["blended_rank"])
+    for i, c in enumerate(working, start=1):
+        c["slot"] = i
+    return working
+
+
 def exclude_recent_films(
     candidates: list[dict],
     recently_filmed_product_ids: set[str],
@@ -301,8 +370,14 @@ _REASON_TEMPLATES = {
     # "Tus ventas"/"Your sales" (fixed 2026-10-15) wrongly implied this was
     # Roxie's own sales history -- it's market-wide units_7d growth for this
     # product (wow/slope14), not anything she's actually sold.
-    ("momentum", "es"): "Las ventas de este producto subieron {pct:.0f}% esta semana.",
-    ("momentum", "en"): "Sales of this product went up {pct:.0f}% this week.",
+    # Split into up/down (fixed 2026-10-16): a single "subieron {pct}%"
+    # template rendered literally "went up -39%" for a falling product --
+    # the number's sign was right, the VERB was always wrong. {pct} here
+    # is always the absolute value; the template picks the right verb.
+    ("momentum_up", "es"): "Las ventas de este producto subieron {pct:.0f}% esta semana.",
+    ("momentum_up", "en"): "Sales of this product went up {pct:.0f}% this week.",
+    ("momentum_down", "es"): "Las ventas bajaron {pct:.0f}% esta semana.",
+    ("momentum_down", "en"): "Sales dropped {pct:.0f}% this week.",
     # The "lead" momentum term (spec 6.2, creator/video growth leading
     # GMV by about a week) -- used instead of the wow% sentence above
     # when lead is momentum's biggest driver, added 2026-10-16 once

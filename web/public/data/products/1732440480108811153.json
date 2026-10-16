@@ -28,10 +28,10 @@
   "pocas_creadoras_latinas": false,
   "best_video_time": {
     "basis_level": "category",
-    "sample_size": 64,
+    "sample_size": 42,
     "used_organic_only": true,
-    "hour_start": 4,
-    "hour_end": 6,
+    "hour_start": 2,
+    "hour_end": 4,
     "best_weekdays": [
       2,
       4

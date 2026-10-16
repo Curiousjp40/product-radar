@@ -15,6 +15,7 @@ flagging everything it can't check.
 
 from __future__ import annotations
 
+import re
 from collections.abc import Sequence
 
 from engine.stats import jaccard, tokenize_title
@@ -105,6 +106,56 @@ def low_affiliate_channel_share(
         if row.get("sales_channel") == "affiliate":
             return row.get("gmv_share_percent", 0) < threshold_pct
     return None
+
+
+def off_category_drop_reason(title: str, category_cfg: dict) -> str | None:
+    """Roxie's "block stickers + off-category items in home" request
+    (2026-10-16): config/categories.yaml's home_decor/home_storage entries
+    got `exclude_title_keywords` (wall stickers, decals, tape... keep
+    showing up under the "Decoration" FastMoss category id even though
+    they aren't decor) and home_decor additionally got
+    `require_title_keywords` (an item must mention an actual decor term --
+    without it, something like an "Onyx Silent Vibration Wrist-Worn
+    Device" alarm slips through just because FastMoss filed it there).
+
+    Keyword matching is whole-word (`\\b`), not substring -- a real run
+    caught "magnet" as an exclude keyword also matching "magnetic" in
+    legitimate storage-bin titles ("Magnetic Doors", "magnetic transparent
+    door shoe cabinet"), wrongly dropping them for a Christmas-magnet
+    keyword that was never meant to touch that word.
+
+    Returns a human-readable drop reason, or None if the title is fine."""
+    text = title.lower()
+
+    def word_in_text(keyword: str) -> bool:
+        return re.search(rf"\b{re.escape(keyword.lower())}\b", text) is not None
+
+    for kw in category_cfg.get("exclude_title_keywords", []):
+        if word_in_text(kw):
+            return f"matched excluded keyword {kw!r}"
+    required = category_cfg.get("require_title_keywords")
+    if required and not any(word_in_text(kw) for kw in required):
+        return "title doesn't match any required decor keyword"
+    return None
+
+
+def filter_off_category(candidates: Sequence[dict], categories_cfg: dict) -> tuple[list[dict], list[dict]]:
+    """Splits `candidates` into (kept, dropped) using `off_category_drop_reason`
+    against each candidate's own config_category entry. Dropped items carry
+    a `drop_reason` field so the caller can log exactly what was removed and
+    why -- this is a hard drop (unlike partition_suspicious's flagged-but-
+    exported items), since these aren't suspicious, they're simply not the
+    right kind of product for the category at all."""
+    kept: list[dict] = []
+    dropped: list[dict] = []
+    for c in candidates:
+        category_cfg = categories_cfg.get(c["config_category"], {})
+        reason = off_category_drop_reason(c["title"], category_cfg)
+        if reason is None:
+            kept.append(c)
+        else:
+            dropped.append({**c, "drop_reason": reason})
+    return kept, dropped
 
 
 def suspicious_reasons(

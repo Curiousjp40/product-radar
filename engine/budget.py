@@ -139,6 +139,36 @@ def credits_used_for_week(conn: sqlite3.Connection, week: str) -> int:
     return int(row[0])
 
 
+def average_credits_per_run(conn: sqlite3.Connection) -> float | None:
+    """Mas's credits widget bug (fixed 2026-10-16): it was showing
+    total_consumed_credits / weeks-since-plan-started, which isn't a
+    per-run average at all -- it read "~2071 credits/week" right after
+    the 2026-10-16 backfill made total_consumed look huge over a tiny
+    time window. The real number lives only in the local credit_ledger
+    (data/radar.db), which the Worker/frontend can't reach, so this is
+    computed here at export time and written into meta.json.
+
+    Averages credits spent per REAL weekly/midweek run (grouped by
+    run_id), excluding one-time ops: the video backfill (run_id contains
+    "-backfill-") and the monthly live-timing pull (run_id contains
+    "-live-") -- neither recurs weekly, so including them would badly
+    skew the number. Returns None with fewer than 2 qualifying runs (the
+    frontend shows "--" rather than a misleadingly confident average from
+    a single week)."""
+    rows = conn.execute(
+        """
+        SELECT run_id, SUM(credits) AS total
+        FROM credit_ledger
+        WHERE run_id NOT LIKE '%-backfill-%' AND run_id NOT LIKE '%-live-%'
+        GROUP BY run_id
+        """
+    ).fetchall()
+    if len(rows) < 2:
+        return None
+    totals = [row[1] for row in rows]
+    return sum(totals) / len(totals)
+
+
 def append_credit_log(run_id: str, date: str, credits_used: int, balance_after: int, notes: str) -> None:
     """Appends one line to docs/credit_log.md, matching its existing table
     format. balance_after is the plan+top-up total (no fixed "/500" any

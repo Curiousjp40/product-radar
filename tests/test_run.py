@@ -123,6 +123,15 @@ def test_build_reasons_uses_lead_sentence_when_lead_dominates_momentum():
     assert any("new creators" in r for r in reasons_en)
 
 
+def test_build_reasons_uses_dropped_sentence_for_negative_wow():
+    row = _row(z_fit=0.0, wow=-0.39, has_lead=False)
+    reasons_es, reasons_en = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM)
+    assert any("bajaron 39%" in r for r in reasons_es)
+    assert any("dropped 39%" in r for r in reasons_en)
+    assert not any("-39" in r for r in reasons_es + reasons_en)
+    assert not any("subieron" in r or "went up" in r for r in reasons_es + reasons_en)
+
+
 def test_build_reasons_uses_wow_sentence_without_momentum_weights():
     # Same lead-dominant row, but momentum_weights omitted (default None) --
     # must fall back to the plain wow% sentence, never raise.
@@ -168,6 +177,7 @@ def _weights(
     max_per_brand=10,
     min_moda_core_picks=0,
     min_hogar_picks=0,
+    max_hogar_picks=None,
 ):
     # max_per_brand defaults loose (10) here since these tests target the
     # category/shop caps specifically, and several synthetic candidate sets
@@ -183,6 +193,7 @@ def _weights(
             "max_per_brand": max_per_brand,
             "min_moda_core_picks": min_moda_core_picks,
             "min_hogar_picks": min_hogar_picks,
+            "max_hogar_picks": max_hogar_picks,
             "title_jaccard_duplicate_threshold": 0.6,
         }
     }
@@ -343,6 +354,94 @@ def test_assemble_picks_backfills_moda_core_and_hogar_minimums():
     picks = assemble_picks(df, weights, categories_cfg=categories_cfg)
     assert {p["product_id"] for p in picks} == {"2", "3"}
     assert all(p["kind"] == "core" for p in picks)
+
+
+def test_assemble_picks_caps_hogar_at_max_hogar_picks():
+    # "More clothing in Esta semana" (2026-10-16): with 2 Moda and 2 Hogar
+    # candidates all scoring well, a max_hogar_picks=1 cap must drop the
+    # weaker Hogar pick and backfill with the next-best Moda candidate
+    # instead of just shrinking the list to 3.
+    rows = [
+        {"product_id": "0", "config_category": "shoes", "shop_id": "shopA", "title": "Crocs Clogs", "score": 95, "ev_typical": 60},
+        {
+            "product_id": "1",
+            "config_category": "shapewear",
+            "shop_id": "shopB",
+            "title": "YIANNA Shapewear",
+            "score": 90,
+            "ev_typical": 55,
+        },
+        {
+            "product_id": "2",
+            "config_category": "furniture",
+            "shop_id": "shopC",
+            "title": "COLAMY Chair",
+            "score": 85,
+            "ev_typical": 50,
+        },
+        {
+            "product_id": "3",
+            "config_category": "home_decor",
+            "shop_id": "shopD",
+            "title": "Boho Vase",
+            "score": 80,
+            "ev_typical": 45,
+        },
+        {
+            "product_id": "4",
+            "config_category": "dresses",
+            "shop_id": "shopE",
+            "title": "Floral Midi Dress",
+            "score": 70,
+            "ev_typical": 40,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    categories_cfg = {
+        "shoes": {"group": "fashion", "tier": "secondary"},
+        "shapewear": {"group": "fashion", "tier": "core"},
+        "furniture": {"group": "home", "tier": "core"},
+        "home_decor": {"group": "home", "tier": "core"},
+        "dresses": {"group": "fashion", "tier": "core"},
+    }
+    weights = _weights(core_slots=4, explore_slots=0, max_hogar_picks=1)
+    picks = assemble_picks(df, weights, categories_cfg=categories_cfg)
+    hogar_count = sum(1 for p in picks if categories_cfg[p["config_category"]]["group"] == "home")
+    assert hogar_count == 1
+    assert len(picks) == 4
+    # the backfill must be the next-best-ranked Moda candidate (dresses),
+    # not just any leftover -- the weaker Hogar pick (home_decor) is gone.
+    assert "4" in {p["product_id"] for p in picks}
+    assert "3" not in {p["product_id"] for p in picks}
+
+
+def test_assemble_picks_max_hogar_picks_none_leaves_list_unchanged():
+    rows = [
+        {
+            "product_id": "0",
+            "config_category": "furniture",
+            "shop_id": "shopA",
+            "title": "COLAMY Chair",
+            "score": 90,
+            "ev_typical": 50,
+        },
+        {
+            "product_id": "1",
+            "config_category": "home_decor",
+            "shop_id": "shopB",
+            "title": "Boho Vase",
+            "score": 85,
+            "ev_typical": 45,
+        },
+    ]
+    df = pd.DataFrame(rows)
+    categories_cfg = {
+        "furniture": {"group": "home", "tier": "core"},
+        "home_decor": {"group": "home", "tier": "core"},
+    }
+    weights = _weights(core_slots=2, explore_slots=0)  # max_hogar_picks defaults to None
+    picks = assemble_picks(df, weights, categories_cfg=categories_cfg)
+    assert {p["product_id"] for p in picks} == {"0", "1"}
 
 
 def test_assemble_picks_skips_minimums_when_categories_cfg_omitted():

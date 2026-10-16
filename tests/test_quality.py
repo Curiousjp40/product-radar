@@ -1,10 +1,12 @@
 
 from engine.quality import (
+    filter_off_category,
     has_low_creator_density,
     is_boilerplate_title,
     is_price_outlier,
     is_round_price,
     low_affiliate_channel_share,
+    off_category_drop_reason,
     shop_round_price_cluster_ids,
     suspicious_reasons,
 )
@@ -132,3 +134,51 @@ def test_suspicious_reasons_low_creator_density_message():
     }
     reasons = suspicious_reasons(candidate, category_median_price=50, shop_price_cluster_ids=set())
     assert any("content-driven" in r for r in reasons)
+
+
+_HOME_DECOR_CFG = {
+    "exclude_title_keywords": ["sticker", "stickers", "decal", "tape"],
+    "require_title_keywords": ["decor", "lamp", "rug", "mirror", "vase", "pillow", "candle"],
+}
+_HOME_STORAGE_CFG = {"exclude_title_keywords": ["sticker", "stickers", "decal", "tape"]}
+
+
+def test_off_category_drop_reason_drops_excluded_keyword():
+    reason = off_category_drop_reason("Floor Wall Stickers Decorative Decals Set", _HOME_DECOR_CFG)
+    assert reason is not None
+    assert "sticker" in reason
+
+
+def test_off_category_drop_reason_drops_when_no_required_keyword_matches():
+    reason = off_category_drop_reason("Onyx Silent Vibration Wrist-Worn Device", _HOME_DECOR_CFG)
+    assert reason is not None
+    assert "required" in reason
+
+
+def test_off_category_drop_reason_keeps_real_decor():
+    assert off_category_drop_reason("Boho Ceramic Vase with Dried Flowers", _HOME_DECOR_CFG) is None
+
+
+def test_off_category_drop_reason_home_storage_has_no_required_keywords():
+    # home_storage only blocks excluded keywords -- no require_title_keywords,
+    # so a legitimate storage item with no "decor" word still passes.
+    assert off_category_drop_reason("Clear Stackable Closet Storage Bin", _HOME_STORAGE_CFG) is None
+
+
+def test_off_category_drop_reason_home_storage_still_blocks_stickers():
+    reason = off_category_drop_reason("Drawer Organizer Labels Stickers", _HOME_STORAGE_CFG)
+    assert reason is not None
+
+
+def test_filter_off_category_splits_and_tags_drop_reason():
+    candidates = [
+        {"product_id": "1", "config_category": "home_decor", "title": "Boho Ceramic Vase"},
+        {"product_id": "2", "config_category": "home_decor", "title": "Wall Stickers Pack"},
+        {"product_id": "3", "config_category": "home_storage", "title": "Closet Storage Bin"},
+        {"product_id": "4", "config_category": "shapewear", "title": "High Waist Shaper"},
+    ]
+    categories_cfg = {"home_decor": _HOME_DECOR_CFG, "home_storage": _HOME_STORAGE_CFG, "shapewear": {}}
+    kept, dropped = filter_off_category(candidates, categories_cfg)
+    assert {c["product_id"] for c in kept} == {"1", "3", "4"}
+    assert {c["product_id"] for c in dropped} == {"2"}
+    assert "drop_reason" in dropped[0]

@@ -5,6 +5,7 @@ import pytest
 from engine.budget import (
     BudgetExceeded,
     BudgetTracker,
+    average_credits_per_run,
     check_balance,
     credits_used_for_week,
     dynamic_weekly_budget,
@@ -67,6 +68,30 @@ def test_credits_used_for_week_sums_across_resumed_run_ids(tmp_path):
 def test_credits_used_for_week_zero_when_no_rows(tmp_path):
     conn = connect(tmp_path / "radar.db")
     assert credits_used_for_week(conn, "2026-W50") == 0
+
+
+def test_average_credits_per_run_averages_qualifying_runs(tmp_path):
+    conn = connect(tmp_path / "radar.db")
+    write_ledger_row(conn, run_id="2026-W41-aaaaaaaa", tool="product_rank_top_selling", credits=40, ok=True)
+    write_ledger_row(conn, run_id="2026-W41-aaaaaaaa", tool="spanish_gap", credits=10, ok=True)
+    write_ledger_row(conn, run_id="2026-W42-bbbbbbbb", tool="product_rank_top_selling", credits=30, ok=True)
+    assert average_credits_per_run(conn) == 40
+
+
+def test_average_credits_per_run_excludes_backfill_and_live_runs(tmp_path):
+    conn = connect(tmp_path / "radar.db")
+    write_ledger_row(conn, run_id="2026-W41-aaaaaaaa", tool="product_rank_top_selling", credits=40, ok=True)
+    write_ledger_row(conn, run_id="2026-W42-bbbbbbbb", tool="product_rank_top_selling", credits=20, ok=True)
+    write_ledger_row(conn, run_id="2026-W42-backfill-ffffffff", tool="product_video_list", credits=216, ok=True)
+    write_ledger_row(conn, run_id="2026-W42-live-eeeeeeee", tool="live_search", credits=15, ok=True)
+    assert average_credits_per_run(conn) == 30
+
+
+def test_average_credits_per_run_none_with_fewer_than_two_runs(tmp_path):
+    conn = connect(tmp_path / "radar.db")
+    assert average_credits_per_run(conn) is None
+    write_ledger_row(conn, run_id="2026-W41-aaaaaaaa", tool="product_rank_top_selling", credits=40, ok=True)
+    assert average_credits_per_run(conn) is None
 
 
 def test_budget_tracker_writes_ledger_row_immediately_when_conn_set(tmp_path):

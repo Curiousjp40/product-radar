@@ -7,14 +7,6 @@ export interface CreditsSummary {
   plan_credits_remaining: number;
   topup_credits_remaining: number;
   plan_expire_at: string;
-  avg_credits_per_week: number | null;
-}
-
-function weeksSince(isoLike: string): number | null {
-  const start = new Date(isoLike.replace(" ", "T"));
-  if (Number.isNaN(start.getTime())) return null;
-  const days = (Date.now() - start.getTime()) / 86_400_000;
-  return days > 0 ? days / 7 : null;
 }
 
 export async function fetchCreditsSummary(): Promise<CreditsSummary | null> {
@@ -24,22 +16,22 @@ export async function fetchCreditsSummary(): Promise<CreditsSummary | null> {
     if (!resp.ok) return null;
     const data = await resp.json();
     const expireAt = data?.entitlements?.plan_expire_at;
-    const totalConsumed = data?.balance?.total_consumed_credits;
-    const buckets: { source_type?: number; remaining_credits?: number; effective_at?: string }[] = data?.credit_buckets ?? [];
+    const buckets: { source_type?: number; remaining_credits?: number }[] = data?.credit_buckets ?? [];
     // source_type 2 = subscription (plan) bucket, 1 = top-up package --
     // *_credits_remaining comes from each bucket's own remaining_credits,
     // not granted_by_source (which is lifetime granted, not what's left).
     const planBucket = buckets.find((b) => b.source_type === 2);
     const topupRemaining = buckets.filter((b) => b.source_type === 1).reduce((sum, b) => sum + (b.remaining_credits ?? 0), 0);
     const plan = planBucket?.remaining_credits;
-    // The plan bucket's effective_at is when this plan period started --
-    // used as a rough "credits used per week so far" since the Worker
-    // only proxies the free summary, not the local credit ledger
-    // (data/radar.db); this is the best free approximation available.
-    const weeks = typeof planBucket?.effective_at === "string" ? weeksSince(planBucket.effective_at) : null;
-    const avgPerWeek = weeks && typeof totalConsumed === "number" ? Math.round(totalConsumed / weeks) : null;
+    // The "credits/week" average used to be computed here from
+    // total_consumed_credits / time-since-plan-start -- that produced
+    // "~2071 credits/week" right after a one-time backfill inflated
+    // total_consumed over a tiny elapsed window. Fixed 2026-10-16: the
+    // real per-run average now comes from meta.json's avg_credits_per_run
+    // (engine.budget.average_credits_per_run, computed from the local
+    // credit_ledger, which this Worker route has no access to).
     if (typeof plan !== "number" || typeof expireAt !== "string") return null;
-    return { plan_credits_remaining: plan, topup_credits_remaining: topupRemaining, plan_expire_at: expireAt, avg_credits_per_week: avgPerWeek };
+    return { plan_credits_remaining: plan, topup_credits_remaining: topupRemaining, plan_expire_at: expireAt };
   } catch {
     return null;
   }

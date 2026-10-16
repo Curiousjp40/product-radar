@@ -23,6 +23,7 @@ export interface Pick {
   category: string;
   category_label_es: string;
   category_label_en: string;
+  group: CategoryGroup;
   shop_name: string;
   price: number;
   commission_rate: number;
@@ -240,6 +241,12 @@ export interface MetaFile {
   credits_used_month: number;
   credits_balance: number;
   weights_version: string;
+  // Fixes the Mas credits widget showing "~2071 credits/week" (that was
+  // total_consumed_credits / time-since-plan-start, not a per-run average).
+  // Computed server-side from the local credit_ledger (engine.budget.
+  // average_credits_per_run), since the Worker/frontend can't reach it.
+  // null until there are 2+ qualifying weekly/midweek runs.
+  avg_credits_per_run: number | null;
 }
 
 export type PipelineStatusName =

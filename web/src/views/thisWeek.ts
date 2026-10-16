@@ -6,7 +6,7 @@ import { getAllMisProductos, ownedProductIds } from "../misProductos";
 import { t, type Lang } from "../i18n";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
-import type { Candidate, ComboPair, Pick } from "../types";
+import type { Candidate, CategoryGroup, ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
 import { productCardInfoHtml } from "./productCard";
@@ -22,16 +22,30 @@ function summaryFor(pick: Pick, lang: Lang): string {
   return lang === "es" ? pick.summary_es : pick.summary_en;
 }
 
-// Same "7-9 PM" condensing as product.ts's formatHourRange -- duplicated
-// rather than shared since it's a one-off one-liner, matching this
-// codebase's existing per-file duplication of formatCount etc.
-function formatHourRange(hourStart: number, hourEnd: number): string {
-  const to12 = (h: number) => (h % 12 === 0 ? 12 : h % 12);
-  const period = (h: number) => (h < 12 ? "AM" : "PM");
-  const startPeriod = period(hourStart);
-  const endPeriod = period(hourEnd);
-  if (startPeriod === endPeriod) return `${to12(hourStart)}-${to12(hourEnd)} ${startPeriod}`;
-  return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
+const GROUP_FILTERS: { value: "all" | CategoryGroup; labelKey: string }[] = [
+  { value: "all", labelKey: "group_filter_all" },
+  { value: "fashion", labelKey: "group_filter_moda" },
+  { value: "home", labelKey: "group_filter_hogar" },
+];
+
+function groupFilterHtml(active: "all" | CategoryGroup, lang: Lang): string {
+  return `
+    <div class="group-tabs" role="tablist">
+      ${GROUP_FILTERS.map(
+        (f) =>
+          `<button type="button" class="${f.value === active ? "active" : ""}" data-group-filter="${f.value}">${t(f.labelKey, lang)}</button>`,
+      ).join("")}
+    </div>
+  `;
+}
+
+function wireGroupFilter(container: HTMLElement, lang: Lang): void {
+  container.querySelectorAll<HTMLButtonElement>("[data-group-filter]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const value = btn.dataset.groupFilter as "all" | CategoryGroup;
+      void renderThisWeek(container, lang, value);
+    });
+  });
 }
 
 function pickCardInput(pick: Pick) {
@@ -183,7 +197,6 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
   const formula = pick.formula_ganadora;
   const topHashtags = formula?.top_hashtags.slice(0, 5) ?? [];
   const topHook = formula?.top_hooks[0];
-  const bestHour = formula?.best_posting_hour;
   const infoHtml = productCardInfoHtml(pickCardInput(pick), {
     lang,
     monthlyGoalRemaining,
@@ -242,14 +255,6 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
             </div>`
           : ""
       }
-      ${
-        bestHour
-          ? `<div class="formula-section">
-              <span class="formula-label">${t("best_hour_label", lang)}</span>
-              <div class="formula-value">${formatHourRange(bestHour.hour_start, bestHour.hour_end)}</div>
-            </div>`
-          : ""
-      }
       <div class="card-actions week-detail-actions">
         <a class="btn-primary" href="${pick.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
         <button
@@ -271,7 +276,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
   `;
 }
 
-export async function renderThisWeek(container: HTMLElement, lang: Lang): Promise<void> {
+export async function renderThisWeek(container: HTMLElement, lang: Lang, filterGroup: "all" | CategoryGroup = "all"): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   const [{ data: rawData, isSample }, { data: hooks }, { data: candidatesData }] = await Promise.all([
     loadPicks(),
@@ -301,6 +306,10 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
+  // Moda/Hogar/Todo filter (2026-10-16): applies only to the list/detail
+  // split -- combosHtml and the "Todos" candidate list below it are
+  // unaffected, same as the existing not-for-me/hidden-category filtering.
+  const visiblePicks = filterGroup === "all" ? data.picks : data.picks.filter((p) => p.group === filterGroup);
   const picksById = new Map(data.picks.map((p) => [p.product_id, p]));
 
   function wireDetail(detailEl: HTMLElement, productId: string): void {
@@ -351,19 +360,30 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     renderDetail(productId);
   }
 
-  const firstId = data.picks[0].product_id;
+  if (visiblePicks.length === 0) {
+    container.innerHTML = `
+      ${banner}
+      ${groupFilterHtml(filterGroup, lang)}
+      <p class="empty-state">${t("no_data", lang)}</p>
+    `;
+    wireGroupFilter(container, lang);
+    return;
+  }
+  const firstId = visiblePicks[0].product_id;
   const excludeIds = new Set(data.picks.map((p) => p.product_id));
   container.innerHTML = `
     ${banner}
     ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
+    ${groupFilterHtml(filterGroup, lang)}
     <div class="week-split">
-      <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, p.product_id === firstId, ownedIds, monthlyGoalRemaining)).join("")}</div>
+      <div class="week-list">${visiblePicks.map((p) => rowHtml(p, lang, p.product_id === firstId, ownedIds, monthlyGoalRemaining)).join("")}</div>
       <div class="week-detail"></div>
     </div>
     <div class="category-hide-prompt-slot"></div>
     ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining)}
   `;
   renderDetail(firstId);
+  wireGroupFilter(container, lang);
 
   container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {
     const id = link.dataset.productId!;
@@ -389,10 +409,10 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
         const slot = container.querySelector(".category-hide-prompt-slot");
         if (slot) {
           slot.innerHTML = categoryHidePromptHtml(category, label ?? category, lang);
-          wireCategoryHidePrompt(container, () => void renderThisWeek(container, lang));
+          wireCategoryHidePrompt(container, () => void renderThisWeek(container, lang, filterGroup));
         }
       } else {
-        void renderThisWeek(container, lang);
+        void renderThisWeek(container, lang, filterGroup);
       }
     });
   });

@@ -69,6 +69,42 @@ categories:
     group: home
     price_group: home
     effort_minutes: 30 # H3, added 2026-10-15
+    # Added 2026-10-16 (Roxie's "block stickers + off-category items in
+    # home" request) after this category's "Decoration" L2 id kept
+    # surfacing wall/floor stickers and plain unrelated gadgets (e.g. an
+    # "Onyx Silent Vibration Wrist-Worn Device" alarm) that aren't decor at
+    # all. exclude_title_keywords drops a match outright; require_title_
+    # keywords additionally requires at least one decor term to match, or
+    # the item is dropped even if it hit no exclude keyword.
+    exclude_title_keywords:
+      - sticker
+      - stickers
+      - decal
+      - decals
+      - magnet
+      - magnets
+      - peel and stick
+      - wallpaper
+      - floor sticker
+      - tape
+    require_title_keywords:
+      - decor
+      - lamp
+      - rug
+      - mirror
+      - vase
+      - pillow
+      - curtain
+      - frame
+      - candle
+      - art
+      - shelf
+      - plant
+      - clock
+      - throw blanket
+      - wall
+      - tapestry
+      - centerpiece
 
   winter_clothing:
     label_es: Ropa de invierno
@@ -106,6 +142,20 @@ categories:
     group: home
     price_group: home
     effort_minutes: 30 # H3, added 2026-10-15
+    # Same sticker/decal block as home_decor (2026-10-16) -- no required-
+    # keyword allowlist here, storage items are too varied (bins, hooks,
+    # racks, dividers...) for one short list to not false-drop good ones.
+    exclude_title_keywords:
+      - sticker
+      - stickers
+      - decal
+      - decals
+      - magnet
+      - magnets
+      - peel and stick
+      - wallpaper
+      - floor sticker
+      - tape
 
   costumes:
     label_es: Disfraces

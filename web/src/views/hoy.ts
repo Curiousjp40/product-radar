@@ -7,7 +7,8 @@ import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt }
 import { t, type Lang } from "../i18n";
 import { getAllMisProductos, ownedProductIds } from "../misProductos";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
-import { productsToFilmToday } from "../rotation";
+import { productsToFilmToday, reorderForHero } from "../rotation";
+import { weeklyUnitsChangePct } from "../cardMetrics";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
 import type { HooksFile, Pick } from "../types";
@@ -208,8 +209,12 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const categoryByProductId = new Map(picksData.picks.map((p) => [p.product_id, p.category]));
   const postedIds = new Set(Object.entries(statuses).filter(([, s]) => s === "posted").map(([id]) => id));
   const allPickIds = visiblePicks.map((p) => p.product_id);
-  const todaysIds = productsToFilmToday(allPickIds, today, postedIds, 9);
+  const rotatedIds = productsToFilmToday(allPickIds, today, postedIds, 9);
   const byId = new Map(visiblePicks.map((p) => [p.product_id, p]));
+  // Part C "hero fix" (2026-10-16): never lead with a falling-sales
+  // product -- "Gradalo primero" should be her best flat-or-rising bet,
+  // not whichever happened to land first in the day's rotation.
+  const todaysIds = reorderForHero(rotatedIds, (id) => weeklyUnitsChangePct(byId.get(id)?.daily_units_14 ?? []));
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
   const [hero, ...rest] = todaysPicks;
 

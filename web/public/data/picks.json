@@ -13,6 +13,7 @@
       "category": "furniture",
       "category_label_es": "Muebles",
       "category_label_en": "Furniture",
+      "group": "home",
       "effort_minutes": 40,
       "shop_name": "MRH\u30fbDreamWell Mattress Home",
       "price": 188.0,
@@ -156,6 +157,7 @@
       "category": "furniture",
       "category_label_es": "Muebles",
       "category_label_en": "Furniture",
+      "group": "home",
       "effort_minutes": 40,
       "shop_name": "GEITIN STEEL CABINET",
       "price": 98.0,
@@ -299,6 +301,7 @@
       "category": "shoes",
       "category_label_es": "Zapatos",
       "category_label_en": "Shoes",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "CROCS US SHOP",
       "price": 60.0,
@@ -442,6 +445,7 @@
       "category": "costumes",
       "category_label_es": "Disfraces",
       "category_label_en": "Costumes",
+      "group": "fashion",
       "effort_minutes": 20,
       "shop_name": "Tipsy Elves",
       "price": 60.0,
@@ -585,6 +589,7 @@
       "category": "furniture",
       "category_label_es": "Muebles",
       "category_label_en": "Furniture",
+      "group": "home",
       "effort_minutes": 40,
       "shop_name": "COLAMY",
       "price": 207.99,
@@ -728,6 +733,7 @@
       "category": "sets",
       "category_label_es": "Conjuntos",
       "category_label_en": "Sets",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "Princess Polly",
       "price": 71.99,
@@ -871,6 +877,7 @@
       "category": "pet_furniture",
       "category_label_es": "Mascotas",
       "category_label_en": "Pet Furniture",
+      "group": "home",
       "effort_minutes": 25,
       "shop_name": "Muddy Mat",
       "price": 45.44,
@@ -888,15 +895,15 @@
       "reasons_es": [
         "Ganas ~$11.36 por venta.",
         "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 10 videos).",
-        "Las ventas de este producto subieron -39% esta semana."
+        "Las ventas bajaron 39% esta semana."
       ],
       "reasons_en": [
         "You earn ~$11.36 per sale.",
         "Few Spanish-speaking creators are talking about this (0 of 10 videos).",
-        "Sales of this product went up -39% this week."
+        "Sales dropped 39% this week."
       ],
-      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 10 videos). Las ventas de este producto subieron -39% esta semana.",
-      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 10 videos). Sales of this product went up -39% this week.",
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 10 videos). Las ventas bajaron 39% esta semana.",
+      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 10 videos). Sales dropped 39% this week.",
       "videos": [
         {
           "video_id": "7667391975427018015",
@@ -1007,6 +1014,149 @@
     {
       "slot": 8,
       "kind": "core",
+      "product_id": "1732723156599214979",
+      "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
+      "clean_title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck",
+      "image_url": "https://s.500fd.com/tt_product/78fbbe2a12384d37be1649cbbf5898e5~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "category": "winter_clothing",
+      "category_label_es": "Ropa de invierno",
+      "category_label_en": "Winter Clothing",
+      "group": "fashion",
+      "effort_minutes": 15,
+      "shop_name": "Comfrt",
+      "price": 49.0,
+      "commission_rate": 0.1,
+      "earnings_per_sale": 4.9,
+      "stage": "rising",
+      "score": 59,
+      "ev_typical": 22.28,
+      "ev_upside": 92.4,
+      "units_7d": 5300,
+      "creator_count": 268,
+      "daily_units_14": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        42,
+        778,
+        1099,
+        2304,
+        1067,
+        399,
+        725,
+        349
+      ],
+      "season_event_label_es": "Black Friday / Cyber Monday",
+      "season_event_label_en": "Black Friday / Cyber Monday",
+      "reasons_es": [
+        "Ganas ~$4.90 por venta.",
+        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas)."
+      ],
+      "reasons_en": [
+        "You earn ~$4.90 per sale.",
+        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
+        "Good timing before Black Friday / Cyber Monday (42 days left)."
+      ],
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas).",
+      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Good timing before Black Friday / Cyber Monday (42 days left).",
+      "videos": [
+        {
+          "video_id": "7693924872270925087",
+          "cover_url": "https://s.500fd.com/tt_video/os1mEsMjAf8jAIHAV8Qb25FrIUIGqJfUCVCqDf~tplv-photomode-zoomcover:480:480.avif",
+          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693924872270925087",
+          "creator_handle": "jordyn_gunderson",
+          "play_count": 2500000,
+          "window_gmv": 25088,
+          "window_units_sold": 512,
+          "is_ad": true,
+          "duration_seconds": 59
+        },
+        {
+          "video_id": "7693984488652590367",
+          "cover_url": "https://s.500fd.com/tt_video/oUYRrxEf8EKUsGVjE9RFh4AIDfAAFEEuOBjqoQ~tplv-photomode-zoomcover:480:480.avif",
+          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693984488652590367",
+          "creator_handle": "jordyn_gunderson",
+          "play_count": 1835506,
+          "window_gmv": 16513,
+          "window_units_sold": 337,
+          "is_ad": true,
+          "duration_seconds": 76
+        },
+        {
+          "video_id": "7693943031489170718",
+          "cover_url": "https://s.500fd.com/tt_video/oQI6EbFwB9V1meHGECDAI8xrRKqAYBnEAlE5fh~tplv-photomode-zoomcover:480:480.avif",
+          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693943031489170718",
+          "creator_handle": "jordyn_gunderson",
+          "play_count": 815100,
+          "window_gmv": 13867,
+          "window_units_sold": 283,
+          "is_ad": true,
+          "duration_seconds": 59
+        }
+      ],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
+      "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt%20%7C%20Teddy%20Full%20Zip%20Jacket%7C%20Plush%20High-Pile%20Jacket%20With%20Mock%20Neck",
+      "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732723156599214979",
+      "formula_ganadora": {
+        "top_hashtags": [
+          {
+            "hashtag": "sherpa",
+            "weight": 22
+          },
+          {
+            "hashtag": "comfrtclothing",
+            "weight": 22
+          },
+          {
+            "hashtag": "teddy",
+            "weight": 22
+          },
+          {
+            "hashtag": "winterfit",
+            "weight": 22
+          }
+        ],
+        "ideal_duration": {
+          "seconds": 59,
+          "source": "videos"
+        },
+        "format_stats": {
+          "reply_pct": 0.0,
+          "price_mention_pct": 0.0,
+          "ad_pct": 100.0
+        },
+        "best_posting_hour": {
+          "hour_start": 9,
+          "hour_end": 11
+        },
+        "top_hooks": []
+      },
+      "saturation_badge": {
+        "level": "normal",
+        "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
+        "reason_en": "A normal level of competition -- not crowded, not wide open either."
+      },
+      "spanish_share": 0.0,
+      "pocas_creadoras_latinas": true,
+      "best_video_time": {
+        "basis_level": "product",
+        "sample_size": 6,
+        "used_organic_only": false,
+        "hour_start": 8,
+        "hour_end": 10,
+        "best_weekdays": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "slot": 9,
+      "kind": "core",
       "product_id": "1731003856475034336",
       "title": "\u3010BEDLORE\u3011Bamboo Cooling Mattress Topper with Fitted Sheet, Thick Luxury Comfort Layer, Breathable & Soft on Skin, Deep Pocket Design, Machine Washable, Ideal for Bedroom & Home Use HomeEssentials",
       "clean_title": "BEDLORE Bamboo Cooling Mattress Topper with",
@@ -1014,6 +1164,7 @@
       "category": "furniture",
       "category_label_es": "Muebles",
       "category_label_en": "Furniture",
+      "group": "home",
       "effort_minutes": 40,
       "shop_name": "Bedlore",
       "price": 36.0,
@@ -1148,311 +1299,7 @@
       }
     },
     {
-      "slot": 9,
-      "kind": "core",
-      "product_id": "1732723156599214979",
-      "title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck & Full Zip",
-      "clean_title": "Comfrt | Teddy Full Zip Jacket| Plush High-Pile Jacket With Mock Neck",
-      "image_url": "https://s.500fd.com/tt_product/78fbbe2a12384d37be1649cbbf5898e5~tplv-fhlh96nyum-crop-webp:800:800.webp",
-      "category": "winter_clothing",
-      "category_label_es": "Ropa de invierno",
-      "category_label_en": "Winter Clothing",
-      "effort_minutes": 15,
-      "shop_name": "Comfrt",
-      "price": 49.0,
-      "commission_rate": 0.1,
-      "earnings_per_sale": 4.9,
-      "stage": "rising",
-      "score": 59,
-      "ev_typical": 22.28,
-      "ev_upside": 92.4,
-      "units_7d": 5300,
-      "creator_count": 268,
-      "daily_units_14": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        42,
-        778,
-        1099,
-        2304,
-        1067,
-        399,
-        725,
-        349
-      ],
-      "season_event_label_es": "Black Friday / Cyber Monday",
-      "season_event_label_en": "Black Friday / Cyber Monday",
-      "reasons_es": [
-        "Ganas ~$4.90 por venta.",
-        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
-        "Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas)."
-      ],
-      "reasons_en": [
-        "You earn ~$4.90 per sale.",
-        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
-        "Good timing before Black Friday / Cyber Monday (42 days left)."
-      ],
-      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas).",
-      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Good timing before Black Friday / Cyber Monday (42 days left).",
-      "videos": [
-        {
-          "video_id": "7693924872270925087",
-          "cover_url": "https://s.500fd.com/tt_video/os1mEsMjAf8jAIHAV8Qb25FrIUIGqJfUCVCqDf~tplv-photomode-zoomcover:480:480.avif",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693924872270925087",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 2500000,
-          "window_gmv": 25088,
-          "window_units_sold": 512,
-          "is_ad": true,
-          "duration_seconds": 59
-        },
-        {
-          "video_id": "7693984488652590367",
-          "cover_url": "https://s.500fd.com/tt_video/oUYRrxEf8EKUsGVjE9RFh4AIDfAAFEEuOBjqoQ~tplv-photomode-zoomcover:480:480.avif",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693984488652590367",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 1835506,
-          "window_gmv": 16513,
-          "window_units_sold": 337,
-          "is_ad": true,
-          "duration_seconds": 76
-        },
-        {
-          "video_id": "7693943031489170718",
-          "cover_url": "https://s.500fd.com/tt_video/oQI6EbFwB9V1meHGECDAI8xrRKqAYBnEAlE5fh~tplv-photomode-zoomcover:480:480.avif",
-          "tiktok_url": "https://www.tiktok.com/@jordyn_gunderson/video/7693943031489170718",
-          "creator_handle": "jordyn_gunderson",
-          "play_count": 815100,
-          "window_gmv": 13867,
-          "window_units_sold": 283,
-          "is_ad": true,
-          "duration_seconds": 59
-        }
-      ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732723156599214979",
-      "tiktok_search_url": "https://www.tiktok.com/search?q=Comfrt%20%7C%20Teddy%20Full%20Zip%20Jacket%7C%20Plush%20High-Pile%20Jacket%20With%20Mock%20Neck",
-      "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732723156599214979",
-      "formula_ganadora": {
-        "top_hashtags": [
-          {
-            "hashtag": "sherpa",
-            "weight": 22
-          },
-          {
-            "hashtag": "comfrtclothing",
-            "weight": 22
-          },
-          {
-            "hashtag": "teddy",
-            "weight": 22
-          },
-          {
-            "hashtag": "winterfit",
-            "weight": 22
-          }
-        ],
-        "ideal_duration": {
-          "seconds": 59,
-          "source": "videos"
-        },
-        "format_stats": {
-          "reply_pct": 0.0,
-          "price_mention_pct": 0.0,
-          "ad_pct": 100.0
-        },
-        "best_posting_hour": {
-          "hour_start": 9,
-          "hour_end": 11
-        },
-        "top_hooks": []
-      },
-      "saturation_badge": {
-        "level": "normal",
-        "reason_es": "Nivel normal de competencia -- ni muy lleno ni con mucho espacio todav\u00eda.",
-        "reason_en": "A normal level of competition -- not crowded, not wide open either."
-      },
-      "spanish_share": 0.0,
-      "pocas_creadoras_latinas": true,
-      "best_video_time": {
-        "basis_level": "product",
-        "sample_size": 6,
-        "used_organic_only": false,
-        "hour_start": 8,
-        "hour_end": 10,
-        "best_weekdays": [
-          2,
-          3
-        ]
-      }
-    },
-    {
       "slot": 10,
-      "kind": "core",
-      "product_id": "1732491682604749463",
-      "title": "Onyx Silent Vibration Wrist-Worn Device - Alarm for Waking Up, Partner-Disturbance-Free for Heavy Sleepers, 2 Intensity Levels, Up to 3 Alarms, 14+ Day Rechargeable Battery, Cool Gadgets for Adults, Gifts for Him, Gifts for Adults",
-      "clean_title": "Onyx Silent Vibration Wrist-Worn Device",
-      "image_url": "https://s.500fd.com/tt_product/d5437faba31e48bf8b3889941d119877~tplv-fhlh96nyum-crop-webp:2393:2393.webp",
-      "category": "home_decor",
-      "category_label_es": "Decoraci\u00f3n",
-      "category_label_en": "Home Decor",
-      "effort_minutes": 30,
-      "shop_name": "histrips.",
-      "price": 42.5,
-      "commission_rate": 0.25,
-      "earnings_per_sale": 10.62,
-      "stage": "new_to_radar",
-      "score": 63,
-      "ev_typical": 15.48,
-      "ev_upside": 64.22,
-      "units_7d": 1396,
-      "creator_count": 502,
-      "daily_units_14": [
-        226,
-        138,
-        389,
-        45,
-        421,
-        122,
-        121,
-        292,
-        75,
-        317,
-        48,
-        181,
-        103,
-        91
-      ],
-      "season_event_label_es": "Black Friday / Cyber Monday",
-      "season_event_label_en": "Black Friday / Cyber Monday",
-      "reasons_es": [
-        "Ganas ~$10.62 por venta.",
-        "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos).",
-        "Las ventas de este producto subieron 27% esta semana."
-      ],
-      "reasons_en": [
-        "You earn ~$10.62 per sale.",
-        "Few Spanish-speaking creators are talking about this (0 of 6 videos).",
-        "Sales of this product went up 27% this week."
-      ],
-      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (0 de 6 videos). Las ventas de este producto subieron 27% esta semana.",
-      "summary_en": "Few Spanish-speaking creators are talking about this (0 of 6 videos). Sales of this product went up 27% this week.",
-      "videos": [
-        {
-          "video_id": "7680819142462672159",
-          "cover_url": "https://s.500fd.com/tt_video/ogEXIBibIwqSANB1siuXPxmsWfyC4iRAqB9GAQ~tplv-photomode-zoomcover:480:480.jpeg",
-          "tiktok_url": "https://www.tiktok.com/@the_kandiid_guy/video/7680819142462672159",
-          "creator_handle": "the_kandiid_guy",
-          "play_count": 1500000,
-          "window_gmv": 10852.97,
-          "window_units_sold": 387,
-          "is_ad": true,
-          "duration_seconds": 33
-        },
-        {
-          "video_id": "7691435211258694926",
-          "cover_url": "https://s.500fd.com/tt_video/ooMRoWFeaQDLY8FAe0eAfdEjq9QNG8gOIW6udF~tplv-photomode-zoomcover:480:480.jpeg",
-          "tiktok_url": "https://www.tiktok.com/@mysterypackfinds/video/7691435211258694926",
-          "creator_handle": "mysterypackfinds",
-          "play_count": 2010779,
-          "window_gmv": 4173.5,
-          "window_units_sold": 91,
-          "is_ad": true,
-          "duration_seconds": 56
-        },
-        {
-          "video_id": "7687390788933651743",
-          "cover_url": "https://s.500fd.com/tt_video/osmBw8g5IEEjXPBw4AaiBvBVT8iXRHql5RGAF~tplv-photomode-zoomcover:480:480.jpeg",
-          "tiktok_url": "https://www.tiktok.com/@showmeproducts/video/7687390788933651743",
-          "creator_handle": "showmeproducts",
-          "play_count": 3800000,
-          "window_gmv": 2657.02,
-          "window_units_sold": 84,
-          "is_ad": true,
-          "duration_seconds": 68
-        }
-      ],
-      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1732491682604749463",
-      "tiktok_search_url": "https://www.tiktok.com/search?q=Onyx%20Silent%20Vibration%20Wrist-Worn%20Device",
-      "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1732491682604749463",
-      "formula_ganadora": {
-        "top_hashtags": [
-          {
-            "hashtag": "histrips",
-            "weight": 158
-          },
-          {
-            "hashtag": "silentalarm",
-            "weight": 74
-          },
-          {
-            "hashtag": "heavysleeper",
-            "weight": 74
-          },
-          {
-            "hashtag": "heavysleeperalarm",
-            "weight": 74
-          },
-          {
-            "hashtag": "alarm",
-            "weight": 11
-          },
-          {
-            "hashtag": "alarmclock",
-            "weight": 11
-          },
-          {
-            "hashtag": "sleep",
-            "weight": 11
-          },
-          {
-            "hashtag": "morning",
-            "weight": 11
-          }
-        ],
-        "ideal_duration": {
-          "seconds": 51,
-          "source": "videos"
-        },
-        "format_stats": {
-          "reply_pct": 0.0,
-          "price_mention_pct": 0.0,
-          "ad_pct": 100.0
-        },
-        "best_posting_hour": {
-          "hour_start": 18,
-          "hour_end": 20
-        },
-        "top_hooks": [
-          "Onyx Vibration Alarm",
-          "The hype on this thing is actually so real",
-          "Silent wrist band alarm"
-        ]
-      },
-      "saturation_badge": {
-        "level": "muy_lleno",
-        "reason_es": "Ya hay muchas creadoras vendi\u00e9ndolo frente a lo que realmente se vende.",
-        "reason_en": "A lot of creators are already selling it relative to how much it actually sells."
-      },
-      "spanish_share": 0.0,
-      "pocas_creadoras_latinas": true,
-      "best_video_time": {
-        "basis_level": "product",
-        "sample_size": 6,
-        "used_organic_only": false,
-        "hour_start": 18,
-        "hour_end": 20,
-        "best_weekdays": [
-          2,
-          5
-        ]
-      }
-    },
-    {
-      "slot": 11,
       "kind": "core",
       "product_id": "1729448905888993450",
       "title": "Leonisa SmartShape Capri Invisible High-Waisted Capri Shaper",
@@ -1461,6 +1308,7 @@
       "category": "shapewear",
       "category_label_es": "Fajas",
       "category_label_en": "Shapewear",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "Leonisa USA",
       "price": 84.5,
@@ -1595,7 +1443,7 @@
       }
     },
     {
-      "slot": 12,
+      "slot": 11,
       "kind": "core",
       "product_id": "1732165713619685617",
       "title": "HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving Multi-Level Tower with Cozy Condos, Perches, Baskets & Sisal Scratching Posts \u2013 Indoor Cat Activity Center",
@@ -1604,6 +1452,7 @@
       "category": "pet_furniture",
       "category_label_es": "Mascotas",
       "category_label_en": "Pet Furniture",
+      "group": "home",
       "effort_minutes": 25,
       "shop_name": "HOOMIC",
       "price": 85.99,
@@ -1738,7 +1587,7 @@
       }
     },
     {
-      "slot": 13,
+      "slot": 12,
       "kind": "core",
       "product_id": "1732533695744086060",
       "title": "YeeZaa Women's Groove Mini Slip Dress Country Concert & Date Night Dress Lace Deep V-Neck Mini Dress Sexy Y2k Ruffle Hem Flowy Swing Boho Short Dresses",
@@ -1747,6 +1596,7 @@
       "category": "dresses",
       "category_label_es": "Vestidos",
       "category_label_en": "Dresses",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "YeeZaa",
       "price": 41.57,
@@ -1881,7 +1731,7 @@
       }
     },
     {
-      "slot": 14,
+      "slot": 13,
       "kind": "core",
       "product_id": "1732220923495878743",
       "title": "Cider V-Neck Halter Ruffle-Hem Tulle Mini Dress with Matching Scarf, Sparkly Glamour Party Dress for Night Out & Festivals",
@@ -1890,6 +1740,7 @@
       "category": "dresses",
       "category_label_es": "Vestidos",
       "category_label_en": "Dresses",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "Cider",
       "price": 59.99,
@@ -2024,7 +1875,7 @@
       }
     },
     {
-      "slot": 15,
+      "slot": 14,
       "kind": "core",
       "product_id": "1729428446160785602",
       "title": "Shapermint High-Waisted Seamless Shapewear Shorts with Anti-Roll Waistband & Breathable Fabric Medium Compression Smooth",
@@ -2033,6 +1884,7 @@
       "category": "shapewear",
       "category_label_es": "Fajas",
       "category_label_en": "Shapewear",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "Shapermint US",
       "price": 38.99,
@@ -2167,8 +2019,8 @@
       }
     },
     {
-      "slot": 16,
-      "kind": "explore",
+      "slot": 15,
+      "kind": "core",
       "product_id": "1731636865911395028",
       "title": "Women's Fashion PU Leather Low Heel Long Boots, Casual Ruched Motorcycle Boots, Western Style Biker Boots, Cowgirl Boot",
       "clean_title": "Women's Fashion PU Leather Low Heel",
@@ -2176,6 +2028,7 @@
       "category": "shoes",
       "category_label_es": "Zapatos",
       "category_label_en": "Shoes",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "Vortread",
       "price": 51.39,
@@ -2310,7 +2163,7 @@
       }
     },
     {
-      "slot": 17,
+      "slot": 16,
       "kind": "explore",
       "product_id": "1732413125303374302",
       "title": "FDR Embroidered Script Letter Washed Zip-Up Hoodie, Women's High-Collar Big Hood Sweatshirt Eases Social Anxiety , Flattering Fit & Exclusive Y2K Streetwear Style for Casual Everyday Wear",
@@ -2319,6 +2172,7 @@
       "category": "winter_clothing",
       "category_label_es": "Ropa de invierno",
       "category_label_en": "Winter Clothing",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "FDR",
       "price": 55.99,
@@ -2453,7 +2307,7 @@
       }
     },
     {
-      "slot": 18,
+      "slot": 17,
       "kind": "explore",
       "product_id": "1729467441089778277",
       "title": "OYS Women's Sexy One Shoulder Satin High Split Cocktail Fit Wedding Party Maxi Formal Dress",
@@ -2462,6 +2316,7 @@
       "category": "dresses",
       "category_label_es": "Vestidos",
       "category_label_en": "Dresses",
+      "group": "fashion",
       "effort_minutes": 15,
       "shop_name": "O Y S",
       "price": 59.79,
@@ -2592,6 +2447,150 @@
         "best_weekdays": [
           2,
           3
+        ]
+      }
+    },
+    {
+      "slot": 18,
+      "kind": "explore",
+      "product_id": "1731281677836588026",
+      "title": "EL ELENGATINE Women's Plus-Size Denim Shirt Dress - Vintage Oversized Collar, Cotton-Polyester Drape Fabric, Half-Zip, Long Sleeves, Pocket, Streetwear Cute Trendy Clothes for Women, Vintage Clothing, Casual Womens Dresses",
+      "clean_title": "EL ELENGATINE Women's Plus-Size Denim Shirt",
+      "image_url": "https://s.500fd.com/tt_product/1503d8b829c246db81820f452675a738~tplv-fhlh96nyum-crop-webp:1964:1964.webp",
+      "category": "dresses",
+      "category_label_es": "Vestidos",
+      "category_label_en": "Dresses",
+      "group": "fashion",
+      "effort_minutes": 15,
+      "shop_name": "Elengatine USA",
+      "price": 34.32,
+      "commission_rate": 0.12,
+      "earnings_per_sale": 4.12,
+      "stage": "new_to_radar",
+      "score": 64,
+      "ev_typical": 9.36,
+      "ev_upside": 38.83,
+      "units_7d": 1209,
+      "creator_count": null,
+      "daily_units_14": [],
+      "season_event_label_es": "Black Friday / Cyber Monday",
+      "season_event_label_en": "Black Friday / Cyber Monday",
+      "reasons_es": [
+        "Ganas ~$4.12 por venta.",
+        "Pocas creadoras hablan de esto en espa\u00f1ol (1 de 10 videos).",
+        "Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas)."
+      ],
+      "reasons_en": [
+        "You earn ~$4.12 per sale.",
+        "Few Spanish-speaking creators are talking about this (1 of 10 videos).",
+        "Good timing before Black Friday / Cyber Monday (42 days left)."
+      ],
+      "summary_es": "Pocas creadoras hablan de esto en espa\u00f1ol (1 de 10 videos). Buen momento antes de Black Friday / Cyber Monday (faltan 42 d\u00edas).",
+      "summary_en": "Few Spanish-speaking creators are talking about this (1 of 10 videos). Good timing before Black Friday / Cyber Monday (42 days left).",
+      "videos": [
+        {
+          "video_id": "7689238527984389389",
+          "cover_url": "https://s.500fd.com/tt_video/ow3IQ81rwAfjMX0QNFfQAPCkUHaWQnoZVuAfKl~tplv-photomode-zoomcover:480:480.jpeg",
+          "tiktok_url": "https://www.tiktok.com/@alondrasanchez001/video/7689238527984389389",
+          "creator_handle": "alondrasanchez001",
+          "play_count": 112600,
+          "window_gmv": 7659.78,
+          "window_units_sold": 238,
+          "is_ad": true,
+          "duration_seconds": 54
+        },
+        {
+          "video_id": "7684722680951606542",
+          "cover_url": "https://s.500fd.com/tt_video/oQElmcwUvAEraeCtABI1mpBTniBJiCAsLsAIk3~tplv-photomode-zoomcover:480:480.jpeg",
+          "tiktok_url": "https://www.tiktok.com/@girlypopscart/video/7684722680951606542",
+          "creator_handle": "girlypopscart",
+          "play_count": 765100,
+          "window_gmv": 6291.09,
+          "window_units_sold": 191,
+          "is_ad": true,
+          "duration_seconds": 33
+        },
+        {
+          "video_id": "7685554885688823053",
+          "cover_url": "https://s.500fd.com/tt_video/oAwqI2CVHATIdujBOEP4fCVAozYDUFtfRkakfI~tplv-photomode-zoomcover:480:480.jpeg",
+          "tiktok_url": "https://www.tiktok.com/@katiannjo_/video/7685554885688823053",
+          "creator_handle": "katiannjo_",
+          "play_count": 2100000,
+          "window_gmv": 6189.05,
+          "window_units_sold": 182,
+          "is_ad": true,
+          "duration_seconds": 29
+        }
+      ],
+      "fastmoss_url": "https://www.fastmoss.com/e-commerce/detail/1731281677836588026",
+      "tiktok_search_url": "https://www.tiktok.com/search?q=EL%20ELENGATINE%20Women%27s%20Plus-Size%20Denim%20Shirt",
+      "tiktok_shop_url": "https://www.tiktok.com/shop/pdp/1731281677836588026",
+      "formula_ganadora": {
+        "top_hashtags": [
+          {
+            "hashtag": "fyp",
+            "weight": 277
+          },
+          {
+            "hashtag": "dress",
+            "weight": 277
+          },
+          {
+            "hashtag": "apronbellyfriendly",
+            "weight": 191
+          },
+          {
+            "hashtag": "apronbellystyle",
+            "weight": 191
+          },
+          {
+            "hashtag": "plussizefallfashion",
+            "weight": 191
+          },
+          {
+            "hashtag": "plussizedress",
+            "weight": 191
+          },
+          {
+            "hashtag": "plussizedresses",
+            "weight": 191
+          },
+          {
+            "hashtag": "citytastetest",
+            "weight": 166
+          }
+        ],
+        "ideal_duration": {
+          "seconds": 33,
+          "source": "videos"
+        },
+        "format_stats": {
+          "reply_pct": 0.0,
+          "price_mention_pct": 0.0,
+          "ad_pct": 90.0
+        },
+        "best_posting_hour": {
+          "hour_start": 12,
+          "hour_end": 14
+        },
+        "top_hooks": [
+          "Me encant\u00f3 este vestido est\u00e1 s\u00faper c\u00f3modo orden\u00e9 talla mediana y me qued\u00f3 s\u00faper bien de lo largo \u2026 soy alta mido 5\u20197",
+          "plus size denim dress \ud83d\udc96",
+          "the new brown version of this work friendly dress is soooo classy + cute\ud83c\udf42\ud83e\udd0e\ud83e\udd29"
+        ]
+      },
+      "saturation_badge": null,
+      "spanish_share": 0.1,
+      "pocas_creadoras_latinas": true,
+      "best_video_time": {
+        "basis_level": "product",
+        "sample_size": 10,
+        "used_organic_only": false,
+        "hour_start": 12,
+        "hour_end": 14,
+        "best_weekdays": [
+          0,
+          4
         ]
       }
     }

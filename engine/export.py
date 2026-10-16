@@ -73,6 +73,7 @@ def write_meta(
     credits_balance: int,
     weights_version: str = "0.2.0-lead-ads-audience",
     data_dir: Path | None = None,
+    avg_credits_per_run: float | None = None,
 ) -> None:
     _write(
         (data_dir or DATA_DIR) / "meta.json",
@@ -90,5 +91,12 @@ def write_meta(
             "credits_used_month": credits_used_month,
             "credits_balance": credits_balance,
             "weights_version": weights_version,
+            # added 2026-10-16: fixes the Mas credits widget showing
+            # "~2071 credits/week" (that was total_consumed_credits divided
+            # by time-since-plan-start, not a per-run average at all). This
+            # is computed server-side from the local credit_ledger (see
+            # engine.budget.average_credits_per_run) since the Worker/
+            # frontend have no access to that SQLite table.
+            "avg_credits_per_run": avg_credits_per_run,
         },
     )

@@ -276,9 +276,18 @@ def test_render_reason_es_and_en():
     # tu voice, past tense, each a complete sentence (rewritten 2026-10-17);
     # momentum is the PRODUCT's own market-wide sales, not Roxie's -- fixed
     # 2026-10-15 after "Tus ventas"/"Your sales" wrongly implied otherwise.
-    assert render_reason("momentum", "es", pct=38) == "Las ventas de este producto subieron 38% esta semana."
-    assert render_reason("momentum", "en", pct=38) == "Sales of this product went up 38% this week."
+    assert render_reason("momentum_up", "es", pct=38) == "Las ventas de este producto subieron 38% esta semana."
+    assert render_reason("momentum_up", "en", pct=38) == "Sales of this product went up 38% this week."
     assert render_reason("earnings", "es", amount=6.4) == "Ganas ~$6.40 por venta."
+
+
+def test_render_reason_momentum_down_never_says_went_up_for_a_negative_pct():
+    # Fixed 2026-10-16: the old single "momentum" template literally
+    # rendered "sales went up -39%" for a falling product -- pct is
+    # always passed as an absolute value now, so the template itself
+    # must carry the correct verb for a drop.
+    assert render_reason("momentum_down", "es", pct=39) == "Las ventas bajaron 39% esta semana."
+    assert render_reason("momentum_down", "en", pct=39) == "Sales dropped 39% this week."
 
 
 def test_no_reason_template_claims_roxie_s_own_sales_history():

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { productsToFilmToday } from "../src/rotation.ts";
+import { productsToFilmToday, reorderForHero } from "../src/rotation.ts";
 
 test("productsToFilmToday is deterministic for the same day", () => {
   const picks = ["a", "b", "c", "d", "e"];
@@ -53,4 +53,32 @@ test("productsToFilmToday wraps around the eligible list", () => {
     result.forEach((id) => seenAcrossDays.add(id));
   }
   assert.deepEqual(seenAcrossDays, new Set(picks));
+});
+
+test("reorderForHero moves the first non-falling id to the front", () => {
+  const trend: Record<string, number | null> = { a: -20, b: -5, c: 10 };
+  const result = reorderForHero(["a", "b", "c"], (id) => trend[id]);
+  assert.deepEqual(result, ["c", "a", "b"]);
+});
+
+test("reorderForHero treats unknown trend (null) as acceptable, not falling", () => {
+  const trend: Record<string, number | null> = { a: -20, b: null };
+  const result = reorderForHero(["a", "b"], (id) => trend[id]);
+  assert.deepEqual(result, ["b", "a"]);
+});
+
+test("reorderForHero leaves the order alone when the first id is already fine", () => {
+  const trend: Record<string, number | null> = { a: 5, b: -10 };
+  const result = reorderForHero(["a", "b"], (id) => trend[id]);
+  assert.deepEqual(result, ["a", "b"]);
+});
+
+test("reorderForHero falls back to the original order when everything is falling", () => {
+  const trend: Record<string, number | null> = { a: -5, b: -10, c: -1 };
+  const result = reorderForHero(["a", "b", "c"], (id) => trend[id]);
+  assert.deepEqual(result, ["a", "b", "c"]);
+});
+
+test("reorderForHero handles an empty list", () => {
+  assert.deepEqual(reorderForHero([], () => 0), []);
 });
