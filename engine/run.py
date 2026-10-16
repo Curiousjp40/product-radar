@@ -15,7 +15,7 @@ import os
 import random
 import urllib.parse
 import uuid
-from datetime import date, timedelta
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
 import numpy as np
@@ -83,7 +83,14 @@ from engine.picks import (
     select_top_reasons,
     thompson_sample_categories,
 )
-from engine.posting_time import best_live_time_for_l1, best_time_for_pool, best_video_time, load_live_records, load_video_records
+from engine.posting_time import (
+    best_live_time_for_l1,
+    best_time_for_pool,
+    best_video_time,
+    load_live_records,
+    load_video_records,
+    top_lives_for_l1,
+)
 from engine.quality import filter_off_category, shop_round_price_cluster_ids, suspicious_reasons
 from engine.saturation import saturation_badge
 from engine.scoring import (
@@ -1421,6 +1428,27 @@ def compute_live_times_by_category(
     return {cat: by_l1_id.get(category_to_l1[cat]) for cat in categories_cfg if cat in category_to_l1}
 
 
+def compute_live_highlights_by_category(
+    live_timing_cfg: dict,
+    categories_cfg: dict,
+    today: date,
+    snapshots_dir: Path = SNAPSHOTS_DIR,
+    within_days: int = 28,
+    limit: int = 10,
+) -> dict[str, list[dict]]:
+    """Part 7 "En vivo" (2026-10-16): the "top-selling lives in her
+    categories last 28 days" list, one result per OUR category key -- same
+    L1-id sharing/reuse as compute_live_times_by_category above, just
+    using top_lives_for_l1 (keeps title/viewer_count/duration) instead of
+    best_live_time_for_l1 (keeps only the best-time ranking fields)."""
+    category_to_l1 = live_timing_cfg["category_to_l1_id"]
+    now = datetime.combine(today, datetime.min.time(), tzinfo=UTC)
+    by_l1_id: dict[int, list[dict]] = {}
+    for l1_id in set(category_to_l1.values()):
+        by_l1_id[l1_id] = top_lives_for_l1(snapshots_dir, l1_id, now, within_days=within_days, limit=limit)
+    return {cat: by_l1_id.get(category_to_l1[cat], []) for cat in categories_cfg if cat in category_to_l1}
+
+
 def cache_pick_images(picks: list[dict]) -> None:
     """Downloads each pick's product photo and video thumbnails into
     web/public/img/ (added 2026-10-16) so the dashboard never depends on
@@ -1741,6 +1769,10 @@ async def run(args: argparse.Namespace) -> None:
         live_timing_cfg = config["weights"].get("live_timing")
         live_times_by_category = compute_live_times_by_category(live_timing_cfg, categories_cfg) if live_timing_cfg else {}
         export.write_best_times(best_times_by_category, best_times_by_group, live_times_by_category, data_dir=export_dir)
+        live_highlights_by_category = (
+            compute_live_highlights_by_category(live_timing_cfg, categories_cfg, today) if live_timing_cfg else {}
+        )
+        export.write_live_highlights(live_highlights_by_category, data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}

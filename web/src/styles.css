@@ -1273,6 +1273,35 @@ select.status-select {
   margin-top: 16px;
 }
 
+/* En vivo page (Part 7, added 2026-10-16) */
+.live-plan-list,
+.live-highlight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.live-plan-product,
+.live-highlight-row {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+}
+
+.live-plan-product .name,
+.live-highlight-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.live-plan-talking-point {
+  margin: 4px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
 .mis-productos-summary {
   display: flex;
   flex-wrap: wrap;

@@ -56,6 +56,18 @@ def write_best_times(
     )
 
 
+def write_live_highlights(highlights: dict[str, list[dict]], data_dir: Path | None = None) -> None:
+    """Part 7 "En vivo" (2026-10-16): top-selling lives per category over
+    the last 28 days (engine.posting_time.top_lives_for_l1, aggregated by
+    engine.run.compute_live_highlights_by_category) -- a separate file
+    from best_times.json since this is a per-category LIST of individual
+    lives, not a single best-window summary."""
+    _write(
+        (data_dir or DATA_DIR) / "live_highlights.json",
+        {"schema_version": SCHEMA_VERSION, "categories": highlights},
+    )
+
+
 def write_hooks(hooks_cfg: dict[str, Any], data_dir: Path | None = None) -> None:
     """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
     2026-10-15) -- static template content (category hooks + shot-list

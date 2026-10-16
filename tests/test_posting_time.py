@@ -1,6 +1,14 @@
 import json
+from datetime import UTC, datetime
 
-from engine.posting_time import best_live_time_for_l1, best_time_for_pool, best_video_time, load_live_records, load_video_records
+from engine.posting_time import (
+    best_live_time_for_l1,
+    best_time_for_pool,
+    best_video_time,
+    load_live_records,
+    load_video_records,
+    top_lives_for_l1,
+)
 from engine.run import compute_best_times_by_category_and_group
 
 
@@ -164,3 +172,61 @@ def test_best_live_time_for_l1_includes_median_duration(tmp_path):
 
 def test_best_live_time_for_l1_returns_none_with_no_lives():
     assert best_live_time_for_l1([]) is None
+
+
+def _live_full(room_id, started_at, units, viewers=100, gmv=50.0, duration_seconds=3600, title="Sale!"):
+    return {
+        "live": {"room_id": room_id, "started_at": started_at, "duration_seconds": duration_seconds, "title": title},
+        "performance_summary": {"live_units_sold": units, "total_viewer_count": viewers, "live_gmv": gmv},
+        "creator": {"creator_handle": "roxiecreator"},
+    }
+
+
+_NOW = datetime.fromtimestamp(MON_NOON_ET, tz=UTC)
+
+
+def test_top_lives_for_l1_sorts_by_units_sold_descending(tmp_path):
+    _write_live_snapshot(
+        tmp_path,
+        "2026-W01",
+        2,
+        1,
+        [_live_full("r1", MON_NOON_ET, units=5), _live_full("r2", MON_NOON_ET, units=20), _live_full("r3", MON_NOON_ET, units=10)],
+    )
+    result = top_lives_for_l1(tmp_path, 2, _NOW)
+    assert [r["room_id"] for r in result] == ["r2", "r3", "r1"]
+
+
+def test_top_lives_for_l1_includes_viewer_count_and_duration(tmp_path):
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live_full("r1", MON_NOON_ET, units=5, viewers=321, duration_seconds=1800)])
+    result = top_lives_for_l1(tmp_path, 2, _NOW)
+    assert result[0]["viewer_count"] == 321
+    assert result[0]["duration_minutes"] == 30
+
+
+def test_top_lives_for_l1_excludes_lives_older_than_within_days(tmp_path):
+    old_started_at = MON_NOON_ET - 40 * 86_400
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live_full("r1", old_started_at, units=50)])
+    result = top_lives_for_l1(tmp_path, 2, _NOW, within_days=28)
+    assert result == []
+
+
+def test_top_lives_for_l1_only_loads_the_given_l1_id(tmp_path):
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live_full("r1", MON_NOON_ET, units=5)])
+    _write_live_snapshot(tmp_path, "2026-W01", 20, 1, [_live_full("r2", MON_NOON_ET, units=5)])
+    result = top_lives_for_l1(tmp_path, 2, _NOW)
+    assert [r["room_id"] for r in result] == ["r1"]
+
+
+def test_top_lives_for_l1_dedupes_by_room_id_across_pages(tmp_path):
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live_full("r1", MON_NOON_ET, units=5)])
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 2, [_live_full("r1", MON_NOON_ET, units=5)])
+    result = top_lives_for_l1(tmp_path, 2, _NOW)
+    assert len(result) == 1
+
+
+def test_top_lives_for_l1_respects_limit(tmp_path):
+    lives = [_live_full(f"r{i}", MON_NOON_ET, units=i) for i in range(15)]
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, lives)
+    result = top_lives_for_l1(tmp_path, 2, _NOW, limit=5)
+    assert len(result) == 5

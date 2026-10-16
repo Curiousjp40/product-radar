@@ -1,6 +1,6 @@
-import { loadCandidates, loadHooks, loadPicks, loadSeasons } from "../api";
+import { loadBestTimes, loadCandidates, loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl } from "../asset";
-import { bestVideoTimeHtml } from "../bestTime";
+import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
@@ -13,7 +13,7 @@ import { productsToFilmToday, reorderForHero } from "../rotation";
 import { weeklyUnitsChangePct } from "../cardMetrics";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
-import type { HooksFile, Pick } from "../types";
+import type { HooksFile, LiveBestTime, Pick } from "../types";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 import { goalCardHtml, wireGoalCard } from "./goalCard";
 import { productCardInfoHtml } from "./productCard";
@@ -125,6 +125,8 @@ function heroHtml(
   filmed: boolean,
   ownedIds: Set<string>,
   monthlyGoalRemaining: number | null,
+  liveTime: LiveBestTime | null,
+  liveCategoryLabel: string,
 ): string {
   const why = lang === "es" ? pick.summary_es : pick.summary_en;
   const hook = bestHook(pick, hooks, today, lang);
@@ -147,6 +149,7 @@ function heroHtml(
         ${why ? `<p class="hoy-hero-why">${why}</p>` : ""}
         ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
         ${bestVideoTimeHtml(pick.best_video_time, lang)}
+        ${liveTime ? bestLiveTimeHtml(liveTime, liveCategoryLabel, lang) : ""}
         ${hashtagsHtml(pick, lang, 5)}
         ${shotListDetailsHtml(pick, hooks, lang)}
         ${actionButtons(pick, lang, filmed)}
@@ -192,11 +195,12 @@ function alsoGoodCardHtml(
 
 export async function renderHoy(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const [{ data: picksData, isSample }, { data: hooks }, { data: candidatesData }, statuses, feedback, misProductos, goal, entries] =
+  const [{ data: picksData, isSample }, { data: hooks }, { data: candidatesData }, { data: bestTimes }, statuses, feedback, misProductos, goal, entries] =
     await Promise.all([
       loadPicks(),
       loadHooks(),
       loadCandidates(),
+      loadBestTimes(),
       getAllStatuses(),
       getAllFeedback(),
       getAllMisProductos(),
@@ -259,7 +263,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ${
       !hero
         ? `<p class="empty-state">${t("hoy_empty", lang)}</p>`
-        : `${heroHtml(hero, hooks, today, lang, statuses[hero.product_id] === "filmed", ownedIds, monthlyGoalRemaining)}
+        : `${heroHtml(hero, hooks, today, lang, statuses[hero.product_id] === "filmed", ownedIds, monthlyGoalRemaining, bestTimes.live?.[hero.category] ?? null, lang === "es" ? hero.category_label_es : hero.category_label_en)}
            ${
              rest.length > 0
                ? `<h3 class="hoy-also-good-title">${t("hoy_also_good_title", lang)}</h3>

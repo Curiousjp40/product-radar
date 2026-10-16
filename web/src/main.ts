@@ -1,6 +1,7 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
 import { renderBuscarCuenta } from "./views/buscarCuenta";
 import { renderCompararCuentas } from "./views/compararCuentas";
+import { renderEnVivo } from "./views/enVivo";
 import { renderHoy } from "./views/hoy";
 import { renderMejoresHoras } from "./views/mejoresHoras";
 import { renderMiDinero } from "./views/miDinero";
@@ -30,7 +31,19 @@ const TABS: { route: string; labelKey: string }[] = [
   { route: "mis-productos", labelKey: "nav_mis_productos" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach", "ocultos", "mejores-horas", "muestras", "comparar-cuentas", "mi-dinero"]);
+const MORE_ROUTES = new Set([
+  "buscar",
+  "season",
+  "settings",
+  "pipeline",
+  "outreach",
+  "ocultos",
+  "mejores-horas",
+  "muestras",
+  "comparar-cuentas",
+  "mi-dinero",
+  "en-vivo",
+]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -102,6 +115,9 @@ async function renderApp(): Promise<void> {
       break;
     case "mejores-horas":
       await renderMejoresHoras(view, lang);
+      break;
+    case "en-vivo":
+      await renderEnVivo(view, lang);
       break;
     case "buscar":
       renderBuscarCuenta(view, lang);

@@ -190,6 +190,24 @@ export interface BestTimesFile {
   live: Record<string, LiveBestTime | null>;
 }
 
+// Part 7 "En vivo" (2026-10-16): one real past live, for the "top-selling
+// lives last 28 days" list -- engine.posting_time.top_lives_for_l1.
+export interface LiveHighlight {
+  room_id: string;
+  title: string;
+  creator_handle: string;
+  started_at: string; // ISO, America/New_York
+  duration_minutes: number;
+  viewer_count: number;
+  units_sold: number;
+  gmv: number;
+}
+
+export interface LiveHighlightsFile {
+  schema_version: number;
+  categories: Record<string, LiveHighlight[]>;
+}
+
 export interface CreatorInsights {
   length_sweet_spot: Record<string, { video_count: number; gmv_per_video: number; units_per_10k_views: number }>;
   reach_vs_engagement: { views_gmv_corr: number | null; interaction_rate_gmv_corr: number | null };

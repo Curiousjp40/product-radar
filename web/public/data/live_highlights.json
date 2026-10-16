@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "categories": {
+    "shapewear": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "dresses": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "sets": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "furniture": [
+      {
+        "room_id": "7692486585723489037",
+        "title": "",
+        "creator_handle": "katshopshere",
+        "started_at": "2026-10-03T12:58:17-04:00",
+        "duration_minutes": 138,
+        "viewer_count": 10144,
+        "units_sold": 54,
+        "gmv": 4634.69
+      },
+      {
+        "room_id": "7686658142646192927",
+        "title": "Happy Thursday!!",
+        "creator_handle": "kerilynus",
+        "started_at": "2026-09-17T20:00:18-04:00",
+        "duration_minutes": 240,
+        "viewer_count": 6158,
+        "units_sold": 46,
+        "gmv": 7032.37
+      },
+      {
+        "room_id": "7686780560374500127",
+        "title": "September Stock Sale Mega LIVE!",
+        "creator_handle": "oviosfurnituresofa",
+        "started_at": "2026-09-18T03:57:42-04:00",
+        "duration_minutes": 412,
+        "viewer_count": 13622,
+        "units_sold": 22,
+        "gmv": 12821.3
+      },
+      {
+        "room_id": "7692858100827376397",
+        "title": "",
+        "creator_handle": "katshopshere",
+        "started_at": "2026-10-04T12:59:38-04:00",
+        "duration_minutes": 105,
+        "viewer_count": 7982,
+        "units_sold": 19,
+        "gmv": 1558.31
+      },
+      {
+        "room_id": "7693441667549924127",
+        "title": "Crazy Thursday LIVE!",
+        "creator_handle": "oviosfurnituresofa",
+        "started_at": "2026-10-06T02:46:11-04:00",
+        "duration_minutes": 351,
+        "viewer_count": 9421,
+        "units_sold": 18,
+        "gmv": 9738
+      },
+      {
+        "room_id": "7692511291248479007",
+        "title": "",
+        "creator_handle": "yosvaniacrea",
+        "started_at": "2026-10-03T14:34:09-04:00",
+        "duration_minutes": 112,
+        "viewer_count": 2413,
+        "units_sold": 18,
+        "gmv": 4611
+      },
+      {
+        "room_id": "7691095886277675790",
+        "title": "September Stock Sale Mega LIVE!",
+        "creator_handle": "weture_official",
+        "started_at": "2026-09-29T19:00:53-04:00",
+        "duration_minutes": 482,
+        "viewer_count": 13992,
+        "units_sold": 18,
+        "gmv": 3828.19
+      },
+      {
+        "room_id": "7691122215940573983",
+        "title": "Hoy si familia",
+        "creator_handle": "manuelbanega1",
+        "started_at": "2026-09-29T20:43:16-04:00",
+        "duration_minutes": 170,
+        "viewer_count": 3685,
+        "units_sold": 16,
+        "gmv": 529.9
+      },
+      {
+        "room_id": "7691851532580539149",
+        "title": "",
+        "creator_handle": "maskhogar",
+        "started_at": "2026-10-01T19:53:40-04:00",
+        "duration_minutes": 139,
+        "viewer_count": 7251,
+        "units_sold": 14,
+        "gmv": 2350
+      },
+      {
+        "room_id": "7692113757153774349",
+        "title": "",
+        "creator_handle": "katshopshere",
+        "started_at": "2026-10-02T12:52:08-04:00",
+        "duration_minutes": 64,
+        "viewer_count": 3285,
+        "units_sold": 13,
+        "gmv": 1025.65
+      }
+    ],
+    "home_decor": [
+      {
+        "room_id": "7693735638964767502",
+        "title": "",
+        "creator_handle": "oye_sebita",
+        "started_at": "2026-10-06T21:44:51-04:00",
+        "duration_minutes": 96,
+        "viewer_count": 12432,
+        "units_sold": 253,
+        "gmv": 3074.84
+      },
+      {
+        "room_id": "7693623541249493774",
+        "title": "",
+        "creator_handle": "alafiabotanica88",
+        "started_at": "2026-10-06T14:30:44-04:00",
+        "duration_minutes": 130,
+        "viewer_count": 6488,
+        "units_sold": 46,
+        "gmv": 1629.56
+      },
+      {
+        "room_id": "7693916137016314654",
+        "title": "",
+        "creator_handle": "ellyevercreations",
+        "started_at": "2026-10-07T09:27:04-04:00",
+        "duration_minutes": 103,
+        "viewer_count": 9240,
+        "units_sold": 39,
+        "gmv": 1962.1
+      },
+      {
+        "room_id": "7693768985074633503",
+        "title": "#glamorousdivawash #tylercandle",
+        "creator_handle": "livelifehappy91",
+        "started_at": "2026-10-06T23:54:28-04:00",
+        "duration_minutes": 122,
+        "viewer_count": 5165,
+        "units_sold": 39,
+        "gmv": 808
+      },
+      {
+        "room_id": "7693742025086831390",
+        "title": "",
+        "creator_handle": "foodiefun49",
+        "started_at": "2026-10-06T22:09:40-04:00",
+        "duration_minutes": 56,
+        "viewer_count": 2899,
+        "units_sold": 37,
+        "gmv": 444
+      },
+      {
+        "room_id": "7693587716759522061",
+        "title": "",
+        "creator_handle": "printsavenue",
+        "started_at": "2026-10-06T12:11:26-04:00",
+        "duration_minutes": 157,
+        "viewer_count": 1987,
+        "units_sold": 22,
+        "gmv": 660
+      },
+      {
+        "room_id": "7693747424417843982",
+        "title": "Lo mejor de tik tok shop",
+        "creator_handle": "nancymamaamiga",
+        "started_at": "2026-10-06T22:30:38-04:00",
+        "duration_minutes": 100,
+        "viewer_count": 7733,
+        "units_sold": 17,
+        "gmv": 379.24
+      },
+      {
+        "room_id": "7693709067235199758",
+        "title": "",
+        "creator_handle": "dailycuratedfinds",
+        "started_at": "2026-10-06T20:01:36-04:00",
+        "duration_minutes": 170,
+        "viewer_count": 4562,
+        "units_sold": 15,
+        "gmv": 563.57
+      },
+      {
+        "room_id": "7693719902014294798",
+        "title": "",
+        "creator_handle": "vision3dcreations0",
+        "started_at": "2026-10-06T20:43:45-04:00",
+        "duration_minutes": 70,
+        "viewer_count": 910,
+        "units_sold": 7,
+        "gmv": 35
+      },
+      {
+        "room_id": "7693931139907472141",
+        "title": "",
+        "creator_handle": "ruru14620",
+        "started_at": "2026-10-07T10:24:09-04:00",
+        "duration_minutes": 65,
+        "viewer_count": 1668,
+        "units_sold": 5,
+        "gmv": 108
+      }
+    ],
+    "winter_clothing": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "shoes": [
+      {
+        "room_id": "7691499614453320478",
+        "title": "Big promotion",
+        "creator_handle": "highland_daily_life1",
+        "started_at": "2026-09-30T21:07:38-04:00",
+        "duration_minutes": 113,
+        "viewer_count": 4220,
+        "units_sold": 61,
+        "gmv": 1779.29
+      },
+      {
+        "room_id": "7691114754702248735",
+        "title": "",
+        "creator_handle": "alex397023",
+        "started_at": "2026-09-29T20:14:18-04:00",
+        "duration_minutes": 147,
+        "viewer_count": 6954,
+        "units_sold": 46,
+        "gmv": 564.9
+      },
+      {
+        "room_id": "7693736108982586142",
+        "title": "",
+        "creator_handle": "maritza_camarena3",
+        "started_at": "2026-10-06T21:47:00-04:00",
+        "duration_minutes": 152,
+        "viewer_count": 5458,
+        "units_sold": 31,
+        "gmv": 1324.25
+      },
+      {
+        "room_id": "7690968617944386318",
+        "title": "\ud83d\udc40TUESDAY w/ KIM\ud83d\udc40",
+        "creator_handle": "packicks",
+        "started_at": "2026-09-29T10:48:42-04:00",
+        "duration_minutes": 178,
+        "viewer_count": 7893,
+        "units_sold": 28,
+        "gmv": 3902.95
+      },
+      {
+        "room_id": "7693707011032140575",
+        "title": "",
+        "creator_handle": "botasdetrabajojbm",
+        "started_at": "2026-10-06T19:53:40-04:00",
+        "duration_minutes": 162,
+        "viewer_count": 11361,
+        "units_sold": 23,
+        "gmv": 2579.79
+      },
+      {
+        "room_id": "7693620492539808525",
+        "title": "TUESDAY TURN UP SALE! \ud83e\udd2a\ud83e\udd73",
+        "creator_handle": "misslolaofficial",
+        "started_at": "2026-10-06T14:18:32-04:00",
+        "duration_minutes": 118,
+        "viewer_count": 3663,
+        "units_sold": 20,
+        "gmv": 907.95
+      },
+      {
+        "room_id": "7693736561691282189",
+        "title": "",
+        "creator_handle": "nany.327",
+        "started_at": "2026-10-06T21:48:36-04:00",
+        "duration_minutes": 77,
+        "viewer_count": 2619,
+        "units_sold": 18,
+        "gmv": 247.13
+      },
+      {
+        "room_id": "7691023429382998797",
+        "title": "",
+        "creator_handle": "mariolis920",
+        "started_at": "2026-09-29T14:20:32-04:00",
+        "duration_minutes": 146,
+        "viewer_count": 3283,
+        "units_sold": 14,
+        "gmv": 570.97
+      },
+      {
+        "room_id": "7693692321627523870",
+        "title": "",
+        "creator_handle": "yadiramendez031",
+        "started_at": "2026-10-06T18:57:09-04:00",
+        "duration_minutes": 144,
+        "viewer_count": 3339,
+        "units_sold": 14,
+        "gmv": 179.6
+      },
+      {
+        "room_id": "7691329172433537823",
+        "title": "",
+        "creator_handle": "ttshopqueen82",
+        "started_at": "2026-09-30T10:07:33-04:00",
+        "duration_minutes": 98,
+        "viewer_count": 4501,
+        "units_sold": 13,
+        "gmv": 479.05
+      }
+    ],
+    "pet_furniture": [
+      {
+        "room_id": "7693246026722953997",
+        "title": "LIVE from the Beach Club",
+        "creator_handle": "kingloupets",
+        "started_at": "2026-10-05T14:05:38-04:00",
+        "duration_minutes": 576,
+        "viewer_count": 12975,
+        "units_sold": 232,
+        "gmv": 7567.34
+      },
+      {
+        "room_id": "7693733974685911822",
+        "title": "tc and plant auctions \ud83c\udf89",
+        "creator_handle": "nanus_nursery",
+        "started_at": "2026-10-06T21:38:28-04:00",
+        "duration_minutes": 191,
+        "viewer_count": 11926,
+        "units_sold": 154,
+        "gmv": 2011.08
+      },
+      {
+        "room_id": "7692078799294384927",
+        "title": "September Stock Up LIVE",
+        "creator_handle": "gusthepup0",
+        "started_at": "2026-10-02T10:36:25-04:00",
+        "duration_minutes": 85,
+        "viewer_count": 2105,
+        "units_sold": 106,
+        "gmv": 3854.2
+      },
+      {
+        "room_id": "7692807736647568158",
+        "title": "Muddy Mat Sale!",
+        "creator_handle": "tayfreese",
+        "started_at": "2026-10-04T09:45:57-04:00",
+        "duration_minutes": 145,
+        "viewer_count": 8439,
+        "units_sold": 54,
+        "gmv": 1270.7
+      },
+      {
+        "room_id": "7692608994699004685",
+        "title": "petrivium- big sale ! ! !",
+        "creator_handle": "petrivium0920",
+        "started_at": "2026-10-03T20:52:44-04:00",
+        "duration_minutes": 1432,
+        "viewer_count": 5811,
+        "units_sold": 42,
+        "gmv": 772.52
+      },
+      {
+        "room_id": "7692217801108441869",
+        "title": "",
+        "creator_handle": "nanus_nursery",
+        "started_at": "2026-10-02T19:34:52-04:00",
+        "duration_minutes": 88,
+        "viewer_count": 4804,
+        "units_sold": 30,
+        "gmv": 490.96
+      },
+      {
+        "room_id": "7691982138836585230",
+        "title": "\ud83d\udc31 don't speak but they know \u2764",
+        "creator_handle": "fumoi.us",
+        "started_at": "2026-10-02T04:23:44-04:00",
+        "duration_minutes": 1341,
+        "viewer_count": 10806,
+        "units_sold": 26,
+        "gmv": 2296.53
+      },
+      {
+        "room_id": "7692054316760517407",
+        "title": "Automatic litter machine",
+        "creator_handle": "petpivot_official",
+        "started_at": "2026-10-02T09:01:37-04:00",
+        "duration_minutes": 152,
+        "viewer_count": 3510,
+        "units_sold": 23,
+        "gmv": 2374.04
+      },
+      {
+        "room_id": "7693564686381402911",
+        "title": "Live with Ana \ud83e\uddb4",
+        "creator_handle": "freezbone",
+        "started_at": "2026-10-06T10:42:56-04:00",
+        "duration_minutes": 132,
+        "viewer_count": 1630,
+        "units_sold": 22,
+        "gmv": 450.31
+      },
+      {
+        "room_id": "7691061700988095262",
+        "title": "Live KING LOU Deals!",
+        "creator_handle": "mrjamesgregory_",
+        "started_at": "2026-09-29T16:50:16-04:00",
+        "duration_minutes": 218,
+        "viewer_count": 2496,
+        "units_sold": 21,
+        "gmv": 502.48
+      }
+    ],
+    "home_storage": [
+      {
+        "room_id": "7693735638964767502",
+        "title": "",
+        "creator_handle": "oye_sebita",
+        "started_at": "2026-10-06T21:44:51-04:00",
+        "duration_minutes": 96,
+        "viewer_count": 12432,
+        "units_sold": 253,
+        "gmv": 3074.84
+      },
+      {
+        "room_id": "7693623541249493774",
+        "title": "",
+        "creator_handle": "alafiabotanica88",
+        "started_at": "2026-10-06T14:30:44-04:00",
+        "duration_minutes": 130,
+        "viewer_count": 6488,
+        "units_sold": 46,
+        "gmv": 1629.56
+      },
+      {
+        "room_id": "7693916137016314654",
+        "title": "",
+        "creator_handle": "ellyevercreations",
+        "started_at": "2026-10-07T09:27:04-04:00",
+        "duration_minutes": 103,
+        "viewer_count": 9240,
+        "units_sold": 39,
+        "gmv": 1962.1
+      },
+      {
+        "room_id": "7693768985074633503",
+        "title": "#glamorousdivawash #tylercandle",
+        "creator_handle": "livelifehappy91",
+        "started_at": "2026-10-06T23:54:28-04:00",
+        "duration_minutes": 122,
+        "viewer_count": 5165,
+        "units_sold": 39,
+        "gmv": 808
+      },
+      {
+        "room_id": "7693742025086831390",
+        "title": "",
+        "creator_handle": "foodiefun49",
+        "started_at": "2026-10-06T22:09:40-04:00",
+        "duration_minutes": 56,
+        "viewer_count": 2899,
+        "units_sold": 37,
+        "gmv": 444
+      },
+      {
+        "room_id": "7693587716759522061",
+        "title": "",
+        "creator_handle": "printsavenue",
+        "started_at": "2026-10-06T12:11:26-04:00",
+        "duration_minutes": 157,
+        "viewer_count": 1987,
+        "units_sold": 22,
+        "gmv": 660
+      },
+      {
+        "room_id": "7693747424417843982",
+        "title": "Lo mejor de tik tok shop",
+        "creator_handle": "nancymamaamiga",
+        "started_at": "2026-10-06T22:30:38-04:00",
+        "duration_minutes": 100,
+        "viewer_count": 7733,
+        "units_sold": 17,
+        "gmv": 379.24
+      },
+      {
+        "room_id": "7693709067235199758",
+        "title": "",
+        "creator_handle": "dailycuratedfinds",
+        "started_at": "2026-10-06T20:01:36-04:00",
+        "duration_minutes": 170,
+        "viewer_count": 4562,
+        "units_sold": 15,
+        "gmv": 563.57
+      },
+      {
+        "room_id": "7693719902014294798",
+        "title": "",
+        "creator_handle": "vision3dcreations0",
+        "started_at": "2026-10-06T20:43:45-04:00",
+        "duration_minutes": 70,
+        "viewer_count": 910,
+        "units_sold": 7,
+        "gmv": 35
+      },
+      {
+        "room_id": "7693931139907472141",
+        "title": "",
+        "creator_handle": "ruru14620",
+        "started_at": "2026-10-07T10:24:09-04:00",
+        "duration_minutes": 65,
+        "viewer_count": 1668,
+        "units_sold": 5,
+        "gmv": 108
+      }
+    ],
+    "costumes": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "pajamas": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ],
+    "activewear": [
+      {
+        "room_id": "7693612598176107278",
+        "title": "",
+        "creator_handle": "milyjordan84",
+        "started_at": "2026-10-06T13:48:19-04:00",
+        "duration_minutes": 127,
+        "viewer_count": 8220,
+        "units_sold": 93,
+        "gmv": 2237.84
+      },
+      {
+        "room_id": "7693703555034663693",
+        "title": "",
+        "creator_handle": "luisamonterougc",
+        "started_at": "2026-10-06T19:40:09-04:00",
+        "duration_minutes": 258,
+        "viewer_count": 21945,
+        "units_sold": 62,
+        "gmv": 1917.55
+      },
+      {
+        "room_id": "7693662597228415774",
+        "title": "",
+        "creator_handle": "barahonaaparicio",
+        "started_at": "2026-10-06T17:02:05-04:00",
+        "duration_minutes": 89,
+        "viewer_count": 6775,
+        "units_sold": 12,
+        "gmv": 252.38
+      }
+    ]
+  }
+}

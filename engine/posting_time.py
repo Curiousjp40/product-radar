@@ -189,6 +189,47 @@ def load_live_records(snapshots_dir: Path, l1_category_id: int) -> list[dict]:
     return list(seen.values())
 
 
+def top_lives_for_l1(snapshots_dir: Path, l1_category_id: int, now: datetime, within_days: int = 28, limit: int = 10) -> list[dict]:
+    """Part 7 "En vivo" (2026-10-16): the top-selling lives in one L1
+    category over the last `within_days` days, for the "top-selling lives"
+    list -- separate from load_live_records above, which drops viewer
+    count/title/timestamp to keep only what the best-time ranking needs.
+    Reuses the same raw snapshot files and room_id dedup, zero FastMoss
+    calls, sorted by units sold (then GMV) descending."""
+    seen: dict[str, dict] = {}
+    if not snapshots_dir.exists():
+        return []
+    cutoff = now.timestamp() - within_days * 86_400
+    for snap_dir in sorted(snapshots_dir.glob("*")):
+        if not snap_dir.is_dir():
+            continue
+        for f in sorted(snap_dir.glob(f"live_{l1_category_id}_p*.json")):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            for entry in data.get("list", []):
+                live = entry.get("live", {})
+                room_id = live.get("room_id")
+                started_at = live.get("started_at")
+                if not room_id or started_at is None or room_id in seen or started_at < cutoff:
+                    continue
+                perf = entry.get("performance_summary", {})
+                creator = entry.get("creator", {})
+                seen[room_id] = {
+                    "room_id": room_id,
+                    "title": live.get("title") or "",
+                    "creator_handle": creator.get("creator_handle") or "",
+                    "started_at": datetime.fromtimestamp(started_at, tz=ET).isoformat(),
+                    "duration_minutes": round((live.get("duration_seconds") or 0) / 60),
+                    "viewer_count": perf.get("total_viewer_count", 0) or 0,
+                    "units_sold": perf.get("live_units_sold", 0) or 0,
+                    "gmv": perf.get("live_gmv", 0.0) or 0.0,
+                }
+    ranked = sorted(seen.values(), key=lambda r: (r["units_sold"], r["gmv"]), reverse=True)
+    return ranked[:limit]
+
+
 def best_live_time_for_l1(records: list[dict]) -> dict | None:
     """Same median-ranked-window logic as best_time_for_pool, plus the
     typical length of lives that sell (median duration) -- Part C7b asks
