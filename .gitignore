@@ -17,3 +17,8 @@ worker/.dev.vars
 
 .DS_Store
 Thumbs.db
+
+# Roxie's synced-data backups (worker/scripts/backup_kv.sh) -- real
+# personal data (Mis Productos, earnings, goal), never committed to this
+# public repo.
+backups/
