@@ -13,6 +13,7 @@ rule the same way a free credit_usage_summary check is.
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 import urllib.error
 import urllib.request
@@ -85,3 +86,25 @@ def sync_mis_productos_earnings(conn: sqlite3.Connection, token: str) -> int:
     weekly pipeline. Returns the number of rows synced."""
     items = fetch_mis_productos(token)
     return upsert_earnings(conn, items)
+
+
+def main() -> None:
+    """CLI: python -m engine.earnings
+    Reads MIS_PRODUCTOS_TOKEN from the environment and does a READ-ONLY
+    fetch against the Worker's /admin/mis-productos route -- zero FastMoss
+    credits, no DB write. Used to confirm the secret/route work before (or
+    without) running the full weekly pipeline."""
+    token = os.environ.get("MIS_PRODUCTOS_TOKEN")
+    if not token:
+        print("MIS_PRODUCTOS_TOKEN is not set.")
+        raise SystemExit(1)
+    try:
+        items = fetch_mis_productos(token)
+    except EarningsFetchError as e:
+        print(f"FAILED: {e}")
+        raise SystemExit(1) from e
+    print(f"OK: fetched {len(items)} Mis Productos item(s) from the Worker.")
+
+
+if __name__ == "__main__":
+    main()
