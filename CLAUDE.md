@@ -68,13 +68,13 @@ run monthly, ~15cr/run), 7c (Mejores Horas page), 8 (Mis Productos earnings ->
 `data/radar.db`'s new `mis_productos_earnings` table, via the Worker's new
 token-gated `/admin/mis-productos` route).
 
-**One manual step still needed from Ryan**, not something this session could
-do (no GitHub API/`gh` access): add a repo secret at Settings -> Secrets ->
-Actions -> `MIS_PRODUCTOS_TOKEN`, value = the same token already set as the
-Worker's `ADMIN_READ_TOKEN` secret (Ryan has it from the 2026-10-16 session
-that set it). Until that secret exists, the weekly run just prints "skipped"
-for the earnings-sync step and otherwise runs normally -- nothing is broken
-by leaving it unset for a while.
+`MIS_PRODUCTOS_TOKEN` is set and confirmed working end-to-end (2026-10-16):
+dispatched `.github/workflows/test-mis-productos-secret.yml` (manual-trigger,
+read-only, 0 FastMoss credits) against the real secret -- `OK: fetched 0 Mis
+Productos item(s)` (0 is expected, nothing's been added to Mis Productos
+yet). Along the way, found and fixed a real bug: Cloudflare's bot-fight
+check 403's the default Python `urllib` User-Agent before it even reaches
+the Worker -- `engine/earnings.py` now sends a browser-looking UA.
 
 **Not started:** Phase 3 (weekly learning loop re-fitting composite/momentum
 weights from outcome data) -- part 8 only just started collecting that data,
