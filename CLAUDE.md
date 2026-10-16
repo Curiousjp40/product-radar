@@ -59,18 +59,19 @@ best-time-to-post engine `engine/posting_time.py` + UI), 2 (dead-link fix via
 the no-videos fallback), 3 (more items on Hoy/Esta semana/Todos, suspicious
 hidden not dimmed), 4 (No me interesa + Ocultos + category-hide offer), 5
 (Mis Productos page, replaces Muestras as the main tab, synced via Worker
-`/state`), 7a (video best-time), 7b (live best-time -- `engine/live_backfill.py`,
-run monthly, 15cr/run), 7c (Mejores Horas page). 6a done (diagnosed the
-account-search failure).
+`/state`), 6a (diagnosed the account-search failure), 6b (saved searches +
+Comparar cuentas, Worker `/saved` route), 7a (video best-time), 7b (live
+best-time -- `engine/live_backfill.py`, run monthly, 15cr/run), 7c (Mejores
+Horas page).
 
 **Still pending:**
-- **6b/6c**: auto-save every successful Buscar cuenta search to KV (no
-  expiry), a "Búsquedas guardadas" list of clickable cards (free to reopen,
-  separate paid "Actualizar"), and a 2-4-account compare view with a
-  plain-language ES/EN summary. Not started.
+- **6c** was covered by 6b's compare view (follow-up tasks were merged --
+  see the 6b commit for exactly what it compares and what it can't: no
+  live/hashtag-per-account data exists yet).
 - **8**: expose the earnings Roxie logs in Mis Productos to the weekly run
   (read from Worker KV via a new GitHub secret) and store in `data/radar.db`
-  -- just collecting outcome data, no re-fitting of weights yet. Not started.
+  -- just collecting outcome data, no re-fitting of weights yet. Not started
+  -- in progress now.
 - Phase 3 (weekly learning loop re-fitting composite/momentum weights from
   outcome data) still can't start until part 8 gives it something to learn
   from. Phase 5/6 per the spec also not started.
