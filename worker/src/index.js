@@ -84,7 +84,14 @@ async function handleAdminMisProductos(request, url, env) {
   if (!token || token !== env.ADMIN_READ_TOKEN) {
     return json({ error: "unauthorized" }, 401);
   }
-  const stored = await env.SEARCH_KV.get("state:mis_productos", { type: "json" });
+  // Profile-namespaced (2026-10-16, see handleState's own comment) --
+  // falls back to the pre-profile flat key so this keeps working during
+  // the gap between this deploy and the next frontend sync write/read
+  // migrating the data into state:roxie:mis_productos.
+  let stored = await env.SEARCH_KV.get(`state:${DEFAULT_PROFILE_ID}:mis_productos`, { type: "json" });
+  if (stored === null) {
+    stored = await env.SEARCH_KV.get("state:mis_productos", { type: "json" });
+  }
   return json({ data: stored ?? [] });
 }
 
@@ -147,6 +154,17 @@ async function handleSaved(request, url, env) {
 // SEARCH_PASSWORD as account search, since a write can overwrite real data.
 const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories", "earnings_goal"]);
 
+// Future-proofing for multiple users (2026-10-16): every synced key now
+// lives under a profile id (state:<profileId>:<key>) instead of a flat
+// state:<key>, so a real login system can be dropped in later without
+// re-keying any data -- Roxie is just profile "roxie" for now, same
+// shared password as before (no accounts yet). DEFAULT_PROFILE_ID is also
+// the fallback for any client that hasn't picked up the ?profile= param
+// yet (old cached JS, a stale service worker, etc.), so nothing silently
+// stops syncing on deploy.
+const DEFAULT_PROFILE_ID = "roxie";
+const PROFILE_ID_RE = /^[a-z0-9_-]{1,40}$/;
+
 async function handleState(request, url, env) {
   if (request.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: corsHeaders() });
@@ -159,10 +177,22 @@ async function handleState(request, url, env) {
   if (!key || !STATE_ALLOWED_KEYS.has(key)) {
     return json({ error: "invalid_key" }, 400);
   }
-  const kvKey = `state:${key}`;
+  const profileParam = url.searchParams.get("profile");
+  const profileId = profileParam && PROFILE_ID_RE.test(profileParam) ? profileParam : DEFAULT_PROFILE_ID;
+  const kvKey = `state:${profileId}:${key}`;
 
   if (request.method === "GET") {
-    const stored = await env.SEARCH_KV.get(kvKey, { type: "json" });
+    let stored = await env.SEARCH_KV.get(kvKey, { type: "json" });
+    if (stored === null) {
+      // One-time read-migration: data written before profiles existed
+      // lived at the flat state:<key> -- pull it into this profile's own
+      // key on first read so it isn't orphaned by the rename.
+      const legacy = await env.SEARCH_KV.get(`state:${key}`, { type: "json" });
+      if (legacy !== null) {
+        await env.SEARCH_KV.put(kvKey, JSON.stringify(legacy));
+        stored = legacy;
+      }
+    }
     return json({ data: stored }); // null when nothing's been synced yet
   }
 

@@ -98,6 +98,32 @@ header.app-header h1 {
   color: var(--accent-ink);
 }
 
+.sync-indicator {
+  display: block;
+  margin: -4px auto 8px;
+  max-width: var(--content-max);
+  width: calc(100% - 40px);
+  padding: 6px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  text-align: center;
+  cursor: default;
+}
+
+.sync-indicator.synced {
+  background: transparent;
+  color: var(--text-dim);
+  cursor: default;
+}
+
+.sync-indicator.local-only {
+  background: #fbead0;
+  color: #7a5415;
+  cursor: pointer;
+}
+
 .sample-banner {
   margin: 0 auto 8px;
   max-width: var(--content-max);

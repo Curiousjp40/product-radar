@@ -1,4 +1,5 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
+import { pullHiddenCategories } from "./pipeline";
 import { renderBuscarCuenta } from "./views/buscarCuenta";
 import { renderCompararCuentas } from "./views/compararCuentas";
 import { renderEnVivo } from "./views/enVivo";
@@ -16,6 +17,7 @@ import { renderSeason } from "./views/season";
 import { renderSettings } from "./views/settings";
 import { renderThisWeek } from "./views/thisWeek";
 import { renderTodos } from "./views/todos";
+import { syncIndicatorHtml, wireSyncIndicator } from "./syncIndicator";
 
 // Tabs (Part D, added 2026-10-15; Muestras replaced by Mis Productos
 // 2026-10-16, Part C5): Hoy / Esta semana / Todos / Mis Productos / Mas.
@@ -63,6 +65,7 @@ function renderShell(lang: Lang): void {
         <button data-lang="en" class="${lang === "en" ? "active" : ""}">EN</button>
       </div>
     </header>
+    ${syncIndicatorHtml(lang)}
     <nav class="tabs">
       ${TABS.map((tab) => {
         const isActive = tab.route === "more" ? route.name === "more" || MORE_ROUTES.has(route.name) : route.name === tab.route;
@@ -77,12 +80,14 @@ function renderShell(lang: Lang): void {
       renderApp();
     });
   });
+  wireSyncIndicator(app, () => renderShell(lang));
 }
 
 async function renderApp(): Promise<void> {
   const lang = getLang();
   setLang(lang);
   renderShell(lang);
+  await pullHiddenCategories();
   const view = document.getElementById("view")!;
   const route = currentRoute();
   switch (route.name) {

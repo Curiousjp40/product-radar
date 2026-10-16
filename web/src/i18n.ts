@@ -311,6 +311,12 @@ const dict: Record<string, { es: string; en: string }> = {
   account_not_found: { es: "No encontramos esta cuenta.", en: "We couldn't find this account." },
   search_failed: { es: "Algo salió mal. Intenta de nuevo.", en: "Something went wrong. Try again." },
   enter_password_prompt: { es: "Ingresa la contraseña para buscar cuentas:", en: "Enter the password to search accounts:" },
+  sync_enter_password_prompt: {
+    es: "Ingresa la contraseña para sincronizar entre tus dispositivos:",
+    en: "Enter the password to sync across your devices:",
+  },
+  sync_status_synced: { es: "Sincronizado", en: "Synced" },
+  sync_status_local_only: { es: "Solo en este teléfono: toca para conectar", en: "Only on this phone: tap to connect" },
   wrong_password: { es: "Contraseña incorrecta.", en: "Wrong password." },
   // {limit}/{balance}/{floor} filled in by t()'s simple {placeholder}
   // substitution -- the Worker returns a machine code + numeric params,
