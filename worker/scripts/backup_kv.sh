@@ -24,7 +24,7 @@ TIMESTAMP="$(date -u +%Y%m%dT%H%M%SZ)"
 OUT_FILE="$BACKUP_DIR/kv-${PROFILE_ID}-${TIMESTAMP}.json"
 
 # Keep in sync with worker/src/index.js's STATE_ALLOWED_KEYS.
-KEYS=(mis_productos not_for_me mi_lista hidden_categories earnings_goal)
+KEYS=(mis_productos not_for_me mi_lista hidden_categories earnings_goal hide_owned_toggle)
 
 mkdir -p "$BACKUP_DIR"
 cd "$WORKER_DIR"

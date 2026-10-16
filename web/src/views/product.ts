@@ -4,7 +4,8 @@ import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
 import { addMisProducto, getAllMisProductos, shopRejectionCount, solicitudFromProduct } from "../misProductos";
-import { setFeedback } from "../pipeline";
+import { clearFeedback, setFeedback } from "../pipeline";
+import { showUndoToast } from "../toast";
 import { hasRequestedSample, requestSample } from "../samples";
 import type { FormulaGanadora, VideoCard } from "../types";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
@@ -278,6 +279,9 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     const notForMeBtn = container.querySelector<HTMLButtonElement>('[data-action="not-for-me"]');
     notForMeBtn?.addEventListener("click", async () => {
       await setFeedback(data.product_id, "not_for_me");
+      showUndoToast(lang, t("undo_toast_not_for_me", lang), () => {
+        void clearFeedback(data.product_id);
+      });
       location.hash = "#/week";
     });
     const yaLoTengoProducts = new Map<string, YaLoTengoProduct>([

@@ -103,6 +103,18 @@ export async function addMisProducto(item: MisProducto): Promise<void> {
   saveAll([item, ...items]);
 }
 
+/** Part A.4 bulk mode (2026-10-16): addMisProducto is read-current-then-
+ * write-back, so calling it several times concurrently (e.g. Promise.all
+ * over a batch of "Ya los tengo" selections) is a real race -- every call
+ * reads the same starting list and the last write wins, silently dropping
+ * every item but one. This reads once and writes once for the whole
+ * batch. */
+export async function addMisProductos(newItems: MisProducto[]): Promise<void> {
+  if (newItems.length === 0) return;
+  const items = await getAllMisProductos();
+  saveAll([...newItems, ...items]);
+}
+
 export async function updateMisProducto(id: string, patch: Partial<MisProducto>): Promise<void> {
   const items = await getAllMisProductos();
   saveAll(items.map((i) => (i.id === id ? { ...i, ...patch } : i)));

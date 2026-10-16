@@ -203,7 +203,16 @@ async function handleSaved(request, url, env) {
 // (2026-10-16 privacy fix -- see checkPassword's own comment for why
 // Origin alone wasn't enough): this is Roxie's real inventory/earnings/
 // hidden-item data, not something any site visitor should be able to read.
-const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories", "earnings_goal"]);
+const STATE_ALLOWED_KEYS = new Set([
+  "mis_productos",
+  "not_for_me",
+  "mi_lista",
+  "hidden_categories",
+  "earnings_goal",
+  // "Ocultar los que ya tengo" toggle (Part A.3, 2026-10-16): default ON,
+  // synced like everything else here.
+  "hide_owned_toggle",
+]);
 
 // Future-proofing for multiple users (2026-10-16): every synced key now
 // lives under a profile id (state:<profileId>:<key>) instead of a flat

@@ -1,5 +1,6 @@
-import { addMisProducto, emptyMisProducto } from "./misProductos";
+import { addMisProducto, emptyMisProducto, removeMisProducto } from "./misProductos";
 import { t, type Lang } from "./i18n";
+import { showUndoToast } from "./toast";
 
 /** Part 3 "Ya lo tengo" button (2026-10-16): one tap on any product card
  * or the product page opens this small sheet, then adds the product to
@@ -136,25 +137,28 @@ export function wireYaLoTengo(
       const source = sheet.dataset.source === "comprado" ? "comprado" : "muestra";
       const sourceLabel = t(source === "muestra" ? "ya_lo_tengo_source_muestra" : "ya_lo_tengo_source_comprado", state.lang);
       const note = noteInput?.value.trim() ?? "";
-      void addMisProducto(
-        emptyMisProducto({
-          product_id: product.product_id,
-          name: product.name,
-          photo_url: product.photo_url,
-          category: product.category,
-          commission_pct: product.commission_pct,
-          tiktok_shop_url: product.tiktok_shop_url,
-          shop_name: product.shop_name,
-          status: "recibido",
-          date_received: dateReceived,
-          notes: note ? `${sourceLabel}: ${note}` : sourceLabel,
-          price: product.price,
-          earnings_per_sale: product.earnings_per_sale,
-          effort_minutes: product.effort_minutes,
-        }),
-      ).then(() => {
+      const record = emptyMisProducto({
+        product_id: product.product_id,
+        name: product.name,
+        photo_url: product.photo_url,
+        category: product.category,
+        commission_pct: product.commission_pct,
+        tiktok_shop_url: product.tiktok_shop_url,
+        shop_name: product.shop_name,
+        status: "recibido",
+        date_received: dateReceived,
+        notes: note ? `${sourceLabel}: ${note}` : sourceLabel,
+        price: product.price,
+        earnings_per_sale: product.earnings_per_sale,
+        effort_minutes: product.effort_minutes,
+      });
+      void addMisProducto(record).then(() => {
         sheet.hidden = true;
         delete sheet.dataset.activeProductId;
+        const lang = state.lang;
+        showUndoToast(lang, t("undo_toast_ya_lo_tengo", lang), () => {
+          void removeMisProducto(record.id).then(() => state.onSaved(productId));
+        });
         state.onSaved(productId);
       });
     }

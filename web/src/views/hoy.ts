@@ -8,7 +8,8 @@ import { t, type Lang } from "../i18n";
 import { addMisProducto, getAllMisProductos, ownedProductIds, shopRejectionCount, solicitudFromProduct } from "../misProductos";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
-import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
+import { clearFeedback, getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
+import { showUndoToast } from "../toast";
 import { productsToFilmToday, reorderForHero } from "../rotation";
 import { weeklyUnitsChangePct } from "../cardMetrics";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
@@ -301,6 +302,9 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
       const { productId, category } = btn.dataset;
       if (!productId || !category) return;
       await setFeedback(productId, "not_for_me");
+      showUndoToast(lang, t("undo_toast_not_for_me", lang), () => {
+        void clearFeedback(productId).then(() => void renderHoy(container, lang));
+      });
       const updatedFeedback = await getAllFeedback();
       if (!getHiddenCategories().includes(category) && countHiddenInCategory(updatedFeedback, categoryByProductId, category) >= 3) {
         const label = lang === "es" ? picksData.picks.find((p) => p.category === category)?.category_label_es : picksData.picks.find((p) => p.category === category)?.category_label_en;

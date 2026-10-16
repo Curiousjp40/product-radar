@@ -2,12 +2,15 @@ import { loadCandidates, loadHooks, loadPicks } from "../api";
 import { bestVideoTimeHtml } from "../bestTime";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
+import { getHideOwnedPref, setHideOwnedPref } from "../hideOwnedPref";
 import { addMisProducto, getAllMisProductos, ownedProductIds, shopRejectionCount, solicitudFromProduct } from "../misProductos";
+import { applyOwnedDisplay } from "../ownedListOrdering";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
 import { t, type Lang } from "../i18n";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
-import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
+import { clearFeedback, getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
+import { showUndoToast } from "../toast";
 import type { Candidate, CategoryGroup, ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
@@ -83,8 +86,10 @@ function rowHtml(pick: Pick, lang: Lang, selected: boolean, ownedIds: Set<string
           ${infoHtml}
         </div>
       </a>
-      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
-      ${yaLoTengoButtonHtml(pick.product_id, lang)}
+      <div class="week-row-actions">
+        <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+        ${yaLoTengoButtonHtml(pick.product_id, lang)}
+      </div>
     </div>
   `;
 }
@@ -98,6 +103,7 @@ function allThisWeekHtml(
   lang: Lang,
   ownedIds: Set<string>,
   monthlyGoalRemaining: number | null,
+  hideOwned: boolean,
 ): string {
   const rest = candidates.filter((c) => !excludeIds.has(c.product_id) && !c.suspicious);
   if (rest.length === 0) return "";
@@ -110,9 +116,15 @@ function allThisWeekHtml(
   const categories = [...byCategory.keys()].sort((a, b) => (byCategory.get(b)!.length - byCategory.get(a)!.length));
   return `
     <h3 class="view-title" style="margin-top:28px">${t("all_this_week_title", lang)}</h3>
+    <label class="todos-hide-owned-toggle">
+      <input type="checkbox" class="hide-owned-checkbox" ${hideOwned ? "checked" : ""} />
+      ${t("hide_owned_toggle_label", lang)}
+    </label>
     ${categories
       .map((cat) => {
-        const items = byCategory.get(cat)!.sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
+        const sorted = byCategory.get(cat)!.sort((a, b) => (a.rank ?? 0) - (b.rank ?? 0));
+        const items = applyOwnedDisplay(sorted, ownedIds, (c) => c.product_id, hideOwned);
+        if (items.length === 0) return "";
         const label = lang === "es" ? items[0].category_label_es : items[0].category_label_en;
         return `
           <div class="week-category-group">
@@ -149,6 +161,10 @@ function allThisWeekHtml(
                   <div class="card-body">
                     <h3 class="card-title">${c.clean_title}</h3>
                     ${infoHtml}
+                    <div class="card-actions">
+                      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
+                      ${yaLoTengoButtonHtml(c.product_id, lang)}
+                    </div>
                   </div>
                 </article>`;
                 })
@@ -293,12 +309,13 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
-  const [statuses, feedback, misProductos, goal, entries] = await Promise.all([
+  const [statuses, feedback, misProductos, goal, entries, hideOwned] = await Promise.all([
     getAllStatuses(),
     getAllFeedback(),
     getAllMisProductos(),
     getMonthlyGoal(),
     getEntries(),
+    getHideOwnedPref(),
   ]);
   const ownedIds = ownedProductIds(misProductos);
   const today0 = new Date();
@@ -404,7 +421,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
       <div class="week-detail"></div>
     </div>
     <div class="category-hide-prompt-slot"></div>
-    ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining)}
+    ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining, hideOwned)}
     ${yaLoTengoSheetHtml(lang)}
   `;
   const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
@@ -427,6 +444,10 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   renderDetail(firstId);
   wireGroupFilter(container, lang);
   wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderThisWeek(container, lang, filterGroup));
+  container.querySelector<HTMLInputElement>(".hide-owned-checkbox")?.addEventListener("change", (e) => {
+    setHideOwnedPref((e.currentTarget as HTMLInputElement).checked);
+    void renderThisWeek(container, lang, filterGroup);
+  });
 
   container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {
     const id = link.dataset.productId!;
@@ -446,6 +467,9 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
       const { productId, category } = btn.dataset;
       if (!productId || !category) return;
       await setFeedback(productId, "not_for_me");
+      showUndoToast(lang, t("undo_toast_not_for_me", lang), () => {
+        void clearFeedback(productId).then(() => void renderThisWeek(container, lang, filterGroup));
+      });
       const updatedFeedback = await getAllFeedback();
       if (!getHiddenCategories().includes(category) && countHiddenInCategory(updatedFeedback, categoryByProductId, category) >= 3) {
         const label = lang === "es" ? rawData.picks.find((p) => p.category === category)?.category_label_es : rawData.picks.find((p) => p.category === category)?.category_label_en;

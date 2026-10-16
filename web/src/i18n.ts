@@ -340,6 +340,13 @@ const dict: Record<string, { es: string; en: string }> = {
   load_more_button: { es: "Ver {n} más", en: "Show {n} more" },
   not_for_me_button: { es: "No me interesa", en: "Not for me" },
   undo_button: { es: "Deshacer", en: "Undo" },
+  undo_toast_not_for_me: { es: "Marcado como no me interesa.", en: "Marked as not for me." },
+  undo_toast_ya_lo_tengo: { es: "Agregado a Mis Productos.", en: "Added to Mis Productos." },
+  hide_owned_toggle_label: { es: "Ocultar los que ya tengo", en: "Hide ones I have" },
+  bulk_mark_button: { es: "Marcar varios", en: "Mark several" },
+  bulk_cancel_button: { es: "Cancelar selección", en: "Cancel selection" },
+  bulk_selected_count: { es: "{n} seleccionados", en: "{n} selected" },
+  bulk_confirm_button: { es: "Ya los tengo ({n})", en: "I have these ({n})" },
   hide_category_prompt: {
     es: "Ocultaste 3 productos de {category}. ¿Ocultar toda esta categoría?",
     en: "You've hidden 3 products in {category}. Hide this whole category?",
