@@ -203,3 +203,52 @@ export function mapFansDistributionResult(raw) {
     region_distribution: normalize(regions),
   };
 }
+
+/**
+ * Brute-force protection (2026-10-16, part of the privacy fix): every
+ * password-checked route (handleSearch, handleState, handleSaved,
+ * handleCredits) runs each attempt through this before/instead of its own
+ * pass/fail response. Pure decision logic only -- index.js owns the
+ * actual KV reads/writes (lockedOut and failCount are read from KV
+ * beforehand; the caller performs whatever kvAction this returns),
+ * keeping the policy itself plain-testable with no KV/Request mocking.
+ */
+export const RATE_LIMIT_MAX_FAILURES = 5;
+export const RATE_LIMIT_FAIL_WINDOW_SECONDS = 15 * 60;
+export const RATE_LIMIT_LOCKOUT_SECONDS = 60 * 60;
+
+/**
+ * `lockedOut`: whether this IP already has an active lockout.
+ * `failCount`: wrong-password attempts recorded in the current 15-minute
+ * window (0 if none or expired).
+ * `passwordCorrect`: this attempt's own password check.
+ *
+ * Returns `{ allow, status, kvAction, newCount? }`:
+ * - kvAction "none": no KV write needed (already locked out, or a correct
+ *   password with no prior failures to clear).
+ * - kvAction "clear": a correct password after prior failures -- delete
+ *   the failure counter so a slow typist isn't punished for getting there.
+ * - kvAction "increment": a wrong password that doesn't yet trip the
+ *   lockout -- write `newCount` with the fail-window TTL.
+ * - kvAction "lockout": this wrong password is the one that trips it --
+ *   write the lockout key with the lockout TTL (and clear the counter).
+ */
+export function evaluateLoginAttempt(lockedOut, failCount, passwordCorrect) {
+  if (lockedOut) {
+    return { allow: false, status: 429, kvAction: "none" };
+  }
+  if (passwordCorrect) {
+    return { allow: true, status: 200, kvAction: failCount > 0 ? "clear" : "none" };
+  }
+  const newCount = failCount + 1;
+  if (newCount >= RATE_LIMIT_MAX_FAILURES) {
+    return { allow: false, status: 429, kvAction: "lockout" };
+  }
+  return { allow: false, status: 401, kvAction: "increment", newCount };
+}
+
+/** Cloudflare sets CF-Connecting-IP on every request reaching a Worker;
+ * X-Forwarded-For is a fallback for local/test harnesses that don't. */
+export function clientIp(request) {
+  return request.headers.get("CF-Connecting-IP") || request.headers.get("X-Forwarded-For") || "unknown";
+}

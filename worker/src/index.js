@@ -1,9 +1,11 @@
 import { FastMossError, callFastMossTools } from "./mcp.js";
 import {
   cacheKeyFor,
+  clientIp,
   countsAgainstQuota,
   creditGuardOk,
   dailyCountKey,
+  evaluateLoginAttempt,
   isAllowedImageHost,
   mapCreatorSearchResult,
   mapFansDistributionResult,
@@ -12,6 +14,8 @@ import {
   mondaysRemaining,
   monthlyCountKey,
   normalizeHandle,
+  RATE_LIMIT_FAIL_WINDOW_SECONDS,
+  RATE_LIMIT_LOCKOUT_SECONDS,
   searchLimitsFor,
 } from "./logic.js";
 
@@ -54,9 +58,39 @@ function json(data, status = 200) {
 // nothing about WHO is visiting that site -- a real password, sent as a
 // header (not a URL query param, which can leak into logs/referrers), is
 // the actual gate now for anything that isn't plain shared product data.
-function hasValidPassword(request, env) {
-  const password = request.headers.get("X-Sync-Password");
-  return typeof password === "string" && password.length > 0 && password === env.SEARCH_PASSWORD;
+//
+// Brute-force protection (same date): every password-checked route calls
+// this instead of comparing the password itself, so a guesser can't just
+// hammer one of the GET routes to avoid the POST routes' slower FastMoss
+// round-trip. Policy itself (when to lock out, when to clear) is
+// evaluateLoginAttempt in logic.js, kept pure/testable; this just does the
+// KV reads/writes it asks for.
+async function checkPassword(request, env, candidatePassword) {
+  const ip = clientIp(request);
+  const lockoutKey = `lockout:${ip}`;
+  const failKey = `failcount:${ip}`;
+  const [lockedRaw, failRaw] = await Promise.all([env.SEARCH_KV.get(lockoutKey), env.SEARCH_KV.get(failKey)]);
+  const lockedOut = lockedRaw !== null;
+  const failCount = parseInt(failRaw || "0", 10);
+  const passwordCorrect = typeof candidatePassword === "string" && candidatePassword.length > 0 && candidatePassword === env.SEARCH_PASSWORD;
+  const result = evaluateLoginAttempt(lockedOut, failCount, passwordCorrect);
+
+  if (result.kvAction === "clear") {
+    await env.SEARCH_KV.delete(failKey);
+  } else if (result.kvAction === "increment") {
+    await env.SEARCH_KV.put(failKey, String(result.newCount), { expirationTtl: RATE_LIMIT_FAIL_WINDOW_SECONDS });
+  } else if (result.kvAction === "lockout") {
+    await Promise.all([
+      env.SEARCH_KV.put(lockoutKey, "1", { expirationTtl: RATE_LIMIT_LOCKOUT_SECONDS }),
+      env.SEARCH_KV.delete(failKey),
+    ]);
+  }
+
+  return { allow: result.allow, status: result.status };
+}
+
+function passwordErrorResponse(status) {
+  return json({ error: status === 429 ? "too_many_attempts" : "wrong_password" }, status);
 }
 
 export default {
@@ -133,7 +167,7 @@ async function saveSearchResult(env, handle, result) {
  * result (also free -- "opening a saved one costs 0 credits"). Password-
  * gated as of the 2026-10-16 privacy fix: this is Roxie's own research
  * history (who she's scouted, with real account data), not public product
- * data, so CORS + Origin alone isn't enough -- see hasValidPassword.
+ * data, so CORS + Origin alone isn't enough -- see checkPassword.
  */
 async function handleSaved(request, url, env) {
   if (request.method === "OPTIONS") {
@@ -146,9 +180,8 @@ async function handleSaved(request, url, env) {
   if (request.method !== "GET") {
     return json({ error: "method_not_allowed" }, 405);
   }
-  if (!hasValidPassword(request, env)) {
-    return json({ error: "wrong_password" }, 401);
-  }
+  const savedCheck = await checkPassword(request, env, request.headers.get("X-Sync-Password"));
+  if (!savedCheck.allow) return passwordErrorResponse(savedCheck.status);
 
   const handle = url.searchParams.get("handle");
   if (handle) {
@@ -167,7 +200,7 @@ async function handleSaved(request, url, env) {
 // just in one browser's localStorage. One generic key-value route instead
 // of bespoke routes per feature -- each of these is "one JSON blob for a
 // known key", nothing more. Both reads and writes require SEARCH_PASSWORD
-// (2026-10-16 privacy fix -- see hasValidPassword's own comment for why
+// (2026-10-16 privacy fix -- see checkPassword's own comment for why
 // Origin alone wasn't enough): this is Roxie's real inventory/earnings/
 // hidden-item data, not something any site visitor should be able to read.
 const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories", "earnings_goal"]);
@@ -200,9 +233,8 @@ async function handleState(request, url, env) {
   const kvKey = `state:${profileId}:${key}`;
 
   if (request.method === "GET") {
-    if (!hasValidPassword(request, env)) {
-      return json({ error: "wrong_password" }, 401);
-    }
+    const stateGetCheck = await checkPassword(request, env, request.headers.get("X-Sync-Password"));
+    if (!stateGetCheck.allow) return passwordErrorResponse(stateGetCheck.status);
     let stored = await env.SEARCH_KV.get(kvKey, { type: "json" });
     if (stored === null) {
       // One-time read-migration: data written before profiles existed
@@ -226,9 +258,8 @@ async function handleState(request, url, env) {
   } catch {
     return json({ error: "invalid_json" }, 400);
   }
-  if (typeof body.password !== "string" || body.password !== env.SEARCH_PASSWORD) {
-    return json({ error: "wrong_password" }, 401);
-  }
+  const statePostCheck = await checkPassword(request, env, body.password);
+  if (!statePostCheck.allow) return passwordErrorResponse(statePostCheck.status);
   if (!("data" in body)) {
     return json({ error: "missing_data" }, 400);
   }
@@ -256,9 +287,8 @@ async function handleCredits(request, env) {
   if (request.method !== "GET") {
     return new Response("method not allowed", { status: 405 });
   }
-  if (!hasValidPassword(request, env)) {
-    return json({ error: "wrong_password" }, 401);
-  }
+  const creditsCheck = await checkPassword(request, env, request.headers.get("X-Sync-Password"));
+  if (!creditsCheck.allow) return passwordErrorResponse(creditsCheck.status);
   const cached = await env.SEARCH_KV.get(CREDITS_CACHE_KEY, { type: "json" });
   if (cached) return json(cached);
 
@@ -346,9 +376,8 @@ async function handleSearch(request, env) {
     return json({ error: "invalid_json" }, 400);
   }
 
-  if (typeof body.password !== "string" || body.password !== env.SEARCH_PASSWORD) {
-    return json({ error: "wrong_password" }, 401);
-  }
+  const searchCheck = await checkPassword(request, env, body.password);
+  if (!searchCheck.allow) return passwordErrorResponse(searchCheck.status);
 
   const handle = normalizeHandle(body.handle);
   if (!handle) {

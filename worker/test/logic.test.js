@@ -3,9 +3,11 @@ import { test } from "node:test";
 
 import {
   cacheKeyFor,
+  clientIp,
   countsAgainstQuota,
   creditGuardOk,
   dailyCountKey,
+  evaluateLoginAttempt,
   isAllowedImageHost,
   mapCreatorSearchResult,
   mapFansDistributionResult,
@@ -14,6 +16,7 @@ import {
   mondaysRemaining,
   monthlyCountKey,
   normalizeHandle,
+  RATE_LIMIT_MAX_FAILURES,
   searchLimitsFor,
 } from "../src/logic.js";
 
@@ -185,4 +188,45 @@ test("countsAgainstQuota only counts a found result, not a dead end", () => {
   // one of her 2-3 monthly search slots over a dead end.
   assert.equal(countsAgainstQuota("found"), true);
   assert.equal(countsAgainstQuota("not_found"), false);
+});
+
+test("evaluateLoginAttempt allows a correct password with no prior failures", () => {
+  const result = evaluateLoginAttempt(false, 0, true);
+  assert.deepEqual(result, { allow: true, status: 200, kvAction: "none" });
+});
+
+test("evaluateLoginAttempt clears the failure counter on a correct password after prior failures", () => {
+  const result = evaluateLoginAttempt(false, 3, true);
+  assert.deepEqual(result, { allow: true, status: 200, kvAction: "clear" });
+});
+
+test("evaluateLoginAttempt increments on a wrong password under the limit", () => {
+  const result = evaluateLoginAttempt(false, 2, false);
+  assert.deepEqual(result, { allow: false, status: 401, kvAction: "increment", newCount: 3 });
+});
+
+test("evaluateLoginAttempt locks out on the attempt that reaches RATE_LIMIT_MAX_FAILURES", () => {
+  // real case: the 5th wrong password in the window trips the lockout --
+  // not the 6th, so no free extra guess once the counter is at 4.
+  const result = evaluateLoginAttempt(false, RATE_LIMIT_MAX_FAILURES - 1, false);
+  assert.deepEqual(result, { allow: false, status: 429, kvAction: "lockout" });
+});
+
+test("evaluateLoginAttempt stays locked out regardless of the password once locked", () => {
+  assert.deepEqual(evaluateLoginAttempt(true, 0, false), { allow: false, status: 429, kvAction: "none" });
+  // even the CORRECT password doesn't bypass an active lockout -- it must
+  // expire (or the KV lockout key be cleared) on its own.
+  assert.deepEqual(evaluateLoginAttempt(true, 0, true), { allow: false, status: 429, kvAction: "none" });
+});
+
+test("clientIp reads CF-Connecting-IP first", () => {
+  const request = new Request("https://example.com", { headers: { "CF-Connecting-IP": "1.2.3.4", "X-Forwarded-For": "5.6.7.8" } });
+  assert.equal(clientIp(request), "1.2.3.4");
+});
+
+test("clientIp falls back to X-Forwarded-For, then 'unknown'", () => {
+  const withForwarded = new Request("https://example.com", { headers: { "X-Forwarded-For": "5.6.7.8" } });
+  assert.equal(clientIp(withForwarded), "5.6.7.8");
+  const withNeither = new Request("https://example.com");
+  assert.equal(clientIp(withNeither), "unknown");
 });
