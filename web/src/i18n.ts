@@ -312,8 +312,8 @@ const dict: Record<string, { es: string; en: string }> = {
   mejores_horas_by_category: { es: "Por categoría", en: "By category" },
   mejores_horas_live_title: { es: "Mejor hora para un live", en: "Best time to go live" },
   mejores_horas_live_pending: {
-    es: "Todavía no tenemos esto. Lo que intentamos usar (live_search) no filtra bien por categoría ni ordena por ventas en este momento -- se lo avisamos a Ryan antes de gastar más créditos en ello.",
-    en: "We don't have this yet. The tool we tried (live_search) isn't filtering by category or sorting by sales correctly right now -- flagged to Ryan before spending more credits on it.",
+    es: "Todavía no tenemos esto. Ya confirmamos que live_search funciona (categoría, ventas reales, zona horaria), pero conseguir suficientes datos por mes cuesta más créditos de lo planeado -- Ryan está decidiendo cuánto gastar.",
+    en: "We don't have this yet. We confirmed live_search actually works now (category, real sales, timezone), but getting enough data per month costs more credits than planned -- Ryan's deciding how much to spend.",
   },
   mejores_horas_footnote: {
     es: "Esto es una pista basada en nuestros datos, no en la cuenta de Roxie. Para saber cuándo SU audiencia está en línea, revisa: ",
