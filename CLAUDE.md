@@ -54,24 +54,29 @@ namespace holds cached searches, daily/monthly counters, and `state:<key>`
 blobs.
 
 ### In progress -- Ryan's 8-part "Next round of features" request (2026-10-15/16)
-Done and pushed: 1 (video/hashtag backfill -- 244/250 products have videos;
+All 8 parts of the 2026-10-15/16 "Next round of features" request are done
+and pushed: 1 (video/hashtag backfill -- 244/250 products have videos;
 best-time-to-post engine `engine/posting_time.py` + UI), 2 (dead-link fix via
 the no-videos fallback), 3 (more items on Hoy/Esta semana/Todos, suspicious
 hidden not dimmed), 4 (No me interesa + Ocultos + category-hide offer), 5
 (Mis Productos page, replaces Muestras as the main tab, synced via Worker
-`/state`), 6a (diagnosed the account-search failure), 6b (saved searches +
-Comparar cuentas, Worker `/saved` route), 7a (video best-time), 7b (live
-best-time -- `engine/live_backfill.py`, run monthly, 15cr/run), 7c (Mejores
-Horas page).
+`/state`), 6a (diagnosed the account-search failure), 6b/6c (saved searches +
+Comparar cuentas, Worker `/saved` route -- see that commit for exactly what
+the compare view shows and what it can't: no live/hashtag-per-account data
+exists), 7a (video best-time), 7b (live best-time -- `engine/live_backfill.py`,
+run monthly, ~15cr/run), 7c (Mejores Horas page), 8 (Mis Productos earnings ->
+`data/radar.db`'s new `mis_productos_earnings` table, via the Worker's new
+token-gated `/admin/mis-productos` route).
 
-**Still pending:**
-- **6c** was covered by 6b's compare view (follow-up tasks were merged --
-  see the 6b commit for exactly what it compares and what it can't: no
-  live/hashtag-per-account data exists yet).
-- **8**: expose the earnings Roxie logs in Mis Productos to the weekly run
-  (read from Worker KV via a new GitHub secret) and store in `data/radar.db`
-  -- just collecting outcome data, no re-fitting of weights yet. Not started
-  -- in progress now.
-- Phase 3 (weekly learning loop re-fitting composite/momentum weights from
-  outcome data) still can't start until part 8 gives it something to learn
-  from. Phase 5/6 per the spec also not started.
+**One manual step still needed from Ryan**, not something this session could
+do (no GitHub API/`gh` access): add a repo secret at Settings -> Secrets ->
+Actions -> `MIS_PRODUCTOS_TOKEN`, value = the same token already set as the
+Worker's `ADMIN_READ_TOKEN` secret (Ryan has it from the 2026-10-16 session
+that set it). Until that secret exists, the weekly run just prints "skipped"
+for the earnings-sync step and otherwise runs normally -- nothing is broken
+by leaving it unset for a while.
+
+**Not started:** Phase 3 (weekly learning loop re-fitting composite/momentum
+weights from outcome data) -- part 8 only just started collecting that data,
+there isn't enough of it yet to fit anything against. Phase 5/6 per the spec
+also not started.
