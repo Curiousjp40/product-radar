@@ -76,6 +76,27 @@ yet). Along the way, found and fixed a real bug: Cloudflare's bot-fight
 check 403's the default Python `urllib` User-Agent before it even reaches
 the Worker -- `engine/earnings.py` now sends a browser-looking UA.
 
+### 2026-10-16 follow-up requests (all done and pushed)
+- Weekly picks raised ~10 -> 20 (`config/weights.yaml`'s `picks:` section;
+  18 actual this week, evergreen had no eligible candidate). Hoy shows 1
+  hero + up to 8 "also good" plus a "Ver los N de la semana" link.
+- Earnings-goal upgrade (0 credits, synced via the Worker's `/state`
+  route): quick "+Venta", pace/projection, "lo que te falta", a weekly
+  video mini-goal, milestone celebrations + a "Logros" badge row, day/week
+  streaks, and a new **Mi Dinero** page (Mas) -- monthly chart, by
+  category/product, $/hour of filming, free-sample value, pending-vs-paid,
+  goal history. See that commit for the real timezone bug it caught and
+  fixed (`parseLocalDate` in `earningsGoalLogic.ts`).
+- Thursday "midweek refresh" built (`engine/midweek_refresh.py`,
+  `.github/workflows/midweek-refresh.yml`) -- re-pulls only top-selling
+  rankings, flags 10+ place rank jumps as "Subiendo rapido"/"Rising fast",
+  fetches a video for brand-new top-10 entries. **Schedule intentionally
+  left disabled** (the `schedule:` trigger is commented out in the
+  workflow) pending Ryan's go-ahead on the confirmed cost: a real dry-run
+  dispatch in CI reported 25 credits (10 active categories today) +
+  a small variable amount for brand-new top-10 entries' videos. Uncomment
+  the two `cron:` lines to turn it on.
+
 **Not started:** Phase 3 (weekly learning loop re-fitting composite/momentum
 weights from outcome data) -- part 8 only just started collecting that data,
 there isn't enough of it yet to fit anything against. Phase 5/6 per the spec
