@@ -13,6 +13,7 @@ import type { Candidate, CategoryGroup } from "../types";
 import { sortCandidates, type SortMode } from "../todosSort";
 import { productCardInfoHtml } from "./productCard";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
+import { videoSubTabsHtml } from "../videoSubTabs";
 
 function todayIso(): string {
   return new Date().toISOString().slice(0, 10);
@@ -113,7 +114,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
 
   if (data.candidates.length === 0) {
-    container.innerHTML = `${banner}<h2 class="view-title">${t("nav_all", lang)}</h2><p class="empty-state">${t("no_data", lang)}</p>`;
+    container.innerHTML = `${banner}${videoSubTabsHtml("todos", lang)}<h2 class="view-title">${t("nav_all", lang)}</h2><p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
 
@@ -162,6 +163,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
 
     container.innerHTML = `
       ${banner}
+      ${videoSubTabsHtml("todos", lang)}
       <h2 class="view-title">${t("nav_all", lang)}</h2>
       <div class="todos-search">
         <input type="search" class="todos-search-input" placeholder="${t("search_products_placeholder", lang)}" value="${searchQuery.replace(/"/g, "&quot;")}" />

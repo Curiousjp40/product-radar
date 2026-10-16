@@ -1,4 +1,5 @@
 import { loadBestTimes, loadCandidates, loadLiveHighlights, loadPicks } from "../api";
+import { assetUrl } from "../asset";
 import { t, type Lang } from "../i18n";
 import { buildLivePlan, type LivePlanProduct } from "../livePlan";
 import { getAllMisProductos, type MisProducto } from "../misProductos";
@@ -44,11 +45,17 @@ function highlightRowHtml(h: LiveHighlight, lang: Lang): string {
 }
 
 function planProductRowHtml(p: LivePlanProduct, lang: Lang): string {
+  const photo = p.image_url ? `<img class="photo" src="${assetUrl(p.image_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`;
   return `
     <div class="live-plan-product">
-      <div class="name">${p.name}</div>
-      <div class="meta">${t("earn_headline", lang, { amount: p.earnings_per_sale.toFixed(2) })}</div>
-      ${p.talking_point ? `<p class="live-plan-talking-point">${p.talking_point}</p>` : ""}
+      ${photo}
+      <div class="live-plan-product-body">
+        <div class="name">${p.name}</div>
+        <div class="meta">${t("earn_headline", lang, { amount: p.earnings_per_sale.toFixed(2) })} &middot; $${p.price.toFixed(2)}</div>
+        ${p.isOwned ? `<span class="saturation-badge owned-badge">${t("ya_lo_tienes_tag", lang)}</span>` : ""}
+        ${p.liveUnitsSold !== null ? `<div class="meta">${t("en_vivo_sold_in_lives", lang, { n: p.liveUnitsSold })}</div>` : ""}
+        ${p.talking_point ? `<p class="live-plan-talking-point">${p.talking_point}</p>` : ""}
+      </div>
     </div>
   `;
 }
@@ -82,13 +89,40 @@ export async function renderEnVivo(container: HTMLElement, lang: Lang): Promise<
   // what she already has (Recibido/Grabado) over this week's top fashion picks.
   const suggestedEntry = liveEntries.length > 0 ? liveEntries.reduce((best, e) => (e[1].sample_size > best[1].sample_size ? e : best)) : null;
 
+  // Bug fix (2026-10-16): this used to key each owned-ready item by its
+  // Mis Productos RECORD id (i.id, e.g. "mp_...") instead of the actual
+  // product_id, and never set `isOwned` at all -- buildLivePlan's dedup
+  // never matched a real product_id against a top-pick, so a product
+  // already in Mis Productos could show up TWICE, and the plan had no way
+  // to tell the UI which items were owned (hence every/no item showing
+  // the tag depending on how the card happened to render).
   const ownedReady: LivePlanProduct[] = misProductos
     .filter(readyToFilm)
-    .map((i) => ({ product_id: i.id, name: i.name, earnings_per_sale: i.earnings_per_sale ?? 0, talking_point: t("en_vivo_owned_talking_point", lang) }));
+    .filter((i) => i.product_id !== null)
+    .map((i) => ({
+      product_id: i.product_id as string,
+      name: i.name,
+      image_url: i.photo_url,
+      price: i.price ?? 0,
+      earnings_per_sale: i.earnings_per_sale ?? 0,
+      talking_point: t("en_vivo_owned_talking_point", lang),
+      isOwned: true,
+      liveUnitsSold: null,
+    }));
+  const ownedProductIdSet = new Set(ownedReady.map((p) => p.product_id));
   const topFashionPicks: LivePlanProduct[] = [...picksData.picks]
     .filter((p) => p.group === "fashion")
     .sort((a, b) => b.score - a.score)
-    .map((p) => ({ product_id: p.product_id, name: p.clean_title, earnings_per_sale: p.earnings_per_sale, talking_point: lang === "es" ? p.summary_es : p.summary_en }));
+    .map((p) => ({
+      product_id: p.product_id,
+      name: p.clean_title,
+      image_url: p.image_url,
+      price: p.price,
+      earnings_per_sale: p.earnings_per_sale,
+      talking_point: lang === "es" ? p.summary_es : p.summary_en,
+      isOwned: ownedProductIdSet.has(p.product_id),
+      liveUnitsSold: null,
+    }));
   const livePlan = buildLivePlan(ownedReady, topFashionPicks, 8);
 
   // Dedupe by room_id: categories that share an L1 id (e.g. the 3 Moda-core

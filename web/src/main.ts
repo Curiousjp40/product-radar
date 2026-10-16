@@ -19,33 +19,21 @@ import { renderThisWeek } from "./views/thisWeek";
 import { renderTodos } from "./views/todos";
 import { syncIndicatorHtml, wireSyncIndicator } from "./syncIndicator";
 
-// Tabs (Part D, added 2026-10-15; Muestras replaced by Mis Productos
-// 2026-10-16, Part C5): Hoy / Esta semana / Todos / Mis Productos / Mas.
-// The old Muestras page/data still exists at #/muestras (linked from Mas,
-// not deleted) since its request-sample buttons elsewhere on the site
-// still write to it -- Mis Productos is the new primary inventory/pipeline
-// view, synced across devices via the Worker, superseding Muestras as the
-// main tab without breaking what already pointed at the old one.
+// Tabs, rebuilt 2026-10-16 (Part B): Hoy / Videos / En vivo / Mis
+// Productos / Mas. "Videos" is one tab over three sub-pages (Esta semana,
+// Todos, Mejores horas -- see VIDEO_SUB_TABS/videoSubTabsHtml below); "En
+// vivo" is promoted out of Mas into a main section. The old Muestras
+// page/route still exists (its request-sample buttons elsewhere still
+// write to it) but is no longer linked from Mas's own list.
 const TABS: { route: string; labelKey: string }[] = [
   { route: "hoy", labelKey: "nav_hoy" },
-  { route: "week", labelKey: "nav_this_week" },
-  { route: "todos", labelKey: "nav_all" },
+  { route: "week", labelKey: "nav_videos" },
+  { route: "en-vivo", labelKey: "nav_en_vivo" },
   { route: "mis-productos", labelKey: "nav_mis_productos" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set([
-  "buscar",
-  "season",
-  "settings",
-  "pipeline",
-  "outreach",
-  "ocultos",
-  "mejores-horas",
-  "muestras",
-  "comparar-cuentas",
-  "mi-dinero",
-  "en-vivo",
-]);
+const VIDEO_ROUTES = new Set(["week", "todos", "mejores-horas"]);
+const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach", "ocultos", "muestras", "comparar-cuentas", "mi-dinero"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -68,7 +56,12 @@ function renderShell(lang: Lang): void {
     ${syncIndicatorHtml(lang)}
     <nav class="tabs">
       ${TABS.map((tab) => {
-        const isActive = tab.route === "more" ? route.name === "more" || MORE_ROUTES.has(route.name) : route.name === tab.route;
+        const isActive =
+          tab.route === "more"
+            ? route.name === "more" || MORE_ROUTES.has(route.name)
+            : tab.route === "week"
+              ? VIDEO_ROUTES.has(route.name)
+              : route.name === tab.route;
         return `<a href="#/${tab.route}" class="${isActive ? "active" : ""}">${t(tab.labelKey, lang)}</a>`;
       }).join("")}
     </nav>

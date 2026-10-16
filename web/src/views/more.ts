@@ -2,16 +2,17 @@ import { loadMeta } from "../api";
 import { fetchCreditsSummary } from "../credits";
 import { t, type Lang } from "../i18n";
 
+// Part B nav restructure (2026-10-16): "Mejores horas" moved under the
+// Videos tab's own sub-tabs, "En vivo" promoted to a main tab, and the
+// legacy "Muestras (antiguo)" link removed from here -- its route/data
+// still exist (other flows still write to it), just no longer linked.
 const LINKS: { route: string; labelKey: string }[] = [
   { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "outreach", labelKey: "nav_outreach" },
   { route: "buscar", labelKey: "nav_buscar_cuenta" },
   { route: "comparar-cuentas", labelKey: "compare_accounts_title" },
   { route: "ocultos", labelKey: "nav_ocultos" },
-  { route: "mejores-horas", labelKey: "nav_mejores_horas" },
-  { route: "en-vivo", labelKey: "nav_en_vivo" },
   { route: "mi-dinero", labelKey: "nav_mi_dinero" },
-  { route: "muestras", labelKey: "nav_muestras_legacy" },
   { route: "season", labelKey: "nav_season" },
   { route: "settings", labelKey: "nav_settings" },
 ];

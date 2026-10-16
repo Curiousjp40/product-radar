@@ -20,6 +20,15 @@ import { goalCardHtml, wireGoalCard } from "./goalCard";
 import { productCardInfoHtml } from "./productCard";
 import { countdownText, daysUntil } from "./season";
 
+function formatHourRange(hourStart: number, hourEnd: number): string {
+  const to12 = (h: number) => (h % 12 === 0 ? 12 : h % 12);
+  const period = (h: number) => (h < 12 ? "AM" : "PM");
+  const startPeriod = period(hourStart);
+  const endPeriod = period(hourEnd);
+  if (startPeriod === endPeriod) return `${to12(hourStart)}-${to12(hourEnd)} ${startPeriod}`;
+  return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
+}
+
 // A deterministic-per-day pick from a list (e.g. "today's" template hook),
 // using the same day-number approach as rotation.ts -- not random, so the
 // suggestion doesn't flicker on every re-render, but still varies day to day.
@@ -253,12 +262,36 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
        </div>`
     : "";
 
+  // "Tu proximo live" (Part B, 2026-10-16): the fuller plan lives on En
+  // vivo -- this is just a day/time + 3 photos teaser, reusing the same
+  // "category with the largest live sample" suggestion and the same
+  // owned-first-then-top-fashion-picks product priority.
+  const liveEntries = Object.entries(bestTimes.live ?? {}).filter((e): e is [string, LiveBestTime] => e[1] !== null);
+  const suggestedLiveEntry = liveEntries.length > 0 ? liveEntries.reduce((best, e) => (e[1].sample_size > best[1].sample_size ? e : best)) : null;
+  const ownedForLive = misProductos.filter((i) => i.status === "recibido" || i.status === "grabado").slice(0, 3);
+  const livePhotoUrls =
+    ownedForLive.length >= 3
+      ? ownedForLive.map((i) => i.photo_url)
+      : [...ownedForLive.map((i) => i.photo_url), ...picksData.picks.filter((p) => p.group === "fashion").map((p) => p.image_url)].slice(0, 3);
+  const nextLiveHtml = suggestedLiveEntry
+    ? `<a class="hoy-next-live" href="#/en-vivo">
+         <strong>${t("en_vivo_plan_title", lang)}</strong>
+         <p class="goal-progress-text">${t("en_vivo_plan_time", lang, { category: lang === "es" ? (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_es ?? suggestedLiveEntry[0]) : (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_en ?? suggestedLiveEntry[0]), days: suggestedLiveEntry[1].best_weekdays.map((d) => t(["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"][d], lang)).join(" / "), window: formatHourRange(suggestedLiveEntry[1].hour_start, suggestedLiveEntry[1].hour_end) })}</p>
+         <div class="hoy-next-live-photos">
+           ${livePhotoUrls
+             .map((url) => (url ? `<img src="${assetUrl(url)}" alt="" loading="lazy" />` : `<div class="hoy-next-live-photo-placeholder"></div>`))
+             .join("")}
+         </div>
+       </a>`
+    : "";
+
   container.innerHTML = `
     ${banner}
     <h2 class="view-title">${t("hoy_title", lang)}</h2>
     ${samplesBanner}
     ${await goalCardHtml(lang, picksData.picks, misProductos, today)}
     ${seasonHtml}
+    ${nextLiveHtml}
     ${resurgenceHtml}
     ${yaLoTengoSheetHtml(lang)}
     ${

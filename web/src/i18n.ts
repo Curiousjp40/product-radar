@@ -14,6 +14,7 @@ export function locale(lang: Lang): string {
 
 const dict: Record<string, { es: string; en: string }> = {
   nav_hoy: { es: "Hoy", en: "Today" },
+  nav_videos: { es: "Videos", en: "Videos" },
   nav_this_week: { es: "Esta semana", en: "This week" },
   nav_all: { es: "Todos", en: "All" },
   group_fashion: { es: "Moda", en: "Fashion" },
@@ -489,6 +490,7 @@ const dict: Record<string, { es: string; en: string }> = {
   },
   en_vivo_owned_talking_point: { es: "Ya lo tienes -- muéstralo en vivo.", en: "You already have it -- show it live." },
   en_vivo_top_lives_title: { es: "Lives que más vendieron (últimos 28 días)", en: "Top-selling lives (last 28 days)" },
+  en_vivo_sold_in_lives: { es: "Se vendió {n} veces en lives", en: "Sold {n} times in lives" },
   en_vivo_highlight_stats: {
     es: "{viewers} espectadores &middot; {units} ventas",
     en: "{viewers} viewers &middot; {units} sales",

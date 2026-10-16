@@ -7,8 +7,15 @@
 export interface LivePlanProduct {
   product_id: string;
   name: string;
+  image_url: string | null;
+  price: number;
   earnings_per_sale: number;
   talking_point: string;
+  isOwned: boolean;
+  // Live-sales count across her investigated lives, when known -- null
+  // until the "Lives que venden" paid investigation has run; the UI shows
+  // nothing for this product rather than a fabricated/zero count.
+  liveUnitsSold: number | null;
 }
 
 export function buildLivePlan(ownedReady: LivePlanProduct[], topPicks: LivePlanProduct[], maxProducts = 8): LivePlanProduct[] {

@@ -17,6 +17,7 @@ import { findCombos } from "../combos";
 import { productCardInfoHtml } from "./productCard";
 import { hasRequestedSample, requestSample } from "../samples";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
+import { videoSubTabsHtml } from "../videoSubTabs";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -306,7 +307,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   ]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
   if (rawData.picks.length === 0) {
-    container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
+    container.innerHTML = `${banner}${videoSubTabsHtml("week", lang)}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
   const [statuses, feedback, misProductos, goal, entries, hideOwned] = await Promise.all([
@@ -335,7 +336,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   const data = { ...rawData, picks: swappedPicks };
   const categoryByProductId = new Map(rawData.picks.map((p) => [p.product_id, p.category]));
   if (data.picks.length === 0) {
-    container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
+    container.innerHTML = `${banner}${videoSubTabsHtml("week", lang)}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
   // Moda/Hogar/Todo filter (2026-10-16): applies only to the list/detail
@@ -404,6 +405,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   if (visiblePicks.length === 0) {
     container.innerHTML = `
       ${banner}
+      ${videoSubTabsHtml("week", lang)}
       ${groupFilterHtml(filterGroup, lang)}
       <p class="empty-state">${t("no_data", lang)}</p>
     `;
@@ -414,6 +416,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   const excludeIds = new Set(data.picks.map((p) => p.product_id));
   container.innerHTML = `
     ${banner}
+    ${videoSubTabsHtml("week", lang)}
     ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
     ${groupFilterHtml(filterGroup, lang)}
     <div class="week-split">

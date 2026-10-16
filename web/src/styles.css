@@ -1324,6 +1324,27 @@ select.status-select {
   padding: 10px 14px;
 }
 
+.live-plan-product {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.live-plan-product .photo,
+.live-plan-product .photo-placeholder {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex: 0 0 auto;
+  background: var(--surface-2);
+}
+
+.live-plan-product-body {
+  flex: 1;
+  min-width: 0;
+}
+
 .live-plan-product .name,
 .live-highlight-title {
   font-weight: 700;
@@ -2731,4 +2752,56 @@ select.status-select {
   border-top: 1px solid var(--border);
   padding: 10px 14px;
   margin: 10px -16px -16px;
+}
+
+/* Videos sub-tabs (Part B nav restructure, added 2026-10-16) */
+.video-sub-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.video-sub-tabs a {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+}
+
+.video-sub-tabs a.active {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* "Tu proximo live" teaser on Hoy (Part B, added 2026-10-16) */
+.hoy-next-live {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.hoy-next-live-photos {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.hoy-next-live-photos img,
+.hoy-next-live-photo-placeholder {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: var(--surface-2);
 }

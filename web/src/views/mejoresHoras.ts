@@ -1,6 +1,7 @@
 import { loadBestTimes, loadCandidates } from "../api";
 import { t, type Lang } from "../i18n";
 import type { CategoryGroupBestTime, LiveBestTime } from "../types";
+import { videoSubTabsHtml } from "../videoSubTabs";
 
 const WEEKDAY_KEYS = ["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"];
 
@@ -61,6 +62,7 @@ export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Pr
   const liveEntries = Object.entries(bestTimes.live ?? {}).sort(([a], [b]) => categoryLabel(a).localeCompare(categoryLabel(b)));
 
   container.innerHTML = `
+    ${videoSubTabsHtml("mejores-horas", lang)}
     <h2 class="view-title">${t("mejores_horas_title", lang)}</h2>
     <p class="best-times-intro">${t("mejores_horas_intro", lang)}</p>
 
