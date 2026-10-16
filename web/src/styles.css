@@ -645,13 +645,25 @@ select.status-select {
 
 .week-row {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
   background: var(--surface);
   border-radius: var(--radius);
-  padding: 8px 10px;
+  padding: 10px;
   box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
   border: 2px solid transparent;
+}
+
+.week-row .btn-not-for-me {
+  align-self: flex-start;
+}
+
+@media (min-width: 560px) {
+  .week-row {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .week-row-link {
@@ -1707,6 +1719,114 @@ select.status-select {
 .rising-fast-badge {
   background: #fef3c7;
   color: #b45309;
+}
+
+.owned-badge {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.season-event-badge {
+  background: var(--surface-2);
+  color: var(--accent-2);
+}
+
+/* ---------------------------------------------------------------------
+   Part C "card redesign" (2026-10-16): the shared "is this worth my
+   time?" info block, used on Hoy/Esta semana/Todos cards alike.
+   ------------------------------------------------------------------- */
+.card-v2-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 4px 0 6px;
+}
+
+.card-v2-earn {
+  color: var(--good);
+  font-weight: 700;
+  font-size: 1.02rem;
+}
+
+.card-v2-price-commission {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.card-v2-units {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
+
+.card-v2-trend-up {
+  color: var(--good);
+  font-weight: 700;
+}
+
+.card-v2-trend-down {
+  color: var(--bad);
+  font-weight: 700;
+}
+
+.card-v2-trend-flat {
+  color: var(--text-dim);
+  font-weight: 700;
+}
+
+.card-v2-sparkline {
+  width: 40px;
+  height: 14px;
+  color: var(--accent-2);
+}
+
+.card-v2-line {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.card-v2-verdict {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.verdict-chip {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.verdict-vale_la_pena .verdict-chip {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.verdict-tal_vez .verdict-chip {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.verdict-pasalo .verdict-chip {
+  background: #fde3e3;
+  color: var(--bad);
+}
+
+.verdict-reason {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.card-v2-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
 }
 
 .saturation-reason {

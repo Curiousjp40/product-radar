@@ -31,6 +31,11 @@ export interface Pick {
   score: number;
   ev_typical: number;
   ev_upside: number;
+  units_7d: number;
+  creator_count: number | null;
+  daily_units_14: number[];
+  season_event_label_es: string | null;
+  season_event_label_en: string | null;
   reasons_es: string[];
   reasons_en: string[];
   summary_es: string;
@@ -83,6 +88,8 @@ export interface Candidate {
   suspicious: boolean;
   suspicious_reasons?: string[];
   rising_fast: boolean;
+  season_event_label_es: string | null;
+  season_event_label_en: string | null;
   fastmoss_url: string;
   tiktok_search_url: string;
   tiktok_shop_url: string;

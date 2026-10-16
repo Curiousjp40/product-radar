@@ -1175,6 +1175,7 @@ def picks_to_export_dicts(
             row, creator_avg_gpm, spanish_gap_reason_max_share, exclude=frozenset({"earnings"}), momentum_weights=momentum_weights
         )
         cat_meta = (categories_cfg or {}).get(p["config_category"], {})
+        has_active_event = pd.notna(p.get("days_to_event_end")) and p.get("days_to_event_end", -1) >= 0
         out.append(
             {
                 "slot": p["slot"],
@@ -1199,6 +1200,19 @@ def picks_to_export_dicts(
                 "score": int(p["score"]),
                 "ev_typical": round(p["ev_typical"], 2),
                 "ev_upside": round(p["ev_upside"], 2),
+                # Part C card redesign (added 2026-10-16): the new compact
+                # card ("units sold + % vs prior week + sparkline",
+                # "~N sales/creator") needs these on Pick, not just
+                # Candidate -- they were already computed (score_pool's own
+                # row), just never exported here.
+                "units_7d": int(p["units_7d"]),
+                "creator_count": int(p["creator_count"]) if pd.notna(p.get("creator_count")) else None,
+                "daily_units_14": p.get("daily_units_14") if isinstance(p.get("daily_units_14"), list) else [],
+                # Card redesign's season-event tag -- matched_event_label was
+                # already computed for the seasonality reason sentence but
+                # never exported on its own before.
+                "season_event_label_es": p.get("matched_event_label_es") if has_active_event else None,
+                "season_event_label_en": p.get("matched_event_label_en") if has_active_event else None,
                 "reasons_es": reasons_es,
                 "reasons_en": reasons_en,
                 "summary_es": join_reasons_as_sentence(summary_reasons_es, "es"),
@@ -1444,6 +1458,16 @@ def candidates_to_export_dicts(
                 # has no "before" rank to compare against, so it's always
                 # False here.
                 "rising_fast": False,
+                "season_event_label_es": (
+                    r.get("matched_event_label_es")
+                    if pd.notna(r.get("days_to_event_end")) and r.get("days_to_event_end", -1) >= 0
+                    else None
+                ),
+                "season_event_label_en": (
+                    r.get("matched_event_label_en")
+                    if pd.notna(r.get("days_to_event_end")) and r.get("days_to_event_end", -1) >= 0
+                    else None
+                ),
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=r["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
                 "tiktok_shop_url": tiktok_shop_url(r["product_id"]),
@@ -1496,6 +1520,8 @@ def candidates_to_export_dicts(
                 "suspicious": True,
                 "suspicious_reasons": c["suspicious_reasons"],
                 "rising_fast": False,
+                "season_event_label_es": None,
+                "season_event_label_en": None,
                 "fastmoss_url": FASTMOSS_PRODUCT_URL_TEMPLATE.format(product_id=c["product_id"]),
                 "tiktok_search_url": tiktok_search_url(clean),
                 "tiktok_shop_url": tiktok_shop_url(c["product_id"]),

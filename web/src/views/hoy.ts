@@ -1,15 +1,18 @@
 import { loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl } from "../asset";
 import { bestVideoTimeHtml } from "../bestTime";
+import { getEntries, getMonthlyGoal } from "../earningsGoal";
+import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
-import { getAllMisProductos } from "../misProductos";
+import { getAllMisProductos, ownedProductIds } from "../misProductos";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import { productsToFilmToday } from "../rotation";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
 import type { HooksFile, Pick } from "../types";
 import { goalCardHtml, wireGoalCard } from "./goalCard";
+import { productCardInfoHtml } from "./productCard";
 import { countdownText, daysUntil } from "./season";
 
 // A deterministic-per-day pick from a list (e.g. "today's" template hook),
@@ -92,12 +95,41 @@ function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
   `;
 }
 
-// The hero: one big "film this today" pick -- photo, earnings, the one
-// reason it's the pick, the best hook, hashtags, shot list behind a tap.
-function heroHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed: boolean): string {
-  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+function pickCardInput(pick: Pick) {
+  return {
+    earnings_per_sale: pick.earnings_per_sale,
+    price: pick.price,
+    commission_rate: pick.commission_rate,
+    units_7d: pick.units_7d,
+    daily_units_14: pick.daily_units_14,
+    creator_count: pick.creator_count,
+    ev_typical: pick.ev_typical,
+    score: pick.score,
+    saturation_badge: pick.saturation_badge,
+  };
+}
+
+// The hero: one big "film this today" pick -- photo, the new "worth my
+// time" info block, the one reason it's the pick, the best hook,
+// hashtags, shot list behind a tap.
+function heroHtml(
+  pick: Pick,
+  hooks: HooksFile,
+  today: Date,
+  lang: Lang,
+  filmed: boolean,
+  ownedIds: Set<string>,
+  monthlyGoalRemaining: number | null,
+): string {
   const why = lang === "es" ? pick.summary_es : pick.summary_en;
   const hook = bestHook(pick, hooks, today, lang);
+  const infoHtml = productCardInfoHtml(pickCardInput(pick), {
+    lang,
+    monthlyGoalRemaining,
+    isOwned: ownedIds.has(pick.product_id),
+    pocasLatinas: pick.pocas_creadoras_latinas,
+    seasonEventLabel: lang === "es" ? pick.season_event_label_es : pick.season_event_label_en,
+  });
   return `
     <article class="hoy-hero" data-product-id="${pick.product_id}">
       <a class="hoy-hero-photo-link" href="#/product/${pick.product_id}">
@@ -106,7 +138,7 @@ function heroHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed:
       <div class="hoy-hero-body">
         <span class="hoy-hero-eyebrow">${t("hoy_hero_label", lang)}</span>
         <h3 class="hoy-hero-title">${pick.clean_title}</h3>
-        <div class="hoy-hero-earn">${earnLine}</div>
+        ${infoHtml}
         ${why ? `<p class="hoy-hero-why">${why}</p>` : ""}
         ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
         ${bestVideoTimeHtml(pick.best_video_time, lang)}
@@ -119,9 +151,23 @@ function heroHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed:
 }
 
 // "Also good" -- smaller, condensed versions of the same card.
-function alsoGoodCardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang, filmed: boolean): string {
-  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+function alsoGoodCardHtml(
+  pick: Pick,
+  hooks: HooksFile,
+  today: Date,
+  lang: Lang,
+  filmed: boolean,
+  ownedIds: Set<string>,
+  monthlyGoalRemaining: number | null,
+): string {
   const hook = bestHook(pick, hooks, today, lang);
+  const infoHtml = productCardInfoHtml(pickCardInput(pick), {
+    lang,
+    monthlyGoalRemaining,
+    isOwned: ownedIds.has(pick.product_id),
+    pocasLatinas: pick.pocas_creadoras_latinas,
+    seasonEventLabel: lang === "es" ? pick.season_event_label_es : pick.season_event_label_en,
+  });
   return `
     <article class="pick-card hoy-also-good" data-product-id="${pick.product_id}">
       <a class="card-photo-link" href="#/product/${pick.product_id}">
@@ -129,7 +175,7 @@ function alsoGoodCardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang,
       </a>
       <div class="card-body">
         <h3 class="card-title">${pick.clean_title}</h3>
-        <div class="card-earn">${earnLine}</div>
+        ${infoHtml}
         ${hook ? `<p class="hoy-hook-real">&ldquo;${hook}&rdquo;</p>` : ""}
         ${hashtagsHtml(pick, lang, 3)}
         ${shotListDetailsHtml(pick, hooks, lang)}
@@ -141,15 +187,20 @@ function alsoGoodCardHtml(pick: Pick, hooks: HooksFile, today: Date, lang: Lang,
 
 export async function renderHoy(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const [{ data: picksData, isSample }, { data: hooks }, statuses, feedback, misProductos] = await Promise.all([
+  const [{ data: picksData, isSample }, { data: hooks }, statuses, feedback, misProductos, goal, entries] = await Promise.all([
     loadPicks(),
     loadHooks(),
     getAllStatuses(),
     getAllFeedback(),
     getAllMisProductos(),
+    getMonthlyGoal(),
+    getEntries(),
   ]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
   const today = new Date();
+  const ownedIds = ownedProductIds(misProductos);
+  const progress = earningsProgress(goal, earningsThisMonth(entries, today));
+  const monthlyGoalRemaining = progress ? progress.remaining : null;
   const hiddenCategories = new Set(getHiddenCategories());
   const visiblePicks = picksData.picks.filter(
     (p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category),
@@ -176,11 +227,11 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ${
       !hero
         ? `<p class="empty-state">${t("hoy_empty", lang)}</p>`
-        : `${heroHtml(hero, hooks, today, lang, statuses[hero.product_id] === "filmed")}
+        : `${heroHtml(hero, hooks, today, lang, statuses[hero.product_id] === "filmed", ownedIds, monthlyGoalRemaining)}
            ${
              rest.length > 0
                ? `<h3 class="hoy-also-good-title">${t("hoy_also_good_title", lang)}</h3>
-                  <div class="card-grid hoy-also-good-list">${rest.map((p) => alsoGoodCardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed")).join("")}</div>`
+                  <div class="card-grid hoy-also-good-list">${rest.map((p) => alsoGoodCardHtml(p, hooks, today, lang, statuses[p.product_id] === "filmed", ownedIds, monthlyGoalRemaining)).join("")}</div>`
                : ""
            }
            <a class="more-link" href="#/week">${t("ver_20_de_la_semana", lang, { n: picksData.picks.length })}</a>`

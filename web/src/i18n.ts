@@ -174,6 +174,18 @@ const dict: Record<string, { es: string; en: string }> = {
   mi_dinero_goal_history_title: { es: "Historial de metas", en: "Goal history" },
   mi_dinero_meta_cumplida: { es: "Meta cumplida", en: "Goal reached" },
   rising_fast_tag: { es: "Subiendo rápido", en: "Rising fast" },
+  // Part C "card redesign" (2026-10-16): the shared info block.
+  sales_per_creator: { es: "~{n} ventas por creadora", en: "~{n} sales per creator" },
+  monthly_estimate_label: { es: "Estimado para ti: ~{low}-{high}/mes", en: "Estimated for you: ~{low}-{high}/mo" },
+  sales_equal_100: { es: "{n} ventas = $100", en: "{n} sales = $100" },
+  sales_equal_your_goal: { es: "{n} ventas = tu meta", en: "{n} sales = your goal" },
+  verdict_vale_la_pena: { es: "Vale la pena", en: "Worth it" },
+  verdict_tal_vez: { es: "Tal vez", en: "Maybe" },
+  verdict_pasalo: { es: "Pásalo", en: "Skip it" },
+  verdict_reason_paga_poco: { es: "Paga poco: solo vale si vende mucho", en: "Pays little: only worth it if it sells a lot" },
+  verdict_reason_mucha_demanda_pocas_creadoras: { es: "Mucha demanda y pocas creadoras", en: "High demand, few creators" },
+  verdict_reason_muy_lleno: { es: "Muy lleno", en: "Too crowded" },
+  ya_lo_tienes_tag: { es: "Ya lo tienes", en: "You already have it" },
   // H2 combos (added 2026-10-15).
   combos_title: { es: "Combina y gana más", en: "Combine and earn more" },
   combos_combined_earn: { es: "Ganas {amount} si vendes ambos", en: "Earn {amount} if you sell both" },

@@ -1,11 +1,15 @@
 import { loadCandidates, loadHooks, loadPicks } from "../api";
 import { bestVideoTimeHtml } from "../bestTime";
+import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
+import { getEntries, getMonthlyGoal } from "../earningsGoal";
+import { getAllMisProductos, ownedProductIds } from "../misProductos";
 import { t, type Lang } from "../i18n";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import type { Candidate, ComboPair, Pick } from "../types";
 import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
+import { productCardInfoHtml } from "./productCard";
 import { hasRequestedSample, requestSample } from "../samples";
 
 function formatCount(n: number): string {
@@ -30,21 +34,36 @@ function formatHourRange(hourStart: number, hourEnd: number): string {
   return `${to12(hourStart)} ${startPeriod} - ${to12(hourEnd)} ${endPeriod}`;
 }
 
+function pickCardInput(pick: Pick) {
+  return {
+    earnings_per_sale: pick.earnings_per_sale,
+    price: pick.price,
+    commission_rate: pick.commission_rate,
+    units_7d: pick.units_7d,
+    daily_units_14: pick.daily_units_14,
+    creator_count: pick.creator_count,
+    ev_typical: pick.ev_typical,
+    score: pick.score,
+    saturation_badge: pick.saturation_badge,
+  };
+}
+
 // Left-column compact row (Part F split view).
-function rowHtml(pick: Pick, lang: Lang, selected: boolean): string {
-  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
+function rowHtml(pick: Pick, lang: Lang, selected: boolean, ownedIds: Set<string>, monthlyGoalRemaining: number | null): string {
+  const infoHtml = productCardInfoHtml(pickCardInput(pick), {
+    lang,
+    monthlyGoalRemaining,
+    isOwned: ownedIds.has(pick.product_id),
+    pocasLatinas: pick.pocas_creadoras_latinas,
+    seasonEventLabel: lang === "es" ? pick.season_event_label_es : pick.season_event_label_en,
+  });
   return `
     <div class="week-row ${selected ? "selected" : ""}" data-product-id="${pick.product_id}">
       <a class="week-row-link" href="#/product/${pick.product_id}" data-product-id="${pick.product_id}">
         ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
         <div class="week-row-body">
           <div class="week-row-title">${pick.clean_title}</div>
-          <div class="week-row-meta">
-            <span class="week-row-earn">${earnLine}</span>
-            <span class="week-row-price">$${pick.price.toFixed(2)}</span>
-            ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
-            ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
-          </div>
+          ${infoHtml}
         </div>
       </a>
       <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
@@ -55,7 +74,13 @@ function rowHtml(pick: Pick, lang: Lang, selected: boolean): string {
 // "Esta semana, todo lo demás": the rest of this week's candidates (not in
 // the curated ~9 picks), grouped by category -- Part C3's "not just the
 // curated picks" ask, without redefining what a "pick" is in the engine.
-function allThisWeekHtml(candidates: Candidate[], excludeIds: Set<string>, lang: Lang): string {
+function allThisWeekHtml(
+  candidates: Candidate[],
+  excludeIds: Set<string>,
+  lang: Lang,
+  ownedIds: Set<string>,
+  monthlyGoalRemaining: number | null,
+): string {
   const rest = candidates.filter((c) => !excludeIds.has(c.product_id) && !c.suspicious);
   if (rest.length === 0) return "";
   const byCategory = new Map<string, Candidate[]>();
@@ -76,18 +101,39 @@ function allThisWeekHtml(candidates: Candidate[], excludeIds: Set<string>, lang:
             <h4 class="week-category-group-title">${label}</h4>
             <div class="card-grid">
               ${items
-                .map(
-                  (c) => `
+                .map((c) => {
+                  const infoHtml = productCardInfoHtml(
+                    {
+                      earnings_per_sale: c.earnings_per_sale,
+                      price: c.price,
+                      commission_rate: c.commission_rate,
+                      units_7d: c.units_7d,
+                      daily_units_14: c.daily_units,
+                      creator_count: c.creator_count,
+                      ev_typical: c.ev_typical,
+                      score: c.score,
+                      saturation_badge: c.saturation_badge,
+                    },
+                    {
+                      lang,
+                      monthlyGoalRemaining,
+                      isOwned: ownedIds.has(c.product_id),
+                      risingFast: c.rising_fast,
+                      pocasLatinas: c.pocas_creadoras_latinas,
+                      seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
+                    },
+                  );
+                  return `
                 <article class="pick-card">
                   <a class="card-photo-link" href="#/product/${c.product_id}">
                     ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
                   </a>
                   <div class="card-body">
                     <h3 class="card-title">${c.clean_title}</h3>
-                    <div class="card-earn">${t("earn_headline", lang, { amount: c.earnings_per_sale.toFixed(2) })}</div>
+                    ${infoHtml}
                   </div>
-                </article>`,
-                )
+                </article>`;
+                })
                 .join("")}
             </div>
           </div>
@@ -130,15 +176,21 @@ function combosHtml(
 
 // Right-column sticky detail panel (desktop only, see .week-detail in
 // styles.css). No image here exceeds 320px (photo) or 140px (video thumbs).
-function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
+function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string>, monthlyGoalRemaining: number | null): string {
   const categoryLabel = lang === "es" ? pick.category_label_es : pick.category_label_en;
-  const earnLine = t("earn_headline", lang, { amount: pick.earnings_per_sale.toFixed(2) });
   const summary = summaryFor(pick, lang);
   const videos = pick.videos.slice(0, 3);
   const formula = pick.formula_ganadora;
   const topHashtags = formula?.top_hashtags.slice(0, 5) ?? [];
   const topHook = formula?.top_hooks[0];
   const bestHour = formula?.best_posting_hour;
+  const infoHtml = productCardInfoHtml(pickCardInput(pick), {
+    lang,
+    monthlyGoalRemaining,
+    isOwned: ownedIds.has(pick.product_id),
+    pocasLatinas: pick.pocas_creadoras_latinas,
+    seasonEventLabel: lang === "es" ? pick.season_event_label_es : pick.season_event_label_en,
+  });
 
   return `
     <div class="week-detail-inner">
@@ -146,12 +198,8 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean): string {
         ${pick.image_url ? `<img class="week-detail-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" />` : `<div class="week-detail-photo week-detail-photo-placeholder"></div>`}
       </div>
       <h3 class="week-detail-title">${pick.clean_title}</h3>
-      <div class="week-detail-earn">${earnLine}</div>
-      <div class="week-detail-meta">
-        $${pick.price.toFixed(2)} &middot; ${(pick.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${categoryLabel}
-        ${pick.saturation_badge ? `<span class="saturation-badge saturation-${pick.saturation_badge.level}">${t(`saturation_tag_${pick.saturation_badge.level}`, lang)}</span>` : ""}
-        ${pick.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
-      </div>
+      <div class="week-detail-meta">${categoryLabel}</div>
+      ${infoHtml}
       ${pick.saturation_badge ? `<p class="saturation-reason">${lang === "es" ? pick.saturation_badge.reason_es : pick.saturation_badge.reason_en}</p>` : ""}
       ${pick.pocas_creadoras_latinas ? `<p class="saturation-reason">${t("pocas_latinas_reason", lang)}</p>` : ""}
       ${summary ? `<p class="week-detail-summary">${summary}</p>` : ""}
@@ -235,7 +283,17 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
-  const [statuses, feedback] = await Promise.all([getAllStatuses(), getAllFeedback()]);
+  const [statuses, feedback, misProductos, goal, entries] = await Promise.all([
+    getAllStatuses(),
+    getAllFeedback(),
+    getAllMisProductos(),
+    getMonthlyGoal(),
+    getEntries(),
+  ]);
+  const ownedIds = ownedProductIds(misProductos);
+  const today0 = new Date();
+  const progress0 = earningsProgress(goal, earningsThisMonth(entries, today0));
+  const monthlyGoalRemaining = progress0 ? progress0.remaining : null;
   const hiddenCategories = new Set(getHiddenCategories());
   const data = { ...rawData, picks: rawData.picks.filter((p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category)) };
   const categoryByProductId = new Map(rawData.picks.map((p) => [p.product_id, p.category]));
@@ -282,7 +340,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     const detailEl = container.querySelector<HTMLElement>(".week-detail");
     if (!pick || !detailEl) return;
     const saved = statuses[pick.product_id] === "shortlisted";
-    detailEl.innerHTML = detailHtml(pick, lang, saved);
+    detailEl.innerHTML = detailHtml(pick, lang, saved, ownedIds, monthlyGoalRemaining);
     wireDetail(detailEl, pick.product_id);
   }
 
@@ -299,11 +357,11 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang): Promis
     ${banner}
     ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
     <div class="week-split">
-      <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, p.product_id === firstId)).join("")}</div>
+      <div class="week-list">${data.picks.map((p) => rowHtml(p, lang, p.product_id === firstId, ownedIds, monthlyGoalRemaining)).join("")}</div>
       <div class="week-detail"></div>
     </div>
     <div class="category-hide-prompt-slot"></div>
-    ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang)}
+    ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining)}
   `;
   renderDetail(firstId);
 

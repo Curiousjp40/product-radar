@@ -2,41 +2,47 @@ import { loadCandidates } from "../api";
 import { assetUrl } from "../asset";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
+import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
+import { getEntries, getMonthlyGoal } from "../earningsGoal";
+import { getAllMisProductos, ownedProductIds } from "../misProductos";
 import { getAllFeedback, getHiddenCategories, setFeedback } from "../pipeline";
 import type { Candidate, CategoryGroup } from "../types";
 import { sortCandidates, type SortMode } from "../todosSort";
+import { productCardInfoHtml } from "./productCard";
 
-function formatCount(n: number): string {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
-  return String(n);
-}
-
-function categoryLabel(c: Candidate, lang: Lang): string {
-  return lang === "es" ? c.category_label_es : c.category_label_en;
-}
-
-function row(c: Candidate, lang: Lang): string {
+function row(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoalRemaining: number | null): string {
   const photo = c.image_url
     ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />`
     : `<div class="photo"></div>`;
-  const earnLine = t("earn_headline", lang, { amount: c.earnings_per_sale.toFixed(2) });
+  const infoHtml = productCardInfoHtml(
+    {
+      earnings_per_sale: c.earnings_per_sale,
+      price: c.price,
+      commission_rate: c.commission_rate,
+      units_7d: c.units_7d,
+      daily_units_14: c.daily_units,
+      creator_count: c.creator_count,
+      ev_typical: c.ev_typical,
+      score: c.score,
+      saturation_badge: c.saturation_badge,
+    },
+    {
+      lang,
+      monthlyGoalRemaining,
+      isOwned: ownedProductIds.has(c.product_id),
+      risingFast: c.rising_fast,
+      pocasLatinas: c.pocas_creadoras_latinas,
+      seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
+    },
+  );
   return `
     <article class="todos-row${c.suspicious ? " suspicious" : ""}">
       <a class="todos-row-link" href="#/product/${c.product_id}">
         ${photo}
         <div class="info">
           <div class="name">${c.title}</div>
-          <div class="todos-row-earn">${earnLine}</div>
-          <div class="meta">
-            $${c.price.toFixed(2)} &middot; ${(c.commission_rate * 100).toFixed(0)}% ${t("commission", lang)} &middot; ${formatCount(c.units_7d)} ${t("units_sold_short", lang)} &middot; ${categoryLabel(c, lang)}
-          </div>
-          <div class="todos-row-badges">
-            ${c.rising_fast ? `<span class="saturation-badge rising-fast-badge">${t("rising_fast_tag", lang)}</span>` : ""}
-            ${c.saturation_badge ? `<span class="saturation-badge saturation-${c.saturation_badge.level}">${t(`saturation_tag_${c.saturation_badge.level}`, lang)}</span>` : ""}
-            ${c.pocas_creadoras_latinas ? `<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>` : ""}
-            ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}
-          </div>
+          ${infoHtml}
+          ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}
         </div>
       </a>
       <a class="btn-save-pill todos-row-tiktok" href="${c.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
@@ -47,7 +53,16 @@ function row(c: Candidate, lang: Lang): string {
 
 export async function renderTodos(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const { data, isSample } = await loadCandidates();
+  const [{ data, isSample }, misProductos, goal, entries] = await Promise.all([
+    loadCandidates(),
+    getAllMisProductos(),
+    getMonthlyGoal(),
+    getEntries(),
+  ]);
+  const ownedIds = ownedProductIds(misProductos);
+  const today = new Date();
+  const progress = earningsProgress(goal, earningsThisMonth(entries, today));
+  const monthlyGoalRemaining = progress ? progress.remaining : null;
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
 
   if (data.candidates.length === 0) {
@@ -119,7 +134,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       ${
         sorted.length === 0
           ? `<p class="empty-state">${t("no_data", lang)}</p>`
-          : `<div class="todos-list">${visible.map((c) => row(c, lang)).join("")}</div>
+          : `<div class="todos-list">${visible.map((c) => row(c, lang, ownedIds, monthlyGoalRemaining)).join("")}</div>
              ${
                sorted.length > visible.length
                  ? `<button type="button" class="btn-save-pill todos-load-more">${t("load_more_button", lang, { n: sorted.length - visible.length })}</button>`
