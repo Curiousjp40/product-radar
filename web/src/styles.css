@@ -1750,7 +1750,8 @@ select.status-select {
   flex-wrap: wrap;
 }
 
-.earnings-goal-form input {
+.earnings-goal-form input,
+.earnings-goal-form select {
   flex: 1;
   min-width: 100px;
   padding: 10px;
@@ -1759,6 +1760,183 @@ select.status-select {
   background: var(--surface);
   color: var(--text);
   font-size: 0.9rem;
+  font-family: var(--font-body);
+}
+
+/* ---------------------------------------------------------------------
+   Part C9 (2026-10-16): pace, streaks, milestones, celebration
+   ------------------------------------------------------------------- */
+.goal-pace-text {
+  font-size: 0.82rem;
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+
+.goal-pace-text.on-pace {
+  color: var(--good);
+}
+
+.goal-pace-text.behind-pace {
+  color: var(--warn);
+}
+
+.goal-streak-text {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin: 2px 0 6px;
+}
+
+.weekly-mini-goal {
+  margin: 8px 0;
+}
+
+.logros-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.logro-badge {
+  font-size: 1.3rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  cursor: default;
+}
+
+.celebration-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  margin-top: 10px;
+  animation: celebration-pop 0.5s ease-out;
+}
+
+.celebration-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.celebration-icon {
+  font-size: 1.4rem;
+}
+
+@keyframes celebration-pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .celebration-overlay {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   Mi Dinero (Part C9, 2026-10-16)
+   ------------------------------------------------------------------- */
+.mi-dinero-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 140px;
+  margin: 10px 0;
+}
+
+.mi-dinero-bar-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.mi-dinero-bar-track {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mi-dinero-bar-fill {
+  width: 100%;
+  background: var(--accent);
+  border-radius: 6px 6px 0 0;
+  min-height: 2px;
+}
+
+.mi-dinero-bar-value {
+  font-size: 0.68rem;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.mi-dinero-bar-label {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+.mi-dinero-rank-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.mi-dinero-entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.mi-dinero-entry-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mi-dinero-entry-info .name {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.mi-dinero-entry-info .meta {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.mi-dinero-paid-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  white-space: nowrap;
 }
 
 /* ---------------------------------------------------------------------

@@ -3,6 +3,7 @@ import { renderBuscarCuenta } from "./views/buscarCuenta";
 import { renderCompararCuentas } from "./views/compararCuentas";
 import { renderHoy } from "./views/hoy";
 import { renderMejoresHoras } from "./views/mejoresHoras";
+import { renderMiDinero } from "./views/miDinero";
 import { renderMisProductos } from "./views/misProductos";
 import { renderMore } from "./views/more";
 import { renderOcultos } from "./views/ocultos";
@@ -29,7 +30,7 @@ const TABS: { route: string; labelKey: string }[] = [
   { route: "mis-productos", labelKey: "nav_mis_productos" },
   { route: "more", labelKey: "nav_more" },
 ];
-const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach", "ocultos", "mejores-horas", "muestras", "comparar-cuentas"]);
+const MORE_ROUTES = new Set(["buscar", "season", "settings", "pipeline", "outreach", "ocultos", "mejores-horas", "muestras", "comparar-cuentas", "mi-dinero"]);
 
 function currentRoute(): { name: string; param?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -107,6 +108,9 @@ async function renderApp(): Promise<void> {
       break;
     case "comparar-cuentas":
       await renderCompararCuentas(view, lang);
+      break;
+    case "mi-dinero":
+      await renderMiDinero(view, lang);
       break;
     case "season":
       await renderSeason(view, lang);

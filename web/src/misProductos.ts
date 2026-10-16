@@ -21,10 +21,14 @@ export interface MisProducto {
   status: MisProductoStatus;
   date_requested: string; // ISO date
   date_received: string | null;
+  date_posted: string | null; // Part C9: auto-set the first time status reaches "publicado"
   notes: string;
   video_links: string[];
   units: number | null;
   earnings: number | null;
+  price: number | null; // Part C9: retail value, for "Productos gratis recibidos" + goal-card sale defaults
+  earnings_per_sale: number | null; // Part C9: snapshotted at add-time from the matched product, used by +Venta
+  effort_minutes: number | null; // Part C9: snapshotted at add-time, for Mi Dinero's $/hour
 }
 
 function newId(): string {
@@ -43,10 +47,14 @@ export function emptyMisProducto(overrides: Partial<MisProducto> = {}): MisProdu
     status: "solicitado",
     date_requested: new Date().toISOString().slice(0, 10),
     date_received: null,
+    date_posted: null,
     notes: "",
     video_links: [],
     units: null,
     earnings: null,
+    price: null,
+    earnings_per_sale: null,
+    effort_minutes: null,
     ...overrides,
   };
 }

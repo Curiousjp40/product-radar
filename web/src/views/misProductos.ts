@@ -1,5 +1,6 @@
 import { loadCandidates } from "../api";
 import { assetUrl } from "../asset";
+import { addEntry } from "../earningsGoal";
 import { t, type Lang } from "../i18n";
 import {
   addMisProducto,
@@ -60,8 +61,15 @@ function itemCardHtml(item: MisProducto, lang: Lang, overdue: boolean): string {
       <div class="mis-productos-status-row">
         <span class="mis-productos-status-badge status-${item.status}">${statusLabel(item.status, lang)}</span>
         ${next ? `<button type="button" class="btn-primary" data-action="advance" data-id="${item.id}" data-next="${next}">${t("mis_productos_advance_to", lang, { status: statusLabel(next, lang) })}</button>` : ""}
+        ${!TERMINAL_STATUSES.includes(item.status) ? `<button type="button" class="btn-primary" data-action="toggle-venta" data-id="${item.id}">${t("quick_venta_button", lang)}</button>` : ""}
         ${!TERMINAL_STATUSES.includes(item.status) && item.status !== "vendiendo" ? `<button type="button" class="btn-save-pill" data-action="reject" data-id="${item.id}">${t("mis_productos_mark_rejected", lang)}</button>` : ""}
       </div>
+      <form class="earnings-goal-form quick-venta-form" data-form="quick-venta-item" data-id="${item.id}" style="display:none">
+        <input type="number" name="units" min="1" step="1" value="1" placeholder="${t("quick_venta_units_label", lang)}" />
+        <input type="number" name="amount" min="0" step="0.01" value="${item.earnings_per_sale ?? ""}" placeholder="${t("quick_venta_amount_label", lang)}" required />
+        <input type="date" name="date" value="${new Date().toISOString().slice(0, 10)}" required />
+        <button type="submit" class="btn-primary">${t("quick_venta_save_button", lang)}</button>
+      </form>
       <details class="mis-productos-details">
         <summary>${t("mis_productos_edit_details", lang)}</summary>
         <form class="mis-productos-detail-form" data-form="detail" data-id="${item.id}">
@@ -119,6 +127,9 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
         category: matched?.category ?? null,
         commission_pct: matched ? Math.round(matched.commission_rate * 100) : commissionPct,
         tiktok_shop_url: matched?.tiktok_shop_url ?? (productId ? linkOrName : null),
+        price: matched?.price ?? null,
+        earnings_per_sale: matched?.earnings_per_sale ?? null,
+        effort_minutes: matched?.effort_minutes ?? null,
         date_requested: dateRequested || new Date().toISOString().slice(0, 10),
       });
       await addMisProducto(item);
@@ -132,9 +143,47 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
         if (!id || !next) return;
         const patch: Partial<MisProducto> = { status: next as MisProductoStatus };
         if (next === "recibido") patch.date_received = new Date().toISOString().slice(0, 10);
+        if (next === "publicado") patch.date_posted = new Date().toISOString().slice(0, 10);
         await updateMisProducto(id, patch);
         const item = items.find((i) => i.id === id);
         if (item) Object.assign(item, patch);
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="toggle-venta"]').forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const form = container.querySelector<HTMLElement>(`[data-form="quick-venta-item"][data-id="${btn.dataset.id}"]`);
+        if (form) form.style.display = form.style.display === "none" ? "flex" : "none";
+      });
+    });
+
+    container.querySelectorAll<HTMLFormElement>('[data-form="quick-venta-item"]').forEach((form) => {
+      const unitsInput = form.querySelector<HTMLInputElement>('[name="units"]');
+      const amountInput = form.querySelector<HTMLInputElement>('[name="amount"]');
+      const item = items.find((i) => i.id === form.dataset.id);
+      unitsInput?.addEventListener("input", () => {
+        if (item?.earnings_per_sale) {
+          amountInput!.value = (item.earnings_per_sale * (Number(unitsInput.value) || 1)).toFixed(2);
+        }
+      });
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const id = form.dataset.id!;
+        const current = items.find((i) => i.id === id);
+        if (!current) return;
+        const units = Number(unitsInput?.value) || 1;
+        const amount = Number(amountInput?.value);
+        const date = (form.elements.namedItem("date") as HTMLInputElement).value;
+        if (!(amount > 0) || !date) return;
+        await addEntry(amount, date, { productId: id, units });
+        const patch: Partial<MisProducto> = {
+          units: (current.units ?? 0) + units,
+          earnings: (current.earnings ?? 0) + amount,
+          status: current.status === "vendiendo" ? current.status : "vendiendo",
+        };
+        await updateMisProducto(id, patch);
+        Object.assign(current, patch);
         draw();
       });
     });

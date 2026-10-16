@@ -8,6 +8,7 @@ const LINKS: { route: string; labelKey: string }[] = [
   { route: "comparar-cuentas", labelKey: "compare_accounts_title" },
   { route: "ocultos", labelKey: "nav_ocultos" },
   { route: "mejores-horas", labelKey: "nav_mejores_horas" },
+  { route: "mi-dinero", labelKey: "nav_mi_dinero" },
   { route: "muestras", labelKey: "nav_muestras_legacy" },
   { route: "season", labelKey: "nav_season" },
   { route: "settings", labelKey: "nav_settings" },
