@@ -1,7 +1,7 @@
 import { getEntries, getGoalHistory, setEntryPaid } from "../earningsGoal";
 import { monthKey } from "../earningsGoalLogic";
 import { t, type Lang } from "../i18n";
-import { getAllMisProductos, type MisProducto } from "../misProductos";
+import { approvalRate, getAllMisProductos, type MisProducto } from "../misProductos";
 import type { EarningsEntry } from "../earningsGoalLogic";
 
 function formatMoney(amount: number): string {
@@ -114,6 +114,7 @@ export async function renderMiDinero(container: HTMLElement, lang: Lang): Promis
       .filter((e) => e.productId && postedItems.some((i) => i.id === e.productId))
       .reduce((s, e) => s + e.amount, 0);
     const perHour = totalEffortMinutes > 0 ? (postedEarnings / totalEffortMinutes) * 60 : null;
+    const rate = approvalRate(misProductos);
 
     const receivedThisMonth = misProductos.filter((i) => i.date_received && monthKey(new Date(i.date_received)) === thisMonthKey);
     const receivedAllTime = misProductos.filter((i) => i.date_received);
@@ -152,6 +153,11 @@ export async function renderMiDinero(container: HTMLElement, lang: Lang): Promis
             ? `<p class="empty-state">${t("mi_dinero_no_data", lang)}</p>`
             : byProduct.map((p) => `<div class="mi-dinero-rank-row"><span>${p.label}</span><span>${formatMoney(p.amount)}</span></div>`).join("")
         }
+      </div>
+
+      <div class="insight-card">
+        <h3>${t("mi_dinero_approval_rate", lang)}</h3>
+        <p class="goal-progress-text">${rate !== null ? `${(rate * 100).toFixed(0)}%` : t("mi_dinero_no_data", lang)}</p>
       </div>
 
       <div class="insight-card">

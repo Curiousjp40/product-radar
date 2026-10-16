@@ -16,6 +16,7 @@ export interface YaLoTengoProduct {
   price: number | null;
   earnings_per_sale: number | null;
   effort_minutes: number | null;
+  shop_name: string | null;
 }
 
 function todayIso(): string {
@@ -143,6 +144,7 @@ export function wireYaLoTengo(
           category: product.category,
           commission_pct: product.commission_pct,
           tiktok_shop_url: product.tiktok_shop_url,
+          shop_name: product.shop_name,
           status: "recibido",
           date_received: dateReceived,
           notes: note ? `${sourceLabel}: ${note}` : sourceLabel,

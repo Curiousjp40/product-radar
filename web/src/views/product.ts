@@ -3,6 +3,7 @@ import { assetUrl } from "../asset";
 import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
+import { addMisProducto, getAllMisProductos, shopRejectionCount, solicitudFromProduct } from "../misProductos";
 import { setFeedback } from "../pipeline";
 import { hasRequestedSample, requestSample } from "../samples";
 import type { FormulaGanadora, VideoCard } from "../types";
@@ -152,7 +153,11 @@ function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
 export async function renderProduct(container: HTMLElement, lang: Lang, productId: string): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   try {
-    const [{ data, isSample }, { data: bestTimes }] = await Promise.all([loadProduct(productId), loadBestTimes()]);
+    const [{ data, isSample }, { data: bestTimes }, misProductos] = await Promise.all([
+      loadProduct(productId),
+      loadBestTimes(),
+      getAllMisProductos(),
+    ]);
     const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
     const path = sparklinePath(data.daily_units_14, 280, 60);
     const categoryLabel = lang === "es" ? data.category_label_es : data.category_label_en;
@@ -244,7 +249,28 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     sampleBtn?.addEventListener("click", () => {
       const { productId, price, name } = sampleBtn.dataset;
       if (!productId) return;
+      if (data.shop_name) {
+        const count = shopRejectionCount(misProductos, data.shop_name);
+        if (count > 0) {
+          const msg = t(count === 1 ? "solicitudes_shop_rejected_before_one" : "solicitudes_shop_rejected_before_many", lang, { n: count });
+          if (!window.confirm(msg)) return;
+        }
+      }
       requestSample(productId, name ?? "", Number(price) || 0, new Date());
+      void addMisProducto(
+        solicitudFromProduct({
+          product_id: data.product_id,
+          name: data.clean_title,
+          photo_url: data.image_url || null,
+          category: data.category,
+          commission_pct: data.commission_rate,
+          tiktok_shop_url: data.tiktok_shop_url,
+          price: data.price,
+          earnings_per_sale: data.earnings_per_sale,
+          effort_minutes: data.effort_minutes,
+          shop_name: data.shop_name,
+        }),
+      );
       sampleBtn.textContent = t("sample_requested_label", lang);
       sampleBtn.classList.add("active");
       sampleBtn.disabled = true;
@@ -267,6 +293,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
           price: data.price,
           earnings_per_sale: data.earnings_per_sale,
           effort_minutes: data.effort_minutes,
+          shop_name: data.shop_name,
         },
       ],
     ]);

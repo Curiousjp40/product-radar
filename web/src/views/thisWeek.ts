@@ -2,7 +2,7 @@ import { loadCandidates, loadHooks, loadPicks } from "../api";
 import { bestVideoTimeHtml } from "../bestTime";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
-import { getAllMisProductos, ownedProductIds } from "../misProductos";
+import { addMisProducto, getAllMisProductos, ownedProductIds, shopRejectionCount, solicitudFromProduct } from "../misProductos";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
 import { t, type Lang } from "../i18n";
@@ -338,7 +338,16 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     detailEl.querySelector<HTMLButtonElement>('[data-action="request-sample"]')?.addEventListener("click", (e) => {
       const btn = e.currentTarget as HTMLButtonElement;
       const { price, name } = btn.dataset;
+      const product = yaLoTengoProducts.get(productId);
+      if (product?.shop_name) {
+        const count = shopRejectionCount(misProductos, product.shop_name);
+        if (count > 0) {
+          const msg = t(count === 1 ? "solicitudes_shop_rejected_before_one" : "solicitudes_shop_rejected_before_many", lang, { n: count });
+          if (!window.confirm(msg)) return;
+        }
+      }
       requestSample(productId, name ?? "", Number(price) || 0, new Date());
+      if (product) void addMisProducto(solicitudFromProduct(product));
       renderDetail(productId);
     });
     const copyBtn = detailEl.querySelector<HTMLButtonElement>(".copy-hashtags-btn");
@@ -398,9 +407,6 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining)}
     ${yaLoTengoSheetHtml(lang)}
   `;
-  renderDetail(firstId);
-  wireGroupFilter(container, lang);
-
   const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
     [...rawData.picks, ...candidatePool, ...candidatesData.candidates].map((p) => [
       p.product_id,
@@ -414,9 +420,12 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
         price: p.price,
         earnings_per_sale: p.earnings_per_sale,
         effort_minutes: p.effort_minutes,
+        shop_name: p.shop_name,
       },
     ]),
   );
+  renderDetail(firstId);
+  wireGroupFilter(container, lang);
   wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderThisWeek(container, lang, filterGroup));
 
   container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {

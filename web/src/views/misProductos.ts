@@ -4,6 +4,7 @@ import { addEntry } from "../earningsGoal";
 import { t, type Lang } from "../i18n";
 import {
   addMisProducto,
+  daysWaiting,
   emptyMisProducto,
   getAllMisProductos,
   isOverdueToFilm,
@@ -16,7 +17,10 @@ import {
   type MisProducto,
   type MisProductoStatus,
 } from "../misProductos";
+import { setFeedback } from "../pipeline";
 import type { Candidate } from "../types";
+
+type SolicitudTab = "pendientes" | "aprobadas" | "rechazadas";
 
 function statusLabel(status: MisProductoStatus, lang: Lang): string {
   return t(`mis_productos_status_${status}`, lang);
@@ -86,15 +90,86 @@ function itemCardHtml(item: MisProducto, lang: Lang, overdue: boolean): string {
   `;
 }
 
+function solicitudCardHtml(item: MisProducto, lang: Lang, tab: SolicitudTab, today: Date): string {
+  const photo = item.photo_url ? `<img class="photo" src="${item.photo_url.startsWith("http") ? item.photo_url : assetUrl(item.photo_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`;
+  const waiting = daysWaiting(item, today);
+  const amber = tab === "pendientes" && waiting >= 7;
+  return `
+    <article class="mis-productos-card solicitud-card ${amber ? "overdue" : ""}" data-id="${item.id}">
+      <div class="mis-productos-card-top">
+        ${photo}
+        <div class="mis-productos-card-info">
+          <div class="name">${item.name}</div>
+          <div class="meta">
+            ${item.shop_name ? `${item.shop_name} &middot; ` : ""}${t("mis_productos_requested_on", lang, { date: item.date_requested })}
+          </div>
+          ${tab === "pendientes" ? `<div class="${amber ? "mis-productos-overdue-flag" : "meta"}">${t("solicitudes_days_waiting", lang, { n: waiting })}</div>` : ""}
+          ${tab === "rechazadas" && item.rejection_reason ? `<div class="meta">${item.rejection_reason}</div>` : ""}
+          ${item.product_id ? `<a href="#/product/${item.product_id}" class="mis-productos-radar-link">${t("mis_productos_view_in_radar", lang)}</a>` : ""}
+        </div>
+      </div>
+      <div class="mis-productos-status-row">
+        ${
+          tab === "pendientes"
+            ? `
+              ${item.tiktok_shop_url ? `<a class="btn-save-pill" href="${item.tiktok_shop_url}" target="_blank" rel="noopener">${t("solicitudes_remind_shop", lang)}</a>` : ""}
+              <button type="button" class="btn-not-for-me" data-action="solicitud-cancel" data-id="${item.id}">${t("solicitudes_cancel", lang)}</button>
+              <button type="button" class="btn-primary" data-action="solicitud-approve" data-id="${item.id}">${t("solicitudes_mark_approved", lang)}</button>
+              <button type="button" class="btn-save-pill" data-action="solicitud-reject" data-id="${item.id}">${t("solicitudes_mark_rejected", lang)}</button>
+            `
+            : ""
+        }
+        ${tab === "aprobadas" ? `<button type="button" class="btn-primary" data-action="solicitud-arrived" data-id="${item.id}">${t("solicitudes_arrived", lang)}</button>` : ""}
+        ${
+          tab === "rechazadas"
+            ? `
+              <button type="button" class="btn-primary" data-action="solicitud-again" data-id="${item.id}">${t("solicitudes_request_again", lang)}</button>
+              <button type="button" class="btn-not-for-me" data-action="solicitud-hide" data-id="${item.id}" data-product-id="${item.product_id ?? ""}">${t("solicitudes_hide_product", lang)}</button>
+            `
+            : ""
+        }
+      </div>
+    </article>
+  `;
+}
+
+function solicitudesSectionHtml(items: MisProducto[], tab: SolicitudTab, lang: Lang, today: Date): string {
+  const pendientes = items.filter((i) => i.status === "solicitado");
+  const aprobadas = items.filter((i) => i.status === "aprobado");
+  const rechazadas = items.filter((i) => i.status === "rechazado");
+  const byTab: Record<SolicitudTab, MisProducto[]> = { pendientes, aprobadas, rechazadas };
+  const visible = byTab[tab];
+  return `
+    <div class="insight-card solicitudes-section">
+      <h3>${t("solicitudes_title", lang)}</h3>
+      <div class="group-tabs solicitudes-tabs">
+        <button type="button" data-solicitud-tab="pendientes" class="${tab === "pendientes" ? "active" : ""}">${t("solicitudes_tab_pendientes", lang)} ${pendientes.length}</button>
+        <button type="button" data-solicitud-tab="aprobadas" class="${tab === "aprobadas" ? "active" : ""}">${t("solicitudes_tab_aprobadas", lang)} ${aprobadas.length}</button>
+        <button type="button" data-solicitud-tab="rechazadas" class="${tab === "rechazadas" ? "active" : ""}">${t("solicitudes_tab_rechazadas", lang)} ${rechazadas.length}</button>
+      </div>
+      ${
+        visible.length === 0
+          ? `<p class="empty-state">${t(`solicitudes_empty_${tab}`, lang)}</p>`
+          : `<div class="mis-productos-list">${visible.map((i) => solicitudCardHtml(i, lang, tab, today)).join("")}</div>`
+      }
+    </div>
+  `;
+}
+
 export async function renderMisProductos(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   const [items, { data: candidatesData }] = await Promise.all([getAllMisProductos(), loadCandidates()]);
   const byProductId = new Map(candidatesData.candidates.map((c) => [c.product_id, c]));
   const today = new Date();
+  let solicitudTab: SolicitudTab = "pendientes";
 
   const draw = () => {
     const summary = summarize(items);
-    const sorted = [...items].sort((a, b) => STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status));
+    // Solicitud-stage items (solicitado/aprobado/rechazado) live in their
+    // own Solicitudes section below, not this pipeline list -- it now
+    // starts at "recibido" (STATUS_ORDER no longer includes "solicitado").
+    const pipelineItems = items.filter((i) => !(["solicitado", "aprobado", "rechazado"] as MisProductoStatus[]).includes(i.status));
+    const sorted = [...pipelineItems].sort((a, b) => STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status));
 
     container.innerHTML = `
       <h2 class="view-title">${t("mis_productos_title", lang)}</h2>
@@ -107,9 +182,89 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
         ${t("mis_productos_total_earned", lang, { amount: `$${summary.totalEarned.toFixed(2)}` })}
         ${summary.waitingToFilm > 0 ? ` &middot; ${t("mis_productos_waiting_to_film", lang, { n: summary.waitingToFilm })}` : ""}
       </div>
+      ${solicitudesSectionHtml(items, solicitudTab, lang, today)}
       ${addFormHtml(lang)}
-      ${items.length === 0 ? `<p class="empty-state">${t("mis_productos_empty", lang)}</p>` : `<div class="mis-productos-list">${sorted.map((i) => itemCardHtml(i, lang, isOverdueToFilm(i, today))).join("")}</div>`}
+      ${pipelineItems.length === 0 ? `<p class="empty-state">${t("mis_productos_empty", lang)}</p>` : `<div class="mis-productos-list">${sorted.map((i) => itemCardHtml(i, lang, isOverdueToFilm(i, today))).join("")}</div>`}
     `;
+
+    container.querySelectorAll<HTMLButtonElement>("[data-solicitud-tab]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        solicitudTab = btn.dataset.solicitudTab as SolicitudTab;
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-cancel"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        await removeMisProducto(id);
+        const idx = items.findIndex((i) => i.id === id);
+        if (idx >= 0) items.splice(idx, 1);
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-approve"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        await updateMisProducto(id, { status: "aprobado" });
+        const item = items.find((i) => i.id === id);
+        if (item) item.status = "aprobado";
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-reject"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        const item = items.find((i) => i.id === id);
+        if (!item) return;
+        const reason = window.prompt(t("solicitudes_rejection_reason_prompt", lang), "") || null;
+        const patch: Partial<MisProducto> = {
+          status: "rechazado",
+          rejection_reason: reason,
+          times_rejected: item.times_rejected + 1,
+        };
+        await updateMisProducto(id, patch);
+        Object.assign(item, patch);
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-arrived"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        const patch: Partial<MisProducto> = { status: "recibido", date_received: new Date().toISOString().slice(0, 10) };
+        await updateMisProducto(id, patch);
+        const item = items.find((i) => i.id === id);
+        if (item) Object.assign(item, patch);
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-again"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        const patch: Partial<MisProducto> = { status: "solicitado", date_requested: new Date().toISOString().slice(0, 10) };
+        await updateMisProducto(id, patch);
+        const item = items.find((i) => i.id === id);
+        if (item) Object.assign(item, patch);
+        solicitudTab = "pendientes";
+        draw();
+      });
+    });
+
+    container.querySelectorAll<HTMLButtonElement>('[data-action="solicitud-hide"]').forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.dataset.id!;
+        const productId = btn.dataset.productId;
+        if (productId) await setFeedback(productId, "not_for_me");
+        await removeMisProducto(id);
+        const idx = items.findIndex((i) => i.id === id);
+        if (idx >= 0) items.splice(idx, 1);
+        draw();
+      });
+    });
 
     container.querySelector('[data-form="add"]')?.addEventListener("submit", async (e) => {
       e.preventDefault();

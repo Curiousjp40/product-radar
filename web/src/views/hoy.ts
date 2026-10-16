@@ -5,7 +5,7 @@ import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
-import { getAllMisProductos, ownedProductIds } from "../misProductos";
+import { addMisProducto, getAllMisProductos, ownedProductIds, shopRejectionCount, solicitudFromProduct } from "../misProductos";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
@@ -286,6 +286,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
         price: p.price,
         earnings_per_sale: p.earnings_per_sale,
         effort_minutes: p.effort_minutes,
+        shop_name: p.shop_name,
       },
     ]),
   );
@@ -320,7 +321,16 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     btn.addEventListener("click", () => {
       const { productId, price, name } = btn.dataset;
       if (!productId) return;
+      const product = yaLoTengoProducts.get(productId);
+      if (product?.shop_name) {
+        const count = shopRejectionCount(misProductos, product.shop_name);
+        if (count > 0) {
+          const msg = t(count === 1 ? "solicitudes_shop_rejected_before_one" : "solicitudes_shop_rejected_before_many", lang, { n: count });
+          if (!window.confirm(msg)) return;
+        }
+      }
       requestSample(productId, name ?? "", Number(price) || 0, today);
+      if (product) void addMisProducto(solicitudFromProduct(product));
       btn.textContent = t("sample_requested_label", lang);
       btn.classList.add("active");
       btn.disabled = true;

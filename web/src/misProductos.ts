@@ -5,10 +5,26 @@ import { pullSynced, readLocal, writeSynced } from "./syncedStorage";
  * and the computer via syncedStorage's "mis_productos" key (same
  * localStorage-first, Worker-second pattern as everything else there). */
 
-export type MisProductoStatus = "solicitado" | "recibido" | "grabado" | "publicado" | "vendiendo" | "rechazado" | "no_llego";
+// "aprobado" added (Part 4, 2026-10-16) for the Solicitudes 3-tab flow:
+// solicitado (Pendientes) branches to either aprobado (Aprobadas/en
+// camino, via "Ya llegó" -> recibido) or rechazado (Rechazadas, via
+// "Volver a pedir" -> back to solicitado) -- not a simple linear advance,
+// so "solicitado"/"aprobado"/"rechazado" items are handled by the
+// Solicitudes section's own buttons, not the generic STATUS_ORDER advance
+// button below (see nextStatus).
+export type MisProductoStatus =
+  | "solicitado"
+  | "aprobado"
+  | "recibido"
+  | "grabado"
+  | "publicado"
+  | "vendiendo"
+  | "rechazado"
+  | "no_llego";
 
-export const STATUS_ORDER: MisProductoStatus[] = ["solicitado", "recibido", "grabado", "publicado", "vendiendo"];
+export const STATUS_ORDER: MisProductoStatus[] = ["recibido", "grabado", "publicado", "vendiendo"];
 export const TERMINAL_STATUSES: MisProductoStatus[] = ["rechazado", "no_llego"];
+export const SOLICITUD_STATUSES: MisProductoStatus[] = ["solicitado", "aprobado", "rechazado"];
 
 export interface MisProducto {
   id: string;
@@ -29,6 +45,14 @@ export interface MisProducto {
   price: number | null; // Part C9: retail value, for "Productos gratis recibidos" + goal-card sale defaults
   earnings_per_sale: number | null; // Part C9: snapshotted at add-time from the matched product, used by +Venta
   effort_minutes: number | null; // Part C9: snapshotted at add-time, for Mi Dinero's $/hour
+  shop_name: string | null; // Part 4, added 2026-10-16: shop-denial memory ("esta tienda te rechazo N veces")
+  rejection_reason: string | null; // Part 4: optional, captured when marking a Solicitud rechazada
+  // Part 4: increments every time this request is marked "rechazado",
+  // including a prior cycle before "Volver a pedir" reset status back to
+  // "solicitado" -- shopRejectionCount sums this across a shop's items,
+  // not current status, so a past rejection isn't forgotten once she
+  // re-requests.
+  times_rejected: number;
 }
 
 function newId(): string {
@@ -55,6 +79,9 @@ export function emptyMisProducto(overrides: Partial<MisProducto> = {}): MisProdu
     price: null,
     earnings_per_sale: null,
     effort_minutes: null,
+    shop_name: null,
+    rejection_reason: null,
+    times_rejected: 0,
     ...overrides,
   };
 }
@@ -104,10 +131,16 @@ export function summarize(items: MisProducto[]): {
   totalEarned: number;
   waitingToFilm: number;
 } {
-  const countsByStatus = { solicitado: 0, recibido: 0, grabado: 0, publicado: 0, vendiendo: 0, rechazado: 0, no_llego: 0 } as Record<
-    MisProductoStatus,
-    number
-  >;
+  const countsByStatus = {
+    solicitado: 0,
+    aprobado: 0,
+    recibido: 0,
+    grabado: 0,
+    publicado: 0,
+    vendiendo: 0,
+    rechazado: 0,
+    no_llego: 0,
+  } as Record<MisProductoStatus, number>;
   let totalEarned = 0;
   let waitingToFilm = 0;
   const today = new Date();
@@ -122,3 +155,27 @@ export function summarize(items: MisProducto[]): {
 export function ownedProductIds(items: MisProducto[]): Set<string> {
   return new Set(items.filter((i) => i.product_id).map((i) => i.product_id as string));
 }
+
+/** Part 4 (2026-10-16): builds a "solicitado" (Pendiente) record from a
+ * product's own card data -- shared by every "Pedir muestra" button
+ * (Hoy/Esta semana/Todos/product page) so a sample request also shows up
+ * in the Solicitudes section, not just the old samples.ts tracking. */
+export function solicitudFromProduct(product: {
+  product_id: string;
+  name: string;
+  photo_url: string | null;
+  category: string | null;
+  commission_pct: number | null;
+  tiktok_shop_url: string | null;
+  price: number | null;
+  earnings_per_sale: number | null;
+  effort_minutes: number | null;
+  shop_name: string | null;
+}): MisProducto {
+  return emptyMisProducto({ ...product, status: "solicitado" });
+}
+
+// Pure Solicitudes helpers (daysWaiting, shopRejectionCount, approvalRate)
+// live in misProductosLogic.ts, re-exported here for existing import
+// sites -- see that file's own comment for why they're split out.
+export { approvalRate, daysWaiting, shopRejectionCount } from "./misProductosLogic";

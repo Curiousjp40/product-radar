@@ -162,6 +162,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
           price: c.price,
           earnings_per_sale: c.earnings_per_sale,
           effort_minutes: c.effort_minutes,
+          shop_name: c.shop_name,
         },
       ]),
     );
