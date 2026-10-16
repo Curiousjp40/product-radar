@@ -60,9 +60,33 @@ export default {
     if (url.pathname === "/saved") {
       return handleSaved(request, url, env);
     }
+    if (url.pathname === "/admin/mis-productos") {
+      return handleAdminMisProductos(request, url, env);
+    }
     return handleSearch(request, env);
   },
 };
+
+/**
+ * Part C8: the weekly pipeline (engine/earnings.py, run from GitHub
+ * Actions, no browser/Origin) needs to read Mis Productos' earnings data
+ * to start collecting outcome data for Phase 3 -- a different trust
+ * boundary than the frontend's own free /state?key=mis_productos read
+ * (that one trusts Origin; GitHub Actions has no Origin header at all),
+ * so this is a separate route gated by a bearer token (env.ADMIN_READ_TOKEN,
+ * the GitHub secret MIS_PRODUCTOS_TOKEN) instead of Origin/CORS.
+ */
+async function handleAdminMisProductos(request, url, env) {
+  if (request.method !== "GET") {
+    return json({ error: "method_not_allowed" }, 405);
+  }
+  const token = request.headers.get("Authorization")?.replace(/^Bearer\s+/i, "") ?? url.searchParams.get("token");
+  if (!token || token !== env.ADMIN_READ_TOKEN) {
+    return json({ error: "unauthorized" }, 401);
+  }
+  const stored = await env.SEARCH_KV.get("state:mis_productos", { type: "json" });
+  return json({ data: stored ?? [] });
+}
 
 /**
  * Part C6b: every successful search (cache hit or fresh fetch) is also

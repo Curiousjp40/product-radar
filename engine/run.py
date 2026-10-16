@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import math
+import os
 import random
 import urllib.parse
 import uuid
@@ -35,6 +36,7 @@ from engine.client import FastMossClient, FastMossError, FixtureReplayClient
 from engine.config import load_all
 from engine.creator_gap import pocas_creadoras_latinas
 from engine.db import connect
+from engine.earnings import EarningsFetchError, sync_mis_productos_earnings
 from engine.features import acceleration, demand, momentum, momentum_multiplier, slope_log1p, wow
 from engine.fit import (
     audience_fit,
@@ -1650,6 +1652,22 @@ async def run(args: argparse.Namespace) -> None:
                 f"{s['stage']}={s['credits']}cr" for s in tracker.stage_log
             ),
         )
+
+    if not args.dry_run:
+        # Part C8: pulls Roxie's Mis Productos earnings (what she
+        # requested/received/filmed/posted and actually earned) into
+        # data/radar.db -- zero FastMoss credits (one HTTP GET to our own
+        # Worker, not an MCP call). Skipped entirely, not a hard failure,
+        # when the secret isn't set (e.g. local runs) or the fetch fails
+        # (e.g. the Worker is briefly down) -- this is outcome-data
+        # collection, not core to the pipeline's own picks/export.
+        mis_productos_token = os.environ.get("MIS_PRODUCTOS_TOKEN")
+        if mis_productos_token:
+            try:
+                synced = sync_mis_productos_earnings(conn, mis_productos_token)
+                print(f"Synced {synced} Mis Productos row(s) into mis_productos_earnings.")
+            except EarningsFetchError as e:
+                print(f"Mis Productos sync skipped: {e}")
 
     if flagged:
         print(f"\nExcluded {len(flagged)} suspicious listing(s):")

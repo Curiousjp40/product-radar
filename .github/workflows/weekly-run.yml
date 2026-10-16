@@ -62,6 +62,11 @@ jobs:
         if: steps.tz_gate.outputs.proceed == 'true'
         env:
           FASTMOSS_API_KEY: ${{ secrets.FASTMOSS_API_KEY }}
+          # Part C8: pulls Mis Productos earnings data (0 credits -- one
+          # HTTP GET to our own Worker's token-gated /admin/mis-productos
+          # route, not a FastMoss call) into data/radar.db for Phase 3 to
+          # eventually learn from. Skipped gracefully if this secret isn't set.
+          MIS_PRODUCTOS_TOKEN: ${{ secrets.MIS_PRODUCTOS_TOKEN }}
         # No --budget: engine.run now computes it dynamically every run
         # (config/weights.yaml's credits section -- balance minus the
         # Buscar cuenta search reserve and 7b's monthly live-timing pull,

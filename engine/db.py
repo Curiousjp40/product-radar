@@ -146,6 +146,26 @@ CREATE TABLE IF NOT EXISTS credit_ledger (
     ok INTEGER,
     note TEXT
 );
+
+-- Part C8, added 2026-10-16: Mis Productos' own record of what Roxie
+-- requested/received/filmed/posted and what it actually earned -- the
+-- real-world outcome data Phase 3 needs to someday re-fit the scoring
+-- weights against. Synced from the Worker's KV (web/src/misProductos.ts's
+-- source of truth), one row per Mis Productos item, upserted by its own
+-- id every weekly run. No re-fitting happens yet; this just collects.
+CREATE TABLE IF NOT EXISTS mis_productos_earnings (
+    item_id TEXT PRIMARY KEY,
+    product_id TEXT,
+    name TEXT,
+    category TEXT,
+    status TEXT,
+    date_requested TEXT,
+    date_received TEXT,
+    units INTEGER,
+    earnings REAL,
+    video_links TEXT,
+    synced_at TEXT
+);
 """
 
 
