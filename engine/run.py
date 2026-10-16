@@ -60,7 +60,6 @@ from engine.ingest import (
     save_raw_snapshot,
 )
 from engine.insights import summarize_creator
-from engine.posting_time import best_time_for_pool, best_video_time, load_video_records
 from engine.language import spanish_share
 from engine.normalize import (
     normalize_rank_row,
@@ -80,6 +79,7 @@ from engine.picks import (
     select_top_reasons,
     thompson_sample_categories,
 )
+from engine.posting_time import best_time_for_pool, best_video_time, load_video_records
 from engine.quality import shop_round_price_cluster_ids, suspicious_reasons
 from engine.saturation import saturation_badge
 from engine.scoring import (
@@ -1284,7 +1284,9 @@ def compute_best_times_by_category_and_group(
     product_id_to_group = {
         c["product_id"]: categories_cfg.get(c["config_category"], {}).get("group", "fashion") for c in pool
     }
-    categories = {cat: best_time_for_pool([r for r in records if product_id_to_category.get(r["product_id"]) == cat]) for cat in categories_cfg}
+    categories = {
+        cat: best_time_for_pool([r for r in records if product_id_to_category.get(r["product_id"]) == cat]) for cat in categories_cfg
+    }
     groups = {
         group: best_time_for_pool([r for r in records if product_id_to_group.get(r["product_id"]) == group])
         for group in {categories_cfg.get(c, {}).get("group", "fashion") for c in categories_cfg}

@@ -116,8 +116,6 @@ def test_compute_best_times_by_category_and_group(tmp_path):
 def test_best_video_time_ranks_top_two_weekdays():
     # Monday (weekday 0) and a Wednesday (weekday 2) both get high median
     # units; Tuesday gets low -- top 2 should be Monday and Wednesday.
-    wed_noon = MON_NOON_ET + 2 * 86400
-    tue_noon = MON_NOON_ET + 86400
     records = (
         [{"product_id": "p1", "is_ad": False, "units": 50, "weekday": 0, "hour_start": 12, "hour_end": 14} for _ in range(5)]
         + [{"product_id": "p1", "is_ad": False, "units": 50, "weekday": 2, "hour_start": 12, "hour_end": 14} for _ in range(5)]
