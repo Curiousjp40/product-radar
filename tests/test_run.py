@@ -9,7 +9,9 @@ from engine.budget import BudgetTracker, MissingSnapshotError
 from engine.config import load_all
 from engine.ingest import save_raw_snapshot
 from engine.run import (
+    _apply_lead_signal,
     _creator_stats,
+    _lead_is_dominant_driver,
     active_categories,
     assemble_picks,
     build_reasons,
@@ -93,6 +95,69 @@ def test_build_reasons_seasonality_skipped_when_event_already_passed():
     )
     reasons_es, _ = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM)
     assert not any("Halloween" in r for r in reasons_es)
+
+
+_MOMENTUM_WEIGHTS = {"slope14_weight": 0.35, "wow_weight": 0.20, "accel_weight": 0.15, "lead_weight": 0.30}
+
+
+def test_lead_is_dominant_driver_true_when_its_weighted_term_is_largest():
+    row = pd.Series({"z_wow": 0.5, "z_lead": 3.0, "has_daily": False})
+    assert _lead_is_dominant_driver(row, _MOMENTUM_WEIGHTS) is True
+
+
+def test_lead_is_dominant_driver_false_when_wow_dominates():
+    row = pd.Series({"z_wow": 5.0, "z_lead": 0.2, "has_daily": False})
+    assert _lead_is_dominant_driver(row, _MOMENTUM_WEIGHTS) is False
+
+
+def test_lead_is_dominant_driver_considers_slope14_and_accel_when_has_daily():
+    row = pd.Series({"z_wow": 0.1, "z_lead": 0.1, "has_daily": True, "z_slope14": 10.0, "z_accel": 0.0})
+    assert _lead_is_dominant_driver(row, _MOMENTUM_WEIGHTS) is False
+
+
+def test_build_reasons_uses_lead_sentence_when_lead_dominates_momentum():
+    # z_fit lowered so momentum (via wow) is the top-ranked component.
+    row = _row(z_fit=0.0, wow=0.5, has_lead=True, z_wow=0.1, z_lead=5.0, has_daily=False)
+    reasons_es, reasons_en = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM, momentum_weights=_MOMENTUM_WEIGHTS)
+    assert any("creadoras nuevas" in r for r in reasons_es)
+    assert any("new creators" in r for r in reasons_en)
+
+
+def test_build_reasons_uses_wow_sentence_without_momentum_weights():
+    # Same lead-dominant row, but momentum_weights omitted (default None) --
+    # must fall back to the plain wow% sentence, never raise.
+    row = _row(z_fit=0.0, wow=0.5, has_lead=True, z_wow=0.1, z_lead=5.0, has_daily=False)
+    reasons_es, _ = build_reasons(row, creator_avg_gpm=CREATOR_AVG_GPM)
+    assert any("subieron 50%" in r for r in reasons_es)
+
+
+def test_apply_lead_signal_computes_from_two_consecutive_weekly_snapshots(tmp_path, monkeypatch):
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    today = date(2026, 10, 15)  # 2026-W42
+    prior_week = "2026-W41"
+    save_raw_snapshot(
+        prior_week,
+        "trend_p1",
+        {"daily_trend": [], "period_summary": {"linked_creator_count": 8, "linked_video_count": 20}},
+    )
+    cand = {"product_id": "p1", "creator_count": 12, "video_count": 30}
+    _apply_lead_signal(cand, today)
+    assert cand["lead_signal"] == (12 - 8) + (30 - 20)
+
+
+def test_apply_lead_signal_leaves_unset_without_a_prior_week_snapshot(tmp_path, monkeypatch):
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    today = date(2026, 10, 15)
+    cand = {"product_id": "p1", "creator_count": 12, "video_count": 30}
+    _apply_lead_signal(cand, today)
+    assert "lead_signal" not in cand
+
+
+def test_apply_lead_signal_leaves_unset_when_this_weeks_own_data_is_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    cand = {"product_id": "p1", "creator_count": None, "video_count": None}
+    _apply_lead_signal(cand, date(2026, 10, 15))
+    assert "lead_signal" not in cand
 
 
 def _weights(

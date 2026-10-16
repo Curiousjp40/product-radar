@@ -303,6 +303,13 @@ _REASON_TEMPLATES = {
     # product (wow/slope14), not anything she's actually sold.
     ("momentum", "es"): "Las ventas de este producto subieron {pct:.0f}% esta semana.",
     ("momentum", "en"): "Sales of this product went up {pct:.0f}% this week.",
+    # The "lead" momentum term (spec 6.2, creator/video growth leading
+    # GMV by about a week) -- used instead of the wow% sentence above
+    # when lead is momentum's biggest driver, added 2026-10-16 once
+    # lead_signal started actually getting populated (engine.run's
+    # _apply_lead_signal).
+    ("lead", "es"): "Muchas creadoras nuevas empezaron a venderlo esta semana.",
+    ("lead", "en"): "Lots of new creators started selling this this week.",
     # "Pagas" (fixed 2026-10-15) said "you PAY ~$X per sale" -- backwards
     # from what it meant (her commission earned per sale) and from the
     # English version it was supposed to match.

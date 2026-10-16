@@ -37,7 +37,7 @@ from engine.config import load_all
 from engine.creator_gap import pocas_creadoras_latinas
 from engine.db import connect
 from engine.earnings import EarningsFetchError, sync_mis_productos_earnings
-from engine.features import acceleration, demand, momentum, momentum_multiplier, slope_log1p, wow
+from engine.features import acceleration, demand, lead_raw, momentum, momentum_multiplier, slope_log1p, wow
 from engine.fit import (
     audience_fit,
     blended_price_fit,
@@ -397,6 +397,7 @@ async def enrich_shortlist(
                     pass
                 balance = await check_balance(client)
                 tracker.checkpoint("trend", balance, note=f"product {rank + 1}/{len(shortlist)}")
+            _apply_lead_signal(cand, today)
 
         if cand.get("videos") is not None:
             fetched += 1
@@ -430,6 +431,37 @@ def _apply_trend(cand: dict, trend_raw: dict) -> None:
     summary = trend_period_summary(trend_raw)
     cand["creator_count"] = summary.get("linked_creator_count")
     cand["video_count"] = summary.get("linked_video_count")
+
+
+def _apply_lead_signal(cand: dict, today: date) -> None:
+    """Momentum's "lead" term (spec 6.2, 30% of momentum) was never
+    populated -- lead_signal was never set anywhere in this module, so
+    z_lead was always 0 for every candidate. Computed here for free from
+    two CONSECUTIVE weekly trend snapshots (both already paid for, no new
+    FastMoss call): this week's creator_count/video_count (already on
+    `cand` via _apply_trend) vs the same product's snapshot from exactly
+    one ISO week earlier. Falls back to leaving lead_signal unset
+    (score_pool's `has_lead` gate then treats it as neutral, same as any
+    other missing-signal fallback already in this pipeline) when there's
+    no prior-week snapshot -- a product's first week being tracked has
+    nothing to compare against."""
+    if cand.get("creator_count") is None or cand.get("video_count") is None:
+        return
+    prior_week = last_completed_week_value(today)
+    prior_trend_raw = load_raw_snapshot(prior_week, f"trend_{cand['product_id']}")
+    if prior_trend_raw is None:
+        return
+    prior_summary = trend_period_summary(prior_trend_raw)
+    creator_count_prior7 = prior_summary.get("linked_creator_count")
+    video_count_prior7 = prior_summary.get("linked_video_count")
+    if creator_count_prior7 is None or video_count_prior7 is None:
+        return
+    cand["lead_signal"] = lead_raw(
+        creator_count_last7=cand["creator_count"],
+        creator_count_prior7=creator_count_prior7,
+        video_count_last7=cand["video_count"],
+        video_count_prior7=video_count_prior7,
+    )
 
 
 def _apply_videos(cand: dict, raw: dict) -> None:
@@ -826,11 +858,27 @@ def score_pool(pool: list[dict], config: dict, creator_stats: dict, today: date)
     return df
 
 
+def _lead_is_dominant_driver(row: pd.Series, momentum_weights: dict) -> bool:
+    """True when the lead term's weighted contribution to momentum has the
+    largest magnitude among momentum's weighted components -- used to pick
+    the "new creators" reason sentence over the plain wow% one."""
+    contributions = {
+        "wow": momentum_weights["wow_weight"] * row["z_wow"],
+        "lead": momentum_weights["lead_weight"] * row["z_lead"],
+    }
+    if row.get("has_daily"):
+        contributions["slope14"] = momentum_weights["slope14_weight"] * row["z_slope14"]
+        contributions["accel"] = momentum_weights["accel_weight"] * row["z_accel"]
+    dominant = max(contributions, key=lambda k: abs(contributions[k]))
+    return dominant == "lead"
+
+
 def build_reasons(
     row: pd.Series,
     creator_avg_gpm: float | None = None,
     spanish_gap_reason_max_share: float = 0.3,
     exclude: frozenset[str] = frozenset(),
+    momentum_weights: dict | None = None,
 ) -> tuple[list[str], list[str]]:
     """`creator_avg_gpm` (added 2026-10-15, engine.fit.creator_avg_category_gpm):
     the "fit" component only renders as the category_fit reason -- citing her
@@ -869,8 +917,18 @@ def build_reasons(
             break
         try:
             if comp == "momentum":
-                reasons_es.append(render_reason("momentum", "es", pct=row["wow"] * 100))
-                reasons_en.append(render_reason("momentum", "en", pct=row["wow"] * 100))
+                # Lead (creator/video growth, spec 6.2) gets its own
+                # sentence instead of the wow% one when it's the biggest
+                # weighted contributor to momentum -- otherwise "sales
+                # went up 0%" could show for a product whose real signal
+                # is a wave of new creators just starting to sell it,
+                # before that shows up in sales yet.
+                if row.get("has_lead") and momentum_weights and _lead_is_dominant_driver(row, momentum_weights):
+                    reasons_es.append(render_reason("lead", "es"))
+                    reasons_en.append(render_reason("lead", "en"))
+                else:
+                    reasons_es.append(render_reason("momentum", "es", pct=row["wow"] * 100))
+                    reasons_en.append(render_reason("momentum", "en", pct=row["wow"] * 100))
             elif comp == "earnings":
                 reasons_es.append(render_reason("earnings", "es", amount=row["earnings_per_sale"]))
                 reasons_en.append(render_reason("earnings", "en", amount=row["earnings_per_sale"]))
@@ -1104,16 +1162,17 @@ def picks_to_export_dicts(
     saturation_cfg: dict | None = None,
     pocas_latinas_cfg: dict | None = None,
     video_time_lookup: dict[str, dict | None] | None = None,
+    momentum_weights: dict | None = None,
 ) -> list[dict]:
     out = []
     for p in picks:
         row = pd.Series(p)
-        reasons_es, reasons_en = build_reasons(row, creator_avg_gpm, spanish_gap_reason_max_share)
+        reasons_es, reasons_en = build_reasons(row, creator_avg_gpm, spanish_gap_reason_max_share, momentum_weights=momentum_weights)
         # The simplified card (added 2026-10-16) shows ONE plain sentence
         # instead of a bullet list, combining the non-earnings reasons --
         # earnings is already the card's own headline ("Ganas $X por venta").
         summary_reasons_es, summary_reasons_en = build_reasons(
-            row, creator_avg_gpm, spanish_gap_reason_max_share, exclude=frozenset({"earnings"})
+            row, creator_avg_gpm, spanish_gap_reason_max_share, exclude=frozenset({"earnings"}), momentum_weights=momentum_weights
         )
         cat_meta = (categories_cfg or {}).get(p["config_category"], {})
         out.append(
@@ -1594,6 +1653,7 @@ async def run(args: argparse.Namespace) -> None:
         saturation_cfg,
         pocas_latinas_cfg,
         video_time_lookup,
+        weights["momentum"],
     )
     candidate_dicts = candidates_to_export_dicts(df, categories_cfg, pick_ids, flagged, saturation_cfg, pocas_latinas_cfg)
 
