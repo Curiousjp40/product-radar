@@ -1,4 +1,4 @@
-import { loadHooks, loadPicks, loadSeasons } from "../api";
+import { loadCandidates, loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl } from "../asset";
 import { bestVideoTimeHtml } from "../bestTime";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
@@ -6,12 +6,15 @@ import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
 import { getAllMisProductos, ownedProductIds } from "../misProductos";
+import { applyOwnedSwap } from "../ownedSwap";
+import { candidateToPickStub } from "../pickAdapter";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import { productsToFilmToday, reorderForHero } from "../rotation";
 import { weeklyUnitsChangePct } from "../cardMetrics";
 import { getAllSamples, hasRequestedSample, requestSample } from "../samples";
 import { hasUrgentSamples } from "../samplesLogic";
 import type { HooksFile, Pick } from "../types";
+import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 import { goalCardHtml, wireGoalCard } from "./goalCard";
 import { productCardInfoHtml } from "./productCard";
 import { countdownText, daysUntil } from "./season";
@@ -92,6 +95,7 @@ function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
         ${requested ? "disabled" : ""}
       >${requested ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
       <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+      ${yaLoTengoButtonHtml(pick.product_id, lang)}
     </div>
   `;
 }
@@ -188,24 +192,38 @@ function alsoGoodCardHtml(
 
 export async function renderHoy(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const [{ data: picksData, isSample }, { data: hooks }, statuses, feedback, misProductos, goal, entries] = await Promise.all([
-    loadPicks(),
-    loadHooks(),
-    getAllStatuses(),
-    getAllFeedback(),
-    getAllMisProductos(),
-    getMonthlyGoal(),
-    getEntries(),
-  ]);
+  const [{ data: picksData, isSample }, { data: hooks }, { data: candidatesData }, statuses, feedback, misProductos, goal, entries] =
+    await Promise.all([
+      loadPicks(),
+      loadHooks(),
+      loadCandidates(),
+      getAllStatuses(),
+      getAllFeedback(),
+      getAllMisProductos(),
+      getMonthlyGoal(),
+      getEntries(),
+    ]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
   const today = new Date();
   const ownedIds = ownedProductIds(misProductos);
   const progress = earningsProgress(goal, earningsThisMonth(entries, today));
   const monthlyGoalRemaining = progress ? progress.remaining : null;
   const hiddenCategories = new Set(getHiddenCategories());
-  const visiblePicks = picksData.picks.filter(
+  const eligiblePicks = picksData.picks.filter(
     (p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category),
   );
+  // Part 3 "Ya lo tengo" (2026-10-16): an owned pick that still trended
+  // back into this week's list surfaces as ONE "vuelve a grabarlo" card
+  // below (max 1/day via pickForToday), while the normal swap drops every
+  // owned pick from the rotation and backfills from the full candidate
+  // pool so the list stays the same size.
+  const resurgencePick = pickForToday(eligiblePicks.filter((p) => ownedIds.has(p.product_id)), today);
+  const eligiblePickIds = new Set(eligiblePicks.map((p) => p.product_id));
+  const candidatePool = [...candidatesData.candidates]
+    .filter((c) => c.score !== null && !c.suspicious && !eligiblePickIds.has(c.product_id))
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .map(candidateToPickStub);
+  const visiblePicks = applyOwnedSwap(eligiblePicks, candidatePool, ownedIds);
   const categoryByProductId = new Map(picksData.picks.map((p) => [p.product_id, p.category]));
   const postedIds = new Set(Object.entries(statuses).filter(([, s]) => s === "posted").map(([id]) => id));
   const allPickIds = visiblePicks.map((p) => p.product_id);
@@ -222,6 +240,13 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const samplesBanner = hasUrgentSamples(getAllSamples(), today)
     ? `<a class="hoy-samples-banner" href="#/muestras">${t("hoy_samples_banner", lang)}</a>`
     : "";
+  const resurgenceHtml = resurgencePick
+    ? `<div class="ya-lo-tengo-resurgence">
+         <strong>${t("ya_lo_tengo_resurgence_title", lang)}</strong>
+         <p class="week-detail-summary">${resurgencePick.clean_title}</p>
+         <a class="more-link" href="#/product/${resurgencePick.product_id}">${t("see_selling_videos_button", lang)}</a>
+       </div>`
+    : "";
 
   container.innerHTML = `
     ${banner}
@@ -229,6 +254,8 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ${samplesBanner}
     ${await goalCardHtml(lang, picksData.picks, misProductos, today)}
     ${seasonHtml}
+    ${resurgenceHtml}
+    ${yaLoTengoSheetHtml(lang)}
     ${
       !hero
         ? `<p class="empty-state">${t("hoy_empty", lang)}</p>`
@@ -245,6 +272,24 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
 
   wireGoalCard(container, lang, () => void renderHoy(container, lang));
   wireCategoryHidePrompt(container, () => void renderHoy(container, lang));
+
+  const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
+    [...picksData.picks, ...candidatePool].map((p) => [
+      p.product_id,
+      {
+        product_id: p.product_id,
+        name: p.clean_title,
+        photo_url: p.image_url || null,
+        category: p.category,
+        commission_pct: p.commission_rate,
+        tiktok_shop_url: p.tiktok_shop_url,
+        price: p.price,
+        earnings_per_sale: p.earnings_per_sale,
+        effort_minutes: p.effort_minutes,
+      },
+    ]),
+  );
+  wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderHoy(container, lang));
 
   container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
     btn.addEventListener("click", async () => {

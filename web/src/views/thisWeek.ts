@@ -3,6 +3,8 @@ import { bestVideoTimeHtml } from "../bestTime";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { getAllMisProductos, ownedProductIds } from "../misProductos";
+import { applyOwnedSwap } from "../ownedSwap";
+import { candidateToPickStub } from "../pickAdapter";
 import { t, type Lang } from "../i18n";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
@@ -11,6 +13,7 @@ import { assetUrl } from "../asset";
 import { findCombos } from "../combos";
 import { productCardInfoHtml } from "./productCard";
 import { hasRequestedSample, requestSample } from "../samples";
+import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -81,6 +84,7 @@ function rowHtml(pick: Pick, lang: Lang, selected: boolean, ownedIds: Set<string
         </div>
       </a>
       <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+      ${yaLoTengoButtonHtml(pick.product_id, lang)}
     </div>
   `;
 }
@@ -271,6 +275,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
         </button>
         <a class="btn-save-pill" href="#/product/${pick.product_id}">${t("ver_todos_detalles_button", lang)}</a>
         <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+        ${yaLoTengoButtonHtml(pick.product_id, lang)}
       </div>
     </div>
   `;
@@ -300,7 +305,17 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
   const progress0 = earningsProgress(goal, earningsThisMonth(entries, today0));
   const monthlyGoalRemaining = progress0 ? progress0.remaining : null;
   const hiddenCategories = new Set(getHiddenCategories());
-  const data = { ...rawData, picks: rawData.picks.filter((p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category)) };
+  const eligiblePicks = rawData.picks.filter((p) => feedback[p.product_id] !== "not_for_me" && !hiddenCategories.has(p.category));
+  // Part 3 "Ya lo tengo" swap (2026-10-16): drop owned picks and backfill
+  // from the full candidate pool so the list stays the same size, same
+  // approach as Hoy.
+  const eligiblePickIds = new Set(eligiblePicks.map((p) => p.product_id));
+  const candidatePool = [...candidatesData.candidates]
+    .filter((c) => c.score !== null && !c.suspicious && !eligiblePickIds.has(c.product_id))
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
+    .map(candidateToPickStub);
+  const swappedPicks = applyOwnedSwap(eligiblePicks, candidatePool, ownedIds);
+  const data = { ...rawData, picks: swappedPicks };
   const categoryByProductId = new Map(rawData.picks.map((p) => [p.product_id, p.category]));
   if (data.picks.length === 0) {
     container.innerHTML = `${banner}<p class="empty-state">${t("no_data", lang)}</p>`;
@@ -381,9 +396,28 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     </div>
     <div class="category-hide-prompt-slot"></div>
     ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining)}
+    ${yaLoTengoSheetHtml(lang)}
   `;
   renderDetail(firstId);
   wireGroupFilter(container, lang);
+
+  const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
+    [...rawData.picks, ...candidatePool, ...candidatesData.candidates].map((p) => [
+      p.product_id,
+      {
+        product_id: p.product_id,
+        name: p.clean_title,
+        photo_url: p.image_url || null,
+        category: p.category,
+        commission_pct: p.commission_rate,
+        tiktok_shop_url: p.tiktok_shop_url,
+        price: p.price,
+        earnings_per_sale: p.earnings_per_sale,
+        effort_minutes: p.effort_minutes,
+      },
+    ]),
+  );
+  wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderThisWeek(container, lang, filterGroup));
 
   container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {
     const id = link.dataset.productId!;

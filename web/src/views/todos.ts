@@ -9,6 +9,7 @@ import { getAllFeedback, getHiddenCategories, setFeedback } from "../pipeline";
 import type { Candidate, CategoryGroup } from "../types";
 import { sortCandidates, type SortMode } from "../todosSort";
 import { productCardInfoHtml } from "./productCard";
+import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 
 function row(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoalRemaining: number | null): string {
   const photo = c.image_url
@@ -47,6 +48,7 @@ function row(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoal
       </a>
       <a class="btn-save-pill todos-row-tiktok" href="${c.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
       <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
+      ${yaLoTengoButtonHtml(c.product_id, lang)}
     </article>
   `;
 }
@@ -141,10 +143,29 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
                  : ""
              }`
       }
+      ${yaLoTengoSheetHtml(lang)}
     `;
 
     categoryHidePrompt = null;
     wireCategoryHidePrompt(container, draw);
+
+    const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
+      data.candidates.map((c) => [
+        c.product_id,
+        {
+          product_id: c.product_id,
+          name: c.clean_title,
+          photo_url: c.image_url || null,
+          category: c.category,
+          commission_pct: c.commission_rate,
+          tiktok_shop_url: c.tiktok_shop_url,
+          price: c.price,
+          earnings_per_sale: c.earnings_per_sale,
+          effort_minutes: c.effort_minutes,
+        },
+      ]),
+    );
+    wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderTodos(container, lang));
     container.querySelector(".todos-load-more")?.addEventListener("click", () => {
       visibleCount += PAGE_SIZE;
       draw();

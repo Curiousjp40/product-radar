@@ -6,6 +6,7 @@ import { t, type Lang } from "../i18n";
 import { setFeedback } from "../pipeline";
 import { hasRequestedSample, requestSample } from "../samples";
 import type { FormulaGanadora, VideoCard } from "../types";
+import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 
 function formatCount(n: number): string {
   if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
@@ -230,8 +231,10 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
         <a href="${data.tiktok_search_url}" target="_blank" rel="noopener">${t("tiktok_videos_button", lang)}</a>
         <a href="${data.fastmoss_url}" target="_blank" rel="noopener">${t("open_in_fastmoss", lang)}</a>
         <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${data.product_id}">${t("not_for_me_button", lang)}</button>
+        ${yaLoTengoButtonHtml(data.product_id, lang)}
       </div>
       <p class="free-buttons-note">${t("tiktok_search_note", lang)}</p>
+      ${yaLoTengoSheetHtml(lang)}
     `;
     if (data.videos.length > 0) {
       loadTikTokEmbedScript();
@@ -249,6 +252,25 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
     const notForMeBtn = container.querySelector<HTMLButtonElement>('[data-action="not-for-me"]');
     notForMeBtn?.addEventListener("click", async () => {
       await setFeedback(data.product_id, "not_for_me");
+      location.hash = "#/week";
+    });
+    const yaLoTengoProducts = new Map<string, YaLoTengoProduct>([
+      [
+        data.product_id,
+        {
+          product_id: data.product_id,
+          name: data.clean_title,
+          photo_url: data.image_url || null,
+          category: data.category,
+          commission_pct: data.commission_rate,
+          tiktok_shop_url: data.tiktok_shop_url,
+          price: data.price,
+          earnings_per_sale: data.earnings_per_sale,
+          effort_minutes: data.effort_minutes,
+        },
+      ],
+    ]);
+    wireYaLoTengo(container, lang, yaLoTengoProducts, () => {
       location.hash = "#/week";
     });
     const copyBtn = container.querySelector<HTMLButtonElement>(".copy-hashtags-btn");

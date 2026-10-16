@@ -1053,6 +1053,111 @@ select.status-select {
   cursor: pointer;
 }
 
+.btn-ya-lo-tengo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  border: 1px solid var(--accent);
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 700;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 10px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.ya-lo-tengo-sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(28, 27, 31, 0.45);
+  padding: 0 16px env(safe-area-inset-bottom, 0px);
+}
+
+/* The `hidden` attribute is overridden by the `display: flex` above
+   (a class selector beats the UA stylesheet's attribute-implied display),
+   so it has to be restored explicitly or the sheet never actually hides. */
+.ya-lo-tengo-sheet[hidden] {
+  display: none;
+}
+
+.ya-lo-tengo-sheet-inner {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border-radius: var(--radius) var(--radius) 0 0;
+  padding: 18px 16px calc(18px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ya-lo-tengo-sheet-inner h4 {
+  margin: 0;
+}
+
+.ya-lo-tengo-source-choice {
+  display: flex;
+  gap: 8px;
+}
+
+.ya-lo-tengo-source-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.ya-lo-tengo-source-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.ya-lo-tengo-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.ya-lo-tengo-field input,
+.ya-lo-tengo-field textarea {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.ya-lo-tengo-sheet-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.ya-lo-tengo-resurgence {
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--accent);
+  background: var(--surface-2);
+}
+
 .category-hide-prompt {
   margin: 14px 0;
   padding: 14px 16px;
