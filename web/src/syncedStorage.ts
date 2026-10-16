@@ -48,11 +48,26 @@ function writeLocal<T>(key: SyncedKey, value: T): void {
 
 /** Pulls the latest synced value from the Worker (if reachable) and
  * caches it locally; falls back to whatever's already in localStorage.
- * Call this once per view render, before reading local state. */
+ * Call this once per view render, before reading local state.
+ *
+ * Privacy fix (2026-10-16): GET /state now requires the same password as
+ * writes (sent as a header, never the URL -- see worker/src/index.js's
+ * hasValidPassword). Without a stored password this never even calls the
+ * Worker: it returns `fallback` (or whatever's cached in THIS browser's
+ * own localStorage from before, never another device's data), so a
+ * visitor who's never entered the password sees only the plain shared
+ * product lists, with no owned/hidden/goal data layered on top. */
 export async function pullSynced<T>(key: SyncedKey, fallback: T): Promise<T> {
-  if (!WORKER_URL) return readLocal(key, fallback);
+  const password = getStoredPassword();
+  if (!WORKER_URL || !password) return readLocal(key, fallback);
   try {
-    const resp = await fetch(`${WORKER_URL}/state?key=${key}&profile=${PROFILE_ID}`);
+    const resp = await fetch(`${WORKER_URL}/state?key=${key}&profile=${PROFILE_ID}`, {
+      headers: { "X-Sync-Password": password },
+    });
+    if (resp.status === 401) {
+      setStoredPassword(null);
+      return readLocal(key, fallback);
+    }
     if (!resp.ok) return readLocal(key, fallback);
     const body = await resp.json();
     if (body?.data === null || body?.data === undefined) return readLocal(key, fallback);

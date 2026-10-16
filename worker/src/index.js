@@ -34,7 +34,7 @@ function corsHeaders() {
   return {
     "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
     "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Headers": "Content-Type, X-Sync-Password",
   };
 }
 
@@ -43,6 +43,20 @@ function json(data, status = 200) {
     status,
     headers: { "Content-Type": "application/json", ...corsHeaders() },
   });
+}
+
+// Privacy fix (2026-10-16): GET /state, /saved and /credits used to trust
+// Origin alone -- but Origin is just a browser-sent header on the real
+// request from the real public site, so ANY visitor's normal page load
+// sent it and got Roxie's real Mis Productos/earnings/goal/hidden/
+// not_for_me data back. Origin still restricts WHICH SITE can call these
+// (not a random third-party page), but it is not a secret and proves
+// nothing about WHO is visiting that site -- a real password, sent as a
+// header (not a URL query param, which can leak into logs/referrers), is
+// the actual gate now for anything that isn't plain shared product data.
+function hasValidPassword(request, env) {
+  const password = request.headers.get("X-Sync-Password");
+  return typeof password === "string" && password.length > 0 && password === env.SEARCH_PASSWORD;
 }
 
 export default {
@@ -116,10 +130,10 @@ async function saveSearchResult(env, handle, result) {
 /**
  * Part C6b: GET /saved lists every saved search (free -- just KV reads,
  * no FastMoss calls), GET /saved?handle=X returns one saved search's full
- * result (also free -- "opening a saved one costs 0 credits"). Reading is
- * not password-gated (same reasoning as /credits): CORS + Origin already
- * restrict this to the Pages site, and it's Roxie's own non-sensitive
- * research data, not something that spends money if read.
+ * result (also free -- "opening a saved one costs 0 credits"). Password-
+ * gated as of the 2026-10-16 privacy fix: this is Roxie's own research
+ * history (who she's scouted, with real account data), not public product
+ * data, so CORS + Origin alone isn't enough -- see hasValidPassword.
  */
 async function handleSaved(request, url, env) {
   if (request.method === "OPTIONS") {
@@ -131,6 +145,9 @@ async function handleSaved(request, url, env) {
   }
   if (request.method !== "GET") {
     return json({ error: "method_not_allowed" }, 405);
+  }
+  if (!hasValidPassword(request, env)) {
+    return json({ error: "wrong_password" }, 401);
   }
 
   const handle = url.searchParams.get("handle");
@@ -149,9 +166,10 @@ async function handleSaved(request, url, env) {
 // lista" all need to work the same on Roxie's phone and the computer, not
 // just in one browser's localStorage. One generic key-value route instead
 // of bespoke routes per feature -- each of these is "one JSON blob for a
-// known key", nothing more. Reads need no password (CORS + Origin check
-// already restrict this to the Pages site); writes need the same
-// SEARCH_PASSWORD as account search, since a write can overwrite real data.
+// known key", nothing more. Both reads and writes require SEARCH_PASSWORD
+// (2026-10-16 privacy fix -- see hasValidPassword's own comment for why
+// Origin alone wasn't enough): this is Roxie's real inventory/earnings/
+// hidden-item data, not something any site visitor should be able to read.
 const STATE_ALLOWED_KEYS = new Set(["mis_productos", "not_for_me", "mi_lista", "hidden_categories", "earnings_goal"]);
 
 // Future-proofing for multiple users (2026-10-16): every synced key now
@@ -182,6 +200,9 @@ async function handleState(request, url, env) {
   const kvKey = `state:${profileId}:${key}`;
 
   if (request.method === "GET") {
+    if (!hasValidPassword(request, env)) {
+      return json({ error: "wrong_password" }, 401);
+    }
     let stored = await env.SEARCH_KV.get(kvKey, { type: "json" });
     if (stored === null) {
       // One-time read-migration: data written before profiles existed
@@ -225,6 +246,8 @@ const CREDITS_CACHE_TTL_SECONDS = 15 * 60; // credit_usage_summary is free, but 
  * itself is free/read-only (0 credits, same exemption CLAUDE.md gives
  * engine.run), so this never touches the paid-call guard; it's just
  * cached for 15 minutes so a page full of visits doesn't hammer FastMoss.
+ * Password-gated as of the 2026-10-16 privacy fix: Ryan's FastMoss plan
+ * balance is his own business info, not public product data.
  */
 async function handleCredits(request, env) {
   if (request.method === "OPTIONS") {
@@ -232,6 +255,9 @@ async function handleCredits(request, env) {
   }
   if (request.method !== "GET") {
     return new Response("method not allowed", { status: 405 });
+  }
+  if (!hasValidPassword(request, env)) {
+    return json({ error: "wrong_password" }, 401);
   }
   const cached = await env.SEARCH_KV.get(CREDITS_CACHE_KEY, { type: "json" });
   if (cached) return json(cached);

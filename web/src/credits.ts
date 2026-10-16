@@ -1,6 +1,8 @@
 // Part C1g: the Worker's /credits route proxies FastMoss's free (0-credit)
 // credit_usage_summary tool, cached 15 min server-side. Same base URL
 // buscarCuenta.ts uses -- see its comment for the setup walkthrough.
+import { getStoredPassword, setStoredPassword } from "./searchPassword";
+
 const WORKER_URL = "https://product-radar-search.roxie-radar.workers.dev";
 
 export interface CreditsSummary {
@@ -9,10 +11,19 @@ export interface CreditsSummary {
   plan_expire_at: string;
 }
 
+// Privacy fix (2026-10-16): Ryan's FastMoss balance is now password-gated
+// (worker/src/index.js's handleCredits) -- never calls the Worker without
+// a stored password, so a visitor who hasn't connected just sees nothing
+// here rather than triggering a request that would 401 anyway.
 export async function fetchCreditsSummary(): Promise<CreditsSummary | null> {
-  if (!WORKER_URL) return null;
+  const password = getStoredPassword();
+  if (!WORKER_URL || !password) return null;
   try {
-    const resp = await fetch(`${WORKER_URL}/credits`);
+    const resp = await fetch(`${WORKER_URL}/credits`, { headers: { "X-Sync-Password": password } });
+    if (resp.status === 401) {
+      setStoredPassword(null);
+      return null;
+    }
     if (!resp.ok) return null;
     const data = await resp.json();
     const expireAt = data?.entitlements?.plan_expire_at;
