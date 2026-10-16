@@ -295,6 +295,7 @@ const dict: Record<string, { es: string; en: string }> = {
   best_time_level_category: { es: "esta categoría", en: "this category" },
   best_time_level_group: { es: "este grupo", en: "this group" },
   best_time_level_all: { es: "todos los productos", en: "all products" },
+  best_time_live_label: { es: "Mejor hora para un live", en: "Best time to go live" },
   weekday_mon: { es: "lun", en: "Mon" },
   weekday_tue: { es: "mar", en: "Tue" },
   weekday_wed: { es: "mié", en: "Wed" },
@@ -311,9 +312,17 @@ const dict: Record<string, { es: string; en: string }> = {
   mejores_horas_by_group: { es: "Por grupo (Moda / Hogar)", en: "By group (Fashion / Home)" },
   mejores_horas_by_category: { es: "Por categoría", en: "By category" },
   mejores_horas_live_title: { es: "Mejor hora para un live", en: "Best time to go live" },
-  mejores_horas_live_pending: {
-    es: "Todavía no tenemos esto. Ya confirmamos que live_search funciona (categoría, ventas reales, zona horaria), pero conseguir suficientes datos por mes cuesta más créditos de lo planeado -- Ryan está decidiendo cuánto gastar.",
-    en: "We don't have this yet. We confirmed live_search actually works now (category, real sales, timezone), but getting enough data per month costs more credits than planned -- Ryan's deciding how much to spend.",
+  mejores_horas_live_sample_note: {
+    es: "según {n} lives de {level} (últimos 28 días, se renueva cada mes)",
+    en: "based on {n} lives from {level} (last 28 days, refreshed monthly)",
+  },
+  mejores_horas_live_duration_note: {
+    es: "Los lives que venden duran ~{n} min",
+    en: "Lives that sell last ~{n} min",
+  },
+  mejores_horas_ari_note: {
+    es: "Ari: sus lives que más venden son de noche, entre 8:40 y 11 PM ET.",
+    en: "Ari: her best-selling lives are at night, 8:40-11 PM ET.",
   },
   mejores_horas_footnote: {
     es: "Esto es una pista basada en nuestros datos, no en la cuenta de Roxie. Para saber cuándo SU audiencia está en línea, revisa: ",

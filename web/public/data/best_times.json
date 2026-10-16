@@ -128,5 +128,139 @@
         5
       ]
     }
+  },
+  "live": {
+    "shapewear": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "dresses": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "sets": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "furniture": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 12,
+      "hour_end": 14,
+      "best_weekdays": [
+        5,
+        4
+      ],
+      "median_duration_minutes": 138
+    },
+    "home_decor": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 8,
+      "hour_end": 10,
+      "best_weekdays": [
+        1,
+        2
+      ],
+      "median_duration_minutes": 122
+    },
+    "winter_clothing": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "shoes": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        2
+      ],
+      "median_duration_minutes": 150
+    },
+    "pet_furniture": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        3,
+        5
+      ],
+      "median_duration_minutes": 157
+    },
+    "home_storage": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 8,
+      "hour_end": 10,
+      "best_weekdays": [
+        1,
+        2
+      ],
+      "median_duration_minutes": 122
+    },
+    "costumes": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "pajamas": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    },
+    "activewear": {
+      "sample_size": 30,
+      "used_organic_only": true,
+      "hour_start": 20,
+      "hour_end": 22,
+      "best_weekdays": [
+        0,
+        1
+      ],
+      "median_duration_minutes": 145
+    }
   }
 }

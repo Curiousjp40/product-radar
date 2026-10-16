@@ -151,6 +151,56 @@ def best_video_time(
     }
 
 
+def load_live_records(snapshots_dir: Path, l1_category_id: int) -> list[dict]:
+    """Part C7b: pools every data/snapshots/*/live_<l1_id>_p*.json page for
+    one L1 category, deduped by room_id. Each record matches the shape
+    best_time_for_pool expects: is_ad is always False (lives have no ad
+    concept the way videos do -- traffic_flags doesn't exist in
+    live_search's response), units/weekday/hour_start/hour_end from
+    performance_summary/live.started_at."""
+    seen: dict[str, dict] = {}
+    if not snapshots_dir.exists():
+        return []
+    for snap_dir in sorted(snapshots_dir.glob("*")):
+        if not snap_dir.is_dir():
+            continue
+        for f in sorted(snap_dir.glob(f"live_{l1_category_id}_p*.json")):
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            for entry in data.get("list", []):
+                live = entry.get("live", {})
+                room_id = live.get("room_id")
+                started_at = live.get("started_at")
+                if not room_id or started_at is None or room_id in seen:
+                    continue
+                dt = datetime.fromtimestamp(started_at, tz=ET)
+                hour_start, hour_end = _hour_window(dt.hour)
+                seen[room_id] = {
+                    "room_id": room_id,
+                    "is_ad": False,
+                    "units": entry.get("performance_summary", {}).get("live_units_sold", 0) or 0,
+                    "duration_seconds": live.get("duration_seconds", 0) or 0,
+                    "weekday": dt.weekday(),
+                    "hour_start": hour_start,
+                    "hour_end": hour_end,
+                }
+    return list(seen.values())
+
+
+def best_live_time_for_l1(records: list[dict]) -> dict | None:
+    """Same median-ranked-window logic as best_time_for_pool, plus the
+    typical length of lives that sell (median duration) -- Part C7b asks
+    for both: the best window and "los lives que venden duran ~60-90 min"."""
+    result = best_time_for_pool(records)
+    if result is None:
+        return None
+    durations = [r["duration_seconds"] for r in records if r.get("duration_seconds")]
+    result["median_duration_minutes"] = round(median(durations) / 60) if durations else None
+    return result
+
+
 def best_time_for_pool(records: list[dict]) -> dict | None:
     """Part C7c: the Mas -> "Mejores horas" page shows one breakdown per
     category/group, not per product -- this is the same organic-preference,

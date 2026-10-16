@@ -79,7 +79,7 @@ from engine.picks import (
     select_top_reasons,
     thompson_sample_categories,
 )
-from engine.posting_time import best_time_for_pool, best_video_time, load_video_records
+from engine.posting_time import best_live_time_for_l1, best_time_for_pool, best_video_time, load_live_records, load_video_records
 from engine.quality import shop_round_price_cluster_ids, suspicious_reasons
 from engine.saturation import saturation_badge
 from engine.scoring import (
@@ -1294,6 +1294,24 @@ def compute_best_times_by_category_and_group(
     return categories, groups
 
 
+def compute_live_times_by_category(
+    live_timing_cfg: dict,
+    categories_cfg: dict,
+    snapshots_dir: Path = SNAPSHOTS_DIR,
+) -> dict[str, dict | None]:
+    """Part C7b's live-time breakdown, one result per OUR category key
+    (not per L1 id) -- several categories share an L1 id's live data (e.g.
+    every Womenswear & Underwear category reuses the same L1=2 pull), so
+    this fetches load_live_records once per distinct L1 id and reuses the
+    result for every category mapped to it."""
+    category_to_l1 = live_timing_cfg["category_to_l1_id"]
+    by_l1_id: dict[int, dict | None] = {}
+    for l1_id in set(category_to_l1.values()):
+        records = load_live_records(snapshots_dir, l1_id)
+        by_l1_id[l1_id] = best_live_time_for_l1(records)
+    return {cat: by_l1_id.get(category_to_l1[cat]) for cat in categories_cfg if cat in category_to_l1}
+
+
 def cache_pick_images(picks: list[dict]) -> None:
     """Downloads each pick's product photo and video thumbnails into
     web/public/img/ (added 2026-10-16) so the dashboard never depends on
@@ -1582,7 +1600,9 @@ async def run(args: argparse.Namespace) -> None:
         export.write_candidates(week, candidate_dicts, data_dir=export_dir)
         export.write_hooks(config["hooks"], data_dir=export_dir)
         best_times_by_category, best_times_by_group = compute_best_times_by_category_and_group(pool + flagged, categories_cfg)
-        export.write_best_times(best_times_by_category, best_times_by_group, data_dir=export_dir)
+        live_timing_cfg = config["weights"].get("live_timing")
+        live_times_by_category = compute_live_times_by_category(live_timing_cfg, categories_cfg) if live_timing_cfg else {}
+        export.write_best_times(best_times_by_category, best_times_by_group, live_times_by_category, data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}

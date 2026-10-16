@@ -1,6 +1,6 @@
 import json
 
-from engine.posting_time import best_time_for_pool, best_video_time, load_video_records
+from engine.posting_time import best_live_time_for_l1, best_time_for_pool, best_video_time, load_live_records, load_video_records
 from engine.run import compute_best_times_by_category_and_group
 
 
@@ -123,3 +123,44 @@ def test_best_video_time_ranks_top_two_weekdays():
     )
     result = best_video_time("p1", "dresses", "fashion", records, {}, {})
     assert set(result["best_weekdays"]) == {0, 2}
+
+
+def _write_live_snapshot(tmp_path, week, l1_id, page, lives):
+    week_dir = tmp_path / week
+    week_dir.mkdir(parents=True, exist_ok=True)
+    (week_dir / f"live_{l1_id}_p{page}.json").write_text(json.dumps({"list": lives}), encoding="utf-8")
+
+
+def _live(room_id, started_at, units, duration_seconds=3600):
+    return {
+        "live": {"room_id": room_id, "started_at": started_at, "duration_seconds": duration_seconds},
+        "performance_summary": {"live_units_sold": units},
+    }
+
+
+def test_load_live_records_dedupes_by_room_id_across_pages(tmp_path):
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live("r1", MON_NOON_ET, 10)])
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 2, [_live("r1", MON_NOON_ET, 10)])
+    records = load_live_records(tmp_path, 2)
+    assert len(records) == 1
+
+
+def test_load_live_records_only_loads_the_given_l1_id(tmp_path):
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live("r1", MON_NOON_ET, 10)])
+    _write_live_snapshot(tmp_path, "2026-W01", 20, 1, [_live("r2", MON_NOON_ET, 10)])
+    records = load_live_records(tmp_path, 2)
+    assert len(records) == 1
+    assert records[0]["room_id"] == "r1"
+
+
+def test_best_live_time_for_l1_includes_median_duration(tmp_path):
+    lives = [_live(f"r{i}", MON_NOON_ET, 10, duration_seconds=3600 + i * 60) for i in range(5)]
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, lives)
+    records = load_live_records(tmp_path, 2)
+    result = best_live_time_for_l1(records)
+    assert result["hour_start"] == 12
+    assert result["median_duration_minutes"] == 62  # median of 60,61,62,63,64 minutes
+
+
+def test_best_live_time_for_l1_returns_none_with_no_lives():
+    assert best_live_time_for_l1([]) is None

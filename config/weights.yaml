@@ -199,3 +199,34 @@ outreach: # H4 of the 2026-10-15 creator-workflow upgrade
   commission_top_fraction: 0.5 # qualifies if avg commission is in this week's top half of shops
   creator_count_bottom_fraction: 0.5 # qualifies if avg creator_count is in this week's bottom half
   min_candidates_for_shop_avg: 1
+
+live_timing: # Part C7b, added 2026-10-16 after confirming live_search works
+  # live_search's filter.product_category wants an L1 (top-level) category
+  # id, not our per-category L3 fastmoss_category_id -- confirmed 2026-10-16
+  # against 5 real calls (docs/field_map.md). Only 5 distinct L1 ids cover
+  # all 12 of our categories, so the monthly pull is 5 (groups) x pages_per_category
+  # calls, not 12.
+  category_to_l1_id:
+    shapewear: 2
+    dresses: 2
+    sets: 2
+    winter_clothing: 2
+    costumes: 2
+    pajamas: 2
+    activewear: 2
+    furniture: 20
+    home_decor: 10
+    home_storage: 10
+    shoes: 6
+    pet_furniture: 17
+  # sold_range.min per L1 id -- without this, live_search returns mostly
+  # zero-GMV lives (confirmed 2026-10-16); these are the values tested.
+  sold_range_min_by_l1_id:
+    2: 10 # Womenswear & Underwear
+    20: 5 # Furniture
+    10: 5 # Home Supplies
+    6: 5 # Shoes
+    17: 5 # Pet Supplies
+  pages_per_category: 3 # 10 lives/page (the tool's own cap) x 3 = 30, matching MIN_POOL_VIDEOS in engine/posting_time.py
+  window_days: 28
+  window_end_buffer_days: 3 # leaves out the most recent days, whose GMV/units may not be fully attributed yet

@@ -98,6 +98,37 @@ async def fetch_overview(client: FastMossConnection, product_id: str, time_range
     return await client.call("product_overview", {"filter": {"product_id": product_id, "time_range_days": time_range_days}})
 
 
+async def fetch_live_search(
+    client: FastMossConnection,
+    l1_category_id: int,
+    start_min: int,
+    start_max: int,
+    sold_min: int,
+    page: int = 1,
+    pagesize: int = 10,
+) -> dict:
+    """Part C7b (confirmed working 2026-10-16, see docs/field_map.md):
+    filter.product_category wants an L1 category id (not our per-category
+    L3 fastmoss_category_id), and filter.sold_range.min is what keeps the
+    results to lives that actually sold something -- without it the
+    endpoint returns mostly zero-GMV lives. pagesize is capped at 10 by
+    the tool itself; `page` pages through for a larger sample."""
+    return await client.call(
+        "live_search",
+        {
+            "filter": {
+                "start_time": {"min": start_min, "max": start_max},
+                "region": "US",
+                "product_category": l1_category_id,
+                "sold_range": {"min": sold_min},
+            },
+            "orderby": [{"field": "live_units_sold", "order": "desc"}],
+            "page": page,
+            "pagesize": pagesize,
+        },
+    )
+
+
 async def fetch_product_videos(
     client: FastMossConnection,
     product_id: str,

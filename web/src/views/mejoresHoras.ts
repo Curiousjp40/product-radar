@@ -1,6 +1,6 @@
 import { loadBestTimes, loadCandidates } from "../api";
 import { t, type Lang } from "../i18n";
-import type { CategoryGroupBestTime } from "../types";
+import type { CategoryGroupBestTime, LiveBestTime } from "../types";
 
 const WEEKDAY_KEYS = ["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"];
 
@@ -30,6 +30,22 @@ function rowHtml(label: string, bt: CategoryGroupBestTime | null, lang: Lang): s
   `;
 }
 
+function liveRowHtml(label: string, lt: LiveBestTime | null, lang: Lang): string {
+  if (!lt) {
+    return `<div class="best-times-row"><div class="best-times-row-label">${label}</div><p class="empty-state" style="padding:2px 0">${t("best_time_video_unavailable", lang)}</p></div>`;
+  }
+  const days = lt.best_weekdays.map((d) => t(WEEKDAY_KEYS[d], lang)).join(" / ");
+  const basis = t("mejores_horas_live_sample_note", lang, { n: lt.sample_size, level: label });
+  return `
+    <div class="best-times-row">
+      <div class="best-times-row-label">${label}</div>
+      <div class="best-times-row-value">${days} ${formatHourRange(lt.hour_start, lt.hour_end)}</div>
+      <div class="best-times-row-basis">${basis}</div>
+      ${lt.median_duration_minutes !== null ? `<div class="best-times-row-basis">${t("mejores_horas_live_duration_note", lang, { n: lt.median_duration_minutes })}</div>` : ""}
+    </div>
+  `;
+}
+
 export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   const [{ data: bestTimes }, { data: candidatesData }] = await Promise.all([loadBestTimes(), loadCandidates()]);
@@ -42,6 +58,7 @@ export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Pr
 
   const categoryEntries = Object.entries(bestTimes.categories).sort(([a], [b]) => categoryLabel(a).localeCompare(categoryLabel(b)));
   const groupEntries = Object.entries(bestTimes.groups);
+  const liveEntries = Object.entries(bestTimes.live ?? {}).sort(([a], [b]) => categoryLabel(a).localeCompare(categoryLabel(b)));
 
   container.innerHTML = `
     <h2 class="view-title">${t("mejores_horas_title", lang)}</h2>
@@ -53,10 +70,13 @@ export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Pr
     <h3 class="view-subtitle">${t("mejores_horas_by_category", lang)}</h3>
     <div class="best-times-list">${categoryEntries.map(([cat, bt]) => rowHtml(categoryLabel(cat), bt, lang)).join("")}</div>
 
-    <div class="insight-card best-times-live-note">
-      <h3>${t("mejores_horas_live_title", lang)}</h3>
-      <p class="empty-state" style="padding:2px 0">${t("mejores_horas_live_pending", lang)}</p>
-    </div>
+    <h3 class="view-subtitle">${t("mejores_horas_live_title", lang)}</h3>
+    ${
+      liveEntries.length > 0
+        ? `<div class="best-times-list">${liveEntries.map(([cat, lt]) => liveRowHtml(categoryLabel(cat), lt, lang)).join("")}</div>`
+        : `<p class="empty-state">${t("best_time_video_unavailable", lang)}</p>`
+    }
+    <p class="best-times-footnote">${t("mejores_horas_ari_note", lang)}</p>
 
     <p class="best-times-footnote">
       ${t("mejores_horas_footnote", lang)}

@@ -38,14 +38,21 @@ def write_product(product_id: str, detail: dict[str, Any], data_dir: Path | None
     _write((data_dir or DATA_DIR) / "products" / f"{product_id}.json", {"schema_version": SCHEMA_VERSION, **detail})
 
 
-def write_best_times(categories: dict[str, dict | None], groups: dict[str, dict | None], data_dir: Path | None = None) -> None:
+def write_best_times(
+    categories: dict[str, dict | None],
+    groups: dict[str, dict | None],
+    live: dict[str, dict | None] | None = None,
+    data_dir: Path | None = None,
+) -> None:
     """Part C7c's Mas -> "Mejores horas" page: a per-category and per-group
     breakdown of best_video_time (engine/posting_time.py), computed once at
     export time rather than making the frontend re-derive it from every
-    product's own best_video_time."""
+    product's own best_video_time. `live` (Part C7b, added 2026-10-16) is
+    the same shape keyed by category, from the monthly live_search pull --
+    None/omitted until engine.live_backfill has run at least once."""
     _write(
         (data_dir or DATA_DIR) / "best_times.json",
-        {"schema_version": SCHEMA_VERSION, "categories": categories, "groups": groups},
+        {"schema_version": SCHEMA_VERSION, "categories": categories, "groups": groups, "live": live or {}},
     )
 
 

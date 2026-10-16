@@ -169,10 +169,16 @@ export interface CategoryGroupBestTime {
   best_weekdays: number[];
 }
 
+// Part C7b: same shape plus the typical length of a selling live.
+export interface LiveBestTime extends CategoryGroupBestTime {
+  median_duration_minutes: number | null;
+}
+
 export interface BestTimesFile {
   schema_version: number;
   categories: Record<string, CategoryGroupBestTime | null>;
   groups: Record<string, CategoryGroupBestTime | null>;
+  live: Record<string, LiveBestTime | null>;
 }
 
 export interface CreatorInsights {

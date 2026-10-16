@@ -1,6 +1,6 @@
-import { loadProduct } from "../api";
+import { loadBestTimes, loadProduct } from "../api";
 import { assetUrl } from "../asset";
-import { bestVideoTimeHtml } from "../bestTime";
+import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
 import { setFeedback } from "../pipeline";
@@ -170,10 +170,11 @@ function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
 export async function renderProduct(container: HTMLElement, lang: Lang, productId: string): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
   try {
-    const { data, isSample } = await loadProduct(productId);
+    const [{ data, isSample }, { data: bestTimes }] = await Promise.all([loadProduct(productId), loadBestTimes()]);
     const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
     const path = sparklinePath(data.daily_units_14, 280, 60);
     const categoryLabel = lang === "es" ? data.category_label_es : data.category_label_en;
+    const liveTime = bestTimes.live?.[data.category] ?? null;
 
     const statBoxes = [
       statBox(formatCount(data.units_7d), t("sold_this_week", lang)),
@@ -208,6 +209,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       <div class="stat-box-grid">${statBoxes.join("")}</div>
       <p class="commission-note">${t("commission_open_note", lang)}</p>
       <div class="insight-card">${bestVideoTimeHtml(data.best_video_time, lang)}</div>
+      <div class="insight-card">${bestLiveTimeHtml(liveTime, categoryLabel, lang)}</div>
       ${
         data.daily_units_14.length > 0
           ? `<div class="insight-card">

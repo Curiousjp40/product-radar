@@ -1,5 +1,5 @@
 import { t, type Lang } from "./i18n";
-import type { BestVideoTime } from "./types";
+import type { BestVideoTime, LiveBestTime } from "./types";
 
 const WEEKDAY_KEYS = ["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"];
 
@@ -38,5 +38,21 @@ export function bestVideoTimeHtml(bvt: BestVideoTime | null, lang: Lang): string
       <strong>${t("best_time_video_label", lang)}:</strong> ${days} ${window}
     </p>
     <p class="best-time-basis">${basisLabel(bvt, lang)}</p>
+  `;
+}
+
+/** Part C7b: "Mejor hora para un live" line, same shape as the video one
+ * but keyed by category (lives aren't tied to one product the way videos
+ * are) -- callers pass the product's own category's entry from
+ * best_times.json's "live" section. */
+export function bestLiveTimeHtml(lt: LiveBestTime | null, categoryLabel: string, lang: Lang): string {
+  if (!lt) return `<p class="best-time-line best-time-unavailable">${t("best_time_video_unavailable", lang)}</p>`;
+  const window = formatHourRange(lt.hour_start, lt.hour_end, lang);
+  const days = weekdaysLabel(lt.best_weekdays, lang);
+  return `
+    <p class="best-time-line">
+      <strong>${t("best_time_live_label", lang)}:</strong> ${days} ${window}
+    </p>
+    <p class="best-time-basis">${t("mejores_horas_live_sample_note", lang, { n: lt.sample_size, level: categoryLabel })}</p>
   `;
 }
