@@ -1861,6 +1861,35 @@ select.status-select {
   border-color: var(--accent);
 }
 
+.favorites-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.favorites-price-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.favorites-price-row input {
+  width: 100%;
+  margin-top: 2px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.favorites-saved-note {
+  font-size: 0.78rem;
+  color: var(--good);
+  margin-top: 8px;
+}
+
 .lives-sort-select {
   margin: 0 0 12px;
   padding: 6px 10px;
@@ -2855,6 +2884,11 @@ select.status-select {
 .owned-badge {
   background: #dcfce7;
   color: #15803d;
+}
+
+.favorite-badge {
+  background: #fef9c3;
+  color: #854d0e;
 }
 
 .season-event-badge {

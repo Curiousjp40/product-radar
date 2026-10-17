@@ -35,6 +35,7 @@ export interface ProductCardOptions {
   risingFast?: boolean;
   pocasLatinas?: boolean;
   seasonEventLabel?: string | null;
+  isFavorite?: boolean;
   /** Design review 2/3.2: compact cards show only 3 short lines (earn,
    * units + trend, verdict) and at most 2 tags -- everything else
    * (per-creator sales, monthly estimate, sales-to-goal) moves to the
@@ -118,6 +119,7 @@ export function productCardInfoHtml(data: ProductCardInput, opts: ProductCardOpt
   // tags there): it's the single most actionable fact about the card.
   const tags: string[] = [];
   if (opts.isOwned) tags.push(`<span class="saturation-badge owned-badge">${t("ya_lo_tienes_tag", lang)}</span>`);
+  if (opts.isFavorite) tags.push(`<span class="saturation-badge favorite-badge">${t("favorite_tag", lang)}</span>`);
   if (opts.risingFast) tags.push(`<span class="saturation-badge rising-fast-badge">${t("rising_fast_tag", lang)}</span>`);
   if (opts.pocasLatinas) tags.push(`<span class="saturation-badge pocas-latinas-badge">${t("pocas_latinas_tag", lang)}</span>`);
   if (opts.seasonEventLabel) tags.push(`<span class="saturation-badge season-event-badge">${opts.seasonEventLabel}</span>`);

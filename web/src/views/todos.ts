@@ -14,6 +14,8 @@ import type { Candidate, CategoryGroup } from "../types";
 import { sortCandidates, type SortMode } from "../todosSort";
 import { productCardInfoHtml } from "./productCard";
 import { backToTopButtonHtml, detailModalHtml, openDetailModal, wireBackToTop, wireDetailModal } from "../detailModal";
+import { getFavorites } from "../favorites";
+import { applyFavoritesBoost, matchesFavorites } from "../favoritesLogic";
 import { hasRequestedSample, requestSample } from "../samples";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 import { videoSubTabsHtml } from "../videoSubTabs";
@@ -60,6 +62,7 @@ function cardHtml(
   monthlyGoalRemaining: number | null,
   bulkMode: boolean,
   selected: boolean,
+  isFavorite: boolean,
 ): string {
   const infoHtml = productCardInfoHtml(
     {
@@ -78,6 +81,7 @@ function cardHtml(
       compact: true,
       monthlyGoalRemaining,
       isOwned: ownedProductIds.has(c.product_id),
+      isFavorite,
       risingFast: c.rising_fast,
       pocasLatinas: c.pocas_creadoras_latinas,
       seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
@@ -109,7 +113,7 @@ function cardHtml(
 // Lighter detail body than Esta semana's (Candidate has no videos/
 // hashtags/hooks -- those live on the full product page via loadProduct,
 // linked below, same pattern Esta semana's own modal already uses).
-function candidateDetailHtml(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoalRemaining: number | null): string {
+function candidateDetailHtml(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoalRemaining: number | null, isFavorite: boolean): string {
   const categoryLabel = lang === "es" ? c.category_label_es : c.category_label_en;
   const infoHtml = productCardInfoHtml(
     {
@@ -127,6 +131,7 @@ function candidateDetailHtml(c: Candidate, lang: Lang, ownedProductIds: Set<stri
       lang,
       monthlyGoalRemaining,
       isOwned: ownedProductIds.has(c.product_id),
+      isFavorite,
       risingFast: c.rising_fast,
       pocasLatinas: c.pocas_creadoras_latinas,
       seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
@@ -202,8 +207,11 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
   let categoryHidePrompt: { category: string; label: string } | null = null;
   let hideOwned = await getHideOwnedPref();
   let bulkMode = false;
+  let favoritesOnly = false;
   let selectedIds = new Set<string>();
   const candidatesById = new Map(data.candidates.map((c) => [c.product_id, c]));
+  const favorites = await getFavorites();
+  const isFavorite = (c: Candidate): boolean => matchesFavorites(c, favorites);
 
   const draw = () => {
     const hiddenCategories = new Set(getHiddenCategories());
@@ -215,12 +223,22 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
         (inGroup.find((c) => c.category === a)?.rank ?? 0) - (inGroup.find((c) => c.category === b)?.rank ?? 0),
     );
     let filtered = categoryFilter ? inGroup.filter((c) => c.category === categoryFilter) : inGroup;
+    if (favoritesOnly) filtered = filtered.filter(isFavorite);
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
       filtered = filtered.filter((c) => c.title.toLowerCase().includes(q) || c.shop_name.toLowerCase().includes(q));
     }
     const sortedByMode = sortCandidates(sortMode, filtered);
-    const sorted = applyOwnedDisplay(sortedByMode, ownedIds, (c) => c.product_id, hideOwned);
+    // Design review follow-up (Ryan, "Mis favoritos"): a small score boost
+    // for favorited products in the default "Recomendado" sort -- applied
+    // AFTER sortCandidates/the suspicious-filter above, never a way around
+    // either. Other explicit sort modes (most sold, most commission...) are
+    // left as the honest numbers they claim to be.
+    const sortedWithBoost =
+      sortMode === "score"
+        ? [...sortedByMode].sort((a, b) => applyFavoritesBoost(b.score ?? 0, isFavorite(b)) - applyFavoritesBoost(a.score ?? 0, isFavorite(a)))
+        : sortedByMode;
+    const sorted = applyOwnedDisplay(sortedWithBoost, ownedIds, (c) => c.product_id, hideOwned);
     const visible = sorted.slice(0, visibleCount);
 
     container.innerHTML = `
@@ -246,6 +264,9 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       <div class="category-chip-row sort-chip-row">
         ${SORT_CHIPS.map((chip) => `<button data-sort="${chip.mode}" class="${sortMode === chip.mode ? "active" : ""}">${t(chip.key, lang)}</button>`).join("")}
       </div>
+      <div class="category-chip-row">
+        <button type="button" class="filter-chip todos-favorites-toggle ${favoritesOnly ? "active" : ""}">${t("favorites_filter_chip", lang)}</button>
+      </div>
       <div class="todos-toolbar">
         <label class="todos-hide-owned-toggle">
           <input type="checkbox" class="hide-owned-checkbox" ${hideOwned ? "checked" : ""} />
@@ -257,7 +278,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       ${
         sorted.length === 0
           ? `<p class="empty-state">${t("no_data", lang)}</p>`
-          : `<div class="card-grid card-grid-wide">${visible.map((c) => cardHtml(c, lang, ownedIds, monthlyGoalRemaining, bulkMode, selectedIds.has(c.product_id))).join("")}</div>
+          : `<div class="card-grid card-grid-wide">${visible.map((c) => cardHtml(c, lang, ownedIds, monthlyGoalRemaining, bulkMode, selectedIds.has(c.product_id), isFavorite(c))).join("")}</div>
              ${
                sorted.length > visible.length
                  ? `<button type="button" class="btn-save-pill todos-load-more">${t("load_more_button", lang, { n: sorted.length - visible.length })}</button>`
@@ -334,7 +355,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
     function openDetail(productId: string): void {
       const c = candidatesById.get(productId);
       if (!c) return;
-      openDetailModal(container, candidateDetailHtml(c, lang, ownedIds, monthlyGoalRemaining));
+      openDetailModal(container, candidateDetailHtml(c, lang, ownedIds, monthlyGoalRemaining, isFavorite(c)));
       const detailEl = container.querySelector<HTMLElement>(".detail-modal-body");
       if (detailEl) wireDetailActions(detailEl, productId);
     }
@@ -346,6 +367,10 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
     container.querySelector<HTMLInputElement>(".hide-owned-checkbox")?.addEventListener("change", (e) => {
       hideOwned = (e.currentTarget as HTMLInputElement).checked;
       setHideOwnedPref(hideOwned);
+      draw();
+    });
+    container.querySelector(".todos-favorites-toggle")?.addEventListener("click", () => {
+      favoritesOnly = !favoritesOnly;
       draw();
     });
 

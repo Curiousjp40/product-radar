@@ -180,3 +180,45 @@ on Videos -> Esta semana (item 4's last piece). Lower priority than
 getting the dates/placement core right; the per-product season tags
 Ryan said to keep already work unchanged (productCard.ts's
 seasonEventLabel, untouched this pass).
+
+### Item 8: "Mis favoritos" -- scoped down, done
+Full 5-part request (setup sheet, engine scoring boost, UI tags/filter/
+new-from-brands row, light-learning nudge, tests) was too large to do
+whole; shipped a smaller, real, fully-tested slice and logged the rest
+as deferred rather than attempting all 5 shakily.
+
+Setup: Ajustes -> "Mis favoritos" card -- category chips (from this
+week's real tracked categories) + brand chips (built from this week's
+candidates.json shop_name values, sorted by count, top 30, each
+showing "(N products)") + optional min/max price, saved via a new
+favorites.ts synced through the existing generic /state route (no
+deploy needed, same mechanism as savedProfiles.ts). Did NOT build the
+first-run prompt on Hoy -- Ajustes alone covers "pick your favorites
+somewhere," the extra onboarding prompt is a smaller follow-up.
+
+Scoring boost: deliberately did NOT touch config/weights.yaml or any
+engine/*.py scoring code. Favorites are stored client-side (synced via
+Cloudflare KV through the Worker); the real weekly scoring pipeline
+runs as a scheduled GitHub Action with no access to that per-user data
+unless it made a live network call back to the Worker during a
+scheduled job -- a real architecture change needing a new secret/auth
+path, out of scope for an unattended overnight pass, same category of
+risk as the Worker deploys already deferred. Instead applied the boost
+(favoritesLogic.ts's applyFavoritesBoost, +0.15 default, 7 new tests)
+as a client-side re-sort, specifically in Todos' default "Recomendado"
+sort only (the one sort mode that's explicitly about relevance rather
+than an honest raw number like "most sold") -- applied strictly AFTER
+the existing suspicious-filter and sortCandidates call, never able to
+surface a filtered-out product.
+
+UI: "⭐ Te gusta" tag (productCard.ts's compact + full info block) and
+an "⭐ Mis favoritos" filter chip in Todos, verified in the browser
+end to end (favorited Vestidos, saved, filtered Todos down to exactly
+the Vestidos-category + favorited-brand products, tag showing on each).
+
+NOT done, logged: the engine-side scoring boost (see above), the
+first-run Hoy prompt, the "Nuevo de tus marcas" row on Hoy, and the
+"tap Ya lo tengo/+ Venta on 3+ items from one brand -> suggest
+favoriting" light-learning nudge. All four are real, scoped follow-up
+work, not abandoned -- just too much for one already-long pass next to
+everything else in the queue.
