@@ -179,8 +179,24 @@ real product-level topic match needs the paid `live_products_list` call
 this stage is deciding whether to make -- a chicken-and-egg limit, not a
 bug).
 
-**Not started:** the human-approved pilot (~15 real lives, computed
-against the real `web/public/data/live_highlights.json` with the
-tightened 12-category filter: ~60 credits) and the full ~43-live batch
-(~168 credits) -- both need Ryan's go-ahead before any real
-`live_products_list`/`live_detail_analysis`/`creator_search` call is made.
+**Pilot done (2026-10-16):** Ryan approved and this ran for real -- 15
+hand-picked lives (not auto-selected by `select_candidate_lives`; a
+curated list built from several rounds of his feedback, 3 of the 15
+room_ids came from a live `live_search` call rather than
+`live_highlights.json`), 60 real credits spent (2040 -> 1980, exactly
+the 45cr lives + 15cr new-creator estimate, no overrun), run_id
+`pilot-liveproducts-2026-10-16-39c813c2`. The real responses corrected
+several provisional field-name guesses from the dry-run build (see
+`docs/field_map.md`'s "CONFIRMED against the real 15-live pilot"
+section and `engine.live_products._combine_live_result`) --
+`live_detail_analysis` nests under `performance`/`live`, not
+`key_performance`; `live_products_list`'s sales fields are per-product
+(`live_units_sold`, `live_gmv`, `cover_url`), not top-level;
+`creator_search` has no bare `top_category`, only `trend_categories`.
+`web/public/data/live_products.json` (+ sample copy) now holds the real
+15-live breakdown; `data/live_products_investigated.json` caches the 15
+room_ids/creators so a future run never re-pays for them.
+
+**Not started:** the full ~43-live batch (~168 credits) -- needs Ryan's
+separate go-ahead before any further real
+`live_products_list`/`live_detail_analysis`/`creator_search` calls.
