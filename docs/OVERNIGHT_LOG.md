@@ -99,6 +99,24 @@ rush through at the end of an already-long session. Did not build
 Playwright screenshot tests for both layouts (doc also asks for this)
 -- no Playwright setup exists in this repo yet; flagging as a gap.
 
+### Item 3.11 (partial): Tiendas para colaborar -- hardcoded signature + FastMoss link fixed
+`outreach.ts`'s `outreachMessage` literally hardcoded "Roxie, @roxm___"
+in the message string -- exactly the multi-user-readiness bug the
+review flagged. Added creatorProfile.ts (synced name/handle, defaults
+to the real current values so nothing changes visibly yet) and made
+`outreachMessage` take the signature as a real parameter (4 tests,
+including one proving a different signature actually changes the
+output -- not just a renamed hardcode). "Ver en FastMoss" button
+swapped for "Ver en TikTok Shop" using the candidate's own confirmed
+tiktok_shop_url (needs a FastMoss login customers won't have, per the
+review). Did NOT build an Ajustes UI to edit the name/handle yet --
+the data model and message logic are both multi-user-ready now, the
+edit form itself is a small, separate, lower-risk follow-up (logging
+rather than rushing a form in alongside the bigger Season redesign
+Ryan just asked for next). Also did not touch the message's tone/
+length (review's "shorter, TikTok-DM tone" ask) -- separate smaller
+follow-up.
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done

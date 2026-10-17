@@ -20,7 +20,7 @@ const WORKER_URL = "https://product-radar-search.roxie-radar.workers.dev";
 // yet -- so this is just a fixed id, not read from anywhere per-user.
 const PROFILE_ID = "roxie";
 
-export type SyncedKey = "mis_productos" | "not_for_me" | "mi_lista" | "hidden_categories" | "earnings_goal" | "hide_owned_toggle" | "saved_profiles" | "favorites";
+export type SyncedKey = "mis_productos" | "not_for_me" | "mi_lista" | "hidden_categories" | "earnings_goal" | "hide_owned_toggle" | "saved_profiles" | "favorites" | "creator_profile";
 
 export const SYNCED_KEYS: SyncedKey[] = [
   "mis_productos",
@@ -31,6 +31,7 @@ export const SYNCED_KEYS: SyncedKey[] = [
   "hide_owned_toggle",
   "saved_profiles",
   "favorites",
+  "creator_profile",
 ];
 
 function localKey(key: SyncedKey): string {

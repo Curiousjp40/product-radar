@@ -1,4 +1,5 @@
 import { loadCandidates } from "../api";
+import { getCreatorProfile } from "../creatorProfile";
 import { t, type Lang } from "../i18n";
 import { outreachMessage, outreachShops } from "../outreach";
 
@@ -12,7 +13,7 @@ const CREATOR_COUNT_BOTTOM_FRACTION = 0.5;
 
 export async function renderOutreach(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const { data, isSample } = await loadCandidates();
+  const [{ data, isSample }, profile] = await Promise.all([loadCandidates(), getCreatorProfile()]);
   const banner = isSample ? `<div class="sample-banner">${t("sample_data_banner", lang)}</div>` : "";
 
   const shops = outreachShops(data.candidates, COMMISSION_TOP_FRACTION, CREATOR_COUNT_BOTTOM_FRACTION);
@@ -31,6 +32,7 @@ export async function renderOutreach(container: HTMLElement, lang: Lang): Promis
                   s.representative_product.clean_title,
                   Math.round(s.avg_commission_rate * 100),
                   lang,
+                  profile,
                 );
                 return `
                 <div class="outreach-card" data-message="${message.replace(/"/g, "&quot;")}">
@@ -42,7 +44,7 @@ export async function renderOutreach(container: HTMLElement, lang: Lang): Promis
                   <pre class="outreach-message">${message}</pre>
                   <div class="card-actions">
                     <button type="button" class="btn-primary copy-outreach-btn">${t("copy_message_button", lang)}</button>
-                    <a href="${s.representative_product.fastmoss_url}" target="_blank" rel="noopener" class="btn-save-pill">${t("open_in_fastmoss", lang)}</a>
+                    <a href="${s.representative_product.tiktok_shop_url}" target="_blank" rel="noopener" class="btn-save-pill">${t("open_in_tiktok_shop", lang)}</a>
                   </div>
                 </div>`;
               })

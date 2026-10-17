@@ -11,6 +11,7 @@ function makeCandidate(overrides: Record<string, unknown>) {
     creator_count: 5,
     earnings_per_sale: 1,
     fastmoss_url: "",
+    tiktok_shop_url: "",
     has_enrichment: true,
     ...overrides,
   };
@@ -52,14 +53,21 @@ test("outreachShops picks the highest-earning product per qualifying shop and so
   assert.strictEqual(result[1].representative_product.product_id, "b"); // highest earner in GoodShop
 });
 
-test("outreachMessage includes the shop, product, commission and her signature, in the requested language", () => {
-  const es = outreachMessage("Casa Linda", "Lámpara", 25, "es");
+test("outreachMessage includes the shop, product, commission and the given signature, in the requested language", () => {
+  const signature = { name: "Roxie", handle: "roxm___" };
+  const es = outreachMessage("Casa Linda", "Lámpara", 25, "es", signature);
   assert.match(es, /Casa Linda/);
   assert.match(es, /Lámpara/);
   assert.match(es, /25%/);
   assert.match(es, /Roxie, @roxm___/);
 
-  const en = outreachMessage("Casa Linda", "Lamp", 25, "en");
+  const en = outreachMessage("Casa Linda", "Lamp", 25, "en", signature);
   assert.match(en, /Casa Linda/);
   assert.match(en, /Roxie, @roxm___/);
+});
+
+test("outreachMessage signature is not hardcoded -- multi-user readiness (design review 3.11)", () => {
+  const es = outreachMessage("Casa Linda", "Lámpara", 25, "es", { name: "Ari", handle: "ariannamendoza04" });
+  assert.match(es, /Ari, @ariannamendoza04/);
+  assert.doesNotMatch(es, /Roxie/);
 });

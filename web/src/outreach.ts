@@ -9,6 +9,7 @@ export interface OutreachCandidate {
   creator_count: number | null;
   earnings_per_sale: number;
   fastmoss_url: string;
+  tiktok_shop_url: string;
   has_enrichment: boolean;
 }
 
@@ -81,9 +82,16 @@ export function outreachShops<T extends OutreachCandidate>(
 // field_map.md (only the product-detail URL template is confirmed), and
 // CLAUDE.md says never guess a FastMoss URL, so this links to the
 // representative product's own (confirmed) FastMoss page instead.
-export function outreachMessage(shopName: string, productTitle: string, commissionPct: number, lang: "es" | "en"): string {
+export function outreachMessage(
+  shopName: string,
+  productTitle: string,
+  commissionPct: number,
+  lang: "es" | "en",
+  signature: { name: string; handle: string },
+): string {
+  const sig = `${signature.name}, @${signature.handle}`;
   if (lang === "es") {
-    return `¡Hola! Me encantó "${productTitle}" de ${shopName} y la comisión de ${commissionPct}%. Soy creadora de contenido en TikTok Shop y me gustaría hacer un video mostrándolo -- ¿podemos coordinar una muestra?\n\nRoxie, @roxm___`;
+    return `¡Hola! Me encantó "${productTitle}" de ${shopName} y la comisión de ${commissionPct}%. Soy creadora de contenido en TikTok Shop y me gustaría hacer un video mostrándolo -- ¿podemos coordinar una muestra?\n\n${sig}`;
   }
-  return `Hi! I loved "${productTitle}" from ${shopName} and the ${commissionPct}% commission. I'm a TikTok Shop content creator and would love to make a video featuring it -- could we coordinate a sample?\n\nRoxie, @roxm___`;
+  return `Hi! I loved "${productTitle}" from ${shopName} and the ${commissionPct}% commission. I'm a TikTok Shop content creator and would love to make a video featuring it -- could we coordinate a sample?\n\n${sig}`;
 }
