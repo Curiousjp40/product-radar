@@ -1,4 +1,13 @@
-# Overnight autonomous session log (2026-10-16)
+# Overnight autonomous session log (2026-10-16, continued 2026-10-17)
+
+**2026-10-17 morning:** Ryan confirmed the Worker is deployed (version
+d4c0d010) -- worker/src/logic.js's video-thumbnail cover_url fix is now
+live. Confirmed: skip TikTok Shop's own sale-event dates entirely for
+now (keep "Fechas por confirmar"), per his explicit call rather than my
+own guess. Continuing the remaining queue in order, same rules as
+overnight (no paid FastMoss calls, never touch Roxie's synced data,
+keep CI green, commit+push per item with screenshots, log every
+decision here).
 
 Ryan went to sleep and authorized working through the full queue
 unattended: make reasonable calls, log each decision here, commit+push
