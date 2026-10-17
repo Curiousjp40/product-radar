@@ -1775,6 +1775,17 @@ select.status-select {
   justify-content: center;
 }
 
+/* Real bug (design review follow-up, 2026-10-16): the HTML `hidden`
+ * attribute's UA-stylesheet `display: none` is overridden by the author
+ * rule above setting `display: flex` on the same element, since author
+ * rules beat the UA sheet even at equal specificity -- so the modal stayed
+ * visible (an empty white sheet + dark overlay) on every page load, before
+ * any card was ever tapped. Must be declared explicitly, same pattern
+ * already used by .ya-lo-tengo-sheet[hidden]. */
+.detail-modal[hidden] {
+  display: none;
+}
+
 .detail-modal-backdrop {
   position: absolute;
   inset: 0;
