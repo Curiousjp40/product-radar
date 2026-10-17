@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/3c6df15acb134523af063c54978adcaf~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 321.86,
+      "live_units_sold": 14,
+      "price": 0,
+      "product_id": "1731549916993458619",
+      "sales_timeline": [],
+      "title": "4-6 Peanut Butter Collagen Cheek Rolls (5 Pack)"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/fc407192aa5a4181a685a874a44923fa~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 281.06,
+      "live_units_sold": 13,
+      "price": 0,
+      "product_id": "1732098420667224507",
+      "sales_timeline": [],
+      "title": "USA Lamb Tripe Dog Chews"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/f25f3d88ac704746bfdda1a95d7a22da~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 180,
+      "live_units_sold": 9,
+      "price": 0,
+      "product_id": "1731184399393067451",
+      "sales_timeline": [],
+      "title": "9-12 Beef Collagen Cheek Rolls"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/7aea097cb3b5499d82f731240fcb7a69~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "live_gmv": 140,
+      "live_units_sold": 7,
+      "price": 0,
+      "product_id": "1731996868386263483",
+      "sales_timeline": [],
+      "title": "9-12 Chicken-Coated Collagen Cheek Rolls"
+    },
+    {
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/75315b28dfc74f559748705aa9eedb5b~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 196,
+      "live_units_sold": 7,
+      "price": 0,
+      "product_id": "1730614475661873595",
+      "sales_timeline": [],
+      "title": "12-inch CollaBully Sticks"
+    },
+    {
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/09963e7669ad48d59a389ab2c471bbdc~tplv-fhlh96nyum-crop-webp:988:988.webp",
+      "live_gmv": 516.72,
+      "live_units_sold": 6,
+      "price": 0,
+      "product_id": "1732276264971375035",
+      "sales_timeline": [],
+      "title": "9-12 Peanut Butter Collagen Cheek Roll Bucket"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/3a6cd2b3c2074bedb5bb30211eb08a59~tplv-fhlh96nyum-crop-webp:987:987.webp",
+      "live_gmv": 106.15,
+      "live_units_sold": 5,
+      "price": 0,
+      "product_id": "1731788258406797755",
+      "sales_timeline": [],
+      "title": "USA Chicken Feet"
+    },
+    {
+      "commission_rate_percent": 25,
+      "cover_url": "https://s.500fd.com/tt_product/6f120956f96e42f4aaed8c78a0ca3ff7~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 105.3,
+      "live_units_sold": 5,
+      "price": 0,
+      "product_id": "1731684387622588859",
+      "sales_timeline": [],
+      "title": "9-12 Peanut Butter Collagen Cheek Rolls"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/b138cbfe6e524a408beb0c27d1e5068d~tplv-fhlh96nyum-crop-webp:1080:1080.webp",
+      "live_gmv": 124.76,
+      "live_units_sold": 4,
+      "price": 0,
+      "product_id": "1730284170608349627",
+      "sales_timeline": [],
+      "title": "12-inch Bully Sticks"
+    },
+    {
+      "commission_rate_percent": 30,
+      "cover_url": "https://s.500fd.com/tt_product/342eb6c7d6d8445c9ae8e6d1f54b1b5e~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 87,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1731885757880308155",
+      "sales_timeline": [],
+      "title": "Wild Wolf 12 Beef Colly Sticks"
+    }
+  ],
+  "total": 49
+}

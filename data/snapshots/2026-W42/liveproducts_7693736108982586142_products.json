@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/59527fb57bf84854831458b6a636463c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 270,
+      "live_units_sold": 9,
+      "price": 0,
+      "product_id": "1732353172386124734",
+      "sales_timeline": [],
+      "title": "Crocs Adult Classic Metallic Buckle Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/dc515890f2b146eda70d6ac3b52831c6~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 120.52,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732454133786579902",
+      "sales_timeline": [],
+      "title": "Crocs Women's Loaferette Slip-On Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/7bce8a8235774b0cb2ffb1f3efd4e90c~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "live_gmv": 37.68,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1730896917061211070",
+      "sales_timeline": [],
+      "title": "Crocs Kids' Handle It Rain Boots"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/4b8d70c755fd4d109a0d0182e6eb23ca~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 40,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1731532476040647614",
+      "sales_timeline": [],
+      "title": "Crocs Adult Classic Crafted Canvas Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/e9bbba7287554948afb37dbfabbca175~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 44.84,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729499883366684606",
+      "sales_timeline": [],
+      "title": "Crocs Women's Miami Round Toe Flip Flops"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/9e5b035014fb4e0b974c394b0683fb44~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 22.5,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729553399468823486",
+      "sales_timeline": [],
+      "title": "Crocs Women's Miami Toe Loop Summer Sandals"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/7e92c32d18e74e95ac849972ff5745aa~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 43.8,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729553403015566270",
+      "sales_timeline": [],
+      "title": "Crocs Women's Dylan Platform Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/26d4a6624b6b4933bba3e76a7f8ca00f~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 58.22,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732088511267312574",
+      "sales_timeline": [],
+      "title": "Crocs Women's Dylan Platform Elevated Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b7b46bca42b045979dd7d65d9de01a71~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 30.72,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1730664411192660926",
+      "sales_timeline": [],
+      "title": "Crocs Kids' Classic Clogs"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/8cca3d8b9ac84b1baf7d9aeef6dd5995~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 37.49,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1730493404455474110",
+      "sales_timeline": [],
+      "title": "Crocs Adult Classic Cozzzy Slippers"
+    }
+  ],
+  "total": 103
+}

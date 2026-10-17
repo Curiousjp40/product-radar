@@ -14,7 +14,16 @@
     "7693703555034663693",
     "7693735638964767502",
     "7693736108982586142",
-    "7693916137016314654"
+    "7693916137016314654",
+    "7693662597228415774",
+    "7693768985074633503",
+    "7691114754702248735",
+    "7690968617944386318",
+    "7693742025086831390",
+    "7693587716759522061",
+    "7691851532580539149",
+    "7692054316760517407",
+    "7693564686381402911"
   ],
   "creators": {
     "oye_sebita": {
@@ -559,6 +568,226 @@
               }
             ],
             "has_email": true
+          }
+        }
+      ]
+    },
+    "barahonaaparicio": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 10619.57,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1006,
+                "name": "Mom & Babies"
+              },
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/f388ab32bb113298dc2c5b2228d7d318~tplv-tiktokx-cropcenter:720:720.jpeg",
+            "follower_count": 14935,
+            "unique_id": "barahonaaparicio"
+          }
+        }
+      ]
+    },
+    "livelifehappy91": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 40941.64,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/eb5e8f9c05a469eb64dfc8f5f7df2bd1~tplv-tiktokx-cropcenter:1080:1080.jpeg",
+            "follower_count": 18435,
+            "unique_id": "livelifehappy91"
+          }
+        }
+      ]
+    },
+    "alex397023": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 11720.25,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/6e10581d083c035841a6e3271b1df4a3~tplv-tiktokx-cropcenter:720:720.jpeg",
+            "follower_count": 5491,
+            "unique_id": "alex397023"
+          }
+        }
+      ]
+    },
+    "packicks": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 224373.67,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/1997749a796f22a10a6c4cbc8d9041d2~tplv-tiktokx-cropcenter:720:720.jpeg",
+            "follower_count": 119693,
+            "unique_id": "packicks"
+          }
+        }
+      ]
+    },
+    "foodiefun49": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 25814.99,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/8684b394dc6af72ceba956fceef3be57~tplv-tiktokx-cropcenter:720:720.webp",
+            "follower_count": 3993,
+            "unique_id": "foodiefun49"
+          }
+        }
+      ]
+    },
+    "printsavenue": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 34262,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/666dafadcf81add05a77bb4480d23430~tplv-tiktokx-cropcenter:100:100.jpeg",
+            "follower_count": 3091,
+            "unique_id": "printsavenue"
+          }
+        }
+      ]
+    },
+    "maskhogar": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 44552.31,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/b6d5a63f334c9e94075fac49de87258a~tplv-tiktokx-cropcenter:720:720.jpeg",
+            "follower_count": 6083,
+            "unique_id": "maskhogar"
+          }
+        }
+      ]
+    },
+    "petpivot_official": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 266937,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/752a9e814f7c7c3ba9e1a427108f838c~tplv-tiktokx-cropcenter:100:100.jpeg",
+            "follower_count": 66937,
+            "unique_id": "petpivot_official"
+          }
+        }
+      ]
+    },
+    "freezbone": {
+      "list": [
+        {
+          "commerce_summary": {
+            "day28_gmv": 14212.28,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ]
+          },
+          "creator": {
+            "avatar": "https://s.500fd.com/tt_author/4b171ed186a2c8fbda01c2adb235da45~c5_300x300.jpeg",
+            "follower_count": 35674,
+            "unique_id": "freezbone"
           }
         }
       ]

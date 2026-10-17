@@ -1,0 +1,37 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 6,
+        "category_names": [
+          "Shoes"
+        ],
+        "share": 56.06
+      },
+      {
+        "category_id": 9,
+        "category_names": [
+          "Sports & Outdoor"
+        ],
+        "share": 39.87
+      },
+      {
+        "category_id": 3,
+        "category_names": [
+          "Menswear & Underwear"
+        ],
+        "share": 4.07
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 10696,
+    "start_time": 1790693322
+  },
+  "performance": {
+    "gmv": 3902.95,
+    "session_duration_seconds": 10696,
+    "total_viewer_count": 7893,
+    "units_sold": 28
+  }
+}

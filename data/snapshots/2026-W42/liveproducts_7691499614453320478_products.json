@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4cf3acef918247b1b36d5f280b58efb5~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 933.8,
+      "live_units_sold": 35,
+      "price": 0,
+      "product_id": "1731636865911395028",
+      "sales_timeline": [],
+      "title": "Women's Fashion PU Leather Low Heel Long Boots"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/d0cf472010404684aee2ed9d9c63a392~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 162.5,
+      "live_units_sold": 5,
+      "price": 0,
+      "product_id": "1732603030587544433",
+      "sales_timeline": [],
+      "title": "Women's Short Cowboy Ankle Boots"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b5f602bb60ab491190e199b00ffeb53d~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "live_gmv": 132.9,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1732467081145586253",
+      "sales_timeline": [],
+      "title": "UBFEN Women's Wide Toe Barefoot Hiking Shoes"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/1acee19c518343b48ac767dea59b96c1~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "live_gmv": 71.64,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732600334883000854",
+      "sales_timeline": [],
+      "title": "Women's Letter Print Thick Sole Casual Shoes"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/21213551f86e4864a8ca0c0ecf937acc~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 82.72,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732586811498074293",
+      "sales_timeline": [],
+      "title": "Women's Western Cowboy Short Boots"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/a9793383d4e242c3ba9fd19484430a7d~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 53.2,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731767318933246375",
+      "sales_timeline": [],
+      "title": "Women's Fall Winter Ankle Boots"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/d4295c89001f40debda40f62acd27bd6~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "live_gmv": 49.32,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732624872229671585",
+      "sales_timeline": [],
+      "title": "Women's Casual Low Top Sneakers"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/82f9977538ed41cdb28aa574f28e6a4f~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "live_gmv": 55.99,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732479273182138900",
+      "sales_timeline": [],
+      "title": "Athlefit Women's Knee-High Suede Riding Boots"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/18870ac9837843aea8bab48904d3fcd4~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 29.33,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729733373566423823",
+      "sales_timeline": [],
+      "title": "Women's Belted Design Ankle Boots"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/7278d581584b4495bb95851847c6fe39~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "live_gmv": 21.52,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732679183081706006",
+      "sales_timeline": [],
+      "title": "Women's Long Motorcycle Boots"
+    }
+  ],
+  "total": 100
+}

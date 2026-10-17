@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "commerce_summary": {
+        "day28_gmv": 10619.57,
+        "trend_categories": [
+          {
+            "id": 1003,
+            "name": "Fashion"
+          },
+          {
+            "id": 1006,
+            "name": "Mom & Babies"
+          },
+          {
+            "id": 1005,
+            "name": "Home & Lifestyle"
+          }
+        ]
+      },
+      "creator": {
+        "avatar": "https://s.500fd.com/tt_author/f388ab32bb113298dc2c5b2228d7d318~tplv-tiktokx-cropcenter:720:720.jpeg",
+        "follower_count": 14935,
+        "unique_id": "barahonaaparicio"
+      }
+    }
+  ]
+}

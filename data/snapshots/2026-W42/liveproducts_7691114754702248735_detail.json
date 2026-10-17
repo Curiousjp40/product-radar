@@ -1,0 +1,37 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 9,
+        "category_names": [
+          "Sports & Outdoor"
+        ],
+        "share": 27.62
+      },
+      {
+        "category_id": 6,
+        "category_names": [
+          "Shoes"
+        ],
+        "share": 22.53
+      },
+      {
+        "category_id": 14,
+        "category_names": [
+          "Beauty & Personal Care"
+        ],
+        "share": 21.12
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 8811,
+    "start_time": 1790727258
+  },
+  "performance": {
+    "gmv": 564.9,
+    "session_duration_seconds": 8811,
+    "total_viewer_count": 6954,
+    "units_sold": 46
+  }
+}

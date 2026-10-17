@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/d87b527a2490472fa688027ffa9f230a~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "live_gmv": 26.68,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1729455730411344222",
+      "sales_timeline": [],
+      "title": "Freezbone Dog Treat Refills"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/e54cedfc707b47f19702eab9b9299c36~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "live_gmv": 162.26,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731364107938206046",
+      "sales_timeline": [],
+      "title": "Family Value Bundle Frozen Enrichment Toy Set"
+    },
+    {
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/d084ec1b110a4383856892fe7e9cb51a~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "live_gmv": 23.83,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1730882284375413086",
+      "sales_timeline": [],
+      "title": "Hip & Joint Chews"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/cbaeb9848f6f48eca97a162522efcdad~tplv-fhlh96nyum-crop-webp:1000:1000.webp",
+      "live_gmv": 18.9,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732266299434897758",
+      "sales_timeline": [],
+      "title": "FreezBall Bundle Starter Pack"
+    }
+  ],
+  "total": 96
+}

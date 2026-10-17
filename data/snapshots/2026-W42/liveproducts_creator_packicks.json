@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "commerce_summary": {
+        "day28_gmv": 224373.67,
+        "trend_categories": [
+          {
+            "id": 1003,
+            "name": "Fashion"
+          }
+        ]
+      },
+      "creator": {
+        "avatar": "https://s.500fd.com/tt_author/1997749a796f22a10a6c4cbc8d9041d2~tplv-tiktokx-cropcenter:720:720.jpeg",
+        "follower_count": 119693,
+        "unique_id": "packicks"
+      }
+    }
+  ]
+}

@@ -22,3 +22,6 @@ Thumbs.db
 # personal data (Mis Productos, earnings, goal), never committed to this
 # public repo.
 backups/
+
+# Personal Claude Code permission overrides (not for the public repo).
+.claude/settings.local.json

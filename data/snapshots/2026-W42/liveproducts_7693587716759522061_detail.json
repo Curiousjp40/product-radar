@@ -1,0 +1,23 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 10,
+        "category_names": [
+          "Home Supplies"
+        ],
+        "share": 100
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 9448,
+    "start_time": 1791303086
+  },
+  "performance": {
+    "gmv": 660,
+    "session_duration_seconds": 9448,
+    "total_viewer_count": 1987,
+    "units_sold": 22
+  }
+}

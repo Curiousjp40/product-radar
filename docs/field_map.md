@@ -220,6 +220,21 @@ saved in-session, zero new FastMoss calls):**
   it genuinely doesn't exist at this account/tier, not a pagesize
   artifact; this would need a different live (or a different
   account/tier) to test further, not a retry of the same 15.
+- **CONFIRMED ABSENT even at pagesize=1** (2026-10-16, Ryan-approved
+  1-credit stricter retest): re-called `live_products_list` for room
+  `7693735638964767502` (oye_sebita, highest units_sold of the 15-live
+  pilot) with `pagesize=1` specifically to rule out a pagesize artifact
+  per the tool's own "sales_timeline only when pagesize<=10" hint.
+  Result: `products[0].sales_timeline` is still `[]`. This is the
+  strictest possible retest (pagesize=1 is the narrowest page the tool
+  accepts) and it still comes back empty, so `sales_timeline` is now
+  treated as genuinely absent for this account/tier/room, not a
+  pagesize or page-size-10 artifact -- no further retries of this same
+  room/account are planned. UI consequence: `web/src/views/enVivo.ts`'s
+  `salesTimelineHtml` already returns `""` (renders nothing, no empty
+  chart placeholder) when `sales_timeline` is empty -- verified this
+  already satisfies the "hide cleanly" requirement, no code change was
+  needed.
 - Bug 3 (host `photo_url`/product `image_url` not proxied): both now go
   through `engine.images.cache_image(url, stem)` -- the same helper
   `engine/run.py` already uses for product/video thumbnails

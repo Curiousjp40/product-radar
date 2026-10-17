@@ -1,0 +1,37 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 2,
+        "category_names": [
+          "Womenswear & Underwear"
+        ],
+        "share": 65.49
+      },
+      {
+        "category_id": 14,
+        "category_names": [
+          "Beauty & Personal Care"
+        ],
+        "share": 20.1
+      },
+      {
+        "category_id": 6,
+        "category_names": [
+          "Shoes"
+        ],
+        "share": 14.41
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 5323,
+    "start_time": 1791320525
+  },
+  "performance": {
+    "gmv": 252.38,
+    "session_duration_seconds": 5323,
+    "total_viewer_count": 6775,
+    "units_sold": 12
+  }
+}

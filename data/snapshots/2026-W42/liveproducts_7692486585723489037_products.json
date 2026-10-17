@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/fa4719654f1a4aed8d2519ed1f2155bb~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "live_gmv": 3176.25,
+      "live_units_sold": 35,
+      "price": 0,
+      "product_id": "1729403313395896858",
+      "sales_timeline": [],
+      "title": "Raybee 16 Deep Drawers Tall Dresser"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/a36d422ba5c6478791b1edfac457c7ef~tplv-fhlh96nyum-crop-webp:1254:1254.webp",
+      "live_gmv": 1458.44,
+      "live_units_sold": 19,
+      "price": 0,
+      "product_id": "1729408318052536858",
+      "sales_timeline": [],
+      "title": "Raybee 12 Drawer Fabric Dresser"
+    }
+  ],
+  "total": 2
+}

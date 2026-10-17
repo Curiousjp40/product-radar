@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "commerce_summary": {
+        "day28_gmv": 44552.31,
+        "trend_categories": [
+          {
+            "id": 1005,
+            "name": "Home & Lifestyle"
+          },
+          {
+            "id": 1002,
+            "name": "Electronics"
+          },
+          {
+            "id": 1003,
+            "name": "Fashion"
+          }
+        ]
+      },
+      "creator": {
+        "avatar": "https://s.500fd.com/tt_author/b6d5a63f334c9e94075fac49de87258a~tplv-tiktokx-cropcenter:720:720.jpeg",
+        "follower_count": 6083,
+        "unique_id": "maskhogar"
+      }
+    }
+  ]
+}

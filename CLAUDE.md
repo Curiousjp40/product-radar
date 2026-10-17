@@ -197,6 +197,68 @@ section and `engine.live_products._combine_live_result`) --
 15-live breakdown; `data/live_products_investigated.json` caches the 15
 room_ids/creators so a future run never re-pays for them.
 
-**Not started:** the full ~43-live batch (~168 credits) -- needs Ryan's
-separate go-ahead before any further real
+**Full batch extension (2026-10-16, Ryan-approved in chat, stated cost
+per stage before each call):**
+
+- Stage 1: re-fetched all 15 pilot lives' `live_products_list` at
+  pagesize=10/page=1 (the fix's real mapping -- not the lossy pagesize=1
+  original pilot script) and rebuilt their `products` arrays with real
+  derived prices and proxied images. 15cr spent (balance 1980 -> 1965,
+  exactly 15cr, no overrun).
+- Stage 2: re-tested `sales_timeline` at the strictest possible
+  `pagesize=1` on the pilot's highest-units live (oye_sebita,
+  `7693735638964767502`). Still `[]` -- **confirmed genuinely absent**
+  for this account/tier, not a pagesize artifact (see
+  `docs/field_map.md`'s "CONFIRMED ABSENT even at pagesize=1" entry).
+  1cr spent. No UI code change was needed:
+  `web/src/views/enVivo.ts`'s `salesTimelineHtml` already returns `""`
+  or an empty `sales_timeline`, rendering no timeline section and no
+  empty-chart placeholder.
+- Stage 3: tried to source enough non-shoe fashion variety
+  (dresses/sets/shapewear/winter) via one extra `live_search` page
+  (`product_category: 2`, US region, 2cr) per Ryan's standing approval
+  -- the results were low-quality for this purpose (orderby was not
+  honored by the tool, titles mostly blank/generic, no clear
+  dress/set/shapewear signal without paying for per-live detail on each
+  candidate). Proceeded with the organic `live_highlights.json` pool
+  instead. **Deviation from the "at least half fashion, real variety"
+  target:** the free pool yielded only one genuine non-shoe fashion
+  candidate (barahonaaparicio) plus two shoe-only fashion lives
+  (alex397023, packicks); investigated 9 new lives total (3 fashion /
+  4 home / 2 pet, capped at 2), well short of the ~28-live/half-fashion
+  target and reported as a real data-availability limit, not padded
+  with shoes or auction/off-topic lives to hit a number. New lives:
+  barahonaaparicio (`7693662597228415774`, shapewear/dresses/sets/
+  winter_clothing), livelifehappy91 (`7693768985074633503`,
+  home_decor/home_storage), alex397023 (`7691114754702248735`, shoes),
+  packicks (`7690968617944386318`, shoes), foodiefun49
+  (`7693742025086831390`, home_decor/home_storage), printsavenue
+  (`7693587716759522061`, home_decor/home_storage), maskhogar
+  (`7691851532580539149`, furniture), petpivot_official
+  (`7692054316760517407`, pet_furniture), freezbone
+  (`7693564686381402911`, pet_furniture). Excluded from the candidate
+  pool per Ryan's rules: nanus_nursery (plant-auction-style lives, both
+  occurrences), kingloupets/petrivium0920/fumoi.us/weture_official/
+  oviosfurnituresofa's longest session (all >6h), botasdetrabajojbm
+  (work-boot-only shoe live). ~40cr spent on stage 3 (9 lives x 3cr +
+  9 new creators x 1cr + 2cr live_search), all new creators cached in
+  `data/live_products_investigated.json` (checked first, none
+  overlapped the 15-pilot cache).
+- **Total real credits spent on this extension: ~58cr** (balance
+  1980 -> 1925). Combined with the original pilot's 60cr, the whole
+  "Lives que venden" paid-investigation effort has spent **~118
+  credits** total. `web/public/data/live_products.json` (+ `sample/`
+  copy) now holds **24 investigated lives** (the 15-pilot + 9 from
+  this extension), all with the fixed real-price/proxied-image mapping.
+  383 pytest / 104 npm tests, ruff, and tsc all still pass -- no source
+  code changes were required this round (the timeline-hiding UI and
+  price/image mapping were already correct from the pilot's fix), only
+  data (`live_products.json`, `live_products_investigated.json`,
+  `docs/field_map.md`) and this status section changed.
+
+**Not started:** growing the batch further toward the original
+~43-candidate pool size -- would need either accepting a lower fashion
+bar or more `live_search`/per-live-detail spend to find real
+dresses/sets/shapewear/winter lives beyond the ones already found;
+needs Ryan's separate go-ahead before any further real
 `live_products_list`/`live_detail_analysis`/`creator_search` calls.

@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/7494d3c002be4bb289f1b17b5e60c0a8~tplv-fhlh96nyum-crop-webp:1200:1200.webp",
+      "live_gmv": 414.1,
+      "live_units_sold": 202,
+      "price": 0,
+      "product_id": "1732658593290687249",
+      "sales_timeline": [],
+      "title": "Women's Two Piece Shorts Lounge Set"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/c4f0866cae354a718c4c14c3aece987b~tplv-fhlh96nyum-crop-webp:2400:2400.webp",
+      "live_gmv": 35.14,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1729523585299683314",
+      "sales_timeline": [],
+      "title": "Physician's Choice Digestive Enzymes"
+    },
+    {
+      "commission_rate_percent": 30,
+      "cover_url": "https://s.500fd.com/tt_product/71aa8e98491544b8996172a052cb4357~tplv-omjb5zjo8w-resize-jpeg:800:800.jpeg",
+      "live_gmv": 34,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1729558556070089471",
+      "sales_timeline": [],
+      "title": "Terra Lotus Grass-Fed Beef Tallow Balm"
+    },
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/7dadac08aba74aaab5bd5f8315722d6d~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 45.98,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1730700737574179367",
+      "sales_timeline": [],
+      "title": "SHMHE Red Light Therapy Mask"
+    },
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/d59e70c3a81444aa81a07ef6ca7ed80b~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 39.98,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731944710939906599",
+      "sales_timeline": [],
+      "title": "SHMHE 7-Color LED Red Light Facial Device"
+    },
+    {
+      "commission_rate_percent": 20,
+      "cover_url": "https://s.500fd.com/tt_product/0dd0762a00b444109174a41b4fa72a3e~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 39.97,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729417116451640306",
+      "sales_timeline": [],
+      "title": "Physician's Choice Inner Harmony Duo"
+    }
+  ],
+  "total": 6
+}

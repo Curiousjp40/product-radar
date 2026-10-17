@@ -1,0 +1,37 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 10,
+        "category_names": [
+          "Home Supplies"
+        ],
+        "share": 68.92
+      },
+      {
+        "category_id": 11,
+        "category_names": [
+          "Kitchenware"
+        ],
+        "share": 29.58
+      },
+      {
+        "category_id": 23,
+        "category_names": [
+          "Automotive & Motorcycle"
+        ],
+        "share": 1.5
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 7326,
+    "start_time": 1791345268
+  },
+  "performance": {
+    "gmv": 808,
+    "session_duration_seconds": 7326,
+    "total_viewer_count": 5165,
+    "units_sold": 39
+  }
+}

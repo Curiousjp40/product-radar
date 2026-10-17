@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/4d70ff3716aa481cbcf641b7347bc28a~tplv-fhlh96nyum-crop-webp:1500:1500.webp",
+      "live_gmv": 128.73,
+      "live_units_sold": 7,
+      "price": 0,
+      "product_id": "1729406693411230691",
+      "sales_timeline": [],
+      "title": "Women's Official Magic Skin Fleece Lined Tights Leggings"
+    },
+    {
+      "commission_rate_percent": 13.5,
+      "cover_url": "https://s.500fd.com/tt_product/f8a64aa3b60a4644a8f4b060a51eccd5~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 50.74,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732257332397379646",
+      "sales_timeline": [],
+      "title": "PretiHom Automatic Electric Curling Stick"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/247d4942a8e14f19a310b4950a90ae88~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "live_gmv": 4.86,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729405828047410048",
+      "sales_timeline": [],
+      "title": "Women's Heart Embroidered Fuzzy Flat Slipper"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/df5034c794db4bc9a7e2608065e75e6a~tplv-fhlh96nyum-crop-webp:1800:1800.webp",
+      "live_gmv": 36.55,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732442647361523721",
+      "sales_timeline": [],
+      "title": "4 PCS Jelly Bra Seamless Deep V Neck"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/c0fa56a4058044ff897ddb8168594b95~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 31.5,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1729709327086686344",
+      "sales_timeline": [],
+      "title": "Women's Knee-High Pointed-Toe Heeled Zipper Boots"
+    }
+  ],
+  "total": 86
+}

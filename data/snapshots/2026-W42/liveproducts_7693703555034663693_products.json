@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/c2036e454d9d47fc8232d21307c1b508~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 189,
+      "live_units_sold": 7,
+      "price": 0,
+      "product_id": "1731208195967717743",
+      "sales_timeline": [],
+      "title": "PrettyGarden Women's Oversized Cardigan Sweater"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/2d9435c214ea46ff83a2d4001a74e56e~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 204.8,
+      "live_units_sold": 8,
+      "price": 0,
+      "product_id": "1730393745372124078",
+      "sales_timeline": [],
+      "title": "YEOREO CoreFlex Women's Leggings"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/47230f1bdafb4a96a4765cf3d23e9572~tplv-fhlh96nyum-crop-webp:1600:1600.webp",
+      "live_gmv": 103.88,
+      "live_units_sold": 4,
+      "price": 0,
+      "product_id": "1731600582101995974",
+      "sales_timeline": [],
+      "title": "ASWULK Women's Cropped Jacket"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/bc5f00ab521248a19be0b4611db5849c~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 90,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1731708318669837150",
+      "sales_timeline": [],
+      "title": "Halara Tummy Control Ruched Curved Hem Bodycon Skirt"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/4d9ff357d8bf48c8ad1e6cc747dfebc4~tplv-aphluv4xwc-crop-jpeg:200:200.jpeg",
+      "live_gmv": 161.1,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1729615251848270295",
+      "sales_timeline": [],
+      "title": "AUTOMET Women's Oversized Faux Leather Jacket"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/36a1d455afd04333aba0954ba987d319~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 17.07,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1731711000351380046",
+      "sales_timeline": [],
+      "title": "Women's Fashion Zebra Print Loose Fit T-Shirt"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/cfc25281c539453ca7ca8598f189aebf~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 67.29,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1729493620818874839",
+      "sales_timeline": [],
+      "title": "AUTOMET 3 Pack Womens Long Sleeve Basic Shirts"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/64e32b2f46e446a98be29a65f67e28e7~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "live_gmv": 149.4,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1731835472232223592",
+      "sales_timeline": [],
+      "title": "Fashion Nova Cat Fight 5 Piece Costume Set"
+    },
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/6c897b1a83694db1b0d95bf20885a2ce~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 60,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1730491172266217613",
+      "sales_timeline": [],
+      "title": "Avidlove Women Long Sleeve Bodysuit"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/0c51e4f1e2ff45f7a4d54bafeb1d2fd4~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 106.4,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731590104358097289",
+      "sales_timeline": [],
+      "title": "Chouyatou Lady's Winter Double-Breasted Wool Coat"
+    }
+  ],
+  "total": 100
+}

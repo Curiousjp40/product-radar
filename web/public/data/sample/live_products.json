@@ -38,27 +38,83 @@
       "products": [
         {
           "product_id": "1730427756143153233",
-          "title": "Waffle Texture Modern Waterproof Aesthetic Shower Curtain",
-          "image_url": "https://s.500fd.com/tt_product/7844fb57be474ae78eb18a559a5bc676.image",
+          "title": "Waffle Texture Modern Waterproof Aesthetic Shower Curtain, Decorative Bathroom Accessory for Hotel, Salon & Dormitory Decor #GLOBAL PICKS",
+          "image_url": "/img/product_1730427756143153233.jpg",
           "price": 12.0,
           "commission_rate": 8,
           "units_sold": 112
         },
         {
           "product_id": "1729532560217314285",
-          "title": "Automatic Folding Umbrella",
-          "image_url": "https://s.500fd.com/tt_product/2f18031f12764ec9a9d18303ee41219e.webp",
+          "title": "Automatic Folding Umbrella, 1 Count/60pcs Portable Rain Umbrella with Loop Buckle, Windproof & Waterproof Umbrella for Men & Women",
+          "image_url": "/img/product_1729532560217314285.webp",
           "price": 10.28,
           "commission_rate": 8,
           "units_sold": 74
         },
         {
           "product_id": "1731078678381367377",
-          "title": "Waterproof Modern Minimalist Fabric Shower Curtain",
-          "image_url": "https://s.500fd.com/tt_product/f62b6db13e7a4ebaad6d4e4ba91c2d5d.jpeg",
+          "title": "Waterproof Modern Minimalist Fabric Shower Curtain, Decorative Bathroom Curtain for Home, Hotel & Dorm Decor #GLOBAL PICKS",
+          "image_url": "/img/product_1731078678381367377.jpg",
           "price": 13.74,
           "commission_rate": 8,
           "units_sold": 36
+        },
+        {
+          "product_id": "1731609449819312339",
+          "title": "ISEMENA Magnetic Phone Holder for Gym - 360 Adjustable, Strong Portable Magnet Phone Mount for Workout Recording",
+          "image_url": "/img/product_1731609449819312339.jpg",
+          "price": 9.7,
+          "commission_rate": 15,
+          "units_sold": 21
+        },
+        {
+          "product_id": "1732030558309749058",
+          "title": "Nitro Red Spray for Men Eau de Parfum Fragrance for Men 100ml",
+          "image_url": "/img/product_1732030558309749058.webp",
+          "price": 17.95,
+          "commission_rate": 15.5,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731427090713121351",
+          "title": "NGNP Stainless steel pull-out kitchen faucet with soap dispenser",
+          "image_url": "/img/product_1731427090713121351.webp",
+          "price": 30.99,
+          "commission_rate": 12,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731651586676003510",
+          "title": "Qawtor Solar Flood Lights 800 LEDs Motion Sensor Remote Control IP65 Waterproof",
+          "image_url": "/img/product_1731651586676003510.jpg",
+          "price": 36.0,
+          "commission_rate": 5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732517511544475898",
+          "title": "Hawkray 4G LTE Wireless Solar Outdoor Surveillance Camera Dual Lens Dual Set",
+          "image_url": "/img/product_1732517511544475898.webp",
+          "price": 33.0,
+          "commission_rate": 10,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1729569391585301113",
+          "title": "DAZONE 8in Led Light Speaker, Multifunctional Wireless Karaoke Speaker",
+          "image_url": "/img/product_1729569391585301113.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 0
+        },
+        {
+          "product_id": "1732145311003414649",
+          "title": "Hieha All-Terrain 1500W Electric Bike Full Suspension Top Speed 34MPH",
+          "image_url": "/img/product_1732145311003414649.webp",
+          "price": 0.0,
+          "commission_rate": 6,
+          "units_sold": 0
         }
       ]
     },
@@ -88,7 +144,7 @@
         {
           "product_id": "1731549916993458619",
           "title": "4-6 Peanut Butter Collagen Cheek Rolls (5 Pack)",
-          "image_url": "https://s.500fd.com/tt_product/3c6df15acb134523af063c54978adcaf.jpeg",
+          "image_url": "/img/product_1731549916993458619.jpg",
           "price": 22.99,
           "commission_rate": 25,
           "units_sold": 14
@@ -96,10 +152,74 @@
         {
           "product_id": "1732098420667224507",
           "title": "USA Lamb Tripe Dog Chews",
-          "image_url": "https://s.500fd.com/tt_product/fc407192aa5a4181a685a874a44923fa.webp",
+          "image_url": "/img/product_1732098420667224507.webp",
           "price": 21.62,
           "commission_rate": 20,
           "units_sold": 13
+        },
+        {
+          "product_id": "1731184399393067451",
+          "title": "9-12 Beef Collagen Cheek Rolls",
+          "image_url": "/img/product_1731184399393067451.jpg",
+          "price": 20.0,
+          "commission_rate": 20,
+          "units_sold": 9
+        },
+        {
+          "product_id": "1731996868386263483",
+          "title": "9-12 Chicken-Coated Collagen Cheek Rolls",
+          "image_url": "/img/product_1731996868386263483.webp",
+          "price": 20.0,
+          "commission_rate": 20,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1730614475661873595",
+          "title": "12-inch CollaBully Sticks",
+          "image_url": "/img/product_1730614475661873595.jpg",
+          "price": 28.0,
+          "commission_rate": 25,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732276264971375035",
+          "title": "9-12 Peanut Butter Collagen Cheek Roll Bucket",
+          "image_url": "/img/product_1732276264971375035.webp",
+          "price": 86.12,
+          "commission_rate": 25,
+          "units_sold": 6
+        },
+        {
+          "product_id": "1731788258406797755",
+          "title": "USA Chicken Feet",
+          "image_url": "/img/product_1731788258406797755.webp",
+          "price": 21.23,
+          "commission_rate": 20,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1731684387622588859",
+          "title": "9-12 Peanut Butter Collagen Cheek Rolls",
+          "image_url": "/img/product_1731684387622588859.jpg",
+          "price": 21.06,
+          "commission_rate": 25,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1730284170608349627",
+          "title": "12-inch Bully Sticks",
+          "image_url": "/img/product_1730284170608349627.webp",
+          "price": 31.19,
+          "commission_rate": 20,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731885757880308155",
+          "title": "Wild Wolf 12 Beef Colly Sticks",
+          "image_url": "/img/product_1731885757880308155.webp",
+          "price": 29.0,
+          "commission_rate": 30,
+          "units_sold": 3
         }
       ]
     },
@@ -140,7 +260,7 @@
       "products": [
         {
           "product_id": "1732352660592628585",
-          "title": "KKPeople Easy-Off Bodysuit",
+          "title": "KKPeople Easy-Off Bodysuit Tummy Control Butt Lifter Faja Bodysuit",
           "image_url": "/img/product_1732352660592628585.jpg",
           "price": 23.8,
           "commission_rate": 15,
@@ -149,10 +269,74 @@
         {
           "product_id": "1730393745372124078",
           "title": "YEOREO CoreFlex Women's Leggings",
-          "image_url": "https://s.500fd.com/tt_product/2d9435c214ea46ff83a2d4001a74e56e.image",
+          "image_url": "/img/product_1730393745372124078.jpg",
           "price": 25.6,
           "commission_rate": 10,
           "units_sold": 15
+        },
+        {
+          "product_id": "1732588114508746987",
+          "title": "medicube PDRN Peptide Glossy Lip Balm",
+          "image_url": "/img/product_1732588114508746987.jpg",
+          "price": 16.0,
+          "commission_rate": 15,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1732685692046512363",
+          "title": "medicube Deodorant Coconut & Rose",
+          "image_url": "/img/product_1732685692046512363.webp",
+          "price": 19.0,
+          "commission_rate": 15,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1732447910779589481",
+          "title": "KKPeople Easy-Off Icy Bodysuit",
+          "image_url": "/img/product_1732447910779589481.webp",
+          "price": 29.5,
+          "commission_rate": 15,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731892041593295721",
+          "title": "KKPeople ZeroG Faja Shapewear",
+          "image_url": "/img/product_1731892041593295721.webp",
+          "price": 15.87,
+          "commission_rate": 15,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732685687477735659",
+          "title": "medicube PDRN Silky Sunscreen Stick",
+          "image_url": "/img/product_1732685687477735659.webp",
+          "price": 17.0,
+          "commission_rate": 15,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732184337828778011",
+          "title": "Dr.Melaxin Peel Shot TX Dark Spot Duo",
+          "image_url": "/img/product_1732184337828778011.webp",
+          "price": 36.0,
+          "commission_rate": 15,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732295413877871585",
+          "title": "LUXSEREN Women's Lace Shapewear Bodysuit",
+          "image_url": "/img/product_1732295413877871585.webp",
+          "price": 24.3,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732519163983205127",
+          "title": "JOOPETALK 14oz Soup Thermo",
+          "image_url": "/img/product_1732519163983205127.webp",
+          "price": 19.99,
+          "commission_rate": 13,
+          "units_sold": 1
         }
       ]
     },
@@ -192,20 +376,84 @@
       "sales_timeline": [],
       "products": [
         {
-          "product_id": "1730393745372124078",
-          "title": "YEOREO CoreFlex Women's Leggings",
-          "image_url": "https://s.500fd.com/tt_product/2d9435c214ea46ff83a2d4001a74e56e.image",
-          "price": 25.6,
-          "commission_rate": 10,
-          "units_sold": 8
-        },
-        {
           "product_id": "1731208195967717743",
           "title": "PrettyGarden Women's Oversized Cardigan Sweater",
           "image_url": "/img/product_1731208195967717743.jpg",
           "price": 27.0,
           "commission_rate": 10,
           "units_sold": 7
+        },
+        {
+          "product_id": "1730393745372124078",
+          "title": "YEOREO CoreFlex Women's Leggings",
+          "image_url": "/img/product_1730393745372124078.jpg",
+          "price": 25.6,
+          "commission_rate": 10,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1731600582101995974",
+          "title": "ASWULK Women's Cropped Jacket",
+          "image_url": "/img/product_1731600582101995974.webp",
+          "price": 25.97,
+          "commission_rate": 10,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731708318669837150",
+          "title": "Halara Tummy Control Ruched Curved Hem Bodycon Skirt",
+          "image_url": "/img/product_1731708318669837150.jpg",
+          "price": 30.0,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1729615251848270295",
+          "title": "AUTOMET Women's Oversized Faux Leather Jacket",
+          "image_url": "/img/product_1729615251848270295.jpg",
+          "price": 53.7,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1731711000351380046",
+          "title": "Women's Fashion Zebra Print Loose Fit T-Shirt",
+          "image_url": "/img/product_1731711000351380046.jpg",
+          "price": 5.69,
+          "commission_rate": 8,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1729493620818874839",
+          "title": "AUTOMET 3 Pack Womens Long Sleeve Basic Shirts",
+          "image_url": "/img/product_1729493620818874839.jpg",
+          "price": 22.43,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1731835472232223592",
+          "title": "Fashion Nova Cat Fight 5 Piece Costume Set",
+          "image_url": "/img/product_1731835472232223592.webp",
+          "price": 49.8,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1730491172266217613",
+          "title": "Avidlove Women Long Sleeve Bodysuit",
+          "image_url": "/img/product_1730491172266217613.jpg",
+          "price": 20.0,
+          "commission_rate": 12,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1731590104358097289",
+          "title": "Chouyatou Lady's Winter Double-Breasted Wool Coat",
+          "image_url": "/img/product_1731590104358097289.jpg",
+          "price": 53.2,
+          "commission_rate": 10,
+          "units_sold": 2
         }
       ]
     },
@@ -242,11 +490,75 @@
         },
         {
           "product_id": "1732603030587544433",
-          "title": "Women's Short Cowboy AnkleBoots",
-          "image_url": "https://s.500fd.com/tt_product/d0cf472010404684aee2ed9d9c63a392.webp",
+          "title": "Women's Short Cowboy Ankle Boots",
+          "image_url": "/img/product_1732603030587544433.webp",
           "price": 32.5,
           "commission_rate": 8,
           "units_sold": 5
+        },
+        {
+          "product_id": "1732467081145586253",
+          "title": "UBFEN Women's Wide Toe Barefoot Hiking Shoes",
+          "image_url": "/img/product_1732467081145586253.webp",
+          "price": 44.3,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732600334883000854",
+          "title": "Women's Letter Print Thick Sole Casual Shoes",
+          "image_url": "/img/product_1732600334883000854.webp",
+          "price": 35.82,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732586811498074293",
+          "title": "Women's Western Cowboy Short Boots",
+          "image_url": "/img/product_1732586811498074293.webp",
+          "price": 41.36,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731767318933246375",
+          "title": "Women's Fall Winter Ankle Boots",
+          "image_url": "/img/product_1731767318933246375.webp",
+          "price": 26.6,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732624872229671585",
+          "title": "Women's Casual Low Top Sneakers",
+          "image_url": "/img/product_1732624872229671585.webp",
+          "price": 24.66,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732479273182138900",
+          "title": "Athlefit Women's Knee-High Suede Riding Boots",
+          "image_url": "/img/product_1732479273182138900.webp",
+          "price": 55.99,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1729733373566423823",
+          "title": "Women's Belted Design Ankle Boots",
+          "image_url": "/img/product_1729733373566423823.webp",
+          "price": 29.33,
+          "commission_rate": 8,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732679183081706006",
+          "title": "Women's Long Motorcycle Boots",
+          "image_url": "/img/product_1732679183081706006.webp",
+          "price": 21.52,
+          "commission_rate": 8,
+          "units_sold": 1
         }
       ]
     },
@@ -276,7 +588,7 @@
         {
           "product_id": "1729403313395896858",
           "title": "Raybee 16 Deep Drawers Tall Dresser",
-          "image_url": "https://s.500fd.com/tt_product/fa4719654f1a4aed8d2519ed1f2155bb.webp",
+          "image_url": "/img/product_1729403313395896858.webp",
           "price": 90.75,
           "commission_rate": 8,
           "units_sold": 35
@@ -284,7 +596,7 @@
         {
           "product_id": "1729408318052536858",
           "title": "Raybee 12 Drawer Fabric Dresser",
-          "image_url": "https://s.500fd.com/tt_product/a36d422ba5c6478791b1edfac457c7ef.webp",
+          "image_url": "/img/product_1729408318052536858.webp",
           "price": 76.76,
           "commission_rate": 8,
           "units_sold": 19
@@ -333,10 +645,74 @@
         {
           "product_id": "1732092047929086936",
           "title": "Muddy Mat Washable Pee Pads",
-          "image_url": "https://s.500fd.com/tt_product/fd0f32240e944c98b760eb28711ded21.webp",
+          "image_url": "/img/product_1732092047929086936.webp",
           "price": 14.4,
           "commission_rate": 25,
           "units_sold": 8
+        },
+        {
+          "product_id": "1729452942713197528",
+          "title": "Muddy Mat Cloud K-9 Chenille Pet Bed",
+          "image_url": "/img/product_1729452942713197528.jpg",
+          "price": 28.8,
+          "commission_rate": 25,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1729576275470685144",
+          "title": "Muddy Mitt Chenille Anti-Mud Mitt",
+          "image_url": "/img/product_1729576275470685144.webp",
+          "price": 10.81,
+          "commission_rate": 25,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731550027668624344",
+          "title": "Muddy Mat Meshy Mat for Outdoors",
+          "image_url": "/img/product_1731550027668624344.jpg",
+          "price": 25.0,
+          "commission_rate": 25,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732077331051090904",
+          "title": "Muddy Mat Chenille Runner Rugs",
+          "image_url": "/img/product_1732077331051090904.webp",
+          "price": 86.5,
+          "commission_rate": 25,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1731089165474567128",
+          "title": "Muddy Mat 2 Piece Bathroom Set",
+          "image_url": "/img/product_1731089165474567128.webp",
+          "price": 24.7,
+          "commission_rate": 25,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1729452940870783960",
+          "title": "Muddy Mat Doggy Dryer Shammy Towel",
+          "image_url": "/img/product_1729452940870783960.webp",
+          "price": 21.26,
+          "commission_rate": 25,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1731550026503590872",
+          "title": "Muddy Mat Chenille Stair Treads",
+          "image_url": "/img/product_1731550026503590872.webp",
+          "price": 24.7,
+          "commission_rate": 25,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1731920843076441048",
+          "title": "Muddy Mat Pet Portraits Anti-Mud Mat",
+          "image_url": "/img/product_1731920843076441048.webp",
+          "price": 16.4,
+          "commission_rate": 25,
+          "units_sold": 1
         }
       ]
     },
@@ -378,7 +754,7 @@
         {
           "product_id": "1732683762897818042",
           "title": "Gallina Negra & Reversible Bundle",
-          "image_url": "https://s.500fd.com/tt_product/1c47e680ab8b4eb7a085a45fefcf61bf.webp",
+          "image_url": "/img/product_1732683762897818042.webp",
           "price": 66.99,
           "commission_rate": 15,
           "units_sold": 10
@@ -386,10 +762,74 @@
         {
           "product_id": "1732283976897237434",
           "title": "Pajaro Macua Perfume 100 ml",
-          "image_url": "https://s.500fd.com/tt_product/c0369bb23b1e41bb8844362ec5ef562c.webp",
+          "image_url": "/img/product_1732283976897237434.webp",
           "price": 19.7,
           "commission_rate": 15,
           "units_sold": 6
+        },
+        {
+          "product_id": "1731378381208392122",
+          "title": "Honey Miel Candle",
+          "image_url": "/img/product_1731378381208392122.webp",
+          "price": 23.0,
+          "commission_rate": 20,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1732298190781977018",
+          "title": "VA.MI Perfume 100 ml",
+          "image_url": "/img/product_1732298190781977018.webp",
+          "price": 22.0,
+          "commission_rate": 15,
+          "units_sold": 4
+        },
+        {
+          "product_id": "1731522862542459322",
+          "title": "Abre Caminos Road Opener Candle",
+          "image_url": "/img/product_1731522862542459322.webp",
+          "price": 23.0,
+          "commission_rate": 15,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732414275119387066",
+          "title": "Reversible Oil 2oz",
+          "image_url": "/img/product_1732414275119387066.webp",
+          "price": 30.0,
+          "commission_rate": 20,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732704312625107386",
+          "title": "Lilith Ven a Mi Red Soy Wax Candle",
+          "image_url": "/img/product_1732704312625107386.webp",
+          "price": 22.99,
+          "commission_rate": 15,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731449447929516474",
+          "title": "Raining Money Candle",
+          "image_url": "/img/product_1731449447929516474.webp",
+          "price": 24.0,
+          "commission_rate": 15,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731577414329799098",
+          "title": "Road Opener Oil 2 oz",
+          "image_url": "/img/product_1731577414329799098.webp",
+          "price": 21.3,
+          "commission_rate": 17,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1731449394193469882",
+          "title": "Hecate Candle",
+          "image_url": "/img/product_1731449394193469882.webp",
+          "price": 22.0,
+          "commission_rate": 15,
+          "units_sold": 1
         }
       ]
     },
@@ -426,19 +866,83 @@
       "products": [
         {
           "product_id": "1730970856690062281",
-          "title": "Velvet Bar Stools, Counter Height",
-          "image_url": "https://s.500fd.com/tt_product/2875e219b60441db8a9b8d1cec3141c1.webp",
+          "title": "Velvet Bar Stools Counter Height",
+          "image_url": "/img/product_1730970856690062281.webp",
           "price": 110.6,
           "commission_rate": 5,
           "units_sold": 8
         },
         {
           "product_id": "1729728595740169161",
-          "title": "Kerilyn 2/4 Packs 9QT Chafing Dishes",
-          "image_url": "https://s.500fd.com/tt_product/1eeb8a9a79124312990a8f42a0a1377e.webp",
+          "title": "Kerilyn 9QT Chafing Dishes for Buffet Set",
+          "image_url": "/img/product_1729728595740169161.webp",
           "price": 69.0,
           "commission_rate": 5,
           "units_sold": 7
+        },
+        {
+          "product_id": "1730801820222395337",
+          "title": "Modern Bar Stools Adjustable Faux Leather",
+          "image_url": "/img/product_1730801820222395337.webp",
+          "price": 60.0,
+          "commission_rate": 5,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1730801464021783497",
+          "title": "Bar Stools Bentwood Swivel",
+          "image_url": "/img/product_1730801464021783497.webp",
+          "price": 75.4,
+          "commission_rate": 5,
+          "units_sold": 6
+        },
+        {
+          "product_id": "1732397434561074121",
+          "title": "107 Chenille Boneless Couch L-Shaped Chaise",
+          "image_url": "/img/product_1732397434561074121.webp",
+          "price": 563.36,
+          "commission_rate": 5,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1730848485208724425",
+          "title": "Velvet Accent Chair Gold Metal Legs",
+          "image_url": "/img/product_1730848485208724425.webp",
+          "price": 80.2,
+          "commission_rate": 5,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1732493064467223497",
+          "title": "67 Kitchen Island Table Faux Marble Top",
+          "image_url": "/img/product_1732493064467223497.webp",
+          "price": 237.2,
+          "commission_rate": 5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1730814907433718729",
+          "title": "Velvet Accent Chair Wingback",
+          "image_url": "/img/product_1730814907433718729.webp",
+          "price": 111.6,
+          "commission_rate": 5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1730836421957489609",
+          "title": "Kerilyn Artificial Boxwood Panel",
+          "image_url": "/img/product_1730836421957489609.webp",
+          "price": 50.49,
+          "commission_rate": 5,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732521676842636233",
+          "title": "4-Pack Round Chafing Dish Buffet Bakeware Set",
+          "image_url": "/img/product_1732521676842636233.webp",
+          "price": 54.8,
+          "commission_rate": 5,
+          "units_sold": 1
         }
       ]
     },
@@ -476,18 +980,50 @@
         {
           "product_id": "1732658593290687249",
           "title": "Women's Two Piece Shorts Lounge Set",
-          "image_url": "https://s.500fd.com/tt_product/7494d3c002be4bb289f1b17b5e60c0a8.webp",
+          "image_url": "/img/product_1732658593290687249.webp",
           "price": 2.05,
           "commission_rate": 12,
           "units_sold": 202
         },
         {
           "product_id": "1729523585299683314",
-          "title": "Digestive Enzymes by Physician's Choice",
-          "image_url": "https://s.500fd.com/tt_product/c4f0866cae354a718c4c14c3aece987b.webp",
+          "title": "Physician's Choice Digestive Enzymes",
+          "image_url": "/img/product_1729523585299683314.webp",
           "price": 17.57,
           "commission_rate": 20,
           "units_sold": 2
+        },
+        {
+          "product_id": "1729558556070089471",
+          "title": "Terra Lotus Grass-Fed Beef Tallow Balm",
+          "image_url": "/img/product_1729558556070089471.jpg",
+          "price": 17.0,
+          "commission_rate": 30,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1730700737574179367",
+          "title": "SHMHE Red Light Therapy Mask",
+          "image_url": "/img/product_1730700737574179367.jpg",
+          "price": 22.99,
+          "commission_rate": 12,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731944710939906599",
+          "title": "SHMHE 7-Color LED Red Light Facial Device",
+          "image_url": "/img/product_1731944710939906599.jpg",
+          "price": 19.99,
+          "commission_rate": 12,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1729417116451640306",
+          "title": "Physician's Choice Inner Harmony Duo",
+          "image_url": "/img/product_1729417116451640306.jpg",
+          "price": 39.97,
+          "commission_rate": 20,
+          "units_sold": 1
         }
       ]
     },
@@ -524,19 +1060,83 @@
       "products": [
         {
           "product_id": "1732671477880098937",
-          "title": "SHareconn Halloween Giant 10FT Tall PVC Spooky Pumpkin",
-          "image_url": "https://s.500fd.com/tt_product/1362f84f813544d589c355f22bf523e7.webp",
+          "title": "SHareconn Halloween Giant 10FT Tall PVC Pumpkin Decor",
+          "image_url": "/img/product_1732671477880098937.webp",
           "price": 130.0,
           "commission_rate": 6,
           "units_sold": 7
         },
         {
           "product_id": "1732511949556519836",
-          "title": "Halloween Decorations Outdoor - 5 FT Hanging Swing Ghost",
-          "image_url": "https://s.500fd.com/tt_product/d9cf22d09f1c4a80a69bd472284ccba6.webp",
+          "title": "Halloween Decorations Outdoor 5 FT Hanging Swing Ghost",
+          "image_url": "/img/product_1732511949556519836.webp",
           "price": 43.0,
           "commission_rate": 10,
           "units_sold": 4
+        },
+        {
+          "product_id": "1731625148744372909",
+          "title": "NFL Logo Roll Ultra Cozy Oversized Blanket",
+          "image_url": "/img/product_1731625148744372909.jpg",
+          "price": 58.0,
+          "commission_rate": 12,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732433818444534656",
+          "title": "Large Spooky Halloween Tripod Cauldron",
+          "image_url": "/img/product_1732433818444534656.webp",
+          "price": 30.0,
+          "commission_rate": 12,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732406555495797220",
+          "title": "FLACCHI Solar String Lights",
+          "image_url": "/img/product_1732406555495797220.webp",
+          "price": 24.0,
+          "commission_rate": 10,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731676349220884895",
+          "title": "VINGLI 12FT Halloween Inflatable Decoration",
+          "image_url": "/img/product_1731676349220884895.webp",
+          "price": 47.6,
+          "commission_rate": 5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732422989201969636",
+          "title": "FLACCHI Hanging Ball Lights",
+          "image_url": "/img/product_1732422989201969636.webp",
+          "price": 26.0,
+          "commission_rate": 10,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731080163131101557",
+          "title": "Star Projector Light with Music Rhythm",
+          "image_url": "/img/product_1731080163131101557.jpg",
+          "price": 6.0,
+          "commission_rate": 12,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731588090886722432",
+          "title": "Spooky Indoor Ghost Decor Kit",
+          "image_url": "/img/product_1731588090886722432.webp",
+          "price": 35.99,
+          "commission_rate": 13,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732048336659452650",
+          "title": "Christmas Goodie Bags Thanksgiving Candy Bags",
+          "image_url": "/img/product_1732048336659452650.webp",
+          "price": 15.03,
+          "commission_rate": 12,
+          "units_sold": 1
         }
       ]
     },
@@ -586,6 +1186,70 @@
           "price": 60.26,
           "commission_rate": 10,
           "units_sold": 2
+        },
+        {
+          "product_id": "1730896917061211070",
+          "title": "Crocs Kids' Handle It Rain Boots",
+          "image_url": "/img/product_1730896917061211070.webp",
+          "price": 37.68,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1731532476040647614",
+          "title": "Crocs Adult Classic Crafted Canvas Clogs",
+          "image_url": "/img/product_1731532476040647614.jpg",
+          "price": 40.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1729499883366684606",
+          "title": "Crocs Women's Miami Round Toe Flip Flops",
+          "image_url": "/img/product_1729499883366684606.jpg",
+          "price": 44.84,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1729553399468823486",
+          "title": "Crocs Women's Miami Toe Loop Summer Sandals",
+          "image_url": "/img/product_1729553399468823486.jpg",
+          "price": 22.5,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1729553403015566270",
+          "title": "Crocs Women's Dylan Platform Clogs",
+          "image_url": "/img/product_1729553403015566270.jpg",
+          "price": 43.8,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732088511267312574",
+          "title": "Crocs Women's Dylan Platform Elevated Clogs",
+          "image_url": "/img/product_1732088511267312574.jpg",
+          "price": 58.22,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1730664411192660926",
+          "title": "Crocs Kids' Classic Clogs",
+          "image_url": "/img/product_1730664411192660926.jpg",
+          "price": 30.72,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1730493404455474110",
+          "title": "Crocs Adult Classic Cozzzy Slippers",
+          "image_url": "/img/product_1730493404455474110.webp",
+          "price": 37.49,
+          "commission_rate": 10,
+          "units_sold": 1
         }
       ]
     },
@@ -614,8 +1278,8 @@
       "products": [
         {
           "product_id": "1732608613829218410",
-          "title": "Women's Men's Unisex Long-Sleeve Football City Graphic Hoodie",
-          "image_url": "https://s.500fd.com/tt_product/986837df7fb549129722b0cbb2044c44.webp",
+          "title": "Young Habit Football City Graphic Hoodie",
+          "image_url": "/img/product_1732608613829218410.webp",
           "price": 13.99,
           "commission_rate": 10,
           "units_sold": 156
@@ -647,8 +1311,8 @@
       "products": [
         {
           "product_id": "1732296357266952484",
-          "title": "20789# New Elegant Casual Slim-Fit High Waist Long Pants",
-          "image_url": "https://s.500fd.com/tt_product/6f2ed7847b4b4da890d24694adf1e90c.webp",
+          "title": "Elegant Casual Slim-Fit High Waist Long Pants",
+          "image_url": "/img/product_1732296357266952484.webp",
           "price": 15.49,
           "commission_rate": 8,
           "units_sold": 25
@@ -656,10 +1320,74 @@
         {
           "product_id": "1732567917776834852",
           "title": "Women's Elegant Party Denim Jeans",
-          "image_url": "https://s.500fd.com/tt_product/221002e525f140cc8767488eb08f5e7a.webp",
+          "image_url": "/img/product_1732567917776834852.webp",
           "price": 28.55,
           "commission_rate": 8,
           "units_sold": 12
+        },
+        {
+          "product_id": "1732344253781414696",
+          "title": "KYM Women's Loose Straight Leg Jeans",
+          "image_url": "/img/product_1732344253781414696.jpg",
+          "price": 17.86,
+          "commission_rate": 8,
+          "units_sold": 10
+        },
+        {
+          "product_id": "1732122677939114458",
+          "title": "Baillin Deer Skin Fitted Knee-Length Skirt",
+          "image_url": "/img/product_1732122677939114458.webp",
+          "price": 10.22,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731922858146173402",
+          "title": "Baillin Fall Winter Three-Piece Set",
+          "image_url": "/img/product_1731922858146173402.webp",
+          "price": 9.58,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731749212171768282",
+          "title": "Baillin Plain Slim-Fit Knitted Crew Neck T-Shirt",
+          "image_url": "/img/product_1731749212171768282.webp",
+          "price": 8.58,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732541487688487290",
+          "title": "Y2K Floral Sheer Mesh Crop Top",
+          "image_url": "/img/product_1732541487688487290.webp",
+          "price": 10.63,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731925322582495660",
+          "title": "Casual Basic Lace Patchwork Oversized T-Shirt",
+          "image_url": "/img/product_1731925322582495660.webp",
+          "price": 9.47,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732525411419263952",
+          "title": "YY Fashion Chic Denim Jacket",
+          "image_url": "/img/product_1732525411419263952.webp",
+          "price": 56.87,
+          "commission_rate": 8,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1729479845478241357",
+          "title": "Elegant Minimalist Loose Knitwear Shawl Pullover",
+          "image_url": "/img/product_1729479845478241357.webp",
+          "price": 10.9,
+          "commission_rate": 8,
+          "units_sold": 2
         }
       ]
     },
@@ -692,17 +1420,602 @@
       "products": [
         {
           "product_id": "1732687067301581213",
-          "title": "Belinda Rhinestone Mule Flats \u2013 Black",
-          "image_url": "https://s.500fd.com/tt_product/19fb397c7adb4ba78a1d10e09767a8a9.webp",
+          "title": "Belinda Rhinestone Mule Flats",
+          "image_url": "/img/product_1732687067301581213.webp",
           "price": 33.99,
           "commission_rate": 10,
           "units_sold": 2
         },
         {
           "product_id": "1732577387479798173",
-          "title": "Kelly Slingback Pointed Toe Heels - Black",
-          "image_url": "https://s.500fd.com/tt_product/b2b50d111bbf4dce96f7db2b20171d83.webp",
+          "title": "Kelly Slingback Pointed Toe Heels Black",
+          "image_url": "/img/product_1732577387479798173.webp",
           "price": 35.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732723330532675997",
+          "title": "Natasha Lace Midi Dress",
+          "image_url": "/img/product_1732723330532675997.jpg",
+          "price": 107.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732704479070753181",
+          "title": "Lacey Lace Mary Jane Ballet Flats Nude",
+          "image_url": "/img/product_1732704479070753181.webp",
+          "price": 30.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732577409759613341",
+          "title": "Kelly Slingback Pointed Toe Heels Brown",
+          "image_url": "/img/product_1732577409759613341.webp",
+          "price": 35.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732707449185079709",
+          "title": "Selena Pointed Toe Ankle Strap Pumps Gold",
+          "image_url": "/img/product_1732707449185079709.jpg",
+          "price": 41.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732577377538314653",
+          "title": "Kelly Slingback Pointed Toe Heels Nude",
+          "image_url": "/img/product_1732577377538314653.webp",
+          "price": 35.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732704500745933213",
+          "title": "Lacey Lace Mary Jane Ballet Flats Red",
+          "image_url": "/img/product_1732704500745933213.jpg",
+          "price": 30.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732574319299170717",
+          "title": "Fine Time Block Heel Knee High Boots Black",
+          "image_url": "/img/product_1732574319299170717.webp",
+          "price": 63.98,
+          "commission_rate": 10,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1731678634702573981",
+          "title": "Hudson Platform Block Heel Knee High Boots Brown",
+          "image_url": "/img/product_1731678634702573981.webp",
+          "price": 58.99,
+          "commission_rate": 15,
+          "units_sold": 1
+        }
+      ]
+    },
+    "7693662597228415774": {
+      "room_id": "7693662597228415774",
+      "host": {
+        "handle": "barahonaaparicio",
+        "photo_url": "https://s.500fd.com/tt_author/f388ab32bb113298dc2c5b2228d7d318~tplv-tiktokx-cropcenter:720:720.jpeg",
+        "follower_count": 14935,
+        "day28_gmv": 10619.57,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791320525,
+      "duration_minutes": 89,
+      "viewer_count": 6775,
+      "units_sold": 12,
+      "gmv": 252.38,
+      "conversion_rate": 0.0018,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 65.49
+        },
+        {
+          "category": "Beauty & Personal Care",
+          "units_sold_share_percent": 20.1
+        },
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 14.41
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729406693411230691",
+          "title": "Women's Official Magic Skin Fleece Lined Tights Leggings",
+          "image_url": "/img/product_1729406693411230691.webp",
+          "price": 18.39,
+          "commission_rate": 12,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732257332397379646",
+          "title": "PretiHom Automatic Electric Curling Stick",
+          "image_url": "/img/product_1732257332397379646.jpg",
+          "price": 25.37,
+          "commission_rate": 13.5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1729405828047410048",
+          "title": "Women's Heart Embroidered Fuzzy Flat Slipper",
+          "image_url": "/img/product_1729405828047410048.webp",
+          "price": 4.86,
+          "commission_rate": 8,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1732442647361523721",
+          "title": "4 PCS Jelly Bra Seamless Deep V Neck",
+          "image_url": "/img/product_1732442647361523721.webp",
+          "price": 36.55,
+          "commission_rate": 8,
+          "units_sold": 1
+        },
+        {
+          "product_id": "1729709327086686344",
+          "title": "Women's Knee-High Pointed-Toe Heeled Zipper Boots",
+          "image_url": "/img/product_1729709327086686344.jpg",
+          "price": 31.5,
+          "commission_rate": 8,
+          "units_sold": 1
+        }
+      ]
+    },
+    "7693768985074633503": {
+      "room_id": "7693768985074633503",
+      "host": {
+        "handle": "livelifehappy91",
+        "photo_url": "/img/live_host_livelifehappy91.jpg",
+        "follower_count": 18435,
+        "day28_gmv": 40941.64,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791345268,
+      "duration_minutes": 122,
+      "viewer_count": 5165,
+      "units_sold": 39,
+      "gmv": 808,
+      "conversion_rate": 0.0076,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 68.92
+        },
+        {
+          "category": "Kitchenware",
+          "units_sold_share_percent": 29.58
+        },
+        {
+          "category": "Automotive & Motorcycle",
+          "units_sold_share_percent": 1.5
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729444049481601540",
+          "title": "Glamourous Wash Laundry detergent by Tyler Candle",
+          "image_url": "/img/product_1729444049481601540.jpg",
+          "price": 9.12,
+          "commission_rate": 10,
+          "units_sold": 17
+        },
+        {
+          "product_id": "1729410993142338463",
+          "title": "GLAMOROUS WASH",
+          "image_url": "/img/product_1729410993142338463.jpg",
+          "price": 9.8,
+          "commission_rate": 12,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1732427094654685778",
+          "title": "Lenox Spice Village Spice Rack",
+          "image_url": "/img/product_1732427094654685778.webp",
+          "price": 40.0,
+          "commission_rate": 5,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1729495203249951236",
+          "title": "Autoglam Car-Freshner by Tyler Candle",
+          "image_url": "/img/product_1729495203249951236.jpg",
+          "price": 4.05,
+          "commission_rate": 0.0,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1730721419806216708",
+          "title": "GLAM ON DEMAND LINEN AND ROOM SPRAY",
+          "image_url": "/img/product_1730721419806216708.webp",
+          "price": 18.56,
+          "commission_rate": 10,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7691114754702248735": {
+      "room_id": "7691114754702248735",
+      "host": {
+        "handle": "alex397023",
+        "photo_url": "/img/live_host_alex397023.jpg",
+        "follower_count": 5491,
+        "day28_gmv": 11720.25,
+        "top_category": "Fashion"
+      },
+      "started_at": 1790727258,
+      "duration_minutes": 147,
+      "viewer_count": 6954,
+      "units_sold": 46,
+      "gmv": 564.9,
+      "conversion_rate": 0.0066,
+      "category_breakdown": [
+        {
+          "category": "Sports & Outdoor",
+          "units_sold_share_percent": 27.62
+        },
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 22.53
+        },
+        {
+          "category": "Beauty & Personal Care",
+          "units_sold_share_percent": 21.12
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732689571241431602",
+          "title": "Sports & Outdoor Hijab Scarf Head Wrap",
+          "image_url": "/img/product_1732689571241431602.webp",
+          "price": 12.0,
+          "commission_rate": 15,
+          "units_sold": 13
+        },
+        {
+          "product_id": "1732600334883000854",
+          "title": "Women's Letter Print Thick Sole Casual Shoes",
+          "image_url": "/img/product_1732600334883000854.webp",
+          "price": 10.0,
+          "commission_rate": 8,
+          "units_sold": 10
+        },
+        {
+          "product_id": "1731711038139634310",
+          "title": "4pcs Christmas Throw Pillow Covers",
+          "image_url": "/img/product_1731711038139634310.webp",
+          "price": 12.0,
+          "commission_rate": 6,
+          "units_sold": 6
+        },
+        {
+          "product_id": "1731638708568166447",
+          "title": "3-in-1 Color Correcting Primer Cream SPF 50",
+          "image_url": "/img/product_1731638708568166447.webp",
+          "price": 4.9,
+          "commission_rate": 8,
+          "units_sold": 6
+        },
+        {
+          "product_id": "1729394470682137528",
+          "title": "Biomimic Foundation 4 in 1",
+          "image_url": "/img/product_1729394470682137528.jpg",
+          "price": 44.96,
+          "commission_rate": 15,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7690968617944386318": {
+      "room_id": "7690968617944386318",
+      "host": {
+        "handle": "packicks",
+        "photo_url": "/img/live_host_packicks.jpg",
+        "follower_count": 119693,
+        "day28_gmv": 224373.67,
+        "top_category": "Fashion"
+      },
+      "started_at": 1790693322,
+      "duration_minutes": 178,
+      "viewer_count": 7893,
+      "units_sold": 28,
+      "gmv": 3902.95,
+      "conversion_rate": 0.0035,
+      "category_breakdown": [
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 56.06
+        },
+        {
+          "category": "Sports & Outdoor",
+          "units_sold_share_percent": 39.87
+        },
+        {
+          "category": "Menswear & Underwear",
+          "units_sold_share_percent": 4.07
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732653616713535860",
+          "title": "Nike Air Force 1 Low Kobe Bryant Forever Steam",
+          "image_url": "/img/product_1732653616713535860.webp",
+          "price": 129.0,
+          "commission_rate": 5,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732502671446806900",
+          "title": "Nike Zoom Vomero 5 Photon Dust",
+          "image_url": "/img/product_1732502671446806900.webp",
+          "price": 155.6,
+          "commission_rate": 5,
+          "units_sold": 5
+        },
+        {
+          "product_id": "1732350338131071348",
+          "title": "Maison Mihara Yasuhiro Peterson OG Sole Canvas Low",
+          "image_url": "/img/product_1732350338131071348.webp",
+          "price": 199.3,
+          "commission_rate": 10,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732579454667624820",
+          "title": "UGG Tasman II Slipper",
+          "image_url": "/img/product_1732579454667624820.webp",
+          "price": 148.62,
+          "commission_rate": 5,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1731744695602483572",
+          "title": "New Balance GC9060BE Women's 9060",
+          "image_url": "/img/product_1731744695602483572.webp",
+          "price": 99.0,
+          "commission_rate": 5,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7693742025086831390": {
+      "room_id": "7693742025086831390",
+      "host": {
+        "handle": "foodiefun49",
+        "photo_url": "/img/live_host_foodiefun49.webp",
+        "follower_count": 3993,
+        "day28_gmv": 25814.99,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791338980,
+      "duration_minutes": 56,
+      "viewer_count": 2899,
+      "units_sold": 37,
+      "gmv": 444,
+      "conversion_rate": 0.0128,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1730427756143153233",
+          "title": "Waffle Texture Modern Waterproof Aesthetic Shower Curtain",
+          "image_url": "/img/product_1730427756143153233.jpg",
+          "price": 12.0,
+          "commission_rate": 8,
+          "units_sold": 37
+        }
+      ]
+    },
+    "7693587716759522061": {
+      "room_id": "7693587716759522061",
+      "host": {
+        "handle": "printsavenue",
+        "photo_url": "/img/live_host_printsavenue.jpg",
+        "follower_count": 3091,
+        "day28_gmv": 34262,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791303086,
+      "duration_minutes": 157,
+      "viewer_count": 1987,
+      "units_sold": 22,
+      "gmv": 660,
+      "conversion_rate": 0.0111,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732463585875497753",
+          "title": "Winners Choice Figure Statue Assorted Characters",
+          "image_url": "/img/product_1732463585875497753.jpg",
+          "price": 30.0,
+          "commission_rate": 0.0,
+          "units_sold": 22
+        }
+      ]
+    },
+    "7691851532580539149": {
+      "room_id": "7691851532580539149",
+      "host": {
+        "handle": "maskhogar",
+        "photo_url": "/img/live_host_maskhogar.jpg",
+        "follower_count": 6083,
+        "day28_gmv": 44552.31,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1790898820,
+      "duration_minutes": 139,
+      "viewer_count": 7251,
+      "units_sold": 14,
+      "gmv": 2350,
+      "conversion_rate": 0.0019,
+      "category_breakdown": [
+        {
+          "category": "Furniture",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729487892772001009",
+          "title": "HOOMIC Full Queen King Size Lift Up Storage Bed Frame",
+          "image_url": "/img/product_1729487892772001009.webp",
+          "price": 215.0,
+          "commission_rate": 6,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1732481943134114108",
+          "title": "DIGWAC Twin/Full/Queen/King memory foam mattress",
+          "image_url": "/img/product_1732481943134114108.webp",
+          "price": 105.0,
+          "commission_rate": 6,
+          "units_sold": 6
+        }
+      ]
+    },
+    "7692054316760517407": {
+      "room_id": "7692054316760517407",
+      "host": {
+        "handle": "petpivot_official",
+        "photo_url": "/img/live_host_petpivot_official.jpg",
+        "follower_count": 66937,
+        "day28_gmv": 266937,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1790946097,
+      "duration_minutes": 152,
+      "viewer_count": 3510,
+      "units_sold": 23,
+      "gmv": 2374.04,
+      "conversion_rate": 0.0066,
+      "category_breakdown": [
+        {
+          "category": "Pet Supplies",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732277424593932739",
+          "title": "PetPivot AutoScooper 12 Lite Self-Cleaning Cat Litter Box",
+          "image_url": "/img/product_1732277424593932739.webp",
+          "price": 138.9,
+          "commission_rate": 7,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1730944834870481347",
+          "title": "PetPivot AutoScooper 11 Cat Litter Box Pad",
+          "image_url": "/img/product_1730944834870481347.webp",
+          "price": 59.99,
+          "commission_rate": 7,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1732255627102622147",
+          "title": "PetPivot AutoScooper 12 Lite Waste Bags",
+          "image_url": "/img/product_1732255627102622147.webp",
+          "price": 25.71,
+          "commission_rate": 5,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1729543332241248707",
+          "title": "PetPivot AutoScooper 11 Self-Cleaning Cat Litter Box",
+          "image_url": "/img/product_1729543332241248707.jpg",
+          "price": 169.99,
+          "commission_rate": 7,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1730625602996965827",
+          "title": "PetPivot AutoScooper 11 Waste Bags",
+          "image_url": "/img/product_1730625602996965827.webp",
+          "price": 23.3,
+          "commission_rate": 7,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7693564686381402911": {
+      "room_id": "7693564686381402911",
+      "host": {
+        "handle": "freezbone",
+        "photo_url": "/img/live_host_freezbone.jpg",
+        "follower_count": 35674,
+        "day28_gmv": 14212.28,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791297776,
+      "duration_minutes": 132,
+      "viewer_count": 1630,
+      "units_sold": 22,
+      "gmv": 450.31,
+      "conversion_rate": 0.0135,
+      "category_breakdown": [
+        {
+          "category": "Pet Supplies",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729455730411344222",
+          "title": "Freezbone Dog Treat Refills",
+          "image_url": "/img/product_1729455730411344222.webp",
+          "price": 8.89,
+          "commission_rate": 15,
+          "units_sold": 3
+        },
+        {
+          "product_id": "1731364107938206046",
+          "title": "Family Value Bundle Frozen Enrichment Toy Set",
+          "image_url": "/img/product_1731364107938206046.webp",
+          "price": 81.13,
+          "commission_rate": 10,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1730882284375413086",
+          "title": "Hip & Joint Chews",
+          "image_url": "/img/product_1730882284375413086.webp",
+          "price": 11.91,
+          "commission_rate": 15,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732266299434897758",
+          "title": "FreezBall Bundle Starter Pack",
+          "image_url": "/img/product_1732266299434897758.webp",
+          "price": 18.9,
           "commission_rate": 10,
           "units_sold": 1
         }

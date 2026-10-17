@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "commerce_summary": {
+        "day28_gmv": 40941.64,
+        "trend_categories": [
+          {
+            "id": 1003,
+            "name": "Fashion"
+          },
+          {
+            "id": 1007,
+            "name": "Personal Care & Health"
+          },
+          {
+            "id": 1005,
+            "name": "Home & Lifestyle"
+          }
+        ]
+      },
+      "creator": {
+        "avatar": "https://s.500fd.com/tt_author/eb5e8f9c05a469eb64dfc8f5f7df2bd1~tplv-tiktokx-cropcenter:1080:1080.jpeg",
+        "follower_count": 18435,
+        "unique_id": "livelifehappy91"
+      }
+    }
+  ]
+}

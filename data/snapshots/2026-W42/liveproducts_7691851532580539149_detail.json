@@ -1,0 +1,23 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 20,
+        "category_names": [
+          "Furniture"
+        ],
+        "share": 100
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 8337,
+    "start_time": 1790898820
+  },
+  "performance": {
+    "gmv": 2350,
+    "session_duration_seconds": 8337,
+    "total_viewer_count": 7251,
+    "units_sold": 14
+  }
+}

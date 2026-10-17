@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/19fb397c7adb4ba78a1d10e09767a8a9~tplv-fhlh96nyum-crop-webp:1267:1267.webp",
+      "live_gmv": 67.98,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732687067301581213",
+      "sales_timeline": [],
+      "title": "Belinda Rhinestone Mule Flats"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/b2b50d111bbf4dce96f7db2b20171d83~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "live_gmv": 35,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732577387479798173",
+      "sales_timeline": [],
+      "title": "Kelly Slingback Pointed Toe Heels Black"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/ce5a4117774b49cfb365822730e3c372~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 107,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732723330532675997",
+      "sales_timeline": [],
+      "title": "Natasha Lace Midi Dress"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/954b634efa3048cda908a5ed36d9e3a6~tplv-fhlh96nyum-crop-webp:3965:3965.webp",
+      "live_gmv": 30,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732704479070753181",
+      "sales_timeline": [],
+      "title": "Lacey Lace Mary Jane Ballet Flats Nude"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/6c9beaccd8864e45bc41e08a423afffb~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 35,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732577409759613341",
+      "sales_timeline": [],
+      "title": "Kelly Slingback Pointed Toe Heels Brown"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/9fcad6a9c52941b486dfc4feb8fd2479~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 41,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732707449185079709",
+      "sales_timeline": [],
+      "title": "Selena Pointed Toe Ankle Strap Pumps Gold"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/a5f11c17ab404dc7a4c0950110cf25cf~tplv-fhlh96nyum-crop-webp:3892:3892.webp",
+      "live_gmv": 35,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732577377538314653",
+      "sales_timeline": [],
+      "title": "Kelly Slingback Pointed Toe Heels Nude"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/1787f5d5e36a4d10bdafad1a13ac5455~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 30,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732704500745933213",
+      "sales_timeline": [],
+      "title": "Lacey Lace Mary Jane Ballet Flats Red"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/bb38b9a60f784773b9eb00df045e9e88~tplv-fhlh96nyum-crop-webp:2000:2000.webp",
+      "live_gmv": 63.98,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1732574319299170717",
+      "sales_timeline": [],
+      "title": "Fine Time Block Heel Knee High Boots Black"
+    },
+    {
+      "commission_rate_percent": 15,
+      "cover_url": "https://s.500fd.com/tt_product/fdf3fc1c55b14d9588a52b447c84975b~tplv-fhlh96nyum-crop-webp:800:800.webp",
+      "live_gmv": 58.99,
+      "live_units_sold": 1,
+      "price": 0,
+      "product_id": "1731678634702573981",
+      "sales_timeline": [],
+      "title": "Hudson Platform Block Heel Knee High Boots Brown"
+    }
+  ],
+  "total": 154
+}

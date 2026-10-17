@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/5e18bdc02a5e4d21aed1652175c6cbb9~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 155.04,
+      "live_units_sold": 17,
+      "price": 0,
+      "product_id": "1729444049481601540",
+      "sales_timeline": [],
+      "title": "Glamourous Wash Laundry detergent by Tyler Candle"
+    },
+    {
+      "commission_rate_percent": 12,
+      "cover_url": "https://s.500fd.com/tt_product/7ee7532346664b4da1b3f3258a252a0c~tplv-fhlh96nyum-resize-jpeg:800:800.jpeg",
+      "live_gmv": 78.4,
+      "live_units_sold": 8,
+      "price": 0,
+      "product_id": "1729410993142338463",
+      "sales_timeline": [],
+      "title": "GLAMOROUS WASH"
+    },
+    {
+      "commission_rate_percent": 5,
+      "cover_url": "https://s.500fd.com/tt_product/56a41a39316141b59812f207383843df~tplv-fhlh96nyum-crop-webp:2400:2400.webp",
+      "live_gmv": 200,
+      "live_units_sold": 5,
+      "price": 0,
+      "product_id": "1732427094654685778",
+      "sales_timeline": [],
+      "title": "Lenox Spice Village Spice Rack"
+    },
+    {
+      "commission_rate_percent": 0,
+      "cover_url": "https://s.500fd.com/tt_product/d3fadd5896d5404b84202aab49004ec7~tplv-omjb5zjo8w-crop-jpeg:200:200.jpeg",
+      "live_gmv": 12.15,
+      "live_units_sold": 3,
+      "price": 0,
+      "product_id": "1729495203249951236",
+      "sales_timeline": [],
+      "title": "Autoglam Car-Freshner by Tyler Candle"
+    },
+    {
+      "commission_rate_percent": 10,
+      "cover_url": "https://s.500fd.com/tt_product/5aa967d63fea4b2cb07d15791cc304ce~tplv-omjb5zjo8w-resize-webp:800:800.webp",
+      "live_gmv": 37.12,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1730721419806216708",
+      "sales_timeline": [],
+      "title": "GLAM ON DEMAND LINEN AND ROOM SPRAY"
+    }
+  ],
+  "total": 18
+}

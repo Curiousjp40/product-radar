@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/6f2ed7847b4b4da890d24694adf1e90c~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 387.25,
+      "live_units_sold": 25,
+      "price": 0,
+      "product_id": "1732296357266952484",
+      "sales_timeline": [],
+      "title": "Elegant Casual Slim-Fit High Waist Long Pants"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/221002e525f140cc8767488eb08f5e7a~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 342.57,
+      "live_units_sold": 12,
+      "price": 0,
+      "product_id": "1732567917776834852",
+      "sales_timeline": [],
+      "title": "Women's Elegant Party Denim Jeans"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/8663cb5614d141f599a898fd53598d55~tplv-fhlh96nyum-origin-image.image",
+      "live_gmv": 178.6,
+      "live_units_sold": 10,
+      "price": 0,
+      "product_id": "1732344253781414696",
+      "sales_timeline": [],
+      "title": "KYM Women's Loose Straight Leg Jeans"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/58449d47bc8e4684b2bddedd4d19932d~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 20.44,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732122677939114458",
+      "sales_timeline": [],
+      "title": "Baillin Deer Skin Fitted Knee-Length Skirt"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/c2b02c71ef0a48d49cfd66eb6b94fadc~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 19.16,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731922858146173402",
+      "sales_timeline": [],
+      "title": "Baillin Fall Winter Three-Piece Set"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/fc9ac648f20d44fa8dab42324791be16~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 17.16,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731749212171768282",
+      "sales_timeline": [],
+      "title": "Baillin Plain Slim-Fit Knitted Crew Neck T-Shirt"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/63d50ec568fc45a886dfc9c0a7bb670f~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 21.26,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732541487688487290",
+      "sales_timeline": [],
+      "title": "Y2K Floral Sheer Mesh Crop Top"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/4479c16f0c154a1fb8292c2e8104259d~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 18.94,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1731925322582495660",
+      "sales_timeline": [],
+      "title": "Casual Basic Lace Patchwork Oversized T-Shirt"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/28f0c9d734c54c9da965e902dbc90b96~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 113.74,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1732525411419263952",
+      "sales_timeline": [],
+      "title": "YY Fashion Chic Denim Jacket"
+    },
+    {
+      "commission_rate_percent": 8,
+      "cover_url": "https://s.500fd.com/tt_product/1d6c49c3b5644ea4b296d23fd0d287f5~tplv-fhlh96nyum-crop-webp:1350:1800.webp",
+      "live_gmv": 21.8,
+      "live_units_sold": 2,
+      "price": 0,
+      "product_id": "1729479845478241357",
+      "sales_timeline": [],
+      "title": "Elegant Minimalist Loose Knitwear Shawl Pullover"
+    }
+  ],
+  "total": 108
+}

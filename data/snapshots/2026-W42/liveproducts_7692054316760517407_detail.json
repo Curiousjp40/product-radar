@@ -1,0 +1,23 @@
+{
+  "category_breakdown": {
+    "by_gmv": [
+      {
+        "category_id": 17,
+        "category_names": [
+          "Pet Supplies"
+        ],
+        "share": 100
+      }
+    ]
+  },
+  "live": {
+    "duration_seconds": 9146,
+    "start_time": 1790946097
+  },
+  "performance": {
+    "gmv": 2374.04,
+    "session_duration_seconds": 9146,
+    "total_viewer_count": 3510,
+    "units_sold": 23
+  }
+}
