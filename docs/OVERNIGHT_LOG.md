@@ -62,6 +62,34 @@ nothing here is blocked on you except the two Worker-deploy items
 (video thumbnails, logic.js) and confirming whether item 4's TikTok
 Shop sale-event dates are worth pursuing further.
 
+### Section 1b: desktop/mobile auto-detect layout -- done (infra), full
+### component-level divergence left for a follow-up
+Added layoutDetect.ts: a pure `detectLayout(width, pointerIsCoarse,
+override)` function (6 tests) implementing the doc's exact rule --
+<768px or a coarse/touch pointer is mobile, >=1024px with a fine
+pointer is desktop, the 768-1023 tablet band gets mobile, an explicit
+override always wins. Applied as `layout-mobile`/`layout-desktop` on
+`<html>` synchronously at module load (before first paint, no flash)
+and re-applied on resize/orientation change. Manual override lives in
+Ajustes -> "Vista" (Automatica/Celular/Computadora, localStorage,
+per-device) plus the doc's requested small footer backup link
+("Cambiar a vista de computadora/celular"), both wired and verified in
+the browser.
+
+Scoped down from the full ask: the doc's bigger vision is components
+actually RENDERING differently per layout (left sidebar on desktop,
+swipeable rows on phone, side-by-side product detail on desktop,
+etc.) -- most of today's app already achieves the right VISUAL result
+through plain CSS media queries (bottom tab bar on phone, multi-column
+grids on desktop, etc., built earlier tonight), so the class on <html>
+is real working infrastructure for future components to branch on,
+not yet wired into every view that could use it. That's a larger,
+genuinely separate follow-up (auditing every view for where a real
+structural -- not just sizing -- difference matters), not something to
+rush through at the end of an already-long session. Did not build
+Playwright screenshot tests for both layouts (doc also asks for this)
+-- no Playwright setup exists in this repo yet; flagging as a gap.
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done

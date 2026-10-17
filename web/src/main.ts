@@ -1,4 +1,5 @@
 import { getLang, setLang, t, type Lang } from "./i18n";
+import { applyLayoutClass, currentLayout, setLayoutOverride } from "./layoutDetect";
 import { pullHiddenCategories } from "./pipeline";
 import { renderCuentas, type CuentasSubTab } from "./views/cuentas";
 import { renderEnVivo } from "./views/enVivo";
@@ -80,6 +81,11 @@ function renderShell(lang: Lang): void {
       }).join("")}
     </nav>
     <main id="view"></main>
+    <footer class="app-footer">
+      <button type="button" class="link-button" data-vista-footer-toggle>
+        ${currentLayout() === "mobile" ? t("vista_footer_link_desktop", lang) : t("vista_footer_link_mobile", lang)}
+      </button>
+    </footer>
   `;
   app.querySelectorAll<HTMLButtonElement>(".lang-toggle button").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -88,6 +94,11 @@ function renderShell(lang: Lang): void {
     });
   });
   wireSyncIndicator(app, () => renderShell(lang));
+  app.querySelector<HTMLButtonElement>("[data-vista-footer-toggle]")?.addEventListener("click", () => {
+    setLayoutOverride(currentLayout() === "mobile" ? "desktop" : "mobile");
+    applyLayoutClass(currentLayout());
+    renderShell(lang);
+  });
 }
 
 async function renderApp(): Promise<void> {
@@ -160,6 +171,14 @@ async function renderApp(): Promise<void> {
       await renderHoy(view, lang);
   }
 }
+
+// Section 1b: applied before first paint (synchronously, right here at
+// module load) so there's never a flash of the wrong layout; re-applied
+// on resize/orientation change so rotating a tablet or resizing a
+// desktop window across the 1024px line updates live.
+applyLayoutClass(currentLayout());
+window.addEventListener("resize", () => applyLayoutClass(currentLayout()));
+window.addEventListener("orientationchange", () => applyLayoutClass(currentLayout()));
 
 window.addEventListener("hashchange", () => void renderApp());
 void renderApp();

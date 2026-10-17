@@ -309,6 +309,16 @@ export const dict: Record<string, { es: string; en: string }> = {
     es: "La edición de ajustes llega en una fase futura. Por ahora, edita config/settings.yaml.",
     en: "Editing settings from here arrives in a later phase. For now, edit config/settings.yaml.",
   },
+  vista_title: { es: "Vista", en: "View" },
+  vista_intro: {
+    es: "Elige cómo se ve la app en este dispositivo. Automática se ajusta sola según tu pantalla.",
+    en: "Choose how the app looks on this device. Automatic adjusts itself to your screen.",
+  },
+  vista_auto: { es: "Automática", en: "Automatic" },
+  vista_mobile: { es: "Celular", en: "Phone" },
+  vista_desktop: { es: "Computadora", en: "Computer" },
+  vista_footer_link_mobile: { es: "Cambiar a vista de celular", en: "Switch to phone view" },
+  vista_footer_link_desktop: { es: "Cambiar a vista de computadora", en: "Switch to computer view" },
   favorites_title: { es: "Mis favoritos", en: "My favorites" },
   favorites_intro: {
     es: "Elige los tipos de producto y las marcas que más te gustan. Suben un poco en Hoy y Esta semana.",

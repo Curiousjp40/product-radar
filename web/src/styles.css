@@ -193,6 +193,28 @@ main {
   }
 }
 
+/* Section 1b's "Cambiar a vista..." footer backup link. */
+.app-footer {
+  text-align: center;
+  padding: 4px 20px 20px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+@media (max-width: 767px) {
+  .app-footer {
+    padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px) + 12px);
+  }
+}
+
 @media (min-width: 768px) {
   nav.tabs {
     position: static;

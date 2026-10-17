@@ -3,6 +3,28 @@ import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { getFavorites, saveFavorites } from "../favorites";
 import { hasAnyFavorites, type Favorites } from "../favoritesLogic";
 import { locale, t, type Lang } from "../i18n";
+import { applyLayoutClass, currentLayout, getLayoutOverride, setLayoutOverride, type LayoutOverride } from "../layoutDetect";
+
+// Design review section 1b: manual "Vista" override (Automatica/Celular/
+// Computadora), applied immediately (not just on next load) so switching
+// feels live.
+function vistaSectionHtml(lang: Lang): string {
+  const current = getLayoutOverride();
+  const options: { value: LayoutOverride; labelKey: string }[] = [
+    { value: "auto", labelKey: "vista_auto" },
+    { value: "mobile", labelKey: "vista_mobile" },
+    { value: "desktop", labelKey: "vista_desktop" },
+  ];
+  return `
+    <div class="insight-card">
+      <h3>${t("vista_title", lang)}</h3>
+      <p class="text-dim" style="font-size:0.8rem">${t("vista_intro", lang)}</p>
+      <div class="favorites-chip-row">
+        ${options.map((o) => `<button type="button" class="filter-chip ${current === o.value ? "active" : ""}" data-vista="${o.value}">${t(o.labelKey, lang)}</button>`).join("")}
+      </div>
+    </div>
+  `;
+}
 
 function favoritesSectionHtml(fav: Favorites, categories: { key: string; label: string }[], brands: { name: string; count: number }[], lang: Lang): string {
   return `
@@ -74,11 +96,21 @@ export async function renderSettings(container: HTMLElement, lang: Lang): Promis
         ${t("weights_version", lang)}: ${data.weights_version} &middot; ${t("last_run", lang)}: ${new Date(data.run_at).toLocaleString(locale(lang))}
       </div>
     </div>
+    ${vistaSectionHtml(lang)}
     ${favoritesSectionHtml(fav, categories, brands, lang)}
     <div class="insight-card">
       <p style="font-size:0.85rem;color:var(--text-dim)">${t("settings_coming_soon", lang)}</p>
     </div>
   `;
+
+  container.querySelectorAll<HTMLButtonElement>("[data-vista]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const value = btn.dataset.vista as LayoutOverride;
+      setLayoutOverride(value);
+      applyLayoutClass(currentLayout());
+      void renderSettings(container, lang);
+    });
+  });
 
   let pendingCategories = new Set(fav.categories);
   let pendingBrands = new Set(fav.brands);
