@@ -368,6 +368,8 @@ export const dict: Record<string, { es: string; en: string }> = {
   ocultos_hidden_categories_title: { es: "Categorías ocultas", en: "Hidden categories" },
   ocultos_hidden_products_title: { es: "Productos ocultos", en: "Hidden products" },
   all_this_week_title: { es: "Todo lo demás esta semana", en: "Everything else this week" },
+  ver_mas_button: { es: "Ver más ({n})", en: "See more ({n})" },
+  category_group_count: { es: "{category} ({n})", en: "{category} ({n})" },
   credits_widget_title: { es: "Créditos de FastMoss", en: "FastMoss credits" },
   credits_widget_remaining: { es: "{n} créditos disponibles", en: "{n} credits remaining" },
   credits_widget_plan: { es: "{n} del plan", en: "{n} plan" },

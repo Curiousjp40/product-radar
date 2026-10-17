@@ -13,6 +13,8 @@ import { showUndoToast } from "../toast";
 import type { Candidate, CategoryGroup } from "../types";
 import { sortCandidates, type SortMode } from "../todosSort";
 import { productCardInfoHtml } from "./productCard";
+import { backToTopButtonHtml, detailModalHtml, openDetailModal, wireBackToTop, wireDetailModal } from "../detailModal";
+import { hasRequestedSample, requestSample } from "../samples";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 import { videoSubTabsHtml } from "../videoSubTabs";
 
@@ -46,7 +48,12 @@ function bulkSheetHtml(lang: Lang): string {
   `;
 }
 
-function row(
+// Design review 0.2/0.3/3.3: one compact ProductCard (same component as
+// Esta semana), 2-4 column grid instead of a tall full-width row list --
+// the real measured culprit behind Todos' 18,079px page height. Detail
+// opens as the shared modal; in bulk-select mode the card toggles
+// selection instead (checkbox stays visible, no navigation either way).
+function cardHtml(
   c: Candidate,
   lang: Lang,
   ownedProductIds: Set<string>,
@@ -54,9 +61,56 @@ function row(
   bulkMode: boolean,
   selected: boolean,
 ): string {
-  const photo = c.image_url
-    ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />`
-    : `<div class="photo"></div>`;
+  const infoHtml = productCardInfoHtml(
+    {
+      earnings_per_sale: c.earnings_per_sale,
+      price: c.price,
+      commission_rate: c.commission_rate,
+      units_7d: c.units_7d,
+      daily_units_14: c.daily_units,
+      creator_count: c.creator_count,
+      ev_typical: c.ev_typical,
+      score: c.score,
+      saturation_badge: c.saturation_badge,
+    },
+    {
+      lang,
+      compact: true,
+      monthlyGoalRemaining,
+      isOwned: ownedProductIds.has(c.product_id),
+      risingFast: c.rising_fast,
+      pocasLatinas: c.pocas_creadoras_latinas,
+      seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
+    },
+  );
+  return `
+    <article class="pick-card${c.suspicious ? " suspicious" : ""}" data-bulk-toggle="${c.product_id}">
+      ${bulkMode ? `<input type="checkbox" class="bulk-select-checkbox" data-bulk-select="${c.product_id}" ${selected ? "checked" : ""} />` : ""}
+      <div class="card-photo-link">
+        ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="card-photo card-photo-placeholder"></div>`}
+        ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">${c.clean_title}</h3>
+        ${infoHtml}
+        ${
+          bulkMode
+            ? ""
+            : `<div class="card-actions" onclick="event.stopPropagation()">
+                <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
+                ${yaLoTengoButtonHtml(c.product_id, lang)}
+              </div>`
+        }
+      </div>
+    </article>
+  `;
+}
+
+// Lighter detail body than Esta semana's (Candidate has no videos/
+// hashtags/hooks -- those live on the full product page via loadProduct,
+// linked below, same pattern Esta semana's own modal already uses).
+function candidateDetailHtml(c: Candidate, lang: Lang, ownedProductIds: Set<string>, monthlyGoalRemaining: number | null): string {
+  const categoryLabel = lang === "es" ? c.category_label_es : c.category_label_en;
   const infoHtml = productCardInfoHtml(
     {
       earnings_per_sale: c.earnings_per_sale,
@@ -79,24 +133,31 @@ function row(
     },
   );
   return `
-    <article class="todos-row${c.suspicious ? " suspicious" : ""}" style="position:relative">
-      ${bulkMode ? `<input type="checkbox" class="bulk-select-checkbox" data-bulk-select="${c.product_id}" ${selected ? "checked" : ""} />` : ""}
-      <a class="todos-row-link" href="${bulkMode ? "#" : `#/product/${c.product_id}`}" data-bulk-toggle="${c.product_id}">
-        ${photo}
-        <div class="info">
-          <div class="name">${c.title}</div>
-          ${infoHtml}
-          ${c.is_pick ? `<span class="star" title="${t("nav_this_week", lang)}">&#9733;</span>` : ""}
-        </div>
-      </a>
-      ${
-        bulkMode
-          ? ""
-          : `<a class="btn-save-pill todos-row-tiktok" href="${c.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
-      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
-      ${yaLoTengoButtonHtml(c.product_id, lang)}`
-      }
-    </article>
+    <div class="week-detail-inner">
+      <div class="week-detail-photo-wrap">
+        ${c.image_url ? `<img class="week-detail-photo" src="${assetUrl(c.image_url)}" alt="${c.clean_title}" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="week-detail-photo week-detail-photo-placeholder"></div>`}
+      </div>
+      <h3 class="week-detail-title">${c.clean_title}</h3>
+      <div class="week-detail-meta">${categoryLabel}</div>
+      ${infoHtml}
+      ${c.saturation_badge ? `<p class="saturation-reason">${lang === "es" ? c.saturation_badge.reason_es : c.saturation_badge.reason_en}</p>` : ""}
+      ${c.pocas_creadoras_latinas ? `<p class="saturation-reason">${t("pocas_latinas_reason", lang)}</p>` : ""}
+      <div class="card-actions week-detail-actions">
+        <a class="btn-primary" href="${c.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+        <button
+          type="button"
+          class="btn-request-sample ${hasRequestedSample(c.product_id) ? "active" : ""}"
+          data-action="request-sample"
+          data-product-id="${c.product_id}"
+          data-price="${c.price}"
+          data-name="${c.clean_title.replace(/"/g, "&quot;")}"
+          ${hasRequestedSample(c.product_id) ? "disabled" : ""}
+        >${hasRequestedSample(c.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
+        <a class="btn-save-pill" href="#/product/${c.product_id}">${t("ver_todos_detalles_button", lang)}</a>
+        <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
+        ${yaLoTengoButtonHtml(c.product_id, lang)}
+      </div>
+    </div>
   `;
 }
 
@@ -196,7 +257,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       ${
         sorted.length === 0
           ? `<p class="empty-state">${t("no_data", lang)}</p>`
-          : `<div class="todos-list">${visible.map((c) => row(c, lang, ownedIds, monthlyGoalRemaining, bulkMode, selectedIds.has(c.product_id))).join("")}</div>
+          : `<div class="card-grid card-grid-wide">${visible.map((c) => cardHtml(c, lang, ownedIds, monthlyGoalRemaining, bulkMode, selectedIds.has(c.product_id))).join("")}</div>
              ${
                sorted.length > visible.length
                  ? `<button type="button" class="btn-save-pill todos-load-more">${t("load_more_button", lang, { n: sorted.length - visible.length })}</button>`
@@ -213,6 +274,8 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       }
       ${bulkMode ? bulkSheetHtml(lang) : ""}
       ${yaLoTengoSheetHtml(lang)}
+      ${detailModalHtml()}
+      ${backToTopButtonHtml(lang)}
     `;
 
     categoryHidePrompt = null;
@@ -236,6 +299,46 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       ]),
     );
     wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderTodos(container, lang));
+    wireDetailModal(container);
+    wireBackToTop(container);
+
+    async function handleNotForMe(productId: string, category: string): Promise<void> {
+      if (!productId || !category) return;
+      await setFeedback(productId, "not_for_me");
+      showUndoToast(lang, t("undo_toast_not_for_me", lang), () => {
+        void clearFeedback(productId).then(async () => {
+          feedback = await getAllFeedback();
+          draw();
+        });
+      });
+      feedback = await getAllFeedback();
+      const label = lang === "es" ? data.candidates.find((c) => c.category === category)?.category_label_es : data.candidates.find((c) => c.category === category)?.category_label_en;
+      if (!getHiddenCategories().includes(category) && countHiddenInCategory(feedback, categoryByProductId, category) >= 3) {
+        categoryHidePrompt = { category, label: resolveCategoryLabel(category, lang, label) };
+      }
+      draw();
+    }
+
+    function wireDetailActions(detailEl: HTMLElement, productId: string): void {
+      detailEl.querySelector<HTMLButtonElement>('[data-action="request-sample"]')?.addEventListener("click", (e) => {
+        const btn = e.currentTarget as HTMLButtonElement;
+        const { price, name } = btn.dataset;
+        requestSample(productId, name ?? "", Number(price) || 0, new Date());
+        openDetail(productId);
+      });
+      detailEl.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
+        btn.addEventListener("click", () => handleNotForMe(btn.dataset.productId!, btn.dataset.category!));
+      });
+    }
+
+    function openDetail(productId: string): void {
+      const c = candidatesById.get(productId);
+      if (!c) return;
+      openDetailModal(container, candidateDetailHtml(c, lang, ownedIds, monthlyGoalRemaining));
+      const detailEl = container.querySelector<HTMLElement>(".detail-modal-body");
+      if (detailEl) wireDetailActions(detailEl, productId);
+    }
+
     container.querySelector(".todos-load-more")?.addEventListener("click", () => {
       visibleCount += PAGE_SIZE;
       draw();
@@ -253,9 +356,12 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
     });
     container.querySelectorAll<HTMLElement>("[data-bulk-toggle]").forEach((el) => {
       el.addEventListener("click", (e) => {
-        if (!bulkMode) return;
-        e.preventDefault();
         const id = el.dataset.bulkToggle!;
+        if (!bulkMode) {
+          openDetail(id);
+          return;
+        }
+        e.preventDefault();
         if (selectedIds.has(id)) selectedIds.delete(id);
         else selectedIds.add(id);
         draw();
@@ -321,23 +427,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
       });
     }
     container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
-      btn.addEventListener("click", async () => {
-        const { productId, category } = btn.dataset;
-        if (!productId || !category) return;
-        await setFeedback(productId, "not_for_me");
-        showUndoToast(lang, t("undo_toast_not_for_me", lang), () => {
-          void clearFeedback(productId).then(async () => {
-            feedback = await getAllFeedback();
-            draw();
-          });
-        });
-        feedback = await getAllFeedback();
-        const label = lang === "es" ? data.candidates.find((c) => c.category === category)?.category_label_es : data.candidates.find((c) => c.category === category)?.category_label_en;
-        if (!getHiddenCategories().includes(category) && countHiddenInCategory(feedback, categoryByProductId, category) >= 3) {
-          categoryHidePrompt = { category, label: resolveCategoryLabel(category, lang, label) };
-        }
-        draw();
-      });
+      btn.addEventListener("click", () => handleNotForMe(btn.dataset.productId!, btn.dataset.category!));
     });
 
     container.querySelector<HTMLInputElement>(".todos-search-input")?.addEventListener("input", (e) => {

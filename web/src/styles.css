@@ -527,16 +527,34 @@ select.status-select {
    ------------------------------------------------------------------- */
 
 .pick-card {
+  position: relative;
   background: var(--surface);
   border-radius: var(--radius);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   box-shadow: 0 1px 3px rgba(28, 27, 31, 0.08);
+  cursor: pointer;
 }
 
 .card-photo-link {
   display: block;
+  position: relative;
+}
+
+.card-photo-link .star {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
 }
 
 .card-photo,
@@ -2329,13 +2347,77 @@ select.status-select {
 }
 
 .week-category-group {
-  margin: 0 0 24px;
+  margin: 0 0 16px;
 }
 
 .week-category-group-title {
   font-family: var(--font-display);
   font-size: 1.1rem;
   margin: 0 0 10px;
+}
+
+/* Design review section 2: "everything else" collapsed by category,
+ * e.g. "Fajas (28) ▸". */
+.week-category-group-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.week-category-group-arrow {
+  color: var(--text-dim);
+}
+
+/* Compact multi-column grid (design review 1/2/3.2): 2 columns on phone,
+ * 3 >=1000px, 4 >=1280px -- wider than the default .card-grid (which Hoy's
+ * horizontal rows still use at 2 columns max). */
+.card-grid-wide {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 1000px) {
+  .card-grid-wide {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .card-grid-wide {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card-v2-info-compact {
+  gap: 4px;
+}
+
+.ver-mas-btn {
+  display: block;
+  width: fit-content;
+  margin: 4px auto 20px;
+}
+
+.combos-row-scroll {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.combos-row-scroll .combo-row {
+  flex: 0 0 240px;
 }
 
 .ocultos-row .name {

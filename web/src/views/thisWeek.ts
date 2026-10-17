@@ -15,6 +15,7 @@ import { showUndoToast } from "../toast";
 import type { Candidate, CategoryGroup, ComboPair, Pick } from "../types";
 import { assetUrl, IMG_FALLBACK } from "../asset";
 import { findCombos } from "../combos";
+import { backToTopButtonHtml, detailModalHtml, openDetailModal, wireBackToTop, wireDetailModal } from "../detailModal";
 import { productCardInfoHtml } from "./productCard";
 import { hasRequestedSample, requestSample } from "../samples";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
@@ -51,6 +52,7 @@ function wireGroupFilter(container: HTMLElement, lang: Lang): void {
   container.querySelectorAll<HTMLButtonElement>("[data-group-filter]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const value = btn.dataset.groupFilter as "all" | CategoryGroup;
+      mainListVisibleCount = PAGE_SIZE;
       void renderThisWeek(container, lang, value);
     });
   });
@@ -70,35 +72,45 @@ function pickCardInput(pick: Pick) {
   };
 }
 
-// Left-column compact row (Part F split view).
-function rowHtml(pick: Pick, lang: Lang, selected: boolean, ownedIds: Set<string>, monthlyGoalRemaining: number | null): string {
-  const infoHtml = productCardInfoHtml(pickCardInput(pick), {
-    lang,
-    monthlyGoalRemaining,
-    isOwned: ownedIds.has(pick.product_id),
-    pocasLatinas: pick.pocas_creadoras_latinas,
-    seasonEventLabel: lang === "es" ? pick.season_event_label_es : pick.season_event_label_en,
-  });
+// Design review 0.3/3.2: one compact ProductCard everywhere on this page --
+// tapping anywhere on the card (except its two action buttons) opens the
+// shared detail modal, never an inline/side panel.
+function compactCardHtml(
+  productId: string,
+  cleanTitle: string,
+  imageUrl: string | null,
+  category: string,
+  infoHtml: string,
+): string {
   return `
-    <div class="week-row ${selected ? "selected" : ""}" data-product-id="${pick.product_id}">
-      <a class="week-row-link" href="#/product/${pick.product_id}" data-product-id="${pick.product_id}">
-        ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
-        <div class="week-row-body">
-          <div class="week-row-title">${pick.clean_title}</div>
-          ${infoHtml}
-        </div>
-      </a>
-      <div class="week-row-actions">
-        <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
-        ${yaLoTengoButtonHtml(pick.product_id, lang)}
+    <article class="pick-card" data-open-detail="${productId}">
+      <div class="card-photo-link">
+        ${imageUrl ? `<img class="card-photo" src="${assetUrl(imageUrl)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="card-photo card-photo-placeholder"></div>`}
       </div>
-    </div>
+      <div class="card-body">
+        <h3 class="card-title">${cleanTitle}</h3>
+        ${infoHtml}
+        <div class="card-actions" onclick="event.stopPropagation()">
+          <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${productId}" data-category="${category}">${t("not_for_me_button", lang_for_click_guard)}</button>
+          ${yaLoTengoButtonHtml(productId, lang_for_click_guard)}
+        </div>
+      </div>
+    </article>
   `;
 }
+// compactCardHtml is only ever called from within renderThisWeek, which
+// sets this before any call -- avoids threading `lang` through one more
+// parameter on an already-long call site list below.
+let lang_for_click_guard: Lang = "es";
+
+const PAGE_SIZE = 12;
+let mainListVisibleCount = PAGE_SIZE;
+const expandedCategories = new Set<string>();
 
 // "Esta semana, todo lo demás": the rest of this week's candidates (not in
-// the curated ~9 picks), grouped by category -- Part C3's "not just the
-// curated picks" ask, without redefining what a "pick" is in the engine.
+// the curated ~9 picks), grouped by category, collapsed by default
+// (design review section 2: "Everything else this week" starts collapsed
+// by category, e.g. "Fajas (28) ▸").
 function allThisWeekHtml(
   candidates: Candidate[],
   excludeIds: Set<string>,
@@ -128,50 +140,46 @@ function allThisWeekHtml(
         const items = applyOwnedDisplay(sorted, ownedIds, (c) => c.product_id, hideOwned);
         if (items.length === 0) return "";
         const label = lang === "es" ? items[0].category_label_es : items[0].category_label_en;
+        const expanded = expandedCategories.has(cat);
         return `
           <div class="week-category-group">
-            <h4 class="week-category-group-title">${label}</h4>
-            <div class="card-grid">
-              ${items
-                .map((c) => {
-                  const infoHtml = productCardInfoHtml(
-                    {
-                      earnings_per_sale: c.earnings_per_sale,
-                      price: c.price,
-                      commission_rate: c.commission_rate,
-                      units_7d: c.units_7d,
-                      daily_units_14: c.daily_units,
-                      creator_count: c.creator_count,
-                      ev_typical: c.ev_typical,
-                      score: c.score,
-                      saturation_badge: c.saturation_badge,
-                    },
-                    {
-                      lang,
-                      monthlyGoalRemaining,
-                      isOwned: ownedIds.has(c.product_id),
-                      risingFast: c.rising_fast,
-                      pocasLatinas: c.pocas_creadoras_latinas,
-                      seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
-                    },
-                  );
-                  return `
-                <article class="pick-card">
-                  <a class="card-photo-link" href="#/product/${c.product_id}">
-                    ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="card-photo card-photo-placeholder"></div>`}
-                  </a>
-                  <div class="card-body">
-                    <h3 class="card-title">${c.clean_title}</h3>
-                    ${infoHtml}
-                    <div class="card-actions">
-                      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${c.product_id}" data-category="${c.category}">${t("not_for_me_button", lang)}</button>
-                      ${yaLoTengoButtonHtml(c.product_id, lang)}
-                    </div>
-                  </div>
-                </article>`;
-                })
-                .join("")}
-            </div>
+            <button type="button" class="week-category-group-toggle" data-category-toggle="${cat}" aria-expanded="${expanded}">
+              <span>${t("category_group_count", lang, { category: label, n: items.length })}</span>
+              <span class="week-category-group-arrow">${expanded ? "▾" : "▸"}</span>
+            </button>
+            ${
+              expanded
+                ? `<div class="card-grid card-grid-wide">
+                    ${items
+                      .map((c) => {
+                        const infoHtml = productCardInfoHtml(
+                          {
+                            earnings_per_sale: c.earnings_per_sale,
+                            price: c.price,
+                            commission_rate: c.commission_rate,
+                            units_7d: c.units_7d,
+                            daily_units_14: c.daily_units,
+                            creator_count: c.creator_count,
+                            ev_typical: c.ev_typical,
+                            score: c.score,
+                            saturation_badge: c.saturation_badge,
+                          },
+                          {
+                            lang,
+                            compact: true,
+                            monthlyGoalRemaining,
+                            isOwned: ownedIds.has(c.product_id),
+                            risingFast: c.rising_fast,
+                            pocasLatinas: c.pocas_creadoras_latinas,
+                            seasonEventLabel: lang === "es" ? c.season_event_label_es : c.season_event_label_en,
+                          },
+                        );
+                        return compactCardHtml(c.product_id, c.clean_title, c.image_url, c.category, infoHtml);
+                      })
+                      .join("")}
+                  </div>`
+                : ""
+            }
           </div>
         `;
       })
@@ -179,8 +187,8 @@ function allThisWeekHtml(
   `;
 }
 
-// H2 combos: shown above the split view when at least one complementary
-// category pair both have a pick this week.
+// H2 combos: shown above the grid when at least one complementary category
+// pair both have a pick this week.
 function combosHtml(
   picks: Pick[],
   comboPairs: ComboPair[],
@@ -196,22 +204,27 @@ function combosHtml(
   return `
     <div class="insight-card combos-card">
       <h3>${t("combos_title", lang)}</h3>
-      ${combos
-        .map(
-          (c) => `
-        <div class="combo-row">
-          <div class="combo-names">${c.a.clean_title} + ${c.b.clean_title}</div>
-          <div class="combo-idea">${lang === "es" ? c.idea_es : c.idea_en}</div>
-          <div class="combo-earn">${t("combos_combined_earn", lang, { amount: `$${c.combinedEarnings.toFixed(2)}` })}</div>
-        </div>`,
-        )
-        .join("")}
+      <div class="combos-row-scroll">
+        ${combos
+          .map(
+            (c) => `
+          <div class="combo-row">
+            <div class="combo-names">${c.a.clean_title} + ${c.b.clean_title}</div>
+            <div class="combo-idea">${lang === "es" ? c.idea_es : c.idea_en}</div>
+            <div class="combo-earn">${t("combos_combined_earn", lang, { amount: `$${c.combinedEarnings.toFixed(2)}` })}</div>
+          </div>`,
+          )
+          .join("")}
+      </div>
     </div>
   `;
 }
 
-// Right-column sticky detail panel (desktop only, see .week-detail in
-// styles.css). No image here exceeds 320px (photo) or 140px (video thumbs).
+// Detail modal body -- same content as before, just rendered inside the
+// shared fixed-position overlay instead of a side panel that stayed
+// pinned to the top of the page while the list scrolled underneath it
+// (real bug reported on the live site: the panel kept showing a
+// previously-clicked product, out of view, disconnected from the card).
 function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string>, monthlyGoalRemaining: number | null): string {
   const categoryLabel = lang === "es" ? pick.category_label_es : pick.category_label_en;
   const summary = summaryFor(pick, lang);
@@ -300,6 +313,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
 }
 
 export async function renderThisWeek(container: HTMLElement, lang: Lang, filterGroup: "all" | CategoryGroup = "all"): Promise<void> {
+  lang_for_click_guard = lang;
   container.innerHTML = `<p class="empty-state">...</p>`;
   const [{ data: rawData, isSample }, { data: hooks }, { data: candidatesData }] = await Promise.all([
     loadPicks(),
@@ -340,9 +354,9 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     container.innerHTML = `${banner}${videoSubTabsHtml("week", lang)}<p class="empty-state">${t("no_data", lang)}</p>`;
     return;
   }
-  // Moda/Hogar/Todo filter (2026-10-16): applies only to the list/detail
-  // split -- combosHtml and the "Todos" candidate list below it are
-  // unaffected, same as the existing not-for-me/hidden-category filtering.
+  // Moda/Hogar/Todo filter: applies only to the main grid below -- combosHtml
+  // and the "Todos" candidate list are unaffected, same as not-for-me/
+  // hidden-category filtering.
   const visiblePicks = filterGroup === "all" ? data.picks : data.picks.filter((p) => p.group === filterGroup);
   const picksById = new Map(data.picks.map((p) => [p.product_id, p]));
 
@@ -389,18 +403,20 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
 
   function renderDetail(productId: string): void {
     const pick = picksById.get(productId);
-    const detailEl = container.querySelector<HTMLElement>(".week-detail");
+    const detailEl = container.querySelector<HTMLElement>(".detail-modal-body");
     if (!pick || !detailEl) return;
     const saved = statuses[pick.product_id] === "shortlisted";
     detailEl.innerHTML = detailHtml(pick, lang, saved, ownedIds, monthlyGoalRemaining);
     wireDetail(detailEl, pick.product_id);
   }
 
-  function selectRow(productId: string): void {
-    container.querySelectorAll<HTMLElement>(".week-row").forEach((row) => {
-      row.classList.toggle("selected", row.dataset.productId === productId);
-    });
-    renderDetail(productId);
+  function openDetail(productId: string): void {
+    const pick = picksById.get(productId);
+    if (!pick) return;
+    const saved = statuses[pick.product_id] === "shortlisted";
+    openDetailModal(container, detailHtml(pick, lang, saved, ownedIds, monthlyGoalRemaining));
+    const detailEl = container.querySelector<HTMLElement>(".detail-modal-body");
+    if (detailEl) wireDetail(detailEl, productId);
   }
 
   if (visiblePicks.length === 0) {
@@ -413,20 +429,35 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
     wireGroupFilter(container, lang);
     return;
   }
-  const firstId = visiblePicks[0].product_id;
   const excludeIds = new Set(data.picks.map((p) => p.product_id));
+  const pageItems = visiblePicks.slice(0, mainListVisibleCount);
+  const remaining = visiblePicks.length - pageItems.length;
   container.innerHTML = `
     ${banner}
     ${videoSubTabsHtml("week", lang)}
     ${combosHtml(data.picks, hooks.combo_pairs, hooks.category_fit_keywords, lang)}
     ${groupFilterHtml(filterGroup, lang)}
-    <div class="week-split">
-      <div class="week-list">${visiblePicks.map((p) => rowHtml(p, lang, p.product_id === firstId, ownedIds, monthlyGoalRemaining)).join("")}</div>
-      <div class="week-detail"></div>
+    <div class="card-grid card-grid-wide">
+      ${pageItems
+        .map((p) => {
+          const infoHtml = productCardInfoHtml(pickCardInput(p), {
+            lang,
+            compact: true,
+            monthlyGoalRemaining,
+            isOwned: ownedIds.has(p.product_id),
+            pocasLatinas: p.pocas_creadoras_latinas,
+            seasonEventLabel: lang === "es" ? p.season_event_label_es : p.season_event_label_en,
+          });
+          return compactCardHtml(p.product_id, p.clean_title, p.image_url, p.category, infoHtml);
+        })
+        .join("")}
     </div>
+    ${remaining > 0 ? `<button type="button" class="btn-save-pill ver-mas-btn" data-ver-mas>${t("ver_mas_button", lang, { n: remaining })}</button>` : ""}
     <div class="category-hide-prompt-slot"></div>
     ${allThisWeekHtml(candidatesData.candidates, excludeIds, lang, ownedIds, monthlyGoalRemaining, hideOwned)}
     ${yaLoTengoSheetHtml(lang)}
+    ${detailModalHtml()}
+    ${backToTopButtonHtml(lang)}
   `;
   const yaLoTengoProducts = new Map<string, YaLoTengoProduct>(
     [...rawData.picks, ...candidatePool, ...candidatesData.candidates].map((p) => [
@@ -445,29 +476,36 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
       },
     ]),
   );
-  renderDetail(firstId);
   wireGroupFilter(container, lang);
+  wireDetailModal(container);
+  wireBackToTop(container);
   wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderThisWeek(container, lang, filterGroup));
   container.querySelector<HTMLInputElement>(".hide-owned-checkbox")?.addEventListener("change", (e) => {
     setHideOwnedPref((e.currentTarget as HTMLInputElement).checked);
     void renderThisWeek(container, lang, filterGroup);
   });
 
-  container.querySelectorAll<HTMLElement>(".week-row-link").forEach((link) => {
-    const id = link.dataset.productId!;
-    link.addEventListener("click", (e) => {
-      // Desktop (split view): select in place, no navigation. Phone/tablet:
-      // the detail panel is hidden by CSS, so let the <a href> navigate to
-      // the full product page instead.
-      if (window.matchMedia("(min-width: 1024px)").matches) {
-        e.preventDefault();
-        selectRow(id);
-      }
+  container.querySelector<HTMLButtonElement>("[data-ver-mas]")?.addEventListener("click", () => {
+    mainListVisibleCount += PAGE_SIZE;
+    void renderThisWeek(container, lang, filterGroup);
+  });
+
+  container.querySelectorAll<HTMLButtonElement>("[data-category-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const cat = btn.dataset.categoryToggle!;
+      if (expandedCategories.has(cat)) expandedCategories.delete(cat);
+      else expandedCategories.add(cat);
+      void renderThisWeek(container, lang, filterGroup);
     });
   });
 
+  container.querySelectorAll<HTMLElement>("[data-open-detail]").forEach((card) => {
+    card.addEventListener("click", () => openDetail(card.dataset.openDetail!));
+  });
+
   container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
-    btn.addEventListener("click", async () => {
+    btn.addEventListener("click", async (e) => {
+      e.stopPropagation();
       const { productId, category } = btn.dataset;
       if (!productId || !category) return;
       await setFeedback(productId, "not_for_me");
