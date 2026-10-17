@@ -42,7 +42,7 @@ const TABS: { route: string; labelKey: string }[] = [
   { route: "more", labelKey: "nav_more" },
 ];
 const VIDEO_ROUTES = new Set(["week", "todos", "mejores-horas"]);
-const MORE_ROUTES = new Set(["season", "settings", "pipeline", "outreach", "ocultos", "muestras", "mi-dinero"]);
+const MORE_ROUTES = new Set(["settings", "pipeline", "outreach", "ocultos", "muestras", "mi-dinero"]);
 
 function currentRoute(): { name: string; param?: string; param2?: string } {
   const hash = location.hash.replace(/^#\/?/, "");
@@ -147,6 +147,7 @@ async function renderApp(): Promise<void> {
       await renderMiDinero(view, lang);
       break;
     case "season":
+    case "temporadas":
       await renderSeason(view, lang);
       break;
     case "settings":

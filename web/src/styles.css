@@ -578,6 +578,53 @@ table.radar-table td {
   font-size: 0.8rem;
 }
 
+.season-dates-line,
+.season-categories {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.season-dates-tbd {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.season-section-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 20px 0 8px;
+}
+
+.hoy-season-card {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.hoy-season-thumbs {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.hoy-season-thumbs img,
+.hoy-season-thumb-placeholder {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--surface-2);
+}
+
+.hoy-season-card .more-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
 select.status-select {
   background: var(--surface-2);
   color: var(--text);

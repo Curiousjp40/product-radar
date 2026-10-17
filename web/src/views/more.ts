@@ -7,14 +7,14 @@ import { t, type Lang } from "../i18n";
 // legacy "Muestras (antiguo)" link removed from here -- its route/data
 // still exist (other flows still write to it), just no longer linked.
 // Design review follow-up (Ryan): "Buscar cuenta" + "Comparar cuentas"
-// merged into the new Cuentas main tab (views/cuentas.ts), no longer
-// linked from here.
+// merged into the new Cuentas main tab (views/cuentas.ts); "Temporadas"
+// moved to its own #/temporadas page, reached from Hoy's "Próxima
+// temporada" card instead of from this list.
 const LINKS: { route: string; labelKey: string }[] = [
   { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "outreach", labelKey: "nav_outreach" },
   { route: "ocultos", labelKey: "nav_ocultos" },
   { route: "mi-dinero", labelKey: "nav_mi_dinero" },
-  { route: "season", labelKey: "nav_season" },
   { route: "settings", labelKey: "nav_settings" },
 ];
 

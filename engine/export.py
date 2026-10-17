@@ -56,6 +56,34 @@ def write_best_times(
     )
 
 
+def write_seasons(events: list[dict[str, Any]], data_dir: Path | None = None) -> None:
+    """Design review section 0 items 7/8 (2026-10-16): web/public/data/
+    seasons.json had gone stale -- nothing in the pipeline ever wrote it,
+    so it still had pre-category-rework keys (womens_clothing, beauty_hair)
+    and was missing event_date (added to config/seasons.yaml 2026-10-16 for
+    the "days until the real day, not film_end" countdown fix) entirely.
+    Writes straight from config/seasons.yaml's own event dicts -- they
+    already carry every field the frontend's SeasonEvent type needs
+    (id/label_es/label_en/categories/film_start/film_end/event_date/
+    notes_es/notes_en), so no re-shaping beyond picking those keys."""
+    out = []
+    for e in events:
+        out.append(
+            {
+                "id": e["id"],
+                "label_es": e["label_es"],
+                "label_en": e["label_en"],
+                "categories": e.get("categories", []),
+                "film_start": e.get("film_start"),
+                "film_end": e.get("film_end"),
+                "event_date": e.get("event_date"),
+                **({"notes_es": e["notes_es"]} if e.get("notes_es") else {}),
+                **({"notes_en": e["notes_en"]} if e.get("notes_en") else {}),
+            }
+        )
+    _write((data_dir or DATA_DIR) / "seasons.json", {"schema_version": SCHEMA_VERSION, "events": out})
+
+
 def write_live_highlights(highlights: dict[str, list[dict]], data_dir: Path | None = None) -> None:
     """Part 7 "En vivo" (2026-10-16): top-selling lives per category over
     the last 28 days (engine.posting_time.top_lives_for_l1, aggregated by

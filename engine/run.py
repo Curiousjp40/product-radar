@@ -1823,6 +1823,7 @@ async def run(args: argparse.Namespace) -> None:
         export.write_live_highlights(live_highlights_by_category, data_dir=export_dir)
         live_schedule_by_group = compute_live_schedule_by_group(live_timing_cfg) if live_timing_cfg else {}
         export.write_live_schedule(live_schedule_by_group, data_dir=export_dir)
+        export.write_seasons(config["seasons"]["events"], data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}

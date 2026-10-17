@@ -127,3 +127,56 @@ silently.
 Caught one real bug while testing: `.group-tabs` CSS only styled
 `button`, never `a` -- the new sub-tab links rendered as default blue
 underlined text (styles.css fix: extended the selectors to cover both).
+
+### Item 7: Seasons/Temporadas dates + placement -- done
+Found the real root cause of the design review's "ISO dates
+2026-11-01 -> 2026-12-02" / raw-key complaint while investigating:
+web/public/data/seasons.json was never written by the pipeline at all
+(no write_seasons call existed anywhere in engine/export.py or
+engine/run.py) -- it was a stale, hand-committed file left over from
+before the 2026-10-18 category rework, still using old keys
+(womens_clothing, beauty_hair) and missing the `event_date` field
+config/seasons.yaml already had. views/season.ts rendered that stale
+file's raw category array and raw film_start/film_end strings directly
+-- exactly the bug class items 0.7/0.8 describe, just not the file
+Ryan's screenshots happened to show it in.
+
+Fixed at the source: added engine.export.write_seasons (3 new pytest
+cases) and wired it into engine.run.run()'s export step so every real
+weekly run keeps it fresh from now on; regenerated it immediately with
+a one-off 0-credit local script (engine.config.load_all +
+write_seasons -- pure data transform, no FastMoss call) so the fix is
+live now, not just after tomorrow's scheduled run. Also synced
+web/public/data/sample/seasons.json to match.
+
+DATES: moved Black Friday filming to Oct 15 and holiday gifting to
+Nov 1 in config/seasons.yaml per Ryan's instruction (both comments
+explain why). Did NOT add TikTok Shop's own sale events (Deals for You
+Days already exists as a placeholder with null dates, correctly shows
+"Fechas por confirmar") -- item 3 said only add them with dates
+confirmed from TikTok Shop's own official pages, and I'm not confident
+enough in anything I could find to call it "confirmed"; left as a
+known gap rather than guessing a sale date. Fixed a few more missing
+accents in config/seasons.yaml's notes_es while in the file (Leggings
+termicos -> térmicos, two "Dia de las Madres" -> "Día de las Madres").
+
+views/season.ts (+ new seasonLogic.ts, split out so the pure
+groupSeasonEvents/countdownStatus functions don't pull in i18n.ts's
+value import and break node's test runner -- same class of fix as
+copyScan.ts, pure logic stays dependency-free): every event now shows
+"Empieza a grabar: {date} - {Event}: {date}" (human dates, not ISO) and
+real category names (not raw keys), via categoryLabels.ts.
+
+PLACEMENT: "Temporadas" removed from Mas; full calendar lives at
+#/temporadas (old #/season link still works) as a 3-section timeline
+(Ahora/Proximo/Mas adelante, groupSeasonEvents + 4 new tests). Hoy got
+a "Proxima temporada" card (current-or-next event, countdown, start-
+filming date, up to 3 product thumbnails from this week's picks
+matching the event's categories, "Ver calendario" link) replacing the
+old one-line countdown banner.
+
+NOT done (logged, not silently skipped): the "Temporada" filter chip
+on Videos -> Esta semana (item 4's last piece). Lower priority than
+getting the dates/placement core right; the per-product season tags
+Ryan said to keep already work unchanged (productCard.ts's
+seasonEventLabel, untouched this pass).

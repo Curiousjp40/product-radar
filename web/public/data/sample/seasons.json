@@ -6,10 +6,11 @@
       "label_es": "Halloween",
       "label_en": "Halloween",
       "categories": [
-        "seasonal"
+        "costumes"
       ],
       "film_start": "2026-09-10",
-      "film_end": "2026-10-20"
+      "film_end": "2026-10-20",
+      "event_date": "2026-10-31"
     },
     {
       "id": "bfcm_2026",
@@ -17,18 +18,20 @@
       "label_en": "Black Friday / Cyber Monday",
       "categories": [
         "shapewear",
-        "womens_clothing",
+        "dresses",
+        "sets",
+        "furniture",
         "home_decor",
-        "beauty_hair",
+        "winter_clothing",
+        "shoes",
+        "pet_furniture",
+        "home_storage",
         "seasonal",
         "other"
       ],
-      "film_start": "2026-11-01",
+      "film_start": "2026-10-15",
       "film_end": "2026-12-02",
-      "boosted_categories": [
-        "shapewear",
-        "womens_clothing"
-      ]
+      "event_date": "2026-11-27"
     },
     {
       "id": "holiday_gifting_2026",
@@ -36,63 +39,71 @@
       "label_en": "Holiday gifting",
       "categories": [
         "home_decor",
-        "beauty_hair",
+        "furniture",
+        "home_storage",
         "seasonal",
         "other"
       ],
-      "film_start": "2026-12-01",
-      "film_end": "2026-12-20"
+      "film_start": "2026-11-01",
+      "film_end": "2026-12-20",
+      "event_date": null
     },
     {
       "id": "winter_new_year_2026",
-      "label_es": "Invierno / Ano Nuevo",
+      "label_es": "Invierno / A\u00f1o Nuevo",
       "label_en": "Winter / New Year",
       "categories": [
-        "womens_clothing",
+        "winter_clothing",
+        "dresses",
         "seasonal"
       ],
       "film_start": "2026-12-01",
       "film_end": "2027-01-15",
-      "notes_en": "Thermal leggings, winter dresses",
-      "notes_es": "Leggings termicos, vestidos de invierno"
+      "event_date": "2027-01-01",
+      "notes_es": "Leggings t\u00e9rmicos, vestidos de invierno",
+      "notes_en": "Thermal leggings, winter dresses"
     },
     {
       "id": "valentines_2027",
-      "label_es": "San Valentin",
+      "label_es": "San Valent\u00edn",
       "label_en": "Valentine's Day",
       "categories": [
-        "womens_clothing",
-        "beauty_hair",
+        "dresses",
+        "sets",
         "seasonal"
       ],
       "film_start": "2027-01-20",
-      "film_end": "2027-02-14"
+      "film_end": "2027-02-14",
+      "event_date": "2027-02-14"
     },
     {
       "id": "mothers_day_2027",
-      "label_es": "Dia de las Madres / Mother's Day",
+      "label_es": "D\u00eda de las Madres / Mother's Day",
       "label_en": "Mother's Day",
       "categories": [
         "home_decor",
-        "beauty_hair",
+        "furniture",
         "seasonal"
       ],
       "film_start": "2027-04-20",
       "film_end": "2027-05-10",
-      "notes_en": "US Mother's Day 2027-05-09, Dia de las Madres (fixed) 2027-05-10",
-      "notes_es": "Dia de las Madres EEUU 2027-05-09, Dia de las Madres fijo 2027-05-10"
+      "event_date": "2027-05-10",
+      "notes_es": "D\u00eda de las Madres EEUU 2027-05-09, D\u00eda de las Madres fijo 2027-05-10",
+      "notes_en": "US Mother's Day 2027-05-09, Dia de las Madres (fixed) 2027-05-10"
     },
     {
       "id": "graduation_2027",
-      "label_es": "Graduacion",
+      "label_es": "Graduaci\u00f3n",
       "label_en": "Graduation",
       "categories": [
-        "womens_clothing",
+        "dresses",
+        "sets",
         "home_decor",
         "other"
       ],
       "film_start": "2027-04-01",
-      "film_end": "2027-05-31"
+      "film_end": "2027-05-31",
+      "event_date": null
     },
     {
       "id": "deals_for_you_days_2027",
@@ -100,24 +111,26 @@
       "label_en": "TikTok Deals for You Days (summer)",
       "categories": [
         "home_decor",
+        "furniture",
         "seasonal"
       ],
       "film_start": null,
       "film_end": null,
-      "notes_en": "2026 instance: Ari made $23,864 in home (Jun) and $12,589 (Jul). Dates vary yearly.",
-      "notes_es": "Instancia 2026: Ari gano $23,864 en home (jun) y $12,589 (jul). Las fechas varian cada ano."
+      "event_date": null
     },
     {
       "id": "back_to_school_2027",
       "label_es": "Regreso a clases",
       "label_en": "Back to school",
       "categories": [
-        "womens_clothing",
-        "beauty_hair",
+        "dresses",
+        "sets",
+        "shoes",
         "other"
       ],
       "film_start": "2027-07-15",
-      "film_end": "2027-08-31"
+      "film_end": "2027-08-31",
+      "event_date": null
     }
   ]
 }

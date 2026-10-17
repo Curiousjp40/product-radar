@@ -45,7 +45,10 @@ events:
     label_es: Black Friday / Cyber Monday
     label_en: Black Friday / Cyber Monday
     categories: [shapewear, dresses, sets, furniture, home_decor, winter_clothing, shoes, pet_furniture, home_storage, seasonal, other]
-    film_start: "2026-11-01"
+    # Moved earlier 2026-10-16 per Ryan: TikTok Shop runs its own early BF
+    # deals well before the actual Black Friday date, so posting should
+    # start mid-October, not Nov 1.
+    film_start: "2026-10-15"
     film_end: "2026-12-02"
     event_date: "2026-11-27" # Black Friday 2026 (Thanksgiving + 1); Cyber Monday follows 2026-11-30
     boosted_categories: [shapewear, winter_clothing, home_decor, furniture] # her core + gift-adjacent categories
@@ -54,7 +57,9 @@ events:
     label_es: Regalos de temporada
     label_en: Holiday gifting
     categories: [home_decor, furniture, home_storage, seasonal, other]
-    film_start: "2026-12-01"
+    # Moved earlier 2026-10-16 per Ryan: holiday gift shopping starts well
+    # before December.
+    film_start: "2026-11-01"
     film_end: "2026-12-20"
 
   - id: winter_new_year_2026
@@ -65,7 +70,7 @@ events:
     film_end: "2027-01-15"
     event_date: "2027-01-01" # New Year's Day
     notes_en: "Thermal leggings, winter dresses"
-    notes_es: "Leggings termicos, vestidos de invierno"
+    notes_es: "Leggings térmicos, vestidos de invierno"
 
   - id: valentines_2027
     label_es: San Valentín
@@ -83,7 +88,7 @@ events:
     film_end: "2027-05-10" # later of US 2nd-Sunday-of-May (2027-05-09) and Dia de las Madres (05-10)
     event_date: "2027-05-10" # same as film_end here -- set explicitly for consistency, no behavior change
     notes_en: "US Mother's Day 2027-05-09, Dia de las Madres (fixed) 2027-05-10"
-    notes_es: "Dia de las Madres EEUU 2027-05-09, Dia de las Madres fijo 2027-05-10"
+    notes_es: "Día de las Madres EEUU 2027-05-09, Día de las Madres fijo 2027-05-10"
 
   - id: graduation_2027
     label_es: Graduación

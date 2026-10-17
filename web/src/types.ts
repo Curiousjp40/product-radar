@@ -315,6 +315,11 @@ export interface SeasonEvent {
   categories: string[];
   film_start: string | null;
   film_end: string | null;
+  // The specific recognized day (Black Friday, Halloween...), separate
+  // from film_start/film_end's filming window -- null for events that are
+  // a date range with no single day (holiday gifting) or whose real dates
+  // aren't confirmed yet (shows "Fechas por confirmar").
+  event_date: string | null;
   notes_es?: string;
   notes_en?: string;
 }

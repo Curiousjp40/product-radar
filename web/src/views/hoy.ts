@@ -19,7 +19,7 @@ import type { HooksFile, LiveBestTime, Pick } from "../types";
 import { yaLoTengoButtonHtml, yaLoTengoSheetHtml, wireYaLoTengo, type YaLoTengoProduct } from "../yaLoTengo";
 import { goalCardHtml, wireGoalCard } from "./goalCard";
 import { productCardInfoHtml } from "./productCard";
-import { countdownText, daysUntil } from "./season";
+import { countdownText, groupSeasonEvents } from "./season";
 
 function formatHourRange(hourStart: number, hourEnd: number): string {
   const to12 = (h: number) => (h % 12 === 0 ? 12 : h % 12);
@@ -39,15 +39,37 @@ function pickForToday<T>(items: T[], today: Date): T | null {
   return items[dayNumber % items.length];
 }
 
-async function seasonCountdownHtml(lang: Lang): Promise<string> {
+// Design review 3.13 / Ryan's placement fix: "Próxima temporada" card
+// (current-or-next event, countdown, start-filming date, 3 matching
+// product thumbnails from this week, link to the full #/temporadas
+// calendar) replacing the one-line countdown banner and Temporadas' old
+// spot in Mas.
+async function seasonCardHtml(lang: Lang, picks: Pick[]): Promise<string> {
   const { data } = await loadSeasons();
-  const upcoming = data.events
-    .filter((ev) => ev.film_end && (daysUntil(ev.film_end) ?? -1) >= 0)
-    .sort((a, b) => (daysUntil(a.film_end) ?? Infinity) - (daysUntil(b.film_end) ?? Infinity));
-  if (upcoming.length === 0) return "";
-  const next = upcoming[0];
-  const label = lang === "es" ? next.label_es : next.label_en;
-  return `<p class="hoy-season-countdown">${label}: ${countdownText(next, lang)}</p>`;
+  const groups = groupSeasonEvents(data.events);
+  const ev = groups.ahora[0] ?? groups.proximo[0];
+  if (!ev) return "";
+  const label = lang === "es" ? ev.label_es : ev.label_en;
+  const filmStartLine = ev.film_start ? t("season_start_filming", lang, { date: new Date(ev.film_start + "T00:00:00Z").toLocaleDateString(lang === "es" ? "es-419" : "en-US", { day: "numeric", month: "short", timeZone: "UTC" }) }) : "";
+  const thumbs = picks
+    .filter((p) => ev.categories.includes(p.category))
+    .slice(0, 3)
+    .map((p) => p.image_url);
+  return `
+    <a class="season-card hoy-season-card" href="#/temporadas">
+      <h3 style="margin:0 0 4px">${label}</h3>
+      <div class="countdown">${countdownText(ev, lang)}</div>
+      ${filmStartLine ? `<div class="season-dates-line">${filmStartLine}</div>` : ""}
+      ${
+        thumbs.length > 0
+          ? `<div class="hoy-season-thumbs">
+              ${thumbs.map((url) => (url ? `<img src="${assetUrl(url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="hoy-season-thumb-placeholder"></div>`)).join("")}
+            </div>`
+          : ""
+      }
+      <span class="more-link">${t("season_view_calendar", lang)}</span>
+    </a>
+  `;
 }
 
 function bestHook(pick: Pick, hooks: HooksFile, today: Date, lang: Lang): string {
@@ -251,7 +273,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const todaysPicks = todaysIds.map((id) => byId.get(id)).filter((p): p is Pick => p !== undefined);
   const [hero, ...rest] = todaysPicks;
 
-  const seasonHtml = await seasonCountdownHtml(lang);
+  const seasonHtml = await seasonCardHtml(lang, picksData.picks);
   const samplesBanner = hasUrgentSamples(getAllSamples(), today)
     ? `<a class="hoy-samples-banner" href="#/muestras">${t("hoy_samples_banner", lang)}</a>`
     : "";

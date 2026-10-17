@@ -294,6 +294,11 @@ export const dict: Record<string, { es: string; en: string }> = {
   // {days} filled in by t()'s simple {placeholder} substitution.
   season_window_open: { es: "Ventana abierta, faltan {days} días", en: "Window open, {days} days left" },
   season_starts_in: { es: "Empieza en {days} días", en: "Starts in {days} days" },
+  season_start_filming: { es: "Empieza a grabar: {date}", en: "Start filming: {date}" },
+  season_group_ahora: { es: "Ahora", en: "Now" },
+  season_group_proximo: { es: "Próximo", en: "Next" },
+  season_group_mas_adelante: { es: "Más adelante", en: "Later" },
+  season_view_calendar: { es: "Ver calendario →", en: "View calendar →" },
   settings_title: { es: "Ajustes", en: "Settings" },
   settings_coming_soon: {
     es: "La edición de ajustes llega en una fase futura. Por ahora, edita config/settings.yaml.",
