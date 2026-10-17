@@ -234,6 +234,30 @@ button now. Date inputs were already reasonably styled via
 design system); left native OS date-picker chrome as-is -- replacing
 that needs a custom date-picker widget, a bigger separate task.
 
+### Item 0.12: clean product titles vs raw seller titles -- done
+Tested engine.text.clean_title directly against the design review's own
+flagged example (the MRH mattress title) and found it came back
+*completely unchanged* -- a real bug, not a "needs tuning" gap.
+Root cause: `_unreadable`'s real-word count used `word.isalpha()` on
+whitespace-split tokens, so punctuation stuck to a word (the fallback
+path never ran the comma-splitting _SEPARATOR_RE does for the primary
+first-segment cut) hid real words from the count -- "Twin," "Full,"
+"King,Luxury" all failed `.isalpha()` even though they're real words,
+undercounting real_words and wrongly triggering the "whole raw title"
+last-resort fallback. Fixed both sides: `_unreadable` now finds real
+words with a regex run (punctuation-proof) instead of exact-token
+isalpha, and the full-title fallback path strips commas/semicolons the
+same way it already strips brackets. Added a regression test with the
+exact flagged title; all 18 existing text.py tests plus the full
+387-test suite still pass.
+
+This is engine-side logic that only takes effect when picks.json/
+candidates.json are regenerated -- did NOT force a re-run tonight
+(same category as the Worker-deploy items: CLAUDE.md's hard rule
+against running the real pipeline outside --dry-run without asking,
+and dry-run fixture replay wouldn't actually refresh the live site's
+current-week data anyway). Takes effect at tomorrow's scheduled run.
+
 ### Item 0.6: too many buttons per card (Hoy hero) -- done
 Hoy's hero/also-good cards had 6 always-visible buttons (Ver en TikTok
 Shop, Ver videos que venden, Marcar grabado, Pedir muestra, No me

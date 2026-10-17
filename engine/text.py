@@ -19,16 +19,26 @@ _FILLER_WORDS = {"official", "store"}
 _JUNK_CHARS_RE = re.compile(r"^[\d\"'×x/.\-\s]+$", re.IGNORECASE)
 
 
+_ALPHA_RUN_RE = re.compile(r"[A-Za-z]{3,}")
+
+
 def _unreadable(text: str) -> bool:
     """Too short, pure junk characters, or mostly size-spec/digit tokens
     with only a word or two of real text mixed in (real case: "MRH
     10\"12\"14\" -Inch Twin" has 5 "words" but only "MRH" and "Twin" are
-    actually words) -- needs at least 3 real (3+ letter, fully alphabetic)
-    words to read as a product name."""
+    actually words) -- needs at least 3 real (3+ letter, alphabetic) words
+    to read as a product name. Real words are found with a regex run
+    (not `word.isalpha()` on whitespace-split tokens) so punctuation stuck
+    to a word -- "Twin," "King,Luxury" from an un-comma-split fallback
+    title, "-Inch" from a leading dash -- doesn't hide a real word from
+    the count or fuse two real words into one unreadable token (the real
+    bug design review item 0.12 flagged: a mattress title with commas
+    throughout fooled this into accepting the whole raw title as
+    "readable" and returning it unchanged)."""
     words = text.split()
     if len(words) < 2 or _JUNK_CHARS_RE.match(text):
         return True
-    real_words = [w for w in words if len(w) >= 3 and w.isalpha()]
+    real_words = _ALPHA_RUN_RE.findall(text)
     return len(real_words) < 3
 
 
@@ -53,7 +63,15 @@ def clean_title(title: str, max_words: int = 6) -> str:
     if not _unreadable(result):
         return result
 
+    # Commas are a segment separator for the first-segment cut above, but
+    # the full-title fallback never ran through _SEPARATOR_RE -- a stray
+    # comma mid-title ("Twin, Full, Queen, King,Luxury Hybrid Mattress")
+    # fused words together or hid real words when simply whitespace-split,
+    # so letting the whole raw title through "readable" unchanged. Strip
+    # commas/semicolons the same way brackets are stripped, not just split
+    # on whitespace.
     full = _BRACKETS_RE.sub(" ", title)
+    full = re.sub(r"[,;]", " ", full)
     full_tokens = [tok for tok in full.split() if tok.lower() not in _FILLER_WORDS]
     fallback = " ".join(full_tokens[: max_words * 2]).strip()
     if not _unreadable(fallback):

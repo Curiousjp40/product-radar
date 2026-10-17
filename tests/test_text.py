@@ -52,6 +52,19 @@ def test_clean_title_falls_back_when_first_segment_is_a_size_spec():
     assert any(w.isalpha() and len(w) > 2 for w in cleaned.split())
 
 
+def test_clean_title_real_mattress_example_with_commas_throughout():
+    # Real bug (design review item 0.12): this exact title (flagged in the
+    # review as an example of raw seller titles leaking through) used to
+    # come back completely unchanged -- commas fused into their neighbor
+    # tokens ("King,Luxury") hid real words from the fallback's isalpha()
+    # word count, so the whole raw title "passed" as readable.
+    title = 'MRH 10"12 "14" -Inch Twin, Full, Queen, King,Luxury Hybrid Mattress -Memory Foamand'
+    cleaned = clean_title(title)
+    assert cleaned != title
+    assert len(cleaned) < len(title)
+    assert "MRH" in cleaned
+
+
 def test_clean_title_never_returns_pure_junk():
     assert clean_title('10" 12" 14"') == '10" 12" 14"'  # no real words anywhere -- last resort is the title itself
 
