@@ -160,6 +160,99 @@ Confirmed real response shape: `{list: [{creator: {...}, live: {room_id, title, 
 
 Fixture: `tests/fixtures/live_search_womenswear_l1_2.json` (Womenswear & Underwear, L1=2, `sold_range.min=10`, real varied sales data).
 
+## "Lives que venden" paid investigation -- PROVISIONAL, not yet confirmed (2026-10-16)
+
+The three tools below are wrapped by `engine/live_products.py` for the
+"Lives que venden" card detail feature, but **no real call to any of them
+has been made yet** -- this stage is dry-run/fixture only (per the
+2026-10-16 brief: 0 real FastMoss credits spent). Every field name below
+is a best guess built from each tool's own MCP description text, not from
+an observed response. They are recorded here, flagged PROVISIONAL, so the
+eventual real pilot call has something concrete to confirm or correct
+against -- do not treat any of this as confirmed the way the rest of this
+document is.
+
+### `live_products_list` (1cr/page, pagesize<=10) -- PROVISIONAL
+
+Guessed shape, from the tool description's own promise of
+`live_units_sold`, `live_gmv`, `commission_rate_percent`,
+`sales_timeline` (only when pagesize<=10), `shop_cumulative_units_sold`,
+plus a reasonable `products[]` array (a live's products are not named as
+a specific field in the tool description, but "products sold in a live
+session" is the tool's whole purpose):
+
+| Concept | Guessed field | Notes |
+|---|---|---|
+| per-live units sold | `live_units_sold` | From the tool's own description text. |
+| per-live GMV | `live_gmv` | Same. |
+| commission rate (per live, or per product?) | `commission_rate_percent` | Ambiguous in the description whether this is live-level or product-level -- `engine.live_products._combine_live_result` currently reads it per-product (`products[].commission_rate`), guessing it varies by SKU. **Needs real-call confirmation.** |
+| minute-by-minute sales | `sales_timeline[]` (`minute`, `units_sold`, `gmv`) | Guessed shape; the description only promises the field exists, not its internal structure. |
+| cumulative shop sales | `shop_cumulative_units_sold` | From the tool description. |
+| products sold | `products[]` (`product_id`, `title`, `image_url`/`photo`, `price`, `units_sold`, `commission_rate`) | Not literally named in the tool description; inferred from "list of products sold in a live session." Fixtures: `tests/fixtures/fastmoss_live_products_list_*.json`. |
+
+### `live_detail_analysis` (2cr) -- PROVISIONAL
+
+Description: "one live session info, creator, key performance, and
+category breakdown." Guessed shape:
+
+| Concept | Guessed field | Notes |
+|---|---|---|
+| creator info | `creator.handle`, `.avatar_url`, `.follower_count` | Guessed naming, following `creator_search`'s confirmed `unique_id`/`follower_count` pattern loosely -- **not confirmed for this tool**, may use different field names. |
+| key performance | `key_performance.started_at`, `.duration_minutes`, `.viewer_count`, `.units_sold`, `.gmv` | Guessed grouping under a `key_performance` object, matching the tool description's own phrase. |
+| category breakdown | `category_breakdown[]` (`category`, `units_sold_share_percent`) | Guessed shape; "category breakdown" in the description could equally be GMV-share based -- `engine.live_products` reads whatever is present and passes it through unparsed to the export, so a real-call field-name change here needs no engine fix, just a fixture update. |
+
+### `creator_search` (1cr) -- PROVISIONAL for the live-investigation use
+
+This tool is already **confirmed** for other uses (section "Creator
+concepts" above: `unique_id`, `follower_count`, `commerce_summary.
+day28_gmv`, `commerce_summary.day28_video_count`, `audience_summary.*`,
+`has_email`). The one addition here, used by the "Lives que venden" card
+per Roxie/Ryan's 2026-10-16 refinement ("what they sell" line), is
+**not** confirmed:
+
+| Concept | Guessed field | Notes |
+|---|---|---|
+| host's dominant category ("what they sell") | `commerce_summary.top_category` | **Not in the original confirmed field list above** -- invented for this feature since no real call has tested whether `creator_search` exposes a single "top category" at all. If it doesn't exist on the real response, `engine.live_products._combine_live_result` already degrades gracefully (`.get("top_category") or ""`, empty string renders no "what they sell" line) -- confirm or drop on the first real pilot call. |
+
+**Chicken-and-egg limitation, documented explicitly per Roxie/Ryan's
+2026-10-16 note:** `select_candidate_lives`'s category filter is
+best-effort, using whatever category key a live happened to appear under
+in `live_highlights.json` (itself derived from the FREE `live_search`
+category filter, not from the live's actual products). True
+product-level topic filtering -- "are the things actually SOLD in this
+live in one of Roxie's 12 categories" -- is only possible after
+`live_products_list` has actually been called for that live, which is
+itself the paid call the candidate list exists to decide whether to make.
+This stage cannot resolve that circularity; it is a known, accepted
+limitation of the dry-run candidate list, not a bug.
+
+## Sound/music on video_detail_analysis (confirmed NO, 2026-10-16)
+
+Tested live against 2 of her top-selling product videos (1cr each, 2cr
+total, Ryan's explicit approval) to see whether a sound/music field exists
+anywhere on the response, for Roxie's "Sonidos que venden" idea:
+- video_id `7664791222057405710` (BEDLORE Bamboo Cooling Mattress Topper,
+  2108 units sold)
+- video_id `7683201950204169485` (Women's Fashion PU Leather Low Heel
+  Boots, 1486 units sold)
+
+**Result: no `music`/`sound`/`song`/`original_sound` field anywhere in
+either response.** The full top-level shape returned is `video` (caption,
+cover_url, duration_seconds, engagement_metrics, traffic_flags,
+published_at_ts), `creator`, and `linked_products` -- nothing about the
+audio track. `video_script_info` (subtitles) is the only other
+video-level FastMoss tool and, per its own schema, returns spoken-word
+timing/text, not music metadata -- there is no other FastMoss tool that
+plausibly carries it either (checked the full tool list in
+`docs/fastmoss_tools.json`).
+
+**Implication:** a real "Sonidos que venden" feature (sound name, artist,
+# of top videos using it, ranked by units sold) cannot be built from
+FastMoss data at all -- not a cost question, the data isn't there. Per
+Ryan's own fallback instruction, this becomes a static "Sonidos" card
+linking to TikTok Creative Center's trending sounds, not a fabricated
+per-category ranking.
+
 ## Not yet confirmed
 
 - Review **count** (vs. the `product_rating` average found via `video_detail_analysis`) -- candidate: `product_review_list`.

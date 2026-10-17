@@ -1,0 +1,20 @@
+{
+  "result": {
+    "room_id": "7700000000000000002",
+    "creator": {
+      "handle": "casacozyhome",
+      "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d9a74f'/></svg>",
+      "follower_count": 92500
+    },
+    "key_performance": {
+      "started_at": "2026-10-11T19:30:00-04:00",
+      "duration_minutes": 60,
+      "viewer_count": 5400,
+      "units_sold": 88,
+      "gmv": 4120.10
+    },
+    "category_breakdown": [
+      {"category": "home_decor", "units_sold_share_percent": 100}
+    ]
+  }
+}

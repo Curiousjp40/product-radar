@@ -1,0 +1,21 @@
+{
+  "result": {
+    "room_id": "7700000000000000001",
+    "creator": {
+      "handle": "fajalinda_shop",
+      "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d94f70'/></svg>",
+      "follower_count": 184000
+    },
+    "key_performance": {
+      "started_at": "2026-10-10T20:00:00-04:00",
+      "duration_minutes": 75,
+      "viewer_count": 9100,
+      "units_sold": 142,
+      "gmv": 3218.56
+    },
+    "category_breakdown": [
+      {"category": "shapewear", "units_sold_share_percent": 72},
+      {"category": "winter_clothing", "units_sold_share_percent": 28}
+    ]
+  }
+}

@@ -53,6 +53,12 @@ const dict: Record<string, { es: string; en: string }> = {
   price_mention_stat_label: { es: "Mencionan el precio", en: "Mention the price" },
   ad_stat_label: { es: "Son anuncios", en: "Are ads" },
   hooks_label: { es: "Ganchos que funcionan", en: "Hooks that work" },
+  sonidos_label: { es: "Sonidos", en: "Sounds" },
+  sonidos_note: {
+    es: "No podemos saber que sonido usa cada video que vende (FastMoss no lo da). Los videos de producto suelen necesitar un sonido con licencia comercial -- revisa los que estan de moda:",
+    en: "We can't tell which sound a selling video uses (FastMoss doesn't provide it). Product videos usually need a commercially licensed sound -- check what's trending:",
+  },
+  sonidos_cta: { es: "Ver sonidos populares en TikTok", en: "See popular sounds on TikTok" },
   // "Hoy" tab (Part C, added 2026-10-15).
   hoy_title: { es: "Qué grabo hoy", en: "What to film today" },
   hoy_hero_label: { es: "Grábalo primero", en: "Film this first" },

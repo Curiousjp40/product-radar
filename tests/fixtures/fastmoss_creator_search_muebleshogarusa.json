@@ -1,0 +1,25 @@
+{
+  "result": {
+    "creators": [
+      {
+        "creator": {
+          "handle": "muebleshogarusa",
+          "unique_id": "muebleshogarusa",
+          "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%236b4a2f'/></svg>",
+          "follower_count": 41000
+        },
+        "commerce_summary": {
+          "day28_gmv": 19800.0,
+          "day28_units_sold": 310,
+          "day28_video_count": 15,
+          "top_category": "furniture"
+        },
+        "audience_summary": {
+          "age_distribution": {"35-44": 0.4, "45-54": 0.25},
+          "gender_distribution": {"female": 0.52, "male": 0.48}
+        },
+        "has_email": false
+      }
+    ]
+  }
+}

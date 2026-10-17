@@ -148,3 +148,39 @@ done, tested, and pushed:
    total_consumed/time-since-plan-start -- the real per-run average comes
    from the local credit_ledger (`engine.budget.average_credits_per_run`),
    surfaced through `meta.json`, with a "--" fallback under 2 runs.
+
+### "Lives que venden" paid investigation -- dry-run/fixture build only (2026-10-16)
+
+Built the engine module and UI for the En vivo -> "Lives que venden" card
+detail feature (host info, products sold, sales timeline, "what to copy"),
+but **0 real FastMoss credits spent** -- entirely dry-run/fixture, per
+Ryan's instruction. Added: `engine/live_products.py` (select_candidate_lives,
+investigate_live, run_live_products_investigation, CLI `--dry-run` default
+with `--run` required and still refused for now), `tests/test_live_products.py`,
+9 fixtures under `tests/fixtures/fastmoss_live_products_list_*.json` /
+`fastmoss_live_detail_analysis_*.json` / `fastmoss_creator_search_*.json`,
+`engine.export.write_live_products`, `web/public/data/live_products.json`
+(committed as `{"lives": {}}`, honest/empty -- no real pilot has run),
+matching sample file, and frontend support (`web/src/types.ts`'s
+`LiveProduct*` types, `api.ts`'s `loadLiveProducts`, `views/enVivo.ts`'s
+enhanced card with host photo/handle-link/followers/28-day GMV/"what they
+sell" line/product-photo strip, inline expand for full breakdown + sales
+timeline + "what to copy", `i18n.ts`'s `en_vivo_lives_*` keys,
+`styles.css`'s `.live-products-*` namespace). 379 Python tests, 104
+frontend tests, tsc and ruff all pass.
+
+Every FastMoss field name in `docs/field_map.md`'s new "Lives que venden"
+section is PROVISIONAL (guessed from tool description text, never
+confirmed against a real call) -- flagged explicitly there. The candidate
+filter is also a documented, accepted limitation: it restricts to the 12
+tracked categories using the category key a live appeared under in the
+free `live_highlights.json`, not the live's actual products (confirming
+real product-level topic match needs the paid `live_products_list` call
+this stage is deciding whether to make -- a chicken-and-egg limit, not a
+bug).
+
+**Not started:** the human-approved pilot (~15 real lives, computed
+against the real `web/public/data/live_highlights.json` with the
+tightened 12-category filter: ~60 credits) and the full ~43-live batch
+(~168 credits) -- both need Ryan's go-ahead before any real
+`live_products_list`/`live_detail_analysis`/`creator_search` call is made.

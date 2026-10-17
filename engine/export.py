@@ -80,6 +80,38 @@ def write_live_schedule(schedule_by_group: dict[str, dict], data_dir: Path | Non
     )
 
 
+def write_live_products(by_room: dict[str, dict[str, Any]], data_dir: Path | None = None) -> None:
+    """"Lives que venden" paid investigation (2026-10-16, dry-run/fixture
+    stage -- see engine/live_products.py): one entry per investigated
+    room_id, keyed exactly like live_highlights.json's lives but with the
+    full paid breakdown attached. Committed as {"lives": {}} (empty) until
+    a human-approved real pilot actually runs -- see CLAUDE.md.
+
+    Shape per room_id:
+      host: {handle, photo_url, follower_count, day28_gmv, top_category}
+        -- day28_gmv/top_category come from creator_search, cached per
+        handle (engine.live_products.investigate_live), not re-fetched
+        per live.
+      started_at, duration_minutes, viewer_count, units_sold, gmv: same
+        concepts as live_highlights.json's per-live rows, but from the
+        paid live_detail_analysis call instead of the free live_search
+        pull.
+      conversion_rate: units_sold / viewer_count, COMPUTED here (not a
+        FastMoss field) since live_detail_analysis's description doesn't
+        promise one directly.
+      category_breakdown: list of {category, units_sold_share_percent}
+        from live_detail_analysis.
+      sales_timeline: live_products_list's own timeline, if present
+        (only when pagesize<=10, which engine.live_products always uses).
+      products: list of {product_id, title, image_url, price,
+        commission_rate, units_sold} from live_products_list.
+    """
+    _write(
+        (data_dir or DATA_DIR) / "live_products.json",
+        {"schema_version": SCHEMA_VERSION, "lives": by_room},
+    )
+
+
 def write_hooks(hooks_cfg: dict[str, Any], data_dir: Path | None = None) -> None:
     """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
     2026-10-15) -- static template content (category hooks + shot-list

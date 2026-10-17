@@ -1,0 +1,25 @@
+{
+  "result": {
+    "creators": [
+      {
+        "creator": {
+          "handle": "casacozyhome",
+          "unique_id": "casacozyhome",
+          "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d9a74f'/></svg>",
+          "follower_count": 92500
+        },
+        "commerce_summary": {
+          "day28_gmv": 31400.0,
+          "day28_units_sold": 980,
+          "day28_video_count": 21,
+          "top_category": "home_decor"
+        },
+        "audience_summary": {
+          "age_distribution": {"25-34": 0.33, "35-44": 0.37},
+          "gender_distribution": {"female": 0.69, "male": 0.31}
+        },
+        "has_email": true
+      }
+    ]
+  }
+}

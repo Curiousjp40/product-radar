@@ -1,0 +1,33 @@
+{
+  "result": {
+    "room_id": "7700000000000000002",
+    "live_units_sold": 88,
+    "live_gmv": 4120.10,
+    "commission_rate_percent": 12,
+    "shop_cumulative_units_sold": 530,
+    "sales_timeline": [
+      {"minute": 0, "units_sold": 1, "gmv": 60.0},
+      {"minute": 15, "units_sold": 6, "gmv": 340.0},
+      {"minute": 30, "units_sold": 15, "gmv": 820.0},
+      {"minute": 45, "units_sold": 24, "gmv": 1310.0}
+    ],
+    "products": [
+      {
+        "product_id": "1900000000000000021",
+        "title": "Lampara de Mesa Moderna LED",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%23d9a74f'/><text x='4' y='65' font-size='11' fill='white'>Lampara</text></svg>",
+        "price": 54.0,
+        "units_sold": 40,
+        "commission_rate": 12
+      },
+      {
+        "product_id": "1900000000000000022",
+        "title": "Espejo Decorativo de Pared Redondo",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%23b88a3f'/><text x='4' y='65' font-size='10' fill='white'>Espejo</text></svg>",
+        "price": 68.5,
+        "units_sold": 28,
+        "commission_rate": 10
+      }
+    ]
+  }
+}

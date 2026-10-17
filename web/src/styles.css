@@ -392,6 +392,13 @@ table.radar-table td {
   line-height: 1.4;
 }
 
+.sonidos-note {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin: 4px 0 8px;
+  line-height: 1.4;
+}
+
 .copy-hashtags-btn {
   flex: 0 0 auto;
   border: none;

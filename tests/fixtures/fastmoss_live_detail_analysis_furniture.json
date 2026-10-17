@@ -1,0 +1,20 @@
+{
+  "result": {
+    "room_id": "7700000000000000003",
+    "creator": {
+      "handle": "muebleshogarusa",
+      "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%236b4a2f'/></svg>",
+      "follower_count": 41000
+    },
+    "key_performance": {
+      "started_at": "2026-10-09T21:00:00-04:00",
+      "duration_minutes": 95,
+      "viewer_count": 2100,
+      "units_sold": 19,
+      "gmv": 5890.00
+    },
+    "category_breakdown": [
+      {"category": "furniture", "units_sold_share_percent": 100}
+    ]
+  }
+}

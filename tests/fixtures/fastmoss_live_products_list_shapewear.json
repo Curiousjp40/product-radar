@@ -1,0 +1,42 @@
+{
+  "result": {
+    "room_id": "7700000000000000001",
+    "live_units_sold": 142,
+    "live_gmv": 3218.56,
+    "commission_rate_percent": 18,
+    "shop_cumulative_units_sold": 980,
+    "sales_timeline": [
+      {"minute": 0, "units_sold": 2, "gmv": 45.0},
+      {"minute": 15, "units_sold": 9, "gmv": 203.0},
+      {"minute": 30, "units_sold": 21, "gmv": 471.0},
+      {"minute": 45, "units_sold": 34, "gmv": 762.0},
+      {"minute": 60, "units_sold": 28, "gmv": 628.0}
+    ],
+    "products": [
+      {
+        "product_id": "1900000000000000011",
+        "title": "Faja Colombiana Shapewear Short BBL",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%23d94f70'/><text x='10' y='65' font-size='14' fill='white'>Faja</text></svg>",
+        "price": 32.99,
+        "units_sold": 61,
+        "commission_rate": 18
+      },
+      {
+        "product_id": "1900000000000000012",
+        "title": "Body Reductor de Cintura Alta",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%23c2456b'/><text x='10' y='65' font-size='12' fill='white'>Body</text></svg>",
+        "price": 27.5,
+        "units_sold": 44,
+        "commission_rate": 18
+      },
+      {
+        "product_id": "1900000000000000013",
+        "title": "Faja Postparto con Broches",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%23a8325a'/><text x='6' y='65' font-size='11' fill='white'>Postparto</text></svg>",
+        "price": 24.0,
+        "units_sold": 37,
+        "commission_rate": 15
+      }
+    ]
+  }
+}

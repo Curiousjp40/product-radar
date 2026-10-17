@@ -1,0 +1,25 @@
+{
+  "result": {
+    "creators": [
+      {
+        "creator": {
+          "handle": "fajalinda_shop",
+          "unique_id": "fajalinda_shop",
+          "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d94f70'/></svg>",
+          "follower_count": 184000
+        },
+        "commerce_summary": {
+          "day28_gmv": 58210.0,
+          "day28_units_sold": 2110,
+          "day28_video_count": 34,
+          "top_category": "shapewear"
+        },
+        "audience_summary": {
+          "age_distribution": {"25-34": 0.41, "35-44": 0.29},
+          "gender_distribution": {"female": 0.78, "male": 0.22}
+        },
+        "has_email": false
+      }
+    ]
+  }
+}

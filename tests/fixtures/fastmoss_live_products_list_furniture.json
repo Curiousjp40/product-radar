@@ -1,0 +1,25 @@
+{
+  "result": {
+    "room_id": "7700000000000000003",
+    "live_units_sold": 19,
+    "live_gmv": 5890.00,
+    "commission_rate_percent": 8,
+    "shop_cumulative_units_sold": 120,
+    "sales_timeline": [
+      {"minute": 0, "units_sold": 0, "gmv": 0.0},
+      {"minute": 20, "units_sold": 5, "gmv": 1550.0},
+      {"minute": 40, "units_sold": 9, "gmv": 2790.0},
+      {"minute": 60, "units_sold": 5, "gmv": 1550.0}
+    ],
+    "products": [
+      {
+        "product_id": "1900000000000000031",
+        "title": "Mesa de Centro de Madera Maciza",
+        "image_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><rect width='120' height='120' fill='%236b4a2f'/><text x='4' y='65' font-size='10' fill='white'>Mesa</text></svg>",
+        "price": 310.0,
+        "units_sold": 19,
+        "commission_rate": 8
+      }
+    ]
+  }
+}

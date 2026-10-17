@@ -150,16 +150,22 @@ def average_credits_per_run(conn: sqlite3.Connection) -> float | None:
 
     Averages credits spent per REAL weekly/midweek run (grouped by
     run_id), excluding one-time ops: the video backfill (run_id contains
-    "-backfill-") and the monthly live-timing pull (run_id contains
-    "-live-") -- neither recurs weekly, so including them would badly
-    skew the number. Returns None with fewer than 2 qualifying runs (the
-    frontend shows "--" rather than a misleadingly confident average from
-    a single week)."""
+    "-backfill-"), the monthly live-timing pull (run_id contains
+    "-live-"), and the "Lives que venden" paid-investigation pilot/batch
+    (run_id contains "-liveproducts-", added 2026-10-16 -- a one-off
+    ~15-live pilot then a one-off ~40-live batch, same reasoning as the
+    other two: neither recurs weekly, so including either would badly
+    skew the number) -- note "-liveproducts-" is a distinct substring
+    from "-live-" specifically so it doesn't collide with that exclusion
+    by accident; it's listed separately here on purpose, not because the
+    "-live-" pattern would have caught it anyway. Returns None with fewer
+    than 2 qualifying runs (the frontend shows "--" rather than a
+    misleadingly confident average from a single week)."""
     rows = conn.execute(
         """
         SELECT run_id, SUM(credits) AS total
         FROM credit_ledger
-        WHERE run_id NOT LIKE '%-backfill-%' AND run_id NOT LIKE '%-live-%'
+        WHERE run_id NOT LIKE '%-backfill-%' AND run_id NOT LIKE '%-live-%' AND run_id NOT LIKE '%-liveproducts-%'
         GROUP BY run_id
         """
     ).fetchall()
