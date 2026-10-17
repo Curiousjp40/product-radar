@@ -6,11 +6,12 @@ import { t, type Lang } from "../i18n";
 // Videos tab's own sub-tabs, "En vivo" promoted to a main tab, and the
 // legacy "Muestras (antiguo)" link removed from here -- its route/data
 // still exist (other flows still write to it), just no longer linked.
+// Design review follow-up (Ryan): "Buscar cuenta" + "Comparar cuentas"
+// merged into the new Cuentas main tab (views/cuentas.ts), no longer
+// linked from here.
 const LINKS: { route: string; labelKey: string }[] = [
   { route: "pipeline", labelKey: "nav_pipeline" },
   { route: "outreach", labelKey: "nav_outreach" },
-  { route: "buscar", labelKey: "nav_buscar_cuenta" },
-  { route: "comparar-cuentas", labelKey: "compare_accounts_title" },
   { route: "ocultos", labelKey: "nav_ocultos" },
   { route: "mi-dinero", labelKey: "nav_mi_dinero" },
   { route: "season", labelKey: "nav_season" },

@@ -349,6 +349,13 @@ table.radar-table td {
   font-size: 1rem;
 }
 
+.search-profile-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
 .search-avatar {
   width: 52px;
   height: 52px;
@@ -2589,7 +2596,8 @@ select.status-select {
   margin-bottom: 12px;
 }
 
-.group-tabs button {
+.group-tabs button,
+.group-tabs a {
   flex: 1;
   padding: 10px;
   border-radius: 10px;
@@ -2600,9 +2608,12 @@ select.status-select {
   font-size: 0.9rem;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+  text-decoration: none;
+  text-align: center;
 }
 
-.group-tabs button.active {
+.group-tabs button.active,
+.group-tabs a.active {
   background: var(--accent);
   color: #fff;
 }

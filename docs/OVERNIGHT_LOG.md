@@ -84,3 +84,46 @@ conversion->conversión, Que copiar->Qué copiar, mas vendido->más
 vendido, ahi->ahí) -- design review item 0.8, opportunistic fix while
 already editing this block; the fuller accent audit across the whole
 dict is still queued under "remaining section 0 items".
+
+### Items 5+6: save-profile control + merged Cuentas tab -- done, combined
+Ryan's own message 6 said the merge should include "the Guardar perfil
+button from my previous message" -- built them together in one pass
+rather than building the save control into the old separate Buscar
+page and then reworking it for the merge an hour later.
+
+"Cuentas" is now a 6th main bottom-tab (Hoy/Videos/En vivo/Cuentas/Mis
+Productos/Mas) -- fits fine at 375px, no need for the "move Mas into a
+header menu" fallback Ryan allowed for. Sub-tabs Buscar/Guardadas/
+Comparar (views/cuentas.ts). #/buscar and #/comparar-cuentas still
+work, now rendering inside the new shell (redirected in main.ts's
+switch, not an HTTP redirect -- this is a hash-routed SPA). Removed
+both old entries from Mas's list (views/more.ts) -- it now keeps Mi
+lista, Tiendas para colaborar, Productos ocultos, Mi Dinero, Temporada,
+Ajustes (Ryan's list said "Mi Dinero, Tiendas para colaborar,
+Temporadas, Ajustes" -- kept Mi lista/Ocultos too since removing them
+wasn't asked for and they're not part of this merge).
+
+"Guardar perfil" (views/buscarCuenta.ts's creatorStatsHtml) toggles via
+a new savedProfiles.ts, synced through the EXISTING generic /state
+route (same one Mis Productos already uses) -- no Worker deploy needed
+for this part, unlike item 4's video-thumbnail fix. "Ver perfil en
+TikTok" moved into the same header row. Comparar's picker
+(compararCuentas.ts) now sources from saved/favorited profiles instead
+of every search ever made.
+
+Deliberately did NOT stop the Worker's existing auto-save-on-every-
+search behavior (savedSearches.ts's listSavedSearches, still backing
+"open a saved result for free") -- Ryan's item 3 asked to stop that,
+but doing so safely needs a Worker code change + deploy, which I can't
+do tonight (same constraint as item 4). Reasonable substitute that
+needs no deploy: Guardadas only ever shows explicitly-favorited
+profiles (the new synced list), never the full auto-save history, so
+the VISIBLE behavior matches what Ryan asked for. Did not build a
+separate "Recientes" list (item 3's second half) -- lower priority than
+getting Guardadas/Comparar/the save button working correctly, and
+reasonable to defer; logging it as a known gap rather than skipping
+silently.
+
+Caught one real bug while testing: `.group-tabs` CSS only styled
+`button`, never `a` -- the new sub-tab links rendered as default blue
+underlined text (styles.css fix: extended the selectors to cover both).

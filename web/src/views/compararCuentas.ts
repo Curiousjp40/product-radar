@@ -1,5 +1,6 @@
 import { t, type Lang } from "../i18n";
-import { getSavedSearch, listSavedSearches, type SavedSearchSummary } from "../savedSearches";
+import { getSavedSearch } from "../savedSearches";
+import { getSavedProfiles, type SavedProfile } from "../savedProfiles";
 import type { AccountSearchResult } from "../types";
 
 const MIN_SELECT = 2;
@@ -77,7 +78,7 @@ function buildSummary(entries: { handle: string; data: AccountSearchResult }[], 
 
 export async function renderCompararCuentas(container: HTMLElement, lang: Lang): Promise<void> {
   container.innerHTML = `<p class="empty-state">...</p>`;
-  const summaries = await listSavedSearches();
+  const summaries: SavedProfile[] = await getSavedProfiles();
   const selected = new Set<string>();
   const cache = new Map<string, AccountSearchResult>();
 
@@ -96,7 +97,7 @@ export async function renderCompararCuentas(container: HTMLElement, lang: Lang):
           ? `<p class="empty-state">${t("compare_no_saved_searches", lang)}</p>`
           : `<div class="compare-picker-grid">${summaries
               .map(
-                (s: SavedSearchSummary) => `
+                (s: SavedProfile) => `
               <button type="button" class="compare-picker-card ${selected.has(s.handle) ? "selected" : ""}" data-handle="${s.handle}">
                 <span>@${s.handle}</span>
               </button>`,

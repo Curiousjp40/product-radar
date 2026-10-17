@@ -2,6 +2,7 @@ import { locale, t, type Lang } from "../i18n";
 import { IMG_FALLBACK } from "../asset";
 import { getStoredPassword, setStoredPassword } from "../searchPassword";
 import { getSavedSearch, listSavedSearches, type SavedSearchSummary } from "../savedSearches";
+import { getSavedProfiles, toggleSavedProfile } from "../savedProfiles";
 import type { AccountSearchResult } from "../types";
 
 /* "Buscar cuenta" -- replaces the old "Cómo te está yendo" / Ari-benchmark
@@ -89,6 +90,11 @@ let state: ViewState = { kind: "idle" };
 let remainingToday: number | null = null;
 let remainingMonth: number | null = null;
 let savedSearches: SavedSearchSummary[] = [];
+let savedProfileHandles = new Set<string>();
+
+async function refreshSavedProfiles(): Promise<void> {
+  savedProfileHandles = new Set((await getSavedProfiles()).map((p) => p.handle));
+}
 
 function normalizeHandleInput(raw: string): string {
   return raw.trim().replace(/^@/, "").toLowerCase();
@@ -119,17 +125,23 @@ function remainingHtml(lang: Lang): string {
   return `<p class="search-remaining">${text}</p>`;
 }
 
-function creatorStatsHtml(data: AccountSearchResult, lang: Lang): string {
+function creatorStatsHtml(data: AccountSearchResult, lang: Lang, saved: boolean): string {
   const c = data.creator;
   const categories = c.trend_categories.map((cat) => cat.name).join(", ") || "—";
   return `
     <div class="insight-card">
       <div class="search-profile">
         ${c.avatar ? `<img class="search-avatar" src="${proxiedImageUrl(c.avatar)}" alt="${c.nickname}" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : ""}
-        <div>
+        <div class="search-profile-identity">
           <h3>${c.nickname}</h3>
           <span class="text-dim">@${c.unique_id}</span>
         </div>
+      </div>
+      <div class="search-profile-actions">
+        <a class="btn-save-pill" href="${tiktokProfileUrl(c.unique_id)}" target="_blank" rel="noopener">${t("view_profile_tiktok", lang)}</a>
+        <button type="button" class="btn-save-pill ${saved ? "active" : ""}" data-action="toggle-save-profile" data-handle="${c.unique_id}">
+          <span aria-hidden="true">${saved ? "♥" : "♡"}</span> ${saved ? t("guardado_label", lang) : t("guardar_perfil_button", lang)}
+        </button>
       </div>
       <div class="stat-row">
         <div class="stat"><b>${formatCount(c.follower_count)}</b><span>${t("followers_label", lang)}</span></div>
@@ -301,8 +313,7 @@ function renderBody(lang: Lang): string {
             </div>`
           : ""
       }
-      ${freeButtonsHtml(handle, lang)}
-      ${creatorStatsHtml(state.data, lang)}
+      ${creatorStatsHtml(state.data, lang, savedProfileHandles.has(handle))}
       ${audienceHtml(state.data, lang)}
       ${locationHtml(state.data, lang)}
       ${topVideosHtml(state.data, lang)}
@@ -405,12 +416,23 @@ function render(container: HTMLElement, lang: Lang): void {
   container.querySelector<HTMLButtonElement>('[data-action="refresh-saved"]')?.addEventListener("click", () => {
     void runSearch(container, lang, (container.querySelector('[data-action="refresh-saved"]') as HTMLButtonElement).dataset.handle!);
   });
+  container.querySelector<HTMLButtonElement>('[data-action="toggle-save-profile"]')?.addEventListener("click", async () => {
+    if (state.kind !== "result") return;
+    const c = state.data.creator;
+    await toggleSavedProfile({ handle: c.unique_id, nickname: c.nickname, avatar: c.avatar || null, follower_count: c.follower_count, day28_gmv: c.day28_gmv });
+    await refreshSavedProfiles();
+    render(container, lang);
+  });
 }
 
-export function renderBuscarCuenta(container: HTMLElement, lang: Lang): void {
+export function renderBuscarCuenta(container: HTMLElement, lang: Lang, openHandle?: string): void {
   render(container, lang);
   void listSavedSearches().then((items) => {
     savedSearches = items;
     if (state.kind === "idle") render(container, lang);
   });
+  void refreshSavedProfiles().then(() => {
+    if (state.kind === "result") render(container, lang);
+  });
+  if (openHandle) void openSaved(container, lang, openHandle);
 }

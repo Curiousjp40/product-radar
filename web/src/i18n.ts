@@ -25,6 +25,14 @@ export const dict: Record<string, { es: string; en: string }> = {
   units_sold_short: { es: "vendidos", en: "sold" },
   nav_pipeline: { es: "Mi lista", en: "My list" },
   nav_buscar_cuenta: { es: "Buscar cuenta", en: "Search account" },
+  nav_cuentas: { es: "Cuentas", en: "Creators" },
+  cuentas_tab_buscar: { es: "Buscar", en: "Search" },
+  cuentas_tab_guardadas: { es: "Guardadas", en: "Saved" },
+  cuentas_tab_comparar: { es: "Comparar", en: "Compare" },
+  cuentas_guardadas_empty: {
+    es: "Todavía no has guardado ninguna cuenta. Busca una y toca \"Guardar perfil\".",
+    en: "You haven't saved any accounts yet. Search one and tap \"Save profile\".",
+  },
   nav_season: { es: "Temporada", en: "Season" },
   nav_settings: { es: "Ajustes", en: "Settings" },
   nav_more: { es: "Más", en: "More" },
@@ -107,6 +115,7 @@ export const dict: Record<string, { es: string; en: string }> = {
   // Part F split-view (added 2026-10-15).
   guardar_button: { es: "Guardar", en: "Save" },
   guardado_label: { es: "Guardado", en: "Saved" },
+  guardar_perfil_button: { es: "Guardar perfil", en: "Save profile" },
   ver_todos_detalles_button: { es: "Ver todos los detalles", en: "See full details" },
   // Part E saturation badge (added 2026-10-15).
   saturation_tag_entra_ya: { es: "Entra ya", en: "Jump in now" },
