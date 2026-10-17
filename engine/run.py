@@ -87,6 +87,7 @@ from engine.posting_time import (
     best_live_time_for_l1,
     best_time_for_pool,
     best_video_time,
+    heat_grid_cells,
     load_live_records,
     load_video_records,
     top_lives_for_l1,
@@ -1410,6 +1411,53 @@ def compute_best_times_by_category_and_group(
     return categories, groups
 
 
+# Part B Horarios rebuild (2026-10-16): "one card per real group, not 12
+# duplicates" -- the 12 scanned categories collapse to the 5 groups Roxie
+# actually schedules lives around. Deliberately finer than CategoryGroup's
+# fashion/home split (Zapatos and Mascotas get their own group rather than
+# folding into Moda/Hogar) and deliberately NOT config-driven: these 5 are
+# a fixed, small, stable grouping of the category list above, not
+# something that needs per-category YAML tuning the way scoring weights do.
+SCHEDULE_GROUPS: dict[str, list[str]] = {
+    "moda": ["shapewear", "dresses", "sets", "winter_clothing", "costumes", "pajamas", "activewear"],
+    "zapatos": ["shoes"],
+    "muebles": ["furniture"],
+    "hogar": ["home_decor", "home_storage"],
+    "mascotas": ["pet_furniture"],
+}
+
+
+def compute_live_schedule_by_group(
+    live_timing_cfg: dict,
+    snapshots_dir: Path = SNAPSHOTS_DIR,
+) -> dict[str, dict]:
+    """One result per SCHEDULE_GROUPS key: the best live window (reusing
+    best_live_time_for_l1's median-ranked logic) plus a full day x 2-hour
+    heat grid (heat_grid_cells) pooled across every L1 id that group's
+    member categories map to -- several categories can share one L1 id
+    (e.g. every Moda-core category reuses L1=2), so this dedupes by
+    room_id across them before computing anything, the same way a single
+    category's own best-time already dedupes across snapshot pages."""
+    category_to_l1 = live_timing_cfg["category_to_l1_id"]
+    result: dict[str, dict] = {}
+    for group_key, member_categories in SCHEDULE_GROUPS.items():
+        l1_ids = {category_to_l1[c] for c in member_categories if c in category_to_l1}
+        records: list[dict] = []
+        seen_room_ids: set[str] = set()
+        for l1_id in l1_ids:
+            for r in load_live_records(snapshots_dir, l1_id):
+                if r["room_id"] in seen_room_ids:
+                    continue
+                seen_room_ids.add(r["room_id"])
+                records.append(r)
+        result[group_key] = {
+            "best": best_live_time_for_l1(records),
+            "grid": heat_grid_cells(records),
+            "sample_size": len(records),
+        }
+    return result
+
+
 def compute_live_times_by_category(
     live_timing_cfg: dict,
     categories_cfg: dict,
@@ -1773,6 +1821,8 @@ async def run(args: argparse.Namespace) -> None:
             compute_live_highlights_by_category(live_timing_cfg, categories_cfg, today) if live_timing_cfg else {}
         )
         export.write_live_highlights(live_highlights_by_category, data_dir=export_dir)
+        live_schedule_by_group = compute_live_schedule_by_group(live_timing_cfg) if live_timing_cfg else {}
+        export.write_live_schedule(live_schedule_by_group, data_dir=export_dir)
         # Every clean + suspicious candidate gets its own product page (not
         # just the ~9 picks) -- the "Todos" full list links to any of them.
         enriched_ids = {c["product_id"] for c in pool if isinstance(c.get("daily_units_14"), list)}

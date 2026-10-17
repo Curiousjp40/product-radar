@@ -68,6 +68,18 @@ def write_live_highlights(highlights: dict[str, list[dict]], data_dir: Path | No
     )
 
 
+def write_live_schedule(schedule_by_group: dict[str, dict], data_dir: Path | None = None) -> None:
+    """Part B Horarios rebuild (2026-10-16): the day x 2-hour heat grid
+    per SCHEDULE_GROUPS key (moda/zapatos/muebles/hogar/mascotas), from
+    engine.run.compute_live_schedule_by_group -- replaces best_times.json's
+    "live" section (one card per category, 12 duplicates across shared L1
+    ids) with one card per real group."""
+    _write(
+        (data_dir or DATA_DIR) / "live_schedule.json",
+        {"schema_version": SCHEMA_VERSION, "groups": schedule_by_group},
+    )
+
+
 def write_hooks(hooks_cfg: dict[str, Any], data_dir: Path | None = None) -> None:
     """config/hooks.yaml -> web/public/data/hooks.json (Part C, added
     2026-10-15) -- static template content (category hooks + shot-list

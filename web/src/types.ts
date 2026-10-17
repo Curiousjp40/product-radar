@@ -208,6 +208,30 @@ export interface LiveHighlightsFile {
   categories: Record<string, LiveHighlight[]>;
 }
 
+// Part B Horarios rebuild (2026-10-16): one card per real group
+// (moda/zapatos/muebles/hogar/mascotas -- engine.run.SCHEDULE_GROUPS),
+// each with a day x 2-hour heat grid instead of a single best-window line.
+export type ScheduleGroupKey = "moda" | "zapatos" | "muebles" | "hogar" | "mascotas";
+
+export interface HeatGridCell {
+  weekday: number;
+  hour_start: number;
+  hour_end: number;
+  median_units: number;
+  sample_size: number;
+}
+
+export interface LiveScheduleGroup {
+  best: LiveBestTime | null;
+  grid: HeatGridCell[];
+  sample_size: number;
+}
+
+export interface LiveScheduleFile {
+  schema_version: number;
+  groups: Record<ScheduleGroupKey, LiveScheduleGroup>;
+}
+
 export interface CreatorInsights {
   length_sweet_spot: Record<string, { video_count: number; gmv_per_video: number; units_per_10k_views: number }>;
   reach_vs_engagement: { views_gmv_corr: number | null; interaction_rate_gmv_corr: number | null };

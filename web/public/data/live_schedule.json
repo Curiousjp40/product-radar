@@ -1,0 +1,701 @@
+{
+  "schema_version": 1,
+  "groups": {
+    "moda": {
+      "best": {
+        "sample_size": 30,
+        "used_organic_only": true,
+        "hour_start": 20,
+        "hour_end": 22,
+        "best_weekdays": [
+          0,
+          1
+        ],
+        "median_duration_minutes": 145
+      },
+      "grid": [
+        {
+          "weekday": 0,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 142.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 0,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 27.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 93.5,
+          "sample_size": 4
+        },
+        {
+          "weekday": 1,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 28.5,
+          "sample_size": 8
+        },
+        {
+          "weekday": 1,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 15,
+          "sample_size": 3
+        },
+        {
+          "weekday": 1,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 246,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 37.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 83.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 47.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 16,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 4,
+          "hour_end": 6,
+          "median_units": 10,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 0,
+          "hour_end": 2,
+          "median_units": 34.0,
+          "sample_size": 2
+        }
+      ],
+      "sample_size": 30
+    },
+    "zapatos": {
+      "best": {
+        "sample_size": 30,
+        "used_organic_only": true,
+        "hour_start": 20,
+        "hour_end": 22,
+        "best_weekdays": [
+          0,
+          2
+        ],
+        "median_duration_minutes": 150
+      },
+      "grid": [
+        {
+          "weekday": 0,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 151.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 60.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 9,
+          "sample_size": 5
+        },
+        {
+          "weekday": 1,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 8.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 18,
+          "sample_size": 5
+        },
+        {
+          "weekday": 1,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 18.5,
+          "sample_size": 4
+        },
+        {
+          "weekday": 1,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 9.0,
+          "sample_size": 4
+        },
+        {
+          "weekday": 2,
+          "hour_start": 6,
+          "hour_end": 8,
+          "median_units": 7,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 28,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 11,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 13,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 61,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 6,
+          "sample_size": 1
+        }
+      ],
+      "sample_size": 30
+    },
+    "muebles": {
+      "best": {
+        "sample_size": 30,
+        "used_organic_only": true,
+        "hour_start": 12,
+        "hour_end": 14,
+        "best_weekdays": [
+          5,
+          4
+        ],
+        "median_duration_minutes": 138
+      },
+      "grid": [
+        {
+          "weekday": 1,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 6.0,
+          "sample_size": 4
+        },
+        {
+          "weekday": 2,
+          "hour_start": 0,
+          "hour_end": 2,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 18,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 8.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 3,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 14,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 5.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 6,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 19,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 2,
+          "hour_end": 4,
+          "median_units": 18,
+          "sample_size": 1
+        },
+        {
+          "weekday": 0,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 7,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 0,
+          "hour_end": 2,
+          "median_units": 6,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 13,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 7,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 8,
+          "sample_size": 1
+        },
+        {
+          "weekday": 5,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 18,
+          "sample_size": 1
+        },
+        {
+          "weekday": 5,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 54,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 6,
+          "hour_end": 8,
+          "median_units": 8,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 14,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 46,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 2,
+          "hour_end": 4,
+          "median_units": 22,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 9,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 9,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 9,
+          "sample_size": 1
+        }
+      ],
+      "sample_size": 30
+    },
+    "hogar": {
+      "best": {
+        "sample_size": 30,
+        "used_organic_only": true,
+        "hour_start": 8,
+        "hour_end": 10,
+        "best_weekdays": [
+          1,
+          2
+        ],
+        "median_duration_minutes": 122
+      },
+      "grid": [
+        {
+          "weekday": 0,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 14.0,
+          "sample_size": 6
+        },
+        {
+          "weekday": 1,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 15,
+          "sample_size": 5
+        },
+        {
+          "weekday": 1,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 22,
+          "sample_size": 3
+        },
+        {
+          "weekday": 1,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 19.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 19.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 29.5,
+          "sample_size": 4
+        },
+        {
+          "weekday": 1,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 45.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 21.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 0,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 11.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 2,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 39,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 5,
+          "sample_size": 1
+        }
+      ],
+      "sample_size": 30
+    },
+    "mascotas": {
+      "best": {
+        "sample_size": 30,
+        "used_organic_only": true,
+        "hour_start": 20,
+        "hour_end": 22,
+        "best_weekdays": [
+          3,
+          5
+        ],
+        "median_duration_minutes": 157
+      },
+      "grid": [
+        {
+          "weekday": 0,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 22,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 22,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 82.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 1,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 21,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 12,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 16,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 20,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 19.5,
+          "sample_size": 2
+        },
+        {
+          "weekday": 4,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 106,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 23,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 22,
+          "hour_end": 24,
+          "median_units": 6,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 8,
+          "hour_end": 10,
+          "median_units": 54,
+          "sample_size": 1
+        },
+        {
+          "weekday": 6,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 17,
+          "sample_size": 1
+        },
+        {
+          "weekday": 5,
+          "hour_start": 20,
+          "hour_end": 22,
+          "median_units": 42,
+          "sample_size": 1
+        },
+        {
+          "weekday": 1,
+          "hour_start": 4,
+          "hour_end": 6,
+          "median_units": 7,
+          "sample_size": 1
+        },
+        {
+          "weekday": 0,
+          "hour_start": 16,
+          "hour_end": 18,
+          "median_units": 13,
+          "sample_size": 1
+        },
+        {
+          "weekday": 0,
+          "hour_start": 14,
+          "hour_end": 16,
+          "median_units": 232,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 30,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 4,
+          "hour_end": 6,
+          "median_units": 26,
+          "sample_size": 1
+        },
+        {
+          "weekday": 5,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 20,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 12,
+          "hour_end": 14,
+          "median_units": 25,
+          "sample_size": 1
+        },
+        {
+          "weekday": 2,
+          "hour_start": 4,
+          "hour_end": 6,
+          "median_units": 5,
+          "sample_size": 1
+        },
+        {
+          "weekday": 4,
+          "hour_start": 0,
+          "hour_end": 2,
+          "median_units": 6,
+          "sample_size": 1
+        },
+        {
+          "weekday": 3,
+          "hour_start": 10,
+          "hour_end": 12,
+          "median_units": 153.0,
+          "sample_size": 2
+        },
+        {
+          "weekday": 2,
+          "hour_start": 18,
+          "hour_end": 20,
+          "median_units": 11,
+          "sample_size": 1
+        }
+      ],
+      "sample_size": 30
+    }
+  }
+}

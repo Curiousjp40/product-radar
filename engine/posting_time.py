@@ -189,6 +189,30 @@ def load_live_records(snapshots_dir: Path, l1_category_id: int) -> list[dict]:
     return list(seen.values())
 
 
+def heat_grid_cells(records: list[dict]) -> list[dict]:
+    """Part B Horarios rebuild (2026-10-16): one cell per (weekday,
+    hour_start) 2-hour bucket that has at least one live, each with the
+    MEDIAN units sold in that slot (not mean -- one viral live shouldn't
+    make a slot look better than it typically is, same reasoning as
+    _rank_window's own median) and how many lives that median is based on.
+    Pure/UI-agnostic: the frontend decides shading/highlighting from this.
+    `records` is load_live_records's own output shape (weekday/hour_start/
+    units already computed)."""
+    buckets: dict[tuple[int, int], list[int]] = {}
+    for r in records:
+        buckets.setdefault((r["weekday"], r["hour_start"]), []).append(r["units"])
+    return [
+        {
+            "weekday": weekday,
+            "hour_start": hour_start,
+            "hour_end": hour_start + 2,
+            "median_units": median(units),
+            "sample_size": len(units),
+        }
+        for (weekday, hour_start), units in buckets.items()
+    ]
+
+
 def top_lives_for_l1(snapshots_dir: Path, l1_category_id: int, now: datetime, within_days: int = 28, limit: int = 10) -> list[dict]:
     """Part 7 "En vivo" (2026-10-16): the top-selling lives in one L1
     category over the last `within_days` days, for the "top-selling lives"

@@ -2805,3 +2805,50 @@ select.status-select {
   object-fit: cover;
   background: var(--surface-2);
 }
+
+/* Horarios heat grid (Part B rebuild, added 2026-10-16) */
+.heat-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+.heat-row {
+  display: grid;
+  grid-template-columns: 28px repeat(7, 1fr);
+  gap: 2px;
+  align-items: center;
+}
+
+.heat-row-header {
+  margin-bottom: 2px;
+}
+
+.heat-row-label {
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  text-align: right;
+  padding-right: 2px;
+}
+
+.heat-col-label {
+  font-size: 0.62rem;
+  color: var(--text-dim);
+  text-align: center;
+}
+
+.heat-cell {
+  aspect-ratio: 1;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--accent) calc(var(--intensity, 0) * 90%), var(--surface-2));
+}
+
+.heat-cell.best {
+  outline: 2px solid var(--text);
+  outline-offset: -1px;
+}
+
+.schedule-group-card h3 {
+  margin-bottom: 0;
+}

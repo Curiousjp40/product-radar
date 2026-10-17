@@ -5,11 +5,12 @@ from engine.posting_time import (
     best_live_time_for_l1,
     best_time_for_pool,
     best_video_time,
+    heat_grid_cells,
     load_live_records,
     load_video_records,
     top_lives_for_l1,
 )
-from engine.run import compute_best_times_by_category_and_group
+from engine.run import compute_best_times_by_category_and_group, compute_live_schedule_by_group
 
 
 def _write_snapshot(tmp_path, week, product_id, videos):
@@ -230,3 +231,63 @@ def test_top_lives_for_l1_respects_limit(tmp_path):
     _write_live_snapshot(tmp_path, "2026-W01", 2, 1, lives)
     result = top_lives_for_l1(tmp_path, 2, _NOW, limit=5)
     assert len(result) == 5
+
+
+def _rec(weekday, hour_start, units):
+    return {
+        "room_id": f"r{weekday}-{hour_start}-{units}",
+        "units": units,
+        "weekday": weekday,
+        "hour_start": hour_start,
+        "hour_end": hour_start + 2,
+    }
+
+
+def test_heat_grid_cells_groups_by_weekday_and_hour():
+    records = [_rec(0, 12, 10), _rec(0, 12, 20), _rec(2, 20, 5)]
+    cells = heat_grid_cells(records)
+    assert len(cells) == 2
+    mon_noon = next(c for c in cells if c["weekday"] == 0 and c["hour_start"] == 12)
+    assert mon_noon["median_units"] == 15
+    assert mon_noon["sample_size"] == 2
+    wed_evening = next(c for c in cells if c["weekday"] == 2 and c["hour_start"] == 20)
+    assert wed_evening["median_units"] == 5
+    assert wed_evening["sample_size"] == 1
+    assert wed_evening["hour_end"] == 22
+
+
+def test_heat_grid_cells_uses_median_not_mean():
+    # one viral live at 500 units shouldn't make the slot look typical of 500
+    records = [_rec(1, 8, 10), _rec(1, 8, 12), _rec(1, 8, 500)]
+    cells = heat_grid_cells(records)
+    assert cells[0]["median_units"] == 12
+
+
+def test_heat_grid_cells_empty_with_no_records():
+    assert heat_grid_cells([]) == []
+
+
+def test_compute_live_schedule_by_group_pools_member_categories_by_l1_id(tmp_path):
+    # shapewear and dresses (both Moda) share L1=2 in the real config;
+    # pet_furniture (Mascotas) uses a different id and must stay separate.
+    live_timing_cfg = {"category_to_l1_id": {"shapewear": 2, "dresses": 2, "pet_furniture": 17}}
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live("r1", MON_NOON_ET, 10), _live("r2", MON_NOON_ET, 20)])
+    _write_live_snapshot(tmp_path, "2026-W01", 17, 1, [_live("r3", MON_NOON_ET, 5)])
+    result = compute_live_schedule_by_group(live_timing_cfg, snapshots_dir=tmp_path)
+    assert result["moda"]["sample_size"] == 2
+    assert result["mascotas"]["sample_size"] == 1
+    assert result["zapatos"]["sample_size"] == 0
+    assert result["zapatos"]["best"] is None
+    assert result["moda"]["best"]["hour_start"] == 12
+    assert len(result["moda"]["grid"]) == 1
+    assert result["moda"]["grid"][0]["median_units"] == 15
+
+
+def test_compute_live_schedule_by_group_dedupes_room_id_across_shared_l1_categories(tmp_path):
+    # shapewear and dresses both map to L1=2 -- load_live_records already
+    # dedupes within one L1 id's own files, so pooling the group must not
+    # double-count a live just because two member categories share an id.
+    live_timing_cfg = {"category_to_l1_id": {"shapewear": 2, "dresses": 2}}
+    _write_live_snapshot(tmp_path, "2026-W01", 2, 1, [_live("r1", MON_NOON_ET, 10)])
+    result = compute_live_schedule_by_group(live_timing_cfg, snapshots_dir=tmp_path)
+    assert result["moda"]["sample_size"] == 1
