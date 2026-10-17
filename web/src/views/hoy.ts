@@ -6,6 +6,7 @@ import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { t, type Lang } from "../i18n";
+import { overflowMenuHtml, wireOverflowMenus, type OverflowMenuItem } from "../overflowMenu";
 import { addMisProducto, getAllMisProductos, ownedProductIds, shopRejectionCount, solicitudFromProduct } from "../misProductos";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
@@ -105,20 +106,14 @@ function shotListDetailsHtml(pick: Pick, hooks: HooksFile, lang: Lang): string {
   `;
 }
 
+// Design review item 0.6: max 2 visible actions per card (primary "Ver en
+// TikTok Shop" + secondary "Ya lo tengo"); everything else goes behind
+// the "..." overflow menu (overflowMenu.ts).
 function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
   const requested = hasRequestedSample(pick.product_id);
-  return `
-    <div class="card-actions">
-      <a class="btn-primary" href="${pick.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
-      <a class="btn-save-pill" href="#/product/${pick.product_id}">${t("see_selling_videos_button", lang)}</a>
-      <button
-        type="button"
-        class="btn-mark-filmed ${filmed ? "active" : ""}"
-        data-action="mark-filmed"
-        data-product-id="${pick.product_id}"
-        ${filmed ? "disabled" : ""}
-      >${filmed ? t("marked_filmed_label", lang) : t("mark_filmed_button", lang)}</button>
-      <button
+  const overflowItems: OverflowMenuItem[] = [
+    {
+      html: `<button
         type="button"
         class="btn-request-sample ${requested ? "active" : ""}"
         data-action="request-sample"
@@ -126,9 +121,27 @@ function actionButtons(pick: Pick, lang: Lang, filmed: boolean): string {
         data-price="${pick.price}"
         data-name="${pick.clean_title.replace(/"/g, "&quot;")}"
         ${requested ? "disabled" : ""}
-      >${requested ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>
-      <button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>
+      >${requested ? t("sample_requested_label", lang) : t("request_sample_button", lang)}</button>`,
+    },
+    {
+      html: `<button
+        type="button"
+        class="btn-mark-filmed ${filmed ? "active" : ""}"
+        data-action="mark-filmed"
+        data-product-id="${pick.product_id}"
+        ${filmed ? "disabled" : ""}
+      >${filmed ? t("marked_filmed_label", lang) : t("mark_filmed_button", lang)}</button>`,
+    },
+    { html: `<a class="btn-save-pill" href="#/product/${pick.product_id}">${t("see_selling_videos_button", lang)}</a>` },
+    {
+      html: `<button type="button" class="btn-not-for-me" data-action="not-for-me" data-product-id="${pick.product_id}" data-category="${pick.category}">${t("not_for_me_button", lang)}</button>`,
+    },
+  ];
+  return `
+    <div class="card-actions">
+      <a class="btn-primary" href="${pick.tiktok_shop_url}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
       ${yaLoTengoButtonHtml(pick.product_id, lang)}
+      ${overflowMenuHtml(pick.product_id, overflowItems, lang)}
     </div>
   `;
 }
@@ -352,6 +365,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
     ]),
   );
   wireYaLoTengo(container, lang, yaLoTengoProducts, () => void renderHoy(container, lang));
+  wireOverflowMenus(container);
 
   container.querySelectorAll<HTMLButtonElement>('[data-action="not-for-me"]').forEach((btn) => {
     btn.addEventListener("click", async () => {

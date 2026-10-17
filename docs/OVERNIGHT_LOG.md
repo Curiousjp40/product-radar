@@ -216,6 +216,24 @@ an "⭐ Mis favoritos" filter chip in Todos, verified in the browser
 end to end (favorited Vestidos, saved, filtered Todos down to exactly
 the Vestidos-category + favorited-brand products, tag showing on each).
 
+### Item 0.6: too many buttons per card (Hoy hero) -- done
+Hoy's hero/also-good cards had 6 always-visible buttons (Ver en TikTok
+Shop, Ver videos que venden, Marcar grabado, Pedir muestra, No me
+interesa, Ya lo tengo). Added a reusable overflow-menu.ts component
+(section 1's "OverflowMenu"), cut visible actions to 2 (primary "Ver
+en TikTok Shop" + secondary "Ya lo tengo" -- matches section 3.1's own
+spec for this exact card), everything else behind a "..." button.
+
+Caught and fixed the SAME real bug class as the earlier
+.detail-modal[hidden] fix, in the very component built to avoid
+needing that lesson twice: .overflow-menu-list set `display: flex`
+with no `[hidden]` override, so the menu rendered OPEN on every page
+load again. Fixed immediately (styles.css) and added
+"overflow-menu-list" to hiddenOverlayGuard.test.ts's regression list,
+which would have caught it before I ever loaded the page. Verified
+closed-by-default, opens on tap, closes on outside click, at 390px and
+1440px.
+
 NOT done, logged: the engine-side scoring boost (see above), the
 first-run Hoy prompt, the "Nuevo de tus marcas" row on Hoy, and the
 "tap Ya lo tengo/+ Venta on 3+ items from one brand -> suggest

@@ -374,6 +374,7 @@ export const dict: Record<string, { es: string; en: string }> = {
   top_products_label: { es: "Productos que más vende", en: "Top-selling products" },
   load_more_button: { es: "Ver {n} más", en: "Show {n} more" },
   not_for_me_button: { es: "No me interesa", en: "Not for me" },
+  overflow_menu_label: { es: "Más acciones", en: "More actions" },
   undo_button: { es: "Deshacer", en: "Undo" },
   undo_toast_not_for_me: { es: "Marcado como no me interesa.", en: "Marked as not for me." },
   undo_toast_ya_lo_tengo: { es: "Agregado a Mis Productos.", en: "Added to Mis Productos." },

@@ -11,7 +11,7 @@ import { test } from "node:test";
  * `display` set must have a matching `[hidden] { display: none }` rule. */
 const CSS = readFileSync(new URL("../src/styles.css", import.meta.url), "utf8");
 
-const OVERLAY_CLASSES_RENDERED_HIDDEN = ["detail-modal", "ya-lo-tengo-sheet", "back-to-top-btn"];
+const OVERLAY_CLASSES_RENDERED_HIDDEN = ["detail-modal", "ya-lo-tengo-sheet", "back-to-top-btn", "overflow-menu-list"];
 
 test("every overlay class rendered with the bare hidden attribute has an explicit [hidden] display:none rule, or sets no conflicting display", () => {
   for (const cls of OVERLAY_CLASSES_RENDERED_HIDDEN) {
