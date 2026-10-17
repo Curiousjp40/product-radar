@@ -25,6 +25,14 @@ import { syncIndicatorHtml, wireSyncIndicator } from "./syncIndicator";
 // vivo" is promoted out of Mas into a main section. The old Muestras
 // page/route still exists (its request-sample buttons elsewhere still
 // write to it) but is no longer linked from Mas's own list.
+const TAB_ICONS: Record<string, string> = {
+  hoy: '<path d="M12 3l8 6v11a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1V9z"/>',
+  week: '<path d="M4 5h16v3H4zM4 11h16v8H4zM8 11v8M14 11v8"/>',
+  "en-vivo": '<circle cx="12" cy="12" r="3"/><path d="M5 12a7 7 0 0 1 7-7M19 12a7 7 0 0 1-7 7M5 12a7 7 0 0 0 7 7M19 12a7 7 0 0 0-7-7"/>',
+  "mis-productos": '<path d="M4 7l8-4 8 4v10l-8 4-8-4z"/><path d="M4 7l8 4 8-4M12 11v10"/>',
+  more: '<circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/>',
+};
+
 const TABS: { route: string; labelKey: string }[] = [
   { route: "hoy", labelKey: "nav_hoy" },
   { route: "week", labelKey: "nav_videos" },
@@ -62,7 +70,10 @@ function renderShell(lang: Lang): void {
             : tab.route === "week"
               ? VIDEO_ROUTES.has(route.name)
               : route.name === tab.route;
-        return `<a href="#/${tab.route}" class="${isActive ? "active" : ""}">${t(tab.labelKey, lang)}</a>`;
+        return `<a href="#/${tab.route}" class="${isActive ? "active" : ""}">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TAB_ICONS[tab.route]}</svg>
+          <span class="tab-label">${t(tab.labelKey, lang)}</span>
+        </a>`;
       }).join("")}
     </nav>
     <main id="view"></main>
