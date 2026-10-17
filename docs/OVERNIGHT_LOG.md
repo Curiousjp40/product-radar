@@ -24,4 +24,31 @@ this log started, see git log for f3df27b..4accf47):
 
 ## Decisions log
 
-(appended as items complete)
+### Item 3: Lives que venden card restructure -- done
+Two labeled sections ("La creadora" / "Este live · <date>"), per-product
+"N vendidos en este live" line, product strip cut to one button (Ya lo
+tengo); tapping a product thumb opens the shared detail modal with the
+other actions (TikTok Shop link, Pedir muestra -- moved there since the
+card itself only has one button now).
+
+Category filter (item 4): added `liveProductCategoryMatch.ts`, a
+keyword-based check against her 12 tracked categories' real product
+titles, hiding (not deleting) a live when none of its products match.
+Caught and fixed a real false-positive bug before shipping: naive
+`.includes("coat")` matched "Chicken-**Coat**ed Collagen Cheek Rolls"
+(an actual @gusthepup0 dog-treats product) -- switched to word-boundary
+regex matching (with a plural "s?" suffix so "Boots"/"Dresses" still
+match). Verified against the real @gusthepup0 live data: now correctly
+hidden. This is a loose heuristic (keyword list I wrote, not derived
+from config/categories.yaml's own require/exclude lists, which are
+Python-side and not exported to the frontend) -- good enough to catch
+obviously-off-topic lives like the dog-treats example, not a precise
+classifier. Flagging as a reasonable-but-imperfect call per Ryan's
+"make reasonable choices" instruction.
+
+Also fixed, found while touching this file: several missing Spanish
+accents in i18n.ts's en_vivo_lives_* keys (dias->días,
+conversion->conversión, Que copiar->Qué copiar, mas vendido->más
+vendido, ahi->ahí) -- design review item 0.8, opportunistic fix while
+already editing this block; the fuller accent audit across the whole
+dict is still queued under "remaining section 0 items".

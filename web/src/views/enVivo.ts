@@ -8,6 +8,7 @@ import { t, type Lang } from "../i18n";
 import { answerCardHtml, dayBarChartHtml, hourBarChartHtml } from "./answerCard";
 import { buildLivePlan, type LivePlanProduct } from "../livePlan";
 import { aggregateTopLiveProducts, type LiveProductRef } from "../liveProductAggregate";
+import { liveProductsMatchTrackedCategories } from "../liveProductCategoryMatch";
 import { getAllMisProductos, updateMisProducto, type MisProducto } from "../misProductos";
 import { hasRequestedSample, requestSample } from "../samples";
 import type { LiveBestTime, LiveHighlight, LiveProductDetail, LiveScheduleGroup, ScheduleGroupKey } from "../types";
@@ -108,12 +109,21 @@ function lightProductDetailHtml(p: { title: string; image_url: string | null; pr
     <div class="light-product-detail">
       <img class="light-product-detail-photo" src="${src}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER_PRODUCT_IMG}'" />
       <h3>${p.title}</h3>
-      <p class="meta">$${p.price.toFixed(2)} &middot; ${p.units_sold} ${t("units_sold_short", lang)}</p>
-      <a class="btn-primary" href="${tiktokShopUrlFor(p.product_id)}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+      <p class="meta">$${p.price.toFixed(2)} &middot; ${t("en_vivo_lives_sold_count", lang, { n: p.units_sold })}</p>
+      <div class="card-actions">
+        <a class="btn-primary" href="${tiktokShopUrlFor(p.product_id)}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
+        <button type="button" class="btn-save-pill" data-action="request-sample" data-product-id="${p.product_id}" ${hasRequestedSample(p.product_id) ? "disabled" : ""}>
+          ${hasRequestedSample(p.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}
+        </button>
+      </div>
     </div>
   `;
 }
 
+// Design review follow-up (Ryan): one button per product on the strip --
+// "Ya lo tengo" only. Tapping the card itself opens the shared detail
+// modal (lightProductDetailHtml) with the other actions (sample, TikTok
+// Shop), same pattern as every other compact card on the site.
 function productThumbHtml(p: LiveProductDetail["products"][number], lang: Lang): string {
   const src = p.image_url ? assetUrl(p.image_url) : PLACEHOLDER_PRODUCT_IMG;
   return `
@@ -122,18 +132,19 @@ function productThumbHtml(p: LiveProductDetail["products"][number], lang: Lang):
         <img src="${src}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${PLACEHOLDER_PRODUCT_IMG}'" />
       </div>
       <div class="live-products-thumb-name">${p.title}</div>
-      <div class="live-products-thumb-meta">$${p.price.toFixed(2)} &middot; ${p.units_sold} ${t("units_sold_short", lang)}</div>
+      <div class="live-products-thumb-meta">${t("en_vivo_lives_sold_count", lang, { n: p.units_sold })}</div>
       <div class="live-products-thumb-actions" onclick="event.stopPropagation()">
         ${yaLoTengoButtonHtml(p.product_id, lang)}
-        <button type="button" class="btn-save-pill" data-action="request-sample" data-product-id="${p.product_id}" ${hasRequestedSample(p.product_id) ? "disabled" : ""}>
-          ${hasRequestedSample(p.product_id) ? t("sample_requested_label", lang) : t("request_sample_button", lang)}
-        </button>
-        <a class="btn-save-pill" href="${tiktokShopUrlFor(p.product_id)}" target="_blank" rel="noopener">${t("open_in_tiktok_shop", lang)}</a>
       </div>
     </div>
   `;
 }
 
+// Ryan's card-structure fix: two clearly labeled sections so the
+// creator's own 28-day totals never read as if they were this single
+// live's numbers -- "La creadora" (who she is, overall) then
+// "Este live · <date>" (viewers/ventas/conversión/duración for just this
+// one stream, then what sold in it).
 function liveCardHtml(h: LiveHighlight, detail: LiveProductDetail, lang: Lang): string {
   const hostPhoto = detail.host.photo_url ? assetUrl(detail.host.photo_url) : initialsCircleDataUri(detail.host.handle, 64);
   const avatarFallback = initialsCircleDataUri(detail.host.handle, 64);
@@ -144,6 +155,7 @@ function liveCardHtml(h: LiveHighlight, detail: LiveProductDetail, lang: Lang): 
 
   return `
     <div class="live-products-card" data-room-id="${h.room_id}">
+      <p class="live-products-section-label">${t("en_vivo_lives_section_creator", lang)}</p>
       <div class="live-products-header">
         <img class="live-products-host-photo" src="${hostPhoto}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${avatarFallback}'" />
         <div class="live-products-header-body">
@@ -155,13 +167,14 @@ function liveCardHtml(h: LiveHighlight, detail: LiveProductDetail, lang: Lang): 
           ${sellsLine}
         </div>
       </div>
+      <p class="live-products-section-label live-products-section-label-live">${t("en_vivo_lives_section_this_live", lang, { datetime: `${formatTime(h.started_at, lang)} ET` })}</p>
       <div class="live-products-stats-row">
         <div class="live-products-stat"><b>${h.viewer_count.toLocaleString()}</b><span>${t("en_vivo_lives_stat_viewers", lang)}</span></div>
         <div class="live-products-stat"><b>${h.units_sold}</b><span>${t("en_vivo_lives_stat_sales", lang)}</span></div>
         <div class="live-products-stat"><b>${detail.conversion_rate !== null ? `${Math.round(detail.conversion_rate * 10000) / 100}%` : "--"}</b><span>${t("en_vivo_lives_stat_conversion", lang)}</span></div>
         <div class="live-products-stat"><b>${h.duration_minutes}m</b><span>${t("en_vivo_lives_stat_duration", lang)}</span></div>
       </div>
-      <p class="meta live-products-datetime">${formatTime(h.started_at, lang)} ET</p>
+      <p class="meta live-products-products-label">${t("en_vivo_lives_products_in_live", lang)}</p>
       <div class="live-products-strip">
         ${detail.products.map((p) => productThumbHtml(p, lang)).join("")}
       </div>
@@ -386,7 +399,11 @@ export async function renderEnVivo(
   const investigatedLives = liveProducts.lives ?? {};
   const investigatedEntries: [LiveHighlight, LiveProductDetail][] = allHighlights
     .filter((h) => investigatedLives[h.room_id])
-    .map((h) => [h, investigatedLives[h.room_id]] as [LiveHighlight, LiveProductDetail]);
+    .map((h) => [h, investigatedLives[h.room_id]] as [LiveHighlight, LiveProductDetail])
+    // Ryan's request: hide (don't delete) lives whose products don't
+    // actually match her tracked categories, e.g. a live tagged
+    // pet_furniture that's really just dog treats.
+    .filter(([, d]) => liveProductsMatchTrackedCategories(d.products));
   const filteredSorted = sortLives(investigatedEntries.filter(([, d]) => matchesLivesFilter(d, livesFilter)), livesSort);
   const openEntry = openLiveRoomId ? filteredSorted.find(([h]) => h.room_id === openLiveRoomId) : null;
 
@@ -475,16 +492,18 @@ export async function renderEnVivo(
     });
   });
 
-  container.querySelectorAll<HTMLButtonElement>('[data-action="request-sample"]').forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const id = btn.dataset.productId;
-      if (!id) return;
-      const flat = Object.values(investigatedLives)
-        .flatMap((d) => d.products)
-        .find((p) => p.product_id === id);
-      requestSample(id, flat?.title ?? id, flat?.price ?? 0, new Date());
-      void renderEnVivo(container, lang, activeTab, activeScheduleGroup);
-    });
+  // Delegated (not per-button) because the modal's own "Pedir muestra"
+  // button is injected later by openDetailModal, after this wiring pass.
+  container.addEventListener("click", (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-action="request-sample"]');
+    if (!btn) return;
+    const id = btn.dataset.productId;
+    if (!id) return;
+    const flat = Object.values(investigatedLives)
+      .flatMap((d) => d.products)
+      .find((p) => p.product_id === id);
+    requestSample(id, flat?.title ?? id, flat?.price ?? 0, new Date());
+    void renderEnVivo(container, lang, activeTab, activeScheduleGroup);
   });
 
   container.querySelectorAll<HTMLButtonElement>('[data-action="quitar-del-plan"]').forEach((btn) => {

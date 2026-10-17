@@ -1598,6 +1598,29 @@ select.status-select {
   gap: 10px;
 }
 
+/* Two clearly labeled sections (real bug fix: the creator's own 28-day
+ * totals read as if they were this single live's numbers). */
+.live-products-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.live-products-section-label-live {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.live-products-products-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin: 2px 0 0;
+}
+
 .live-products-header {
   display: flex;
   gap: 10px;
