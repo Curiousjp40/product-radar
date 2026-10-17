@@ -22,6 +22,46 @@ this log started, see git log for f3df27b..4accf47):
 11. Remaining design review sections (1, 2, 3.8-3.14, 4, 5)
 12. Sales-logging upgrade (PENDING_REQUESTS.md items 5-6) -- LAST
 
+## Status: all 12 "things that matter most" (section 0) done
+
+As of commit 95a2dff, every item in DESIGN_REVIEW.md section 0 (the
+"do these first, in order" list) is done and pushed: 1 (bottom tab
+bar), 2-4 (compact cards + modal detail, Esta semana/Todos), 5
+(broken-image placeholders -- was already mostly done pre-session,
+verified), 6 (overflow menu, max 2 visible card buttons), 7 (no raw
+category keys + copy-scan test), 8 (accents + the seasons.json root
+cause), 9 (AnswerCard-first covered via section 3.4/3.7's redesign,
+done earlier), 10 (empty states), 11 (.btn-primary base rule), 12
+(clean_title bug fix). Also done out of section-0-order per Ryan's
+live reprioritization during the session: section 3.4/3.7 (AnswerCard
++ bar charts), 3.6 (Lives que venden restructure), Buscar cuenta video
+thumbnails + save-profile control, the Cuentas tab merge, Seasons
+dates/placement, and Mis favoritos (scoped).
+
+Remaining, in DESIGN_REVIEW.md's own order, not yet started this
+session: section 1b (desktop/mobile auto-detect layout + Ajustes
+"Vista" override), section 1 (design tokens/component consolidation
+pass -- largely already satisfied piecemeal by tonight's work, worth a
+dedicated audit rather than assuming done), section 2 (height-budget
+automated check specifically -- the actual page-length REDUCTIONS are
+done, but no Playwright/test enforcing the 390px screen-count budgets
+from the doc exists yet), 3.2-3.3 already covered by tonight's Esta
+semana/Todos work, 3.5 (En vivo Plan card polish beyond what Mis
+favoritos/overflow menu touched), 3.8-3.14 (Mis Productos mostly
+covered by the empty-state work, Ajustes/Ocultos not reviewed), section
+4 (PWA, weekly plan, Monday recap, etc. -- all net-new features, none
+started), section 5 (copy/tone audit), section 6's automated checks
+(the raw-key/ISO-date scanner exists and tests the i18n dict, but
+nothing scans actual RENDERED pages yet -- a real gap against the
+doc's "add a test that scans rendered text" ask). PENDING_REQUESTS.md
+items 5-6 (sales-logging upgrade) intentionally last, not started.
+
+17 commits this session (40082ed..95a2dff), all with tsc clean + full
+test suites green (136 frontend / 387 Python) before each push. Ryan:
+nothing here is blocked on you except the two Worker-deploy items
+(video thumbnails, logic.js) and confirming whether item 4's TikTok
+Shop sale-event dates are worth pursuing further.
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done
