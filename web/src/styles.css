@@ -2355,9 +2355,17 @@ select.status-select {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 20px;
+  margin-top: 8px;
   padding: 14px;
   background: var(--surface-2);
   border-radius: var(--radius);
+}
+
+/* Same [hidden]-vs-display bug class fixed earlier in .detail-modal and
+ * .overflow-menu-list -- caught before shipping this time by always
+ * pairing a toggled `display` rule with this override. */
+.mis-productos-add-form[hidden] {
+  display: none;
 }
 
 .mis-productos-add-form input {

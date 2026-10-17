@@ -88,6 +88,19 @@ export async function renderMiDinero(container: HTMLElement, lang: Lang): Promis
   const today = new Date();
 
   const draw = () => {
+    // Design review item 0.10: with no sales yet, one friendly onboarding
+    // card instead of 7 empty cards + a chart of $0.00 bars.
+    if (entries.length === 0) {
+      container.innerHTML = `
+        <h2 class="view-title">${t("mi_dinero_title", lang)}</h2>
+        <div class="insight-card mi-dinero-empty-card">
+          <p class="empty-state">${t("mi_dinero_empty_title", lang)}</p>
+          <a class="btn-primary" href="#/hoy">${t("mi_dinero_empty_cta", lang)}</a>
+        </div>
+      `;
+      return;
+    }
+
     const months = lastNMonths(today, 6);
     const thisMonthKey = months[months.length - 1].key;
     const lastMonthKey = months[months.length - 2]?.key;

@@ -258,6 +258,26 @@ against running the real pipeline outside --dry-run without asking,
 and dry-run fixture replay wouldn't actually refresh the live site's
 current-week data anyway). Takes effect at tomorrow's scheduled run.
 
+### Item 0.10: empty states ("walls of empty boxes") -- done
+Mi Dinero: with 0 earnings entries, now shows one card ("Registra tu
+primera venta para ver tus ganancias" + "+ Venta" linking to Hoy)
+instead of the 7 empty cards + a $0.00 bar chart the review flagged.
+
+Mis Productos: the 6-always-visible-chip summary (recibido/grabado/
+publicado/vendiendo/rechazado/no_llego, several always reading 0 in
+two uneven rows) is now one row of 4 stats that matter (Por grabar /
+Publicados / Vendiendo / Ganado), matching section 3.8's own spec.
+The add-product form was always open on the page -- now behind a
+"+ Agregar producto" toggle, collapsed by default. Empty state copy
+updated to the review's exact wording ("Aquí van tus muestras y
+productos. Toca Ya lo tengo...") with a "Ver Videos" button.
+
+Preemptively avoided the [hidden]-vs-display bug (now the 3rd time
+this exact class of bug has come up) in the new add-product toggle:
+paired .mis-productos-add-form's existing `display: flex` with an
+explicit [hidden] override from the start, verified closed-by-default
+in the browser before committing rather than after.
+
 ### Item 0.6: too many buttons per card (Hoy hero) -- done
 Hoy's hero/also-good cards had 6 always-visible buttons (Ver en TikTok
 Shop, Ver videos que venden, Marcar grabado, Pedir muestra, No me

@@ -33,9 +33,12 @@ function parseProductIdFromTikTokShopUrl(url: string): string | null {
   return match ? match[1] : null;
 }
 
-function addFormHtml(lang: Lang): string {
+// Design review 3.8: "+ Agregar producto" opens a sheet instead of the
+// form always sitting open on the page.
+function addFormHtml(lang: Lang, open: boolean): string {
   return `
-    <form class="mis-productos-add-form" data-form="add">
+    <button type="button" class="btn-save-pill mis-productos-add-toggle">${t("mis_productos_add_toggle", lang)}</button>
+    <form class="mis-productos-add-form" data-form="add" ${open ? "" : "hidden"}>
       <input type="text" name="link_or_name" placeholder="${t("mis_productos_add_placeholder", lang)}" required />
       <input type="url" name="photo_url" placeholder="${t("mis_productos_photo_placeholder", lang)}" />
       <input type="number" name="commission_pct" min="0" max="100" step="1" placeholder="${t("mis_productos_commission_placeholder", lang)}" />
@@ -162,6 +165,7 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
   const byProductId = new Map(candidatesData.candidates.map((c) => [c.product_id, c]));
   const today = new Date();
   let solicitudTab: SolicitudTab = "pendientes";
+  let addFormOpen = false;
 
   const draw = () => {
     const summary = summarize(items);
@@ -171,20 +175,33 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
     const pipelineItems = items.filter((i) => !(["solicitado", "aprobado", "rechazado"] as MisProductoStatus[]).includes(i.status));
     const sorted = [...pipelineItems].sort((a, b) => STATUS_ORDER.indexOf(a.status) - STATUS_ORDER.indexOf(b.status));
 
+    // Design review 3.8: one row of 4 stats that matter (was 6 always-zero
+    // chips in two uneven rows -- recibido/grabado/publicado/vendiendo/
+    // rechazado/no_llego).
+    const statRowHtml = `
+      <div class="stat-row mis-productos-stat-row">
+        <div class="stat"><b>${summary.countsByStatus.recibido}</b><span>${t("mis_productos_stat_por_grabar", lang)}</span></div>
+        <div class="stat"><b>${summary.countsByStatus.publicado}</b><span>${statusLabel("publicado", lang)}</span></div>
+        <div class="stat"><b>${summary.countsByStatus.vendiendo}</b><span>${statusLabel("vendiendo", lang)}</span></div>
+        <div class="stat"><b>$${summary.totalEarned.toFixed(2)}</b><span>${t("mis_productos_stat_ganado", lang)}</span></div>
+      </div>
+      ${summary.waitingToFilm > 0 ? `<p class="mis-productos-summary-line">${t("mis_productos_waiting_to_film", lang, { n: summary.waitingToFilm })}</p>` : ""}
+    `;
+
     container.innerHTML = `
       <h2 class="view-title">${t("mis_productos_title", lang)}</h2>
-      <div class="mis-productos-summary">
-        ${STATUS_ORDER.concat(TERMINAL_STATUSES)
-          .map((s) => `<div class="mis-productos-summary-chip"><b>${summary.countsByStatus[s]}</b><span>${statusLabel(s, lang)}</span></div>`)
-          .join("")}
-      </div>
-      <div class="mis-productos-summary-line">
-        ${t("mis_productos_total_earned", lang, { amount: `$${summary.totalEarned.toFixed(2)}` })}
-        ${summary.waitingToFilm > 0 ? ` &middot; ${t("mis_productos_waiting_to_film", lang, { n: summary.waitingToFilm })}` : ""}
-      </div>
+      ${statRowHtml}
       ${solicitudesSectionHtml(items, solicitudTab, lang, today)}
-      ${addFormHtml(lang)}
-      ${pipelineItems.length === 0 ? `<p class="empty-state">${t("mis_productos_empty", lang)}</p>` : `<div class="mis-productos-list">${sorted.map((i) => itemCardHtml(i, lang, isOverdueToFilm(i, today))).join("")}</div>`}
+      ${
+        pipelineItems.length === 0
+          ? `<div class="insight-card mis-productos-empty-card">
+              <p class="empty-state">${t("mis_productos_empty", lang)}</p>
+              <a class="btn-primary" href="#/week">${t("mis_productos_empty_cta", lang)}</a>
+            </div>`
+          : ""
+      }
+      ${addFormHtml(lang, addFormOpen)}
+      ${pipelineItems.length === 0 ? "" : `<div class="mis-productos-list">${sorted.map((i) => itemCardHtml(i, lang, isOverdueToFilm(i, today))).join("")}</div>`}
     `;
 
     container.querySelectorAll<HTMLButtonElement>("[data-solicitud-tab]").forEach((btn) => {
@@ -289,6 +306,12 @@ export async function renderMisProductos(container: HTMLElement, lang: Lang): Pr
       });
       await addMisProducto(item);
       items.unshift(item);
+      addFormOpen = false;
+      draw();
+    });
+
+    container.querySelector(".mis-productos-add-toggle")?.addEventListener("click", () => {
+      addFormOpen = !addFormOpen;
       draw();
     });
 
