@@ -460,7 +460,11 @@ export const dict: Record<string, { es: string; en: string }> = {
   best_time_level_group: { es: "este grupo", en: "this group" },
   best_time_level_all: { es: "todos los productos", en: "all products" },
   best_time_live_label: { es: "Mejor hora para un live", en: "Best time to go live" },
-  saved_searches_title: { es: "Búsquedas guardadas", en: "Saved searches" },
+  saved_searches_title: { es: "Recientes", en: "Recent" },
+  buscar_cuenta_intro: {
+    es: "Busca cualquier cuenta de TikTok Shop para ver sus ventas, videos y productos antes de contactarla.",
+    en: "Search any TikTok Shop account to see its sales, videos and products before reaching out.",
+  },
   saved_search_date: { es: "datos del {date}", en: "data from {date}" },
   saved_search_viewing: { es: "Viendo datos guardados del {date}", en: "Viewing saved data from {date}" },
   actualizar_button: { es: "Actualizar", en: "Refresh" },

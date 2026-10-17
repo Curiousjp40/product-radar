@@ -173,6 +173,20 @@ details) rather than a custom hidden-toggle component, so there's no
 risk of the [hidden]-vs-display bug class that's bitten this session
 three times already.
 
+### Item 3.12 (remaining piece): Cuentas intro line + Recientes list -- done
+Last night's Cuentas merge already covered the saved-accounts grid
+(Guardadas) and the compare view; the two pieces still missing were
+a short "Para que sirve" line and a separate, small "Recientes" list
+(item 3's own wording). The Buscar sub-tab's existing auto-save
+history section (every search gets cached server-side) already WAS
+exactly that recent-searches list -- just mislabeled "Busquedas
+guardadas" (confusing now that "Guardadas" means something different:
+explicitly favorited profiles) and showing the full history instead of
+a small one. Relabeled to "Recientes", capped to 5, dropped its
+leftover link to the old standalone #/comparar-cuentas route (Comparar
+is a tab-bar sub-tab now). Added the intro line to the idle Buscar
+state. Verified at 390px.
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done

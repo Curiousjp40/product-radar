@@ -260,13 +260,19 @@ function savedSearchCardHtml(s: SavedSearchSummary, lang: Lang): string {
   `;
 }
 
+// Design review 3.12: a small "Recientes" list (her own search history,
+// auto-saved server-side on every search) -- distinct from Guardadas
+// (explicitly favorited profiles, views/cuentas.ts), capped short per
+// Ryan's "separate small list" wording rather than the full history.
+const RECENT_SEARCHES_LIMIT = 5;
+
 function savedSearchesHtml(lang: Lang): string {
   if (savedSearches.length === 0) return "";
+  const recent = savedSearches.slice(0, RECENT_SEARCHES_LIMIT);
   return `
     <div class="saved-searches-section">
       <h3>${t("saved_searches_title", lang)}</h3>
-      <div class="saved-search-grid">${savedSearches.map((s) => savedSearchCardHtml(s, lang)).join("")}</div>
-      <a class="more-link" href="#/comparar-cuentas">${t("compare_accounts_link", lang)}</a>
+      <div class="saved-search-grid">${recent.map((s) => savedSearchCardHtml(s, lang)).join("")}</div>
     </div>
   `;
 }
@@ -274,6 +280,7 @@ function savedSearchesHtml(lang: Lang): string {
 function renderBody(lang: Lang): string {
   if (state.kind === "idle") {
     return `
+      <p class="search-intro">${t("buscar_cuenta_intro", lang)}</p>
       <form class="search-box" id="search-form">
         <input type="text" id="search-input" placeholder="@usuario" autocomplete="off" />
         <button type="submit" class="btn-accent">${t("search_button", lang)}</button>

@@ -1818,9 +1818,14 @@ select.status-select {
 }
 
 .best-times-intro,
-.best-times-footnote {
+.best-times-footnote,
+.search-intro {
   font-size: 0.85rem;
   color: var(--text-dim);
+}
+
+.search-intro {
+  margin: 0 0 12px;
 }
 
 .best-times-list {
