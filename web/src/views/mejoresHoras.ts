@@ -78,8 +78,6 @@ export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Pr
         ? `<div class="best-times-list">${liveEntries.map(([cat, lt]) => liveRowHtml(categoryLabel(cat), lt, lang)).join("")}</div>`
         : `<p class="empty-state">${t("best_time_video_unavailable", lang)}</p>`
     }
-    <p class="best-times-footnote">${t("mejores_horas_ari_note", lang)}</p>
-
     <p class="best-times-footnote">
       ${t("mejores_horas_footnote", lang)}
       <a href="https://www.tiktok.com/analytics" target="_blank" rel="noopener">${t("mejores_horas_tiktok_studio_link", lang)}</a>

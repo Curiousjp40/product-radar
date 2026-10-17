@@ -5,15 +5,12 @@ creators:
   roxie:
     handle: roxm___
     primary: true
-  ari:
-    handle: ariannamendoza04
-    primary: false
 target_categories:        # priority order, updated 2026-10-18 for Roxie's home + fashion targets
   - shapewear
   - dresses
   - sets
   - furniture
-  - home_decor            # proven by Ari
+  - home_decor
   - winter_clothing
   - shoes
   - pet_furniture

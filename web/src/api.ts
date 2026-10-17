@@ -4,6 +4,7 @@ import type {
   HooksFile,
   InsightsFile,
   LiveHighlightsFile,
+  LiveProductsFile,
   LiveScheduleFile,
   MetaFile,
   PicksFile,
@@ -50,3 +51,4 @@ export const loadHooks = () => loadJson<HooksFile>("hooks.json");
 export const loadBestTimes = () => loadJson<BestTimesFile>("best_times.json");
 export const loadLiveHighlights = () => loadJson<LiveHighlightsFile>("live_highlights.json");
 export const loadLiveSchedule = () => loadJson<LiveScheduleFile>("live_schedule.json");
+export const loadLiveProducts = () => loadJson<LiveProductsFile>("live_products.json");

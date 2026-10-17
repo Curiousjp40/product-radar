@@ -15,8 +15,15 @@ Read `PRODUCT_RADAR_SPEC.md` before doing anything. It is the source of truth fo
 
 ## People
 - Roxie (@roxm___): primary user, TikTok Shop affiliate creator.
-- Ari (@ariannamendoza04): benchmark creator. The repo and site are public (Ryan's decision, 2026-10-15; the FastMoss data is publicly available anyway).
 - Ryan: repo owner.
+
+Ari (@ariannamendoza04) was an early benchmark creator used to seed starting
+priors; removed from the app entirely 2026-10-16 (this is meant to generalize
+to other creators, not stay a Roxie-vs-Ari comparison tool). Her rows remain
+in the read-only `data/seed/creator_history.json` but every real code path
+filters to Roxie (`engine/seed.py`'s `PRIMARY_CREATOR`, `engine/run.py`'s
+`CREATOR`). The repo and site are public (Ryan's decision, 2026-10-15; the
+FastMoss data is publicly available anyway).
 
 ## Status (updated 2026-10-16)
 Phase 0a, Phase 0, Phase 1, and Phase 2 done. Real weekly ingest + scoring

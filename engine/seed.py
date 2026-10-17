@@ -12,8 +12,14 @@ from engine.models import CreatorVideo
 
 # Confirmed from the real data/seed/creator_history.json (video_type field):
 # spec section 2's totals are "shop videos only" -- filtering to this value
-# reproduces section 2.1's reported numbers exactly (46 Roxie / 50 Ari videos).
+# reproduces section 2.1's reported numbers exactly (46 Roxie shop videos).
 SHOP_VIDEO_TYPE = "Shoppable Video"
+
+# creator_history.json is read-only (per CLAUDE.md) and still has rows from
+# the old Ari benchmark alongside Roxie's; load_creator_history keeps parsing
+# every record (so existing tests/fixtures with multiple creators still work),
+# but every real caller filters to this one.
+PRIMARY_CREATOR = "roxm___"
 
 
 def shop_videos_only(videos: list[CreatorVideo]) -> list[CreatorVideo]:

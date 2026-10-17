@@ -421,10 +421,6 @@ const dict: Record<string, { es: string; en: string }> = {
     es: "Los lives que venden duran ~{n} min",
     en: "Lives that sell last ~{n} min",
   },
-  mejores_horas_ari_note: {
-    es: "Ari: sus lives que más venden son de noche, entre 8:40 y 11 PM ET.",
-    en: "Ari: her best-selling lives are at night, 8:40-11 PM ET.",
-  },
   mejores_horas_footnote: {
     es: "Esto es una pista basada en nuestros datos, no en la cuenta de Roxie. Para saber cuándo SU audiencia está en línea, revisa: ",
     en: "This is a clue based on our data, not Roxie's own account. To see when HER audience is online, check: ",
@@ -502,6 +498,33 @@ const dict: Record<string, { es: string; en: string }> = {
   en_vivo_highlight_stats: {
     es: "{viewers} espectadores &middot; {units} ventas",
     en: "{viewers} viewers &middot; {units} sales",
+  },
+  en_vivo_lives_host: { es: "Anfitriona", en: "Host" },
+  en_vivo_lives_followers: { es: "{n} seguidores", en: "{n} followers" },
+  en_vivo_lives_day28_gmv: { es: "${amount} en ventas (28 dias)", en: "${amount} in sales (28 days)" },
+  en_vivo_lives_what_they_sell: {
+    es: "Vende sobre todo {category}",
+    en: "Mostly sells {category}",
+  },
+  en_vivo_lives_conversion: { es: "{pct}% de conversion", en: "{pct}% conversion" },
+  en_vivo_lives_view_more: { es: "Ver todo", en: "View more" },
+  en_vivo_lives_view_less: { es: "Ver menos", en: "View less" },
+  en_vivo_lives_products_in_live: { es: "Productos en este live", en: "Products in this live" },
+  en_vivo_lives_price_range: { es: "Precios: ${min} a ${max}", en: "Prices: ${min} to ${max}" },
+  en_vivo_lives_what_to_copy: { es: "Que copiar", en: "What to copy" },
+  en_vivo_lives_what_to_copy_single: {
+    es: "El mas vendido fue \"{title}\" ({units} ventas) -- empieza por ahi.",
+    en: "The best seller was \"{title}\" ({units} sales) -- start there.",
+  },
+  en_vivo_lives_what_to_copy_pair: {
+    es: "Los mas vendidos fueron \"{title1}\" y \"{title2}\" -- empieza por esos dos.",
+    en: "The best sellers were \"{title1}\" and \"{title2}\" -- start with those two.",
+  },
+  en_vivo_lives_timeline: { es: "Linea de tiempo de ventas", en: "Sales timeline" },
+  en_vivo_lives_timeline_minute: { es: "min {minute}", en: "min {minute}" },
+  en_vivo_lives_no_investigation: {
+    es: "Esta lista crecera cuando se investiguen mas lives (requiere aprobacion de Ryan).",
+    en: "This list will grow as more lives are investigated (needs Ryan's approval).",
   },
   mis_productos_edit_details: { es: "Editar detalles", en: "Edit details" },
   mis_productos_notes_label: { es: "Notas", en: "Notes" },

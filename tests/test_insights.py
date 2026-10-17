@@ -21,12 +21,6 @@ def roxie_videos():
     return [v for v in videos if v.creator == "roxm___"]
 
 
-@pytest.fixture
-def ari_videos():
-    videos = load_creator_history(FIXTURE)
-    return [v for v in videos if v.creator == "ariannamendoza04"]
-
-
 def test_length_bucket_boundaries():
     assert length_bucket(12) == "<=12s"
     assert length_bucket(13) == "13-20s"
@@ -87,8 +81,3 @@ def test_summarize_creator_empty_input():
     s = summarize_creator([])
     assert s["video_count"] == 0
     assert s["gmv"] == 0.0
-
-
-def test_ari_summary_has_higher_price_per_unit_than_roxie(roxie_videos, ari_videos):
-    # matches the real-world pattern from spec section 2.1 (Ari sells pricier items)
-    assert summarize_creator(ari_videos)["avg_price_per_unit"] > summarize_creator(roxie_videos)["avg_price_per_unit"]

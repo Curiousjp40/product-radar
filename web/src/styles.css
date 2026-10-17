@@ -664,64 +664,60 @@ select.status-select {
 }
 
 
+/* Roxie's feedback (2026-10-16): the top-picks list read too small
+   next to "Everything else this week" -- now sized/laid out the same
+   (big square photo on top, details below, buttons at the bottom). */
 .week-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 640px) {
+  .week-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .week-row {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 10px;
+  gap: 0;
   background: var(--surface);
   border-radius: var(--radius);
-  padding: 12px;
-  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.06);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.08);
   border: 2px solid transparent;
 }
 
-/* Fixed 2026-10-16 (Roxie's first real use): used to switch to a ROW
-   layout at >=560px, squeezing the action buttons beside the text and
-   the title/stats into a narrow strip -- the list stays a stacked
-   photo+text block, then a full-width actions row, at every width;
-   the sticky detail panel already covers desktop. */
 .week-row-actions {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+  padding: 0 14px 14px;
 }
 
 .week-row-link {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
+  flex-direction: column;
   text-decoration: none;
   color: var(--text);
 }
 
 .week-row-photo,
 .week-row-photo-placeholder {
-  width: 96px;
-  height: 96px;
-  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0;
   object-fit: cover;
-  flex: 0 0 auto;
+  display: block;
   background: var(--surface-2);
 }
 
-@media (min-width: 768px) {
-  .week-row-photo,
-  .week-row-photo-placeholder {
-    width: 128px;
-    height: 128px;
-  }
-}
-
 .week-row-body {
-  flex: 1;
   min-width: 0;
+  padding: 12px 14px 8px;
 }
 
 .week-row-title {
@@ -843,6 +839,8 @@ select.status-select {
   }
 
   .week-list {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 40%;
     max-width: 40%;
   }
@@ -1308,7 +1306,6 @@ select.status-select {
 }
 
 /* En vivo page (Part 7, added 2026-10-16) */
-.live-plan-list,
 .live-highlight-list {
   display: flex;
   flex-direction: column;
@@ -1316,7 +1313,6 @@ select.status-select {
   margin-top: 10px;
 }
 
-.live-plan-product,
 .live-highlight-row {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1324,25 +1320,43 @@ select.status-select {
   padding: 10px 14px;
 }
 
+/* Roxie's feedback (2026-10-16): sized/laid out the same as "Everything
+   else this week" -- big square photo on top, details below. */
+.live-plan-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+@media (min-width: 640px) {
+  .live-plan-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .live-plan-product {
   display: flex;
-  gap: 12px;
-  align-items: flex-start;
+  flex-direction: column;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(28, 27, 31, 0.08);
 }
 
 .live-plan-product .photo,
 .live-plan-product .photo-placeholder {
-  width: 64px;
-  height: 64px;
-  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0;
   object-fit: cover;
-  flex: 0 0 auto;
+  display: block;
   background: var(--surface-2);
 }
 
 .live-plan-product-body {
-  flex: 1;
   min-width: 0;
+  padding: 12px 14px 14px;
 }
 
 .live-plan-product .name,
@@ -1354,6 +1368,183 @@ select.status-select {
 .live-plan-talking-point {
   margin: 4px 0 0;
   font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+/* "Lives que venden" enhanced cards (2026-10-16, dry-run/fixture stage --
+   see engine/live_products.py). Only lives with real investigation data
+   (room_id present in live_products.json) get this card; everything else
+   keeps the plain .live-highlight-row above. */
+.live-products-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.live-products-header {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.live-products-host-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 auto;
+  background: var(--surface-2);
+}
+
+.live-products-header-body {
+  min-width: 0;
+  flex: 1;
+}
+
+.live-products-host-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-products-host-handle {
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.live-products-host-handle:hover {
+  text-decoration: underline;
+}
+
+.live-products-sells-line {
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+/* Product photo strip: small thumbnails, horizontal scroll at 390px --
+   must actually render <img> tags at a visible size (Roxie flagged a
+   text-only mock as looking "blank"), with a graceful onerror fallback
+   when image_url is missing or fails to load. */
+.live-products-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.live-products-thumb {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+
+.live-products-thumb img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  display: block;
+}
+
+.live-products-toggle {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+}
+
+.live-products-detail {
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.live-products-detail-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.live-products-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.live-products-detail-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.live-products-detail-row-body {
+  min-width: 0;
+}
+
+.live-products-copy {
+  margin: 0;
+  font-size: 0.85rem;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+}
+
+.live-products-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.live-products-timeline-title {
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.live-products-timeline-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 60px;
+  overflow-x: auto;
+}
+
+.live-products-timeline-bar {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+}
+
+.live-products-timeline-fill {
+  width: 14px;
+  min-height: 2px;
+  background: var(--accent);
+  border-radius: 3px 3px 0 0;
+}
+
+.live-products-timeline-label {
+  font-size: 0.62rem;
   color: var(--text-dim);
 }
 
@@ -2851,4 +3042,26 @@ select.status-select {
 
 .schedule-group-card h3 {
   margin-bottom: 0;
+}
+
+.schedule-group-picker {
+  margin: 10px 0;
+}
+
+.schedule-group-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .schedule-group-select {
+    width: auto;
+    min-width: 220px;
+  }
 }

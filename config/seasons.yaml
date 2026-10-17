@@ -98,8 +98,6 @@ events:
     categories: [home_decor, furniture, seasonal]
     film_start: null # TODO: confirm with TikTok closer to the date; 2026 instance ran Jun-Jul
     film_end: null
-    notes_en: "2026 instance: Ari made $23,864 in home (Jun) and $12,589 (Jul). Dates vary yearly."
-    notes_es: "Instancia 2026: Ari gano $23,864 en home (jun) y $12,589 (jul). Las fechas varian cada ano."
 
   - id: back_to_school_2027
     label_es: Regreso a clases

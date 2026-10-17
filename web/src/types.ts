@@ -232,6 +232,57 @@ export interface LiveScheduleFile {
   groups: Record<ScheduleGroupKey, LiveScheduleGroup>;
 }
 
+// "Lives que venden" paid investigation (2026-10-16, dry-run/fixture stage
+// -- engine/live_products.py, engine.export.write_live_products). Keyed by
+// room_id; a live with no entry here falls back to the plain
+// LiveHighlight row (highlightRowHtml in views/enVivo.ts).
+export interface LiveProductHost {
+  handle: string;
+  photo_url: string;
+  follower_count: number;
+  day28_gmv: number;
+  top_category: string;
+}
+
+export interface LiveProductItem {
+  product_id: string;
+  title: string;
+  image_url: string;
+  price: number;
+  commission_rate: number;
+  units_sold: number;
+}
+
+export interface LiveProductCategoryBreakdown {
+  category: string;
+  units_sold_share_percent?: number;
+}
+
+export interface LiveProductSalesTimelinePoint {
+  minute: number;
+  units_sold: number;
+  gmv: number;
+}
+
+export interface LiveProductDetail {
+  room_id: string;
+  host: LiveProductHost;
+  started_at: string | null;
+  duration_minutes: number | null;
+  viewer_count: number;
+  units_sold: number;
+  gmv: number;
+  conversion_rate: number | null;
+  category_breakdown: LiveProductCategoryBreakdown[];
+  sales_timeline: LiveProductSalesTimelinePoint[];
+  products: LiveProductItem[];
+}
+
+export interface LiveProductsFile {
+  schema_version: number;
+  lives: Record<string, LiveProductDetail>;
+}
+
 export interface CreatorInsights {
   length_sweet_spot: Record<string, { video_count: number; gmv_per_video: number; units_per_10k_views: number }>;
   reach_vs_engagement: { views_gmv_corr: number | null; interaction_rate_gmv_corr: number | null };
@@ -254,8 +305,7 @@ export interface CreatorInsights {
 
 export interface InsightsFile {
   schema_version: number;
-  roxm___: CreatorInsights;
-  ariannamendoza04: CreatorInsights;
+  [creatorHandle: string]: CreatorInsights | number;
 }
 
 export interface SeasonEvent {

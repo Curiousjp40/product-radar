@@ -54,23 +54,3 @@ def test_roxie_shop_video_summary_matches_spec_section_2_1(all_videos):
     assert s["gmv_top5_share"] == pytest.approx(0.76, abs=0.01)
 
 
-def test_ari_shop_video_summary_matches_spec_section_2_1(all_videos):
-    ari = shop_videos_only([v for v in all_videos if v.creator == "ariannamendoza04"])
-    assert len(ari) == 50
-    s = summarize_creator(ari)
-    assert s["gmv"] == pytest.approx(66_007, abs=1)
-    assert s["units"] == 1480
-    assert s["views"] == pytest.approx(2_607_709, abs=5000)
-    assert s["median_views_per_video"] == pytest.approx(10_250, abs=1)
-    assert s["median_gmv_per_video"] == pytest.approx(371, abs=1)
-    assert s["avg_price_per_unit"] == pytest.approx(44.60, abs=0.01)
-    assert s["units_per_10k_views"] == pytest.approx(5.68, abs=0.01)
-    assert s["gmv_per_1k_views"] == pytest.approx(25.31, abs=0.01)
-    assert s["gmv_top1_share"] == pytest.approx(0.31, abs=0.01)
-    assert s["gmv_top5_share"] == pytest.approx(0.64, abs=0.01)
-
-
-def test_ari_sells_pricier_items_than_roxie(all_videos):
-    roxie = shop_videos_only([v for v in all_videos if v.creator == "roxm___"])
-    ari = shop_videos_only([v for v in all_videos if v.creator == "ariannamendoza04"])
-    assert summarize_creator(ari)["avg_price_per_unit"] > summarize_creator(roxie)["avg_price_per_unit"]

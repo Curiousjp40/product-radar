@@ -9,7 +9,7 @@ FIXTURE = Path(__file__).parent / "fixtures" / "creator_history_sample.json"
 def test_load_creator_history_parses_all_records():
     videos = load_creator_history(FIXTURE)
     assert len(videos) == 12
-    assert {v.creator for v in videos} == {"roxm___", "ariannamendoza04"}
+    assert "roxm___" in {v.creator for v in videos}
 
 
 def test_load_creator_history_prefers_handle_over_display_name():
