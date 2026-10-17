@@ -120,6 +120,26 @@ test("mapVideoAnalysisResult extracts the real roxm___ fixture shape, capped at 
   assert.equal(videos[0].tiktok_url, "https://www.tiktok.com/@roxm___/video/v0");
 });
 
+test("mapVideoAnalysisResult extracts cover_url from whichever candidate field is present", () => {
+  const withFlatCover = mapVideoAnalysisResult({ video_list: { list: [{ video_id: "v1", cover_url: "https://x.tiktokcdn.com/a.jpg" }] } });
+  assert.equal(withFlatCover[0].cover_url, "https://x.tiktokcdn.com/a.jpg");
+
+  const withNestedCover = mapVideoAnalysisResult({
+    video_list: { list: [{ video_id: "v2", video_meta: { cover_url: "https://x.tiktokcdn.com/b.jpg" } }] },
+  });
+  assert.equal(withNestedCover[0].cover_url, "https://x.tiktokcdn.com/b.jpg");
+
+  const withNoCover = mapVideoAnalysisResult({ video_list: { list: [{ video_id: "v3" }] } });
+  assert.equal(withNoCover[0].cover_url, null);
+});
+
+test("mapVideoAnalysisResult passes through published_at when present, else null", () => {
+  const withDate = mapVideoAnalysisResult({ video_list: { list: [{ video_id: "v1", published_at: 1729000000 }] } });
+  assert.equal(withDate[0].published_at, 1729000000);
+  const withoutDate = mapVideoAnalysisResult({ video_list: { list: [{ video_id: "v2" }] } });
+  assert.equal(withoutDate[0].published_at, null);
+});
+
 test("mapProductListResult tolerates an unconfirmed response shape without throwing", () => {
   assert.deepEqual(mapProductListResult({}), []);
   assert.deepEqual(mapProductListResult({ list: [] }), []);

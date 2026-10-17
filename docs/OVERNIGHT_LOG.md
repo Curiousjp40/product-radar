@@ -46,6 +46,38 @@ obviously-off-topic lives like the dog-treats example, not a precise
 classifier. Flagging as a reasonable-but-imperfect call per Ryan's
 "make reasonable choices" instruction.
 
+### Item 4: Buscar cuenta video thumbnails + card restyle -- mostly done, one piece needs Ryan
+Root cause confirmed in worker/src/logic.js's `mapVideoAnalysisResult`:
+it never extracted a cover image field at all (not a mapping bug, a
+missing field). docs/field_map.md has no confirmed field name for
+creator_video_analysis's `video_list[]` cover image specifically (only
+for video_search/product_video_list, different tools) and the only
+local fixture is the Worker's own post-mapped cache read-back, which
+has no raw response to inspect -- so per CLAUDE.md's "never guess
+FastMoss fields" rule, I did not silently invent a field name. Instead:
+applied the same `firstDefined` best-effort candidate-list pattern this
+file already uses for `image_url`/`price` (an established, documented
+project convention for genuinely-unconfirmed fields), trying `cover_url`,
+`video_cover`, `thumbnail`, `cover`, `video_meta.cover_url`. If none of
+these are the real field, the frontend's placeholder covers it -- never
+a broken-image icon, matching Ryan's own instruction.
+
+Restyled the video list as proper cards (9:16 thumb, 2-line clamped
+title in normal color, "44.5K vistas - 14 ventas" + post date, 2-3 desktop
+columns) -- `.search-video-grid`/`.search-video-card` in styles.css.
+Added `cover_url`/`published_at` to `AccountSearchVideo` and 4 new
+worker unit tests (29 passing). Did NOT run `wrangler deploy` -- no
+Cloudflare credentials in this session, and deploying is a real
+production action outside what "make reasonable choices" should cover
+unattended. **Ryan: worker/src/logic.js's fix needs `npm run deploy`
+from worker/ (with your Cloudflare auth) before it takes effect on the
+live site; until then the deployed Worker still returns no cover_url
+and the frontend correctly falls back to the placeholder.** Did not
+trigger a real search against the live Worker to screenshot this (no
+safe free way to see MY fix's output anyway, since it isn't deployed,
+and the search budget is a real limited resource -- 5/day, 40/month
+per CLAUDE.md -- not something to spend on a screenshot overnight).
+
 Also fixed, found while touching this file: several missing Spanish
 accents in i18n.ts's en_vivo_lives_* keys (dias->días,
 conversion->conversión, Que copiar->Qué copiar, mas vendido->más

@@ -379,6 +379,12 @@ export interface AccountSearchVideo {
   play_count: number;
   video_units_sold: number;
   video_gmv: number;
+  // Best-effort (not a confirmed FastMoss field for this tool -- see
+  // worker/src/logic.js's mapVideoAnalysisResult comment); null on older
+  // cached results from before this field existed.
+  cover_url: string | null;
+  // Unix seconds, best-effort same as cover_url; null if absent/unconfirmed.
+  published_at: number | null;
   tiktok_url: string | null;
 }
 

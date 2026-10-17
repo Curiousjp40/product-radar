@@ -1,4 +1,4 @@
-import { t, type Lang } from "../i18n";
+import { locale, t, type Lang } from "../i18n";
 import { IMG_FALLBACK } from "../asset";
 import { getStoredPassword, setStoredPassword } from "../searchPassword";
 import { getSavedSearch, listSavedSearches, type SavedSearchSummary } from "../savedSearches";
@@ -179,23 +179,30 @@ function locationHtml(data: AccountSearchResult, lang: Lang): string {
   `;
 }
 
+// Design review follow-up (Ryan): video cards, not default blue
+// underlined links -- 9:16 thumbnail (~72px), 2-line clamped title in
+// normal text color, "44.5K vistas - 14 ventas" + post date, 2-3 columns
+// on desktop. Same visual language as "videos que venden" on product
+// pages (.video-thumb/.week-detail-thumb).
 function topVideosHtml(data: AccountSearchResult, lang: Lang): string {
   if (data.top_videos.length === 0) return "";
   return `
     <div class="insight-card">
       <h3>${t("top_videos_label", lang)}</h3>
-      <div class="todos-list">
+      <div class="search-video-grid">
         ${data.top_videos
-          .map(
-            (v) => `
-          <a class="todos-row" href="${v.tiktok_url ?? "#"}" target="_blank" rel="noopener">
-            <div class="photo video-photo-placeholder">&#9654;</div>
-            <div class="info">
-              <div class="name">${v.caption_text.slice(0, 50) || "..."}</div>
+          .map((v) => {
+            const dateLabel = v.published_at ? new Date(v.published_at * 1000).toLocaleDateString(locale(lang), { day: "numeric", month: "short" }) : "";
+            return `
+          <a class="search-video-card" href="${v.tiktok_url ?? "#"}" target="_blank" rel="noopener">
+            ${v.cover_url ? `<img class="search-video-thumb" src="${proxiedImageUrl(v.cover_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="search-video-thumb search-video-thumb-placeholder">&#9654;</div>`}
+            <div class="search-video-body">
+              <div class="search-video-title">${v.caption_text || "..."}</div>
               <div class="meta">${formatCount(v.play_count)} ${t("views_short", lang)} &middot; ${v.video_units_sold} ${t("sales_short", lang)}</div>
+              ${dateLabel ? `<div class="search-video-date">${dateLabel}</div>` : ""}
             </div>
-          </a>`
-          )
+          </a>`;
+          })
           .join("")}
       </div>
     </div>

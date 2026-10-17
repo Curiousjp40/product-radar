@@ -116,6 +116,20 @@ export function isAllowedImageHost(hostname) {
   return ALLOWED_IMAGE_HOST_SUFFIXES.some((suffix) => hostname.endsWith(suffix));
 }
 
+/**
+ * Real bug (Ryan, 2026-10-16): "Top-selling videos" thumbnails never
+ * rendered -- this function dropped the cover image entirely, there was
+ * no field for it at all. docs/field_map.md confirms `video_meta.cover_url`
+ * for product_video_list/video_search's video objects, but has no entry
+ * for creator_video_analysis's `video_list[]` shape specifically (no raw
+ * fixture captured for it -- only the Worker's own already-mapped cache
+ * read-back exists, see cached_search_result_roxm___.json's `_fixture_note`,
+ * which has no cover field to read from either). Rather than spend a real
+ * credit overnight to confirm it (not authorized), this tries the same
+ * flat/nested candidate names firstDefined already uses for product images
+ * below -- best-effort, not confirmed. If none of these are the real field,
+ * the frontend's placeholder covers it (never a broken-image icon).
+ */
 export function mapVideoAnalysisResult(raw) {
   const list = raw?.video_list?.list || [];
   return list.slice(0, 10).map((v) => ({
@@ -124,6 +138,8 @@ export function mapVideoAnalysisResult(raw) {
     play_count: v.play_count || 0,
     video_units_sold: v.video_units_sold || 0,
     video_gmv: v.video_gmv || 0,
+    cover_url: firstDefined(v.cover_url, v.video_cover, v.thumbnail, v.cover, v.video_meta?.cover_url) ?? null,
+    published_at: v.published_at ?? null,
     tiktok_url:
       v.video_id && v.creator_handle ? `https://www.tiktok.com/@${v.creator_handle}/video/${v.video_id}` : null,
   }));
