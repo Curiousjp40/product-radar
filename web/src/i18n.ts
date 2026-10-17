@@ -429,10 +429,46 @@ export const dict: Record<string, { es: string; en: string }> = {
     es: "Los lives que venden duran ~{n} min",
     en: "Lives that sell last ~{n} min",
   },
+  mejores_horas_live_times_link_note: {
+    es: "¿Buscas la mejor hora para un live? Está en ",
+    en: "Looking for the best time to go live? That's on ",
+  },
   mejores_horas_footnote: {
     es: "Esto es una pista basada en nuestros datos, no en la cuenta de Roxie. Para saber cuándo SU audiencia está en línea, revisa: ",
     en: "This is a clue based on our data, not Roxie's own account. To see when HER audience is online, check: ",
   },
+  answer_card_video_headline: {
+    es: "Mejor momento para publicar videos de {category}: {days} {window}",
+    en: "Best time to post {category} videos: {days} {window}",
+  },
+  answer_card_live_headline: {
+    es: "Mejor momento para un live de {category}: {days} {window}",
+    en: "Best time to go live for {category}: {days} {window}",
+  },
+  answer_card_reason: {
+    es: "los videos que más vendieron se publicaron más a esta hora",
+    en: "the top-selling videos were posted around this time most often",
+  },
+  answer_card_reason_live: {
+    es: "los lives que más vendieron empezaron más a esta hora",
+    en: "the top-selling lives started around this time most often",
+  },
+  answer_card_second_option: { es: "Segunda opción: {days} {window}", en: "Second option: {days} {window}" },
+  answer_card_low_sample: {
+    es: "Pocos datos: tómalo como pista, no como regla.",
+    en: "Not much data yet: treat this as a clue, not a rule.",
+  },
+  bar_chart_by_day_title: { es: "Por día", en: "By day" },
+  bar_chart_by_hour_title: { es: "Por hora", en: "By hour" },
+  bar_chart_by_day_caption: {
+    es: "Barra más alta = más ventas medianas en el mejor horario de ese día.",
+    en: "Taller bar = higher median sales in that day's best time slot.",
+  },
+  bar_chart_by_hour_caption: {
+    es: "Barra más alta = más ventas medianas en ese bloque de 2 horas, cualquier día.",
+    en: "Taller bar = higher median sales in that 2-hour block, any day.",
+  },
+  bar_chart_no_data: { es: "sin datos", en: "no data" },
   mejores_horas_tiktok_studio_link: { es: "TikTok Studio → Analíticas → Seguidores", en: "TikTok Studio → Analytics → Followers" },
   nav_mis_productos: { es: "Mis Productos", en: "My Products" },
   nav_muestras_legacy: { es: "Muestras (antiguo)", en: "Samples (old)" },

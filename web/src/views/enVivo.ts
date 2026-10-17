@@ -4,13 +4,13 @@ import { initialsCircleDataUri } from "../avatarFallback";
 import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { backToTopButtonHtml, detailModalHtml, openDetailModal, wireBackToTop, wireDetailModal } from "../detailModal";
 import { addEntry } from "../earningsGoal";
-import { cellIntensity, findCell, isBestCell, maxMedianUnits } from "../heatGrid";
 import { t, type Lang } from "../i18n";
+import { answerCardHtml, dayBarChartHtml, hourBarChartHtml } from "./answerCard";
 import { buildLivePlan, type LivePlanProduct } from "../livePlan";
 import { aggregateTopLiveProducts, type LiveProductRef } from "../liveProductAggregate";
 import { getAllMisProductos, updateMisProducto, type MisProducto } from "../misProductos";
 import { hasRequestedSample, requestSample } from "../samples";
-import type { HeatGridCell, LiveBestTime, LiveHighlight, LiveProductDetail, LiveScheduleGroup, ScheduleGroupKey } from "../types";
+import type { LiveBestTime, LiveHighlight, LiveProductDetail, LiveScheduleGroup, ScheduleGroupKey } from "../types";
 import { wireYaLoTengo, yaLoTengoButtonHtml, yaLoTengoSheetHtml, type YaLoTengoProduct } from "../yaLoTengo";
 
 // Tracks which investigated-live cards have their "Ver live completo"
@@ -20,7 +20,6 @@ let openLiveRoomId: string | null = null;
 const dismissedPlanIds = new Set<string>();
 
 const WEEKDAY_KEYS = ["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"];
-const HOUR_SLOTS = Array.from({ length: 12 }, (_, i) => i * 2);
 const SCHEDULE_GROUP_KEYS: ScheduleGroupKey[] = ["moda", "zapatos", "muebles", "hogar", "mascotas"];
 
 type EnVivoTab = "plan" | "lives" | "horarios";
@@ -277,18 +276,10 @@ function topLiveProductsSectionHtml(lives: Record<string, LiveProductDetail>, la
   `;
 }
 
+// Design review 3.7: replaced the day x hour heat grid (illegible labels,
+// best highlight could disagree with the darkest cell) with an AnswerCard
+// + two bar charts, same pattern as Videos -> Mejores horas.
 function scheduleGroupCardHtml(groupKey: ScheduleGroupKey, group: LiveScheduleGroup, lang: Lang): string {
-  const maxMedian = maxMedianUnits(group.grid);
-  const rows = HOUR_SLOTS.map((hourStart) => {
-    const cells = Array.from({ length: 7 }, (_, weekday) => {
-      const cell: HeatGridCell | null = findCell(group.grid, weekday, hourStart);
-      const intensity = cell ? cellIntensity(cell, maxMedian) : 0;
-      const best = cell && isBestCell(cell, group.best);
-      const title = cell ? `${t(WEEKDAY_KEYS[weekday], lang)} ${formatHourRange(hourStart, hourStart + 2)}: ${cell.median_units} ${t("units_sold_short", lang)} (${cell.sample_size})` : "";
-      return `<div class="heat-cell${best ? " best" : ""}" style="--intensity:${intensity}" title="${title}"></div>`;
-    }).join("");
-    return `<div class="heat-row"><span class="heat-row-label">${hourStart}h</span>${cells}</div>`;
-  }).join("");
   return `
     <div class="insight-card schedule-group-card">
       <h3>${t(`schedule_group_${groupKey}`, lang)}</h3>
@@ -296,16 +287,9 @@ function scheduleGroupCardHtml(groupKey: ScheduleGroupKey, group: LiveScheduleGr
         group.sample_size === 0
           ? `<p class="empty-state">${t("best_time_video_unavailable", lang)}</p>`
           : `
-            <div class="heat-grid">
-              <div class="heat-row heat-row-header"><span class="heat-row-label"></span>${WEEKDAY_KEYS.map((k) => `<span class="heat-col-label">${t(k, lang)}</span>`).join("")}</div>
-              ${rows}
-            </div>
-            ${
-              group.best
-                ? `<p class="best-times-basis">${t("mejores_horas_live_sample_note", lang, { n: group.best.sample_size, level: t(`schedule_group_${groupKey}`, lang) })}</p>
-                   ${group.best.median_duration_minutes !== null ? `<p class="best-times-basis">${t("mejores_horas_live_duration_note", lang, { n: group.best.median_duration_minutes })}</p>` : ""}`
-                : ""
-            }
+            ${answerCardHtml(group.best, t(`schedule_group_${groupKey}`, lang), lang, "live")}
+            ${dayBarChartHtml(group.grid, lang)}
+            ${hourBarChartHtml(group.grid, lang)}
           `
       }
     </div>
