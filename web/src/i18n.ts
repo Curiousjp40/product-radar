@@ -12,7 +12,9 @@ export function locale(lang: Lang): string {
   return lang === "es" ? "es-419" : "en-US";
 }
 
-const dict: Record<string, { es: string; en: string }> = {
+/** Exported so test/copyScan.test.ts can scan every ES/EN string for raw
+ * `snake_case` keys and ISO dates (design review section 0 item 7). */
+export const dict: Record<string, { es: string; en: string }> = {
   nav_hoy: { es: "Hoy", en: "Today" },
   nav_videos: { es: "Videos", en: "Videos" },
   nav_this_week: { es: "Esta semana", en: "This week" },

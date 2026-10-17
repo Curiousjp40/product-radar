@@ -1,4 +1,5 @@
 import { loadBestTimes, loadCandidates } from "../api";
+import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { t, type Lang } from "../i18n";
 import type { CategoryGroupBestTime, LiveBestTime } from "../types";
 import { videoSubTabsHtml } from "../videoSubTabs";
@@ -53,7 +54,7 @@ export async function renderMejoresHoras(container: HTMLElement, lang: Lang): Pr
 
   const categoryLabel = (cat: string): string => {
     const sample = candidatesData.candidates.find((c) => c.category === cat);
-    return sample ? (lang === "es" ? sample.category_label_es : sample.category_label_en) : cat;
+    return resolveCategoryLabel(cat, lang, sample ? (lang === "es" ? sample.category_label_es : sample.category_label_en) : null);
   };
   const groupLabel = (group: string): string => t(group === "home" ? "group_home" : "group_fashion", lang);
 

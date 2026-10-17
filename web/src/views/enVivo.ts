@@ -1,6 +1,7 @@
 import { loadBestTimes, loadCandidates, loadLiveHighlights, loadLiveProducts, loadLiveSchedule, loadPicks } from "../api";
 import { assetUrl, IMG_FALLBACK } from "../asset";
 import { initialsCircleDataUri } from "../avatarFallback";
+import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { backToTopButtonHtml, detailModalHtml, openDetailModal, wireBackToTop, wireDetailModal } from "../detailModal";
 import { addEntry } from "../earningsGoal";
 import { cellIntensity, findCell, isBestCell, maxMedianUnits } from "../heatGrid";
@@ -72,7 +73,7 @@ function tiktokShopUrlFor(productId: string): string {
 
 function categoryLabelFromKey(cat: string, lang: Lang): string {
   if (!cat) return "";
-  return lang === "es" ? cat.replaceAll("_", " ") : cat.replaceAll("_", " ");
+  return resolveCategoryLabel(cat, lang);
 }
 
 function matchesLivesFilter(detail: LiveProductDetail, filter: LivesFilter): boolean {
@@ -332,8 +333,7 @@ export async function renderEnVivo(
   const liveEntries = Object.entries(bestTimes.live ?? {}).filter((e): e is [string, LiveBestTime] => e[1] !== null);
   const categoryLabel = (cat: string): string => {
     const c = candidatesData.candidates.find((c) => c.category === cat);
-    if (c) return lang === "es" ? c.category_label_es : c.category_label_en;
-    return cat.charAt(0).toUpperCase() + cat.slice(1).replaceAll("_", " ");
+    return resolveCategoryLabel(cat, lang, c ? (lang === "es" ? c.category_label_es : c.category_label_en) : null);
   };
 
   const suggestedEntry = liveEntries.length > 0 ? liveEntries.reduce((best, e) => (e[1].sample_size > best[1].sample_size ? e : best)) : null;

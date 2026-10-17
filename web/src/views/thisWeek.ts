@@ -8,6 +8,7 @@ import { applyOwnedDisplay } from "../ownedListOrdering";
 import { applyOwnedSwap } from "../ownedSwap";
 import { candidateToPickStub } from "../pickAdapter";
 import { t, type Lang } from "../i18n";
+import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { clearFeedback, getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import { showUndoToast } from "../toast";
@@ -478,7 +479,7 @@ export async function renderThisWeek(container: HTMLElement, lang: Lang, filterG
         const label = lang === "es" ? rawData.picks.find((p) => p.category === category)?.category_label_es : rawData.picks.find((p) => p.category === category)?.category_label_en;
         const slot = container.querySelector(".category-hide-prompt-slot");
         if (slot) {
-          slot.innerHTML = categoryHidePromptHtml(category, label ?? category, lang);
+          slot.innerHTML = categoryHidePromptHtml(category, resolveCategoryLabel(category, lang, label), lang);
           wireCategoryHidePrompt(container, () => void renderThisWeek(container, lang, filterGroup));
         }
       } else {

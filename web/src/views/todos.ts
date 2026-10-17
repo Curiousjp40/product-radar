@@ -1,5 +1,6 @@
 import { loadCandidates } from "../api";
 import { assetUrl, IMG_FALLBACK } from "../asset";
+import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { getHideOwnedPref, setHideOwnedPref } from "../hideOwnedPref";
 import { t, type Lang } from "../i18n";
@@ -333,7 +334,7 @@ export async function renderTodos(container: HTMLElement, lang: Lang): Promise<v
         feedback = await getAllFeedback();
         const label = lang === "es" ? data.candidates.find((c) => c.category === category)?.category_label_es : data.candidates.find((c) => c.category === category)?.category_label_en;
         if (!getHiddenCategories().includes(category) && countHiddenInCategory(feedback, categoryByProductId, category) >= 3) {
-          categoryHidePrompt = { category, label: label ?? category };
+          categoryHidePrompt = { category, label: resolveCategoryLabel(category, lang, label) };
         }
         draw();
       });

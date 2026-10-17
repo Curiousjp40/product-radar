@@ -1,6 +1,7 @@
 import { loadBestTimes, loadCandidates, loadHooks, loadPicks, loadSeasons } from "../api";
 import { assetUrl, IMG_FALLBACK } from "../asset";
 import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
+import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
@@ -276,7 +277,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
   const nextLiveHtml = suggestedLiveEntry
     ? `<a class="hoy-next-live" href="#/en-vivo">
          <strong>${t("en_vivo_plan_title", lang)}</strong>
-         <p class="goal-progress-text">${t("en_vivo_plan_time", lang, { category: lang === "es" ? (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_es ?? suggestedLiveEntry[0]) : (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_en ?? suggestedLiveEntry[0]), days: suggestedLiveEntry[1].best_weekdays.map((d) => t(["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"][d], lang)).join(" / "), window: formatHourRange(suggestedLiveEntry[1].hour_start, suggestedLiveEntry[1].hour_end) })}</p>
+         <p class="goal-progress-text">${t("en_vivo_plan_time", lang, { category: resolveCategoryLabel(suggestedLiveEntry[0], lang, lang === "es" ? picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_es : picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_en), days: suggestedLiveEntry[1].best_weekdays.map((d) => t(["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"][d], lang)).join(" / "), window: formatHourRange(suggestedLiveEntry[1].hour_start, suggestedLiveEntry[1].hour_end) })}</p>
          <div class="hoy-next-live-photos">
            ${livePhotoUrls
              .map((url) => (url ? `<img src="${assetUrl(url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="hoy-next-live-photo-placeholder"></div>`))
@@ -341,7 +342,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
       const updatedFeedback = await getAllFeedback();
       if (!getHiddenCategories().includes(category) && countHiddenInCategory(updatedFeedback, categoryByProductId, category) >= 3) {
         const label = lang === "es" ? picksData.picks.find((p) => p.category === category)?.category_label_es : picksData.picks.find((p) => p.category === category)?.category_label_en;
-        container.insertAdjacentHTML("beforeend", categoryHidePromptHtml(category, label ?? category, lang));
+        container.insertAdjacentHTML("beforeend", categoryHidePromptHtml(category, resolveCategoryLabel(category, lang, label), lang));
         wireCategoryHidePrompt(container, () => void renderHoy(container, lang));
       } else {
         void renderHoy(container, lang);
