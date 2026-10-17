@@ -147,6 +147,22 @@ function formulaGanadoraHtml(formula: FormulaGanadora, lang: Lang): string {
             </div>`
           : ""
       }
+      ${sonidosHtml(lang)}
+    </div>
+  `;
+}
+
+// Tested video_detail_analysis against 2 top-selling videos (2026-10-16,
+// 2cr, Ryan's approval) -- no music/sound field exists anywhere on the
+// response, and no other FastMoss tool carries it either (docs/field_map.md).
+// Per Ryan's own fallback instruction: don't fake a ranking, just point to
+// TikTok Creative Center's real trending-sounds page.
+function sonidosHtml(lang: Lang): string {
+  return `
+    <div class="formula-section">
+      <span class="formula-label">${t("sonidos_label", lang)}</span>
+      <p class="sonidos-note">${t("sonidos_note", lang)}</p>
+      <a class="btn-accent" href="https://ads.tiktok.com/business/creativecenter/inspiration/popular/music/pc/en" target="_blank" rel="noopener">${t("sonidos_cta", lang)}</a>
     </div>
   `;
 }
