@@ -117,6 +117,44 @@ Ryan just asked for next). Also did not touch the message's tone/
 length (review's "shorter, TikTok-DM tone" ask) -- separate smaller
 follow-up.
 
+### Season calendar visual redesign (Ryan's new top priority, 2026-10-17 morning) -- done
+Full visual redesign per his 6-point spec, built on top of last night's
+season.ts/seasonLogic.ts groundwork:
+1. Hero banner for the current/next event, themed per event (new
+   seasonTheme.ts -- color/icon keyed by eventKind(id) so the yearly id
+   suffix doesn't matter), big countdown headline, a real progress bar
+   (new progressFraction, film_start -> today -> event anchor, 4 tests),
+   and 2-3 "Qué hacer ahora" tips that change by status (filming-now vs
+   upcoming).
+2. "Productos para esta temporada": horizontal strip of up to 8 real
+   candidates.json products matching the event's categories (shared
+   compact ProductCard, tap opens the shared detail modal).
+3. Horizontal month-strip timeline (8 months, CSS grid, new
+   `timelineSpan` pure function placing each event's bar by real month
+   math, 4 tests) with a "today" marker and tap-to-jump to that event's
+   card (verified in the browser: scrolled, clicked a bar, landed on
+   the right card).
+4. Event cards redesigned: color accent + icon, two date chips
+   ("Empieza a grabar: 15 oct" / "Black Friday / Cyber Monday: 27 nov"),
+   a status pill (Ahora/En N días/Terminado, color-coded), 3 product
+   thumbnails replacing the old category-list-only body.
+5. "seasonal"/"other" (meta categories, not real ones) dropped from
+   every category list, capped to 4 (new `displayCategories`, 2 tests) --
+   BFCM now shows "Fajas, Vestidos, Conjuntos, Muebles" instead of all
+   11 of its real categories.
+6. Past events (by event_date, not film_end -- "after the event date"
+   per his own wording) now collapse into a closed-by-default "Pasadas"
+   <details> instead of vanishing (groupSeasonEvents gained a 4th
+   bucket; this is a visible behavior change from last night's version,
+   which silently dropped them -- 3 new tests cover it, including the
+   BFCM-style case where event_date passes before film_end).
+
+11 new tests (seasonLogic.ts: progressFraction/displayCategories/
+eventKind/timelineSpan/pasadas grouping), 152 total frontend tests
+green, tsc clean. Verified end to end in the browser at 390px and
+1440px: hero, product strip + modal tap, timeline + jump, event cards,
+TikTok Deals for You Days correctly showing "Fechas por confirmar".
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done

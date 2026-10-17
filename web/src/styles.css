@@ -620,6 +620,213 @@ table.radar-table td {
   margin: 20px 0 8px;
 }
 
+/* Season calendar visual redesign (Ryan, 2026-10-17). */
+.season-hero {
+  background: var(--season-bg);
+  color: var(--season-fg);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.season-hero-icon {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.season-hero-headline {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin: 0 0 10px;
+  color: var(--season-fg);
+}
+
+.season-hero-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.season-hero-progress-fill {
+  height: 100%;
+  background: var(--season-accent);
+}
+
+.season-date-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.season-date-chip {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--season-fg);
+}
+
+.season-card .season-date-chip {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.season-hero-tips {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.season-hero-tips-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 0 0 4px;
+  opacity: 0.85;
+}
+
+.season-hero-tips ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.85rem;
+}
+
+.season-product-strip {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.season-product-card {
+  flex: 0 0 150px;
+}
+
+.season-product-thumbs {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.season-product-thumbs img,
+.season-thumb-placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--surface-2);
+}
+
+.season-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.season-card-icon {
+  font-size: 1.1rem;
+}
+
+.season-status-pill {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.season-status-pill.status-ahora {
+  background: var(--good);
+  color: #fff;
+}
+
+.season-status-pill.status-terminado {
+  background: var(--surface-2);
+  color: var(--text-dim);
+}
+
+.season-status-pill.status-en-dias {
+  background: var(--season-accent, var(--accent));
+  color: #fff;
+}
+
+.season-card {
+  border-left: 4px solid var(--season-accent, var(--accent));
+}
+
+.season-timeline {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 14px;
+}
+
+.season-timeline-months,
+.season-timeline-track {
+  display: grid;
+  min-width: 560px;
+}
+
+.season-timeline-month-label {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  text-align: center;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.season-timeline-track {
+  position: relative;
+  min-height: 70px;
+  padding: 8px 0;
+}
+
+.season-timeline-bar {
+  grid-row: 1;
+  border-radius: 8px;
+  padding: 4px 8px;
+  margin: 2px 4px;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.season-timeline-today {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--accent);
+  z-index: 1;
+}
+
+.season-pasadas-details {
+  margin-top: 20px;
+}
+
+.season-pasadas-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-dim);
+  padding: 8px 0;
+}
+
+.season-pasadas-details .season-card {
+  opacity: 0.7;
+}
+
 .hoy-season-card {
   display: block;
   text-decoration: none;
