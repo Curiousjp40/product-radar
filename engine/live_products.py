@@ -40,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -47,6 +48,8 @@ from dotenv import load_dotenv
 
 from engine.budget import BudgetExceeded, BudgetTracker, check_balance
 from engine.client import FastMossConnection
+from engine.ingest import save_raw_snapshot
+from engine.run import iso_week_label
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CACHE_PATH = REPO_ROOT / "data" / "live_products_investigated.json"
@@ -108,17 +111,32 @@ async def investigate_live(
     tracker: BudgetTracker,
     conn: Any,
     lang: str = "EN_US",
+    week: str | None = None,
 ) -> dict:
     """Calls live_products_list and live_detail_analysis for `room_id`
     (checkpointing the budget tracker after each), and calls creator_search
     for `creator_handle` only if it isn't already in `creator_cache` --
     otherwise reuses the cached entry with zero extra calls. Returns the
-    combined per-live dict matching export.write_live_products's shape."""
+    combined per-live dict matching export.write_live_products's shape.
+
+    Raw-snapshot rule (added after the 2026-10-16 "Lives que venden" pilot
+    lost the full per-live product lists -- the pilot script discarded
+    everything but the top 1-3 products per live before any raw response
+    ever touched disk): every paid response is written to disk via
+    engine.ingest.save_raw_snapshot IMMEDIATELY after the call that
+    produced it, before `_combine_live_result` or any other
+    trimming/selection logic runs. This happens unconditionally, on every
+    call to this function, regardless of what the caller later does with
+    the return value -- there is no code path that skips it."""
+    week = week or iso_week_label(date.today())
+
     products_raw = await client.call("live_products_list", {"filter": {"room_id": room_id}, "lang": lang, "pagesize": 10})
+    save_raw_snapshot(week, f"liveproducts_{room_id}_products", products_raw)
     balance = await check_balance(client)
     tracker.checkpoint("live_products_list", balance, note=f"room_id={room_id}")
 
     detail_raw = await client.call("live_detail_analysis", {"filter": {"room_id": room_id}, "lang": lang})
+    save_raw_snapshot(week, f"liveproducts_{room_id}_detail", detail_raw)
     balance = await check_balance(client)
     tracker.checkpoint("live_detail_analysis", balance, note=f"room_id={room_id}")
 
@@ -126,6 +144,7 @@ async def investigate_live(
         creator_raw = creator_cache[creator_handle]
     else:
         creator_raw = await client.call("creator_search", {"keywords": creator_handle, "pagesize": 1})
+        save_raw_snapshot(week, f"liveproducts_creator_{creator_handle}", creator_raw)
         balance = await check_balance(client)
         tracker.checkpoint("creator_search", balance, note=f"handle={creator_handle}")
         creator_cache[creator_handle] = creator_raw
@@ -244,6 +263,7 @@ async def run_live_products_investigation(
     dry_run: bool = True,
     creator_cache: dict[str, dict] | None = None,
     hard_cap: int | None = None,
+    week: str | None = None,
 ) -> dict:
     """Ties select_candidate_lives + investigate_live together.
 
@@ -279,7 +299,9 @@ async def run_live_products_investigation(
             if tracker.would_exceed(CREDITS_PER_LIVE):
                 stopped_early = True
                 break
-            result = await investigate_live(client, room_id, live.get("creator_handle", ""), creator_cache, tracker, conn)
+            result = await investigate_live(
+                client, room_id, live.get("creator_handle", ""), creator_cache, tracker, conn, week=week
+            )
             lives[room_id] = result
             investigated_room_ids.append(room_id)
     except BudgetExceeded as e:

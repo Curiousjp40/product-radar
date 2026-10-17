@@ -1,3 +1,8 @@
+import json
+
+import pytest
+
+import engine.ingest as ingest_module
 from engine.budget import BudgetTracker
 from engine.client import FixtureReplayClient
 from engine.db import connect
@@ -51,6 +56,16 @@ OFF_TOPIC_LIVE = {
     "units_sold": 300,  # highest units_sold -- would sort first if not excluded
     "gmv": 900.0,
 }
+
+@pytest.fixture(autouse=True)
+def _isolate_snapshots_dir(tmp_path, monkeypatch):
+    """investigate_live now unconditionally writes raw FastMoss responses
+    to disk via engine.ingest.save_raw_snapshot (the 2026-10-16 "never
+    trim before saving" fix). Every test in this module must never write
+    into the repo's real data/snapshots/ directory, so this redirects
+    SNAPSHOTS_DIR to a per-test tmp_path automatically."""
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path / "snapshots")
+
 
 TRACKED_CATEGORIES = {
     "shapewear", "dresses", "sets", "furniture", "home_decor", "winter_clothing",
@@ -186,6 +201,49 @@ async def test_investigate_live_second_call_same_creator_skips_creator_search(tm
         second_call_tool_names = _non_balance_tool_names(client.calls[calls_before:])
     assert second_call_tool_names == ["live_products_list", "live_detail_analysis"]
     assert len(second_call_tool_names) == 2
+
+
+async def test_investigate_live_persists_raw_snapshots_before_trimming(tmp_path, monkeypatch):
+    """Regression test for the 2026-10-16 real pilot bug: the pilot script
+    discarded every product but the top 1-3 before any raw FastMoss
+    response ever touched disk, so the other products are gone forever.
+    This proves investigate_live now writes the FULL raw response from
+    each of the three paid calls to data/snapshots/<week>/<name>.json
+    (via engine.ingest.save_raw_snapshot) before _combine_live_result (the
+    trimming/selection step) ever runs -- so a future "top-N for display"
+    step downstream can never again be the only place the full data lived.
+
+    The shapewear fixture has 3 raw products (fastmoss_live_products_
+    list_shapewear.json). If this test is run against the ORIGINAL
+    investigate_live (no save_raw_snapshot calls), no snapshot files would
+    exist at all and this test would fail on the `.exists()` asserts --
+    exactly the bug being fixed."""
+    monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path)
+    client = _fixture_client()
+    conn = connect(tmp_path / "radar.db")
+    tracker = BudgetTracker(hard_cap=100, starting_balance=500, run_id="test", conn=conn)
+    async with client:
+        result = await investigate_live(
+            client, "room_1", "fajalinda_shop", {}, tracker, conn, week="2026-W42"
+        )
+
+    products_snapshot = tmp_path / "2026-W42" / "liveproducts_room_1_products.json"
+    detail_snapshot = tmp_path / "2026-W42" / "liveproducts_room_1_detail.json"
+    creator_snapshot = tmp_path / "2026-W42" / "liveproducts_creator_fajalinda_shop.json"
+    assert products_snapshot.exists()
+    assert detail_snapshot.exists()
+    assert creator_snapshot.exists()
+
+    raw_products = json.loads(products_snapshot.read_text(encoding="utf-8"))["products"]
+    assert len(raw_products) == 3  # the full fixture response, nothing dropped
+
+    # Simulate the kind of "top-N for display" trimming a UI/export layer
+    # might still do downstream -- the point of this test is that the raw
+    # snapshot on disk already has strictly more than any such trim, since
+    # it was written BEFORE _combine_live_result (and before any caller-side
+    # trimming) ever ran.
+    downstream_display_products = result["products"][:1]
+    assert len(raw_products) > len(downstream_display_products)
 
 
 async def test_run_live_products_investigation_dry_run_makes_zero_calls(tmp_path):
