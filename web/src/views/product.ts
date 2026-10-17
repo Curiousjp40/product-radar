@@ -1,5 +1,5 @@
 import { loadBestTimes, loadProduct } from "../api";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { earningsPerHour } from "../effortPay";
 import { t, type Lang } from "../i18n";
@@ -39,7 +39,7 @@ function videoEmbed(video: VideoCard, lang: Lang): string {
   return `
     <div class="video-embed-card" data-video-id="${video.video_id}">
       <a class="video-fallback" href="${video.tiktok_url}" target="_blank" rel="noopener">
-        ${video.cover_url ? `<img src="${assetUrl(video.cover_url)}" alt="" loading="lazy" />` : ""}
+        ${video.cover_url ? `<img src="${assetUrl(video.cover_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : ""}
         <span class="video-fallback-play">&#9654;</span>
         <span class="video-fallback-label">${t("open_in_tiktok", lang)}</span>
       </a>
@@ -195,7 +195,7 @@ export async function renderProduct(container: HTMLElement, lang: Lang, productI
       ${banner}
       <a class="back-link" href="#/week">&larr; ${t("back_to_week", lang)}</a>
       <div class="product-gallery">
-        ${data.image_url ? `<img src="${assetUrl(data.image_url)}" alt="${data.title}" />` : ""}
+        ${data.image_url ? `<img src="${assetUrl(data.image_url)}" alt="${data.title}" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : ""}
       </div>
       <h2 class="view-title product-title">${data.title}</h2>
       <div style="text-align:center;font-size:0.8rem;color:var(--text-dim);margin:-8px 0 12px">${categoryLabel} &middot; ${data.shop_name}</div>

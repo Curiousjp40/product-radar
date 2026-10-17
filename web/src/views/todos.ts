@@ -1,5 +1,5 @@
 import { loadCandidates } from "../api";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt } from "../hideProduct";
 import { getHideOwnedPref, setHideOwnedPref } from "../hideOwnedPref";
 import { t, type Lang } from "../i18n";
@@ -54,7 +54,7 @@ function row(
   selected: boolean,
 ): string {
   const photo = c.image_url
-    ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />`
+    ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />`
     : `<div class="photo"></div>`;
   const infoHtml = productCardInfoHtml(
     {

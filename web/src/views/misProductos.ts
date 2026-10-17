@@ -1,5 +1,5 @@
 import { loadCandidates } from "../api";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { addEntry } from "../earningsGoal";
 import { t, type Lang } from "../i18n";
 import {
@@ -47,7 +47,7 @@ function addFormHtml(lang: Lang): string {
 
 function itemCardHtml(item: MisProducto, lang: Lang, overdue: boolean): string {
   const next = nextStatus(item.status);
-  const photo = item.photo_url ? `<img class="photo" src="${item.photo_url.startsWith("http") ? item.photo_url : assetUrl(item.photo_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`;
+  const photo = item.photo_url ? `<img class="photo" src="${item.photo_url.startsWith("http") ? item.photo_url : assetUrl(item.photo_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="photo"></div>`;
   return `
     <article class="mis-productos-card ${overdue ? "overdue" : ""}" data-id="${item.id}">
       <div class="mis-productos-card-top">
@@ -91,7 +91,7 @@ function itemCardHtml(item: MisProducto, lang: Lang, overdue: boolean): string {
 }
 
 function solicitudCardHtml(item: MisProducto, lang: Lang, tab: SolicitudTab, today: Date): string {
-  const photo = item.photo_url ? `<img class="photo" src="${item.photo_url.startsWith("http") ? item.photo_url : assetUrl(item.photo_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`;
+  const photo = item.photo_url ? `<img class="photo" src="${item.photo_url.startsWith("http") ? item.photo_url : assetUrl(item.photo_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="photo"></div>`;
   const waiting = daysWaiting(item, today);
   const amber = tab === "pendientes" && waiting >= 7;
   return `

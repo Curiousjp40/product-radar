@@ -4,7 +4,18 @@ import { test } from "node:test";
 import { buildLivePlan, type LivePlanProduct } from "../src/livePlan.ts";
 
 function p(id: string): LivePlanProduct {
-  return { product_id: id, name: id, image_url: null, price: 10, earnings_per_sale: 1, talking_point: "", isOwned: false, liveUnitsSold: null };
+  return {
+    product_id: id,
+    name: id,
+    image_url: null,
+    price: 10,
+    earnings_per_sale: 1,
+    talking_point: "",
+    isOwned: false,
+    liveUnitsSold: null,
+    misProductoId: null,
+    tiktokShopUrl: `https://www.tiktok.com/shop/pdp/${id}`,
+  };
 }
 
 test("buildLivePlan prioritizes owned-ready products before top picks", () => {

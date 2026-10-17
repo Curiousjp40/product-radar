@@ -1,5 +1,5 @@
 import { loadCandidates } from "../api";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { t, type Lang } from "../i18n";
 import { clearFeedback, getAllFeedback, getHiddenCategories, unhideCategory } from "../pipeline";
 
@@ -41,7 +41,7 @@ export async function renderOcultos(container: HTMLElement, lang: Lang): Promise
                 .map((id) => {
                   const c = byId.get(id);
                   if (!c) return "";
-                  const photo = c.image_url ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`;
+                  const photo = c.image_url ? `<img class="photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="photo"></div>`;
                   return `
                     <div class="ocultos-row">
                       ${photo}

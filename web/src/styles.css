@@ -1465,6 +1465,320 @@ select.status-select {
   display: block;
 }
 
+/* Lives que venden redesign (density pass, 2026-10-16): 2-column grid on
+   desktop instead of one narrow column, host stats row, product strip
+   cards with their own actions, filter chips + sort. */
+.live-highlight-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 10px;
+}
+
+@media (min-width: 900px) {
+  .live-highlight-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* A grid track defaults to minmax(auto,1fr), so without an explicit
+   min-width:0 a wide-content child (the product strip) can blow out the
+   track instead of scrolling inside it -- the real cause of the 390px
+   layout overflowing horizontally found while screenshotting this pass. */
+.live-products-card {
+  min-width: 0;
+}
+
+.lives-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.filter-chip {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.filter-chip.active {
+  background: var(--accent);
+  color: var(--surface);
+  border-color: var(--accent);
+}
+
+.lives-sort-select {
+  margin: 0 0 12px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+}
+
+.live-products-host-photo {
+  width: 64px;
+  height: 64px;
+}
+
+.live-products-host-handle {
+  font-size: 1rem;
+}
+
+.live-products-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  text-align: center;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 8px 4px;
+}
+
+.live-products-stat b {
+  display: block;
+  font-size: 1rem;
+}
+
+.live-products-stat span {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+}
+
+.live-products-datetime {
+  margin: 0;
+}
+
+.live-products-thumb-card {
+  flex: 0 0 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.live-products-thumb-card .live-products-thumb {
+  width: 120px;
+  height: 120px;
+}
+
+.live-products-thumb-card .live-products-thumb img {
+  width: 120px;
+  height: 120px;
+}
+
+.live-products-thumb-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+.live-products-thumb-meta {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.live-products-thumb-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.live-products-thumb-actions .btn-ya-lo-tengo,
+.live-products-thumb-actions .btn-save-pill {
+  font-size: 0.68rem;
+  padding: 4px 6px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.live-products-detail-row-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: var(--surface-2);
+}
+
+.light-product-detail {
+  text-align: center;
+}
+
+.light-product-detail-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--surface-2);
+  margin-bottom: 8px;
+}
+
+.live-top-products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+@media (min-width: 640px) {
+  .live-top-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .live-top-products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.live-top-product-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.live-top-product-card .photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--surface-2);
+  display: block;
+}
+
+.live-top-product-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-top: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.2;
+}
+
+.live-plan-order-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: var(--accent);
+  color: var(--surface);
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 999px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-plan-product {
+  position: relative;
+  cursor: pointer;
+}
+
+.live-plan-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.btn-link-remove {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Shared detail modal / bottom-sheet overlay, density/redesign pass. */
+.detail-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.detail-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.detail-modal-sheet {
+  position: relative;
+  background: var(--surface);
+  border-radius: 16px 16px 0 0;
+  max-width: 560px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 20px 16px;
+  z-index: 1;
+}
+
+@media (min-width: 640px) {
+  .detail-modal {
+    align-items: center;
+  }
+  .detail-modal-sheet {
+    border-radius: 16px;
+    max-height: 80vh;
+  }
+}
+
+.detail-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text-dim);
+}
+
+.back-to-top-btn {
+  position: fixed;
+  bottom: 76px;
+  right: 16px;
+  z-index: 50;
+  background: var(--accent);
+  color: var(--surface);
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.sticky-tab-bar {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 20;
+  padding-top: 4px;
+}
+
 .live-products-toggle {
   align-self: flex-start;
   background: none;

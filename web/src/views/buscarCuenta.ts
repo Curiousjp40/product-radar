@@ -1,4 +1,5 @@
 import { t, type Lang } from "../i18n";
+import { IMG_FALLBACK } from "../asset";
 import { getStoredPassword, setStoredPassword } from "../searchPassword";
 import { getSavedSearch, listSavedSearches, type SavedSearchSummary } from "../savedSearches";
 import type { AccountSearchResult } from "../types";
@@ -124,7 +125,7 @@ function creatorStatsHtml(data: AccountSearchResult, lang: Lang): string {
   return `
     <div class="insight-card">
       <div class="search-profile">
-        ${c.avatar ? `<img class="search-avatar" src="${proxiedImageUrl(c.avatar)}" alt="${c.nickname}" />` : ""}
+        ${c.avatar ? `<img class="search-avatar" src="${proxiedImageUrl(c.avatar)}" alt="${c.nickname}" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : ""}
         <div>
           <h3>${c.nickname}</h3>
           <span class="text-dim">@${c.unique_id}</span>
@@ -211,7 +212,7 @@ function topProductsHtml(data: AccountSearchResult, lang: Lang): string {
           .map(
             (p) => `
           <a class="todos-row" href="${fastmossProductUrl(p.product_id)}" target="_blank" rel="noopener">
-            ${p.image_url ? `<img class="photo" src="${proxiedImageUrl(p.image_url)}" alt="" loading="lazy" />` : `<div class="photo"></div>`}
+            ${p.image_url ? `<img class="photo" src="${proxiedImageUrl(p.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="photo"></div>`}
             <div class="info">
               <div class="name">${p.title.slice(0, 50)}</div>
               <div class="meta">${formatPrice(p.price)} &middot; ${p.units_sold ?? "—"} ${t("units_sold_short", lang)} &middot; ${p.commission_rate_percent != null ? `${p.commission_rate_percent}%` : "—"}</div>
@@ -227,7 +228,7 @@ function topProductsHtml(data: AccountSearchResult, lang: Lang): string {
 function savedSearchCardHtml(s: SavedSearchSummary, lang: Lang): string {
   const date = new Date(s.fetched_at);
   const dateLabel = Number.isNaN(date.getTime()) ? s.fetched_at : date.toLocaleDateString(lang === "es" ? "es-MX" : "en-US", { month: "short", day: "numeric" });
-  const avatar = s.avatar ? `<img class="saved-search-avatar" src="${proxiedImageUrl(s.avatar)}" alt="" loading="lazy" />` : `<div class="saved-search-avatar"></div>`;
+  const avatar = s.avatar ? `<img class="saved-search-avatar" src="${proxiedImageUrl(s.avatar)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="saved-search-avatar"></div>`;
   return `
     <button type="button" class="saved-search-card" data-action="open-saved" data-handle="${s.handle}">
       ${avatar}

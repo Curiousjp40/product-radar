@@ -12,7 +12,7 @@ import { categoryHidePromptHtml, countHiddenInCategory, wireCategoryHidePrompt }
 import { clearFeedback, getAllFeedback, getAllStatuses, getHiddenCategories, setFeedback, setStatus } from "../pipeline";
 import { showUndoToast } from "../toast";
 import type { Candidate, CategoryGroup, ComboPair, Pick } from "../types";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { findCombos } from "../combos";
 import { productCardInfoHtml } from "./productCard";
 import { hasRequestedSample, requestSample } from "../samples";
@@ -81,7 +81,7 @@ function rowHtml(pick: Pick, lang: Lang, selected: boolean, ownedIds: Set<string
   return `
     <div class="week-row ${selected ? "selected" : ""}" data-product-id="${pick.product_id}">
       <a class="week-row-link" href="#/product/${pick.product_id}" data-product-id="${pick.product_id}">
-        ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
+        ${pick.image_url ? `<img class="week-row-photo" src="${assetUrl(pick.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="week-row-photo week-row-photo-placeholder"></div>`}
         <div class="week-row-body">
           <div class="week-row-title">${pick.clean_title}</div>
           ${infoHtml}
@@ -157,7 +157,7 @@ function allThisWeekHtml(
                   return `
                 <article class="pick-card">
                   <a class="card-photo-link" href="#/product/${c.product_id}">
-                    ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
+                    ${c.image_url ? `<img class="card-photo" src="${assetUrl(c.image_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="card-photo card-photo-placeholder"></div>`}
                   </a>
                   <div class="card-body">
                     <h3 class="card-title">${c.clean_title}</h3>
@@ -229,7 +229,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
   return `
     <div class="week-detail-inner">
       <div class="week-detail-photo-wrap">
-        ${pick.image_url ? `<img class="week-detail-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" />` : `<div class="week-detail-photo week-detail-photo-placeholder"></div>`}
+        ${pick.image_url ? `<img class="week-detail-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="week-detail-photo week-detail-photo-placeholder"></div>`}
       </div>
       <h3 class="week-detail-title">${pick.clean_title}</h3>
       <div class="week-detail-meta">${categoryLabel}</div>
@@ -245,7 +245,7 @@ function detailHtml(pick: Pick, lang: Lang, saved: boolean, ownedIds: Set<string
                 .map(
                   (v) => `
                 <a class="video-thumb week-detail-thumb" href="${v.tiktok_url}" target="_blank" rel="noopener">
-                  ${v.cover_url ? `<img src="${assetUrl(v.cover_url)}" alt="" loading="lazy" />` : `<div class="video-thumb-placeholder"></div>`}
+                  ${v.cover_url ? `<img src="${assetUrl(v.cover_url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="video-thumb-placeholder"></div>`}
                   ${v.is_ad ? `<span class="video-ad-tag">${t("ad_tag", lang)}</span>` : ""}
                   <span class="video-views">${formatCount(v.play_count)} ${t("views_short", lang)} &middot; ${v.window_units_sold} ${t("sales_short", lang)}</span>
                 </a>`,

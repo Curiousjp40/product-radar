@@ -16,6 +16,12 @@ export interface LivePlanProduct {
   // until the "Lives que venden" paid investigation has run; the UI shows
   // nothing for this product rather than a fabricated/zero count.
   liveUnitsSold: number | null;
+  // Added for the shared-card/modal unification (2026-10-16 follow-up):
+  // the Mis Productos row id, needed to wire the existing "+Venta" quick
+  // sale form for owned items, and a TikTok Shop deep link for the
+  // light detail modal's action button.
+  misProductoId: string | null;
+  tiktokShopUrl: string;
 }
 
 export function buildLivePlan(ownedReady: LivePlanProduct[], topPicks: LivePlanProduct[], maxProducts = 8): LivePlanProduct[] {

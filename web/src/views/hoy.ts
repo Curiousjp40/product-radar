@@ -1,5 +1,5 @@
 import { loadBestTimes, loadCandidates, loadHooks, loadPicks, loadSeasons } from "../api";
-import { assetUrl } from "../asset";
+import { assetUrl, IMG_FALLBACK } from "../asset";
 import { bestLiveTimeHtml, bestVideoTimeHtml } from "../bestTime";
 import { getEntries, getMonthlyGoal } from "../earningsGoal";
 import { earningsProgress, earningsThisMonth } from "../earningsGoalLogic";
@@ -150,7 +150,7 @@ function heroHtml(
   return `
     <article class="hoy-hero" data-product-id="${pick.product_id}">
       <a class="hoy-hero-photo-link" href="#/product/${pick.product_id}">
-        ${pick.image_url ? `<img class="hoy-hero-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="hoy-hero-photo hoy-hero-photo-placeholder"></div>`}
+        ${pick.image_url ? `<img class="hoy-hero-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="hoy-hero-photo hoy-hero-photo-placeholder"></div>`}
       </a>
       <div class="hoy-hero-body">
         <span class="hoy-hero-eyebrow">${t("hoy_hero_label", lang)}</span>
@@ -189,7 +189,7 @@ function alsoGoodCardHtml(
   return `
     <article class="pick-card hoy-also-good" data-product-id="${pick.product_id}">
       <a class="card-photo-link" href="#/product/${pick.product_id}">
-        ${pick.image_url ? `<img class="card-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" />` : `<div class="card-photo card-photo-placeholder"></div>`}
+        ${pick.image_url ? `<img class="card-photo" src="${assetUrl(pick.image_url)}" alt="${pick.clean_title}" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="card-photo card-photo-placeholder"></div>`}
       </a>
       <div class="card-body">
         <h3 class="card-title">${pick.clean_title}</h3>
@@ -279,7 +279,7 @@ export async function renderHoy(container: HTMLElement, lang: Lang): Promise<voi
          <p class="goal-progress-text">${t("en_vivo_plan_time", lang, { category: lang === "es" ? (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_es ?? suggestedLiveEntry[0]) : (picksData.picks.find((p) => p.category === suggestedLiveEntry[0])?.category_label_en ?? suggestedLiveEntry[0]), days: suggestedLiveEntry[1].best_weekdays.map((d) => t(["weekday_mon", "weekday_tue", "weekday_wed", "weekday_thu", "weekday_fri", "weekday_sat", "weekday_sun"][d], lang)).join(" / "), window: formatHourRange(suggestedLiveEntry[1].hour_start, suggestedLiveEntry[1].hour_end) })}</p>
          <div class="hoy-next-live-photos">
            ${livePhotoUrls
-             .map((url) => (url ? `<img src="${assetUrl(url)}" alt="" loading="lazy" />` : `<div class="hoy-next-live-photo-placeholder"></div>`))
+             .map((url) => (url ? `<img src="${assetUrl(url)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${IMG_FALLBACK}'" />` : `<div class="hoy-next-live-photo-placeholder"></div>`))
              .join("")}
          </div>
        </a>`
