@@ -872,7 +872,13 @@ select.status-select {
   white-space: nowrap;
 }
 
-.card-actions .btn-primary {
+/* Real bug (design review item 0.11): .btn-primary only ever had a
+ * `.card-actions .btn-primary` / `.sample-form-actions .btn-primary`
+ * scoped rule, never a standalone base rule -- any button using the
+ * class outside those two specific parents (e.g. "Guardar meta" in
+ * goalCard.ts's earnings-goal-form) got zero styling, a plain default
+ * gray browser button. */
+.btn-primary {
   flex: 0 0 auto;
   text-align: center;
   padding: 11px 20px;
@@ -885,6 +891,8 @@ select.status-select {
   font-size: 0.88rem;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
+  min-height: 44px;
 }
 
 .btn-heart {

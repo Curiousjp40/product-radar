@@ -216,6 +216,24 @@ an "⭐ Mis favoritos" filter chip in Todos, verified in the browser
 end to end (favorited Vestidos, saved, filtered Todos down to exactly
 the Vestidos-category + favorited-brand products, tag showing on each).
 
+### Item 0.11: native unstyled controls ("Guardar meta" gray button) -- done
+Root cause: `.btn-primary` never had a standalone base CSS rule, only
+`.card-actions .btn-primary` and `.sample-form-actions .btn-primary`
+scoped rules -- any button using the class outside those two specific
+parents (goalCard.ts's "Guardar meta", inside `.earnings-goal-form`,
+and every other `.btn-primary` not nested in a card-actions/
+sample-form-actions block) got zero styling, the literal plain gray
+default browser button the design review screenshot showed. Added a
+real `.btn-primary` base rule; the two scoped rules now just sit on
+top of it (no visual regression -- same declarations). Fixes it
+everywhere the class is used (enVivo/goalCard/hoy/misProductos/
+samples/thisWeek/todos/hideProduct), not just the one spot in the
+screenshot. Verified "Guardar meta" at 390px -- proper accent pill
+button now. Date inputs were already reasonably styled via
+`.earnings-goal-form input` (border/background/radius match the
+design system); left native OS date-picker chrome as-is -- replacing
+that needs a custom date-picker widget, a bigger separate task.
+
 ### Item 0.6: too many buttons per card (Hoy hero) -- done
 Hoy's hero/also-good cards had 6 always-visible buttons (Ver en TikTok
 Shop, Ver videos que venden, Marcar grabado, Pedir muestra, No me
