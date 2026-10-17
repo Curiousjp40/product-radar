@@ -1,4 +1,712 @@
 {
   "schema_version": 1,
-  "lives": {}
+  "lives": {
+    "7693735638964767502": {
+      "room_id": "7693735638964767502",
+      "host": {
+        "handle": "oye_sebita",
+        "photo_url": "https://s.500fd.com/tt_author/71d72840b251da964a953e89403f1e98.jpeg",
+        "follower_count": 12516,
+        "day28_gmv": 121503.28,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791337491,
+      "duration_minutes": 96,
+      "viewer_count": 12432,
+      "units_sold": 253,
+      "gmv": 3074.84,
+      "conversion_rate": 0.0204,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 84.54
+        },
+        {
+          "category": "Phones & Electronics",
+          "units_sold_share_percent": 8.77
+        },
+        {
+          "category": "Home Improvement",
+          "units_sold_share_percent": 4.36
+        },
+        {
+          "category": "Other",
+          "units_sold_share_percent": 2.33
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1730427756143153233",
+          "title": "Waffle Texture Modern Waterproof Aesthetic Shower Curtain",
+          "image_url": "https://s.500fd.com/tt_product/7844fb57be474ae78eb18a559a5bc676.image",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 112
+        },
+        {
+          "product_id": "1729532560217314285",
+          "title": "Automatic Folding Umbrella",
+          "image_url": "https://s.500fd.com/tt_product/2f18031f12764ec9a9d18303ee41219e.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 74
+        },
+        {
+          "product_id": "1731078678381367377",
+          "title": "Waterproof Modern Minimalist Fabric Shower Curtain",
+          "image_url": "https://s.500fd.com/tt_product/f62b6db13e7a4ebaad6d4e4ba91c2d5d.jpeg",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 36
+        }
+      ]
+    },
+    "7692078799294384927": {
+      "room_id": "7692078799294384927",
+      "host": {
+        "handle": "gusthepup0",
+        "photo_url": "https://s.500fd.com/tt_author/e2cc4eecb20b221fdb4de54e823bebbe.jpeg",
+        "follower_count": 23220,
+        "day28_gmv": 154790.43,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1790951785,
+      "duration_minutes": 85,
+      "viewer_count": 2105,
+      "units_sold": 106,
+      "gmv": 3854.2,
+      "conversion_rate": 0.0504,
+      "category_breakdown": [
+        {
+          "category": "Pet Supplies",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1731549916993458619",
+          "title": "4-6 Peanut Butter Collagen Cheek Rolls (5 Pack)",
+          "image_url": "https://s.500fd.com/tt_product/3c6df15acb134523af063c54978adcaf.jpeg",
+          "price": 0.0,
+          "commission_rate": 25,
+          "units_sold": 14
+        },
+        {
+          "product_id": "1732098420667224507",
+          "title": "USA Lamb Tripe Dog Chews",
+          "image_url": "https://s.500fd.com/tt_product/fc407192aa5a4181a685a874a44923fa.webp",
+          "price": 0.0,
+          "commission_rate": 20,
+          "units_sold": 13
+        }
+      ]
+    },
+    "7693612598176107278": {
+      "room_id": "7693612598176107278",
+      "host": {
+        "handle": "milyjordan84",
+        "photo_url": "https://s.500fd.com/tt_author/e6457aeb7421129a32242bc1b12d5778.jpeg",
+        "follower_count": 24761,
+        "day28_gmv": 130010.32,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791308899,
+      "duration_minutes": 127,
+      "viewer_count": 8220,
+      "units_sold": 93,
+      "gmv": 2237.84,
+      "conversion_rate": 0.0113,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 60.62
+        },
+        {
+          "category": "Sports & Outdoor",
+          "units_sold_share_percent": 19.31
+        },
+        {
+          "category": "Beauty & Personal Care",
+          "units_sold_share_percent": 15.23
+        },
+        {
+          "category": "Other",
+          "units_sold_share_percent": 4.84
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732352660592628585",
+          "title": "KKPeople Easy-Off Bodysuit",
+          "image_url": "https://s.500fd.com/tt_product/a4ff0ee1ad3a41ba983afbfd65fee89c.image",
+          "price": 0.0,
+          "commission_rate": 15,
+          "units_sold": 48
+        },
+        {
+          "product_id": "1730393745372124078",
+          "title": "YEOREO CoreFlex Women's Leggings",
+          "image_url": "https://s.500fd.com/tt_product/2d9435c214ea46ff83a2d4001a74e56e.image",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 15
+        }
+      ]
+    },
+    "7693703555034663693": {
+      "room_id": "7693703555034663693",
+      "host": {
+        "handle": "luisamonterougc",
+        "photo_url": "https://s.500fd.com/tt_author/fbf0ffc93da249e0d98bd2db83fad02a.jpeg",
+        "follower_count": 33291,
+        "day28_gmv": 85507.83,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791330009,
+      "duration_minutes": 258,
+      "viewer_count": 21945,
+      "units_sold": 62,
+      "gmv": 1917.55,
+      "conversion_rate": 0.0028,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 79.16
+        },
+        {
+          "category": "Sports & Outdoor",
+          "units_sold_share_percent": 16.77
+        },
+        {
+          "category": "Luggage & Bags",
+          "units_sold_share_percent": 2.09
+        },
+        {
+          "category": "Other",
+          "units_sold_share_percent": 1.98
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1730393745372124078",
+          "title": "YEOREO CoreFlex Women's Leggings",
+          "image_url": "https://s.500fd.com/tt_product/2d9435c214ea46ff83a2d4001a74e56e.image",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1731208195967717743",
+          "title": "PrettyGarden Women's Oversized Cardigan Sweater",
+          "image_url": "https://s.500fd.com/tt_product/c2036e454d9d47fc8232d21307c1b508.jpeg",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 7
+        }
+      ]
+    },
+    "7691499614453320478": {
+      "room_id": "7691499614453320478",
+      "host": {
+        "handle": "highland_daily_life1",
+        "photo_url": "https://s.500fd.com/tt_author/eb89e15dd43b9cb53db616a275dc6b7f.jpeg",
+        "follower_count": 83279,
+        "day28_gmv": 102631,
+        "top_category": "Fashion"
+      },
+      "started_at": 1790816858,
+      "duration_minutes": 113,
+      "viewer_count": 4220,
+      "units_sold": 61,
+      "gmv": 1779.29,
+      "conversion_rate": 0.0145,
+      "category_breakdown": [
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1731636865911395028",
+          "title": "Women's Fashion PU Leather Low Heel Long Boots",
+          "image_url": "https://s.500fd.com/tt_product/4cf3acef918247b1b36d5f280b58efb5.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 35
+        },
+        {
+          "product_id": "1732603030587544433",
+          "title": "Women's Short Cowboy AnkleBoots",
+          "image_url": "https://s.500fd.com/tt_product/d0cf472010404684aee2ed9d9c63a392.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 5
+        }
+      ]
+    },
+    "7692486585723489037": {
+      "room_id": "7692486585723489037",
+      "host": {
+        "handle": "katshopshere",
+        "photo_url": "https://s.500fd.com/tt_author/e8a36d7c458743a904fa27f016d3456d.jpeg",
+        "follower_count": 7372,
+        "day28_gmv": 51226.16,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791046697,
+      "duration_minutes": 138,
+      "viewer_count": 10144,
+      "units_sold": 54,
+      "gmv": 4634.69,
+      "conversion_rate": 0.0053,
+      "category_breakdown": [
+        {
+          "category": "Furniture",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729403313395896858",
+          "title": "Raybee 16 Deep Drawers Tall Dresser",
+          "image_url": "https://s.500fd.com/tt_product/fa4719654f1a4aed8d2519ed1f2155bb.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 35
+        },
+        {
+          "product_id": "1729408318052536858",
+          "title": "Raybee 12 Drawer Fabric Dresser",
+          "image_url": "https://s.500fd.com/tt_product/a36d422ba5c6478791b1edfac457c7ef.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 19
+        }
+      ]
+    },
+    "7692807736647568158": {
+      "room_id": "7692807736647568158",
+      "host": {
+        "handle": "tayfreese",
+        "photo_url": "https://s.500fd.com/tt_author/423d33d173ad3c26f0c19a500da05cbb.jpeg",
+        "follower_count": 15185,
+        "day28_gmv": 35629.68,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791121557,
+      "duration_minutes": 145,
+      "viewer_count": 8439,
+      "units_sold": 54,
+      "gmv": 1270.7,
+      "conversion_rate": 0.0064,
+      "category_breakdown": [
+        {
+          "category": "Pet Supplies",
+          "units_sold_share_percent": 60.81
+        },
+        {
+          "category": "Textiles & Soft Furnishings",
+          "units_sold_share_percent": 35.3
+        },
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 3.89
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1729452943073776600",
+          "title": "Muddy Mat Original Anti-Mud Mat",
+          "image_url": "https://s.500fd.com/tt_product/7c28d201cb0b4491a297c60382ec4f05.jpeg",
+          "price": 0.0,
+          "commission_rate": 25,
+          "units_sold": 21
+        },
+        {
+          "product_id": "1732092047929086936",
+          "title": "Muddy Mat Washable Pee Pads",
+          "image_url": "https://s.500fd.com/tt_product/fd0f32240e944c98b760eb28711ded21.webp",
+          "price": 0.0,
+          "commission_rate": 25,
+          "units_sold": 8
+        }
+      ]
+    },
+    "7693623541249493774": {
+      "room_id": "7693623541249493774",
+      "host": {
+        "handle": "alafiabotanica88",
+        "photo_url": "https://s.500fd.com/tt_author/4c62a5a57591de613069f346308c3866.jpeg",
+        "follower_count": 85472,
+        "day28_gmv": 46964.88,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791311444,
+      "duration_minutes": 130,
+      "viewer_count": 6488,
+      "units_sold": 46,
+      "gmv": 1629.56,
+      "conversion_rate": 0.0071,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 85.44
+        },
+        {
+          "category": "Beauty & Personal Care",
+          "units_sold_share_percent": 12.23
+        },
+        {
+          "category": "Health",
+          "units_sold_share_percent": 1.53
+        },
+        {
+          "category": "Other",
+          "units_sold_share_percent": 0.8
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732683762897818042",
+          "title": "Gallina Negra & Reversible Bundle",
+          "image_url": "https://s.500fd.com/tt_product/1c47e680ab8b4eb7a085a45fefcf61bf.webp",
+          "price": 0.0,
+          "commission_rate": 15,
+          "units_sold": 10
+        },
+        {
+          "product_id": "1732283976897237434",
+          "title": "Pajaro Macua Perfume 100 ml",
+          "image_url": "https://s.500fd.com/tt_product/c0369bb23b1e41bb8844362ec5ef562c.webp",
+          "price": 0.0,
+          "commission_rate": 15,
+          "units_sold": 6
+        }
+      ]
+    },
+    "7686658142646192927": {
+      "room_id": "7686658142646192927",
+      "host": {
+        "handle": "kerilynus",
+        "photo_url": "https://s.500fd.com/tt_author/835fb645a3bb9e7a64104b9987f06885.jpeg",
+        "follower_count": 28182,
+        "day28_gmv": 116362.79,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1789689618,
+      "duration_minutes": 240,
+      "viewer_count": 6158,
+      "units_sold": 46,
+      "gmv": 7032.37,
+      "conversion_rate": 0.0075,
+      "category_breakdown": [
+        {
+          "category": "Furniture",
+          "units_sold_share_percent": 91.63
+        },
+        {
+          "category": "Kitchenware",
+          "units_sold_share_percent": 7.65
+        },
+        {
+          "category": "Home Improvement",
+          "units_sold_share_percent": 0.72
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1730970856690062281",
+          "title": "Velvet Bar Stools, Counter Height",
+          "image_url": "https://s.500fd.com/tt_product/2875e219b60441db8a9b8d1cec3141c1.webp",
+          "price": 0.0,
+          "commission_rate": 5,
+          "units_sold": 8
+        },
+        {
+          "product_id": "1729728595740169161",
+          "title": "Kerilyn 2/4 Packs 9QT Chafing Dishes",
+          "image_url": "https://s.500fd.com/tt_product/1eeb8a9a79124312990a8f42a0a1377e.webp",
+          "price": 0.0,
+          "commission_rate": 5,
+          "units_sold": 7
+        }
+      ]
+    },
+    "7685888587308862239": {
+      "room_id": "7685888587308862239",
+      "host": {
+        "handle": "mr.coree",
+        "photo_url": "https://s.500fd.com/tt_author/63c391c57a6782081455a38eb7381a49.jpeg",
+        "follower_count": 11417,
+        "day28_gmv": 23234.51,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1789510471,
+      "duration_minutes": 126,
+      "viewer_count": 18099,
+      "units_sold": 211,
+      "gmv": 609.17,
+      "conversion_rate": 0.0117,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 67.98
+        },
+        {
+          "category": "Beauty & Personal Care",
+          "units_sold_share_percent": 19.69
+        },
+        {
+          "category": "Health",
+          "units_sold_share_percent": 12.33
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732658593290687249",
+          "title": "Women's Two Piece Shorts Lounge Set",
+          "image_url": "https://s.500fd.com/tt_product/7494d3c002be4bb289f1b17b5e60c0a8.webp",
+          "price": 0.0,
+          "commission_rate": 12,
+          "units_sold": 202
+        },
+        {
+          "product_id": "1729523585299683314",
+          "title": "Digestive Enzymes by Physician's Choice",
+          "image_url": "https://s.500fd.com/tt_product/c4f0866cae354a718c4c14c3aece987b.webp",
+          "price": 0.0,
+          "commission_rate": 20,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7693916137016314654": {
+      "room_id": "7693916137016314654",
+      "host": {
+        "handle": "ellyevercreations",
+        "photo_url": "https://s.500fd.com/tt_author/c96d18fef822d9a5dd2e48dc811b8636.jpeg",
+        "follower_count": 43169,
+        "day28_gmv": 67974.55,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1791379624,
+      "duration_minutes": 103,
+      "viewer_count": 9240,
+      "units_sold": 39,
+      "gmv": 1962.1,
+      "conversion_rate": 0.0042,
+      "category_breakdown": [
+        {
+          "category": "Home Supplies",
+          "units_sold_share_percent": 85.42
+        },
+        {
+          "category": "Textiles & Soft Furnishings",
+          "units_sold_share_percent": 8.87
+        },
+        {
+          "category": "Home Improvement",
+          "units_sold_share_percent": 5.71
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732671477880098937",
+          "title": "SHareconn Halloween Giant 10FT Tall PVC Spooky Pumpkin",
+          "image_url": "https://s.500fd.com/tt_product/1362f84f813544d589c355f22bf523e7.webp",
+          "price": 0.0,
+          "commission_rate": 6,
+          "units_sold": 7
+        },
+        {
+          "product_id": "1732511949556519836",
+          "title": "Halloween Decorations Outdoor - 5 FT Hanging Swing Ghost",
+          "image_url": "https://s.500fd.com/tt_product/d9cf22d09f1c4a80a69bd472284ccba6.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 4
+        }
+      ]
+    },
+    "7693736108982586142": {
+      "room_id": "7693736108982586142",
+      "host": {
+        "handle": "maritza_camarena3",
+        "photo_url": "https://s.500fd.com/tt_author/6faf63290800b8b2543051bd9ed555af.jpeg",
+        "follower_count": 32877,
+        "day28_gmv": 70125.02,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791337620,
+      "duration_minutes": 152,
+      "viewer_count": 5458,
+      "units_sold": 31,
+      "gmv": 1324.25,
+      "conversion_rate": 0.0057,
+      "category_breakdown": [
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 85.17
+        },
+        {
+          "category": "Kids' Fashion",
+          "units_sold_share_percent": 8.94
+        },
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 5.89
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732353172386124734",
+          "title": "Crocs Adult Classic Metallic Buckle Clogs",
+          "image_url": "https://s.500fd.com/tt_product/59527fb57bf84854831458b6a636463c.jpeg",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 9
+        },
+        {
+          "product_id": "1732454133786579902",
+          "title": "Crocs Women's Loaferette Slip-On Clogs",
+          "image_url": "https://s.500fd.com/tt_product/dc515890f2b146eda70d6ac3b52831c6.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 2
+        }
+      ]
+    },
+    "7685561700519791390": {
+      "room_id": "7685561700519791390",
+      "host": {
+        "handle": "dracofinds2000",
+        "photo_url": "https://s.500fd.com/tt_author/a6413a51dd05fd4bb451b685201530e3.jpeg",
+        "follower_count": 16213,
+        "day28_gmv": 6617.37,
+        "top_category": "Home & Lifestyle"
+      },
+      "started_at": 1789434342,
+      "duration_minutes": 116,
+      "viewer_count": 13717,
+      "units_sold": 156,
+      "gmv": 2182.44,
+      "conversion_rate": 0.0114,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732608613829218410",
+          "title": "Women's Men's Unisex Long-Sleeve Football City Graphic Hoodie",
+          "image_url": "https://s.500fd.com/tt_product/986837df7fb549129722b0cbb2044c44.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 156
+        }
+      ]
+    },
+    "7685916969022819103": {
+      "room_id": "7685916969022819103",
+      "host": {
+        "handle": "bellastilebyjackie",
+        "photo_url": "https://s.500fd.com/tt_author/737aad1f7496e17d5fc70611a9ef9248.jpeg",
+        "follower_count": 33962,
+        "day28_gmv": 62404.81,
+        "top_category": "Fashion"
+      },
+      "started_at": 1789517050,
+      "duration_minutes": 187,
+      "viewer_count": 7069,
+      "units_sold": 86,
+      "gmv": 1746.69,
+      "conversion_rate": 0.0122,
+      "category_breakdown": [
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 100
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732296357266952484",
+          "title": "20789# New Elegant Casual Slim-Fit High Waist Long Pants",
+          "image_url": "https://s.500fd.com/tt_product/6f2ed7847b4b4da890d24694adf1e90c.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 25
+        },
+        {
+          "product_id": "1732567917776834852",
+          "title": "Women's Elegant Party Denim Jeans",
+          "image_url": "https://s.500fd.com/tt_product/221002e525f140cc8767488eb08f5e7a.webp",
+          "price": 0.0,
+          "commission_rate": 8,
+          "units_sold": 12
+        }
+      ]
+    },
+    "7693620492539808525": {
+      "room_id": "7693620492539808525",
+      "host": {
+        "handle": "misslolaofficial",
+        "photo_url": "https://s.500fd.com/tt_author/bd1fdf60d07c8df25305c05155ebaccc.jpeg",
+        "follower_count": 550887,
+        "day28_gmv": 42868.29,
+        "top_category": "Fashion"
+      },
+      "started_at": 1791310712,
+      "duration_minutes": 118,
+      "viewer_count": 3663,
+      "units_sold": 20,
+      "gmv": 907.95,
+      "conversion_rate": 0.0055,
+      "category_breakdown": [
+        {
+          "category": "Shoes",
+          "units_sold_share_percent": 83.16
+        },
+        {
+          "category": "Womenswear & Underwear",
+          "units_sold_share_percent": 16.84
+        }
+      ],
+      "sales_timeline": [],
+      "products": [
+        {
+          "product_id": "1732687067301581213",
+          "title": "Belinda Rhinestone Mule Flats \u2013 Black",
+          "image_url": "https://s.500fd.com/tt_product/19fb397c7adb4ba78a1d10e09767a8a9.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 2
+        },
+        {
+          "product_id": "1732577387479798173",
+          "title": "Kelly Slingback Pointed Toe Heels - Black",
+          "image_url": "https://s.500fd.com/tt_product/b2b50d111bbf4dce96f7db2b20171d83.webp",
+          "price": 0.0,
+          "commission_rate": 10,
+          "units_sold": 1
+        }
+      ]
+    }
+  }
 }

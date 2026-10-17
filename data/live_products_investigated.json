@@ -1,0 +1,567 @@
+{
+  "room_ids": [
+    "7685561700519791390",
+    "7685888587308862239",
+    "7685916969022819103",
+    "7686658142646192927",
+    "7691499614453320478",
+    "7692078799294384927",
+    "7692486585723489037",
+    "7692807736647568158",
+    "7693612598176107278",
+    "7693620492539808525",
+    "7693623541249493774",
+    "7693703555034663693",
+    "7693735638964767502",
+    "7693736108982586142",
+    "7693916137016314654"
+  ],
+  "creators": {
+    "oye_sebita": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "oye_sebita",
+            "nickname": "oye_sebita",
+            "uid": "7390080501137212462",
+            "avatar": "https://s.500fd.com/tt_author/71d72840b251da964a953e89403f1e98.jpeg",
+            "follower_count": 12516,
+            "region": "US",
+            "category": {
+              "id": 31,
+              "name": "Other"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 121503.28,
+            "day28_units_sold": 4377,
+            "day28_video_count": 27,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "gusthepup0": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "gusthepup0",
+            "nickname": "Lex | Gus & O'Hara",
+            "uid": "7380464963545515050",
+            "avatar": "https://s.500fd.com/tt_author/e2cc4eecb20b221fdb4de54e823bebbe.jpeg",
+            "follower_count": 23220,
+            "region": "US",
+            "category": {
+              "id": 31,
+              "name": "Other"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 154790.43,
+            "day28_units_sold": 3641,
+            "day28_video_count": 183,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "milyjordan84": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "milyjordan84",
+            "nickname": "Mily Jordan",
+            "uid": "6839527631115092997",
+            "avatar": "https://s.500fd.com/tt_author/e6457aeb7421129a32242bc1b12d5778.jpeg",
+            "follower_count": 24761,
+            "region": "US",
+            "category": {
+              "id": 4,
+              "name": "Beauty"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 130010.32,
+            "day28_units_sold": 3678,
+            "day28_video_count": 281,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1001,
+                "name": "Beauty"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "luisamonterougc": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "luisamonterougc",
+            "nickname": "luisafit.ugc",
+            "uid": "7408222951417037870",
+            "avatar": "https://s.500fd.com/tt_author/fbf0ffc93da249e0d98bd2db83fad02a.jpeg",
+            "follower_count": 33291,
+            "region": "US",
+            "category": {
+              "id": 31,
+              "name": "Other"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 85507.83,
+            "day28_units_sold": 2870,
+            "day28_video_count": 250,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1001,
+                "name": "Beauty"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "highland_daily_life1": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "highland_daily_life1",
+            "nickname": "Highland Daily Life",
+            "uid": "7297114698016195630",
+            "avatar": "https://s.500fd.com/tt_author/eb89e15dd43b9cb53db616a275dc6b7f.jpeg",
+            "follower_count": 83279,
+            "region": "US",
+            "category": {
+              "id": 2,
+              "name": "Shopping & Retail"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 102631,
+            "day28_units_sold": 4712,
+            "day28_video_count": 0,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              },
+              {
+                "id": 1006,
+                "name": "Mom & Babies"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "katshopshere": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "katshopshere",
+            "nickname": "KAT",
+            "uid": "7428460631965205550",
+            "avatar": "https://s.500fd.com/tt_author/e8a36d7c458743a904fa27f016d3456d.jpeg",
+            "follower_count": 7372,
+            "region": "US",
+            "category": {
+              "id": 31,
+              "name": "Other"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 51226.16,
+            "day28_units_sold": 647,
+            "day28_video_count": 125,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1006,
+                "name": "Mom & Babies"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "tayfreese": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "tayfreese",
+            "nickname": "Taylor | Mom Life",
+            "uid": "6823154503575979013",
+            "avatar": "https://s.500fd.com/tt_author/423d33d173ad3c26f0c19a500da05cbb.jpeg",
+            "follower_count": 15185,
+            "region": "US",
+            "category": {
+              "id": 3,
+              "name": "Home, Furniture & Appliances"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 35629.68,
+            "day28_units_sold": 1254,
+            "day28_video_count": 270,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1001,
+                "name": "Beauty"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "alafiabotanica88": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "alafiabotanica88",
+            "nickname": "BotanicaAlafia",
+            "uid": "6808578864664118278",
+            "avatar": "https://s.500fd.com/tt_author/4c62a5a57591de613069f346308c3866.jpeg",
+            "follower_count": 85472,
+            "region": "US",
+            "category": {
+              "id": 2,
+              "name": "Shopping & Retail"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 46964.88,
+            "day28_units_sold": 1417,
+            "day28_video_count": 104,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "kerilynus": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "kerilynus",
+            "nickname": "Kerilyn",
+            "uid": "7507517112052778014",
+            "avatar": "https://s.500fd.com/tt_author/835fb645a3bb9e7a64104b9987f06885.jpeg",
+            "follower_count": 28182,
+            "region": "US",
+            "category": {
+              "id": 2,
+              "name": "Shopping & Retail"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 116362.79,
+            "day28_units_sold": 1126,
+            "day28_video_count": 92,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "mr.coree": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "mr.coree",
+            "nickname": "MR. CORE",
+            "uid": "6839405562079052806",
+            "avatar": "https://s.500fd.com/tt_author/63c391c57a6782081455a38eb7381a49.jpeg",
+            "follower_count": 11417,
+            "region": "US",
+            "category": {
+              "id": 31,
+              "name": "Other"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 23234.51,
+            "day28_units_sold": 832,
+            "day28_video_count": 58,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              },
+              {
+                "id": 1001,
+                "name": "Beauty"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "ellyevercreations": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "ellyevercreations",
+            "nickname": "Jessica",
+            "uid": "6985575474526356486",
+            "avatar": "https://s.500fd.com/tt_author/c96d18fef822d9a5dd2e48dc811b8636.jpeg",
+            "follower_count": 43169,
+            "region": "US",
+            "category": {
+              "id": 3,
+              "name": "Home, Furniture & Appliances"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 67974.55,
+            "day28_units_sold": 1784,
+            "day28_video_count": 202,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1002,
+                "name": "Electronics"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "maritza_camarena3": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "maritza_camarena3",
+            "nickname": "maritzacamarena",
+            "uid": "6942478543326774278",
+            "avatar": "https://s.500fd.com/tt_author/6faf63290800b8b2543051bd9ed555af.jpeg",
+            "follower_count": 32877,
+            "region": "US",
+            "category": {
+              "id": 2,
+              "name": "Shopping & Retail"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 70125.02,
+            "day28_units_sold": 1730,
+            "day28_video_count": 4,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1001,
+                "name": "Beauty"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    },
+    "dracofinds2000": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "dracofinds2000",
+            "nickname": "dracofinds2000",
+            "uid": "6619022819853762565",
+            "avatar": "https://s.500fd.com/tt_author/a6413a51dd05fd4bb451b685201530e3.jpeg",
+            "follower_count": 16213,
+            "region": "US",
+            "category": {
+              "id": 3,
+              "name": "Home, Furniture & Appliances"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 6617.37,
+            "day28_units_sold": 371,
+            "day28_video_count": 85,
+            "trend_categories": [
+              {
+                "id": 1005,
+                "name": "Home & Lifestyle"
+              },
+              {
+                "id": 1003,
+                "name": "Fashion"
+              },
+              {
+                "id": 1007,
+                "name": "Personal Care & Health"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "bellastilebyjackie": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "bellastilebyjackie",
+            "nickname": "Bella Stile by Jackie",
+            "uid": "7431120558527251502",
+            "avatar": "https://s.500fd.com/tt_author/737aad1f7496e17d5fc70611a9ef9248.jpeg",
+            "follower_count": 33962,
+            "region": "US",
+            "category": {
+              "id": 6,
+              "name": "Clothing & Accessories"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 62404.81,
+            "day28_units_sold": 3210,
+            "day28_video_count": 9,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ],
+            "has_email": false
+          }
+        }
+      ]
+    },
+    "misslolaofficial": {
+      "list": [
+        {
+          "creator": {
+            "unique_id": "misslolaofficial",
+            "nickname": "MISS LOLA OFFICIAL",
+            "uid": "6741049956712514565",
+            "avatar": "https://s.500fd.com/tt_author/bd1fdf60d07c8df25305c05155ebaccc.jpeg",
+            "follower_count": 550887,
+            "region": "US",
+            "category": {
+              "id": 2,
+              "name": "Shopping & Retail"
+            }
+          },
+          "commerce_summary": {
+            "day28_gmv": 42868.29,
+            "day28_units_sold": 862,
+            "day28_video_count": 61,
+            "trend_categories": [
+              {
+                "id": 1003,
+                "name": "Fashion"
+              }
+            ],
+            "has_email": true
+          }
+        }
+      ]
+    }
+  }
+}

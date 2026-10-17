@@ -134,30 +134,55 @@ async def investigate_live(
 
 
 def _combine_live_result(room_id: str, products_raw: dict, detail_raw: dict, creator_raw: dict) -> dict:
-    """Maps the three provisional response shapes (docs/field_map.md) onto
-    export.write_live_products's export shape. Kept separate from
-    investigate_live so it stays a pure function, easy to unit test without
-    a client."""
-    creator_entries = creator_raw.get("creators") or creator_raw.get("list") or []
+    """Maps the three CONFIRMED response shapes (docs/field_map.md, updated
+    2026-10-16 against the real 15-live pilot -- the field names below
+    replace the earlier provisional guesses, which were wrong in several
+    places: live_detail_analysis nests under "performance"/"live", not
+    "key_performance", and has no "viewer_count"/"duration_minutes"/
+    "started_at" fields directly; creator_search has no bare
+    "top_category" field, only "trend_categories" (first entry used here);
+    creator_search's creator object uses "unique_id"/"avatar", not
+    "handle"/"avatar_url"; live_products_list's per-product fields are
+    "cover_url"/"live_units_sold"/"commission_rate_percent", and
+    sales_timeline (always empty in the pilot) lives per-product, not
+    top-level. Kept separate from investigate_live so it stays a pure
+    function, easy to unit test without a client."""
+    creator_entries = creator_raw.get("list") or creator_raw.get("creators") or []
     creator = creator_entries[0] if creator_entries else {}
     creator_info = creator.get("creator", creator)
     commerce = creator.get("commerce_summary", {})
+    trend_categories = commerce.get("trend_categories") or []
     host = {
-        "handle": creator_info.get("handle") or creator_info.get("unique_id") or "",
-        "photo_url": creator_info.get("avatar_url") or creator_info.get("photo") or "",
+        "handle": creator_info.get("unique_id") or creator_info.get("handle") or "",
+        "photo_url": creator_info.get("avatar") or creator_info.get("avatar_url") or "",
         "follower_count": creator_info.get("follower_count") or 0,
         # Roxie/Ryan refinement (2026-10-16): the card must also show the
         # host's own 28-day GMV and a 1-line "what they sell" -- both come
-        # from creator_search's commerce_summary (field names provisional,
-        # see docs/field_map.md), never from the live itself.
+        # from creator_search's commerce_summary, never from the live
+        # itself. "top_category" isn't a real field; the first
+        # trend_categories entry is the closest confirmed equivalent.
         "day28_gmv": commerce.get("day28_gmv", 0.0) or 0.0,
-        "top_category": commerce.get("top_category") or "",
+        "top_category": trend_categories[0].get("name", "") if trend_categories else "",
     }
 
-    key_perf = detail_raw.get("key_performance", {})
-    viewer_count = key_perf.get("viewer_count", 0) or 0
-    units_sold = key_perf.get("units_sold", 0) or 0
+    performance = detail_raw.get("performance", {})
+    live_meta = detail_raw.get("live", {})
+    viewer_count = performance.get("total_viewer_count", 0) or 0
+    units_sold = performance.get("units_sold", 0) or 0
     conversion_rate = round(units_sold / viewer_count, 4) if viewer_count else None  # derived, not a FastMoss field
+
+    duration_seconds = live_meta.get("duration_seconds") or performance.get("session_duration_seconds")
+    duration_minutes = round(duration_seconds / 60) if duration_seconds else None
+
+    category_breakdown = []
+    for entry in detail_raw.get("category_breakdown", {}).get("by_gmv", []):
+        names = entry.get("category_names") or []
+        category_breakdown.append(
+            {
+                "category": names[0] if names else entry.get("category_id"),
+                "units_sold_share_percent": entry.get("share"),
+            }
+        )
 
     products = []
     for p in products_raw.get("products", []):
@@ -165,24 +190,24 @@ def _combine_live_result(room_id: str, products_raw: dict, detail_raw: dict, cre
             {
                 "product_id": p.get("product_id"),
                 "title": p.get("title", ""),
-                "image_url": p.get("image_url") or p.get("photo") or "",
+                "image_url": p.get("cover_url") or p.get("image_url") or "",
                 "price": p.get("price", 0.0) or 0.0,
-                "commission_rate": p.get("commission_rate", 0.0) or 0.0,
-                "units_sold": p.get("units_sold", 0) or 0,
+                "commission_rate": p.get("commission_rate_percent", p.get("commission_rate", 0.0)) or 0.0,
+                "units_sold": p.get("live_units_sold", p.get("units_sold", 0)) or 0,
             }
         )
 
     return {
         "room_id": room_id,
         "host": host,
-        "started_at": detail_raw.get("key_performance", {}).get("started_at") or detail_raw.get("started_at"),
-        "duration_minutes": key_perf.get("duration_minutes"),
+        "started_at": live_meta.get("start_time"),
+        "duration_minutes": duration_minutes,
         "viewer_count": viewer_count,
         "units_sold": units_sold,
-        "gmv": key_perf.get("gmv", 0.0) or 0.0,
+        "gmv": performance.get("gmv", 0.0) or 0.0,
         "conversion_rate": conversion_rate,
-        "category_breakdown": detail_raw.get("category_breakdown", []),
-        "sales_timeline": products_raw.get("sales_timeline", []),
+        "category_breakdown": category_breakdown,
+        "sales_timeline": [],
         "products": products,
     }
 

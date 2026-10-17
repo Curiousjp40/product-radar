@@ -1,21 +1,64 @@
 {
-  "result": {
-    "room_id": "7700000000000000001",
-    "creator": {
-      "handle": "fajalinda_shop",
-      "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d94f70'/></svg>",
-      "follower_count": 184000
-    },
-    "key_performance": {
-      "started_at": "2026-10-10T20:00:00-04:00",
-      "duration_minutes": 75,
-      "viewer_count": 9100,
-      "units_sold": 142,
-      "gmv": 3218.56
-    },
-    "category_breakdown": [
-      {"category": "shapewear", "units_sold_share_percent": 72},
-      {"category": "winter_clothing", "units_sold_share_percent": 28}
+  "category_breakdown": {
+    "by_gmv": [
+      {"category_id": 2, "category_names": ["shapewear"], "share": 72},
+      {"category_id": 3, "category_names": ["winter_clothing"], "share": 28}
+    ],
+    "by_product_count": [
+      {"category_id": 2, "category_names": ["shapewear"], "share": 67},
+      {"category_id": 3, "category_names": ["winter_clothing"], "share": 33}
     ]
+  },
+  "creator": {
+    "handle": "fajalinda_shop",
+    "nickname": "fajalinda_shop",
+    "uid": "7700000000000000099",
+    "follower_count": 184000,
+    "creator_region": "US",
+    "creator_categories": ["Clothing & Accessories"],
+    "historical_avg_units_sold": 90,
+    "historical_avg_viewer_count": 6000,
+    "historical_live_count": 50,
+    "video_count": 400
+  },
+  "live": {
+    "room_id": "7700000000000000001",
+    "start_time": 1760126400,
+    "end_time": 1760130900,
+    "duration_seconds": 4500,
+    "top_category_id": 2,
+    "top_category_names": ["shapewear"],
+    "top_category_share": 72,
+    "title": "Faja live",
+    "currency": "USD",
+    "hashtags": [],
+    "is_live": 0,
+    "is_shop_live": 0,
+    "like_count": 0,
+    "live_source": "TikTok Shop",
+    "seller_id": "",
+    "shop_avatar_url": "",
+    "shop_name": "",
+    "gmv_per_thousand_viewers": 353.69,
+    "updated_at": 1760131000
+  },
+  "performance": {
+    "avg_selling_price": 22.67,
+    "avg_viewer_count": 180,
+    "gmv": 3218.56,
+    "gmv_per_hour": 2574.85,
+    "gmv_per_thousand_viewers": 353.69,
+    "gmv_per_viewer": 0.35,
+    "new_follower_count": 40,
+    "peak_viewer_count": 400,
+    "product_count": 3,
+    "products_with_sales_count": 3,
+    "region": "US",
+    "session_duration_seconds": 4500,
+    "total_viewer_count": 9100,
+    "units_sold": 142,
+    "units_sold_per_hour": 114,
+    "units_sold_per_viewer_rate": 1.56,
+    "viewer_to_follower_rate": 0.05
   }
 }

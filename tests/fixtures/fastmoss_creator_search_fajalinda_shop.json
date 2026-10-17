@@ -1,25 +1,54 @@
 {
-  "result": {
-    "creators": [
-      {
-        "creator": {
-          "handle": "fajalinda_shop",
-          "unique_id": "fajalinda_shop",
-          "avatar_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d94f70'/></svg>",
-          "follower_count": 184000
-        },
-        "commerce_summary": {
-          "day28_gmv": 58210.0,
-          "day28_units_sold": 2110,
-          "day28_video_count": 34,
-          "top_category": "shapewear"
-        },
-        "audience_summary": {
-          "age_distribution": {"25-34": 0.41, "35-44": 0.29},
-          "gender_distribution": {"female": 0.78, "male": 0.22}
-        },
-        "has_email": false
+  "list": [
+    {
+      "creator": {
+        "unique_id": "fajalinda_shop",
+        "nickname": "fajalinda_shop",
+        "uid": "7700000000000000099",
+        "avatar": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'><circle cx='40' cy='40' r='40' fill='%23d94f70'/></svg>",
+        "follower_count": 184000,
+        "region": "US",
+        "category": {"id": 6, "name": "Clothing & Accessories"},
+        "creator_type_code": 1,
+        "account_type_code": 0,
+        "verify_type_code": 0,
+        "live_count_total": 50,
+        "video_count_total": 400
+      },
+      "commerce_summary": {
+        "currency": "",
+        "day28_gmv": 58210.0,
+        "day28_units_sold": 2110,
+        "day28_video_count": 34,
+        "day28_follower_count": 500,
+        "day28_live_count": 10,
+        "day28_live_gmv": 40000,
+        "engagement_rate_percent": 1.2,
+        "has_email": false,
+        "live_gmv": 200000.0,
+        "live_units_sold": 8000,
+        "total_gmv": 900000.0,
+        "total_units_sold": 40000,
+        "trend_categories": [
+          {"id": 1003, "name": "shapewear"},
+          {"id": 1001, "name": "Beauty"}
+        ],
+        "video_avg_digg_count": 50,
+        "video_avg_play_count": 5000,
+        "video_gmv": 100000.0,
+        "video_units_sold": 5000
+      },
+      "audience_summary": {
+        "age_distribution": [
+          {"age_range": "25-34", "percentage": 41},
+          {"age_range": "35-44", "percentage": 29}
+        ],
+        "gender_distribution": [
+          {"gender": "female", "percentage": 78},
+          {"gender": "male", "percentage": 22}
+        ]
       }
-    ]
-  }
+    }
+  ],
+  "total": 1
 }

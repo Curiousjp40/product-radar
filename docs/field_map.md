@@ -160,59 +160,57 @@ Confirmed real response shape: `{list: [{creator: {...}, live: {room_id, title, 
 
 Fixture: `tests/fixtures/live_search_womenswear_l1_2.json` (Womenswear & Underwear, L1=2, `sold_range.min=10`, real varied sales data).
 
-## "Lives que venden" paid investigation -- PROVISIONAL, not yet confirmed (2026-10-16)
+## "Lives que venden" paid investigation -- CONFIRMED against the real 15-live pilot (2026-10-16)
 
 The three tools below are wrapped by `engine/live_products.py` for the
-"Lives que venden" card detail feature, but **no real call to any of them
-has been made yet** -- this stage is dry-run/fixture only (per the
-2026-10-16 brief: 0 real FastMoss credits spent). Every field name below
-is a best guess built from each tool's own MCP description text, not from
-an observed response. They are recorded here, flagged PROVISIONAL, so the
-eventual real pilot call has something concrete to confirm or correct
-against -- do not treat any of this as confirmed the way the rest of this
-document is.
+"Lives que venden" card detail feature. The dry-run/fixture build
+(earlier same day) guessed every field name from tool description text
+only; Ryan then approved a real paid pilot (15 hand-picked lives, 60
+credits: 15x3cr lives + 15x1cr new creators, run_id prefix
+`pilot-liveproducts-`) that called all three tools for real and corrected
+several wrong guesses below. `engine.live_products._combine_live_result`
+and the fixtures under `tests/fixtures/fastmoss_live_*`/
+`fastmoss_creator_search_fajalinda_shop.json` were updated to match.
 
-### `live_products_list` (1cr/page, pagesize<=10) -- PROVISIONAL
+### `live_products_list` (1cr/page, pagesize<=10) -- CONFIRMED
 
-Guessed shape, from the tool description's own promise of
-`live_units_sold`, `live_gmv`, `commission_rate_percent`,
-`sales_timeline` (only when pagesize<=10), `shop_cumulative_units_sold`,
-plus a reasonable `products[]` array (a live's products are not named as
-a specific field in the tool description, but "products sold in a live
-session" is the tool's whole purpose):
+Top-level shape: `{"products": [...], "total": N}` (no `sales_timeline`
+at the top level -- it is a PER-PRODUCT field, always empty array in all
+15 pilot lives, so its internal shape is still unconfirmed).
 
-| Concept | Guessed field | Notes |
+| Concept | Confirmed field | Notes |
 |---|---|---|
-| per-live units sold | `live_units_sold` | From the tool's own description text. |
-| per-live GMV | `live_gmv` | Same. |
-| commission rate (per live, or per product?) | `commission_rate_percent` | Ambiguous in the description whether this is live-level or product-level -- `engine.live_products._combine_live_result` currently reads it per-product (`products[].commission_rate`), guessing it varies by SKU. **Needs real-call confirmation.** |
-| minute-by-minute sales | `sales_timeline[]` (`minute`, `units_sold`, `gmv`) | Guessed shape; the description only promises the field exists, not its internal structure. |
-| cumulative shop sales | `shop_cumulative_units_sold` | From the tool description. |
-| products sold | `products[]` (`product_id`, `title`, `image_url`/`photo`, `price`, `units_sold`, `commission_rate`) | Not literally named in the tool description; inferred from "list of products sold in a live session." Fixtures: `tests/fixtures/fastmoss_live_products_list_*.json`. |
+| per-product units sold (in this live) | `products[].live_units_sold` | Was guessed as top-level `live_units_sold` -- wrong, it's per-product. |
+| per-product GMV (in this live) | `products[].live_gmv` | Same correction. |
+| commission rate | `products[].commission_rate_percent` | Confirmed per-product, as guessed. |
+| product image | `products[].cover_url` | Guessed `image_url`/`photo` -- wrong field name. |
+| minute-by-minute sales | `products[].sales_timeline[]` | Field exists per-product; always empty in the pilot, so its populated shape is still unconfirmed. |
+| cumulative shop sales | `products[].shop_cumulative_units_sold` | Confirmed, per-product (shop-level number repeated per product from that shop). |
+| other confirmed per-product fields | `product_id`, `title`, `price` (always `0` in the pilot -- use `live_gmv`/`live_units_sold` for real pricing signal), `category_name_l1`, `shop_id`, `shop_name`, `product_source`, `region`, `is_off_shelf` | |
 
-### `live_detail_analysis` (2cr) -- PROVISIONAL
+### `live_detail_analysis` (2cr) -- CONFIRMED
 
-Description: "one live session info, creator, key performance, and
-category breakdown." Guessed shape:
+Top-level shape: `{"category_breakdown": {...}, "creator": {...}, "live": {...}, "performance": {...}}` -- **not** a single `key_performance` object as guessed.
 
-| Concept | Guessed field | Notes |
+| Concept | Confirmed field | Notes |
 |---|---|---|
-| creator info | `creator.handle`, `.avatar_url`, `.follower_count` | Guessed naming, following `creator_search`'s confirmed `unique_id`/`follower_count` pattern loosely -- **not confirmed for this tool**, may use different field names. |
-| key performance | `key_performance.started_at`, `.duration_minutes`, `.viewer_count`, `.units_sold`, `.gmv` | Guessed grouping under a `key_performance` object, matching the tool description's own phrase. |
-| category breakdown | `category_breakdown[]` (`category`, `units_sold_share_percent`) | Guessed shape; "category breakdown" in the description could equally be GMV-share based -- `engine.live_products` reads whatever is present and passes it through unparsed to the export, so a real-call field-name change here needs no engine fix, just a fixture update. |
+| creator info | `creator.handle`, `.follower_count`, `.nickname`, `.uid`, `.creator_categories`, `.historical_avg_units_sold/viewer_count/live_count` | No `avatar_url` on this tool's `creator` object at all (unlike `creator_search`'s) -- host photo must come from `creator_search`, not here. |
+| live metadata | `live.room_id`, `.start_time` (epoch seconds), `.duration_seconds`, `.top_category_id/_names/_share`, `.title`, `.end_time` | Was guessed as `key_performance.started_at`/`duration_minutes` -- wrong location and wrong unit (seconds, not minutes; `_combine_live_result` now divides by 60 and rounds). |
+| performance numbers | `performance.total_viewer_count` (not `viewer_count`), `.units_sold`, `.gmv`, `.avg_viewer_count`, `.peak_viewer_count`, `.product_count`, `.products_with_sales_count`, `.gmv_per_hour`, `.units_sold_per_viewer_rate` | |
+| category breakdown | `category_breakdown.by_gmv[]` / `.by_product_count[]`, each `{category_id, category_names: [...], share}` | Was guessed as a flat `category_breakdown[]` list with `category`/`units_sold_share_percent` -- wrong, it's GMV-share based (as flagged as a real possibility in the old entry) and nested under `by_gmv`/`by_product_count`. `_combine_live_result` now reads `by_gmv`, mapping `category_names[0]` -> `category` and `share` -> `units_sold_share_percent`. |
 
-### `creator_search` (1cr) -- PROVISIONAL for the live-investigation use
+### `creator_search` (1cr) -- CONFIRMED for the live-investigation use
 
-This tool is already **confirmed** for other uses (section "Creator
-concepts" above: `unique_id`, `follower_count`, `commerce_summary.
-day28_gmv`, `commerce_summary.day28_video_count`, `audience_summary.*`,
-`has_email`). The one addition here, used by the "Lives que venden" card
-per Roxie/Ryan's 2026-10-16 refinement ("what they sell" line), is
-**not** confirmed:
+Top-level shape for this call pattern (`keywords=<handle>, pagesize=1`):
+`{"list": [...], "total": N}` -- the old fixture used `"creators"`, which
+`_combine_live_result` still checks as a fallback but every real pilot
+response used `"list"`.
 
-| Concept | Guessed field | Notes |
+| Concept | Confirmed field | Notes |
 |---|---|---|
-| host's dominant category ("what they sell") | `commerce_summary.top_category` | **Not in the original confirmed field list above** -- invented for this feature since no real call has tested whether `creator_search` exposes a single "top category" at all. If it doesn't exist on the real response, `engine.live_products._combine_live_result` already degrades gracefully (`.get("top_category") or ""`, empty string renders no "what they sell" line) -- confirm or drop on the first real pilot call. |
+| creator identity | `creator.unique_id` (not `.handle`), `.avatar` (not `.avatar_url`), `.follower_count`, `.nickname`, `.uid`, `.category.name` | |
+| host's 28-day GMV | `commerce_summary.day28_gmv` | Confirmed as guessed. |
+| host's dominant category ("what they sell") | `commerce_summary.trend_categories[]` (`{id, name}`, up to 3, ranked) | **There is no bare `top_category` field** -- the guessed field doesn't exist. `_combine_live_result` now uses `trend_categories[0].name` as the closest confirmed equivalent (empty string if the list is empty). |
 
 **Chicken-and-egg limitation, documented explicitly per Roxie/Ryan's
 2026-10-16 note:** `select_candidate_lives`'s category filter is
