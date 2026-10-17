@@ -2,11 +2,13 @@ import json
 
 import pytest
 
+import engine.images as images_module
 import engine.ingest as ingest_module
 from engine.budget import BudgetTracker
 from engine.client import FixtureReplayClient
 from engine.db import connect
 from engine.live_products import (
+    _combine_live_result,
     estimate_credits,
     investigate_live,
     run_live_products_investigation,
@@ -65,6 +67,11 @@ def _isolate_snapshots_dir(tmp_path, monkeypatch):
     into the repo's real data/snapshots/ directory, so this redirects
     SNAPSHOTS_DIR to a per-test tmp_path automatically."""
     monkeypatch.setattr(ingest_module, "SNAPSHOTS_DIR", tmp_path / "snapshots")
+    # cache_image (bug-3 fix: host/product images routed through the
+    # existing image-cache helper) does real file I/O into
+    # web/public/img/ by default -- redirect it to a per-test tmp dir so
+    # no test ever writes into the repo's real image folder.
+    monkeypatch.setattr(images_module, "IMG_DIR", tmp_path / "img")
 
 
 TRACKED_CATEGORIES = {
@@ -167,6 +174,101 @@ async def test_investigate_live_parses_expected_shape(tmp_path):
     assert result["conversion_rate"] == round(142 / 9100, 4)
     assert len(result["products"]) == 3
     assert result["products"][0]["title"] == "Faja Colombiana Shapewear Short BBL"
+
+
+def test_combine_live_result_derives_price_when_raw_price_is_zero(tmp_path, monkeypatch):
+    """Bug 1 (Ryan's 2026-10-16 report): `price` is confirmed always 0 in
+    every real `live_products_list` response, so a real per-unit price
+    must be derived from `live_gmv / live_units_sold` instead of trusting
+    the raw (always-0) `price` field."""
+    monkeypatch.setattr(images_module, "IMG_DIR", tmp_path / "img")
+    products_raw = {
+        "products": [
+            {
+                "product_id": "p1",
+                "title": "Faja",
+                "cover_url": "https://s.500fd.com/tt_product/example.jpg",
+                "price": 0,
+                "live_gmv": 1829.45,
+                "live_units_sold": 61,
+                "commission_rate_percent": 18,
+                "sales_timeline": [],
+            }
+        ],
+        "total": 1,
+    }
+    detail_raw = {"performance": {}, "live": {}, "category_breakdown": {}}
+    creator_raw = {"list": [{"creator": {}, "commerce_summary": {}}]}
+    result = _combine_live_result("room_1", products_raw, detail_raw, creator_raw)
+    assert result["products"][0]["price"] == round(1829.45 / 61, 2)
+    assert result["products"][0]["price"] != 0
+
+
+def test_combine_live_result_keeps_real_nonzero_price_if_ever_present(tmp_path, monkeypatch):
+    """If a future response ever returns a genuine nonzero `price`, that
+    value must win over the derived one -- the derivation is only a
+    fallback for the confirmed always-0 case."""
+    monkeypatch.setattr(images_module, "IMG_DIR", tmp_path / "img")
+    products_raw = {
+        "products": [
+            {
+                "product_id": "p1",
+                "title": "Faja",
+                "cover_url": "",
+                "price": 19.99,
+                "live_gmv": 1829.45,
+                "live_units_sold": 61,
+                "commission_rate_percent": 18,
+                "sales_timeline": [],
+            }
+        ],
+        "total": 1,
+    }
+    detail_raw = {"performance": {}, "live": {}, "category_breakdown": {}}
+    creator_raw = {"list": [{"creator": {}, "commerce_summary": {}}]}
+    result = _combine_live_result("room_1", products_raw, detail_raw, creator_raw)
+    assert result["products"][0]["price"] == 19.99
+
+
+def test_combine_live_result_proxies_host_and_product_images(tmp_path, monkeypatch):
+    """Bug 3 (Ryan's 2026-10-16 report): host photo_url and product
+    image_url must be routed through engine.images.cache_image (the same
+    helper engine/run.py already uses for product/video thumbnails), not
+    left pointing straight at FastMoss's own CDN."""
+    img_dir = tmp_path / "img"
+    monkeypatch.setattr(images_module, "IMG_DIR", img_dir)
+    products_raw = {
+        "products": [
+            {
+                "product_id": "p1",
+                "title": "Faja",
+                "cover_url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'/>",
+                "price": 0,
+                "live_gmv": 100.0,
+                "live_units_sold": 10,
+                "commission_rate_percent": 18,
+                "sales_timeline": [],
+            }
+        ],
+        "total": 1,
+    }
+    detail_raw = {"performance": {}, "live": {}, "category_breakdown": {}}
+    creator_raw = {
+        "list": [
+            {
+                "creator": {
+                    "unique_id": "fajalinda_shop",
+                    "avatar": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'/>",
+                },
+                "commerce_summary": {},
+            }
+        ]
+    }
+    result = _combine_live_result("room_1", products_raw, detail_raw, creator_raw)
+    assert result["host"]["photo_url"].startswith("/img/")
+    assert "s.500fd.com" not in result["host"]["photo_url"]
+    assert result["products"][0]["image_url"].startswith("/img/")
+    assert "s.500fd.com" not in result["products"][0]["image_url"]
 
 
 def _non_balance_tool_names(calls: list[tuple[str, dict]]) -> list[str]:

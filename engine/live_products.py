@@ -48,6 +48,7 @@ from dotenv import load_dotenv
 
 from engine.budget import BudgetExceeded, BudgetTracker, check_balance
 from engine.client import FastMossConnection
+from engine.images import cache_image
 from engine.ingest import save_raw_snapshot
 from engine.run import iso_week_label
 
@@ -163,17 +164,36 @@ def _combine_live_result(room_id: str, products_raw: dict, detail_raw: dict, cre
     creator_search's creator object uses "unique_id"/"avatar", not
     "handle"/"avatar_url"; live_products_list's per-product fields are
     "cover_url"/"live_units_sold"/"commission_rate_percent", and
-    sales_timeline (always empty in the pilot) lives per-product, not
-    top-level. Kept separate from investigate_live so it stays a pure
-    function, easy to unit test without a client."""
+    sales_timeline lives per-product, not top-level.
+
+    Three bug fixes from Ryan's report against the real 15-live pilot
+    (2026-10-16, see docs/field_map.md's "Lives que venden" section):
+    (1) `products[].price` is confirmed ALWAYS 0 in every real response --
+    the real per-unit price signal is the derived `live_gmv /
+    live_units_sold`, used below whenever the raw `price` field is falsy.
+    (2) `sales_timeline` was being hardcoded to `[]` at the live level
+    without ever reading the real per-product field -- it is now read per
+    product and concatenated into one live-level list (still empty today,
+    since every real product's `sales_timeline` was an empty list in all
+    15 pilot lives -- confirmed via the raw `liveproducts_<room>_products`
+    snapshots, not fabricated). (3) host `photo_url` and product
+    `image_url` now go through `engine.images.cache_image`, the same
+    existing helper `engine/run.py` already uses for product/video
+    thumbnails, instead of the bare FastMoss CDN (`s.500fd.com`) url.
+
+    Kept separate from investigate_live so it stays a pure function, easy
+    to unit test without a client."""
     creator_entries = creator_raw.get("list") or creator_raw.get("creators") or []
     creator = creator_entries[0] if creator_entries else {}
     creator_info = creator.get("creator", creator)
     commerce = creator.get("commerce_summary", {})
     trend_categories = commerce.get("trend_categories") or []
+    host_handle = creator_info.get("unique_id") or creator_info.get("handle") or ""
+    raw_avatar_url = creator_info.get("avatar") or creator_info.get("avatar_url") or ""
+    host_photo_url = cache_image(raw_avatar_url, f"live_host_{host_handle or room_id}") or raw_avatar_url
     host = {
-        "handle": creator_info.get("unique_id") or creator_info.get("handle") or "",
-        "photo_url": creator_info.get("avatar") or creator_info.get("avatar_url") or "",
+        "handle": host_handle,
+        "photo_url": host_photo_url,
         "follower_count": creator_info.get("follower_count") or 0,
         # Roxie/Ryan refinement (2026-10-16): the card must also show the
         # host's own 28-day GMV and a 1-line "what they sell" -- both come
@@ -204,15 +224,31 @@ def _combine_live_result(room_id: str, products_raw: dict, detail_raw: dict, cre
         )
 
     products = []
+    live_sales_timeline: list = []
     for p in products_raw.get("products", []):
+        product_id = p.get("product_id")
+        product_units_sold = p.get("live_units_sold", p.get("units_sold", 0)) or 0
+        product_gmv = p.get("live_gmv", p.get("gmv", 0.0)) or 0.0
+        raw_price = p.get("price", 0.0) or 0.0
+        # Bug 1: `price` is confirmed always 0 in real FastMoss responses
+        # for this tool (docs/field_map.md) -- fall back to the per-unit
+        # price actually implied by this live's own sales.
+        price = raw_price or (round(product_gmv / product_units_sold, 2) if product_units_sold else 0.0)
+        raw_image_url = p.get("cover_url") or p.get("image_url") or ""
+        image_url = cache_image(raw_image_url, f"product_{product_id}") or raw_image_url
+        # Bug 2: sales_timeline is a real per-product field, not a
+        # top-level one -- read it instead of discarding it.
+        product_timeline = p.get("sales_timeline") or []
+        if product_timeline:
+            live_sales_timeline.extend(product_timeline)
         products.append(
             {
-                "product_id": p.get("product_id"),
+                "product_id": product_id,
                 "title": p.get("title", ""),
-                "image_url": p.get("cover_url") or p.get("image_url") or "",
-                "price": p.get("price", 0.0) or 0.0,
+                "image_url": image_url,
+                "price": price,
                 "commission_rate": p.get("commission_rate_percent", p.get("commission_rate", 0.0)) or 0.0,
-                "units_sold": p.get("live_units_sold", p.get("units_sold", 0)) or 0,
+                "units_sold": product_units_sold,
             }
         )
 
@@ -226,7 +262,7 @@ def _combine_live_result(room_id: str, products_raw: dict, detail_raw: dict, cre
         "gmv": performance.get("gmv", 0.0) or 0.0,
         "conversion_rate": conversion_rate,
         "category_breakdown": category_breakdown,
-        "sales_timeline": [],
+        "sales_timeline": live_sales_timeline,
         "products": products,
     }
 

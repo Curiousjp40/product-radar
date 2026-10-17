@@ -188,6 +188,48 @@ at the top level -- it is a PER-PRODUCT field, always empty array in all
 | cumulative shop sales | `products[].shop_cumulative_units_sold` | Confirmed, per-product (shop-level number repeated per product from that shop). |
 | other confirmed per-product fields | `product_id`, `title`, `price` (always `0` in the pilot -- use `live_gmv`/`live_units_sold` for real pricing signal), `category_name_l1`, `shop_id`, `shop_name`, `product_source`, `region`, `is_off_shelf` | |
 
+**Bug-fix follow-up (2026-10-16, Ryan's 3-bug report against the real
+15-live pilot -- fixed using ONLY the already-paid-for raw responses
+saved in-session, zero new FastMoss calls):**
+- Bug 1 (every product's `price` showing `0.0` in `live_products.json`):
+  confirmed by re-inspecting the raw per-live `live_products_list`
+  responses for all 15 pilot lives -- `price` is genuinely `0` for every
+  single product across all 15 lives, not a mapping bug. `_combine_live_
+  result` now derives a real per-unit price as `live_gmv /
+  live_units_sold` whenever the raw `price` is falsy (and keeps the raw
+  value if a future response ever returns a real nonzero one). Example
+  (room `7693735638964767502`, "Waffle Texture ... Shower Curtain"):
+  raw `price=0`, `live_gmv=1344`, `live_units_sold=112` -> derived
+  `price=12.0`; "Automatic Folding Umbrella" in the same live: raw
+  `price=0`, `live_gmv=760.72`, `live_units_sold=74` -> derived
+  `price=10.28`.
+- Bug 2 (`sales_timeline` is `[]` for all 15 lives): confirmed case (b),
+  genuinely absent -- re-checked every product's raw `sales_timeline`
+  field across all 15 pilot lives' raw `live_products_list` responses
+  (pagesize was already <=10, i.e. 10, satisfying the tool's own
+  documented condition for the field to be populated) and every single
+  product's `sales_timeline` array is empty. There was also a real,
+  separate mapping bug alongside the genuinely-empty data: the live-level
+  `sales_timeline` in `_combine_live_result`'s output was hardcoded to
+  `[]` and never actually read the raw per-product field at all --
+  fixed so it now reads and concatenates each product's real
+  `sales_timeline`, even though the result is still `[]` today because
+  the real data is empty. Re-fetching at pagesize=1 instead of 10 would
+  not change this since 10 already satisfies "pagesize<=10" -- a
+  non-empty `sales_timeline` for these specific lives/products looks like
+  it genuinely doesn't exist at this account/tier, not a pagesize
+  artifact; this would need a different live (or a different
+  account/tier) to test further, not a retry of the same 15.
+- Bug 3 (host `photo_url`/product `image_url` not proxied): both now go
+  through `engine.images.cache_image(url, stem)` -- the same helper
+  `engine/run.py` already uses for product/video thumbnails
+  (`cache_image(p.get("image_url"), f"product_{p['product_id']}")` etc.)
+  -- which downloads the FastMoss/TikTok CDN image into
+  `web/public/img/<stem><ext>` and returns the local `/img/...` path for
+  `asset.ts` to resolve, falling back to the original remote URL only if
+  the download fails (e.g. an expired CDN link), never a broken local
+  path. No new proxy scheme was invented.
+
 ### `live_detail_analysis` (2cr) -- CONFIRMED
 
 Top-level shape: `{"category_breakdown": {...}, "creator": {...}, "live": {...}, "performance": {...}}` -- **not** a single `key_performance` object as guessed.
