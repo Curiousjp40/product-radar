@@ -1,9 +1,16 @@
 import { loadCandidates, loadMeta } from "../api";
 import { categoryLabel as resolveCategoryLabel } from "../categoryLabels";
+import { fetchCreditsSummary } from "../credits";
 import { getFavorites, saveFavorites } from "../favorites";
 import { hasAnyFavorites, type Favorites } from "../favoritesLogic";
 import { locale, t, type Lang } from "../i18n";
 import { applyLayoutClass, currentLayout, getLayoutOverride, setLayoutOverride, type LayoutOverride } from "../layoutDetect";
+
+function formatCreditsResetDate(isoLike: string, lang: Lang): string {
+  const date = new Date(isoLike.replace(" ", "T"));
+  if (Number.isNaN(date.getTime())) return isoLike;
+  return date.toLocaleDateString(lang === "es" ? "es-MX" : "en-US", { month: "short", day: "numeric" });
+}
 
 // Design review section 1b: manual "Vista" override (Automatica/Celular/
 // Computadora), applied immediately (not just on next load) so switching
@@ -85,22 +92,29 @@ export async function renderSettings(container: HTMLElement, lang: Lang): Promis
   container.innerHTML = `
     ${banner}
     <h2 class="view-title">${t("settings_title", lang)}</h2>
-    <div class="insight-card">
-      <h3>${t("credits_title", lang)}</h3>
-      <div class="stat-row">
-        <div class="stat"><b>${data.credits_balance}</b><span>${t("credits_remaining", lang)}</span></div>
-        <div class="stat"><b>${data.credits_used_month}</b><span>${t("credits_used_month", lang)}</span></div>
-        <div class="stat"><b>${data.credits_used_this_week}</b><span>${t("credits_used_week", lang)}</span></div>
-      </div>
-      <div style="font-size:0.75rem;color:var(--text-dim);margin-top:6px">
-        ${t("weights_version", lang)}: ${data.weights_version} &middot; ${t("last_run", lang)}: ${new Date(data.run_at).toLocaleString(locale(lang))}
-      </div>
-    </div>
     ${vistaSectionHtml(lang)}
     ${favoritesSectionHtml(fav, categories, brands, lang)}
     <div class="insight-card">
       <p style="font-size:0.85rem;color:var(--text-dim)">${t("settings_coming_soon", lang)}</p>
     </div>
+    <details class="settings-admin-details">
+      <summary>${t("settings_admin_title", lang)}</summary>
+      <div class="insight-card">
+        <h3>${t("credits_title", lang)}</h3>
+        <div class="stat-row">
+          <div class="stat"><b>${data.credits_balance}</b><span>${t("credits_remaining", lang)}</span></div>
+          <div class="stat"><b>${data.credits_used_month}</b><span>${t("credits_used_month", lang)}</span></div>
+          <div class="stat"><b>${data.credits_used_this_week}</b><span>${t("credits_used_week", lang)}</span></div>
+        </div>
+        <div style="font-size:0.75rem;color:var(--text-dim);margin-top:6px">
+          ${t("weights_version", lang)}: ${data.weights_version} &middot; ${t("last_run", lang)}: ${new Date(data.run_at).toLocaleString(locale(lang))}
+        </div>
+      </div>
+      <div class="insight-card credits-widget">
+        <h3>${t("credits_widget_title", lang)}</h3>
+        <p class="empty-state" style="padding:4px 0">...</p>
+      </div>
+    </details>
   `;
 
   container.querySelectorAll<HTMLButtonElement>("[data-vista]").forEach((btn) => {
@@ -141,5 +155,30 @@ export async function renderSettings(container: HTMLElement, lang: Lang): Promis
     };
     saveFavorites(next);
     void renderSettings(container, lang);
+  });
+
+  void fetchCreditsSummary().then((summary) => {
+    const widget = container.querySelector(".credits-widget");
+    if (!widget) return;
+    if (!summary) {
+      widget.innerHTML = `<h3>${t("credits_widget_title", lang)}</h3><p class="empty-state" style="padding:4px 0">${t("credits_widget_unavailable", lang)}</p>`;
+      return;
+    }
+    const total = summary.plan_credits_remaining + summary.topup_credits_remaining;
+    const avgPerRun = data.avg_credits_per_run ?? null;
+    const avgLine =
+      avgPerRun !== null
+        ? t("credits_widget_avg_per_run", lang, { n: Math.round(avgPerRun) })
+        : t("credits_widget_avg_per_run_unknown", lang);
+    widget.innerHTML = `
+      <h3>${t("credits_widget_title", lang)}</h3>
+      <p class="goal-progress-text">${t("credits_widget_remaining", lang, { n: total })}</p>
+      <p class="goal-progress-text" style="color:var(--text-dim)">
+        ${t("credits_widget_plan", lang, { n: summary.plan_credits_remaining })} &middot;
+        ${t("credits_widget_topup", lang, { n: summary.topup_credits_remaining })}
+      </p>
+      <p class="goal-progress-text" style="color:var(--text-dim)">${t("credits_widget_reset", lang, { date: formatCreditsResetDate(summary.plan_expire_at, lang) })}</p>
+      <p class="goal-progress-text" style="color:var(--text-dim)">${avgLine}</p>
+    `;
   });
 }

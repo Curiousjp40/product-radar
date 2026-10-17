@@ -155,6 +155,24 @@ green, tsc clean. Verified end to end in the browser at 390px and
 1440px: hero, product strip + modal tap, timeline + jump, event cards,
 TikTok Deals for You Days correctly showing "Fechas por confirmar".
 
+### Item 3.10: Mas page grid redesign -- done
+Flat list of 5 bare links -> a grid of cards (icon, name, one-line
+description, live preview value), matching the review's spec. Buscar
+cuenta/Comparar cuentas and Temporadas already moved to their own main
+tab/page in earlier commits, so this covers the 5 that remain: Mi
+lista (saved count), Tiendas para contactar (shop count via
+outreachShops), Ocultos (hidden categories + products count), Mi
+Dinero ("$X este mes" or "$X de $Y" once a goal is set), Ajustes.
+
+Moved the credits widget (previously sitting prominently at the top of
+Mas, before anything else) into Ajustes -> a collapsed "Admin" <details>
+-- matches "Credits only inside Ajustes -> Admin (collapsed), for
+Ryan." Used a native <details>/<summary> (same safe pattern as the
+season calendar's "Pasadas" section and the existing shot-list
+details) rather than a custom hidden-toggle component, so there's no
+risk of the [hidden]-vs-display bug class that's bitten this session
+three times already.
+
 ## Decisions log
 
 ### Item 3: Lives que venden card restructure -- done

@@ -165,7 +165,7 @@ async function renderApp(): Promise<void> {
       await renderSettings(view, lang);
       break;
     case "more":
-      renderMore(view, lang);
+      await renderMore(view, lang);
       break;
     default:
       await renderHoy(view, lang);
